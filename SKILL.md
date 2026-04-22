@@ -94,11 +94,3 @@ is required by XSOAR, the content pack format, or a private team overlay.
   modes.
 - `references/local/`: optional private overlay location. These files are
   intentionally ignored by Git.
-
-## Safety Gate
-
-Before publishing or sharing the skill, run:
-
-```powershell
-python .\scripts\audit_public_safety.py --root . --fail-on-high
-```

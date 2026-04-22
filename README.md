@@ -13,7 +13,6 @@ prevent generic Python cleanup from breaking XSOAR content.
 - Public command and script references derived from `xsoar.pan.dev`.
 - Synthetic structure references that describe common artifact shapes without
   exposing any team-specific repository or playbook names.
-- A safety audit script that blocks known private markers before publication.
 
 ## Optional Private Overlay
 
@@ -27,19 +26,8 @@ Suggested local-only overlay files:
 - `references/local/private-command-overrides.json`
 - `references/local/private-structure-examples/`
 
-## Validation
+## Publication Hygiene
 
-Run the public safety gate before publishing or sharing:
-
-```powershell
-python .\scripts\audit_public_safety.py --root . --fail-on-high
-```
-
-For full review output:
-
-```powershell
-python .\scripts\audit_public_safety.py --root . --json
-```
-
-High-confidence findings must be fixed before sharing. Weak-signal findings
-may be public documentation examples, but should still be reviewed.
+Before sharing changes, review the repository for private team overlays, local
+paths, credentials, generated exports, and organization-specific examples. Keep
+private rules under `references/local/`, which is ignored by Git.

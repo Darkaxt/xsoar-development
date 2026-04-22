@@ -4631,13 +4631,6 @@
       "aliases": [],
       "kind": "integration-command",
       "name": "#",
-      "path": "integration-command/record-10f6c459.json",
-      "source_url": "https://xsoar.pan.dev/docs/reference/integrations/qualys-v2"
-    },
-    {
-      "aliases": [],
-      "kind": "integration-command",
-      "name": "#",
       "path": "integration-command/record-11763f9a.json",
       "source_url": "https://xsoar.pan.dev/docs/reference/integrations/velo-cloud-event-collector"
     },
