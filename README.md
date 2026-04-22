@@ -15,14 +15,6 @@ prevent generic Python cleanup from breaking XSOAR content.
   exposing any team-specific repository or playbook names.
 - A safety audit script that blocks known private markers before publication.
 
-## What Is Not Included
-
-- Team-specific playbook names, repository paths, mirror/sync procedures, or
-  local command usage scans.
-- Credentials, tenant data, exports, generated staging folders, or private
-  overlays.
-- Local native command records derived from a private repository.
-
 ## Optional Private Overlay
 
 If your team has private rules, keep them outside Git under `references/local/`.
