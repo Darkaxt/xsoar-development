@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!jarm-fingerprint host=\"google.com\" port=443\nContext Example\n#\n{\n\"DBotScore\"\n:",
+    "!jarm-fingerprint host=\"google.com\" port=443\nContext Example\n#\n{\n\"DBotScore\"\n:\n[\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "FQDN of the host. JARM.IP IP Address of the host.",
+      "name": "JARM.FQDN",
+      "required": ""
+    },
+    {
+      "description": "TCP port JARM.Target The host in the format [IP or FQDN]:Port",
+      "name": "JARM.Port",
+      "required": ""
+    },
+    {
+      "description": "JARM fingerprint of the host. DBotScore.Indicator The indicator that was tested.",
+      "name": "JARM.Fingerprint",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "JARM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jarm"
+}

@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!vigilante-query-ecrime-db query=\"netflix\" q_start_date=\"2018-05-20\" limit=\"5\"\nContext Example\n{\n\"VigilanteATI\": {\n\"ECrimePosts\": [\n{\n\"author\": \"fb_official2\",",
+    "!vigilante-query-ecrime-db query=\"netflix\" q_start_date=\"2018-05-20\" limit=\"5\"\nContext Example\n{\n\"VigilanteATI\": {\n\"ECrimePosts\": [\n{\n\"author\": \"fb_official2\",\n\"date\": \"2018-12-10\","
+  ],
+  "kind": "integration-command",
+  "name": "vigilante-query-ecrime-db",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The re_token parameter value required to retrieve the next page of results. The token is valid for 5 minutes. The value is null if count is equal to either 0 or total. VigilanteATI.ECrimePosts.title base64 encoded, matching search terms highlighted via tags",
+      "name": "VigilanteATI.ECrimeQueryToken",
+      "required": ""
+    },
+    {
+      "description": "date Post date (format YYYY-MM-DD) VigilanteATI.ECrimePosts.forum",
+      "name": "VigilanteATI.ECrimePosts.date",
+      "required": ""
+    },
+    {
+      "description": "Forum (e.g rstforums.com) VigilanteATI.ECrimePosts.author Author",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "base64 encoded, matching search terms highlighted via tags",
+      "name": "VigilanteATI.ECrimePosts.post",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "InfoArmor VigilanteATI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/info-armor-vigilante-ati"
+}

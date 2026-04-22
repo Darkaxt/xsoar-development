@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "panw-iot-3rd-party-convert-assets-to-external-format",
+  "examples": [
+    "Command Example\n#\n!panw-iot-3rd-party-convert-assets-to-external-format asset_type=device output_format=siem asset_list=[a list of 221 device maps]\nHuman Readable Output\n#\nConverted 221 Device to SIEM\n#\nEdit this page",
+    "!panw-iot-3rd-party-convert-assets-to-external-format asset_type=device output_format=siem asset_list=[a list of 221 device maps]\nHuman Readable Output\n#\nConverted 221 Device to SIEM\n#\nEdit this page\nReport an Issue\nPrevious"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of CEF formatted vulnerability syslogs for SIEM PanwIot3rdParty.AlertCEFSyslogs List of CEF formatted alert syslogs for SIEM",
+      "name": "PanwIot3rdParty.VulnerabilityCEFSyslogs",
+      "required": ""
+    },
+    {
+      "description": "List of CEF formatted device syslogs for SIEM PanwIot3rdParty.CiscoISEAttributes List of Cisco ISE attribute dicts/maps",
+      "name": "PanwIot3rdParty.DeviceCEFSyslogs",
+      "required": ""
+    },
+    {
+      "description": "Single SN formatted alert string PanwIot3rdParty.VulnerabilityServiceNow Single SN formatted vulnerability string",
+      "name": "PanwIot3rdParty.AlertServiceNow",
+      "required": ""
+    },
+    {
+      "description": "List of upsert ready formatted device for SN",
+      "name": "PanwIot3rdParty.DeviceServiceNow",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks IoT 3rd Party (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-io-t-3rd-party"
+}

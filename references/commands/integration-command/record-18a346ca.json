@@ -1,0 +1,30 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "!fireeye-get-indicators limit=10",
+  "examples": [
+    "Command Example\n#\n!fireeye-get-indicators limit=10\nfireeye-reset-fetch-indicators\n#\nWARNING: This command will reset your fetch history.\nBase Command\n#",
+    "!fireeye-get-indicators limit=10\nfireeye-reset-fetch-indicators\n#\nWARNING: This command will reset your fetch history.\nBase Command\n#\nfireeye-reset-fetch-indicators\nInput",
+    "Command Example\n#\n!fireeye-reset-fetch-indicators\nHuman Readable Output\n#\nFetch was reset successfully. Your next indicator fetch will collect indicators from the configured \"First Fetch Time\"\nEdit this page\nReport an Issue",
+    "!fireeye-reset-fetch-indicators\nHuman Readable Output\n#\nFetch was reset successfully. Your next indicator fetch will collect indicators from the configured \"First Fetch Time\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab FireEye Endpoint Security (HX) v2"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FireEye Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fire-eye-feed"
+}

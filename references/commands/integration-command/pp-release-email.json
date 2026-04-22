@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\npp-release-email scan_id=\"80052041\"\nContext Example\n{\n\"PP.Released\": \"80052041\"\n}\nHuman Readable Output\nEmail with id 80052041 was released Successfully!"
+  ],
+  "kind": "integration-command",
+  "name": "pp-release-email",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The scan ID of the released email.",
+      "name": "PP.Released",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PerceptionPoint",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/perception-point"
+}

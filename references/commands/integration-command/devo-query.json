@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.\u00a0After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [
+    "Command Example\n!devo-query from=2018-10-07T08:00:00Z to=2018-10-07T08:30:00Z limit=5 query=\"from demo.ecommerce.data select eventdate, referralUri, userAgent where method=\\\"GET\\\"\"\nContext Example\n{\n\"Devo\": {\n\"Results\": [\n{\n\"eventcount\": 1,",
+    "!devo-query from=2018-10-07T08:00:00Z to=2018-10-07T08:30:00Z limit=5 query=\"from demo.ecommerce.data select eventdate, referralUri, userAgent where method=\\\"GET\\\"\"\nContext Example\n{\n\"Devo\": {\n\"Results\": [\n{\n\"eventcount\": 1,\n\"eventdate\": \"2018-10-07T08:00:00Z\","
+  ],
+  "kind": "integration-command",
+  "name": "devo-query",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The query results",
+      "name": "Devo.Results",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Devo (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/devo"
+}

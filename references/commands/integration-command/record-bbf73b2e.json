@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "afe6b95ad95bc689c356f34ec8d9094c495e4af57c932ac413b65ef132063acc",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### wildfire-upload-url\n***\nUploads a URL of a webpage to WildFire for analysis.\nNotice: Submitting indicators using this command might make the indicator data publicly available. See the vendor\u2019s documentation for more details.\n#### Base Command",
+    "#### Command Example\n```!wildfire-upload-url upload=https://www.XSOAR.com```\n#### Human Readable Output\n>### WildFire Upload URL\n>\n>|MD5|SHA256|Status|URL|\n>|---|---|---|---|\n>| 67632f32e6af123aa8ffd1fe8765a783 | c51a8231d1be07a2545ac99e86a25c5d68f88380b7ebf7ac91501661e6d678bb | Pending | https://www.XSOAR.com |",
+    "#### Command Example\n```!wildfire-get-sample sha256=afe6b95ad95bc689c356f34ec8d9094c495e4af57c932ac413b65ef132063acc```\n#### Human Readable Output\nThere is no human-readable output for this command.\n### wildfire-get-url-webartifacts\n***\nGet web artifacts for a URL webpage. An empty tgz will be returned, no matter what the verdict, or even if the URL is malformed.\nNotice: Submitting indicators using this command might make the indicator data publicly available. See the vendor\u2019s documentation for more details.",
+    "#### Command Example\n```!wildfire-get-url-webartifacts url=http://royalmail-login.com```\n#### Human Readable Output\nThere is no human-readable output for this command.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Palo Alto Networks WildFire Reports"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "MD5 hash of the file. WildFire.Verdicts.SHA256 SHA256 hash of the file.",
+      "name": "WildFire.Verdicts.MD5",
+      "required": ""
+    },
+    {
+      "description": "Verdict of the file. WildFire.Verdicts.VerdictDescription Description of the file verdict.",
+      "name": "WildFire.Verdicts.Verdict",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score. DBotScore.Score The actual score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks WildFire v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/wild-fire-v2"
+}

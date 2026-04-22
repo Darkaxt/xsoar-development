@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next ANY.RUN TI Lookup \u00bb Generate your API key",
+      "name": "\u00ab ANY.RUN Cloud Sandbox",
+      "required": ""
+    },
+    {
+      "description": "Commands anyrun-get-indicators Docs",
+      "name": "Configure ANY.RUN Feed in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ANY.RUN TI Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/anyrun-ti-feed"
+}

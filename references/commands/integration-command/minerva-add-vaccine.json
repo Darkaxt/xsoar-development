@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "d0ceb18272966ab62b8edff100e9b4a6a3cb5dc0f2a32b2b18721fea2d9c09a5",
+  "examples": [
+    "Command Example\n!minerva-add-vaccine name=\"Local\\SomeMaliciousMutex\" description=\"Made up mutex name\" isMonitorOnly=True\nHuman Readable Output\nLast Modified On\nIs Monitor Only\nName\nLast Modified By\nType",
+    "!minerva-add-vaccine name=\"Local\\SomeMaliciousMutex\" description=\"Made up mutex name\" isMonitorOnly=True\nHuman Readable Output\nLast Modified On\nIs Monitor Only\nName\nLast Modified By\nType\nId"
+  ],
+  "kind": "integration-command",
+  "name": "minerva-add-vaccine",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name of the mutex vaccination. Minerva.Vaccine.Description A description of the mutex vaccination.",
+      "name": "Minerva.Vaccine.Name",
+      "required": ""
+    },
+    {
+      "description": "Whether this mutex vaccination is only monitored. Minerva.Vaccine.lastModifiedBy The user that last modified this mutex vaccination.",
+      "name": "Minerva.Vaccine.isMonitorOnly",
+      "required": ""
+    },
+    {
+      "description": "date The date this mutex vaccination was last modified. Minerva.Vaccine.Id",
+      "name": "Minerva.Vaccine.lastModifiedOn",
+      "required": ""
+    },
+    {
+      "description": "Mutex vaccination ID. Minerva.Vaccine.Type Vaccine type, for example: Mutex.",
+      "name": "string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Minerva Labs Anti-Evasion Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/minerva-labs-anti-evasion-platform"
+}

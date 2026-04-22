@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!kafka-consume-msg topic=test offset=latest",
+  "examples": [
+    "Command Example\n!kafka-consume-msg topic=test offset=latest\nContext Example\nHuman Readable Output\n4. Print all partitions for a topic\nPrints all partitions for a topic.\nBase Command\nkafka-fetch-partitions",
+    "!kafka-consume-msg topic=test offset=latest\nContext Example\nHuman Readable Output\n4. Print all partitions for a topic\nPrints all partitions for a topic.\nBase Command\nkafka-fetch-partitions\nInput",
+    "Command Example\n!kafka-fetch-partitions topic=test\nContext Example\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab JWT",
+    "!kafka-fetch-partitions topic=test\nContext Example\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab JWT\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "kafka-fetch-partitions",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Topic name Kafka.Topic.Partition Number of partitions for the topic",
+      "name": "Kafka.Topic.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Kafka v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/kafka-v2"
+}

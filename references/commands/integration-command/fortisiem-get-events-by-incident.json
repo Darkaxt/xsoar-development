@@ -1,0 +1,107 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get all resource lists: fortisiem-get-lists",
+  "examples": [
+    "Command Example\n!fortisiem-get-events-by-incident incID=1919 maxResults=3\nContext Example\n{\n\"FortiSIEM.Events\": [\n{\n\"Destination Host Name\": \"google-public-dns-a.google.com\",\n\"Event Name\": \"Permitted traffic flow started\",",
+    "!fortisiem-get-events-by-incident incID=1919 maxResults=3\nContext Example\n{\n\"FortiSIEM.Events\": [\n{\n\"Destination Host Name\": \"google-public-dns-a.google.com\",\n\"Event Name\": \"Permitted traffic flow started\",\n\"Destination IP\": \"8.8.8.8\","
+  ],
+  "kind": "integration-command",
+  "name": "fortisiem-get-events-by-incident",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Event type. FortiSIEM.Events.EventID FortiSIEM Event ID.",
+      "name": "FortiSIEM.Events.EventType",
+      "required": ""
+    },
+    {
+      "description": "Raw Event Log. FortiSIEM.Events.ReportingDevice Reporting Device.",
+      "name": "FortiSIEM.Events.RawEventLog",
+      "required": ""
+    },
+    {
+      "description": "Incident ID. FortiSIEM.Events.User Event User.",
+      "name": "FortiSIEM.Events.IncidentID",
+      "required": ""
+    },
+    {
+      "description": "Event received timestamp. FortiSIEM.Events.EventName Event Name.",
+      "name": "FortiSIEM.Events.EventReceiveTime",
+      "required": ""
+    },
+    {
+      "description": "Reporting IP address. FortiSIEM.Events.SystemEventCategory System Event Category.",
+      "name": "FortiSIEM.Events.ReportingIP",
+      "required": ""
+    },
+    {
+      "description": "EventAction. FortiSIEM.Events.RelayingIP Relaying IP address.",
+      "name": "FortiSIEM.Events.EventAction",
+      "required": ""
+    },
+    {
+      "description": "Severity Category. FortiSIEM.Events.OrganizationName Organization Name.",
+      "name": "FortiSIEM.Events.EventSeverityCategory",
+      "required": ""
+    },
+    {
+      "description": "Reporting Vendor. FortiSIEM.Events.ReportingModel Reporting Model.",
+      "name": "FortiSIEM.Events.ReportingVendor",
+      "required": ""
+    },
+    {
+      "description": "Organization name. FortiSIEM.Events.CollectorID Collector ID.",
+      "name": "FortiSIEM.Events.OrganizationName",
+      "required": ""
+    },
+    {
+      "description": "Name of raw event parser. FortiSIEM.Events.HostIP Host IP address.",
+      "name": "FortiSIEM.Events.EventParserName",
+      "required": ""
+    },
+    {
+      "description": "Host name. FortiSIEM.Events.FileName Name of the file associated with the event.",
+      "name": "FortiSIEM.Events.HostName",
+      "required": ""
+    },
+    {
+      "description": "Name of the process associated with the event. FortiSIEM.Events.JobName Name of the job associated with the event.",
+      "name": "FortiSIEM.Events.ProcessName",
+      "required": ""
+    },
+    {
+      "description": "Event status. FortiSIEM.Events.DestinationPort Port of the traffic\u2019s destination.",
+      "name": "FortiSIEM.Events.Status",
+      "required": ""
+    },
+    {
+      "description": "Port of the traffic\u2019s origin. FortiSIEM.Events.DestinationIP Destination IP address for the web.",
+      "name": "FortiSIEM.Events.SourcePort",
+      "required": ""
+    },
+    {
+      "description": "IP address of the traffic\u2019s origin. The source varies by the direction: In HTTP requests, this is the web browser or other client. In HTTP responses, this is the physical server. FortiSIEM.Events.ExtendedData All additional data returned by FortiSIEM.",
+      "name": "FortiSIEM.Events.SourceIP",
+      "required": ""
+    },
+    {
+      "description": "Interface of the traffic\u2019s destination. FortiSIEM.Events.NATTranslation NAT source port.",
+      "name": "FortiSIEM.Events.DestinationInterface",
+      "required": ""
+    },
+    {
+      "description": "tcp: The protocol used by web traffic (tcp by default). FortiSIEM.Events.SourceMAC MAC address associated with the source IP address.",
+      "name": "FortiSIEM.Events.Protocol",
+      "required": ""
+    },
+    {
+      "description": "NAT source IP.",
+      "name": "FortiSIEM.Events.NATIP",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FortiSIEM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forti-siem"
+}

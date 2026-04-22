@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "incident-state"
+  ],
+  "arguments": [],
+  "description": "IncidentState | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IncidentState",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IncidentState",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/incident-state"
+}

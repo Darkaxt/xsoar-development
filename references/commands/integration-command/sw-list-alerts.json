@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Hostname of the alert's source",
+  "examples": [
+    "Command Example\n!sw-update-alert alertID=275 merit=8 tags=test\n3. Get a list of all alerts\nGet the list of Stealthwatch alerts.\nBase Command\nsw-list-alerts\nInput\nArgument Name",
+    "!sw-update-alert alertID=275 merit=8 tags=test\n3. Get a list of all alerts\nGet the list of Stealthwatch alerts.\nBase Command\nsw-list-alerts\nInput\nArgument Name\nDescription",
+    "Command Example\n{\n\"assigned_to\": null,\n\"assigned_to_username\": null,\n\"created\": \"2018-07-23T15:30:00Z\",\n\"description\": \"Source has started a port scan on a device internal to your network.\",\n\"hostname\": \"\",\n\"id\": 275,"
+  ],
+  "kind": "integration-command",
+  "name": "sw-list-alerts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alert ID Stealthwatch.Alert.assigned_to Alert assignee",
+      "name": "Stealthwatch.Alert.id",
+      "required": ""
+    },
+    {
+      "description": "date Alert creation date Stealthwatch.Alert.last_modified",
+      "name": "Stealthwatch.Alert.obj_created",
+      "required": ""
+    },
+    {
+      "description": "Date the alert was last modified Stealthwatch.Alert.resolved Alert state",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "IP of the alert's source Stealthwatch.Alert.source_info.hostname Hostname of the alert's source",
+      "name": "Stealthwatch.Alert.source_info.ips",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Secure Cloud Analytics (Stealthwatch Cloud)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/stealthwatch-cloud"
+}

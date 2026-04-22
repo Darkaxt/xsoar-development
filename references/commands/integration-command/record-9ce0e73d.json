@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "RunZero.WirelessLAN.Site",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next RunZero Event Collector \u00bb Configure RunZero in Cortex",
+      "name": "\u00ab Rundeck",
+      "required": ""
+    },
+    {
+      "description": "runzero-asset-search runzero-asset-delete runzero-service-search",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "runzero-comment-add runzero-tag-add runzero-quota-get",
+      "name": "runzero-service-delete",
+      "required": ""
+    },
+    {
+      "description": "runzero-wireless-lan-search runzero-wireless-lan-delete Docs",
+      "name": "runzero-tag-delete",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RunZero",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/run-zero"
+}

@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!trendmicro-delete-scheduled-task task_id=1\nHuman Readable Output\n#\nScheduled task with ID 1 has been successfully deleted.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Trend Micro Deep Discovery Analyzer (Beta)"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Trend Micro Deep Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/trend-micro-deep-security"
+}

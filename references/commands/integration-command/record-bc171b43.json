@@ -1,0 +1,91 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Lookup users by name to display information about them. Search multiple users simultaneously by separating them by commas. Ex: 'name='user1,user2,user3'",
+  "examples": [
+    "!twitter-user-get user_name=\"Twitter\"\nContext Example\n#\n{\n\"Twitter\"\n:\n{\n\"User\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The friendly name of this user, as shown on their profile. Twitter.User.username The Twitter handle (screen name) of this user.",
+      "name": "Twitter.User.name",
+      "required": ""
+    },
+    {
+      "description": "Date Creation time of this account. Twitter.User.description",
+      "name": "Twitter.User.created_at",
+      "required": ""
+    },
+    {
+      "description": "The text of this user's profile description (also known as bio), if the user provided one. Twitter.User.id Unique identifier of this user.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The location specified in the user's profile. Twitter.User.pinned_tweet_id Unique identifier of this user's pinned Tweet.",
+      "name": "Twitter.User.location",
+      "required": ""
+    },
+    {
+      "description": "The URL to the profile image for this user, as shown on the user's profile. Twitter.User.protected Indicates if this user has chosen to protect their Tweets (in other words, if this user's Tweets are private).",
+      "name": "Twitter.User.profile_image_url",
+      "required": ""
+    },
+    {
+      "description": "Number of users who follow this user. Twitter.User.public_metrics.following_count Number of users this user is following.",
+      "name": "Twitter.User.public_metrics.followers_count",
+      "required": ""
+    },
+    {
+      "description": "Number of Tweets (including Retweets) posted by this user. Twitter.User.public_metrics.listed_count Number of lists that include this user.",
+      "name": "Twitter.User.public_metrics.tweet_count",
+      "required": ""
+    },
+    {
+      "description": "The URL specified in the user's profile, if present. Twitter.User.verified Indicates if this user is a verified Twitter user.",
+      "name": "Twitter.User.url",
+      "required": ""
+    },
+    {
+      "description": "Contains withholding details for withheld content. Twitter.User.entities.url Contains details about the user's profile website.",
+      "name": "Twitter.User.withheld",
+      "required": ""
+    },
+    {
+      "description": "The fully resolved URL. Twitter.User.entities.display_url The URL as displayed in the user's profile.",
+      "name": "Twitter.User.entities.expanded_url",
+      "required": ""
+    },
+    {
+      "description": "Unique identifier of this user's pinned Tweet. Twitter.User.pinned_tweets.text The content of the Tweet.",
+      "name": "Twitter.User.pinned_tweets.id",
+      "required": ""
+    },
+    {
+      "description": "The Tweet ID of the original Tweet of the conversation (which includes direct replies, replies of replies). Twitter.User.pinned_tweets.created_at Date",
+      "name": "Twitter.User.pinned_tweets.conversation_id",
+      "required": ""
+    },
+    {
+      "description": "Twitter.User.pinned_tweets.edit_history_tweet_ids Unique identifiers indicating all versions of an edited Tweet. Twitter.User.pinned_tweets.retweet_count",
+      "name": "Creation time of the Tweet.",
+      "required": ""
+    },
+    {
+      "description": "Number of times this Tweet has been Retweeted. Twitter.User.pinned_tweets.reply_count Number of Replies to this Tweet.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Number of Likes to this Tweet. Twitter.User.pinned_tweets.quote_count Number of times this Tweet has been Retweeted with a comment.",
+      "name": "Twitter.User.Pinned_tweets.like_count",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Twitter v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/twitter-v2"
+}

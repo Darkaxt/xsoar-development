@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Darktrace.Device.expiry",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Tag Id Darktrace.Device.tagName Tag Name",
+      "name": "Darktrace.Device.tagId",
+      "required": ""
+    },
+    {
+      "description": "Device unique identifier Darktrace.Device.response POST action message response",
+      "name": "Darktrace.Device.deviceId",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Darktrace (Deprecated)",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Darktrace AI Analyst \u00bb Configure Darktrace in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "darktrace-get-device-connection-info darktrace-run-advanced-search-analysis darktrace-post-to-watched-list",
+      "name": "darktrace-get-external-endpoint-details",
+      "required": ""
+    },
+    {
+      "description": "darktrace-get-tags-for-device darktrace-post-tag-to-device Docs",
+      "name": "darktrace-get-tagged-devices",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Darktrace Admin",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/darktrace-admin"
+}

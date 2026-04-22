@@ -1,0 +1,82 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!scadafence-getAssetConnections ipAddress=3.3.3.3\nContext Example\n[\n{\n\"dir\": \"DEST\",\n\"hostname\": \"\",\n\"ip\": \"1.1.1.1\",",
+    "!scadafence-getAssetConnections ipAddress=3.3.3.3\nContext Example\n[\n{\n\"dir\": \"DEST\",\n\"hostname\": \"\",\n\"ip\": \"1.1.1.1\",\n\"mac\": \"08:00:06:01:00:02\","
+  ],
+  "kind": "integration-command",
+  "name": "scadafence-getAssetConnections",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "{ \"dir\": \"DEST\", \"hostname\": \"\",",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "\"mac\": \"08:00:06:01:00:02\", \"port\": null, \"proto\": \"TCP\",",
+      "name": "\"ip\": \"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "}, { \"dir\": \"DEST\",",
+      "name": "\"traffic\": 9691680",
+      "required": ""
+    },
+    {
+      "description": "\"ip\": \"2.2.2.2\", \"mac\": \"00:80:80:8E:8F:F0\", \"port\": null,",
+      "name": "\"hostname\": \"t20102173\",",
+      "required": ""
+    },
+    {
+      "description": "\"traffic\": 101410609 }, {",
+      "name": "\"proto\": \"TCP\",",
+      "required": ""
+    },
+    {
+      "description": "\"hostname\": \"\", \"ip\": \"3.3.3.3\", \"mac\": \"\",",
+      "name": "\"dir\": \"SRC\",",
+      "required": ""
+    },
+    {
+      "description": "\"proto\": \"UDP\", \"traffic\": 24768 },",
+      "name": "\"port\": null,",
+      "required": ""
+    },
+    {
+      "description": "\"dir\": \"SRC\", \"hostname\": \"\", \"ip\": \"4.4.4.4\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"port\": 5355, \"proto\": \"UDP\", \"traffic\": 816",
+      "name": "\"mac\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "] Path Type",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Another endpoint's IP address SCADAfence.Asset.Conn.port Another endpoint's port",
+      "name": "SCADAfence.Asset.Conn.ip",
+      "required": ""
+    },
+    {
+      "description": "Protocol used for the connection SCADAfence.Asset.Conn.traffic Total bytes sent (both directions)",
+      "name": "SCADAfence.Asset.Conn.protocol",
+      "required": ""
+    },
+    {
+      "description": "Another endpoint's hostname SCADAfence.Asset.Conn.mac Another endpoint's MAC address",
+      "name": "SCADAfence.Asset.Conn.hostname",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SCADAfence CNM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/scad-afence-cnm"
+}

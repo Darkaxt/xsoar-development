@@ -1,0 +1,43 @@
+{
+  "aliases": [
+    "verify-json"
+  ],
+  "arguments": [],
+  "description": "VerifyJSON | Cortex XSOAR",
+  "examples": [
+    "!VerifyJSON json={\"alert_id\":\"695b3238-05d6-4934-86f5-9fff3201aeb0\"}\nContext Example\n#\n{\n\"VerifyJSON\": {\n\"Result\": true\n}\n}"
+  ],
+  "kind": "script",
+  "name": "VerifyJSON",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the passed JSON was verified. Script Example",
+      "name": "VerifyJSON.Result",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!VerifyJSON json={\"alert_id\":\"695b3238-05d6-4934-86f5-9fff3201aeb0\"}",
+      "required": ""
+    },
+    {
+      "description": "\"VerifyJSON\": { \"Result\": true }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VerifyJSON",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/verify-json"
+}

@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The job ID of the submission.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "hybrid-analysis-quick-scan-url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The URL. HybridAnalysis.URL.ScanID The scan ID.",
+      "name": "HybridAnalysis.URL.Data",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the URL. HybridAnalysis.URL.Finished Whether the scan completed.",
+      "name": "HybridAnalysis.URL.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The URL. File.SHA256 The SHA256 hash of the file.",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "HybridAnalysis.URL.SubmissionType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Hybrid Analysis (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hybrid-analysis"
+}

@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "rs-incidents-update-member",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Updates incident's members.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "rs-incidents-update-member",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next IBM Security Verify \u00bb Configure IBM Resilient Systems in Cortex",
+      "name": "\u00ab IBM Security Guardium",
+      "required": ""
+    },
+    {
+      "description": "rs-search-incidents rs-update-incident rs-incidents-get-members",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "rs-get-incident rs-incident-artifacts rs-incident-attachments",
+      "name": "rs-get-incident",
+      "required": ""
+    },
+    {
+      "description": "rs-incidents-get-tasks rs-add-note rs-add-artifact",
+      "name": "rs-related-incidents",
+      "required": ""
+    },
+    {
+      "description": "rs-update-task rs-add-custom-task rs-delete-task-members",
+      "name": "rs-list-incident-notes",
+      "required": ""
+    },
+    {
+      "description": "rs-list-scripts rs-delete-tasks rs-list-task-instructions",
+      "name": "rs-list-tasks",
+      "required": ""
+    },
+    {
+      "description": "rs-upload-incident-attachment rs-get-task-members rs-get-attachment",
+      "name": "rs-update-incident-note",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "rs-incidents-update-member",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM Security QRadar SOAR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ibm-resilient-systems"
+}

@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Triggers the Picus product update mechanism manually.",
+  "examples": [
+    "Command Example\n#\n!picus-trigger-update\nHuman Readable Output\n#\nData\nSuccess\ntrue",
+    "!picus-trigger-update\nHuman Readable Output\n#\nData\nSuccess\ntrue\ntrue\nEdit this page"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Collected data that will be returned Picus.triggerupdate.success Is the operation Succeed?",
+      "name": "Picus.triggerupdate.data",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Picus Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/picus"
+}

@@ -1,0 +1,119 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The specified email address",
+  "examples": [
+    "Command Example\n!email email=\"rajguru2003@yahoo.com\"\nHuman Readable Output\n8. Lookup and enrich a device\nLookup and enrich a device.\nBase Command\ndevice\nInput",
+    "!email email=\"rajguru2003@yahoo.com\"\nHuman Readable Output\n8. Lookup and enrich a device\nLookup and enrich a device.\nBase Command\ndevice\nInput\nArgument Name",
+    "Command Example\n!device device=\"dae6720d-0588-d23b-c006-63cf1134537b\"\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab Automox\nNext",
+    "!device device=\"dae6720d-0588-d23b-c006-63cf1134537b\"\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab Automox\nNext\nAWS - AccessAnalyzer \u00bb"
+  ],
+  "kind": "integration-command",
+  "name": "device",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Risk score of the specified device AwakeSecurity.Devices.notableDomainCount.value Number of suspicious domains accessed by the specified device",
+      "name": "AwakeSecurity.Devices.deviceScore",
+      "required": ""
+    },
+    {
+      "description": "Percentile of the specified device for notable domains accessed AwakeSecurity.Devices.notableDomainCount.weight Importance given to the suspicious domains when calculating the specified device risk score",
+      "name": "AwakeSecurity.Devices.notableDomainCount.percentile",
+      "required": ""
+    },
+    {
+      "description": "Number of suspicious IOCs associated with the specified device AwakeSecurity.Devices.iocCount.percentile Percentile of the specified device for notable IOCs",
+      "name": "AwakeSecurity.Devices.iocCount.value",
+      "required": ""
+    },
+    {
+      "description": "Importance given to the IOCs when calculating the specified device risk score AwakeSecurity.Devices.watchlistCount.value Total number of current threat behaviors associated with the specified device",
+      "name": "AwakeSecurity.Devices.iocCount.weight",
+      "required": ""
+    },
+    {
+      "description": "How this device compares to other devices for number of threat behaviors AwakeSecurity.Devices.watchlistCount.weight Importance given to the threat behaviors when calculating the specified device risk score",
+      "name": "AwakeSecurity.Devices.watchlistCount.percentile",
+      "required": ""
+    },
+    {
+      "description": "Number of characteristic artifacts associated with the specified device AwakeSecurity.Devices.activityCount.percentile How this device compares to other devices for characteristic artifacts",
+      "name": "AwakeSecurity.Devices.activityCount.value",
+      "required": ""
+    },
+    {
+      "description": "Importance given to the characteristic artifacts when calculating the specified device risk score AwakeSecurity.Devices.deviceName Device name",
+      "name": "AwakeSecurity.Devices.activityCount.weight",
+      "required": ""
+    },
+    {
+      "description": "Device type AwakeSecurity.Devices.os Operating system associated with the specified device",
+      "name": "AwakeSecurity.Devices.deviceType",
+      "required": ""
+    },
+    {
+      "description": "Most recent IP address associated with the specified device AwakeSecurity.Devices.activeIp Most common IP address associated with the specified device",
+      "name": "AwakeSecurity.Devices.recentIp",
+      "required": ""
+    },
+    {
+      "description": "Most common email address associated with the specified device AwakeSecurity.Devices.commonUsername Most common username associated with the specified device",
+      "name": "AwakeSecurity.Devices.commonEmail",
+      "required": ""
+    },
+    {
+      "description": "Most common monitoring point ID the specified device was seen on AwakeSecurity.Devices.nSimilarDevices Number of devices that are similar to the specified device",
+      "name": "AwakeSecurity.Devices.commonMpid",
+      "required": ""
+    },
+    {
+      "description": "Tags applied to the specified device AwakeSecurity.Devices.ipCount Number of IP addresses associated with the specified device",
+      "name": "AwakeSecurity.Devices.tags",
+      "required": ""
+    },
+    {
+      "description": "Number of email addresses associated with this device AwakeSecurity.Devices.usernameCount Number of usernames associated with the specified device",
+      "name": "AwakeSecurity.Devices.emailCount",
+      "required": ""
+    },
+    {
+      "description": "Number of applications associated with the specified device AwakeSecurity.Devices.mpids List of monitoring point IDs associated with the specified device",
+      "name": "AwakeSecurity.Devices.applicationCount",
+      "required": ""
+    },
+    {
+      "description": "Number of time this protocol was used by the specified device AwakeSecurity.Devices.firstSeen Date that the specified device was first seen",
+      "name": "AwakeSecurity.Devices.protocols.count",
+      "required": ""
+    },
+    {
+      "description": "Date that the specified device was last seen AwakeSecurity.Devices.osVersion Operating system version of the specified device",
+      "name": "AwakeSecurity.Devices.lastSeen",
+      "required": ""
+    },
+    {
+      "description": "Awake Security unique identifier for the specified device AwakeSecurity.Devices.ips List of IP addresses associated with the specified device",
+      "name": "AwakeSecurity.Devices.deviceGuid",
+      "required": ""
+    },
+    {
+      "description": "List of usernames that were inferred as accounts on the specified device AwakeSecurity.Devices.emails List of email addresses associated with the specified device",
+      "name": "AwakeSecurity.Devices.usernames",
+      "required": ""
+    },
+    {
+      "description": "Date of the last TCP session acknowledgment of the specified device AwakeSecurity.Devices.whiteListed bool",
+      "name": "AwakeSecurity.Devices.ackTs",
+      "required": ""
+    },
+    {
+      "description": "AwakeSecurity.Devices.protocols.name Type of protocol used by the specified device",
+      "name": "Is the device associated with the specified email address in the allow list",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Awake Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/awake-security"
+}

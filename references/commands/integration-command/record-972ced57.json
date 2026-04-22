@@ -1,0 +1,139 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "AWS.S3.Buckets.BucketArn",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The response metadata. AWS.EC2.NetworkInterfaces.NetworkInterfaceId The ID of the network interface.",
+      "name": "AWS.EC2.NetworkInterfaces.Attribute.ModifyResponseMetadata",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Amazon Security Lake",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "AMP \u00bb Configure AWS in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-account-password-policy-get aws-ec2-instance-metadata-options-modify aws-iam-account-password-policy-update",
+      "name": "aws-s3-public-access-block-update",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-role-from-instance-profile-remove aws-eks-cluster-config-update aws-rds-db-instance-modify",
+      "name": "aws-ec2-security-group-ingress-revoke",
+      "required": ""
+    },
+    {
+      "description": "aws-ec2-security-group-ingress-authorize aws-ec2-image-attribute-modify aws-rds-db-cluster-snapshot-attribute-modify",
+      "name": "aws-cloudtrail-trail-update",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-login-profile-delete aws-rds-db-snapshot-attribute-modify aws-s3-bucket-policy-put",
+      "name": "aws-s3-bucket-logging-put",
+      "required": ""
+    },
+    {
+      "description": "aws-ec2-instance-attribute-modify aws-iam-access-key-update aws-ec2-security-group-egress-revoke",
+      "name": "aws-cloudtrail-logging-start",
+      "required": ""
+    },
+    {
+      "description": "aws-rds-db-cluster-modify aws-s3-public-access-block-update aws-iam-user-policy-put",
+      "name": "aws-iam-role-policy-put",
+      "required": ""
+    },
+    {
+      "description": "aws-s3-bucket-acl-put aws-ec2-snapshot-attribute-modify aws-s3-bucket-encryption-get",
+      "name": "aws-s3-bucket-versioning-put",
+      "required": ""
+    },
+    {
+      "description": "aws-s3-bucket-policy-delete aws-ecs-cluster-settings-update aws-s3-file-upload",
+      "name": "aws-s3-file-download",
+      "required": ""
+    },
+    {
+      "description": "aws-ec2-instances-terminate aws-s3-public-access-block-get aws-ec2-instances-stop",
+      "name": "aws-ec2-subnet-attribute-modify",
+      "required": ""
+    },
+    {
+      "description": "aws-s3-bucket-policy-get aws-cloudtrail-trails-describe aws-ec2-instances-start",
+      "name": "aws-ec2-instances-describe",
+      "required": ""
+    },
+    {
+      "description": "aws-ec2-instances-run aws-rds-event-subscription-modify aws-ec2-snapshot-permission-modify",
+      "name": "aws-ec2-snapshot-create",
+      "required": ""
+    },
+    {
+      "description": "aws-s3-bucket-ownership-controls-put aws-eks-cluster-describe aws-eks-access-policy-associate",
+      "name": "aws-s3-bucket-website-delete",
+      "required": ""
+    },
+    {
+      "description": "aws-billing-forecast-list aws-billing-budgets-list aws-billing-budget-notification-list",
+      "name": "aws-billing-cost-usage-list",
+      "required": ""
+    },
+    {
+      "description": "aws-lambda-function-url-config-get aws-lambda-policy-get aws-lambda-invoke",
+      "name": "aws-lambda-function-configuration-get",
+      "required": ""
+    },
+    {
+      "description": "aws-kms-key-rotation-enable aws-elb-load-balancer-attributes-modify aws-ec2-vpcs-describe",
+      "name": "aws-lambda-function-url-config-update",
+      "required": ""
+    },
+    {
+      "description": "aws-ec2-ipam-resource-discoveries-describe aws-ec2-ipam-resource-discovery-associations-describe aws-ec2-latest-ami-get",
+      "name": "aws-ec2-subnets-describe",
+      "required": ""
+    },
+    {
+      "description": "aws-ec2-ipam-discovered-public-addresses-get aws-ec2-tags-create aws-s3-bucket-website-get",
+      "name": "aws-ec2-network-acl-create",
+      "required": ""
+    },
+    {
+      "description": "aws-acm-certificate-options-update aws-ec2-security-group-create aws-ec2-security-group-delete",
+      "name": "aws-s3-bucket-acl-get",
+      "required": ""
+    },
+    {
+      "description": "aws-ec2-security-group-egress-authorize aws-ssm-inventory-entries-list aws-s3-buckets-list",
+      "name": "aws-ec2-security-groups-describe",
+      "required": ""
+    },
+    {
+      "description": "aws-ec2-regions-describe aws-s3-bucket-create aws-ec2-network-interface-attribute-modify",
+      "name": "aws-ssm-command-run",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Amazon Web Services",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws"
+}

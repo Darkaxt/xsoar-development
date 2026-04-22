@@ -1,0 +1,16 @@
+{
+  "artifact_type": "classifier-mapper-json",
+  "classifier": {
+    "top_level_fields": [
+      "id",
+      "name",
+      "type"
+    ]
+  },
+  "do": [
+    "Preserve source field mappings and target incident field names."
+  ],
+  "do_not": [
+    "Do not rename mapped fields without checking incident field definitions."
+  ]
+}

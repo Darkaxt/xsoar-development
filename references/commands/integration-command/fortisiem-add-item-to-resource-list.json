@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "User_Agents_Ungrouped_1",
+  "examples": [
+    "Command Example\n!fortisiem-add-item-to-resource-list resource_type=\"Malware Domains\" group_id=766567954 object-info=domainName=test.domain.com,ipAddr=2.2.2.2,org=TeST\nContext Example\n{\n\"FortiSIEM.Resource\": {\n\"xmlId\": \"MalwareSite$test.domain.com\",\n\"domainName\": \"test.domain.com\",\n\"ipAddr\": \"2.2.2.2\",",
+    "!fortisiem-add-item-to-resource-list resource_type=\"Malware Domains\" group_id=766567954 object-info=domainName=test.domain.com,ipAddr=2.2.2.2,org=TeST\nContext Example\n{\n\"FortiSIEM.Resource\": {\n\"xmlId\": \"MalwareSite$test.domain.com\",\n\"domainName\": \"test.domain.com\",\n\"ipAddr\": \"2.2.2.2\",\n\"creationTime\": 1556692917786,"
+  ],
+  "kind": "integration-command",
+  "name": "fortisiem-add-item-to-resource-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Resource object in FortiSIEM lists.",
+      "name": "FortiSIEM.Resource",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FortiSIEM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forti-siem"
+}

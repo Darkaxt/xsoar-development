@@ -1,0 +1,189 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "AsimilyInsight.Anomaly.asimilydevicefamilies",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "${fetch_count} CVEs for ${fetch_device_count}",
+      "name": "Fetched",
+      "required": ""
+    },
+    {
+      "description": "${pending_device_count} devices matching search is not fetched. Fetch count is limited to avoid server overload. Path",
+      "name": "devices matching search.",
+      "required": ""
+    },
+    {
+      "description": "Asimily CVE Name AsimilyInsight.CVE.asimilycvecwetype Asimily CVE CWE Type",
+      "name": "AsimilyInsight.CVE.asimilycvename",
+      "required": ""
+    },
+    {
+      "description": "Asimily CVE Entity Type AsimilyInsight.CVE.asimilycveentityname Asimily CVE Entity Name",
+      "name": "AsimilyInsight.CVE.asimilycveentitytype",
+      "required": ""
+    },
+    {
+      "description": "Asimily CVE Score AsimilyInsight.CVE.asimilycvecvss3basescore Asimily CVE CVSS 3 Base Score",
+      "name": "AsimilyInsight.CVE.asimilycvescore",
+      "required": ""
+    },
+    {
+      "description": "Asimily CVE Descripttion AsimilyInsight.CVE.asimilycveisfixed Asimily CVE Is Fixed",
+      "name": "AsimilyInsight.CVE.asimilycvedescripttion",
+      "required": ""
+    },
+    {
+      "description": "Asimily CVE Fixed By AsimilyInsight.CVE.asimilycveoempatched Asimily CVE OEM Patched",
+      "name": "AsimilyInsight.CVE.asimilycvefixedby",
+      "required": ""
+    },
+    {
+      "description": "Asimily CVE Is Muted AsimilyInsight.CVE.asimilycveexploitableinwild Asimily CVE Exploitable In Wild",
+      "name": "AsimilyInsight.CVE.asimilycveismuted",
+      "required": ""
+    },
+    {
+      "description": "date Asimily CVE Published Date AsimilyInsight.CVE.asimilycveopendate",
+      "name": "AsimilyInsight.CVE.asimilycvepublisheddate",
+      "required": ""
+    },
+    {
+      "description": "Asimily CVE Open Date AsimilyInsight.CVE.asimilycvefixeddate date",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "AsimilyInsight.CVE.asimilydeviceid Asimily Device ID AsimilyInsight.CVE.asimilydevicemacaddress",
+      "name": "Asimily CVE Fixed Date",
+      "required": ""
+    },
+    {
+      "description": "Asimily Device MAC Address AsimilyInsight.CVE.asimilydeviceipv4address Asimily Device IPV4 Address",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Asimily Device Host Name AsimilyInsight.CVE.asimilydevicetype Asimily Device Type",
+      "name": "AsimilyInsight.CVE.asimilydevicehostname",
+      "required": ""
+    },
+    {
+      "description": "Asimily Device Model AsimilyInsight.CVE.asimilydeviceos Asimily Device OS",
+      "name": "AsimilyInsight.CVE.asimilydevicemodel",
+      "required": ""
+    },
+    {
+      "description": "Asimily Device Manufacturer AsimilyInsight.CVE.asimilydevicefamilies Asimily Device Families",
+      "name": "AsimilyInsight.CVE.asimilydevicemanufacturer",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Additional Information",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Incident Search",
+      "required": ""
+    },
+    {
+      "description": "macaddress , devicelocalip",
+      "name": "System searchable fields:",
+      "required": ""
+    },
+    {
+      "description": "devicemodel , hostnames",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "deviceid Asimily Insight Custom searchable fields: asimilyanomalyname",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "asimilycvename Incident Name",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "Asimily Anomaly incident, name will be anomalyname|hostname|ip|mac",
+      "name": "For",
+      "required": ""
+    },
+    {
+      "description": "Asimily CVE incident, name will be cvename|hostname|ip|mac",
+      "name": "For",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Incident Criticality Mapping",
+      "required": ""
+    },
+    {
+      "description": "Informational (0) Low (1) Medium (2)",
+      "name": "XSOAR incidents have 4 levels of criticality:",
+      "required": ""
+    },
+    {
+      "description": "Critical (4) Asimily Anomaly Alerts have 3 levels of criticality (Low/Medium/High). When creating incidents, we populate the incident criticality using the respective anomaly alert criticality. Asimily Asset CVEs have Asimily Calculated CVE score (Range: 0-10). When creating incidents, we populate the incident criticality using the respective CVE scores.",
+      "name": "High (3)",
+      "required": ""
+    },
+    {
+      "description": "Medium (CVE score: < 7.5) High (CVE score: < 10) Default Playbook",
+      "name": "Low (CVE score: < 3.5)",
+      "required": ""
+    },
+    {
+      "description": "asimily-get-asset-details to retrieve asset information and stores it in Context Data (under Asimily",
+      "name": "To enrich incidents with corresponding asset information, we've published a default playbook for two custom incident types. This playbook calls",
+      "required": ""
+    },
+    {
+      "description": "Asset ). We've also added a section to custom incident layouts to display this information.",
+      "name": ">",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Users can modify this playbook or create similar ones. We recommend using the device ID or MAC address as a unique identifier when querying asset details.",
+      "required": ""
+    },
+    {
+      "description": "Next Ataya Harmony \u00bb What does this pack do?",
+      "name": "\u00ab AsanaConnect",
+      "required": ""
+    },
+    {
+      "description": "Configure Pre-Process Rules Commands asimily-get-asset-details",
+      "name": "Configure Asimily Insight on Cortex XSOAR",
+      "required": ""
+    },
+    {
+      "description": "asimily-get-asset-vulnerabilities Additional Information Docs",
+      "name": "asimily-get-asset-anomalies",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Asimily Insight",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/asimily-insight"
+}

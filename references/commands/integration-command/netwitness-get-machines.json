@@ -1,0 +1,152 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get information for machine modules: netwitness-get-machine-modules",
+  "examples": [
+    "Command Example\n!netwitness-get-machines limit=\"100\" includeMachineData=\"no\" includeMachineIOCs=\"no\" includeMachineModules=\"no\"\nContext Example\n{\n\"\nNetWitness\n\"\n: {",
+    "!netwitness-get-machines limit=\"100\" includeMachineData=\"no\" includeMachineIOCs=\"no\" includeMachineModules=\"no\"\nContext Example\n{\n\"\nNetWitness\n\"\n: {\n\""
+  ],
+  "kind": "integration-command",
+  "name": "netwitness-get-machines",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Machine GUID NetWitness.Machines.AgentID Agent ID",
+      "name": "NetWitness.Machines.MachineGUID",
+      "required": ""
+    },
+    {
+      "description": "Machine name NetWitness.Machines.LocalIP Local IP",
+      "name": "NetWitness.Machines.MachineName",
+      "required": ""
+    },
+    {
+      "description": "Remote IP NetWitness.Machines.MAC MAC",
+      "name": "NetWitness.Machines.RemoteIP",
+      "required": ""
+    },
+    {
+      "description": "Machine status NetWitness.Machines.IIOCScore IIOC score",
+      "name": "NetWitness.Machines.MachineStatus",
+      "required": ""
+    },
+    {
+      "description": "IIOC Level 0 NetWitness.Machines.IIOCLevel1 IIOC Level 1",
+      "name": "NetWitness.Machines.IIOCLevel0",
+      "required": ""
+    },
+    {
+      "description": "IIOC Level 2 NetWitness.Machine.IIOCLevel3 IIOC Level 3",
+      "name": "NetWitness.Machines.IIOCLevel2",
+      "required": ""
+    },
+    {
+      "description": "Anti-virus disabled NetWitness.Machines.Comment Comment",
+      "name": "NetWitness.Machines.AntiVirusDisabled",
+      "required": ""
+    },
+    {
+      "description": "Containment status NetWitness.Machines.ContainmentSupported Containment supported",
+      "name": "NetWitness.Machines.ContainmentStatus",
+      "required": ""
+    },
+    {
+      "description": "Country NetWitness.Machines.DNS DNS",
+      "name": "NetWitness.Machines.Country",
+      "required": ""
+    },
+    {
+      "description": "Domain name NetWitness.Machines.FirewallDisabled Firewall disabled",
+      "name": "NetWitness.Machines.DomainName",
+      "required": ""
+    },
+    {
+      "description": "Gateway NetWitness.Machines.Group Group",
+      "name": "NetWitness.Machines.Gateway",
+      "required": ""
+    },
+    {
+      "description": "Idle NetWitness.Machines.InstallTime Install time",
+      "name": "NetWitness.Machines.Idle",
+      "required": ""
+    },
+    {
+      "description": "Installation failed NetWitness.Machines.LastScan Last scan",
+      "name": "NetWitness.Machines.InstallationFailed",
+      "required": ""
+    },
+    {
+      "description": "Last seen NetWitness.Machines.NetworkSegment Network segment",
+      "name": "NetWitness.Machines.LastSeen",
+      "required": ""
+    },
+    {
+      "description": "Operating system NetWitness.Machines.OrganizationUnit Organization unit",
+      "name": "NetWitness.Machines.OperatingSystem",
+      "required": ""
+    },
+    {
+      "description": "Platform NetWitness.Machines.Scanning Scanning",
+      "name": "NetWitness.Machines.Platform",
+      "required": ""
+    },
+    {
+      "description": "User name NetWitness.Machine.VersionInfo Version information",
+      "name": "NetWitness.Machines.UserName",
+      "required": ""
+    },
+    {
+      "description": "Description NetWitness.IOCs.Type Type",
+      "name": "NetWitness.IOCs.Description",
+      "required": ""
+    },
+    {
+      "description": "Machine count NetWitness.IOCs.ModuleCount Module count",
+      "name": "NetWitness.IOCs.MachineCount",
+      "required": ""
+    },
+    {
+      "description": "IOC level NetWitness.IOCs.Priority Priority",
+      "name": "NetWitness.IOCs.IOCLevel",
+      "required": ""
+    },
+    {
+      "description": "Active NetWitness.IOCs.LastExecuted Last executed",
+      "name": "NetWitness.IOCs.Active",
+      "required": ""
+    },
+    {
+      "description": "Alertable NetWitness.IOCs.IOCTriggeredOnMachine IOC Triggered On Machine",
+      "name": "NetWitness.IOCs.Alertable",
+      "required": ""
+    },
+    {
+      "description": "Machine GUID NetWitness.Modules.ModuleName Module name",
+      "name": "NetWitness.Machines.MachineGUID",
+      "required": ""
+    },
+    {
+      "description": "Module ID NetWitness.Modules.Description Description",
+      "name": "NetWitness.Modules.ModuleID",
+      "required": ""
+    },
+    {
+      "description": "IOC score NetWitness.Modules.AnalyticsScore Analytics score",
+      "name": "NetWitness.Modules.IOCScore",
+      "required": ""
+    },
+    {
+      "description": "Global machine count NetWitness.Modules.MD5 MD5",
+      "name": "NetWitness.Modules.GlobalMachineCount",
+      "required": ""
+    },
+    {
+      "description": "SHA-256",
+      "name": "NetWitness.Modules.SHA256",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness Endpoint",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-endpoint"
+}

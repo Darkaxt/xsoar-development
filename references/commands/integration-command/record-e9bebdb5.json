@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "| GoogleKMS.CryptoKey.PrimaryCryptoKeyVersion.ProtectionLevel | String | The ProtectionLevel describing how crypto operations are performed with this CryptoKeyVersion. |",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The CryptoKey to which the public key is connected. GoogleKMS.PublicKey.PEM The PEM of the public key.",
+      "name": "GoogleKMS.PublicKey.CryptoKey",
+      "required": ""
+    },
+    {
+      "description": "The algorithm used in the CryptoKey Edit this page Report an Issue",
+      "name": "GoogleKMS.PublicKey.Algorithm",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Google IP Ranges Feed Next Google Kubernetes Engine \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands google-kms-create-key google-kms-symmetric-decrypt",
+      "name": "Configure Google Key Management Service in Cortex",
+      "required": ""
+    },
+    {
+      "description": "google-kms-get-key google-kms-update-key google-kms-destroy-key",
+      "name": "google-kms-symmetric-encrypt",
+      "required": ""
+    },
+    {
+      "description": "google-kms-disable-key google-kms-enable-key google-kms-list-keys",
+      "name": "google-kms-restore-key",
+      "required": ""
+    },
+    {
+      "description": "google-kms-asymmetric-decrypt google-kms-list-key-rings google-kms-list-all-keys",
+      "name": "google-kms-asymmetric-encrypt",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "google-kms-get-public-key",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Key Management Service",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-key-management-service"
+}

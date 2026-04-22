@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "ID: -7389372863827790785, Name: Compliant, Description:",
+  "examples": [
+    "Command Example\nforescout-update-host-fields host_ip=192.168.1.212 field=fsapi_DemistoTest value=\"Testing new Arguments\" fields_json={\u201cfsapi_demisto_composite\u201d:\n{\u201cage\u201d: \u201c900\u201d, \u201cname\u201d: \u201cIgnatio Permutti\u201d, \u201calive\u201d: \u201cfalse\u201d}, \u201cfsapi_demisto_list\u201d:\n[\u201cHey1\u201d, \u201cHey2\u201d, \u201cHey3\u201d], \u201cfsapi_composite_1\u201d: [{\u201canimal\u201d: \u201cmongoose\u201d, \u201csound\u201d:\n\u201csqueak\u201d, \u201clifespan\u201d: \u201c10\u201d, \u201cregion\u201d: \u201cNorth America\u201d}, {\u201canimal\u201d: \u201csquirrel\u201d,"
+  ],
+  "kind": "integration-command",
+  "name": "forescout-update-host-fields",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Forescout CounterACT",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forescout"
+}

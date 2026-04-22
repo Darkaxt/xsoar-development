@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!acti-get-indicators limit=10\nContext Example\n#\nThere is no context output for this command.\nIndicators\n#",
+    "!acti-get-indicators limit=10\nContext Example\n#\nThere is no context output for this command.\nIndicators\n#\nvalue\ntype"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ACTI Indicator Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/acti-indicator-feed"
+}

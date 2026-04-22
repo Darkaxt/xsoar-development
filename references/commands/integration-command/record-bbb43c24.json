@@ -1,0 +1,92 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Microsoft OneDrive for Business",
+  "examples": [
+    "Command Example\n#\n!microsoft-cas-users-accounts-list status=Active limit=3\nContext Example\n#\n{\n\"MicrosoftCloudAppSecurity\"\n:",
+    "!microsoft-cas-users-accounts-list status=Active limit=3\nContext Example\n#\n{\n\"MicrosoftCloudAppSecurity\"\n:\n{\n\"UsersAccounts\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The display name of the user account. MicrosoftCloudAppSecurity.UsersAccounts.id The ID of the user account in the product.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.displayName",
+      "required": ""
+    },
+    {
+      "description": "The ID of the user account. MicrosoftCloudAppSecurity.UsersAccounts.isAdmin Whether the user account has admin privileges.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts._id",
+      "required": ""
+    },
+    {
+      "description": "Whether the user account is external. MicrosoftCloudAppSecurity.UsersAccounts.email The email address of the user account.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.isExternal",
+      "required": ""
+    },
+    {
+      "description": "The role of the user account. MicrosoftCloudAppSecurity.UsersAccounts.organization The organization to which the user account belongs.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.role",
+      "required": ""
+    },
+    {
+      "description": "The date the user account was last active. MicrosoftCloudAppSecurity.UsersAccounts.domain The domain of the user account.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.lastSeen",
+      "required": ""
+    },
+    {
+      "description": "The threat score of the user account. MicrosoftCloudAppSecurity.UsersAccounts.idType The ID type (number) of the user account.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.threatScore",
+      "required": ""
+    },
+    {
+      "description": "Whether the user account is marked as fake. MicrosoftCloudAppSecurity.UsersAccounts.username The username of the user account.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.isFake",
+      "required": ""
+    },
+    {
+      "description": "The task name of the action of the user account. MicrosoftCloudAppSecurity.UsersAccounts.actions.type The type of action of the user account.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.actions.task_name",
+      "required": ""
+    },
+    {
+      "description": "The account ID of the user account. MicrosoftCloudAppSecurity.UsersAccounts.accounts.inst The number of instances of the user account.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.accounts._id",
+      "required": ""
+    },
+    {
+      "description": "The cloud services of the user account. MicrosoftCloudAppSecurity.UsersAccounts.accounts.dn The domain name of the cloud services of the user accounts.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.accounts.saas",
+      "required": ""
+    },
+    {
+      "description": "The user account aliases. MicrosoftCloudAppSecurity.UsersAccounts.accounts.isFake Whether the user account is marked as fake.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.accounts.aliases",
+      "required": ""
+    },
+    {
+      "description": "The email address of the user account. MicrosoftCloudAppSecurity.UsersAccounts.accounts.actions.task_name The task name of the action.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.accounts.em",
+      "required": ""
+    },
+    {
+      "description": "The type of the action. MicrosoftCloudAppSecurity.UsersAccounts.userGroups._id The ID of the user group for the user account.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.accounts.actions.type",
+      "required": ""
+    },
+    {
+      "description": "The ID of the user group in the product. MicrosoftCloudAppSecurity.UsersAccounts.userGroups.name The name of the user group.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.userGroups.id",
+      "required": ""
+    },
+    {
+      "description": "The number of users in the user group.",
+      "name": "MicrosoftCloudAppSecurity.UsersAccounts.userGroups.usersCount",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Defender for Cloud Apps",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-cloud-app-security"
+}

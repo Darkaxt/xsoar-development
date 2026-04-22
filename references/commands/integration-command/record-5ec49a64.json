@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "aima-cap-mav-get-submission",
+  "examples": [
+    "Command Example\n#\naima-cap-mav-upload-sample entry_id=571@7d\nContext Example\n#\n{\n\"scan_results\"\n:"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The count of the detection by engines. CAP.Mav.SCORE Threat Level of the scanned file (malicious, suspicious or informative)",
+      "name": "CAP.Mav.COUNT",
+      "required": ""
+    },
+    {
+      "description": "The results of detections by engines. CAP.Mav.STATUS The status of the submission scanning process.",
+      "name": "CAP.Mav.DETECTIONS",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Malwation AIMA (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/malwation-aima"
+}

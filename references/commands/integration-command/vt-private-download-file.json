@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Downloads a file according to file hash.",
+  "examples": [
+    "Command Example\n!vt-private-download-file hash=ba5d0f897e89ff70cffb3e95e4d54ea152d6a273a95bdff2224a224c90c0d16e\nContext Example\n{\n\"EntryID\": \"4103@14268\",\n\"Extension\": \"\",\n\"Info\": \"application/x-dosexec\",\n\"MD5\": \"d62f1fba82927e7db4bdf5b70fe5a5c2\",",
+    "!vt-private-download-file hash=ba5d0f897e89ff70cffb3e95e4d54ea152d6a273a95bdff2224a224c90c0d16e\nContext Example\n{\n\"EntryID\": \"4103@14268\",\n\"Extension\": \"\",\n\"Info\": \"application/x-dosexec\",\n\"MD5\": \"d62f1fba82927e7db4bdf5b70fe5a5c2\",\n\"Name\": \"ba5d0f897e89ff70cffb3e95e4d54ea152d6a273a95bdff2224a224c90c0d16e-vt-file\","
+  ],
+  "kind": "integration-command",
+  "name": "vt-private-download-file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VirusTotal - Private API (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/virus-total---private-api"
+}

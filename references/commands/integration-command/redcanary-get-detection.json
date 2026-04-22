@@ -1,0 +1,117 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!redcanary-get-detection id=4\nContext Example\n{\n\"Account\": {\n\"Username\": \"administrator\",\n\"Hostname\": \"ec2amaz-tmlcd45\"\n},",
+    "!redcanary-get-detection id=4\nContext Example\n{\n\"Account\": {\n\"Username\": \"administrator\",\n\"Hostname\": \"ec2amaz-tmlcd45\"\n},\n\"Endpoint\": {"
+  ],
+  "kind": "integration-command",
+  "name": "redcanary-get-detection",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Detection ID RedCanary.Detection.Headline Human-readable text about the detection",
+      "name": "RedCanary.Detection.ID",
+      "required": ""
+    },
+    {
+      "description": "The severity of the detection. High, medium, or low RedCanary.Detection.Summary A summary of information about the detection",
+      "name": "RedCanary.Detection.Severity",
+      "required": ""
+    },
+    {
+      "description": "Detection classification RedCanary.Detection.Subclassification Detection subclassification",
+      "name": "RedCanary.Detection.Classification",
+      "required": ""
+    },
+    {
+      "description": "date The time the detection was confirmed as a threat by Red Canary RedCanary.Detection.Acknowledged",
+      "name": "RedCanary.Detection.Time",
+      "required": ""
+    },
+    {
+      "description": "Whether or not the detection is acknowledged RedCanary.Detection.RemediationStatus The state the detection is currently in",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "The reason for the detection RedCanary.Detection.EndpointUserID The ID of the user in the infected endpoint",
+      "name": "RedCanary.Detection.Reason",
+      "required": ""
+    },
+    {
+      "description": "The ID of the endpoint infected in the detection Endpoint.Hostname Fully-qualified endpoint hostname",
+      "name": "RedCanary.Detection.EndpointID",
+      "required": ""
+    },
+    {
+      "description": "Endpoint ID Endpoint.IPAddress IP address of the endpoint",
+      "name": "Endpoint.ID",
+      "required": ""
+    },
+    {
+      "description": "MAC address of the endpoint Endpoint.OS The operating system used by the endpoint",
+      "name": "Endpoint.MACAddress",
+      "required": ""
+    },
+    {
+      "description": "The complete operating system version identifier used by the endpoint Endpoint.Memory Physical memory of the endpoint in bytes",
+      "name": "Endpoint.OSVersion",
+      "required": ""
+    },
+    {
+      "description": "Whether or not the endpoint is currently network isolated Endpoint.IsDecommissioned Whether or not the endpoint is decommissioned",
+      "name": "Endpoint.IsIsolated",
+      "required": ""
+    },
+    {
+      "description": "Endpoint user name Account.Hostname Endpoint host name",
+      "name": "Account.Username",
+      "required": ""
+    },
+    {
+      "description": "Domain name File.Name File name",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "File MD5 File.SHA256 File SHA-256",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "File path in the endpoint File.Extension File extension",
+      "name": "File.Path",
+      "required": ""
+    },
+    {
+      "description": "IP Address IP.Port Port",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "Process name Process.Path Process binary path",
+      "name": "Process.Name",
+      "required": ""
+    },
+    {
+      "description": "Binary MD5 Process.SHA256 Binary SHA-256",
+      "name": "Process.MD5",
+      "required": ""
+    },
+    {
+      "description": "date Process execution time Process.CommandLine",
+      "name": "Process.StartTime",
+      "required": ""
+    },
+    {
+      "description": "Process command line",
+      "name": "string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Red Canary",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/red-canary"
+}

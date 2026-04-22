@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "WinRegistry value type.",
+  "examples": [
+    "Command Example\n!mar-search-win-registry\n7. Get information for files\nReturns file information from McAfee Active Response.\nBase Command\nmar-search-files\nInput\nArgument Name",
+    "!mar-search-win-registry\n7. Get information for files\nReturns file information from McAfee Active Response.\nBase Command\nmar-search-files\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "mar-search-files",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File name. MAR.Files.Dir File directory.",
+      "name": "MAR.Files.Name",
+      "required": ""
+    },
+    {
+      "description": "File full name. MAR.Files.Size File size.",
+      "name": "MAR.Files.Full_name",
+      "required": ""
+    },
+    {
+      "description": "File last write. MAR.Files.MD5 File MD5 hash.",
+      "name": "MAR.Files.Last_write",
+      "required": ""
+    },
+    {
+      "description": "File SHA-1 hash. MAR.Files.Created_at Datetime the file was created.",
+      "name": "MAR.Files.Sha1",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "MAR.Files.Deleted_at",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Active Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-active-response"
+}

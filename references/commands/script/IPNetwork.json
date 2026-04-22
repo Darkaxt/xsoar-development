@@ -1,0 +1,56 @@
+{
+  "aliases": [
+    "ip-network"
+  ],
+  "arguments": [],
+  "description": "IPNetwork | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IPNetwork",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Network CIDR. Network.Num_addresses Number of availble addresses in the CIDR.",
+      "name": "Network.CIDR",
+      "required": ""
+    },
+    {
+      "description": "Network.First_address First address in the network CIDR. Network.Last_address",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Network.Version Version of IP. Network.Private",
+      "name": "Last address in the network CIDR.",
+      "required": ""
+    },
+    {
+      "description": "Network.Max_prefix_len Max prefix length of CIDR. Network.Broadcast_address",
+      "name": "True if IP is private.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Broadcast address of CIDR.",
+      "required": ""
+    },
+    {
+      "description": "Next IPReputation \u00bb Script Data",
+      "name": "\u00ab IPCalcReturnSubnetNetwork",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IPNetwork",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ip-network"
+}

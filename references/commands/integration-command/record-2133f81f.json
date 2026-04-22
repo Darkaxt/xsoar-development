@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "EclecticIQ.DELETE.URI",
+  "examples": [
+    "!eclecticiq-get-indicators\nHuman Readable Output\n#\nIndicators collected from first block of feed:[{'id': '11', 'created_at': '2023-06-26T15:23:19.737166+00:00', 'update_strategy': 'REPLACE', 'packaging_status': 'SUCCESS', 'name': 'splunk-test'}]\n#\nNo entries.\nBreaking changes from the previous version of this integration - EclecticIQ Intelligence Center v3\n#"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EclecticIQ Intelligence Center v3",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/eclectic-iq-intelligence-center-v3"
+}

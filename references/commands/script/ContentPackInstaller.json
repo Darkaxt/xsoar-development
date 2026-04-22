@@ -1,0 +1,96 @@
+{
+  "aliases": [
+    "content-pack-installer"
+  ],
+  "arguments": [],
+  "description": "ContentPackInstaller | Cortex XSOAR",
+  "examples": [
+    "Command Examples\n#\nWithout escape chars\n#\n!ContentPackInstaller packs_data=`[{\"id\":\"GoogleCloudCompute\",\"itemVersion\":\"latest\"},{\"id\":\"GoogleKubernetesEngine\",\"itemVersion\":\"latest\"},{\"id\":\"GoogleSafeBrowsing\",\"itemVersion\":\"latest\"}]` pack_id_key=id pack_version_key=itemVersion\nWith escape chars\n#\n!ContentPackInstaller packs_data=\"[{\\\"packid\\\": \\\"GoogleCloudCompute\\\",\\\"packversion\\\": \\\"latest\\\"}]\" pack_id_key=packid pack_version_key=packversion",
+    "!ContentPackInstaller packs_data=`[{\"id\":\"GoogleCloudCompute\",\"itemVersion\":\"latest\"},{\"id\":\"GoogleKubernetesEngine\",\"itemVersion\":\"latest\"},{\"id\":\"GoogleSafeBrowsing\",\"itemVersion\":\"latest\"}]` pack_id_key=id pack_version_key=itemVersion\nWith escape chars\n#\n!ContentPackInstaller packs_data=\"[{\\\"packid\\\": \\\"GoogleCloudCompute\\\",\\\"packversion\\\": \\\"latest\\\"}]\" pack_id_key=packid pack_version_key=packversion\nTroubleshooting\n#\nMulit-tenant environments\n#",
+    "!ContentPackInstaller packs_data=\"[{\\\"packid\\\": \\\"GoogleCloudCompute\\\",\\\"packversion\\\": \\\"latest\\\"}]\" pack_id_key=packid pack_version_key=packversion\nTroubleshooting\n#\nMulit-tenant environments\n#\nMulti-tenant environments should be configured with the Cortex Rest API instance when using this\nautomation. Make sure the\nUse tenant",
+    "Command Examples\nTroubleshooting\nDocs\nDeveloper Docs\nBecome a Technology Partner\nSocial\nBlog\nCopyright \u00a9 2026 Palo Alto Networks, Inc."
+  ],
+  "kind": "script",
+  "name": "ContentPackInstaller",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the pack. ContentPackInstaller.packversion The version of the pack.",
+      "name": "ContentPackInstaller.packname",
+      "required": ""
+    },
+    {
+      "description": "ContentPackInstaller.installationstatus The installation status of the pack. Command Examples",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Without escape chars",
+      "required": ""
+    },
+    {
+      "description": "With escape chars",
+      "name": "!ContentPackInstaller packs_data=`[{\"id\":\"GoogleCloudCompute\",\"itemVersion\":\"latest\"},{\"id\":\"GoogleKubernetesEngine\",\"itemVersion\":\"latest\"},{\"id\":\"GoogleSafeBrowsing\",\"itemVersion\":\"latest\"}]` pack_id_key=id pack_version_key=itemVersion",
+      "required": ""
+    },
+    {
+      "description": "Troubleshooting",
+      "name": "!ContentPackInstaller packs_data=\"[{\\\"packid\\\": \\\"GoogleCloudCompute\\\",\\\"packversion\\\": \\\"latest\\\"}]\" pack_id_key=packid pack_version_key=packversion",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Mulit-tenant environments",
+      "required": ""
+    },
+    {
+      "description": "automation. Make sure the Use tenant parameter (in the Cortex Rest API integration) is checked",
+      "name": "Multi-tenant environments should be configured with the Cortex Rest API instance when using this",
+      "required": ""
+    },
+    {
+      "description": "General Failures",
+      "name": "to ensure that API calls are made to the current tenant instead of the master tenant.",
+      "required": ""
+    },
+    {
+      "description": "Make sure you have a connection to Marketplace. You can check that by going to the Marketplace page in the Cortex XSOAR UI and refreshing. Make sure the packs_data",
+      "name": "Make sure the Core REST API integration is configured correctly, and clicking the test button returns success.",
+      "required": ""
+    },
+    {
+      "description": "A list [] containing dictionaries",
+      "name": "parameter value is in the correct format:",
+      "required": ""
+    },
+    {
+      "description": ". For each pack you want to install, add a dictionary with pack_id_key as the pack id key and pack_version_key as the pack version key as demonstrated in the command examples above. The escape characters are in the right order and none are missing. Edit this page",
+      "name": "{}",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab ContentClientApiModule Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data Used In",
+      "name": "ContextContains \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Troubleshooting Docs Developer Docs",
+      "name": "Command Examples",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ContentPackInstaller",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/content-pack-installer"
+}

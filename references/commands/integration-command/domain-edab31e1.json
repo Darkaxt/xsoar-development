@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Checks the reputation of a domain.",
+  "examples": [
+    "Command Example\n!domain domain=example.com using=iDefense_instance_1\nContext Example\n{\n\"Domain\": [\n{\n\"Malicious\": {\n\"Vendor\": \"iDefense\",",
+    "!domain domain=example.com using=iDefense_instance_1\nContext Example\n{\n\"Domain\": [\n{\n\"Malicious\": {\n\"Vendor\": \"iDefense\",\n\"Description\": \"last seen as MALWARE_DOWNLOAD\""
+  ],
+  "kind": "integration-command",
+  "name": "domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the bad domain. Domain.Malicious.Vendor For malicious domains, the name of the vendor that made the decision.",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "For malicious domains, the reason that the vendor made the decision. DBotScore.Indicator The indicator that was tested.",
+      "name": "Domain.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The type of the indicator. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "iDefense (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/i-defense"
+}

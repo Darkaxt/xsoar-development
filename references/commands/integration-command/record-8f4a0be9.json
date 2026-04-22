@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!ip ip=xxx.xxx.xxx.xxx\nContext Example\n#\n{\n\"DBotScore\": {\n\"Indicator\": \"xxx.xxx.xxx.xxx\",",
+    "!ip ip=xxx.xxx.xxx.xxx\nContext Example\n#\n{\n\"DBotScore\": {\n\"Indicator\": \"xxx.xxx.xxx.xxx\",\n\"Score\": 3,\n\"Type\": \"ip\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP details",
+      "name": "Spamcop.IP",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Spamcop",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/spamcop"
+}

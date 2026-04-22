@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!sis-get-indicators limit=2 type=Domain\nHuman Readable Output\n#\nTotal indicators fetched: 2\n#\nIndicators from Security Intelligence Services feed",
+    "!sis-get-indicators limit=2 type=Domain\nHuman Readable Output\n#\nTotal indicators fetched: 2\n#\nIndicators from Security Intelligence Services feed\n#\nValue"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Security Intelligence Services Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/security-intelligence-services-feed"
+}

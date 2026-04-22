@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "8. Add a comment to a ticket",
+  "examples": [
+    "Command Example\n!rtir-add-comment text=CommentText ticket-id=113 attachment=1336@cc6f4232-d87e-496e-82b5-6bbeab422243",
+    "!rtir-add-comment text=CommentText ticket-id=113 attachment=1336@cc6f4232-d87e-496e-82b5-6bbeab422243"
+  ],
+  "kind": "integration-command",
+  "name": "rtir-add-comment",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RTIR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rtir"
+}

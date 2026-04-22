@@ -1,0 +1,99 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The ID of the Endpoints.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the first event. CounterTack.Behavior.LastReported Date",
+      "name": "CounterTack.Behavior.FirstEventId",
+      "required": ""
+    },
+    {
+      "description": "CounterTack.Behavior.Tenant The tenant of the behavior. CounterTack.Behavior.MaxImpact",
+      "name": "The time that the behavior was last seen.",
+      "required": ""
+    },
+    {
+      "description": "The impact of the highest scoring event (0-100) CounterTack.Behavior.Name The name of the condition that triggered the behavior.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The ID of the endpoint, based on the UUID of the last installed endpoint sensor CounterTack.Behavior.ReportedOn Date",
+      "name": "CounterTack.Behavior.EndpointId",
+      "required": ""
+    },
+    {
+      "description": "CounterTack.Behavior.EventCount The number of events detected. CounterTack.Behavior.TimeStamp",
+      "name": "The time that the behavior was first seen.",
+      "required": ""
+    },
+    {
+      "description": "The start time for the behavior. CounterTack.Behavior.Type The type of behavior (CLASSIFICATION, TRACE)",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The ID of the behaviors. CounterTack.Behavior.LastActive Date",
+      "name": "CounterTack.Behavior.Id",
+      "required": ""
+    },
+    {
+      "description": "CounterTack.Behavior.ImpactLevel The threat level of the behavior (LOW, MEDIUM, HIGH, CRITICAL). Edit this page",
+      "name": "The time that the behavior was last active.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab CounterCraft Deception Director Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure CounterTack in Cortex Commands countertack-get-endpoints",
+      "name": "Covalence For Security Providers \u00bb",
+      "required": ""
+    },
+    {
+      "description": "countertack-get-endpoint countertack-get-behavior countertack-get-endpoint-tags",
+      "name": "countertack-get-behaviors",
+      "required": ""
+    },
+    {
+      "description": "countertack-delete-tags countertack-add-behavior-tags countertack-delete-behavior-tags",
+      "name": "countertack-add-tags",
+      "required": ""
+    },
+    {
+      "description": "countertack-disable-quarantine countertack-extract-file countertack-delete-file",
+      "name": "countertack-endpoint-quarantine",
+      "required": ""
+    },
+    {
+      "description": "countertack-get-endpoint-files countertack-get-file-information countertack-download-file",
+      "name": "countertack-get-all-files",
+      "required": ""
+    },
+    {
+      "description": "countertack-kill-process countertack-search-hashes countertack-search-endpoints",
+      "name": "countertack-search-events",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "countertack-search-behaviors",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CounterTack",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/counter-tack"
+}

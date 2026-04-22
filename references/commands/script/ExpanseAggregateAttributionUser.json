@@ -1,0 +1,67 @@
+{
+  "aliases": [
+    "expanse-aggregate-attribution-user"
+  ],
+  "arguments": [
+    {
+      "description": "current Current aggregation state. username_fields",
+      "name": "Input list.",
+      "required": ""
+    },
+    {
+      "description": "sightings_fields Comma separated list of field names to be considered sighting counts.",
+      "name": "Comma separated list of fields to treat as serial number.",
+      "required": ""
+    }
+  ],
+  "description": "ExpanseAggregateAttributionUser | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ExpanseAggregateAttributionUser",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Username of the user Expanse.AttributionUser.domain Domain of the user",
+      "name": "Expanse.AttributionUser.username",
+      "required": ""
+    },
+    {
+      "description": "Expanse.AttributionUser.groups List of groups the user is member of Expanse.AttributionUser.display-name",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Expanse.AttributionUser.description Description of the user Expanse.AttributionUser.sightings",
+      "name": "Display Name",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Number of sessions seen on this device",
+      "required": ""
+    },
+    {
+      "description": "Next ExpanseEnrichAttribution \u00bb Script Data",
+      "name": "\u00ab ExpanseAggregateAttributionIP",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExpanseAggregateAttributionUser",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/expanse-aggregate-attribution-user"
+}

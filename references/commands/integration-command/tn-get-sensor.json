@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "1. Get sensor information",
+  "examples": [
+    "Command Example\n!tn-get-sensor name=\"Index Query File Exists\"\nContext Example\nTanium:{\nSensors:[{\nhidden_flag:0\nstring_count:6\nmax_age_seconds:86400",
+    "!tn-get-sensor name=\"Index Query File Exists\"\nContext Example\nTanium:{\nSensors:[{\nhidden_flag:0\nstring_count:6\nmax_age_seconds:86400\nqueries:{"
+  ],
+  "kind": "integration-command",
+  "name": "tn-get-sensor",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Sensor maximum age (in seconds) Tanium.Sensors.description Description of the sensor",
+      "name": "Tanium.Sensors.max_age_seconds",
+      "required": ""
+    },
+    {
+      "description": "Name of the sensor Tanium.Sensors.id ID of the sensor",
+      "name": "Tanium.Sensors.name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium"
+}

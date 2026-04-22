@@ -1,0 +1,68 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Start Tanium Trace Session",
+  "examples": [
+    "Command Example\n!tn-get-all-pending-actions\nContext Example\nTanium:{\nPendingActions:[{\ndistribute_seconds:0\npublic_flag:0\naction_group_id:0",
+    "!tn-get-all-pending-actions\nContext Example\nTanium:{\nPendingActions:[{\ndistribute_seconds:0\npublic_flag:0\naction_group_id:0\napprover:{}"
+  ],
+  "kind": "integration-command",
+  "name": "tn-get-all-pending-actions",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Distribute seconds of action Tanium.PendingActions.public_flag Whether action is public or not",
+      "name": "Tanium.PendingActions.distribute_seconds",
+      "required": ""
+    },
+    {
+      "description": "Group ID of action Tanium.PendingActions.approver.id ID of the user who approved the action",
+      "name": "Tanium.PendingActions.action_group_id",
+      "required": ""
+    },
+    {
+      "description": "date Action start time Tanium.PendingActions.name",
+      "name": "Tanium.PendingActions.start_time",
+      "required": ""
+    },
+    {
+      "description": "Action name Tanium.PendingActions.user.id ID\u00a0of the user who created the action",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "date Time the action was created Tanium.PendingActions.end_time",
+      "name": "Tanium.PendingActions.creation_time",
+      "required": ""
+    },
+    {
+      "description": "Time the action ended Tanium.PendingActions.status Action status",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "date Last time action started Tanium.PendingActions.id",
+      "name": "Tanium.PendingActions.last_start_time",
+      "required": ""
+    },
+    {
+      "description": "ID of the action Tanium.PendingActions.package_spec.id The package associated with the action",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Whether the action was approved",
+      "name": "Tanium.PendingActions.approved_flag",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium"
+}

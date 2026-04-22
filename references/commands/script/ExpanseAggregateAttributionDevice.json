@@ -1,0 +1,77 @@
+{
+  "aliases": [
+    "expanse-aggregate-attribution-device"
+  ],
+  "arguments": [
+    {
+      "description": "current Current aggregation state. serial_fields",
+      "name": "Input list.",
+      "required": ""
+    },
+    {
+      "description": "vsys_fields Comma separate list of field names to be used as vsys. sightings_fields",
+      "name": "Comma separated list of fields to treat as serial number.",
+      "required": ""
+    },
+    {
+      "description": "source_ip_fields Comma separated list of field names to be considered as source IPs. internal_ip_networks",
+      "name": "Comma separated list of field names to be considered sighting counts.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Comma separated list of IPv4 Networks to be considered internal (default to RFC private networks).",
+      "required": ""
+    }
+  ],
+  "description": "ExpanseAggregateAttributionDevice | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ExpanseAggregateAttributionDevice",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Serial Number of the device Expanse.AttributionDevice.vsys VSYS of the device",
+      "name": "Expanse.AttributionDevice.serial",
+      "required": ""
+    },
+    {
+      "description": "Expanse.AttributionDevice.device-group Device Group inside Panorama Expanse.AttributionDevice.xsoar-instance",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Expanse.AttributionDevice.exposing_service Is the device exposing the asset? Expanse.AttributionDevice.sightings",
+      "name": "XSOAR Panorama instance for this device",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Number of sessions seen on this device",
+      "required": ""
+    },
+    {
+      "description": "Next ExpanseAggregateAttributionIP \u00bb Script Data",
+      "name": "\u00ab ExpanseAggregateAttributionCI",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExpanseAggregateAttributionDevice",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/expanse-aggregate-attribution-device"
+}

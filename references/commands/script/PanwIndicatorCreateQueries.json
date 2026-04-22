@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "panw-indicator-create-queries"
+  ],
+  "arguments": [],
+  "description": "PanwIndicatorCreateQueries | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PanwIndicatorCreateQueries",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The query for the specified IP address indicators. This query is relevant for the Cortex Traps table \"tms.threat\", which is the agent IP. Query.IP.CortexAnalyticsIP The query for the specified IP address indicators. This query is relevant for the Cortex Analytics table \"tms.analytics\", which is the agent IP.",
+      "name": "Query.IP.CortexTrapsIP",
+      "required": ""
+    },
+    {
+      "description": "Query.IP.CortexTrafficIP The query for the specified IP address indicators. This query is relevant for the Cortex Traffic table \"panw.traffic\", and includes both source and destination. Query.IP.CortexThreatIP",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Query.IP.AutofocusSessionsIP The query (in JSON format) for the specified IP address indicators. This query is relevant for AutoFocus, includes both source and destination. Query.IP.PanoramaIP",
+      "name": "The query for the specified IP address indicators. This query is relevant for the Cortex Threat table \"panw.threat\", and includes both source and destination.",
+      "required": ""
+    },
+    {
+      "description": "Query.Hash.CortexTrapsHash The query for the specified file hash indicators. This query is relevant for the Cortex Traps table \"tms.threat\", which contains only SHA256 hashes. Query.Hash.CortexAnalyticsHash",
+      "name": "The query (in Panorama syntax) for the specified IP address indicators. This query is relevant for Panorama, and is valid for all log types.",
+      "required": ""
+    },
+    {
+      "description": "Query.Hash.CortexThreatHash The query for the specified file hash indicators. This query is relevant for the Cortex Threat table \"panw.threat\", which contains only SHA256 hashes. Query.Hash.AutofocusSessionsHash",
+      "name": "The query for the specified file hash indicators. This query is relevant for the Cortex Analytics table \"tms.analytics\", which contains only SHA256 hashes.",
+      "required": ""
+    },
+    {
+      "description": "Query.Hash.PanoramaHash The query (in Panorama syntax) for the specified file hash indicators. This query is relevant for the WildFire log in Panorama, and only supports SHA256 hashes. Query.Domain.CortexThreatDomain",
+      "name": "The query (in JSON format) for the specified file hash indicators. This query is relevant for AutoFocus, and supports the following file hashes: MD5, SHA1, and SHA256.",
+      "required": ""
+    },
+    {
+      "description": "Query.Domain.AutofocusSessionsDomain The query (in JSON format) for the domain indicators. This query is relevant for AutoFocus. Query.Domain.PanoramaDomain",
+      "name": "The query for the domain indicators. This query is relevant for the Cortex Threat table \"panw.threat\".",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The query (in Panorama syntax) for the domain indicators. This query is relevant for Panorama.",
+      "required": ""
+    },
+    {
+      "description": "Next ParseCSV \u00bb Script Data",
+      "name": "\u00ab PanoramaSecurityPolicyMatchWrapper",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PanwIndicatorCreateQueries",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/panw-indicator-create-queries"
+}

@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!wiz-get-resources subscription_external_ids=\"123456789,987654321\"",
+  "examples": [
+    "!wiz-get-resources subscription_external_ids=\"123456789,987654321\"\n!wiz-get-resources provider_unique_ids=\"i-0g03j4h5gd123d456\"\n!wiz-get-resources entity_type=\"BUCKET\" search=\"backup\"\nwiz-issue-in-progress\n#\nRe-open an Issue.\nBase Command\nwiz-issue-in-progress",
+    "!wiz-get-resources provider_unique_ids=\"i-0g03j4h5gd123d456\"\n!wiz-get-resources entity_type=\"BUCKET\" search=\"backup\"\nwiz-issue-in-progress\n#\nRe-open an Issue.\nBase Command\nwiz-issue-in-progress\nInput",
+    "!wiz-get-resources entity_type=\"BUCKET\" search=\"backup\"\nwiz-issue-in-progress\n#\nRe-open an Issue.\nBase Command\nwiz-issue-in-progress\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "wiz-issue-in-progress",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Issue details",
+      "name": "Wiz.Manager.Issue",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Wiz",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/wiz"
+}

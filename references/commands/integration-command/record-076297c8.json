@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "OpsGenieV2.OnCall.onCallParticipants.type",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Action of this Request OpsGenieV2.CloseAlert.alertId ID Of created Alert",
+      "name": "OpsGenieV2.CloseAlert.action",
+      "required": ""
+    },
+    {
+      "description": "Alais of created Alert OpsGenieV2.CloseAlert.integrationId Integration of created Alert",
+      "name": "OpsGenieV2.CloseAlert.alias",
+      "required": ""
+    },
+    {
+      "description": "If the request was successful OpsGenieV2.CloseAlert.processedAt Date",
+      "name": "OpsGenieV2.CloseAlert.isSuccess",
+      "required": ""
+    },
+    {
+      "description": "OpsGenieV2.CloseAlert.requestId The ID of the request OpsGenieV2.CloseAlert.status",
+      "name": "When the request was processed",
+      "required": ""
+    },
+    {
+      "description": "The human readable result of the request OpsGenieV2.CloseAlert.success Bool, whether the request was a success",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab OpsGenie (Deprecated)",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "OpsGenie v3 \u00bb Configure Opsgeniev2 in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "create-alert delete-alert get-alert",
+      "name": "list-alerts",
+      "required": ""
+    },
+    {
+      "description": "get-schedule list-schedules get-on-call",
+      "name": "ack-alert",
+      "required": ""
+    },
+    {
+      "description": "opsgenie-list-alerts opsgenie-create-alert opsgenie-delete-alert",
+      "name": "close-alert",
+      "required": ""
+    },
+    {
+      "description": "opsgenie-ack-alert opsgenie-get-schedule opsgenie-list-schedules",
+      "name": "opsgenie-get-alert",
+      "required": ""
+    },
+    {
+      "description": "opsgenie-close-alert Docs Developer Docs",
+      "name": "opsgenie-get-on-call",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Opsgenie v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/opsgeniev2"
+}

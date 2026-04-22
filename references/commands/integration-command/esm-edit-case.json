@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "[{\u201caction\u201d: \u201cOpen\u201d, \u201ctimestamp\u201d: \u201c03/11/2019 15:07:22(GMT)\u201d, \u201cusername\u201d: \u201cNGCP\u201d, \u201ccontent\u201d: \u201c\u201d, \u201cchanges\u201d: []}]",
+  "examples": [
+    "Command Example\n!esm-edit-case id=\"2\" summary=\"editing first case\" severity=\"50\" organization=\"LuthorCorp\"\nContext Example\n{\n\"Case\": [\n{\n\"Status\": \"Open\",\n\"OpenTime\": \"03/11/2019 11:39:18\",",
+    "!esm-edit-case id=\"2\" summary=\"editing first case\" severity=\"50\" organization=\"LuthorCorp\"\nContext Example\n{\n\"Case\": [\n{\n\"Status\": \"Open\",\n\"OpenTime\": \"03/11/2019 11:39:18\",\n\"Severity\": 50,"
+  ],
+  "kind": "integration-command",
+  "name": "esm-edit-case",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the case Case.Summary The summary of the case",
+      "name": "Case.ID",
+      "required": ""
+    },
+    {
+      "description": "The status of the case Case.OpenTime date",
+      "name": "Case.Status",
+      "required": ""
+    },
+    {
+      "description": "Case.Severity The severity of the case Case.Assignee",
+      "name": "The open time of the case",
+      "required": ""
+    },
+    {
+      "description": "The Assignee of the case Case.Organization The organization of the case",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "List of case\u2019s events Case.Notes List of case\u2019s notes",
+      "name": "Case.EventList",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v10 and v11 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v10"
+}

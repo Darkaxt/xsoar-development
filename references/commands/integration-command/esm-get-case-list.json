@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "408944640 - Failed Login Attempts - 306-31",
+  "examples": [
+    "Command Example\n!esm-get-case-list\nContext Example\n{\n\"Case\": [\n{\n\"Status\": \"Open\",\n\"Summary\": \"case to be deleted\",",
+    "!esm-get-case-list\nContext Example\n{\n\"Case\": [\n{\n\"Status\": \"Open\",\n\"Summary\": \"case to be deleted\",\n\"OpenTime\": \"03/11/2019 08:15:02\","
+  ],
+  "kind": "integration-command",
+  "name": "esm-get-case-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the case Case.Summary The summary of the case",
+      "name": "Case.ID",
+      "required": ""
+    },
+    {
+      "description": "The status of the case Case.OpenTime date",
+      "name": "Case.Status",
+      "required": ""
+    },
+    {
+      "description": "Case.Severity The severity of the case Case.Assignee",
+      "name": "The open time of the case",
+      "required": ""
+    },
+    {
+      "description": "The Assignee of the case Case.Organization The organization of the case",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "List of case\u2019s events Case.Notes List of case\u2019s notes",
+      "name": "Case.EventList",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v10 and v11 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v10"
+}

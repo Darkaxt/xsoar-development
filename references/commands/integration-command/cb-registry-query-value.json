@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\nContext Example\nHuman Readable Output\n25. Query for a registry value\nQuery for registry value.\nBase Command\ncb-registry-query-value\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "cb-registry-query-value",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique command identifier. CbLiveResponse.Commands.CommandName The command name.",
+      "name": "CbLiveResponse.Commands.CbCommandID",
+      "required": ""
+    },
+    {
+      "description": "The command Status ('pending', 'in progress', 'complete', 'error', 'canceled'). CbLiveResponse.Commands.CommandCompletionTime The command completion time (0 if not complete).",
+      "name": "CbLiveResponse.Commands.Status",
+      "required": ""
+    },
+    {
+      "description": "the path of the key + the path of the value (ie HKEY_LOCAL_MACHINE\\blah\\key\\value). CbLiveResponse.Commands.Registry.QueryValue.Values.RegKeyType Registry value type.",
+      "name": "CbLiveResponse.Commands.OperandObject",
+      "required": ""
+    },
+    {
+      "description": "the name of the registry value. CbLiveResponse.Commands.RegKeyData The data associated with the registry value.",
+      "name": "CbLiveResponse.Commands.RegKeyName",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "CbLiveResponse.Commands.SubKeys",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

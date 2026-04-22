@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Technical - Secondary",
+  "examples": [
+    "!cov-mgsec-list-language org_id=cb7e26b7-9d62-4cc7-acf1-4264327ac552\nContext Example\n#\n{\n\"FESPortal\"\n:\n{\n\"Org\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Default Language.",
+      "name": "FESPortal.Org.default_language",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Covalence Managed Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/covalence-managed-security"
+}

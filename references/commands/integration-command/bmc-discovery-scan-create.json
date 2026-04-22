@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "BmcDiscovery.Scan.Status.consolidation_source",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "bmc-discovery-scan-create",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "New scan URI",
+      "name": "BmcDiscovery.Scan.Create.url",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BMC Discovery",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bmc-discovery"
+}

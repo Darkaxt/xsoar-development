@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!nsm-get-domains domain=0\nContext Example\n{\n\"NSM\": {\n\"Domains\": {\n\"ID\": 0,\n\"Name\": \"My Company\"",
+    "!nsm-get-domains domain=0\nContext Example\n{\n\"NSM\": {\n\"Domains\": {\n\"ID\": 0,\n\"Name\": \"My Company\""
+  ],
+  "kind": "integration-command",
+  "name": "nsm-get-domains",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Domain ID NSM.Domains.Name Domain name",
+      "name": "NSM.Domains.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee NSM (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-nsm"
+}

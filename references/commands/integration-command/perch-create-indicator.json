@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "4. Create an indicator",
+  "examples": [
+    "Command Example\n!perch-create-indicator communities=8 confidence=LOW description=\"Sample Alert Generated via Demisto\" title=\"Sample Alert\" tlp=WHITE type=Domain value=\"sample.com\"\nContext Example\n{\n\"Perch\": {\n\"Indicator\": [\n{\n\"Description\": \"Sample Alert Generated via Demisto\",",
+    "!perch-create-indicator communities=8 confidence=LOW description=\"Sample Alert Generated via Demisto\" title=\"Sample Alert\" tlp=WHITE type=Domain value=\"sample.com\"\nContext Example\n{\n\"Perch\": {\n\"Indicator\": [\n{\n\"Description\": \"Sample Alert Generated via Demisto\",\n\"Title\": \"Sample Alert\","
+  ],
+  "kind": "integration-command",
+  "name": "perch-create-indicator",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Confidence of the indicator. Perch.Indicator.UpdatedAt Date",
+      "name": "Perch.Indicator.Confidence",
+      "required": ""
+    },
+    {
+      "description": "Perch.Indicator.TLP TLP of the Indicator. Perch.Indicator.Title",
+      "name": "Date and time that the indicator was last updated.",
+      "required": ""
+    },
+    {
+      "description": "Title of the indicator. Perch.Indicator.ID ID of the indicator.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Date Date that the indicator was created. Perch.Indicator.Team",
+      "name": "Perch.Indicator.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "ID of the team. Perch.Indicator.PerchID The Perch ID for the incident.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "ID of the user that created the incident.",
+      "name": "Perch.Indicator.CreatedBy",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Perch",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/perch"
+}

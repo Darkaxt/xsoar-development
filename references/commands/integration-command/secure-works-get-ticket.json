@@ -1,0 +1,367 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Ticket worklog addition status code",
+  "examples": [
+    "Command Example\n!secure-works-add-worklogs-ticket content=\"worklog\" id=\"SR11525106\"\nHuman Readable Output\n5. Get ticket details\nReturns the details of a specific ticket, by\u00a0 ticket ID.\nBase Command\nsecure-works-get-ticket\nInput",
+    "!secure-works-add-worklogs-ticket content=\"worklog\" id=\"SR11525106\"\nHuman Readable Output\n5. Get ticket details\nReturns the details of a specific ticket, by\u00a0 ticket ID.\nBase Command\nsecure-works-get-ticket\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "secure-works-get-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket change approval SecureWorks.Ticket.attachmentInfo.id Ticket attachment info ID",
+      "name": "SecureWorks.Ticket.changeApproval",
+      "required": ""
+    },
+    {
+      "description": "Ticket change service level objective SecureWorks.Ticket.changeWindowStart Ticket change window start",
+      "name": "SecureWorks.Ticket.changeSlo",
+      "required": ""
+    },
+    {
+      "description": "Ticket change window end SecureWorks.Ticket.client.id Ticket client ID",
+      "name": "SecureWorks.Ticket.changeWindowEnd",
+      "required": ""
+    },
+    {
+      "description": "Ticket client name SecureWorks.Ticket.contact.id Ticket contact ID",
+      "name": "SecureWorks.Ticket.client.name",
+      "required": ""
+    },
+    {
+      "description": "Ticket contact name SecureWorks.Ticket.dateCreated Ticket creation time",
+      "name": "SecureWorks.Ticket.contact.name",
+      "required": ""
+    },
+    {
+      "description": "Ticket closing time SecureWorks.Ticket.dateModified Ticket modified",
+      "name": "SecureWorks.Ticket.dateClosed",
+      "required": ""
+    },
+    {
+      "description": "Ticket detailed description SecureWorks.Ticket.devices.id Ticket device ID",
+      "name": "SecureWorks.Ticket.detailedDescription",
+      "required": ""
+    },
+    {
+      "description": "Ticket device name SecureWorks.Ticket.impact Ticket impact",
+      "name": "SecureWorks.Ticket.devices.name",
+      "required": ""
+    },
+    {
+      "description": "Ticket client location ID SecureWorks.Ticket.partner Ticket partner",
+      "name": "SecureWorks.Ticket.clientLocation.id",
+      "required": ""
+    },
+    {
+      "description": "Ticket priority SecureWorks.Ticket.reason Ticket closure reason",
+      "name": "SecureWorks.Ticket.priority",
+      "required": ""
+    },
+    {
+      "description": "Ticket request type SecureWorks.Ticket.riskAssessment Ticket risk assessment",
+      "name": "SecureWorks.Ticket.requestType",
+      "required": ""
+    },
+    {
+      "description": "Ticket service SecureWorks.Ticket.status Ticket status",
+      "name": "SecureWorks.Ticket.service",
+      "required": ""
+    },
+    {
+      "description": "Ticket symptom description SecureWorks.Ticket.ticketId Ticket ID",
+      "name": "SecureWorks.Ticket.symptomDescription",
+      "required": ""
+    },
+    {
+      "description": "Ticket type SecureWorks.Ticket.urgency Ticket urgency",
+      "name": "SecureWorks.Ticket.type",
+      "required": ""
+    },
+    {
+      "description": "Ticket watchers SecureWorks.Ticket.category Ticket category",
+      "name": "SecureWorks.Ticket.watchers",
+      "required": ""
+    },
+    {
+      "description": "Ticket category class SecureWorks.Ticket.categoryType Ticket category class",
+      "name": "SecureWorks.Ticket.categoryClass",
+      "required": ""
+    },
+    {
+      "description": "Ticket category item SecureWorks.Ticket.attachmentInfo.name Ticket attachment name",
+      "name": "SecureWorks.Ticket.categoryItem",
+      "required": ""
+    },
+    {
+      "description": "Ticket client location name SecureWorks.Ticket.worklogs.createdBy Ticket worklog creator",
+      "name": "SecureWorks.Ticket.clientLocation.name",
+      "required": ""
+    },
+    {
+      "description": "Ticket worklog creation date SecureWorks.Ticket.worklogs.description Ticket worklog description",
+      "name": "SecureWorks.Ticket.worklogs.dateCreated",
+      "required": ""
+    },
+    {
+      "description": "Ticket worklog type SecureWorks.Ticket.closeCodes Ticket close codes",
+      "name": "SecureWorks.Ticket.worklogs.type",
+      "required": ""
+    },
+    {
+      "description": "Attachment file info File.Name Attachment file name",
+      "name": "File.Info",
+      "required": ""
+    },
+    {
+      "description": "Attachment file size File.SHA1 Attachment file SHA-1",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "Attachment file SHA-256 File.EntryID Attachment file entry ID",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "Attachment file type File.MD5 Attachment file MD5",
+      "name": "File.Type",
+      "required": ""
+    },
+    {
+      "description": "{ \"File\": [ {",
+      "name": "Context Example",
+      "required": ""
+    },
+    {
+      "description": "\"Info\": \"text/plain\", \"MD5\": \"70cde715b629831f2201909dcba55665\", \"Name\": \"test\",",
+      "name": "\"EntryID\": \"4041@cc00e449-9e7b-4609-8a68-1c8c01114562\",",
+      "required": ""
+    },
+    {
+      "description": "\"SHA256\": \"41481152869507cff739f38cb9a9583aa3f0db970dafceb62a2530f71f731194\", \"SSDeep\": \"3:hMCEpFk:hurk\", \"Size\": 17,",
+      "name": "\"SHA1\": \"0e0a61f147707340d6113f5216be3c055bea8d25\",",
+      "required": ""
+    },
+    {
+      "description": "}, { \"EntryID\": \"4042@cc00e449-9e7b-4609-8a68-1c8c01114562\",",
+      "name": "\"Type\": \"ASCII text, with no line terminators\\n\"",
+      "required": ""
+    },
+    {
+      "description": "\"MD5\": \"68dbf17be30baac0befd462601b8448d\", \"Name\": \"test2\", \"SHA1\": \"0eb7383773bd1c9d214a3b3fb63109373c78f2c7\",",
+      "name": "\"Info\": \"text/plain\",",
+      "required": ""
+    },
+    {
+      "description": "\"SSDeep\": \"3:hMCECREn:hu3\", \"Size\": 20, \"Type\": \"ASCII text, with no line terminators\\n\"",
+      "name": "\"SHA256\": \"68818fa780a5d88a5d53018926b83bc9b6accc2f57256a1c1aa9bdce9abfa1c7\",",
+      "required": ""
+    },
+    {
+      "description": "], \"SecureWorks\": { \"Ticket\": {",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"attachmentInfo\": [ { \"id\": \"1728318\",",
+      "name": "\"assignedGroup\": \"ESC - OpIntel\",",
+      "required": ""
+    },
+    {
+      "description": "}, { \"id\": \"1729835\",",
+      "name": "\"name\": \"test\"",
+      "required": ""
+    },
+    {
+      "description": "} ], \"availableActions\": {",
+      "name": "\"name\": \"test2\"",
+      "required": ""
+    },
+    {
+      "description": "\"available\": \"true\" }, \"addNote\": {",
+      "name": "\"addAttachment\": {",
+      "required": ""
+    },
+    {
+      "description": "}, \"assignToPoc\": { \"available\": \"true\"",
+      "name": "\"available\": \"true\"",
+      "required": ""
+    },
+    {
+      "description": "\"assignToSoc\": { \"available\": \"true\" },",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "\"available\": \"true\", \"closeCode\": [ \"Mitigated by Security Controls\",",
+      "name": "\"close\": {",
+      "required": ""
+    },
+    {
+      "description": "\"Inconclusive\", \"True Positive\", \"False Positive\",",
+      "name": "\"Authorized/Expected\",",
+      "required": ""
+    },
+    {
+      "description": "\"Duplicate - Previously Escalated\", \"Work Completed\" ]",
+      "name": "\"Not Relevant\",",
+      "required": ""
+    },
+    {
+      "description": "}, \"client\": { \"id\": \"3016296\",",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "}, \"clientLocation\": { \"id\": \"752373\",",
+      "name": "\"name\": \"Client1\"",
+      "required": ""
+    },
+    {
+      "description": "}, \"contact\": { \"id\": \"2215505\",",
+      "name": "\"name\": \"Client1 - API Testing\"",
+      "required": ""
+    },
+    {
+      "description": "}, \"customerMiscellaneous1\": \"abc\", \"customerMiscellaneous4\": \"MARKED\",",
+      "name": "\"name\": \"John Doe\"",
+      "required": ""
+    },
+    {
+      "description": "\"dateCreated\": \"Thu Oct 04 2018 13:34:04 GMT+0300 (IDT)\", \"dateModified\": \"Mon Oct 15 2018 18:31:21 GMT+0300 (IDT)\", \"detailedDescription\": \"Secureworks API testing\",",
+      "name": "\"dateClosed\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"groupingType\": \"REQUEST\", \"isGlobalChild\": false, \"isGlobalParent\": false,",
+      "name": "\"devices\": [],",
+      "required": ""
+    },
+    {
+      "description": "\"reason\": \"Cust. Feedback-Auto-Close\", \"relatedTickets\": [ {",
+      "name": "\"priority\": \"MEDIUM\",",
+      "required": ""
+    },
+    {
+      "description": "{ \"$\": { \"href\": \"/tkt/tickets/SR11595508\",",
+      "name": "\"ticketRef\": [",
+      "required": ""
+    },
+    {
+      "description": "\"relationship-type\": \"Spawn\" } }",
+      "name": "\"relationship-owner\": \"SOC\",",
+      "required": ""
+    },
+    {
+      "description": "} ], \"requestType\": \"SCWX API Support\",",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "\"status\": \"Pending\", \"symptomDescription\": \"API testing\", \"ticketId\": \"IN29959685\",",
+      "name": "\"responsibleParty\": \"CLIENT\",",
+      "required": ""
+    },
+    {
+      "description": "\"version\": \"b2a010fa9b20e7c1b27741a527038a8619c7a11b84ba50de2276b73c3dbc6c5e6844f09d790e3df0b84fd9d033ecea3d472bc2\", \"watchers\": [], \"worklogs\": [",
+      "name": "\"ticketType\": \"INCIDENT\",",
+      "required": ""
+    },
+    {
+      "description": "\"createdBy\": \"John Doe\", \"dateClosed\": \"\", \"dateCreated\": \"Mon Oct 15 2018 12:28:46 GMT+0300 (IDT)\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"description\": \"last note\", \"type\": \"Customer Comment\" },",
+      "name": "\"dateModified\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"createdBy\": \"John Doe\", \"dateClosed\": \"\", \"dateCreated\": \"Mon Oct 15 2018 12:24:15 GMT+0300 (IDT)\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"description\": \"note\", \"type\": \"Customer Comment\" },",
+      "name": "\"dateModified\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"createdBy\": \"John Doe\", \"dateClosed\": \"\", \"dateCreated\": \"Mon Oct 15 2018 12:21:49 GMT+0300 (IDT)\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"description\": \"note\", \"type\": \"Customer Comment\" },",
+      "name": "\"dateModified\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"createdBy\": \"John Doe\", \"dateClosed\": \"\", \"dateCreated\": \"Mon Oct 15 2018 11:13:27 GMT+0300 (IDT)\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"description\": \"Customer added an attachment to the ticket\", \"type\": \"Client Note\" },",
+      "name": "\"dateModified\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"createdBy\": \"John Doe\", \"dateClosed\": \"\", \"dateCreated\": \"Mon Oct 15 2018 11:13:26 GMT+0300 (IDT)\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"description\": \"Attachment added to ticket: test2\\n.\", \"type\": \"Attachment\" },",
+      "name": "\"dateModified\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"createdBy\": \"John Smith\", \"dateClosed\": \"\", \"dateCreated\": \"Thu Oct 11 2018 17:37:42 GMT+0300 (IDT)\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"description\": \"Communication Message:\\nSend To: John Doe\\nSubject: Secureworks Ticket #IN29959685 | Correspondence Added by SOC | API testing\\nClient Portal: https://portal.secureworks.com/portal/incidents/IN29959685\\n\\nLocation: Client1 - API Testing\\nTicket Summary: API testing\\nCustomer's Internal Ticket #\\n\\nGreetings,\\n\\nSecureworks has received your attachment and notes via testing ticket IN29959685 (SR11595508). We are now pending this ticket back to the client side for your testing and ",
+      "name": "\"dateModified\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"createdBy\": \"John Doe\", \"dateClosed\": \"\", \"dateCreated\": \"Thu Oct 11 2018 17:05:39 GMT+0300 (IDT)\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"description\": \"This is a note\", \"type\": \"Client Note\" },",
+      "name": "\"dateModified\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"createdBy\": \"John Doe\", \"dateClosed\": \"\", \"dateCreated\": \"Thu Oct 11 2018 17:05:38 GMT+0300 (IDT)\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"description\": \"Attachment added to ticket: test\\n.\", \"type\": \"Attachment\" },",
+      "name": "\"dateModified\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"dateClosed\": \"\", \"dateCreated\": \"Thu Oct 04 2018 13:34:04 GMT+0300 (IDT)\", \"dateModified\": \"\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"type\": \"Client Notification\" } ]",
+      "name": "\"description\": \"Communication Message:\\nSend To: john@domain.com;{Watchers}\\nSubject: Secureworks Ticket#11595508 | Service Request Received\\nYour request has been submitted and assigned ticket #11595508.\\n\\nSOC personnel will review your request. They will then convert this ticket into an Incident or Change Ticket. This conversion will modify the ticket number. You will receive correspondence via the Incident or Change Ticket containing the new ticket number.\\n\\nRequest Details:\\nSecureworks API testing\\n\\n\\nThank you for contacting Secureworks. We will process your request shortly.\",",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Dell Secureworks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dell-secureworks"
+}

@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Resource fav masked as",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### blueliv-resource-favourite\n***\nChanges the favorite status of a resource.\n#### Base Command\n`blueliv-resource-favourite`"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Blueliv ThreatCompass",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/blueliv-threat-compass"
+}

@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!threatstream-feed-get-indicators indicator_type=\"domain\" limit=\"5\" sort_by=\"Created Time\"\nHuman Readable Output\n#\nIndicators from Anomali ThreatStream Feed\n#\nSource\nThreatStreamID\nDomain"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Anomali ThreatStream Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/anomali-threat-stream-feed"
+}

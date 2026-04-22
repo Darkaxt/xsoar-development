@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "DeleteGroup.errorMessage",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the group. UpdateGroup.displayName The display name of the group.",
+      "name": "UpdateGroup.id",
+      "required": ""
+    },
+    {
+      "description": "Indicates whether the command succeeded. UpdateGroup.errorCode HTTP error response code.",
+      "name": "UpdateGroup.success",
+      "required": ""
+    },
+    {
+      "description": "Reason why the API failed. Edit this page Report an Issue",
+      "name": "UpdateGroup.errorMessage",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Slack Event Collector Next Slack v2 (Deprecated) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands iam-create-user iam-update-user",
+      "name": "Configure Slack IAM in Cortex",
+      "required": ""
+    },
+    {
+      "description": "iam-disable-user Disable User Results (Slack IAM) iam-create-group",
+      "name": "iam-get-user",
+      "required": ""
+    },
+    {
+      "description": "iam-delete-group iam-update-group Docs",
+      "name": "iam-get-group",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Slack IAM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slack-iam"
+}

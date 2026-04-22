@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!mar-search-scheduled-tasks\nContext Example\n{\n\"MAR\": {\n\"ScheduledTasks\": [\n{\n\"Status\": \"Ready\",",
+    "!mar-search-scheduled-tasks\nContext Example\n{\n\"MAR\": {\n\"ScheduledTasks\": [\n{\n\"Status\": \"Ready\",\n\"Username\": \"SYSTEM\","
+  ],
+  "kind": "integration-command",
+  "name": "mar-search-scheduled-tasks",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Scheduled tasks folder. MAR.ScheduledTasks.Taskname Scheduled tasks name.",
+      "name": "MAR.ScheduledTasks.Folder",
+      "required": ""
+    },
+    {
+      "description": "Scheduled tasks status. MAR.ScheduledTasks.Last_run Scheduled tasks last run",
+      "name": "MAR.ScheduledTasks.Status",
+      "required": ""
+    },
+    {
+      "description": "Scheduled tasks user name. MAR.ScheduledTasks.Schedule_on Scheduled tasks schedule on.",
+      "name": "MAR.ScheduledTasks.Username",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Active Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-active-response"
+}

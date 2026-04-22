@@ -1,0 +1,46 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Tags removed successfully",
+  "examples": [
+    "!arkime-pcap-file-list limit=2\nContext Example\n#\n{\n\"Arkime\"\n:\n{\n\"PcapFile\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The total number of hunts Arkime has. Arkime.File.recordsFiltered The number of hunts returned in this result.",
+      "name": "Arkime.File.recordsTotal",
+      "required": ""
+    },
+    {
+      "description": "The file data node. Arkime.File.data.packetPosEncoding The file data packetPosEncoding.",
+      "name": "Arkime.File.data.node",
+      "required": ""
+    },
+    {
+      "description": "The data number. Arkime.File.data.name The data name.",
+      "name": "Arkime.File.data.num",
+      "required": ""
+    },
+    {
+      "description": "The file data locked. Arkime.File.data.first The file data first.",
+      "name": "Arkime.File.data.locked",
+      "required": ""
+    },
+    {
+      "description": "The file data compression. Arkime.File.data.packetsSize The file data packets size.",
+      "name": "Arkime.File.data.compression",
+      "required": ""
+    },
+    {
+      "description": "The file data file size. Arkime.File.data.packets The file data packets.",
+      "name": "Arkime.File.data.filesize",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Arkime",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/arkime"
+}

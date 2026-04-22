@@ -1,0 +1,89 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "get-mapping-fields",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Retrieves the mapping schema from a remote incident.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "get-mapping-fields",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "To set up the mirroring: Enable Fetching incidents",
+      "name": "You can enable incident mirroring between Cortex XSOAR incidents and XSOAR Mirroring corresponding events (available from Cortex XSOAR version 6.0.0).",
+      "required": ""
+    },
+    {
+      "description": "In the Mirroring Direction integration parameter, select in which direction the incidents should be mirrored:",
+      "name": "in your instance configuration.",
+      "required": ""
+    },
+    {
+      "description": "Description None Turns off incident mirroring.",
+      "name": "Option",
+      "required": ""
+    },
+    {
+      "description": "Any changes in XSOAR Mirroring events (mirroring incoming fields) will be reflected in Cortex XSOAR incidents. Outgoing Any changes in Cortex XSOAR incidents will be reflected in XSOAR Mirroring events (outgoing mirrored fields).",
+      "name": "Incoming",
+      "required": ""
+    },
+    {
+      "description": "Changes in Cortex XSOAR incidents and XSOAR Mirroring events will be reflected in both directions. Newly fetched incidents will be mirrored in the chosen direction. However, this selection does not affect existing incidents. Important Note:",
+      "name": "Incoming And Outgoing",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "To ensure the mirroring works as expected, mappers are required, both for incoming and outgoing, to map the expected fields in Cortex XSOAR and XSOAR Mirroring.",
+      "required": ""
+    },
+    {
+      "description": "Next XSOAR Storage \u00bb Configure XSOAR Mirroring on Cortex XSOAR",
+      "name": "\u00ab XSOAR File Management",
+      "required": ""
+    },
+    {
+      "description": "Commands xsoar-search-incidents xsoar-get-incident",
+      "name": "Important notes",
+      "required": ""
+    },
+    {
+      "description": "get-modified-remote-data get-mapping-fields Incident Mirroring",
+      "name": "get-remote-data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "XSOAR Mirroring",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/xsoar-mirroring"
+}

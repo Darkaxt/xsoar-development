@@ -1,0 +1,132 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "o365-sc-get-search-action",
+  "examples": [
+    "Command Example\n#\n!o365-sc-get-search-action search_action_name=\"example_Preview\"\nContext Example\n#\n{\n\"O365\"\n:",
+    "!o365-sc-get-search-action search_action_name=\"example_Preview\"\nContext Example\n#\n{\n\"O365\"\n:\n{\n\"SecurityAndCompliance\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Security and compliance search action type. Either \"Purge\" or \"Preview\". O365.SecurityAndCompliance.ContentSearch.SearchAction.AllowNotFoundExchangeLocationsEnabled Whether to include mailboxes other than regular user mailboxes in the compliance search.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.Action",
+      "required": ""
+    },
+    {
+      "description": "Whether the Azure Batch Framework is enabled for job processing. O365.SecurityAndCompliance.ContentSearch.SearchAction.CaseId Identity of a Core eDiscovery case which is associated with the compliance search.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.AzureBatchFrameworkEnabled",
+      "required": ""
+    },
+    {
+      "description": "Name of a Core eDiscovery case which is associated with the compliance search. O365.SecurityAndCompliance.ContentSearch.SearchAction.CreatedBy Security and compliance search action creator.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.CaseName",
+      "required": ""
+    },
+    {
+      "description": "Date Security and compliance search action creation time. O365.SecurityAndCompliance.ContentSearch.SearchAction.Description",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.CreatedTime",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action description. O365.SecurityAndCompliance.ContentSearch.SearchAction.Errors Security and compliance search action errors.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action job ID estimation. O365.SecurityAndCompliance.ContentSearch.SearchAction.EstimateSearchRunId Security and compliance search action run ID estimation.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.EstimateSearchJobId",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action exchange locations to include. O365.SecurityAndCompliance.ContentSearch.SearchAction.ExchangeLocationExclusion Security and compliance search action exchange locations to exclude.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.ExchangeLocation",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action identity. O365.SecurityAndCompliance.ContentSearch.SearchAction.IsValid Whether the security and compliance search action is valid.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.Identity",
+      "required": ""
+    },
+    {
+      "description": "Date Security and compliance search action job end time. O365.SecurityAndCompliance.ContentSearch.SearchAction.JobId",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.JobEndTime",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action job ID. O365.SecurityAndCompliance.ContentSearch.SearchAction.JobRunId Security and compliance search action job run ID.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Date Security and compliance search action job start time. O365.SecurityAndCompliance.ContentSearch.SearchAction.LastModifiedTime",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.JobStartTime",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action last modified time. O365.SecurityAndCompliance.ContentSearch.SearchAction.Name Security and compliance search action name.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action public folder locations to include. O365.SecurityAndCompliance.ContentSearch.SearchAction.PublicFolderLocationExclusion Security and compliance search action public folder locations to exclude.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.PublicFolderLocation",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action result location. O365.SecurityAndCompliance.ContentSearch.SearchAction.Results.ItemCount Security and compliance search action result item count.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.Results.Location",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action result total size. O365.SecurityAndCompliance.ContentSearch.SearchAction.Results.FailedCount Security and compliance search action result failed count.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.Results.TotalSize",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action result mail sender. O365.SecurityAndCompliance.ContentSearch.SearchAction.Results.Subject Security and compliance search action result subject.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.Results.Sender",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action result type. O365.SecurityAndCompliance.ContentSearch.SearchAction.Results.Size Security and compliance search action result size.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.Results.Type",
+      "required": ""
+    },
+    {
+      "description": "Date Security and compliance search action result received time. O365.SecurityAndCompliance.ContentSearch.SearchAction.Results.DataLink",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.Results.ReceivedTime",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action data link. O365.SecurityAndCompliance.ContentSearch.SearchAction.Retry Whether to retry if the search action failed.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action run by UPN (email address). O365.SecurityAndCompliance.ContentSearch.SearchAction.RunspaceId Security and compliance search action run space ID.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.RunBy",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action search name. O365.SecurityAndCompliance.ContentSearch.SearchAction.SharePointLocation Security and compliance search action SharePoint locations to include.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.SearchName",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action SharePoint locations to exclude. O365.SecurityAndCompliance.ContentSearch.SearchAction.Status Security and compliance search action status. Either \"Started\" or \"Completed\".",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.SharePointLocationExclusion",
+      "required": ""
+    },
+    {
+      "description": "Security and compliance search action Tenant ID.",
+      "name": "O365.SecurityAndCompliance.ContentSearch.SearchAction.TenantId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "O365 - Security And Compliance - Content Search (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/security-and-compliance"
+}

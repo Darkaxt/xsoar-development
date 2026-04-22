@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!threat-grid-get-analysis-artifacts id=a6cc7ae4e3318e98d94e8a053dd72c47\nHuman Readable Output\n34. Get analysis data for an IOC\nReturns data for the specified IOC.\nBase Command\nthreat-grid-get-analysis-ioc\nInput",
+    "!threat-grid-get-analysis-artifacts id=a6cc7ae4e3318e98d94e8a053dd72c47\nHuman Readable Output\n34. Get analysis data for an IOC\nReturns data for the specified IOC.\nBase Command\nthreat-grid-get-analysis-ioc\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-analysis-ioc",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

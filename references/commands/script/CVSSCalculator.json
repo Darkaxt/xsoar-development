@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "cvss-calculator"
+  ],
+  "arguments": [],
+  "description": "CVSSCalculator | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CVSSCalculator",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Text notation of the score. CVSS.ImpactSubScore Impact sub-score.",
+      "name": "CVSS.VectorString",
+      "required": ""
+    },
+    {
+      "description": "CVSS.Impact Impact Score. CVSS.Exploitability",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "CVSS.BaseScore Base score. CVSS.TemporalScore",
+      "name": "Exploitability score.",
+      "required": ""
+    },
+    {
+      "description": "CVSS.ModifiedImpactSubScore Modified impact sub-score. CVSS.ModifiedImpact",
+      "name": "Temporal score.",
+      "required": ""
+    },
+    {
+      "description": "CVSS.ModifiedExploitability Modified exploitability score. CVSS.EnvironmentalScore",
+      "name": "Modified impact.",
+      "required": ""
+    },
+    {
+      "description": "CVSS.Version Version of CVSS used in the calculation. Edit this page",
+      "name": "Environmental score.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab cvss_color Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "CybereasonPreProcessingExample \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CVSSCalculator",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cvss-calculator"
+}

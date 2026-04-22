@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Centrify.Set.SetDescription",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Demo Video",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Sorry, your browser doesn't support embedded videos. You can download the video at: https://github.com/demisto/content-assets/blob/58ada3506ba4082dc5aa36044f02bc212af73f96/Assets/CentrifyVault/CentrifyVault_demo.mp4",
+      "required": ""
+    },
+    {
+      "description": "Next Check Point Dome9 (CloudGuard) \u00bb Configure Centrify Vault in Cortex",
+      "name": "\u00ab Centreon",
+      "required": ""
+    },
+    {
+      "description": "centrify-retrieve-secrets centrify-retrieve-secret-by-secretid centrify-create-secretfolder",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "centrify-create-set centrify-retrieve-folders centrify-delete-folder",
+      "name": "centrify-create-secret",
+      "required": ""
+    },
+    {
+      "description": "centrify-delete-secret-by-secretid centrify-add-secret-to-set centrify-retrieve-sets",
+      "name": "centrify-delete-secret",
+      "required": ""
+    },
+    {
+      "description": "Demo Video Docs Developer Docs",
+      "name": "centrify-delete-set",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Centrify Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/centrify-vault"
+}

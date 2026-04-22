@@ -1,0 +1,91 @@
+{
+  "aliases": [
+    "pt-enrich"
+  ],
+  "arguments": [],
+  "description": "PTEnrich | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PTEnrich",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The list of subdomains as strings. Domain.Name The name of the queries domain.",
+      "name": "subdomains",
+      "required": ""
+    },
+    {
+      "description": "Domain.DNS.Address The resolved address of the domain. passivetotal.whois.email",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "passivetotal.resolves The various resolves from the passive DNS collection. IP.Address",
+      "name": "The contact email for the queried domain.",
+      "required": ""
+    },
+    {
+      "description": "IP.Malicious.Vendor The vendor that made the decision that the IP addresses are malicious. IP.Malicious.Description",
+      "name": "The bad IP addresses found during enrichment.",
+      "required": ""
+    },
+    {
+      "description": "Domain.Name The bad domains found during the enrichment. Domain.Malicious.Vendor",
+      "name": "The reason that the vendor decided that the IP addresses were malicious.",
+      "required": ""
+    },
+    {
+      "description": "Domain.Malicious.Description The reason that the vendor decided that the domains were malicious. File.MD5",
+      "name": "The vendor that made the decision that the domains are malicious.",
+      "required": ""
+    },
+    {
+      "description": "File.SHA1 The bad SHA1 hash of the file. File.SHA256",
+      "name": "The bad MD5 hash of teh file.",
+      "required": ""
+    },
+    {
+      "description": "File.Malicious.Vendor The vendor that made the decision that the files are malicious. File.Malicious.Description",
+      "name": "The bad SHA256 hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Indicator The indicator that was tested. DBotScore.Type",
+      "name": "The bad SHA256 hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Vendor The vendor used to calculate the score. DBotScore.Score",
+      "name": "The type of the indicator.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The actual score.",
+      "required": ""
+    },
+    {
+      "description": "Next PublishEntriesToContext \u00bb Script Data",
+      "name": "\u00ab ProvidesCommand",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PTEnrich",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/pt-enrich"
+}

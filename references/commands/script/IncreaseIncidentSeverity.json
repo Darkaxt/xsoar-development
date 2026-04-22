@@ -1,0 +1,33 @@
+{
+  "aliases": [
+    "increase-incident-severity"
+  ],
+  "arguments": [],
+  "description": "IncreaseIncidentSeverity | Cortex XSOAR",
+  "examples": [
+    "!IncreaseIncidentSeverity severity=High\nHuman Readable Output\n#\nSeverity increased to 3\nEdit this page\nReport an Issue\nPrevious\n\u00ab IncOwnerToBonuslyUser"
+  ],
+  "kind": "script",
+  "name": "IncreaseIncidentSeverity",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "!IncreaseIncidentSeverity severity=High",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IncreaseIncidentSeverity",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/increase-incident-severity"
+}

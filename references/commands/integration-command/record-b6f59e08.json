@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next F5 Application Security Manager (WAF) \u00bb Configure an instance for ExtraHop Reveal(x)",
+      "name": "\u00ab ExtraHop Reveal(x)",
+      "required": ""
+    },
+    {
+      "description": "Configure ExtraHop Reveal(x) in Cortex Commands revealx-get-events",
+      "name": "How to create REST API Credentials",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExtraHop Reveal(x) Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/extrahop-reveal-x-event-collector"
+}

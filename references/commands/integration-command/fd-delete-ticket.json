@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Demonstrating the Ticket Reply Command",
+  "examples": [
+    "Command Example\n!fd-delete-ticket id=108\nContext Example\n{\n\"Freshdesk.Ticket\": {\n\"AdditionalFields\": {\n\"Deleted\": true\n},",
+    "!fd-delete-ticket id=108\nContext Example\n{\n\"Freshdesk.Ticket\": {\n\"AdditionalFields\": {\n\"Deleted\": true\n},\n\"ID\": 108"
+  ],
+  "kind": "integration-command",
+  "name": "fd-delete-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Freshdesk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/freshdesk"
+}

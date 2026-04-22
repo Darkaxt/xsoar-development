@@ -1,0 +1,38 @@
+{
+  "aliases": [
+    "aws-ec2-sync-accounts"
+  ],
+  "arguments": [],
+  "description": "AwsEC2SyncAccounts | Cortex XSOAR",
+  "examples": [
+    "!AwsEC2SyncAccounts ec2_instance_name=\"AWS_EC2_Instance\" org_instance_name=\"AWS_Organizations_Instance\"\nHuman Readable Output\n#\nSuccessfully updated\nAWS_EC2_Instance\nwith accounts\n#\nAWS Organization Accounts"
+  ],
+  "kind": "script",
+  "name": "AwsEC2SyncAccounts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "!AwsEC2SyncAccounts ec2_instance_name=\"AWS_EC2_Instance\" org_instance_name=\"AWS_Organizations_Instance\"",
+      "required": ""
+    },
+    {
+      "description": "Example command",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AwsEC2SyncAccounts",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/aws-ec2-sync-accounts"
+}

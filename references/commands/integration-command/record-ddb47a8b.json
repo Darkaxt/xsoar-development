@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!nucleon-get-indicators\nContext Example\n#\n{\n\"NucleonCyber\"\n:",
+    "!nucleon-get-indicators\nContext Example\n#\n{\n\"NucleonCyber\"\n:\n{\n\"Indicators\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP/HASH/URL. NucleonCyber.Indicators.exp Indicators exp.",
+      "name": "NucleonCyber.Indicators.value",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "NucleonCyberFeed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/nucleon-cyber-feed"
+}

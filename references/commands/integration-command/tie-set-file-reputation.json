@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The hash of the file.",
+  "examples": [
+    "Command Example\n!file file=3d720dc2b8b0ff23f616aa850447e702eb89047e\nHuman Readable Output\n2. Set the enterprise reputation for a file\nSets the \u201cEnterprise\u201d reputation (trust level) of a specified file. Permissions are required to invoke this method. See the \u2018How-to\u2019 in instance instruction.\nBase Command\ntie-set-file-reputation\nInput",
+    "!file file=3d720dc2b8b0ff23f616aa850447e702eb89047e\nHuman Readable Output\n2. Set the enterprise reputation for a file\nSets the \u201cEnterprise\u201d reputation (trust level) of a specified file. Permissions are required to invoke this method. See the \u2018How-to\u2019 in instance instruction.\nBase Command\ntie-set-file-reputation\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "tie-set-file-reputation",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Threat Intelligence Exchange (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-threat-intelligence-exchange"
+}

@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "(GMT-05:00) Eastern Time (US & Canada)",
+  "examples": [
+    "Command Example\n#\n!remedy-incident-update ID=9 description=\"Turns out it wasn't so bad after all!\" impact=\"4-Minor/Localized\" urgency=\"4-Low\"\nHuman Readable Output\n#\nUpdated incident\n#\nClient Sensitivity",
+    "!remedy-incident-update ID=9 description=\"Turns out it wasn't so bad after all!\" impact=\"4-Minor/Localized\" urgency=\"4-Low\"\nHuman Readable Output\n#\nUpdated incident\n#\nClient Sensitivity\nClient Type\nCompany"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID Ticket.Submitter Ticket submitter",
+      "name": "Ticket.ID",
+      "required": ""
+    },
+    {
+      "description": "Ticket status Ticket.Description Ticket description",
+      "name": "Ticket.Status",
+      "required": ""
+    },
+    {
+      "description": "Ticket reported source Ticket.Impact TicketiImpact",
+      "name": "Ticket.Source",
+      "required": ""
+    },
+    {
+      "description": "Ticket urgency Ticket.Type Ticket service type",
+      "name": "Ticket.Urgency",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Remedy On-Demand (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/remedy-on-demand"
+}

@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "5. Get contact details",
+  "examples": [
+    "Command Example\n!fd-get-contact id=2043022085984\nContext Example\n{\n\"Freshdesk.Contact\": {\n\"Name\": \"Bob Tree\",\n\"Language\": \"en\",\n\"CompanyID\": 44000302032,",
+    "!fd-get-contact id=2043022085984\nContext Example\n{\n\"Freshdesk.Contact\": {\n\"Name\": \"Bob Tree\",\n\"Language\": \"en\",\n\"CompanyID\": 44000302032,\n\"Mobile\": \"+972501231231\","
+  ],
+  "kind": "integration-command",
+  "name": "fd-get-contact",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Set to true if the contact has been verified Freshdesk.Contact.Address Address of the contact",
+      "name": "Freshdesk.Contact.Active",
+      "required": ""
+    },
+    {
+      "description": "ID of the primary company to which this contact belongs Freshdesk.Contact.ViewAllTickets Set to true if the contact can see all tickets that are associated with the company to which s/he belong",
+      "name": "Freshdesk.Contact.CompanyID",
+      "required": ""
+    },
+    {
+      "description": "Set to true if the contact has been deleted Freshdesk.Contact.Description A short description of the contact",
+      "name": "Freshdesk.Contact.Deleted",
+      "required": ""
+    },
+    {
+      "description": "Primary email address of the contact Freshdesk.Contact.Id ID of the contact",
+      "name": "Freshdesk.Contact.Email",
+      "required": ""
+    },
+    {
+      "description": "Job Title of the contact Freshdesk.Contact.Language Language of the contact",
+      "name": "Freshdesk.Contact.JobTitle",
+      "required": ""
+    },
+    {
+      "description": "Mobile number of the contact Freshdesk.Contact.Name Name of the contact",
+      "name": "Freshdesk.Contact.Mobile",
+      "required": ""
+    },
+    {
+      "description": "Telephone number of the contact Freshdesk.Contact.Tag Tags associated with this contact",
+      "name": "Freshdesk.Contact.Phone",
+      "required": ""
+    },
+    {
+      "description": "Time zone in which the contact resides Freshdesk.Contact.TwitterID Twitter handle of the contact",
+      "name": "Freshdesk.Contact.TimeZone",
+      "required": ""
+    },
+    {
+      "description": "External ID of the contact Freshdesk.Contact.CreatedAt Date",
+      "name": "Freshdesk.Contact.UniqueExternalID",
+      "required": ""
+    },
+    {
+      "description": "Freshdesk.Contact.UpdatedAt Date Contact updated timestamp",
+      "name": "Contact creation timestamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Freshdesk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/freshdesk"
+}

@@ -1,0 +1,189 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Lacework.Vulnerability.Container.vulnHash",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "An array of strings to specify which top-level fields of the response schema you want to receive.",
+      "required": "Optional"
+    },
+    {
+      "description": "An integer representing a limit on the number or results to return.",
+      "name": "limit",
+      "required": "Optional"
+    },
+    {
+      "description": "",
+      "name": "Context Output",
+      "required": ""
+    },
+    {
+      "description": "The CVE Properties description Lacework.Vulnerability.Host.cveProps.link The CVE Properties description URL",
+      "name": "Lacework.Vulnerability.Host.cveProps.description",
+      "required": ""
+    },
+    {
+      "description": "Date The end time for the vulnerability evaluation period Lacework.Vulnerability.Host.evalCtx.exception_props.status",
+      "name": "Lacework.Vulnerability.Host.endTime",
+      "required": ""
+    },
+    {
+      "description": "The status of any exception properties for the evaluation Lacework.Vulnerability.Host.evalCtx.hostname The hostname of the host assessed in the evaluation",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The GUID for the evaluation Lacework.Vulnerability.Host.featureKey.name The name of the package identified in the evaluation",
+      "name": "Lacework.Vulnerability.Host.evalCtx.mc_eval_guid",
+      "required": ""
+    },
+    {
+      "description": "The namespace of the package identified in the evaluation Lacework.Vulnerability.Host.featureKey.package_active An integer representing whether the package is Active on the host",
+      "name": "Lacework.Vulnerability.Host.featureKey.namespace",
+      "required": ""
+    },
+    {
+      "description": "The version of the package identified in the evaluation Lacework.Vulnerability.Host.fixInfo.fix_available An integer representing whether a fix is available for the vulnerability",
+      "name": "Lacework.Vulnerability.Host.featureKey.version_installed",
+      "required": ""
+    },
+    {
+      "description": "The version in which the vulnerability is fixed for the CVE and package Lacework.Vulnerability.Host.machineTags A string representing the machine tags in key/value pairs",
+      "name": "Lacework.Vulnerability.Host.fixInfo.fixed_version",
+      "required": ""
+    },
+    {
+      "description": "The machine ID for the host identified in the evaluation Lacework.Vulnerability.Host.severity The severity of the vulnerability identified in the evaluation",
+      "name": "Lacework.Vulnerability.Host.mid",
+      "required": ""
+    },
+    {
+      "description": "Date The start time for the vulnerability evaluation period Lacework.Vulnerability.Host.status",
+      "name": "Lacework.Vulnerability.Host.startTime",
+      "required": ""
+    },
+    {
+      "description": "The status of the vulnerability identified in the evaluation Lacework.Vulnerability.Host.vulnId The vulnerability ID (CVE, ALAS, etc.)",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "A unique hash of all data contained in the vulnerability Edit this page Report an Issue",
+      "name": "Lacework.Vulnerability.Host.vulnHash",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Koodous Next Lansweeper \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands lw-get-alert-details lw-get-aws-compliance-assessment",
+      "name": "Configure Lacework in Cortex",
+      "required": ""
+    },
+    {
+      "description": "lw-get-gcp-compliance-assessment lw-get-gcp-projects-by-organization lw-get-compliance-report",
+      "name": "lw-get-azure-compliance-assessment",
+      "required": ""
+    },
+    {
+      "description": "lw-get-host-vulnerabilities Docs Developer Docs",
+      "name": "lw-get-container-vulnerabilities",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    },
+    {
+      "description": "The CVE Properties description Lacework.Vulnerability.Host.cveProps.link The CVE Properties description URL",
+      "name": "Lacework.Vulnerability.Host.cveProps.description",
+      "required": ""
+    },
+    {
+      "description": "Date The end time for the vulnerability evaluation period Lacework.Vulnerability.Host.evalCtx.exception_props.status",
+      "name": "Lacework.Vulnerability.Host.endTime",
+      "required": ""
+    },
+    {
+      "description": "The status of any exception properties for the evaluation Lacework.Vulnerability.Host.evalCtx.hostname The hostname of the host assessed in the evaluation",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The GUID for the evaluation Lacework.Vulnerability.Host.featureKey.name The name of the package identified in the evaluation",
+      "name": "Lacework.Vulnerability.Host.evalCtx.mc_eval_guid",
+      "required": ""
+    },
+    {
+      "description": "The namespace of the package identified in the evaluation Lacework.Vulnerability.Host.featureKey.package_active An integer representing whether the package is Active on the host",
+      "name": "Lacework.Vulnerability.Host.featureKey.namespace",
+      "required": ""
+    },
+    {
+      "description": "The version of the package identified in the evaluation Lacework.Vulnerability.Host.fixInfo.fix_available An integer representing whether a fix is available for the vulnerability",
+      "name": "Lacework.Vulnerability.Host.featureKey.version_installed",
+      "required": ""
+    },
+    {
+      "description": "The version in which the vulnerability is fixed for the CVE and package Lacework.Vulnerability.Host.machineTags A string representing the machine tags in key/value pairs",
+      "name": "Lacework.Vulnerability.Host.fixInfo.fixed_version",
+      "required": ""
+    },
+    {
+      "description": "The machine ID for the host identified in the evaluation Lacework.Vulnerability.Host.severity The severity of the vulnerability identified in the evaluation",
+      "name": "Lacework.Vulnerability.Host.mid",
+      "required": ""
+    },
+    {
+      "description": "Date The start time for the vulnerability evaluation period Lacework.Vulnerability.Host.status",
+      "name": "Lacework.Vulnerability.Host.startTime",
+      "required": ""
+    },
+    {
+      "description": "The status of the vulnerability identified in the evaluation Lacework.Vulnerability.Host.vulnId The vulnerability ID (CVE, ALAS, etc.)",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "A unique hash of all data contained in the vulnerability Edit this page Report an Issue",
+      "name": "Lacework.Vulnerability.Host.vulnHash",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Koodous Next Lansweeper \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands lw-get-alert-details lw-get-aws-compliance-assessment",
+      "name": "Configure Lacework in Cortex",
+      "required": ""
+    },
+    {
+      "description": "lw-get-gcp-compliance-assessment lw-get-gcp-projects-by-organization lw-get-compliance-report",
+      "name": "lw-get-azure-compliance-assessment",
+      "required": ""
+    },
+    {
+      "description": "lw-get-host-vulnerabilities Docs Developer Docs",
+      "name": "lw-get-container-vulnerabilities",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Lacework",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/lacework"
+}

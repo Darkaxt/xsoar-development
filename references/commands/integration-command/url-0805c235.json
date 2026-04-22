@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "MD5:369c8fc6532ba547d7ef5985bb5e880a",
+  "examples": [
+    "Command Example\n!url url=\"http://8.8.8.8/google.doc\" using=\"FalconIntel V2_instance_1\"\nRaw Output\nDBotScore\n{\n\"Indicator\":\"http://8.8.8.8/google.doc\",\n\"Score\":3,\n\"Type\":\"url\",",
+    "!url url=\"http://8.8.8.8/google.doc\" using=\"FalconIntel V2_instance_1\"\nRaw Output\nDBotScore\n{\n\"Indicator\":\"http://8.8.8.8/google.doc\",\n\"Score\":3,\n\"Type\":\"url\",\n\"Vendor\":\"CrowdStrike\""
+  ],
+  "kind": "integration-command",
+  "name": "url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Malicious URL URL.Malicious.Vendor For malicious URLs, the vendor that made the decision",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the reason that the vendor made that decision DBotScore.Indicator The indicator tested",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Type of indicator tested DBotScore.Vendor Vendor used to calculate the score",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Intel (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-intel"
+}

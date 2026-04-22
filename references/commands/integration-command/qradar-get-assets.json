@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!qradar-get-assets range=0-1\nContext Example\n{\n\"QRadar\": {\n\"Asset\": {\n\"AggregatedCVSSScore\": {\n\"LastUser\": \"USER:admin\",",
+    "!qradar-get-assets range=0-1\nContext Example\n{\n\"QRadar\": {\n\"Asset\": {\n\"AggregatedCVSSScore\": {\n\"LastUser\": \"USER:admin\",\n\"Value\": \"h\""
+  ],
+  "kind": "integration-command",
+  "name": "qradar-get-assets",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the asset Endpoint.IPAddress IP address of the asset",
+      "name": "QRadar.Assets.ID",
+      "required": ""
+    },
+    {
+      "description": "Name of the asset Endpoint.OS Asset OS",
+      "name": "QRadar.Assets.Name.Value",
+      "required": ""
+    },
+    {
+      "description": "CVSSScore QRadar.Assets.AggregatedCVSSScore.LastUser Last user who updated the Aggregated CVSS Score",
+      "name": "QRadar.Assets.AggregatedCVSSScore.Value",
+      "required": ""
+    },
+    {
+      "description": "Asset weight QRadar.Assets.Weight.LastUser Last user who updated the weight",
+      "name": "QRadar.Assets.Weight.Value",
+      "required": ""
+    },
+    {
+      "description": "Last user who updated the name",
+      "name": "QRadar.Assets.Name.LastUser",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM QRadar (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/q-radar"
+}

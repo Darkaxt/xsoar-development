@@ -1,0 +1,55 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this command.",
+      "required": ""
+    }
+  ],
+  "description": "There are no inputs for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "checkpoint-delete-rule",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "7. Delete a rule Deletes a rule from Check Point Firewall. Base Command",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "checkpoint-delete-rule",
+      "required": ""
+    },
+    {
+      "description": "Troubleshooting If you receive the following 400 Bad Request error when running the checkpoint-block-ip",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Manage & Settings > Sessions > View Sessions . 400 Bad Request - Runtime error: An object is locked by another session",
+      "name": "command,\u00a0you need to disconnect (clear) all other sessions in the SmartConsole, even if they appear to be disconnected. In SmartConsole, navigate to",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Check Point Dome9 (CloudGuard)",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Check Point Harmony Email and Collaboration (HEC) \u00bb Docs Developer Docs",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Check Point Firewall (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/check-point"
+}

@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Zafran.UpstreamMitigation.message",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Internal status code. Zafran.MitigationsPerformedResponse.message Error message.",
+      "name": "Zafran.MitigationsPerformedResponse.internal_status_code",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Zabbix",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Zendesk v2 \u00bb Configure Zafran API on Cortex XSOAR Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "zafran-mitigations-export zafran-mitigations-performed Docs",
+      "name": "zafran-mitigation-performed",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Zafran API",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/zafran-api"
+}

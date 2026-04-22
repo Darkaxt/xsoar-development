@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get details for a single alert: nsm-get-alert-details",
+  "examples": [
+    "Command Example\n!nsm-get-sensors domainID=0\nContext Example\n{\n\"NSM\": {\n\"Sensors\": {\n\"Description\": \"MCAFEE-NETWORK-SECURITY-PLATFORM\",\n\"DomainID\": 0,",
+    "!nsm-get-sensors domainID=0\nContext Example\n{\n\"NSM\": {\n\"Sensors\": {\n\"Description\": \"MCAFEE-NETWORK-SECURITY-PLATFORM\",\n\"DomainID\": 0,\n\"ID\": 1001,"
+  ],
+  "kind": "integration-command",
+  "name": "nsm-get-sensors",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Sensor ID NSM.Sensors.Description Sensor description",
+      "name": "NSM.Sensors.ID",
+      "required": ""
+    },
+    {
+      "description": "Sensor's domain ID",
+      "name": "NSM.Sensors.DomainID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee NSM (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-nsm"
+}

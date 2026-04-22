@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "AWS.CloudTrail.Events.CloudTrailEvent",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the CloudTrail trail is currently logging Amazon Web Services API calls. AWS.CloudTrail.TrailStatus.LatestDeliveryError Displays any Amazon S3 error that CloudTrail encountered when attempting to deliver log files to the designated bucket.",
+      "name": "AWS.CloudTrail.TrailStatus.IsLogging",
+      "required": ""
+    },
+    {
+      "description": "Displays any Amazon SNS error that CloudTrail encountered when attempting to send a notification. AWS.CloudTrail.TrailStatus.LatestDeliveryTime date",
+      "name": "AWS.CloudTrail.TrailStatus.LatestNotificationError",
+      "required": ""
+    },
+    {
+      "description": "AWS.CloudTrail.TrailStatus.LatestNotificationTime date Specifies the date and time of the most recent Amazon SNS notification that CloudTrail has written a new log file to an account\u2019s Amazon S3 bucket.",
+      "name": "Specifies the date and time that CloudTrail last delivered log files to an account\u2019s Amazon S3 bucket.",
+      "required": ""
+    },
+    {
+      "description": "date Specifies the most recent date and time when CloudTrail started recording API calls for an Amazon Web Services account. AWS.CloudTrail.TrailStatus.StopLoggingTime",
+      "name": "AWS.CloudTrail.TrailStatus.StartLoggingTime",
+      "required": ""
+    },
+    {
+      "description": "Specifies the most recent date and time when CloudTrail stopped recording API calls for an Amazon Web Services account. AWS.CloudTrail.TrailStatus.LatestCloudWatchLogsDeliveryError Displays any CloudWatch Logs error that CloudTrail encountered when attempting to deliver logs to CloudWatch Logs.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "date Displays the most recent date and time when CloudTrail delivered logs to CloudWatch Logs. AWS.CloudTrail.TrailStatus.LatestDigestDeliveryTime",
+      "name": "AWS.CloudTrail.TrailStatus.LatestCloudWatchLogsDeliveryTime",
+      "required": ""
+    },
+    {
+      "description": "Specifies the date and time that CloudTrail last delivered a digest file to an account\u2019s Amazon S3 bucket. AWS.CloudTrail.TrailStatus.LatestDigestDeliveryError Displays any Amazon S3 error that CloudTrail encountered when attempting to deliver a digest file to the designated bucket.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab AWS - Athena",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "AWS - CloudWatchLogs \u00bb Configure AWS - CloudTrail in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "aws-cloudtrail-delete-trail aws-cloudtrail-describe-trails aws-cloudtrail-update-trail",
+      "name": "aws-cloudtrail-create-trail",
+      "required": ""
+    },
+    {
+      "description": "aws-cloudtrail-stop-logging aws-cloudtrail-lookup-events aws-cloudtrail-get-trail-status",
+      "name": "aws-cloudtrail-start-logging",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - CloudTrail",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---cloud-trail"
+}

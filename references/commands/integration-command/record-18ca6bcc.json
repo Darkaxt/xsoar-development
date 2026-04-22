@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!fireeye-hx-host-acquisitions-list agentId=SomeAgentID\nHuman Readable Output\n#\n_id\nacq_type\nrequest_time\nstate\n12345"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The acquisition ID. FireEyeHX.Host.Acquisitions.All.state The state of the acquisition.",
+      "name": "FireEyeHX.Host.Acquisitions.All._id",
+      "required": ""
+    },
+    {
+      "description": "The type of acquisition. FireEyeHX.Host.Acquisitions.All.request_time Date",
+      "name": "FireEyeHX.Host.Acquisitions.All.acq_type",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The requested date of the acquisition.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FireEye Endpoint Security (HX) v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fire-eye-hx-v2"
+}

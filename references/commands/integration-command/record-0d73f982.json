@@ -1,0 +1,58 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!dehashed-search asset_type=name operation=regex value=joh?n(ath[oa]n)",
+  "examples": [
+    "!dehashed-search asset_type=name operation=regex value=joh?n(ath[oa]n)\nHuman Readable Output\n#\nemail\n#\nChecks if an email address was compromised.\nBase Command\n#",
+    "Command Example\n#\n!email email=\nor-gal@gmail.com\nHuman Readable Output\n#\nEdit this page\nReport an Issue",
+    "!email email=\nor-gal@gmail.com\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious\n\u00ab DeepL"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the object. DeHashed.Search.Email Email address of the object.",
+      "name": "DeHashed.Search.Id",
+      "required": ""
+    },
+    {
+      "description": "Username of the object. DeHashed.Search.Password Password of the object.",
+      "name": "DeHashed.Search.Username",
+      "required": ""
+    },
+    {
+      "description": "Hashed password of the object. DeHashed.Search.Name Name of the object.",
+      "name": "DeHashed.Search.HashedPassword",
+      "required": ""
+    },
+    {
+      "description": "Vehicle identification of the object. DeHashed.Search.Address Address of the object.",
+      "name": "DeHashed.Search.Vin",
+      "required": ""
+    },
+    {
+      "description": "IP address of the object. DeHashed.Search.Phone Phone number of the object.",
+      "name": "DeHashed.Search.IpDddress",
+      "required": ""
+    },
+    {
+      "description": "Source of the object. DBotScore.Indicator The indicator that was tested.",
+      "name": "DeHashed.Search.ObtainedFrom",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Reliability Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DeHashed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/de-hashed"
+}

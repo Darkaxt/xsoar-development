@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!archer-update-record applicationId=433 contentId=227538 fieldsToValues={\\\"Title\\\":\\\"test\\\"}",
+  "examples": [
+    "Command Example\n!archer-update-record applicationId=433 contentId=227538 fieldsToValues={\\\"Title\\\":\\\"test\\\"}\nRaw Output\ncontent id = 227538 was updated successfully.\nGet record information\nReturns information for a content record in a specified application.\nBase Command\narcher-get-record",
+    "!archer-update-record applicationId=433 contentId=227538 fieldsToValues={\\\"Title\\\":\\\"test\\\"}\nRaw Output\ncontent id = 227538 was updated successfully.\nGet record information\nReturns information for a content record in a specified application.\nBase Command\narcher-get-record\nInput",
+    "Command Example\n!archer-get-record applicationId=433 contentId=227538\nRaw Output\n\"Record\": {\n\"Fields\": {\n\"Actor, Tactics \\u0026 Techniques\": null,\n\"Affected Facility\": null,\n\"Archive\": null,",
+    "!archer-get-record applicationId=433 contentId=227538\nRaw Output\n\"Record\": {\n\"Fields\": {\n\"Actor, Tactics \\u0026 Techniques\": null,\n\"Affected Facility\": null,\n\"Archive\": null,\n\"Attach to InfoSec Briefing\": null,"
+  ],
+  "kind": "integration-command",
+  "name": "archer-get-record",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

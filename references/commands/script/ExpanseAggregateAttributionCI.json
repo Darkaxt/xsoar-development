@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "expanse-aggregate-attribution-ci"
+  ],
+  "arguments": [
+    {
+      "description": "current Current aggregation state.",
+      "name": "Input list.",
+      "required": ""
+    }
+  ],
+  "description": "ExpanseAggregateAttributionCI | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ExpanseAggregateAttributionCI",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name of the CI Expanse.AttributionCI.sys_id ServiceNow Sys ID",
+      "name": "Expanse.AttributionCI.name",
+      "required": ""
+    },
+    {
+      "description": "Expanse.AttributionCI.sys_class_name Class Name of the CI Expanse.AttributionCI.asset_display_value",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Expanse.AttributionCI.asset_link Link to the asset Expanse.AttributionCI.asset_value",
+      "name": "Name of the Asset",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "ID of the asset",
+      "required": ""
+    },
+    {
+      "description": "Next ExpanseAggregateAttributionDevice \u00bb Script Data",
+      "name": "\u00ab Exists",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExpanseAggregateAttributionCI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/expanse-aggregate-attribution-ci"
+}

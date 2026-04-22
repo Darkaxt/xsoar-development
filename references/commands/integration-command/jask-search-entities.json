@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "9. Search JASK entities",
+  "examples": [
+    "Command Example\n!jask-search-entities entity-type=ip limit=3 time-from=08/04/2018 time-to=08/05/2018\nContext Example\n{\n\"Jask\": {\n\"Entity\": [\n{\n\"EntityType\": \"ip\",",
+    "!jask-search-entities entity-type=ip limit=3 time-from=08/04/2018 time-to=08/05/2018\nContext Example\n{\n\"Jask\": {\n\"Entity\": [\n{\n\"EntityType\": \"ip\",\n\"Name\": \"112.175.209.72\","
+  ],
+  "kind": "integration-command",
+  "name": "jask-search-entities",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Entity ID Jask.Entity.Name Entity name",
+      "name": "Jask.Entity.Id",
+      "required": ""
+    },
+    {
+      "description": "When the entity was first seen Jask.Entity.LastSeen When the entity was last seen",
+      "name": "Jask.Entity.FirstSeen",
+      "required": ""
+    },
+    {
+      "description": "The source of the entity Jask.Entity.EntityType Entity type",
+      "name": "Jask.Entity.Source",
+      "required": ""
+    },
+    {
+      "description": "The primary entity type Jask.Entity.HostName Entity hostname",
+      "name": "Jask.Entity.PrimaryEntityType",
+      "required": ""
+    },
+    {
+      "description": "Entity risk score Jask.Entity.IsWhiteListed Whether or not the entity is on allow list",
+      "name": "Jask.Entity.RiskScore",
+      "required": ""
+    },
+    {
+      "description": "The groups of the entity Jask.Entity.Ip.Address Entity IP address",
+      "name": "Jask.Entity.Groups",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Jask (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jask"
+}

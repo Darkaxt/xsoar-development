@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2) Other vulnerable domains use a certificate that is valid for the domain. Sharing trust with vulnerable domains exposes the domain to risk if the vulnerable domains are hacked. Although the certificates are different, if the other certificate is valid for the domain and it is compromised, attackers can abuse it to impersonate the domain.",
+  "examples": [
+    "Command Example\n#\n!cyberpion-get-domain-state domain=\"$anon100-2.com\"\nContext Example\n#\n{\n\"Cyberpion\"\n:",
+    "!cyberpion-get-domain-state domain=\"$anon100-2.com\"\nContext Example\n#\n{\n\"Cyberpion\"\n:\n{\n\"DomainState\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Domain State ID Cyberpion.DomainState.domain The Domain",
+      "name": "Cyberpion.DomainState.id",
+      "required": ""
+    },
+    {
+      "description": "Reverse Ip's of domain's ips Cyberpion.DomainState.risk_rank Domain's risk rank",
+      "name": "Cyberpion.DomainState.ips",
+      "required": ""
+    },
+    {
+      "description": "Number of vulnerabilities associated with domain Cyberpion.DomainState.cname_chain Domain's CName chain (DNS record)",
+      "name": "Cyberpion.DomainState.vuln_count",
+      "required": ""
+    },
+    {
+      "description": "Domain's infrastructure info (provider etc.) Cyberpion.DomainState.discovery_date Date",
+      "name": "Cyberpion.DomainState.domain_types",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The Date domain was discovered",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cyberpion",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyberpion"
+}

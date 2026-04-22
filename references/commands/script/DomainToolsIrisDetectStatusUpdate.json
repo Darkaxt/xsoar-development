@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "domain-tools-iris-detect-status-update"
+  ],
+  "arguments": [],
+  "description": "DomainToolsIrisDetectStatusUpdate | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DomainToolsIrisDetectStatusUpdate",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DomainToolsIrisDetectStatusUpdate",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/domain-tools-iris-detect-status-update"
+}

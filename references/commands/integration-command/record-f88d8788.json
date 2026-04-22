@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Gatewatcher.Malcore.Fingerprints.Add",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Hash list informations. Edit this page Report an Issue",
+      "name": "Gatewatcher.Malcore.Fingerprints.Remove",
+      "required": ""
+    },
+    {
+      "description": "\u00ab GCenter Next GCP Whitelist Feed (Deprecated) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands gcenter103-alerts-list gcenter103-alerts-get",
+      "name": "Configure GCenter 103 in Cortex",
+      "required": ""
+    },
+    {
+      "description": "gcenter103-alerts-note-remove gcenter103-alerts-tags-get gcenter103-alerts-tags-add",
+      "name": "gcenter103-alerts-note-add",
+      "required": ""
+    },
+    {
+      "description": "gcenter103-alerts-status-update gcenter103-raw-alerts-get gcenter103-raw-alerts-file-get",
+      "name": "gcenter103-alerts-tags-remove",
+      "required": ""
+    },
+    {
+      "description": "gcenter103-file-scan-result-get gcenter103-assets-list gcenter103-assets-alerts-get",
+      "name": "gcenter103-file-scan",
+      "required": ""
+    },
+    {
+      "description": "gcenter103-assets-note-add gcenter103-assets-note-remove gcenter103-assets-tags-get",
+      "name": "gcenter103-assets-get",
+      "required": ""
+    },
+    {
+      "description": "gcenter103-assets-tags-remove gcenter103-users-list gcenter103-users-alerts-get",
+      "name": "gcenter103-assets-tags-add",
+      "required": ""
+    },
+    {
+      "description": "gcenter103-users-note-add gcenter103-users-note-remove gcenter103-users-tags-get",
+      "name": "gcenter103-users-get",
+      "required": ""
+    },
+    {
+      "description": "gcenter103-users-tags-remove gcenter103-yara-rules-get gcenter103-yara-rules-add",
+      "name": "gcenter103-users-tags-add",
+      "required": ""
+    },
+    {
+      "description": "gcenter103-malcore-fingerprints-add gcenter103-malcore-fingerprints-remove Docs",
+      "name": "gcenter103-malcore-fingerprints-get",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GCenter 103",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/g-center-103"
+}

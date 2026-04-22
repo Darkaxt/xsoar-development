@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "harmony-ep-agent-vpn-site-remove",
+  "examples": [
+    "!harmony-ep-agent-vpn-site-remove display_name='test' computer_ids=1\nContext Example\n#\n{\n\"HarmonyEP\"\n:\n{\n\"VPNsiteConfigurationRemove\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The job ID of the remediation operation. HarmonyEP.VPNsiteConfigurationRemove.PushOperation.id The remediation operation ID.",
+      "name": "HarmonyEP.VPNsiteConfigurationRemove.PushOperation.job_id",
+      "required": ""
+    },
+    {
+      "description": "Describes possible states in which a push operation may be in regards to a specific device. HarmonyEP.VPNsiteConfigurationRemove.PushOperation.response.status Push operation response status.",
+      "name": "HarmonyEP.VPNsiteConfigurationRemove.PushOperation.status",
+      "required": ""
+    },
+    {
+      "description": "Push operation response output. HarmonyEP.VPNsiteConfigurationRemove.PushOperation.machine.ipAddress The client device's IPv4 address.",
+      "name": "HarmonyEP.VPNsiteConfigurationRemove.PushOperation.response.output",
+      "required": ""
+    },
+    {
+      "description": "The client device's name. HarmonyEP.VPNsiteConfigurationRemove.PushOperation.machine.id The client device's unique ID.",
+      "name": "HarmonyEP.VPNsiteConfigurationRemove.PushOperation.machine.name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Check Point Harmony Endpoint",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/check-point-harmony-endpoint"
+}

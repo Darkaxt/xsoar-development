@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n#### Context Example\n```json\n{\n\"Alexa\": {\n\"Domain\": [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The domain being checked. DBotScore.Score The actual score.",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. Alexa.Domain.Indicator The domain being checked.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The domain being checked. Alexa.Domain.Rank Alexa rank as determined by Amazon.",
+      "name": "Alexa.Domain.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Alexa Rank Indicator v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/alexa-rank-indicator-v2"
+}

@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "} 3 items Name: iexplore.exe RelType:8 Sha256: Reputation:15 Risk: --- Severity:-2 Url: WIN-K0RA93TITV8 Verdict:{",
+  "examples": [
+    "Command Examples\n!atd-check-status taskId=${ATD.Task.taskId}\n!atd-check-status jobId=[220,34]\nContext Example\n{\nroot:[\n] 2 items 0:{\n} 16 items PEInfo:0 asmListing:0 family:0 filename: xxxxxxx istate:1 jobid:218 md5: xxxxxxxxxxxxxxxxxxx status: Completed submitTime:2018-05 -08 03:56:34 summaryFiles:1 taskid:220 useLogs:0 userid:1 vmDesc: vmName: xxxxxxxxxxxxx vmProfile: xx 1:{",
+    "!atd-check-status taskId=${ATD.Task.taskId}\n!atd-check-status jobId=[220,34]\nContext Example\n{\nroot:[\n] 2 items 0:{\n} 16 items PEInfo:0 asmListing:0 family:0 filename: xxxxxxx istate:1 jobid:218 md5: xxxxxxxxxxxxxxxxxxx status: Completed submitTime:2018-05 -08 03:56:34 summaryFiles:1 taskid:220 useLogs:0 userid:1 vmDesc: vmName: xxxxxxxxxxxxx vmProfile: xx 1:{\n} 16 items PEInfo:0 asmListing:0 family:0 filename: xxxxx istate:1 jobid:219 md5: xxxxxxxxxxxxxxxxx status: Completed submitTime:2018-05 -12 19:23:33 summaryFiles:1 taskid:221 useLogs:0 userid:1 vmDesc: vmName: xxxxxxxx vmProfile:xx",
+    "!atd-check-status jobId=[220,34]\nContext Example\n{\nroot:[\n] 2 items 0:{\n} 16 items PEInfo:0 asmListing:0 family:0 filename: xxxxxxx istate:1 jobid:218 md5: xxxxxxxxxxxxxxxxxxx status: Completed submitTime:2018-05 -08 03:56:34 summaryFiles:1 taskid:220 useLogs:0 userid:1 vmDesc: vmName: xxxxxxxxxxxxx vmProfile: xx 1:{\n} 16 items PEInfo:0 asmListing:0 family:0 filename: xxxxx istate:1 jobid:219 md5: xxxxxxxxxxxxxxxxx status: Completed submitTime:2018-05 -12 19:23:33 summaryFiles:1 taskid:221 useLogs:0 userid:1 vmDesc: vmName: xxxxxxxx vmProfile:xx\n}"
+  ],
+  "kind": "integration-command",
+  "name": "atd-check-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The task ID status (Completed or Analyzing) ATD.Task.taskId This is the returned TaskId value in the submission step, previously returned value in the File/URL submission step",
+      "name": "ATD.status",
+      "required": ""
+    },
+    {
+      "description": "The returned JobId value in the submission step, previously returned value in the File/URL submission step ATD.Task.status The task ID status (Completed or Analyzing)",
+      "name": "ATD.Task.jobId",
+      "required": ""
+    },
+    {
+      "description": "The name of the uploaded sample ATD.Task.MD5 MD5 of the sample",
+      "name": "ATD.Task.filename",
+      "required": ""
+    },
+    {
+      "description": "Time the sample was submitted Command Examples !atd-check-status taskId=${ATD.Task.taskId}",
+      "name": "ATD.Task.submitTime",
+      "required": ""
+    },
+    {
+      "description": "Context Example { root:[",
+      "name": "!atd-check-status jobId=[220,34]",
+      "required": ""
+    },
+    {
+      "description": "} 16 items PEInfo:0 asmListing:0 family:0 filename: xxxxxxx istate:1 jobid:218 md5: xxxxxxxxxxxxxxxxxxx status: Completed submitTime:2018-05 -08 03:56:34 summaryFiles:1 taskid:220 useLogs:0 userid:1 vmDesc: vmName: xxxxxxxxxxxxx vmProfile: xx 1:{ } 16 items PEInfo:0 asmListing:0 family:0 filename: xxxxx istate:1 jobid:219 md5: xxxxxxxxxxxxxxxxx status: Completed submitTime:2018-05 -12 19:23:33 summaryFiles:1 taskid:221 useLogs:0 userid:1 vmDesc: vmName: xxxxxxxx vmProfile:xx }",
+      "name": "] 2 items 0:{",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Advanced Threat Defense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-advanced-threat-defense"
+}

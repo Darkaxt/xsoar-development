@@ -1,0 +1,28 @@
+{
+  "aliases": [
+    "#GUEST"
+  ],
+  "arguments": [],
+  "description": "The ID of the group to retrieve details for.",
+  "examples": [
+    "!hda-list-groups\nContext Example\n#\n{\n\"HelpdeskAdvanced\"\n:\n{\n\"Group\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The group ID. HelpdeskAdvanced.Group.ObjectTypeID The object type ID of the group.",
+      "name": "HelpdeskAdvanced.Group.ID",
+      "required": ""
+    },
+    {
+      "description": "The group description.",
+      "name": "HelpdeskAdvanced.Group.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PAT HelpdeskAdvanced",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/pat-helpdesk-advanced"
+}

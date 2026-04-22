@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "find-playbook-custom-dependencies"
+  ],
+  "arguments": [],
+  "description": "FindPlaybookCustomDependencies | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "FindPlaybookCustomDependencies",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Context Path for the outputs of the playbooks using a custom script FindPlaybookCustomDependencies.CustomDependencies.CustomIntegrations Context Path for the outputs of the playbooks using a custom integrations",
+      "name": "FindPlaybookCustomDependencies.CustomDependencies.CustomScripts",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next FindSimilarIncidents \u00bb Script Data",
+      "name": "\u00ab findIncidentsWithIndicator",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FindPlaybookCustomDependencies",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/find-playbook-custom-dependencies"
+}

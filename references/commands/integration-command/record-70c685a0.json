@@ -1,0 +1,194 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Returns the summary information available for the given list of IP addresses.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The IP address. TeamCymruScout.IP.country_code The country code.",
+      "name": "TeamCymruScout.IP.ip",
+      "required": ""
+    },
+    {
+      "description": "The autonomous system number. TeamCymruScout.IP.as_info.as_name The autonomous system name.",
+      "name": "TeamCymruScout.IP.as_info.asn",
+      "required": ""
+    },
+    {
+      "description": "The overall rating for the IP address. TeamCymruScout.IP.insights.insights.rating The individual insight rating for the IP address.",
+      "name": "TeamCymruScout.IP.insights.overall_rating",
+      "required": ""
+    },
+    {
+      "description": "The individual insight message for the IP address. TeamCymruScout.IP.tags.id The ID of the tag.",
+      "name": "TeamCymruScout.IP.insights.insights.message",
+      "required": ""
+    },
+    {
+      "description": "The name of the tag. TeamCymruScout.IP.tags.children.id The ID of the child tag.",
+      "name": "TeamCymruScout.IP.tags.name",
+      "required": ""
+    },
+    {
+      "description": "The name of the child tag. TeamCymruScout.IP.tags.children.children The children of the child tag.",
+      "name": "TeamCymruScout.IP.tags.children.name",
+      "required": ""
+    },
+    {
+      "description": "The name of the Cortex XSOAR command that triggered the Foundation API. TeamCymruScout.QueryUsage.request_id The unique request ID of the Foundation API response.",
+      "name": "TeamCymruScout.QueryUsage.command_name",
+      "required": ""
+    },
+    {
+      "description": "The list of IP addresses for which the Foundation API was triggered. TeamCymruScout.QueryUsage.used_queries The number of queries used.",
+      "name": "TeamCymruScout.QueryUsage.ips",
+      "required": ""
+    },
+    {
+      "description": "The number of remaining queries. TeamCymruScout.QueryUsage.query_limit The total number of queries allowed.",
+      "name": "TeamCymruScout.QueryUsage.remaining_queries",
+      "required": ""
+    },
+    {
+      "description": "The number of queries used for the Foundation API. TeamCymruScout.QueryUsage.foundation_api_usage.remaining_queries The number of remaining queries for the Foundation API.",
+      "name": "TeamCymruScout.QueryUsage.foundation_api_usage.used_queries",
+      "required": ""
+    },
+    {
+      "description": "The total number of queries allowed for the Foundation API. IP.Address IP address.",
+      "name": "TeamCymruScout.QueryUsage.foundation_api_usage.query_limit",
+      "required": ""
+    },
+    {
+      "description": "The source of the relationship. IP.Relationships.EntityB The destination of the relationship.",
+      "name": "IP.Relationships.EntityA",
+      "required": ""
+    },
+    {
+      "description": "The name of the relationship. IP.Relationships.EntityAType The type of the source of the relationship.",
+      "name": "IP.Relationships.Relationship",
+      "required": ""
+    },
+    {
+      "description": "The type of the destination of the relationship. IP.ASN The autonomous system name for the IP address, for example: \"AS8948\".",
+      "name": "IP.Relationships.EntityBType",
+      "required": ""
+    },
+    {
+      "description": "The hostname that is mapped to this IP address. IP.Geo.Location The geolocation where the IP address is located, in the format: latitude:longitude.",
+      "name": "IP.Hostname",
+      "required": ""
+    },
+    {
+      "description": "The country in which the IP address is located. IP.Geo.Description Additional information about the location.",
+      "name": "IP.Geo.Country",
+      "required": ""
+    },
+    {
+      "description": "The total number of engines that checked the indicator. IP.PositiveDetections The number of engines that positively detected the indicator as malicious.",
+      "name": "IP.DetectionEngines",
+      "required": ""
+    },
+    {
+      "description": "The vendor reporting the IP address as malicious. IP.Malicious.Description A description explaining why the IP address was reported as malicious.",
+      "name": "IP.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "(List) Tags of the IP address. IP.FeedRelatedIndicators.value Indicators that are associated with the IP address.",
+      "name": "IP.Tags",
+      "required": ""
+    },
+    {
+      "description": "The type of the indicators that are associated with the IP address. IP.FeedRelatedIndicators.description The description of the indicators that are associated with the IP address.",
+      "name": "IP.FeedRelatedIndicators.type",
+      "required": ""
+    },
+    {
+      "description": "The malware family associated with the IP address. IP.Organization.Name The organization of the IP address.",
+      "name": "IP.MalwareFamily",
+      "required": ""
+    },
+    {
+      "description": "The organization type of the IP address. IP.ASOwner The autonomous system owner of the IP address.",
+      "name": "IP.Organization.Type",
+      "required": ""
+    },
+    {
+      "description": "The region in which the IP address is located. IP.Port Ports that are associated with the IP address.",
+      "name": "IP.Region",
+      "required": ""
+    },
+    {
+      "description": "Whether the IP address is internal or external. IP.UpdatedDate Date",
+      "name": "IP.Internal",
+      "required": ""
+    },
+    {
+      "description": "IP.Registrar.Abuse.Name The name of the contact for reporting abuse. IP.Registrar.Abuse.Address",
+      "name": "The date that the IP address was last updated.",
+      "required": ""
+    },
+    {
+      "description": "The address of the contact for reporting abuse. IP.Registrar.Abuse.Country The country of the contact for reporting abuse.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The network of the contact for reporting abuse. IP.Registrar.Abuse.Phone The phone number of the contact for reporting abuse.",
+      "name": "IP.Registrar.Abuse.Network",
+      "required": ""
+    },
+    {
+      "description": "The email address of the contact for reporting abuse. IP.Campaign The campaign associated with the IP address.",
+      "name": "IP.Registrar.Abuse.Email",
+      "required": ""
+    },
+    {
+      "description": "The Traffic Light Protocol (TLP) color that is suitable for the IP address. IP.CommunityNotes.note Notes on the IP address that were given by the community.",
+      "name": "IP.TrafficLightProtocol",
+      "required": ""
+    },
+    {
+      "description": "Date The time in which the note was published. IP.Publications.source",
+      "name": "IP.CommunityNotes.timestamp",
+      "required": ""
+    },
+    {
+      "description": "The source in which the article was published. IP.Publications.title The name of the article.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "A link to the original article. IP.Publications.timestamp Date",
+      "name": "IP.Publications.link",
+      "required": ""
+    },
+    {
+      "description": "IP.ThreatTypes.threatcategory The threat category associated to this indicator by the source vendor. For example, Phishing, Control, TOR, etc. IP.ThreatTypes.threatcategoryconfidence",
+      "name": "The time in which the article was published.",
+      "required": ""
+    },
+    {
+      "description": "The confidence level provided by the vendor for the threat type category For example a confidence of 90 for threat type category 'malware' means that the vendor rates that this is 90% confidence of being a malware. DBotScore.Indicator The indicator that was tested.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The reputation score (0: Unknown, 1: Good, 2: Suspicious, 3: Bad).",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Team Cymru Scout",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/team-cymru-scout"
+}

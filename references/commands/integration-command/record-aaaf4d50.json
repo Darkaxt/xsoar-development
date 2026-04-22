@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "test_user2@example.com",
+  "examples": [
+    "!tessian-delete-from-inbox event_id=\"string\"\nContext Example\n#\n{\n\"Tessian\"\n:\n{\n\"EventsOutput\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The number of users that delete from inbox actions were attempted for. Tessian.DeleteFromQuarantineOutput.number_of_actions_succeeded The number of users that the delete from inbox action was successful for.",
+      "name": "Tessian.DeleteFromQuarantineOutput.number_of_actions_attempted",
+      "required": ""
+    },
+    {
+      "description": "The results of the delete action. This is an array of objects mapping the email address of users to the result of the delete action. Tessian.DeleteFromQuarantineOutput.event_id The event ID that was submitted for deletion.",
+      "name": "Tessian.DeleteFromQuarantineOutput.results",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tessian",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tessian"
+}

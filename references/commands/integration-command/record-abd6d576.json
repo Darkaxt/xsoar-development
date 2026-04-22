@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "and paste it in your instance configuration under the",
+  "examples": [
+    "!ms-management-activity-auth-reset\n. This command resets the authentication mechanism, allowing for the new credentials to be accepted.\nInsert the newly created credentials into the original instance where the error occurred. Make sure the credentials are entered correctly to avoid further errors.\nAfter updating the credentials, test the integration.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Microsoft Intune Feed"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Additional Information",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Microsoft documentation . For example, in order to fetch events of type MailSubmission",
+      "name": "Record types to fetch from should be set with numerical values from the",
+      "required": ""
+    },
+    {
+      "description": "29 should be set. Note that the API only supports start times up to 7 days in the past when fetching. If the last fetch timestamp exceeds this limit, the integration automatically fetches data from 7 days ago.",
+      "name": ", the value",
+      "required": ""
+    },
+    {
+      "description": "Troubleshooting",
+      "name": "The credentials are valid for a single instance only.",
+      "required": ""
+    },
+    {
+      "description": "hash verification error: Use the Oproxy flow to generate a new pair of credentials. This is crucial as it ensures that any issues related to authentication can be mitigated with fresh credentials.",
+      "name": "In case of a",
+      "required": ""
+    },
+    {
+      "description": "!ms-management-activity-auth-reset . This command resets the authentication mechanism, allowing for the new credentials to be accepted. Insert the newly created credentials into the original instance where the error occurred. Make sure the credentials are entered correctly to avoid further errors.",
+      "name": "Execute the command",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "After updating the credentials, test the integration.",
+      "required": ""
+    },
+    {
+      "description": "Next Microsoft Policy And Compliance (Audit Log) \u00bb Self-Deployed Azure App",
+      "name": "\u00ab Microsoft Intune Feed",
+      "required": ""
+    },
+    {
+      "description": "Fetch Alerts Commands ms-management-activity-start-subscription",
+      "name": "Configure Microsoft Management Activity API (O365 Azure Events) in Cortex",
+      "required": ""
+    },
+    {
+      "description": "ms-management-activity-list-subscriptions Current Subscriptions ms-management-activity-list-content",
+      "name": "ms-management-activity-stop-subscription",
+      "required": ""
+    },
+    {
+      "description": "ms-management-activity-generate-login-url ms-management-activity-auth-reset Additional Information",
+      "name": "Content for content type audit.general",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Troubleshooting",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Management Activity API (O365 Azure Events)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-management-activity-api-o365-azure-events"
+}

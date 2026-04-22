@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Delete IP address from a tag",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "nodeid of IP genians.tag.Name Tag name",
+      "name": "genians.tag.nodeId",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Raw Output",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "[]",
+      "required": ""
+    },
+    {
+      "description": "Next Gigamon ThreatINSIGHT \u00bb Genians Genian NAC Module Requirements",
+      "name": "\u00ab Genetec Security Center Event Collector",
+      "required": ""
+    },
+    {
+      "description": "Configure Genian NAC in Cortex Commands Post IP address to a tag",
+      "name": "Configuration Parameters",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Delete IP address from a tag",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Genians",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/genians"
+}

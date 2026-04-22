@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "un-pack-file"
+  ],
+  "arguments": [],
+  "description": "UnPackFile | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "UnPackFile",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The list of file names which are extracted from the package. Edit this page Report an Issue",
+      "name": "ExtractedFiles",
+      "required": ""
+    },
+    {
+      "description": "\u00ab UnitTestResults Next UnpublishThreatIntelReport \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "UnPackFile",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/un-pack-file"
+}

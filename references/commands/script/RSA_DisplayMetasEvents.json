@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "rsa-display-metas-events"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "RSA_DisplayMetasEvents | Cortex XSOAR",
+  "examples": [
+    "!SetRSANetWitnessAlertsMD\nContext Example\n#\n{\n\"Metas Events\"\n:\n[\n{"
+  ],
+  "kind": "script",
+  "name": "RSA_DisplayMetasEvents",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!SetRSANetWitnessAlertsMD",
+      "required": ""
+    },
+    {
+      "description": "\"Metas Events\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"meta1\" : \"value meta 1\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"meta2\" : \"value meta 2\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"meta3\" : \"value meta 3\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"id\" : \"dummy_id\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"riskScore\" : \"50\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"source\" : \"NetWitness Investigate\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"title\" : \"sk_test300\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"type\" : \"Log\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "} ] }",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA_DisplayMetasEvents",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/rsa-display-metas-events"
+}

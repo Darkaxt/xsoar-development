@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "#### Command Example\nHuman Readable Output\n#\nnt-endpoint-details\n#\nGet endpoint details.\nBase Command\n#",
+    "Command Example\n#\n#### Human Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab Netskope Event Collector v2\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Endpoint device host name. Nexthink.Endpoint.LastLoggedOnUser Last logged on user.",
+      "name": "Nexthink.Endpoint.EndpointName",
+      "required": ""
+    },
+    {
+      "description": "Endpoint IP address. Nexthink.Endpoint.MACAddress Endpoint MAC address.",
+      "name": "Nexthink.Endpoint.IPAddress",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Nexthink",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/nexthink"
+}

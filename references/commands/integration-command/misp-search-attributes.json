@@ -1,0 +1,152 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2. Search for attributes",
+  "examples": [
+    "Command Example\n!misp-search-attributes category=\"Other\" value=\"TestMotors\"\nContext Example\n{\n\"MISP.Attribute\": [\n{\n'ID': '215746',\n'EventID': '12041',",
+    "!misp-search-attributes category=\"Other\" value=\"TestMotors\"\nContext Example\n{\n\"MISP.Attribute\": [\n{\n'ID': '215746',\n'EventID': '12041',\n'ObjectID': '35655',"
+  ],
+  "kind": "integration-command",
+  "name": "misp-search-attributes",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Attribute distribution. MISP.Attribute.Value Attribute value.",
+      "name": "MISP.Attribute.Distribution",
+      "required": ""
+    },
+    {
+      "description": "Attribute event ID. MISP.Attribute.Timestamp Attribute timestamp.",
+      "name": "MISP.Attribute.EventID",
+      "required": ""
+    },
+    {
+      "description": "Whether the attribute is deleted. MISP.Attribute.DisableCorrelation Whether attribute correlation is disabled.",
+      "name": "MISP.Attribute.Deleted",
+      "required": ""
+    },
+    {
+      "description": "Attribute type. MISP.Attribute.ID Attribute ID.",
+      "name": "MISP.Attribute.Type",
+      "required": ""
+    },
+    {
+      "description": "Attribute UUID. MISP.Attribute.ShadowAttribute Attribute shadow attribute.",
+      "name": "MISP.Attribute.UUID",
+      "required": ""
+    },
+    {
+      "description": "Whether the Intrusion Detection System flag is set. MISP.Attribute.Category Attribute category.",
+      "name": "MISP.Attribute.ToIDs",
+      "required": ""
+    },
+    {
+      "description": "Attribute sharing group ID. MISP.Attribute.Comment Attribute comment.",
+      "name": "MISP.Attribute.SharingGroupID",
+      "required": ""
+    },
+    {
+      "description": "MISP event ID. MISP.Attribute.Event.Distribution MISP event distribution.",
+      "name": "MISP.Attribute.Event.ID",
+      "required": ""
+    },
+    {
+      "description": "Threat level of the MISP event (1 High, 2 Medium, 3 Low, 4 Undefined). MISP.Attribute.Event.PublishTimestamp Timestamp of the publish time (if published).",
+      "name": "MISP.Attribute.Event.ThreatLevelID",
+      "required": ""
+    },
+    {
+      "description": "Email address of the event creator. MISP.Attribute.Event.Date date",
+      "name": "MISP.Attribute.Event.EventCreatorEmail",
+      "required": ""
+    },
+    {
+      "description": "MISP.Attribute.Event.Locked Is the event locked. MISP.Attribute.Event.OwnerOrganisation.ID",
+      "name": "Event creation date.",
+      "required": ""
+    },
+    {
+      "description": "Owner organization ID. MISP.Attribute.Event.OwnerOrganisation.Name Owner organization name.",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "Owner organization UUID. MISP.Attribute.Event.RelatedEvent.ID Event IDs of related events (can be a list).",
+      "name": "MISP.Attribute.Event.OwnerOrganisation.UUID",
+      "required": ""
+    },
+    {
+      "description": "If email lock was proposed. MISP.Attribute.Event.Timestamp Timestamp of the event.",
+      "name": "MISP.Attribute.Event.ProposalEmailLock",
+      "required": ""
+    },
+    {
+      "description": "Event's galaxy description. MISP.Attribute.Event.Galaxy.Name Galaxy name.",
+      "name": "MISP.Attribute.Event.Galaxy.Description",
+      "required": ""
+    },
+    {
+      "description": "Galaxy type. MISP.Attribute.Event.Published Whether the event is published.",
+      "name": "MISP.Attribute.Event.Galaxy.Type",
+      "required": ""
+    },
+    {
+      "description": "Whether correlation is disabled. MISP.Attribute.Event.UUID Event UUID.",
+      "name": "MISP.Attribute.Event.DisableCorrelation",
+      "required": ""
+    },
+    {
+      "description": "Event shadow attributes. MISP.Attribute.Event.Analysis Event analysis (0 Initial, 1 Ongoing, 2 Completed).",
+      "name": "MISP.Attribute.Event.ShadowAttribute",
+      "required": ""
+    },
+    {
+      "description": "Event sharing group ID. MISP.Attribute.Event.Tag.Name All tag names in the event.",
+      "name": "MISP.Attribute.Event.SharingGroupID",
+      "required": ""
+    },
+    {
+      "description": "Object meta category. MISP.Attribute.Object.Distribution Distribution of object.",
+      "name": "MISP.Attribute.Object.MetaCategory",
+      "required": ""
+    },
+    {
+      "description": "Name of the object. MISP.Attribute.Object.TemplateVersion Template version of the object.",
+      "name": "MISP.Attribute.Object.Name",
+      "required": ""
+    },
+    {
+      "description": "ID of the event which the object first created. MISP.Attribute.Object.TemplateUUID UUID of the template.",
+      "name": "MISP.Attribute.Object.EventID",
+      "required": ""
+    },
+    {
+      "description": "Timestamp of object creation. MISP.Attribute.Object.Deleted Whether the object was deleted.",
+      "name": "MISP.Attribute.Object.Timestamp",
+      "required": ""
+    },
+    {
+      "description": "ID of object. MISP.Attribute.Object.UUID UUID of the object.",
+      "name": "MISP.Attribute.Object.ID",
+      "required": ""
+    },
+    {
+      "description": "Description of the object. MISP.Attribute.Galaxy.Description Event's galaxy description.",
+      "name": "MISP.Attribute.Object.Description",
+      "required": ""
+    },
+    {
+      "description": "Galaxy name. MISP.Attribute.Galaxy.Type Galaxy type.",
+      "name": "MISP.Attribute.Galaxy.Name",
+      "required": ""
+    },
+    {
+      "description": "All tag names in the event.",
+      "name": "MISP.Attribute.Tag.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MISP v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/misp-v2"
+}

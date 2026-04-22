@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "8. Search JASK signals",
+  "examples": [
+    "Command Example\n!jask-search-signals last-seen=\"Last 24 hours\" category=\"Attack Stage, C2\" offset=\"0\" limit=\"10\" sort=\"score:desc\"\nContext Example\n{\n\"Jask\": {\n\"Signal\": [\n{\n\"Category\": \"C2\",",
+    "!jask-search-signals last-seen=\"Last 24 hours\" category=\"Attack Stage, C2\" offset=\"0\" limit=\"10\" sort=\"score:desc\"\nContext Example\n{\n\"Jask\": {\n\"Signal\": [\n{\n\"Category\": \"C2\",\n\"Name\": \"TeslaCrypt Ransomware Domain\","
+  ],
+  "kind": "integration-command",
+  "name": "jask-search-signals",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "asdfas",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Jask (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jask"
+}

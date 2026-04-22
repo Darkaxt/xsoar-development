@@ -1,0 +1,102 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!malwarebazaar-samples-list sample_type=tag sample_value=TrickBot limit=2\nContext Example\n#\n{\n\"MalwareBazaar\"\n:",
+    "!malwarebazaar-samples-list sample_type=tag sample_value=TrickBot limit=2\nContext Example\n#\n{\n\"MalwareBazaar\"\n:\n{\n\"MalwarebazaarSamplesList\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "SHA256 hash of the malware sample. MalwareBazaar.MalwarebazaarSamplesList.sha3_384_hash SHA3-384 hash of the malware sample.",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.sha256_hash",
+      "required": ""
+    },
+    {
+      "description": "SHA1 hash of the malware sample. MalwareBazaar.MalwarebazaarSamplesList.md5_hash MD5 hash of the malware sample.",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.sha1_hash",
+      "required": ""
+    },
+    {
+      "description": "Date Timestamp of when the file was first seen by MalwareBazaar (UTC). MalwareBazaar.MalwarebazaarSamplesList.last_seen",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.first_seen",
+      "required": ""
+    },
+    {
+      "description": "Timestamp of when the file was last seen by MalwareBazaar (UTC). MalwareBazaar.MalwarebazaarSamplesList.file_name Malware sample's file name.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "File size in bytes. MalwareBazaar.MalwarebazaarSamplesList.file_type_mime MIME file type.",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.file_size",
+      "required": ""
+    },
+    {
+      "description": "File type. MalwareBazaar.MalwarebazaarSamplesList.reporter Twitter handle of the report (or anonymous for anonymous submissions).",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.file_type",
+      "required": ""
+    },
+    {
+      "description": "Whether the submission of the sample was anonymous - 1 (true) or 0 (false). MalwareBazaar.MalwarebazaarSamplesList.signature Malware family (if available).",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.anonymous",
+      "required": ""
+    },
+    {
+      "description": "Import hash (imphash) of the sample (only available for Portable Executables). MalwareBazaar.MalwarebazaarSamplesList.tlsh Trend Micro Locality Sensitive Hash (tlsh) of the sample.",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.imphash",
+      "required": ""
+    },
+    {
+      "description": "Trend Micro ELF Hash (telfhash) of the sample. MalwareBazaar.MalwarebazaarSamplesList.ssdeep The SSDeep hash of the sample.",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.telfhash",
+      "required": ""
+    },
+    {
+      "description": "In case the file is a Portable Executable, the dhash of the samples icon. MalwareBazaar.MalwarebazaarSamplesList.tags List of tags.",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.dhash_icon",
+      "required": ""
+    },
+    {
+      "description": "Subject common name (CN). MalwareBazaar.MalwarebazaarSamplesList.code_sign.issuer_cn Issuer common name (CN).",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.code_sign.subject_cn",
+      "required": ""
+    },
+    {
+      "description": "Algorithm used. MalwareBazaar.MalwarebazaarSamplesList.code_sign.valid_from Date",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.code_sign.algorithm",
+      "required": ""
+    },
+    {
+      "description": "MalwareBazaar.MalwarebazaarSamplesList.code_sign.valid_to Date Datetime until which the code sign was valid (expiry date).",
+      "name": "Datetime from which the code sign was valid.",
+      "required": ""
+    },
+    {
+      "description": "Serial number of the code sign. MalwareBazaar.MalwarebazaarSamplesList.code_sign.cscb_listed Whether the sample is listed in the Code Signing Certificate Blocklist (CSCB).",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.code_sign.serial_number",
+      "required": ""
+    },
+    {
+      "description": "Code Signing Certificate Blocklist (CSCB) listing reason. MalwareBazaar.MalwarebazaarSamplesList.intelligence.clamav List of ClamAV detections (official and unofficial rules).",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.code_sign.cscb_reason",
+      "required": ""
+    },
+    {
+      "description": "Number of downloads from MalwareBazaar. MalwareBazaar.MalwarebazaarSamplesList.intelligence.uploads Number of uploads to MalwareBazaar.",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.intelligence.downloads",
+      "required": ""
+    },
+    {
+      "description": "Indicates if this malware sample has been seen in global spam traffic.",
+      "name": "MalwareBazaar.MalwarebazaarSamplesList.intelligence.mail",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MalwareBazaar",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/malware-bazaar"
+}

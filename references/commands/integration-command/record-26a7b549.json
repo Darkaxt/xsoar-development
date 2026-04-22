@@ -1,0 +1,222 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "The following arguments were removed in this version",
+      "required": ""
+    },
+    {
+      "description": "symantec-dlp-update-incident command: incident_id",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "incident_ids . note_time",
+      "name": "- this argument was replaced by",
+      "required": ""
+    },
+    {
+      "description": "custom_attribute_name - this argument was replaced by custom_attributes",
+      "name": "status",
+      "required": ""
+    },
+    {
+      "description": "custom_attribute_value - this argument was replaced by custom_attributes",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "remediation_status - this argument was replaced by remediation_status_name",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "The behavior of the following arguments was changed",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "symantec-dlp-update-incident command: custom_attribute_name",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "custom_attribute_value are now used in custom_attributes",
+      "name": "and",
+      "required": ""
+    },
+    {
+      "description": "incident_id argument are now called incident_ids",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "and can get a list of incident IDs to update.",
+      "required": ""
+    }
+  ],
+  "description": "symantec-dlp-get-message-body",
+  "examples": [
+    "!symantec-dlp-get-message-body incident_id=1\nContext Example\n#\n{\n\"SymantecDLP\"\n:\n{\n\"MessageBody\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Message body for the incident returned by the Enforce console.",
+      "name": "SymantecDLP.MessageBody",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The following outputs were removed in this version",
+      "required": ""
+    },
+    {
+      "description": "symantec-dlp-get-incident-details command: SymantecDLP.Incident.LongID",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "- this output was replaced by SymantecDLP.Incident.incidentStatusId .",
+      "name": "SymantecDLP.Incident.StatusCode",
+      "required": ""
+    },
+    {
+      "description": "- this output was replaced by SymantecDLP.Incident.creationDate .",
+      "name": "SymantecDLP.Incident.CreationDate",
+      "required": ""
+    },
+    {
+      "description": "- this output was replaced by SymantecDLP.Incident.detectionDate .",
+      "name": "SymantecDLP.Incident.DetectionDate",
+      "required": ""
+    },
+    {
+      "description": "- this output was replaced by SymantecDLP.Incident.severity .",
+      "name": "SymantecDLP.Incident.Severity",
+      "required": ""
+    },
+    {
+      "description": "- this output was replaced by SymantecDLP.Incident.messageSource .",
+      "name": "SymantecDLP.Incident.MessageSource",
+      "required": ""
+    },
+    {
+      "description": "- this output was replaced by SymantecDLP.Incident.messageType .",
+      "name": "SymantecDLP.Incident.MessageSourceType",
+      "required": ""
+    },
+    {
+      "description": "- this output was replaced by SymantecDLP.Incident.messageType .",
+      "name": "SymantecDLP.Incident.MessageType",
+      "required": ""
+    },
+    {
+      "description": "SymantecDLP.Incident.messageTypeId . SymantecDLP.Incident.Policy.Name",
+      "name": "SymantecDLP.Incident.MessageTypeID - this output was replaced by",
+      "required": ""
+    },
+    {
+      "description": "SymantecDLP.Incident.policyName . SymantecDLP.Incident.Policy.Version",
+      "name": "- this output was replaced by",
+      "required": ""
+    },
+    {
+      "description": "SymantecDLP.Incident.policyVersion . SymantecDLP.Incident.Policy.Label",
+      "name": "- this output was replaced by",
+      "required": ""
+    },
+    {
+      "description": "- this output was replaced by SymantecDLP.Incident.policyId .",
+      "name": "SymantecDLP.Incident.Policy.ID",
+      "required": ""
+    },
+    {
+      "description": "SymantecDLP.Incident.MatchCount - this output was replaced by SymantecDLP.Incident.matchCount",
+      "name": "SymantecDLP.Incident.BlockedStatus",
+      "required": ""
+    },
+    {
+      "description": "SymantecDLP.Incident.RuleViolationCount SymantecDLP.Incident.DetectionServer - this output was replaced by",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": ". SymantecDLP.Incident.DataOwner.Name - this output was replaced by",
+      "name": "SymantecDLP.Incident.detectionServerName",
+      "required": ""
+    },
+    {
+      "description": ". SymantecDLP.Incident.DataOwner.Email - this output was replaced by",
+      "name": "SymantecDLP.Incident.dataOwnerName",
+      "required": ""
+    },
+    {
+      "description": ". SymantecDLP.Incident.EventDate SymantecDLP.Incident.ViolatedPolicyRule.Name",
+      "name": "SymantecDLP.Incident.dataOwnerEmail",
+      "required": ""
+    },
+    {
+      "description": "SymantecDLP.Incident.OtherViolatedPolicy.Name SymantecDLP.Incident.OtherViolatedPolicy.Version SymantecDLP.Incident.OtherViolatedPolicy.Label",
+      "name": "SymantecDLP.Incident.ViolatedPolicyRule.ID",
+      "required": ""
+    },
+    {
+      "description": "Additional Considerations for this version",
+      "name": "SymantecDLP.Incident.OtherViolatedPolicy.ID",
+      "required": ""
+    },
+    {
+      "description": "For these incidents, the missing data is returned. From the Network incident layout, in the description field, you can see information about this issue. Edit this page Report an Issue",
+      "name": "There is an issue with DLP API where some incidents get a 401 error.",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Symantec Data Loss Prevention (Deprecated) Next Symantec Email Security Cloud \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Fetch Incidents Commands symantec-dlp-list-incidents",
+      "name": "Configure Symantec Data Loss Prevention v2 in Cortex",
+      "required": ""
+    },
+    {
+      "description": "symantec-dlp-update-incident symantec-dlp-list-incident-status symantec-dlp-get-incident-history",
+      "name": "symantec-dlp-get-incident-details",
+      "required": ""
+    },
+    {
+      "description": "symantec-dlp-get-incident-original-message symantec-dlp-get-report-filters symantec-dlp-get-sender-recipient-pattern",
+      "name": "symantec-dlp-list-remediation-status",
+      "required": ""
+    },
+    {
+      "description": "symantec-dlp-update-sender-pattern symantec-dlp-update-recipient-pattern symantec-dlp-get-message-body",
+      "name": "symantec-dlp-list-sender-recipient-patterns",
+      "required": ""
+    },
+    {
+      "description": "Commands",
+      "name": "Breaking changes from the previous version of this integration - Symantec Data Loss Prevention v2",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Additional Considerations for this version",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Data Loss Prevention v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-data-loss-prevention-v2"
+}

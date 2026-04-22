@@ -1,0 +1,40 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "msgraph-calendar-auth-reset",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next O365 Outlook Mail (Using Graph API) \u00bb Docs",
+      "name": "\u00ab O365 File Management (Onedrive/Sharepoint/Teams)",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "O365 Outlook Calendar",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-calendar"
+}

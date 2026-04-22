@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "mar-search-win-registry",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "WinRegistry key path. MAR.WinRegistry.Keyvalue WinRegistry key value.",
+      "name": "MAR.WinRegistry.Keypath",
+      "required": ""
+    },
+    {
+      "description": "WinRegistry value data. MAR.WinRegistry.Valuetype",
+      "name": "MAR.WinRegistry.Valuedata",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Active Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-active-response"
+}

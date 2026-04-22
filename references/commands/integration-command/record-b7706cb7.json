@@ -1,0 +1,114 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "salesforce-get-case-file-by-id",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Retrieve a case file by file ID.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "salesforce-get-case-file-by-id",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "To set up the mirroring: Enable Fetching incidents",
+      "name": "You can enable incident mirroring between Cortex XSOAR incidents and Salesforce V2 corresponding events (available from Cortex XSOAR version 6.0.0).",
+      "required": ""
+    },
+    {
+      "description": "In the Mirroring Direction integration parameter, select in which direction the incidents should be mirrored:",
+      "name": "in your instance configuration.",
+      "required": ""
+    },
+    {
+      "description": "Description None Turns off incident mirroring.",
+      "name": "Option",
+      "required": ""
+    },
+    {
+      "description": "Any changes in Salesforce V2 events (mirroring incoming fields) will be reflected in Cortex XSOAR incidents. Outgoing Any changes in Cortex XSOAR incidents will be reflected in Salesforce V2 events (outgoing mirrored fields).",
+      "name": "Incoming",
+      "required": ""
+    },
+    {
+      "description": "Changes in Cortex XSOAR incidents and Salesforce V2 events will be reflected in both directions. Optional: You can go to the mirroring tags parameter and select the tags used to mark incident entries to be mirrored. Available tags are: Comment Entry Tag. Optional: Check the",
+      "name": "Incoming And Outgoing",
+      "required": ""
+    },
+    {
+      "description": "integration parameter to close the Cortex XSOAR incident when the corresponding event is closed in Salesforce V2. Newly fetched incidents will be mirrored in the chosen direction. However, this selection does not affect existing incidents. Important Note:",
+      "name": "Close Mirrored XSOAR Incident",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "To ensure the mirroring works as expected, mappers are required, both for incoming and outgoing, to map the expected fields in Cortex XSOAR and Salesforce V2.",
+      "required": ""
+    },
+    {
+      "description": "Next SAML 2.0 \u00bb Configure Salesforce V2 in Cortex",
+      "name": "\u00ab Salesforce IAM",
+      "required": ""
+    },
+    {
+      "description": "salesforce-search salesforce-query salesforce-get-object",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "salesforce-create-object salesforce-push-comment salesforce-get-case",
+      "name": "salesforce-update-object",
+      "required": ""
+    },
+    {
+      "description": "salesforce-update-case salesforce-get-cases salesforce-close-case",
+      "name": "salesforce-create-case",
+      "required": ""
+    },
+    {
+      "description": "salesforce-delete-case salesforce-get-casecomment salesforce-post-casecomment",
+      "name": "salesforce-push-comment-threads",
+      "required": ""
+    },
+    {
+      "description": "salesforce-get-org get-remote-data get-modified-remote-data",
+      "name": "salesforce-get-user",
+      "required": ""
+    },
+    {
+      "description": "get-mapping-fields salesforce-describe-sobject-field salesforce-list-case-files",
+      "name": "update-remote-system",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring Docs Developer Docs",
+      "name": "salesforce-get-case-file-by-id",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Salesforce v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/salesforce-v2"
+}

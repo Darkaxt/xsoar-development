@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Picus.param.simulation_id",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Insecure Attack List Edit this page Report an Issue",
+      "name": "Picus.filterinsecure",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Picus Security Next PiHole \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands picus-get-access-token picus-get-agent-list",
+      "name": "Configure PicusNG in Cortex",
+      "required": ""
+    },
+    {
+      "description": "picus-create-simulation picus-get-template-list picus-get-integration-agent-list",
+      "name": "picus-get-agent-detail",
+      "required": ""
+    },
+    {
+      "description": "picus-simulate-now picus-get-simulation-detail picus-get-latest-simulation-result",
+      "name": "picus-get-simulation-list",
+      "required": ""
+    },
+    {
+      "description": "picus-get-simulation-threats picus-get-simulation-actions picus-get-mitigation-devices",
+      "name": "picus-get-simulation-result",
+      "required": ""
+    },
+    {
+      "description": "picus-set-paramPB picus-filter-insecure-attacks Docs",
+      "name": "picus-get-signature-list",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Picus Security NG",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/picus-ng"
+}

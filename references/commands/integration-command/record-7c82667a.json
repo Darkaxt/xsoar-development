@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "HPSM.Devices.UpdatedBy",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Who created/opened the service request HPSM.ServiceRequest.ID The id of the service request",
+      "name": "HPSM.ServiceRequest.ContactName",
+      "required": ""
+    },
+    {
+      "description": "Incident contact details HPSM.ServiceRequest.Title Incident title",
+      "name": "HPSM.ServiceRequest.CallbackContactName",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab MetaDefender Sandbox",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "MicroFocus SMAX \u00bb Configure Micro Focus Service Manager in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "hpsm-create-incident hpsm-list-incidents hpsm-get-incident-by-id",
+      "name": "hpsm-update-incident",
+      "required": ""
+    },
+    {
+      "description": "hpsm-update-resource hpsm-list-resources hpsm-get-resource-by-id",
+      "name": "hpsm-create-resource",
+      "required": ""
+    },
+    {
+      "description": "hpsm-get-device hpsm-create-request Docs",
+      "name": "hpsm-list-devices",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Micro Focus Service Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-manager"
+}

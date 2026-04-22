@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get DNS records: circl-dns-get",
+  "examples": [
+    "Command Example\n!circl-dns-get queryValue=69.172.200.235\nContext Example\n{\n\"\nQuery\n\"\n: [",
+    "!circl-dns-get queryValue=69.172.200.235\nContext Example\n{\n\"\nQuery\n\"\n: [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "circl-dns-get",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Query Value CIRCLdns.Query.Record.Data DNS Record or IP Address",
+      "name": "CIRCLdns.Query.Value",
+      "required": ""
+    },
+    {
+      "description": "date DNS record last recorded time",
+      "name": "CIRCLdns.Query.Record.LastTime",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CIRCL",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/circl"
+}

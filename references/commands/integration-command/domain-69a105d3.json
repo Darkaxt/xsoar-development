@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!domain domain=www.google.com threshold=LOW\nContext Example\n{\n\"DBotScore\": {\n\"Vendor\": \"TruSTAR\",\n\"Indicator\": \"www.google.com\",\n\"Score\": 3,",
+    "!domain domain=www.google.com threshold=LOW\nContext Example\n{\n\"DBotScore\": {\n\"Vendor\": \"TruSTAR\",\n\"Indicator\": \"www.google.com\",\n\"Score\": 3,\n\"Type\": \"domain\""
+  ],
+  "kind": "integration-command",
+  "name": "domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Domain Name Domain.Malicious.Vendor For malicious domains, the vendor that made the decision",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "For malicious domains, the reason for the vendor to make the decision DBotScore.Indicator The indicator we tested",
+      "name": "Domain.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The type of the indicator DBotScore.Vendor Vendor used to calculate the score",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score TruSTAR.Domain.Value Indicator value",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "Is the indicator on allow list TruSTAR.Domain.Priority Indicator's priority level by TruSTAR",
+      "name": "TruSTAR.Domain.Whitelisted",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TruSTAR (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tru-star"
+}

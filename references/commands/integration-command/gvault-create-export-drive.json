@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!gvault-create-matter name=test description=test",
+  "examples": [
+    "Command Example\n!gvault-create-matter name=test description=test\nContext Example\nHuman Readable Output\n3. Create a Google Vault export for Drives\nCreates a Google Vault export in order to perform search actions on drives.\nBase Command\ngvault-create-export-drive",
+    "!gvault-create-matter name=test description=test\nContext Example\nHuman Readable Output\n3. Create a Google Vault export for Drives\nCreates a Google Vault export in order to perform search actions on drives.\nBase Command\ngvault-create-export-drive\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-create-export-drive",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Matter ID GoogleVault.Matter.Export.ExportID Export ID",
+      "name": "GoogleVault.Matter.Export.MatterID",
+      "required": ""
+    },
+    {
+      "description": "Export's name GoogleVault.Matter.Export.CreateTime Export's creation time",
+      "name": "GoogleVault.Matter.Export.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

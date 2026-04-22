@@ -1,0 +1,171 @@
+{
+  "aliases": [
+    "slack-block-builder"
+  ],
+  "arguments": [],
+  "description": "SlackBlockBuilder | Cortex XSOAR",
+  "examples": [
+    "Command Example using blocks_url\n#\n!SlackBlockBuilder blocks_url=https://app.slack.com/block-kit-builder/T0DAYMVCM#%7B%22blocks%22:%5B%7B%22type%22:%22section%22\nchannel=random\ntask=4\nreplyEntriesTag=slackResponse\npersistent=yes\nHuman Readable Output using blocks_url",
+    "!SlackBlockBuilder blocks_url=https://app.slack.com/block-kit-builder/T0DAYMVCM#%7B%22blocks%22:%5B%7B%22type%22:%22section%22\nchannel=random\ntask=4\nreplyEntriesTag=slackResponse\npersistent=yes\nHuman Readable Output using blocks_url\n#\nMessage sent to Slack successfully.",
+    "Command Example using list_name\n#\n!SlackBlockBuilder list_name=MySlackBlocksList channel=random task=4 replyEntriesTag=slackResponse persistent=yes\nHuman Readable Output using list_name\n#\nMessage sent to Slack successfully.\nThread ID is: 1660645689.649679\nTroubleshooting",
+    "!SlackBlockBuilder list_name=MySlackBlocksList channel=random task=4 replyEntriesTag=slackResponse persistent=yes\nHuman Readable Output using list_name\n#\nMessage sent to Slack successfully.\nThread ID is: 1660645689.649679\nTroubleshooting\n#\nIssue"
+  ],
+  "kind": "script",
+  "name": "SlackBlockBuilder",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The State of the response from the user will be stored under this context path. Note Make sure to configure the \"XSOAR API Key\" instance parameter in the \"Slack v3\" integration.",
+      "name": "SlackBlockState",
+      "required": ""
+    },
+    {
+      "description": "Go to Settings ->",
+      "name": "To get the API Key:",
+      "required": ""
+    },
+    {
+      "description": ". Click Get Your Key",
+      "name": "API keys",
+      "required": ""
+    },
+    {
+      "description": "Type a name for the key and click Generate key .",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "Command Example using blocks_url",
+      "name": "Copy and paste the key in the instance parameter.",
+      "required": ""
+    },
+    {
+      "description": "channel=random task=4 replyEntriesTag=slackResponse",
+      "name": "!SlackBlockBuilder blocks_url=https://app.slack.com/block-kit-builder/T0DAYMVCM#%7B%22blocks%22:%5B%7B%22type%22:%22section%22",
+      "required": ""
+    },
+    {
+      "description": "Human Readable Output using blocks_url",
+      "name": "persistent=yes",
+      "required": ""
+    },
+    {
+      "description": "Thread ID is: 1660645689.649679 Command Example using list_name",
+      "name": "Message sent to Slack successfully.",
+      "required": ""
+    },
+    {
+      "description": "Human Readable Output using list_name",
+      "name": "!SlackBlockBuilder list_name=MySlackBlocksList channel=random task=4 replyEntriesTag=slackResponse persistent=yes",
+      "required": ""
+    },
+    {
+      "description": "Thread ID is: 1660645689.649679 Troubleshooting",
+      "name": "Message sent to Slack successfully.",
+      "required": ""
+    },
+    {
+      "description": ": The survey message is not sent to Slack. Troubleshooting : Test the",
+      "name": "Issue",
+      "required": ""
+    },
+    {
+      "description": "command on its own to verify it is working correctly. This will provide a more specific error message if there is an issue. Note that the Slack API bot you set up for the Slack v3 integration needs to be added to any channels you want to send SlackBlockBuilder surveys to. Verify your Slack blocks payload is valid. Try simplifying the payload. Test with a simple dummy payload like the following: {",
+      "name": "send-notification",
+      "required": ""
+    },
+    {
+      "description": "{ \"type\": \"section\", \"text\": {",
+      "name": "\"blocks\": [",
+      "required": ""
+    },
+    {
+      "description": "\"text\": \"hello world\", \"emoji\": true }",
+      "name": "\"type\": \"plain_text\",",
+      "required": ""
+    },
+    {
+      "description": "] } Issue",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Troubleshooting : The most likely cause is that there is no API key entered into the Slack v3 integration instance settings, or the API key was not created by default admin. Ensure an API key created by a default admin user is entered into the Slack v3 integration instance settings. Also, make sure to mark the Trust any certificate (not secure)",
+      "name": ": The survey is sent to Slack and submitted successfully, but the response does not show up in context data in Cortex XSOAR.",
+      "required": ""
+    },
+    {
+      "description": "Issue : The survey is sent to Slack successfully, but clicking the Submit button in Slack does nothing. No response is returned to Cortex XSOAR. There may be a \u26a0\ufe0f icon next to the Submit button in Slack. Troubleshooting",
+      "name": "integration parameter.",
+      "required": ""
+    },
+    {
+      "description": "Issue : Migrating to pack version 3.3.0. Troubleshooting",
+      "name": ": Ensure the \"Long running instance\" checkbox is checked in the Slack v3 integration instance settings.",
+      "required": ""
+    },
+    {
+      "description": "1. Review and Identify Affected Playbooks",
+      "name": ": # Implementation Guide for Changes in SlackV3 for XSOAR (Version 3.3.0)",
+      "required": ""
+    },
+    {
+      "description": "2. Implement Conditional Tasks",
+      "name": "Identify all playbooks currently utilizing the SlackBlockBuilder script or its derivatives.",
+      "required": ""
+    },
+    {
+      "description": "Configure the task to proceed once the response is received. 3. Integrate the GetSlackBlockBuilderResponse",
+      "name": "Introduce a conditional task in your playbooks that waits for the expected response.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script",
+      "required": ""
+    },
+    {
+      "description": "ParseSlackResponse script. Issue",
+      "name": "After receiving the response and closing the conditional task, initiate a new task that runs the",
+      "required": ""
+    },
+    {
+      "description": "Troubleshooting : SlackBlockBuilder",
+      "name": ": Running the script using the playbook debugger results with an error: \"invalid_blocks_format\".",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "will not work when run in the playbook debugger. This is because the debugger does not generate entitlements, since they must be tied to an investigation. Entitlements are needed to track the response. The workaround for this is running the playbook from an existing incident.",
+      "required": ""
+    },
+    {
+      "description": "Next Sleep \u00bb Script Data",
+      "name": "\u00ab SlackAskV2",
+      "required": ""
+    },
+    {
+      "description": "Dependencies Setup Requirements",
+      "name": "Use Case",
+      "required": ""
+    },
+    {
+      "description": "1. Review and Identify Affected Playbooks 2. Implement Conditional Tasks 3. Integrate the",
+      "name": "Troubleshooting",
+      "required": ""
+    },
+    {
+      "description": "Script Docs Developer Docs",
+      "name": "GetSlackBlockBuilderResponse",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SlackBlockBuilder",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/slack-block-builder"
+}

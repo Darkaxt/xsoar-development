@@ -1,0 +1,162 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get a list of incidents: netwitness-get-incidents",
+  "examples": [
+    "Command Example\n!NetWitness -get-incident incidentId=\"INC-1\"\nContext Example\n{\n\"\nNetWitness\n\"\n: {",
+    "!NetWitness -get-incident incidentId=\"INC-1\"\nContext Example\n{\n\"\nNetWitness\n\"\n: {\n\""
+  ],
+  "kind": "integration-command",
+  "name": "netwitness-get-incident",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique identifier of the incident. NetWitness.Incidents.title Title of the incident.",
+      "name": "NetWitness.Incidents.id",
+      "required": ""
+    },
+    {
+      "description": "Summary of the incident. NetWitness.Incidents.priority The incident priority.",
+      "name": "NetWitness.Incidents.summary",
+      "required": ""
+    },
+    {
+      "description": "Incident risk score calculated based on associated alert\u2019s risk score. Risk score ranges from 0 (no risk) to 100 (highest risk). NetWitness.Incidents.status The current status.",
+      "name": "NetWitness.Incidents.riskScore",
+      "required": ""
+    },
+    {
+      "description": "Number of alerts associated with the Incident. NetWitness.Incidents.averageAlertRiskScore Average risk score of the alerts associated with the incident.",
+      "name": "NetWitness.Incidents.alertCount",
+      "required": ""
+    },
+    {
+      "description": "Indicates if additional alerts can be associated with an incident. NetWitness.Incidents.totalRemediationTaskCount The number of total remediation tasks for the incident.",
+      "name": "NetWitness.Incidents.sealed",
+      "required": ""
+    },
+    {
+      "description": "The number of open remediation tasks for the incident. NetWitness.Incidents.created The timestamp of when the incident is created.",
+      "name": "NetWitness.Incidents.openRemediationTaskCount",
+      "required": ""
+    },
+    {
+      "description": "The timestamp of when the incident was last updated. NetWitness.Incidents.lastUpdatedBy The NetWitness user identifier of the user who last updated the incident.",
+      "name": "NetWitness.Incidents.lastUpdated",
+      "required": ""
+    },
+    {
+      "description": "The NetWitness user identifier of the user currently working on the incident. NetWitness.Incidents.sources Unique set of sources for all of the Alerts in the incident.",
+      "name": "NetWitness.Incidents.assignee",
+      "required": ""
+    },
+    {
+      "description": "The unique identifier of the rule that created the incident. NetWitness.Incidents.firstAlertTime The timestamp of the earliest occurring Alert in this incident.",
+      "name": "NetWitness.Incidents.ruleId",
+      "required": ""
+    },
+    {
+      "description": "The unique category identifier. NetWitness.Incidents.categories.parent Parent name of the category.",
+      "name": "NetWitness.Incidents.categories.id",
+      "required": ""
+    },
+    {
+      "description": "Friendly name of the category. NetWitness.Incidents.journalEntries.id The unique journal entry identifier.",
+      "name": "NetWitness.Incidents.categories.name",
+      "required": ""
+    },
+    {
+      "description": "The author of this entry. NetWitness.Incidents.journalEntries.notes Notes and observations about the incident.",
+      "name": "NetWitness.Incidents.journalEntries.author",
+      "required": ""
+    },
+    {
+      "description": "The timestamp of the journal entry created date. NetWitness.Incidents.journalEntries.lastUpdated The timestamp of the journal entry last updated date.",
+      "name": "NetWitness.Incidents.journalEntries.created",
+      "required": ""
+    },
+    {
+      "description": "Incident milestone classifier. NetWitness.Incidents.createdBy The NetWitness user id or name of the rule that created the incident.",
+      "name": "NetWitness.Incidents.journalEntries.milestone",
+      "required": ""
+    },
+    {
+      "description": "The number of alerts that are deleted from theincident. NetWitness.Incidents.eventCount Number of events associated with incident.",
+      "name": "NetWitness.Incidents.deletedAlertCount",
+      "required": ""
+    },
+    {
+      "description": "Unique source IP addresses. NetWitness.Incidents.alertMeta.DestinationIp Unique destination IP addresses.",
+      "name": "NetWitness.Incidents.alertMeta.SourceIp",
+      "required": ""
+    },
+    {
+      "description": "The unique alert identifier. NetWitness.Alerts.incidentId The incident id associated with the alert.",
+      "name": "NetWitness.Alerts.id",
+      "required": ""
+    },
+    {
+      "description": "The title or name of the rule that created the alert. NetWitness.Alerts.detail The details of the alert. This can be the module name or meta that the module included.",
+      "name": "NetWitness.Alerts.title",
+      "required": ""
+    },
+    {
+      "description": "The timestamp of the alert created date. NetWitness.Alerts.source The source of this alert. For example, \"Event Stream Analysis\", \"Malware Analysis\", etc.",
+      "name": "NetWitness.Alerts.created",
+      "required": ""
+    },
+    {
+      "description": "The risk score of this alert, usually in the range 0 - 100. NetWitness.Alerts.type Type of alert, \"Network\", \"Log\", etc.",
+      "name": "NetWitness.Alerts.riskScore",
+      "required": ""
+    },
+    {
+      "description": "The IP address. NetWitness.Alerts.events.source.device.port The port.",
+      "name": "NetWitness.Alerts.events.source.device.ipAddress",
+      "required": ""
+    },
+    {
+      "description": "The ethernet MAC address. NetWitness.Alerts.events.source.device.dnsHostname The DNS resolved hostname.",
+      "name": "NetWitness.Alerts.events.source.device.macAddress",
+      "required": ""
+    },
+    {
+      "description": "The top-level domain from the DNS resolved hostname NetWitness.Alerts.events.source.user.username The unique username.",
+      "name": "NetWitness.Alerts.events.source.device.dnsDomain",
+      "required": ""
+    },
+    {
+      "description": "An email address. NetWitness.Alerts.events.source.user.adUsername An Active Directory (AD) username.",
+      "name": "NetWitness.Alerts.events.source.user.emailAddress",
+      "required": ""
+    },
+    {
+      "description": "An Active Directory (AD) domain NetWitness.Alerts.events.destination.device.ipAddress The IP address.",
+      "name": "NetWitness.Alerts.events.source.user.adDomain",
+      "required": ""
+    },
+    {
+      "description": "The port. NetWitness.Alerts.events.destination.device.macAddress The ethernet MAC address.",
+      "name": "NetWitness.Alerts.events.destination.device.port",
+      "required": ""
+    },
+    {
+      "description": "The DNS resolved hostname. NetWitness.Alerts.events.destination.device.dnsDomain The top-level domain from the DNS resolved hostname",
+      "name": "NetWitness.Alerts.events.destination.device.dnsHostname",
+      "required": ""
+    },
+    {
+      "description": "The unique username. NetWitness.Alerts.events.destination.user.emailAddress An email address.",
+      "name": "NetWitness.Alerts.events.destination.user.username",
+      "required": ""
+    },
+    {
+      "description": "An Active Directory (AD) username. NetWitness.Alerts.events.destination.user.adDomain An Active Directory (AD) domain",
+      "name": "NetWitness.Alerts.events.destination.user.adUsername",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness v11.1 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-v111"
+}

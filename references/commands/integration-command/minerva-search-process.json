@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "711db7ed-d4c9-459b-a4bd-e23c077d4acc",
+  "examples": [
+    "Command Example\n!minerva-search-process param=\"processName\" condition=\"endWith\" value=\"explorer.exe\"\nHuman Readable Output\nUsername\nProcess Id\nEndpoint\nFile Hash\nProcess Command Line",
+    "!minerva-search-process param=\"processName\" condition=\"endWith\" value=\"explorer.exe\"\nHuman Readable Output\nUsername\nProcess Id\nEndpoint\nFile Hash\nProcess Command Line\nProcess Name"
+  ],
+  "kind": "integration-command",
+  "name": "minerva-search-process",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the endpoint on which the process was run. Minerva.Process.SHA256 The SHA256 hash of the process.",
+      "name": "Minerva.Process.Endpoint",
+      "required": ""
+    },
+    {
+      "description": "The process command line. Minerva.Process.Username The user name with which the process was executed.",
+      "name": "Minerva.Process.CommandLine",
+      "required": ""
+    },
+    {
+      "description": "date The time the process was created. Minerva.Process.Pid",
+      "name": "Minerva.Process.Createtime",
+      "required": ""
+    },
+    {
+      "description": "The process ID. Minerva.Process.Name The process name.",
+      "name": "number",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Minerva Labs Anti-Evasion Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/minerva-labs-anti-evasion-platform"
+}

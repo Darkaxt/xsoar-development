@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\nContext Example\nHuman Readable Output\n30. Get a list processes running on an endpoint\nReturns a list of processes running on the endpoint.\nBase Command\ncb-process-list\nInput",
+    "Command Example\n!cb-process-list sensor=1\nContext Example\n{\n\"CbLiveResponse\": {\n\"Commands\": {\n\"CbCommandID\": 1,\n\"CbSensorID\": 17,",
+    "!cb-process-list sensor=1\nContext Example\n{\n\"CbLiveResponse\": {\n\"Commands\": {\n\"CbCommandID\": 1,\n\"CbSensorID\": 17,\n\"CbSessionID\": 327,"
+  ],
+  "kind": "integration-command",
+  "name": "cb-process-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique command identifier. CbLiveResponse.Commands.CommandName The command name.",
+      "name": "CbLiveResponse.Commands.CbCommandID",
+      "required": ""
+    },
+    {
+      "description": "The command Status ('pending', 'in progress', 'complete', 'error', 'canceled'). CbLiveResponse.Commands.CommandCompletionTime The command completion time (0 if not complete).",
+      "name": "CbLiveResponse.Commands.Status",
+      "required": ""
+    },
+    {
+      "description": "Process ID. CbLiveResponse.Commands.Processes.CreateTime The creation time of the process in Unix time.",
+      "name": "CbLiveResponse.Commands.Processes.ProcessID",
+      "required": ""
+    },
+    {
+      "description": "The process guid of the process. CbLiveResponse.Commands.Processes.Path The execution path of the process.",
+      "name": "CbLiveResponse.Commands.Processes.ProcessGuid",
+      "required": ""
+    },
+    {
+      "description": "The Security Identifier (SID) of the default process token. CbLiveResponse.Commands.Processes.Username The username of the default process token.",
+      "name": "CbLiveResponse.Commands.Processes.SecurityIdentifier",
+      "required": ""
+    },
+    {
+      "description": "The pid (process id ) of the parent. CbLiveResponse.Commands.Processes.ParentGuid The process guid of the parent process.",
+      "name": "CbLiveResponse.Commands.Processes.Parent",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

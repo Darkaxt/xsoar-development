@@ -1,0 +1,89 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "opnsense-rule-revert",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Revert config to given savepoint",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "opnsense-rule-revert",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next OpsGenie (Deprecated) \u00bb Configure OPNSense in Cortex",
+      "name": "\u00ab OpenPhish v2",
+      "required": ""
+    },
+    {
+      "description": "opnsense-alias-list opnsense-alias-add opnsense-alias-del",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "opnsense-alias-mod-additem opnsense-alias-mod-delitem opnsense-alias-get",
+      "name": "opnsense-alias-mod",
+      "required": ""
+    },
+    {
+      "description": "opnsense-interfaces-list opnsense-category-list opnsense-category-add",
+      "name": "opnsense-alias-get-uuid",
+      "required": ""
+    },
+    {
+      "description": "opnsense-category-get opnsense-category-mod opnsense-rule-list",
+      "name": "opnsense-category-del",
+      "required": ""
+    },
+    {
+      "description": "opnsense-alias-apply opnsense-device-reboot opnsense-firmware-info",
+      "name": "opnsense-rule-get",
+      "required": ""
+    },
+    {
+      "description": "opnsense-firmware-upgradestatus opnsense-firmware-update opnsense-firmware-upgrade",
+      "name": "opnsense-firmware-status",
+      "required": ""
+    },
+    {
+      "description": "opnsense-rule-add opnsense-rule-mod opnsense-rule-apply",
+      "name": "opnsense-rule-del",
+      "required": ""
+    },
+    {
+      "description": "opnsense-logs-search opnsense-states-search opnsense-state-del",
+      "name": "opnsense-rule-savepoint",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "opnsense-rule-revert",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OPNSense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/opn-sense"
+}

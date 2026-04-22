@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique identifier of the event. KOI.Event.source_log_type The source log type of the event (Alerts or Audit).",
+      "name": "KOI.Event.id",
+      "required": ""
+    },
+    {
+      "description": "Date The timestamp of the event in ISO 8601 format. KOI.Event.created_at",
+      "name": "KOI.Event._time",
+      "required": ""
+    },
+    {
+      "description": "The creation time of the event (audit logs).",
+      "name": "Date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "KOI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/koi"
+}

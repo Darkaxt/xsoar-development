@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "gcs-delete-bucket bucket_name=my-bucket force=true",
+  "examples": [
+    "Command Example\ngcs-delete-bucket bucket_name=my-bucket force=true\nHuman Readable Output\nBucket my-bucket was deleted successfully.\n5. Retrieve a list of objects in a bucket\nRetrieves the list of objects in a bucket.\nBase Command\ngcs-list-bucket-objects",
+    "Command Example\ngcs-list-bucket-objects bucket_name=my-bucket prefix=some/path/ delimiter=/\nHuman Readable Output\nObjects in bucket my-bucket\nName\nBucket\nContent Type\nTime Created"
+  ],
+  "kind": "integration-command",
+  "name": "gcs-list-bucket-objects",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Object name. GCS.BucketObject.Bucket Name of the bucket containing the object.",
+      "name": "GCS.BucketObject.Name",
+      "required": ""
+    },
+    {
+      "description": "Content-Type of the object data. GCS.BucketObject.TimeCreated Date",
+      "name": "GCS.BucketObject.ContentType",
+      "required": ""
+    },
+    {
+      "description": "GCS.BucketObject.TimeUpdated Date Last time object was modified.",
+      "name": "Object creation time.",
+      "required": ""
+    },
+    {
+      "description": "Date Object deletion time (available if the object is archived). GCS.BucketObject.Size",
+      "name": "GCS.BucketObject.TimeDeleted",
+      "required": ""
+    },
+    {
+      "description": "Object size in bytes. GCS.BucketObject.MD5 MD5 hash of the data in Base64.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Object owner ID. GCS.BucketObject.CRC32c CRC32c checksum (as described in",
+      "name": "GCS.BucketObject.OwnerID",
+      "required": ""
+    },
+    {
+      "description": "), encoded using Base64 in big-endian byte order. GCS.BucketObject.EncryptionAlgorithm The encryption algorithm.",
+      "name": "RFC 4960, Appendix B",
+      "required": ""
+    },
+    {
+      "description": "SHA256 hash value of the encryption key.",
+      "name": "GCS.BucketObject.EncryptionKeySHA256",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Storage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-storage"
+}

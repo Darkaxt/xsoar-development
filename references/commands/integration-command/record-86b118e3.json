@@ -1,0 +1,96 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "!file file=\"1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef\"\nContext Example\n#\n{\n\"MicrosoftATP\"\n:\n{\n\"File\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "file",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Checks the file reputation of the specified hash.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "file",
+      "required": ""
+    },
+    {
+      "description": "The SHA1 hash of the file. MicrosoftATP.File.MD5 The MD5 hash of the file.",
+      "name": "MicrosoftATP.File.Sha1",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. MicrosoftATP.File.GlobalPrevalence The file prevalence across the organization.",
+      "name": "MicrosoftATP.File.Sha256",
+      "required": ""
+    },
+    {
+      "description": "Date The first time the file was observed. MicrosoftATP.File.GlobalLastObserved",
+      "name": "MicrosoftATP.File.GlobalFirstObserved",
+      "required": ""
+    },
+    {
+      "description": "The last time the file was observed. MicrosoftATP.File.Size The size of the file.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The type of the file. MicrosoftATP.File.IsPeFile True if the file is portable executable, False otherwise.",
+      "name": "MicrosoftATP.File.FileType",
+      "required": ""
+    },
+    {
+      "description": "The file's publisher. MicrosoftATP.File.FileProductName The file product name.",
+      "name": "MicrosoftATP.File.FilePublisher",
+      "required": ""
+    },
+    {
+      "description": "The file signer. MicrosoftATP.File.Issuer The file issuer.",
+      "name": "MicrosoftATP.File.Signer",
+      "required": ""
+    },
+    {
+      "description": "The hash of the signing certificate. MicrosoftATP.File.IsValidCertificate Was signing certificate successfully verified by Microsoft Defender ATP agent.",
+      "name": "MicrosoftATP.File.SignerHash",
+      "required": ""
+    },
+    {
+      "description": "The file determination value. MicrosoftATP.File.DeterminationType The file determination type.",
+      "name": "MicrosoftATP.File.DeterminationValue",
+      "required": ""
+    },
+    {
+      "description": "The SHA1 hash of the file. File.SHA256 The SHA256 hash of the file.",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "The file type. File.Size The file size.",
+      "name": "File.Type",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Score The actual score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Defender for Endpoint",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-defender-advanced-threat-protection"
+}

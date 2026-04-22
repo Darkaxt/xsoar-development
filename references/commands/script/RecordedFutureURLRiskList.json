@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "recorded-future-url-risk-list"
+  ],
+  "arguments": [],
+  "description": "RecordedFutureURLRiskList | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "RecordedFutureURLRiskList",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the file. InfoFile.EntryID The entry ID of the file.",
+      "name": "InfoFile.Name",
+      "required": ""
+    },
+    {
+      "description": "InfoFile.Size The size of the file. InfoFile.Type",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "InfoFile.Info The basic information of the file. InfoFile.Extension",
+      "name": "The type of the file. For example, \"PE\".",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The extension of the file.",
+      "required": ""
+    },
+    {
+      "description": "Next RecordedFutureVulnerabilityRiskList \u00bb Script Data",
+      "name": "\u00ab RecordedFutureIPRiskList",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RecordedFutureURLRiskList",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/recorded-future-url-risk-list"
+}

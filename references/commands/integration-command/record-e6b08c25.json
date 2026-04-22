@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!dhs-get-indicators limit=2 tlp_color=GREEN\nEdit this page\nReport an Issue\nPrevious\n\u00ab Devo v2\nNext",
+    "!dhs-get-indicators limit=2 tlp_color=GREEN\nEdit this page\nReport an Issue\nPrevious\n\u00ab Devo v2\nNext\nDHS Feed v2 \u00bb\nConfigure DHS Feed in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator type (e.g., IP, Domain, Email, URL, File). DHS.value The indicator.",
+      "name": "DHS.type",
+      "required": ""
+    },
+    {
+      "description": "The traffic light protocol.",
+      "name": "DHS.tlp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DHS Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dhs-feed"
+}

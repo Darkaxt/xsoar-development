@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!qradar-get-reference-by-name ref_name=Date date_value=True\nContext Example\n{\n\"QRadar\": {\n\"Reference\": {\n\"Name\": \"Date\",\n\"CreationTime\": \"2018-11-27T11:34:23.110000Z\",",
+    "!qradar-get-reference-by-name ref_name=Date date_value=True\nContext Example\n{\n\"QRadar\": {\n\"Reference\": {\n\"Name\": \"Date\",\n\"CreationTime\": \"2018-11-27T11:34:23.110000Z\",\n\"TimeoutType\": \"UNKNOWN\","
+  ],
+  "kind": "integration-command",
+  "name": "qradar-get-reference-by-name",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the reference set QRadar.Reference.CreationTime date",
+      "name": "QRadar.Reference.Name",
+      "required": ""
+    },
+    {
+      "description": "QRadar.Reference.ElementType Reference element type QRadar.Reference.NumberOfElements",
+      "name": "The creation time (ISO) of the reference",
+      "required": ""
+    },
+    {
+      "description": "Number of elements QRadar.Reference.TimeToLive Reference time to live",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "Reference timeout type (UNKNOWN, FIRST_SEEN, LAST_SEEN) QRadar.Reference.Data Reference set items",
+      "name": "QRadar.Reference.TimeoutType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM QRadar (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/q-radar"
+}

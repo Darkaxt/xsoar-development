@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!canarytools-whitelist-ip ip=2.2.2.2 port=21\nContext Example\n{\n\"CanaryTools\":{\n\"IP\":{\n\"Whitelisted\":\"True\",\n\"Port\":\"21\",",
+    "!canarytools-whitelist-ip ip=2.2.2.2 port=21\nContext Example\n{\n\"CanaryTools\":{\n\"IP\":{\n\"Whitelisted\":\"True\",\n\"Port\":\"21\",\n\"Address\":\"2.2.2.2\""
+  ],
+  "kind": "integration-command",
+  "name": "canarytools-whitelist-ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address CanaryTools.IP.Port Destination port for the IP allow list",
+      "name": "CanaryTools.IP.Address",
+      "required": ""
+    },
+    {
+      "description": "Is the IP address on allow list (True/False)",
+      "name": "CanaryTools.IP.Whitelisted",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Thinkst Canary",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/thinkst-canary"
+}

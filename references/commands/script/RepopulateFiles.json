@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "repopulate-files"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "RepopulateFiles | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "RepopulateFiles",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Filename File.Type File type",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "File.Size File size File.MD5",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "File.SHA1 SHA1 hash of the file File.SHA256",
+      "name": "MD5 hash of the file",
+      "required": ""
+    },
+    {
+      "description": "File.SHA512 SHA512 hash of the file File.EntryID",
+      "name": "SHA256 hash of the file",
+      "required": ""
+    },
+    {
+      "description": "File.Info File information File.Extension",
+      "name": "EntryID of the file",
+      "required": ""
+    },
+    {
+      "description": "File.SSDeep SSDeep hash of the file AttachmentFile.Name",
+      "name": "File extension",
+      "required": ""
+    },
+    {
+      "description": "AttachmentFile.Type File type of incident attachments AttachmentFile.Size",
+      "name": "Filename of incident attachments",
+      "required": ""
+    },
+    {
+      "description": "AttachmentFile.MD5 MD5 hash of the file of incident attachments AttachmentFile.SHA1",
+      "name": "File size of incident attachments",
+      "required": ""
+    },
+    {
+      "description": "AttachmentFile.SHA256 SHA256 hash of the file of incident attachments AttachmentFile.SHA512",
+      "name": "SHA1 hash of the file of incident attachments",
+      "required": ""
+    },
+    {
+      "description": "AttachmentFile.EntryID EntryID of the file of incident attachments AttachmentFile.Info",
+      "name": "SHA512 hash of the file of incident attachments",
+      "required": ""
+    },
+    {
+      "description": "AttachmentFile.Extension File extension of incident attachments AttachmentFile.SSDeep",
+      "name": "File information of incident attachments",
+      "required": ""
+    },
+    {
+      "description": "AttachmentFile.Attachment.description File description of incident attachments AttachmentFile.Attachment.name",
+      "name": "SSDeep hash of the file of incident attachments",
+      "required": ""
+    },
+    {
+      "description": "AttachmentFile.Attachment.path File path of incident attachments AttachmentFile.Attachment.showMediaFile",
+      "name": "File name of incident attachments",
+      "required": ""
+    },
+    {
+      "description": "AttachmentFile.Attachment.type File content type of incident attachments Edit this page",
+      "name": "showMediaFile of incident attachments",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab ReplaceMatchGroup Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "ResolveGemAlert \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RepopulateFiles",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/repopulate-files"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Delete entries from the Active List.",
+  "examples": [
+    "Command Example\n#\n!as-delete-entries resourceId=\"A1LvlmWgBABCA5+HbRyHZoQ==\" entries=\"[{\\\"name\\\": \\\"t3\\\", \\\"EventID\\\": \\\"9\\\"},{\\\"name\\\": \\\"t4\\\", \\\"EventID\\\": \\\"9\\\"}]\"\nContext Example\n#\n{}\nHuman Readable Output\n#",
+    "!as-delete-entries resourceId=\"A1LvlmWgBABCA5+HbRyHZoQ==\" entries=\"[{\\\"name\\\": \\\"t3\\\", \\\"EventID\\\": \\\"9\\\"},{\\\"name\\\": \\\"t4\\\", \\\"EventID\\\": \\\"9\\\"}]\"\nContext Example\n#\n{}\nHuman Readable Output\n#\nSuccess\nEdit this page"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ArcSight ESM v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/arc-sight-esm-v2"
+}

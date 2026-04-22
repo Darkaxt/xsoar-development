@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "gcs-copy-file source_bucket_name=\"my-bucket\" destination_bucket_name=\"another-bucket\" source_object_name=\"/some/path/my_file.txt\"",
+  "examples": [
+    "Command Example\ngcs-copy-file source_bucket_name=\"my-bucket\" destination_bucket_name=\"another-bucket\" source_object_name=\"/some/path/my_file.txt\"\nHuman Readable Output\nFile was successfully copied to bucket \"another-bucket\" as /some/path/my_file.txt\n17. Use public access prevention\nBlocks public access to a specified Google Cloud Storage bucket by enabling public access prevention, ensuring only authorized users can access the bucket.\nBase Command\ngcs-block-public-access-bucket",
+    "Command Example\ngcs-block-public-access-bucket source_bucket_name=\"my-bucket\" public_access_prevention=\"enforced\"\nHuman Readable Output\nPublic access prevention is set to enforced for my-bucket.\n### gcs-delete-file\n***\nDeletes a file (object) from a bucket.\n#### Base Command"
+  ],
+  "kind": "integration-command",
+  "name": "gcs-block-public-access-bucket",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Storage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-storage"
+}

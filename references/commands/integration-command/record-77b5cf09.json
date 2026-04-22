@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get the latest DAM alerts",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "DAM alert ID. alertAccessedObjects DAM accessed objects.",
+      "name": "AlertId",
+      "required": ""
+    },
+    {
+      "description": "DAM database user. Account.Username DAM OS user.",
+      "name": "dbUser",
+      "required": ""
+    },
+    {
+      "description": "DAM database. sensor DAM sensor.",
+      "name": "database",
+      "required": ""
+    },
+    {
+      "description": "DAM rules. Edit this page Report an Issue",
+      "name": "rules",
+      "required": ""
+    },
+    {
+      "description": "\u00ab McAfee Advanced Threat Defense Next McAfee DXL \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands Get information for a single alert Get the latest DAM alerts",
+      "name": "Configure McAfeeDAM in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee DAM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-dam"
+}

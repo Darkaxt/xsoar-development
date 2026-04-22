@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Preparing scan report:",
+  "examples": [
+    "!tenable-io-get-audit-logs limit=1\nHuman Readable Output\n#\nAudit Logs List\n#\nAction\nActor\nCrud"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tenable Vulnerability Management (formerly Tenable.io)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tenableio"
+}

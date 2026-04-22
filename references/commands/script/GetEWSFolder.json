@@ -1,0 +1,26 @@
+{
+  "aliases": [
+    "get-ews-folder"
+  ],
+  "arguments": [
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "description": "GetEWSFolder | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetEWSFolder",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetEWSFolder",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-ews-folder"
+}

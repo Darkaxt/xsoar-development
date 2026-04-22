@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!threatx-get-entities timeframe=1-Day entity_name=CynicalGraaf,OveconfidentRas\nContext Example\n{\n\"Threatx\": {\n\"Entity\": [\n{\n\"ID\": \"1061035762581303669\",",
+    "!threatx-get-entities timeframe=1-Day entity_name=CynicalGraaf,OveconfidentRas\nContext Example\n{\n\"Threatx\": {\n\"Entity\": [\n{\n\"ID\": \"1061035762581303669\",\n\"Name\": \"OveconfidentRas\","
+  ],
+  "kind": "integration-command",
+  "name": "threatx-get-entities",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID hash of the Entity Threatx.Entity.Name Name of the Entity",
+      "name": "Threatx.Entity.ID",
+      "required": ""
+    },
+    {
+      "description": "IP address of the Entity Threatx.Entity.Risk integer",
+      "name": "Threatx.Entity.IP",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Risk score of the Entity",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatX",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-x"
+}

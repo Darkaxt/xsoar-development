@@ -1,0 +1,25 @@
+{
+  "aliases": [
+    "Carbon Black EDR - Process Search Results"
+  ],
+  "arguments": [],
+  "description": "\"unique_id\": \"00000018-0000-164c-01d5-9ed472b33472-017989dc8e17\"",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### cb-edr-process-events-list\n***\nGets the events for the process with CB process id (process_id) and segment id (segment_id).\n#### Base Command\n`cb-edr-process-events-list`",
+    "#### Command Example\n```!cb-edr-process-events-list process_id=\"00000018-0000-164c-01d5-9ed472b33472\" segment_id=1622034003651 count=2```\n#### Context Example\n```json\n{\n\"CarbonBlackEDR\": {\n\"Events\": {\n\"binaries\": {",
+    "#### Command Example\n```!cb-edr-unquarantine-device sensor_id=15```\n#### Human Readable Output\n>Sensor was un-isolated successfully."
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/v-mware-carbon-black-edr-v2"
+}

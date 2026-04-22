@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!servicenow-query-computers\nContext Example\n{\n\"ServiceNow\": {\n\"Computer\": [\n{\n\"AssetTag\": \"P1000503\",",
+    "!servicenow-query-computers\nContext Example\n{\n\"ServiceNow\": {\n\"Computer\": [\n{\n\"AssetTag\": \"P1000503\",\n\"AssignedTo\": \"92826bf03710200044e0bfc8bcbe5dbb\","
+  ],
+  "kind": "integration-command",
+  "name": "servicenow-query-computers",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Computer sys_id ServiceNow.Computer.AssetTag Computer Asset tag",
+      "name": "ServiceNow.Computer.ID",
+      "required": ""
+    },
+    {
+      "description": "Computer name ServiceNow.Computer.DisplayName Computer display name",
+      "name": "ServiceNow.Computer.Name",
+      "required": ""
+    },
+    {
+      "description": "Computer support group ServiceNow.Computer.OperatingSystem Computer operating system",
+      "name": "ServiceNow.Computer.SupportGroup",
+      "required": ""
+    },
+    {
+      "description": "Computer company sys_id ServiceNow.Computer.AssignedTo Computer assigned to user sys_id",
+      "name": "ServiceNow.Computer.Company",
+      "required": ""
+    },
+    {
+      "description": "Computer state ServiceNow.Computer.Cost Computer cost",
+      "name": "ServiceNow.Computer.State",
+      "required": ""
+    },
+    {
+      "description": "Computer comments",
+      "name": "ServiceNow.Computer.Comments",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now"
+}

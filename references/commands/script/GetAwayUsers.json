@@ -1,0 +1,104 @@
+{
+  "aliases": [
+    "get-away-users"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "GetAwayUsers | Cortex XSOAR",
+  "examples": [
+    "!GetAwayUsers\nContext Example\n#\n{\n\"CortexXSOAR\"\n:\n{\n\"AwayUsers\""
+  ],
+  "kind": "script",
+  "name": "GetAwayUsers",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Away user ID. AwayUsers.username Away user username.",
+      "name": "AwayUsers.id",
+      "required": ""
+    },
+    {
+      "description": "AwayUsers.name Away user name. AwayUsers.phone",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "AwayUsers.roles Away user roles. AwayUsers.email",
+      "name": "Away user phone.",
+      "required": ""
+    },
+    {
+      "description": "Script Example",
+      "name": "Away user email.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!GetAwayUsers",
+      "required": ""
+    },
+    {
+      "description": "\"CortexXSOAR\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"email\"",
+      "name": "\"AwayUsers\"",
+      "required": ""
+    },
+    {
+      "description": "\"admintest@demisto.com\" , \"id\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"admin\" , \"name\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"Admin Dude\" , \"phone\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"+650-123456\" , \"roles\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "{ \"demisto\" :",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"Administrator\" ] }",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "\"username\" : \"admin\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "} }",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetAwayUsers",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-away-users"
+}

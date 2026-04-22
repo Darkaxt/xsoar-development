@@ -1,0 +1,45 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input.",
+      "required": ""
+    }
+  ],
+  "description": "### SMG Blocked domains:",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "smg-get-blocked-ips",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Raw Output ### SMG Blocked IP addresses: - 1.2.3.4",
+      "name": "There is no context output for this command..",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "- 8.8.8.8",
+      "required": ""
+    },
+    {
+      "description": "Next Synapse \u00bb Docs",
+      "name": "\u00ab Symantec Management Center",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Messaging Gateway",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-messaging-gateway"
+}

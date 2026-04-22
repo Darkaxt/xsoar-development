@@ -1,0 +1,248 @@
+{
+  "aliases": [
+    "risk-iq-passive-total-whois-script"
+  ],
+  "arguments": [],
+  "description": "RiskIQPassiveTotalWhoisScript | Cortex XSOAR",
+  "examples": [
+    "!RiskIQPassiveTotalWhoisScript indicator_value=domains@riskiq.com\nContext Example\n#\n{\n\"DBotScore\": [\n{\n\"Indicator\": \"someone@riskiq.com\",\n\"Score\": 0,"
+  ],
+  "kind": "script",
+  "name": "RiskIQPassiveTotalWhoisScript",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!RiskIQPassiveTotalWhoisScript indicator_value=domains@riskiq.com",
+      "required": ""
+    },
+    {
+      "description": "\"DBotScore\": [ { \"Indicator\": \"someone@riskiq.com\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Type\": \"domain\", \"Vendor\": \"PassiveTotal\" },",
+      "name": "\"Score\": 0,",
+      "required": ""
+    },
+    {
+      "description": "\"Indicator\": \"domains@riskiq.com\", \"Score\": 0, \"Type\": \"domain\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "} ], \"Domain\": [",
+      "name": "\"Vendor\": \"PassiveTotal\"",
+      "required": ""
+    },
+    {
+      "description": "\"Admin\": { \"Country\": \"us\", \"Email\": \"domains@riskiq.com\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Phone\": \"18884154447\" }, \"CreationDate\": \"2006-01-11T16:00:00.000-0800\",",
+      "name": "\"Name\": \"Risk IQ\",",
+      "required": ""
+    },
+    {
+      "description": "\"Name\": \"someone@riskiq.com\", \"NameServers\": [ \"luke.ns.cloudflare.com\",",
+      "name": "\"ExpirationDate\": \"2017-01-11T16:00:00.000-0800\",",
+      "required": ""
+    },
+    {
+      "description": "], \"Organization\": \"RiskIQ, Inc.\", \"Registrant\": {",
+      "name": "\"serena.ns.cloudflare.com\"",
+      "required": ""
+    },
+    {
+      "description": "\"Email\": \"domains@riskiq.com\", \"Name\": \"Risk IQ\", \"Phone\": \"18884154447\"",
+      "name": "\"Country\": \"us\",",
+      "required": ""
+    },
+    {
+      "description": "\"Registrar\": { \"AbuseEmail\": null, \"AbusePhone\": null,",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "}, \"UpdatedDate\": \"2014-12-08T16:00:00.000-0800\", \"WHOIS\": {",
+      "name": "\"Name\": \"GODADDY.COM, LLC\"",
+      "required": ""
+    },
+    {
+      "description": "\"Country\": \"us\", \"Email\": \"domains@riskiq.com\", \"Name\": \"Risk IQ\",",
+      "name": "\"Admin\": {",
+      "required": ""
+    },
+    {
+      "description": "}, \"CreationDate\": \"2006-01-11T16:00:00.000-0800\", \"ExpirationDate\": \"2017-01-11T16:00:00.000-0800\",",
+      "name": "\"Phone\": \"18884154447\"",
+      "required": ""
+    },
+    {
+      "description": "\"luke.ns.cloudflare.com\", \"serena.ns.cloudflare.com\" ],",
+      "name": "\"NameServers\": [",
+      "required": ""
+    },
+    {
+      "description": "\"Country\": \"us\", \"Email\": \"domains@riskiq.com\", \"Name\": \"Risk IQ\",",
+      "name": "\"Registrant\": {",
+      "required": ""
+    },
+    {
+      "description": "}, \"Registrar\": { \"AbuseEmail\": null,",
+      "name": "\"Phone\": \"18884154447\"",
+      "required": ""
+    },
+    {
+      "description": "\"Name\": \"GODADDY.COM, LLC\" }, \"UpdatedDate\": \"2014-12-08T16:00:00.000-0800\"",
+      "name": "\"AbusePhone\": null,",
+      "required": ""
+    },
+    {
+      "description": "}, { \"Admin\": {",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"Email\": \"domains@riskiq.com\", \"Name\": \"Risk IQ\", \"Phone\": \"18884154447\"",
+      "name": "\"Country\": \"us\",",
+      "required": ""
+    },
+    {
+      "description": "\"CreationDate\": \"2006-01-11T16:00:00.000-0800\", \"ExpirationDate\": \"2017-01-11T16:00:00.000-0800\", \"Name\": \"domains@riskiq.com\",",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "\"luke.ns.cloudflare.com\", \"serena.ns.cloudflare.com\" ],",
+      "name": "\"NameServers\": [",
+      "required": ""
+    },
+    {
+      "description": "\"Registrant\": { \"Country\": \"us\", \"Email\": \"domains@riskiq.com\",",
+      "name": "\"Organization\": \"RiskIQ, Inc.\",",
+      "required": ""
+    },
+    {
+      "description": "\"Phone\": \"18884154447\" }, \"Registrar\": {",
+      "name": "\"Name\": \"Risk IQ\",",
+      "required": ""
+    },
+    {
+      "description": "\"AbusePhone\": null, \"Name\": \"GODADDY.COM, LLC\" },",
+      "name": "\"AbuseEmail\": null,",
+      "required": ""
+    },
+    {
+      "description": "\"WHOIS\": { \"Admin\": { \"Country\": \"us\",",
+      "name": "\"UpdatedDate\": \"2014-12-08T16:00:00.000-0800\",",
+      "required": ""
+    },
+    {
+      "description": "\"Name\": \"Risk IQ\", \"Phone\": \"18884154447\" },",
+      "name": "\"Email\": \"domains@riskiq.com\",",
+      "required": ""
+    },
+    {
+      "description": "\"ExpirationDate\": \"2017-01-11T16:00:00.000-0800\", \"NameServers\": [ \"luke.ns.cloudflare.com\",",
+      "name": "\"CreationDate\": \"2006-01-11T16:00:00.000-0800\",",
+      "required": ""
+    },
+    {
+      "description": "], \"Registrant\": { \"Country\": \"us\",",
+      "name": "\"serena.ns.cloudflare.com\"",
+      "required": ""
+    },
+    {
+      "description": "\"Name\": \"Risk IQ\", \"Phone\": \"18884154447\" },",
+      "name": "\"Email\": \"domains@riskiq.com\",",
+      "required": ""
+    },
+    {
+      "description": "\"AbuseEmail\": null, \"AbusePhone\": null, \"Name\": \"GODADDY.COM, LLC\"",
+      "name": "\"Registrar\": {",
+      "required": ""
+    },
+    {
+      "description": "\"UpdatedDate\": \"2014-12-08T16:00:00.000-0800\" } }",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "\"PassiveTotal\": { \"WHOIS\": { \"adminCity\": \"san francisco\",",
+      "name": "],",
+      "required": ""
+    },
+    {
+      "description": "\"adminEmail\": \"domains@riskiq.com\", \"adminName\": \"Risk IQ\", \"adminOrganization\": \"RiskIQ, Inc.\",",
+      "name": "\"adminCountry\": \"us\",",
+      "required": ""
+    },
+    {
+      "description": "\"adminState\": \"california\", \"adminStreet\": \"22 Battery Street\\n10th Floor\", \"adminTelephone\": \"18884154447\",",
+      "name": "\"adminPostalCode\": \"94111\",",
+      "required": ""
+    },
+    {
+      "description": "\"domain\": \"domains@riskiq.com\", \"expiresAt\": \"2017-01-11T16:00:00.000-0800\", \"lastLoadedAt\": \"2016-09-27T09:40:31.180-0700\",",
+      "name": "\"contactEmail\": \"domains@riskiq.com\",",
+      "required": ""
+    },
+    {
+      "description": "\"nameServers\": [ \"luke.ns.cloudflare.com\", \"serena.ns.cloudflare.com\"",
+      "name": "\"name\": \"Risk IQ\",",
+      "required": ""
+    },
+    {
+      "description": "\"organization\": \"RiskIQ, Inc.\", \"registered\": \"2006-01-11T16:00:00.000-0800\", \"registrantCity\": \"san francisco\",",
+      "name": "],",
+      "required": ""
+    },
+    {
+      "description": "\"registrantEmail\": \"domains@riskiq.com\", \"registrantName\": \"Risk IQ\", \"registrantOrganization\": \"RiskIQ, Inc.\",",
+      "name": "\"registrantCountry\": \"us\",",
+      "required": ""
+    },
+    {
+      "description": "\"registrantState\": \"california\", \"registrantStreet\": \"22 Battery Street\\n10th Floor\", \"registrantTelephone\": \"18884154447\",",
+      "name": "\"registrantPostalCode\": \"94111\",",
+      "required": ""
+    },
+    {
+      "description": "\"registryUpdatedAt\": \"2014-12-08T16:00:00.000-0800\", \"techCity\": \"san francisco\", \"techCountry\": \"us\",",
+      "name": "\"registrar\": \"GODADDY.COM, LLC\",",
+      "required": ""
+    },
+    {
+      "description": "\"techName\": \"Risk IQ\", \"techOrganization\": \"RiskIQ, Inc.\", \"techPostalCode\": \"94111\",",
+      "name": "\"techEmail\": \"domains@riskiq.com\",",
+      "required": ""
+    },
+    {
+      "description": "\"techStreet\": \"22 Battery Street\\n10th Floor\", \"techTelephone\": \"18884154447\", \"telephone\": \"18884154447\",",
+      "name": "\"techState\": \"california\",",
+      "required": ""
+    },
+    {
+      "description": "} } }",
+      "name": "\"whoisServer\": \"whois.godaddy.com\"",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RiskIQPassiveTotalWhoisScript",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/risk-iq-passive-total-whois-script"
+}

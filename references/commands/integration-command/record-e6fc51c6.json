@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!sep-move-client-to-group groupID=AA51516BC0A8010B3BFBBE37F7B71214 hardwareKey=269CE816FDB1BA25A2505D0A5A59294C",
+  "examples": [
+    "!sep-move-client-to-group groupID=AA51516BC0A8010B3BFBBE37F7B71214 hardwareKey=269CE816FDB1BA25A2505D0A5A59294C\nHuman Readable Output\n#\nsep-identify-old-clients\n#\nGet endpoints for a running version that is different than the target version or the desired version (if specified).\nBase Command\n#",
+    "Command Example\n#\n!sep-identify-old-clients desiredVersion=10\nHuman Readable Output\n#\nKnown Limitations\n#\nSEPM REST- API currently exposes statistics, but does not expose extended information about Risks, Application and Device control, and Network logs.",
+    "!sep-identify-old-clients desiredVersion=10\nHuman Readable Output\n#\nKnown Limitations\n#\nSEPM REST- API currently exposes statistics, but does not expose extended information about Risks, Application and Device control, and Network logs.\nSEPM REST- API currently does not support an operation to get Host Names or IP addresses of clients who don\u2019t have an update content version.\nSEPM REST- API currently does not support an operation to create or download reports."
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Endpoint Protection v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-endpoint-protection-v2"
+}

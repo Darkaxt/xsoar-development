@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Command to quickly block malicious or suspicious IP addresses directly from the Cortex Core IR interface.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List List of dictionaries each holds 3 fileds: ip_address, endpoint_id, reason. Context Example",
+      "name": "Core.ip_block_results",
+      "required": ""
+    },
+    {
+      "description": "\"Core.ip_block_results\": [ { \"reason\": \"Success\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"endpoint_id\": \"1234\" }, {",
+      "name": "\"ip_address\": \"1.1.1.1\"",
+      "required": ""
+    },
+    {
+      "description": "\"ip_address\": \"1.1.1.1\" \"endpoint_id\": \"12345\" },",
+      "name": "\"reason\": \"Failure: Endpoint Disconnected\",",
+      "required": ""
+    },
+    {
+      "description": "\"reason\": \"Failure: Unknown error\", \"ip_address\": \"2.2.2.2\" \"endpoint_id\": \"1234\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "] }",
+      "name": "}",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Investigation & Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cortex-core---ir"
+}

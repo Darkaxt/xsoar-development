@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!threat-grid-get-html-report-by-id id=6712d1b712dda4aa63d6073477c367c4\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"Id\": \"6712d1b712dda4aa63d6073477c367c4\"\n}",
+    "!threat-grid-get-html-report-by-id id=6712d1b712dda4aa63d6073477c367c4\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"Id\": \"6712d1b712dda4aa63d6073477c367c4\"\n}\n},"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-html-report-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the sample that the report was downloaded for",
+      "name": "ThreatGrid.Sample.Id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

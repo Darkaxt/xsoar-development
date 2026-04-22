@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "38. Associates one group with another group",
+  "examples": [
+    "Command Example\n!tc-associate-group-to-group associated_group_id=3594873 associated_group_type=campaigns group_id=4410738 group_type=events\nContext Example\n{\n\"TC.Group.AssociatedGroup\": {\n\"AssociatedGroupID\": 3594873,\n\"AssociatedGroupType\": \"campaigns\",\n\"GroupID\": 4410738,",
+    "!tc-associate-group-to-group associated_group_id=3594873 associated_group_type=campaigns group_id=4410738 group_type=events\nContext Example\n{\n\"TC.Group.AssociatedGroup\": {\n\"AssociatedGroupID\": 3594873,\n\"AssociatedGroupType\": \"campaigns\",\n\"GroupID\": 4410738,\n\"GroupType\": \"events\""
+  ],
+  "kind": "integration-command",
+  "name": "tc-associate-group-to-group",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the associated group. TC.Group.AssociatedGroup.AssociatedGroupType The type of the associated group.",
+      "name": "TC.Group.AssociatedGroup.AssociatedGroupID",
+      "required": ""
+    },
+    {
+      "description": "The ID of the group to associate to. TC.Group.AssociatedGroup.GroupType The type of the group to associate to.",
+      "name": "TC.Group.AssociatedGroup.GroupID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

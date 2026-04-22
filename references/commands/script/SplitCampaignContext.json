@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "split-campaign-context"
+  ],
+  "arguments": [],
+  "description": "SplitCampaignContext | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SplitCampaignContext",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The IDs of the incidents involved in the campaign. EmailCampaign.incidents.similarity The textual similarity of the related emails to the current incident.",
+      "name": "EmailCampaign.incidents.id",
+      "required": ""
+    },
+    {
+      "description": "EmailCampaign.incidents.emailfrom The senders of the emails involved in the campaign. EmailCampaign.incidents.emailfromdomain",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "EmailCampaign.incidents.recipients A list of email addresses of recipients involved in the campaign. The list is comprised of the following fields, \"Email To\", \"Email CC\", \"Email BCC\". EmailCampaign.incidents.recipientsdomain",
+      "name": "The domains of the email senders involved in the campaign.",
+      "required": ""
+    },
+    {
+      "description": "EmailCampaign.LowerSimilarityIncidents.id The IDs of the incidents involved in the campaign. EmailCampaign.LowerSimilarityIncidents.similarity",
+      "name": "A list of the domains of the email addresses of recipients involved in the campaign. The list is comprised of the following fields, \"Email To\", \"Email CC\", \"Email BCC\".",
+      "required": ""
+    },
+    {
+      "description": "EmailCampaign.LowerSimilarityIncidents.emailfrom The senders of the emails involved in the campaign. EmailCampaign.LowerSimilarityIncidents.emailfromdomain",
+      "name": "The textual similarity of the related emails to the current incident.",
+      "required": ""
+    },
+    {
+      "description": "EmailCampaign.LowerSimilarityIncidents.recipients A list of email addresses of recipients involved in the campaign. The list is comprised of the following fields, \"Email To\", \"Email CC\", \"Email BCC\". EmailCampaign.LowerSimilarityIncidents.recipientsdomain",
+      "name": "The domains of the email senders involved in the campaign.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "A list of the domains of the email addresses of recipients involved in the campaign. The list is comprised of the following fields, \"Email To\", \"Email CC\", \"Email BCC\".",
+      "required": ""
+    },
+    {
+      "description": "Next Splunk_ShortID \u00bb Permissions",
+      "name": "\u00ab SortBy",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SplitCampaignContext",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/split-campaign-context"
+}

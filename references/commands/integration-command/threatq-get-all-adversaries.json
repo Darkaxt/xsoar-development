@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The date the event happened.",
+  "examples": [
+    "Command Example\n!threatq-get-all-events limit=30 page=10\nHuman Readable Output\n31. Get a list of all adversaries\nReturns all adversaries in ThreatQ.\nBase Command\nthreatq-get-all-adversaries\nInput",
+    "!threatq-get-all-events limit=30 page=10\nHuman Readable Output\n31. Get a list of all adversaries\nReturns all adversaries in ThreatQ.\nBase Command\nthreatq-get-all-adversaries\nInput\nArgument Name",
+    "Command Example\n!threatq-get-all-events limit=30 page=10\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab Threatmon\nNext",
+    "!threatq-get-all-events limit=30 page=10\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab Threatmon\nNext\nThreatX \u00bb"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-get-all-adversaries",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the adversary. ThreatQ.Adversary.ID The ID of the of the adversary.",
+      "name": "ThreatQ.Adversary.Name",
+      "required": ""
+    },
+    {
+      "description": "The source ID of the adversary. ThreatQ.Adversary.Source.Name The source name of the adversary.",
+      "name": "ThreatQ.Adversary.Source.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute ID of the adversary. ThreatQ.Adversary.Attribute.Name The attribute name of the adversary.",
+      "name": "ThreatQ.Adversary.Attribute.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute value of the adversary. ThreatQ.Adversary.UpdatedAt date",
+      "name": "ThreatQ.Adversary.Attribute.Value",
+      "required": ""
+    },
+    {
+      "description": "ThreatQ.Adversary.CreatedAt date The last update date of the adversary.",
+      "name": "The creation date of the adversary.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

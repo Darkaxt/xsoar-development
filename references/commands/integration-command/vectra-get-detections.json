@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "vectra-get-users: vectra-get-users",
+  "examples": [
+    "Command Example\n!vectra-get-detections certainty_score_gte=20\nContext Example\n{\n\"Vectra.Detection\": [\n{\n\"Category\": \"LATERAL MOVEMENT\",\n\"CertaintyScore\": 22,",
+    "!vectra-get-detections certainty_score_gte=20\nContext Example\n{\n\"Vectra.Detection\": [\n{\n\"Category\": \"LATERAL MOVEMENT\",\n\"CertaintyScore\": 22,\n\"Detection\": \"Automated Replication\","
+  ],
+  "kind": "integration-command",
+  "name": "vectra-get-detections",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The category of the vname attack detected Vectra.Detection.TargetsKeyAsset Flag indicating if the host has a detection targeting a key asset",
+      "name": "Vectra.Detection.Category",
+      "required": ""
+    },
+    {
+      "description": "The current certainty score correlated to this host Vectra.Detection.ID Object ID",
+      "name": "Vectra.Detection.CertaintyScore",
+      "required": ""
+    },
+    {
+      "description": "The timestamp when the event was first detected Vectra.Detection.LastTimestamp The timestamp when the event was last detected",
+      "name": "Vectra.Detection.FirstTimestamp",
+      "required": ""
+    },
+    {
+      "description": "The state of the detection Vectra.Detection.Threat_Score The threat score attributed to the detection",
+      "name": "Vectra.Detection.State",
+      "required": ""
+    },
+    {
+      "description": "The source IP address of the host attributed to the security event Vectra.Detection.SourceAccount A dictionary with fields that describe the Account the detection is from",
+      "name": "Vectra.Detection.SourceIP",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Vectra v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vectra-v2"
+}

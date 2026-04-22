@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The status of the application",
+  "examples": [
+    "!reco-set-app-authorization-status app_id=\"microsoft.com\" authorization_status=\"AUTH_STATUS_SANCTIONED\"\nContext Example\n#\n{\n\"Reco\"\n:\n{\n\"AppAuthorization\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The application ID that was updated Reco.AppAuthorization.authorization_status The authorization status that was set",
+      "name": "Reco.AppAuthorization.app_id",
+      "required": ""
+    },
+    {
+      "description": "Whether the update was successful Reco.AppAuthorization.rows_affected Number of rows affected by the update operation",
+      "name": "Reco.AppAuthorization.updated",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Reco",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/reco"
+}

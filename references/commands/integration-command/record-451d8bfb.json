@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!flashpoint-ignite-v2-get-indicators limit=2 types=URL updated_since=\"3 days\"\nHuman Readable Output\n#\nIndicator(s)\n#\nID\nIndicator Type\nIndicator Value"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Flashpoint Ignite Feed v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ignite-feed-v2"
+}

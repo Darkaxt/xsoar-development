@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Cofense URL Reputation for: example.com",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### ip\n***\nChecks the reputation of an IP address.\n#### Base Command\n`ip`",
+    "#### Command Example\n```!ip ip=1.2.3.4 using=\"Cofense Intelligence_instance_1\"```\n#### Context Example\n```json\n{\n\"DBotScore\": {\n\"Indicator\": \"1.2.3.4\",\n\"Reliability\": \"B - Usually reliable\",",
+    "#### Command Example\n```!email email=example@example.com using=\"Cofense Intelligence_instance_1\"```\n#### Context Example\n```json\n{\n\"DBotScore\": {\n\"Indicator\": \"example@example.com\",\n\"Reliability\": \"B - Usually reliable\",",
+    "#### Command Example\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious\n\u00ab Cofense Feed\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File MD5 File.Malicious.Vendor For malicious files, the vendor that made the decision.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the reason that the vendor made the decision. DBotScore.Indicator The indicator that was tested.",
+      "name": "File.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Reliability Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "MD5 hash of the file. Cofense.File.Malicious.Vendor For malicious files, the vendor that made the decision.",
+      "name": "Cofense.File.MD5",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the reason that the vendor made the decision. Cofense.File.ThreatIDs The thread IDs retrieved by the vendor.",
+      "name": "Cofense.File.Malicious.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cofense Intelligence (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cofense-intelligence"
+}

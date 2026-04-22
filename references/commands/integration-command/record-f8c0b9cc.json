@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!sql-command query=\"select * from TestTable\" limit=10 skip=0\nContext Example\n#\n{\n\"GenericSQL\"\n:",
+    "!sql-command query=\"select * from TestTable\" limit=10 skip=0\nContext Example\n#\n{\n\"GenericSQL\"\n:\n{\n\"GenericSQL\"",
+    "Command Example\n#\n!sql-command query=\"INSERT into TestTable(ID, LastName, FirstName) VALUES (11111, :x , :y)\" bind_variables_names=x,y bind_variables_values=\"test,playbook\"\nContext Example\n#\n{}\nHuman Readable Output\n#",
+    "!sql-command query=\"INSERT into TestTable(ID, LastName, FirstName) VALUES (11111, :x , :y)\" bind_variables_names=x,y bind_variables_values=\"test,playbook\"\nContext Example\n#\n{}\nHuman Readable Output\n#\nCommand executed\nCommand Example",
+    "Command Example\n#\n!sql-command query=\"delete from TestTable where ID=11111\"\nContext Example\n#\n{}\nHuman Readable Output\n#",
+    "!sql-command query=\"delete from TestTable where ID=11111\"\nContext Example\n#\n{}\nHuman Readable Output\n#\nCommand executed\nTroubleshooting",
+    "!sql-command\nwith\ndebug-mode=true\n. For example:\n!sql-command query=\"some simple query\" debug-mode=true\nA log file will be generated in the Playground. Examine the log file for further details that explain why the integration is failing.\nMicrosoft SQL Server\n#",
+    "!sql-command query=\"some simple query\" debug-mode=true\nA log file will be generated in the Playground. Examine the log file for further details that explain why the integration is failing.\nMicrosoft SQL Server\n#\nWe provide two options for connecting to Microsoft SQL Server:\nMicrosoft SQL Server\n: Uses the open source FreeTDS driver to communicate with Microsoft SQL Server. This driver supports authentication via domain logins (\nDOMAIN\\username"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Generic SQL",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/generic-sql"
+}

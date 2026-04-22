@@ -1,0 +1,416 @@
+{
+  "aliases": [
+    "indicator-enrichment"
+  ],
+  "arguments": [],
+  "description": "indicator-enrichment | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "indicator-enrichment",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The overall status of the script execution. \"Success\", \"Failed\". IndicatorEnrichment.Message A success message if the command runs successfully, otherwise a message that contains the error.",
+      "name": "IndicatorEnrichment.Status",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results A list of all indicators found. IndicatorEnrichment.Results.Type",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Value The indicator value. (e.g, IP, URL). IndicatorEnrichment.Results.MaxScore",
+      "name": "The detected indicator type (e.g., \"IP\", \"URL\") that triggered this enrichment.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.MaxVerdict The max verdict of all the indicators found. IndicatorEnrichment.Results.TIMScore",
+      "name": "The max score of all the indicators found.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.TIMCVSS The max CVSS of the indicator. IndicatorEnrichment.Results.Status",
+      "name": "The TIM score of the indicator.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.ModifiedTime The time the indicator was last modified. Date",
+      "name": "The status of the indicator: \"Manual\" if the score was changed manually, \"Fresh\" if modified within the last week, \"Stale\" if modified more than a week ago, and \"None\" if never modified.",
+      "required": ""
+    },
+    {
+      "description": "A list of all the underlying script results for the valid indicators. IndicatorEnrichment.Results.Results.Source The source of the indicator.",
+      "name": "IndicatorEnrichment.Results.Results",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.Brand The brand of the indicator. IndicatorEnrichment.Results.Results.DetectionEngines",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.PositiveDetections The positive detections of the indicator. IndicatorEnrichment.Results.Results.ASOwner",
+      "name": "The detection engines of the indicator.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.Score The score of the indicator. IndicatorEnrichment.Results.Results.Verdict",
+      "name": "Registered owner of the Autonomous System announcing the IP prefix.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.Address The IP address of the indicator. IndicatorEnrichment.Results.Data",
+      "name": "The verdict of the indicator.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Name The Domain of the indicator. IndicatorEnrichment.Results.Results.Reliability",
+      "name": "The URL of the indicator.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields All fields extracted from the indicator other then the main keys (\"Brand\", \"Score\", \"Verdict\", \"DetectionEngines\", \"PositiveDetections\", \"Address\"). list",
+      "name": "The reliability of the Brand.",
+      "required": ""
+    },
+    {
+      "description": "The source of the relationship. IndicatorEnrichment.Results.Results.AdditionalFields.Relationships.EntityB The destination of the relationship.",
+      "name": "IndicatorEnrichment.Results.Results.AdditionalFields.Relationships.EntityA",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Relationships.Relationship The name of the relationship. IndicatorEnrichment.Results.Results.AdditionalFields.Relationships.EntityAType",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Relationships.EntityBType The type of the destination of the relationship. IndicatorEnrichment.Results.Results.AdditionalFields.Category",
+      "name": "The type of the source of the relationship.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.ASN The autonomous system name for the IP address, for example: \"AS8948\". IndicatorEnrichment.Results.Results.AdditionalFields.Hostname",
+      "name": "The category associated with the indicator.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.DNS A list of IP objects resolved by DNS. IndicatorEnrichment.Results.Results.AdditionalFields.Geo.Location",
+      "name": "The hostname that is mapped to this IP address.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Geo.Country The country in which the IP address is located. IndicatorEnrichment.Results.Results.AdditionalFields.Geo.Description",
+      "name": "The geolocation where the IP address or Domain is located, in the format: latitude:longitude.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Malicious.Vendor The vendor reporting the IP address as malicious. IndicatorEnrichment.Results.Results.AdditionalFields.Malicious.Description",
+      "name": "Additional information about the location.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Tags (List) Tags of the Indicator. IndicatorEnrichment.Results.Results.AdditionalFields.FeedRelatedIndicators.value",
+      "name": "A description explaining why the IP address was reported as malicious.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.FeedRelatedIndicators.type The type of the indicators that are associated with the given indicator value. IndicatorEnrichment.Results.Results.AdditionalFields.FeedRelatedIndicators.description",
+      "name": "Indicators that are associated with the given indicator value.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.MalwareFamily The malware family associated with the given indicator. IndicatorEnrichment.Results.Results.AdditionalFields.Organization.Name",
+      "name": "The description of the indicators that are associated with the given indicator value.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Organization.Type The organization type of the IP. IndicatorEnrichment.Results.Results.AdditionalFields.Region",
+      "name": "The organization of the IP.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Port Ports that are associated with the Indicator. IndicatorEnrichment.Results.Results.AdditionalFields.Internal",
+      "name": "The region in which the IP is located.",
+      "required": ""
+    },
+    {
+      "description": "Bool IndicatorEnrichment.Results.Results.AdditionalFields.UpdatedDate The date that the indicator was last updated.",
+      "name": "Whether or not the indicator is internal or external.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Billing Billing address of the domain. IndicatorEnrichment.Results.Results.AdditionalFields.Tech.Country",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Tech.Name The name of the domain technical contact. IndicatorEnrichment.Results.Results.AdditionalFields.Tech.Organization",
+      "name": "The country of the domain technical contact.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Tech.Email The email address of the domain technical contact. IndicatorEnrichment.Results.Results.AdditionalFields.DomainIDNName",
+      "name": "The organization of the domain technical contact.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.ExpirationDate The expiration date of the domain. Date",
+      "name": "The internationalized domain name (IDN) of the domain.",
+      "required": ""
+    },
+    {
+      "description": "The status of the domain. Date IndicatorEnrichment.Results.Results.AdditionalFields.NameServers",
+      "name": "IndicatorEnrichment.Results.Results.AdditionalFields.DomainStatus",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Organization The organization of the domain. IndicatorEnrichment.Results.Results.AdditionalFields.Subdomains",
+      "name": "(List<String>) Name servers of the domain.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Admin.Country The country of the domain administrator. IndicatorEnrichment.Results.Results.AdditionalFields.Admin.Email",
+      "name": "(List<String>) Subdomains of the domain.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Admin.Name The name of the domain administrator. IndicatorEnrichment.Results.Results.AdditionalFields.Admin.Phone",
+      "name": "The email address of the domain administrator.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Registrant.Country The country of the registrant. IndicatorEnrichment.Results.Results.AdditionalFields.Registrant.Email",
+      "name": "The phone number of the domain administrator.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Registrant.Name The name of the registrant. IndicatorEnrichment.Results.Results.AdditionalFields.Registrant.Phone",
+      "name": "The email address of the registrant.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.NameServers (List<String>) Name servers of the domain. IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.CreationDate",
+      "name": "The phone number to receive abuse reports.",
+      "required": ""
+    },
+    {
+      "description": "Date IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.UpdatedDate The date that the domain was last updated.",
+      "name": "The date that the domain was created.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.ExpirationDate The expiration date of the domain. Date",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The name of the registrant. IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.Registrant.Email The email address of the registrant.",
+      "name": "IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.Registrant.Name",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.Registrant.Phone The phone number of the registrant. IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.Registrar.Name",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.Registrar.AbuseEmail The email address of the contact to report abuse. IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.Registrar.AbusePhone",
+      "name": "The name of the registrar, for example, GoDaddy.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.Admin.Name The name of the domain administrator. IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.Admin.Email",
+      "name": "The phone number of the contact to report abuse.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.Admin.Phone The phone number of the domain administrator. IndicatorEnrichment.Results.Results.AdditionalFields.WHOIS.History",
+      "name": "The email address of the domain administrator.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.CVSS The CVSS of the indicator. IndicatorEnrichment.Results.Results.Description",
+      "name": "List of Whois objects.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.Published The published date of the indicator. IndicatorEnrichment.Results.Results.AdditionalFields.CreationDate",
+      "name": "The description of the indicator.",
+      "required": ""
+    },
+    {
+      "description": "Date IndicatorEnrichment.Results.Results.AdditionalFields.ExpirationDate The expiration date of the domain.",
+      "name": "The date when the domain was created.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Registrar.Abuse.Name The name of the contact for reporting abuse. IndicatorEnrichment.Results.Results.AdditionalFields.Registrar.Abuse.Address",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Registrar.Abuse.Country The country of the contact for reporting abuse. IndicatorEnrichment.Results.Results.AdditionalFields.Registrar.Abuse.Network",
+      "name": "The address of the contact for reporting abuse.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Registrar.Abuse.Phone The phone number of the contact for reporting abuse. IndicatorEnrichment.Results.Results.AdditionalFields.Registrar.Abuse.Email",
+      "name": "The network of the contact for reporting abuse.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Campaign The campaign associated with the Indicator. IndicatorEnrichment.Results.Results.AdditionalFields.TrafficLightProtocol",
+      "name": "The email address of the contact for reporting abuse.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.CommunityNotes.note Notes on the IP that were given by the community. IndicatorEnrichment.Results.Results.AdditionalFields.CommunityNotes.timestamp",
+      "name": "The Traffic Light Protocol (TLP) color that is suitable for the IP/Domain.",
+      "required": ""
+    },
+    {
+      "description": "Date IndicatorEnrichment.Results.Results.AdditionalFields.Publications.source The source in which the article was published.",
+      "name": "The time in which the note was published.",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Publications.title The name of the article. IndicatorEnrichment.Results.Results.AdditionalFields.Publications.link",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "IndicatorEnrichment.Results.Results.AdditionalFields.Publications.timestamp The time in which the article was published. Date",
+      "name": "A link to the original article.",
+      "required": ""
+    },
+    {
+      "description": "The threat category associated to this indicator by the source vendor, for example, Phishing, Control, TOR, etc. IndicatorEnrichment.Results.Results.AdditionalFields.ThreatTypes.threatcategoryconfidence Threat Category Confidence is the confidence level provided by the vendor for the threat type category. For example, a confidence level of 90 for the 'malware' threat type category means that the vendor is confident that its 90% malware.",
+      "name": "IndicatorEnrichment.Results.Results.AdditionalFields.ThreatTypes.threatcategory",
+      "required": ""
+    },
+    {
+      "description": "Core.AnalyticsPrevalence.Ip.value Whether the IP address is prevalent or not. Core.AnalyticsPrevalence.Ip.data.global_prevalence.value",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Core.AnalyticsPrevalence.Ip.data.local_prevalence.value The local prevalence of the IP. Core.AnalyticsPrevalence.Ip.data.prevalence.value",
+      "name": "The global prevalence of the IP.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Hostname.value The endpoint's hostname. EndpointData.Hostname.source",
+      "name": "The prevalence of the IP.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.EntityA.value The source of the relationship. EndpointData.EntityA.source",
+      "name": "The vendor from which the hostname of this endpoint was retrieved.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.EntityB.value The destination of the relationship. EndpointData.EntityB.source",
+      "name": "The vendor from which EntityA of this endpoint was retrieved.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Relationship.value The name of the relationship. EndpointData.Relationship.source",
+      "name": "The vendor from which EntityB of this endpoint was retrieved.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.EntityAType.value The type of the source of the relationship. EndpointData.EntityAType.source",
+      "name": "The vendor from which the relationship of this endpoint was retrieved.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.EntityBType.value The type of the destination of the relationship. EndpointData.EntityBType.source",
+      "name": "The vendor from which the type of the source of the relationship of this endpoint was retrieved.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.ID.value The endpoint's ID. EndpointData.ID.source",
+      "name": "The vendor from which the type of the destination of the relationship of this endpoint was retrieved.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.IPAddress The endpoint's IP address. EndpointData.Domain.value",
+      "name": "The vendor from which the ID of this endpoint was retrieved.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Domain.source The vendor from which the domain of this endpoint was retrieved. EndpointData.MACAddress.value",
+      "name": "The endpoint's domain.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.MACAddress.source The vendor from which the MAC address of this endpoint was retrieved. EndpointData.DHCPServer.value",
+      "name": "The endpoint's MAC address.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.DHCPServer.source The vendor from which the DHCP server of this endpoint was retrieved. EndpointData.OS.value",
+      "name": "The DHCP server of the endpoint.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.OS.source The vendor from which the operating system of this endpoint was retrieved. EndpointData.OSVersion.value",
+      "name": "The endpoint's operating system.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.OSVersion.source The vendor from which the operating system version of this endpoint was retrieved. EndpointData.BIOSVersion.value",
+      "name": "The endpoint's operating system version.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.BIOSVersion.source The vendor from which the BIOS version of this endpoint was retrieved. EndpointData.Model.value",
+      "name": "The endpoint's BIOS version.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Model.source The vendor from which the model of this endpoint was retrieved. EndpointData.Memory.value",
+      "name": "The model of the machine or device.",
+      "required": ""
+    },
+    {
+      "description": "Integer EndpointData.Memory.source The vendor from which the amount of memory of this endpoint was retrieved.",
+      "name": "Amount of memory on this endpoint.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Processors.value The number of processors. Integer",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The vendor from which the processors of this endpoint was retrieved. EndpointData.Processor.value The model of the processor.",
+      "name": "EndpointData.Processors.source",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Processor.source The vendor from which the processor of this endpoint was retrieved. EndpointData.IsIsolated.value",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.IsIsolated.source The vendor from which the isolation of this endpoint was retrieved. EndpointData.Status.value",
+      "name": "The endpoint's isolation status.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Status.source The vendor from which the status of this endpoint was retrieved. EndpointData.Vendor.value",
+      "name": "The endpoint's status.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Vendor.source The vendor from which the Vendor of this endpoint was retrieved. IndicatorEnrichment.Failed",
+      "name": "The integration name of the endpoint vendor.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "indicator-enrichment",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/indicator-enrichment"
+}

@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "microsoft-azure-storage-api-module"
+  ],
+  "arguments": [],
+  "description": "MicrosoftAzureStorageApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "MicrosoftAzureStorageApiModule",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MicrosoftAzureStorageApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/microsoft-azure-storage-api-module"
+}

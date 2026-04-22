@@ -1,0 +1,106 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "11111111111111111111111111111111",
+  "examples": [
+    "!joe-submit-url url=http://example.com\nContext Example\n#\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Reliability The reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. URL.Data The URL.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The analysis ID. Joe.Analysis.Classification The classification.",
+      "name": "Joe.Analysis.AnalysisID",
+      "required": ""
+    },
+    {
+      "description": "The comments. Joe.Analysis.detection The detection.",
+      "name": "Joe.Analysis.Comments",
+      "required": ""
+    },
+    {
+      "description": "The duration. Joe.Analysis.encrypted Whether the analysis is encrypted.",
+      "name": "Joe.Analysis.duration",
+      "required": ""
+    },
+    {
+      "description": "The filename. Joe.Analysis.runs.detection The detection.",
+      "name": "Joe.Analysis.filename",
+      "required": ""
+    },
+    {
+      "description": "The error. Joe.Analysis.runs.score The score.",
+      "name": "Joe.Analysis.runs.error",
+      "required": ""
+    },
+    {
+      "description": "The sigma. Joe.Analysis.runs.snort The snort.",
+      "name": "Joe.Analysis.runs.sigma",
+      "required": ""
+    },
+    {
+      "description": "The system. Joe.Analysis.runs.yara The YARA.",
+      "name": "Joe.Analysis.runs.system",
+      "required": ""
+    },
+    {
+      "description": "The score. Joe.Analysis.scriptname The script name.",
+      "name": "Joe.Analysis.score",
+      "required": ""
+    },
+    {
+      "description": "The status. Joe.Analysis.threatname The threat name.",
+      "name": "Joe.Analysis.status",
+      "required": ""
+    },
+    {
+      "description": "Date The time. Joe.Analysis.webid",
+      "name": "Joe.Analysis.time",
+      "required": ""
+    },
+    {
+      "description": "The web ID. Joe.Submission.most_relevant_analysis.detection The detection.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The score. Joe.Submission.most_relevant_analysis.webid The web ID.",
+      "name": "Joe.Submission.most_relevant_analysis.score",
+      "required": ""
+    },
+    {
+      "description": "The name. Joe.Submission.status The status.",
+      "name": "Joe.Submission.name",
+      "required": ""
+    },
+    {
+      "description": "The submission ID. Joe.Submission.time Date",
+      "name": "Joe.Submission.submission_id",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The time.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Joe Security v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/joe-security-v2"
+}

@@ -1,0 +1,49 @@
+{
+  "aliases": [
+    "generate-random-uuid"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "GenerateRandomUUID | Cortex XSOAR",
+  "examples": [
+    "!GenerateRandomUUID\nContext Example\n#\n{\n\"GeneratedUUID\"\n:\n\"8aad5925-aae2-4141-b3fb-2d8e2c0da00b\"\n}"
+  ],
+  "kind": "script",
+  "name": "GenerateRandomUUID",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The generated UUID. Script Example",
+      "name": "GeneratedUUID",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!GenerateRandomUUID",
+      "required": ""
+    },
+    {
+      "description": "\"GeneratedUUID\" : \"8aad5925-aae2-4141-b3fb-2d8e2c0da00b\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GenerateRandomUUID",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/generate-random-uuid"
+}

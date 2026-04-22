@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "{{ticket.agent.name}}",
+  "examples": [
+    "Command Example\n!fd-list-groups\nContext Example\n{\n\"Freshdesk.Group\": [\n{\n\"GroupType\": \"support_agent_group\",\n\"Name\": \"Account managers\",",
+    "!fd-list-groups\nContext Example\n{\n\"Freshdesk.Group\": [\n{\n\"GroupType\": \"support_agent_group\",\n\"Name\": \"Account managers\",\n\"UpdatedAt\": \"2019-01-20T09:06:49Z\","
+  ],
+  "kind": "integration-command",
+  "name": "fd-list-groups",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Array of agent user IDs separated by commas Freshdesk.Group.AutoTicketAssign Set to true when automatic ticket assignment was enabled. Automatic ticket assignment is only available on certain plans",
+      "name": "Freshdesk.Group.AgentID",
+      "required": ""
+    },
+    {
+      "description": "Unique ID of the business hour associated with the group Freshdesk.Group.Description Description of the group",
+      "name": "Freshdesk.Group.BusinessHourID",
+      "required": ""
+    },
+    {
+      "description": "The ID of the user that an escalation email is sent to if a ticket is unassigned Freshdesk.Group.ID Unique ID of the group",
+      "name": "Freshdesk.Group.EscalateTo",
+      "required": ""
+    },
+    {
+      "description": "Name of the group Freshdesk.Group.UnassignedFor The time after which an escalation email is sent if a ticket remains unassigned",
+      "name": "Freshdesk.Group.Name",
+      "required": ""
+    },
+    {
+      "description": "Date Group creation timestamp Freshdesk.Group.UpdatedAt",
+      "name": "Freshdesk.Group.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Grup updated timestamp Freshdesk.Group.GroupType Group Type of the group",
+      "name": "Date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Freshdesk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/freshdesk"
+}

@@ -1,0 +1,51 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Runs reputation on files.",
+  "examples": [
+    "!file file=ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad\nContext Example\n#\n{\n\"DBotScore\"\n:\n[\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The MD5 hash of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. File.Name The full file name (including file extension).",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The path where the file is located. File.Hostname The name of the host where the file was found.",
+      "name": "File.Path",
+      "required": ""
+    },
+    {
+      "description": "The vendor that reported the file as malicious. File.Malicious.Description A description of why the file was determined to be malicious.",
+      "name": "File.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Reliability Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The actual score.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco AMP (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-amp"
+}

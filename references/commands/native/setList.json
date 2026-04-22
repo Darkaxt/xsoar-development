@@ -1,0 +1,25 @@
+{
+  "aliases": [
+    "demisto.executeCommand(\"setList\", args)"
+  ],
+  "arguments": [
+    {
+      "name": "listName",
+      "required": true
+    },
+    {
+      "name": "listData",
+      "required": true
+    }
+  ],
+  "description": "Updates list content when the target tenant supports this native command.",
+  "examples": [
+    "demisto.executeCommand(\"setList\", {\"listName\": list_name, \"listData\": data})"
+  ],
+  "kind": "native",
+  "name": "setList",
+  "notes": [
+    "Serialize structured list content intentionally and handle command errors."
+  ],
+  "source_url": "sanitized:public-xsoar-native-guidance"
+}

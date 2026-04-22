@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "suggest-branch-name"
+  ],
+  "arguments": [],
+  "description": "SuggestBranchName | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SuggestBranchName",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Available branch name based on the pack name. Edit this page Report an Issue",
+      "name": "AvailableBranch",
+      "required": ""
+    },
+    {
+      "description": "\u00ab StripChars Next SumList \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Used In",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SuggestBranchName",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/suggest-branch-name"
+}

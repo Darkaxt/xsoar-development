@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2024-02-26 09:38:11.578000+00:00",
+  "examples": [
+    "!aws-eks-update-access-entry cluster_name=CLUSTER_NAME principal_arn=principal_arn\nContext Example\n#\n{\n\"AWS\"\n:\n{\n\"EKS\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of your cluster. AWS.EKS.UpdateAccessEntry.principalArn The ARN of the IAM principal for the access entry.",
+      "name": "AWS.EKS.UpdateAccessEntry.clusterName",
+      "required": ""
+    },
+    {
+      "description": "List A list of names that you\u2019ve specified in a Kubernetes RoleBinding or ClusterRoleBinding object so that Kubernetes authorizes the principalARN access to cluster objects. AWS.EKS.UpdateAccessEntry.accessEntryArn",
+      "name": "AWS.EKS.UpdateAccessEntry.kubernetesGroups",
+      "required": ""
+    },
+    {
+      "description": "The ARN of the access entry. AWS.EKS.UpdateAccessEntry.createdAt The creation date of the object.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The date and time for the last modification to the object. AWS.EKS.UpdateAccessEntry.tags Metadata that assists with categorization and organization. Each tag consists of a key and an optional value.",
+      "name": "AWS.EKS.UpdateAccessEntry.modifiedAt",
+      "required": ""
+    },
+    {
+      "description": "The name of a user that can authenticate to your cluster. AWS.EKS.UpdateAccessEntry.type The type of the access entry.",
+      "name": "AWS.EKS.UpdateAccessEntry.username",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS-EKS",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws-eks"
+}

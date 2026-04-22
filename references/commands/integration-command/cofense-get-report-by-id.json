@@ -1,0 +1,61 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\ncofense-get-report-by-id report_id=5760\nContext Example\n{\n\"Cofense.Report\": [\n{\n\"ReportedAt\": \"2019-04-17T16:54:57.000Z\",\n\"ReporterId\": 3280,"
+  ],
+  "kind": "integration-command",
+  "name": "cofense-get-report-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID number of the report. Report.EmailAttachments Email attachments.",
+      "name": "Report.ID",
+      "required": ""
+    },
+    {
+      "description": "Email attachment ID. Report.Tags Report tags.",
+      "name": "Report.EmailAttachments.id",
+      "required": ""
+    },
+    {
+      "description": "Cluster ID number. Report.CategoryId Report category.",
+      "name": "Report.ClusterId",
+      "required": ""
+    },
+    {
+      "description": "date Report creation date. Report.ReportedAt",
+      "name": "Report.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Reporting time. Report.MatchPriority The highest match priority based on rule hits for the report.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Reporter ID. Report.Location Location of the report.",
+      "name": "Report.ReporterId",
+      "required": ""
+    },
+    {
+      "description": "Reporter email address. Report.SuspectFromAddress Suspect from address.",
+      "name": "Report.Reporter",
+      "required": ""
+    },
+    {
+      "description": "Report subject. Report.ReportBody Report body.",
+      "name": "Report.ReportSubject",
+      "required": ""
+    },
+    {
+      "description": "MD5 hash of the file. Report.Sha256 SHA256 hash of the file.",
+      "name": "Report.Md5",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cofense Triage (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cofense-triage"
+}

@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "microsoft-api-module"
+  ],
+  "arguments": [],
+  "description": "MicrosoftApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "MicrosoftApiModule",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MicrosoftApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/microsoft-api-module"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!qradar-searches query_expression=\"SELECT sourceip AS 'MY Source IPs' FROM events\"\nContext Example\n{\n\"QRadar\": {\n\"Search\": {\n\"Status\": \"EXECUTE\",\n\"ID\": \"14b1d702-edba-43e7-b01c-36f8da1ed016\"",
+    "!qradar-searches query_expression=\"SELECT sourceip AS 'MY Source IPs' FROM events\"\nContext Example\n{\n\"QRadar\": {\n\"Search\": {\n\"Status\": \"EXECUTE\",\n\"ID\": \"14b1d702-edba-43e7-b01c-36f8da1ed016\""
+  ],
+  "kind": "integration-command",
+  "name": "qradar-searches",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Search ID QRadar.Search.State The state of the search",
+      "name": "QRadar.Search.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM QRadar (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/q-radar"
+}

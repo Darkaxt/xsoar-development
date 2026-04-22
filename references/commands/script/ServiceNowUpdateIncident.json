@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "service-now-update-incident"
+  ],
+  "arguments": [],
+  "description": "ServiceNowUpdateIncident | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ServiceNowUpdateIncident",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the incident. ServiceNow.Incident.Number The number of the incident.",
+      "name": "ServiceNow.Incident.ID",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Next Set \u00bb Script Data",
+      "name": "\u00ab ServiceNowTroubleshoot",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNowUpdateIncident",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/service-now-update-incident"
+}

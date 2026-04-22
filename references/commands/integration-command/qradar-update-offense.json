@@ -1,0 +1,82 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!qradar-update-offense offense_id=78 protected=false\nContext Example\n{\n\"QRadar\": {\n\"Offense\": {\n\"Followup\": false,\n\"OffenseSource\": \"admin\",",
+    "!qradar-update-offense offense_id=78 protected=false\nContext Example\n{\n\"QRadar\": {\n\"Offense\": {\n\"Followup\": false,\n\"OffenseSource\": \"admin\",\n\"Description\": \"Multiple Login Failures for the Same User\\n preceded by shachar_test\\n containing Failed Login Attempt\\n\","
+  ],
+  "kind": "integration-command",
+  "name": "qradar-update-offense",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The credibility of the offense QRadar.Offense.Relevance The relevance of the offense",
+      "name": "QRadar.Offense.Credibility",
+      "required": ""
+    },
+    {
+      "description": "The severity of the offense QRadar.Offense.SourceAddress The source addresses that are associated with the offense.",
+      "name": "QRadar.Offense.Severity",
+      "required": ""
+    },
+    {
+      "description": "The destination addresses that are associated with the offense. QRadar.Offense.AssignedTo The user the offense is assigned to.",
+      "name": "QRadar.Offense.DestinationAddress",
+      "required": ""
+    },
+    {
+      "description": "date The time (ISO) when the offense was started. QRadar.Offense.ID",
+      "name": "QRadar.Offense.StartTime",
+      "required": ""
+    },
+    {
+      "description": "The ID of the offense. QRadar.Offense.DestinationHostname Destination hostname",
+      "name": "int",
+      "required": ""
+    },
+    {
+      "description": "The description of the offense. QRadar.Offense.EventCount The number of events that are associated with the offense.",
+      "name": "QRadar.Offense.Description",
+      "required": ""
+    },
+    {
+      "description": "The source of the offense. QRadar.Offense.Status The status of the offense. One of \"OPEN\", \"HIDDEN\", or \"CLOSED\".",
+      "name": "QRadar.Offense.OffenseSource",
+      "required": ""
+    },
+    {
+      "description": "The magnitude of the offense. QRadar.Offense.ClosingUser The user that closed the offense",
+      "name": "QRadar.Offense.Magnitude",
+      "required": ""
+    },
+    {
+      "description": "The offense closing reason. QRadar.Offense.CloseTime date",
+      "name": "QRadar.Offense.ClosingReason",
+      "required": ""
+    },
+    {
+      "description": "QRadar.Offense.LastUpdatedTime date The time (ISO) when the offense was last updated.",
+      "name": "The time when the offense was closed.",
+      "required": ""
+    },
+    {
+      "description": "Event categories that are associated with the offense. QRadar.Offense.FlowCount The number of flows that are associated with the offense.",
+      "name": "QRadar.Offense.Categories",
+      "required": ""
+    },
+    {
+      "description": "Offense followup. QRadar.Offense.OffenseType A number that represents the offense type",
+      "name": "QRadar.Offense.FollowUp",
+      "required": ""
+    },
+    {
+      "description": "Is the offense protected",
+      "name": "QRadar.Offense.Protected",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM QRadar (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/q-radar"
+}

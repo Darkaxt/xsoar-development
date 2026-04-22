@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!gvault-create-export-drive matterID=\"0124e0ec-ee41-4955-96b3-20d9408409c8\" exportName=\"drive_test_export\" dataScope=\"All Data\" searchMethod=\"Team Drive\" emails=\"test@google.com,test2@google.com\" teamDrive=\"sdDbMMsaWJNw2Uk9PVA,WCSM4L2G2JU4NUk9PVA\" includeTeamDrives=\"false\" terms=\"subject:quarters income\"",
+  "examples": [
+    "Command Example\n!gvault-create-export-drive matterID=\"0124e0ec-ee41-4955-96b3-20d9408409c8\" exportName=\"drive_test_export\" dataScope=\"All Data\" searchMethod=\"Team Drive\" emails=\"test@google.com,test2@google.com\" teamDrive=\"sdDbMMsaWJNw2Uk9PVA,WCSM4L2G2JU4NUk9PVA\" includeTeamDrives=\"false\" terms=\"subject:quarters income\"\nContext Example\nHuman Readable Output\n4. Update a matter state\nUpdates a matter's state.\nBase Command\ngvault-matter-update-state",
+    "!gvault-create-export-drive matterID=\"0124e0ec-ee41-4955-96b3-20d9408409c8\" exportName=\"drive_test_export\" dataScope=\"All Data\" searchMethod=\"Team Drive\" emails=\"test@google.com,test2@google.com\" teamDrive=\"sdDbMMsaWJNw2Uk9PVA,WCSM4L2G2JU4NUk9PVA\" includeTeamDrives=\"false\" terms=\"subject:quarters income\"\nContext Example\nHuman Readable Output\n4. Update a matter state\nUpdates a matter's state.\nBase Command\ngvault-matter-update-state\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-matter-update-state",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Matter name GoogleVault.Matter.MatterID",
+      "name": "GoogleVault.Matter.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

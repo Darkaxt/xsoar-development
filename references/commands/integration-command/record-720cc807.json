@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Citrix DaaS \u00bb Configure Citrix Cloud Event Collector in Cortex",
+      "name": "\u00ab CiscoWSA (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "Prerequisites Steps to identify your tenant's Citrix Cloud ID Commands",
+      "name": "Step by step configuration",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "citrix-cloud-get-events",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Citrix Cloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/citrix-cloud"
+}

@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!mar-collectors-list\nHuman Readable Output\n3. Search endpoint data crossed by multiple collectors\nSearches endpoint data crossed by multiple collectors.\nBase Command\nmar-search-multiple\nInput",
+    "!mar-collectors-list\nHuman Readable Output\n3. Search endpoint data crossed by multiple collectors\nSearches endpoint data crossed by multiple collectors.\nBase Command\nmar-search-multiple\nInput\nArgument Name",
+    "Command Example\n!mar-search-multiple collectors=Services,HostInfo\nContext Example\n{\n\"MAR\": {\n\"SearchMultiple\": [\n{\n\"status\": \"Stopped\",",
+    "!mar-search-multiple collectors=Services,HostInfo\nContext Example\n{\n\"MAR\": {\n\"SearchMultiple\": [\n{\n\"status\": \"Stopped\",\n\"description\": \"Volume Shadow Copy\","
+  ],
+  "kind": "integration-command",
+  "name": "mar-search-multiple",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The result of the search query. For information about possible output paths, run the mar-collectors-list command.",
+      "name": "Mar.SearchMultiple",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Active Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-active-response"
+}

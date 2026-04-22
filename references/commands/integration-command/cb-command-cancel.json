@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "\"Type\": \"gzip compressed data, was \"/tmp/tmpvpb7Nt\", last modified: Mon Aug 6 07:41:02 2018, max compression\\n\"",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "cb-command-cancel",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The command status. CbLiveResponse.Commands.Hostname The hostname of the host running the command.",
+      "name": "CbLiveResponse.Commands.Status",
+      "required": ""
+    },
+    {
+      "description": "The sensor ID. CbLiveResponse.Commands.CommandName The command name.",
+      "name": "CbLiveResponse.Commands.CbSensorID",
+      "required": ""
+    },
+    {
+      "description": "The session ID. CbLiveResponse.Commands.CbCommandID The command ID.",
+      "name": "CbLiveResponse.Commands.CbSessionID",
+      "required": ""
+    },
+    {
+      "description": "Object argument for the CbLive command.For example, for directory list this is the",
+      "name": "CbLiveResponse.Commands.OperandObject",
+      "required": ""
+    },
+    {
+      "description": "path. Click here for more information about the command objects.",
+      "name": "dir",
+      "required": ""
+    },
+    {
+      "description": "The command's time of creation. CbLiveResponse.Commands.CommandCompletionTime When the command was completed. (",
+      "name": "CbLiveResponse.Commands.CreateTime",
+      "required": ""
+    },
+    {
+      "description": "means the command is still in progress.) CbLiveResponse.Commands.Result.Desc Result description.",
+      "name": "0",
+      "required": ""
+    },
+    {
+      "description": "Result type. CbLiveResponse.Commands.Result.Code Result code.",
+      "name": "CbLiveResponse.Commands.esult.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

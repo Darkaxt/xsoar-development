@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "cypho-approve-dismiss-issue",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Approves or dismisses a Cypho issue based on the provided ticket ID, user email, and approval decision.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "cypho-approve-dismiss-issue",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Cyren Inbox Security \u00bb Configure Cypho Threat Intelligence in Cortex",
+      "name": "\u00ab Cymulate v3",
+      "required": ""
+    },
+    {
+      "description": "cypho-get-incident cypho-assign-incident cypho-add-comment",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "cypho-download-attachment cypho-approve-dismiss-issue Docs",
+      "name": "cypho-update-severity",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cypho Threat Intelligence",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cypho-threat-intelligence"
+}

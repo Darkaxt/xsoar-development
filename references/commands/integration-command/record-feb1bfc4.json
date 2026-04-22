@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "5. algosec-query",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Performs a batch traffic simulation query using Firewall Analyzer",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "algosec-query",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Alibaba Action Trail Event Collector \u00bb Configure AlgoSec on XSOAR",
+      "name": "\u00ab Alexa Rank Indicator v2 (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "1. algosec-get-ticket 2. algosec-create-ticket 3. algosec-get-applications",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "5. algosec-query Docs Developer Docs",
+      "name": "4. algosec-get-network-object",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AlgoSec",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/algo-sec"
+}

@@ -1,0 +1,116 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!infoblox-cloud-get-indicators limit=\"5\" indicator_types=\"EMAIL,IP,HOST,HASH,URL\" from_date=\"2023-01-01T00:00:00.000Z\" to_date=\"2024-12-31T23:59:59.999Z\"\nContext Example\n#\n{\n\"Infoblox\"\n:\n{\n\"FeedIndicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique identifier of the indicator. Infoblox.FeedIndicator.type Type of the indicator (HOST, IP, URL, EMAIL, HASH).",
+      "name": "Infoblox.FeedIndicator.id",
+      "required": ""
+    },
+    {
+      "description": "Hostname of the indicator. Infoblox.FeedIndicator.domain Domain of the indicator.",
+      "name": "Infoblox.FeedIndicator.host",
+      "required": ""
+    },
+    {
+      "description": "IP address of the indicator. Infoblox.FeedIndicator.email Email address of the indicator.",
+      "name": "Infoblox.FeedIndicator.ip",
+      "required": ""
+    },
+    {
+      "description": "Hash of the indicator. Infoblox.FeedIndicator.hash_type Hash type of the indicator.",
+      "name": "Infoblox.FeedIndicator.hash",
+      "required": ""
+    },
+    {
+      "description": "URL of the indicator. Infoblox.FeedIndicator.value The indicator value.",
+      "name": "Infoblox.FeedIndicator.url",
+      "required": ""
+    },
+    {
+      "description": "Top-level domain of the indicator. Infoblox.FeedIndicator.threat_level Threat level of the indicator (0-100).",
+      "name": "Infoblox.FeedIndicator.tld",
+      "required": ""
+    },
+    {
+      "description": "Threat label of the indicator. Infoblox.FeedIndicator.confidence Confidence level of the indicator (0-100).",
+      "name": "Infoblox.FeedIndicator.threat_label",
+      "required": ""
+    },
+    {
+      "description": "Threat class of the indicator. Infoblox.FeedIndicator.property Property of the indicator.",
+      "name": "Infoblox.FeedIndicator.threat_class",
+      "required": ""
+    },
+    {
+      "description": "Profile of the indicator. Infoblox.FeedIndicator.detected Date",
+      "name": "Infoblox.FeedIndicator.profile",
+      "required": ""
+    },
+    {
+      "description": "Infoblox.FeedIndicator.received Date Reception timestamp.",
+      "name": "Detection timestamp.",
+      "required": ""
+    },
+    {
+      "description": "Date Expiration timestamp. Infoblox.FeedIndicator.up",
+      "name": "Infoblox.FeedIndicator.expiration",
+      "required": ""
+    },
+    {
+      "description": "Status of the indicator. Infoblox.FeedIndicator.dga Domain generation algorithm.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Batch ID of the indicator. Infoblox.FeedIndicator.threat_score Threat score of the indicator.",
+      "name": "Infoblox.FeedIndicator.batch_id",
+      "required": ""
+    },
+    {
+      "description": "Threat score rating of the indicator. Infoblox.FeedIndicator.threat_score_vector Threat score vector of the indicator.",
+      "name": "Infoblox.FeedIndicator.threat_score_rating",
+      "required": ""
+    },
+    {
+      "description": "Confidence score of the indicator. Infoblox.FeedIndicator.confidence_score_rating Confidence score rating of the indicator.",
+      "name": "Infoblox.FeedIndicator.confidence_score",
+      "required": ""
+    },
+    {
+      "description": "Confidence score vector of the indicator. Infoblox.FeedIndicator.extended.notes Notes for the indicator.",
+      "name": "Infoblox.FeedIndicator.confidence_score_vector",
+      "required": ""
+    },
+    {
+      "description": "Comments for the indicator. Infoblox.FeedIndicator.extended.cyberint_guid GUID of the indicator.",
+      "name": "Infoblox.FeedIndicator.extended.comments",
+      "required": ""
+    },
+    {
+      "description": "Protocol of the indicator. Infoblox.FeedIndicator.extended.references References of the indicator.",
+      "name": "Infoblox.FeedIndicator.extended.protocol",
+      "required": ""
+    },
+    {
+      "description": "Original profile of the indicator. Infoblox.FeedIndicator.extended.attack_chain Attack chain of the indicator.",
+      "name": "Infoblox.FeedIndicator.extended.original_profile",
+      "required": ""
+    },
+    {
+      "description": "SHA256 of the sample.",
+      "name": "Infoblox.FeedIndicator.extended.sample_sha256",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Infoblox Threat Intelligence Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/infoblox-threat-intelligence-feed"
+}

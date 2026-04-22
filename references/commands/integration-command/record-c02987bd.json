@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "imp-sf-set-endpoint-status",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Updates the status (enroll or revoke) of an endpoint. You can run this command on an endpoint with any status, but the most common use case is endpoints with a status of pending.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "imp-sf-set-endpoint-status",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Imperva WAF \u00bb Configure Imperva Skyfence in Cortex",
+      "name": "\u00ab Imperva Incapsula",
+      "required": ""
+    },
+    {
+      "description": "imp-sf-list-endpoints imp-sf-set-endpoint-status Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Imperva Skyfence",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/imperva-skyfence"
+}

@@ -1,0 +1,74 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "<Dict> Octoxlabs User.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Total users count. OctoxLabs.UserInventory.results List User information.",
+      "name": "OctoxLabs.UserInventory.count",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab O365 Teams (Using Graph API)",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Office 365 Feed \u00bb Configure OctoxLabs in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "octoxlabs-get-connections octoxlabs-get-discoveries octoxlabs-get-last-discovery",
+      "name": "octoxlabs-get-adapters",
+      "required": ""
+    },
+    {
+      "description": "octoxlabs-get-device octoxlabs-get-queries octoxlabs-get-query-by-id",
+      "name": "octoxlabs-search-devices",
+      "required": ""
+    },
+    {
+      "description": "octoxlabs-get-user-by-username octoxlabs-get-groups octoxlabs-get-companies",
+      "name": "octoxlabs-get-query-by-name",
+      "required": ""
+    },
+    {
+      "description": "octoxlabs-get-company-by-id octoxlabs-get-permissions octoxlabs-get-domains",
+      "name": "octoxlabs-get-domain-by-domain-name",
+      "required": ""
+    },
+    {
+      "description": "octoxlabs-get-company-by-name octoxlabs-get-users octoxlabs-get-user-by-id",
+      "name": "octoxlabs-get-domain-by-id",
+      "required": ""
+    },
+    {
+      "description": "octoxlabs-get-application-detail octoxlabs-search-scroll-avm octoxlabs-search-scroll-devices",
+      "name": "octoxlabs-search-scroll-users",
+      "required": ""
+    },
+    {
+      "description": "octoxlabs-search-avm octoxlabs-search-scroll-applications octoxlabs-get-user-inventory-detail",
+      "name": "octoxlabs-search-applications",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "octoxlabs-search-users-inventory",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OctoxLabs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/octox-labs"
+}

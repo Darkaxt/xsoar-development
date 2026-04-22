@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "MSISAC.Alert.transportProtocol",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID for the retrieved MS-ISAC case MSISAC.RetrievedCases.affectedIp The internal IP that is associated with the traffic",
+      "name": "MSISAC.RetrievedCases.caseId",
+      "required": ""
+    },
+    {
+      "description": "list The MSISAC alert ids associated with the case MSISAC.RetrievedCases.createdAt",
+      "name": "MSISAC.RetrievedCases.alertIds",
+      "required": ""
+    },
+    {
+      "description": "The timestamp when the case was created. This is associated with the timestamp input parameter MSISAC.RetrievedCases.logicalSensorName The name for the sensor that triggered the event",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "The timestamp for when the case was last modified MSISAC.RetrievedCases.severity The severity of the case",
+      "name": "MSISAC.RetrievedCases.modifiedAt",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab MongoDB Log",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "MxToolBox \u00bb Configure MS-ISAC in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "msisac-retrieve-cases Docs Developer Docs",
+      "name": "msisac-get-alert",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MS-ISAC",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ms-isac"
+}

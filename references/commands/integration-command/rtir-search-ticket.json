@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"Subject\": \"NewTicket\"",
+  "examples": [
+    "Command Example\n!rtir-search-ticket queue=General created-after=2018-07-10 priority-greater-than=10 status=new\n[\n{\n\"Created\": \"Thu Jul 12 03:56:06 2018\",\n\"Creator\": \"root\",\n\"Due\": \"Not set\",\n\"FinalPriority\": \"0\",",
+    "!rtir-search-ticket queue=General created-after=2018-07-10 priority-greater-than=10 status=new\n[\n{\n\"Created\": \"Thu Jul 12 03:56:06 2018\",\n\"Creator\": \"root\",\n\"Due\": \"Not set\",\n\"FinalPriority\": \"0\",\n\"InitialPriority\": \"0\","
+  ],
+  "kind": "integration-command",
+  "name": "rtir-search-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID. RTIR.Ticket.State Ticket state.",
+      "name": "RTIR.Ticket.ID",
+      "required": ""
+    },
+    {
+      "description": "Ticket creator. RTIR.Ticket.Subject Ticket subject.",
+      "name": "RTIR.Ticket.Creator",
+      "required": ""
+    },
+    {
+      "description": "Ticket creation date. RTIR.Ticket.Priority Ticket priority (0-100).",
+      "name": "RTIR.Ticket.Created",
+      "required": ""
+    },
+    {
+      "description": "Ticket initial priority (0-100). RTIR.Ticket.FinalPriority Ticket final priority (0-100).",
+      "name": "RTIR.Ticket.InitialPriority",
+      "required": ""
+    },
+    {
+      "description": "Ticket queue. RTIR.Ticket.Owner Ticket owner.",
+      "name": "RTIR.Ticket.Queue",
+      "required": ""
+    },
+    {
+      "description": "Ticket custom field - IP address. RTIR.Ticket.HowReported Ticket custom field - How ticket was reported.",
+      "name": "RTIR.Ticket.IP",
+      "required": ""
+    },
+    {
+      "description": "Ticket custom field - Customer.",
+      "name": "RTIR.Ticket.Customer",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RTIR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rtir"
+}

@@ -1,0 +1,119 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "GCP.Compute.Operations.kind",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique identifier for the resource. This identifier is defined by the server. GCP.Compute.Networks.creationTimestamp Creation timestamp in RFC3339 text format.",
+      "name": "GCP.Compute.Networks.id",
+      "required": ""
+    },
+    {
+      "description": "Name of the resource. Provided by the client when the resource is created. The name must be 1-63 characters long, and comply with RFC1035. Specifically, the name must be 1-63 characters long and match the regular expression [a-z]([-a-z0-9]*[a-z0-9])? which means the first character must be a lowercase letter, and all following characters must be a dash, lowercase letter, or digit, except the last character, which cannot be a dash. GCP.Compute.Networks.description An optional description of this ",
+      "name": "GCP.Compute.Networks.name",
+      "required": ""
+    },
+    {
+      "description": "The gateway address for default routing out of the network. This value is read only and is selected by GCP. GCP.Compute.Networks.selfLink Server-defined URL for the resource.",
+      "name": "GCP.Compute.Networks.gatewayIPv4",
+      "required": ""
+    },
+    {
+      "description": "When set to true, the VPC network is created in \"auto\" mode. When set to false, the VPC network is created in \"custom\" mode. GCP.Compute.Networks.subnetworks Server-defined fully-qualified URLs for all subnetworks in this VPC network.",
+      "name": "GCP.Compute.Networks.autoCreateSubnetworks",
+      "required": ""
+    },
+    {
+      "description": "A list of network peerings for the resource. GCP.Compute.Networks.peerings.name Name of this peering. Provided by the client when the peering is created. The name must comply with RFC1035. Specifically, the name must be 1-63 characters long and match regular expression [a-z]([-a-z0-9]*[a-z0-9])? which means the first character must be a lowercase letter, and all the following characters must be a dash, lowercase letter, or digit, except the last character, which cannot be a dash.",
+      "name": "GCP.Compute.Networks.peerings",
+      "required": ""
+    },
+    {
+      "description": "The URL of the peer network. It can be either full URL or partial URL. The peer network may belong to a different project. If the partial URL does not contain project, it is assumed that the peer network is in the same project as the current network. GCP.Compute.Networks.peerings.state State for the peering.",
+      "name": "GCP.Compute.Networks.peerings.network",
+      "required": ""
+    },
+    {
+      "description": "Details about the current state of the peering. GCP.Compute.Networks.peerings.autoCreateRoutes This field will be deprecated soon. Prefer using exchangeSubnetRoutes instead. Indicates whether full mesh connectivity is created and managed automatically. When it is set to true, Google Compute Engine will automatically create and manage the routes between two networks when the state is ACTIVE. Otherwise, user needs to create routes manually to route packets to peer network.",
+      "name": "GCP.Compute.Networks.peerings.stateDetails",
+      "required": ""
+    },
+    {
+      "description": "Whether full mesh connectivity is created and managed automatically. When it is set to true, Google Compute Engine will automatically create and manage the routes between two networks when the peering state is ACTIVE. Otherwise, user needs to create routes manually to route packets to peer network. GCP.Compute.Networks.routingConfig The network-level routing configuration for this network. Used by Cloud Router to determine what type of network-wide routing behavior to enforce.",
+      "name": "GCP.Compute.Networks.peerings.exchangeSubnetRoutes",
+      "required": ""
+    },
+    {
+      "description": "The network-wide routing mode to use. If set to REGIONAL, this networks cloud routers will only advertise routes with subnets of this network in the same region as the router. If set to GLOBAL, this networks cloud routers will advertise routes with all subnets of this network, across regions. GCP.Compute.Networks.kind Type of the resource. Always compute#network for networks.",
+      "name": "GCP.Compute.Networks.routingConfig.routingMode",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Google Cloud Logging",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Google Cloud Pub/Sub \u00bb Configure Google Cloud Platform in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "gcp-storage-bucket-policy-delete gcp-compute-subnet-update gcp-container-cluster-security-update",
+      "name": "gcp-compute-firewall-patch",
+      "required": ""
+    },
+    {
+      "description": "gcp-iam-project-policy-binding-remove gcp-compute-instance-service-account-set gcp-compute-instance-service-account-remove",
+      "name": "gcp-storage-bucket-metadata-update",
+      "required": ""
+    },
+    {
+      "description": "gcp-compute-instance-stop gcp-compute-instances-list gcp-compute-instance-labels-set",
+      "name": "gcp-compute-instance-start",
+      "required": ""
+    },
+    {
+      "description": "gcp-storage-bucket-list gcp-storage-bucket-get gcp-storage-bucket-objects-list",
+      "name": "gcp-compute-instance-get",
+      "required": ""
+    },
+    {
+      "description": "gcp-storage-bucket-policy-set gcp-storage-bucket-object-policy-list gcp-storage-bucket-object-policy-set",
+      "name": "gcp-storage-bucket-policy-list",
+      "required": ""
+    },
+    {
+      "description": "gcp-compute-firewall-list gcp-compute-firewall-get gcp-compute-snapshots-list",
+      "name": "gcp-compute-firewall-insert",
+      "required": ""
+    },
+    {
+      "description": "gcp-compute-instances-aggregated-list-by-ip gcp-compute-network-tag-set gcp-compute-image-get",
+      "name": "gcp-compute-snapshot-get",
+      "required": ""
+    },
+    {
+      "description": "gcp-compute-region-get gcp-compute-zone-get gcp-compute-networks-list",
+      "name": "gcp-compute-instance-group-get",
+      "required": ""
+    },
+    {
+      "description": "gcp-compute-network-get Docs Developer Docs",
+      "name": "gcp-compute-network-insert",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/gcp"
+}

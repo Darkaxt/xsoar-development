@@ -1,0 +1,74 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Core.EndpointUpdate.action_id",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Total number of endpoints. Core.EndpointUpdateVersion.platform_count Number of endpoints per platform.",
+      "name": "Core.EndpointUpdateVersion.total_count",
+      "required": ""
+    },
+    {
+      "description": "The platform of the endpoint update. Core.EndpointUpdateVersion.distributions.version The version of the endpoint update.",
+      "name": "Core.EndpointUpdateVersion.distributions.platform",
+      "required": ""
+    },
+    {
+      "description": "The number of endpoints running a version later than the specified update. Core.EndpointUpdateVersion.distributions.endpoints_with_same_version_count The number of endpoints running the same version as the specified update.",
+      "name": "Core.EndpointUpdateVersion.distributions.endpoints_with_higher_version_count",
+      "required": ""
+    },
+    {
+      "description": "The number of endpoints running a version earlier than the specified update. Edit this page Report an Issue",
+      "name": "Core.EndpointUpdateVersion.distributions.endpoints_with_lower_version_count",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Cortex Attack Surface Management Next Cortex XDR - IOC \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands core-get-asset-details core-get-issues",
+      "name": "Configure Cortex Platform Core in Cortex",
+      "required": ""
+    },
+    {
+      "description": "core-get-cases core-update-case core-search-asset-groups",
+      "name": "core-get-case-extra-data",
+      "required": ""
+    },
+    {
+      "description": "core-search-assets core-get-issue-recommendations core-enable-scanners",
+      "name": "core-get-vulnerabilities",
+      "required": ""
+    },
+    {
+      "description": "core-get-asset-coverage core-create-appsec-policy core-update-issue",
+      "name": "core-get-asset-coverage-histogram",
+      "required": ""
+    },
+    {
+      "description": "core-get-appsec-issues core-update-endpoint-version core-get-endpoint-update-version",
+      "name": "core-appsec-remediate-issue",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cortex Platform - Core",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cortex-core---platform"
+}

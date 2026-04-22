@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "\"SupportedCommands\": [],",
+  "examples": [
+    "Command Example\n!cb-session-create-and-wait sensor=17\nContext Example\n{\n\"CbLiveResponse\": {\n\"Sessions\": {\n\"CbSensorID\": 17,\n\"CbSessionID\": 334,",
+    "!cb-session-create-and-wait sensor=17\nContext Example\n{\n\"CbLiveResponse\": {\n\"Sessions\": {\n\"CbSensorID\": 17,\n\"CbSessionID\": 334,\n\"Hostname\": \"WIN-B73RGE9AAIF\","
+  ],
+  "kind": "integration-command",
+  "name": "cb-session-create-and-wait",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Session status CbLiveResponse.Sessions.Hostname Hostname",
+      "name": "CbLiveResponse.Sessions.Status",
+      "required": ""
+    },
+    {
+      "description": "Sensor ID CbLiveResponse.Sessions.CbSessionID Session ID",
+      "name": "CbLiveResponse.Sessions.CbSensorID",
+      "required": ""
+    },
+    {
+      "description": "Session Timeout CbLiveResponse.Sessions.WaitTimeout Sensor wait timeout",
+      "name": "CbLiveResponse.Sessions.SessionTimeout",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

@@ -1,0 +1,189 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The command can search and remove the up to 1000 rows in single execution. To remove the next set of data table rows, execute the command with the page token as",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Identifier for the detection. GoogleChronicleBackstory.Detections.ruleId Identifier for the rule generating the detection.",
+      "name": "GoogleChronicleBackstory.Detections.id",
+      "required": ""
+    },
+    {
+      "description": "Identifier for the rule version generating the detection. GoogleChronicleBackstory.Detections.ruleName Name of the rule generating the detection, as parsed from ruleText.",
+      "name": "GoogleChronicleBackstory.Detections.ruleVersion",
+      "required": ""
+    },
+    {
+      "description": "Date The start time of the window the detection was found in. GoogleChronicleBackstory.Detections.timeWindowEndTime",
+      "name": "GoogleChronicleBackstory.Detections.timeWindowStartTime",
+      "required": ""
+    },
+    {
+      "description": "The end time of the window the detection was found in. GoogleChronicleBackstory.Detections.alertState Indicates whether the rule generating this detection currently has alerting enabled or disabled.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "URL pointing to the Chronicle UI for this detection. GoogleChronicleBackstory.Detections.type Type of detection.",
+      "name": "GoogleChronicleBackstory.Detections.urlBackToProduct",
+      "required": ""
+    },
+    {
+      "description": "Date Time the detection was created. GoogleChronicleBackstory.Detections.detectionTime",
+      "name": "GoogleChronicleBackstory.Detections.createdTime",
+      "required": ""
+    },
+    {
+      "description": "The time period the detection was found in. GoogleChronicleBackstory.Detections.ruleType Whether the rule generating this detection is a single event or multi-event rule.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The key for a field specified in the rule, for MULTI_EVENT rules. GoogleChronicleBackstory.Detections.detectionFields.value The value for a field specified in the rule, for MULTI_EVENT rules.",
+      "name": "GoogleChronicleBackstory.Detections.detectionFields.key",
+      "required": ""
+    },
+    {
+      "description": "The variable a given set of UDM events belongs to. GoogleChronicleBackstory.Detections.collectionElements.references.principalAssetIdentifier Specifies the principal asset identifier of the event.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.label",
+      "required": ""
+    },
+    {
+      "description": "Specifies the target asset identifier of the event. GoogleChronicleBackstory.Detections.collectionElements.references.eventType Specifies the type of the event.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.targetAssetIdentifier",
+      "required": ""
+    },
+    {
+      "description": "Date The GMT timestamp when the event was generated. GoogleChronicleBackstory.Detections.collectionElements.references.ingestedTimestamp",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.eventTimestamp",
+      "required": ""
+    },
+    {
+      "description": "The GMT timestamp when the event was ingested in the vendor's instance. GoogleChronicleBackstory.Detections.collectionElements.references.description Human-readable description of the event.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Short, descriptive, human-readable, and product-specific event name or type. GoogleChronicleBackstory.Detections.collectionElements.references.productLogId A vendor-specific event identifier to uniquely identify the event (a GUID). Users might use this identifier to search the vendor's proprietary console for the event in question.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.productEventType",
+      "required": ""
+    },
+    {
+      "description": "Specifies the name of the product. GoogleChronicleBackstory.Detections.collectionElements.references.productVersion Specifies the version of the product.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.productName",
+      "required": ""
+    },
+    {
+      "description": "URL linking to a relevant website where you can view more information about this specific event or the general event category. GoogleChronicleBackstory.Detections.collectionElements.references.vendorName Specifies the product vendor's name.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.urlBackToProduct",
+      "required": ""
+    },
+    {
+      "description": "Vendor-specific unique device identifier. GoogleChronicleBackstory.Detections.collectionElements.references.principal.email Email address.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.assetId",
+      "required": ""
+    },
+    {
+      "description": "Client hostname or domain name field. GoogleChronicleBackstory.Detections.collectionElements.references.principal.platform Platform operating system.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.hostname",
+      "required": ""
+    },
+    {
+      "description": "Platform operating system patch level. GoogleChronicleBackstory.Detections.collectionElements.references.principal.platformVersion Platform operating system version.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.platformPatchLevel",
+      "required": ""
+    },
+    {
+      "description": "IP address associated with a network connection. GoogleChronicleBackstory.Detections.collectionElements.references.principal.port Source or destination network port number when a specific network connection is described within an event.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.ip",
+      "required": ""
+    },
+    {
+      "description": "MAC addresses associated with a device. GoogleChronicleBackstory.Detections.collectionElements.references.principal.administrativeDomain Domain which the device belongs to (for example, the Windows domain).",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.mac",
+      "required": ""
+    },
+    {
+      "description": "Standard URL. GoogleChronicleBackstory.Detections.collectionElements.references.principal.file.fileMetadata Metadata associated with the file.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.url",
+      "required": ""
+    },
+    {
+      "description": "Full path identifying the location of the file on the system. GoogleChronicleBackstory.Detections.collectionElements.references.principal.file.md5 MD5 hash value of the file.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.file.fullPath",
+      "required": ""
+    },
+    {
+      "description": "Multipurpose Internet Mail Extensions (MIME) type of the file. GoogleChronicleBackstory.Detections.collectionElements.references.principal.file.sha1 SHA-1 hash value of the file.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.file.mimeType",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 hash value of the file. GoogleChronicleBackstory.Detections.collectionElements.references.principal.file.size Size of the file.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.file.sha256",
+      "required": ""
+    },
+    {
+      "description": "Stores the command line string for the process. GoogleChronicleBackstory.Detections.collectionElements.references.principal.process.productSpecificProcessId Stores the product specific process ID.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.process.commandLine",
+      "required": ""
+    },
+    {
+      "description": "Stores the product specific process ID for the parent process. GoogleChronicleBackstory.Detections.collectionElements.references.principal.process.file Stores the file name of the file in use by the process.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.process.productSpecificParentProcessId",
+      "required": ""
+    },
+    {
+      "description": "Metadata associated with the file. GoogleChronicleBackstory.Detections.collectionElements.references.principal.process.file.fullPath Full path identifying the location of the file on the system.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.process.file.fileMetadata",
+      "required": ""
+    },
+    {
+      "description": "MD5 hash value of the file. GoogleChronicleBackstory.Detections.collectionElements.references.principal.process.file.mimeType Multipurpose Internet Mail Extensions (MIME) type of the file.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.process.file.md5",
+      "required": ""
+    },
+    {
+      "description": "SHA-1 hash value of the file. GoogleChronicleBackstory.Detections.collectionElements.references.principal.process.file.sha256 SHA-256 hash value of the file.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.process.file.sha1",
+      "required": ""
+    },
+    {
+      "description": "Size of the file. GoogleChronicleBackstory.Detections.collectionElements.references.principal.process.parentPid Stores the process ID for the parent process.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.process.file.size",
+      "required": ""
+    },
+    {
+      "description": "Stores the process ID. GoogleChronicleBackstory.Detections.collectionElements.references.principal.registry.registryKey Stores the registry key associated with an application or system component.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.process.pid",
+      "required": ""
+    },
+    {
+      "description": "Stores the name of the registry value associated with an application or system component. GoogleChronicleBackstory.Detections.collectionElements.references.principal.registry.registryValueData Stores the data associated with a registry value.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.registry.registryValueName",
+      "required": ""
+    },
+    {
+      "description": "Stores the email addresses for the user. GoogleChronicleBackstory.Detections.collectionElements.references.principal.user.employeeId Stores the human resources employee ID for the user.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.user.emailAddresses",
+      "required": ""
+    },
+    {
+      "description": "Stores the first name for the user. GoogleChronicleBackstory.Detections.collectionElements.references.principal.user.middleName Stores the middle name for the user.",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.user.firstName",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "GoogleChronicleBackstory.Detections.collectionElements.references.principal.user.lastName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google SecOps v1 Alpha",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-sec-ops"
+}

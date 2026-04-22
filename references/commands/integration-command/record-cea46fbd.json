@@ -1,0 +1,80 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "msgraph-files-auth-reset",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Run this command if for some reason you need to rerun the authentication process.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "msgraph-files-auth-reset",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next O365 Outlook Calendar \u00bb Authentication",
+      "name": "\u00ab O365 Defender SafeLinks - Single User (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "Steps to use the Site.Selected permission Configure O365 File Management (Onedrive/Sharepoint/Teams) on Cortex XSOAR Commands",
+      "name": "Required Permissions",
+      "required": ""
+    },
+    {
+      "description": "msgraph-upload-new-file msgraph-replace-existing-file msgraph-create-new-folder",
+      "name": "msgraph-delete-file",
+      "required": ""
+    },
+    {
+      "description": "msgraph-list-drive-content msgraph-list-sharepoint-sites msgraph-download-file",
+      "name": "msgraph-list-drives-in-site",
+      "required": ""
+    },
+    {
+      "description": "msgraph-create-site-permissions msgraph-update-site-permissions msgraph-delete-site-permissions",
+      "name": "msgraph-list-site-permissions",
+      "required": ""
+    },
+    {
+      "description": "msgraph-files-generate-login-url msgraph-files-auth-reset Docs",
+      "name": "msgraph-files-auth-test",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "O365 File Management (Onedrive/Sharepoint/Teams)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-files"
+}

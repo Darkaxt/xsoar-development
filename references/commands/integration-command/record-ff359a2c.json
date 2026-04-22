@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "{\"id\":\"206\",\"occurred\":\"2022-05-29T02:02:30Z\"},{\"id\":\"205\",\"occurred\":\"2022-05-27T12:00:40Z\"},{\"id\":\"204\",\"occurred\":\"2022-05-27T02:02:30Z\"},{\"id\":\"203\",\"occurred\":\"2022-05-27T04:51:03Z\"},{\"id\":\"202\",\"occurred\":\"2022-05-26T18:16:47Z\"},{\"id\":\"201\",\"occurred\":\"2022-05-26T18:03:55Z\"},{\"id\":\"200\",\"occurred\":\"2022-05-26T15:36:08Z\"},{\"id\":\"199\",\"occurred\":\"2022-05-26T15:31:19Z\"},{\"id\":\"198\",\"occurred\":\"2022-05-26T12:00:39Z\"},{\"id\":\"197\",\"occurred\":\"2022-05-26T02:42:30Z\"},{\"id\":\"196\",\"occurred\":\"2022-05-25T16:02:22Z\"},{\"id\":\"195\",\"occurred\":\"2022-05-25T15:58:22Z\"},{\"id\":\"194\",\"occurred\":\"2022-05-25T1",
+  "examples": [
+    "Command Example\n#\n!demisto-api-install-packs packs_to_install=[{\"AutoFocus\": \"2.0.8\"}]\nHuman Readable Output\n#\nThe following packs installed successfully: AutoFocus\nEdit this page\nReport an Issue",
+    "!demisto-api-install-packs packs_to_install=[{\"AutoFocus\": \"2.0.8\"}]\nHuman Readable Output\n#\nThe following packs installed successfully: AutoFocus\nEdit this page\nReport an Issue\nPrevious\n\u00ab Demisto Lock"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Demisto REST API (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/demisto-rest-api"
+}

@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "nvd-search-cve",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Search specific CVE",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "nvd-search-cve",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next nmap \u00bb Configure Nist NVD in Cortex",
+      "name": "\u00ab Nexthink",
+      "required": ""
+    },
+    {
+      "description": "nvd-get-vulnerability nvd-search-keyword nvd-search-cvss",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "nvd-search-cpe nvd-search-cve Docs",
+      "name": "nvd-search-cwe",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Nist NVD",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/nist-nvd"
+}

@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "4. Get license information for a device",
+  "examples": [
+    "Command Example\nsymantec-mc-get-device-license uuid=\"C131C3D1-171B-4DA7-ADE2-AA736EA91540\"\nContext Example\n{\n\"SymantecMC.Device\": {\n\"LicenseComponent\": [\n{\n\"ActivationDate\": \"2019-03-25T00:00:00\","
+  ],
+  "kind": "integration-command",
+  "name": "symantec-mc-get-device-license",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Device UUID. SymantecMC.Device.Name Device name.",
+      "name": "SymantecMC.Device.UUID",
+      "required": ""
+    },
+    {
+      "description": "Device type. SymantecMC.Device.LicenseStatus Device license status.",
+      "name": "SymantecMC.Device.Type",
+      "required": ""
+    },
+    {
+      "description": "Device license component name. SymantecMC.Device.LicenseComponent.ActivationDate Date",
+      "name": "SymantecMC.Device.LicenseComponent.Name",
+      "required": ""
+    },
+    {
+      "description": "SymantecMC.Device.LicenseComponent.ExpirationDate Date Device license component expiration date",
+      "name": "Device license component activation date.",
+      "required": ""
+    },
+    {
+      "description": "Device license component validity.",
+      "name": "SymantecMC.Device.LicenseComponent.Validity",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-management-center"
+}

@@ -1,0 +1,104 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "ZeroFox.Exploits.URLs",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The size of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. File.SHA512 The SHA512 hash of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The name of the file. File.SSDeep The SSDeep hash of the file.",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "The entry ID of the file. File.Info File information.",
+      "name": "File.EntryID",
+      "required": ""
+    },
+    {
+      "description": "The file type. File.MD5 The MD5 hash of the file.",
+      "name": "File.Type",
+      "required": ""
+    },
+    {
+      "description": "The file extension. Incident Mirroring",
+      "name": "File.Extension",
+      "required": ""
+    },
+    {
+      "description": "To set up the mirroring: Enable Fetching incidents",
+      "name": "You can enable incident mirroring between Cortex XSOAR incidents and ZeroFox corresponding events (available from Cortex XSOAR version 6.0.0).",
+      "required": ""
+    },
+    {
+      "description": "Newly fetched incidents will be mirrored in the chosen direction. However, this selection does not affect existing incidents. Important Note: To ensure the mirroring works as expected, mappers are required, both for incoming and outgoing, to map the expected fields in Cortex XSOAR and ZeroFox.",
+      "name": "in your instance configuration.",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Zero Networks Segment",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "ZeroFox Key Incidents \u00bb Configure ZeroFox in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "zerofox-alert-user-assignment zerofox-close-alert zerofox-alert-request-takedown",
+      "name": "zerofox-get-alert",
+      "required": ""
+    },
+    {
+      "description": "zerofox-list-alerts zerofox-create-entity zerofox-alert-cancel-takedown",
+      "name": "zerofox-modify-alert-tags",
+      "required": ""
+    },
+    {
+      "description": "zerofox-list-entities zerofox-get-entity-types zerofox-get-policy-types",
+      "name": "zerofox-open-alert",
+      "required": ""
+    },
+    {
+      "description": "zerofox-submit-threat zerofox-send-alert-attachment zerofox-get-alert-attachments",
+      "name": "zerofox-modify-alert-notes",
+      "required": ""
+    },
+    {
+      "description": "zerofox-search-compromised-email zerofox-search-malicious-ip zerofox-search-malicious-hash",
+      "name": "zerofox-search-compromised-domain",
+      "required": ""
+    },
+    {
+      "description": "zerofox-get-compromised-credentials Incident Mirroring Docs",
+      "name": "zerofox-search-exploits",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ZeroFox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/zero-fox"
+}

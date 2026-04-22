@@ -1,0 +1,94 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "CheckPoint.AddedThreatProfiles",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "CheckPoint.DeletedThreatProtections",
+      "required": ""
+    },
+    {
+      "description": "Next Cherwell \u00bb Overview",
+      "name": "\u00ab CheckPhish",
+      "required": ""
+    },
+    {
+      "description": "Commands checkpoint-host-list checkpoint-host-get",
+      "name": "How to configure the integration",
+      "required": ""
+    },
+    {
+      "description": "checkpoint-host-update checkpoint-host-delete checkpoint-group-list",
+      "name": "checkpoint-host-add",
+      "required": ""
+    },
+    {
+      "description": "checkpoint-group-add checkpoint-group-update checkpoint-group-delete",
+      "name": "checkpoint-group-get",
+      "required": ""
+    },
+    {
+      "description": "checkpoint-address-range-add checkpoint-address-range-update checkpoint-address-range-delete",
+      "name": "checkpoint-address-range-list",
+      "required": ""
+    },
+    {
+      "description": "checkpoint-threat-indicator-get checkpoint-threat-indicator-add checkpoint-threat-indicator-update",
+      "name": "checkpoint-threat-indicator-list",
+      "required": ""
+    },
+    {
+      "description": "checkpoint-threat-indicator-delete checkpoint-access-rule-list checkpoint-access-rule-add",
+      "name": "checkpoint-address-range-get",
+      "required": ""
+    },
+    {
+      "description": "checkpoint-access-rule-delete checkpoint-application-site-list checkpoint-application-site-add",
+      "name": "checkpoint-access-rule-update",
+      "required": ""
+    },
+    {
+      "description": "checkpoint-application-site-update checkpoint-application-site-delete checkpoint-publish",
+      "name": "CheckPoint data for adding application site",
+      "required": ""
+    },
+    {
+      "description": "checkpoint-verify-policy checkpoint-show-task checkpoint-login-and-get-session-id",
+      "name": "checkpoint-install-policy",
+      "required": ""
+    },
+    {
+      "description": "checkpoint-packages-list checkpoint-gateways-list checkpoint-application-site-category-list",
+      "name": "checkpoint-logout",
+      "required": ""
+    },
+    {
+      "description": "checkpoint-application-site-category-get checkpoint-show-objects checkpoint-package-list",
+      "name": "checkpoint-application-site-category-add",
+      "required": ""
+    },
+    {
+      "description": "checkpoint-show-threat-protection checkpoint-show-threat-protections checkpoint-set-threat-protection",
+      "name": "checkpoint-delete-objects-batch",
+      "required": ""
+    },
+    {
+      "description": "checkpoint-delete-threat-protections Docs Developer Docs",
+      "name": "checkpoint-add-threat-profile",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CheckPoint Firewall v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/check-point-firewall-v2"
+}

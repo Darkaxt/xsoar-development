@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "19. Add a user to a group",
+  "examples": [
+    "Command Example"
+  ],
+  "kind": "integration-command",
+  "name": "okta-add-to-group",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "okta (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta"
+}

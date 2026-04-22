@@ -1,0 +1,76 @@
+{
+  "aliases": [
+    "expanse-enrich-attribution"
+  ],
+  "arguments": [],
+  "description": "ExpanseEnrichAttribution | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ExpanseEnrichAttribution",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address Expanse.AttributionIP.private Is the IP private?",
+      "name": "Expanse.AttributionIP.ip",
+      "required": ""
+    },
+    {
+      "description": "Expanse.AttributionIP.sightings Number of sessions seen on this device Expanse.AttributionDevice.serial",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "Expanse.AttributionDevice.vsys VSYS of the device Expanse.AttributionDevice.device-group",
+      "name": "Serial Number of the device",
+      "required": ""
+    },
+    {
+      "description": "Expanse.AttributionDevice.exposing_service Is the device exposing the asset? Expanse.AttributionDevice.sightings",
+      "name": "Device Group inside Panorama",
+      "required": ""
+    },
+    {
+      "description": "Expanse.AttributionUser.username Username of the user Expanse.AttributionUser.domain",
+      "name": "Number of sessions seen on this device",
+      "required": ""
+    },
+    {
+      "description": "Expanse.AttributionUser.groups List of groups the user is member of Expanse.AttributionUser.display-name",
+      "name": "Domain of the user",
+      "required": ""
+    },
+    {
+      "description": "Expanse.AttributionUser.description Description of the user Expanse.AttributionUser.sightings",
+      "name": "Display Name",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Number of sessions seen on this device",
+      "required": ""
+    },
+    {
+      "description": "Next ExpanseEvidenceDynamicSection \u00bb Script Data",
+      "name": "\u00ab ExpanseAggregateAttributionUser",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExpanseEnrichAttribution",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/expanse-enrich-attribution"
+}

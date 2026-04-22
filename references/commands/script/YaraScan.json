@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "yara-scan"
+  ],
+  "arguments": [],
+  "description": "YaraScan | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "YaraScan",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The filename of the file that was scanned. Yara.HasError Whether there was an error when performing the scan.",
+      "name": "Yara.Filename",
+      "required": ""
+    },
+    {
+      "description": "Yara.HasMatch Whether the file matched any of the rules. Yara.entryID",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "Yara.fileID The file ID of the scanned file. Yara.MatchCount",
+      "name": "The entry ID of the scanned file.",
+      "required": ""
+    },
+    {
+      "description": "Errors A list of errors that occurred during the scan. Matches.Meta",
+      "name": "The number of rules that matched the file.",
+      "required": ""
+    },
+    {
+      "description": "Matches.Namespace The namespace defined in the rule. Matches.RuleName",
+      "name": "Metadata about the rule (as defined in the rule itself).",
+      "required": ""
+    },
+    {
+      "description": "Matches.Strings A list of strings that the rule matched. Matches.Tags",
+      "name": "The rule name that matched.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "A list of tags that are defined in the rule.",
+      "required": ""
+    },
+    {
+      "description": "Next ZipFile \u00bb Script Data",
+      "name": "\u00ab XSOARValueMetrics",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "YaraScan",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/yara-scan"
+}

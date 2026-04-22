@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Specifies whether the group was deleted.",
+  "examples": [
+    "Command Example\n!msgraph-groups-delete-group group_id=\"id\"\nHuman Readable Output\n5. msgraph-groups-list-members\nLists group members.\nBase Command\nmsgraph-groups-list-members\nRequired Permissions",
+    "!msgraph-groups-delete-group group_id=\"id\"\nHuman Readable Output\n5. msgraph-groups-list-members\nLists group members.\nBase Command\nmsgraph-groups-list-members\nRequired Permissions\nThe following permissions are required for this command.",
+    "Command Example\n!msgraph-groups-list-members group_id=id\nContext Example\n{\n\"MSGraphGroups\": {\n\"Classification\": null,\n\"CreatedDateTime\": \"2019-08-24T09:39:03Z\",\n\"DeletedDateTime\": null,",
+    "!msgraph-groups-list-members group_id=id\nContext Example\n{\n\"MSGraphGroups\": {\n\"Classification\": null,\n\"CreatedDateTime\": \"2019-08-24T09:39:03Z\",\n\"DeletedDateTime\": null,\n\"Description\": \"DemistoTeam\","
+  ],
+  "kind": "integration-command",
+  "name": "msgraph-groups-list-members",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The telephone numbers for the user. MSGraphGroups.Members.GivenName The given name (first name) of the user.",
+      "name": "MSGraphGroups.Members.BussinessPhones",
+      "required": ""
+    },
+    {
+      "description": "The primary mobile telephone number for the user. MSGraphGroups.Members.DisplayName The name displayed in the address book for the user.",
+      "name": "MSGraphGroups.Members.MobilePhone",
+      "required": ""
+    },
+    {
+      "description": "MSGraphGroups.Members.UserPrincipalName The user principal name (UPN) of the user. The UPN is an Internet-style login name for the user based on the Internet standard RFC 822.",
+      "name": "Usually the combination of the user's first name, middle initial and last name.",
+      "required": ""
+    },
+    {
+      "description": "The general format is alias@domain, where the domain must be present in the tenant\u2019s collection of verified domains. MSGraphGroups.Members.OfficeLocation The office location in the user's place of business.",
+      "name": "By convention, this should map to the user's email name.",
+      "required": ""
+    },
+    {
+      "description": "The SMTP address for the user. For example, \"jeff@contoso.onmicrosoft.com\". MSGraphGroups.Members.PreferredLanguage The preferred language for the user. Should follow ISO 639-1 Code. For example, \"en-US\".",
+      "name": "MSGraphGroups.Members.Mail",
+      "required": ""
+    },
+    {
+      "description": "The user's surname (family name or last name). MSGraphGroups.Members.JobTitle The user\u2019s job title.",
+      "name": "MSGraphGroups.Members.Surname",
+      "required": ""
+    },
+    {
+      "description": "The unique identifier for the user.",
+      "name": "MSGraphGroups.Members.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Entra ID Groups",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-groups"
+}

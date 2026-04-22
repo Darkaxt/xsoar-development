@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "xsoar-ws-parse-context"
+  ],
+  "arguments": [],
+  "description": "xsoar-ws-parse-context | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "xsoar-ws-parse-context",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next XSOARAllEDLCheckerAutomation \u00bb Script Data",
+      "name": "\u00ab XQLDSHelper",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "xsoar-ws-parse-context",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/xsoar-ws-parse-context"
+}

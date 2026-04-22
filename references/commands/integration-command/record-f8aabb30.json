@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Queries a URL in AlienVault OTX.",
+  "examples": [
+    "Command Example\n#\n!url url=\"http://www.fotoidea.com/sport/4x4_san_ponso/slides/IMG_0068.html/url_list\"\nContext Example\n#\n{\n\"AlienVaultOTX\"\n:",
+    "!url url=\"http://www.fotoidea.com/sport/4x4_san_ponso/slides/IMG_0068.html/url_list\"\nContext Example\n#\n{\n\"AlienVaultOTX\"\n:\n{\n\"URL\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The URL. AlienVaultOTX.URL.Hostname The host name of the URL.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "The domain of the URL. AlienVaultOTX.URL.Alexa The domain data for the Alexa URL.",
+      "name": "AlienVaultOTX.URL.Domain",
+      "required": ""
+    },
+    {
+      "description": "Url AlienVaultOTX.URL.Whois The Whois URL for domain data.",
+      "name": "AlienVaultOTX.URL.Url",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Score The actual score.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The source of the relationship. URL.Relationships.EntityB The destination of the relationship.",
+      "name": "URL.Relationships.EntityA",
+      "required": ""
+    },
+    {
+      "description": "The name of the relationship. URL.Relationships.EntityAType The type of the source of the relationship.",
+      "name": "URL.Relationships.Relationship",
+      "required": ""
+    },
+    {
+      "description": "The type of the destination of the relationship.",
+      "name": "URL.Relationships.EntityBType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AlienVault OTX v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/alien-vault-otx-v2"
+}

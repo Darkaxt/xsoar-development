@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!tc-get-groups group_type=events",
+  "examples": [
+    "Command Example\n!tc-get-groups group_type=events\n26. Add a security label to a group\nAdds a security label to a group.\nBase Command\ntc-add-group-security-label\nInput\nArgument Name",
+    "!tc-get-groups group_type=events\n26. Add a security label to a group\nAdds a security label to a group.\nBase Command\ntc-add-group-security-label\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "tc-add-group-security-label",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

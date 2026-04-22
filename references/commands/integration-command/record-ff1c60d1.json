@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Set up a new classification rule",
+  "examples": [
+    "Command Example\n#\n!get-indicators limit=1 initial_interval=\"1 day\"\nContext Example\n#\n{\n\"TAXII\"\n:",
+    "!get-indicators limit=1 initial_interval=\"1 day\"\nContext Example\n#\n{\n\"TAXII\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator value. TAXII.Indicator.Type The indicator type.",
+      "name": "TAXII.Indicator.Value",
+      "required": ""
+    },
+    {
+      "description": "The observable title. TAXII.Indicator.Description The observable description.",
+      "name": "TAXII.Indicator.Title",
+      "required": ""
+    },
+    {
+      "description": "The indicator description. TAXII.Indicator.Stixindicatorname The indicator title.",
+      "name": "TAXII.Indicator.Stixindicatordescription",
+      "required": ""
+    },
+    {
+      "description": "The ttp title. TAXII.Indicator.Stixmalwaretypes The stix malware type.",
+      "name": "TAXII.Indicator.Stixttptitle",
+      "required": ""
+    },
+    {
+      "description": "The indicator confidence. TAXII.Indicator.Score The indicator DBot score.",
+      "name": "TAXII.Indicator.Confidence",
+      "required": ""
+    },
+    {
+      "description": "The indicator relationships. TAXII.Indicator.Fields The indicator fields.",
+      "name": "TAXII.Indicator.Relationships",
+      "required": ""
+    },
+    {
+      "description": "The indicator rawJSON value.",
+      "name": "TAXII.Indicator.Rawjson",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TAXII Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/taxii-feed"
+}

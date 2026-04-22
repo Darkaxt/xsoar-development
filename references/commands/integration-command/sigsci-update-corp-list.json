@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!sigsci-delete-corp-list list_id=corp.maya\nHuman Readable Output\n21. Update a corp list\nUpdates (add or delete) entries for a given corp list.\nBase Command\nsigsci-update-corp-list\nInput",
+    "!sigsci-delete-corp-list list_id=corp.maya\nHuman Readable Output\n21. Update a corp list\nUpdates (add or delete) entries for a given corp list.\nBase Command\nsigsci-update-corp-list\nInput\nArgument Name",
+    "Command Example\n!sigsci-update-corp-list entries_list=55.7.55.7 list_id=corp.fordoc2 method=Add\nContext Example\n{\n\"SigSciences.Corp.List\": {\n\"Name\": \"fordoc2\",\n\"CreatedDate\": \"2019-03-28T09:14:43Z\",\n\"UpdatedDate\": \"2019-03-28T09:53:14Z\",",
+    "!sigsci-update-corp-list entries_list=55.7.55.7 list_id=corp.fordoc2 method=Add\nContext Example\n{\n\"SigSciences.Corp.List\": {\n\"Name\": \"fordoc2\",\n\"CreatedDate\": \"2019-03-28T09:14:43Z\",\n\"UpdatedDate\": \"2019-03-28T09:53:14Z\",\n\"CreatedBy\": \"user@demisto.com\","
+  ],
+  "kind": "integration-command",
+  "name": "sigsci-update-corp-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the list. SigSciences.Corp.List.Type The type of the list.",
+      "name": "SigSciences.Corp.List.Name",
+      "required": ""
+    },
+    {
+      "description": "The entry list of the list. SigSciences.Corp.List.ID The ID of the list.",
+      "name": "SigSciences.Corp.List.Entries",
+      "required": ""
+    },
+    {
+      "description": "The description of the list. SigSciences.Corp.List.CreatedBy The creator of the list.",
+      "name": "SigSciences.Corp.List.Description",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the list. SigSciences.Corp.List.UpdatedDate The last update date of the list.",
+      "name": "SigSciences.Corp.List.CreatedDate",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

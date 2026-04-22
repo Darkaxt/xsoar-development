@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Authorization was reset successfully. Run",
+  "examples": [
+    "!azure-devops-auth-start\nto start the authentication process.\nget-mapping-fields\n#\nGet mapping fields from remote incident. Please note that this method will not update the current incident. It's here for debugging purposes.\nBase Command\n#\nget-mapping-fields",
+    "Command Example\n#\n#### Human Readable Output\n### azure-devops-pipeline-run\n***\nRun a pipeline. A DevOps pipeline is a set of automated processes and tools that allows both developers and operations professionals to work cohesively to build and deploy code to a production environment.\n#### Base Command\n`azure-devops-pipeline-run`",
+    "#### Command Example\n```!azure-devops-pipeline-run project=\"xsoar\" pipeline_id=\"1\" branch_name=\"main\"```\n#### Context Example\n```json\n{\n\"AzureDevOps\": {\n\"PipelineRun\": {\n\"_links\": {",
+    "#### Command Example\n```!azure-devops-user-add user_email=\"user1@xsoar.com\" account_license_type=\"express\" group_type=\"projectContributor\" project_id=\"xsoar-project\"```\n#### Context Example\n```json\n{\n\"AzureDevOps\": {\n\"User\": {\n\"accessLevel\": {",
+    "#### Command Example\n```!azure-devops-user-remove user_id=\"XXXX\"```\n#### Human Readable Output\n>User XXXX was successfully removed from the organization.\n### azure-devops-pull-request-create\n***\nCreate a new pull request.\n#### Base Command"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AzureDevOps",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-dev-ops"
+}

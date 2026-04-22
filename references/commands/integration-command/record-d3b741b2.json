@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Impersonation rights are required. To perform actions on the target mailbox of other users, the service account must be part of the",
+  "examples": [
+    "!send-mail to=demisto@demisto.onmicrosoft.com subject=some_subject body=some_text attachIDs=110@457,116@457 htmlBody=\"<html><body>Hello <b>World</b></body></html>\" additionalHeader=\"some_header_name=some_header_value\" transientFile=some_file.txt transientFileContent=\"Some file content\"\nHuman Readable Output\n#\nMail sent successfully\news-get-items-as-eml\news-get-items-as-eml\n#\nRetrieves items by item ID and uploads its content as an EML file.",
+    "!reply-mail item_id=AAMkAGY3OTQyMzMzLWYxNjktNDE0My05NmZhLWQ5MGY1YjIyNzBkNABGAAAAAACYCKjWAnXBTrnhgWJCcLX7BwDrxRwRjq/zTrN6vWSzK4OWAAAAAAEMAADrxRwRjq/zTrN6vWSzK4OWAAPYQGFeAAA= body=hello subject=hi to=\"avishai@demistodev.onmicrosoft.com\"\nHuman Readable Output\n#\nSent email\n#\nattachments\nfrom"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Examples",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "!send-mail to=demisto@demisto.onmicrosoft.com subject=some_subject body=some_text attachIDs=110@457,116@457 htmlBody=\"<html><body>Hello <b>World</b></body></html>\" additionalHeader=\"some_header_name=some_header_value\" transientFile=some_file.txt transientFileContent=\"Some file content\"",
+      "required": ""
+    },
+    {
+      "description": "The size of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. File.SHA512 The SHA512 hash of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The name of the file. File.SSDeep The SSDeep hash of the file.",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "EntryID of the file File.Info Information about the file.",
+      "name": "File.EntryID",
+      "required": ""
+    },
+    {
+      "description": "The file type. File.MD5 The MD5 hash of the file.",
+      "name": "File.Type",
+      "required": ""
+    },
+    {
+      "description": "The extension of the file. Examples",
+      "name": "File.Extension",
+      "required": ""
+    },
+    {
+      "description": "reply-mail reply-mail",
+      "name": "``",
+      "required": ""
+    },
+    {
+      "description": "Permissions",
+      "name": "Reply to an email",
+      "required": ""
+    },
+    {
+      "description": "ApplicationImpersonation role. Limitations",
+      "name": "Impersonation rights are required. To perform actions on the target mailbox of other users, the service account must be part of the",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "No known limitations.",
+      "required": ""
+    },
+    {
+      "description": "Examples",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "!reply-mail item_id=AAMkAGY3OTQyMzMzLWYxNjktNDE0My05NmZhLWQ5MGY1YjIyNzBkNABGAAAAAACYCKjWAnXBTrnhgWJCcLX7BwDrxRwRjq/zTrN6vWSzK4OWAAAAAAEMAADrxRwRjq/zTrN6vWSzK4OWAAPYQGFeAAA= body=hello subject=hi to=\"avishai@demistodev.onmicrosoft.com\"",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EWS O365",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ewso365"
+}

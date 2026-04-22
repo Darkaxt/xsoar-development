@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "get-instance-name"
+  ],
+  "arguments": [],
+  "description": "GetInstanceName | Cortex XSOAR",
+  "examples": [
+    "!GetInstanceName integration_name=\"HelloWorld Feed\"\nContext Example\n#\n{\n\"Instances\"\n:\n{\n\"instanceName\""
+  ],
+  "kind": "script",
+  "name": "GetInstanceName",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Requested integration name. Instances.instanceName Instance name for given integration.",
+      "name": "Instances.integrationName",
+      "required": ""
+    },
+    {
+      "description": "Script Example",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!GetInstanceName integration_name=\"HelloWorld Feed\"",
+      "required": ""
+    },
+    {
+      "description": "\"Instances\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": \"HelloWorld Feed_instance_1\" ,",
+      "name": "\"instanceName\"",
+      "required": ""
+    },
+    {
+      "description": ": \"HelloWorld Feed\" }",
+      "name": "\"integrationName\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetInstanceName",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-instance-name"
+}

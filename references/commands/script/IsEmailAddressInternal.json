@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "is-email-address-internal"
+  ],
+  "arguments": [],
+  "description": "IsEmailAddressInternal | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IsEmailAddressInternal",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The email accounts full address. Account.Email.Username The email accounts username.",
+      "name": "Account.Email.Address",
+      "required": ""
+    },
+    {
+      "description": "Account.Email.Domain The email accounts domain. Account.Email.NetworkType",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The eil account NetworkType. Can be, \"Internal\" or \"External\".",
+      "required": ""
+    },
+    {
+      "description": "Next isError \u00bb Script Data",
+      "name": "\u00ab IsDomainInternal",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IsEmailAddressInternal",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/is-email-address-internal"
+}

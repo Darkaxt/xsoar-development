@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "registration.data.type",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "usersassociations.total Safewalk.reports.usersassociations.data.id usersassociations.data.id",
+      "name": "Safewalk.reports.usersassociations.total",
+      "required": ""
+    },
+    {
+      "description": "usersassociations.data.label Safewalk.reports.usersassociations.data.type usersassociations.data.type",
+      "name": "Safewalk.reports.usersassociations.data.label",
+      "required": ""
+    },
+    {
+      "description": "usersassociations.data",
+      "name": "Safewalk.reports.usersassociations.data",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Safewalk Reports",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/safewalk-reports"
+}

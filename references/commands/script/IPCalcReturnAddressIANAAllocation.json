@@ -1,0 +1,68 @@
+{
+  "aliases": [
+    "ip-calc-return-address-iana-allocation"
+  ],
+  "arguments": [],
+  "description": "IPCalcReturnAddressIANAAllocation | Cortex XSOAR",
+  "examples": [
+    "!IPCalcReturnAddressIANAAllocation ip_address=1.1.1.1\nContext Example\n#\n{\n\"IPCalc\"\n:\n{\n\"IP\""
+  ],
+  "kind": "script",
+  "name": "IPCalcReturnAddressIANAAllocation",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IANA IP allocation type IPCalc.IP.Allocation.address Address",
+      "name": "IPCalc.IP.Allocation.allocation",
+      "required": ""
+    },
+    {
+      "description": "Script Example",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!IPCalcReturnAddressIANAAllocation ip_address=1.1.1.1",
+      "required": ""
+    },
+    {
+      "description": "\"IPCalc\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"Allocation\"",
+      "name": "\"IP\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"address\" :",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ", \"allocation\" :",
+      "name": "\"1.1.1.1\"",
+      "required": ""
+    },
+    {
+      "description": "} } }",
+      "name": "\"global\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IPCalcReturnAddressIANAAllocation",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ip-calc-return-address-iana-allocation"
+}

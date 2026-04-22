@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The date the CVE was modified",
+  "examples": [
+    "Command Example\n#\n!cve cve=CVE-2014-1234\nContext Example\n#\n{\n\"CVE\"\n:",
+    "!cve cve=CVE-2014-1234\nContext Example\n#\n{\n\"CVE\"\n:\n[\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the CVE. CVE.CVSS.Score The CVSS score of the CVE.",
+      "name": "CVE.ID",
+      "required": ""
+    },
+    {
+      "description": "The CVSS vector of the CVE. CVE.CVSS.Table Dict",
+      "name": "CVE.CVSS.Vector",
+      "required": ""
+    },
+    {
+      "description": "CVE.Published Date The date the CVE was published.",
+      "name": "The CVSS table of the CVE.",
+      "required": ""
+    },
+    {
+      "description": "Date The date that the CVE was last modified. CVE.Description",
+      "name": "CVE.Modified",
+      "required": ""
+    },
+    {
+      "description": "The description of the CVE. CVE.vulnerableconfigurations Dict",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "CVE.vulnerableproduct Dict Vulnerable products in CPE format",
+      "name": "Vulnerable configurations in CPE format",
+      "required": ""
+    },
+    {
+      "description": "List A list of tags CVE.Relationships",
+      "name": "CVE.Tags",
+      "required": ""
+    },
+    {
+      "description": "List of relationships for the CVE DBotScore.Indicator The indicator that was tested.",
+      "name": "List",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CIRCL CVE Search",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/circl-cve-search"
+}

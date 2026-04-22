@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "3. Create a new credentials release request",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "beyondtrust-create-release-request",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The credentials for the requested ID. BeyondTrust.Request.RequestID",
+      "name": "BeyondTrust.Request.Credentials",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BeyondTrust Password Safe",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/beyond-trust-password-safe"
+}

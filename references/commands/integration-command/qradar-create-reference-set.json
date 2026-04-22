@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!qradar-create-reference-set element_type=DATE ref_name=Date\nContext Example\n{\n\"QRadar\": {\n\"Reference\": {\n\"TimeoutType\": \"UNKNOWN\",\n\"ElementType\": \"DATE\",",
+    "!qradar-create-reference-set element_type=DATE ref_name=Date\nContext Example\n{\n\"QRadar\": {\n\"Reference\": {\n\"TimeoutType\": \"UNKNOWN\",\n\"ElementType\": \"DATE\",\n\"CreationTime\": \"2018-11-27T11:34:23.000000Z\","
+  ],
+  "kind": "integration-command",
+  "name": "qradar-create-reference-set",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "date Creation time of the reference set QRadar.Reference.ElementType",
+      "name": "QRadar.Reference.CreationTime",
+      "required": ""
+    },
+    {
+      "description": "The element type for the values allowed in the reference set. The allowed values are: ALN (alphanumeric), ALNIC (alphanumeric ignore case), IP (IP address), NUM (numeric), PORT (port number) or DATE. QRadar.Reference.Name Name of the reference set",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Number of elements in the created reference set. QRadar.Reference.TimeoutType Timeout type of the reference (FIRST_SEEN, LAST_SEEN and UNKNOWN)",
+      "name": "QRadar.Reference.NumberOfElements",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM QRadar (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/q-radar"
+}

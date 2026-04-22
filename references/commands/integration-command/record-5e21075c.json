@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!aws-gd-get-events severity=Low should_push_events=false limit=1 collect_from=\"60 days ago\"\nHuman Readable Output\n#\nAWSGuardDuty Logs\n#\nAccount Id\nArn\nCreated At"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - GuardDuty Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---guard-duty-event-collector"
+}

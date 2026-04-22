@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!google-ip-ranges-get-indicators limit=2\nContext Example\n#\n{}\nHuman Readable Output\n#",
+    "!google-ip-ranges-get-indicators limit=2\nContext Example\n#\n{}\nHuman Readable Output\n#\nIndicators from GCP Whitelist Feed\n#"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google IP Ranges Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-ip-ranges-feed"
+}

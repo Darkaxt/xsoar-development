@@ -1,0 +1,234 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Panorama.CleanedUpRules.Vsys",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date Timestamp when the rule was first hit. PANOS.RuleHitCount.from_dg_name",
+      "name": "PANOS.RuleHitCount.first_hit_timestamp",
+      "required": ""
+    },
+    {
+      "description": "Name of the device group the rule is inherited from. PANOS.RuleHitCount.hit_count Number of hits for the rule.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Serial number of the firewall the entry was fetched from. PANOS.RuleHitCount.instanceName Name of the PAN-OS Integration Instance used to fetch the entry.",
+      "name": "PANOS.RuleHitCount.hostid",
+      "required": ""
+    },
+    {
+      "description": "The type of the PAN-OS Integration Instance running the command (panorama or firewall). PANOS.RuleHitCount.is_from_panorama Indicates if the rule was pushed from Panorama (true) or is local to the firewall (false).",
+      "name": "PANOS.RuleHitCount.instanceType",
+      "required": ""
+    },
+    {
+      "description": "Date Timestamp when the rule was most recently hit. PANOS.RuleHitCount.last_reset_timestamp",
+      "name": "PANOS.RuleHitCount.last_hit_timestamp",
+      "required": ""
+    },
+    {
+      "description": "Timestamp when hit count data was last reset. PANOS.RuleHitCount.latest Value of the \"latest\" property returned by the API.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Name of the rule. PANOS.RuleHitCount.position Indicates the position of the rule pushed from Panorama (pre_rulebase or post_rulebase).",
+      "name": "PANOS.RuleHitCount.name",
+      "required": ""
+    },
+    {
+      "description": "Date Timestamp when the rule was created. PANOS.RuleHitCount.rule_modification_timestamp",
+      "name": "PANOS.RuleHitCount.rule_creation_timestamp",
+      "required": ""
+    },
+    {
+      "description": "Timestamp when the rule was most recently modified. PANOS.RuleHitCount.rulebase The rulebase of the rule (such as security, nat, and so on).",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The name of the firewall VSYS. Edit this page Report an Issue",
+      "name": "PANOS.RuleHitCount.vsys",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Palo Alto Networks MineMeld (Deprecated) Next Palo Alto Networks PAN-OS EDL Management (Deprecated) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Known Limitations Fetch Incidents Configure Panorama on Cortex XSOAR",
+      "name": "Use Cases",
+      "required": ""
+    },
+    {
+      "description": "Commands pan-os pan-os-get-predefined-threats-list",
+      "name": "Debugging in Panorama",
+      "required": ""
+    },
+    {
+      "description": "pan-os-push-to-device-group pan-os-list-addresses pan-os-get-address",
+      "name": "pan-os-commit",
+      "required": ""
+    },
+    {
+      "description": "pan-os-delete-address pan-os-list-address-groups pan-os-get-address-group",
+      "name": "pan-os-create-address",
+      "required": ""
+    },
+    {
+      "description": "pan-os-block-vulnerability pan-os-delete-address-group pan-os-edit-address-group",
+      "name": "pan-os-create-address-group",
+      "required": ""
+    },
+    {
+      "description": "pan-os-get-service pan-os-create-service pan-os-delete-service",
+      "name": "pan-os-list-services",
+      "required": ""
+    },
+    {
+      "description": "pan-os-get-service-group pan-os-create-service-group pan-os-delete-service-group",
+      "name": "pan-os-list-service-groups",
+      "required": ""
+    },
+    {
+      "description": "pan-os-get-custom-url-category pan-os-create-custom-url-category pan-os-delete-custom-url-category",
+      "name": "pan-os-edit-service-group",
+      "required": ""
+    },
+    {
+      "description": "pan-os-get-url-category url pan-os-get-url-category-from-cloud",
+      "name": "pan-os-edit-custom-url-category",
+      "required": ""
+    },
+    {
+      "description": "pan-os-get-url-filter pan-os-create-url-filter pan-os-edit-url-filter",
+      "name": "pan-os-get-url-category-from-host",
+      "required": ""
+    },
+    {
+      "description": "pan-os-list-edls pan-os-get-edl pan-os-create-edl",
+      "name": "pan-os-delete-url-filter",
+      "required": ""
+    },
+    {
+      "description": "pan-os-delete-edl pan-os-refresh-edl pan-os-create-rule",
+      "name": "pan-os-edit-edl",
+      "required": ""
+    },
+    {
+      "description": "pan-os-move-rule pan-os-edit-rule pan-os-delete-rule",
+      "name": "pan-os-custom-block-rule",
+      "required": ""
+    },
+    {
+      "description": "pan-os-commit pan-os-push-status pan-os-get-pcap",
+      "name": "pan-os-list-applications",
+      "required": ""
+    },
+    {
+      "description": "pan-os-register-ip-tag pan-os-unregister-ip-tag pan-os-register-user-tag",
+      "name": "pan-os-list-pcaps",
+      "required": ""
+    },
+    {
+      "description": "pan-os-query-traffic-logs pan-os-check-traffic-logs-status pan-os-get-traffic-logs",
+      "name": "pan-os-unregister-user-tag",
+      "required": ""
+    },
+    {
+      "description": "Security Rules pan-os-query-logs Context example",
+      "name": "pan-os-list-rules",
+      "required": ""
+    },
+    {
+      "description": "pan-os-get-logs pan-os-security-policy-match pan-os-list-static-routes",
+      "name": "pan-os-check-logs-status",
+      "required": ""
+    },
+    {
+      "description": "pan-os-add-static-route pan-os-delete-static-route pan-os-show-device-version",
+      "name": "pan-os-get-static-route",
+      "required": ""
+    },
+    {
+      "description": "pan-os-content-update-download-status pan-os-install-latest-content-update pan-os-content-update-install-status",
+      "name": "pan-os-download-latest-content-update",
+      "required": ""
+    },
+    {
+      "description": "pan-os-download-panos-version pan-os-download-panos-status pan-os-install-panos-version",
+      "name": "pan-os-check-latest-panos-software",
+      "required": ""
+    },
+    {
+      "description": "pan-os-device-reboot pan-os-show-location-ip pan-os-get-licenses",
+      "name": "pan-os-install-panos-status",
+      "required": ""
+    },
+    {
+      "description": "pan-os-apply-security-profile pan-os-remove-security-profile pan-os-get-ssl-decryption-rules",
+      "name": "pan-os-get-security-profiles",
+      "required": ""
+    },
+    {
+      "description": "pan-os-url-filtering-block-default-categories pan-os-get-anti-spyware-best-practice pan-os-get-file-blocking-best-practice",
+      "name": "pan-os-get-wildfire-configuration",
+      "required": ""
+    },
+    {
+      "description": "pan-os-get-vulnerability-protection-best-practice pan-os-get-wildfire-best-practice pan-os-get-url-filtering-best-practice",
+      "name": "pan-os-get-antivirus-best-practice",
+      "required": ""
+    },
+    {
+      "description": "pan-os-create-antivirus-best-practice-profile pan-os-create-anti-spyware-best-practice-profile pan-os-create-vulnerability-best-practice-profile",
+      "name": "pan-os-enforce-wildfire-best-practice",
+      "required": ""
+    },
+    {
+      "description": "pan-os-create-file-blocking-best-practice-profile pan-os-create-wildfire-best-practice-profile pan-os-show-user-id-interfaces-config",
+      "name": "pan-os-create-url-filtering-best-practice-profile",
+      "required": ""
+    },
+    {
+      "description": "pan-os-list-configured-user-id-agents pan-os-upload-content-update-file pan-os-install-file-content-update",
+      "name": "pan-os-show-zones-config",
+      "required": ""
+    },
+    {
+      "description": "pan-os-platform-get-route-summary pan-os-platform-get-routes pan-os-platform-get-system-info",
+      "name": "pan-os-platform-get-arp-tables",
+      "required": ""
+    },
+    {
+      "description": "pan-os-platform-get-template-stacks pan-os-platform-get-global-counters pan-os-platform-get-bgp-peers",
+      "name": "pan-os-platform-get-device-groups",
+      "required": ""
+    },
+    {
+      "description": "pan-os-platform-get-ha-state pan-os-platform-get-jobs pan-os-platform-download-software",
+      "name": "pan-os-platform-get-available-software",
+      "required": ""
+    },
+    {
+      "description": "pan-os-platform-reboot pan-os-platform-get-system-status pan-os-platform-update-ha-state",
+      "name": "pan-os-apply-dns-signature-policy",
+      "required": ""
+    },
+    {
+      "description": "pan-os-hygiene-check-vulnerability-profiles pan-os-platform-install-software pan-os-hygiene-check-log-forwarding",
+      "name": "pan-os-hygiene-check-log-forwarding",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks PAN-OS",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/panorama"
+}

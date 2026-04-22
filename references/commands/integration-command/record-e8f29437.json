@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Fetch alert images and attach to incident in context Files.",
+  "examples": [
+    "Command Example\n#\n!\nrf-alert-images\nInput\n#\nThere are no input arguments for this command.\nContext Output",
+    "!\nrf-alert-images\nInput\n#\nThere are no input arguments for this command.\nContext Output\n#\nPath"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "New images are attached into incident Files. Edit this page Report an Issue",
+      "name": "Files",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Recorded Future - Playbook Alerts Next Recorded Future Attack Surface Intelligence \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Configure Recorded Future Alerts in Cortex Commands rf-alerts",
+      "name": "Migration from Recorded Future Intelligence pack",
+      "required": ""
+    },
+    {
+      "description": "rf-alert-rules rf-alert-images Docs",
+      "name": "rf-alert-update",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future Alerts",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future-alerts"
+}

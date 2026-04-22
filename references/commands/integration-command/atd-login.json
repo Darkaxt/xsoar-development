@@ -1,0 +1,33 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "} 4 items fullName: xxxxxx idx: xxx loginId: xxxxxxxx userType: STAND_ALONE 2:{",
+  "examples": [
+    "Command Example\n!atd-login\nContext Example\n{\napiVersion:1.5 .0 isAdmin:1 matdVersion:4.2 .0.22 serverTZ: PDT session: xxxxxxxxxxxxxxxx userId:xxx",
+    "!atd-login\nContext Example\n{\napiVersion:1.5 .0 isAdmin:1 matdVersion:4.2 .0.22 serverTZ: PDT session: xxxxxxxxxxxxxxxx userId:xxx"
+  ],
+  "kind": "integration-command",
+  "name": "atd-login",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The API version used in the session ATD.Session.IsAdmin Whether the current user is an admin",
+      "name": "ATD.Session.APIVersion",
+      "required": ""
+    },
+    {
+      "description": "Session ID ATD.Session.UserId The UserId of the user logged in to the session",
+      "name": "ATD.Session.SessionId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Advanced Threat Defense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-advanced-threat-defense"
+}

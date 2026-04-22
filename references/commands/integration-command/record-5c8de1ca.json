@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"ID\": \"00ugo6k55kHeoJMYC0h7\"",
+  "examples": [
+    "Command Example\n!okta-verify-push-factor factorId=opfi25ztilatndHD80h7 userId=00ugo6k55kHeoJMYC0h7\nContext Example\n{\n\"Account\": {\n\"ID\": \"00ugo6k55kHeoJMYC0h7\",",
+    "!okta-verify-push-factor factorId=opfi25ztilatndHD80h7 userId=00ugo6k55kHeoJMYC0h7\nContext Example\n{\n\"Account\": {\n\"ID\": \"00ugo6k55kHeoJMYC0h7\","
+  ],
+  "kind": "integration-command",
+  "name": "<",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Okta user ID. Account.VerifyPushResult Okta user push factor result.",
+      "name": "Account.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "okta (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta"
+}

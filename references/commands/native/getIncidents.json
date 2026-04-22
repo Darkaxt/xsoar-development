@@ -1,0 +1,37 @@
+{
+  "aliases": [
+    "demisto.executeCommand(\"getIncidents\", args)"
+  ],
+  "arguments": [
+    {
+      "name": "query",
+      "required": false
+    },
+    {
+      "name": "fromdate",
+      "required": false
+    },
+    {
+      "name": "todate",
+      "required": false
+    },
+    {
+      "name": "size",
+      "required": false
+    },
+    {
+      "name": "page",
+      "required": false
+    }
+  ],
+  "description": "Searches XSOAR incidents. Use concrete date windows and verify argument casing against the target tenant.",
+  "examples": [
+    "demisto.executeCommand(\"getIncidents\", {\"query\": query, \"fromdate\": from_date_iso, \"todate\": to_date_iso})"
+  ],
+  "kind": "native",
+  "name": "getIncidents",
+  "notes": [
+    "This is sanitized public guidance, not a tenant-specific contract."
+  ],
+  "source_url": "sanitized:public-xsoar-native-guidance"
+}

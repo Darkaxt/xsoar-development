@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [
+    "Command Example\n#\n!cyberark-isp-get-events date_from=\"3 days ago\" limit=50\n!cyberark-isp-get-events date_from=\"2025-09-15 17:10:00\" date_to=\"2025-09-15 17:11:00\" limit=100\n!cyberark-isp-get-events date_from=\"1 hour ago\" limit=10 should_push_events=false\nAdditional Resources\n#\nFor more information about CyberArk Identity Security Platform integration, refer to the official CyberArk documentation:",
+    "!cyberark-isp-get-events date_from=\"3 days ago\" limit=50\n!cyberark-isp-get-events date_from=\"2025-09-15 17:10:00\" date_to=\"2025-09-15 17:11:00\" limit=100\n!cyberark-isp-get-events date_from=\"1 hour ago\" limit=10 should_push_events=false\nAdditional Resources\n#\nFor more information about CyberArk Identity Security Platform integration, refer to the official CyberArk documentation:\nIntegrate Audit with third-party SIEM applications\nSIEM Integration API",
+    "!cyberark-isp-get-events date_from=\"2025-09-15 17:10:00\" date_to=\"2025-09-15 17:11:00\" limit=100\n!cyberark-isp-get-events date_from=\"1 hour ago\" limit=10 should_push_events=false\nAdditional Resources\n#\nFor more information about CyberArk Identity Security Platform integration, refer to the official CyberArk documentation:\nIntegrate Audit with third-party SIEM applications\nSIEM Integration API\nIntegrate the CyberArk Identity client credentials flow",
+    "!cyberark-isp-get-events date_from=\"1 hour ago\" limit=10 should_push_events=false\nAdditional Resources\n#\nFor more information about CyberArk Identity Security Platform integration, refer to the official CyberArk documentation:\nIntegrate Audit with third-party SIEM applications\nSIEM Integration API\nIntegrate the CyberArk Identity client credentials flow\nEdit this page"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique identifier of the audit event. CyberArkISP.Event.tenantId Tenant identifier.",
+      "name": "CyberArkISP.Event.uuid",
+      "required": ""
+    },
+    {
+      "description": "Event timestamp (Unix milliseconds). CyberArkISP.Event.username Username associated with the event.",
+      "name": "CyberArkISP.Event.timestamp",
+      "required": ""
+    },
+    {
+      "description": "Application code (e.g., IDP). CyberArkISP.Event.auditCode Audit code identifier.",
+      "name": "CyberArkISP.Event.applicationCode",
+      "required": ""
+    },
+    {
+      "description": "Type of audit event (e.g., Info, Warning, Error). CyberArkISP.Event.action Action performed.",
+      "name": "CyberArkISP.Event.auditType",
+      "required": ""
+    },
+    {
+      "description": "User ID associated with the event. CyberArkISP.Event.source Source IP address.",
+      "name": "CyberArkISP.Event.userId",
+      "required": ""
+    },
+    {
+      "description": "Type of action (e.g., Start, End). CyberArkISP.Event.component Component name.",
+      "name": "CyberArkISP.Event.actionType",
+      "required": ""
+    },
+    {
+      "description": "Service name. CyberArkISP.Event.message Event message.",
+      "name": "CyberArkISP.Event.serviceName",
+      "required": ""
+    },
+    {
+      "description": "Custom event data. CyberArkISP.Event.cloudProvider Cloud provider (e.g., aws).",
+      "name": "CyberArkISP.Event.customData",
+      "required": ""
+    },
+    {
+      "description": "Identity type (e.g., NON_HUMAN, HUMAN). CyberArkISP.Event.originRegion Origin region.",
+      "name": "CyberArkISP.Event.identityType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyberArk Identity Security Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyber-ark-isp"
+}

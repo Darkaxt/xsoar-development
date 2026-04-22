@@ -1,0 +1,18 @@
+{
+  "artifact_type": "pack-metadata-json",
+  "classifier": {
+    "path_hints": [
+      "pack_metadata.json"
+    ],
+    "top_level_fields": [
+      "name",
+      "description"
+    ]
+  },
+  "do": [
+    "Preserve pack identity, dependencies, support level, and version metadata."
+  ],
+  "do_not": [
+    "Do not infer marketplace metadata from script code alone."
+  ]
+}

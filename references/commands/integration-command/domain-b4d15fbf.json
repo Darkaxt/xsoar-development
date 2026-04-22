@@ -1,0 +1,51 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2018-11-21T13:34:31.134425+00:00",
+  "examples": [
+    "Command Example\ndomain domain=gooc.om\nContext Example\n{\n\"Domain\": [\n{\n\"Name\": \"gooc.om\"\n}"
+  ],
+  "kind": "integration-command",
+  "name": "domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Domain name that was tested EclecticIQ.Domain.Created Date",
+      "name": "EclecticIQ.Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "EclecticIQ.Domain.LastUpdate Date Observable last updated date",
+      "name": "Observable creation date",
+      "required": ""
+    },
+    {
+      "description": "Observable ID EclecticIQ.Domain.Maliciousness Maliciousness confidence level",
+      "name": "EclecticIQ.Domain.ID",
+      "required": ""
+    },
+    {
+      "description": "Domain name that was tested Domain.Malcious.Vendor For malicious domains, the vendor that made the decision",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "For malicious domains, the reason that the vendor made the decision DBotScore.Type Indicator type",
+      "name": "Domain.Malcious.Description",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EclecticIQ Platform (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/eclectic-iq-platform"
+}

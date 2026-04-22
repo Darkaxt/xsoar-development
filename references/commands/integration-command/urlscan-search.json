@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Search for indicators: urlscan-search",
+  "examples": [
+    "Command Example"
+  ],
+  "kind": "integration-command",
+  "name": "urlscan-search",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Bad URLs found URLScan.Domain Domain of the URL scanned",
+      "name": "URLScan.URL",
+      "required": ""
+    },
+    {
+      "description": "ASN of the URL scanned URLScan.IP IP of the url scanned",
+      "name": "URLScan.ASN",
+      "required": ""
+    },
+    {
+      "description": "Scan ID for the URL scanned URLScan.ScanDate Latest scan date for the URL",
+      "name": "URLScan.ScanID",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 of file scanned URLScan.FileName Filename of the file scanned",
+      "name": "URLScan.Hash",
+      "required": ""
+    },
+    {
+      "description": "File size of the file scanned URLScan.FileType File type of the file scanned",
+      "name": "URLScan.FileSize",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "urlscan.io",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/urlscanio"
+}

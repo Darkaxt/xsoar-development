@@ -1,0 +1,61 @@
+{
+  "aliases": [
+    "clear-user-session"
+  ],
+  "arguments": [],
+  "description": "clear-user-session | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "clear-user-session",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Additional information or error details if the session clearing process failed. SessionClearResults.Result The result of the session clearing process for the user (",
+      "name": "SessionClearResults.Message",
+      "required": ""
+    },
+    {
+      "description": "or Failed ).",
+      "name": "Success",
+      "required": ""
+    },
+    {
+      "description": "SessionClearResults.Brand The integration (e.g., Microsoft Graph",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Okta v2 ) where the session clearing succeeded. SessionClearResults.UserName",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "SessionClearResults.UserId The user id for which the session clearing process was executed. Edit this page",
+      "name": "The username for which the session clearing process was executed.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab ClassifierNotifyAdmin Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "CloseInvestigationAsDuplicate \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "clear-user-session",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/clear-user-session"
+}

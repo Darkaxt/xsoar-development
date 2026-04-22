@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2. Ask a question about an endpoint",
+  "examples": [
+    "Command Example\n!tn-ask-system hostname=\"Demisto-Computer\"\nContext Example\n{\nTanium: {\nQuestionResults:[{\nComputer Name: Demisto-Computer,\nCount:1",
+    "!tn-ask-system hostname=\"Demisto-Computer\"\nContext Example\n{\nTanium: {\nQuestionResults:[{\nComputer Name: Demisto-Computer,\nCount:1\n}]"
+  ],
+  "kind": "integration-command",
+  "name": "tn-ask-system",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Results of requested computer name. Can be a complex object.",
+      "name": "Tanium.QuestionResults",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium"
+}

@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "disable-user-wrapper"
+  ],
+  "arguments": [],
+  "description": "DisableUserWrapper | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DisableUserWrapper",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Indicates the status of account (should be false after request is successfully completed). IAM.UserProfile The user profile.",
+      "name": "IdentityIQ.AccountDisable.active",
+      "required": ""
+    },
+    {
+      "description": "IAM.Vendor.active Gives the active status of user. Can be true or false. IAM.Vendor.brand",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "IAM.Vendor.details Tells the user if the API was successful, otherwise provides error information. IAM.Vendor.email",
+      "name": "The integration name.",
+      "required": ""
+    },
+    {
+      "description": "IAM.Vendor.errorCode The HTTP error response code. IAM.Vendor.errorMessage",
+      "name": "The employee email address.",
+      "required": ""
+    },
+    {
+      "description": "IAM.Vendor.id The employee user ID in the app. IAM.Vendor.instanceName",
+      "name": "The reason the API failed.",
+      "required": ""
+    },
+    {
+      "description": "IAM.Vendor.success If true, the command was executed successfully. IAM.Vendor.username",
+      "name": "The integration instance name.",
+      "required": ""
+    },
+    {
+      "description": "IAM.Vendor.action The command name. Edit this page",
+      "name": "The employee username in the app.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab disable-user Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "displayCloudIndicators \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DisableUserWrapper",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/disable-user-wrapper"
+}

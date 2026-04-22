@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!prometheus-query fields=\"go_info|node_hwmon_temp_celsius\"",
+  "examples": [
+    "!prometheus-query fields=\"go_info|node_hwmon_temp_celsius\"\nprometheus-raw\n#\nRun any raw Prometheus instant query string against /api/v1/query.\nBase Command\n#\nprometheus-raw\nInput",
+    "!prometheus-raw query=\"{__name__=~'^(go_info|node_hwmon_temp_celsius)$'}\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab PrismaCloud IAM\nNext\nProofpoint Email Security Event Collector \u00bb\nConfigure Prometheus in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Metric name ( name ).",
+      "name": "Prometheus.Metrics.name",
+      "required": ""
+    },
+    {
+      "description": "Metric value (float if numeric, otherwise string). Prometheus.Metrics.ts Date",
+      "name": "Prometheus.Metrics.value",
+      "required": ""
+    },
+    {
+      "description": "Prometheus.Metrics.ts_unix Sample timestamp (unix seconds). Prometheus.Metrics.labels",
+      "name": "Sample timestamp (ISO8601, UTC).",
+      "required": ""
+    },
+    {
+      "description": "Metric labels (excluding name ).",
+      "name": "Unknown",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Prometheus",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/prometheus"
+}

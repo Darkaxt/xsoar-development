@@ -1,0 +1,38 @@
+{
+  "aliases": [
+    "print-to-parent-incident"
+  ],
+  "arguments": [],
+  "description": "PrintToParentIncident | Cortex XSOAR",
+  "examples": [
+    "!PrintToParentIncident value=\"Parent of 6 I assume?\"\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nSuccessfully printed to parent incident INCIDENT-5."
+  ],
+  "kind": "script",
+  "name": "PrintToParentIncident",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!PrintToParentIncident value=\"Parent of 6 I assume?\"",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PrintToParentIncident",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/print-to-parent-incident"
+}

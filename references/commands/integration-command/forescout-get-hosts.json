@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get details for a host: forescout-get-host",
+  "examples": [
+    "Command Example\nforescout-get-hosts fields=online=true\nContext Example\n{\n\"Forescout.Host\": [\n{\n\"MACAddress\": \"000c29e9e452\",\n\"IPAddress\": \"192.168.1.44\","
+  ],
+  "kind": "integration-command",
+  "name": "forescout-get-hosts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Forescout ID for the host. Forescout.Host.IPAddress IP Address of the host.",
+      "name": "Forescout.Host.ID",
+      "required": ""
+    },
+    {
+      "description": "MAC Address of the host. Endpoint.IPAddress IP Address of the host.",
+      "name": "Forescout.Host.MACAddress",
+      "required": ""
+    },
+    {
+      "description": "MAC Address of the host.",
+      "name": "Endpoint.MACAddress",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Forescout CounterACT",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forescout"
+}

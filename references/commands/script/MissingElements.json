@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "missing-elements"
+  ],
+  "arguments": [],
+  "description": "MissingElements | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "MissingElements",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The missing elements from the input list of integers. Edit this page Report an Issue",
+      "name": "MissingElements.output",
+      "required": ""
+    },
+    {
+      "description": "\u00ab MinList Next MITREIndicatorsByOpenIncidents \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MissingElements",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/missing-elements"
+}

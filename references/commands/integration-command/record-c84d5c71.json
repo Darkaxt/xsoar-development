@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "grafana-org-get-by-id",
+  "examples": [
+    "Command Example\n#\n!grafana-org-get-by-id org_id=1\nContext Example\n#\n{\n\"Grafana\"\n:",
+    "!grafana-org-get-by-id org_id=1\nContext Example\n#\n{\n\"Grafana\"\n:\n{\n\"Organization\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Organization ID. Grafana.Organization.name Organization name.",
+      "name": "Grafana.Organization.id",
+      "required": ""
+    },
+    {
+      "description": "Organization address.",
+      "name": "Grafana.Organization.address",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Grafana",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/grafana"
+}

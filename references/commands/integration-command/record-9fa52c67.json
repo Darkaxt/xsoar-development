@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "from the Blocked Senders list",
+  "examples": [
+    "Command Example\n#\n!proofpoint-remove-from-safe-senders-list email=bwillis@email.com\nHuman Readable Output\n#\nSuccessfully removed\nbwillis@email.com\nfrom the Safe Senders list",
+    "!proofpoint-remove-from-safe-senders-list email=bwillis@email.com\nHuman Readable Output\n#\nSuccessfully removed\nbwillis@email.com\nfrom the Safe Senders list\nEdit this page\nReport an Issue"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Proofpoint Protection Server (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/proofpoint-server-protection"
+}

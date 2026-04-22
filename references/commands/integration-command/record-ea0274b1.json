@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Mark item as handled on RaDark.",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n>\n>Item ID (xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx) marked as handled\n### radark-item-purchase\n***\nRequest to purchase an item offered for sale on an automated store.",
+    "#### Command Example\n```!radark-item-purchase item_id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx```\n#### Human Readable Output\n>Bot ID (<BOT_ID>) marked for purchasing\nEdit this page\nReport an Issue\nPrevious\n\u00ab QutteraWebsiteMalwareScanner"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RaDark",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ra-dark"
+}

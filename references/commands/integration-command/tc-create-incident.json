@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "For malicious files, the full description.",
+  "examples": [
+    "Command Example\n!tc-add-indicator indicator=\"9.9.4.4\" rating=\"2\" confidence=\"87\"\nHuman Readable Output\n11. Create a new incident group\nCreates a new incident group.\nBase Command\ntc-create-incident\nInput",
+    "!tc-add-indicator indicator=\"9.9.4.4\" rating=\"2\" confidence=\"87\"\nHuman Readable Output\n11. Create a new incident group\nCreates a new incident group.\nBase Command\ntc-create-incident\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "tc-create-incident",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the new incident group. TC.Incident.Owner The owner of the new incident.",
+      "name": "TC.Incident.Name",
+      "required": ""
+    },
+    {
+      "description": "date The date on which the event that indicates an incident occurred. TC.Incident.Tag",
+      "name": "TC.Incident.EventDate",
+      "required": ""
+    },
+    {
+      "description": "The name of the tag of the new incident. TC.Incident.SecurityLabel The security label of the new incident.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "TC.Incident.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

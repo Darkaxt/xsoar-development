@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!fidelis-manage-alert-label action=Add alert_id=3 label=\"example-label\"\nHuman Readable Output\n#\nAssigned label: example-label to alert 3\nEdit this page\nReport an Issue",
+    "!fidelis-manage-alert-label action=Add alert_id=3 label=\"example-label\"\nHuman Readable Output\n#\nAssigned label: example-label to alert 3\nEdit this page\nReport an Issue\nPrevious\n\u00ab Fidelis EDR"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Fidelis Elevate Network",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fidelis-elevate-network"
+}

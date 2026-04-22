@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "MAC Address MACVendors.vendor Vendor Name",
+      "name": "MACVendors.mac",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Lumu",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Mail Listener v2 \u00bb Configure MAC Vendors in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "macvendors-lookup-mac",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MAC Vendors",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mac-vendors"
+}

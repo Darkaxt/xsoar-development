@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The name of the indicator to delete.",
+  "examples": [
+    "Command Example\n19. Create a group based on the Campaign type\nCreates a group based on the \"Campaign\" type.\nBase Command\ntc-create-campaign\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "tc-create-campaign",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the campaign. TC.Campaign.Owner The owner of the campaign.",
+      "name": "TC.Campaign.Name",
+      "required": ""
+    },
+    {
+      "description": "date The earliest date on which the campaign was seen. TC.Campaign.Tag",
+      "name": "TC.Campaign.FirstSeen",
+      "required": ""
+    },
+    {
+      "description": "The tag of the campaign. TC.Campaign.SecurityLevel",
+      "name": "string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

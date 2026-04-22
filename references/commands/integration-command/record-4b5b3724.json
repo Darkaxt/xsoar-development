@@ -1,0 +1,45 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "{'id': 15, 'name': 'NE FNTG 01 - 3020'}",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next HPE Aruba ClearPass \u00bb Configure HPE Aruba Central Event Collector in Cortex",
+      "name": "\u00ab Hoxhunt v2",
+      "required": ""
+    },
+    {
+      "description": "Commands aruba-central-get-events aruba-auth-test",
+      "name": "How to Find Required Parameters",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HPE Aruba Central Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hpe-aruba-central-event-collector"
+}

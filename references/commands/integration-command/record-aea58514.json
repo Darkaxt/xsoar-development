@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!xpanse-get-indicators limit=1 ip=yes certificate=no domain=no\nContext Example\n#\n{\n\"ASM\"\n:\n{\n\"Indicators\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the indicator. ASM.Indicators.Description The description of the indicator.",
+      "name": "ASM.Indicators.Name",
+      "required": ""
+    },
+    {
+      "description": "The type of the indicator.",
+      "name": "ASM.Indicators.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Xpanse Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/xpanse-feed"
+}

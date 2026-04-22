@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Retrieve value for a specific field from the IP address information",
+  "examples": [
+    "Command Example\n#\n!ipinfo_field ip=1.1.1.1 field=city\nHuman Readable Output\n#\nMiami\nEdit this page\nReport an Issue",
+    "!ipinfo_field ip=1.1.1.1 field=city\nHuman Readable Output\n#\nMiami\nEdit this page\nReport an Issue\nPrevious\n\u00ab IP2LocationIO"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ipinfo (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ipinfo"
+}

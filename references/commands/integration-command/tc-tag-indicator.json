@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!tc-get-tags\nHuman Readable Output\n7. Add a tag to an existing indicator\nAdds a tag to an existing indicator.\nBase Command\ntc-tag-indicator\nInput",
+    "!tc-get-tags\nHuman Readable Output\n7. Add a tag to an existing indicator\nAdds a tag to an existing indicator.\nBase Command\ntc-tag-indicator\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "tc-tag-indicator",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

@@ -1,0 +1,184 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Platform Link(ignite):",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Reliability The reliability of the vendor.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. Ignite.File.Event.Href A list of reference links of the indicator.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "MD5 file hash of the indicator. Ignite.File.Event.SHA1 SHA1 file hash of the indicator.",
+      "name": "Ignite.File.Event.MD5",
+      "required": ""
+    },
+    {
+      "description": "SHA256 file hash of the indicator. Ignite.File.Event.SHA512 SHA512 file hash of the indicator.",
+      "name": "Ignite.File.Event.SHA256",
+      "required": ""
+    },
+    {
+      "description": "SSDeep file hash of the indicator. Ignite.File.Event.EventDetails The event details in which the indicator was observed.",
+      "name": "Ignite.File.Event.SSDeep",
+      "required": ""
+    },
+    {
+      "description": "The category of the indicator. Ignite.File.Event.Fpid The Ignite ID of the indicator.",
+      "name": "Ignite.File.Event.Category",
+      "required": ""
+    },
+    {
+      "description": "The time and date that the indicator was observed. Ignite.File.Event.Type The indicator type.",
+      "name": "Ignite.File.Event.Timestamp",
+      "required": ""
+    },
+    {
+      "description": "The UUID of the indicator. Ignite.File.Event.Comment The comment that was provided when the indicator was observed.",
+      "name": "Ignite.File.Event.Uuid",
+      "required": ""
+    },
+    {
+      "description": "The ID of file. Ignite.File.type Type of the indicator.",
+      "name": "Ignite.File.id",
+      "required": ""
+    },
+    {
+      "description": "The value of file. Ignite.File.href The href of file.",
+      "name": "Ignite.File.value",
+      "required": ""
+    },
+    {
+      "description": "The entity type of file. Ignite.File.score.value The score value of file.",
+      "name": "Ignite.File.entity_type",
+      "required": ""
+    },
+    {
+      "description": "The last scored time of file. Ignite.File.score.raw_score The raw score of file.",
+      "name": "Ignite.File.score.last_scored_at",
+      "required": ""
+    },
+    {
+      "description": "Last time when file was modified. Ignite.File.created_at The creation time of file.",
+      "name": "Ignite.File.modified_at",
+      "required": ""
+    },
+    {
+      "description": "The last seen time of file. Ignite.File.sort_date The sort date of file.",
+      "name": "Ignite.File.last_seen_at",
+      "required": ""
+    },
+    {
+      "description": "The ignite platform url of file. Ignite.File.apt_description The apt description of file.",
+      "name": "Ignite.File.platform_urls.ignite",
+      "required": ""
+    },
+    {
+      "description": "The source name of external reference. Ignite.File.external_references.url The url of external reference.",
+      "name": "Ignite.File.external_references.source_name",
+      "required": ""
+    },
+    {
+      "description": "The md5 hash of file. Ignite.File.hashes.sha1 The sha1 hash of file.",
+      "name": "Ignite.File.hashes.md5",
+      "required": ""
+    },
+    {
+      "description": "The sha256 hash of file. Ignite.File.malware_description The malware description of file.",
+      "name": "Ignite.File.hashes.sha256",
+      "required": ""
+    },
+    {
+      "description": "The mitre attack id of file. Ignite.File.mitre_attack_ids.name The name of mitre attack id.",
+      "name": "Ignite.File.mitre_attack_ids.id",
+      "required": ""
+    },
+    {
+      "description": "A list of tactics associated with mitre attack id. Ignite.File.relationships.iocs.id The id of ioc.",
+      "name": "Ignite.File.mitre_attack_ids.tactics",
+      "required": ""
+    },
+    {
+      "description": "The type of ioc. Ignite.File.relationships.iocs.value The value of ioc.",
+      "name": "Ignite.File.relationships.iocs.type",
+      "required": ""
+    },
+    {
+      "description": "The href of ioc. Ignite.File.sightings.source The source of file sighting.",
+      "name": "Ignite.File.relationships.iocs.href",
+      "required": ""
+    },
+    {
+      "description": "The sighted at time of file. Ignite.File.sightings.tags The tags of file sighting.",
+      "name": "Ignite.File.sightings.sighted_at",
+      "required": ""
+    },
+    {
+      "description": "The ID of related IOC. Ignite.File.sightings.related_iocs.type The type of related IOC.",
+      "name": "Ignite.File.sightings.related_iocs.id",
+      "required": ""
+    },
+    {
+      "description": "The value of related IOC. Ignite.File.sightings.related_iocs.href The href of related IOC.",
+      "name": "Ignite.File.sightings.related_iocs.value",
+      "required": ""
+    },
+    {
+      "description": "The source of file latest sighting. Ignite.File.latest_sighting.sighted_at The sighted at time of latest sighting of file.",
+      "name": "Ignite.File.latest_sighting.source",
+      "required": ""
+    },
+    {
+      "description": "The tags of file latest sighting. Ignite.File.latest_sighting.related_iocs.id The ID of related IOC.",
+      "name": "Ignite.File.latest_sighting.tags",
+      "required": ""
+    },
+    {
+      "description": "The type of related IOC. Ignite.File.latest_sighting.related_iocs.value The value of related IOC.",
+      "name": "Ignite.File.latest_sighting.related_iocs.type",
+      "required": ""
+    },
+    {
+      "description": "The href of related IOC. Ignite.File.total_sightings integer",
+      "name": "Ignite.File.latest_sighting.related_iocs.href",
+      "required": ""
+    },
+    {
+      "description": "File.Malicious.Description The description of the malicious indicator. File.Malicious.Vendor",
+      "name": "The total sightings of file.",
+      "required": ""
+    },
+    {
+      "description": "Vendor of the malicious file. File.MD5 MD5 type file.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "SHA1 type file. File.SHA256 SHA256 type file.",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "SHA512 type file. File.SSDeep SSDeep type file.",
+      "name": "File.SHA512",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Flashpoint Ignite",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ignite"
+}

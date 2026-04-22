@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "File_Operation_Succeeded",
+  "examples": [
+    "Command Example\n!esm-search timeRange=LAST_10_MINUTES filters=`[{\"type\": \"EsmFieldFilter\", \"field\": {\"name\": \"SrcIP\"}, \"operator\": \"EQUALS\", \"values\": [{\"type\": \"EsmBasicValue\", \"value\": \"52.15.91.198\"}]}]\nContext Example\n{\n\"SearchResults\": [\n{\n\"AlertIPSIDAlertID\": \"144115188075855872|10201\"\n},",
+    "!esm-search timeRange=LAST_10_MINUTES filters=`[{\"type\": \"EsmFieldFilter\", \"field\": {\"name\": \"SrcIP\"}, \"operator\": \"EQUALS\", \"values\": [{\"type\": \"EsmBasicValue\", \"value\": \"52.15.91.198\"}]}]\nContext Example\n{\n\"SearchResults\": [\n{\n\"AlertIPSIDAlertID\": \"144115188075855872|10201\"\n},\n{"
+  ],
+  "kind": "integration-command",
+  "name": "esm-search",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v10 and v11 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v10"
+}

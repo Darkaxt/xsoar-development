@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!archer-set-detailed-analysis applicationId=433 contentId=227610 value=\"test string\"",
+  "examples": [
+    "Command Example\n!archer-set-detailed-analysis applicationId=433 contentId=227610 value=\"test string\"\nRaw Output\nDetailed Analysis updated successfully.\nGet an Archer user's user ID\nReturns the user ID of an Archer user.\nBase Command\narcher-get-user-id",
+    "!archer-set-detailed-analysis applicationId=433 contentId=227610 value=\"test string\"\nRaw Output\nDetailed Analysis updated successfully.\nGet an Archer user's user ID\nReturns the user ID of an Archer user.\nBase Command\narcher-get-user-id\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "archer-get-user-id",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

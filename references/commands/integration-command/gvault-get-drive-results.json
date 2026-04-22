@@ -1,0 +1,39 @@
+{
+  "aliases": [
+    "MatterID and ExportID concatenation separated by '#' (used only for playbook) such: <Matter_ID>"
+  ],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!gvault-download-results bucketName=85d7cacf-5d93-44e5-8d37-4ba6da342d02 downloadID=0bebe0ec-ee41-4955-96b3-20d9408409c8/exportly-7b8ae442-bee7-4bc9-89fa-a65c6c24d50c/drive_test_exportcK29253Af6_0.zip\nHuman Readable Output\n15. Get the results of a Drive export\nGet the results of a specified drive export.\nBase Command\ngvault-get-drive-results\nInput",
+    "!gvault-download-results bucketName=85d7cacf-5d93-44e5-8d37-4ba6da342d02 downloadID=0bebe0ec-ee41-4955-96b3-20d9408409c8/exportly-7b8ae442-bee7-4bc9-89fa-a65c6c24d50c/drive_test_exportcK29253Af6_0.zip\nHuman Readable Output\n15. Get the results of a Drive export\nGet the results of a specified drive export.\nBase Command\ngvault-get-drive-results\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-get-drive-results",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Title of the file GoogleVault.Matter.Export.Results.Author Author of the file",
+      "name": "GoogleVault.Matter.Export.Results.Title",
+      "required": ""
+    },
+    {
+      "description": "Other users related to the file GoogleVault.Matter.Export.Results.Viewers Viewers of the file",
+      "name": "GoogleVault.Matter.Export.Results.Others",
+      "required": ""
+    },
+    {
+      "description": "The date the file was last modified GoogleVault.Matter.Export.Results.DateCreated The date the file was created",
+      "name": "GoogleVault.Matter.Export.Results.DateModified",
+      "required": ""
+    },
+    {
+      "description": "File type (extension) GoogleVault.Matter.Export.Results.MD5 The MD5 of the file (SHA-1)",
+      "name": "GoogleVault.Matter.Export.Results.DocType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

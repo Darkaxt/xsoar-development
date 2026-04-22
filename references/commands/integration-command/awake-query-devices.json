@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Lookup and enrich a domain: domain",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "awake-query-devices",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Awake Security unique identifier for the specified device AwakeSecurity.Devices.deviceName Device name",
+      "name": "AwakeSecurity.Devices.deviceId",
+      "required": ""
+    },
+    {
+      "description": "Date that the specified device was first seen AwakeSecurity.Devices.lastSeen Date that the specified device was last seen",
+      "name": "AwakeSecurity.Devices.firstSeen",
+      "required": ""
+    },
+    {
+      "description": "Operating system associated with the specified device AwakeSecurity.Devices.deviceType Device type",
+      "name": "AwakeSecurity.Devices.os",
+      "required": ""
+    },
+    {
+      "description": "List of IP addresses associated with the specified device AwakeSecurity.Devices.monitoringPointIds List of monitoring point IDs the specified device was seen on",
+      "name": "AwakeSecurity.Devices.ips",
+      "required": ""
+    },
+    {
+      "description": "List of applications the specified device was seen using AwakeSecurity.Devices.notabilityPercentile How the notability of this device compares to other devices",
+      "name": "AwakeSecurity.Devices.application",
+      "required": ""
+    },
+    {
+      "description": "Number of devices that are similar to this device AwakeSecurity.Devices.numberSessions Number of TCP sessions for this device",
+      "name": "AwakeSecurity.Devices.numberSimilarDevices",
+      "required": ""
+    },
+    {
+      "description": "Date of the last TCP session acknowledgment of the device associated with the specified email address AwakeSecurity.Devices.whiteListed bool",
+      "name": "AwakeSecurity.Devices.ackTime",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Awake Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/awake-security"
+}

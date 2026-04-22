@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "Troubleshooting If you use multiple locks which might be set in parallel, it is recommended to enable the Sync integration cache",
+      "name": "There is no input for this command.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "(Available from Cortex XSOAR 6.2.0).",
+      "required": ""
+    },
+    {
+      "description": "Next Demisto REST API (Deprecated) \u00bb Docs",
+      "name": "\u00ab Dell Secureworks",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "description": "Name of lock to release. When omitted, the default is",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "demisto-lock-release-all",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Demisto Lock",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/demisto-lock"
+}

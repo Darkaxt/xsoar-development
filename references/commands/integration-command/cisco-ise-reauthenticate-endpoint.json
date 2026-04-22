@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "327b0120-4ba1-11e8-93bd-000c296ec148",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "cisco-ise-reauthenticate-endpoint",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "MAC address of the endpoint. CiscoISE.Endpoint.reauthenticateResult Re-authentication result.",
+      "name": "CiscoISE.Endpoint.MACAddress",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ISE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-ise"
+}

@@ -1,0 +1,15 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "gcs-download-file bucket_name=my-bucket object_name=/some/path/file1.txt",
+  "examples": [
+    "Command Example\ngcs-download-file bucket_name=my-bucket object_name=/some/path/file1.txt\nHuman Readable Output\nLink to the retrieved file.\n7. Upload a file (object) into a bucket\nUploads a file (object) into a bucket.\nBase Command\ngcs-upload-file"
+  ],
+  "kind": "integration-command",
+  "name": "gcs-upload-file",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Storage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-storage"
+}

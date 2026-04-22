@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    },
+    {
+      "description": "jira-create-metadata-field-list jira-reset-timezone-cache Docs",
+      "name": "jira-create-metadata-issue-types-list",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "description": "Jira.IssueField.Schema.configuration",
+  "examples": [
+    "!jira-reset-timezone-cache\nHuman Readable Output\n#\nThe Jira user timezone was successfully cleared from the cache\nEdit this page\nReport an Issue\nPrevious\n\u00ab Atlassian Jira v2 (Deprecated)"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Atlassian Jira v3",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jira-v3"
+}

@@ -1,0 +1,144 @@
+{
+  "aliases": [
+    "rsa-get-raw-log"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "RSA_GetRawLog | Cortex XSOAR",
+  "examples": [
+    "!RSA_GetRawLog\nContext Example\n#\n{\n\"RSA Alerts\"\n:\n[\n{"
+  ],
+  "kind": "script",
+  "name": "RSA_GetRawLog",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!RSA_GetRawLog",
+      "required": ""
+    },
+    {
+      "description": "\"RSA Alerts\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"created\" : \"2023-07-03T11:04:16.408Z\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"detail\" : null",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"events\" : [",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"destination\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ", \"eventSource\" :",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": ", \"eventSourceId\" :",
+      "name": "\"1.1.1.1:56005\"",
+      "required": ""
+    },
+    {
+      "description": ", \"source\" :",
+      "name": "\"12123434\"",
+      "required": ""
+    },
+    {
+      "description": "} } ]",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"id\" : \"123456789\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"riskScore\" : \"50\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"source\" : \"NetWitness Investigate\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"title\" : \"Incident name\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"type\" : \"Log\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "} , ]",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Next RSSWidget \u00bb Script Data",
+      "name": "\u00ab RSA_DisplayMetasEvents",
+      "required": ""
+    },
+    {
+      "description": "Used In",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example Docs",
+      "name": "Script Examples",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA_GetRawLog",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/rsa-get-raw-log"
+}

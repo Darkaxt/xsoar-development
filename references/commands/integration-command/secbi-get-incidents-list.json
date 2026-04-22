@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [
+    "Command Example\n!secbi-get-incidents-list query=\"severity:[60 TO 100]\" limit=\"3\"\nHuman Readable Output\n### List of SecBI Incidents\n|ID|",
+    "!secbi-get-incidents-list query=\"severity:[60 TO 100]\" limit=\"3\"\nHuman Readable Output\n### List of SecBI Incidents\n|ID|"
+  ],
+  "kind": "integration-command",
+  "name": "secbi-get-incidents-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "SecBI Incident IDs List",
+      "name": "SecBI.IncidentsList",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SecBI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sec-bi"
+}

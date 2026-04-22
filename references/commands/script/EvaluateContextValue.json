@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "evaluate-context-value"
+  ],
+  "arguments": [],
+  "description": "EvaluateContextValue | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "EvaluateContextValue",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID given to the argument parameters. EvaluateContextValue.ok The result of the evaluation by 'eval_dt'.",
+      "name": "EvaluateContextValue.id",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "Next EvaluateMLModllAtProduction \u00bb Script Data",
+      "name": "\u00ab Etl2Pcap",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EvaluateContextValue",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/evaluate-context-value"
+}

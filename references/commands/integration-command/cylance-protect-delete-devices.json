@@ -1,0 +1,33 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Cylance.Policy.Timestamp",
+  "examples": [
+    "Command Example\n!cylance-protect-get-policy-details policyID=\"7bcb0817-e9c9-444d-96e2-be9b59f429cb\"\nContext Example\nCylance\n{\n\"Policy\": {\n\"ID\": \"7bcb0817-e9c9-444d-96e2-be9b59f429cb\",\n\"Name\": \"Test_Policy\",",
+    "!cylance-protect-get-policy-details policyID=\"7bcb0817-e9c9-444d-96e2-be9b59f429cb\"\nContext Example\nCylance\n{\n\"Policy\": {\n\"ID\": \"7bcb0817-e9c9-444d-96e2-be9b59f429cb\",\n\"Name\": \"Test_Policy\",\n\"Timestamp\": \"2018-03-05T12:29:03.000000+00:00\"",
+    "#### Command Example\n```!cylance-protect-get-device-by-hostname hostname=WIN-5HMOGIEG6M5```\n#### Context Example\n```json\n{\n\"CylanceProtect\": {\n\"Device\": {\n\"AgentVersion\": \"1.2.1418\",",
+    "#### Command Example\n```\n!cylance-optics-create-instaquery name=\"Test Insta continue\" description=\"Test only\" artifact=\"File\" match_value_type=\"File.Path\" match_values=\"exe\" zone=\"6608ca0e-88c6-4647-b276-271cc5ea4295\" match_type=\"Fuzzy\"\n```\n#### Human Readable Output\n| Result | |\n|-------------------|----------------------------------|\n| case_sensitive | false |",
+    "!cylance-optics-create-instaquery name=\"Test Insta continue\" description=\"Test only\" artifact=\"File\" match_value_type=\"File.Path\" match_values=\"exe\" zone=\"6608ca0e-88c6-4647-b276-271cc5ea4295\" match_type=\"Fuzzy\"\n```\n#### Human Readable Output\n| Result | |\n|-------------------|----------------------------------|\n| case_sensitive | false |\n| artifact | File |\n| created_at | 2022-05-05T05:52:36Z |",
+    "#### Command Example\n```\n!cylance-optics-get-instaquery-result query_id=9E2CCDA5A93918C588E6865ED6FEEA70\n```\n#### Human Readable Output\n| | Result |\n|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| id | 9E2CCDA5A93918C588E6865ED6FEEA70 |",
+    "!cylance-optics-get-instaquery-result query_id=9E2CCDA5A93918C588E6865ED6FEEA70\n```\n#### Human Readable Output\n| | Result |\n|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| id | 9E2CCDA5A93918C588E6865ED6FEEA70 |\n| result | false |\n| status | {u'@timestamp': 1651729959.177779, u'HostName': u'windows-server-', u'DeviceId': u' 65DB26864E364409B50DDC23291A3511 ', u'@version': u'1', u'CorrelationId': u' 9E2CCDA5A93918C588E6865ED6FEEA70 ', u'Result': u'{\"FirstObservedTime\":",
+    "#### Command Example\n```\n!cylance-optics-list-instaquery page_size=\"10\"\n```\n#### Human Readable Output\n| | Result |\n|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+  ],
+  "kind": "integration-command",
+  "name": "cylance-protect-delete-devices",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique identifier of the deletion request Cylance.Device.Name Device name",
+      "name": "Cylance.Device.Id",
+      "required": ""
+    },
+    {
+      "description": "Checks if the device was deleted (boolean)",
+      "name": "Cylance.Device.Deleted",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

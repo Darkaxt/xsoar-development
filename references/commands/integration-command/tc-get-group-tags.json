@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "This security label is used for information that is useful for the awareness of all participating organizations as well as with peers within the broader community or sector.",
+  "examples": [
+    "Command Example\n!tc-get-group-tags group_id=4579650 group_type=events\nContext Example\n{\n\"TC.Group.Tag\": [\n{\n\"GroupID\": 4579650,\n\"Name\": \"Testing\"",
+    "!tc-get-group-tags group_id=4579650 group_type=events\nContext Example\n{\n\"TC.Group.Tag\": [\n{\n\"GroupID\": 4579650,\n\"Name\": \"Testing\"\n}"
+  ],
+  "kind": "integration-command",
+  "name": "tc-get-group-tags",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the tag.",
+      "name": "TC.Group.Tag.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

@@ -1,0 +1,16 @@
+{
+  "artifact_type": "dashboard-json",
+  "classifier": {
+    "top_level_fields": [
+      "id",
+      "name",
+      "layout"
+    ]
+  },
+  "do": [
+    "Preserve widget queries and layout placement."
+  ],
+  "do_not": [
+    "Do not normalize query strings without validating dashboard behavior."
+  ]
+}

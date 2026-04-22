@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!wiz-resolve-issue issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\" resolution_note=\"won't fix this issue as this is low priority\" resolution_reason=\"WONT_FIX\"",
+  "examples": [
+    "Command Example\n#\n!wiz-resolve-issue issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\" resolution_note=\"won't fix this issue as this is low priority\" resolution_reason=\"WONT_FIX\"\nwiz-set-issue-note\n#\nSet (append) a note to an Issue.\nBase Command\nwiz-set-issue-note",
+    "!wiz-resolve-issue issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\" resolution_note=\"won't fix this issue as this is low priority\" resolution_reason=\"WONT_FIX\"\nwiz-set-issue-note\n#\nSet (append) a note to an Issue.\nBase Command\nwiz-set-issue-note\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "wiz-set-issue-note",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Wiz",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/wiz"
+}

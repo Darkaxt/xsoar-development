@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Mark triggered alarms as unacknowledgedesm-unacknowledge-alarms",
+  "examples": [
+    "Command Example\nesm-fetch-fields\nHuman Readable\nThis output is truncated.\nResult:\nname\ntypes\nAppID"
+  ],
+  "kind": "integration-command",
+  "name": "esm-fetch-fields",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v10 and v11 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v10"
+}

@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "is-value-in-array"
+  ],
+  "arguments": [],
+  "description": "IsValueInArray | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IsValueInArray",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The list that contains the value. no The list does not contain the value.",
+      "name": "yes",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next IvantiHeatCloseIncidentExample \u00bb Script Data",
+      "name": "\u00ab IsUrlPartOfDomain",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IsValueInArray",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/is-value-in-array"
+}

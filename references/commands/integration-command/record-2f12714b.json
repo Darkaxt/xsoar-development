@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "4. claroty-get-single-alert",
+  "examples": [
+    "Command Example\n#\n!claroty-get-single-alert alert_rid=\"75-1\"\nContext Example\n#\n{\n\"Claroty.Alert\": {\n\"Category\": \"Integrity\",",
+    "!claroty-get-single-alert alert_rid=\"75-1\"\nContext Example\n#\n{\n\"Claroty.Alert\": {\n\"Category\": \"Integrity\",\n\"NetworkID\": 1,\n\"Indicator\": \"Alert ID - 75\\r\\nDescription - This Event does not currently support Alert Indicators\\r\\nPoints - 100\\r\\n\\n\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The alert type. Claroty.Alert.AlertTypeID The alert type int value",
+      "name": "Claroty.Alert.AlertType",
+      "required": ""
+    },
+    {
+      "description": "The alert description. Claroty.Alert.Indicator The alert indicators.",
+      "name": "Claroty.Alert.Description",
+      "required": ""
+    },
+    {
+      "description": "The network ID. Claroty.Alert.RelatedAssets Assets related to the alert.",
+      "name": "Claroty.Alert.NetworkID",
+      "required": ""
+    },
+    {
+      "description": "The resolve status of the alert. Claroty.Alert.ResourceID The alert resource ID (AlertID-SiteID).",
+      "name": "Claroty.Alert.Resolved",
+      "required": ""
+    },
+    {
+      "description": "The alert severity.",
+      "name": "Claroty.Alert.Severity",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Claroty",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/claroty"
+}

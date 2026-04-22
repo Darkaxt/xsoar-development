@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "JizoM.Peers.alerts_usecase.total",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The number of displayed alerts. JizoM.QueryRecords.alerts_flows.data The details of alerts.",
+      "name": "JizoM.QueryRecords.alerts_flows.count",
+      "required": ""
+    },
+    {
+      "description": "The total number of alerts. JizoM.QueryRecords.alerts_files.count The number of displayed alerts.",
+      "name": "JizoM.QueryRecords.alerts_flows.total",
+      "required": ""
+    },
+    {
+      "description": "The details of alerts. JizoM.QueryRecords.alerts_files.total The total number of alerts.",
+      "name": "JizoM.QueryRecords.alerts_files.data",
+      "required": ""
+    },
+    {
+      "description": "The number of displayed alerts. JizoM.QueryRecords.alerts_usecase.data The details of alerts.",
+      "name": "JizoM.QueryRecords.alerts_usecase.count",
+      "required": ""
+    },
+    {
+      "description": "The total number of alerts. Edit this page Report an Issue",
+      "name": "JizoM.QueryRecords.alerts_usecase.total",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Jira Event Collector Next Joe Security (Deprecated) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands jizo-m-protocols-get jizo-m-peers-get",
+      "name": "Configure JizoM in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "jizo-m-query-records-get",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "JizoM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jizo-m"
+}

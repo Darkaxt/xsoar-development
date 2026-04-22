@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "AWS.Athena.Query.SubstatementType",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List List of query results. Edit this page",
+      "name": "AWS.Athena.QueryResults",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab AWS - ACM Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure AWS - Athena in Cortex Commands aws-athena-execute-query",
+      "name": "AWS - CloudTrail \u00bb",
+      "required": ""
+    },
+    {
+      "description": "aws-athena-stop-query aws-athena-get-query-execution aws-athena-get-query-results",
+      "name": "aws-athena-start-query",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - Athena",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---athena---beta"
+}

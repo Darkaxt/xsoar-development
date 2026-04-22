@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "6. Get mutex vaccines",
+  "examples": [
+    "Command Example\nminerva-get-vaccines\nHuman Readable Output\nLast Modified On\nIs Monitor Only\nName\nLast Modified By\nType"
+  ],
+  "kind": "integration-command",
+  "name": "minerva-get-vaccines",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Mutex vaccination name. Minerva.Vaccine.Description Mutex vaccination description.",
+      "name": "Minerva.Vaccine.Name",
+      "required": ""
+    },
+    {
+      "description": "Whether this mutex vaccination is only monitored without simulation. Minerva.Vaccine.lastModifiedBy The user that last modified this mutex vaccination.",
+      "name": "Minerva.Vaccine.isMonitorOnly",
+      "required": ""
+    },
+    {
+      "description": "date The date this mutex vaccination was last modified. Minerva.Vaccine.Id",
+      "name": "Minerva.Vaccine.lastModifiedOn",
+      "required": ""
+    },
+    {
+      "description": "Mutex vaccination ID.",
+      "name": "string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Minerva Labs Anti-Evasion Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/minerva-labs-anti-evasion-platform"
+}

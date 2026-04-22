@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Query the Synapse data model and return details for given type or form (i.e. \"inet:ipv4\" for an IPv4 IP address).",
+  "examples": [
+    "Command Example\n#\n!synapse-query-model query=\"file:bytes\"\nContext Example\n#\n{\n\"Synapse\"\n:",
+    "!synapse-query-model query=\"file:bytes\"\nContext Example\n#\n{\n\"Synapse\"\n:\n{\n\"Model\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The docstring associated with the particular Synapse model element. Synapse.Model.Example An example of the given Synapse element.",
+      "name": "Synapse.Model.Doc",
+      "required": ""
+    },
+    {
+      "description": "A form is the definition of an object in the Synapse data model (node). Synapse.Model.Properties The unique properties associated with the given Synapse object.",
+      "name": "Synapse.Model.Form",
+      "required": ""
+    },
+    {
+      "description": "A Type is the definition of a data element within the data model. Synapse.Model.Valu The given value of the Synapse object type.",
+      "name": "Synapse.Model.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Synapse",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/synapse"
+}

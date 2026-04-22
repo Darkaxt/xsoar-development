@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!aws-logs-describe-log-groups",
+  "examples": [
+    "Command Example\n!aws-logs-describe-log-groups\nContext Example\nHuman Readable Output\n7. Get a list of log streams\nLists the log streams for the specified log group. You can list all the log streams or filter the results by prefix. You can also control how the results are ordered.\nBase Command\naws-logs-describe-log-streams",
+    "!aws-logs-describe-log-groups\nContext Example\nHuman Readable Output\n7. Get a list of log streams\nLists the log streams for the specified log group. You can list all the log streams or filter the results by prefix. You can also control how the results are ordered.\nBase Command\naws-logs-describe-log-streams\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "aws-logs-describe-log-streams",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Name of the log group. AWS.CloudWatchLogs.LogGroups.LogStreams.LogStreamName The name of the log stream.",
+      "name": "AWS.CloudWatchLogs.LogGroups.LogStreams.LogGroupName",
+      "required": ""
+    },
+    {
+      "description": "The creation time of the stream, expressed as the number of milliseconds after Jan 1, 1970 00:00:00 UTC. AWS.CloudWatchLogs.LogGroups.LogStreams.Arn The Amazon Resource Name (ARN) of the log stream.",
+      "name": "AWS.CloudWatchLogs.LogGroups.LogStreams.CreationTime",
+      "required": ""
+    },
+    {
+      "description": "date The time of the first event, expressed as the number of milliseconds after Jan 1, 1970 00:00:00 UTC. AWS.CloudWatchLogs.LogGroups.LogStreams.LastEventTimestamp",
+      "name": "AWS.CloudWatchLogs.LogGroups.LogStreams.FirstEventTimestamp",
+      "required": ""
+    },
+    {
+      "description": "the time of the most recent log event in the log stream in CloudWatch Logs. This number is expressed as the number of milliseconds after Jan 1, 1970 00:00:00 UTC. lastEventTime updates on an eventual consistency basis. It typically updates in less than an hour from ingestion, but may take longer in some rare situations. AWS.CloudWatchLogs.LogGroups.LogStreams.LastIngestionTime date",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "AWS.CloudWatchLogs.LogGroups.LogStreams.UploadSequenceToken The sequence token. AWS.CloudWatchLogs.LogGroups.LogStreams.StoredBytes",
+      "name": "The ingestion time, expressed as the number of milliseconds after Jan 1, 1970 00:00:00 UTC.",
+      "required": ""
+    },
+    {
+      "description": "The number of bytes stored.",
+      "name": "number",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - CloudWatchLogs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---cloud-watch-logs"
+}

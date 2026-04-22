@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "proofpoint-pps-delete-user",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Proofpoint TAP v2 \u00bb Authentication",
+      "name": "\u00ab Proofpoint Protection Server (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "Commands proofpoint-pps-smart-search proofpoint-pps-quarantine-messages-list",
+      "name": "Configure Proofpoint Protection Server v2 in Cortex",
+      "required": ""
+    },
+    {
+      "description": "proofpoint-pps-quarantine-message-resubmit proofpoint-pps-quarantine-message-forward proofpoint-pps-quarantine-message-move",
+      "name": "proofpoint-pps-quarantine-message-release",
+      "required": ""
+    },
+    {
+      "description": "proofpoint-pps-quarantine-message-download proofpoint-pps-get-user proofpoint-pps-create-user",
+      "name": "proofpoint-pps-quarantine-message-delete",
+      "required": ""
+    },
+    {
+      "description": "proofpoint-pps-delete-user Docs Developer Docs",
+      "name": "proofpoint-pps-modify-user",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Proofpoint Protection Server v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/proofpoint-protection-server-v2"
+}

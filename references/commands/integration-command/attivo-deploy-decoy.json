@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Complete status message",
+  "examples": [
+    "Command Example\n!attivo-run-playbook attacker_ip=172.16.2.20 playbook_name=\"Endpoint Forensics\"\n4. Deploy a decoy system on a subnet\nDeploy a new network decoy\nBase Command\nattivo-deploy-decoy\nInput\nArgument Name",
+    "!attivo-run-playbook attacker_ip=172.16.2.20 playbook_name=\"Endpoint Forensics\"\n4. Deploy a decoy system on a subnet\nDeploy a new network decoy\nBase Command\nattivo-deploy-decoy\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "attivo-deploy-decoy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Was the network decoy successfully deployed Attivo.DeployDecoy.Message Complete status message",
+      "name": "Attivo.DeployDecoy.Status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Attivo Botsink",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/attivo-botsink"
+}

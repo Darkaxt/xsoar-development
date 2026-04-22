@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "d3339851f18f470182bf2bf98ad5db4b",
+  "examples": [
+    "Command Example\n!traps-endpoint-scan endpoint_id=\"d3339851f18f470182bf2bf98ad5db4b\"\nContext Example\n{\n\"Traps.Scan\": {\n\"EndpointID\": \"d3339851f18f470182bf2bf98ad5db4b\",\n\"OperationID\": \"404d5231e5bd11e9acbf0245d8e950da\",\n\"Type\": \"endpoint-scan\"",
+    "!traps-endpoint-scan endpoint_id=\"d3339851f18f470182bf2bf98ad5db4b\"\nContext Example\n{\n\"Traps.Scan\": {\n\"EndpointID\": \"d3339851f18f470182bf2bf98ad5db4b\",\n\"OperationID\": \"404d5231e5bd11e9acbf0245d8e950da\",\n\"Type\": \"endpoint-scan\"\n}"
+  ],
+  "kind": "integration-command",
+  "name": "traps-endpoint-scan",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the endpoint. Traps.Scan.OperationID The ID of the operation.",
+      "name": "Traps.Scan.EndpointID",
+      "required": ""
+    },
+    {
+      "description": "The type of operation.",
+      "name": "Traps.Scan.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Traps (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/traps"
+}

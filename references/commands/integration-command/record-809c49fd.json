@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!forcepoint-smc-engine-list limit=1\nContext Example\n#\n{\n\"ForcepointSMC\"\n:\n{\n\"Engine\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the engine. ForcepointSMC.Engine.Comment The comment for the engine.",
+      "name": "ForcepointSMC.Engine.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Forcepoint Security Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forcepoint-security-management-center"
+}

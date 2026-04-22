@@ -1,0 +1,47 @@
+{
+  "aliases": [
+    "get-slack-block-builder-response"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "GetSlackBlockBuilderResponse | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetSlackBlockBuilderResponse",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The state of the response from the user will be stored under this context path. Edit this page Report an Issue",
+      "name": "SlackBlockState",
+      "required": ""
+    },
+    {
+      "description": "\u00ab GetShiftsPerUser Next GetStringsDistance \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetSlackBlockBuilderResponse",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-slack-block-builder-response"
+}

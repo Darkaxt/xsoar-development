@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Whether the file was deleted (Boolean).",
+  "examples": [
+    "Command Example\nContext Example\nHuman Readable Output\n8. Keep a session alive\nKeeps the specified session alive so that it does not close due to timeout.\nBase Command\ncb-keepalive\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "cb-keepalive",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

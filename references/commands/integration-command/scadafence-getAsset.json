@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2018-08-05T12:06:22.278Z",
+  "examples": [
+    "Command Example\n!scadafence-getAsset ip=10.10.10.10\nContext Example\n[\n{\n\"assetTypes\": \"hmi, server\",\n\"eventsCount\": 0,\n\"externalIpsCount\": 0,",
+    "!scadafence-getAsset ip=10.10.10.10\nContext Example\n[\n{\n\"assetTypes\": \"hmi, server\",\n\"eventsCount\": 0,\n\"externalIpsCount\": 0,\n\"firstSeen\": \"2016-05-23T12:25:03.838Z\",",
+    "Command Example\nscadafence-getAsset ip=10.10.10.10\nHuman Readable Output\nAsset details:\nassetTypes\neventsCount\nvendor\nip"
+  ],
+  "kind": "integration-command",
+  "name": "scadafence-getAsset",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address of the suspicious asset",
+      "name": "SCADAfence.Asset.ip",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SCADAfence CNM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/scad-afence-cnm"
+}

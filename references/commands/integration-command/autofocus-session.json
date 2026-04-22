@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Where did we get the file",
+  "examples": [
+    "Command Example\n!autofocus-search-sessions size=\"10\" sort=\"tstamp\" order=\"desc\" query=\"{\\\"operator\\\": \\\"all\\\", \\\"children\\\": [{\\\"field\\\": \\\"session.region\\\", \\\"operator\\\": \\\"is\\\", \\\"value\\\": \\\"us\\\"}]}\"\nHuman Readable Output\n3. Get details of a session\nReturns details of a specific session.\nBase Command\nautofocus-session\nInput",
+    "!autofocus-search-sessions size=\"10\" sort=\"tstamp\" order=\"desc\" query=\"{\\\"operator\\\": \\\"all\\\", \\\"children\\\": [{\\\"field\\\": \\\"session.region\\\", \\\"operator\\\": \\\"is\\\", \\\"value\\\": \\\"us\\\"}]}\"\nHuman Readable Output\n3. Get details of a session\nReturns details of a specific session.\nBase Command\nautofocus-session\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "autofocus-session",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the session. Autofocus.Sessions.device_industry The device industry.",
+      "name": "Autofocus.Sessions.id",
+      "required": ""
+    },
+    {
+      "description": "The name of the file. Autofocus.Sessions.region The region for the session.",
+      "name": "Autofocus.Sessions.filename",
+      "required": ""
+    },
+    {
+      "description": "The SHA-256 of the file. Autofocus.Sessions.tstamp",
+      "name": "Autofocus.Sessions.sha256",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto AutoFocus (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/autofocus"
+}

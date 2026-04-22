@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!ip ip=192.168.35.100\nContext Example\n#\n{\n\"DBotScore\"\n:",
+    "!ip ip=192.168.35.100\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested DBotScore.Type The indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "IP address IP.ASN The autonomous system name for the IP address",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "The autonomous system name for the IP address IP.Malicious.Vendor The vendor reporting the IP address as malicious",
+      "name": "IP.ASOwner",
+      "required": ""
+    },
+    {
+      "description": "A description explaining why the IP address was reported as malicious Qintel.IP.Address IP address",
+      "name": "IP.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Proxy tags Qintel.IP.Description IP description",
+      "name": "Qintel.IP.Tags",
+      "required": ""
+    },
+    {
+      "description": "Last observed time",
+      "name": "Qintel.IP.LastObserved",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Qintel QSentry",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/qintel-q-sentry"
+}

@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Veeam.VONE.TriggeredAlarmInfoPage.totalCount",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next VeloCloud Event Collector \u00bb Configure Veeam ONE REST API in Cortex",
+      "name": "\u00ab Veeam Backup & Replication REST API",
+      "required": ""
+    },
+    {
+      "description": "veeam-vone-get-triggered-alarms veeam-vone-resolve-triggered-alarms Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Veeam ONE REST API",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/veeam-one-rest-api"
+}

@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Query time (for diagnostics)",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "appNovi database key appnovi._id appNovi database ID.",
+      "name": "appnovi._key",
+      "required": ""
+    },
+    {
+      "description": "appNovi Category (e.g. Interface, Server) appnovi.firstSeen Date",
+      "name": "appnovi.category",
+      "required": ""
+    },
+    {
+      "description": "appnovi.identity.company Company ID appnovi.identity.datacenter",
+      "name": "When was this Thing first seen?",
+      "required": ""
+    },
+    {
+      "description": "Datacenter ID appnovi.identity.domain Domain ID",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Thing type appnovi.identity.value Identity value",
+      "name": "appnovi.identity.type",
+      "required": ""
+    },
+    {
+      "description": "Date Last time thing was seen appnovi.name",
+      "name": "appnovi.lastSeen",
+      "required": ""
+    },
+    {
+      "description": "Name of entity. appnovi.source This is information about the source of the entity.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "These are the custom properties of the entity. appnovi.applications List of applications",
+      "name": "appnovi.userProperties",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab APIVoid",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "AppSentinels.ai \u00bb Configure appNovi in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "search-appnovi-connected search-appnovi-cve search-appnovi-component-property",
+      "name": "search-appnovi-components",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "search-appnovi-server-by-ip",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "appNovi",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/app-novi"
+}

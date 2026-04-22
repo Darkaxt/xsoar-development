@@ -1,0 +1,21 @@
+{
+  "aliases": [
+    "demisto.executeCommand(\"getList\", args)"
+  ],
+  "arguments": [
+    {
+      "name": "listName",
+      "required": true
+    }
+  ],
+  "description": "Reads an XSOAR list by name when direct helper availability is uncertain.",
+  "examples": [
+    "demisto.executeCommand(\"getList\", {\"listName\": list_name})"
+  ],
+  "kind": "native",
+  "name": "getList",
+  "notes": [
+    "Handle missing lists, empty content, and malformed JSON as recoverable states."
+  ],
+  "source_url": "sanitized:public-xsoar-native-guidance"
+}

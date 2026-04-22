@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!attackiq-delete-assessment assessment_id=\"b2fc06d4-5d0a-4924-a126-66320887dce0\"\nHuman Readable Output\n#\nDeleted assessment b2fc06d4-5d0a-4924-a126-66320887dce0 successfully.\nEdit this page\nReport an Issue",
+    "!attackiq-delete-assessment assessment_id=\"b2fc06d4-5d0a-4924-a126-66320887dce0\"\nHuman Readable Output\n#\nDeleted assessment b2fc06d4-5d0a-4924-a126-66320887dce0 successfully.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Atlassian Jira v3"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context outputs for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AttackIQ Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/attack-iq-fire-drill"
+}

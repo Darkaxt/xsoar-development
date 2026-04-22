@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "deployment-tool: console-cloud",
+  "examples": [
+    "Command Example\n#\n!google-cloud-function-execute function_name=demisto-func parameters=message:hell\\\"oThere\nContext Example\n#\n{\n\"GoogleCloudFunctions\": {\n\"Execution\": {",
+    "!google-cloud-function-execute function_name=demisto-func parameters=message:hell\\\"oThere\nContext Example\n#\n{\n\"GoogleCloudFunctions\": {\n\"Execution\": {\n\"executionId\": \"xp9hifb4y996\",\n\"result\": \"hell\\\"oThere\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Execution ID of the Google Cloud function invocated. GoogleCloudFunctions.Execution.result Result populated for successful execution of a synchronous Google Cloud function. It will not be populated if the Google Cloud function does not return a result through context.",
+      "name": "GoogleCloudFunctions.Execution.executionId",
+      "required": ""
+    },
+    {
+      "description": "Either a system or user-function generated error. Set if the execution was not successful.",
+      "name": "GoogleCloudFunctions.Execution.error",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Functions",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-functions"
+}

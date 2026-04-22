@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!bigfix-deploy-patch site_name=\"BES Support\" computer_ids=\"3385267\" fixlet_id=\"1759\" action_id=\"Action2\"",
+  "examples": [
+    "Command Example\n!bigfix-deploy-patch site_name=\"BES Support\" computer_ids=\"3385267\" fixlet_id=\"1759\" action_id=\"Action2\"\nContext Example\nHuman Readable Output\n7. Get a patch by fixlet ID\nRetrieves a patch (fixlet) by ID.\nBase Command\nbigfix-get-patch",
+    "!bigfix-deploy-patch site_name=\"BES Support\" computer_ids=\"3385267\" fixlet_id=\"1759\" action_id=\"Action2\"\nContext Example\nHuman Readable Output\n7. Get a patch by fixlet ID\nRetrieves a patch (fixlet) by ID.\nBase Command\nbigfix-get-patch\nInput",
+    "Command Example\n!bigfix-get-patch id=38 site_type=master\nContext Example\n{\n\"Bigfix\": {\n\"Patch\": {\n\"Category\": null,\n\"Resource\": \"https://xsoar-example:20021/api/fixlet/master/38\",",
+    "!bigfix-get-patch id=38 site_type=master\nContext Example\n{\n\"Bigfix\": {\n\"Patch\": {\n\"Category\": null,\n\"Resource\": \"https://xsoar-example:20021/api/fixlet/master/38\",\n\"Description\": \"This is a description of foo patch\","
+  ],
+  "kind": "integration-command",
+  "name": "bigfix-get-patch",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Patch(fixlet) ID Bigfix.Patch.Name Patch name",
+      "name": "Bigfix.Patch.ID",
+      "required": ""
+    },
+    {
+      "description": "Link (URL) to the patch Bigfix.Patch.Description Description",
+      "name": "Bigfix.Patch.Resource",
+      "required": ""
+    },
+    {
+      "description": "Relevance of the patch requested Bigfix.Patch.Category Category of the patch requested",
+      "name": "Bigfix.Patch.Relevance",
+      "required": ""
+    },
+    {
+      "description": "Download size Bigfix.Patch.Source Source from where the patch is coming from",
+      "name": "Bigfix.Patch.DownloadSize",
+      "required": ""
+    },
+    {
+      "description": "Source ID of the patch requested Bigfix.Patch.SourceSeverity Source severity of the patch requested",
+      "name": "Bigfix.Patch.SourceID",
+      "required": ""
+    },
+    {
+      "description": "Source release date of the patch requested Bigfix.Patch.ActionID Action ID of the patch requested",
+      "name": "Bigfix.Patch.SourceReleaseDate",
+      "required": ""
+    },
+    {
+      "description": "Action script of the patch requested",
+      "name": "Bigfix.Patch.ActionScript",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BigFix",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/big-fix"
+}

@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!wiz-get-project-team project_name=\"project1\"",
+  "examples": [
+    "Command Example\n#\n!wiz-get-project-team project_name=\"project1\"\nwiz-copy-to-forensics-account\n#\nCopy VM's Volumes to a Forensics Account\nBase Command\nwiz-copy-to-forensics-account",
+    "!wiz-get-project-team project_name=\"project1\"\nwiz-copy-to-forensics-account\n#\nCopy VM's Volumes to a Forensics Account\nBase Command\nwiz-copy-to-forensics-account\nInput\nArgument Name",
+    "Command Example\n#\n!wiz-copy-to-forensics-account resource_id=\"12345678-1234-1234-1234-cc0a24716e0b\"\n!wiz-copy-to-forensics-account resource_id=\"arn:aws:ec2:us-east-1:123455563321:instance/i-05r662bfb9708a4e8\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab WithSecure Event Collector",
+    "!wiz-copy-to-forensics-account resource_id=\"12345678-1234-1234-1234-cc0a24716e0b\"\n!wiz-copy-to-forensics-account resource_id=\"arn:aws:ec2:us-east-1:123455563321:instance/i-05r662bfb9708a4e8\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab WithSecure Event Collector\nNext\nWizDefend \u00bb",
+    "!wiz-copy-to-forensics-account resource_id=\"arn:aws:ec2:us-east-1:123455563321:instance/i-05r662bfb9708a4e8\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab WithSecure Event Collector\nNext\nWizDefend \u00bb\nConfigure Wiz in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "wiz-copy-to-forensics-account",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Wiz",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/wiz"
+}

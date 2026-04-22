@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"Timestamp\": \"0001-01-01T00:00:00\"",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "cylance-protect-add-hash-to-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA-256 hash for the threat File.Cylance.ListType The list type the threat belongs to (GlobalQuarantine or GlobalSafe)",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "This field is required only if the list_type",
+      "name": "File.Cylance.Category",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

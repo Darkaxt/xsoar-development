@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "NessusScan.ScanReportStatus",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The status of the scan report. Edit this page Report an Issue",
+      "name": "NessusScan.Status",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Neosec Next NetBox Event Collector \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "nessus-launch-scan nessus-scan-details nessus-scan-host-details",
+      "name": "nessus-list-scans",
+      "required": ""
+    },
+    {
+      "description": "nessus-scan-report-download nessus-scan-create nessus-get-scans-editors",
+      "name": "nessus-scan-export",
+      "required": ""
+    },
+    {
+      "description": "nessus-scan-status Docs Developer Docs",
+      "name": "nessus-scan-export-status",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Nessus",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/nessus"
+}

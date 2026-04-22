@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!cisco-ise-get-endpoint-id macAddress=00:0E:35:D4:D8:51",
+  "examples": [
+    "Command Example\n!cisco-ise-get-endpoint-id macAddress=00:0E:35:D4:D8:51\nHuman Readable Output\nThe endpoint ID is: 327b0120-4ba1-11e8-93bd-000c296ec148\n2. Get information for an endpoint\nReturns details for a specified endpoint.\nBase Command\ncisco-ise-get-endpoint-details",
+    "!cisco-ise-get-endpoint-id macAddress=00:0E:35:D4:D8:51\nHuman Readable Output\nThe endpoint ID is: 327b0120-4ba1-11e8-93bd-000c296ec148\n2. Get information for an endpoint\nReturns details for a specified endpoint.\nBase Command\ncisco-ise-get-endpoint-details\nInput",
+    "Command Example\n!cisco-ise-get-endpoint-details endpointID=327b0120-4ba1-11e8-93bd-000c296ec148\nContext Example\n{\n\"CiscoISE.Endpoint\": {\n\"MACAddress\": \"00:0E:35:D4:D8:51\",\n\"Group\": \"Internal Dev\",\n\"ID\": \"327b0120-4ba1-11e8-93bd-000c296ec148\",",
+    "!cisco-ise-get-endpoint-details endpointID=327b0120-4ba1-11e8-93bd-000c296ec148\nContext Example\n{\n\"CiscoISE.Endpoint\": {\n\"MACAddress\": \"00:0E:35:D4:D8:51\",\n\"Group\": \"Internal Dev\",\n\"ID\": \"327b0120-4ba1-11e8-93bd-000c296ec148\",\n\"StaticProfileAssignment\": false,"
+  ],
+  "kind": "integration-command",
+  "name": "cisco-ise-get-endpoint-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Endpoint ID. CiscoISE.Endpoint.Description Endpoint description.",
+      "name": "CiscoISE.Endpoint.ID",
+      "required": ""
+    },
+    {
+      "description": "Endpoint MAC address. CiscoISE.Endpoint.Group Endpoint group name",
+      "name": "CiscoISE.Endpoint.MACAddress",
+      "required": ""
+    },
+    {
+      "description": "Endpoint ID. Endpoint.MACAddress Endpoint MAC address.",
+      "name": "Endpoint.ID",
+      "required": ""
+    },
+    {
+      "description": "Endpoint custom attributes. CiscoISE.Endpoint.StaticGroupAssignment True if the endpoint has a static group assignment.",
+      "name": "CiscoISE.Endpoint.CustomAttributes",
+      "required": ""
+    },
+    {
+      "description": "Whether the endpoint has a static profile assignment. CiscoISE.Endpoint.User Profile of the user associated with the endpoint.",
+      "name": "CiscoISE.Endpoint.StaticProfileAssignment",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ISE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-ise"
+}

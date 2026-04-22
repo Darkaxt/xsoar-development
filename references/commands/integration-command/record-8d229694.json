@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "| ReportRemaining | 90 |",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Filename. InfoFile.EntryID The EntryID of the PDF report.",
+      "name": "InfoFile.Name",
+      "required": ""
+    },
+    {
+      "description": "The file size of the PDF report. InfoFile.Info MIME type of the PDF report.",
+      "name": "InfoFile.Size",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab VirusTotal Retrohunt Feed",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "VMware \u00bb Configure VMRay in Cortex Known Limitations",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "vmray-upload-sample vmray-upload-url vmray-get-analysis-by-sample",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "vmray-get-submission vmray-get-sample vmray-get-sample-by-hash",
+      "name": "vmray-get-job-by-sample",
+      "required": ""
+    },
+    {
+      "description": "vmray-add-tag vmray-delete-tag vmray-get-iocs",
+      "name": "vmray-get-threat-indicators",
+      "required": ""
+    },
+    {
+      "description": "vmray-get-summary vmray-get-screenshots vmray-get-license-usage-verdicts",
+      "name": "vmray-get-job-by-id",
+      "required": ""
+    },
+    {
+      "description": "vmray-get-pdf-report Docs Developer Docs",
+      "name": "vmray-get-license-usage-reports",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMRay",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vmray"
+}

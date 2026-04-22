@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "entry-widget-number-regions-xcloud"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "EntryWidgetNumberRegionsXCLOUD | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "EntryWidgetNumberRegionsXCLOUD",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next EntryWidgetNumberResourcesXCLOUD \u00bb Script Data",
+      "name": "\u00ab EntryWidgetNumberHostsXDR",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EntryWidgetNumberRegionsXCLOUD",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/entry-widget-number-regions-xcloud"
+}

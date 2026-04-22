@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Note: in versions preceding 1.1.0, URL escaping was performed as default. The `Escape URLs` param allows disabling the escaping when necessary by setting it to `true`.",
+  "examples": [
+    "Command Example\n!search query=_sourceCategory=macos/system from=2019-07-02T12:00:00 to=2019-07-04T16:00:00 using=SumoLogic_copy_instance_1 byReceiptTime=false limit=5\nContext Example\n{\n\"Search\": {\n\"Messages\": [\n{\n\"_messageid\": \"-9223372036854375794\",",
+    "!search query=_sourceCategory=macos/system from=2019-07-02T12:00:00 to=2019-07-04T16:00:00 using=SumoLogic_copy_instance_1 byReceiptTime=false limit=5\nContext Example\n{\n\"Search\": {\n\"Messages\": [\n{\n\"_messageid\": \"-9223372036854375794\",\n\"_collectorid\": \"162683374\","
+  ],
+  "kind": "integration-command",
+  "name": "search",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The array of raw message objects Search.Records The array of aggregate records",
+      "name": "Search.Messages",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SumoLogic",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sumo-logic"
+}

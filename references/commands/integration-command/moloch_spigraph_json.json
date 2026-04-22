@@ -1,0 +1,18 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!moloch_sessions_pcap startTime=\"1520542248\" stopTime=\"1533329500\"\nHuman Readable Output\n7. Retrieve Spigraph data in JSON\nRetrieve the Spigraph data in JSON format.\nBase Command\nmoloch_spigraph_json\nInput",
+    "!moloch_sessions_pcap startTime=\"1520542248\" stopTime=\"1533329500\"\nHuman Readable Output\n7. Retrieve Spigraph data in JSON\nRetrieve the Spigraph data in JSON format.\nBase Command\nmoloch_spigraph_json\nInput\nArgument Name",
+    "!moloch_sessions_json startTime=\"2014/02/26 10:27:57\"\n. For more\u00a0 examples see\nhere\n.\nOptional\nstopTime\nIf the date parameter is not set, this is the stop time of the date to return. If an integer is used (the number of seconds since Unix EPOC), otherwise parsed using JavaScript Date parser. Usage example:\n!moloch_sessions_json startTime=\"2014/02/26 10:27:57\"",
+    "!moloch_sessions_json startTime=\"2014/02/26 10:27:57\"\n. For more\u00a0 examples see\nhere\n.\nOptional\nstrictly\nWhen this argument is used, the entire session must be within the date range to be observed, otherwise if it overlaps it is displayed\nOptional"
+  ],
+  "kind": "integration-command",
+  "name": "moloch_spigraph_json",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Moloch (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/moloch"
+}

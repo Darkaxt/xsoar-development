@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"ticketID\": \"SR11537985\"",
+  "examples": [
+    "Command Example\n!secure-works-update-ticket id=IN29959685 customerMiscellaneous1=abc\nContext Example\n{\n\"SecureWorks\": {\n\"Ticket\": {\n\"UpdateStatusCode\": \"SUCCESS\",\n\"ticketId\": \"IN29959685\"",
+    "!secure-works-update-ticket id=IN29959685 customerMiscellaneous1=abc\nContext Example\n{\n\"SecureWorks\": {\n\"Ticket\": {\n\"UpdateStatusCode\": \"SUCCESS\",\n\"ticketId\": \"IN29959685\""
+  ],
+  "kind": "integration-command",
+  "name": "secure-works-update-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID in Secureworks SecureWorks.Ticket.UpdateStatusCode Ticket update status code",
+      "name": "SecureWorks.Ticket.ticketId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Dell Secureworks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dell-secureworks"
+}

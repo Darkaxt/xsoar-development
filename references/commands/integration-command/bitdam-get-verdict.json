@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "SHA1:68f009dc92a405d1015026e8e30e6d1598047124",
+  "examples": [
+    "Command Example\n!bitdam-get-verdict idValue=68f009dc92a405d1015026e8e30e6d1598047124\nContext Example\nroot:{} 4 items\nBitDam:{} 2 items\nAnalysis:{} 3 items\nID:68f009dc92a405d1015026e8e30e6d1598047124\nStatus:DONE",
+    "!bitdam-get-verdict idValue=68f009dc92a405d1015026e8e30e6d1598047124\nContext Example\nroot:{} 4 items\nBitDam:{} 2 items\nAnalysis:{} 3 items\nID:68f009dc92a405d1015026e8e30e6d1598047124\nStatus:DONE\nVerdict:CLEAN"
+  ],
+  "kind": "integration-command",
+  "name": "bitdam-get-verdict",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Status of the analysis (\"DONE\" or \"IN_PROGRESS\") BitDam.Analysis.Verdict Final verdict of the analysis (\"Clean\", \"Malicious\", or empty if the analysis is not finished.",
+      "name": "BitDam.Analysis.Status",
+      "required": ""
+    },
+    {
+      "description": "Unique identifier DBotScore.Indicator The Indicator",
+      "name": "BitDam.Analysis.ID",
+      "required": ""
+    },
+    {
+      "description": "The DBot score DBotScore.Type The indicator type",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The DBot score vendor File.Malicious.Name File name",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the vendor that made the decision File.Malicious.Description For malicious files, the reason that the vendor made the decision",
+      "name": "File.Malicious.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BitDam",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bit-dam"
+}

@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The vendor used to calculate the score.",
+  "examples": [
+    "Command Example\ncrowdstrike-submit-file-by-url url=https://swagger.io/swagger/media/blog/wp-content/uploads/2017/06/Whitepaper_APIDocumentationDX.pdf\nContext Example\n{\n\"CrowdStrike\": {\n\"EnvironmentID\": 100,\n\"JobID\": \"5c98a51e028838377b1662c0\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "crowdstrike-submit-file-by-url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA-256 hash of the file. CrowdStrike.EnvironmentID The ID of the environment in which the file was analyzed.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The job ID of the file analysis.",
+      "name": "CrowdStrike.JobID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vx-stream"
+}

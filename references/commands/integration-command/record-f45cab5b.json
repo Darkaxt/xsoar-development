@@ -1,0 +1,275 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The REST API version. WAB.version_get.version_decimal The REST API version as decimal number.",
+      "name": "WAB.version_get.version",
+      "required": ""
+    },
+    {
+      "description": "The WALLIX Bastion version (format: X.Y). WAB.version_get.wab_form_factor The WALLIX Bastion form factor (appliance, cloud). .",
+      "name": "WAB.version_get.wab_version",
+      "required": ""
+    },
+    {
+      "description": "The WALLIX Bastion version as decimal number. WAB.version_get.wab_version_hotfix The WALLIX Bastion version with hotfix level (format: X.Y.Z, Z being the hotfix level).",
+      "name": "WAB.version_get.wab_version_decimal",
+      "required": ""
+    },
+    {
+      "description": "The WALLIX Bastion version with hotfix level as decimal. WAB.version_get.wab_complete_version The WALLIX Bastion complete version, with hotfix level and build date.",
+      "name": "WAB.version_get.wab_version_hotfix_decimal",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab VulnDB",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Web File Repository \u00bb Configure WALLIX Bastion in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "wab-add-password-target-to-target-group wab-add-restriction-to-target-group wab-add-timeframe-period",
+      "name": "wab-add-session-target-to-target-group",
+      "required": ""
+    },
+    {
+      "description": "wab-get-account-references wab-get-account-reference wab-change-password-or-ssh-key-of-account",
+      "name": "wab-add-global-domain",
+      "required": ""
+    },
+    {
+      "description": "wab-get-one-account wab-delete-account wab-get-application-account-credentials",
+      "name": "wab-get-all-accounts",
+      "required": ""
+    },
+    {
+      "description": "wab-get-application-account-credential wab-edit-credential-of-application-account wab-get-application-accounts",
+      "name": "wab-add-credential-to-application-account",
+      "required": ""
+    },
+    {
+      "description": "wab-get-application-account wab-edit-account-on-local-domain-of-application wab-delete-account-from-local-domain-of-application",
+      "name": "wab-add-account-to-local-domain-of-application",
+      "required": ""
+    },
+    {
+      "description": "wab-add-local-domain-in-application wab-get-local-domain-data-for-application wab-delete-local-domain-from-application",
+      "name": "wab-get-local-domains-data-for-application",
+      "required": ""
+    },
+    {
+      "description": "wab-get-application wab-edit-application wab-delete-application",
+      "name": "wab-get-applications",
+      "required": ""
+    },
+    {
+      "description": "wab-get-approvals-for-all-approvers wab-reply-to-approval-request wab-get-approvals-for-approver",
+      "name": "wab-get-approvals",
+      "required": ""
+    },
+    {
+      "description": "wab-notify-approvers-linked-to-approval-assignment wab-get-approval-request-pending-for-user wab-make-new-approval-request-to-access-target",
+      "name": "wab-cancel-accepted-approval",
+      "required": ""
+    },
+    {
+      "description": "wab-notify-approvers-linked-to-approval-request wab-check-if-approval-is-required-for-target wab-get-mappings-of-domain",
+      "name": "wab-cancel-approval-request",
+      "required": ""
+    },
+    {
+      "description": "wab-edit-mappings-of-domain wab-get-mapping-of-domain wab-edit-mapping-of-domain",
+      "name": "wab-add-mapping-in-domain",
+      "required": ""
+    },
+    {
+      "description": "wab-get-auth-domains wab-get-auth-domain wab-get-authentications",
+      "name": "wab-delete-mapping-of-domain",
+      "required": ""
+    },
+    {
+      "description": "wab-get-authorizations wab-add-authorization wab-get-authorization",
+      "name": "wab-get-authentication",
+      "required": ""
+    },
+    {
+      "description": "wab-delete-authorization wab-get-checkout-policies wab-get-checkout-policy",
+      "name": "wab-edit-authorization",
+      "required": ""
+    },
+    {
+      "description": "wab-get-cluster wab-getx509-configuration-infos wab-uploadx509-configuration",
+      "name": "wab-get-clusters",
+      "required": ""
+    },
+    {
+      "description": "wab-resetx509-configuration wab-get-current-serial-configuration-number-of-bastion wab-get-connection-policies",
+      "name": "wab-updatex509-configuration",
+      "required": ""
+    },
+    {
+      "description": "wab-get-connection-policy wab-edit-connection-policy wab-delete-connection-policy",
+      "name": "wab-add-connection-policy",
+      "required": ""
+    },
+    {
+      "description": "wab-add-credential-to-device-account wab-get-device-account-credential wab-edit-credential-of-device-account",
+      "name": "wab-get-device-account-credentials",
+      "required": ""
+    },
+    {
+      "description": "wab-add-account-to-local-domain-on-device wab-get-one-account-on-device-local-domain wab-edit-account-on-local-domain-of-device",
+      "name": "wab-get-all-accounts-on-device-local-domain",
+      "required": ""
+    },
+    {
+      "description": "wab-get-certificates-on-device wab-get-certificate-on-device wab-revoke-certificate-of-device",
+      "name": "wab-delete-account-from-local-domain-of-device",
+      "required": ""
+    },
+    {
+      "description": "wab-add-local-domain-in-device wab-get-local-domain-of-device wab-delete-local-domain-from-device",
+      "name": "wab-get-local-domains-of-device",
+      "required": ""
+    },
+    {
+      "description": "wab-add-service-in-device wab-get-service-of-device wab-edit-service-of-device",
+      "name": "wab-get-services-of-device",
+      "required": ""
+    },
+    {
+      "description": "wab-get-devices wab-add-device wab-get-device",
+      "name": "wab-delete-service-from-device",
+      "required": ""
+    },
+    {
+      "description": "wab-delete-device wab-get-global-domain-account-credentials wab-get-global-domain-account-credential",
+      "name": "wab-edit-device",
+      "required": ""
+    },
+    {
+      "description": "wab-add-credential-to-global-domain-account wab-get-accounts-of-global-domain wab-add-account-in-global-domain",
+      "name": "wab-edit-credential-of-global-domain-account",
+      "required": ""
+    },
+    {
+      "description": "wab-edit-account-in-global-domain wab-delete-account-from-global-domain wab-delete-resource-from-global-domain-account",
+      "name": "wab-get-account-of-global-domain",
+      "required": ""
+    },
+    {
+      "description": "wab-get-global-domain wab-delete-global-domain wab-get-external-authentications",
+      "name": "wab-get-global-domains",
+      "required": ""
+    },
+    {
+      "description": "wab-get-external-authentication-group-mappings wab-get-ldap-users-of-domain wab-get-ldap-user-of-domain",
+      "name": "wab-get-external-authentication",
+      "required": ""
+    },
+    {
+      "description": "wab-post-logsiem wab-get-notifications wab-add-notification",
+      "name": "wab-get-information-about-wallix-bastion-license",
+      "required": ""
+    },
+    {
+      "description": "wab-edit-notification wab-delete-notification wab-get-object-to-onboard",
+      "name": "wab-get-notification",
+      "required": ""
+    },
+    {
+      "description": "wab-add-password-change-policy wab-get-password-change-policy wab-edit-password-change-policy",
+      "name": "wab-get-password-change-policies",
+      "required": ""
+    },
+    {
+      "description": "wab-get-passwordrights wab-get-passwordrights-user-name wab-get-profiles",
+      "name": "wab-delete-password-change-policy",
+      "required": ""
+    },
+    {
+      "description": "wab-get-scanjobs wab-start-scan-job-manually wab-get-scanjob",
+      "name": "wab-get-profile",
+      "required": ""
+    },
+    {
+      "description": "wab-get-scans wab-get-scan wab-edit-scan",
+      "name": "wab-cancel-scan-job",
+      "required": ""
+    },
+    {
+      "description": "wab-get-sessionrights wab-get-sessionrights-user-name wab-get-sessions",
+      "name": "wab-delete-scan",
+      "required": ""
+    },
+    {
+      "description": "wab-get-session-metadata wab-get-session-sharing-requests wab-create-session-request",
+      "name": "wab-edit-session",
+      "required": ""
+    },
+    {
+      "description": "wab-get-latest-snapshot-of-running-session wab-get-status-of-trace-generation wab-generate-trace-for-session",
+      "name": "wab-delete-pending-or-live-session-request",
+      "required": ""
+    },
+    {
+      "description": "wab-get-target-groups wab-add-target-group wab-get-target-group",
+      "name": "wab-get-wallix-bastion-usage-statistics",
+      "required": ""
+    },
+    {
+      "description": "wab-delete-target-group wab-delete-target-from-group wab-get-timeframes",
+      "name": "wab-edit-target-group",
+      "required": ""
+    },
+    {
+      "description": "wab-get-timeframe wab-edit-timeframe wab-delete-timeframe",
+      "name": "wab-add-timeframe",
+      "required": ""
+    },
+    {
+      "description": "wab-add-user-group wab-get-user-group wab-edit-user-group",
+      "name": "wab-get-user-groups",
+      "required": ""
+    },
+    {
+      "description": "wab-get-users wab-add-user wab-get-user",
+      "name": "wab-delete-user-group",
+      "required": ""
+    },
+    {
+      "description": "wab-get-target-group-restrictions wab-get-target-group-restriction wab-edit-restriction-from-targetgroup",
+      "name": "wab-edit-user",
+      "required": ""
+    },
+    {
+      "description": "wab-get-password-for-target wab-extend-duration-time-to-get-passwords-for-target wab-release-passwords-for-target",
+      "name": "wab-delete-restriction-from-targetgroup",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "wab-get-target-by-type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "WALLIX Bastion",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/wallix-bastion"
+}

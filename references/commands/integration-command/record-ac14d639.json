@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!sta-get-events should_push_events=false since=\"10 seconds\"\nHuman Readable Output\n#\nEvent Logs\n#\nMarker: 111111\ncategory\ncontext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Thales SafeNet Trusted Access Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/safe-net-trusted-access-event-collector"
+}

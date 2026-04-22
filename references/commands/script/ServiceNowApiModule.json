@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "service-now-api-module"
+  ],
+  "arguments": [],
+  "description": "ServiceNowApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ServiceNowApiModule",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNowApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/service-now-api-module"
+}

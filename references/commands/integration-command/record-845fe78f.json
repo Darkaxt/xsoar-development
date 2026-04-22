@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "fortimanager-firewall-policy-package-install-status",
+  "examples": [
+    "Command Example\n#\n!fortimanager-policy-package-install-status task_id=175\nEdit this page\nReport an Issue\nPrevious\n\u00ab FortiMail\nNext",
+    "!fortimanager-policy-package-install-status task_id=175\nEdit this page\nReport an Issue\nPrevious\n\u00ab FortiMail\nNext\nFortiSandbox (Deprecated) \u00bb\nRequired Permissions"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ADOM on which the installation occurred. FortiManager.Installation.end_tm The installation task end time.",
+      "name": "FortiManager.Installation.adom",
+      "required": ""
+    },
+    {
+      "description": "The installation_task_flags. FortiManager.Installation.id The installation task ID.",
+      "name": "FortiManager.Installation.flags",
+      "required": ""
+    },
+    {
+      "description": "The installation status details. FortiManager.Installation.line.end_tm The installation task end time.",
+      "name": "FortiManager.Installation.line.detail",
+      "required": ""
+    },
+    {
+      "description": "The installation error. FortiManager.Installation.line.history Installation task historical details.",
+      "name": "FortiManager.Installation.line.err",
+      "required": ""
+    },
+    {
+      "description": "The installation IP. FortiManager.Installation.line.name The installation name.",
+      "name": "FortiManager.Installation.line.ip",
+      "required": ""
+    },
+    {
+      "description": "The installation task oid. FortiManager.Installation.line.percent The installation task completion percent.",
+      "name": "FortiManager.Installation.line.oid",
+      "required": ""
+    },
+    {
+      "description": "The installation task start time. FortiManager.Installation.line.state The installation task state.",
+      "name": "FortiManager.Installation.line.start_tm",
+      "required": ""
+    },
+    {
+      "description": "The VDOM on which the installation occurred. FortiManager.Installation.num_done The number of done tasks.",
+      "name": "FortiManager.Installation.line.vdom",
+      "required": ""
+    },
+    {
+      "description": "The number of errors found. FortiManager.Installation.num_lines The number of installation data lines.",
+      "name": "FortiManager.Installation.num_err",
+      "required": ""
+    },
+    {
+      "description": "The number of warnings found. FortiManager.Installation.percent The installation task completion percent.",
+      "name": "FortiManager.Installation.num_warn",
+      "required": ""
+    },
+    {
+      "description": "The installation task PID. FortiManager.Installation.src The installation task source",
+      "name": "FortiManager.Installation.pid",
+      "required": ""
+    },
+    {
+      "description": "The installation task start time. FortiManager.Installation.state The installation task state.",
+      "name": "FortiManager.Installation.start_tm",
+      "required": ""
+    },
+    {
+      "description": "The installation task title. FortiManager.Installation.tot_percent The installation task completion percent.",
+      "name": "FortiManager.Installation.title",
+      "required": ""
+    },
+    {
+      "description": "The installation task user.",
+      "name": "FortiManager.Installation.user",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FortiManager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forti-manager"
+}

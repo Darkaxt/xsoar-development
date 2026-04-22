@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "is-ip-in-ranges"
+  ],
+  "arguments": [],
+  "description": "IsIPInRanges | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IsIPInRanges",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether a given value is within an IP address range. no Whether a given value is not within an IP address range.",
+      "name": "yes",
+      "required": ""
+    },
+    {
+      "description": "IP.Address The IP address. IP.InRange",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Whether the IP address is within the input ranges. Can be, \"yes\" or \"no\".)",
+      "required": ""
+    },
+    {
+      "description": "Next IsIPPrivate \u00bb Script Data",
+      "name": "\u00ab IsInternalHostName",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IsIPInRanges",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/is-ip-in-ranges"
+}

@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "service-now-query-incident"
+  ],
+  "arguments": [],
+  "description": "ServiceNowQueryIncident | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ServiceNowQueryIncident",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "THe ID of the incident. ServiceNow.Incident.Description The description of the incident.",
+      "name": "ServiceNow.Incident.ID",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow.Incident.Number The number of the incident. ServiceNow.Incident.Caller",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The caller of the incident.",
+      "required": ""
+    },
+    {
+      "description": "Next ServiceNowTroubleshoot \u00bb Script Data",
+      "name": "\u00ab ServiceNowIncidentStatus",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNowQueryIncident",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/service-now-query-incident"
+}

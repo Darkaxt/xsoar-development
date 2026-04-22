@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!fortisiem-clear-incident incident_id=1919 close_reason=\"False Positive\"",
+  "examples": [
+    "Command Example\n!fortisiem-clear-incident incident_id=1919 close_reason=\"False Positive\"\nHuman Readable Output\nIncident cleared successfully.\n3. Get events using a filter\nReturns an event list according to the specified filters.\nBase Command\nfortisiem-get-events-by-filter",
+    "!fortisiem-clear-incident incident_id=1919 close_reason=\"False Positive\"\nHuman Readable Output\nIncident cleared successfully.\n3. Get events using a filter\nReturns an event list according to the specified filters.\nBase Command\nfortisiem-get-events-by-filter\nInput",
+    "Command Example\n!fortisiem-get-events-by-filter maxResults=4 srcIpAddr=10.100.100.17\nContext Example\n{\n\"FortiSIEM.Events\": [\n{\n\"Destination Host Name\": \"google-public-dns-a.google.com\",\n\"Event Name\": \"Permitted traffic flow started\",",
+    "!fortisiem-get-events-by-filter maxResults=4 srcIpAddr=10.100.100.17\nContext Example\n{\n\"FortiSIEM.Events\": [\n{\n\"Destination Host Name\": \"google-public-dns-a.google.com\",\n\"Event Name\": \"Permitted traffic flow started\",\n\"Destination IP\": \"8.8.8.8\","
+  ],
+  "kind": "integration-command",
+  "name": "fortisiem-get-events-by-filter",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "FortiSIEM event type. FortiSIEM.Events.SourceCountry Event source country.",
+      "name": "FortiSIEM.Events.EventType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FortiSIEM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forti-siem"
+}

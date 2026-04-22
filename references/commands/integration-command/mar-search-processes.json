@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!mar-search-processes\nContext Example\n{\n\"MAR\": {\n\"Processes\": [\n{\n\"Uptime\": 8468384,",
+    "!mar-search-processes\nContext Example\n{\n\"MAR\": {\n\"Processes\": [\n{\n\"Uptime\": 8468384,\n\"Imagepath\": \"C:\\\\WINDOWS\\\\SYSTEM32\\\\CSRSS.EXE\","
+  ],
+  "kind": "integration-command",
+  "name": "mar-search-processes",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Process name. MAR.Processes.Id Process ID.",
+      "name": "MAR.Processes.Name",
+      "required": ""
+    },
+    {
+      "description": "Process parent name. MAR.Processes.Size Process size.",
+      "name": "MAR.Processes.Parentname",
+      "required": ""
+    },
+    {
+      "description": "Process MD5 hash. MAR.Processes.Sha1 Process SHA-1 hash.",
+      "name": "MAR.Processes.Md5",
+      "required": ""
+    },
+    {
+      "description": "Process command line. MAR.Processes.Imagepath Process image path.",
+      "name": "MAR.Processes.Cmdline",
+      "required": ""
+    },
+    {
+      "description": "Process kernel time. MAR.Processes.Usertime Process user time.",
+      "name": "MAR.Processes.Kerneltime",
+      "required": ""
+    },
+    {
+      "description": "Process up time. MAR.Processes.User Process user.",
+      "name": "MAR.Processes.Uptime",
+      "required": ""
+    },
+    {
+      "description": "Process user ID.",
+      "name": "MAR.Processes.User_id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Active Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-active-response"
+}

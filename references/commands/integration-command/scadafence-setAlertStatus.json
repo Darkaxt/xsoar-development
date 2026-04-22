@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Windows Server 2008 R2",
+  "examples": [
+    "Command Example\n!scadafence-setAlertStatus alertId=5b600cecfeb8001f1cc5d2ea alertStatus=InProgress",
+    "!scadafence-setAlertStatus alertId=5b600cecfeb8001f1cc5d2ea alertStatus=InProgress"
+  ],
+  "kind": "integration-command",
+  "name": "scadafence-setAlertStatus",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "success true",
+      "name": "Setting status for alert 5bcf0e1a106e0c000f5448b6 to 'Resolved':",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SCADAfence CNM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/scad-afence-cnm"
+}

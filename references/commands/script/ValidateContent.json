@@ -1,0 +1,63 @@
+{
+  "aliases": [
+    "validate-content"
+  ],
+  "arguments": [],
+  "description": "ValidateContent | Cortex XSOAR",
+  "examples": [
+    "!ValidateContent entry_id=G2SUaH9ZPmfw7QHWQNk2pa@6\nContext Example\n#\n\"ValidationResult\": [\n{\n\"Name\": \"MyScript\",\n\"Error\": \"{unterminated string literal (detected at line 166) [syntax]\"\n\"Line\": 165,"
+  ],
+  "kind": "script",
+  "name": "ValidateContent",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name of validated item. ValidationResult.Error The validation error message.",
+      "name": "ValidationResult.Name",
+      "required": ""
+    },
+    {
+      "description": "ValidationResult.Line The code line number in which the error was found in the lint. ValidationResult.ErrorCode",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Script Example",
+      "name": "The error code or the name of the linter that identified the issue.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!ValidateContent entry_id=G2SUaH9ZPmfw7QHWQNk2pa@6",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"MyScript\", \"Error\": \"{unterminated string literal (detected at line 166) [syntax]\"",
+      "name": "\"ValidationResult\": [",
+      "required": ""
+    },
+    {
+      "description": "\"Error Code/Linter\": \"mypy\" }, {",
+      "name": "\"Line\": 165,",
+      "required": ""
+    },
+    {
+      "description": "\"Error\": \"The following commands contain duplicated arguments:Command example-my-command, contains multiple appearances of the following arguments message.Please make sure to remove the duplications.\", \"Error Code/Linter\": \"IN113\" }",
+      "name": "\"Name\": \"MyScript\",",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ValidateContent",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/validate-content"
+}

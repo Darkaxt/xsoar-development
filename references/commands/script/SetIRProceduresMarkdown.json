@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "set-ir-procedures-markdown"
+  ],
+  "arguments": [],
+  "description": "SetIRProceduresMarkdown | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SetIRProceduresMarkdown",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SetIRProceduresMarkdown",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/set-ir-procedures-markdown"
+}

@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Last time USB connected storage devices were last used by a user.",
+  "examples": [
+    "Command Example\n!mar-search-usb-connected-storage-devices\n9. Get information for user profiles\nReturns user profile information from McAfee Active Response.\nBase Command\nmar-search-user-profiles\nInput\nArgument Name",
+    "!mar-search-usb-connected-storage-devices\n9. Get information for user profiles\nReturns user profile information from McAfee Active Response.\nBase Command\nmar-search-user-profiles\nInput\nArgument Name\nDescription",
+    "Command Example\n!mar-search-user-profiles\nContext Example\n{\n\"MAR\": {\n\"UserProfiles\": [\n{\n\"Domain\": \"-\",",
+    "!mar-search-user-profiles\nContext Example\n{\n\"MAR\": {\n\"UserProfiles\": [\n{\n\"Domain\": \"-\",\n\"Installdate\": \"2017-10-02T06:15:20.000Z\","
+  ],
+  "kind": "integration-command",
+  "name": "mar-search-user-profiles",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "User profile account disabled. MAR.UserProfiles.Domain User profile domain.",
+      "name": "MAR.UserProfiles.Accountdisabled",
+      "required": ""
+    },
+    {
+      "description": "User profile full name. MAR.UserProfiles.Installdate User profile install date.",
+      "name": "MAR.UserProfiles.Fullname",
+      "required": ""
+    },
+    {
+      "description": "User profile local account. MAR.UserProfiles.Lockedout User profile lockedout.",
+      "name": "MAR.UserProfiles.Localaccount",
+      "required": ""
+    },
+    {
+      "description": "User profile account name. MAR.UserProfiles.Sid User profile SID.",
+      "name": "MAR.UserProfiles.Accountname",
+      "required": ""
+    },
+    {
+      "description": "User profile password expired.",
+      "name": "MAR.UserProfiles.Passwordexpires",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Active Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-active-response"
+}

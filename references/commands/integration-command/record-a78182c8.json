@@ -1,0 +1,97 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "6493c3fa395000101e8ee41181d70b02",
+  "examples": [
+    "Command Example\n#\n!lastline-check-status uuid=b32ed21999be00100eca07d07cb7bf38\nContext Example\n#\n{\n\"URL\": {\n\"Data\": \"https://google.com\"",
+    "!lastline-check-status uuid=b32ed21999be00100eca07d07cb7bf38\nContext Example\n#\n{\n\"URL\": {\n\"Data\": \"https://google.com\"\n},\n\"DBotScore\": {"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "A list of malicious URLs identified by the lastline analysis. URL.Malicious.Vendor The vendor that determined that a URL is malicious.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "The reason that the vendor determined that the URL is malicious. URL.Malicious.Score The score that the malicious URL received from the vendor.",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. File.Type The file type.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The vendor that determined that the file is malicious. File.Malicious.Description The reason that the vendor determined that the file is malicious.",
+      "name": "File.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The score that the malicious file received from the vendor. DBotScore.Indicator The indicator that was tested.",
+      "name": "File.Malicious.Score",
+      "required": ""
+    },
+    {
+      "description": "The type of indicator. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. Lastline.Submission.Status The status of the submission.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The task UUID. Lastline.Submission.SubmissionTime The timestamp in Lastline.",
+      "name": "Lastline.Submission.UUID",
+      "required": ""
+    },
+    {
+      "description": "Yara signatures name. Lastline.Submission.YaraSignatures.score The score according to the Yara signatures (0 to 100).",
+      "name": "Lastline.Submission.YaraSignatures.name",
+      "required": ""
+    },
+    {
+      "description": "Whether the signature is for internal use only. Lastline.Submission.DNSqueries List of DNS queries executed by the analysis subject.",
+      "name": "Lastline.Submission.YaraSignatures.internal",
+      "required": ""
+    },
+    {
+      "description": "A list of network connections executed by the analysis subject. Lastline.Submission.DownloadedFiles A list of files that were downloaded using the Microsoft Windows file-download API functions. Each element is a tuple of file-origin URL and a File element.",
+      "name": "Lastline.Submission.NetworkConnections",
+      "required": ""
+    },
+    {
+      "description": "Information on athe Windows process. Lastline.Submission.Process.arguments The argument of the process.",
+      "name": "Lastline.Submission.Process",
+      "required": ""
+    },
+    {
+      "description": "The executable of the process. Lastline.Submission.Process.executable.abs_path The absolute path of the executable of the process.",
+      "name": "Lastline.Submission.Process.executable",
+      "required": ""
+    },
+    {
+      "description": "The filename of the executable. Lastline.Submission.Process.executable.yara_signature_hits The Yara signature of the executable of the process.",
+      "name": "Lastline.Submission.Process.executable.filename",
+      "required": ""
+    },
+    {
+      "description": "The executable information of the process. Lastline.Submission.Process.process_id The process ID.",
+      "name": "Lastline.Submission.Process.executable.ext_info",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Lastline v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/lastline-v2"
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "mattermost-set-channel-role",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Breaking changes from the previous version of this integration - Mattermost v2",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Bot Access Token . Edit this page",
+      "name": "A new required configuration parameters was added:",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab Mattermost Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure Mattermost v2 in Cortex Commands mattermost-get-team",
+      "name": "MaxMind GeoIP2 \u00bb",
+      "required": ""
+    },
+    {
+      "description": "mattermost-list-private-channels-for-user mattermost-create-channel mattermost-add-channel-member",
+      "name": "mattermost-list-channels",
+      "required": ""
+    },
+    {
+      "description": "mattermost-list-users mattermost-send-file send-notification",
+      "name": "mattermost-remove-channel-member",
+      "required": ""
+    },
+    {
+      "description": "close-channel mirror-investigation close-channel",
+      "name": "mattermost-close-channel",
+      "required": ""
+    },
+    {
+      "description": "mattermost-list-groups mattermost-list-group-members mattermost-add-group-member",
+      "name": "mattermost-mirror-investigation",
+      "required": ""
+    },
+    {
+      "description": "mattermost-set-channel-role Breaking changes from the previous version of this integration - Mattermost v2 Docs",
+      "name": "mattermost-remove-group-member",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Mattermost v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mattermost-v2"
+}

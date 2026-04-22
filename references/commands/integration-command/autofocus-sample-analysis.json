@@ -1,0 +1,13 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The timestamp for session.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "autofocus-sample-analysis",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto AutoFocus (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/autofocus"
+}

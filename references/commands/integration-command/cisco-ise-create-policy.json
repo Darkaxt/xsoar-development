@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "10. Create an ANC policy",
+  "examples": [
+    "Command Example\n!cisco-ise-create-policy policy_name=quarantinePolicy policy_actions=QUARANTINE\nContext Example\n{\n\"CiscoISE.Policy\": {\n\"Action\": [\n\"QUARANTINE\"\n],",
+    "!cisco-ise-create-policy policy_name=quarantinePolicy policy_actions=QUARANTINE\nContext Example\n{\n\"CiscoISE.Policy\": {\n\"Action\": [\n\"QUARANTINE\"\n],\n\"Name\": \"quarantinePolicy\""
+  ],
+  "kind": "integration-command",
+  "name": "cisco-ise-create-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The actions of the ANC policy. CiscoISE.Policy.Name The name of the new ANC policy.",
+      "name": "CiscoISE.Policy.Action",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ISE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-ise"
+}

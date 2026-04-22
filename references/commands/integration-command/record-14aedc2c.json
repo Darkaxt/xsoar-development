@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "24. fidelis-endpoint-query-events",
+  "examples": [
+    "Command Example\n#\n!fidelis-endpoint-query-events column=name entity_type=process logic=or value=cmd.exe additional_filter=\"pid = 3276\" operator=\"=\"\nContext Example\n#\n{\n\"FidelisEndpoint.Query\": [\n{",
+    "!fidelis-endpoint-query-events column=name entity_type=process logic=or value=cmd.exe additional_filter=\"pid = 3276\" operator=\"=\"\nContext Example\n#\n{\n\"FidelisEndpoint.Query\": [\n{\n\"EntityType\": 0,\n\"TargetID\": \"qgOl6OBq7v8\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date Process start time. FidelisEndpoint.Query.EndpointName",
+      "name": "FidelisEndpoint.Query.ProcessStartTime",
+      "required": ""
+    },
+    {
+      "description": "Endpoint name. FidelisEndpoint.Query.Path File path.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Parent ID. FidelisEndpoint.Query.EventTime Date",
+      "name": "FidelisEndpoint.Query.ParentID",
+      "required": ""
+    },
+    {
+      "description": "FidelisEndpoint.Query..RemotePort Remote port. FidelisEndpoint.Query.DnsAnswer",
+      "name": "Event time.",
+      "required": ""
+    },
+    {
+      "description": "DNS answer. FidelisEndpoint.Query.PID Process ID.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Process name. FidelisEndpoint.Query.User Endpoint user.",
+      "name": "FidelisEndpoint.Query.Name",
+      "required": ""
+    },
+    {
+      "description": "Local port. FidelisEndpoint.Query.TargetID Target ID.",
+      "name": "FidelisEndpoint.Query.LocalPort",
+      "required": ""
+    },
+    {
+      "description": "Remote IP address. FidelisEndpoint.Query.Hash File hash.",
+      "name": "FidelisEndpoint.Query.RemoteIP",
+      "required": ""
+    },
+    {
+      "description": "DNS question. FidelisEndpoint.Query.StartTime Date",
+      "name": "FidelisEndpoint.Query.DnsQuestion",
+      "required": ""
+    },
+    {
+      "description": "FidelisEndpoint.Query.Entropy Entropy. FidelisEndpoint.Query.LocalIP",
+      "name": "Start time of the event.",
+      "required": ""
+    },
+    {
+      "description": "Local IP address. FidelisEndpoint.Query.EventType Event type.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Parent name. FidelisEndpoint.Query.EventIndex Event index.",
+      "name": "FidelisEndpoint.Query.ParentName",
+      "required": ""
+    },
+    {
+      "description": "Date Indexing time. FidelisEndpoint.Query.EntityType",
+      "name": "FidelisEndpoint.Query.IndexingTime",
+      "required": ""
+    },
+    {
+      "description": "Entity type.",
+      "name": "Number",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Fidelis EDR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fidelis-edr"
+}

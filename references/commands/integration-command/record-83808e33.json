@@ -1,0 +1,157 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2020-04-09T07:17:45+00:00",
+  "examples": [
+    "Command Example\n#\n!cybertotal-domain-whois domain=abc.com\nContext Example\n#\n{\n\"CyberTotal\": {\n\"WHOIS-Domain\": {",
+    "!cybertotal-domain-whois domain=abc.com\nContext Example\n#\n{\n\"CyberTotal\": {\n\"WHOIS-Domain\": {\n\"admin\": {\n\"address\": \"New York\\n10023-6298\\nNY\\nUS\\n\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "date Scan date format: ISO 8601 CyberTotal.WHOIS-Domain.task_id",
+      "name": "CyberTotal.WHOIS-Domain.scan_date",
+      "required": ""
+    },
+    {
+      "description": "The unique id of each scan in CyberTotal. CyberTotal.WHOIS-Domain.resource The scan target sent to CyberTotal.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Message about this search. CyberTotal.WHOIS-Domain.permalink The link of this whois report in CyberTotal.",
+      "name": "CyberTotal.WHOIS-Domain.message",
+      "required": ""
+    },
+    {
+      "description": "date Create date format: ISO 8601 CyberTotal.WHOIS-Domain.updatedAt",
+      "name": "CyberTotal.WHOIS-Domain.createdAt",
+      "required": ""
+    },
+    {
+      "description": "Update date format: ISO 8601 CyberTotal.WHOIS-Domain.status Status of this Domain",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "Top level Domain of this domain CyberTotal.WHOIS-Domain.domainMd5 MD5 translation of CyberTotal.WHOIS-Domain.domain",
+      "name": "CyberTotal.WHOIS-Domain.domain",
+      "required": ""
+    },
+    {
+      "description": "Encode CyberTotal.WHOIS-Domain.domain by using unicode CyberTotal.WHOIS-Domain.nameservers An array of all DNS nameservers",
+      "name": "CyberTotal.WHOIS-Domain.domainUnicode",
+      "required": ""
+    },
+    {
+      "description": "The name of registrar CyberTotal.WHOIS-Domain.registrarEmail The email address of registrar",
+      "name": "CyberTotal.WHOIS-Domain.registrarName",
+      "required": ""
+    },
+    {
+      "description": "The phone number of registrar CyberTotal.WHOIS-Domain.registrarCreatedAt date",
+      "name": "CyberTotal.WHOIS-Domain.registrarPhone",
+      "required": ""
+    },
+    {
+      "description": "CyberTotal.WHOIS-Domain.registrarUpdatedAt date Registrar update date format: ISO 8601",
+      "name": "Registrar create date format: ISO 8601",
+      "required": ""
+    },
+    {
+      "description": "date Registrar expire date format: ISO 8601 CyberTotal.WHOIS-Domain.auditCreatedAt",
+      "name": "CyberTotal.WHOIS-Domain.registrarExpiresAt",
+      "required": ""
+    },
+    {
+      "description": "Registrar update date format: ISO 8601 CyberTotal.WHOIS-Domain.auditUpdatedAt date",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "CyberTotal.WHOIS-Domain.registrant.name The name of registrant CyberTotal.WHOIS-Domain.registrant.organization",
+      "name": "Registrar expire date format: ISO 8601",
+      "required": ""
+    },
+    {
+      "description": "The organization name of registrant CyberTotal.WHOIS-Domain.registrant.street The street name of registrant",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "The location city of registrant CyberTotal.WHOIS-Domain.registrant.state The location state name of registrant",
+      "name": "CyberTotal.WHOIS-Domain.registrant.city",
+      "required": ""
+    },
+    {
+      "description": "The post zip code of registrant CyberTotal.WHOIS-Domain.registrant.country The country of registrant",
+      "name": "CyberTotal.WHOIS-Domain.registrant.zip",
+      "required": ""
+    },
+    {
+      "description": "The address of registrant CyberTotal.WHOIS-Domain.admin.name The name of admin",
+      "name": "CyberTotal.WHOIS-Domain.registrant.address",
+      "required": ""
+    },
+    {
+      "description": "The organization name of admin CyberTotal.WHOIS-Domain.admin.street The street name of admin",
+      "name": "CyberTotal.WHOIS-Domain.admin.organization",
+      "required": ""
+    },
+    {
+      "description": "The location city of admin CyberTotal.WHOIS-Domain.admin.state The location state name of admin",
+      "name": "CyberTotal.WHOIS-Domain.admin.city",
+      "required": ""
+    },
+    {
+      "description": "The post zip code of admin CyberTotal.WHOIS-Domain.admin.country The country of admin",
+      "name": "CyberTotal.WHOIS-Domain.admin.zip",
+      "required": ""
+    },
+    {
+      "description": "The address of admin CyberTotal.WHOIS-Domain.technical.name The name of technical",
+      "name": "CyberTotal.WHOIS-Domain.admin.address",
+      "required": ""
+    },
+    {
+      "description": "The organization name of technical CyberTotal.WHOIS-Domain.technical.street The street name of technical",
+      "name": "CyberTotal.WHOIS-Domain.technical.organization",
+      "required": ""
+    },
+    {
+      "description": "The location city of technical CyberTotal.WHOIS-Domain.technical.state The location state name of technical",
+      "name": "CyberTotal.WHOIS-Domain.technical.city",
+      "required": ""
+    },
+    {
+      "description": "The post zip code of technical CyberTotal.WHOIS-Domain.technical.country The country of technical",
+      "name": "CyberTotal.WHOIS-Domain.technical.zip",
+      "required": ""
+    },
+    {
+      "description": "The address of technical CyberTotal.WHOIS-Domain.contactEmails An array of all contact email address",
+      "name": "CyberTotal.WHOIS-Domain.technical.address",
+      "required": ""
+    },
+    {
+      "description": "An array of all contact details CyberTotal.WHOIS-Domain.contactNames An array of all contact names",
+      "name": "CyberTotal.WHOIS-Domain.contacts",
+      "required": ""
+    },
+    {
+      "description": "An array of all contact countries CyberTotal.WHOIS-Domain.domainAvailable If this domain is available",
+      "name": "CyberTotal.WHOIS-Domain.contactCountries",
+      "required": ""
+    },
+    {
+      "description": "If this domain is expired",
+      "name": "CyberTotal.WHOIS-Domain.expired",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyberTotal",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyber-total"
+}

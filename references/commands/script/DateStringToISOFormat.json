@@ -1,0 +1,43 @@
+{
+  "aliases": [
+    "date-string-to-iso-format"
+  ],
+  "arguments": [],
+  "description": "DateStringToISOFormat | Cortex XSOAR",
+  "examples": [
+    "!DateStringToISOFormat value=\"'05-11-2929'\" dayfirst=\"true\" yearfirst=\"true\" fuzzy=\"true\" add_utc_timezone=\"false\"\nContext Example\n#\n{\n}\nHuman Readable Output\n#\n2929-11-05T00:00:00"
+  ],
+  "kind": "script",
+  "name": "DateStringToISOFormat",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!DateStringToISOFormat value=\"'05-11-2929'\" dayfirst=\"true\" yearfirst=\"true\" fuzzy=\"true\" add_utc_timezone=\"false\"",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DateStringToISOFormat",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/date-string-to-iso-format"
+}

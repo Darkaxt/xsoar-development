@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "09-26-2019 07:46:25 UTC",
+  "examples": [
+    "Command Example\n!domain domain=www.google.com\nContext Example\n{\n\"DBotScore\": {\n\"Indicator\": \"www.google.com\",\n\"Score\": 1,\n\"Type\": \"domain\",",
+    "!domain domain=www.google.com\nContext Example\n{\n\"DBotScore\": {\n\"Indicator\": \"www.google.com\",\n\"Score\": 1,\n\"Type\": \"domain\",\n\"Vendor\": \"SlashNext Phishing Incident Response\""
+  ],
+  "kind": "integration-command",
+  "name": "domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested DBotScore.Type Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Domain name Domain.Malicious.Vendor For malicious domain names, the vendor that made the decision",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "For malicious domain names, the reason that the vendor made the decision SlashNext.Domain.Value Value of the Indicator of Compromise (IoC)",
+      "name": "Domain.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Type of the Indicator of Compromise (IoC) SlashNext.Domain.Verdict SlashNext Phishing Incident Response verdict on the IoC",
+      "name": "SlashNext.Domain.Type",
+      "required": ""
+    },
+    {
+      "description": "Threat status of the IoC SlashNext.Domain.ThreatName Name of the threat posed by the IoC",
+      "name": "SlashNext.Domain.ThreatStatus",
+      "required": ""
+    },
+    {
+      "description": "Type of the threat posed by the IoC SlashNext.Domain.FirstSeen date",
+      "name": "SlashNext.Domain.ThreatType",
+      "required": ""
+    },
+    {
+      "description": "SlashNext.Domain.LastSeen date Time when the IoC was last observed",
+      "name": "Time when the IoC was first observed",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SlashNext Phishing Incident Response (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slash-next-phishing-incident-response"
+}

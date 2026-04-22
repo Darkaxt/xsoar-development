@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!ntt-cyber-threat-sensor-fetch-blobs event_id=07be6916957da6dc0b4c7fbf6995b1e44dccb9e7\nContext Example\n#\n{\n\"CTS\": {\n\"HasBlob\": [",
+    "!ntt-cyber-threat-sensor-fetch-blobs event_id=07be6916957da6dc0b4c7fbf6995b1e44dccb9e7\nContext Example\n#\n{\n\"CTS\": {\n\"HasBlob\": [\nfalse,\ntrue"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The size of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. File.Name The name of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The SSDeep hash of the file. File.EntryID The entry ID of the file.",
+      "name": "File.SSDeep",
+      "required": ""
+    },
+    {
+      "description": "File information. File.Type The file type.",
+      "name": "File.Info",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the file. File.Extension The file extension.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "If one or more blobs exist then True",
+      "name": "CTS.HasBlob",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "NTT Cyber Threat Sensor",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ntt-cyber-threat-sensor"
+}

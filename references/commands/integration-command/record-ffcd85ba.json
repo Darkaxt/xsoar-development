@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "anyrun-get-analysis-verdict",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Returns a threat level text. Possible values: No threats detected, Suspicious activity, Malicious activity.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "anyrun-get-analysis-verdict",
+      "required": ""
+    },
+    {
+      "description": "The analysis verdict. Edit this page Report an Issue",
+      "name": "ANYRUN.SandboxAnalysisReportVerdict",
+      "required": ""
+    },
+    {
+      "description": "\u00ab ANY.RUN (Deprecated) Next ANY.RUN TI Feed \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Requirements Generate API token Configure ANY.RUN Sandbox in Cortex",
+      "name": "Use Cases",
+      "required": ""
+    },
+    {
+      "description": "anyrun-detonate-file-windows anyrun-detonate-url-windows anyrun-detonate-file-linux",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "anyrun-detonate-file-android anyrun-detonate-url-android anyrun-get-user-limits",
+      "name": "anyrun-detonate-url-linux",
+      "required": ""
+    },
+    {
+      "description": "anyrun-delete-task anyrun-get-analysis-report anyrun-download-analysis-pcap",
+      "name": "anyrun-get-analysis-history",
+      "required": ""
+    },
+    {
+      "description": "anyrun-get-analysis-verdict Docs Developer Docs",
+      "name": "anyrun-download-analysis-sample",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ANY.RUN Cloud Sandbox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/anyrun-cloud-sandbox"
+}

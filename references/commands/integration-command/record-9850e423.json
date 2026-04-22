@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": ": Coach user on phishing",
+  "examples": [
+    "Command Example\n#\ncoach-end-user user=\"track@securityadvisor.io\" context=\"phishing\"\nContext Example\n#\n{\n\"SecurityAdvisor.CoachUser\": {\n\"coaching_date\": \"2019-10-04T21:04:19.480425\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Time when coaching was sent or completed. SecurityAdvisor.CoachUser.coaching_status User coaching status for context. \"Pending\" means that coaching has been sent and is pending. \"Done\" means the user has completed the coaching.",
+      "name": "SecurityAdvisor.CoachUser.coaching_date",
+      "required": ""
+    },
+    {
+      "description": "User's coaching score (out of 100). SecurityAdvisor.CoachUser.context Coaching context.",
+      "name": "SecurityAdvisor.CoachUser.coaching_score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SecurityAdvisor (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/security-advisor"
+}

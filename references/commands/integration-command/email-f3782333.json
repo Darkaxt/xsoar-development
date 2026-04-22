@@ -1,0 +1,72 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The type of the indicator.",
+  "examples": [
+    "Command Example\n!file file=a94a8fe5ccb19ba61c4c0873d391e987982fbbd3\nHuman Readable Output\n5. Check an email\nChecks the reputation of an email in ThreatQ.\nBase Command\nemail\nInput",
+    "!file file=a94a8fe5ccb19ba61c4c0873d391e987982fbbd3\nHuman Readable Output\n5. Check an email\nChecks the reputation of an email in ThreatQ.\nBase Command\nemail\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "email",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The value of the indicator. DBotScore.Type The type of the indicator.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor of the indicator. DBotScore.Score The DBot Score of the indicator.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The Email Address. Account.Malicious.Vendor The vendor of the malicious account.",
+      "name": "Account.Email.Address",
+      "required": ""
+    },
+    {
+      "description": "The description of the malicious account. ThreatQ.Indicator.ID The ID of the indicator.",
+      "name": "Account.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The value of the indicator. ThreatQ.Indicator.Source.ID The source ID of the indicator.",
+      "name": "ThreatQ.Indicator.Value",
+      "required": ""
+    },
+    {
+      "description": "The source name of the indicator. ThreatQ.Indicator.Attribute.ID The attribute ID of the indicator.",
+      "name": "ThreatQ.Indicator.Source.Name",
+      "required": ""
+    },
+    {
+      "description": "The attribute value of the indicator. ThreatQ.Indicator.Attribute.Name The attribute name of the indicator.",
+      "name": "ThreatQ.Indicator.Attribute.Value",
+      "required": ""
+    },
+    {
+      "description": "Date The creation date of the indicator. ThreatQ.Indicator.UpdatedAt",
+      "name": "ThreatQ.Indicator.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "The last update date of the indicator. ThreatQ.Indicator.Status The status of the indicator.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The ThreatQ score of the indicator. ThreatQ.Indicator.Description The description of the indicator.",
+      "name": "ThreatQ.Indicator.TQScore",
+      "required": ""
+    },
+    {
+      "description": "The type of the indicator.",
+      "name": "ThreatQ.Indicator.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

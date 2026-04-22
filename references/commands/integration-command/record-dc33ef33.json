@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!na-ed-outbound-whitelisted-hosts-remove host_address=3.3.3.3\nHuman Readable Output\n#\nHosts were successfully removed from the outbound allow list list\nEdit this page\nReport an Issue",
+    "!na-ed-outbound-whitelisted-hosts-remove host_address=3.3.3.3\nHuman Readable Output\n#\nHosts were successfully removed from the outbound allow list list\nEdit this page\nReport an Issue\nPrevious\n\u00ab NetQuest OMX"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Netscout Arbor Edge Defense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/netscout-aed"
+}

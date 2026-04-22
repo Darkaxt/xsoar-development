@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Retrieve service limits",
+  "examples": [
+    "Command Example\n#\n!dnsdb-rate-limit\nContext Example\n#\n{\n\"DNSDB\"\n:",
+    "!dnsdb-rate-limit\nContext Example\n#\n{\n\"DNSDB\"\n:\n{\n\"Rate\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The maximum number of API lookups that may be performed. This is the initial quota. DNSDB.Rate.Unlimited bool",
+      "name": "DNSDB.Rate.Limit",
+      "required": ""
+    },
+    {
+      "description": "DNSDB.Rate.Remaining For time-based quotas: the remaining number of API lookups that may be performed until the reset time. For block-based quotas: the remaining number of API lookups in the block quota.",
+      "name": "True if there is no maximum number of API lookups that may be performed.",
+      "required": ""
+    },
+    {
+      "description": "| DNSDB.Rate.Reset | date | For time-based quotas: When the quota limit will be reset. Usually this is at 00:00 (midnight) UTC. | | DNSDB.Rate.NeverResets | bool | True for block-based quotas that do not reset. |",
+      "name": "|",
+      "required": ""
+    },
+    {
+      "description": "| DNSDB.Rate.ResultsMax | number | The maximum number of results that can be returned by these lookup methods. This overrides a \"limit\" query parameter if provided. For example, if \"?limit=20000\" is appended to the URL path but results_max=1000 then only up to 1000 results will be returned. | | DNSDB.Rate.OffsetMax | number | The maximum value that the offset query parameter can be. If it is higher then an HTTP 416 \"Requested Range Not Satisfiable\" response code will be returned with message \"Er",
+      "name": "| DNSDB.Rate.Expires | date | Only present for block-based quota. When the quota will expire. |",
+      "required": ""
+    },
+    {
+      "description": "| DNSDB.Rate.OffsetNotAllowed | number | True if the offset parameter is not allowed for this API key, and similar 416 error will be generated. | | DNSDB.Rate.BurstSize | number | The maximum number of API lookups that may be performed within this burst_window number of seconds. | | DNSDB.Rate.BurstWindow | number | The number of seconds over which a burst of queries is measured. |",
+      "name": "|",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Farsight DNSDB v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dnsdb-v2"
+}

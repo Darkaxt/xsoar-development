@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "atd-detonate"
+  ],
+  "arguments": [],
+  "description": "ATDDetonate | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ATDDetonate",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The filename (only in the case of report type=json). File.Type The file type. For example, \"PE\" (only in the case of a report type=json).",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "File.Size The file size(only in the case of a report type=json). File.MD5",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "File.SHA1 The SHA1 file hash of the file (only in the case of a report type=json). File.SHA256",
+      "name": "The MD5 file hash of the file (only in the case of a report type=json).",
+      "required": ""
+    },
+    {
+      "description": "File.Malicious.Vendor The vendor that made the decision that the file is malicious. File.Malicious.Description",
+      "name": "The SHA256 file hash of the file (only in the case of a report type=json).",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Indicator The indicator that was tested (only in the case of a report type=json). DBotScore.Type",
+      "name": "The reason that the vendor decided that the files are malicious.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Vendor The vendor used to calculate the score (only in the case of a report type=json). DBotScore.Score",
+      "name": "The type of the indicator (only in the case of a report type=json).",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The actual score (only in the case of a report type=json).",
+      "required": ""
+    },
+    {
+      "description": "Next AtlassianApiModule \u00bb Script Data",
+      "name": "\u00ab AssociateIndicatorsToIncident",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ATDDetonate",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/atd-detonate"
+}

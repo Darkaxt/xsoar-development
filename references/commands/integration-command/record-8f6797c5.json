@@ -1,0 +1,96 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "meraki-network-appliance-vlan-list",
+  "examples": [
+    "!meraki-network-appliance-vlan-list\nContext Example\n#\n{\n\"CiscoMeraki\"\n:\n{\n\"ApplianceVlan\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Mask used for the subnet of all bound to the template networks. Applicable only for template network. CiscoMeraki.ApplianceVlan.applianceIp The local IP address of the appliance on the VLAN.",
+      "name": "CiscoMeraki.ApplianceVlan.mask",
+      "required": ""
+    },
+    {
+      "description": "CIDR of the pool of subnets. Applicable only for template network. Each network bound to the template will automatically pick a subnet from this pool to build its own VLAN. CiscoMeraki.ApplianceVlan.dhcpBootFilename DHCP boot option for boot filename.",
+      "name": "CiscoMeraki.ApplianceVlan.cidr",
+      "required": ""
+    },
+    {
+      "description": "DHCP boot option to direct boot clients to the server to load the boot file from. CiscoMeraki.ApplianceVlan.dhcpHandling The appliance's handling of DHCP requests on this VLAN. One of 'Run a DHCP server', 'Relay DHCP to another server' or 'Do not respond to DHCP requests'.",
+      "name": "CiscoMeraki.ApplianceVlan.dhcpBootNextServer",
+      "required": ""
+    },
+    {
+      "description": "The term of DHCP leases if the appliance is running a DHCP server on this VLAN. One of '30 minutes', '1 hour', '4 hours', '12 hours', '1 day' or '1 week'. CiscoMeraki.ApplianceVlan.dnsNameservers The DNS nameservers used for DHCP responses, either \"upstream_dns\", \"google_dns\", \"opendns\", or a newline separated string of IP addresses or domain names.",
+      "name": "CiscoMeraki.ApplianceVlan.dhcpLeaseTime",
+      "required": ""
+    },
+    {
+      "description": "The ID of the desired group policy to apply to the VLAN. CiscoMeraki.ApplianceVlan.id The VLAN ID of the VLAN.",
+      "name": "CiscoMeraki.ApplianceVlan.groupPolicyId",
+      "required": ""
+    },
+    {
+      "description": "The interface ID of the VLAN. CiscoMeraki.ApplianceVlan.name The name of the VLAN.",
+      "name": "CiscoMeraki.ApplianceVlan.interfaceId",
+      "required": ""
+    },
+    {
+      "description": "The subnet of the VLAN. CiscoMeraki.ApplianceVlan.templateVlanType Type of subnetting of the VLAN. Applicable only for template network.",
+      "name": "CiscoMeraki.ApplianceVlan.subnet",
+      "required": ""
+    },
+    {
+      "description": "The translated VPN subnet if VPN and VPN subnet translation are enabled on the VLAN. CiscoMeraki.ApplianceVlan.dhcpBootOptionsEnabled Use DHCP boot options specified in other properties.",
+      "name": "CiscoMeraki.ApplianceVlan.vpnNatSubnet",
+      "required": ""
+    },
+    {
+      "description": "The DHCP fixed IP assignments on the VLAN. This should be an object that contains mappings from MAC addresses to objects that themselves each contain \"ip\" and \"name\" string fields. See the sample request/response for more details. CiscoMeraki.ApplianceVlan.dhcpRelayServerIps The IP addresses of the DHCP servers that DHCP requests should be relayed to.",
+      "name": "CiscoMeraki.ApplianceVlan.fixedIpAssignments",
+      "required": ""
+    },
+    {
+      "description": "Whether to enable IPv6 on VLAN. CiscoMeraki.ApplianceVlan.ipv6.prefixAssignments.staticApplianceIp6 Manual configuration of the IPv6 Appliance IP.",
+      "name": "CiscoMeraki.ApplianceVlan.ipv6.enabled",
+      "required": ""
+    },
+    {
+      "description": "Manual configuration of a /64 prefix on the VLAN. CiscoMeraki.ApplianceVlan.ipv6.prefixAssignments.autonomous Whether to auto assign a /64 prefix from the origin to the VLAN.",
+      "name": "CiscoMeraki.ApplianceVlan.ipv6.prefixAssignments.staticPrefix",
+      "required": ""
+    },
+    {
+      "description": "Type of the origin enum = [independent, internet]. CiscoMeraki.ApplianceVlan.ipv6.prefixAssignments.origin.interfaces Interfaces associated with the prefix.",
+      "name": "CiscoMeraki.ApplianceVlan.ipv6.prefixAssignments.origin.type",
+      "required": ""
+    },
+    {
+      "description": "Whether to enable mandatory DHCP on VLAN. CiscoMeraki.ApplianceVlan.dhcpOptions.code The code for the DHCP option. This should be an integer between 2 and 254.",
+      "name": "CiscoMeraki.ApplianceVlan.mandatoryDhcp.enabled",
+      "required": ""
+    },
+    {
+      "description": "The type for the DHCP option. One of 'text', 'ip', 'hex' or 'integer'. CiscoMeraki.ApplianceVlan.dhcpOptions.value The value for the DHCP option.",
+      "name": "CiscoMeraki.ApplianceVlan.dhcpOptions.type",
+      "required": ""
+    },
+    {
+      "description": "A text comment for the reserved range. CiscoMeraki.ApplianceVlan.reservedIpRanges.end The last IP address in the reserved range.",
+      "name": "CiscoMeraki.ApplianceVlan.reservedIpRanges.comment",
+      "required": ""
+    },
+    {
+      "description": "The first IP address in the reserved range.",
+      "name": "CiscoMeraki.ApplianceVlan.reservedIpRanges.start",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Meraki v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-meraki-v2"
+}

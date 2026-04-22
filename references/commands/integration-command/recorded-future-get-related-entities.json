@@ -1,0 +1,222 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!recorded-future-get-related-entities entityType=domain entityValue=www.google.com resultEntityType=Malware\nContext Example\n{\n\"Domain\": {\n\"Name\": \"www.google.com\",\n\"RecordedFuture\": {\n\"RelatedEntities\": {",
+    "!recorded-future-get-related-entities entityType=domain entityValue=www.google.com resultEntityType=Malware\nContext Example\n{\n\"Domain\": {\n\"Name\": \"www.google.com\",\n\"RecordedFuture\": {\n\"RelatedEntities\": {\n\"Malware\": ["
+  ],
+  "kind": "integration-command",
+  "name": "recorded-future-get-related-entities",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File SHA-256 File.SHA512 File SHA-512",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "File SHA-1 File.MD5 File MD5",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "File CRC-32 File.CTPH File CTPH",
+      "name": "File.CRC32",
+      "required": ""
+    },
+    {
+      "description": "File related entity count (IP) File.RecordedFuture.RelatedEntities.IPAddress.ID File related entity ID (IP)",
+      "name": "File.RecordedFuture.RelatedEntities.IPAddress.Count",
+      "required": ""
+    },
+    {
+      "description": "File related entity name (IP) File.RecordedFuture.RelatedEntities.Hash.Count File related entity count (Hash)",
+      "name": "File.RecordedFuture.RelatedEntities.IPAddress.Name",
+      "required": ""
+    },
+    {
+      "description": "File related entity ID (Hash) File.RecordedFuture.RelatedEntities.Hash.Name File related entity name (Hash)",
+      "name": "File.RecordedFuture.RelatedEntities.Hash.ID",
+      "required": ""
+    },
+    {
+      "description": "File related entity count (Domain) File.RecordedFuture.RelatedEntities.Domain.ID File related entity ID (Domain)",
+      "name": "File.RecordedFuture.RelatedEntities.Domain.Count",
+      "required": ""
+    },
+    {
+      "description": "File related entity name (Domain) File.RecordedFuture.RelatedEntities.Attacker.Count File related entity count (Attacker)",
+      "name": "File.RecordedFuture.RelatedEntities.Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "File related entity ID (Attacker) File.RecordedFuture.RelatedEntities.Attacker.Name File related entity name (Attacker)",
+      "name": "File.RecordedFuture.RelatedEntities.Attacker.ID",
+      "required": ""
+    },
+    {
+      "description": "File related entity count (Malware) File.RecordedFuture.RelatedEntities.Malware.ID File related entity ID (Malware)",
+      "name": "File.RecordedFuture.RelatedEntities.Malware.Count",
+      "required": ""
+    },
+    {
+      "description": "File related entity name (Malware) File.RecordedFuture.RelatedEntities.URL.Count File related entity count (URL)",
+      "name": "File.RecordedFuture.RelatedEntities.Malware.Name",
+      "required": ""
+    },
+    {
+      "description": "File related entity ID (URL) File.RecordedFuture.RelatedEntities.URL.Data File related entity name (URL)",
+      "name": "File.RecordedFuture.RelatedEntities.URL.ID",
+      "required": ""
+    },
+    {
+      "description": "IP address IP.RecordedFuture.RelatedEntities.IPAddress.Count IP related entity count (IP)",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "IP related entity ID (IP) IP.RecordedFuture.RelatedEntities.IPAddress.Name IP related entity name (IP)",
+      "name": "IP.RecordedFuture.RelatedEntities.IPAddress.ID",
+      "required": ""
+    },
+    {
+      "description": "IP related entity count (Hash) IP.RecordedFuture.RelatedEntities.Hash.ID IP related entity ID (Hash)",
+      "name": "IP.RecordedFuture.RelatedEntities.Hash.Count",
+      "required": ""
+    },
+    {
+      "description": "IP related entity name (Hash) IP.RecordedFuture.RelatedEntities.Domain.Count IP related entity count (Domain)",
+      "name": "IP.RecordedFuture.RelatedEntities.Hash.Name",
+      "required": ""
+    },
+    {
+      "description": "IP related entity ID (Domain) IP.RecordedFuture.RelatedEntities.Domain.Name IP related entity name (Domain)",
+      "name": "IP.RecordedFuture.RelatedEntities.Domain.ID",
+      "required": ""
+    },
+    {
+      "description": "IP related entity count (Attacker) IP.RecordedFuture.RelatedEntities.Attacker.ID IP related entity ID (Attacker)",
+      "name": "IP.RecordedFuture.RelatedEntities.Attacker.Count",
+      "required": ""
+    },
+    {
+      "description": "IP related entity name (Attacker) IP.RecordedFuture.RelatedEntities.Malware.Count IP related entity count (Malware)",
+      "name": "IP.RecordedFuture.RelatedEntities.Attacker.Name",
+      "required": ""
+    },
+    {
+      "description": "IP related entity ID (Malware) IP.RecordedFuture.RelatedEntities.Malware.Name IP related entity name (Malware)",
+      "name": "IP.RecordedFuture.RelatedEntities.Malware.ID",
+      "required": ""
+    },
+    {
+      "description": "IP related entity count (URL) IP.RecordedFuture.RelatedEntities.URL.ID IP related entity ID (URL)",
+      "name": "IP.RecordedFuture.RelatedEntities.URL.Count",
+      "required": ""
+    },
+    {
+      "description": "IP related entity name (URL) Domain.Name Domain name",
+      "name": "IP.RecordedFuture.RelatedEntities.URL.Data",
+      "required": ""
+    },
+    {
+      "description": "Domain related entity count (IP) Domain.RecordedFuture.RelatedEntities.IPAddress.ID Domain related entity ID (IP)",
+      "name": "Domain.RecordedFuture.RelatedEntities.IPAddress.Count",
+      "required": ""
+    },
+    {
+      "description": "Domain related entity name (IP) Domain.RecordedFuture.RelatedEntities.Hash.Count Domain related entity count (Hash)",
+      "name": "Domain.RecordedFuture.RelatedEntities.IPAddress.Name",
+      "required": ""
+    },
+    {
+      "description": "Domain related entity ID (Hash) Domain.RecordedFuture.RelatedEntities.Hash.Name Domain related entity name (Hash)",
+      "name": "Domain.RecordedFuture.RelatedEntities.Hash.ID",
+      "required": ""
+    },
+    {
+      "description": "Domain related entity count (Domain) Domain.RecordedFuture.RelatedEntities.Domain.ID Domain related entity ID (Domain)",
+      "name": "Domain.RecordedFuture.RelatedEntities.Domain.Count",
+      "required": ""
+    },
+    {
+      "description": "Domain related entity name (Domain) Domain.RecordedFuture.RelatedEntities.Attacker.Count Domain related entity count (Attacker)",
+      "name": "Domain.RecordedFuture.RelatedEntities.Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "Domain related entity ID (Attacker) Domain.RecordedFuture.RelatedEntities.Attacker.Name Domain related entity name (Attacker)",
+      "name": "Domain.RecordedFuture.RelatedEntities.Attacker.ID",
+      "required": ""
+    },
+    {
+      "description": "Domain related entity count (Malware) Domain.RecordedFuture.RelatedEntities.Malware.ID Domain related entity ID (Malware)",
+      "name": "Domain.RecordedFuture.RelatedEntities.Malware.Count",
+      "required": ""
+    },
+    {
+      "description": "Domain related entity name (Malware) Domain.RecordedFuture.RelatedEntities.URL.Count Domain related entity count (URL)",
+      "name": "Domain.RecordedFuture.RelatedEntities.Malware.Name",
+      "required": ""
+    },
+    {
+      "description": "Domain related entity ID (URL) Domain.RecordedFuture.RelatedEntities.URL.Data Domain related entity name (URL)",
+      "name": "Domain.RecordedFuture.RelatedEntities.URL.ID",
+      "required": ""
+    },
+    {
+      "description": "URL name URL.RecordedFuture.RelatedEntities.IPAddress.Count URL related entity count (IP)",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "URL related entity ID (IP) URL.RecordedFuture.RelatedEntities.IPAddress.Name URL related entity name (IP)",
+      "name": "URL.RecordedFuture.RelatedEntities.IPAddress.ID",
+      "required": ""
+    },
+    {
+      "description": "URL related entity count (Hash) URL.RecordedFuture.RelatedEntities.Hash.ID URL related entity ID (Hash)",
+      "name": "URL.RecordedFuture.RelatedEntities.Hash.Count",
+      "required": ""
+    },
+    {
+      "description": "URL related entity name (Hash) URL.RecordedFuture.RelatedEntities.Domain.Count URL related entity count (Domain)",
+      "name": "URL.RecordedFuture.RelatedEntities.Hash.Name",
+      "required": ""
+    },
+    {
+      "description": "URL related entity ID (Domain) URL.RecordedFuture.RelatedEntities.Domain.Name URL related entity name (Domain)",
+      "name": "URL.RecordedFuture.RelatedEntities.Domain.ID",
+      "required": ""
+    },
+    {
+      "description": "URL related entity count (Attacker) URL.RecordedFuture.RelatedEntities.Attacker.ID URL related entity ID (Attacker)",
+      "name": "URL.RecordedFuture.RelatedEntities.Attacker.Count",
+      "required": ""
+    },
+    {
+      "description": "URL related entity name (Attacker) URL.RecordedFuture.RelatedEntities.Malware.Count URL related entity count (Malware)",
+      "name": "URL.RecordedFuture.RelatedEntities.Attacker.Name",
+      "required": ""
+    },
+    {
+      "description": "URL related entity ID (Malware) URL.RecordedFuture.RelatedEntities.Malware.Name URL related entity name (Malware)",
+      "name": "URL.RecordedFuture.RelatedEntities.Malware.ID",
+      "required": ""
+    },
+    {
+      "description": "URL related entity count (URL) URL.RecordedFuture.RelatedEntities.URL.ID URL related entity ID (URL)",
+      "name": "URL.RecordedFuture.RelatedEntities.URL.Count",
+      "required": ""
+    },
+    {
+      "description": "URL related entity name (URL)",
+      "name": "URL.RecordedFuture.RelatedEntities.URL.Data",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

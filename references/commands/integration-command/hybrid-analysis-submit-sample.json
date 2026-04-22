@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!hybrid-analysis-scan file=bb3bed4a07c472ad7a51c19634e33ad2c9769a27fa750f096d9cca5b5b9e4616",
+  "examples": [
+    "Command Example\n!hybrid-analysis-scan file=bb3bed4a07c472ad7a51c19634e33ad2c9769a27fa750f096d9cca5b5b9e4616\nHuman Readable Output\n2. Submit a file sample\nSubmits a file from the investigation to the analysis server. The minimum required authorization is \"default\".\nBase Command\nhybrid-analysis-submit-sample\nInput",
+    "!hybrid-analysis-scan file=bb3bed4a07c472ad7a51c19634e33ad2c9769a27fa750f096d9cca5b5b9e4616\nHuman Readable Output\n2. Submit a file sample\nSubmits a file from the investigation to the analysis server. The minimum required authorization is \"default\".\nBase Command\nhybrid-analysis-submit-sample\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "hybrid-analysis-submit-sample",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "JobID of the submission. HybridAnalysis.Submit.SHA256 The SHA256 hash of the submission.",
+      "name": "HybridAnalysis.Submit.JobID",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "HybridAnalysis.Submit.EnvironmentID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Hybrid Analysis (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hybrid-analysis"
+}

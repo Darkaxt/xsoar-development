@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "crowd-strike-url-parse"
+  ],
+  "arguments": [],
+  "description": "CrowdStrikeUrlParse | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CrowdStrikeUrlParse",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The agent ID for the CrowdStrike host. CrowdStrikeUrlParse.DetectId The detection ID for the CrowdStrike alert.",
+      "name": "CrowdStrikeUrlParse.AgentId",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next CryptoCurrenciesFormat \u00bb Script Data",
+      "name": "\u00ab CrowdStrikeStreamingPreProcessing",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrikeUrlParse",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/crowd-strike-url-parse"
+}

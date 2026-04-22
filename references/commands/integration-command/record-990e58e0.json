@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Course of Action Taken",
+  "examples": [
+    "!tc-delete-victim victim_id=660\nHuman Readable Output\n#\nVictim 660 was successfully deleted.\nEdit this page\nReport an Issue\nPrevious\n\u00ab ThreatConnect v2 (Deprecated)"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect v3",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect-v3"
+}

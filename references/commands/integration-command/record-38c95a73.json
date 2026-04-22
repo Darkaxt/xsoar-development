@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "16545889-7708-48BF-BDFC-53A9E2A6942A",
+  "examples": [
+    "Command Example\n#\n!trendmicro-apex-investigation-result-list scan_status=All scan_type=\"YARA rule file\"\nContext Example\n#\n{\n\"TrendMicroApex\": {\n\"InvestigationResult\": {",
+    "!trendmicro-apex-investigation-result-list scan_status=All scan_type=\"YARA rule file\"\nContext Example\n#\n{\n\"TrendMicroApex\": {\n\"InvestigationResult\": {\n\"agentCount\": 1,\n\"creator\": \"Cortex XSOAR-PANW\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the investigation. TrendMicroApex.InvestigationResult.scanSummaryGuid The GUID of the investigation.",
+      "name": "TrendMicroApex.InvestigationResult.scanSummaryId",
+      "required": ""
+    },
+    {
+      "description": "Status of the investigation. TrendMicroApex.InvestigationResult.statusForUI Status of the investigation shown in the web console.",
+      "name": "TrendMicroApex.InvestigationResult.status",
+      "required": ""
+    },
+    {
+      "description": "Method used for the investigation. TrendMicroApex.InvestigationResult.submitTime Date",
+      "name": "TrendMicroApex.InvestigationResult.scanType",
+      "required": ""
+    },
+    {
+      "description": "TrendMicroApex.InvestigationResult.finishTime Date Date and time when the investigation was finished.",
+      "name": "Date and time when the investigation was submitted.",
+      "required": ""
+    },
+    {
+      "description": "Indicates how targets were selected for the investigation. 0-All, 1-Specific. TrendMicroApex.InvestigationResult.progressInfo.safeCount Number of agents with \"No match\" status.",
+      "name": "TrendMicroApex.InvestigationResult.specificAgentType",
+      "required": ""
+    },
+    {
+      "description": "Number of agents with \"Matched\" status. TrendMicroApex.InvestigationResult.progressInfo.pendingCount Number of agents with \"Pending\" status.",
+      "name": "TrendMicroApex.InvestigationResult.progressInfo.riskCount",
+      "required": ""
+    },
+    {
+      "description": "Number of agents with \"Timeout\" status. TrendMicroApex.InvestigationResult.progressInfo.noneCount Number of agents with \"None\" status.",
+      "name": "TrendMicroApex.InvestigationResult.progressInfo.timeoutCount",
+      "required": ""
+    },
+    {
+      "description": "Number of agents with \"Processing\" status. TrendMicroApex.InvestigationResult.progressInfo.errorCount Number of agents with errors.",
+      "name": "TrendMicroApex.InvestigationResult.progressInfo.processingCount",
+      "required": ""
+    },
+    {
+      "description": "Number of aborted agents. TrendMicroApex.InvestigationResult.progressInfo.connectionFailCount Number of agents that fail to connect.",
+      "name": "TrendMicroApex.InvestigationResult.progressInfo.abortCount",
+      "required": ""
+    },
+    {
+      "description": "The name of the investigation. TrendMicroApex.InvestigationResult.agentCount The number of agents in the investigation.",
+      "name": "TrendMicroApex.InvestigationResult.name",
+      "required": ""
+    },
+    {
+      "description": "The number of matched agents in the investigation. TrendMicroApex.InvestigationResult.serverGuidList Trend Micro GUID list of the servers.",
+      "name": "TrendMicroApex.InvestigationResult.matchedAgentCount",
+      "required": ""
+    },
+    {
+      "description": "The name of the user who created the investigation. TrendMicroApex.InvestigationResult.scanCriteriaEntity.criteriaId Unique identifier used by the server to store the criteria.",
+      "name": "TrendMicroApex.InvestigationResult.creator",
+      "required": ""
+    },
+    {
+      "description": "The name of the criteria. TrendMicroApex.InvestigationResult.scanCriteriaEntity.criteriaContent The the criteria used to perform \"registry\" investigation.",
+      "name": "TrendMicroApex.InvestigationResult.scanCriteriaEntity.criteriaName",
+      "required": ""
+    },
+    {
+      "description": "Error response if server communication is unsuccessful.",
+      "name": "TrendMicroApex.InvestigationResult.errorServers",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Trend Micro Apex One",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/trend-micro-apex"
+}

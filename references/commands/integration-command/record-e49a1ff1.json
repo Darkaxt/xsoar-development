@@ -1,0 +1,126 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!ip ip=\"8.8.8.8\"\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Score The actual score.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The autonomous system name for the IP address. HelloWorld.IP.asn_cidr The ASN CIDR.",
+      "name": "HelloWorld.IP.asn",
+      "required": ""
+    },
+    {
+      "description": "The ASN country code. HelloWorld.IP.asn_date Date",
+      "name": "HelloWorld.IP.asn_country_code",
+      "required": ""
+    },
+    {
+      "description": "HelloWorld.IP.asn_description The ASN description. HelloWorld.IP.asn_registry",
+      "name": "The date on which the ASN was assigned.",
+      "required": ""
+    },
+    {
+      "description": "The registry the ASN belongs to. HelloWorld.IP.entities Entities associated to the IP.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The actual IP address. HelloWorld.IP.network.cidr Network CIDR for the IP address.",
+      "name": "HelloWorld.IP.ip",
+      "required": ""
+    },
+    {
+      "description": "The country of the IP address. HelloWorld.IP.network.end_address The last IP address of the CIDR.",
+      "name": "HelloWorld.IP.network.country",
+      "required": ""
+    },
+    {
+      "description": "The action that happened on the event. HelloWorld.IP.network.events.actor The actor that performed the action on the event.",
+      "name": "HelloWorld.IP.network.events.action",
+      "required": ""
+    },
+    {
+      "description": "The timestamp when the event occurred. HelloWorld.IP.network.handle The handle of the network.",
+      "name": "HelloWorld.IP.network.events.timestamp",
+      "required": ""
+    },
+    {
+      "description": "The IP address version. HelloWorld.IP.network.links Links associated to the IP address.",
+      "name": "HelloWorld.IP.network.ip_version",
+      "required": ""
+    },
+    {
+      "description": "The name of the network. HelloWorld.IP.network.notices.description The description of the notice.",
+      "name": "HelloWorld.IP.network.name",
+      "required": ""
+    },
+    {
+      "description": "Links associated with the notice. HelloWorld.IP.network.notices.title Title of the notice.",
+      "name": "HelloWorld.IP.network.notices.links",
+      "required": ""
+    },
+    {
+      "description": "Handle of the parent network. HelloWorld.IP.network.raw Additional raw data for the network.",
+      "name": "HelloWorld.IP.network.parent_handle",
+      "required": ""
+    },
+    {
+      "description": "Additional remarks for the network. HelloWorld.IP.network.start_address The first IP address of the CIDR.",
+      "name": "HelloWorld.IP.network.remarks",
+      "required": ""
+    },
+    {
+      "description": "Status of the network. HelloWorld.IP.network.type The type of the network.",
+      "name": "HelloWorld.IP.network.status",
+      "required": ""
+    },
+    {
+      "description": "IP address that was queried. HelloWorld.IP.raw Additional raw data for the IP address.",
+      "name": "HelloWorld.IP.query",
+      "required": ""
+    },
+    {
+      "description": "Reputation score from HelloWorld for this IP (0 to 100, where higher is worse). IP.Address IP address.",
+      "name": "HelloWorld.IP.score",
+      "required": ""
+    },
+    {
+      "description": "The vendor reporting the IP address as malicious. IP.Malicious.Description A description explaining why the IP address was reported as malicious.",
+      "name": "IP.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The autonomous system name for the IP address. IP.Relationships.EntityA The source of the relationship.",
+      "name": "IP.ASN",
+      "required": ""
+    },
+    {
+      "description": "The destination of the relationship. IP.Relationships.Relationship The name of the relationship.",
+      "name": "IP.Relationships.EntityB",
+      "required": ""
+    },
+    {
+      "description": "The type of the source of the relationship. IP.Relationships.EntityBType The type of the destination of the relationship.",
+      "name": "IP.Relationships.EntityAType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HelloWorld",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hello-world"
+}

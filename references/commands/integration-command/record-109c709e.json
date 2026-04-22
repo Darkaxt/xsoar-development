@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "gamma-update-violation",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command",
+      "required": ""
+    },
+    {
+      "description": "Next GCenter \u00bb Configure Gamma.AI Enterprise DLP on Cortex XSOAR",
+      "name": "\u00ab G Suite Security Alert Center",
+      "required": ""
+    },
+    {
+      "description": "gamma-get-violation-list gamma-get-violation gamma-update-violation",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Gamma",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/gamma"
+}

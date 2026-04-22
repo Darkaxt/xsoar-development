@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "{'ioc_id': 5, 'ioc_uuid': '93ca5e50-13a5-4d59-8b92-b99bf4bb70fd', 'ioc_value': 'github-username-example', 'ioc_type_id': 65, 'ioc_type': 'github-username', 'ioc_description': 'This is an example', 'ioc_tags': '', 'ioc_misp': None, 'tlp_name': 'amber', 'tlp_bscolor': 'warning', 'ioc_tlp_id': 2, 'link': [], 'misp_link': None}",
+  "examples": [
+    "!iris-get-ioc-content case_id=1 ioc_id=5\nContext Example\n#\n{\n\"IRIS\"\n:\n{\n\"custom_attributes\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Case ID. IRIS.ioc_description IoC Description.",
+      "name": "IRIS.case_id",
+      "required": ""
+    },
+    {
+      "description": "IoC ID. IRIS.ioc_value IoC Value.",
+      "name": "IRIS.ioc_id",
+      "required": ""
+    },
+    {
+      "description": "IoC Type.",
+      "name": "IRIS.ioc_type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IRIS DFIR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/iris-dfir"
+}

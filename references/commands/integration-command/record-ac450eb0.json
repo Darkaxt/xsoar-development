@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "nsm-list-device-interface nsm-list-device-policy nsm-list-interface-policy",
+      "name": "nsm-list-domain-device",
+      "required": ""
+    },
+    {
+      "description": "nsm-deploy-device-configuration Docs Developer Docs",
+      "name": "nsm-assign-device-policy",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "description": "2023-03-25 20:52:59.600 UTC",
+  "examples": [
+    "!nsm-deploy-device-configuration device_id=1003 push_configuration_signature_set=\"true\" interval_in_seconds=10\nHuman Readable Output\n#\nThe current percentage of deployment for 'push_configuration_signature_set' is: 0%\nAnd the current message is: NA\nChecking again in 10 seconds...\nEdit this page\nReport an Issue"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee NSM v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-ns-mv2"
+}

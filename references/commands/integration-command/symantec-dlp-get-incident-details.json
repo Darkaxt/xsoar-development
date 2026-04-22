@@ -1,0 +1,97 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Additional Information",
+  "examples": [
+    "Command Example\n!symantec-dlp-get-incident-details incident_id=2222 custom_attributes=\"specific attributes\n\" custom_data=ca1,ca2,ca3\nContext Example\n\"SymantecDLP.Incident: {\n'ID': 2222,\n'LongID': 2222,\n'StatusCode': 'SUCCESS',",
+    "!symantec-dlp-get-incident-details incident_id=2222 custom_attributes=\"specific attributes\n\" custom_data=ca1,ca2,ca3\nContext Example\n\"SymantecDLP.Incident: {\n'ID': 2222,\n'LongID': 2222,\n'StatusCode': 'SUCCESS',\n'CreationDate': '2018-08-01T11:50:16',"
+  ],
+  "kind": "integration-command",
+  "name": "symantec-dlp-get-incident-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the incident. SymantecDLP.Incident.LongID The long ID of the incident.",
+      "name": "SymantecDLP.Incident.ID",
+      "required": ""
+    },
+    {
+      "description": "The status code of the incident. SymantecDLP.Incident.CreationDate Date",
+      "name": "SymantecDLP.Incident.StatusCode",
+      "required": ""
+    },
+    {
+      "description": "SymantecDLP.Incident.DetectionDate Date The detection date of the incident.",
+      "name": "The creation date of the incident.",
+      "required": ""
+    },
+    {
+      "description": "The severity of the incident. SymantecDLP.Incident.MessageSource The localized label that corresponds to the Symantec DLP product that generated the incident.",
+      "name": "SymantecDLP.Incident.Severity",
+      "required": ""
+    },
+    {
+      "description": "Indicates the Symantec DLP product that generated the incident. Can be: NETWORK, DISCOVER, ENDPOINT, DIM, DAR. SymantecDLP.Incident.MessageType Indicates the Symantec DLP product component that generated the incident.",
+      "name": "SymantecDLP.Incident.MessageSourceType",
+      "required": ""
+    },
+    {
+      "description": "The ID of the Message Type. SymantecDLP.Incident.Policy.Name The name of the policy.",
+      "name": "SymantecDLP.Incident.MessageTypeID",
+      "required": ""
+    },
+    {
+      "description": "The version of the policy. SymantecDLP.Incident.Policy.Label The label of the policy.",
+      "name": "SymantecDLP.Incident.Policy.Version",
+      "required": ""
+    },
+    {
+      "description": "The ID of the policy. SymantecDLP.Incident.BlockedStatus Indicates whether the message was blocked or not.",
+      "name": "SymantecDLP.Incident.Policy.ID",
+      "required": ""
+    },
+    {
+      "description": "Indicates the number of detection rule matches in the incident. SymantecDLP.Incident.RuleViolationCount Indicates the number of policy rules that were violated.",
+      "name": "SymantecDLP.Incident.MatchCount",
+      "required": ""
+    },
+    {
+      "description": "The name of the detection server that created the incident. SymantecDLP.Incident.DataOwner.Name The name of the data owner.",
+      "name": "SymantecDLP.Incident.DetectionServer",
+      "required": ""
+    },
+    {
+      "description": "The email of the data owner. SymantecDLP.Incident.EventDate Date",
+      "name": "SymantecDLP.Incident.DataOwner.Email",
+      "required": ""
+    },
+    {
+      "description": "SymantecDLP.Incident.ViolatedPolicyRule.Name The name of the rule within the policy that the message violated. SymantecDLP.Incident.ViolatedPolicyRule.ID",
+      "name": "The date and time at which the violation event occurred.",
+      "required": ""
+    },
+    {
+      "description": "The ID of the rule within the policy that the message violated. SymantecDLP.Incident.OtherViolatedPolicy.Name The name of any additional policies that the message violated.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The version of any additional policies that the message violated. SymantecDLP.Incident.OtherViolatedPolicy.Label The label of any additional policies that the message violated.",
+      "name": "SymantecDLP.Incident.OtherViolatedPolicy.Version",
+      "required": ""
+    },
+    {
+      "description": "The ID of any additional policies that the message violated. SymantecDLP.Incident.CustomAttribute.Name The custom attribute name.",
+      "name": "SymantecDLP.Incident.OtherViolatedPolicy.ID",
+      "required": ""
+    },
+    {
+      "description": "The custom attribute value.",
+      "name": "SymantecDLP.Incident.CustomAttribute.Value",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Data Loss Prevention (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-data-loss-prevention"
+}

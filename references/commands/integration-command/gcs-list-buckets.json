@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Retrieves the Access Control List of an object: gcs-list-bucket-object-policy",
+  "examples": [
+    "Command Example\ngcs-list-buckets\nHuman Readable Output\nBuckets in project my-project\nName\nTime Created\nTime Updated\nOwner ID"
+  ],
+  "kind": "integration-command",
+  "name": "gcs-list-buckets",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Bucket name (also ID). GCS.Bucket.TimeCreated Date",
+      "name": "GCS.Bucket.Name",
+      "required": ""
+    },
+    {
+      "description": "GCS.Bucket.TimeUpdated Date Last time bucket was modified.",
+      "name": "Bucket creation time.",
+      "required": ""
+    },
+    {
+      "description": "Bucket owner ID.",
+      "name": "GCS.Bucket.OwnerID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Storage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-storage"
+}

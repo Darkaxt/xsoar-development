@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "'Running', 'Pending', 'Failed', 'Cleaning up', 'Canceled', 'Done', 'Warning', 'Aborted (exceeded max hosts limit)'.",
+  "examples": [
+    "Command Example\n#\nContext Example\n#\n{\n\"Pentera.TaskRun\": {\n\"FullActionReport\": [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The task run id Pentera.TaskRun.TemplateName Returns the name of the template",
+      "name": "Pentera.TaskRun.ID",
+      "required": ""
+    },
+    {
+      "description": "Date The date when the task run started Pentera.TaskRun.EndTime",
+      "name": "Pentera.TaskRun.StartTime",
+      "required": ""
+    },
+    {
+      "description": "The date when the task run ended Pentera.TaskRun.Status The status of the task run; e.g.: 'Running', 'Pending', 'Failed', 'Cleaning up', 'Canceled', 'Done', 'Warning', 'Aborted (exceeded max hosts limit)'.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The full action report of the task run",
+      "name": "Pentera.TaskRun.FullActionReport",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Pentera",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/pentera"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "cyren-reset-sample-fetch",
+  "examples": [
+    "Command Example\n#\n!cyren-reset-sample-fetch\nHuman Readable Output\n#\nA sample incident will be created on the next execution of system\nfetch-incidents\ncommand",
+    "!cyren-reset-sample-fetch\nHuman Readable Output\n#\nA sample incident will be created on the next execution of system\nfetch-incidents\ncommand\nEdit this page\nReport an Issue"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cyren Inbox Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyren-inbox-security"
+}

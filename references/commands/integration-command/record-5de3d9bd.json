@@ -1,0 +1,74 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "AzureWAF.Subscription.tenantId",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Resource group ID. AzureWAF.ResourceGroup.location Resource group location.",
+      "name": "AzureWAF.ResourceGroup.id",
+      "required": ""
+    },
+    {
+      "description": "Resource group name. AzureWAF.ResourceGroup.type Resource group type.",
+      "name": "AzureWAF.ResourceGroup.name",
+      "required": ""
+    },
+    {
+      "description": "Resource group properties. AzureWAF.ResourceGroup.tags Resource group tags.",
+      "name": "AzureWAF.ResourceGroup.properties",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Azure Storage Table",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "AzureDevOps \u00bb Self-Deployed Application Required Permissions",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Authentication Using the Device Code Flow Azure Managed Identities Authentication Client Credentials Flow Authentication",
+      "name": "Authentication Using the Authorization Code Flow (recommended)",
+      "required": ""
+    },
+    {
+      "description": "Configure AzureWAF on Cortex XSOAR/XSIAM Commands azure-waf-policies-get",
+      "name": "Testing authentication and connectivity",
+      "required": ""
+    },
+    {
+      "description": "azure-waf-policy-update-or-create azure-waf-policy-delete azure-waf-front-door-policies-list",
+      "name": "azure-waf-policies-list-all-in-subscription",
+      "required": ""
+    },
+    {
+      "description": "azure-waf-front-door-policy-update-or-create azure-waf-front-door-policy-delete azure-waf-auth-start",
+      "name": "azure-waf-front-door-policies-list-all-in-subscription",
+      "required": ""
+    },
+    {
+      "description": "azure-waf-auth-reset azure-waf-auth-test azure-waf-generate-login-url",
+      "name": "azure-waf-auth-complete",
+      "required": ""
+    },
+    {
+      "description": "azure-waf-resource-group-list Docs Developer Docs",
+      "name": "azure-waf-subscriptions-list",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Web Application Firewall",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-waf"
+}

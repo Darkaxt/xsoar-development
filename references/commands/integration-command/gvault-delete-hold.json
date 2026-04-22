@@ -1,0 +1,15 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!gvault-remove-heldAccount matterID=6e067f1d-7fac-4ab2-bd9f-eede4f32dd32 holdID=41l9c2w2oqtmjc",
+  "examples": [
+    "!gvault-remove-heldAccount matterID=6e067f1d-7fac-4ab2-bd9f-eede4f32dd32 holdID=41l9c2w2oqtmjc\naccountID=101966936162112532972\nContext Example\nHuman Readable Output\n9. Delete a hold\nRemoves a hold by ID. This will release any Held Accounts on this Hold.\nBase Command\ngvault-delete-hold"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-delete-hold",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

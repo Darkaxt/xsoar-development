@@ -1,0 +1,124 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The set of commands pushed to the remote device.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The list of configuration mode commands to send to the device CiscoIOS.IosVrf.start The time the job started",
+      "name": "CiscoIOS.IosVrf.commands",
+      "required": ""
+    },
+    {
+      "description": "The time the job ended CiscoIOS.IosVrf.delta The time elapsed to perform all operations",
+      "name": "CiscoIOS.IosVrf.end",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Troubleshooting",
+      "required": ""
+    },
+    {
+      "description": "Therefore, the Ansible integrations will fail if you follow the instructions in Docker hardening guide (Cortex XSOAR 6.13) or",
+      "name": "The Ansible-Runner container is not suitable for running as a non-root user.",
+      "required": ""
+    },
+    {
+      "description": "or Docker hardening guide (Cortex XSOAR 8.7 On-prem) .",
+      "name": "Docker hardening guide (Cortex XSOAR 8 Cloud)",
+      "required": ""
+    },
+    {
+      "description": "docker.run.internal.asuser server configuration causes the software that is run inside of the Docker containers utilized by Cortex XSOAR to run as a non-root user account inside the container. The Ansible-Runner software is required to run as root as it applies its own isolation via bwrap to the Ansible execution environment.",
+      "name": "The",
+      "required": ""
+    },
+    {
+      "description": "https://github.com/ansible/ansible-runner/issues/611 . A workaround is to use the",
+      "name": "This is a limitation of the Ansible-Runner software itself",
+      "required": ""
+    },
+    {
+      "description": "server setting and to configure Cortex XSOAR to ignore the Ansible container image by setting the value of demisto/ansible-runner and afterwards running /reset_containers to reload any containers that might be running to ensure they receive the configuration.",
+      "name": "docker.run.internal.asuser.ignore",
+      "required": ""
+    },
+    {
+      "description": "Docker hardening guide (Cortex XSOAR 6.13) . For Cortex XSOAR 8 Cloud see step 3 in Run Docker with non-root internal users",
+      "name": "See step 2 of this",
+      "required": ""
+    },
+    {
+      "description": "Docker hardening guide (Cortex XSOAR 8 Cloud) . For Cortex XSOAR 8.7 On-prem see step 3 in Run Docker with non-root internal users",
+      "name": "of this",
+      "required": ""
+    },
+    {
+      "description": "Docker hardening guide (Cortex XSOAR 8.7 On-prem) for complete instructions. Edit this page",
+      "name": "of this",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab Ansible Azure Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Credentials Permissions Network Requirements",
+      "name": "Ansible Cisco NXOS \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Testing Idempotence State Arguement",
+      "name": "Configure Ansible Cisco IOS in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Commands ios-banner ios-bgp",
+      "name": "Complex Command Inputs",
+      "required": ""
+    },
+    {
+      "description": "ios-config ios-facts ios-interfaces",
+      "name": "ios-command",
+      "required": ""
+    },
+    {
+      "description": "ios-l3-interfaces ios-lacp ios-lacp-interfaces",
+      "name": "ios-l2-interfaces",
+      "required": ""
+    },
+    {
+      "description": "ios-linkagg ios-lldp ios-lldp-global",
+      "name": "ios-lag-interfaces",
+      "required": ""
+    },
+    {
+      "description": "ios-logging ios-ntp ios-ping",
+      "name": "ios-lldp-interfaces",
+      "required": ""
+    },
+    {
+      "description": "ios-system ios-user ios-vlans",
+      "name": "ios-static-route",
+      "required": ""
+    },
+    {
+      "description": "Troubleshooting Docs Developer Docs",
+      "name": "ios-vrf",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ansible Cisco IOS",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ansible-cisco-ios"
+}

@@ -1,0 +1,48 @@
+{
+  "aliases": [
+    "tanium-filter-computers-by-index-query-file-details"
+  ],
+  "arguments": [],
+  "description": "TaniumFilterComputersByIndexQueryFileDetails | Cortex XSOAR",
+  "examples": [
+    "!TaniumFilterQuestionByIndexQueryFileDetails sensors=\"Computer Name\" filter_type=contains filter_value=Demisto limit=5\nwill be translated to the following plain text Tanium question:\n\"Get Computer Name from all machines with any Index Query File Details[\n,\n,\n,\n,\n,"
+  ],
+  "kind": "script",
+  "name": "TaniumFilterComputersByIndexQueryFileDetails",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The computer name that contains the index query file details as specified by the filters. Tanium.QuestionResults.Count The number or results per computer name that match the filter.",
+      "name": "Tanium.QuestionResults.Computer Name",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next TAXII2ApiModule \u00bb Script Data",
+      "name": "\u00ab TagIndicatorButton",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TaniumFilterComputersByIndexQueryFileDetails",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/tanium-filter-computers-by-index-query-file-details"
+}

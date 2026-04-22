@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The ThreatQ Score of the indicator.",
+  "examples": [
+    "Command Example\n!threatq-update-score id=173317 score=2\nHuman Readable Output\n28. Download a file to Cortex XSOAR\nDownloads a file from ThreatQ to Cortex XSOAR.\nBase Command\nthreatq-download-file\nInput",
+    "!threatq-update-score id=173317 score=2\nHuman Readable Output\n28. Download a file to Cortex XSOAR\nDownloads a file from ThreatQ to Cortex XSOAR.\nBase Command\nthreatq-download-file\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-download-file",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

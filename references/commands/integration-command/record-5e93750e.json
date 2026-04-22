@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "azure-rm-dnszone-info",
+  "examples": [
+    "Command Example\n#\n!azure-rm-dnszone-info resource_group=\"myResourceGroup\" name=\"xsoarexample.com\"\nContext Example\n#\n{\n\"Azure\"\n:",
+    "!azure-rm-dnszone-info resource_group=\"myResourceGroup\" name=\"xsoarexample.com\"\nContext Example\n#\n{\n\"Azure\"\n:\n{\n\"AzureRmDnszoneInfo\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of zone dicts. Azure.AzureRmDnszoneInfo.dnszones List of zone dicts, which share the same layout as azure_rm_dnszone module parameter.",
+      "name": "Azure.AzureRmDnszoneInfo.azure_dnszones",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ansible Azure",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ansible-azure"
+}

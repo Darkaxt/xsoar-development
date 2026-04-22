@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "bluecat-am-search-response-policies-by-domain domain=\"demisto.com\"",
+  "examples": [
+    "Command Example\nbluecat-am-search-response-policies-by-domain domain=\"demisto.com\"\nHuman Readable Output\nCould not find any response policy\n4. Add a domain to a response policy\nAdds a domain to the given response policy.\nBase Command\nbluecat-am-response-policy-add-domain"
+  ],
+  "kind": "integration-command",
+  "name": "bluecat-am-response-policy-add-domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Bluecat Address Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bluecat-address-manager"
+}

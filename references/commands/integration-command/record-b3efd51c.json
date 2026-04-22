@@ -1,0 +1,139 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "PrismaCloud.AssetFindings.updatedOn",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The asset ID of the asset relationship. PrismaCloud.AssetRelationships.relationshipType The relationship type of the asset relationship.",
+      "name": "PrismaCloud.AssetRelationships.assetId",
+      "required": ""
+    },
+    {
+      "description": "The asset type ID of the asset relationship. PrismaCloud.AssetRelationships.assetType The asset type of the asset relationship.",
+      "name": "PrismaCloud.AssetRelationships.assetTypeId",
+      "required": ""
+    },
+    {
+      "description": "The asset name of the asset relationship. PrismaCloud.AssetRelationships.externalAssetId The external asset ID of the asset relationship.",
+      "name": "PrismaCloud.AssetRelationships.assetName",
+      "required": ""
+    },
+    {
+      "description": "The cloud ID of the asset relationship. PrismaCloud.AssetRelationships.cloudName The cloud name of the asset relationship.",
+      "name": "PrismaCloud.AssetRelationships.cloudId",
+      "required": ""
+    },
+    {
+      "description": "The pseudo asset of the asset relationship. PrismaCloud.AssetRelationships.region The region of the asset relationship.",
+      "name": "PrismaCloud.AssetRelationships.pseudoAsset",
+      "required": ""
+    },
+    {
+      "description": "The cloud account ID of the asset relationship. PrismaCloud.AssetRelationships.assetClassId The asset class ID of the asset relationship.",
+      "name": "PrismaCloud.AssetRelationships.cloudAccountId",
+      "required": ""
+    },
+    {
+      "description": "The asset class of the asset relationship. PrismaCloud.AssetRelationships.alertsCount.severity The severity of the alerts of the asset relationship.",
+      "name": "PrismaCloud.AssetRelationships.assetClass",
+      "required": ""
+    },
+    {
+      "description": "The number of alerts of the asset relationships. PrismaCloud.AssetRelationships.alertCountBySeverity.severity The severity of the alerts of the asset relationship.",
+      "name": "PrismaCloud.AssetRelationships.alertsCount.count",
+      "required": ""
+    },
+    {
+      "description": "The number of alerts by severity of the asset relationship. PrismaCloud.AssetRelationships.vulnerabilityCounts The number of vulnerabilities of the asset relationship.",
+      "name": "PrismaCloud.AssetRelationships.alertCountBySeverity.count",
+      "required": ""
+    },
+    {
+      "description": "The title of the problem. PrismaCloud.AssetRelationships.problem.status.statusCode The status code of the problem.",
+      "name": "PrismaCloud.AssetRelationships.problem.title",
+      "required": ""
+    },
+    {
+      "description": "The reason for the problem. PrismaCloud.AssetRelationships.problem.detail The details of the problem.",
+      "name": "PrismaCloud.AssetRelationships.problem.status.reasonPhrase",
+      "required": ""
+    },
+    {
+      "description": "The instance of the problem. PrismaCloud.AssetRelationships.problem.type The type of the problem.",
+      "name": "PrismaCloud.AssetRelationships.problem.instance",
+      "required": ""
+    },
+    {
+      "description": "The parameters of the problem. Edit this page Report an Issue",
+      "name": "PrismaCloud.AssetRelationships.problem.parameters",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Prisma Cloud DSPM Next PrismaCloud IAM \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring Commands prisma-cloud-alert-dismiss",
+      "name": "Configure Prisma Cloud v2 in Cortex",
+      "required": ""
+    },
+    {
+      "description": "prisma-cloud-alert-filter-list prisma-cloud-remediation-command-list prisma-cloud-alert-remediate",
+      "name": "prisma-cloud-alert-get-details",
+      "required": ""
+    },
+    {
+      "description": "prisma-cloud-alert-search prisma-cloud-config-search prisma-cloud-event-search",
+      "name": "prisma-cloud-alert-reopen",
+      "required": ""
+    },
+    {
+      "description": "prisma-cloud-error-file-list prisma-cloud-trigger-scan prisma-cloud-resource-get",
+      "name": "prisma-cloud-network-search",
+      "required": ""
+    },
+    {
+      "description": "prisma-cloud-user-roles-list prisma-cloud-users-list prisma-cloud-account-list",
+      "name": "prisma-cloud-resource-list",
+      "required": ""
+    },
+    {
+      "description": "prisma-cloud-account-owner-list prisma-cloud-host-finding-list prisma-cloud-permission-list",
+      "name": "prisma-cloud-account-status-get",
+      "required": ""
+    },
+    {
+      "description": "Breaking changes from the previous version of this integration - Prisma Cloud v2 Commands Additional Considerations for this version",
+      "name": "Access Keys",
+      "required": ""
+    },
+    {
+      "description": "prisma-cloud-asset-alerts-get prisma-cloud-asset-network-get prisma-cloud-asset-vulnerabilities-get",
+      "name": "prisma-cloud-code-issues-list",
+      "required": ""
+    },
+    {
+      "description": "prisma-cloud-asset-generic-get prisma-cloud-asset-findings-get prisma-cloud-asset-relationships-get",
+      "name": "prisma-cloud-asset-get",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Prisma Cloud v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/prisma-cloud-v2"
+}

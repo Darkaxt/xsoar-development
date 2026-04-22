@@ -1,0 +1,166 @@
+{
+  "aliases": [
+    "check-pivotable-domains"
+  ],
+  "arguments": [],
+  "description": "CheckPivotableDomains | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CheckPivotableDomains",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Is the domain's registrant contact name a guided pivot. PivotableDomains.PivotableRegistrantContactName.items.count Number of connected domains sharing the same registrant contact name.",
+      "name": "PivotableDomains.PivotableRegistrantContactName.pivotable",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableRegistrantContactName.items.value Registrant contact name. PivotableDomains.PivotableRegistrantOrg.pivotable",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableRegistrantOrg.items.count Number of connected domains sharing the same registrant org. PivotableDomains.PivotableRegistrantOrg.items.value",
+      "name": "Is the domain's registrant org a guided pivot.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableSslInfoOrganization.pivotable Is the domain's ssl org a guided pivot. PivotableDomains.PivotableSslInfoOrganization.items.count",
+      "name": "Registrant org.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableSslInfoOrganization.items.value SSL org. PivotableDomains.PivotableSslInfoHash.pivotable",
+      "name": "Number of connected domains sharing the same ssl org.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableSslInfoHash.items.count Number of connected domains sharing the same ssl hash. PivotableDomains.PivotableSslInfoHash.items.value",
+      "name": "Is the domain's ssl hash a guided pivot.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableNameServerHost.pivotable Is the domain's name server host a guided pivot. PivotableDomains.PivotableNameServerHost.items.count",
+      "name": "SSL hash.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableNameServerHost.items.value name server host. PivotableDomains.PivotableSoaEmail.pivotable",
+      "name": "Number of connected domains sharing the same name server host.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableSoaEmail.items.count Number of connected domains sharing the same name soa email. PivotableDomains.PivotableSoaEmail.items.value",
+      "name": "Is the domain's name soa email a guided pivot.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableIpAddress.pivotable Is the domain's IP address a guided pivot. PivotableDomains.PivotableIpAddress.items.count",
+      "name": "soa email.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableIpAddress.items.value IP address. PivotableDomains.PivotableNameServerIp.pivotable",
+      "name": "Number of connected domains sharing the same IP address.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableNameServerIp.items.count Number of connected domains sharing the same name server IP address. PivotableDomains.PivotableNameServerIp.items.value",
+      "name": "Is the domain's name server IP address a guided pivot.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableMxIp.pivotable Is the domain's mx IP address a guided pivot. PivotableDomains.PivotableMxIp.items.count",
+      "name": "name server IP address.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableMxIp.items.value mx IP address. PivotableDomains.PivotableRegistrar.pivotable",
+      "name": "Number of connected domains sharing the same mx IP address.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableRegistrar.items.count Number of connected domains sharing the same registrar. PivotableDomains.PivotableRegistrar.items.value",
+      "name": "Is the domain's registrar a guided pivot.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableSslSubject.pivotable Is the domain's SSL subject a guided pivot. PivotableDomains.PivotableSslSubject.items.count",
+      "name": "Registrar.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableSslSubject.items.value SSL subject. PivotableDomains.PivotableSslEmail.pivotable",
+      "name": "Number of connected domains sharing the SSL subject.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableSslEmail.items.count Number of connected domains sharing the SSL email. PivotableDomains.PivotableSslEmail.items.value",
+      "name": "Is the domain's SSL email a guided pivot.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableNameServerDomain.pivotable Is the domain's name server domain a guided pivot. PivotableDomains.PivotableNameServerDomain.items.count",
+      "name": "SSL email.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableNameServerDomain.items.value Name server domain. PivotableDomains.PivotableMxHost.pivotable",
+      "name": "Number of connected domains sharing the name server domain.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableMxHost.items.count Number of connected domains sharing the mx host. PivotableDomains.PivotableMxHost.items.value",
+      "name": "Is the domain's mx host a guided pivot.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableMxDomain.pivotable Is the domain's mx domain a guided pivot. PivotableDomains.PivotableMxDomain.items.count",
+      "name": "MX host.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableMxDomain.items.value MX domain. PivotableDomains.PivotableGoogleAnalytics.pivotable",
+      "name": "Number of connected domains sharing the mx domain.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableGoogleAnalytics.items.count Number of connected domains sharing the Google analytics. PivotableDomains.PivotableGoogleAnalytics.items.value",
+      "name": "Is the domain's Google analytics a guided pivot.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableAdsense.pivotable Is the domain's adsense a guided pivot. PivotableDomains.PivotableAdsense.items.count",
+      "name": "Google analytics.",
+      "required": ""
+    },
+    {
+      "description": "PivotableDomains.PivotableAdsense.items.value Adsense. Edit this page",
+      "name": "Number of connected domains sharing the adsense.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab CheckPDFEncryptionAndValidity Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data Used In",
+      "name": "CheckPointDownloadBackup \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CheckPivotableDomains",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/check-pivotable-domains"
+}

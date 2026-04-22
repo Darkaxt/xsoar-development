@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "map-values-transformer"
+  ],
+  "arguments": [],
+  "description": "MapValuesTransformer | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "MapValuesTransformer",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MapValuesTransformer",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/map-values-transformer"
+}

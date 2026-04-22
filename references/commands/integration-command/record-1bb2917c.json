@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Additional Information",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "support@cybersixgill.com Edit this page Report an Issue",
+      "name": "Contact us:",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Cyberpion Next Cybersixgill DVE Enrichment \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Configure Cybersixgill on XSOAR Fetch incidents output",
+      "name": "Use Cases",
+      "required": ""
+    },
+    {
+      "description": "cybersixgill-update-alert-status Additional Information Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    },
+    {
+      "description": "cybersixgill-update-alert-status Additional Information Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cybersixgill Actionable Alerts",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cybersixgill-actionable-alerts"
+}

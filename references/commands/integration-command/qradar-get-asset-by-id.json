@@ -1,0 +1,77 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!qradar-get-asset-by-id asset_id=1001\nContext Example\n{\n\"QRadar\": {\n\"Asset\": {\n\"Name\": {\n\"LastUser\": \"USER:admin\",",
+    "!qradar-get-asset-by-id asset_id=1001\nContext Example\n{\n\"QRadar\": {\n\"Asset\": {\n\"Name\": {\n\"LastUser\": \"USER:admin\",\n\"Value\": \"Test\""
+  ],
+  "kind": "integration-command",
+  "name": "qradar-get-asset-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the asset. Endpoint.MACAddress Asset MAC address.",
+      "name": "QRadar.Assets.ID",
+      "required": ""
+    },
+    {
+      "description": "It's in ip_addresses - value QRadar.Assets.ComplianceNotes.Value Compliance notes",
+      "name": "Endpoint.IPAddress",
+      "required": ""
+    },
+    {
+      "description": "Compliance plan QRadar.Assets.CollateralDamagePotential.Value Collateral damage potential",
+      "name": "QRadar.Assets.CompliancePlan.Value",
+      "required": ""
+    },
+    {
+      "description": "CVSSScore QRadar.Assets.Name.Value Name of the asset",
+      "name": "QRadar.Assets.AggregatedCVSSScore.Value",
+      "required": ""
+    },
+    {
+      "description": "Name of the asset's group Endpoint.Domain DNS name",
+      "name": "QRadar.Assets.GroupName",
+      "required": ""
+    },
+    {
+      "description": "Asset OS QRadar.Assets.Weight.Value Asset weight",
+      "name": "Endpoint.OS",
+      "required": ""
+    },
+    {
+      "description": "Vulnerabilities QRadar.Assets.Location Location.",
+      "name": "QRadar.Assets.Vulnerabilities.Value",
+      "required": ""
+    },
+    {
+      "description": "The asset description. QRadar.Assets.SwitchID Switch ID",
+      "name": "QRadar.Assets.Description",
+      "required": ""
+    },
+    {
+      "description": "Switch port. QRadar.Assets.Name.LastUser Last user who updated the name",
+      "name": "QRadar.Assets.SwitchPort",
+      "required": ""
+    },
+    {
+      "description": "Last user who updated the Aggregated CVSS Score QRadar.Assets.Weight.LastUser Last user who updated the weight",
+      "name": "QRadar.Assets.AggregatedCVSSScore.LastUser",
+      "required": ""
+    },
+    {
+      "description": "Last user who updated the compliance notes QRadar.Assets.CompliancePlan.LastUser Last user who updated the compliance plan",
+      "name": "QRadar.Assets.ComplianceNotes.LastUser",
+      "required": ""
+    },
+    {
+      "description": "Last user who updated the collateral damage potential QRadar.Assets.Vulnerabilities.LastUser Last user who updated the vulnerabilities",
+      "name": "QRadar.Assets.CollateralDamagePotential.LastUser",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM QRadar (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/q-radar"
+}

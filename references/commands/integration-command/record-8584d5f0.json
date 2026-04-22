@@ -1,0 +1,86 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "reason: DomainIsWellKnownDea",
+  "examples": [
+    "!domain domain=example.com\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Reliability The reliability score of the vendor.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. Domain.Name The name of the domain that was checked.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Name of the servers of the domain. Domain.UpdatedDate Date",
+      "name": "Domain.NameServers",
+      "required": ""
+    },
+    {
+      "description": "Domain.CreationDate Date The creation date of the domain. Format is ISO8601 (i.e.,'2020-04-30T10:35:00.000Z').",
+      "name": "The date that the domain was last updated.",
+      "required": ""
+    },
+    {
+      "description": "The name of the registrar. Domain.Registrar.AbuseEmail The email address of the contact for reporting abuse.",
+      "name": "Domain.Registrar.Name",
+      "required": ""
+    },
+    {
+      "description": "The phone number of the contact for reporting abuse. Domain.Admin.Country The country of the domain administrator.",
+      "name": "Domain.Registrar.AbusePhone",
+      "required": ""
+    },
+    {
+      "description": "The email address of the domain administrator. Domain.Admin.Name The name of the domain administrator.",
+      "name": "Domain.Admin.Email",
+      "required": ""
+    },
+    {
+      "description": "The phone number of the domain administrator. Domain.Tech.Country The country of tech administrator.",
+      "name": "Domain.Admin.Phone",
+      "required": ""
+    },
+    {
+      "description": "The name of the tech administrator. Domain.Tech.Email The email of the tech administrator.",
+      "name": "Domain.Tech.Name",
+      "required": ""
+    },
+    {
+      "description": "The organization of the tech administrator. Domain.WHOIS.NameServers A CSV string of name servers, for example 'ns1.bla.com, ns2.bla.com'.",
+      "name": "Domain.Tech.Organization",
+      "required": ""
+    },
+    {
+      "description": "Date The creation date of the domain. Format is ISO8601 (i.e., '2020-04-30T10:35:00.000Z'). Domain.WHOIS.UpdatedDate",
+      "name": "Domain.WHOIS.CreationDate",
+      "required": ""
+    },
+    {
+      "description": "The date when the domain was last updated. Format is ISO8601 (i.e., '2020-04-30T10:35:00.000Z'). Domain.WHOIS.ExpirationDate Date",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The expiration date of the domain.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Email Hippo",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/email-hippo"
+}

@@ -1,0 +1,80 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "get-mapping-fields",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "description": "attributes-to-exclude",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next ActiveMQ \u00bb Use Cases",
+      "name": "\u00ab Active Directory Authentication",
+      "required": ""
+    },
+    {
+      "description": "Commands ad-expire-password ad-modify-password-never-expire",
+      "name": "Configure Active Directory Query v2 in Cortex",
+      "required": ""
+    },
+    {
+      "description": "ad-search ad-add-to-group ad-remove-from-group",
+      "name": "ad-create-user",
+      "required": ""
+    },
+    {
+      "description": "ad-delete-user ad-create-contact ad-update-contact",
+      "name": "ad-update-user",
+      "required": ""
+    },
+    {
+      "description": "ad-enable-account ad-unlock-account ad-set-new-password",
+      "name": "ad-disable-account",
+      "required": ""
+    },
+    {
+      "description": "ad-modify-user-ou ad-get-user ad-get-computer",
+      "name": "ad-modify-computer-ou",
+      "required": ""
+    },
+    {
+      "description": "ad-create-group ad-delete-group ad-update-group",
+      "name": "ad-get-group-members",
+      "required": ""
+    },
+    {
+      "description": "iam-create-user Create User Results iam-get-user",
+      "name": "ad-test-credentials",
+      "required": ""
+    },
+    {
+      "description": "iam-update-user Update User Results iam-disable-user",
+      "name": "Get User Results",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring Breaking changes from the previous version of this integration - Active Directory Query v2",
+      "name": "iam-disable-user",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Active Directory Query v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/active-directory-query-v2"
+}

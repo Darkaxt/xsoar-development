@@ -1,0 +1,497 @@
+{
+  "aliases": [
+    "time-components"
+  ],
+  "arguments": [
+    {
+      "description": "value 2022-01-23 01:23:45 +00:00 time_zone",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "key",
+      "required": ""
+    },
+    {
+      "description": "value 2022-01-23 01:23:45 +00:00 time_zone",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "key",
+      "name": "+09:00",
+      "required": ""
+    },
+    {
+      "description": "value 1642868625 time_zone",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "key",
+      "required": ""
+    },
+    {
+      "description": "value 2022-01-23 01:23:45 +00:00 time_zone",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "day_of_week_full_name",
+      "name": "key",
+      "required": ""
+    },
+    {
+      "description": "value 2022-01-23 01:23:45 +00:00 time_zone",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "key iso_8601",
+      "name": "Asia/Tokyo",
+      "required": ""
+    },
+    {
+      "description": "value 2022-01-23 01:23:45 +00:00 time_zone",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "key iso_8601",
+      "name": "2022-01-01 00:00:00 +09:00",
+      "required": ""
+    },
+    {
+      "description": "value now time_zone",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "key iso_8601",
+      "name": "+09:00",
+      "required": ""
+    },
+    {
+      "description": "value <Table 1> dt",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": ".=val.day_of_week_3_letter + \", \" + val.day + \" \" + val.month_3_letter + \" \" + val.year + \" \" + val[\"HH:mm:ss\"] + \" \" + val.time_zone_hhmm",
+      "required": ""
+    }
+  ],
+  "description": "TimeComponents | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "TimeComponents",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Get all the time components from the time taken",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "value 2022-01-23 01:23:45 +00:00 time_zone",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "Output",
+      "name": "key",
+      "required": ""
+    },
+    {
+      "description": "\"year\" : 2022",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"year_4_digit\" : \"2022\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"month\" : 1",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"month_3_letter\" : \"Jan\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"month_full_name\" : \"January\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"month_2_digit\" : \"01\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day\" : 23",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day_2_digit\" : \"23\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day_of_week\" : 0",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day_of_week_3_letter\" : \"Sun\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day_of_week_full_name\" : \"Sunday\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day_of_year\" : 23",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day_of_year_3_digit\" : \"023\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"hour\" : 1",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"hour_12_clock\" : 1",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"hour_2_digit_24_clock\" : \"01\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"hour_2_digit_12_clock\" : \"01\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"hour_of_day\" : 1.3958333333333333",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"minute\" : 23",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"minute_2_digit\" : \"23\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"minute_of_day\" : 47.75",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"second\" : 45",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"second_2_digit\" : \"45\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"second_of_day\" : 2865",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"millisecond\" : 0",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"period_12_clock\" : \"AM\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"time_zone_hhmm\" : \"+0000\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"time_zone_offset\" : 0.0",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"time_zone_abbreviations\" : [",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"UTC\" ,",
+      "name": "\"GMT\"",
+      "required": ""
+    },
+    {
+      "description": "] , \"unix_epoch_time\"",
+      "name": "\"WET\"",
+      "required": ""
+    },
+    {
+      "description": "1642901025 , \"iso_8601\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"2022-01-23T01:23:45+00:00\" , \"y-m-d\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"2022-1-23\" , \"yyyy-mm-dd\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"2022-01-23\" , \"h:m:s\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"1:23:45\" , \"H:m:s\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"1:23:45\" , \"hh:mm:ss\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"01:23:45\" , \"HH:mm:ss\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"01:23:45\" } Get all the time components in a specific time zone",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "value 2022-01-23 01:23:45 +00:00 time_zone",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "key Output",
+      "name": "+09:00",
+      "required": ""
+    },
+    {
+      "description": "\"year\" : 2022",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"year_4_digit\" : \"2022\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"month\" : 1",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"month_3_letter\" : \"Jan\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"month_full_name\" : \"January\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"month_2_digit\" : \"01\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day\" : 23",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day_2_digit\" : \"23\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day_of_week\" : 0",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day_of_week_3_letter\" : \"Sun\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day_of_week_full_name\" : \"Sunday\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day_of_year\" : 23",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"day_of_year_3_digit\" : \"023\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"hour\" : 10",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"hour_12_clock\" : 10",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"hour_2_digit_24_clock\" : \"10\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"hour_2_digit_12_clock\" : \"10\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"hour_of_day\" : 10.395833333333332",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"minute\" : 23",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"minute_2_digit\" : \"23\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"minute_of_day\" : 263.75",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"second\" : 45",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"second_2_digit\" : \"45\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"second_of_day\" : 15825",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"millisecond\" : 0",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"period_12_clock\" : \"AM\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"time_zone_hhmm\" : \"+0900\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"time_zone_offset\" : 540.0",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"time_zone_abbreviations\" : [",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"KST\" ,",
+      "name": "\"JST\"",
+      "required": ""
+    },
+    {
+      "description": "] , \"unix_epoch_time\"",
+      "name": "\"WIT\"",
+      "required": ""
+    },
+    {
+      "description": "1642901025 , \"iso_8601\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"2022-01-23T10:23:45+09:00\" , \"y-m-d\"",
+      "name": ":",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TimeComponents",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/time-components"
+}

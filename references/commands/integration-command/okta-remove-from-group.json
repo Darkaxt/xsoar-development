@@ -1,0 +1,15 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!okta-add-to-group username=test@this.com groupName=test1",
+  "examples": [
+    "!okta-add-to-group username=test@this.com groupName=test1\nWar Room Output\n20 Remove a user from a group\nRemoves a user from a group with the\nOKTA_GROUP\ntype.\nBase Command\nokta-remove-from-group"
+  ],
+  "kind": "integration-command",
+  "name": "okta-remove-from-group",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "okta (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta"
+}

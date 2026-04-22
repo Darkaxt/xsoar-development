@@ -1,0 +1,239 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "akamai-siem-get-events",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Get security events from Akamai WAF.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "akamai-siem-get-events",
+      "required": ""
+    },
+    {
+      "description": "IP address involved in the attack. Akamai.SIEM.AttackData.ConfigID Unique identifier of the security configuration involved.",
+      "name": "Akamai.SIEM.AttackData.clientIP",
+      "required": ""
+    },
+    {
+      "description": "Unique identifier of the policy configuration involved. Akamai.SIEM.AttackData.Geo.Asn Geographic ASN location of the IP address involved in the attack.",
+      "name": "Akamai.SIEM.AttackData.PolicyID",
+      "required": ""
+    },
+    {
+      "description": "City of the IP address involved in the attack. Akamai.SIEM.AttackData.Geo.Continent Continent of the IP address involved in the attack.",
+      "name": "Akamai.SIEM.AttackData.Geo.City",
+      "required": ""
+    },
+    {
+      "description": "Country of the IP address involved in the attack. Akamai.SIEM.AttackData.Geo.RegionCode Region code of the IP address involved in the attack.",
+      "name": "Akamai.SIEM.AttackData.Geo.Country",
+      "required": ""
+    },
+    {
+      "description": "HTTP messege size in bytes. Akamai.SIEM.AttackData.HttpMessage.Host HTTP messege host.",
+      "name": "Akamai.SIEM.AttackData.HttpMessage.Bytes",
+      "required": ""
+    },
+    {
+      "description": "HTTP messege method. Akamai.SIEM.AttackData.HttpMessage.Path HTTP messege path.",
+      "name": "Akamai.SIEM.AttackData.HttpMessage.Method",
+      "required": ""
+    },
+    {
+      "description": "HTTP messege port. Akamai.SIEM.AttackData.HttpMessage.Protocol HTTP messege protocol.",
+      "name": "Akamai.SIEM.AttackData.HttpMessage.Port",
+      "required": ""
+    },
+    {
+      "description": "HTTP messege query. Akamai.SIEM.AttackData.HttpMessage.RequestHeaders HTTP messege request headers.",
+      "name": "Akamai.SIEM.AttackData.HttpMessage.Query",
+      "required": ""
+    },
+    {
+      "description": "HTTP messege request ID. Akamai.SIEM.AttackData.HttpMessage.ResponseHeaders HTTP message response headers.",
+      "name": "Akamai.SIEM.AttackData.HttpMessage.RequestID",
+      "required": ""
+    },
+    {
+      "description": "Date HTTP messege epoch start time. Akamai.SIEM.AttackData.HttpMessage.Status",
+      "name": "Akamai.SIEM.AttackData.HttpMessage.Start",
+      "required": ""
+    },
+    {
+      "description": "HTTP messege status code. IP.Address IP address.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The autonomous system name for the IP address, for example: \"AS8948\". IP.Geo.Country The country in which the IP address is located.",
+      "name": "IP.ASN",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Example",
+      "required": ""
+    },
+    {
+      "description": "\"Akamai\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": [ {",
+      "name": "\"SIEM\"",
+      "required": ""
+    },
+    {
+      "description": ": { \"ClientIP\"",
+      "name": "\"AttackData\"",
+      "required": ""
+    },
+    {
+      "description": "\"8.8.8.8\" , \"ConfigID\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"50170\" , \"PolicyID\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"1234_89452\" , \"RuleActions\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "[ \"alert\" ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "] , \"RuleMessages\"",
+      "name": "\"deny\"",
+      "required": ""
+    },
+    {
+      "description": "[ \"Custom_RegEX_Rule\" ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "] , \"RuleTags\"",
+      "name": "\"No Accept Header AND No User Agent Header\"",
+      "required": ""
+    },
+    {
+      "description": "[ \"example\" ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "] , \"Rules\"",
+      "name": "\"No-AH-UA\"",
+      "required": ""
+    },
+    {
+      "description": "[ \"642118\" ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "] } ,",
+      "name": "\"642119\"",
+      "required": ""
+    },
+    {
+      "description": ": { \"Asn\"",
+      "name": "\"Geo\"",
+      "required": ""
+    },
+    {
+      "description": "\"16509\" , \"City\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"FRANKFURT\" , \"Continent\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"EU\" , \"Country\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"DE\" , \"RegionCode\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"HE\" } ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ": { \"Bytes\"",
+      "name": "\"HttpMessage\"",
+      "required": ""
+    },
+    {
+      "description": "\"296\" , \"Host\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"wordpress.panw.ninja\" , \"Method\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"POST\" , \"Path\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"/wp-cron.php\" , \"Port\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"80\" , \"Protocol\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"HTTP/1.1\" , \"RequestHeaders\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"Host\" , \"RequestId\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"87bb604\" , \"ResponseHeaders\"",
+      "name": ":",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Akamai WAF SIEM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/akamai-waf-siem"
+}

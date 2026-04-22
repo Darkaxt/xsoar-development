@@ -1,0 +1,102 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!ip ip=8.8.8.8\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious",
+    "!ip ip=8.8.8.8\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious\n\u00ab Investigation & Response\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "continentCode IP-API.zip zip",
+      "name": "IP-API.continentCode",
+      "required": ""
+    },
+    {
+      "description": "mobile IP-API.reverse reverse",
+      "name": "IP-API.mobile",
+      "required": ""
+    },
+    {
+      "description": "countryCode IP-API.org org",
+      "name": "IP-API.countryCode",
+      "required": ""
+    },
+    {
+      "description": "isp IP-API.currentTime currentTime",
+      "name": "IP-API.isp",
+      "required": ""
+    },
+    {
+      "description": "query IP-API.city city",
+      "name": "IP-API.query",
+      "required": ""
+    },
+    {
+      "description": "lon IP-API.proxy proxy",
+      "name": "IP-API.lon",
+      "required": ""
+    },
+    {
+      "description": "district IP-API.countryCode3 countryCode3",
+      "name": "IP-API.district",
+      "required": ""
+    },
+    {
+      "description": "currency IP-API.callingCode callingCode",
+      "name": "IP-API.currency",
+      "required": ""
+    },
+    {
+      "description": "as IP-API.status status",
+      "name": "IP-API.as",
+      "required": ""
+    },
+    {
+      "description": "offset IP-API.continent continent",
+      "name": "IP-API.offset",
+      "required": ""
+    },
+    {
+      "description": "region IP-API.country country",
+      "name": "IP-API.region",
+      "required": ""
+    },
+    {
+      "description": "timezone IP-API.hosting hosting",
+      "name": "IP-API.timezone",
+      "required": ""
+    },
+    {
+      "description": "asname IP-API.lat lat",
+      "name": "IP-API.asname",
+      "required": ""
+    },
+    {
+      "description": "regionName DBotScore.Indicator The indicator that was tested.",
+      "name": "IP-API.regionName",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Score The actual score. DBotScore.Type",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Vendor The vendor used to calculate the score. DBotScore.Reliability",
+      "name": "The type of indicator.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Reliability of the source providing the intelligence data.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IP-API",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ip-api"
+}

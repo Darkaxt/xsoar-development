@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!wiz-set-issue-due-date issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\" due_at=\"2022-01-20\"",
+  "examples": [
+    "Command Example\n#\n!wiz-set-issue-due-date issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\" due_at=\"2022-01-20\"\nwiz-clear-issue-due-date\n#\nClear a due date for an Issue.\nBase Command\nwiz-clear-issue-due-date",
+    "!wiz-set-issue-due-date issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\" due_at=\"2022-01-20\"\nwiz-clear-issue-due-date\n#\nClear a due date for an Issue.\nBase Command\nwiz-clear-issue-due-date\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "wiz-clear-issue-due-date",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Wiz",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/wiz"
+}

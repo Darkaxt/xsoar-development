@@ -1,0 +1,186 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2020-05-26T13:18:26.429787Z",
+  "examples": [
+    "!GetIndicatorContext value=\"eicar@sekoia.io\" type=\"email-addr\"\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Observable type SEKOIAIntelligenceCenter.items.id Unique identifier of the item",
+      "name": "SEKOIAIntelligenceCenter.items.type",
+      "required": ""
+    },
+    {
+      "description": "Date Beginning of the item validity date SEKOIAIntelligenceCenter.items.objects.x_inthreat_sources_refs",
+      "name": "SEKOIAIntelligenceCenter.items.objects.valid_from",
+      "required": ""
+    },
+    {
+      "description": "Unique identifier of the observable source SEKOIAIntelligenceCenter.items.objects.spec_version STIX specification version",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Is this indicator from a SEKOIA FLINT report SEKOIAIntelligenceCenter.items.objects.lang Language of the indicator data",
+      "name": "SEKOIAIntelligenceCenter.items.objects.x_ic_is_in_flint",
+      "required": ""
+    },
+    {
+      "description": "UUID of the impacted locations SEKOIAIntelligenceCenter.items.objects.id UUID of the objects",
+      "name": "SEKOIAIntelligenceCenter.items.objects.x_ic_impacted_locations",
+      "required": ""
+    },
+    {
+      "description": "Unique identifier of the creator of the item SEKOIAIntelligenceCenter.items.objects.modified Date",
+      "name": "SEKOIAIntelligenceCenter.items.objects.created_by_ref",
+      "required": ""
+    },
+    {
+      "description": "SEKOIAIntelligenceCenter.items.objects.type STIX Object type SEKOIAIntelligenceCenter.items.objects.revoked",
+      "name": "Modification date of the observable",
+      "required": ""
+    },
+    {
+      "description": "Is this item revoked SEKOIAIntelligenceCenter.items.objects.created Date",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "SEKOIAIntelligenceCenter.items.objects.x_ic_observable_types Intelligence Center observable types SEKOIAIntelligenceCenter.items.objects.pattern_type",
+      "name": "Creation date of the item",
+      "required": ""
+    },
+    {
+      "description": "STIX pattern type SEKOIAIntelligenceCenter.items.objects.name Name of the item",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "STIX pattern SEKOIAIntelligenceCenter.items.objects.indicator_types STIX indicator types",
+      "name": "SEKOIAIntelligenceCenter.items.objects.pattern",
+      "required": ""
+    },
+    {
+      "description": "Unique identifier of the Object Marking reference (TLP) SEKOIAIntelligenceCenter.items.objects.x_ic_impacted_sectors UUID of the impacted sectors",
+      "name": "SEKOIAIntelligenceCenter.items.objects.object_marking_refs",
+      "required": ""
+    },
+    {
+      "description": "Name of the kill chain used SEKOIAIntelligenceCenter.items.objects.kill_chain_phases.phase_name Name of the kill chain phase",
+      "name": "SEKOIAIntelligenceCenter.items.objects.kill_chain_phases.kill_chain_name",
+      "required": ""
+    },
+    {
+      "description": "Indicator confidence score SEKOIAIntelligenceCenter.items.objects.x_ic_deprecated Is the item deprecated",
+      "name": "SEKOIAIntelligenceCenter.items.objects.confidence",
+      "required": ""
+    },
+    {
+      "description": "Date Expiration date of the item SEKOIAIntelligenceCenter.items.objects.x_ic_external_refs",
+      "name": "SEKOIAIntelligenceCenter.items.objects.valid_until",
+      "required": ""
+    },
+    {
+      "description": "External references SEKOIAIntelligenceCenter.items.objects.first_seen Date",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "SEKOIAIntelligenceCenter.items.objects.aliases Item aliases names SEKOIAIntelligenceCenter.items.objects.is_family",
+      "name": "Item first seen date",
+      "required": ""
+    },
+    {
+      "description": "Is the item part of a family SEKOIAIntelligenceCenter.items.objects.external_references.description Object external references description",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "Object external references source name SEKOIAIntelligenceCenter.items.objects.external_references.url Object external references URL",
+      "name": "SEKOIAIntelligenceCenter.items.objects.external_references.source_name",
+      "required": ""
+    },
+    {
+      "description": "Malware capabilities SEKOIAIntelligenceCenter.items.objects.malware_types Malware type",
+      "name": "SEKOIAIntelligenceCenter.items.objects.capabilities",
+      "required": ""
+    },
+    {
+      "description": "Malware implementation languages SEKOIAIntelligenceCenter.items.objects.description Item description",
+      "name": "SEKOIAIntelligenceCenter.items.objects.implementation_languages",
+      "required": ""
+    },
+    {
+      "description": "Date Stop time date SEKOIAIntelligenceCenter.items.objects.relationship_type",
+      "name": "SEKOIAIntelligenceCenter.items.objects.stop_time",
+      "required": ""
+    },
+    {
+      "description": "STIX object relationship type SEKOIAIntelligenceCenter.items.objects.target_ref Target reference UUID",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Source reference UUID SEKOIAIntelligenceCenter.items.objects.start_time Date",
+      "name": "SEKOIAIntelligenceCenter.items.objects.source_ref",
+      "required": ""
+    },
+    {
+      "description": "SEKOIAIntelligenceCenter.items.objects.x_ic_is_sector Is the object a sector SEKOIAIntelligenceCenter.items.objects.contact_information",
+      "name": "Object start time",
+      "required": ""
+    },
+    {
+      "description": "Object contact information SEKOIAIntelligenceCenter.items.objects.x_ic_is_source Is the object a source",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Associated sectors SEKOIAIntelligenceCenter.items.objects.identity_class Object identity class",
+      "name": "SEKOIAIntelligenceCenter.items.objects.sectors",
+      "required": ""
+    },
+    {
+      "description": "Object definition type SEKOIAIntelligenceCenter.items.objects.definition.tlp TLP type",
+      "name": "SEKOIAIntelligenceCenter.items.objects.definition_type",
+      "required": ""
+    },
+    {
+      "description": "Is more information available IP.Address IP address",
+      "name": "SEKOIAIntelligenceCenter.has_more",
+      "required": ""
+    },
+    {
+      "description": "The URL Domain.Name The domain name, for example: \"google.com\".",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "The indicator name. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Score The actual score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SEKOIAIntelligenceCenter",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sekoia-intelligence-center"
+}

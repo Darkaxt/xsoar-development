@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "batch-data"
+  ],
+  "arguments": [],
+  "description": "BatchData | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "BatchData",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next BeforeRelativeDate \u00bb Script Data",
+      "name": "\u00ab BaseScript",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BatchData",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/batch-data"
+}

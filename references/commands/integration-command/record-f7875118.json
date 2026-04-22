@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Group deleted successfully!",
+  "examples": [
+    "Command Example\n#\n!gophish-get-landing-page id=1\nContext Example\n#\n{\n\"Gophish\": {\n\"LandingPage\": {",
+    "!gophish-get-landing-page id=1\nContext Example\n#\n{\n\"Gophish\": {\n\"LandingPage\": {\n\"capture_credentials\": true,\n\"capture_passwords\": false,"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "info about the landing page",
+      "name": "Gophish.LandingPage",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Gophish",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/gophish"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Upload a file from Cortex XSOAR to Archer: archer-upload-file",
+  "examples": [
+    "Command Example\n!archer-create-record applicationId=\"75\" fieldsToValues=\"{\\\"Description\\\":\\\"Demisto Fraud Referrer \\\",\\\"Date/Time Occurred\\\":\\\"3/23/2018 7:00 AM\\\",\\\"Date/Time Identified\\\":\\\"3/23/2018 7:00 AM\\\",\\\"Date/Time Reported\\\":\\\"3/23/2018 7:00 AM\\\",\\\"Executive Summary\\\":\\\"test\\\", \\\"Incident Report\\\": \\\"test incident report from Demisto\\\"}\"\nRaw Output\n{\n\"Record\":{\n\"Fields\":{\n\"Date/Time Identified\":\"3/23/2018 7:00 AM\",\n\"Date/Time Occurred\":\"3/23/2018 7:00 AM\",",
+    "!archer-create-record applicationId=\"75\" fieldsToValues=\"{\\\"Description\\\":\\\"Demisto Fraud Referrer \\\",\\\"Date/Time Occurred\\\":\\\"3/23/2018 7:00 AM\\\",\\\"Date/Time Identified\\\":\\\"3/23/2018 7:00 AM\\\",\\\"Date/Time Reported\\\":\\\"3/23/2018 7:00 AM\\\",\\\"Executive Summary\\\":\\\"test\\\", \\\"Incident Report\\\": \\\"test incident report from Demisto\\\"}\"\nRaw Output\n{\n\"Record\":{\n\"Fields\":{\n\"Date/Time Identified\":\"3/23/2018 7:00 AM\",\n\"Date/Time Occurred\":\"3/23/2018 7:00 AM\",\n\"Date/Time Reported\":\"3/23/2018 7:00 AM\","
+  ],
+  "kind": "integration-command",
+  "name": "archer-create-record",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

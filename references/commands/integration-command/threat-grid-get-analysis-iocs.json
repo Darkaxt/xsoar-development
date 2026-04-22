@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"MD5\": \"6dec1a3d1e4df557c2dba87c16f75542\"",
+  "examples": [
+    "Command Example\n!threat-grid-get-analysis-iocs id=a6cc7ae4e3318e98d94e8a053dd72c47\nContext Example\n{\n\"DBotScore\": [\n{\n\"Vendor\": \"ThreatGrid\",\n\"Indicator\": \"antivirus-flagged-artifact\",",
+    "!threat-grid-get-analysis-iocs id=a6cc7ae4e3318e98d94e8a053dd72c47\nContext Example\n{\n\"DBotScore\": [\n{\n\"Vendor\": \"ThreatGrid\",\n\"Indicator\": \"antivirus-flagged-artifact\",\n\"Score\": 2,"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-analysis-iocs",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The title of the IOC ThreatGrid.IOCs.Confidence The confidence of the IOC",
+      "name": "ThreatGrid.IOCs.Title",
+      "required": ""
+    },
+    {
+      "description": "The severity of the IOC ThreatGrid.IOCs.IOC The Threat Grid IOC",
+      "name": "ThreatGrid.IOCs.Severity",
+      "required": ""
+    },
+    {
+      "description": "The IOC category of the IOC DBotScore.Indicator The indicator value",
+      "name": "ThreatGrid.IOCs.IOCCategory",
+      "required": ""
+    },
+    {
+      "description": "The indicator vendor DBotScore.Type The indicator type",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator score ThreatGrid.IOCs.Data.IP The IP of the IOC",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The URL of the IOC ThreatGrid.IOCs.Data.Domain The domain of the IOC",
+      "name": "ThreatGrid.IOCs.Data.URL",
+      "required": ""
+    },
+    {
+      "description": "The path of the IOC ThreatGrid.IOCs.Data.SHA256 SHA-256 value of the IOC",
+      "name": "ThreatGrid.IOCs.Data.Path",
+      "required": ""
+    },
+    {
+      "description": "IOC tags",
+      "name": "ThreatGrid.IOCs.Tags",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

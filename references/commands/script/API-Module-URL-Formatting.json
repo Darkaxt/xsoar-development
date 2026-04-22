@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "format-url-api-module"
+  ],
+  "arguments": [],
+  "description": "API Module: URL Formatting | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "API Module: URL Formatting",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "API Module: URL Formatting",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/format-url-api-module"
+}

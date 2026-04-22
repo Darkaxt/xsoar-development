@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Whether to share the comment with IronDome.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "irondefense-comment-alert",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "2. Add a comment to an alert Adds a comment to an IronDefense alert. Base Command",
+      "name": "There are no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "irondefense-comment-alert",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IronDefense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/iron-defense"
+}

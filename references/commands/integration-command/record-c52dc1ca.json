@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "CybleEvents.AlertGroup",
+  "examples": [
+    "Command Example\n#\n!\nupdate-alert-data\nids\n=\n\"id1,id2\"\nstatus",
+    "!\nupdate-alert-data\nids\n=\n\"id1,id2\"\nstatus\n=\n\"UNDER_REVIEW,RESOLVED\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The alert ID that was updated. CybleEvents.AlertUpdate.status The updated status.",
+      "name": "CybleEvents.AlertUpdate.id",
+      "required": ""
+    },
+    {
+      "description": "The updated user severity. CybleEvents.AlertUpdate.service The service associated with the alert.",
+      "name": "CybleEvents.AlertUpdate.user_severity",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CybleEvents v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cybleeventsv2"
+}

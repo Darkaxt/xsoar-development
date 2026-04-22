@@ -1,0 +1,135 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Argument",
+      "required": ""
+    }
+  ],
+  "description": "Mandiant.Malware.inherently_malicious",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The number of events in the Campaign timeline. Mandiant.Campaign.counts.campaigns The number of other Campaigns associated with the Campaign.",
+      "name": "Mandiant.Campaign.counts.timeline",
+      "required": ""
+    },
+    {
+      "description": "The number of Malware Families associated with the Campaign. Mandiant.Campaign.counts.actor_collaborations The number of Threat Actor Collaborations associated with the Campaign.",
+      "name": "Mandiant.Campaign.counts.malware",
+      "required": ""
+    },
+    {
+      "description": "The number of Vulnerabilities associated with the Campaign. Mandiant.Campaign.counts.tools The number of Tools associated with the Campaign.",
+      "name": "Mandiant.Campaign.counts.vulnerabilities",
+      "required": ""
+    },
+    {
+      "description": "The number of target industries associated with the Campaign. Mandiant.Campaign.counts.actors The number of Threat Actors associated with the Campaign.",
+      "name": "Mandiant.Campaign.counts.industries",
+      "required": ""
+    },
+    {
+      "description": "The number of finished intelligence reports associated with the Campaign. Mandiant.Campaign.profile_update date",
+      "name": "Mandiant.Campaign.counts.reports",
+      "required": ""
+    },
+    {
+      "description": "Mandiant.Campaign.campaign_type The type of the Campaign. Mandiant.Campaign.name",
+      "name": "The date and time that the profile of the Campaign was last updated.",
+      "required": ""
+    },
+    {
+      "description": "The name of the Campaign. Mandiant.Campaign.short_name The short name / ID of the Campaign.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "list A list of country objects that the Campaign targets. Mandiant.Campaign.target_locations.regions",
+      "name": "Mandiant.Campaign.target_locations.countries",
+      "required": ""
+    },
+    {
+      "description": "A list of region objects that the Campaign targets. Mandiant.Campaign.target_locations.sub_regions list",
+      "name": "list",
+      "required": ""
+    },
+    {
+      "description": "Mandiant.Campaign.value The short name / ID of the Campaign. Mandiant.Campaign.last_activity_time",
+      "name": "A list of sub-region objects that the Campaign targets.",
+      "required": ""
+    },
+    {
+      "description": "The date and time that the Campaign was last known to be active. Mandiant.Campaign.malware list",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "Mandiant.Campaign.actor_collaborations list A list of Actor Collaboration objects associated with the Campaign.",
+      "name": "A list of Malware Family objects associated with the Campaign.",
+      "required": ""
+    },
+    {
+      "description": "list A list of Vulnerability objects associated with the Campaign. Mandiant.Campaign.type",
+      "name": "Mandiant.Campaign.vulnerabilities",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. Mandiant.Campaign.tools list",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Mandiant.Campaign.industries list A list of target industry objects associated with the Campaign.",
+      "name": "A list of tool objects associated with the Campaign.",
+      "required": ""
+    },
+    {
+      "description": "list A list of Threat Actor objects associated with the Campaign. Mandiant.Campaign.aliases",
+      "name": "Mandiant.Campaign.actors",
+      "required": ""
+    },
+    {
+      "description": "A list of alias objects associated with the Campaign. Edit this page Report an Issue",
+      "name": "list",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Mandiant Automated Defense (Formerly Respond Software) Next Mandiant Feed \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Get Credentials Integration Settings Commands",
+      "name": "Prerequisites",
+      "required": ""
+    },
+    {
+      "description": "ip url domain",
+      "name": "file",
+      "required": ""
+    },
+    {
+      "description": "mati-get-actor mati-get-malware mati-get-campaign",
+      "name": "cve",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Mandiant Enrich",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mandiant"
+}

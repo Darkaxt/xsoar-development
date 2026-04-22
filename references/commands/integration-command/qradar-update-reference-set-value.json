@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!qradar-update-reference-set-value ref_name=\"Documentation Reference\" value=\"Important information\" source=\"Documentation1\"\nContext Example\n{\n\"QRadar\": {\n\"Reference\": {\n\"TimeoutType\": \"UNKNOWN\",\n\"ElementType\": \"ALN\",",
+    "!qradar-update-reference-set-value ref_name=\"Documentation Reference\" value=\"Important information\" source=\"Documentation1\"\nContext Example\n{\n\"QRadar\": {\n\"Reference\": {\n\"TimeoutType\": \"UNKNOWN\",\n\"ElementType\": \"ALN\",\n\"CreationTime\": \"2018-11-21T11:42:25.492000Z\","
+  ],
+  "kind": "integration-command",
+  "name": "qradar-update-reference-set-value",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the reference set QRadar.Reference.CreationTime date",
+      "name": "QRadar.Reference.Name",
+      "required": ""
+    },
+    {
+      "description": "QRadar.Reference.ElementType Reference element type QRadar.Reference.NumberOfElements",
+      "name": "The creation time (ISO) of the reference",
+      "required": ""
+    },
+    {
+      "description": "Number of elements QRadar.Reference.TimeoutType Reference timeout type (UNKNOWN, FIRST_SEEN, LAST_SEEN)",
+      "name": "number",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM QRadar (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/q-radar"
+}

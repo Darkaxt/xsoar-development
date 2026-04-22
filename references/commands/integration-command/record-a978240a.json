@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "SOCRadarTakedown.SourceCodeLeak.Email",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the rogue mobile app SOCRadarTakedown.RogueApp.AbuseType Type of abuse reported",
+      "name": "SOCRadarTakedown.RogueApp.AppID",
+      "required": ""
+    },
+    {
+      "description": "Status of the takedown request SOCRadarTakedown.RogueApp.Message Message returned from the API",
+      "name": "SOCRadarTakedown.RogueApp.Status",
+      "required": ""
+    },
+    {
+      "description": "Whether alarm notification is enabled SOCRadarTakedown.RogueApp.Notes Additional notes for the request",
+      "name": "SOCRadarTakedown.RogueApp.SendAlarm",
+      "required": ""
+    },
+    {
+      "description": "Email provided for notifications Edit this page Report an Issue",
+      "name": "SOCRadarTakedown.RogueApp.Email",
+      "required": ""
+    },
+    {
+      "description": "\u00ab SOCRadar Incidents v4 Next SOCRadar Threat Feed \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands socradar-submit-phishing-domain socradar-submit-social-media-impersonation",
+      "name": "Configure SOCRadar Takedown in Cortex",
+      "required": ""
+    },
+    {
+      "description": "socradar-submit-rogue-app Docs Developer Docs",
+      "name": "socradar-submit-source-code-leak",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SOCRadar Takedown",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/soc-radar-takedown"
+}

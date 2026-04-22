@@ -1,0 +1,106 @@
+{
+  "aliases": [
+    "zoom-ask"
+  ],
+  "arguments": [],
+  "description": "ZoomAsk | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ZoomAsk",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Guide",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "It uses a mechanism that allows external users to respond in Cortex XSOAR (per investigation) with entitlement strings embedded within the message contents. The automation can utilize the interactive capabilities of Zoom to send a form with buttons. This requires the external endpoint for interactive responses to be available for connection. (See the",
+      "name": "The automation is most useful in a playbook to determine the outcome of a conditional task - which will be one of the provided options.",
+      "required": ""
+    },
+    {
+      "description": "). You can also utilize a dropdown list instead, by specifying the responseType",
+      "name": "Zoom integration documentation",
+      "required": ""
+    },
+    {
+      "description": "To use ZoomAsk via playbook:",
+      "name": "argument.",
+      "required": ""
+    },
+    {
+      "description": "ZoomAsk script to a playbook as a task. In the",
+      "name": "Add the",
+      "required": ""
+    },
+    {
+      "description": "argument, specify the message to be sent. Configure the response options by filling out the option1",
+      "name": "message",
+      "required": ""
+    },
+    {
+      "description": "option2 arguments (default values are 'Yes' and 'No'). Either a user or a channel_id or channel_name must be specified.",
+      "name": "and",
+      "required": ""
+    },
+    {
+      "description": "ZoomAsk task, pass a tag value to the task",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "All other inputs are optional. At some point at the playbook, after running ZoomAsk",
+      "name": "argument.",
+      "required": ""
+    },
+    {
+      "description": "The condition names must match the response options you passed in to ZoomAsk .",
+      "name": ", add a manual conditional task, which holds up the playbook execution until the response is received from Zoom.",
+      "required": ""
+    },
+    {
+      "description": "ZoomAsk , add the same tag from the fifth step to the conditional task (under the \"Details\" tab of the task). The conditional task will be marked as completed when a user responds to the ZoomAsk",
+      "name": "In order to tie the conditional task back to",
+      "required": ""
+    },
+    {
+      "description": "Notes",
+      "name": "form.",
+      "required": ""
+    },
+    {
+      "description": "will not work when run in the playbook debugger. This is because the debugger does not generate entitlements, since they must be tied to an investigation. Entitlements are needed to track the response. Whitespaces are not supported in custom options and will not work. (i.e. setting a button to I Agree",
+      "name": "ZoomAsk",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": "Next ZTAPBuildTimeline \u00bb Script Data",
+      "name": "\u00ab ZoomApiModule",
+      "required": ""
+    },
+    {
+      "description": "Dependencies",
+      "name": "Use Case",
+      "required": ""
+    },
+    {
+      "description": "Notes Docs Developer Docs",
+      "name": "Guide",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ZoomAsk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/zoom-ask"
+}

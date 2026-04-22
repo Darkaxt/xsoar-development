@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "com.scur.type.regex.460",
+  "examples": [
+    "!swg-delete-list list_id=com.scur.type.regex.460\nHuman Readable Output\n#\nDeleted List Properties\n#\nTitle\nID\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Skyhigh Secure Web Gateway (On Prem)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/skyhigh-secure-web-gateway-on-prem"
+}

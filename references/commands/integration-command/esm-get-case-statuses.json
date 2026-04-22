@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "[{\u201caction\u201d: \u201cChanges\u201d, \u201ctimestamp\u201d: \u201c03/11/2019 15:07:26(GMT)\u201d, \u201cusername\u201d: \u201cNGCP\u201d, \u201ccontent\u201d: \u201cSummary\\n old: New Virus Detected\\n new: editing first case\\n\\n Severity\\n old: 1\\n new: 50\u201d, \u201cchanges\u201d: [{\u201cchangeType\u201d: \u201cSummary\u201d, \u201cchanges\u201d: [\u201cold: New Virus Detected\u201d, \u201cnew: editing first case\u201d]}, {\u201cchangeType\u201d: \u201cSeverity\u201d, \u201cchanges\u201d: [\u201cold: 1\u201d, \u201cnew: 50\u201d]}]}, {\u201caction\u201d: \u201cChanges\u201d, \u201ctimestamp\u201d: \u201c03/11/2019 15:01:28(GMT)\u201d, \u201cusername\u201d: \u201cNGCP\u201d, \u201ccontent\u201d: \u201cSummary\\n old: editing first case\\n new: New Virus Detected\\n\\n Severity\\n old: 50\\n new: 1\u201d, \u201cchanges\u201d: [{\u201cchangeType\u201d: \u201cSummary\u201d, \u201cchanges\u201d: [\u201c",
+  "examples": [
+    "Command Example\n!esm-get-case-statuses\nHuman Readable Output\nResult:\nID\nName\nIs Default\nShow In Case Pane",
+    "!esm-get-case-statuses\nHuman Readable Output\nResult:\nID\nName\nIs Default\nShow In Case Pane\n2"
+  ],
+  "kind": "integration-command",
+  "name": "esm-get-case-statuses",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v10 and v11 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v10"
+}

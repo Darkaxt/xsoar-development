@@ -1,0 +1,18 @@
+{
+  "aliases": [
+    "MatterID and ExportID concatenation separated by '#' (used only for playbook) such: <Matter_ID>"
+  ],
+  "arguments": [],
+  "description": "!gvault-export-status exportIDS=exportly-7b8ae442-bee7-4bc9-89fa-a65c6c24d50c matterId=0bebe0ec-ee41-4955-96b3-20d9408409c8",
+  "examples": [
+    "Command Example\n!gvault-export-status exportIDS=exportly-7b8ae442-bee7-4bc9-89fa-a65c6c24d50c matterId=0bebe0ec-ee41-4955-96b3-20d9408409c8\nContext Example\nHuman Readable Output\n14. Download an export\nDownloads an export by bucket name and download ID.\nBase Command\ngvault-download-results",
+    "!gvault-export-status exportIDS=exportly-7b8ae442-bee7-4bc9-89fa-a65c6c24d50c matterId=0bebe0ec-ee41-4955-96b3-20d9408409c8\nContext Example\nHuman Readable Output\n14. Download an export\nDownloads an export by bucket name and download ID.\nBase Command\ngvault-download-results\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-download-results",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

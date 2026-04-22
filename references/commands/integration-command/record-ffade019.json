@@ -1,0 +1,40 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "The rest of the errors have a severity type",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next UltraMSG \u00bb Configure UBIRCH in Cortex",
+      "name": "\u00ab TwitterIOCHunter Feed",
+      "required": ""
+    },
+    {
+      "description": "create-sample-incidents Docs Developer Docs",
+      "name": "Usage",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "UBIRCH",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ubirch"
+}

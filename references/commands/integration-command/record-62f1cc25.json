@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!aruba-clearpass-active-sessions-list",
+  "examples": [
+    "Command Example\n#\n!aruba-clearpass-active-sessions-list\naruba-clearpass-active-session-disconnect\n#\nDisconnect active session.\nBase Command\n#",
+    "!aruba-clearpass-active-sessions-list\naruba-clearpass-active-session-disconnect\n#\nDisconnect active session.\nBase Command\n#\naruba-clearpass-active-session-disconnect\nInput",
+    "Command Example\n#\n!aruba-clearpass-active-session-disconnect session_id=123\nEdit this page\nReport an Issue\nPrevious\n\u00ab HPE Aruba Central Event Collector\nNext",
+    "!aruba-clearpass-active-session-disconnect session_id=123\nEdit this page\nReport an Issue\nPrevious\n\u00ab HPE Aruba Central Event Collector\nNext\nHudsonrock \u00bb\nConfigure HPE Aruba ClearPass in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Error status code of the response (non-zero if a problem occurred). HPEArubaClearPass.Sessions.Response_message Describes the result of the disconnected operation.",
+      "name": "HPEArubaClearPass.Sessions.Error_code",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HPE Aruba ClearPass",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hpe-aruba-clear-pass"
+}

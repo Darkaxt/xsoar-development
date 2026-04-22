@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "get-ids-from-custom-content"
+  ],
+  "arguments": [],
+  "description": "GetIdsFromCustomContent | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetIdsFromCustomContent",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Dictionary of IDs of custom content excluding the ones specified. GetIdsFromCustomContent.excluded_ids Dictionary of IDs of custom content excluding the ones specified.",
+      "name": "GetIdsFromCustomContent.included_ids",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next GetIncidentsApiModule \u00bb Script Data",
+      "name": "\u00ab GetHostName",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetIdsFromCustomContent",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-ids-from-custom-content"
+}

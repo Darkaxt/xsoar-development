@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Name of the domain returned by the query.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Domain name returned by the query. Domain.DNS.Address The IP address associated with the returned domains.",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab DomainTools (Deprecated)",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "DomainTools Iris Detect \u00bb Configure DomainTools Iris in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "domaintoolsiris-investigate domaintoolsiris-enrich domaintoolsiris-analytics",
+      "name": "domain",
+      "required": ""
+    },
+    {
+      "description": "domaintoolsiris-pivot domaintools-whois-history domaintools-hosting-history",
+      "name": "domaintoolsiris-threat-profile",
+      "required": ""
+    },
+    {
+      "description": "domaintools-whois domainRdap reverseNameServer",
+      "name": "domaintools-reverse-whois",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "reverseIP",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DomainTools Iris",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/domain-tools-iris"
+}

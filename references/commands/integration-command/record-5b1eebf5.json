@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "netcraft-escalate-takedown",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Escalates a takedown.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "netcraft-escalate-takedown",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Netmiko \u00bb Configure Netcraft in Cortex",
+      "name": "\u00ab Netcraft",
+      "required": ""
+    },
+    {
+      "description": "netcraft-report-attack netcraft-get-takedown-info netcraft-get-takedown-notes",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "netcraft-escalate-takedown Docs Developer Docs",
+      "name": "netcraft-add-notes-to-takedown",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Netcraft (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/netcraft"
+}

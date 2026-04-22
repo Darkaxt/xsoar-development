@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "intezer-scan-host"
+  ],
+  "arguments": [],
+  "description": "IntezerScanHost | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IntezerScanHost",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The endpoint analysis ID. Edit this page Report an Issue",
+      "name": "endpoint_analysis_id",
+      "required": ""
+    },
+    {
+      "description": "\u00ab IntezerRunScanner Next InvertEveryTwoItems \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IntezerScanHost",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/intezer-scan-host"
+}

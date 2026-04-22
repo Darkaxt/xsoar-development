@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!traps-endpoint-scan-result operation_id=\"d270d8bce5ba11e9acbf0245d8e950da\"\nContext Example\n{\n\"Traps.ScanResult\": {\n\"FileScanned\": 57295,\n\"FilesFailed\": 0,\n\"MalwareFound\": 1,",
+    "!traps-endpoint-scan-result operation_id=\"d270d8bce5ba11e9acbf0245d8e950da\"\nContext Example\n{\n\"Traps.ScanResult\": {\n\"FileScanned\": 57295,\n\"FilesFailed\": 0,\n\"MalwareFound\": 1,\n\"OperationID\": \"d270d8bce5ba11e9acbf0245d8e950da\","
+  ],
+  "kind": "integration-command",
+  "name": "traps-endpoint-scan-result",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The number of scanned files. Traps.ScanResult.FilesFailed The number of files that were not scanned.",
+      "name": "Traps.ScanResult.FileScanned",
+      "required": ""
+    },
+    {
+      "description": "The number of detected malware. Traps.ScanResult.OperationID The ID of the operation.",
+      "name": "Traps.ScanResult.MalwareFound",
+      "required": ""
+    },
+    {
+      "description": "The status of the scan.",
+      "name": "Traps.ScanResult.Status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Traps (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/traps"
+}

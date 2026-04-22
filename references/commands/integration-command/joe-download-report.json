@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": "Required"
+    }
+  ],
+  "description": "The SHA-1 hash of the file",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "joe-download-report",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Joe Security (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/joe-security"
+}

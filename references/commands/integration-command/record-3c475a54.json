@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "glpi-get-userid",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Get GLPI User ID by Username",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "glpi-get-userid",
+      "required": ""
+    },
+    {
+      "description": "GLPI User details GLPI.User.id User id",
+      "name": "GLPI.User",
+      "required": ""
+    },
+    {
+      "description": "Username Edit this page Report an Issue",
+      "name": "GLPI.User.username",
+      "required": ""
+    },
+    {
+      "description": "\u00ab GLIMPS Detect Next Gmail \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands glpi-create-user glpi-delete-user",
+      "name": "Configure GLPI in Cortex",
+      "required": ""
+    },
+    {
+      "description": "glpi-enable-user get-mapping-fields get-modified-remote-data",
+      "name": "glpi-disable-user",
+      "required": ""
+    },
+    {
+      "description": "glpi-delete-ticket glpi-get-ticket glpi-create-ticket",
+      "name": "glpi-get-username",
+      "required": ""
+    },
+    {
+      "description": "glpi-add-comment glpi-upload-file glpi-get-item",
+      "name": "glpi-search",
+      "required": ""
+    },
+    {
+      "description": "get-remote-data glpi-add-link glpi-update-user",
+      "name": "glpi-update-ticket",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "glpi-get-userid",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GLPI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/glpi"
+}

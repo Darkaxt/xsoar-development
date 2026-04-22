@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "dnsdb-rrset",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Lookup rrser records",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "dnsdb-rrset",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Farsight DNSDB v2 \u00bb To set up\u00a0Farsight Security DNSDB to work with Cortex XSOAR:",
+      "name": "\u00ab FalconHost (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "Commands dnsdb-rdata dnsdb-rrset",
+      "name": "Configure Farsight DNSDB in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Farsight DNSDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/farsight-dnsdb"
+}

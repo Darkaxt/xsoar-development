@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "pt-list-third-party-attack-surface-observations",
+  "examples": [
+    "Command Example\n#\n!pt-list-third-party-attack-surface-observations id=\"45998\" cve_id=\"CVE-2020-11022\" page_size=2\nContext Example\n#\n{\n\"PassiveTotal\"\n:",
+    "!pt-list-third-party-attack-surface-observations id=\"45998\" cve_id=\"CVE-2020-11022\" page_size=2\nContext Example\n#\n{\n\"PassiveTotal\"\n:\n{\n\"Summary\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the vendor. PassiveTotal.ThirdParty.Observation.asset.type Type of the asset.",
+      "name": "PassiveTotal.ThirdParty.id",
+      "required": ""
+    },
+    {
+      "description": "Name of the asset. PassiveTotal.ThirdParty.Observation.asset.firstSeen Date",
+      "name": "PassiveTotal.ThirdParty.Observation.asset.name",
+      "required": ""
+    },
+    {
+      "description": "PassiveTotal.ThirdParty.Observation.asset.lastSeen Date Date & time the record was most recently observed.",
+      "name": "Date & time the record was first seen.",
+      "required": ""
+    },
+    {
+      "description": "ID of the CVE. PassiveTotal.ThirdParty.Observation.cwe.cweId CWE ID associated with the CVE.",
+      "name": "PassiveTotal.ThirdParty.Observation.cveId",
+      "required": ""
+    },
+    {
+      "description": "The command name. PassiveTotal.Summary.ThirdPartyObservation.totalCount Total number of observations.",
+      "name": "PassiveTotal.Summary.ThirdPartyObservation.name",
+      "required": ""
+    },
+    {
+      "description": "Number of pages. PassiveTotal.Summary.ThirdPartyObservation.nextPage Link to the next page.",
+      "name": "PassiveTotal.Summary.ThirdPartyObservation.totalPages",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PassiveTotal v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/passive-total-v2"
+}

@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2. Get a site\u2019s blacklist: sigsci-get-blacklist",
+  "examples": [
+    "Command Example\n!sigsci-get-blacklist siteName=demisto\nContext Example\n{\n\"SigSciences.Corp.Site.Blacklist\": [\n{\n\"ExpiryDate\": \"\",\n\"Note\": \"docdoc\",",
+    "!sigsci-get-blacklist siteName=demisto\nContext Example\n{\n\"SigSciences.Corp.Site.Blacklist\": [\n{\n\"ExpiryDate\": \"\",\n\"Note\": \"docdoc\",\n\"Source\": \"5.7.5.7\","
+  ],
+  "kind": "integration-command",
+  "name": "sigsci-get-blacklist",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID for this entry. SigSciences.Corp.Site.Blacklist.Source The IP address on the blacklist.",
+      "name": "SigSciences.Corp.Site.Blacklist.ID",
+      "required": ""
+    },
+    {
+      "description": "date The expiration timestamp. SigSciences.Corp.Site.Blacklist.Note",
+      "name": "SigSciences.Corp.Site.Blacklist.ExpiryDate",
+      "required": ""
+    },
+    {
+      "description": "The note associated with the tag. SigSciences.Corp.Site.Blacklist.CreatedDate date",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "SigSciences.Corp.Site.Blacklist.CreatedBy The user who added this source.",
+      "name": "The created date timestamp.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

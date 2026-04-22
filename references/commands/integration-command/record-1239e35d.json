@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!umbrella-get-ip-timeline name=8.8.8.8 limit=1\nContext Example\n#\n{\n\"Umbrella\"\n:\n{\n\"Timeline\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "An IP address. For example, 8.8.8.8. Umbrella.Timeline.Data.MalwareCategories The list of security categories assigned at this date and time on the domain, IP, or URL.",
+      "name": "Umbrella.Timeline.IP",
+      "required": ""
+    },
+    {
+      "description": "The list of threats assigned at this date and time on the domain, IP, or URL. Umbrella.Timeline.Data.ThreatTypes The list of threat types assigned at this date and time on the domain, IP, or URL.",
+      "name": "Umbrella.Timeline.Data.Attacks",
+      "required": ""
+    },
+    {
+      "description": "The date and time of the tagging of the domain, IP, or URL.",
+      "name": "Umbrella.Timeline.Data.Timestamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Umbrella Investigate",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-umbrella-investigate"
+}

@@ -1,0 +1,43 @@
+{
+  "aliases": [
+    "fp-delete-rule"
+  ],
+  "arguments": [],
+  "description": "FPDeleteRule | Cortex XSOAR",
+  "examples": [
+    "!GeneratePassword max_lcase=10\n.\nIt is possible that a password of length zero could be generated. It is therefore recommended to always include a\nmin_*\nparameter that matches.\nThe\ndebug\nparameter will print certain properties of the command into the War Room for easy diagnostics."
+  ],
+  "kind": "script",
+  "name": "FPDeleteRule",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The new password generated for the user. Edit this page Report an Issue",
+      "name": "NEW_PASSWORD",
+      "required": ""
+    },
+    {
+      "description": "\u00ab ForwardAuditLogsToSplunkHEC Next FPSetRule \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FPDeleteRule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/fp-delete-rule"
+}

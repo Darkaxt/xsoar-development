@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is are no inputs for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next ArcusTeam \u00bb Configure ArcSight XML in Cortex",
+      "name": "\u00ab ArcSight Logger",
+      "required": ""
+    },
+    {
+      "description": "arcsight-update-case arcsight-fetch-xml Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "description": "The stage of the case.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ArcSight XML (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/arc-sight-xml"
+}

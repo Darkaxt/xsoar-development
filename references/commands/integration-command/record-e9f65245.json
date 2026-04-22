@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Requests for Shodan to perform a scan on the specified port and protocol.",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### shodan-scan-status\n***\nChecks the progress of a previously submitted scan request on the specified port and protocol.\n#### Base Command\n`shodan-scan-status`",
+    "#### Command Example\n```!shodan-scan-status scanID=7rbp1CAtx91BMwcg```\n#### Context Example\n```json\n{\n\"Shodan\": {\n\"Scan\": {\n\"ID\": \"7rbp1CAtx91BMwcg\",",
+    "#### Command Example\n```!shodan-create-network-alert alertName=\"test_alert\" ip=\"1.1.1.1\"```\n#### Context Example\n```json\n{\n\"Shodan\": {\n\"Alert\": {\n\"Expires\": 0,",
+    "#### Command Example\n```!shodan-network-get-alert-by-id alertID=\"0EKRH38BBQEHTQ3E\"```\n#### Context Example\n```json\n{\n\"Shodan\": {\n\"Alert\": {\n\"Expires\": 0,",
+    "#### Command Example\n```!shodan-network-get-alerts```\n#### Context Example\n```json\n{\n\"Shodan\": [\n{\n\"Alert\": {",
+    "#### Command Example\n```!shodan-network-delete-alert alertID=\"0EKRH38BBQEHTQ3E\"```\n#### Human Readable Output\n>Deleted alert 0EKRH38BBQEHTQ3E\n### shodan-network-alert-set-trigger\n***\nEnables receiving notifications for network alerts that are set off by the specified triggers.\n#### Base Command",
+    "#### Command Example\n```!shodan-network-alert-set-trigger alertID=\"0EKRH38BBQEHTQ3E\" Trigger=any```\n#### Human Readable Output\n>Set trigger \"any\" for alert 0EKRH38BBQEHTQ3E\n### shodan-network-alert-remove-trigger\n***\nDisables receiving notifications for network alerts that are set off by the specified triggers.\n#### Base Command"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the initial scan.",
+      "name": "Shodan.Scan.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Shodan v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/shodan-v2"
+}

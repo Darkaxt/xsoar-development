@@ -1,0 +1,78 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Delete a reference set: qradar-delete-reference-set",
+  "examples": [
+    "Command Examples\n!qradar-offenses range=0-1 filter=\"follow_up = false\" headers=ID,Magnitude\n!qradar-offenses fields=\"id,start_time\"\nContext Example\n{\n\"QRadar\": {\n\"Offense\": {\n\"Followup\": false,",
+    "!qradar-offenses range=0-1 filter=\"follow_up = false\" headers=ID,Magnitude\n!qradar-offenses fields=\"id,start_time\"\nContext Example\n{\n\"QRadar\": {\n\"Offense\": {\n\"Followup\": false,\n\"Description\": \"Multiple Login Failures for the Same User\\n preceded by shachar_test\\n containing Failed Login Attempt\\n\",",
+    "!qradar-offenses fields=\"id,start_time\"\nContext Example\n{\n\"QRadar\": {\n\"Offense\": {\n\"Followup\": false,\n\"Description\": \"Multiple Login Failures for the Same User\\n preceded by shachar_test\\n containing Failed Login Attempt\\n\",\n\"EventCount\": 3,"
+  ],
+  "kind": "integration-command",
+  "name": "qradar-offenses",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Offense followup QRadar.Offense.ID The ID of the offense",
+      "name": "QRadar.Offense.Followup",
+      "required": ""
+    },
+    {
+      "description": "The description of the offense QRadar.Offense.SourceAddress The source addresses that are associated with the offense",
+      "name": "QRadar.Offense.Description",
+      "required": ""
+    },
+    {
+      "description": "The local destination addresses that are associated with the offense. If your offense has a remote destination, you will need to use QRadarFullSearch playbook with the following query:",
+      "name": "QRadar.Offense.DestinationAddress",
+      "required": ""
+    },
+    {
+      "description": "QRadar.Offense.RemoteDestinationCount The remote destination that are associated with the offense. If this value is greater than 0 that means your offense has a remote destination, you will need to use QRadarFullSearch playbook with the following query: SELECT destinationip FROM events WHERE inOffense() GROUP BY destinationip",
+      "name": "SELECT destinationip FROM events WHERE inOffense() GROUP BY destinationip",
+      "required": ""
+    },
+    {
+      "description": "date The time (ISO) when the offense was started. QRadar.Offense.EventCount",
+      "name": "QRadar.Offense.StartTime",
+      "required": ""
+    },
+    {
+      "description": "The number of events that are associated with the offense QRadar.Offense.Magnitude The magnitude of the offense",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "date The time (ISO) when the offense was last updated QRadar.Offense.OffenseType",
+      "name": "QRadar.Offense.LastUpdatedTime",
+      "required": ""
+    },
+    {
+      "description": "The offense type (due to API limitations if username and password were not provided, this value will be the id of offense type) Command Examples !qradar-offenses range=0-1 filter=\"follow_up = false\" headers=ID,Magnitude",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Context Example { \"QRadar\": {",
+      "name": "!qradar-offenses fields=\"id,start_time\"",
+      "required": ""
+    },
+    {
+      "description": "\"Followup\": false, \"Description\": \"Multiple Login Failures for the Same User\\n preceded by shachar_test\\n containing Failed Login Attempt\\n\", \"EventCount\": 3,",
+      "name": "\"Offense\": {",
+      "required": ""
+    },
+    {
+      "description": "\"OffenseType\": \"Username\", \"StartTime\": \"2018-10-16T13:07:36.245000Z\", \"SourceAddress\": [",
+      "name": "\"Magnitude\": 3,",
+      "required": ""
+    },
+    {
+      "description": "], \"ID\": 78, \"LastUpdatedTime\": \"2018-10-16T13:07:40.675000Z\"",
+      "name": "\"94.188.164.68\"",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM QRadar (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/q-radar"
+}

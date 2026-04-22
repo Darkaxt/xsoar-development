@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "d3339851f18f470182bf2bf98ad5db4b",
+  "examples": [
+    "Command Example\n!traps-event-quarantine-result operation_id=\"e092afa2e08511e9acbf0245d8e950da\"\nContext Example\n{\n\"Traps.QuarantineResult\": {\n\"FilePath\": \"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Google\\\\Chrome\\\\User Data\\\\Default\\\\Cache\\\\f_000013\",\n\"OperationID\": \"e092afa2e08511e9acbf0245d8e950da\",\n\"SHA256\": \"2f937ee2fd10a6ea58faca31ab455d18e29ded5d88b4a6f8cc29127a23232e45\",",
+    "!traps-event-quarantine-result operation_id=\"e092afa2e08511e9acbf0245d8e950da\"\nContext Example\n{\n\"Traps.QuarantineResult\": {\n\"FilePath\": \"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Google\\\\Chrome\\\\User Data\\\\Default\\\\Cache\\\\f_000013\",\n\"OperationID\": \"e092afa2e08511e9acbf0245d8e950da\",\n\"SHA256\": \"2f937ee2fd10a6ea58faca31ab455d18e29ded5d88b4a6f8cc29127a23232e45\",\n\"Status\": \"finished\""
+  ],
+  "kind": "integration-command",
+  "name": "traps-event-quarantine-result",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA256 hash of the file. Traps.QuarantineResult.FilePath The file path on the endpoint.",
+      "name": "Traps.QuarantineResult.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The ID of the operation. Traps.QuarantineResult.Status The status of the quarantine operation.",
+      "name": "Traps.QuarantineResult.OperationID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Traps (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/traps"
+}

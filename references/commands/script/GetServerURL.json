@@ -1,0 +1,57 @@
+{
+  "aliases": [
+    "get-server-url"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "GetServerURL | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetServerURL",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The server host name. ServerURL.Port The server port.",
+      "name": "ServerURL.Host",
+      "required": ""
+    },
+    {
+      "description": "ServerURL.Scheme The server scheme. ServerURL.URL",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The server full URL.",
+      "required": ""
+    },
+    {
+      "description": "Next GetShiftsPerUser \u00bb Script Data",
+      "name": "\u00ab GetServerInfo",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetServerURL",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-server-url"
+}

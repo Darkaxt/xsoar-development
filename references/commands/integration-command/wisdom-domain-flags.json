@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook. After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [
+    "Command Examples\n!wisdom-domain-flags domain=microsoft775.com\n!wisdom-domain-flags domain=c0i8h8ac7e.bid\n!wisdom-domain-flags domain=service.downloadadmin.com\n!wisdom-domain-flags domain=luoxk.f3322.net\nRaw Output\n{\n\"flags\":[",
+    "!wisdom-domain-flags domain=microsoft775.com\n!wisdom-domain-flags domain=c0i8h8ac7e.bid\n!wisdom-domain-flags domain=service.downloadadmin.com\n!wisdom-domain-flags domain=luoxk.f3322.net\nRaw Output\n{\n\"flags\":[\n\"c2\"",
+    "!wisdom-domain-flags domain=c0i8h8ac7e.bid\n!wisdom-domain-flags domain=service.downloadadmin.com\n!wisdom-domain-flags domain=luoxk.f3322.net\nRaw Output\n{\n\"flags\":[\n\"c2\"\n]",
+    "!wisdom-domain-flags domain=service.downloadadmin.com\n!wisdom-domain-flags domain=luoxk.f3322.net\nRaw Output\n{\n\"flags\":[\n\"c2\"\n]\n}",
+    "!wisdom-domain-flags domain=luoxk.f3322.net\nRaw Output\n{\n\"flags\":[\n\"c2\"\n]\n}\nContext Example"
+  ],
+  "kind": "integration-command",
+  "name": "wisdom-domain-flags",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AlphaSOC Wisdom",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/alpha-soc-wisdom"
+}

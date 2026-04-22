@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "mantis-close-issue",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "close a Mantis issue",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "mantis-close-issue",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Mattermost \u00bb mantis-get-issue-by-id",
+      "name": "\u00ab Mandiant Feed",
+      "required": ""
+    },
+    {
+      "description": "mantis-get-issues mantis-add-note mantis-close-issue",
+      "name": "mantis-create-issue",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Mantis",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mantis"
+}

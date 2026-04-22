@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"ldap://domainTest2/CN=Test,DC=Test,DC=Test2\"",
+  "examples": [
+    "Command Example\n#\n!ad-entries-search base_dn=\"dc=openldap,dc=demisto,dc=int\" object_class=top,posixAccount search_filter=\"(creatorsName=cn=ldapadm,dc=openldap,dc=demisto,dc=int)\" attributes=all_operational_attributes page=1 page_size=2\nHuman Readable Output\n#\ncreateTimestamp\ncreatorsName\ndn",
+    "!ad-entries-search base_dn=\"dc=openldap,dc=demisto,dc=int\" object_class=top,posixAccount search_filter=\"(creatorsName=cn=ldapadm,dc=openldap,dc=demisto,dc=int)\" attributes=all_operational_attributes page=1 page_size=2\nHuman Readable Output\n#\ncreateTimestamp\ncreatorsName\ndn\nentryCSN\nentryUUID"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "The context output will vary depending on the LDAP server scheme configuration and the attributes provided in the command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "LDAP Authentication",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/open-ldap"
+}

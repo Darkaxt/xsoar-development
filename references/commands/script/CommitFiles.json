@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "commit-files"
+  ],
+  "arguments": [],
+  "description": "CommitFiles | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CommitFiles",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The pull request text. Edit this page Report an Issue",
+      "name": "PR_text",
+      "required": ""
+    },
+    {
+      "description": "\u00ab commentsToContext Next CommonD2 \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Used In",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CommitFiles",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/commit-files"
+}

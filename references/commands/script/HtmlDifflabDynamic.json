@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "html-difflab-dynamic"
+  ],
+  "arguments": [],
+  "description": "HtmlDifflabDynamic | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "HtmlDifflabDynamic",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "How similar are the HTML pages in precentage. Edit this page Report an Issue",
+      "name": "FuzzyHashSimilarity.SimilarityPercentage",
+      "required": ""
+    },
+    {
+      "description": "\u00ab HighlightWords Next HtmlDifflibCheck \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HtmlDifflabDynamic",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/html-difflab-dynamic"
+}

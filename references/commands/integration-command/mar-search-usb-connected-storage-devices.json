@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Datetime the file was deleted.",
+  "examples": [
+    "Command Example\n!mar-search-files\n8. Get information for USB-connected devices\nReturns information for USB connected devices from McAfee Active Response.\nBase Command\nmar-search-usb-connected-storage-devices\nInput\nArgument Name",
+    "!mar-search-files\n8. Get information for USB-connected devices\nReturns information for USB connected devices from McAfee Active Response.\nBase Command\nmar-search-usb-connected-storage-devices\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "mar-search-usb-connected-storage-devices",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "USB connected storage devices vendor ID. MAR.UsbConnectedStorageDevices.Product_id USB connected storage devices product ID.",
+      "name": "MAR.UsbConnectedStorageDevices.Vendor_id",
+      "required": ""
+    },
+    {
+      "description": "USB connected storage devices serial number. MAR.UsbConnectedStorageDevices.Device_type USB connected storage devices type.",
+      "name": "MAR.UsbConnectedStorageDevices.Serial_number",
+      "required": ""
+    },
+    {
+      "description": "USB connected storage devices GUID. MAR.UsbConnectedStorageDevices.Last_connection_time USB connected storage devices last connection time.",
+      "name": "MAR.UsbConnectedStorageDevices.Guid",
+      "required": ""
+    },
+    {
+      "description": "USB connected storage devices user name. MAR.UsbConnectedStorageDevices.Last_time_used_by_user",
+      "name": "MAR.UsbConnectedStorageDevices.User_name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Active Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-active-response"
+}

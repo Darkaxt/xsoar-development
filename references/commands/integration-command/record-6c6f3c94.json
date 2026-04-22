@@ -1,0 +1,85 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "2023-09-10T12:56:04.000Z",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Ollama \u00bb Configure Okta v2 in Cortex",
+      "name": "\u00ab Okta IAM",
+      "required": ""
+    },
+    {
+      "description": "OAuth 2.0 Authentication Prerequisites Instance Configuration Commands",
+      "name": "API Token Authentication Prerequisites",
+      "required": ""
+    },
+    {
+      "description": "okta-deactivate-user okta-activate-user okta-suspend-user",
+      "name": "okta-unlock-user",
+      "required": ""
+    },
+    {
+      "description": "okta-get-user-factors okta-reset-factor okta-set-password",
+      "name": "okta-unsuspend-user",
+      "required": ""
+    },
+    {
+      "description": "okta-remove-from-group okta-get-groups okta-verify-push-factor",
+      "name": "okta-add-to-group",
+      "required": ""
+    },
+    {
+      "description": "okta-search okta-get-user okta-list-users",
+      "name": "okta-verify-mfa-status",
+      "required": ""
+    },
+    {
+      "description": "okta-update-user okta-get-group-members okta-list-groups",
+      "name": "okta-create-user",
+      "required": ""
+    },
+    {
+      "description": "okta-get-logs okta-get-group-assignments okta-get-application-assignments",
+      "name": "okta-get-failed-logins",
+      "required": ""
+    },
+    {
+      "description": "okta-delete-user okta-clear-user-sessions okta-list-zones",
+      "name": "okta-get-application-authentication",
+      "required": ""
+    },
+    {
+      "description": "okta-get-zone okta-list-users okta-create-group",
+      "name": "okta-update-zone",
+      "required": ""
+    },
+    {
+      "description": "okta-auth-reset Docs Developer Docs",
+      "name": "okta-assign-group-to-app",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Okta v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta-v2"
+}

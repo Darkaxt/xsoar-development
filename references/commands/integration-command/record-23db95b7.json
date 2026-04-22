@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "| endpoint | win10-ep |",
+  "examples": [
+    "Command Example\n#\nacalvio-unmute-deception-on-endpoint endpoint=\"win10-ep\"\nContext Example\n#\n{\n'is_unmute': true,\n'endpoint': 'win10-ep'"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Returns 'True' if Deception is Unmuted else 'False' Acalvio.UnmuteDeceptionEndpoint.endpoint Hostname or IP Address of Endpoint",
+      "name": "Acalvio.UnmuteDeceptionEndpoint.is_unmute",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Acalvio ShadowPlex",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/acalvio-shadow-plex"
+}

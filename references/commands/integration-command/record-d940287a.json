@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "PagerDuty-run-response-play",
+  "examples": [
+    "Command Example\n#\n!PagerDuty-run-response-play incident_id=\"Q107XAAAAMBBR\" from_email=\"john.doe@example.com\" response_play_uuid=\"111111-88bb-bb37-181d-11111111110dewsq\"\nHuman Readable Output\n#\nResponse play successfully run to the incident Q107XAAAAMBBR by\njohn.doe@example.com\nEdit this page",
+    "!PagerDuty-run-response-play incident_id=\"Q107XAAAAMBBR\" from_email=\"john.doe@example.com\" response_play_uuid=\"111111-88bb-bb37-181d-11111111110dewsq\"\nHuman Readable Output\n#\nResponse play successfully run to the incident Q107XAAAAMBBR by\njohn.doe@example.com\nEdit this page\nReport an Issue\nPrevious"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PagerDuty v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/pager-duty-v2"
+}

@@ -1,0 +1,151 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Adaptable financial crimes botnet trojan with email worm and malware delivery capabilities, also known as Emotet",
+  "examples": [
+    "!cofense-threat-report-get report_id=290367\nContext Example\n#\n{\n\"File\"\n:\n{\n\"EntryID\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The size of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. File.SHA512 The SHA512 hash of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The name of the file. File.SSDeep The SSDeep hash of the file.",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "The entry ID of the file. File.Info File information.",
+      "name": "File.EntryID",
+      "required": ""
+    },
+    {
+      "description": "The file type. File.MD5 The MD5 hash of the file.",
+      "name": "File.Type",
+      "required": ""
+    },
+    {
+      "description": "The file extension.",
+      "name": "File.Extension",
+      "required": ""
+    },
+    {
+      "description": "In the url command:",
+      "name": "The following outputs were removed in this version:",
+      "required": ""
+    },
+    {
+      "description": "- this output was replaced by CofenseIntelligence.URL.Data .",
+      "name": "Cofense.URL.Data",
+      "required": ""
+    },
+    {
+      "description": "- this output was replaced by CofenseIntelligence.URL.Malicious.Vendor .",
+      "name": "Cofense.URL.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "- this output was replaced by CofenseIntelligence.URL.Malicious.Description .",
+      "name": "Cofense.URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "- this output was replaced by CofenseIntelligence.URL.Cofense.ThreatIDs .",
+      "name": "Cofense.URL.Cofense.ThreatIDs",
+      "required": ""
+    },
+    {
+      "description": "file command: Cofense.File.MD5",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "CofenseIntelligence.File.MD5 . Cofense.File.Malicious.Vendor",
+      "name": "- this output was replaced by",
+      "required": ""
+    },
+    {
+      "description": "CofenseIntelligence.File.Malicious.Vendor . Cofense.File.Malicious.Description",
+      "name": "- this output was replaced by",
+      "required": ""
+    },
+    {
+      "description": "CofenseIntelligence.File.Malicious.Description . Cofense.File.ThreatIDs",
+      "name": "- this output was replaced by",
+      "required": ""
+    },
+    {
+      "description": "CofenseIntelligence.File.ThreatIDs . In the",
+      "name": "- this output was replaced by",
+      "required": ""
+    },
+    {
+      "description": "command: Cofense.IP.Data - this output was replaced by",
+      "name": "ip",
+      "required": ""
+    },
+    {
+      "description": ". Cofense.IP.Malicious.Vendor - this output was replaced by",
+      "name": "CofenseIntelligence.IP.Data",
+      "required": ""
+    },
+    {
+      "description": ". Cofense.IP.Malicious.Description - this output was replaced by",
+      "name": "CofenseIntelligence.IP.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": ". Cofense.IP.Cofense.ThreatIDs - this output was replaced by",
+      "name": "CofenseIntelligence.IP.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": ". In the email",
+      "name": "CofenseIntelligence.IP.Cofense.ThreatIDs",
+      "required": ""
+    },
+    {
+      "description": "Account.Email.Malicious.Vendor - this output was replaced by CofenseIntelligence.Email.Malicious.Vendor",
+      "name": "command:",
+      "required": ""
+    },
+    {
+      "description": "Account.Email.Malicious.Description - this output was replaced by CofenseIntelligence.Email.Malicious.Description",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "Cofense.Email.Data - this output was replaced by CofenseIntelligence.Email.Data",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "Cofense.Email.Malicious.Vendor - this output was replaced by CofenseIntelligence.Email.Malicious.Vendor",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "Cofense.Email.Malicious.Description - this output was replaced by CofenseIntelligence.Email.Malicious.Description",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "Cofense.Email.Cofense.ThreatIDs - this output was replaced by CofenseIntelligence.Email.Cofense.ThreatIDs",
+      "name": ".",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cofense Intelligence v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cofense-intelligence-v2"
+}

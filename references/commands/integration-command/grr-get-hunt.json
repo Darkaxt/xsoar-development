@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!grr-get-hunt hunt_id=H:7B7F45F\nContext Example\n{\n\"Hunt\": [\n{\n\"Expires\": 1537063517000000,\n\"Description\": \"\",",
+    "!grr-get-hunt hunt_id=H:7B7F45F\nContext Example\n{\n\"Hunt\": [\n{\n\"Expires\": 1537063517000000,\n\"Description\": \"\",\n\"Creator\": \"admin\","
+  ],
+  "kind": "integration-command",
+  "name": "grr-get-hunt",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "A GRR hunt Hunt.ID GRR hunt ID",
+      "name": "Hunt",
+      "required": ""
+    },
+    {
+      "description": "GRR hunt creator Hunt.Description GRR hunt description",
+      "name": "Hunt.Creator",
+      "required": ""
+    },
+    {
+      "description": "Time the GRR hunt was created Hunt.Expires Time the GRR hunt expires",
+      "name": "Hunt.Created",
+      "required": ""
+    },
+    {
+      "description": "Whether the hunt originated from a robot Hunt.Name GRR hunt name",
+      "name": "Hunt.IsRobot",
+      "required": ""
+    },
+    {
+      "description": "GRR hunt state",
+      "name": "Hunt.State",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GRR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/grr"
+}

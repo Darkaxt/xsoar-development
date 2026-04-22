@@ -1,0 +1,51 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Allowed for: Admins, Agents.",
+  "examples": [
+    "!zendesk-group-list limit=1\nContext Example\n#\n{\n\"Zendesk\"\n:\n{\n\"Group\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date The time the group was created. Zendesk.Group.default",
+      "name": "Zendesk.Group.created_at",
+      "required": ""
+    },
+    {
+      "description": "If the group is the default one for the account. Zendesk.Group.deleted true",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "false otherwise. Zendesk.Group.description",
+      "name": "if the group is deleted",
+      "required": ""
+    },
+    {
+      "description": "The description of the group. Zendesk.Group.id The group ID.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "If true, the group is public. If false, the group is private. You can't change a private group to a public group. Zendesk.Group.name The name of the group.",
+      "name": "Zendesk.Group.is_public",
+      "required": ""
+    },
+    {
+      "description": "Date The time of the last update of the group. Zendesk.Group.url",
+      "name": "Zendesk.Group.updated_at",
+      "required": ""
+    },
+    {
+      "description": "The API URL of the group.",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Zendesk v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/zendesk-v2"
+}

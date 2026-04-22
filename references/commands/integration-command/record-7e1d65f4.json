@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "OneDrive or SharePoint content returned from the search",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Microsoft Graph Security \u00bb Configure Microsoft Graph Search in Cortex",
+      "name": "\u00ab Microsoft Graph Mail Single User",
+      "required": ""
+    },
+    {
+      "description": "msgraph-search-test msgraph-search-content msgraph-search-generate-login-url",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Graph Search",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-search"
+}

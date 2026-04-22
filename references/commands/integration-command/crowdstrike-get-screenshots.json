@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "58c1c211aac2eda9503bc31f",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "crowdstrike-get-screenshots",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA-256 hash of the search result. File.SHA1 The SHA-1 hash of the search result.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the search result. File.environmentId The ID of the search result environment.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The start time of the search result. File.threatscore The threat score of the search result (by server).",
+      "name": "File.start_time",
+      "required": ""
+    },
+    {
+      "description": "The verdict of the search result. File.environmentDescription The description of the search result environment.",
+      "name": "File.verdict",
+      "required": ""
+    },
+    {
+      "description": "The submission name of the search result. File.vxfamily The family of search result.",
+      "name": "File.submitname",
+      "required": ""
+    },
+    {
+      "description": "The threat score of the search result. File.type_short The type of search result, for example: url or host.",
+      "name": "File.threatscore",
+      "required": ""
+    },
+    {
+      "description": "Size of the search result. File.Malicious.Vendor For malicious files, the vendor that made the decision.",
+      "name": "File.size",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "File.Malicious.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vx-stream"
+}

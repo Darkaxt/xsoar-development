@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!netskope-get-events limit=1\nContext Example\n#\n{\n\"Netskope\"\n:\n{\n\"Event\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Netskope Event Collector v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/netskope-event-collector-v2"
+}

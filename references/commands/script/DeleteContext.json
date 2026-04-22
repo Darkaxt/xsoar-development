@@ -1,0 +1,101 @@
+{
+  "aliases": [
+    "delete-context"
+  ],
+  "arguments": [],
+  "description": "DeleteContext | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DeleteContext",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Usage Notes",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Calling DeleteContext from Another Script",
+      "required": ""
+    },
+    {
+      "description": "demisto.executeCommand('DeleteContext', args) with the keysToKeep",
+      "name": "When executing DeleteContext from another script using",
+      "required": ""
+    },
+    {
+      "description": "EntryContext field. To ensure the preserved context data is properly maintained in the",
+      "name": "parameter set, the script will return preserved context data in the",
+      "required": ""
+    },
+    {
+      "description": "field, use return_results() .",
+      "name": "EntryContext",
+      "required": ""
+    },
+    {
+      "description": "var result =",
+      "name": "// Example usage in another script",
+      "required": ""
+    },
+    {
+      "description": ". executeCommand (",
+      "name": "demisto",
+      "required": ""
+    },
+    {
+      "description": ", { 'all'",
+      "name": "'DeleteContext'",
+      "required": ""
+    },
+    {
+      "description": "'yes' , 'keysToKeep'",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "'URL.Data,IP.Address' } )",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "// Use return_results to preserve the EntryContext return_results (",
+      "name": ";",
+      "required": ""
+    },
+    {
+      "description": ") ; Any context keys specified in",
+      "name": "result",
+      "required": ""
+    },
+    {
+      "description": "are then properly restored to the context after the deletion operation. Edit this page Report an Issue",
+      "name": "keysToKeep",
+      "required": ""
+    },
+    {
+      "description": "\u00ab DeleteContent Next DeleteIndicatorRelationships \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "Permissions",
+      "required": ""
+    },
+    {
+      "description": "Calling DeleteContext from Another Script Docs Developer Docs",
+      "name": "Usage Notes",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DeleteContext",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/delete-context"
+}

@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!cryptosim-get-correlations limit=100 sortType=desc",
+  "examples": [
+    "!cryptosim-get-correlations limit=100 sortType=desc\n!cryptosim-get-correlationalerts startDate=2022-01-01T12:00:00 endDate=2022-01-01T23:59:59 etc.(shown when command is written)\ncryptosim-get-correlation-alerts\n#\nThe command is used to get correlation alerts.\nBase Command\n#\ncryptosim-get-correlation-alerts",
+    "!cryptosim-get-correlationalerts startDate=2022-01-01T12:00:00 endDate=2022-01-01T23:59:59 etc.(shown when command is written)\ncryptosim-get-correlation-alerts\n#\nThe command is used to get correlation alerts.\nBase Command\n#\ncryptosim-get-correlation-alerts\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Dictionary Return StatusCode, Data or ErrorMessage and Outparameters. StatusCode represent html response code. If it is 200, return Data as list of desired Correlation object. If not, return ErrorMessage. OutParameters is empty. Edit this page",
+      "name": "CorrelationAlerts.Output",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab Cryptocurrency Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "What does this pack do? Use Cases Commands",
+      "name": "CSCDomainManager \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "cryptosim-get-correlation-alerts",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cryptosim",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cryptosim"
+}

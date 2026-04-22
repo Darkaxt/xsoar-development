@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!cyberark-aim-list-credentials\nContext Example\n#\n{\n\"CyberArkAIM\": {\n\"AccountCategory\": \"True\",",
+    "!cyberark-aim-list-credentials\nContext Example\n#\n{\n\"CyberArkAIM\": {\n\"AccountCategory\": \"True\",\n\"AccountDescription\": \"Built-in account for administering the computer/domain\",\n\"AccountDiscoveryDate\": \"1573128798\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The type of the account. CyberArkAIM.Address The address of the account.",
+      "name": "CyberArkAIM.AccountType",
+      "required": ""
+    },
+    {
+      "description": "The CMP status of the account. CyberArkAIM.Domain The domain of the account.",
+      "name": "CyberArkAIM.CPMStatus",
+      "required": ""
+    },
+    {
+      "description": "The credential name of the account.",
+      "name": "CyberArkAIM.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyberArk AIM v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyber-ark-aim-v2"
+}

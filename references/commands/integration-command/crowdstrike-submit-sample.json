@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\ncrowdstrike-submit-sample entryId=1043@2\nContext Example\n{\n\"CrowdStrike\": {\n\"EnvironmentID\": 100,\n\"JobID\": \"5c98a5860388384f701662c1\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "crowdstrike-submit-sample",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "6. Submit a file sample for analysis Submits a file from the investigation for analysis. Base Command",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "crowdstrike-submit-sample",
+      "required": ""
+    },
+    {
+      "description": "The SHA-256 hash of the file. File.MD5 The MD5 hash of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The SHA-1 hash of the file. CrowdStrike.JobID The job ID of the sample.",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "The environment ID of the sample.",
+      "name": "CrowdStrike.EnvironmentID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vx-stream"
+}

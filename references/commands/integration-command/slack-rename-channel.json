@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!slack-kick-from-channel channel=my-channel users=cool-user",
+  "examples": [
+    "Command Example\n!slack-kick-from-channel channel=my-channel users=cool-user\nHuman Readable Output\nSuccessfully kicked users from the channel.\n9. slack-rename-channel\nRenames a channel in Slack.\nBase Command\nslack-rename-channel",
+    "!slack-kick-from-channel channel=my-channel users=cool-user\nHuman Readable Output\nSuccessfully kicked users from the channel.\n9. slack-rename-channel\nRenames a channel in Slack.\nBase Command\nslack-rename-channel\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "slack-rename-channel",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Slack v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slack-v2"
+}

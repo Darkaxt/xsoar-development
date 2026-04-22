@@ -1,0 +1,129 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "SentinelOne.Threat.ThreatInfo",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Number of affected endpoints. Edit this page Report an Issue",
+      "name": "SentinelOne.Agent.Affected",
+      "required": ""
+    },
+    {
+      "description": "\u00ab SentinelOne Activity and Alerts Next Sepio \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands sentinelone-list-agents sentinelone-create-white-list-item",
+      "name": "Configure SentinelOne v2 in Cortex",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-get-hash sentinelone-get-threats sentinelone-threat-summary",
+      "name": "sentinelone-get-white-list",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-mitigate-threat sentinelone-resolve-threat sentinelone-get-agent",
+      "name": "sentinelone-mark-as-threat",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-get-site sentinelone-reactivate-site sentinelone-get-activities",
+      "name": "sentinelone-get-sites",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-move-agent sentinelone-delete-group sentinelone-connect-agent",
+      "name": "sentinelone-get-groups",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-broadcast-message sentinelone-get-events sentinelone-create-query",
+      "name": "sentinelone-disconnect-agent",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-shutdown-agent sentinelone-uninstall-agent sentinelone-update-threats-verdict",
+      "name": "sentinelone-get-processes",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-create-star-rule sentinelone-get-star-rules sentinelone-update-star-rule",
+      "name": "sentinelone-update-alerts-verdict",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-disable-star-rules sentinelone-delete-star-rule sentinelone-get-blocklist",
+      "name": "sentinelone-enable-star-rules",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-remove-hash-from-blocklist sentinelone-fetch-file sentinelone-download-fetched-file",
+      "name": "sentinelone-add-hash-to-blocklist",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-create-ioc sentinelone-delete-ioc sentinelone-get-iocs",
+      "name": "sentinelone-write-threat-note",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-ping-power-query sentinelone-update-threats-status sentinelone-update-alerts-status",
+      "name": "sentinelone-create-power-query",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-fetch-threat-file sentinelone-get-alerts sentinelone-get-installed-applications",
+      "name": "sentinelone-expire-site",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-remove-item-from-whitelist sentinelone-run-remote-script sentinelone-get-remote-script-task-status",
+      "name": "sentinelone-initiate-endpoint-scan",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-remote-script-automate-results sentinelone-get-power-query-results get-mapping-fields",
+      "name": "sentinelone-get-remote-script-task-results",
+      "required": ""
+    },
+    {
+      "description": "get-remote-data get-modified-remote-data sentinelone-get-dv-query-status",
+      "name": "update-remote-system",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-get-accounts sentinelone-get-threat-notes sentinelone-list-installed-singularity-marketplace-applications",
+      "name": "sentinelone-get-agent-mac",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring sentinelone-threat-download-from-cloud sentinelone-create-bulk-ioc",
+      "name": "sentinelone-get-service-users",
+      "required": ""
+    },
+    {
+      "description": "sentinelone-abort-endpoint-scan sentinelone-threat-analysis sentinelone-endpoint-fetch-logs",
+      "name": "sentinelone-run-powerquery",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SentinelOne v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sentinel-one-v2"
+}

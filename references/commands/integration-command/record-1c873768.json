@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Symantec.Protection.Network.state.threatName",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "input CVE. Symantec.Protection.CVE.state.technology Symantec technology providing protection.",
+      "name": "Symantec.Protection.CVE.cve",
+      "required": ""
+    },
+    {
+      "description": "The first definition version with protections. Symantec.Protection.CVE.state.threatName The name of the threat the domain or is detected as.",
+      "name": "Symantec.Protection.CVE.state.firstDefsetVersion",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Symantec Endpoint Security",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Symantec Managed Security Services \u00bb Configure Symantec Endpoint Security (ICDM) in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "ip url domain",
+      "name": "file",
+      "required": ""
+    },
+    {
+      "description": "symantec-protection-network symantec-protection-cve Docs",
+      "name": "symantec-protection-file",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Endpoint Security (ICDM)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-icdm"
+}

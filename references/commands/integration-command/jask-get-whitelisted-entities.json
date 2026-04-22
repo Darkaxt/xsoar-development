@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this command.",
+      "required": ""
+    }
+  ],
+  "description": "6. Get a list of entities on allow list",
+  "examples": [
+    "Command Example\n!jask-get-whitelisted-entities\nContext Example\n{\n\"Jask\": {\n\"WhiteListed\": {\n\"EntityList\": [\n{",
+    "!jask-get-whitelisted-entities\nContext Example\n{\n\"Jask\": {\n\"WhiteListed\": {\n\"EntityList\": [\n{\n\"UserName\": \"demisto\","
+  ],
+  "kind": "integration-command",
+  "name": "jask-get-whitelisted-entities",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the entity on allow list Jask.Whitelisted.EntityList.Name Name of the entity on allow list",
+      "name": "Jask.Whitelisted.EntityList.Id",
+      "required": ""
+    },
+    {
+      "description": "Username of the entity on allow list Jask.Whitelisted.EntityList.ModelId The modelID of the entity on allow list",
+      "name": "Jask.Whitelisted.EntityList.UserName",
+      "required": ""
+    },
+    {
+      "description": "Time of the entity on allow list Jask.Whitelisted.EntityList.Metadata.TotalCount Number of entities on allow list",
+      "name": "Jask.Whitelisted.EntityList.Timestamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Jask (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jask"
+}

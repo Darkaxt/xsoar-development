@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The last update date of the adversary.",
+  "examples": [
+    "Command Example\n!threatq-create-adversary name=\"Ruth Testman\"\nHuman Readable Output\n12. Create an event\nCreates a new event in ThreatQ.\nBase Command\nthreatq-create-event\nInput",
+    "!threatq-create-adversary name=\"Ruth Testman\"\nHuman Readable Output\n12. Create an event\nCreates a new event in ThreatQ.\nBase Command\nthreatq-create-event\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-create-event",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the event. ThreatQ.Event.Source.ID The source ID of the event.",
+      "name": "ThreatQ.Event.ID",
+      "required": ""
+    },
+    {
+      "description": "The source name of the event. ThreatQ.Event.Attribute.ID The ID of the event attribute.",
+      "name": "ThreatQ.Event.Source.Name",
+      "required": ""
+    },
+    {
+      "description": "The name of the event attribute. ThreatQ.Event.Attribute.Value The attribute value of the event.",
+      "name": "ThreatQ.Event.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "date The last update date of the event. ThreatQ.Event.CreatedAt",
+      "name": "ThreatQ.Event.UpdatedAt",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the event. ThreatQ.Event.Type The type of the event.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "The description of the event. ThreatQ.Event.Title The title of the event.",
+      "name": "ThreatQ.Event.Description",
+      "required": ""
+    },
+    {
+      "description": "date",
+      "name": "ThreatQ.Event.Occurred",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

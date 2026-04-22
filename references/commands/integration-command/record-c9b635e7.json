@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Please refer to our Python SDK for more information on how we are",
+  "examples": [
+    "Command Example\n#\n!devo-write-to-lookup-table lookupTableName=\"lookup123\" headers=`{\"headers\": [\"foo\", \"bar\", \"baz\"], \"key_index\": 0, \"action\": \"FULL\"}` records=`[{\"fields\": [\"foo1\", \"bar1\", \"baz1\"], \"delete\": false}, {\"fields\": [\"foo2\", \"bar2\", \"baz2\"]}, {\"fields\": [\"foo3\", \"bar3\", \"baz3\"]}]`\nHuman Readable Output\n#\nLookup Table Name: lookup123.\nTotal Records Sent: 3.\nTotal Bytes Sent: 125.",
+    "!devo-write-to-lookup-table lookupTableName=\"lookup123\" headers=`{\"headers\": [\"foo\", \"bar\", \"baz\"], \"key_index\": 0, \"action\": \"FULL\"}` records=`[{\"fields\": [\"foo1\", \"bar1\", \"baz1\"], \"delete\": false}, {\"fields\": [\"foo2\", \"bar2\", \"baz2\"]}, {\"fields\": [\"foo3\", \"bar3\", \"baz3\"]}]`\nHuman Readable Output\n#\nLookup Table Name: lookup123.\nTotal Records Sent: 3.\nTotal Bytes Sent: 125.\nEntries to load into Devo\n#"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Lookup records written to the lookup table.",
+      "name": "Devo.RecordsWritten",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Devo v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/devo-v2"
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "wfr-reset",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Reset the repository data",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "wfr-reset",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next WhatIsMyBrowser \u00bb Configure Web File Repository in Cortex",
+      "name": "\u00ab WALLIX Bastion",
+      "required": ""
+    },
+    {
+      "description": "Access the File Management UI by URL and Port (HTTP) Access the File Management UI by Instance Name (HTTPS) Commands",
+      "name": "How to Access the File Management UI",
+      "required": ""
+    },
+    {
+      "description": "wfr-cleanup wfr-upload-as-file wfr-upload-file",
+      "name": "wfr-status",
+      "required": ""
+    },
+    {
+      "description": "wfr-list-files wfr-remove-files wfr-download-file",
+      "name": "wfr-upload-files",
+      "required": ""
+    },
+    {
+      "description": "wfr-archive-zip wfr-reset Docs",
+      "name": "wfr-download-as-text",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Web File Repository",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/web-file-repository"
+}

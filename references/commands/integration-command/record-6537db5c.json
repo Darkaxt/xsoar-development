@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "In case you pressed reset last run button and you get duplicated incidents, run",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Palo Alto Networks - Strata Cloud Manager \u00bb Configure Prisma Cloud Compute to Send Alerts to Cortex XSOAR",
+      "name": "\u00ab Palo Alto AutoFocus (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "Configure Prisma Cloud Compute User Roles Required User Roles Commands",
+      "name": "Configure Prisma Cloud Compute in Cortex",
+      "required": ""
+    },
+    {
+      "description": "prisma-cloud-compute-profile-container-list prisma-cloud-compute-profile-container-hosts-list prisma-cloud-compute-profile-container-forensic-list",
+      "name": "prisma-cloud-compute-profile-host-list",
+      "required": ""
+    },
+    {
+      "description": "prisma-cloud-compute-console-version-info prisma-cloud-compute-custom-feeds-ip-list prisma-cloud-compute-custom-feeds-ip-add",
+      "name": "prisma-cloud-compute-host-forensic-list",
+      "required": ""
+    },
+    {
+      "description": "prisma-cloud-compute-custom-feeds-malware-list prisma-cloud-compute-custom-feeds-malware-add cve",
+      "name": "prisma-cloud-compute-custom-feeds-ip-remove",
+      "required": ""
+    },
+    {
+      "description": "prisma-cloud-compute-collections-list prisma-cloud-compute-container-namespace-list prisma-cloud-compute-images-scan-list",
+      "name": "prisma-cloud-compute-defenders-list",
+      "required": ""
+    },
+    {
+      "description": "prisma-cloud-compute-vulnerabilities-impacted-resources-list prisma-cloud-compute-get-waas-policies prisma-cloud-compute-update-waas-policies",
+      "name": "prisma-cloud-compute-hosts-scan-list",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks - Prisma Cloud Compute",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-prisma-cloud-compute"
+}

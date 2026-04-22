@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "azure-ks-subscriptions-list",
+  "examples": [
+    "!azure-ks-subscriptions-list\nContext Example\n#\n{\n\"AzureKS\"\n:\n{\n\"Subscription\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique identifier of the Azure Kubernetes subscription. AzureKS.Subscription.authorizationSource The source of authorization for the Azure Kubernetes subscription.",
+      "name": "AzureKS.Subscription.id",
+      "required": ""
+    },
+    {
+      "description": "The tenants that have access to manage the Azure Kubernetes subscription. AzureKS.Subscription.subscriptionId The ID of the Azure Kubernetes subscription.",
+      "name": "AzureKS.Subscription.managedByTenants",
+      "required": ""
+    },
+    {
+      "description": "The ID of the tenant associated with the Azure Kubernetes subscription. AzureKS.Subscription.displayName The display name of the Azure Kubernetes subscription.",
+      "name": "AzureKS.Subscription.tenantId",
+      "required": ""
+    },
+    {
+      "description": "The current state of the Azure Kubernetes subscription. AzureKS.Subscription.subscriptionPolicies.locationPlacementId The ID of the location placement policy for the Azure Kubernetes subscription.",
+      "name": "AzureKS.Subscription.state",
+      "required": ""
+    },
+    {
+      "description": "The ID of the quota policy for the Azure Kubernetes subscription. AzureKS.Subscription.subscriptionPolicies.spendingLimit The spending limit policy for the Azure Kubernetes subscription.",
+      "name": "AzureKS.Subscription.subscriptionPolicies.quotaId",
+      "required": ""
+    },
+    {
+      "description": "The type of the Azure Kubernetes subscription count. AzureKS.Subscription.count.value The value of the Azure Kubernetes subscription count.",
+      "name": "AzureKS.Subscription.count.type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Kubernetes Services",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-kubernetes-services"
+}

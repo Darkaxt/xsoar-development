@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Creates a policy in Symantec MC.",
+  "examples": [
+    "Command Example\nsymantec-mc-create-policy name=\"test_ip_policy\" content_type=\"IP_LIST\" description=\"This is a test\" tenant=\"EDAD4D73-95E7-4C11-84EB-D0C73D28D50A\" shared=\"true\"\nContext Example\n{\n\"SymantecMC.Policy\": {\n\"UUID\": \"AFD91FAE-27C7-461A-86BB-317805ED8DCC\",\n\"ContentType\": \"IP_LIST\",\n\"Name\": \"test_ip_policy\","
+  ],
+  "kind": "integration-command",
+  "name": "symantec-mc-create-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Policy UUID. SymantecMC.Policy.Name Policy name.",
+      "name": "SymantecMC.Policy.UUID",
+      "required": ""
+    },
+    {
+      "description": "Policy content type. SymantecMC.Policy.Author Policy author.",
+      "name": "SymantecMC.Policy.ContentType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-management-center"
+}

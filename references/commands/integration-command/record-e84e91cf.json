@@ -1,0 +1,79 @@
+{
+  "aliases": [
+    "Asset"
+  ],
+  "arguments": [],
+  "description": "bmc-remedy-service-request-get",
+  "examples": [
+    "Command Example\n#\n!bmc-remedy-service-request-get last_fetch_time=\"1 hours\" maximum_service_request=2\nContext Example\n#\n{\n\"BmcRemedyforce\": {\n\"ServiceRequest\": {",
+    "!bmc-remedy-service-request-get last_fetch_time=\"1 hours\" maximum_service_request=2\nContext Example\n#\n{\n\"BmcRemedyforce\": {\n\"ServiceRequest\": {\n\"BusinessService\": \"Printing Services\",\n\"Category\": \"File & Print\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Service Request Id. BmcRemedyforce.ServiceRequest.Number Service Request number.",
+      "name": "BmcRemedyforce.ServiceRequest.Id",
+      "required": ""
+    },
+    {
+      "description": "Service Request priority. BmcRemedyforce.ServiceRequest.Description Service Request description.",
+      "name": "BmcRemedyforce.ServiceRequest.Priority",
+      "required": ""
+    },
+    {
+      "description": "Service Request client. BmcRemedyforce.ServiceRequest.Status Service Request status.",
+      "name": "BmcRemedyforce.ServiceRequest.ClientID",
+      "required": ""
+    },
+    {
+      "description": "Service Request due datetime. BmcRemedyforce.ServiceRequest.Staff Service Request staff.",
+      "name": "BmcRemedyforce.ServiceRequest.DueDateTime",
+      "required": ""
+    },
+    {
+      "description": "Service Request queue. BmcRemedyforce.ServiceRequest.Category Service Request category.",
+      "name": "BmcRemedyforce.ServiceRequest.Queue",
+      "required": ""
+    },
+    {
+      "description": "Service Request urgency. BmcRemedyforce.ServiceRequest.Broadcast Service Request broadcast.",
+      "name": "BmcRemedyforce.ServiceRequest.Urgency",
+      "required": ""
+    },
+    {
+      "description": "Service Request close datetime. BmcRemedyforce.ServiceRequest.CreatedDate Service Request created date.",
+      "name": "BmcRemedyforce.ServiceRequest.closeDateTime",
+      "required": ""
+    },
+    {
+      "description": "Service Request last modified date. BmcRemedyforce.ServiceRequest.OpenDateTime Service Request open datetime.",
+      "name": "BmcRemedyforce.ServiceRequest.LastUpdatedDate",
+      "required": ""
+    },
+    {
+      "description": "Service Request resolution. BmcRemedyforce.ServiceRequest.ServiceOffering Service Request service offering.",
+      "name": "BmcRemedyforce.ServiceRequest.Resolution",
+      "required": ""
+    },
+    {
+      "description": "Service Request template. BmcRemedyforce.ServiceRequest.Impact Service Request impact.",
+      "name": "BmcRemedyforce.ServiceRequest.Template",
+      "required": ""
+    },
+    {
+      "description": "Service Request business service. BmcRemedyforce.ServiceRequest.ServiceRequestDefinition Service Request definition.",
+      "name": "BmcRemedyforce.ServiceRequest.BusinessService",
+      "required": ""
+    },
+    {
+      "description": "Account held by service request. BmcRemedyforce.ServiceRequest.Type Service Desk Type.",
+      "name": "BmcRemedyforce.ServiceRequest.ClientAccount",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BMC Helix Remedyforce",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bmc-helix-remedyforce"
+}

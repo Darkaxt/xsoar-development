@@ -1,0 +1,77 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Wireless Network Connected SSID",
+  "examples": [
+    "Command Example\n!tn-get-sensor id=204\nContext Example\n{\n\"TaniumSensor\": {\n\"Category\": \"Applications\",\n\"ContentSetId\": 11,\n\"ContentSetName\": \"Software\",",
+    "!tn-get-sensor id=204\nContext Example\n{\n\"TaniumSensor\": {\n\"Category\": \"Applications\",\n\"ContentSetId\": 11,\n\"ContentSetName\": \"Software\",\n\"CreationTime\": \"2019-07-17T20:13:49Z\","
+  ],
+  "kind": "integration-command",
+  "name": "tn-get-sensor",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The category that includes this sensor. TaniumSensor.ContentSetId The ID of the content_set to associate with the sensor.",
+      "name": "TaniumSensor.Category",
+      "required": ""
+    },
+    {
+      "description": "The name of the content_set to associate with the sensor. TaniumSensor.CreationTime The date and time when this object was created in the database.",
+      "name": "TaniumSensor.ContentSetName",
+      "required": ""
+    },
+    {
+      "description": "A description for the sensor. TaniumSensor.Hash The hash id of the sensor",
+      "name": "TaniumSensor.Description",
+      "required": ""
+    },
+    {
+      "description": "The unique ID of the sensor object. TaniumSensor.IgnoreCaseFlag Ignore the case flag. Default is 1, which means the case flag is ignored.",
+      "name": "TaniumSensor.ID",
+      "required": ""
+    },
+    {
+      "description": "Keep duplicates flag in the sensor results. Default is 1, which preserves duplicate values in sensor results instead of only returning each unique value once. TaniumSensor.LastModifiedBy",
+      "name": "TaniumSensor.KeepDuplicatesFlag",
+      "required": ""
+    },
+    {
+      "description": "The name of the user who last modified this object. TaniumSensor.MaxAgeSeconds The maximum age in seconds of a sensor result before it is invalid. When results are half this value, the",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "TaniumSensor.ModUserDomain The domain of the user who most recently modified this object. TaniumSensor.ModUserId",
+      "name": "sensor is re-evaluated.",
+      "required": ""
+    },
+    {
+      "description": "The ID of the user who most recently modified this object. TaniumSensor.ModUserName The name of the user who most recently modified this object.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The most recent time and date when this object was modified. TaniumSensor.Name The name of the sensor.",
+      "name": "TaniumSensor.ModificationTime",
+      "required": ""
+    },
+    {
+      "description": "The attribute name of the parameter. TaniumSensor.Parameters.Label The description of the parameter.",
+      "name": "TaniumSensor.Parameters.Key",
+      "required": ""
+    },
+    {
+      "description": "The values of the parameter. TaniumSensor.Parameters.ParameterType The type of parameter.",
+      "name": "TaniumSensor.Parameters.Values",
+      "required": ""
+    },
+    {
+      "description": "The ID of the sensor into which the parameters are substituted. If specified, source_hash may be omitted.",
+      "name": "TaniumSensor.SourceId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

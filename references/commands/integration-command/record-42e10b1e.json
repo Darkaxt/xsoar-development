@@ -1,0 +1,126 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "https://www.googleapis.com/auth/cloud-platform.read-only",
+  "examples": [
+    "!gcp-logging-log-entries-list project_name=\"project_id\"\nContext Example\n#\n{\n\"GoogleCloudLogging\"\n:\n{\n\"LogsEntry\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The resource name of the log to which this log entry belongs. GoogleCloudLogging.LogsEntry.resource.type The monitored resource type.",
+      "name": "GoogleCloudLogging.LogsEntry.logName",
+      "required": ""
+    },
+    {
+      "description": "Values for all of the labels listed in the associated monitored resource descriptor. GoogleCloudLogging.LogsEntry.resource.labels.project_id The project ID.",
+      "name": "GoogleCloudLogging.LogsEntry.resource.labels",
+      "required": ""
+    },
+    {
+      "description": "The cluster name. GoogleCloudLogging.LogsEntry.timestamp The time the event described by the log entry occurred.",
+      "name": "GoogleCloudLogging.LogsEntry.resource.labels.cluster_name",
+      "required": ""
+    },
+    {
+      "description": "The time the log entry was received by Logging. GoogleCloudLogging.LogsEntry.severity The severity of the log entry. The default value is LogSeverity.DEFAULT.",
+      "name": "GoogleCloudLogging.LogsEntry.receiveTimestamp",
+      "required": ""
+    },
+    {
+      "description": "A unique identifier for the log entry. GoogleCloudLogging.LogsEntry.httpRequest.requestMethod The request method.",
+      "name": "GoogleCloudLogging.LogsEntry.insertId",
+      "required": ""
+    },
+    {
+      "description": "The scheme (http, https), the host name, the path and the query portion of the URL that was requested. GoogleCloudLogging.LogsEntry.httpRequest.requestSize The size of the HTTP request message in bytes, including the request headers and the request body.",
+      "name": "GoogleCloudLogging.LogsEntry.httpRequest.requestUrl",
+      "required": ""
+    },
+    {
+      "description": "The response code indicating the status of response. GoogleCloudLogging.LogsEntry.httpRequest.responseSize The size of the HTTP response message sent back to the client, in bytes, including the response headers and the response body.",
+      "name": "GoogleCloudLogging.LogsEntry.httpRequest.status",
+      "required": ""
+    },
+    {
+      "description": "The user agent sent by the client. GoogleCloudLogging.LogsEntry.httpRequest.remoteIp The IP address (IPv4 or IPv6) of the client that issued the HTTP request.",
+      "name": "GoogleCloudLogging.LogsEntry.httpRequest.userAgent",
+      "required": ""
+    },
+    {
+      "description": "The IP address (IPv4 or IPv6) of the origin server that the request was sent to. GoogleCloudLogging.LogsEntry.httpRequest.referer The referer URL of the request.",
+      "name": "GoogleCloudLogging.LogsEntry.httpRequest.serverIp",
+      "required": ""
+    },
+    {
+      "description": "The request processing latency on the server, from the time the request was received until the response was sent. GoogleCloudLogging.LogsEntry.httpRequest.cacheLookup Whether or not a cache lookup was attempted.",
+      "name": "GoogleCloudLogging.LogsEntry.httpRequest.latency",
+      "required": ""
+    },
+    {
+      "description": "Whether or not an entity was served from cache (with or without validation). GoogleCloudLogging.LogsEntry.httpRequest.cacheValidatedWithOriginServer Whether or not the response was validated with the origin server before being served from cache. This field is only meaningful if cacheHit is True.",
+      "name": "GoogleCloudLogging.LogsEntry.httpRequest.cacheHit",
+      "required": ""
+    },
+    {
+      "description": "The number of HTTP response bytes inserted into cache. Set only when a cache fill was attempted. GoogleCloudLogging.LogsEntry.httpRequest.protocol Protocol used for the request.",
+      "name": "GoogleCloudLogging.LogsEntry.httpRequest.cacheFillBytes",
+      "required": ""
+    },
+    {
+      "description": "A map of key, value pairs that provides additional information about the log entry. The labels can be user-defined or system-defined. GoogleCloudLogging.LogsEntry.operation.id An arbitrary operation identifier. Log entries with the same identifier are assumed to be part of the same operation.",
+      "name": "GoogleCloudLogging.LogsEntry.labels",
+      "required": ""
+    },
+    {
+      "description": "An arbitrary producer identifier. The combination of ID and producer must be globally unique. GoogleCloudLogging.LogsEntry.operation.first Set this to True if this is the first log entry in the operation.",
+      "name": "GoogleCloudLogging.LogsEntry.operation.producer",
+      "required": ""
+    },
+    {
+      "description": "Set this to True if this is the last log entry in the operation. GoogleCloudLogging.LogsEntry.trace The REST resource name of the trace being written to Cloud Trace in association with this log entry.",
+      "name": "GoogleCloudLogging.LogsEntry.operation.last",
+      "required": ""
+    },
+    {
+      "description": "The ID of the Cloud Trace span associated with the current operation in which the log is being written. GoogleCloudLogging.LogsEntry.traceSampled The sampling decision of the trace associated with the log entry.",
+      "name": "GoogleCloudLogging.LogsEntry.spanId",
+      "required": ""
+    },
+    {
+      "description": "Source file name. Depending on the runtime environment, this might be a simple name or a fully-qualified name. GoogleCloudLogging.LogsEntry.sourceLocation.line Line within the source file. 1-based; 0 indicates no line number available.",
+      "name": "GoogleCloudLogging.LogsEntry.sourceLocation.file",
+      "required": ""
+    },
+    {
+      "description": "Human-readable name of the function or method being invoked, with optional context such as the class or package name. GoogleCloudLogging.LogsEntry.split.uid A globally unique identifier for all log entries in a sequence of split log entries.",
+      "name": "GoogleCloudLogging.LogsEntry.sourceLocation.function",
+      "required": ""
+    },
+    {
+      "description": "The index of this LogEntry in the sequence of split log entries. GoogleCloudLogging.LogsEntry.split.totalSplits The total number of log entries that the original LogEntry was split into.",
+      "name": "GoogleCloudLogging.LogsEntry.split.index",
+      "required": ""
+    },
+    {
+      "description": "A URI identifying the type. GoogleCloudLogging.LogsEntry.authenticationInfo.principalEmail Identifies the principal that granted the role to the service account.",
+      "name": "GoogleCloudLogging.LogsEntry.protoPayload.@type",
+      "required": ""
+    },
+    {
+      "description": "The log entry payload, represented as a Unicode string (UTF-8). GoogleCloudLogging.LogsEntry.jsonPayload The log entry payload, represented as a structure that is expressed as a JSON object.",
+      "name": "GoogleCloudLogging.LogsEntry.textPayload",
+      "required": ""
+    },
+    {
+      "description": "If there might be more results than those appearing in this response, then nextPageToken is included.",
+      "name": "GoogleCloudLogging.nextPageToken",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Logging",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-logging"
+}

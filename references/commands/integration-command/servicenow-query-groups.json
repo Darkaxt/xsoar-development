@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!servicenow-query-groups group_name=test1\nContext Example\n{\n\"ServiceNow\": {\n\"Group\": {\n\"Active\": \"true\",\n\"Description\": \"Incident Management Group\",",
+    "!servicenow-query-groups group_name=test1\nContext Example\n{\n\"ServiceNow\": {\n\"Group\": {\n\"Active\": \"true\",\n\"Description\": \"Incident Management Group\",\n\"ID\": \"12a586cd0bb23200ecfd818393673a30\","
+  ],
+  "kind": "integration-command",
+  "name": "servicenow-query-groups",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Group sys_id ServiceNow.Group.Description Group description",
+      "name": "ServiceNow.Group.ID",
+      "required": ""
+    },
+    {
+      "description": "Group name ServiceNow.Group.Manager Group manager sys_id",
+      "name": "ServiceNow.Group.Name",
+      "required": ""
+    },
+    {
+      "description": "date Group update time",
+      "name": "ServiceNow.Group.Updated",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now"
+}

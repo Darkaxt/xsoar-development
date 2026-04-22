@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The value label of the indicator.",
+  "examples": [
+    "Command Example\n!tc-get-indicator-types\n29. Associates an indicator with a group\nAssociates an indicator with a group.\nBase Command\ntc-group-associate-indicator\nInput\nArgument Name",
+    "!tc-get-indicator-types\n29. Associates an indicator with a group\nAssociates an indicator with a group.\nBase Command\ntc-group-associate-indicator\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "tc-group-associate-indicator",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the group. TC.Group.GroupType The type of the group.",
+      "name": "TC.Group.GroupID",
+      "required": ""
+    },
+    {
+      "description": "The name of the indicator. TC.Group.IndicatorType",
+      "name": "TC.Group.Indicator",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

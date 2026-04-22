@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!cb-command-create-and-wait session=337 name=kill object=1",
+  "examples": [
+    "!cb-command-create-and-wait session=337 name=kill object=1\n(pid)\nContext Example\nHuman Readable Output\n22. Terminate a process\nTerminates the specified process at the sensor endpoint.\nBase Command\ncb-terminate-process"
+  ],
+  "kind": "integration-command",
+  "name": "cb-terminate-process",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

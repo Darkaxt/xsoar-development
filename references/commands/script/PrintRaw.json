@@ -1,0 +1,38 @@
+{
+  "aliases": [
+    "print-raw"
+  ],
+  "arguments": [],
+  "description": "PrintRaw | Cortex XSOAR",
+  "examples": [
+    "!PrintRaw value=`Lorem ipsum dolor\nsit amet, consectetur adipiscing elit,\nsed do eiusmod tempor incididunt `\nContext Example\n#\n{}\nHuman Readable Output\n#"
+  ],
+  "kind": "script",
+  "name": "PrintRaw",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ` Context Example",
+      "name": "!PrintRaw value=`Lorem ipsum dolor",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "{}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PrintRaw",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/print-raw"
+}

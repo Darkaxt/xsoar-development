@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!vigilante-watchlist-remove-accounts account_identifiers=\"demisto.com\"",
+  "examples": [
+    "!vigilante-watchlist-remove-accounts account_identifiers=\"demisto.com\"\nContext Example\nN/A\nHuman Readable Output\n10. Get a list of account identifiers on a watchlist\nRetrieve account identifiers on your watchlist.\nBase Command\nvigilante-get-watchlist"
+  ],
+  "kind": "integration-command",
+  "name": "vigilante-get-watchlist",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Watchlist of accounts VigilanteATI.Watchlist.identifier account identifier (e.g \"",
+      "name": "VigilanteATI.Watchlist",
+      "required": ""
+    },
+    {
+      "description": "\") VigilanteATI.Watchlist.type identifer type (\"email\" or \"domain\")",
+      "name": "john@domain.com",
+      "required": ""
+    },
+    {
+      "description": "date identifier added to watchlist (YYYY-MM-DD) VigilanteATI.Watchlist.date_notified latest matching intelligence date (YYYY-MM-DD)",
+      "name": "VigilanteATI.Watchlist.date_added",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "VigilanteATI.Watchlist.tag",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "InfoArmor VigilanteATI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/info-armor-vigilante-ati"
+}

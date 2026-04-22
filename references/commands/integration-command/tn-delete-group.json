@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Deletes a group object.",
+  "examples": [
+    "Command Example\n!tn-delete-group id=31822\nContext Example\n{\n\"Tanium.Group\": {\n\"Deleted\": true,\n\"ID\": 31822",
+    "!tn-delete-group id=31822\nContext Example\n{\n\"Tanium.Group\": {\n\"Deleted\": true,\n\"ID\": 31822"
+  ],
+  "kind": "integration-command",
+  "name": "tn-delete-group",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

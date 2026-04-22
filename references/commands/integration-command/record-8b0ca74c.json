@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "update-remote-system",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Update issue in Mandiant Advantage ASM",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "update-remote-system",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "To set up the mirroring: Enable Fetching incidents",
+      "name": "You can enable incident mirroring between Cortex XSOAR incidents and Mandiant Attack Surface Management corresponding events (available from Cortex XSOAR version 6.0.0).",
+      "required": ""
+    },
+    {
+      "description": "Newly fetched incidents will be mirrored in the chosen direction. However, this selection does not affect existing incidents. Important Note: To ensure the mirroring works as expected, mappers are required, both for incoming and outgoing, to map the expected fields in Cortex XSOAR and Mandiant Attack Surface Management.",
+      "name": "in your instance configuration.",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Mandiant Advantage Threat Intelligence",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Mandiant Automated Defense (Formerly Respond Software) \u00bb Configure Mandiant Attack Surface Management in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "attacksurfacemanagement-get-collections fetch-incidents get-remote-data",
+      "name": "attacksurfacemanagement-get-projects",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring Docs Developer Docs",
+      "name": "update-remote-system",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Mandiant Attack Surface Management",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/attack-surface-management"
+}

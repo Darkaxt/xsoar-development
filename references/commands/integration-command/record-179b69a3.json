@@ -1,0 +1,74 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "autofocus-get-export-list-indicators",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator type in the export list. AutoFocus.ExportListIndicator.Value The value of the indicator in the export list.",
+      "name": "AutoFocus.ExportListIndicator.Type",
+      "required": ""
+    },
+    {
+      "description": "The IP address. URL.Data The URL address.",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. Domain.Name The domain name.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Palo Alto Networks AIOps",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Palo Alto Networks Automatic SLR \u00bb Use Cases Get Your API Key",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Activate the API Configure AutoFocus V2 on Cortex XSOAR Commands",
+      "name": "Add your authorization code",
+      "required": ""
+    },
+    {
+      "description": "How to Build a Query Search for sessions How to Build a Query",
+      "name": "Search for samples",
+      "required": ""
+    },
+    {
+      "description": "Search Samples Result is in progress Artifacts for Sample Get results of a sessions search",
+      "name": "Get results of a samples search",
+      "required": ""
+    },
+    {
+      "description": "Get analysis details Get tag details Search for the most popular tags",
+      "name": "Get session details",
+      "required": ""
+    },
+    {
+      "description": "Get the reputation for an IP address Get the reputation of a URL Get the reputation of a file",
+      "name": "Get results of a top tags search",
+      "required": ""
+    },
+    {
+      "description": "autofocus-get-export-list-indicators Docs Developer Docs",
+      "name": "Get the reputation of a domain name",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks AutoFocus v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/auto-focus-v2"
+}

@@ -1,0 +1,218 @@
+{
+  "aliases": [
+    "search-incidents-v2"
+  ],
+  "arguments": [],
+  "description": "SearchIncidentsV2 | Cortex XSOAR",
+  "examples": [
+    "!SearchIncidentsV2 name=\"Incident to search\"\nContext Example\n#\n{\n\"foundIncidents\": [\n{\n\"CustomFields\": {\n\"detectionsla\": {"
+  ],
+  "kind": "script",
+  "name": "SearchIncidentsV2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "A list of incident IDs returned from the query. foundIncidents.name A list of incident names returned from the query.",
+      "name": "foundIncidents.id",
+      "required": ""
+    },
+    {
+      "description": "foundIncidents.severity A list of incident severities returned from the query. foundIncidents.status",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "foundIncidents.owner A list of incident owners returned from the query. foundIncidents.created",
+      "name": "A list of incident statuses returned from the query.",
+      "required": ""
+    },
+    {
+      "description": "foundIncidents.closed A list of incident close dates returned from the query. foundIncidents.labels",
+      "name": "A list of the incident create date returned from the query.",
+      "required": ""
+    },
+    {
+      "description": "foundIncidents.details Details of the incidents returned from the query. foundIncidents.dueDate",
+      "name": "An array of labels per incident returned from the query.",
+      "required": ""
+    },
+    {
+      "description": "foundIncidents.phase A list of incident phases returned from the query. foundIncidents.searchResultsLabel",
+      "name": "A list of incident due dates returned from the query.",
+      "required": ""
+    },
+    {
+      "description": "Script Example",
+      "name": "The value provided in the searchresultslabel argument.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!SearchIncidentsV2 name=\"Incident to search\"",
+      "required": ""
+    },
+    {
+      "description": "\"foundIncidents\": [ { \"CustomFields\": {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"accumulatedPause\": 0, \"breachTriggered\": false, \"dueDate\": \"0001-01-01T00:00:00Z\",",
+      "name": "\"detectionsla\": {",
+      "required": ""
+    },
+    {
+      "description": "\"lastPauseDate\": \"0001-01-01T00:00:00Z\", \"runStatus\": \"idle\", \"sla\": 20,",
+      "name": "\"endDate\": \"0001-01-01T00:00:00Z\",",
+      "required": ""
+    },
+    {
+      "description": "\"startDate\": \"0001-01-01T00:00:00Z\", \"totalDuration\": 0 },",
+      "name": "\"slaStatus\": -1,",
+      "required": ""
+    },
+    {
+      "description": "\"accumulatedPause\": 0, \"breachTriggered\": false, \"dueDate\": \"0001-01-01T00:00:00Z\",",
+      "name": "\"remediationsla\": {",
+      "required": ""
+    },
+    {
+      "description": "\"lastPauseDate\": \"0001-01-01T00:00:00Z\", \"runStatus\": \"idle\", \"sla\": 7200,",
+      "name": "\"endDate\": \"0001-01-01T00:00:00Z\",",
+      "required": ""
+    },
+    {
+      "description": "\"startDate\": \"0001-01-01T00:00:00Z\", \"totalDuration\": 0 },",
+      "name": "\"slaStatus\": -1,",
+      "required": ""
+    },
+    {
+      "description": "\"accumulatedPause\": 0, \"breachTriggered\": false, \"dueDate\": \"0001-01-01T00:00:00Z\",",
+      "name": "\"timetoassignment\": {",
+      "required": ""
+    },
+    {
+      "description": "\"lastPauseDate\": \"0001-01-01T00:00:00Z\", \"runStatus\": \"idle\", \"sla\": 0,",
+      "name": "\"endDate\": \"0001-01-01T00:00:00Z\",",
+      "required": ""
+    },
+    {
+      "description": "\"startDate\": \"0001-01-01T00:00:00Z\", \"totalDuration\": 0 },",
+      "name": "\"slaStatus\": -1,",
+      "required": ""
+    },
+    {
+      "description": "}, \"ShardID\": 0, \"account\": \"\",",
+      "name": "\"urlsslverification\": []",
+      "required": ""
+    },
+    {
+      "description": "\"allRead\": false, \"allReadWrite\": false, \"attachment\": null,",
+      "name": "\"activated\": \"0001-01-01T00:00:00Z\",",
+      "required": ""
+    },
+    {
+      "description": "\"canvases\": null, \"category\": \"\", \"closeNotes\": \"\",",
+      "name": "\"autime\": 1601389784162034000,",
+      "required": ""
+    },
+    {
+      "description": "\"closed\": \"0001-01-01T00:00:00Z\", \"closingUserId\": \"\", \"created\": \"2020-09-29T17:29:44.162034+03:00\",",
+      "name": "\"closeReason\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"dbotCurrentDirtyFields\": null, \"dbotDirtyFields\": null, \"dbotMirrorDirection\": \"\",",
+      "name": "\"dbotCreatedBy\": \"admin\",",
+      "required": ""
+    },
+    {
+      "description": "\"dbotMirrorInstance\": \"\", \"dbotMirrorLastSync\": \"0001-01-01T00:00:00Z\", \"dbotMirrorTags\": null,",
+      "name": "\"dbotMirrorId\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"droppedCount\": 0, \"dueDate\": \"2020-10-09T17:29:44.162034+03:00\", \"feedBased\": false,",
+      "name": "\"details\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"id\": \"978\", \"investigationId\": \"\", \"isPlayground\": false,",
+      "name": "\"hasRole\": false,",
+      "required": ""
+    },
+    {
+      "description": "{ \"type\": \"Instance\", \"value\": \"admin\"",
+      "name": "\"labels\": [",
+      "required": ""
+    },
+    {
+      "description": "{ \"type\": \"Brand\", \"value\": \"Manual\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "], \"lastJobRunTime\": \"0001-01-01T00:00:00Z\", \"lastOpen\": \"0001-01-01T00:00:00Z\",",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"linkedIncidents\": null, \"modified\": \"2020-09-29T17:29:44.162202+03:00\", \"name\": \"Incident to search\",",
+      "name": "\"linkedCount\": 0,",
+      "required": ""
+    },
+    {
+      "description": "\"occurred\": \"2020-09-29T17:29:44.162034+03:00\", \"openDuration\": 0, \"owner\": \"admin\",",
+      "name": "\"notifyTime\": \"0001-01-01T00:00:00Z\",",
+      "required": ""
+    },
+    {
+      "description": "\"phase\": \"\", \"playbookId\": \"\", \"previousAllRead\": false,",
+      "name": "\"parent\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"previousRoles\": null, \"rawCategory\": \"\", \"rawCloseReason\": \"\",",
+      "name": "\"previousAllReadWrite\": false,",
+      "required": ""
+    },
+    {
+      "description": "\"rawName\": \"Incident to search\", \"rawPhase\": \"\", \"rawType\": \"Unclassified\",",
+      "name": "\"rawJSON\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"reminder\": \"0001-01-01T00:00:00Z\", \"roles\": null, \"runStatus\": \"\",",
+      "name": "\"reason\": \"\",",
+      "required": ""
+    },
+    {
+      "description": "\"sla\": 0, \"sortValues\": [ \"_score\"",
+      "name": "\"severity\": 0,",
+      "required": ""
+    },
+    {
+      "description": "\"sourceBrand\": \"Manual\", \"sourceInstance\": \"admin\", \"status\": 0,",
+      "name": "],",
+      "required": ""
+    },
+    {
+      "description": "\"version\": 1 } ]",
+      "name": "\"type\": \"Unclassified\",",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SearchIncidentsV2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/search-incidents-v2"
+}

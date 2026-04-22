@@ -1,0 +1,56 @@
+{
+  "aliases": [
+    "extract-indicators-cloud-logging"
+  ],
+  "arguments": [],
+  "description": "ExtractIndicators-CloudLogging | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ExtractIndicators-CloudLogging",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ARN extracted from the event CloudIndicators.access_key_id The access key ID extracted from the event",
+      "name": "CloudIndicators.arn",
+      "required": ""
+    },
+    {
+      "description": "CloudIndicators.resource_name The resource name extracted from the event CloudIndicators.source_ip",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "CloudIndicators.username The username extracted from the event CloudIndicators.event_name",
+      "name": "The source ip extracted from the event",
+      "required": ""
+    },
+    {
+      "description": "CloudIndicators.user_agent The user agent extracted from the event Edit this page",
+      "name": "The event name extracted from the event",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab ExtractInbetween Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "ExtractIndicatorsFromTextFile \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExtractIndicators-CloudLogging",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/extract-indicators-cloud-logging"
+}

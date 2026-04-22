@@ -1,0 +1,179 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID for the employee or contingent worker. Workday.Worker.User_ID Text attribute identifying User Name.",
+      "name": "Workday.Worker.Worker_ID",
+      "required": ""
+    },
+    {
+      "description": "The worker Country. Workday.Worker.Legal_First_Name The First Name (Given Name) for a worker.",
+      "name": "Workday.Worker.Country",
+      "required": ""
+    },
+    {
+      "description": "The Last Name (Family Name) for a worker. Workday.Worker.Preferred_First_Name The First Name (Preferred Name) for a worker.",
+      "name": "Workday.Worker.Legal_Last_Name",
+      "required": ""
+    },
+    {
+      "description": "The Last Name (Preferred Name) for a worker. Workday.Worker.Position_ID Text attribute identifying Position ID.",
+      "name": "Workday.Worker.Preferred_Last_Name",
+      "required": ""
+    },
+    {
+      "description": "Text attribute identifying Position Title. Workday.Worker.Business_Title Business title for the position.",
+      "name": "Workday.Worker.Position_Title",
+      "required": ""
+    },
+    {
+      "description": "Date the Worker first started work in this Position. Workday.Worker.End_Employment_Reason_Reference Termination/End Additional Job Reason.",
+      "name": "Workday.Worker.Start_Date",
+      "required": ""
+    },
+    {
+      "description": "The worker type for the position. Workday.Worker.Position_Time_Type Position time type.",
+      "name": "Workday.Worker.Worker_Type",
+      "required": ""
+    },
+    {
+      "description": "Scheduled Weekly Hours for Position. Workday.Worker.Default_Weekly_Hours Standard Weekly Hours for Position.",
+      "name": "Workday.Worker.Scheduled_Weekly_Hours",
+      "required": ""
+    },
+    {
+      "description": "Full Time Equivalent Percentage for Position. Workday.Worker.Exclude_from_Headcount If Y, the position will be excluded from headcount reporting.",
+      "name": "Workday.Worker.Full_Time_Equivalent_Percentage",
+      "required": ""
+    },
+    {
+      "description": "Pay rate type for the position. Workday.Worker.Job_Profile_Name The name of the job profile.",
+      "name": "Workday.Worker.Pay_Rate_Type",
+      "required": ""
+    },
+    {
+      "description": "Returns true if a work shift is required on the position where this job profile is used. Workday.Worker.Critical_Job Returns true if the job profile is considered a critical job.",
+      "name": "Workday.Worker.Work_Shift_Required",
+      "required": ""
+    },
+    {
+      "description": "Business Site ID. Workday.Worker.Business_Site_Name The name of the location.",
+      "name": "Workday.Worker.Business_Site_id",
+      "required": ""
+    },
+    {
+      "description": "The type of a location. Workday.Worker.Business_Site_Address.Address_ID Business site address ID.",
+      "name": "Workday.Worker.Business_Site_Type",
+      "required": ""
+    },
+    {
+      "description": "The formatted address in the format specified for the country. Workday.Worker.Business_Site_Address.Country Country for the address.",
+      "name": "Workday.Worker.Business_Site_Address.Formatted_Address",
+      "required": ""
+    },
+    {
+      "description": "The postal code part of the address. Workday.Worker.End_Date The effective date of the end employment business process.",
+      "name": "Workday.Worker.Business_Site_Address.Postal_Code",
+      "required": ""
+    },
+    {
+      "description": "The pay through date for the end of employment. Workday.Worker.Active Boolean attribute identifying whether the Worker is Active.",
+      "name": "Workday.Worker.Pay_Through_Date",
+      "required": ""
+    },
+    {
+      "description": "The most recent hire date for the employee or contract start date for the contingent worker. Workday.Worker.Hire_Reason Reason for Hire from the most recent Hire event.",
+      "name": "Workday.Worker.Hire_Date",
+      "required": ""
+    },
+    {
+      "description": "First Day of Work only applies to the Payroll web service. Workday.Worker.Retired Boolean attribute identifying whether the Worker is currently retired.",
+      "name": "Workday.Worker.First_Day_of_Work",
+      "required": ""
+    },
+    {
+      "description": "Number of days unemployed since the employee first joined the work force. Used only for China. Workday.Worker.Terminated Boolean attribute identifying whether the Worker is currently Terminated.",
+      "name": "Workday.Worker.Days_Unemployed",
+      "required": ""
+    },
+    {
+      "description": "Most recent Termination Date. Workday.Worker.Primary_Termination_Reason The primary reason for the worker's most recent termination.",
+      "name": "Workday.Worker.Termination_Date",
+      "required": ""
+    },
+    {
+      "description": "Reference to primary termination reason category. Workday.Worker.Termination_Involuntary Indicates if the termination was involuntary.",
+      "name": "Workday.Worker.Primary_Termination_Category",
+      "required": ""
+    },
+    {
+      "description": "Returns \"Yes\" if the worker is a rehire based on the most recent hire event. Workday.Worker.Termination_Last_Day_of_Work Last day worked for the worker's termination event.",
+      "name": "Workday.Worker.Rehire",
+      "required": ""
+    },
+    {
+      "description": "Date the employee submitted their resignation. Workday.Worker.Has_International_Assignment Indicates whether the worker has internaitonal assignment",
+      "name": "Workday.Worker.Resignation_Date",
+      "required": ""
+    },
+    {
+      "description": "Contains the home country for worker's primary job (ISO_3166-1_Alpha-2_Code). Workday.Worker.Photo Worker's photo in base64.",
+      "name": "Workday.Worker.Home_Country_Reference",
+      "required": ""
+    },
+    {
+      "description": "Worker's address ID. Workday.Worker.Addresses.Formatted_Address the formatted address in the format specified for the country.",
+      "name": "Workday.Worker.Addresses.Address_ID",
+      "required": ""
+    },
+    {
+      "description": "Country for the Worker's address. Workday.Worker.Addresses.Region The ID of the region (ISO_3166-2_Code)",
+      "name": "Workday.Worker.Addresses.Country",
+      "required": ""
+    },
+    {
+      "description": "The region part of the address. Typically this contains the state/province information. Workday.Worker.Addresses.Postal_Code The postal code part of the address.",
+      "name": "Workday.Worker.Addresses.Region_Descriptor",
+      "required": ""
+    },
+    {
+      "description": "Address type. Workday.Worker.Emails.Email_Address Email Address Information.",
+      "name": "Workday.Worker.Addresses.Type",
+      "required": ""
+    },
+    {
+      "description": "Usage type. Workday.Worker.Emails.Primary Indicates if the communication method is primary.",
+      "name": "Workday.Worker.Emails.Type",
+      "required": ""
+    },
+    {
+      "description": "Indicates if the Email is public. Workday.Worker.Phones.ID Phone ID.",
+      "name": "Workday.Worker.Emails.Public",
+      "required": ""
+    },
+    {
+      "description": "Phone number. Workday.Worker.Phones.Type Phone Device Type.",
+      "name": "Workday.Worker.Phones.Phone_Number",
+      "required": ""
+    },
+    {
+      "description": "Phone usage data. Workday.Worker.Manager.Manager_ID The manager worker ID.",
+      "name": "Workday.Worker.Phones.Usage",
+      "required": ""
+    },
+    {
+      "description": "The manager name.",
+      "name": "Workday.Worker.Manager.Manager_Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Workday",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/workday"
+}

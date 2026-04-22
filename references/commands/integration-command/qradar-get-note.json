@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!qradar-get-note offense_id=78 note_id=190 fields=id,create_time\nContext Example\n{\n\"QRadar\": {\n\"Note\": {\n\"Text\": \"Demisto has the best documentation!\",\n\"CreateTime\": \"2018-10-29T13:26:57.579000Z\",",
+    "!qradar-get-note offense_id=78 note_id=190 fields=id,create_time\nContext Example\n{\n\"QRadar\": {\n\"Note\": {\n\"Text\": \"Demisto has the best documentation!\",\n\"CreateTime\": \"2018-10-29T13:26:57.579000Z\",\n\"CreatedBy\": \"API_user: admin\","
+  ],
+  "kind": "integration-command",
+  "name": "qradar-get-note",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Note ID QRadar.Note.Text Note text",
+      "name": "QRadar.Note.ID",
+      "required": ""
+    },
+    {
+      "description": "date The creation time of the note QRadar.Note.CreatedBy",
+      "name": "QRadar.Note.CreateTime",
+      "required": ""
+    },
+    {
+      "description": "The user who created the note",
+      "name": "string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM QRadar (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/q-radar"
+}

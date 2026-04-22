@@ -1,0 +1,109 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The group report to download in PDF format.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The size of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. File.Name The name of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The SSDeep hash of the file. File.EntryID The entry ID of the file.",
+      "name": "File.SSDeep",
+      "required": ""
+    },
+    {
+      "description": "The information of the file. File.Type The type of the file.",
+      "name": "File.Info",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the file. File.Extension The extension of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab ThreatConnect Feed",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "ThreatConnect v3 \u00bb Configure ThreatConnect v2 in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "url file tc-owners",
+      "name": "ip",
+      "required": ""
+    },
+    {
+      "description": "tc-get-tags tc-tag-indicator tc-get-indicator",
+      "name": "tc-indicators",
+      "required": ""
+    },
+    {
+      "description": "tc-add-indicator tc-create-incident tc-fetch-incidents",
+      "name": "tc-get-indicators-by-tag",
+      "required": ""
+    },
+    {
+      "description": "domain tc-get-incident-associate-indicators tc-update-indicator",
+      "name": "tc-incident-associate-indicator",
+      "required": ""
+    },
+    {
+      "description": "tc-delete-indicator tc-create-campaign tc-create-event",
+      "name": "tc-delete-indicator-tag",
+      "required": ""
+    },
+    {
+      "description": "tc-delete-group tc-add-group-attribute tc-get-events",
+      "name": "tc-create-threat",
+      "required": ""
+    },
+    {
+      "description": "tc-add-group-security-label tc-add-group-tag tc-get-indicator-types",
+      "name": "tc-get-groups",
+      "required": ""
+    },
+    {
+      "description": "tc-create-document-group tc-get-group tc-get-group-attributes",
+      "name": "tc-group-associate-indicator",
+      "required": ""
+    },
+    {
+      "description": "tc-get-group-tags tc-download-document tc-get-group-indicators",
+      "name": "tc-get-group-security-labels",
+      "required": ""
+    },
+    {
+      "description": "tc-associate-group-to-group tc-get-indicator-owners tc-download-report",
+      "name": "tc-get-associated-groups",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect-v2"
+}

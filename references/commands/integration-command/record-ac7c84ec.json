@@ -1,0 +1,72 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "https://partner.analystplatform.com/indicators/2885382",
+  "examples": [
+    "Command Example\n#\n!url url=104.218.120.128/check.aspx\nContext Example\n#\n{\n\"URL\": {\n\"Malicious\": {",
+    "!url url=104.218.120.128/check.aspx\nContext Example\n#\n{\n\"URL\": {\n\"Malicious\": {\n\"Vendor\": \"illuminate\",\n\"Description\": \"illuminate has determined that this indicator is malicious via internal analysis.\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The URL. Illuminate.Url.ID The unique identifier of the given Indicator in illuminate",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "The number of evidence reports of the given indicator in illuminate. Illuminate.Url.Active Whether the given indicator is noted as active in illuminate.",
+      "name": "Illuminate.Url.EvidenceCount",
+      "required": ""
+    },
+    {
+      "description": "The confidence level of the data in illuminate. Illuminate.Url.FirstHit date",
+      "name": "Illuminate.Url.ConfidenceLevel",
+      "required": ""
+    },
+    {
+      "description": "Illuminate.Url.LastHit date The most recent date this indicator was seen in a source scanned by illuminate.",
+      "name": "The first date this indicator was seen in a source scanned by illuminate.",
+      "required": ""
+    },
+    {
+      "description": "The total number of this indicator was seen in a source scanned by illuminate. Illuminate.Url.ReportedDates date",
+      "name": "Illuminate.Url.HitCount",
+      "required": ""
+    },
+    {
+      "description": "Illuminate.Url.ActivityDates date The dates this indicator had reported activity in illuminate.",
+      "name": "The dates this indicator was reported on in illuminate.",
+      "required": ""
+    },
+    {
+      "description": "Each matched malware unique identifier in illuminate Illuminate.Url.Malwares.Name Each matched malware name in illuminate.",
+      "name": "Illuminate.Url.Malwares.ID",
+      "required": ""
+    },
+    {
+      "description": "Each matched actor unique identifier in illuminate Illuminate.Url.Actors.Name Each matched actor name in illuminate.",
+      "name": "Illuminate.Url.Actors.ID",
+      "required": ""
+    },
+    {
+      "description": "The URL of the matched indicator in illuminate. DBotScore.Indicator The indicator that was tested.",
+      "name": "Illuminate.Url.IlluminateLink",
+      "required": ""
+    },
+    {
+      "description": "Numbe The actual score. DBotScore.Type",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The type of indicator. DBotScore.Vendor The AlienVault OTX vendor.",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "illuminate (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/illuminate"
+}

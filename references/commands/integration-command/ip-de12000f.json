@@ -1,0 +1,51 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get the reputation of a file observable: file",
+  "examples": [
+    "Command Example\nip ip=8.8.8.8\nContext Example\n{\n\"IP\": [\n{\n\"Address\": \"8.8.8.8\"\n}"
+  ],
+  "kind": "integration-command",
+  "name": "ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address that was tested EclecticIQ.IP.Created Date",
+      "name": "EclecticIQ.IP.Address",
+      "required": ""
+    },
+    {
+      "description": "EclecticIQ.IP.LastUpdate Date Observable last updated date",
+      "name": "Observable creation date",
+      "required": ""
+    },
+    {
+      "description": "Observable ID EclecticIQ.IP.Maliciousness Maliciousness confidence level",
+      "name": "EclecticIQ.IP.ID",
+      "required": ""
+    },
+    {
+      "description": "IP address that was tested IP.Malcious.Vendor For malicious IPs, the vendor that made the decision",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "For malicious IPs, the reason that the vendor made the decision DBotScore.Type Indicator type",
+      "name": "IP.Malcious.Description",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EclecticIQ Platform (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/eclectic-iq-platform"
+}

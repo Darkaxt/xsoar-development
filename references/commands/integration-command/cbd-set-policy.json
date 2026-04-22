@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!cbd-update-rule-in-policy action=\"TERMINATE\" id=1 operation=RANSOM policyId=21355 required=false type=REPUTATION value=COMPANY_BLACK_LIST",
+  "examples": [
+    "Command Example\n!cbd-update-rule-in-policy action=\"TERMINATE\" id=1 operation=RANSOM policyId=21355 required=false type=REPUTATION value=COMPANY_BLACK_LIST\nHuman Readable Output\nRequest Success\nSet a policy\nSets a specified policy.\nBase Command\ncbd-set-policy",
+    "!cbd-update-rule-in-policy action=\"TERMINATE\" id=1 operation=RANSOM policyId=21355 required=false type=REPUTATION value=COMPANY_BLACK_LIST\nHuman Readable Output\nRequest Success\nSet a policy\nSets a specified policy.\nBase Command\ncbd-set-policy\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "cbd-set-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next VMware Workspace ONE UEM (AirWatch MDM) \u00bb Docs",
+      "name": "\u00ab VMware Carbon Black EDR v2",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black Endpoint Standard (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-defense"
+}

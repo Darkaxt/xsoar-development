@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab Qintel QWatch\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "QR Code data obtained GoQRCodeData.error Errors reading QR code",
+      "name": "GoQRCodeData.data",
+      "required": ""
+    },
+    {
+      "description": "sequence numbers read from code",
+      "name": "GoQRCodeData.seq",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "QR Code Reader - goqr.me",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/qr-code-reader---goqrme"
+}

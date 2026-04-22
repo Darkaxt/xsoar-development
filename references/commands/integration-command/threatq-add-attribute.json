@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The type of the indicator.",
+  "examples": [
+    "Command Example\n!threatq-create-indicator value=232.12.34.135 status=Review type=\"IP Address\" attributes_names=TestAttr1,TestAttr2 attributes_values=Val1,Val2 sources=arian@demisto.com\nHuman Readable Output\n8. Add an attribute\nAdds an attribute to an object in ThreatQ.\nBase Command\nthreatq-add-attribute\nInput",
+    "!threatq-create-indicator value=232.12.34.135 status=Review type=\"IP Address\" attributes_names=TestAttr1,TestAttr2 attributes_values=Val1,Val2 sources=arian@demisto.com\nHuman Readable Output\n8. Add an attribute\nAdds an attribute to an object in ThreatQ.\nBase Command\nthreatq-add-attribute\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-add-attribute",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

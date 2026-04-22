@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\nsymantec-mc-list-tenants\nContext Example\n{\n\"SymantecMC.Tenant\": [\n{\n\"System\": true,\n\"UUID\": \"54D4CDA9-293E-4861-B56F-0E50E5799F7A\","
+  ],
+  "kind": "integration-command",
+  "name": "symantec-mc-list-tenants",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Tenant UUID. SymantecMC.Tenant.Name Tenant name.",
+      "name": "SymantecMC.Tenant.UUID",
+      "required": ""
+    },
+    {
+      "description": "Tenant external ID. SymantecMC.Tenant.Description Tenant description.",
+      "name": "SymantecMC.Tenant.ExternalID",
+      "required": ""
+    },
+    {
+      "description": "Whether the system is a tenant.",
+      "name": "SymantecMC.Tenant.System",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-management-center"
+}

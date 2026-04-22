@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "bigfix-deploy-patch",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Action ID Bigfix.Action.Name Action name",
+      "name": "Bigfix.Action.ID",
+      "required": ""
+    },
+    {
+      "description": "Site name Bigfix.Action.ComputerIDs Computers IDs the patch was applied to",
+      "name": "Bigfix.Action.SiteName",
+      "required": ""
+    },
+    {
+      "description": "true if patch was applied to all the computers Bigfix.Action.Resource Link to action in BigFix",
+      "name": "Bigfix.Action.AllComputers",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BigFix",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/big-fix"
+}

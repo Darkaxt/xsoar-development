@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Update fields in a specified record.",
+  "examples": [
+    "Command Example\n#\n##### Human Readable Output\n### kl-get-user-by-id\n***\nGet user details by his ID.\n##### Base Command\n`kl-get-user-by-id`",
+    "##### Command Example\n```!kl-get-user-by-id user_id=268```\n##### Context Example\n```\n{\n\"Keylight\": {\n\"User\": {\n\"APIAccess\": true,"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the component the record is in. Keylight.Record.DisplayName The display name of the record.",
+      "name": "Keylight.Record.ComponentID",
+      "required": ""
+    },
+    {
+      "description": "The fields in the record. Keylight.Record.ID The record ID",
+      "name": "Keylight.Record.Fields",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Lockpath KeyLight v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/lockpath-key-light-v2"
+}

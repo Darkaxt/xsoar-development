@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "Type",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Dumps information out of the database in nwd formatted files.",
+  "examples": [
+    "Command Example\n!nw-database-dump session=\"1\" source=\"m\"\nRaw Output\n{\n\"flags\":1074003969,\n\"params\":[\n{\n\"MetaArray\":\"31\",",
+    "!nw-database-dump session=\"1\" source=\"m\"\nRaw Output\n{\n\"flags\":1074003969,\n\"params\":[\n{\n\"MetaArray\":\"31\",\n\"dbFile\":\"/var/netwitness/concentrator/metadb/meta-000000001.nwmdb\""
+  ],
+  "kind": "integration-command",
+  "name": "nw-database-dump",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness Packets and Logs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-packets-and-logs"
+}

@@ -1,0 +1,77 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "5. Get information for a single machine module",
+  "examples": [
+    "Command Example\n!netwitness-get-machine-module machineGUID= moduleID=\nContext Example\n{\n\"\nFile\n\"\n: {",
+    "!netwitness-get-machine-module machineGUID= moduleID=\nContext Example\n{\n\"\nFile\n\"\n: {\n\""
+  ],
+  "kind": "integration-command",
+  "name": "netwitness-get-machine-module",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Machine GUID NetWitness.Modules.ModuleID Module ID",
+      "name": "NetWitness.Modules.MachineGUID",
+      "required": ""
+    },
+    {
+      "description": "File name NetWitness.Modules.FullPath Full path",
+      "name": "NetWitness.Modules.FileName",
+      "required": ""
+    },
+    {
+      "description": "MD5 NetWitness.Modules.RiskScore Risk score",
+      "name": "NetWitness.Modules.MD5",
+      "required": ""
+    },
+    {
+      "description": "SHA-1 NetWitness.Modules.SHA256 SHA-256",
+      "name": "NetWitness.Modules.SHA1",
+      "required": ""
+    },
+    {
+      "description": "IIOC score NetWitness.Modules.Blacklisted Blacklisted",
+      "name": "NetWitness.Modules.IIOCScore",
+      "required": ""
+    },
+    {
+      "description": "Graylisted NetWitness.Modules.Whitelisted Whitelisted",
+      "name": "NetWitness.Modules.Graylisted",
+      "required": ""
+    },
+    {
+      "description": "Machine count NetWitness.Modules.IIOCLevel0 IIOC Level 0",
+      "name": "NetWitness.Modules.MachineCount",
+      "required": ""
+    },
+    {
+      "description": "IIOC Level 1 NetWitness.Modules.IIOCLevel2 IIOC Level 2",
+      "name": "NetWitness.Modules.IIOCLevel1",
+      "required": ""
+    },
+    {
+      "description": "IIOC Level 3 NetWitness.Modules.FirstSeenName First seen name",
+      "name": "NetWitness.Modules.IIOCLevel3",
+      "required": ""
+    },
+    {
+      "description": "First seen date File.Name The file name",
+      "name": "NetWitness.Modules.FirstSeenDate",
+      "required": ""
+    },
+    {
+      "description": "File MD5 File.SHA1 File SHA-1",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "File full path",
+      "name": "File.Path",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness Endpoint",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-endpoint"
+}

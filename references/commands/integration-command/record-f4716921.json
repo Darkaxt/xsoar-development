@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "adminbyrequest-request-approve",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Approves a request in AdminByRequest.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "adminbyrequest-request-approve",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Aella Star Light \u00bb Configure Admin By Request in Cortex",
+      "name": "\u00ab ActiveMQ",
+      "required": ""
+    },
+    {
+      "description": "adminbyrequest-get-events API Limitations adminbyrequest-list-requests",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "adminbyrequest-request-approve Docs Developer Docs",
+      "name": "adminbyrequest-request-deny",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Admin By Request",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/admin-by-request"
+}

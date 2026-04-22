@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Allows you to tag an interesting point in time in Coralogix from Cortex XSOAR",
+  "examples": [
+    "Command Example\n#\n!coralogix-tag name=\"Data leak started\"\nOutput\n#\nTag added successfully\nEdit this page\nReport an Issue",
+    "!coralogix-tag name=\"Data leak started\"\nOutput\n#\nTag added successfully\nEdit this page\nReport an Issue\nPrevious\n\u00ab Confluera"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Tag added successfully",
+      "required": ""
+    },
+    {
+      "description": "Next Core Lock \u00bb Overview",
+      "name": "\u00ab Confluera",
+      "required": ""
+    },
+    {
+      "description": "Configure Coralogix on Cortex XSOAR Commands 1. coralogix-search",
+      "name": "Use Cases",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "2. coralogix-tag",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Coralogix",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/coralogix"
+}

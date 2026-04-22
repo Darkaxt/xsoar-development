@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The date the event expires (RFC3339 format).",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "sigsci-get-event-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the event. SigSciences.Corp.Site.Event.Timestamp The timestamp of the event (RFC3339 format).",
+      "name": "SigSciences.Corp.Site.Event.ID",
+      "required": ""
+    },
+    {
+      "description": "Source information, for example, \u201cIP\u201d. SigSciences.Corp.Site.Event.RemoteCountryCode The country code.",
+      "name": "SigSciences.Corp.Site.Event.Source",
+      "required": ""
+    },
+    {
+      "description": "The remote hostname. SigSciences.Corp.Site.Event.UserAgents An array of user agents.",
+      "name": "SigSciences.Corp.Site.Event.RemoteHostname",
+      "required": ""
+    },
+    {
+      "description": "If \u201cflagged\u201d, the IP address is flagged and subsequent malicious requests will be blocked. If \u201cinfo\u201d, the IP address is flagged and subsequent requests will be logged. SigSciences.Corp.Site.Event.Reasons The reason the event was triggered.",
+      "name": "SigSciences.Corp.Site.Event.Action",
+      "required": ""
+    },
+    {
+      "description": "The total number of requests. SigSciences.Corp.Site.Event.TagCount The total number of tags.",
+      "name": "SigSciences.Corp.Site.Event.RequestCount",
+      "required": ""
+    },
+    {
+      "description": "The time window (in seconds) when the items were detected. SigSciences.Corp.Site.Event.DateExpires",
+      "name": "SigSciences.Corp.Site.Event.Window",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

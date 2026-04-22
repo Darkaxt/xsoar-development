@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!gvault-create-export-mail matterID=\"0bebe0ec-ee41-4955-96b3-20d9408409c8\" exportName=\"mail_test_export412Z85Fs5q\" dataScope=\"All Data\" searchMethod=\"Specific Accounts(requires emails argument)\" emails=\"test@gmail.com\" includeDrafts=\"true\" timeFrame=\"7 days ago\" terms=\"subject:test\" exportPST=\"true\"",
+  "examples": [
+    "Command Example\n!gvault-create-export-mail matterID=\"0bebe0ec-ee41-4955-96b3-20d9408409c8\" exportName=\"mail_test_export412Z85Fs5q\" dataScope=\"All Data\" searchMethod=\"Specific Accounts(requires emails argument)\" emails=\"test@gmail.com\" includeDrafts=\"true\" timeFrame=\"7 days ago\" terms=\"subject:test\" exportPST=\"true\"\nContext Example\nHuman Readable Output\n2. Create a matter\nCreates a new matter with the specified name and description. The initial state is open, and the owner is the method caller. First, checks if a matter with the same name already exists.\nBase Command\ngvault-create-matter",
+    "!gvault-create-export-mail matterID=\"0bebe0ec-ee41-4955-96b3-20d9408409c8\" exportName=\"mail_test_export412Z85Fs5q\" dataScope=\"All Data\" searchMethod=\"Specific Accounts(requires emails argument)\" emails=\"test@gmail.com\" includeDrafts=\"true\" timeFrame=\"7 days ago\" terms=\"subject:test\" exportPST=\"true\"\nContext Example\nHuman Readable Output\n2. Create a matter\nCreates a new matter with the specified name and description. The initial state is open, and the owner is the method caller. First, checks if a matter with the same name already exists.\nBase Command\ngvault-create-matter\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-create-matter",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Matter name GoogleVault.Matter.ID Matter ID",
+      "name": "GoogleVault.Matter.Name",
+      "required": ""
+    },
+    {
+      "description": "Matter's state",
+      "name": "GoogleVault.Matter.State",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

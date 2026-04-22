@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "iot-security-get-raci"
+  ],
+  "arguments": [],
+  "description": "iot-security-get-raci | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "iot-security-get-raci",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The RACI model of the IoT incident PaloAltoNetworksIoT.RACI.r The responsible in the RACI model",
+      "name": "PaloAltoNetworksIoT.RACI",
+      "required": ""
+    },
+    {
+      "description": "PaloAltoNetworksIoT.RACI.r_email The email of responsible in the RACI model PaloAltoNetworksIoT.RACI.i",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "PaloAltoNetworksIoT.RACI.i_email The emails of informed in the RACI model delimited by comma PaloAltoNetworksIoT.RACI.owner",
+      "name": "The informed in the RACI model",
+      "required": ""
+    },
+    {
+      "description": "PaloAltoNetworksIoT.RACI.r_snow The ServiceNow information of the incident responsible PaloAltoNetworksIoT.RACI.r_snow.fields",
+      "name": "The IoT owner of the device",
+      "required": ""
+    },
+    {
+      "description": "PaloAltoNetworksIoT.RACI.r_snow.custom_fields The custom fields of the ServiceNow ticket PaloAltoNetworksIoT.RACI.r_snow.table",
+      "name": "The fields of the ServiceNow ticket",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The table of the ServiceNow ticket",
+      "required": ""
+    },
+    {
+      "description": "Next iot-security-vuln-post-processing \u00bb Script Data",
+      "name": "\u00ab iot-security-check-servicenow",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "iot-security-get-raci",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/iot-security-get-raci"
+}

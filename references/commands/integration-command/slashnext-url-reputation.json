@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "--------> https://www.google.com/maps/place/2307+Watterson+Trail,+Jeffersontown,+KY+40299/@38.2107207,-85.5607165,17z/data=!3m1!4b1!4m5!3m4!1s0x8869a1b57420f6d9:0xccc95b8f32dcfd4b!8m2!3d38.2107165!4d-85.5585225",
+  "examples": [
+    "Command Example\n!slashnext-url-reputation url=www.google.com\nContext Example\n{\n\"DBotScore\": [\n{\n\"Indicator\": \"http://www.google.com/\",\n\"Score\": 1,",
+    "!slashnext-url-reputation url=www.google.com\nContext Example\n{\n\"DBotScore\": [\n{\n\"Indicator\": \"http://www.google.com/\",\n\"Score\": 1,\n\"Type\": \"url\","
+  ],
+  "kind": "integration-command",
+  "name": "slashnext-url-reputation",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested DBotScore.Type Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "URL reported URL.Malicious.Vendor For malicious URLs, the vendor that made the decision",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the reason that the vendor made the decision SlashNext.URL.Value Value of the Indicator of Compromise (IoC)",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Type of the Indicator of Compromise (IoC) SlashNext.URL.Verdict SlashNext Phishing Incident Response verdict on the IoC",
+      "name": "SlashNext.URL.Type",
+      "required": ""
+    },
+    {
+      "description": "Threat status of the IoC SlashNext.URL.ThreatName Name of the threat posed by the IoC",
+      "name": "SlashNext.URL.ThreatStatus",
+      "required": ""
+    },
+    {
+      "description": "Type of the threat posed by the IoC SlashNext.URL.FirstSeen date",
+      "name": "SlashNext.URL.ThreatType",
+      "required": ""
+    },
+    {
+      "description": "SlashNext.URL.LastSeen date Time when the IoC was last observed",
+      "name": "Time when the IoC was first observed",
+      "required": ""
+    },
+    {
+      "description": "Final IoC value in case original IoC is a redirector to same domain SlashNext.URL.Final.Type Type of the final IoC",
+      "name": "SlashNext.URL.Final.Value",
+      "required": ""
+    },
+    {
+      "description": "SlashNext Phishing Incident Response verdict on the final IoC SlashNext.URL.Landing.Value Landing IoC value in case original IoC is a redirector to different domain",
+      "name": "SlashNext.URL.Final.Verdict",
+      "required": ""
+    },
+    {
+      "description": "Type of the landing IoC SlashNext.URL.Landing.Verdict SlashNext Phishing Incident Response verdict on the landing IoC",
+      "name": "SlashNext.URL.Landing.Type",
+      "required": ""
+    },
+    {
+      "description": "Threat status of the landing IoC SlashNext.URL.Landing.ThreatName Name of the threat posed by the landing IoC",
+      "name": "SlashNext.URL.Landing.ThreatStatus",
+      "required": ""
+    },
+    {
+      "description": "Type of the threat posed by the landing IoC SlashNext.URL.Landing.FirstSeen date",
+      "name": "SlashNext.URL.Landing.ThreatType",
+      "required": ""
+    },
+    {
+      "description": "SlashNext.URL.Landing.LastSeen date Time when the landing IoC was last observed",
+      "name": "Time when the landing IoC was first observed",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SlashNext Phishing Incident Response (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slash-next-phishing-incident-response"
+}

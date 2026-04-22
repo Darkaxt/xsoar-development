@@ -1,0 +1,131 @@
+{
+  "aliases": [
+    "risk-sense-get-ransomeware-cve-script"
+  ],
+  "arguments": [],
+  "description": "RiskSenseGetRansomewareCVEScript | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "RiskSenseGetRansomewareCVEScript",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the CVE. RiskSense.RansomwareCves.CVSS The CVSS score of the CVE.",
+      "name": "RiskSense.RansomwareCves.Cve",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareCves.VRR The risk rate of the host finding. RiskSense.RansomwareCves.ThreatCount",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareCves.Trending This signifies whether the vulnerability (which is associated with the hostFinding) has been reported by our internal functions as being trending. RiskSense.RansomwareCves.VulnLastTrendingOn",
+      "name": "The total number of threats associated with the CVE.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareCves.Description A description of the CVE. RiskSense.RansomwareCves.Threats.Title",
+      "name": "Date when last trending vulnerability was found.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareCves.Threats.Category The threat category. RiskSense.RansomwareCves.Threats.Severity",
+      "name": "The title of the threat.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareCves.Threats.Description The threat description. RiskSense.RansomwareCves.Threats.Cve",
+      "name": "The severity level of the threat.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareCves.Threats.Source The source of the threat. RiskSense.RansomwareCves.Threats.Published",
+      "name": "List of CVEs that contain particular threat.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareCves.Threats.Updated The time when the threat was last updated. RiskSense.RansomwareCves.Threats.ThreatLastTrendingOn",
+      "name": "The time when the threat was published.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareCves.Threats.Trending Whether the threat is trending. RiskSense.RansomwareTrendingCves.Cve",
+      "name": "The last time when threat was in trending.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareTrendingCves.CVSS The CVSS score of the CVE. RiskSense.RansomwareTrendingCves.VRR",
+      "name": "The ID of the CVE.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareTrendingCves.ThreatCount The total number of threats associated with the CVE. RiskSense.RansomwareTrendingCves.Trending",
+      "name": "The risk rate of the host finding.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareTrendingCves.VulnLastTrendingOn Date when last trending vulnerability was found. RiskSense.RansomwareTrendingCves.Description",
+      "name": "This signifies whether the vulnerability (which is associated with the hostFinding) has been reported by our internal functions as being trending.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareTrendingCves.Threats.Title The title of the threat. RiskSense.RansomwareTrendingCves.Threats.Category",
+      "name": "A description of the CVE.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareTrendingCves.Threats.Severity The severity level of the threat. RiskSense.RansomwareTrendingCves.Threats.Description",
+      "name": "The threat category.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareTrendingCves.Threats.Cve List of CVEs that contain particular threat. RiskSense.RansomwareTrendingCves.Threats.Source",
+      "name": "The threat description.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareTrendingCves.Threats.Published The time when the threat was published. RiskSense.RansomwareTrendingCves.Threats.Updated",
+      "name": "The source of the threat.",
+      "required": ""
+    },
+    {
+      "description": "RiskSense.RansomwareTrendingCves.Threats.ThreatLastTrendingOn The last time when threat was in trending. RiskSense.RansomwareTrendingCves.Threats.Trending",
+      "name": "The time when the threat was last updated.",
+      "required": ""
+    },
+    {
+      "description": "Date.CurrentDate The current date Date.WeekAgoDate",
+      "name": "Whether the threat is trending.",
+      "required": ""
+    },
+    {
+      "description": "CVECount The count of the CVEs. TrendingCVECount",
+      "name": "The date that was 7 days ago starting from current date.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The count of the trending CVEs.",
+      "required": ""
+    },
+    {
+      "description": "Next RSA_DisplayMetasEvents \u00bb Script Data",
+      "name": "\u00ab RiskIQPassiveTotalWhoisWidgetScript",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RiskSenseGetRansomewareCVEScript",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/risk-sense-get-ransomeware-cve-script"
+}

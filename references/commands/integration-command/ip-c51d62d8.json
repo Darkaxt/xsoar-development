@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"MD5\": \"84c82835a5d21bbcf75a61706d8ab549\"",
+  "examples": [
+    "Command Example\n!ip ip=8.8.8.8 threshold=LOW\nContext Example\n{\n\"IP\": {\n\"Malicious\": {\n\"Vendor\": \"TruSTAR\",\n\"Description\": \"LOW\"",
+    "!ip ip=8.8.8.8 threshold=LOW\nContext Example\n{\n\"IP\": {\n\"Malicious\": {\n\"Vendor\": \"TruSTAR\",\n\"Description\": \"LOW\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP Address IP.Malicious.Vendor For malicious IPs, the vendor that made the decision",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "For malicious IPs, the reason for the vendor to make the decision DBotScore.Indicator The indicator we tested",
+      "name": "IP.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The type of the indicator DBotScore.Vendor Vendor used to calculate the score",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score TruSTAR.IP.Value Indicator value",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "Is the indicator on allow list TruSTAR.IP.Priority Indicator's priority level by TruSTAR",
+      "name": "TruSTAR.IP.Whitelisted",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TruSTAR (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tru-star"
+}

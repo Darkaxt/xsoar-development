@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!threatx-unblacklist-ip ip=12.12.12.12\nContext Example\n{\n\"IP\": [\n{\n\"Address\": \"12.12.12.12\"\n}",
+    "!threatx-unblacklist-ip ip=12.12.12.12\nContext Example\n{\n\"IP\": [\n{\n\"Address\": \"12.12.12.12\"\n}\n]"
+  ],
+  "kind": "integration-command",
+  "name": "threatx-unblacklist-ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address or CIDR that was removed from the block list.",
+      "name": "IP.Address",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatX",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-x"
+}

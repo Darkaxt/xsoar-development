@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "image-ocr-extract-text",
+  "examples": [
+    "Command Example\n#\n!image-ocr-extract-text entryid=\"922@e84104f7-b235-4d82-860a-ea09f5dc0559\"\nContext Example\n#\n{\n\"File\"\n:",
+    "!image-ocr-extract-text entryid=\"922@e84104f7-b235-4d82-860a-ea09f5dc0559\"\nContext Example\n#\n{\n\"File\"\n:\n{\n\"Text\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Extracted text from the passed image file.",
+      "name": "File.Text",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Image OCR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/image-ocr"
+}

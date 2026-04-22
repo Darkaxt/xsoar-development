@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!prisma-access-get-indicators limit=300\nEdit this page\nReport an Issue\nPrevious\n\u00ab Prisma Access\nNext",
+    "!prisma-access-get-indicators limit=300\nEdit this page\nReport an Issue\nPrevious\n\u00ab Prisma Access\nNext\nPrisma Cloud (RedLock) (Deprecated) \u00bb\nConfigure Prisma Access Egress IP feed in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Prisma Access Egress IP address PrismaAccess.Egress.IP.Zone Prisma Access Egress IP zone",
+      "name": "PrismaAccess.Egress.IP.Address",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Prisma Access Egress IP feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/prisma-access-egress-ip-feed"
+}

@@ -1,0 +1,55 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "11111111-1111-1111-1111-111111111111",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next DomainTools (Deprecated) \u00bb Customer Events API",
+      "name": "\u00ab Docker Engine API",
+      "required": ""
+    },
+    {
+      "description": "Configure DocuSign new application Go-Live - Customer events data type API Endpoints",
+      "name": "User Data API",
+      "required": ""
+    },
+    {
+      "description": "API Endpoints Configure Docusign in Cortex Commands",
+      "name": "Go-Live - Audit Users data type",
+      "required": ""
+    },
+    {
+      "description": "docusign-auth-test docusign-get-events docusign-reset-access-token",
+      "name": "docusign-generate-consent-url",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Docusign",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/docusign"
+}

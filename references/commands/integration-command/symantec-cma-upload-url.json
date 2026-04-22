@@ -1,0 +1,13 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Submit a URL for analysis: symantec-cma-upload-url",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "symantec-cma-upload-url",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Blue Coat Content and Malware Analysis (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-blue-coat-content-and-malware-analysis"
+}

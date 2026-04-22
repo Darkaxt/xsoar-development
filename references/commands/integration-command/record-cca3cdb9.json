@@ -1,0 +1,61 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Takedown request ID (UUID).",
+  "examples": [
+    "!cyberint-takedown-url customer=Cyberint reason=Description url=http://hacking.enterprises\nContext Example\n#\n{\n\"Cyberint.takedowns\"\n:\n[\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Reason for the takedown request. Cyberint.takedowns_submit.url URL for the takedown request.",
+      "name": "Cyberint.takedowns_submit.reason",
+      "required": ""
+    },
+    {
+      "description": "Original URL. Cyberint.takedowns_submit.customer Customer.",
+      "name": "Cyberint.takedowns_submit.original_url",
+      "required": ""
+    },
+    {
+      "description": "Status. Cyberint.takedowns_submit.brand Brand.",
+      "name": "Cyberint.takedowns_submit.status",
+      "required": ""
+    },
+    {
+      "description": "Alert reference ID. Cyberint.takedowns_submit.alert_id Alert ID.",
+      "name": "Cyberint.takedowns_submit.alert_ref_id",
+      "required": ""
+    },
+    {
+      "description": "List of hosting providers. Cyberint.takedowns_submit.name_servers List of name servers.",
+      "name": "Cyberint.takedowns_submit.hosting_providers",
+      "required": ""
+    },
+    {
+      "description": "List of escalation actions. Cyberint.takedowns_submit.last_escalation_date Last escalation date (ISO 8601).",
+      "name": "Cyberint.takedowns_submit.escalation_actions",
+      "required": ""
+    },
+    {
+      "description": "Last status change date. Cyberint.takedowns_submit.last_seen_date Last seen date.",
+      "name": "Cyberint.takedowns_submit.last_status_change_date",
+      "required": ""
+    },
+    {
+      "description": "Created date. Cyberint.takedowns_submit.status_reason Status reason.",
+      "name": "Cyberint.takedowns_submit.created_date",
+      "required": ""
+    },
+    {
+      "description": "Takedown request ID (UUID).",
+      "name": "Cyberint.takedowns_submit.id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cyberint Takedowns",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyberint-takedowns"
+}

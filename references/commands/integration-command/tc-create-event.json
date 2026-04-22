@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The security label of the campaign.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "tc-create-event",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the event. TC.Event.Date date",
+      "name": "TC.Event.Name",
+      "required": ""
+    },
+    {
+      "description": "TC.Event.Status The status of the event. TC.Event.Owner",
+      "name": "The date of the event.",
+      "required": ""
+    },
+    {
+      "description": "The owner of the event. TC.Event.Tag",
+      "name": "string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

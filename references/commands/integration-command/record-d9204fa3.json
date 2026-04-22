@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "* [attachment / reference]",
+  "examples": [
+    "Command Example\n#\n!hackerone-program-list page_size=2\nContext Example\n#\n{\n\"HackerOne\"\n:",
+    "!hackerone-program-list page_size=2\nContext Example\n#\n{\n\"HackerOne\"\n:\n{\n\"Program\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the program. HackerOne.Program.type The type of the object of HackerOne.",
+      "name": "HackerOne.Program.id",
+      "required": ""
+    },
+    {
+      "description": "The handle of the program. HackerOne.Program.attributes.policy The policy of the program.",
+      "name": "HackerOne.Program.attributes.handle",
+      "required": ""
+    },
+    {
+      "description": "Date The date and time the object was created. Formatted according to ISO 8601. HackerOne.Program.attributes.updated_at",
+      "name": "HackerOne.Program.attributes.created_at",
+      "required": ""
+    },
+    {
+      "description": "The date and time the object was updated. Formatted according to ISO 8601.",
+      "name": "Date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HackerOne",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hacker-one"
+}

@@ -1,0 +1,118 @@
+{
+  "aliases": [
+    "risk-iq-passive-total-components-script"
+  ],
+  "arguments": [],
+  "description": "RiskIQPassiveTotalComponentsScript | Cortex XSOAR",
+  "examples": [
+    "!RiskIQPassiveTotalComponentsScript indicator_value=www.furth.com.ar\nContext Example\n#\n{\n\"DBotScore\": {\n\"Indicator\": \"www.furth.com.ar\",\n\"Score\": 0,\n\"Type\": \"domain\","
+  ],
+  "kind": "script",
+  "name": "RiskIQPassiveTotalComponentsScript",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!RiskIQPassiveTotalComponentsScript indicator_value=www.furth.com.ar",
+      "required": ""
+    },
+    {
+      "description": "\"DBotScore\": { \"Indicator\": \"www.furth.com.ar\", \"Score\": 0,",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Vendor\": \"PassiveTotal\" }, \"Domain\": {",
+      "name": "\"Type\": \"domain\",",
+      "required": ""
+    },
+    {
+      "description": "}, \"PassiveTotal\": { \"Component\": [",
+      "name": "\"Name\": \"www.furth.com.ar\"",
+      "required": ""
+    },
+    {
+      "description": "\"category\": \"Framework\", \"firstSeen\": \"2020-05-29 10:57:44\", \"hostname\": \"www.furth.com.ar\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"lastSeen\": \"2020-05-29 10:57:44\" }, {",
+      "name": "\"label\": \"PHP\",",
+      "required": ""
+    },
+    {
+      "description": "\"firstSeen\": \"2020-05-29 10:57:44\", \"hostname\": \"www.furth.com.ar\", \"label\": \"Apache\",",
+      "name": "\"category\": \"Server\",",
+      "required": ""
+    },
+    {
+      "description": "}, { \"category\": \"Server Module\",",
+      "name": "\"lastSeen\": \"2020-05-29 10:57:44\"",
+      "required": ""
+    },
+    {
+      "description": "\"hostname\": \"www.furth.com.ar\", \"label\": \"mod_bwlimited\", \"lastSeen\": \"2017-10-24 15:53:52\",",
+      "name": "\"firstSeen\": \"2016-01-11 23:45:15\",",
+      "required": ""
+    },
+    {
+      "description": "}, { \"category\": \"Server Module\",",
+      "name": "\"version\": \"1.4\"",
+      "required": ""
+    },
+    {
+      "description": "\"hostname\": \"www.furth.com.ar\", \"label\": \"OpenSSL\", \"lastSeen\": \"2017-10-24 15:53:52\",",
+      "name": "\"firstSeen\": \"2016-01-11 23:45:15\",",
+      "required": ""
+    },
+    {
+      "description": "}, { \"category\": \"Server\",",
+      "name": "\"version\": \"1.0.1e-fips\"",
+      "required": ""
+    },
+    {
+      "description": "\"hostname\": \"www.furth.com.ar\", \"label\": \"Apache\", \"lastSeen\": \"2017-10-24 15:53:52\",",
+      "name": "\"firstSeen\": \"2016-01-11 23:45:15\",",
+      "required": ""
+    },
+    {
+      "description": "}, { \"category\": \"Operating System\",",
+      "name": "\"version\": \"2.2.29\"",
+      "required": ""
+    },
+    {
+      "description": "\"hostname\": \"www.furth.com.ar\", \"label\": \"Unix\", \"lastSeen\": \"2017-10-24 15:53:52\"",
+      "name": "\"firstSeen\": \"2016-01-11 23:45:15\",",
+      "required": ""
+    },
+    {
+      "description": "{ \"category\": \"Server Module\", \"firstSeen\": \"2016-01-11 23:45:15\",",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "\"label\": \"mod_ssl\", \"lastSeen\": \"2017-10-24 15:53:52\", \"version\": \"2.2.29\"",
+      "name": "\"hostname\": \"www.furth.com.ar\",",
+      "required": ""
+    },
+    {
+      "description": "] } }",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RiskIQPassiveTotalComponentsScript",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/risk-iq-passive-total-components-script"
+}

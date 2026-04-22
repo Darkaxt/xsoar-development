@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI as part of an automation, or in a playbook.",
+  "examples": [
+    "!findIndicators query=<your query>\n. An empty value may load unwanted indicators.\nRequired\nformat\nThe output format.\nOptional\nedl_size\nThe maximum number of entries in the output. If no value is provided, uses the value specified in the List Size parameter configured in the instance configuration.",
+    "Command Example\n#\n!export-indicators-list-update=type:IP edl_size=2\nHuman Readable Output\n#\n'EDL will be updated the next time you access it'\nTroubleshooting\n#",
+    "!export-indicators-list-update=type:IP edl_size=2\nHuman Readable Output\n#\n'EDL will be updated the next time you access it'\nTroubleshooting\n#\nIndicators that are passed through the integration undergo formatting and deduplication, which may lead to an apparent loss of indicators.\nFor instance, enabling the"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Generic Export Indicators Service",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/edl"
+}

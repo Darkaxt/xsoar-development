@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook. After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [
+    "Command Example\nsnowflake-query warehouse=demo_wh database=demo_db schema=public query=\"select * from test\"\nContext Example\n{\n\"Snowflake\": {\n\"Query\": \"select * from test\",\n\"Schema\": \"public\",\n\"Result\": ["
+  ],
+  "kind": "integration-command",
+  "name": "snowflake-query",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The query used to fetch results from the database. Snowflake.Result Results from querying the database.",
+      "name": "Snowflake.Query",
+      "required": ""
+    },
+    {
+      "description": "The name of the database object. Snowflake.Schema The name of the schema object.",
+      "name": "Snowflake.Database",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Snowflake",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/snowflake"
+}

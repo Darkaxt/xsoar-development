@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Executes a query request.",
+  "examples": [
+    "Command Example\n#\n!swis-query query=\"SELECT AlertActiveID, TriggeredDateTime FROM Orion.AlertActive ORDER BY AlertActiveID DESC WITH ROWS 1 To 3\"\nContext Example\n#\n{\n\"SolarWinds\"\n:",
+    "!swis-query query=\"SELECT AlertActiveID, TriggeredDateTime FROM Orion.AlertActive ORDER BY AlertActiveID DESC WITH ROWS 1 To 3\"\nContext Example\n#\n{\n\"SolarWinds\"\n:\n{\n\"Query\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SolarWinds",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/solar-winds"
+}

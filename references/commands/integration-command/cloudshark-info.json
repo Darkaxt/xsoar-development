@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!cloudshark-info capture_id=ccaa62cbbb06\nContext Example\n{\n\"CloudShark\": {\n\"CaptureInfo\": {\n\"avg_packet_rate\": \"3.24\",\n\"avg_packet_size\": \"70.19\",",
+    "!cloudshark-info capture_id=ccaa62cbbb06\nContext Example\n{\n\"CloudShark\": {\n\"CaptureInfo\": {\n\"avg_packet_rate\": \"3.24\",\n\"avg_packet_size\": \"70.19\",\n\"cap_file_id\": 165174,"
+  ],
+  "kind": "integration-command",
+  "name": "cloudshark-info",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Meta-information of capture file",
+      "name": "CloudShark.CaptureInfo",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CloudShark",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cloud-shark"
+}

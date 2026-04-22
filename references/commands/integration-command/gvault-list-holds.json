@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!gvault-get-matter matterID=04e6d4b2-b67c-4679-adee-ae273b5ef984",
+  "examples": [
+    "Command Example\n!gvault-get-matter matterID=04e6d4b2-b67c-4679-adee-ae273b5ef984\nContext Example\nHuman Readable Output\n12. List all holds for a matter\nLists all holds for a specified matter.\nBase Command\ngvault-list-holds",
+    "!gvault-get-matter matterID=04e6d4b2-b67c-4679-adee-ae273b5ef984\nContext Example\nHuman Readable Output\n12. List all holds for a matter\nLists all holds for a specified matter.\nBase Command\ngvault-list-holds\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-list-holds",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Matter ID GoogleVault.Matter.Hold.name Hold name",
+      "name": "GoogleVault.Matter.ID",
+      "required": ""
+    },
+    {
+      "description": "Hold ID",
+      "name": "GoogleVault.Matter.Hold.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

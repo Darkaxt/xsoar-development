@@ -1,0 +1,165 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Add a rule to a policy:\u00a0cbd-add-rule-to-policy",
+  "examples": [
+    "Command Example\n!cbd-get-devices-status rows=\"1\"\nContext Example\nCarbonBlackDefense:{} 1 item\nGetDevicesStatus:{} 1 item\nResults:{} 25 items\nActivationCodeExpiryTime:1524157210454\nAvStatus:null",
+    "!cbd-get-devices-status rows=\"1\"\nContext Example\nCarbonBlackDefense:{} 1 item\nGetDevicesStatus:{} 1 item\nResults:{} 25 items\nActivationCodeExpiryTime:1524157210454\nAvStatus:null\nLastContact:1533646970617",
+    "Command Example\n!cbd-get-device-status deviceId=\"844355\"\nContext Example\nCarbonBlackDefense:{} 1 item\nGetDeviceStatus:{} 1 item\nDeviceInfo:{} 25 items\nActivationCodeExpiryTime:null\nAvStatus:null",
+    "!cbd-get-device-status deviceId=\"844355\"\nContext Example\nCarbonBlackDefense:{} 1 item\nGetDeviceStatus:{} 1 item\nDeviceInfo:{} 25 items\nActivationCodeExpiryTime:null\nAvStatus:null\nLastContact:1533648166041"
+  ],
+  "kind": "integration-command",
+  "name": "cbd-get-devices-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Activation code expiry time CarbonBlackDefense.GetDevicesStatus.Results.LastExternalIpAddress Last external IP address",
+      "name": "CarbonBlackDefense.GetDevicesStatus.Results.ActivationCodeExpiryTime",
+      "required": ""
+    },
+    {
+      "description": "Last location CarbonBlackDefense.GetDevicesStatus.Results.LastReportedTime Last reported time",
+      "name": "CarbonBlackDefense.GetDevicesStatus.Results.LastLocation",
+      "required": ""
+    },
+    {
+      "description": "Last shutdown time CarbonBlackDefense.GetDevicesStatus.Results.OsVersion Operating system version",
+      "name": "CarbonBlackDefense.GetDevicesStatus.Results.LastShutdownTime",
+      "required": ""
+    },
+    {
+      "description": "Policy ID CarbonBlackDefense.GetDevicesStatus.Results.RegisteredTime Registered time",
+      "name": "CarbonBlackDefense.GetDevicesStatus.Results.PolicyId",
+      "required": ""
+    },
+    {
+      "description": "Status CarbonBlackDefense.GetDevicesStatus.Results.DeviceId Device ID",
+      "name": "CarbonBlackDefense.GetDevicesStatus.Results.Status",
+      "required": ""
+    },
+    {
+      "description": "Device owner ID CarbonBlackDefense.GetDevicesStatus.Results.DeviceType Description Device type",
+      "name": "CarbonBlackDefense.GetDevicesStatus.Results.DeviceOwnerId",
+      "required": ""
+    },
+    {
+      "description": "Organization ID CarbonBlackDefense.GetDevicesStatus.Results.SensorVersion Sensor version",
+      "name": "CarbonBlackDefense.GetDevicesStatus.Results.OrganizationId",
+      "required": ""
+    },
+    {
+      "description": "Target priority type CarbonBlackDefense.GetDevicesStatus.Results.Email Email address",
+      "name": "CarbonBlackDefense.GetDevicesStatus.Results.TargetPriorityType",
+      "required": ""
+    },
+    {
+      "description": "Last contact CarbonBlackDefense.GetDevicesStatus.Results.OrganizationName Organization name",
+      "name": "CarbonBlackDefense.GetDevicesStatus.Results.LastContact",
+      "required": ""
+    },
+    {
+      "description": "Sensor states CarbonBlackDefense.GetDevicesStatus.Results.AvStatus AV status",
+      "name": "CarbonBlackDefense.GetDevicesStatus.Results.SensorStates",
+      "required": ""
+    },
+    {
+      "description": "Last internal IP address CarbonBlackDefense.GetDevicesStatus.Results.Name Name",
+      "name": "CarbonBlackDefense.GetDevicesStatus.Results.LastInternalIpAddress",
+      "required": ""
+    },
+    {
+      "description": "Policy name CarbonBlackDefense.GetDevicesStatus.Results.SensorOutOfDate Sensor out-of-date",
+      "name": "CarbonBlackDefense.GetDevicesStatus.Results.PolicyName",
+      "required": ""
+    },
+    {
+      "description": "Test ID",
+      "name": "CarbonBlackDefense.GetDevicesStatus.Results.TestId",
+      "required": ""
+    },
+    {
+      "description": "Target priority type CarbonBlackDefense.GetDeviceStatus.DeviceInfo.OrganizationId Organization ID",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.TargetPriorityType",
+      "required": ""
+    },
+    {
+      "description": "Time of creation CarbonBlackDefense.GetDeviceStatus.DeviceInfo.DeviceId Device ID",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.CreateTime",
+      "required": ""
+    },
+    {
+      "description": "Email address CarbonBlackDefense.GetDeviceStatus.DeviceInfo.LastInternalIpAddress Last internal IP address",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.Email",
+      "required": ""
+    },
+    {
+      "description": "Last location CarbonBlackDefense.GetDeviceStatus.DeviceInfo.OsVersion Operating system version",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.LastLocation",
+      "required": ""
+    },
+    {
+      "description": "AV status CarbonBlackDefense.GetDeviceStatus.DeviceInfo.LastExternalIpAddress Last external IP address",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.AvStatus",
+      "required": ""
+    },
+    {
+      "description": "Time of registration CarbonBlackDefense.GetDeviceStatus.DeviceInfo.LastContact Last contact",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.RegisteredTime",
+      "required": ""
+    },
+    {
+      "description": "Status CarbonBlackDefense.GetDeviceStatus.DeviceInfo.TestId Test ID",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.Status",
+      "required": ""
+    },
+    {
+      "description": "Policy ID CarbonBlackDefense.GetDeviceStatus.DeviceInfo.UpdateVersion Update version",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.PolicyId",
+      "required": ""
+    },
+    {
+      "description": "Organization name CarbonBlackDefense.GetDeviceStatus.DeviceInfo.RootedByAnalytics Rooted ByAnalytics",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.OrganizationName",
+      "required": ""
+    },
+    {
+      "description": "Sensor version CarbonBlackDefense.GetDeviceStatus.DeviceInfo.DeviceType Device type",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.SensorVersion",
+      "required": ""
+    },
+    {
+      "description": "Policy name CarbonBlackDefense.GetDeviceStatus.DeviceInfo.RootedByAnalyticsTime Rooted ByAnalytics Time",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.PolicyName",
+      "required": ""
+    },
+    {
+      "description": "Sensor out-of-date CarbonBlackDefense.GetDeviceStatus.DeviceInfo.SensorStates Sensor states",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.SensorOutOfDate",
+      "required": ""
+    },
+    {
+      "description": "Name CarbonBlackDefense.GetDeviceStatus.DeviceInfo.Id ID",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.Name",
+      "required": ""
+    },
+    {
+      "description": "Last reported time CarbonBlackDefense.GetDeviceStatus.DeviceInfo.DeviceOwnerId Device owner ID",
+      "name": "CarbonBlackDefense.GetDeviceStatus.DeviceInfo.LastReportedTime",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black Endpoint Standard (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-defense"
+}

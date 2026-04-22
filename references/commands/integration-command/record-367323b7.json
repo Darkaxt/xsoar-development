@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!sap-cloud-get-events start_date=\"01-07-2025 14:00:00\" limit=\"5\"\nHuman Readable Output\n#\nIndicators from Anomali ThreatStream Feed\n#\nBROWSER\nCBROWSER_VERSION\nCCAL_DAY"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SAP Cloud For Customer (C4C)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sap-cloud-for-customer-c4-c"
+}

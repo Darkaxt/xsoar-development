@@ -1,0 +1,88 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "1. Get details for an insight",
+  "examples": [
+    "Command Example\n!jask-get-insight-details insight-id=\"7ead8dc9-d541-3484-9320-ea593729e7cc\"\nContext Example\n{\n\"Jask\": {\n\"Insight\": {\n\"SignalListMetadata\": {\n\"Patterns\": {",
+    "!jask-get-insight-details insight-id=\"7ead8dc9-d541-3484-9320-ea593729e7cc\"\nContext Example\n{\n\"Jask\": {\n\"Insight\": {\n\"SignalListMetadata\": {\n\"Patterns\": {\n\"Count\": 4"
+  ],
+  "kind": "integration-command",
+  "name": "jask-get-insight-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Insight ID Jask.Insight.Name Insight name",
+      "name": "Jask.Insight.Id",
+      "required": ""
+    },
+    {
+      "description": "Insight action Jask.Insight.Entity The main entity related to the insight",
+      "name": "Jask.Insight.Action",
+      "required": ""
+    },
+    {
+      "description": "Who the insight was assigned to Jask.Insight.Description Insight description",
+      "name": "Jask.Insight.AssignedTo",
+      "required": ""
+    },
+    {
+      "description": "Insight IP address Jask.Insight.LastUpdated The time the insight was last updated",
+      "name": "Jask.Insight.IpAddress",
+      "required": ""
+    },
+    {
+      "description": "The last person to update the insight Jask.Insight.Severity Insight severity",
+      "name": "Jask.Insight.LastUpdatedBy",
+      "required": ""
+    },
+    {
+      "description": "The time of the insight Jask.Insight.WorkflowStatus Insight status",
+      "name": "Jask.Insight.InsightTime",
+      "required": ""
+    },
+    {
+      "description": "The ID of the related entity Jask.Insight.RelatedEntityList.EntityType Related entity type",
+      "name": "Jask.Insight.RelatedEntityList.Id",
+      "required": ""
+    },
+    {
+      "description": "The hostname of the related entity Jask.Insight.SignalList.Id Signal ID",
+      "name": "Jask.Insight.RelatedEntityList.Hostname",
+      "required": ""
+    },
+    {
+      "description": "Signal name Jask.Insight.SignalList.Category Signal category",
+      "name": "Jask.Insight.SignalList.Name",
+      "required": ""
+    },
+    {
+      "description": "The source of the signal Jask.Insight.SignalListMetadata.Patterns.Count Number of signals of the category pattern",
+      "name": "Jask.Insight.SignalList.SourceType",
+      "required": ""
+    },
+    {
+      "description": "Number of signals of the category anomaly Jask.Insight.SignalListMetadata.ThreatIntel.Count Number of signals of the category threat intelligence",
+      "name": "Jask.Insight.SignalListMetadata.Anomalies.Count",
+      "required": ""
+    },
+    {
+      "description": "IP address of the related entity Jask.Insight.RelatedEntityList.IsWhitelisted Whether or not the entity is on allow list",
+      "name": "Jask.Insight.RelatedEntityList.IpAddress",
+      "required": ""
+    },
+    {
+      "description": "The risk score of the related entity Jask.Insight.RelatedEntityList.Source The source of the related entity",
+      "name": "Jask.Insight.RelatedEntityList.RiskScore",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Jask (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jask"
+}

@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "BmcDiscovery.Search.name",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "bmc-discovery-search-custom",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Number of returned results BmcDiscovery.Search.data Search results",
+      "name": "BmcDiscovery.Search.count",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Blueliv ThreatContext",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "BMC Helix ITSM \u00bb Configure BMC Discovery Integration in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BMC Discovery",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bmc-discovery"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!humio-get-notifier-by-id repository=sandbox id=BTkuj8QArhIFMh_L39FoN0tnyTUEXplc\nContext Example\n#\n{\n\"Humio\": {\n\"Notifier\": {",
+    "!humio-get-notifier-by-id repository=sandbox id=BTkuj8QArhIFMh_L39FoN0tnyTUEXplc\nContext Example\n#\n{\n\"Humio\": {\n\"Notifier\": {\n\"entity\": \"WebHookNotifier\",\n\"id\": \"BTkuj8QArhIFMh_L39FoN0tnyTUEXplc\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Details of the notifier",
+      "name": "Humio.Notifier",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Humio",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/humio"
+}

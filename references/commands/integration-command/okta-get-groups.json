@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!okta-reset-factor factorId=osti2xdcf0FwcR9x80h7 userId=00ugo6k55kHeoJMYC0h7\nHuman Readable Output\n9. Get user groups associated with a specified user\nReturns all user groups associated with a specified user.\nBase Command\nokta-get-groups\nInput",
+    "!okta-reset-factor factorId=osti2xdcf0FwcR9x80h7 userId=00ugo6k55kHeoJMYC0h7\nHuman Readable Output\n9. Get user groups associated with a specified user\nReturns all user groups associated with a specified user.\nBase Command\nokta-get-groups\nInput\nArgument Name",
+    "Command Example\n!okta-get-groups username=test@this.com\nContext Example\n{\n\"Account\": {\n\"Group\": [\n{\n\"Created\": \"2016-04-12T15:01:50.000Z\",",
+    "!okta-get-groups username=test@this.com\nContext Example\n{\n\"Account\": {\n\"Group\": [\n{\n\"Created\": \"2016-04-12T15:01:50.000Z\",\n\"Description\": \"All users in your organization\","
+  ],
+  "kind": "integration-command",
+  "name": "okta-get-groups",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Okta group in which the account is associated. Account.ID Okta account ID.",
+      "name": "Account.Group",
+      "required": ""
+    },
+    {
+      "description": "Type of account, such as Okta. Account.Group.ID Unique key for group.",
+      "name": "Account.Type",
+      "required": ""
+    },
+    {
+      "description": "date Timestamp when group was created. Account.Group.ObjectClass",
+      "name": "Account.Group.Created",
+      "required": ""
+    },
+    {
+      "description": "Determines the group profile. Account.Group.LastUpdated date",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Account.Group.LastMembershipUpdated date Timestamp when group memberships were last updated.",
+      "name": "Timestamp when group profile was last updated.",
+      "required": ""
+    },
+    {
+      "description": "Determines how a group profile and memberships are managed. Account.Group.Name Name of the group.",
+      "name": "Account.Group.Type",
+      "required": ""
+    },
+    {
+      "description": "Description of the group.",
+      "name": "Account.Group.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "okta (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta"
+}

@@ -1,0 +1,166 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2. Get indicators for an incident",
+  "examples": [
+    "Command Example\nphishlabs-get-incident-indicators incident_id=INC0037375 indicators_classification=Suspicious since=7d\nContext Example\n{\n\"URL\": [\n{\n\"Data\": \"https://malicious1?email=dbot@demisto.com\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "phishlabs-get-incident-indicators",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "URL address. URL.Malicious.Vendor Vendor reporting the malicious status.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "Description of the malicious URL. PhishLabs.URL.Data URL address.",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Date URL creation time, in PhishLabs PhishLabs.URL.UpdatedAt",
+      "name": "PhishLabs.URL.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "URL update time, in PhishLabs. PhishLabs.URL.Attribute.Name URL attribute name.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "URL attribute value. PhishLabs.URL.Attribute.CreatedAt Date",
+      "name": "PhishLabs.URL.Attribute.Value",
+      "required": ""
+    },
+    {
+      "description": "PhishLabs.URL.FalsePositive Whether this URL is a false positive. Domain.Name",
+      "name": "URL attribute creation time.",
+      "required": ""
+    },
+    {
+      "description": "Domain name. Domain.Malicious.Vendor Vendor reporting the malicious status.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Description of the malicious domain. PhishLabs.Domain.Name Domain name",
+      "name": "Domain.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Date Domain creation time, in PhishLabs. PhishLabs.Domain.UpdatedAt",
+      "name": "PhishLabs.Domain.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Domain update time, in PhishLabs. PhishLabs.Domain.Attribute.Name Domain attribute name.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Domain attribute value. PhishLabs.Domain.Attribute.CreatedAt Date",
+      "name": "PhishLabs.Domain.Attribute.Value",
+      "required": ""
+    },
+    {
+      "description": "PhishLabs.Domain.FalsePositive Whether this domain is a false positive. Email.To",
+      "name": "Domain attribute creation time.",
+      "required": ""
+    },
+    {
+      "description": "Recipient of the email. Email.From Sender of the email.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Body of the email. Email.Subject Subject of the email.",
+      "name": "Email.Body",
+      "required": ""
+    },
+    {
+      "description": "Email PhishLabs ID. PhishLabs.Email.To Recipient of the email.",
+      "name": "PhishLabs.Email.ID",
+      "required": ""
+    },
+    {
+      "description": "Sender of the email. PhishLabs.Email.Body Body of the email.",
+      "name": "PhishLabs.Email.From",
+      "required": ""
+    },
+    {
+      "description": "Subject of the email. PhishLabs.Email.CreatedAt Date",
+      "name": "PhishLabs.Email.Subject",
+      "required": ""
+    },
+    {
+      "description": "PhishLabs.Email.UpdatedAt Date Email update time, in PhishLabs.",
+      "name": "Email creation time, in PhishLabs.",
+      "required": ""
+    },
+    {
+      "description": "Email attribute name. PhishLabs.Email.Attribute.Value Email attribute value.",
+      "name": "PhishLabs.Email.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "Date Email attribute creation time. File.Name",
+      "name": "PhishLabs.Email.Attribute.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Full filename. File.MD5 MD5 hash of the file.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "File type. PhishLabs.File.ID File PhishLabs ID.",
+      "name": "File.Type",
+      "required": ""
+    },
+    {
+      "description": "Full filename. PhishLabs.File.MD5 MD5 hash of the file.",
+      "name": "PhishLabs.File.Name",
+      "required": ""
+    },
+    {
+      "description": "File type. PhishLabs.File.CreatedAt Date",
+      "name": "PhishLabs.File.Type",
+      "required": ""
+    },
+    {
+      "description": "PhishLabs.File.UpdatedAt Date File update time, in PhishLabs.",
+      "name": "File creation time, in PhishLabs.",
+      "required": ""
+    },
+    {
+      "description": "File attribute name. PhishLabs.File.Attribute.Value File attribute value.",
+      "name": "PhishLabs.File.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "Date File attribute creation time. PhishLabs.File.FalsePositive",
+      "name": "PhishLabs.File.Attribute.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Whether this file is a false positive. DBotScore.Indicator The indicator that was tested.",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "Indicator type. DBotScore.Vendor Vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PhishLabs IOC",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/phish-labs-ioc"
+}

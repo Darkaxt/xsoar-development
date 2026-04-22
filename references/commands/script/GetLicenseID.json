@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "get-license-id"
+  ],
+  "arguments": [],
+  "description": "GetLicenseID | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetLicenseID",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The license ID Edit this page Report an Issue",
+      "name": "License.ID",
+      "required": ""
+    },
+    {
+      "description": "\u00ab getInvHealthStatus Next GetListContent \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetLicenseID",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-license-id"
+}

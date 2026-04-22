@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!indeni-get-notes alert_id=7f0a5ded-571a-4ba0-835d-ba2f76469226\nContext Example\n#\n{\n\"Indeni.AlertInfo\": [\n{",
+    "!indeni-get-notes alert_id=7f0a5ded-571a-4ba0-835d-ba2f76469226\nContext Example\n#\n{\n\"Indeni.AlertInfo\": [\n{\n\"note\": \"Issue has been marked as unacknowledged.\",\n\"timestamp\": \"2020-02-14T08:41:21.000Z\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Notes for the given issue",
+      "name": "Indeni.AlertInfo.Note",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Indeni",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/indeni"
+}

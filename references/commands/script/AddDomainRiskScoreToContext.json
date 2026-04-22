@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "add-domain-risk-score-to-context"
+  ],
+  "arguments": [],
+  "description": "AddDomainRiskScoreToContext | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "AddDomainRiskScoreToContext",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The domain name AddDomainRiskScoreToContext.HighRiskPivotedDomains.OverallRiskScore The overall risk score of the domain",
+      "name": "AddDomainRiskScoreToContext.HighRiskPivotedDomains.Name",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next AddEvidence \u00bb Script Data",
+      "name": "\u00ab AddDBotScoreToContext",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AddDomainRiskScoreToContext",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/add-domain-risk-score-to-context"
+}

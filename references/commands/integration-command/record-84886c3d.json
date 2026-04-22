@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "insightvm-cloud-stop-scan",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Stops the scan with the specified identifier.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "insightvm-cloud-stop-scan",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Rapid7AppSec \u00bb Configure Rapid7 InsightVM Cloud in Cortex",
+      "name": "\u00ab Rapid7 InsightVM",
+      "required": ""
+    },
+    {
+      "description": "insightvm-cloud-get-asset insightvm-cloud-get-scan insightvm-cloud-get-scan-engines",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "insightvm-cloud-search-assets insightvm-cloud-last-sites insightvm-cloud-search-vulnerabilities",
+      "name": "insightvm-cloud-get-health-check",
+      "required": ""
+    },
+    {
+      "description": "insightvm-cloud-stop-scan Docs Developer Docs",
+      "name": "insightvm-cloud-start-scan",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Rapid7 InsightVM Cloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rapid7-insight-vm-cloud"
+}

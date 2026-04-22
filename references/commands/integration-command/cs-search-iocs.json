@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!cs-delete-ioc type=ipv4 value=8.8.8.8\nHuman Readable Output\n5. Get a list of uploaded IOCs\nReturns a list of your uploaded IOCs that match the search criteria.\nBase Command\ncs-search-iocs\nInput",
+    "!cs-delete-ioc type=ipv4 value=8.8.8.8\nHuman Readable Output\n5. Get a list of uploaded IOCs\nReturns a list of your uploaded IOCs that match the search criteria.\nBase Command\ncs-search-iocs\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "cs-search-iocs",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FalconHost (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-host"
+}

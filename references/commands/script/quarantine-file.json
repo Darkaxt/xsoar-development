@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "quarantine-file"
+  ],
+  "arguments": [],
+  "description": "quarantine-file | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "quarantine-file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The path of the quarantined file. QuarantineFile.FileHash The hash of the quarantined file.",
+      "name": "QuarantineFile.FilePath",
+      "required": ""
+    },
+    {
+      "description": "QuarantineFile.Status Whether the command execution was successful or not. QuarantineFile.Message",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "QuarantineFile.Brand The integration that executed the command. QuarantineFile.EndpointID",
+      "name": "A success message if the command runs successfully, otherwise a message that contains the error.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The endpoint_id which the command was executed on.",
+      "required": ""
+    },
+    {
+      "description": "Next RandomElementFromList \u00bb Script Data",
+      "name": "\u00ab QualysCreateIncidentFromReport",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "quarantine-file",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/quarantine-file"
+}

@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Returns the notes attached to an entity by Entity ID.",
+  "examples": [
+    "Command Example\n!threatx-get-entity-notes entity_id=566056709675514809\nContext Example\n{\n\"Threatx\": {\n\"Entity\": [\n{\n\"ID\": \"566056709675514809\",",
+    "!threatx-get-entity-notes entity_id=566056709675514809\nContext Example\n{\n\"Threatx\": {\n\"Entity\": [\n{\n\"ID\": \"566056709675514809\",\n\"Note\": ["
+  ],
+  "kind": "integration-command",
+  "name": "threatx-get-entity-notes",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID hash of the Entity Threatx.Entity.Note.content Content of the Note",
+      "name": "Threatx.Entity.ID",
+      "required": ""
+    },
+    {
+      "description": "Timestamp of the Note Threatx.Entity.Note.username Author of the Note",
+      "name": "Threatx.Entity.Note.timestamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatX",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-x"
+}

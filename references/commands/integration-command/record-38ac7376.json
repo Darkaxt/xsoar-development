@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "spycloud-watchlist-data",
+  "examples": [
+    "!spycloud-watchlist-data watchlist_type=email since=2022-02-11\nContext Example\n#\n{\n\"SpyCloud\"\n:\n{\n\"Watchlist\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the identified record SpyCloud.Watchlist.username The username of the identified record",
+      "name": "SpyCloud.Watchlist.document_id",
+      "required": ""
+    },
+    {
+      "description": "The targeted url SpyCloud.Watchlist.breach_id The breach ID",
+      "name": "SpyCloud.Watchlist.target_url",
+      "required": ""
+    },
+    {
+      "description": "The password of the user being exposed SpyCloud.Watchlist.spycloud_publish_date' Date when Spycloud published the breach",
+      "name": "SpyCloud.Watchlist.password",
+      "required": ""
+    },
+    {
+      "description": "The email address involved (if email watchlist type selected) SpyCloud.Watchlist.domain The domain involved of the watchlist (if that type is selected)",
+      "name": "SpyCloud.Watchlist.email",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SpyCloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/spy-cloud"
+}

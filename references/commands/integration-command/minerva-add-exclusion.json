@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Delete a vaccine: minerva-delete-vaccine",
+  "examples": [
+    "Command Example\n!minerva-add-exclusion type=\"hash\" description=\"cmd.exe hash\" data=\"d0ceb18272966ab62b8edff100e9b4a6a3cb5dc0f2a32b2b18721fea2d9c09a5\" appliedGroupsIds=\"All Groups\"\nHuman Readable Output\nLast Modified On\nDescription\nType\nApplied Groups Ids\nLast Modified By",
+    "!minerva-add-exclusion type=\"hash\" description=\"cmd.exe hash\" data=\"d0ceb18272966ab62b8edff100e9b4a6a3cb5dc0f2a32b2b18721fea2d9c09a5\" appliedGroupsIds=\"All Groups\"\nHuman Readable Output\nLast Modified On\nDescription\nType\nApplied Groups Ids\nLast Modified By\nData"
+  ],
+  "kind": "integration-command",
+  "name": "minerva-add-exclusion",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Exclusion ID. Minerva.Exclusion.Type Exclusion type.",
+      "name": "Minerva.Exclusion.Id",
+      "required": ""
+    },
+    {
+      "description": "Exclusion data. Minerva.Exclusion.Description A description of the exclusion.",
+      "name": "Minerva.Exclusion.Data",
+      "required": ""
+    },
+    {
+      "description": "The user that last modified this exclusion. Minerva.Exclusion.lastModifiedOn date",
+      "name": "Minerva.Exclusion.lastModifiedBy",
+      "required": ""
+    },
+    {
+      "description": "Minerva.Exclusion.appliedGroupsIds Group IDs to which this exclusion applies.",
+      "name": "The date this exclusion was last modified.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Minerva Labs Anti-Evasion Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/minerva-labs-anti-evasion-platform"
+}

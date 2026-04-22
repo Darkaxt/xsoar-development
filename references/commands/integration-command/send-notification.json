@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!mirror-investigation type=all autoclose=true direction=Both channelName=my-mirror channelTopic=my-incident",
+  "examples": [
+    "Command Example\n!mirror-investigation type=all autoclose=true direction=Both channelName=my-mirror channelTopic=my-incident\nHuman Readable Output\nInvestigation mirrored successfully, channel: my-mirror\n2. send-notification\nSends a message to a user, group, or channel.\nBase Command\nsend-notification",
+    "!mirror-investigation type=all autoclose=true direction=Both channelName=my-mirror channelTopic=my-incident\nHuman Readable Output\nInvestigation mirrored successfully, channel: my-mirror\n2. send-notification\nSends a message to a user, group, or channel.\nBase Command\nsend-notification\nInput",
+    "Command Example\n!send-notification channel=general message=\"I love Cortex XSOAR\"\nContext Example\n{\n\"Slack.Thread\": {\n\"ID\": \"1567407432.000500\"\n}",
+    "!send-notification channel=general message=\"I love Cortex XSOAR\"\nContext Example\n{\n\"Slack.Thread\": {\n\"ID\": \"1567407432.000500\"\n}"
+  ],
+  "kind": "integration-command",
+  "name": "send-notification",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "b'The Slack thread ID.'",
+      "name": "Slack.Thread.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Slack v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slack-v2"
+}

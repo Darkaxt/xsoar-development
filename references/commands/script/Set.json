@@ -1,0 +1,53 @@
+{
+  "aliases": [
+    "set"
+  ],
+  "arguments": [],
+  "description": "This Script is part of the",
+  "examples": [
+    "!Set key=\"Data(val.ID == obj.ID)\" value=`{\"ID\": \"test_id\", \"Value\": \"test_val2\"}` append=\"true\"\nContext Example\n#\n{\n\"Data\"\n:\n{\n\"ID\""
+  ],
+  "kind": "script",
+  "name": "Set",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!Set key=\"Data(val.ID == obj.ID)\" value=`{\"ID\": \"test_id\", \"Value\": \"test_val2\"}` append=\"true\"",
+      "required": ""
+    },
+    {
+      "description": "\"Data\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": \"test_id\" ,",
+      "name": "\"ID\"",
+      "required": ""
+    },
+    {
+      "description": ": \"test_val2\" }",
+      "name": "\"Value\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Set",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/set"
+}

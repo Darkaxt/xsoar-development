@@ -1,0 +1,134 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "31 Mar 2022, 03:39 AM",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the port is alive or not. CyCognito.Asset.comment Comments related to the asset.",
+      "name": "CyCognito.Asset.alive",
+      "required": ""
+    },
+    {
+      "description": "Unique identifier of the asset. Note: Asset ID is derived from the asset_id input field. CyCognito.Asset.type",
+      "name": "CyCognito.Asset.id",
+      "required": ""
+    },
+    {
+      "description": "Type of the asset. CyCognito.Asset.business_units Business units of the asset.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The identifier of the certificate. CyCognito.Asset.closed_ports.status Status of the closed ports object associated with the asset.",
+      "name": "CyCognito.Asset.signature",
+      "required": ""
+    },
+    {
+      "description": "Port of the closed ports object associated with the asset. CyCognito.Asset.closed_ports.protocol Protocol associated with the asset.",
+      "name": "CyCognito.Asset.closed_ports.port",
+      "required": ""
+    },
+    {
+      "description": "Date Date and time at which the asset was created. CyCognito.Asset.domain",
+      "name": "CyCognito.Asset.created",
+      "required": ""
+    },
+    {
+      "description": "Domain name of the asset. CyCognito.Asset.domains Domain of the asset.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "List of domain names associated with the asset. CyCognito.Asset.expiration Date",
+      "name": "CyCognito.Asset.domain_names",
+      "required": ""
+    },
+    {
+      "description": "CyCognito.Asset.first_seen Date Time at which an asset was first discovered and attributed to the organization.",
+      "name": "Date and time at which the asset is expired.",
+      "required": ""
+    },
+    {
+      "description": "Hosting type of the asset. CyCognito.Asset.investigation_status Investigation status of the asset.",
+      "name": "CyCognito.Asset.hosting_type",
+      "required": ""
+    },
+    {
+      "description": "IP of the asset. CyCognito.Asset.ip_addresses List of IP associated with the asset.",
+      "name": "CyCognito.Asset.ip",
+      "required": ""
+    },
+    {
+      "description": "List of alternate issuer names. CyCognito.Asset.issuer_common_name Common name of the Issuer.",
+      "name": "CyCognito.Asset.issuer_alt_names",
+      "required": ""
+    },
+    {
+      "description": "Country of Issuer. CyCognito.Asset.issuer_locality Locality of issuer.",
+      "name": "CyCognito.Asset.issuer_country",
+      "required": ""
+    },
+    {
+      "description": "Organization of the issuer. CyCognito.Asset.issuer_organization_unit The organization unit of the issuer.",
+      "name": "CyCognito.Asset.issuer_organization",
+      "required": ""
+    },
+    {
+      "description": "State of the issuer. CyCognito.Asset.issues_count Count of issues associated with the asset.",
+      "name": "CyCognito.Asset.issuer_state",
+      "required": ""
+    },
+    {
+      "description": "Date Time at which an asset was discovered and attributed to the organization. CyCognito.Asset.locations",
+      "name": "CyCognito.Asset.last_seen",
+      "required": ""
+    },
+    {
+      "description": "List of geographic locations with which an asset might be associated. CyCognito.Asset.open_ports.status Status of the open ports object associated with the asset.",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Port of the open ports object associated with the asset. CyCognito.Asset.open_ports.protocol Protocol associated with the asset.",
+      "name": "CyCognito.Asset.open_ports.port",
+      "required": ""
+    },
+    {
+      "description": "List of organizations associated with the asset. CyCognito.Asset.status Last status of the asset.",
+      "name": "CyCognito.Asset.organizations",
+      "required": ""
+    },
+    {
+      "description": "Security rating of the asset based on the number and severity of the associated issues. CyCognito.Asset.severe_issues The number of severe issues associated with the asset.",
+      "name": "CyCognito.Asset.security_grade",
+      "required": ""
+    },
+    {
+      "description": "Signature algorithm associated with the asset. CyCognito.Asset.sub_domains List of subdomains associated with the asset.",
+      "name": "CyCognito.Asset.signature_algorithm",
+      "required": ""
+    },
+    {
+      "description": "List of alternate subject names. CyCognito.Asset.subject_common_name Common name of the subject.",
+      "name": "CyCognito.Asset.subject_alt_names",
+      "required": ""
+    },
+    {
+      "description": "Subject's country. CyCognito.Asset.subject_locality Locality of the subject.",
+      "name": "CyCognito.Asset.subject_country",
+      "required": ""
+    },
+    {
+      "description": "Subject's organization.",
+      "name": "CyCognito.Asset.subject_organization",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyCognito",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cy-cognito"
+}

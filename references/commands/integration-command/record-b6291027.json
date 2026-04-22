@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "automox-group-delete",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Delete a group from Automox",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "automox-group-delete",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Awake Security \u00bb Configure Automox in Cortex",
+      "name": "\u00ab AutoFocus Tags Feed (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "automox-devices-list automox-organizations-list automox-vulnerability-sync-batch-action",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "automox-vulnerability-sync-batch-get automox-vulnerability-sync-batches-list automox-vulnerability-sync-tasks-list",
+      "name": "automox-vulnerability-sync-task-action",
+      "required": ""
+    },
+    {
+      "description": "automox-policies-list automox-device-update automox-groups-list",
+      "name": "Upload",
+      "required": ""
+    },
+    {
+      "description": "automox-group-update automox-group-delete Docs",
+      "name": "automox-group-create",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Automox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/automox"
+}

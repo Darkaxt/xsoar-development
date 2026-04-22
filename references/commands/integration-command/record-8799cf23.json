@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "idefense-get-ioc-by-uuid",
+  "examples": [
+    "Command Example\n#\n!idefense-get-ioc-by-uuid uuid=xxxx\nContext Example\n#\n{\n\"DBotScore\"\n:",
+    "!idefense-get-ioc-by-uuid uuid=xxxx\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The IP address. IP.Malicious.Vendor For malicious IP addresses, the vendor that made the decision.",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "For malicious IP addresses, the reason the vendor made that decision. Domain.Name The domain name.",
+      "name": "IP.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "For malicious domains, the vendor that made the decision. Domain.Malicious.Description For malicious domains, the reason the vendor made that decision.",
+      "name": "Domain.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The URL. URL.Malicious.Vendor For malicious URLs, the vendor that made the decision.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the reason the vendor made that decision. DBotScore.Indicator The indicator that was tested.",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Reliability of the source providing the intelligence data. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Reliability",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Score The actual score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Accenture CTI (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/i-defense-v2"
+}

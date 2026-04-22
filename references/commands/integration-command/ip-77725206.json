@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Vendor used to assess the specified domain",
+  "examples": [
+    "Command Example\n!domain domain=\"adobesc.com\"\nHuman Readable Output\n6. Lookup and enrich an IP address\nLookup and enrich an IP address.\nBase Command\nip\nInput",
+    "!domain domain=\"adobesc.com\"\nHuman Readable Output\n6. Lookup and enrich an IP address\nLookup and enrich an IP address.\nBase Command\nip\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Number of activities associated with the specified IP address AwakeSecurity.IPs.deviceCount Number of devices associated with the specified IP address",
+      "name": "AwakeSecurity.IPs.activityCount",
+      "required": ""
+    },
+    {
+      "description": "Device object associated with the specified IP address AwakeSecurity.IPs.domains Domain object associated with the specified IP address",
+      "name": "AwakeSecurity.IPs.devices",
+      "required": ""
+    },
+    {
+      "description": "Date that the IP address was first seen in Awake Security AwakeSecurity.IPs.ipLastSeen Date that the IP address was last seen in Awake Security",
+      "name": "AwakeSecurity.IPs.ipFirstSeen",
+      "required": ""
+    },
+    {
+      "description": "The specified IP address DBotScore.Score Severity score of the specified IP address in Cortex XSOAR",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to assess the specified IP address DBotScore.Type",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Awake Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/awake-security"
+}

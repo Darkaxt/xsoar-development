@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "fortimail-pki-user-list",
+  "examples": [
+    "!fortimail-pki-user-list\nContext Example\n#\n{\n\"FortiMail\"\n:\n{\n\"PKIuser\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the PKI user. FortiMail.PKIuser.domain The domain of the PKI user.",
+      "name": "FortiMail.PKIuser.mkey",
+      "required": ""
+    },
+    {
+      "description": "The subject of the PKI user. FortiMail.PKIuser.ldapprofile The LDAP profile of the PKI user.",
+      "name": "FortiMail.PKIuser.subject",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FortiMail",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fortimail"
+}

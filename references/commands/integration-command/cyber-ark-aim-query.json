@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Search for credentials: cyber-ark-aim-query",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "cyber-ark-aim-query",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Account folder CyberArk.AIM.PasswordChangeInProcess Is password change in process",
+      "name": "CyberArk.AIM.Folder",
+      "required": ""
+    },
+    {
+      "description": "Account content CyberArk.AIM.CreationMethod Account creation method",
+      "name": "CyberArk.AIM.Content",
+      "required": ""
+    },
+    {
+      "description": "Account name CyberArk.AIM.PolicyID Account policy ID",
+      "name": "CyberArk.AIM.Name",
+      "required": ""
+    },
+    {
+      "description": "Account CPM disabled CyberArk.AIM.Address Account address",
+      "name": "CyberArk.AIM.CPMDisabled",
+      "required": ""
+    },
+    {
+      "description": "Account safe CyberArk.AIM.UserName",
+      "name": "CyberArk.AIM.Safe",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyberArk AIM (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyber-ark-aim"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!predict-phishing inputText=\"Dear Info, Please confirm account password...\", \"Major Update: General Availability feedback...\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab AWS Network Firewall\nNext",
+    "!predict-phishing inputText=\"Dear Info, Please confirm account password...\", \"Major Update: General Availability feedback...\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab AWS Network Firewall\nNext\nAws Secrets Manager \u00bb\nConfigure AWS Sagemaker in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The predicated label: malicious \\ other DBotPhishingPrediction.Probability The predication probability (range 0-1)",
+      "name": "DBotPhishingPrediction.Label",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS Sagemaker",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws-sagemaker"
+}

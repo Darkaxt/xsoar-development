@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!bigfix-get-patches site_type=\"master\"\nContext Example\n{\n\"Bigfix\": {\n\"Patch\": [\n{\n\"Category\": null,",
+    "!bigfix-get-patches site_type=\"master\"\nContext Example\n{\n\"Bigfix\": {\n\"Patch\": [\n{\n\"Category\": null,\n\"Resource\": \"https://xsoar-example:20021/api/fixlet/master/38\","
+  ],
+  "kind": "integration-command",
+  "name": "bigfix-get-patches",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Patch (fixlet) ID Bigfix.Patch.LastModified date",
+      "name": "Bigfix.Patch.ID",
+      "required": ""
+    },
+    {
+      "description": "Bigfix.Patch.Name Name of the patch requested Bigfix.Patch.Resource",
+      "name": "Last modified timestamp",
+      "required": ""
+    },
+    {
+      "description": "The link for the patch Bigfix.Patch.Description Description of the requested patch",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Relevance of the requested patch Bigfix.Patch.Category Category of the requested patch",
+      "name": "Bigfix.Patch.Relevance",
+      "required": ""
+    },
+    {
+      "description": "Download size Bigfix.Patch.Source Source where the patch originates",
+      "name": "Bigfix.Patch.DownloadSize",
+      "required": ""
+    },
+    {
+      "description": "Source ID of the requested patch Bigfix.Patch.SourceSeverity Source severity of the requested patch",
+      "name": "Bigfix.Patch.SourceID",
+      "required": ""
+    },
+    {
+      "description": "Source release date of the requested patch Bigfix.Patch.ActionID Action ID of the patch requested.",
+      "name": "Bigfix.Patch.SourceReleaseDate",
+      "required": ""
+    },
+    {
+      "description": "Action script of the patch requested.",
+      "name": "Bigfix.Patch.ActionScript",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BigFix",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/big-fix"
+}

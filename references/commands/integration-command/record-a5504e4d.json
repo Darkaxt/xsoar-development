@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "{'id': '82ec9a7e-47ac-4539-9623-166a44a59d0f'},",
+  "examples": [
+    "!cado-trigger-s3 project_id=1 bucket=\"bucket\" file_name=\"file\"\nContext Example\n#\n{\n\"CadoResponse\"\n:\n{\n\"S3Acquisition\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the created pipeline",
+      "name": "CadoResponse.S3Acquisition.pipeline_id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cado Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cado-response"
+}

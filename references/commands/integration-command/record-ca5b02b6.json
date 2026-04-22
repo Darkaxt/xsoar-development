@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Trojan/Win.Hermeticwiper",
+  "examples": [
+    "Command Example\n#\n!inception-variant-discovery sha256=30e27357b7b773b226d4ee638e17b19b954226d197b0781822859269a5c22b4d\nContext Example\n#\n{\n\"inception\"\n:",
+    "!inception-variant-discovery sha256=30e27357b7b773b226d4ee638e17b19b954226d197b0781822859269a5c22b4d\nContext Example\n#\n{\n\"inception\"\n:\n{\n\"variants\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Dict Raw JSON output from API",
+      "name": "Inception.Variants",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Stairwell Inception",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/inception"
+}

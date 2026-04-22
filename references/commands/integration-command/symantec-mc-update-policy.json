@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "AFD91FAE-27C7-461A-86BB-317805ED8DCC",
+  "examples": [
+    "Command Example\nsymantec-mc-update-policy uuid=\"0D264052-9628-4872-8C07-E04A8B95F602\" description=\"New description\"\nContext Example\n{\n\"SymantecMC.Policy\": {\n\"UUID\": \"0D264052-9628-4872-8C07-E04A8B95F602\",\n\"ContentType\": \"IP_LIST\",\n\"Name\": \"test_ip_list\","
+  ],
+  "kind": "integration-command",
+  "name": "symantec-mc-update-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Policy UUID. SymantecMC.Policy.Name Policy name.",
+      "name": "SymantecMC.Policy.UUID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-management-center"
+}

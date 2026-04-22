@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!archer-get-file fileId=3",
+  "examples": [
+    "Command Example\n!archer-get-file fileId=3\nRaw Output\nUploaded file: Screen Shot 2018-02-22 at 11.09.33.png'\nUpload a file from Cortex XSOAR to Archer\nUploads a file from Cortex XSOAR to Archer.\nBase Command\narcher-upload-file",
+    "!archer-get-file fileId=3\nRaw Output\nUploaded file: Screen Shot 2018-02-22 at 11.09.33.png'\nUpload a file from Cortex XSOAR to Archer\nUploads a file from Cortex XSOAR to Archer.\nBase Command\narcher-upload-file\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "archer-upload-file",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!intel471-actors-get-indicators limit=10\nIndicators\n#\nvalue\ntype\nrawJSON",
+    "!intel471-actors-get-indicators limit=10\nIndicators\n#\nvalue\ntype\nrawJSON\nh.m.15\nSTIX Threat Actor"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Intel471 Actors Feed (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/intel471-actors-feed"
+}

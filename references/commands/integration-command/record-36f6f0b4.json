@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Emerging Threats - Compromised",
+  "examples": [
+    "Command Example\n#\n!taxii2-reset-fetch-indicators\nHuman Readable Output\n#\nFetch was reset successfully. Your next indicator fetch will collect indicators from the configured \"First Fetch Time\"\nTroubleshooting\n#",
+    "!taxii2-reset-fetch-indicators\nHuman Readable Output\n#\nFetch was reset successfully. Your next indicator fetch will collect indicators from the configured \"First Fetch Time\"\nTroubleshooting\n#\nWhen the feed is set to \"Incremental Feed\", we recommend specifying a value for the\nMax Indicators Per Fetch"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TAXII 2 Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/taxii-2-feed"
+}

@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Remove Tanium Trace Tools [Mac-Linux]",
+  "examples": [
+    "Command Example\n!tn-get-all-saved-questions\nContext Example\nTanium:{\nSavedQuestions:[{\nrow_count_flag:0\nhidden_flag:0\npublic_flag:1",
+    "!tn-get-all-saved-questions\nContext Example\nTanium:{\nSavedQuestions:[{\nrow_count_flag:0\nhidden_flag:0\npublic_flag:1\nquery_text:Get Is Virtual and Chassis Type from all machines"
+  ],
+  "kind": "integration-command",
+  "name": "tn-get-all-saved-questions",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Question query text Tanium.SavedQuestions.mod_time date",
+      "name": "Tanium.SavedQuestions.query_text",
+      "required": ""
+    },
+    {
+      "description": "Tanium.SavedQuestions.user.id Unique ID of the user who saved question Tanium.SavedQuestions.user.name",
+      "name": "Question modification time",
+      "required": ""
+    },
+    {
+      "description": "Name of the user who saved question Tanium.SavedQuestions.name Name of saved question",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Question expiration time (in seconds) Tanium.SavedQuestions.id Unique ID of the saved question",
+      "name": "Tanium.SavedQuestions.expire_seconds",
+      "required": ""
+    },
+    {
+      "description": "Issue time (in seconds)",
+      "name": "Tanium.SavedQuestions.issue_seconds",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium"
+}

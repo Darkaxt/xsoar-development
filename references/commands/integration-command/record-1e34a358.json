@@ -1,0 +1,167 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "The following arguments were removed in this version",
+      "required": ""
+    },
+    {
+      "description": "umbrella-get-destination-lists command: orgId",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "In the umbrella-add-domain command:",
+      "name": "- this argument was removed.",
+      "required": ""
+    },
+    {
+      "description": "- this argument was removed. In the umbrella-remove-domain",
+      "name": "orgId",
+      "required": ""
+    },
+    {
+      "description": "orgId - this argument was removed. In the",
+      "name": "command:",
+      "required": ""
+    },
+    {
+      "description": "command: orgId - this argument was removed.",
+      "name": "umbrella-get-destination-domain",
+      "required": ""
+    },
+    {
+      "description": "umbrella-get-destination-domains command: orgId",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "In the umbrella-search-destination-domains command:",
+      "name": "- this argument was removed.",
+      "required": ""
+    },
+    {
+      "description": "- this argument was removed. The behavior of the following arguments was changed",
+      "name": "orgId",
+      "required": ""
+    },
+    {
+      "description": "umbrella-add-domain command: destId",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "destination_list_id . domains",
+      "name": "- this argument was replaced by",
+      "required": ""
+    },
+    {
+      "description": "destinations . In the",
+      "name": "- this argument was replaced by",
+      "required": ""
+    },
+    {
+      "description": "command: destId - this argument was replaced by",
+      "name": "umbrella-remove-domain",
+      "required": ""
+    },
+    {
+      "description": ". domainIds - this argument was replaced by",
+      "name": "destination_list_id",
+      "required": ""
+    },
+    {
+      "description": ". In the umbrella-get-destination-domain",
+      "name": "destination_ids",
+      "required": ""
+    },
+    {
+      "description": "destId - this argument was replaced by destination_list_id",
+      "name": "command:",
+      "required": ""
+    },
+    {
+      "description": "In the umbrella-get-destination-domains command:",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "- this argument was replaced by destination_list_id .",
+      "name": "destId",
+      "required": ""
+    },
+    {
+      "description": "umbrella-search-destination-domains command: destId",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "destination_list_id . domains",
+      "name": "- this argument was replaced by",
+      "required": ""
+    },
+    {
+      "description": "destinations . Edit this page",
+      "name": "- this argument was replaced by",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab Cisco Umbrella Cloud Security (Deprecated) Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure Cisco Umbrella Cloud Security v2 in Cortex Commands umbrella-destinations-list",
+      "name": "Cisco Umbrella Enforcement \u00bb",
+      "required": ""
+    },
+    {
+      "description": "umbrella-destination-delete umbrella-destination-lists-list umbrella-destination-list-create",
+      "name": "umbrella-destination-add",
+      "required": ""
+    },
+    {
+      "description": "umbrella-destination-list-delete Breaking changes from the previous version of this integration - Cisco Umbrella Cloud Security v2 Commands",
+      "name": "umbrella-destination-list-update",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Arguments",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "description": "umbrella-destination-list-delete",
+  "examples": [
+    "!umbrella-destination-list-delete destination_list_id=17463733\nHuman Readable Output\n#\nThe destination list \"17463733\" was successfully deleted\nBreaking changes from the previous version of this integration - Cisco Umbrella Cloud Security v2\n#\nThe following sections list the changes in this version.\nCommands"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Umbrella Cloud Security v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-umbrella-cloud-security-v2"
+}

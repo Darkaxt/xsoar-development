@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "show-scheduled-entries"
+  ],
+  "arguments": [],
+  "description": "ShowScheduledEntries | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ShowScheduledEntries",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The entire scheduled entry object. ScheduledEntries.id The entry ID.",
+      "name": "ScheduledEntries",
+      "required": ""
+    },
+    {
+      "description": "ScheduledEntries.contents The entry contents (the scheduled command). ScheduledEntries.type",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "ScheduledEntries.investigationID The entry's investigation ID. ScheduledEntries.schedule.startDate",
+      "name": "The entry type.",
+      "required": ""
+    },
+    {
+      "description": "ScheduledEntries.schedule.EndingType The entry's scheduled ending type. Can be, \"by\" or \"after\". ScheduledEntries.schedule.Times",
+      "name": "The entry's scheduled start date.",
+      "required": ""
+    },
+    {
+      "description": "ScheduledEntries.schedule.EndingDate The entry's scheduled end time. This applies when the ending type is \"after\". ScheduledEntries.schedule.cron",
+      "name": "The entry's scheduled time until end. This applies when the ending type is \"by\".",
+      "required": ""
+    },
+    {
+      "description": "ScheduledEntries.schedule.HumanCron The entry schedule settings. Edit this page",
+      "name": "The entry schedule CRON.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab ShowOnMap Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "SiemAPIModule \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ShowScheduledEntries",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/show-scheduled-entries"
+}

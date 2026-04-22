@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!queryai-run-query query=\"run workflow my_workflow\" alias=\"my_alias\" connection_params=\"{\\\"my_alias\\\":{\\\"username\\\":\\\"my_username\\\",\\\"password\\\":\\\"my_password\\\"}}\" workflow_params=\"{\\\"param1\\\":\\\"value1\\\",\\\"param2\\\":\\\"value2\\\"}\" time_text=\"search 1 year ago to now\"\nContext Example\n#\n{\n\"QueryAI\"\n:",
+    "!queryai-run-query query=\"run workflow my_workflow\" alias=\"my_alias\" connection_params=\"{\\\"my_alias\\\":{\\\"username\\\":\\\"my_username\\\",\\\"password\\\":\\\"my_password\\\"}}\" workflow_params=\"{\\\"param1\\\":\\\"value1\\\",\\\"param2\\\":\\\"value2\\\"}\" time_text=\"search 1 year ago to now\"\nContext Example\n#\n{\n\"QueryAI\"\n:\n{\n\"query\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Response after running query. QueryAI.query.markdown_string Readable Response after running query.",
+      "name": "QueryAI.query.result",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Query.AI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/queryai"
+}

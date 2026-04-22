@@ -1,0 +1,48 @@
+{
+  "aliases": [
+    "create-prisma-cloud-compute-link"
+  ],
+  "arguments": [],
+  "description": "CreatePrismaCloudComputeLink | Cortex XSOAR",
+  "examples": [
+    "!CreatePrismaCloudComputeLink imageName=dvwa type=sqli baseUrl=\nhttps://prismcloudcomputeurl````\nContext Example\n#\n{\n\"link\"\n:\n\"https://prismcloudcomputeurl/#!/monitor/events/firewall/app/container?filters=imageName%3Ddvwa%26type%3Dsqli\""
+  ],
+  "kind": "script",
+  "name": "CreatePrismaCloudComputeLink",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "!CreatePrismaCloudComputeLink imageName=dvwa type=sqli baseUrl= https://prismcloudcomputeurl```` Context Example",
+      "name": "``",
+      "required": ""
+    },
+    {
+      "description": "\"link\" : \"https://prismcloudcomputeurl/#!/monitor/events/firewall/app/container?filters=imageName%3Ddvwa%26type%3Dsqli\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CreatePrismaCloudComputeLink",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/create-prisma-cloud-compute-link"
+}

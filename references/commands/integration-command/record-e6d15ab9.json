@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The name of the user account.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The department of the user. CBP.UserDisable.EmailAddress The email of the user.",
+      "name": "CBP.UserDisable.Department",
+      "required": ""
+    },
+    {
+      "description": "Whether the account is enabled or disabled. CBP.UserDisable.ID The ID of the user in Carbon Black.",
+      "name": "CBP.UserDisable.Enabled",
+      "required": ""
+    },
+    {
+      "description": "The name of the user account. Edit this page Report an Issue",
+      "name": "CBP.UserDisable.Name",
+      "required": ""
+    },
+    {
+      "description": "\u00ab VMware Next VMware Carbon Black EDR (Deprecated) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands cbp-fileCatalog-search cbp-computer-search",
+      "name": "Configure VMware Carbon Black App Control v2 in Cortex",
+      "required": ""
+    },
+    {
+      "description": "cbp-computer-get cbp-fileInstance-search cbp-event-search",
+      "name": "cbp-computer-update",
+      "required": ""
+    },
+    {
+      "description": "cbp-fileRule-search cbp-fileRule-get cbp-fileRule-delete",
+      "name": "cbp-approvalRequest-search",
+      "required": ""
+    },
+    {
+      "description": "cbp-serverConfig-search cbp-publisher-search cbp-fileAnalysis-get",
+      "name": "cbp-policy-search",
+      "required": ""
+    },
+    {
+      "description": "cbp-fileAnalysis-search cbp-fileUpload-get cbp-fileUpload-download",
+      "name": "cbp-fileAnalysis-createOrUpdate",
+      "required": ""
+    },
+    {
+      "description": "cbp-fileUpload-search cbp-connector-get cbp-connector-search",
+      "name": "cbp-fileUpload-createOrUpdate",
+      "required": ""
+    },
+    {
+      "description": "cbp-fileRule-createOrUpdate cbp-user-disable cbp-user-data-get",
+      "name": "cbp-approvalRequest-resolve",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black App Control v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-protection-v2"
+}

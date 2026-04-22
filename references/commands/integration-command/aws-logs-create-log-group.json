@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Upload log events to a log stream: aws-logs-put-log-events",
+  "examples": [
+    "Command Example"
+  ],
+  "kind": "integration-command",
+  "name": "aws-logs-create-log-group",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - CloudWatchLogs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---cloud-watch-logs"
+}

@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!mar-search-services\nContext Example\n{\n\"MAR\": {\n\"Services\": [\n{\n\"Status\": \"Running\",",
+    "!mar-search-services\nContext Example\n{\n\"MAR\": {\n\"Services\": [\n{\n\"Status\": \"Running\",\n\"Description\": \"Base Filtering Engine\","
+  ],
+  "kind": "integration-command",
+  "name": "mar-search-services",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Service name. MAR.Services.Description Service description.",
+      "name": "MAR.Services.Name",
+      "required": ""
+    },
+    {
+      "description": "Service status. MAR.Services.Startuptype Service startup type.",
+      "name": "MAR.Services.Status",
+      "required": ""
+    },
+    {
+      "description": "Service user.",
+      "name": "MAR.Services.User",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Active Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-active-response"
+}

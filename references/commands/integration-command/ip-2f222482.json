@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "This command is deprecated.",
+  "examples": [
+    "Command Example\n!ip ip=93.174.93.63 detailed=true\nContext Example\n{\n\"DBotScore\": {\n\"Indicator\": \"93.174.93.63\",\n\"Score\": 3,\n\"Type\": \"ip\",",
+    "!ip ip=93.174.93.63 detailed=true\nContext Example\n{\n\"DBotScore\": {\n\"Indicator\": \"93.174.93.63\",\n\"Score\": 3,\n\"Type\": \"ip\",\n\"Vendor\": \"Recorded Future\""
+  ],
+  "kind": "integration-command",
+  "name": "ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested DBotScore.Type Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "For malicious IP addresses, the vendor that made the decision IP.Malicious.Description For malicious IP addresses, the reason that the vendor made the decision",
+      "name": "IP.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "IP address IP.RecordedFuture.Criticality Risk criticality label",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "date Risk first seen timestamp IP.RecordedFuture.LastSeen",
+      "name": "IP.RecordedFuture.FirstSeen",
+      "required": ""
+    },
+    {
+      "description": "Risk last seen timestamp IP.Tags Tags that are associated with the IP.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "A summary note on the mentioning of the IP in a source monitored by Recorded Future. IP.CommunityNotes.timestamp date",
+      "name": "IP.CommunityNotes.note",
+      "required": ""
+    },
+    {
+      "description": "IP.Publications.source The publication's source. IP.Publications.title",
+      "name": "The timestamp in which the community note was created.",
+      "required": ""
+    },
+    {
+      "description": "The title of the published information. IP.Publications.link A link to the published information.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "date The timestamp in which the information was published.",
+      "name": "IP.Publications.timestamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

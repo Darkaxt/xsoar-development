@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook. After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [
+    "Command Example\n#\n!whois query=demisto.com\nContext Example\n#\n{\n\"Domain\": {\n\"WHOIS\": {",
+    "!whois query=demisto.com\nContext Example\n#\n{\n\"Domain\": {\n\"WHOIS\": {\n\"Admin\": [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the domain is registered. Domain.WHOIS.NameServers The name servers.",
+      "name": "Domain.WHOIS.DomainStatus",
+      "required": ""
+    },
+    {
+      "description": "Date The creation date. Domain.WHOIS.UpdatedDate",
+      "name": "Domain.WHOIS.CreationDate",
+      "required": ""
+    },
+    {
+      "description": "The updated date. Domain.WHOIS.ExpirationDate Date",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Domain.WHOIS.Registrant.Name The registrant name. Domain.WHOIS.Registrant.Email",
+      "name": "The expiration date.",
+      "required": ""
+    },
+    {
+      "description": "The registrant email. Domain.WHOIS.Registrant.Phone The registrant phone.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The registrar name. Domain.WHOIS.Registrar.Url The registrar email.",
+      "name": "Domain.WHOIS.Registrar.Name",
+      "required": ""
+    },
+    {
+      "description": "The registrar organization name. Domain.WHOIS.Registrar.Id The registrar ID.",
+      "name": "Domain.WHOIS.Registrar.Organization",
+      "required": ""
+    },
+    {
+      "description": "The Admin name. Domain.WHOIS.Admin.Email The Admin email.",
+      "name": "Domain.WHOIS.Admin.Name",
+      "required": ""
+    },
+    {
+      "description": "The Admin phone.",
+      "name": "Domain.WHOIS.Admin.Phone",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "JsonWhoIs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/json-who-is"
+}

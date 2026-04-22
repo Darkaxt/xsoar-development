@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "f5-ltm-get-pool-by-node",
+  "examples": [
+    "Command Example\n#\n!f5-ltm-get-pool-by-node node_name=\"XSOAR1\"\nContext Example\n#\n{\n\"F5\"\n:",
+    "!f5-ltm-get-pool-by-node node_name=\"XSOAR1\"\nContext Example\n#\n{\n\"F5\"\n:\n{\n\"LTM\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The pool names F5.LTM.Nodes.name The node name",
+      "name": "F5.LTM.Nodes.pools",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "F5 LTM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/f5-ltm"
+}

@@ -1,0 +1,68 @@
+{
+  "aliases": [
+    "ip-calc-return-address-binary"
+  ],
+  "arguments": [],
+  "description": "IPCalcReturnAddressBinary | Cortex XSOAR",
+  "examples": [
+    "!IPCalcReturnAddressBinary ip_address=192.158.2.2\nContext Example\n#\n{\n\"IPCalc\"\n:\n{\n\"IP\""
+  ],
+  "kind": "script",
+  "name": "IPCalcReturnAddressBinary",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Subnet binary IPCalc.IP.Binary.address IP address",
+      "name": "IPCalc.IP.Binary.binary",
+      "required": ""
+    },
+    {
+      "description": "Script Example",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!IPCalcReturnAddressBinary ip_address=192.158.2.2",
+      "required": ""
+    },
+    {
+      "description": "\"IPCalc\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"Binary\"",
+      "name": "\"IP\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"address\" :",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ", \"binary\" :",
+      "name": "\"192.158.2.2\"",
+      "required": ""
+    },
+    {
+      "description": "} } }",
+      "name": "\"11000000100111100000001000000010\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IPCalcReturnAddressBinary",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ip-calc-return-address-binary"
+}

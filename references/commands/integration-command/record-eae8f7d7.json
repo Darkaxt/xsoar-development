@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "#### Command Example\nHuman Readable Output\n#\nusta-search-specific-identity-leaks\n#\nWith this command, you can search specific identity number that hashed in leaks\nBase Command\n#",
+    "Command Example\n#\n#### Human Readable Output\n### usta-close-incident\n***\nYou can close the notifications in the status of \"In Progress\" or \"Open\", which are currently opened to your institution, via API.\n#### Base Command\n`usta-close-incident`",
+    "#### Command Example\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious\n\u00ab urlscan.io\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "If the identity is leaked, you can see it in existing. Usta.SpecificLeaks.not_existing If the identity is not leaked, you can see it in not_existing",
+      "name": "Usta.SpecificLeaks.existing",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "USTA",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/usta"
+}

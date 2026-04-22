@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Host information includes data that correlates the host data to detected security events",
+  "examples": [
+    "Command Example\n!vectra-get-hosts threat_score_gte=20\nContext Example\n{\n\"Vectra.Host\": [\n{\n\"ActiveTraffic\": false,\n\"CertaintyScore\": 45,",
+    "!vectra-get-hosts threat_score_gte=20\nContext Example\n{\n\"Vectra.Host\": [\n{\n\"ActiveTraffic\": false,\n\"CertaintyScore\": 45,\n\"DetectionID\": ["
+  ],
+  "kind": "integration-command",
+  "name": "vectra-get-hosts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The learned hostname Vectra.Host.TargetsKeyAsset Flag indicating if the host has a detection targeting a key asset",
+      "name": "Vectra.Host.Name",
+      "required": ""
+    },
+    {
+      "description": "The current certainty score correlated to this host Vectra.Host.DetectionID List of Detections for Account",
+      "name": "Vectra.Host.CertaintyScore",
+      "required": ""
+    },
+    {
+      "description": "Flag indicating if the host is a key asset Vectra.Host.State The state of this host",
+      "name": "Vectra.Host.KeyAsset",
+      "required": ""
+    },
+    {
+      "description": "The current threat score correlated to this host Vectra.Host.LastDetection Last detection activity from this host (Timestamp format: YYYY-MM-DD HH-MM-SS GMT)",
+      "name": "Vectra.Host.Threat_Score",
+      "required": ""
+    },
+    {
+      "description": "Last source IP associated with this host Vectra.Host.ID ID of the Host",
+      "name": "Vectra.Host.IP",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Vectra v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vectra-v2"
+}

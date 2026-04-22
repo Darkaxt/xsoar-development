@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "dspm-get-contianers"
+  ],
+  "arguments": [],
+  "description": "DSPMGetContianers | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DSPMGetContianers",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of containers. Edit this page Report an Issue",
+      "name": "containers",
+      "required": ""
+    },
+    {
+      "description": "\u00ab DSPMExtractUserResponseFromSlackBlockState Next DSPMIncidentList \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DSPMGetContianers",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/dspm-get-contianers"
+}

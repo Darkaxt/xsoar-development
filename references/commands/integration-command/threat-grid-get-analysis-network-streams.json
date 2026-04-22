@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!threat-grid-get-analysis-network-stream id=a6cc7ae4e3318e98d94e8a053dd72c47 nsid=1\nHuman Readable Output\n37. Get the analysis for a network stream\nReturns the network stream analysis.\nBase Command\nthreat-grid-get-analysis-network-streams\nInput",
+    "!threat-grid-get-analysis-network-stream id=a6cc7ae4e3318e98d94e8a053dd72c47 nsid=1\nHuman Readable Output\n37. Get the analysis for a network stream\nReturns the network stream analysis.\nBase Command\nthreat-grid-get-analysis-network-streams\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-analysis-network-streams",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

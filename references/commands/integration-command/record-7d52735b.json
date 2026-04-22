@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!acti-vuln cve=CVE-2022-1653\nContext Example\n#\n{\n\"DBotScore\"\n:",
+    "!acti-vuln cve=CVE-2022-1653\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the CVE, for example: CVE-2022-1653 CVE.CVSS2 The CVSS2 temporal score of the CVE based on exploitability, remediation level & report confidence, for example: 10.0",
+      "name": "CVE.ID",
+      "required": ""
+    },
+    {
+      "description": "The CVSS3 temporal score of the CVE based on exploitability, remediation level & report confidence, for example: 10.0 CVE.Published The timestamp of when the CVE was published.",
+      "name": "CVE.CVSS3",
+      "required": ""
+    },
+    {
+      "description": "The timestamp of when the CVE was last modified. CVE.Description A description of the CVE.",
+      "name": "CVE.Modified",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Reliability Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor that was used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ACTI Vulnerability Query",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/acti-vulnerability-query"
+}

@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!sw-list-blocked-domains limit=5",
+  "examples": [
+    "Command Example\n!sw-list-blocked-domains limit=5\n7. Get a list of observations\nReturns observations by alert ID, observation ID, or a free search.\nBase Command\nsw-list-observations\nInput\nArgument Name",
+    "!sw-list-blocked-domains limit=5\n7. Get a list of observations\nReturns observations by alert ID, observation ID, or a free search.\nBase Command\nsw-list-observations\nInput\nArgument Name\nDescription",
+    "Command Example\n!sw-list-observations alert=222\nContext Example\n{\n\"cidr_range\": \"5.5.5.179/32\",\n\"connected_ip\": null,\n\"connected_ip_country_code\": \"\",\n\"creation_time\": \"2018-07-23T15:30:00Z\",",
+    "!sw-list-observations alert=222\nContext Example\n{\n\"cidr_range\": \"5.5.5.179/32\",\n\"connected_ip\": null,\n\"connected_ip_country_code\": \"\",\n\"creation_time\": \"2018-07-23T15:30:00Z\",\n\"end_time\": \"2018-07-23T15:30:00Z\","
+  ],
+  "kind": "integration-command",
+  "name": "sw-list-observations",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Observation ID Stealthwatch.Observation.port_count Observation port count",
+      "name": "Stealthwatch.Observation.id",
+      "required": ""
+    },
+    {
+      "description": "Observation creation time Stealthwatch.Observation.end_time Observation end time",
+      "name": "Stealthwatch.Observation.creation_time",
+      "required": ""
+    },
+    {
+      "description": "Observation scanned ip Stealthwatch.Observation.scanner_ip Observation scanner ip",
+      "name": "Stealthwatch.Observation.scanned_ip",
+      "required": ""
+    },
+    {
+      "description": "Observation source",
+      "name": "Stealthwatch.Observation.source",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Secure Cloud Analytics (Stealthwatch Cloud)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/stealthwatch-cloud"
+}

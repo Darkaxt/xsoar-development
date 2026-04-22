@@ -1,0 +1,149 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "get-modified-remote-data",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Gets the list of incidents that were modified since the last update time. Note that this method is here for debugging purposes. The get-modified-remote-data command is used as part of a Mirroring feature, which is available in Cortex XSOAR from version 6.1.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "get-modified-remote-data",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "To set up the mirroring: Enable Fetching incidents",
+      "name": "You can enable incident mirroring between Cortex XSOAR incidents and Freshworks Freshservice corresponding events (available from Cortex XSOAR version 6.0.0).",
+      "required": ""
+    },
+    {
+      "description": "In the Mirroring Direction integration parameter, select in which direction the incidents should be mirrored:",
+      "name": "in your instance configuration.",
+      "required": ""
+    },
+    {
+      "description": "Description None Turns off incident mirroring.",
+      "name": "Option",
+      "required": ""
+    },
+    {
+      "description": "Any changes in Freshworks Freshservice events (mirroring incoming fields) will be reflected in Cortex XSOAR incidents. Outgoing Any changes in Cortex XSOAR incidents will be reflected in Freshworks Freshservice events (outgoing mirrored fields).",
+      "name": "Incoming",
+      "required": ""
+    },
+    {
+      "description": "Changes in Cortex XSOAR incidents and Freshworks Freshservice events will be reflected in both directions. Optional: Check the Close Mirrored XSOAR Incident",
+      "name": "Incoming And Outgoing",
+      "required": ""
+    },
+    {
+      "description": "Newly fetched incidents will be mirrored in the chosen direction. However, this selection does not affect existing incidents. Important Note: To ensure the mirroring works as expected, mappers are required, both for incoming and outgoing, to map the expected fields in Cortex XSOAR and Freshworks Freshservice.",
+      "name": "integration parameter to close the Cortex XSOAR incident when the corresponding event is closed in Freshworks Freshservice.",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Freshdesk",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "FTP \u00bb Configure Freshworks Freshservice on Cortex XSOAR Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "freshservice-ticket-create freshservice-ticket-update freshservice-ticket-delete",
+      "name": "freshservice-ticket-list",
+      "required": ""
+    },
+    {
+      "description": "freshservice-ticket-task-create freshservice-ticket-task-update freshservice-ticket-task-delete",
+      "name": "freshservice-ticket-task-list",
+      "required": ""
+    },
+    {
+      "description": "freshservice-ticket-conversation-reply-create freshservice-ticket-conversation-note-create freshservice-ticket-conversation-update",
+      "name": "freshservice-ticket-conversation-list",
+      "required": ""
+    },
+    {
+      "description": "freshservice-problem-list freshservice-problem-create freshservice-problem-update",
+      "name": "freshservice-ticket-conversation-delete",
+      "required": ""
+    },
+    {
+      "description": "freshservice-problem-task-list freshservice-problem-task-create freshservice-problem-task-update",
+      "name": "freshservice-problem-delete",
+      "required": ""
+    },
+    {
+      "description": "freshservice-change-list freshservice-change-create freshservice-change-update",
+      "name": "freshservice-problem-task-delete",
+      "required": ""
+    },
+    {
+      "description": "freshservice-change-task-list freshservice-change-task-create freshservice-change-task-update",
+      "name": "freshservice-change-delete",
+      "required": ""
+    },
+    {
+      "description": "freshservice-release-list freshservice-release-create freshservice-release-update",
+      "name": "freshservice-change-task-delete",
+      "required": ""
+    },
+    {
+      "description": "freshservice-release-task-list freshservice-release-task-create freshservice-release-task-update",
+      "name": "freshservice-release-delete",
+      "required": ""
+    },
+    {
+      "description": "freshservice-requester-list freshservice-agent-list freshservice-role-list",
+      "name": "freshservice-release-task-delete",
+      "required": ""
+    },
+    {
+      "description": "freshservice-software-list freshservice-asset-list freshservice-purchase-order-list",
+      "name": "freshservice-vendor-list",
+      "required": ""
+    },
+    {
+      "description": "freshservice-department-list freshservice-requester-field-list get-mapping-fields",
+      "name": "freshservice-agent-group-list",
+      "required": ""
+    },
+    {
+      "description": "get-modified-remote-data Incident Mirroring Docs",
+      "name": "get-remote-data",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Freshworks Freshservice",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/freshworks-freshservice"
+}

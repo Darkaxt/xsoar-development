@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "atlassian-api-module"
+  ],
+  "arguments": [],
+  "description": "AtlassianApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "AtlassianApiModule",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AtlassianApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/atlassian-api-module"
+}

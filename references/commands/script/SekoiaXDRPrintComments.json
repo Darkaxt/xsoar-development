@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "sekoia-xdr-print-comments"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "SekoiaXDRPrintComments | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SekoiaXDRPrintComments",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next SendAllPANWIoTAssetsToSIEM \u00bb Script Data",
+      "name": "\u00ab SekoiaXDRPrintCase",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SekoiaXDRPrintComments",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/sekoia-xdr-print-comments"
+}

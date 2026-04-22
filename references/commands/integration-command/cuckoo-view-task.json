@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!cuckoo-create-task-from-url url=google.com",
+  "examples": [
+    "Command Example\n!cuckoo-create-task-from-url url=google.com\nContext Example\nHuman Readable Output\n5. Get task information\nReturns information for a specified task.\nBase Command\ncuckoo-view-task",
+    "!cuckoo-create-task-from-url url=google.com\nContext Example\nHuman Readable Output\n5. Get task information\nReturns information for a specified task.\nBase Command\ncuckoo-view-task\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "cuckoo-view-task",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Category of task Cuckoo.Task.Machine Machine of task",
+      "name": "Cuckoo.Task.Category",
+      "required": ""
+    },
+    {
+      "description": "Errors of task Cuckoo.Task.Target Target of task",
+      "name": "Cuckoo.Task.Errors",
+      "required": ""
+    },
+    {
+      "description": "Package of task Cuckoo.Task.SampleID Sample ID of task",
+      "name": "Cuckoo.Task.Package",
+      "required": ""
+    },
+    {
+      "description": "Task guest Cuckoo.Task.Custom Custom values of task",
+      "name": "Cuckoo.Task.Guest",
+      "required": ""
+    },
+    {
+      "description": "Task owner Cuckoo.Task.Priority Priority of task",
+      "name": "Cuckoo.Task.Owner",
+      "required": ""
+    },
+    {
+      "description": "Platform of task Cuckoo.Task.Options Task options",
+      "name": "Cuckoo.Task.Platform",
+      "required": ""
+    },
+    {
+      "description": "Task status Cuckoo.Task.EnforceTimeout Is timeout of task enforced",
+      "name": "Cuckoo.Task.Status",
+      "required": ""
+    },
+    {
+      "description": "Task timeout Cuckoo.Task.Memory Task memory",
+      "name": "Cuckoo.Task.Timeout",
+      "required": ""
+    },
+    {
+      "description": "Task tags Cuckoo.Task.ID ID of task",
+      "name": "Cuckoo.Task.Tags",
+      "required": ""
+    },
+    {
+      "description": "Date the task was added Cuckoo.Task.CompletedOn Date the task was completed",
+      "name": "Cuckoo.Task.AddedOn",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cuckoo Sandbox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cuckoo-sandbox"
+}

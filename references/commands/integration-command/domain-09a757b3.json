@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Data:http://8.8.8.8/google.doc",
+  "examples": [
+    "Command Example\n!domain domain=\"dns02.hpupdat.net\" using=\"FalconIntel V2_instance_1\"\nRaw Output\nDBotScore\n{\n\"Indicator\": \"dns02.hpupdat.net\",\n\"Score\": 3,\n\"Type\": \"domain\",",
+    "!domain domain=\"dns02.hpupdat.net\" using=\"FalconIntel V2_instance_1\"\nRaw Output\nDBotScore\n{\n\"Indicator\": \"dns02.hpupdat.net\",\n\"Score\": 3,\n\"Type\": \"domain\",\n\"Vendor\": \"CrowdStrike\""
+  ],
+  "kind": "integration-command",
+  "name": "domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Malicious domain Domain.Malicious.Vendor For malicious domains, the vendor that made the decision",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "For malicious domains, the reason that the vendor to made that decision DBotScore.Indicator The indicator tested",
+      "name": "Domain.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Type of indicator tested DBotScore.Vendor Vendor used to calculate the score",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Intel (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-intel"
+}

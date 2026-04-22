@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "was deleted successfully",
+  "examples": [
+    "Command Example\n#\n!gcp-pubsub-topic-ack-messages ack_ids=example_ack_id subscription_id=test_sub_2\nContext Example\n#\n{}\nHuman Readable Output\n#",
+    "!gcp-pubsub-topic-ack-messages ack_ids=example_ack_id subscription_id=test_sub_2\nContext Example\n#\n{}\nHuman Readable Output\n#\nSubscription test_sub_2 had the following ids acknowledged\n#"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Pub/Sub",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-pub-sub"
+}

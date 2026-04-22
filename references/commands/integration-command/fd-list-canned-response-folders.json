@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "bob.tree@freshdesk.com",
+  "examples": [
+    "Command Example\n!fd-list-canned-response-folders\nContext Example\n{\n\"Freshdesk.CRFolder\": [\n{\n\"Personal\": true,\n\"ResponsesCount\": 1,",
+    "!fd-list-canned-response-folders\nContext Example\n{\n\"Freshdesk.CRFolder\": [\n{\n\"Personal\": true,\n\"ResponsesCount\": 1,\n\"ID\": 2043000174274,"
+  ],
+  "kind": "integration-command",
+  "name": "fd-list-canned-response-folders",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique ID of the canned response folder Freshdesk.CRFolder.Name Name of the canned response folder",
+      "name": "Freshdesk.CRFolder.ID",
+      "required": ""
+    },
+    {
+      "description": "Set true if the folder can only be accessed by you Freshdesk.CRFolder.ResponsesCount Number of canned responses in the folder",
+      "name": "Freshdesk.CRFolder.Personal",
+      "required": ""
+    },
+    {
+      "description": "Date Canned Response Folder\u2019s creation timestamp Freshdesk.CRFolder.UpdatedAt",
+      "name": "Freshdesk.CRFolder.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Canned Response Folder\u2019s updated timestamp",
+      "name": "Date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Freshdesk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/freshdesk"
+}

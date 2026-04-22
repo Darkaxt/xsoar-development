@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Umbrella.Destinations.comment",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "date When the domain within destination list was created Umbrella.Destinations.type",
+      "name": "Umbrella.Destinations.createdAt",
+      "required": ""
+    },
+    {
+      "description": "Type of destination within destination list Umbrella.Destinations.destination Domain within destination list",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "ID of domain within destination list Umbrella.Destinations.comment Comment associated with domain within destination list",
+      "name": "Umbrella.Destinations.id",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Cisco Threat Grid (Deprecated)",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Cisco Umbrella Cloud Security v2 \u00bb Configure Cisco Umbrella Cloud Security in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "umbrella-add-domain umbrella-get-destination-domains umbrella-remove-domain",
+      "name": "umbrella-get-destination-lists",
+      "required": ""
+    },
+    {
+      "description": "umbrella-search-destination-domains Docs Developer Docs",
+      "name": "umbrella-get-destination-domain",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Umbrella Cloud Security (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-umbrella-cloud-security"
+}

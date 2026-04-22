@@ -1,0 +1,15 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "gcs-delete-bucket-object-policy bucket_name=my-bucket object_name=/some/path/my_file.txt entity=allUsers",
+  "examples": [
+    "Command Example\ngcs-delete-bucket-object-policy bucket_name=my-bucket object_name=/some/path/my_file.txt entity=allUsers\nHuman Readable Output\nRemoved entity allUsers from ACL of object /some/path/my_file.txt\n16. Copy an object from one bucket to another\nCopies an object from one bucket to another.\nBase Command\ngcs-copy-file"
+  ],
+  "kind": "integration-command",
+  "name": "gcs-copy-file",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Storage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-storage"
+}

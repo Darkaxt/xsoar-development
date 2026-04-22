@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "less-than-percentage"
+  ],
+  "arguments": [],
+  "description": "LessThanPercentage | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "LessThanPercentage",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the firstPercentage is less than (<) the secondPercentage. more Whether the firstPercentage greater than or equal to (>=) the secondPercentage.",
+      "name": "less",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next LinkIncidentsButton \u00bb Script Data",
+      "name": "\u00ab LCMSetHostComment",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "LessThanPercentage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/less-than-percentage"
+}

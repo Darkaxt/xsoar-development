@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "cool_user@coolorg.com",
+  "examples": [
+    "Command Example\n!slack-filter-channels name=\"^general$\"\nContext Example\n{\n\"Slack.Channel\": {\n\"ID\": \"CXXXXXXXX\",\n\"Name\": \"general\",\n\"Created\": 1449252889,",
+    "!slack-filter-channels name=\"^general$\"\nContext Example\n{\n\"Slack.Channel\": {\n\"ID\": \"CXXXXXXXX\",\n\"Name\": \"general\",\n\"Created\": 1449252889,\n\"Creator\": \"UXXXXXXXX\","
+  ],
+  "kind": "integration-command",
+  "name": "slack-filter-channels",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The channel ID Slack.Channel.Name The channel name",
+      "name": "Slack.Channel.ID",
+      "required": ""
+    },
+    {
+      "description": "The channel creation timestamp Slack.Channel.Creator The channel creator's member ID",
+      "name": "Slack.Channel.Created",
+      "required": ""
+    },
+    {
+      "description": "Has the channel been archived? Slack.Channel.IsGeneral Is the channel the general channel?",
+      "name": "Slack.Channel.IsArchived",
+      "required": ""
+    },
+    {
+      "description": "Is the channel a private channel?",
+      "name": "Slack.Channel.IsPrivate",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Slack v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slack-v2"
+}

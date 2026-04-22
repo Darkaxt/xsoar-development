@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "SecneurXAnalysis.Report.Status",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Creation Time of the API Key SecneurXAnalysis.Quota.used Integer",
+      "name": "SecneurXAnalysis.Quota.start_time",
+      "required": ""
+    },
+    {
+      "description": "SecneurXAnalysis.Quota.allowed Integer Limitation count of API Key",
+      "name": "Used count of API Key",
+      "required": ""
+    },
+    {
+      "description": "API Key expiration renew scale type SecneurXAnalysis.Quota.unused Unused count of API Key",
+      "name": "SecneurXAnalysis.Quota.scale",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SecneurX Analysis",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/secneurx-analysis"
+}

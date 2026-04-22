@@ -1,0 +1,33 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "!url url=voogle.com/malicious.exe using-brand=\"Palo Alto Minemeld\"",
+  "examples": [
+    "!url url=voogle.com/malicious.exe using-brand=\"Palo Alto Minemeld\"\nWar Room Output\n9. Get a list of all the miners\nRetrieves the names of all the miners, the class of each miner, and how many indicators are associated with each miner.\nBase Command\nminemeld-get-all-miners-names\nInput\nThere is no input for this command.",
+    "!minemeld-get-all-miners-names\nWar Room Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab Palo Alto Networks IoT 3rd Party (Deprecated)\nNext\nPalo Alto Networks PAN-OS \u00bb"
+  ],
+  "kind": "integration-command",
+  "name": "minemeld-get-all-miners-names",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Entire miner object MineMeld.Miner.name Miner name",
+      "name": "MineMeld.Miner",
+      "required": ""
+    },
+    {
+      "description": "Miner class MineMeld.Miner.indicators Number of miner indicators",
+      "name": "MineMeld.Miner.class",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks MineMeld (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-minemeld"
+}

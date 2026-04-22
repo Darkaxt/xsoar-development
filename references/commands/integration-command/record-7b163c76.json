@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!otrs-close-ticket ticket_id=\"7023\" article_subject=\"ClosingSubject\" article_body=\"ClosingBody\"\nContext Example\n#\n{\n\"OTRS\": {\n\"Ticket\": {",
+    "!otrs-close-ticket ticket_id=\"7023\" article_subject=\"ClosingSubject\" article_body=\"ClosingBody\"\nContext Example\n#\n{\n\"OTRS\": {\n\"Ticket\": {\n\"Article\": {\n\"Body\": \"ClosingBody\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID OTRS.Ticket.State Ticket state",
+      "name": "OTRS.Ticket.ID",
+      "required": ""
+    },
+    {
+      "description": "Ticket article subject OTRS.Ticket.Article.Body Ticket article body",
+      "name": "OTRS.Ticket.Article.Subject",
+      "required": ""
+    },
+    {
+      "description": "Content Type of the article body.",
+      "name": "OTRS.Ticket.Article.ContentType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OTRS",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/otrs"
+}

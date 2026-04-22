@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get events for an attacker IP address: attivo-get-events",
+  "examples": [
+    "Command Example\n!attivo-check-user user=\"a-user-l-ftp-0\"\nContext Example\n{\n\"Attivo\": {\n\"User\": {\n\"IsDeceptive\": true,\n\"Groups\": [",
+    "!attivo-check-user user=\"a-user-l-ftp-0\"\nContext Example\n{\n\"Attivo\": {\n\"User\": {\n\"IsDeceptive\": true,\n\"Groups\": [\n\"a-user-l-ftp\""
+  ],
+  "kind": "integration-command",
+  "name": "attivo-check-user",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Is the user part of the Deception environment Attivo.User.Groups If the user is part of the Deception environment, the member is a member of these groups",
+      "name": "Attivo.User.IsDeceptive",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Attivo Botsink",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/attivo-botsink"
+}

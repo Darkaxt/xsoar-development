@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "build-slack-blocks-from-index"
+  ],
+  "arguments": [],
+  "description": "BuildSlackBlocksFromIndex | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "BuildSlackBlocksFromIndex",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BuildSlackBlocksFromIndex",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/build-slack-blocks-from-index"
+}

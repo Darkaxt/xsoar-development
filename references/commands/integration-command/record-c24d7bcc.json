@@ -1,0 +1,113 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!wootcloud-fetch-bluetooth-alert alert_id=\"EXMP001\"",
+  "examples": [
+    "!wootcloud-fetch-bluetooth-alert alert_id=\"EXMP001\"\nHuman Readable Output\n#\n6. wootcloud-fetch-anomaly-alert\n#\nretrieve single anomaly alert given packet id\nBase Command\n#",
+    "Command Example\n#\n!wootcloud-fetch-anomaly-alert alert_id=\"eyJpIjoiU05XT09UQVBQUFJPRDAxX3JlYWx0aW1lX3AwMDIscGt0c3RhdHMzLDNjOmE5OmY0OjY0OjA2OmUwLDE2MDE3NDQ4OTcuNzg0NTg0LDI2ODkzXzAwMCIsIngiOiI1YTAwYjE3NTljNzk2NDg4MGZhMWMxYTZfY19kMjAyMDEwMDMifQ==\" \"\nContext Example\n#\n{\n\"WootCloud.AnomalyAlert\": {\n\"anomaly_type\": \"Connection\",",
+    "!wootcloud-fetch-anomaly-alert alert_id=\"eyJpIjoiU05XT09UQVBQUFJPRDAxX3JlYWx0aW1lX3AwMDIscGt0c3RhdHMzLDNjOmE5OmY0OjY0OjA2OmUwLDE2MDE3NDQ4OTcuNzg0NTg0LDI2ODkzXzAwMCIsIngiOiI1YTAwYjE3NTljNzk2NDg4MGZhMWMxYTZfY19kMjAyMDEwMDMifQ==\" \"\nContext Example\n#\n{\n\"WootCloud.AnomalyAlert\": {\n\"anomaly_type\": \"Connection\",\n\"maximum\": 0,\n\"connections\": ["
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID WootCloud.AnomalyAlert.timestamp Date",
+      "name": "WootCloud.AnomalyAlert.id",
+      "required": ""
+    },
+    {
+      "description": "WootCloud.AnomalyAlert.anomaly_type anomaly type WootCloud.AnomalyAlert.signature",
+      "name": "timestamp",
+      "required": ""
+    },
+    {
+      "description": "signature WootCloud.AnomalyAlert.description description",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "severity WootCloud.AnomalyAlert.count count",
+      "name": "WootCloud.AnomalyAlert.severity",
+      "required": ""
+    },
+    {
+      "description": "average WootCloud.AnomalyAlert.minimum minimum",
+      "name": "WootCloud.AnomalyAlert.average",
+      "required": ""
+    },
+    {
+      "description": "maximum WootCloud.AnomalyAlert.standard_deviation standard deviation",
+      "name": "WootCloud.AnomalyAlert.maximum",
+      "required": ""
+    },
+    {
+      "description": "anomaly score WootCloud.AnomalyAlert.observed_value observed value",
+      "name": "WootCloud.AnomalyAlert.anomaly_score",
+      "required": ""
+    },
+    {
+      "description": "deviation from the norm WootCloud.AnomalyAlert.units units",
+      "name": "WootCloud.AnomalyAlert.deviation_from_norm",
+      "required": ""
+    },
+    {
+      "description": "address WootCloud.AnomalyAlert.type type",
+      "name": "WootCloud.AnomalyAlert.address",
+      "required": ""
+    },
+    {
+      "description": "group WootCloud.AnomalyAlert.subtype subtype",
+      "name": "WootCloud.AnomalyAlert.group",
+      "required": ""
+    },
+    {
+      "description": "title WootCloud.AnomalyAlert.device_details.device_id device details device ID",
+      "name": "WootCloud.AnomalyAlert.title",
+      "required": ""
+    },
+    {
+      "description": "device details asset WootCloud.AnomalyAlert.device_details.managed device details managed",
+      "name": "WootCloud.AnomalyAlert.device_details.asset",
+      "required": ""
+    },
+    {
+      "description": "device details category WootCloud.AnomalyAlert.device_details.control device details control",
+      "name": "WootCloud.AnomalyAlert.device_details.category",
+      "required": ""
+    },
+    {
+      "description": "device details host name WootCloud.AnomalyAlert.device_details.os device details OS",
+      "name": "WootCloud.AnomalyAlert.device_details.host_name",
+      "required": ""
+    },
+    {
+      "description": "device details OS version WootCloud.AnomalyAlert.device_details.ownership device details ownership",
+      "name": "WootCloud.AnomalyAlert.device_details.os_version",
+      "required": ""
+    },
+    {
+      "description": "device details total risk score WootCloud.AnomalyAlert.device_details.type device details type",
+      "name": "WootCloud.AnomalyAlert.device_details.total_risk",
+      "required": ""
+    },
+    {
+      "description": "device details username WootCloud.AnomalyAlert.device_details.managed_info.host_name device details managed info host name",
+      "name": "WootCloud.AnomalyAlert.device_details.username",
+      "required": ""
+    },
+    {
+      "description": "connections ip WootCloud.AnomalyAlert.connections.port connections port",
+      "name": "WootCloud.AnomalyAlert.connections.ip",
+      "required": ""
+    },
+    {
+      "description": "connections connection count",
+      "name": "WootCloud.AnomalyAlert.connections.connection_count",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "WootCloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/woot-cloud"
+}

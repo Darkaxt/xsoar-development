@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Unblock a domain:\u00a0smg-unblock-domain",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "smg-block-email",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Email address that was blocked",
+      "name": "Email.Address",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Messaging Gateway",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-messaging-gateway"
+}

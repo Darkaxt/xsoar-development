@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "12YHG7OISB99ANM3GTbtK9IveiBxyrndnDGuRyyRiA5U",
+  "examples": [
+    "Command Example\n#\n!google-docs-update-document document_id=1MjtBlFLwFNsjVwCF0mZLxpRoblVHjLcR3VmZcUuNvzo actions=insertText{1,hey};insertText{3,hello}\nContext Example\n#\n{\n\"GoogleDocs\"\n:",
+    "!google-docs-update-document document_id=1MjtBlFLwFNsjVwCF0mZLxpRoblVHjLcR3VmZcUuNvzo actions=insertText{1,hey};insertText{3,hello}\nContext Example\n#\n{\n\"GoogleDocs\"\n:\n{\n\"DocumentId\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The title of the updated. GoogleDocs.RevisionId The revision ID of the updated document.",
+      "name": "GoogleDocs.Title",
+      "required": ""
+    },
+    {
+      "description": "The document ID of the updated document.",
+      "name": "GoogleDocs.DocumentId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Docs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-docs"
+}

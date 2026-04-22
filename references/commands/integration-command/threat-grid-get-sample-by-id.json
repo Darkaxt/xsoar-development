@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!threat-grid-get-sample-by-id id=052de338e02c4e013a4e9f5da8a87d5b\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"Status\": \"filetype_not_supported\",\n\"SHA1\": \"a253ac433faa9ac59a9f73c540355bfe2f9fe708\",",
+    "!threat-grid-get-sample-by-id id=052de338e02c4e013a4e9f5da8a87d5b\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"Status\": \"filetype_not_supported\",\n\"SHA1\": \"a253ac433faa9ac59a9f73c540355bfe2f9fe708\",\n\"CompletedAt\": \"2018-07-07T10:11:06Z\","
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-sample-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The sample ID ThreatGrid.Sample.Filename The sample filename",
+      "name": "ThreatGrid.Sample.ID",
+      "required": ""
+    },
+    {
+      "description": "The sample state ThreatGrid.Sample.Status The sample status",
+      "name": "ThreatGrid.Sample.State",
+      "required": ""
+    },
+    {
+      "description": "The sample MD5 ThreatGrid.Sample.SHA1 The sample SHA-1",
+      "name": "ThreatGrid.Sample.MD5",
+      "required": ""
+    },
+    {
+      "description": "The sample SHA-256 ThreatGrid.Sample.OS The sample OS",
+      "name": "ThreatGrid.Sample.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The sample submission time ThreatGrid.Sample.StartedAt The sample analysis starting time",
+      "name": "ThreatGrid.Sample.SubmittedAt",
+      "required": ""
+    },
+    {
+      "description": "The sample completion time",
+      "name": "ThreatGrid.Sample.CompletedAt",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

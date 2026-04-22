@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!mar-search-host-info\nContext Example\n{\n\"MAR\": {\n\"HostInfo\": [\n{\n\"Os\": \"Microsoft Windows [Version 6.3.9600]\",",
+    "!mar-search-host-info\nContext Example\n{\n\"MAR\": {\n\"HostInfo\": [\n{\n\"Os\": \"Microsoft Windows [Version 6.3.9600]\",\n\"created_at\": \"2019-03-06T15:44:10.192Z\","
+  ],
+  "kind": "integration-command",
+  "name": "mar-search-host-info",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Host name. MAR.HostInfo.Ip_address Host IP address.",
+      "name": "MAR.HostInfo.Hostname",
+      "required": ""
+    },
+    {
+      "description": "Host operating system.",
+      "name": "MAR.HostInfo.Os",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Active Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-active-response"
+}

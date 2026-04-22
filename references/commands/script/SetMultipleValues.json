@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "set-multiple-values"
+  ],
+  "arguments": [],
+  "description": "SetMultipleValues | Cortex XSOAR",
+  "examples": [
+    "!SetMultipleValues parent=test_parent keys=key1,key2,key3 values=val1,valu2,val3\nContext Result\n#\nEdit this page\nReport an Issue\nPrevious\n\u00ab SetIRProceduresMarkdown\nNext"
+  ],
+  "kind": "script",
+  "name": "SetMultipleValues",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command",
+      "required": ""
+    },
+    {
+      "description": "Context Result",
+      "name": "!SetMultipleValues parent=test_parent keys=key1,key2,key3 values=val1,valu2,val3",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab SetIRProceduresMarkdown",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "SetPhishingCampaignDetails \u00bb Script Data",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Command Context Result Docs",
+      "name": "Example",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SetMultipleValues",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/set-multiple-values"
+}

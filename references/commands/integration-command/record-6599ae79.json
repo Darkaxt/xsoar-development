@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "{'tid': 90, 'expiry': 0, 'thid': 90, 'name': 'SF Office', 'restricted': False, 'data': {'auto': False, 'color': 181, 'description': '', 'visibility': 'Public'}, 'isReferenced': False}",
+  "examples": [
+    "Command Example\n#\n!darktrace-get-entity-details query=did=1,count=10 offset=5\nContext Example\n#\n{\n\"Darktrace\": {\n\"EntityDetails\": [",
+    "!darktrace-get-entity-details query=did=1,count=10 offset=5\nContext Example\n#\n{\n\"Darktrace\": {\n\"EntityDetails\": [\n{\n\"action\": \"connection\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of entities and their details. Each entity might have different keys. It is recommended to run the command once to check the relevant outputs in context.",
+      "name": "Darktrace.EntityDetails",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Darktrace (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/darktrace"
+}

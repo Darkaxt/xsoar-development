@@ -1,0 +1,74 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Score The actual score.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The autonomous system name for the IP address. IP2LocationIO.IP.asn_description The ASN description.",
+      "name": "IP2LocationIO.IP.asn",
+      "required": ""
+    },
+    {
+      "description": "The actual IP address. IP2LocationIO.IP.query IP address that was queried.",
+      "name": "IP2LocationIO.IP.ip",
+      "required": ""
+    },
+    {
+      "description": "Additional raw data for the IP address. IP.Address IP address.",
+      "name": "IP2LocationIO.IP.raw",
+      "required": ""
+    },
+    {
+      "description": "The autonomous system name for the IP address. IP.Relationships.EntityA The source of the relationship.",
+      "name": "IP.ASN",
+      "required": ""
+    },
+    {
+      "description": "The destination of the relationship. IP.Relationships.Relationship The name of the relationship.",
+      "name": "IP.Relationships.EntityB",
+      "required": ""
+    },
+    {
+      "description": "The type of the source of the relationship. IP.Relationships.EntityBType The type of the destination of the relationship.",
+      "name": "IP.Relationships.EntityAType",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab IP-API",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "ipinfo (Deprecated) \u00bb Configure IP2LocationIO in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "ip",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IP2LocationIO",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ip2-location-io"
+}

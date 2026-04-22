@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Darktrace.Action.resp",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Status of the release action. Edit this page Report an Issue",
+      "name": "Darktrace.Action.resp",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Darktrace Model Breaches Next DataBee \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands darktrace-email-get-email darktrace-email-hold-email",
+      "name": "Configure DarktraceEmail in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "darktrace-email-release-email",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DarktraceEmail",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/darktrace-email"
+}

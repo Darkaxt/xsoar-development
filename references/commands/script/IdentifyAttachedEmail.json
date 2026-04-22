@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "identify-attached-email"
+  ],
+  "arguments": [],
+  "description": "IdentifyAttachedEmail | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IdentifyAttachedEmail",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "If incident contains an email attachment. no If incident does not contain an email attachment",
+      "name": "yes",
+      "required": ""
+    },
+    {
+      "description": "reportedemailentryid The entry IDs of the email attachments found. Edit this page",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab IbmUploadAttachment Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data Used In",
+      "name": "If-Elif \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IdentifyAttachedEmail",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/identify-attached-email"
+}

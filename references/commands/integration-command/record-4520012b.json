@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Code42.UpdatedUserRiskProfiles.Success",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Code42 Event Collector \u00bb Configure Code42 in Cortex",
+      "name": "\u00ab CloudShark",
+      "required": ""
+    },
+    {
+      "description": "code42-file-events-search code42-alert-get code42-alert-update",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "code42-user-create code42-user-block code42-user-deactivate",
+      "name": "code42-alert-resolve",
+      "required": ""
+    },
+    {
+      "description": "code42-user-reactivate code42-legalhold-add-user code42-legalhold-remove-user",
+      "name": "code42-user-unblock",
+      "required": ""
+    },
+    {
+      "description": "code42-download-file-by-xfc-id code42-watchlists-list code42-watchlists-add-user",
+      "name": "code42-download-file",
+      "required": ""
+    },
+    {
+      "description": "code42-watchlists-list-included-users code42-get-user-risk-profile code42-user-update-risk-profile",
+      "name": "code42-watchlists-remove-user",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "code42-file-events-table",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Code42",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/code42"
+}

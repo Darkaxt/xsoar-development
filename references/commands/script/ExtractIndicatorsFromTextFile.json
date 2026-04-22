@@ -1,0 +1,56 @@
+{
+  "aliases": [
+    "extract-indicators-from-text-file"
+  ],
+  "arguments": [],
+  "description": "ExtractIndicatorsFromTextFile | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ExtractIndicatorsFromTextFile",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Extracted domains Account.Email.Address Extracted emails",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "File.MD5 Extracted MD5 File.SHA1",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "File.SHA256 Extracted SHA256 IP.Address",
+      "name": "Extracted SHA1",
+      "required": ""
+    },
+    {
+      "description": "URL.Data Extracted URLs Edit this page",
+      "name": "Extracted IPs",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab ExtractIndicators-CloudLogging Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data Used In",
+      "name": "ExtractIndicatorsFromWordFile \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExtractIndicatorsFromTextFile",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/extract-indicators-from-text-file"
+}

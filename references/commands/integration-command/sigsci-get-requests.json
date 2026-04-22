@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The ID of the event to expire.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "sigsci-get-requests",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the request. SigSciences.Corp.Site.Request.ServerHostName The server hostname.",
+      "name": "SigSciences.Corp.Site.Request.ID",
+      "required": ""
+    },
+    {
+      "description": "The remote IP address. SigSciences.Corp.Site.Request.RemoteHostName The remote hostname.",
+      "name": "SigSciences.Corp.Site.Request.RemoteIP",
+      "required": ""
+    },
+    {
+      "description": "The remote country code. SigSciences.Corp.Site.Request.UserAgent The user agent of the request.",
+      "name": "SigSciences.Corp.Site.Request.RemoteCountryCode",
+      "required": ""
+    },
+    {
+      "description": "The timestamp (RFC3339 format). SigSciences.Corp.Site.Request.Method The HTTP method, for example, \u201cPUT\u201d.",
+      "name": "SigSciences.Corp.Site.Request.Timestamp",
+      "required": ""
+    },
+    {
+      "description": "The server name. SigSciences.Corp.Site.Request.Protocol The HTTP protocol, for example, \u201cHTTP/1.1\u201d .",
+      "name": "SigSciences.Corp.Site.Request.ServerName",
+      "required": ""
+    },
+    {
+      "description": "The path. SigSciences.Corp.Site.Request.URI The URI.",
+      "name": "SigSciences.Corp.Site.Request.Path",
+      "required": ""
+    },
+    {
+      "description": "The HTTP response code. SigSciences.Corp.Site.Request.ResponseSize The HTTP response size.",
+      "name": "SigSciences.Corp.Site.Request.ResponseCode",
+      "required": ""
+    },
+    {
+      "description": "The response time in millis. SigSciences.Corp.Site.Request.AgentResponseCode",
+      "name": "SigSciences.Corp.Site.Request.ResponseMillis",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

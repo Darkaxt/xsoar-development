@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!bastille-remove-device-tag transmitter_id=78:9f:70:7b:62:82 tag=test-tag\nContext Example\n#\n{}\nHuman Readable Output\n#",
+    "!bastille-remove-device-tag transmitter_id=78:9f:70:7b:62:82 tag=test-tag\nContext Example\n#\n{}\nHuman Readable Output\n#\nupdated\nEdit this page"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Bastille Networks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bastille-networks"
+}

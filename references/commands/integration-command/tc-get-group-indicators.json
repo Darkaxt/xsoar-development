@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The extension of the file.",
+  "examples": [
+    "Command Example\n!tc-download-document document_id=1234567\n36. Returns indicators associated with a group\nReturns indicators associated with a group.\nBase Command\ntc-get-group-indicators\nInput\nArgument Name",
+    "!tc-download-document document_id=1234567\n36. Returns indicators associated with a group\nReturns indicators associated with a group.\nBase Command\ntc-get-group-indicators\nInput\nArgument Name\nDescription",
+    "Command Example\n!tc-get-group-indicators group_id=4579650 group_type=events\nContext Example\n{\n\"TC.Group.Indicator\": [\n{\n\"Confidence\": null,\n\"DateAdded\": \"2019-01-03T16:08:07Z\",",
+    "!tc-get-group-indicators group_id=4579650 group_type=events\nContext Example\n{\n\"TC.Group.Indicator\": [\n{\n\"Confidence\": null,\n\"DateAdded\": \"2019-01-03T16:08:07Z\",\n\"GroupID\": 4579650,"
+  ],
+  "kind": "integration-command",
+  "name": "tc-get-group-indicators",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The summary of the indicator. TC.Group.Indicator.ThreatAssessConfidence The confidence rating of the indicator.",
+      "name": "TC.Group.Indicator.Summary",
+      "required": ""
+    },
+    {
+      "description": "The ID of the indicator. TC.Group.Indicator.DateAdded Date",
+      "name": "TC.Group.Indicator.IndicatorID",
+      "required": ""
+    },
+    {
+      "description": "TC.Group.Indicator.Type The type of the indicator. TC.Group.Indicator.Rating",
+      "name": "The date on which the indicator was added.",
+      "required": ""
+    },
+    {
+      "description": "The threat rating of the indicator. TC.Group.Indicator.ThreatAssertRating The rating of the threat assert.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The name of the owner of the indicator. TC.Group.Indicator.LastModified Date",
+      "name": "TC.Group.Indicator.OwnerName",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The date that the indicator was last modified.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

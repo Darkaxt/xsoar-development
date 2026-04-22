@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "List the products associated to a vendor or get a specific product of a vendor by specifying its name.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Vendors. Edit this page Report an Issue",
+      "name": "vendors",
+      "required": ""
+    },
+    {
+      "description": "\u00ab OpenCTI Feed 4.X Next OpenPhish v2 \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands opencve-latest cve",
+      "name": "Configure OpenCVE in Cortex",
+      "required": ""
+    },
+    {
+      "description": "opencve-get-my-products opencve-get-vendor-cves opencve-get-product-cves",
+      "name": "opencve-get-my-vendors",
+      "required": ""
+    },
+    {
+      "description": "opencve-get-alerts opencve-get-products opencve-get-vendors",
+      "name": "opencve-get-reports",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OpenCVE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/open-cve"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "msgraph-teams-generate-login-url",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Generate the login url used for Authorization code flow.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "msgraph-teams-generate-login-url",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next OctoxLabs \u00bb Configure O365 Teams (Using Graph API) in Cortex",
+      "name": "\u00ab O365 Outlook Mail (Using Graph API)",
+      "required": ""
+    },
+    {
+      "description": "msgraph-teams-list-chats msgraph-teams-create-chat msgraph-teams-get-chat",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "msgraph-teams-list-members msgraph-teams-add-member msgraph-teams-list-messages",
+      "name": "msgraph-teams-update-chat",
+      "required": ""
+    },
+    {
+      "description": "msgraph-teams-test msgraph-teams-auth-reset msgraph-teams-generate-login-url",
+      "name": "msgraph-teams-send-message",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "O365 Teams (Using Graph API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-teams"
+}

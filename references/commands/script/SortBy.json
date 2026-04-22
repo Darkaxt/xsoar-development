@@ -1,0 +1,416 @@
+{
+  "aliases": [
+    "sort-by"
+  ],
+  "arguments": [],
+  "description": "SortBy | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SortBy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Examples-1",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Name Country Score",
+      "name": "Here is a table for the sorting samples in the Examples-1.",
+      "required": ""
+    },
+    {
+      "description": "US 30 Kate",
+      "name": "Alex",
+      "required": ""
+    },
+    {
+      "description": "50 Chris US",
+      "name": "US",
+      "required": ""
+    },
+    {
+      "description": "Janet Australia 50",
+      "name": "20",
+      "required": ""
+    },
+    {
+      "description": "Australia 40 Dora",
+      "name": "Steve",
+      "required": ""
+    },
+    {
+      "description": "The JSON data is below to be given to the value argument parameter of the transformer for the samples.",
+      "name": "Australia",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"Alex\", \"Country\": \"US\",",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "}, { \"Name\": \"Kate\",",
+      "name": "\"Score\": 30",
+      "required": ""
+    },
+    {
+      "description": "\"Score\": 50 }, {",
+      "name": "\"Country\": \"US\",",
+      "required": ""
+    },
+    {
+      "description": "\"Country\": \"US\", \"Score\": 20 },",
+      "name": "\"Name\": \"Chris\",",
+      "required": ""
+    },
+    {
+      "description": "\"Name\": \"Janet\", \"Country\": \"Australia\", \"Score\": 50",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"Dora\", \"Country\": \"Australia\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] Sort by Country",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "keys: Country descending_keys: Output",
+      "name": "in ascending order.",
+      "required": ""
+    },
+    {
+      "description": "Country is not guaranteed. Name",
+      "name": "It will give you the result like this. But the order except for the",
+      "required": ""
+    },
+    {
+      "description": "Score Janet Australia",
+      "name": "Country",
+      "required": ""
+    },
+    {
+      "description": "Dora Australia Alex",
+      "name": "50",
+      "required": ""
+    },
+    {
+      "description": "30 Kate US",
+      "name": "US",
+      "required": ""
+    },
+    {
+      "description": "Chris US 20",
+      "name": "50",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"Janet\", \"Country\": \"Australia\",",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "}, { \"Name\": \"Dora\",",
+      "name": "\"Score\": 50",
+      "required": ""
+    },
+    {
+      "description": "}, { \"Name\": \"Alex\",",
+      "name": "\"Country\": \"Australia\"",
+      "required": ""
+    },
+    {
+      "description": "\"Score\": 30 }, {",
+      "name": "\"Country\": \"US\",",
+      "required": ""
+    },
+    {
+      "description": "\"Country\": \"US\", \"Score\": 50 },",
+      "name": "\"Name\": \"Kate\",",
+      "required": ""
+    },
+    {
+      "description": "\"Name\": \"Chris\", \"Country\": \"US\", \"Score\": 20",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "] Sort by Country",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Score in ascending order with keeping the order by Country",
+      "name": "in ascending order, and sort by",
+      "required": ""
+    },
+    {
+      "description": "keys: Country, Score descending_keys: Output",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "Country and Score",
+      "name": "It will give you the result like this. But the order except for the",
+      "required": ""
+    },
+    {
+      "description": "Name Country Score",
+      "name": "is not guaranteed.",
+      "required": ""
+    },
+    {
+      "description": "Australia Janet Australia",
+      "name": "Dora",
+      "required": ""
+    },
+    {
+      "description": "Chris US 20",
+      "name": "50",
+      "required": ""
+    },
+    {
+      "description": "US 30 Kate",
+      "name": "Alex",
+      "required": ""
+    },
+    {
+      "description": "50 [ {",
+      "name": "US",
+      "required": ""
+    },
+    {
+      "description": "\"Country\": \"Australia\" }, {",
+      "name": "\"Name\": \"Dora\",",
+      "required": ""
+    },
+    {
+      "description": "\"Country\": \"Australia\", \"Score\": 50 },",
+      "name": "\"Name\": \"Janet\",",
+      "required": ""
+    },
+    {
+      "description": "\"Name\": \"Chris\", \"Country\": \"US\", \"Score\": 20",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"Alex\", \"Country\": \"US\",",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "}, { \"Name\": \"Kate\",",
+      "name": "\"Score\": 30",
+      "required": ""
+    },
+    {
+      "description": "\"Score\": 50 } ]",
+      "name": "\"Country\": \"US\",",
+      "required": ""
+    },
+    {
+      "description": "Country in ascending order, and sort by Score",
+      "name": "Sort by",
+      "required": ""
+    },
+    {
+      "description": "Country . keys: Country, Score",
+      "name": "in descending order with keeping the order by",
+      "required": ""
+    },
+    {
+      "description": "Output",
+      "name": "descending_keys: Score",
+      "required": ""
+    },
+    {
+      "description": "Country and Score",
+      "name": "It will give you the result like this. But the order except for the",
+      "required": ""
+    },
+    {
+      "description": "Name Country Score",
+      "name": "is not guaranteed.",
+      "required": ""
+    },
+    {
+      "description": "Australia 50 Dora",
+      "name": "Janet",
+      "required": ""
+    },
+    {
+      "description": "Kate US 50",
+      "name": "Australia",
+      "required": ""
+    },
+    {
+      "description": "US 30 Chris",
+      "name": "Alex",
+      "required": ""
+    },
+    {
+      "description": "20 [ {",
+      "name": "US",
+      "required": ""
+    },
+    {
+      "description": "\"Country\": \"Australia\", \"Score\": 50 },",
+      "name": "\"Name\": \"Janet\",",
+      "required": ""
+    },
+    {
+      "description": "\"Name\": \"Dora\", \"Country\": \"Australia\" },",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Name\": \"Kate\", \"Country\": \"US\", \"Score\": 50",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"Alex\", \"Country\": \"US\",",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "} { \"Name\": \"Chris\",",
+      "name": "\"Score\": 30",
+      "required": ""
+    },
+    {
+      "description": "\"Score\": 20 } ]",
+      "name": "\"Country\": \"US\",",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Examples-2",
+      "required": ""
+    },
+    {
+      "description": "It will be given to the value argument parameter of the transformer for the samples.",
+      "name": "Here is an array for the sorting samples in the Examples-2.",
+      "required": ""
+    },
+    {
+      "description": "{ \"key\": \"value1\" },",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "0.5, 0, 1,",
+      "name": "2,",
+      "required": ""
+    },
+    {
+      "description": "\"aaa\", \"ZZZ\" ]",
+      "name": "null,",
+      "required": ""
+    },
+    {
+      "description": "keys: descending_keys: Output",
+      "name": "Sort in ascending order.",
+      "required": ""
+    },
+    {
+      "description": "null, 0, 0.5,",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "2, \"ZZZ\", \"aaa\",",
+      "name": "1,",
+      "required": ""
+    },
+    {
+      "description": "\"key\": \"value1\" } ]",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "keys: descending_keys: * Output",
+      "name": "Sort in descending order.",
+      "required": ""
+    },
+    {
+      "description": "{ \"key\": \"value1\" },",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "\"ZZZ\", 2, 1,",
+      "name": "\"aaa\",",
+      "required": ""
+    },
+    {
+      "description": "0, null ]",
+      "name": "0.5,",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab SnmpDetection",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "SplitCampaignContext \u00bb Script Data",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Country is not guaranteed. Name",
+      "name": "It will give you the result like this. But the order except for the",
+      "required": ""
+    },
+    {
+      "description": "Score Janet Australia",
+      "name": "Country",
+      "required": ""
+    },
+    {
+      "description": "Dora Australia Alex",
+      "name": "50",
+      "required": ""
+    },
+    {
+      "description": "30 Kate US",
+      "name": "US",
+      "required": ""
+    },
+    {
+      "description": "Chris US 20",
+      "name": "50",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"Janet\", \"Country\": \"Australia\",",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "}, { \"Name\": \"Dora\",",
+      "name": "\"Score\": 50",
+      "required": ""
+    },
+    {
+      "description": "}, { \"Name\": \"Alex\",",
+      "name": "\"Country\": \"Australia\"",
+      "required": ""
+    },
+    {
+      "description": "\"Score\": 30 }, {",
+      "name": "\"Country\": \"US\",",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SortBy",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/sort-by"
+}

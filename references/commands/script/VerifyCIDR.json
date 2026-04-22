@@ -1,0 +1,49 @@
+{
+  "aliases": [
+    "verify-cidr"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "A comma-separated list of CIDR inputs.",
+      "required": ""
+    }
+  ],
+  "description": "VerifyCIDR | Cortex XSOAR",
+  "examples": [
+    "!VerifyCIDR input=190.0.0.0/1,200.200.200.200/29,300.0.0.0\nContext Example\n#\n{\n}\nHuman Readable Output\n#\n200.200.200.200/29"
+  ],
+  "kind": "script",
+  "name": "VerifyCIDR",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!VerifyCIDR input=190.0.0.0/1,200.200.200.200/29,300.0.0.0",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VerifyCIDR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/verify-cidr"
+}

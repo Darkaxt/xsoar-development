@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "support@demistohelp.freshdesk.com",
+  "examples": [
+    "Command Example\n!fd-get-ticket-conversations ticket_id=108\nContext Example\n{\n\"Freshdesk.Ticket\": {\n\"Conversation\": [\n{\n\"Category\": 3,",
+    "!fd-get-ticket-conversations ticket_id=108\nContext Example\n{\n\"Freshdesk.Ticket\": {\n\"Conversation\": [\n{\n\"Category\": 3,\n\"BodyText\": \"Demonstrating the Ticket Reply Command\","
+  ],
+  "kind": "integration-command",
+  "name": "fd-get-ticket-conversations",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Content of the conversation (in HTML format) Freshdesk.Ticket.Conversation.BodyText Content of the conversation (in plain text format)",
+      "name": "Freshdesk.Ticket.Conversation.BodyHTML",
+      "required": ""
+    },
+    {
+      "description": "ID of the conversation Freshdesk.Ticket.Conversation.Incoming Set to true when a particular conversation should appear as being created outside of the web portal",
+      "name": "Freshdesk.Ticket.Conversation.ID",
+      "required": ""
+    },
+    {
+      "description": "Array of email addresses of agents/users who need to be notified about this conversation Freshdesk.Ticket.Conversation.Private Set to true if the note is private",
+      "name": "Freshdesk.Ticket.Conversation.ToEmail",
+      "required": ""
+    },
+    {
+      "description": "Denotes the type of conversation Freshdesk.Ticket.Conversation.SupportEmail Email address from which the reply is sent. For notes",
+      "name": "Freshdesk.Ticket.Conversation.Source",
+      "required": ""
+    },
+    {
+      "description": "ID of the ticket that the conversation was added to Freshdesk.Ticket.Conversation.UserID ID of the agent/user who added the conversation",
+      "name": "Freshdesk.Ticket.Conversation.TicketID",
+      "required": ""
+    },
+    {
+      "description": "Date Conversation creation timestamp Freshdesk.Ticket.Conversation.UpdatedAt",
+      "name": "Freshdesk.Ticket.Conversation.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Conversation updated timestamp Freshdesk.Ticket.Conversation.FromEmail The email address that the reply was sent from. By default",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "URL of the file attached to the ticket Freshdesk.Ticket.Conversation.Attachment.Name The name of the file attached to the ticket",
+      "name": "Freshdesk.Ticket.Conversation.Attachment.AttachmentURL",
+      "required": ""
+    },
+    {
+      "description": "Content type of the file attached to the ticket Freshdesk.Ticket.Conversation.Attachment.ID ID number of the file attached to the ticket",
+      "name": "Freshdesk.Ticket.Conversation.Attachment.ContentType",
+      "required": ""
+    },
+    {
+      "description": "Size of the file attached to the ticket",
+      "name": "Freshdesk.Ticket.Conversation.Attachment.Size",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Freshdesk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/freshdesk"
+}

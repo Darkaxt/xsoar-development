@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "{'event_id': '12011938471583', 'ingest_timestamp': '2021-08-26T12:53:47.193847Z', 'status': 'OK', 'confidence_score': 0.9999464750289917, 'result': 'escalate_alert', 'result_label': 'Escalate', 'outlier': False, 'error_message': None}",
+  "examples": [
+    "Command Example\n#\n!arcanna-send-event-feedback job_id=\"1201\" event_id=\"12011938471583\" feedback=\"Escalate with Priority\" username=\"dbot\"\nContext Example\n#\n{\n\"Arcanna\"\n:",
+    "!arcanna-send-event-feedback job_id=\"1201\" event_id=\"12011938471583\" feedback=\"Escalate with Priority\" username=\"dbot\"\nContext Example\n#\n{\n\"Arcanna\"\n:\n{\n\"Event\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "An Arcanna feedback status response.",
+      "name": "Arcanna.Event.feedback_status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Arcanna.AI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/arcannaai"
+}

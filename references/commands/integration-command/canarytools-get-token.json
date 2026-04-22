@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!canarytools-get-token token=wpdkr30rx9naixdsijxdbd5ab\nContext Example\n{\n\"CanaryTools\":{\n\"Tokens\":\"wpdkr30rx9naixdsijxwbd5ab\"\n},\n\"File\":{",
+    "!canarytools-get-token token=wpdkr30rx9naixdsijxdbd5ab\nContext Example\n{\n\"CanaryTools\":{\n\"Tokens\":\"wpdkr30rx9naixdsijxwbd5ab\"\n},\n\"File\":{\n\"Info\":\"image/jpeg\","
+  ],
+  "kind": "integration-command",
+  "name": "canarytools-get-token",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Canary Token File.Size File Size",
+      "name": "CanaryTools.Tokens.CanaryToken",
+      "required": ""
+    },
+    {
+      "description": "File SHA-1 File.SHA256 File SHA-256",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "File name File.SSDeep File SSDeep",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "File EntryID File.Info File info",
+      "name": "File.EntryID",
+      "required": ""
+    },
+    {
+      "description": "File type File.MD5 File MD5",
+      "name": "File.Type",
+      "required": ""
+    },
+    {
+      "description": "File extension",
+      "name": "File.Extension",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Thinkst Canary",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/thinkst-canary"
+}

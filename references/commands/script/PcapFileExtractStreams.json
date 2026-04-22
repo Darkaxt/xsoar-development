@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "pcap-file-extract-streams"
+  ],
+  "arguments": [],
+  "description": "PcapFileExtractStreams | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PcapFileExtractStreams",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The entry ID of the pcap file parsed. PCAPStream.protocol Protocol.",
+      "name": "PCAPStream.entry_id",
+      "required": ""
+    },
+    {
+      "description": "PCAPStream.client_ip Client IP address. PCAPStream.client_port",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "PCAPStream.server_ip Server IP address. PCAPStream.server_poprt",
+      "name": "Client port number.",
+      "required": ""
+    },
+    {
+      "description": "PCAPStream.stream_text The data stream in text. PCAPStream.stream_base64",
+      "name": "Server port nream data in bytes.",
+      "required": ""
+    },
+    {
+      "description": "PCAPStream.outgoing_size Size of the outgoing data in bytes. PCAPStream.outgoing_text",
+      "name": "The data stream in base64.",
+      "required": ""
+    },
+    {
+      "description": "PCAPStream.outgoing_base64 The outgoing data stream in base64. PCAPStream.incoming_size",
+      "name": "The outgoing data stream in text.",
+      "required": ""
+    },
+    {
+      "description": "PCAPStream.incoming_text The incoming data stream in text. PCAPStream.incoming_base64",
+      "name": "Size of the incoming data in bytes.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The incoming data stream in base64.",
+      "required": ""
+    },
+    {
+      "description": "Next PcapHTTPExtractor \u00bb Script Data",
+      "name": "\u00ab PcapFileExtractor",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PcapFileExtractStreams",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/pcap-file-extract-streams"
+}

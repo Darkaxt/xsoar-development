@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!aws-security-lake-data-sources-list",
+  "examples": [
+    "!aws-security-lake-data-sources-list\naws-security-lake-data-lakes-list\n#\nRetrieves the Amazon Security Lake configuration object for the specified Amazon Web Services Regions.\nIn order to run this command the user must have 'securitylake' permissions.\nBase Command\n#\naws-security-lake-data-lakes-list",
+    "Command Example\n#\n!aws-security-lake-data-lakes-list\nEdit this page\nReport an Issue\nPrevious\n\u00ab Amazon DynamoDB\nNext",
+    "!aws-security-lake-data-lakes-list\nEdit this page\nReport an Issue\nPrevious\n\u00ab Amazon DynamoDB\nNext\nAmazon Web Services \u00bb\nConfigure Amazon Security Lake in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Retrieves the status of the configuration operation for an account in Amazon Security Lake. AWS.SecurityLake.dataLakeArn The Amazon Resource Name (ARN) created by you to provide to the subscriber.",
+      "name": "AWS.SecurityLake.createStatus",
+      "required": ""
+    },
+    {
+      "description": "The ID of the KMS encryption key used by Amazon Security Lake to encrypt the Security Lake object. AWS.SecurityLake.lifecycleConfiguration.expiration.days Number of days before data expires in the Amazon Security Lake object.",
+      "name": "AWS.SecurityLake.encryptionConfiguration.kmsKeyId",
+      "required": ""
+    },
+    {
+      "description": "Number of days before data transitions to a different S3 Storage Class in the Amazon Security Lake object. AWS.SecurityLake.lifecycleConfiguration.transitions.storageClass The range of storage classes that you can choose from based on the data access, resiliency, and cost requirements of your workloads.",
+      "name": "AWS.SecurityLake.lifecycleConfiguration.transitions.days",
+      "required": ""
+    },
+    {
+      "description": "The Amazon Web Services regions where Security Lake is enabled. AWS.SecurityLake.replicationConfiguration.regions Replication enables automatic, asynchronous copying of objects across Amazon S3 buckets.",
+      "name": "AWS.SecurityLake.region",
+      "required": ""
+    },
+    {
+      "description": "Replication settings for the Amazon S3 buckets. This parameter uses the Identity and Access Management (IAM) role you created that is managed by Security Lake, to ensure the replication setting is correct. AWS.SecurityLake.s3BucketArn The ARN for the Amazon Security Lake Amazon S3 bucket.",
+      "name": "AWS.SecurityLake.replicationConfiguration.roleArn",
+      "required": ""
+    },
+    {
+      "description": "The reason code for the exception of the last UpdateDataLake or DeleteDataLake API request. AWS.SecurityLake.updateStatus.exception.reason The reason for the exception of the last UpdateDataLake or DeleteDataLake API request.",
+      "name": "AWS.SecurityLake.updateStatus.exception.code",
+      "required": ""
+    },
+    {
+      "description": "The unique ID for the last UpdateDataLake or DeleteDataLake API request. AWS.SecurityLake.updateStatus.status The status of the last UpdateDataLake or DeleteDataLake API request that was requested.",
+      "name": "AWS.SecurityLake.updateStatus.requestId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Amazon Security Lake",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws-security-lake"
+}

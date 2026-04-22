@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!threat-grid-user-get-rate-limit login=\"user_name\"\nContext Example\n{\n\"ThreatGrid\": {\n\"User\": {\n\"RateLimit\": [\n{",
+    "!threat-grid-user-get-rate-limit login=\"user_name\"\nContext Example\n{\n\"ThreatGrid\": {\n\"User\": {\n\"RateLimit\": [\n{\n\"SubmissionWaitSeconds\": 0,"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-user-get-rate-limit",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Array of array(s) representing submission(s) per minute(s) or the string\"nil\" to clear the value. Example: [[5, 1440]] which represents 5 samples per day. This field represent the minutes. ThreatGrid.User.RateLimit.Samples Array of array(s) representing submission(s) per minute(s) or the string\"nil\" to clear the value. Example: [[5, 1440]] which represents 5 samples per day. This field represent the number of samples allowed.",
+      "name": "ThreatGrid.User.RateLimit.Minutes",
+      "required": ""
+    },
+    {
+      "description": "The number of seconds to wait for a submission to get uploaded on the platform. ThreatGrid.User.RateLimit.SubmissionsAvailable The number of submissions available for the specified username",
+      "name": "ThreatGrid.User.RateLimit.SubmissionWaitSeconds",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

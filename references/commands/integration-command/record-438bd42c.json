@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "drift-post-contact",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Post New Contact using a new contact Email",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "drift-post-contact",
+      "required": ""
+    },
+    {
+      "description": "ID of the created contact Drift.Contacts.createdAt Created at timestamp (Epoch Unix Timestamp)",
+      "name": "Drift.Contacts.id",
+      "required": ""
+    },
+    {
+      "description": "Attributes of the contact (JSON dict). Edit this page Report an Issue",
+      "name": "Drift.Contacts.Attributes",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Dragos Worldview Next Dropbox Event Collector \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands drift-get-contact drift-update-contact",
+      "name": "Configure Drift in Cortex",
+      "required": ""
+    },
+    {
+      "description": "drift-post-contact Docs Developer Docs",
+      "name": "drift-delete-contact",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Drift",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/drift"
+}

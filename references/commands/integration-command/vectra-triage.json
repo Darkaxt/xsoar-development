@@ -1,0 +1,63 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "demist.com/api/v2/hosts/11",
+  "examples": [
+    "Command Example\n!vectra-triage",
+    "!vectra-triage"
+  ],
+  "kind": "integration-command",
+  "name": "vectra-triage",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The record id Vectra.Rule.SmartCategory Custom Triage label used to recategorize specified detections",
+      "name": "Vectra.Rule.ID",
+      "required": ""
+    },
+    {
+      "description": "Name of Triage filter Vectra.Rule.Type Original detection type",
+      "name": "Vectra.Rule.Description",
+      "required": ""
+    },
+    {
+      "description": "Original detection category Vectra.Rule.Created The timestamp when this Triage filter was created",
+      "name": "Vectra.Rule.Category",
+      "required": ""
+    },
+    {
+      "description": "The timestamp when this Triage filter was triggered Vectra.Rule.Host.ID Host(s) that this Triage filter applies to",
+      "name": "Vectra.Rule.LastUpdate",
+      "required": ""
+    },
+    {
+      "description": "Host IP Vectra.Rule.Priority Used in ordering execution of Triage filters",
+      "name": "Vectra.Rule.IP",
+      "required": ""
+    },
+    {
+      "description": "Destination IP where this Triage filter will be applied to Vectra.Rule.Remote.Protocol Destination protocol where this Triage filter will be applied to",
+      "name": "Vectra.Rule.Remote.IP",
+      "required": ""
+    },
+    {
+      "description": "Destination port where this Triage filter will be applied to Vectra.Rule.Remote.DNS Destination FQDN where this Triage filter will apply to",
+      "name": "Vectra.Rule.Remote.Port",
+      "required": ""
+    },
+    {
+      "description": "Kerberos Account Vectra.Rule.Remote.Kerberos.Service Kerberos Service",
+      "name": "Vectra.Rule.Remote.Kerberos.Account",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Vectra v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vectra-v2"
+}

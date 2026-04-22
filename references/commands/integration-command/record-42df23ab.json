@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!penfield-get-assignee analyst_ids=['analystid1', 'analystid2'] category='my cat' created='2021-09-13T01:58:22.621033322Z' id=34 name='big rootkit attack' severity='High'\nHuman Readable Output\n#\npeter\nEdit this page\nReport an Issue",
+    "!penfield-get-assignee analyst_ids=['analystid1', 'analystid2'] category='my cat' created='2021-09-13T01:58:22.621033322Z' id=34 name='big rootkit attack' severity='High'\nHuman Readable Output\n#\npeter\nEdit this page\nReport an Issue\nPrevious\n\u00ab PAT HelpdeskAdvanced"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Description Penfield.Recommended The analyst Penfield recommends assigning this incident too.",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Penfield",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/penfield"
+}

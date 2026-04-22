@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The decrypted message is",
+  "examples": [
+    "!smime-sign-and-encrypt message=\"This is a message to sign\" encrypted=false\nContext Example\n#\n{\n\"SMIME\"\n:\n{\n\"SignedAndEncrypted\"",
+    "!smime-sign-and-encrypt message=\"This is a message to encrypt\" signed=false\nContext Example\n#\n{\n\"SMIME\"\n:\n{\n\"SignedAndEncrypted\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The raw message to send. SMIME.SignedAndEncrypted.RecipientIds Address of the recipient.",
+      "name": "SMIME.SignedAndEncrypted.Message",
+      "required": ""
+    },
+    {
+      "description": "Name of the file output if create_file_p7 is used.",
+      "name": "SMIME.SignedAndEncrypted.FileName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SMIME Messaging",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/smime-messaging"
+}

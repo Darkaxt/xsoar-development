@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!misp-add-sighting type=sighting uuid=23513ce2-2060-4bc8-9b44-6bd735e4f740",
+  "examples": [
+    "Command Example\n!misp-add-sighting type=sighting uuid=23513ce2-2060-4bc8-9b44-6bd735e4f740\nHuman Readable Output\nSighting 'sighting' has been successfully added to attribute 23513ce2-2060-4bc8-9b44-6bd735e4f740\n13. Add an OSINT feed\nAdds an OSINT feed.\nBase Command\nmisp-add-events-from-feed",
+    "!misp-add-sighting type=sighting uuid=23513ce2-2060-4bc8-9b44-6bd735e4f740\nHuman Readable Output\nSighting 'sighting' has been successfully added to attribute 23513ce2-2060-4bc8-9b44-6bd735e4f740\n13. Add an OSINT feed\nAdds an OSINT feed.\nBase Command\nmisp-add-events-from-feed\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "misp-add-events-from-feed",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IDs of newly created events.",
+      "name": "MISP.Event.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MISP v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/misp-v2"
+}

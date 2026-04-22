@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "atlassian-cloud-mcp-generate-login-url",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Generate an authentication login URL.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "atlassian-cloud-mcp-generate-login-url",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Atlassian Confluence Cloud \u00bb Configure Atlassian Cloud MCP in Cortex",
+      "name": "\u00ab Ataya Harmony",
+      "required": ""
+    },
+    {
+      "description": "atlassian-cloud-mcp-auth-test atlassian-cloud-mcp-generate-login-url Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Atlassian Cloud MCP",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/atlassian-cloud-mcp"
+}

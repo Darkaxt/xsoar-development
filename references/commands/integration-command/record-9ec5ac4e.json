@@ -1,0 +1,90 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "azure-sentinel-auth-reset",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Microsoft Teams \u00bb Authorize Cortex XSOAR for Azure Sentinel",
+      "name": "\u00ab Microsoft Policy And Compliance (Audit Log)",
+      "required": ""
+    },
+    {
+      "description": "Get the additional instance parameters Configure Azure Sentinel on Cortex XSOAR Incident Mirroring",
+      "name": "Configure the server URL",
+      "required": ""
+    },
+    {
+      "description": "azure-sentinel-get-incident-by-id azure-sentinel-list-incidents azure-sentinel-list-watchlists",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "azure-sentinel-watchlist-create-update azure-sentinel-update-incident azure-sentinel-create-incident",
+      "name": "azure-sentinel-delete-watchlist",
+      "required": ""
+    },
+    {
+      "description": "azure-sentinel-list-incident-comments azure-sentinel-incident-add-comment azure-sentinel-incident-delete-comment",
+      "name": "azure-sentinel-delete-incident",
+      "required": ""
+    },
+    {
+      "description": "azure-sentinel-list-incident-entities azure-sentinel-list-incident-alerts azure-sentinel-list-watchlist-items",
+      "name": "azure-sentinel-list-incident-relations",
+      "required": ""
+    },
+    {
+      "description": "azure-sentinel-create-update-watchlist-item azure-sentinel-threat-indicator-list Threat Indicators (2 results)",
+      "name": "azure-sentinel-delete-watchlist-item",
+      "required": ""
+    },
+    {
+      "description": "Threat Indicators (2 results) azure-sentinel-threat-indicator-create New threat Indicator was created",
+      "name": "azure-sentinel-threat-indicator-query",
+      "required": ""
+    },
+    {
+      "description": "Threat Indicator a31f2257-1af5-5eb9-bc82-acb8cc10becd was updated azure-sentinel-threat-indicator-delete azure-sentinel-threat-indicator-tags-append",
+      "name": "azure-sentinel-threat-indicator-update",
+      "required": ""
+    },
+    {
+      "description": "azure-sentinel-list-alert-rule azure-sentinel-list-alert-rule-template azure-sentinel-delete-alert-rule",
+      "name": "azure-sentinel-threat-indicator-tags-replace",
+      "required": ""
+    },
+    {
+      "description": "azure-sentinel-subscriptions-list azure-sentinel-resource-group-list azure-sentinel-auth-reset",
+      "name": "azure-sentinel-update-alert-rule",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Sentinel",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-sentinel"
+}

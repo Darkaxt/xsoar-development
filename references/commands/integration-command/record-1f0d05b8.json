@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook. After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [
+    "Command Example\n#\n!unshorten-me-unshorten-url shortUrl=\"https://bit.ly/3DKWm5t\"\nHuman Readable Output\n#\nunshorten.me\nresults\n#",
+    "!unshorten-me-unshorten-url shortUrl=\"https://bit.ly/3DKWm5t\"\nHuman Readable Output\n#\nunshorten.me\nresults\n#\nUnshortened URL:\nhttps://www.youtube.com/"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The full, original destination URL. unshortenMe.shortened_url The shortened URL that was provided as input.",
+      "name": "unshortenMe.unshortened_url",
+      "required": ""
+    },
+    {
+      "description": "True if the operation was successful, otherwise False",
+      "name": "unshortenMe.success",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": ".",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "unshortenMe",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/unshorten-me"
+}

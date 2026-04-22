@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Result vendor URL (human-readable).",
+  "examples": [
+    "Command Example\n!vulndb-get-vendor max_size=\"20\"\nHuman Readable Output\n3. Get a list of product versions\nReturns a list of versions by product name or ID.\nBase Command\nvulndb-get-product\nInput",
+    "!vulndb-get-vendor max_size=\"20\"\nHuman Readable Output\n3. Get a list of product versions\nReturns a list of versions by product name or ID.\nBase Command\nvulndb-get-product\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "vulndb-get-product",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Result ID. VulnDB.Results.Name",
+      "name": "VulnDB.Results.Id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VulnDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vuln-db"
+}

@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Import Session ID for the clone request.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Ansible ACME \u00bb Configure Anomali ThreatStream v3 in Cortex",
+      "name": "\u00ab Anomali ThreatStream v2 (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "Commands ip domain",
+      "name": "Configure Indicator Threshold Parameters",
+      "required": ""
+    },
+    {
+      "description": "threatstream-email-reputation threatstream-get-passive-dns threatstream-import-indicator-with-approval",
+      "name": "file",
+      "required": ""
+    },
+    {
+      "description": "threatstream-get-model-list threatstream-get-model-description threatstream-get-indicators-by-model",
+      "name": "threatstream-import-indicator-without-approval",
+      "required": ""
+    },
+    {
+      "description": "threatstream-get-analysis-status threatstream-analysis-report threatstream-get-indicators",
+      "name": "threatstream-submit-to-sandbox",
+      "required": ""
+    },
+    {
+      "description": "threatstream-create-model threatstream-update-model threatstream-supported-platforms",
+      "name": "threatstream-add-tag-to-model",
+      "required": ""
+    },
+    {
+      "description": "Additional Considerations for this version threatstream-search-intelligence threatstream-list-rule",
+      "name": "url",
+      "required": ""
+    },
+    {
+      "description": "threatstream-delete-rule threatstream-list-investigation threatstream-create-investigation",
+      "name": "threatstream-create-rule",
+      "required": ""
+    },
+    {
+      "description": "threatstream-create-whitelist-entry threatstream-approve-import-job threatstream-add-threat-model-association",
+      "name": "threatstream-update-investigation",
+      "required": ""
+    },
+    {
+      "description": "threatstream-remove-indicator-tag threatstream-clone-imported-indicator Docs",
+      "name": "threatstream-add-indicator-tag",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Anomali ThreatStream v3",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/anomali-threat-stream-v3"
+}

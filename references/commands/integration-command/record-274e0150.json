@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!azure-storage-container-sas-create account_key=\"TestAccountKey\" expiry_time=\"1\" signed_resources=\"test signed_permissions=\"test signed_ip=\"127.0.0.1\"",
+  "examples": [
+    "Command Example\n#\n!azure-storage-container-sas-create account_key=\"TestAccountKey\" expiry_time=\"1\" signed_resources=\"test signed_permissions=\"test signed_ip=\"127.0.0.1\"\nazure-storage-container-block-public-access\n#\nBlock public access to a container..\nBase Command\n#",
+    "!azure-storage-container-sas-create account_key=\"TestAccountKey\" expiry_time=\"1\" signed_resources=\"test signed_permissions=\"test signed_ip=\"127.0.0.1\"\nazure-storage-container-block-public-access\n#\nBlock public access to a container..\nBase Command\n#\nazure-storage-container-block-public-access\nInput",
+    "Command Example\n#\n!azure-storage-container-block-public-access container_name=\"xsoar\"\nHuman Readable Output\n#\nxsoar.txt Public access to container '{container_name}' has been successfully blocked.\nEdit this page\nReport an Issue",
+    "!azure-storage-container-block-public-access container_name=\"xsoar\"\nHuman Readable Output\n#\nxsoar.txt Public access to container '{container_name}' has been successfully blocked.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Azure SQL Management"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Storage Container",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-storage-container"
+}

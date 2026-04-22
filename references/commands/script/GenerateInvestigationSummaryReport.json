@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "generate-investigation-summary-report"
+  ],
+  "arguments": [],
+  "description": "GenerateInvestigationSummaryReport | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GenerateInvestigationSummaryReport",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The report's file name Report.FileID The file's ID of the report.",
+      "name": "Report.Name",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Next GeneratePANWIoTDeviceTableQueryForServiceNow \u00bb Script Data",
+      "name": "\u00ab GenerateCSR",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GenerateInvestigationSummaryReport",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/generate-investigation-summary-report"
+}

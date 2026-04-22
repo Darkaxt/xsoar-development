@@ -1,0 +1,129 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "GetGroup.errorMessage",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alternative ID of the actor. Okta.Logs.Events.actor.displayName Display name of the actor.",
+      "name": "Okta.Logs.Events.actor.alternateId",
+      "required": ""
+    },
+    {
+      "description": "ID of the actor. Okta.Logs.Events.client.userAgent.rawUserAgent A raw string representation of user agent, formatted according to section 5.5.3 of HTTP/1.1 Semantics and Content. Both the browser and the OS fields can be derived from this field.",
+      "name": "Okta.Logs.Events.actor.id",
+      "required": ""
+    },
+    {
+      "description": "The operating system on which the client runs. For example, Microsoft Windows 10. Okta.Logs.Events.client.userAgent.browser Identifies the type of web browser, if relevant. For example, Chrome.",
+      "name": "Okta.Logs.Events.client.userAgent.os",
+      "required": ""
+    },
+    {
+      "description": "Type of device from which the client operated. For example, Computer. Okta.Logs.Events.client.id For OAuth requests, the ID of the OAuth client making the request. For SSWS token requests, the ID of the agent making the request.",
+      "name": "Okta.Logs.Events.client.device",
+      "required": ""
+    },
+    {
+      "description": "IP address from which the client made its request. Okta.Logs.Events.client.geographicalContext.city The city encompassing the area containing the geo-location coordinates, if available. For example, Seattle, San Francisco.",
+      "name": "Okta.Logs.Events.client.ipAddress",
+      "required": ""
+    },
+    {
+      "description": "Full name of the state or province encompassing the area containing the geo-location coordinates. For example, Montana, Incheon. Okta.Logs.Events.client.geographicalContext.country Full name of the country encompassing the area containing the geo-location coordinates. For example, France, Uganda.",
+      "name": "Okta.Logs.Events.client.geographicalContext.state",
+      "required": ""
+    },
+    {
+      "description": "The display message for an event. Okta.Logs.Events.eventType Type of event that was published.",
+      "name": "Okta.Logs.Events.displayMessage",
+      "required": ""
+    },
+    {
+      "description": "Result of the action. Can be \"SUCCESS\", \"FAILURE\", \"SKIPPED\", or \"UNKNOWN\". Okta.Logs.Events.outcome.reason Reason for the result. For example, INVALID_CREDENTIALS.",
+      "name": "Okta.Logs.Events.outcome.result",
+      "required": ""
+    },
+    {
+      "description": "Timestamp when the event was published. Okta.Logs.Events.severity The event severity. Can be \"DEBUG\", \"INFO\", \"WARN\", or \"ERROR\".",
+      "name": "Okta.Logs.Events.published",
+      "required": ""
+    },
+    {
+      "description": "Autonomous system number associated with the autonomous system that the event request was sourced to. Okta.Logs.Events.securityContext.asOrg Organization associated with the autonomous system that the event request was sourced to.",
+      "name": "Okta.Logs.Events.securityContext.asNumber",
+      "required": ""
+    },
+    {
+      "description": "Internet service provider used to send the event's request. Okta.Logs.Events.securityContext.domain Specifies whether an event's request is from a known proxy.",
+      "name": "Okta.Logs.Events.securityContext.isp",
+      "required": ""
+    },
+    {
+      "description": "IP address. Okta.Logs.Events.request.ipChain.geographicalContext.city The city encompassing the area containing the geo-location coordinates, if available. For example, Seattle, San Francisco.",
+      "name": "Okta.Logs.Events.request.ipChain.IP",
+      "required": ""
+    },
+    {
+      "description": "Full name of the state or province encompassing the area containing the geo-location coordinates. For example, Montana, Incheon. Okta.Logs.Events.request.ipChain.geographicalContext.country Full name of the country encompassing the area containing the geo-location coordinates. For example, France, Uganda.",
+      "name": "Okta.Logs.Events.request.ipChain.geographicalContext.state",
+      "required": ""
+    },
+    {
+      "description": "Details regarding the source. Okta.Logs.Events.target.id ID of a target.",
+      "name": "Okta.Logs.Events.request.ipChain.source",
+      "required": ""
+    },
+    {
+      "description": "Type of a target. Okta.Logs.Events.target.alternateId Alternative ID of a target.",
+      "name": "Okta.Logs.Events.target.type",
+      "required": ""
+    },
+    {
+      "description": "Display name of a target. Edit this page Report an Issue",
+      "name": "Okta.Logs.Events.target.displayName",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Okta Event Collector Next Okta v2 \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Fetch incidents using an \"IAM - Configuration\" incident Fetch incidents using a manual query filter expression Commands",
+      "name": "Configure Okta IAM in Cortex",
+      "required": ""
+    },
+    {
+      "description": "iam-update-user iam-get-user iam-disable-user",
+      "name": "iam-create-user",
+      "required": ""
+    },
+    {
+      "description": "okta-list-applications okta-list-user-applications okta-iam-get-configuration",
+      "name": "okta-get-assigned-user-for-app",
+      "required": ""
+    },
+    {
+      "description": "iam-get-group okta-get-logs Docs",
+      "name": "okta-iam-set-configuration",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Okta IAM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta-iam"
+}

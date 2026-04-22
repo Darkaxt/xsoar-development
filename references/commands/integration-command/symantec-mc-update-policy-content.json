@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\nsymantec-mc-update-policy-content uuid=\"0D264052-9628-4872-8C07-E04A8B95F602\" content_type=\"LOCAL_CATEGORY_DB\" change_description=\"test\" ip=\"2.2.2.2,4.4.4.4\" description=\"updated comment\"\nContext Example\nNo context output\nHuman Readable Output\nSuccessfully updated content in the policy\nAdditional Information\nFor additional details regarding Query Filter Syntax see the"
+  ],
+  "kind": "integration-command",
+  "name": "symantec-mc-update-policy-content",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-management-center"
+}

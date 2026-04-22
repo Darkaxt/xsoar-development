@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"Cofense.Attachment\": {",
+  "examples": [
+    "Command Example\ncofense-get-reporter reporter_id=5328\nContext Example\n{\n\"Cofense.Reporter\": {\n\"Email\": \"vishnuetp16@gmail.com\",\n\"ID\": \"5328\"\n}"
+  ],
+  "kind": "integration-command",
+  "name": "cofense-get-reporter",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the reporter. Report.Email Reporter email address.",
+      "name": "Report.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cofense Triage (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cofense-triage"
+}

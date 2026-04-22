@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "3. Get details for a signal",
+  "examples": [
+    "Command Example\n!jask-get-signal-details signal-id=b7f76616-f27b-5c18-b503-2d3dbab1bb96\nContext Example\n{\n\"Jask\": {\n\"Signal\": {\n\"Category\": \"Exfiltration\",\n\"SourceType\": \"rule\",",
+    "!jask-get-signal-details signal-id=b7f76616-f27b-5c18-b503-2d3dbab1bb96\nContext Example\n{\n\"Jask\": {\n\"Signal\": {\n\"Category\": \"Exfiltration\",\n\"SourceType\": \"rule\",\n\"Name\": \"Hexadecimal in DNS Query Domain\","
+  ],
+  "kind": "integration-command",
+  "name": "jask-get-signal-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Signal ID Jask.Signal.Name Signal name",
+      "name": "Jask.Signal.Id",
+      "required": ""
+    },
+    {
+      "description": "Signal category Jask.Signal.Description Signal description",
+      "name": "Jask.Signal.Category",
+      "required": ""
+    },
+    {
+      "description": "Signal score Jask.Signal.SourceType The source type of the signal",
+      "name": "Jask.Signal.Score",
+      "required": ""
+    },
+    {
+      "description": "The time of the signal Jask.Signal.Metadata.RecordType Record type",
+      "name": "Jask.Signal.Timestamp",
+      "required": ""
+    },
+    {
+      "description": "The associated count of each record type Jask.SignalThreatIndicators.IndicatorType Threat indicator type",
+      "name": "Jask.Signal.Metadata.RecordCount",
+      "required": ""
+    },
+    {
+      "description": "Value of the threat indicator",
+      "name": "Jask.Signal.ThreatIndicators.Value",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Jask (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jask"
+}

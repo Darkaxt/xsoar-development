@@ -1,0 +1,87 @@
+{
+  "aliases": [
+    "investigation-summary-parse"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "InvestigationSummaryParse | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "InvestigationSummaryParse",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The tactic associated with the evidence of persistence finding. InvestigationSummary.EvidenceOfPersistence.Result The result of the evidence of persistence finding.",
+      "name": "InvestigationSummary.EvidenceOfPersistence.Tactic",
+      "required": ""
+    },
+    {
+      "description": "InvestigationSummary.EvidenceOfPersistence.Sources The sources by which the evidence of persistence value was set. InvestigationSummary.EvidenceOfDefenseEvasion.Tactic",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "InvestigationSummary.EvidenceOfDefenseEvasion.Result The result of the evidence of persistence finding. InvestigationSummary.EvidenceOfDefenseEvasion.Sources",
+      "name": "The tactic associated with the evidence of defense evasion finding.",
+      "required": ""
+    },
+    {
+      "description": "InvestigationSummary.EvidenceOfExecution.Tactic The tactic associated with the evidence of execution finding. InvestigationSummary.EvidenceOfExecution.Result",
+      "name": "The sources by which the evidence of defense evasion value was set.",
+      "required": ""
+    },
+    {
+      "description": "InvestigationSummary.EvidenceOfExecution.Sources The sources by which the evidence of execution value was set. InvestigationSummary.EvidenceOfLateralMovement.Tactic",
+      "name": "The result of the evidence of execution finding.",
+      "required": ""
+    },
+    {
+      "description": "InvestigationSummary.EvidenceOfLateralMovement.Result The Result of the evidence of lateral movement finding. InvestigationSummary.EvidenceOfLateralMovement.Sources",
+      "name": "The tactic associated with the evidence of lateral movement finding.",
+      "required": ""
+    },
+    {
+      "description": "InvestigationSummary.EvidenceOfPrivilegeEscalation.Tactic The tactic associated with the evidence of privilege escalation finding. InvestigationSummary.EvidenceOfPrivilegeEscalation.Result",
+      "name": "The sources by which the evidence of lateral movement value was set.",
+      "required": ""
+    },
+    {
+      "description": "InvestigationSummary.EvidenceOfPrivilegeEscalation.Sources The sources by which the evidence of privilege escalation value was set. InvestigationSummary.EvidenceOfCommandAndControl.Tactic",
+      "name": "The result of the evidence of privilege escalation finding.",
+      "required": ""
+    },
+    {
+      "description": "InvestigationSummary.EvidenceOfCommandAndControl.Result The result of the evidence of command and control finding. InvestigationSummary.EvidenceOfCommandAndControl.Sources",
+      "name": "The tactic associated with the evidence of command and control finding.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The sources by which the evidence of command and control value was set.",
+      "required": ""
+    },
+    {
+      "description": "Next InvestigationSummaryToTable \u00bb Script Data",
+      "name": "\u00ab InvestigationDetailedSummaryToTable",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "InvestigationSummaryParse",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/investigation-summary-parse"
+}

@@ -1,0 +1,139 @@
+{
+  "aliases": [
+    "set-rsa-net-witness-alerts-md"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "SetRSANetWitnessAlertsMD | Cortex XSOAR",
+  "examples": [
+    "!SetRSANetWitnessAlertsMD\nContext Example\n#\n{\n\"RSA Alerts\"\n:\n[\n{"
+  ],
+  "kind": "script",
+  "name": "SetRSANetWitnessAlertsMD",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!SetRSANetWitnessAlertsMD",
+      "required": ""
+    },
+    {
+      "description": "\"RSA Alerts\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"created\" : \"2023-07-03T11:04:16.408Z\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"detail\" : null",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"events\" : [",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"id\" :",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": ", \"riskScore\" :",
+      "name": "\"dummy_id\"",
+      "required": ""
+    },
+    {
+      "description": ", \"source\" :",
+      "name": "\"50\"",
+      "required": ""
+    },
+    {
+      "description": ", \"title\" :",
+      "name": "\"NetWitness Investigate\"",
+      "required": ""
+    },
+    {
+      "description": ", \"type\" :",
+      "name": "\"sk_test300\"",
+      "required": ""
+    },
+    {
+      "description": ", } ,",
+      "name": "\"Log\"",
+      "required": ""
+    },
+    {
+      "description": "\"created\" : \"2023-07-03T11:04:24.256Z\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"detail\" : null",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"id\" : \"dummy_id\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"riskScore\" : \"50\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"source\" : \"NetWitness Investigate\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"title\" : \"sk_test300\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"type\" : \"Log\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "} , ]",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SetRSANetWitnessAlertsMD",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/set-rsa-net-witness-alerts-md"
+}

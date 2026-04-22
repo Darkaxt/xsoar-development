@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "stealth-unisolate-machine-and-user",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "This is the command which will un-isolate an endpoint and user from Stealth Network",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "stealth-unisolate-machine-and-user",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Unit 42 ATOMs Feed (Deprecated) \u00bb Configure Unisys Stealth in Cortex",
+      "name": "\u00ab UnifiVideo",
+      "required": ""
+    },
+    {
+      "description": "stealth-isolate-machine stealth-unisolate-machine stealth-get-stealth-roles",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "stealth-unisolate-user stealth-isolate-machine-and-user stealth-unisolate-machine-and-user",
+      "name": "stealth-isolate-user",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Unisys Stealth",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/unisys-stealth"
+}

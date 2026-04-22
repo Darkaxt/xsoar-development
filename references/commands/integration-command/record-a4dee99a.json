@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "account_number: 1114287",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Incident Mirroring",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "To set up the mirroring: Enable Fetching incidents",
+      "name": "You can enable incident mirroring between Cortex XSOAR incidents and Zoom_IAM corresponding events (available from Cortex XSOAR version 6.0.0).",
+      "required": ""
+    },
+    {
+      "description": "Newly fetched incidents will be mirrored in the chosen direction. However, this selection does not affect existing incidents. Important Note: To ensure the mirroring works as expected, mappers are required, both for incoming and outgoing, to map the expected fields in Cortex XSOAR and Zoom_IAM.",
+      "name": "in your instance configuration.",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Zoom Mail",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Zscaler Internet Access \u00bb Configure Zoom_IAM in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "iam-enable-user iam-get-user get-mapping-fields",
+      "name": "iam-disable-user",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Incident Mirroring",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Zoom_IAM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/zoom-iam"
+}

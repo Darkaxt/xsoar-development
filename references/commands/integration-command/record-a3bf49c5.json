@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get a file from an uuid.",
+  "examples": [
+    "Command Example\n#\n!gw-get-file-infected timerange=\"1440\"\nContext Example\n#\n[\n{\n\"Content\"",
+    "!gw-get-file-infected timerange=\"1440\"\nContext Example\n#\n[\n{\n\"Content\"\n:\n\"\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File infected",
+      "name": "Gcenter.File.Infected",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GCenter",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/g-center"
+}

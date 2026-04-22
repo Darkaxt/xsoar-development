@@ -1,0 +1,91 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "datadog-time-series-point-query",
+  "examples": [
+    "!datadog-time-series-point-query from=\"-2days\" query=\"system.cpu.idle\" to=now\nContext Example\n#\n{\n\"Datadog\"\n:\n{\n\"TimeSeriesPoint\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date Start of requested time window in milliseconds since Unix epoch. Datadog.TimeSeriesPoint.error",
+      "name": "Datadog.TimeSeriesPoint.from_date",
+      "required": ""
+    },
+    {
+      "description": "Message indicating the errors if status is not OK. Datadog.TimeSeriesPoint.group_by List of tag keys on which to group.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Message indicating success if status is OK. Datadog.TimeSeriesPoint.query Query string.",
+      "name": "Datadog.TimeSeriesPoint.message",
+      "required": ""
+    },
+    {
+      "description": "Type of response. Datadog.TimeSeriesPoint.series.aggr Aggregation type.",
+      "name": "Datadog.TimeSeriesPoint.res_type",
+      "required": ""
+    },
+    {
+      "description": "Display name of the metric. Datadog.TimeSeriesPoint.series.end Date",
+      "name": "Datadog.TimeSeriesPoint.series.display_name",
+      "required": ""
+    },
+    {
+      "description": "Datadog.TimeSeriesPoint.series.expression Metric expression. Datadog.TimeSeriesPoint.series.interval",
+      "name": "End of the time window in milliseconds since Unix epoch.",
+      "required": ""
+    },
+    {
+      "description": "Number of seconds between data samples. Datadog.TimeSeriesPoint.series.length Number of data samples.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Metric name. Datadog.TimeSeriesPoint.series.pointlist List of points of the time series.",
+      "name": "Datadog.TimeSeriesPoint.series.metric",
+      "required": ""
+    },
+    {
+      "description": "The index of the series query within the request. Datadog.TimeSeriesPoint.series.scope Metric scope, comma-separated list of tags.",
+      "name": "Datadog.TimeSeriesPoint.series.query_index",
+      "required": ""
+    },
+    {
+      "description": "Date Start of the time window in milliseconds since Unix epoch. Datadog.TimeSeriesPoint.series.tag_set",
+      "name": "Datadog.TimeSeriesPoint.series.start",
+      "required": ""
+    },
+    {
+      "description": "Unique tags identifying this series. Datadog.TimeSeriesPoint.series.unit.family Unit family allows for conversion between units of the same family, for scaling.",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Unit name. Datadog.TimeSeriesPoint.series.unit.plural Plural form of the unit's name.",
+      "name": "Datadog.TimeSeriesPoint.series.unit.name",
+      "required": ""
+    },
+    {
+      "description": "Factor for scaling between units of the same family. Datadog.TimeSeriesPoint.series.unit.short_name Abbreviation of the unit.",
+      "name": "Datadog.TimeSeriesPoint.series.unit.scale_factor",
+      "required": ""
+    },
+    {
+      "description": "Status of the query. Datadog.TimeSeriesPoint.to_date Date",
+      "name": "Datadog.TimeSeriesPoint.status",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "End of requested time window in milliseconds since Unix epoch.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Datadog",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/datadog-cloud-siem"
+}

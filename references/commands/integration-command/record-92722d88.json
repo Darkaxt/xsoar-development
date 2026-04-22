@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "VisionOne.Add_Note.Response_Msg",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the workbench that had the status updated. VisionOne.Update_Status.Response_Code The response code from the command",
+      "name": "VisionOne.Update_Status.Workbench_Id",
+      "required": ""
+    },
+    {
+      "description": "The response message from the command Edit this page Report an Issue",
+      "name": "VisionOne.Update_Status.Response_Msg",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Trend Micro Vision One Event Collector Next TrendAI Vision One\u2122 v3 \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands trendmicro-visionone-add-to-block-list trendmicro-visionone-remove-from-block-list",
+      "name": "Configure TrendAI Vision One\u2122 on Cortex XSOAR",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-delete-email-message trendmicro-visionone-isolate-endpoint trendmicro-visionone-restore-endpoint-connection",
+      "name": "trendmicro-visionone-quarantine-email-message",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-delete-objects-from-exception-list trendmicro-visionone-add-objects-to-suspicious-list trendmicro-visionone-delete-objects-from-suspicious-list",
+      "name": "trendmicro-visionone-add-objects-to-exception-list",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-terminate-process trendmicro-visionone-get-file-analysis-status trendmicro-visionone-get-file-analysis-report",
+      "name": "trendmicro-visionone-get-endpoint-info",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-download-information-for-collected-forensic-file trendmicro-visionone-submit-file-to-sandbox trendmicro-visionone-submit-file-entry-to-sandbox",
+      "name": "trendmicro-visionone-collect-forensic-file",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-check-task-status trendmicro-visionone-add-note trendmicro-visionone-update-status",
+      "name": "trendmicro-visionone-run-sandbox-submission-polling",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TrendAI Vision One\u2122",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/trend-micro-vision-one"
+}

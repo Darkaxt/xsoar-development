@@ -1,0 +1,63 @@
+{
+  "aliases": [
+    "verify-integration-health"
+  ],
+  "arguments": [],
+  "description": "VerifyIntegrationHealth | Cortex XSOAR",
+  "examples": [
+    "!VerifyIntegrationHealth integration_name=\"AutoFocus Daily Feed\"\nContext Example\n#\n{\n\"IntegrationHealth\"\n:\n{\n\"fetchDone\""
+  ],
+  "kind": "script",
+  "name": "VerifyIntegrationHealth",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Determines the health status of the integration. IntegrationHealth.fetchDone Determines whether the fetch-indicators command completed.",
+      "name": "IntegrationHealth.isHealthy",
+      "required": ""
+    },
+    {
+      "description": "IntegrationHealth.integrationName Requested integration name. Script Example",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!VerifyIntegrationHealth integration_name=\"AutoFocus Daily Feed\"",
+      "required": ""
+    },
+    {
+      "description": "\"IntegrationHealth\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": true ,",
+      "name": "\"fetchDone\"",
+      "required": ""
+    },
+    {
+      "description": ": \"AutoFocus Daily Feed\" ,",
+      "name": "\"integrationName\"",
+      "required": ""
+    },
+    {
+      "description": ": true }",
+      "name": "\"isHealthy\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VerifyIntegrationHealth",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/verify-integration-health"
+}

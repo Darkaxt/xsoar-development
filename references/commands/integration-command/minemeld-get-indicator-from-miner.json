@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!minemeld-retrieve-miner miner=Suspicious",
+  "examples": [
+    "Command Example\n!minemeld-retrieve-miner miner=Suspicious\nWar Room Output\n4. Get an indicator within a miner\nRetrieves information about a specified indicator associated with a specified miner.\nBase Command\nminemeld-get-indicator-from-miner\nInput",
+    "!minemeld-retrieve-miner miner=Suspicious\nWar Room Output\n4. Get an indicator within a miner\nRetrieves information about a specified indicator associated with a specified miner.\nBase Command\nminemeld-get-indicator-from-miner\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "minemeld-get-indicator-from-miner",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Entire miner object MineMeld.Miner.name Miner name",
+      "name": "MineMeld.Miner",
+      "required": ""
+    },
+    {
+      "description": "Entire indicator object MineMeld.Indicators.miner Miner of the indicator",
+      "name": "MineMeld.Indicators",
+      "required": ""
+    },
+    {
+      "description": "Indicator type MineMeld.Indicators.indicator Indicator value",
+      "name": "MineMeld.Indicators.type",
+      "required": ""
+    },
+    {
+      "description": "Indicator comment",
+      "name": "MineMeld.Indicators.comment",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks MineMeld (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-minemeld"
+}

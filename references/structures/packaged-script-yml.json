@@ -1,0 +1,44 @@
+{
+  "artifact_type": "packaged-script-yml",
+  "classifier": {
+    "path_hints": [
+      "Scripts/<ScriptName>/<ScriptName>.yml"
+    ],
+    "top_level_fields": [
+      "commonfields",
+      "name",
+      "script",
+      "type",
+      "subtype"
+    ]
+  },
+  "common_defaults": {
+    "enabled": true,
+    "runonce": false,
+    "script": "",
+    "scripttarget": 0,
+    "subtype": "python3",
+    "type": "python"
+  },
+  "common_fields": [
+    "commonfields",
+    "dockerimage",
+    "enabled",
+    "fromversion",
+    "name",
+    "script",
+    "subtype",
+    "tests",
+    "type"
+  ],
+  "do": [
+    "Keep Python in the sibling .py file for package-shaped content.",
+    "Preserve metadata fields and argument/output contracts when present."
+  ],
+  "do_not": [
+    "Do not inline code into script unless producing exported automation YAML."
+  ],
+  "synthetic_examples": [
+    "ExampleDetectionPack/Scripts/NormalizeAlert/NormalizeAlert.yml"
+  ]
+}

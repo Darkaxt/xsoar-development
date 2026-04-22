@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!syslog-send address=127.0.0.1 port=514 protocol=TCP message=yo level=ERROR\nHuman Readable Output\n#\nMessage sent to Syslog successfully.\nTroubleshooting\n#",
+    "!syslog-send address=127.0.0.1 port=514 protocol=TCP message=yo level=ERROR\nHuman Readable Output\n#\nMessage sent to Syslog successfully.\nTroubleshooting\n#\nMake sure you can access the Syslog server on the provided IP address and the port is open.\nDemo Video"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Syslog Sender",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/syslog-sender"
+}

@@ -1,0 +1,103 @@
+{
+  "aliases": [
+    "Serial"
+  ],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!ciphertrust-users-list limit=10\nContext Example\n#\n{\n\"CipherTrust\"\n:\n{\n\"Users\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The login name of the user. This attribute is required to create a user, but is omitted when getting or listing a user. It cannot be updated. CipherTrust.Users.connection This attribute is required to create a user, but is not included in user resource responses. Can be the name of a connection or 'local_account' for a local user, defaults to 'local_account'.",
+      "name": "CipherTrust.Users.username",
+      "required": ""
+    },
+    {
+      "description": "E-mail of the user. CipherTrust.Users.name Full name of the user.",
+      "name": "CipherTrust.Users.email",
+      "required": ""
+    },
+    {
+      "description": "The Distinguished Name of the user in certificate. CipherTrust.Users.enable_cert_auth Deprecated: Use allowed_auth_methods instead. Enable certificate based authentication flag. If set to true, the user will be able to login using a certificate.",
+      "name": "CipherTrust.Users.certificate_subject_dn",
+      "required": ""
+    },
+    {
+      "description": "A schema-less object, which can be used by applications to store information about the resource. user_metadata is typically used by applications to store information about the resource which the end-users are allowed to modify, such as user preferences. CipherTrust.Users.app_metadata A schema-less object, which can be used by applications to store information about the resource. app_metadata is typically used by applications to store information which the end-users are not themselves allowed to ",
+      "name": "CipherTrust.Users.user_metadata",
+      "required": ""
+    },
+    {
+      "description": "Number of logins. CipherTrust.Users.last_login Date",
+      "name": "CipherTrust.Users.logins_count",
+      "required": ""
+    },
+    {
+      "description": "CipherTrust.Users.created_at Date Timestamp of when the user was created.",
+      "name": "Timestamp of the last login.",
+      "required": ""
+    },
+    {
+      "description": "Date Timestamp of the last update of the user. CipherTrust.Users.allowed_auth_methods",
+      "name": "CipherTrust.Users.updated_at",
+      "required": ""
+    },
+    {
+      "description": "List of login authentication methods allowed to the user. CipherTrust.Users.expires_at Date",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "CipherTrust.Users.password_policy The password policy applies only to local user accounts and overrides the global password policy. By default, the global password policy is applied to the users. CipherTrust.Users.allowed_client_types",
+      "name": "The expires_at is applicable only for local user accounts. The admin or a user who is part of the admin group can add an expiration date to an existing local user account or modify the expiration date. Once the expires_at date is reached, the user account gets disabled and the user is not able to perform any actions.",
+      "required": ""
+    },
+    {
+      "description": "List of client types allowed to the user. CipherTrust.Users.last_failed_login_at Date",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "CipherTrust.Users.failed_logins_count Number of failed logins. CipherTrust.Users.failed_logins_initial_attempt_at",
+      "name": "Timestamp of the last failed login.",
+      "required": ""
+    },
+    {
+      "description": "Timestamp of the first failed login. CipherTrust.Users.account_lockout_at Date",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "CipherTrust.Users.nickname Nickname of the user. CipherTrust.Users.user_id",
+      "name": "Timestamp of the account lockout.",
+      "required": ""
+    },
+    {
+      "description": "The user's unique identifier. CipherTrust.Users.password_changed_at Date",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "CipherTrust.Users.password_change_required Flag indicating if password change is required. CipherTrust.Users.groups",
+      "name": "Timestamp of when the password was last changed.",
+      "required": ""
+    },
+    {
+      "description": "List of groups the user belongs to. CipherTrust.Users.auth_domain Authentication domain ID.",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Flags related to user login. CipherTrust.Users.auth_domain_name Name of the authentication domain.",
+      "name": "CipherTrust.Users.login_flags",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Thales CipherTrust Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cipher-trust"
+}

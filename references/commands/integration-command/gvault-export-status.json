@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!gvault-list-holds matterID=0bebe0ec-ee41-4955-96b3-20d9408409c8",
+  "examples": [
+    "Command Example\n!gvault-list-holds matterID=0bebe0ec-ee41-4955-96b3-20d9408409c8\nContext Example\nHuman Readable Output\n13. Get the status of exports\nGets the status of one or more specified exports.\nBase Command\ngvault-export-status",
+    "!gvault-list-holds matterID=0bebe0ec-ee41-4955-96b3-20d9408409c8\nContext Example\nHuman Readable Output\n13. Get the status of exports\nGets the status of one or more specified exports.\nBase Command\ngvault-export-status\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-export-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Matter ID GoogleVault.Matter.Export.ExportID Export ID",
+      "name": "GoogleVault.Matter.Export.MatterID",
+      "required": ""
+    },
+    {
+      "description": "Export name GoogleVault.Matter.Export.Status Export status",
+      "name": "GoogleVault.Matter.Export.Name",
+      "required": ""
+    },
+    {
+      "description": "Bucket holder name for this export GoogleVault.Matter.Export.DownloadID ID to be used by the \"download-export\" command",
+      "name": "GoogleVault.Matter.Export.BucketName",
+      "required": ""
+    },
+    {
+      "description": "ID to be used by the \"get-X-results\" command (X=drive/mail/groups)",
+      "name": "GoogleVault.Matter.Export.ViewID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

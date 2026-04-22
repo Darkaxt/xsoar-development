@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "check-sender-domain-distance"
+  ],
+  "arguments": [],
+  "description": "CheckSenderDomainDistance | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CheckSenderDomainDistance",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The proximity of the sender domain to our configured domains. Edit this page Report an Issue",
+      "name": "LevenshteinDistance",
+      "required": ""
+    },
+    {
+      "description": "\u00ab CheckSender Next CheckTags \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CheckSenderDomainDistance",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/check-sender-domain-distance"
+}

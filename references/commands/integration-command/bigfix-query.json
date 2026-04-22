@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!bigfix-action-stop action_id\nHuman Readable Output\n11. Evaluate an expression and get the result\nEvaluates an expression and gets the result. The request is processed through the server to WebReports.\nBase Command\nbigfix-query\nInput",
+    "!bigfix-action-stop action_id\nHuman Readable Output\n11. Evaluate an expression and get the result\nEvaluates an expression and gets the result. The request is processed through the server to WebReports.\nBase Command\nbigfix-query\nInput\nArgument Name",
+    "Command Example\n!bigfix-query relevance=\"cpus of bes computers\"\n!bigfix-query relevance=\"names of bes computers\"\nContext Example\n{\n\"Bigfix\": {\n\"QueryResults\": [\n\"2200 MHz Xeon Gold 5120\",",
+    "!bigfix-query relevance=\"cpus of bes computers\"\n!bigfix-query relevance=\"names of bes computers\"\nContext Example\n{\n\"Bigfix\": {\n\"QueryResults\": [\n\"2200 MHz Xeon Gold 5120\",\n\"2200 MHz Xeon\"",
+    "!bigfix-query relevance=\"names of bes computers\"\nContext Example\n{\n\"Bigfix\": {\n\"QueryResults\": [\n\"2200 MHz Xeon Gold 5120\",\n\"2200 MHz Xeon\"\n]"
+  ],
+  "kind": "integration-command",
+  "name": "bigfix-query",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The results of the query",
+      "name": "Bigfix.QueryResults",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BigFix",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/big-fix"
+}

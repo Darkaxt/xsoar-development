@@ -1,0 +1,114 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "JAMF.Mobile.ProfileConfiguration.self_service",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the configuration profile. JAMF.OSX.ProfileConfiguration.general.name The name of the configuration profile.",
+      "name": "JAMF.OSX.ProfileConfiguration.general.id",
+      "required": ""
+    },
+    {
+      "description": "The mobile device configuration description. JAMF.OSX.ProfileConfiguration.general.level Level of the configuration profile (System or User).",
+      "name": "JAMF.OSX.ProfileConfiguration.general.description",
+      "required": ""
+    },
+    {
+      "description": "Site of the configuration profile. JAMF.OSX.ProfileConfiguration.general.category Category of the configuration profile.",
+      "name": "JAMF.OSX.ProfileConfiguration.general.site",
+      "required": ""
+    },
+    {
+      "description": "Unique identifier of the mobile profile configuration. JAMF.OSX.ProfileConfiguration.general.distribution_method Install Automatically or Make Available in Self Service.",
+      "name": "JAMF.OSX.ProfileConfiguration.general.uuid",
+      "required": ""
+    },
+    {
+      "description": "Payloads of the configuration profile for OSX device. JAMF.OSX.ProfileConfiguration.scope Scope object of the configuration profile.",
+      "name": "JAMF.OSX.ProfileConfiguration.general.payloads",
+      "required": ""
+    },
+    {
+      "description": "Self-service object of the configuration profile. Edit this page Report an Issue",
+      "name": "JAMF.OSX.ProfileConfiguration.self_service",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Jamf Protect Event Collector Next JARM \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Required Permissions Commands jamf-get-computers",
+      "name": "Configure jamf v2 on Cortex XSOAR",
+      "required": ""
+    },
+    {
+      "description": "jamf-get-computer-by-id jamf-get-computer-by-match jamf-get-computer-general-subset",
+      "name": "jamf-get-computers-basic-subset",
+      "required": ""
+    },
+    {
+      "description": "jamf-get-computer-purchasing-subset jamf-get-computer-peripherals-subset jamf-get-computer-hardware-subset",
+      "name": "jamf-get-computer-location-subset",
+      "required": ""
+    },
+    {
+      "description": "jamf-get-computer-security-subset jamf-get-computer-software-subset jamf-get-computer-extension-attributes-subset",
+      "name": "jamf-get-computer-certificates-subset",
+      "required": ""
+    },
+    {
+      "description": "jamf-get-computer-iphones-subset jamf-get-computer-configuration-profiles-subset jamf-get-computer-subset",
+      "name": "jamf-get-computer-groups-accounts-subset",
+      "required": ""
+    },
+    {
+      "description": "jamf-computer-erase jamf-get-users jamf-get-user-by-id",
+      "name": "jamf-computer-lock",
+      "required": ""
+    },
+    {
+      "description": "jamf-get-user-by-email jamf-get-mobile-devices jamf-get-mobile-device-by-id",
+      "name": "jamf-get-user-by-name",
+      "required": ""
+    },
+    {
+      "description": "jamf-get-mobile-device-general-subset jamf-get-mobile-device-location-subset jamf-get-mobile-device-purchasing-subset",
+      "name": "jamf-get-mobile-device-by-match",
+      "required": ""
+    },
+    {
+      "description": "jamf-get-mobile-device-security-subset jamf-get-mobile-device-network-subset jamf-get-mobile-device-certificates-subset",
+      "name": "jamf-get-mobile-device-applications-subset",
+      "required": ""
+    },
+    {
+      "description": "jamf-get-mobile-device-configuration-profiles-subset jamf-get-mobile-device-groups-subset jamf-get-mobile-device-extension-attributes-subset",
+      "name": "jamf-get-mobile-device-provisioning-profiles-subset",
+      "required": ""
+    },
+    {
+      "description": "jamf-mobile-device-lost-mode jamf-mobile-device-erase endpoint",
+      "name": "jamf-get-computers-by-application",
+      "required": ""
+    },
+    {
+      "description": "jamf-get-computer-configuration-profiles-by-id Docs Developer Docs",
+      "name": "jamf-get-mobile-configuration-profiles-by-id",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "JAMF v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jamf-v2"
+}

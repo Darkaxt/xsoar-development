@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "brand-impersonation-detection"
+  ],
+  "arguments": [],
+  "description": "BrandImpersonationDetection | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "BrandImpersonationDetection",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BrandImpersonationDetection",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/brand-impersonation-detection"
+}

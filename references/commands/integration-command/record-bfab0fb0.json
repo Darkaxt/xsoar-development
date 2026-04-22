@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!core-iocs-disable indicator=22.22.22.22\nHuman Readable Output\n#\nindicators 22.22.22.22 disabled.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Indeni"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Indicators detection",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cortex-core---ioc"
+}

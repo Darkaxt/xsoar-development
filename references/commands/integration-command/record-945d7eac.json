@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!aws-secrets-manager-secret\u2013policy-get secret_id=\"fdff\"\nContext Example\n#\n{\n\"AWS\"\n:\n{\n\"SecretsManager\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The policy ARN. AWS.SecretsManager.Policy.Name The policy name.",
+      "name": "AWS.SecretsManager.Policy.ARN",
+      "required": ""
+    },
+    {
+      "description": "The ID of the HTTP header response request. AWS.SecretsManager.Policy.ResponseMetadata.HTTPStatusCode The status code in the HTTP header.",
+      "name": "AWS.SecretsManager.Policy.ResponseMetadata.RequestId",
+      "required": ""
+    },
+    {
+      "description": "The ID of the HTTP header Amazon request. AWS.SecretsManager.Policy.ResponseMetadata.HTTPHeaders.content-type The type of the HTTP header response content.",
+      "name": "AWS.SecretsManager.Policy.ResponseMetadata.HTTPHeaders.x-amzn-requestid",
+      "required": ""
+    },
+    {
+      "description": "The length of the HTTP header response content. AWS.SecretsManager.Policy.ResponseMetadata.HTTPHeaders.date Date",
+      "name": "AWS.SecretsManager.Policy.ResponseMetadata.HTTPHeaders.content-length",
+      "required": ""
+    },
+    {
+      "description": "AWS.SecretsManager.Policy.ResponseMetadata.RetryAttempts The number of HTTP header response retry attempts.",
+      "name": "The date of the HTTP header response.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Aws Secrets Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws-secrets-manager"
+}

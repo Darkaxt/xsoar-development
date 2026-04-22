@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "health-check-incidents-created-weekly"
+  ],
+  "arguments": [],
+  "description": "HealthCheckIncidentsCreatedWeekly | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "HealthCheckIncidentsCreatedWeekly",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HealthCheckIncidentsCreatedWeekly",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/health-check-incidents-created-weekly"
+}

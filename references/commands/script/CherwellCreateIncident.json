@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "cherwell-create-incident"
+  ],
+  "arguments": [],
+  "description": "CherwellCreateIncident | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CherwellCreateIncident",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Incident public ID Cherwell.BusinessObjects.RecordId Incident record ID",
+      "name": "Cherwell.BusinessObjects.PublicId",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Next CherwellGetIncident \u00bb Script Data",
+      "name": "\u00ab checkValue",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CherwellCreateIncident",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cherwell-create-incident"
+}

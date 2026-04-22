@@ -1,0 +1,61 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "forescout-ei-hosts-changelog-list",
+  "examples": [
+    "!forescout-ei-hosts-changelog-list page=1 limit=1\nContext Example\n#\n{\n\"ForescoutEyeInspect\"\n:\n{\n\"HostChangeLog\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the HostChangeLog in the eyeInspect CC. ForescoutEyeInspect.HostChangeLog.timestamp Timestamp in ISO format of when the host change was detected.",
+      "name": "ForescoutEyeInspect.HostChangeLog.id",
+      "required": ""
+    },
+    {
+      "description": "An identifier of the type of change detected. ForescoutEyeInspect.HostChangeLog.event_type_name A more human readable representation of the type of change detected.",
+      "name": "ForescoutEyeInspect.HostChangeLog.event_type_id",
+      "required": ""
+    },
+    {
+      "description": "A more general type of the change detected. ForescoutEyeInspect.HostChangeLog.host_id The unique ID of the host in the eyeInspect CC database in which the change was detected.",
+      "name": "ForescoutEyeInspect.HostChangeLog.event_category",
+      "required": ""
+    },
+    {
+      "description": "The source of information for the detected change. ForescoutEyeInspect.HostChangeLog.sensor_id In case the detected change was reported from a sensor, the unique ID in the eyeInspect CC database of the sensor reporting the information.",
+      "name": "ForescoutEyeInspect.HostChangeLog.information_source",
+      "required": ""
+    },
+    {
+      "description": "In case the detected change was reported from a sensor, the unique ID in the eyeInspect CC database of the sensor reporting the information. ForescoutEyeInspect.HostChangeLog.username In case the detected change was reported from a eyeInspect user, the username of the user reporting the information.",
+      "name": "ForescoutEyeInspect.HostChangeLog.sensor_id",
+      "required": ""
+    },
+    {
+      "description": "The old value of the host property. ForescoutEyeInspect.HostChangeLog.new_value The new value of the host property.",
+      "name": "ForescoutEyeInspect.HostChangeLog.old_value",
+      "required": ""
+    },
+    {
+      "description": "The IP address, or nested address (in case of a nested device) of the host. ForescoutEyeInspect.HostChangeLog.host_vlan The VLAN ID of the host (only present if the process_vlan_tags option is enabled in the sensor).",
+      "name": "ForescoutEyeInspect.HostChangeLog.host_address",
+      "required": ""
+    },
+    {
+      "description": "The main name of the host. ForescoutEyeInspect.HostChangeLog.host_ip_reuse_domain_id The unique ID of the IP Reuse Domain the host is in.",
+      "name": "ForescoutEyeInspect.HostChangeLog.host_name",
+      "required": ""
+    },
+    {
+      "description": "The MAC addresses associated to the host.",
+      "name": "ForescoutEyeInspect.HostChangeLog.host_mac_addresses",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Forescout EyeInspect",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forescout-eye-inspect"
+}

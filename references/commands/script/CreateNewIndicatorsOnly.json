@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "create-new-indicators-only"
+  ],
+  "arguments": [],
+  "description": "CreateNewIndicatorsOnly | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CreateNewIndicatorsOnly",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator ID. CreateNewIndicatorsOnly.Value The indicator value.",
+      "name": "CreateNewIndicatorsOnly.ID",
+      "required": ""
+    },
+    {
+      "description": "CreateNewIndicatorsOnly.Type The indicator type. CreateNewIndicatorsOnly.Score",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "CreateNewIndicatorsOnly.CreationStatus The status of the indicator requested to add. Value is either new, existing, or unavailable. Notice",
+      "name": "The indicator score.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "When using the script with many indicators, or when the Threat Intel Management database is highly populated, this script may have low performance issue.",
+      "required": ""
+    },
+    {
+      "description": "Next CreatePlbkDoc \u00bb Script Data",
+      "name": "\u00ab CreateIndicatorsFromSTIX",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Notice",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CreateNewIndicatorsOnly",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/create-new-indicators-only"
+}

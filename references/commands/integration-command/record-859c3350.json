@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "trendmicro-cas-blocked-lists-update",
+  "examples": [
+    "Command Example\n#\n!trendmicro-cas-blocked-lists-update action_type=create urls=ubb.com,ggyu.com filehashes=f3cdddb37f6a933d6a256bd98b4bc703a448c621 senders=123@gmail.com,456@gmail.com\nContext Example\n#\n{\n\"TrendMicroCAS\": {\n\"BlockedList\": {",
+    "!trendmicro-cas-blocked-lists-update action_type=create urls=ubb.com,ggyu.com filehashes=f3cdddb37f6a933d6a256bd98b4bc703a448c621 senders=123@gmail.com,456@gmail.com\nContext Example\n#\n{\n\"TrendMicroCAS\": {\n\"BlockedList\": {\n\"filehashes\": [\n\"f3cdddb37f6a933d6a256bd98b4bc703a448c621\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "A list of blocked SHA-1 hash values. TrendMicroCAS.BlockedList.senders A list of blocked senders.",
+      "name": "TrendMicroCAS.BlockedList.filehashes",
+      "required": ""
+    },
+    {
+      "description": "A list of blocked URLs.",
+      "name": "TrendMicroCAS.BlockedList.urls",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Trend Micro Cloud App Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/trend-micro-cloud-app-security"
+}

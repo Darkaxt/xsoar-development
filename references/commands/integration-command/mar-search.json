@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get information for USB-connected devices: mar-search-usb-connected-storage-devices",
+  "examples": [
+    "Command Example\n!mar-search collector=Processes\nContext Example\n{\n\"MAR\": {\n\"Services\": [\n{\n\"status\": \"Running\",",
+    "!mar-search collector=Processes\nContext Example\n{\n\"MAR\": {\n\"Services\": [\n{\n\"status\": \"Running\",\n\"description\": \"Base Filtering Engine\","
+  ],
+  "kind": "integration-command",
+  "name": "mar-search",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "mar-collectors-list command to view all collectors and fields command for all collectors\u2019 outputs. If not supplied, all outputs are displayed.",
+      "name": "CSV fields (outputs). Run the",
+      "required": "Optional"
+    },
+    {
+      "description": "Field name (output) to filter by, e.g., ip_address. Run the mar-collectors-list command to view all collectors and fields for all collectors outputs.",
+      "name": "filter-by",
+      "required": ""
+    },
+    {
+      "description": "filter-operator Filtering operator.",
+      "name": "Optional",
+      "required": "Optional"
+    },
+    {
+      "description": "Filtering value of the filter-by field.",
+      "name": "filter-value",
+      "required": ""
+    },
+    {
+      "description": "Context Output Path Type",
+      "name": "Optional",
+      "required": ""
+    },
+    {
+      "description": "MAR results in a given collector, e.g., '\u2018MAR.HostInfo`. For information about possible output paths, run the mar-collectors-list command.",
+      "name": "MAR",
+      "required": ""
+    },
+    {
+      "description": "MAR Results in a given collector, e.g., '\u2018MAR.HostInfo`. For information about possible output paths, run the mar-collectors-list command.",
+      "name": "MAR",
+      "required": ""
+    },
+    {
+      "description": "MAR results in a given collector, e.g., '\u2018MAR.HostInfo`. For information about possible output paths, run the mar-collectors-list command.",
+      "name": "MAR",
+      "required": ""
+    },
+    {
+      "description": "MAR Results in a given collector, e.g., '\u2018MAR.HostInfo`. For information about possible output paths, run the mar-collectors-list command.",
+      "name": "MAR",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Active Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-active-response"
+}

@@ -1,0 +1,56 @@
+{
+  "aliases": [
+    "panorama-cve-coverage"
+  ],
+  "arguments": [],
+  "description": "PanoramaCVECoverage | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PanoramaCVECoverage",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The CVE value. Panorama.CVECoverage.Coverage.threat_name The threat name.",
+      "name": "Panorama.CVECoverage.CVE",
+      "required": ""
+    },
+    {
+      "description": "Panorama.CVECoverage.Coverage.link Link address to the threat in CVE site. Panorama.CVECoverage.Coverage.severity",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Panorama.CVECoverage.Coverage.threat_id The threat ID. Panorama.CVECoverage.Coverage.default_action",
+      "name": "The threat severity.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The threat default action.",
+      "required": ""
+    },
+    {
+      "description": "Next PanoramaSecurityPolicyMatchWrapper \u00bb Script Data",
+      "name": "\u00ab PAN-OS_Security_Advisories_Enrichment",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PanoramaCVECoverage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/panorama-cve-coverage"
+}

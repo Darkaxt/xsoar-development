@@ -1,0 +1,58 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Create a new credentials release request: beyondtrust-create-release-request",
+  "examples": [
+    "Command Example\n!beyondtrust-get-managed-accounts\nHuman Readable Output\nBeyondTrust Managed Accounts\nAccountName\nAccountID\nAssetName\nAssetID",
+    "!beyondtrust-get-managed-accounts\nHuman Readable Output\nBeyondTrust Managed Accounts\nAccountName\nAccountID\nAssetName\nAssetID\nLastChangeDate"
+  ],
+  "kind": "integration-command",
+  "name": "beyondtrust-get-managed-accounts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the managed system platform. BeyondTrust.Account.SystemID ID of the managed system.",
+      "name": "BeyondTrust.Account.PlatformID",
+      "required": ""
+    },
+    {
+      "description": "Name of the managed system. BeyondTrust.Account.DomainName ID of the managed account.",
+      "name": "BeyondTrust.Account.SystemName",
+      "required": ""
+    },
+    {
+      "description": "Name of the managed account. BeyondTrust.Account.InstanceName Database instance name of a database-type managed system.",
+      "name": "BeyondTrust.Account.AccountName",
+      "required": ""
+    },
+    {
+      "description": "Default release duration. BeyondTrust.Account.MaximumReleaseDuration Maximum release duration.",
+      "name": "BeyondTrust.Account.DefualtReleaseDuration",
+      "required": ""
+    },
+    {
+      "description": "Date The date and time of the last password change. BeyondTrust.Account.NexeChangeDate",
+      "name": "BeyondTrust.Account.LastChangeDate",
+      "required": ""
+    },
+    {
+      "description": "The date and time of the next scheduled password change. BeyondTrust.Account.IsChanging True if the account credentials are in the process of changing, otherwise false.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "True if the account is for Information Systems Administrator (ISA) access, otherwise false. BeyondTrust.Account.AccountID ID of the managed account.",
+      "name": "BeyondTrust.Account.IsISAAccess",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BeyondTrust Password Safe",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/beyond-trust-password-safe"
+}

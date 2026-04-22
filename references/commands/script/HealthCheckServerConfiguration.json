@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "health-check-server-configuration"
+  ],
+  "arguments": [],
+  "description": "HealthCheckServerConfiguration | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "HealthCheckServerConfiguration",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HealthCheckServerConfiguration",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/health-check-server-configuration"
+}

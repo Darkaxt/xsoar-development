@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2019-09-09T15:39:04.000Z",
+  "examples": [
+    "Command Example\n#\n!xfe-search-cves q=\"Heartbleed\"\nContext Example\n#\n{\n\"CVE\": [\n{",
+    "!xfe-search-cves q=\"Heartbleed\"\nContext Example\n#\n{\n\"CVE\": [\n{\n\"CVSS\": \"2.0\",\n\"Description\": \"IBM WebSphere Application Server is not vulnerable to the Heartbleed vulnerability (CVE-2014-0160) where secure data might not be protected. However, there is a potential denial of service on IBM WebSphere Application Server Version 6.1 and 6.0.2 when running the Heartbleed scanning tools or if sending specially-crafted Heartbeat messages.\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the CVE. CVE.CVSS The CVSS of the CVE.",
+      "name": "CVE.ID",
+      "required": ""
+    },
+    {
+      "description": "Date The date this was published. CVE.Description",
+      "name": "CVE.Published",
+      "required": ""
+    },
+    {
+      "description": "The CVE description. XFE.CVE.Xfdbid The XFBID of the CVE.",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "The risk level of the CVE. XFE.CVE.Reported Date",
+      "name": "XFE.CVE.RiskLevel",
+      "required": ""
+    },
+    {
+      "description": "XFE.CVE.Cvss The CVSS information of the CVE. XFE.CVE.Stdcode",
+      "name": "The reported date of the CVE.",
+      "required": ""
+    },
+    {
+      "description": "The CVE stdcodes. XFE.CVE.Title The title of the CVE.",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "The description of the CVE. XFE.CVE.PlatformsAffected The affetcted platforms due to the CVE.",
+      "name": "XFE.CVE.Description",
+      "required": ""
+    },
+    {
+      "description": "The exploitability of the CVE. XFE.CVESearch.TotalRows The total rows received after search.",
+      "name": "XFE.CVE.Exploitability",
+      "required": ""
+    },
+    {
+      "description": "Bookmark used to page through results.",
+      "name": "XFE.CVESearch.Bookmark",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM X-Force Exchange v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/xfe-v2"
+}

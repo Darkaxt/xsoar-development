@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!sepio-set-peripherals-mode mode=Approve uuid=BFEBFBFF000806EAL1HF8C4003Z vid=046D pid=C31C\nHuman Readable Output\n#\nPeripherals of ['BFEBFBFF000806EAL1HF8C4003Z'] with vid '046D' and pid 'C31C' mode changed successfully to 'Approve'\nEdit this page\nReport an Issue",
+    "!sepio-set-peripherals-mode mode=Approve uuid=BFEBFBFF000806EAL1HF8C4003Z vid=046D pid=C31C\nHuman Readable Output\n#\nPeripherals of ['BFEBFBFF000806EAL1HF8C4003Z'] with vid '046D' and pid 'C31C' mode changed successfully to 'Approve'\nEdit this page\nReport an Issue\nPrevious\n\u00ab SentinelOne v2"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Sepio",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sepio"
+}

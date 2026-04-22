@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "google-calendar-acl-list",
+  "examples": [
+    "Command Example\n#\n!google-calendar-acl-list calendar_id=calenderID user_id=user1@domain.com max_results=2\nContext Example\n#\n{\n\"GoogleCalendar\": {\n\"Acl\": [",
+    "!google-calendar-acl-list calendar_id=calenderID user_id=user1@domain.com max_results=2\nContext Example\n#\n{\n\"GoogleCalendar\": {\n\"Acl\": [\n{\n\"calendarId\": \"calenderID\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Calendar identifier. GoogleCalendar.Acl.userId User's email address.",
+      "name": "GoogleCalendar.Acl.calendarId",
+      "required": ""
+    },
+    {
+      "description": "Identifier of the ACL rule. GoogleCalendar.Acl.kind Type of the resource.",
+      "name": "GoogleCalendar.Acl.id",
+      "required": ""
+    },
+    {
+      "description": "ETag of the resource. GoogleCalendar.Acl.scopeType The type of the scope.",
+      "name": "GoogleCalendar.Acl.etag",
+      "required": ""
+    },
+    {
+      "description": "The email address of a user or group, or the name of a domain, depending on the scope type. GoogleCalendar.Acl.role The role assigned to the scope.",
+      "name": "GoogleCalendar.Acl.scopeValue",
+      "required": ""
+    },
+    {
+      "description": "Calendar identifier. GoogleCalendar.PageToken.Acl.userId User's email address.",
+      "name": "GoogleCalendar.PageToken.Acl.calendarId",
+      "required": ""
+    },
+    {
+      "description": "Token used to access the next page of this result. GoogleCalendar.PageToken.Acl.nextSyncToken Token used at a later point in time to retrieve only the entries that have changed since this result was returned.",
+      "name": "GoogleCalendar.PageToken.Acl.nextPageToken",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Calendar",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-calendar"
+}

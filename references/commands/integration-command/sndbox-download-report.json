@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!sndbox-analysis-submit-sample file_id=\"288@670\"",
+  "examples": [
+    "Command Example\n!sndbox-analysis-submit-sample file_id=\"288@670\"\nContext Example\nHuman Readable Output\n4. Download a report resource\nDownload a resource belonging to a report. This can be the full report, dropped binaries, etc.\nBase Command\nsndbox-download-report",
+    "!sndbox-analysis-submit-sample file_id=\"288@670\"\nContext Example\nHuman Readable Output\n4. Download a report resource\nDownload a resource belonging to a report. This can be the full report, dropped binaries, etc.\nBase Command\nsndbox-download-report\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "sndbox-download-report",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File name InfoFile.EntryID The EntryID of the report",
+      "name": "InfoFile.Name",
+      "required": ""
+    },
+    {
+      "description": "File size InfoFile.Type File type, e.g., \"PE\"",
+      "name": "InfoFile.Size",
+      "required": ""
+    },
+    {
+      "description": "Basic information of the file InfoFile.Extension File extension",
+      "name": "InfoFile.Info",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SNDBOX (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sndbox"
+}

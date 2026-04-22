@@ -1,0 +1,103 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!url url=https://dv-expert.org",
+  "examples": [
+    "!url url=https://dv-expert.org\nHuman Readable Output\n#\n4. file\n#\nCheck the reputation of a file\nBase Command\n#",
+    "Command Example\n#\n!file file=edb2f88c29844117cd74acf8bb357edf92487a1b142fe6f60b6ac5e15d2d718f\nHuman Readable Output\n#\nAdditional Information\n#\nFor additional information please visit:",
+    "!file file=edb2f88c29844117cd74acf8bb357edf92487a1b142fe6f60b6ac5e15d2d718f\nHuman Readable Output\n#\nAdditional Information\n#\nFor additional information please visit:\nhttps://whatis.maltiverse.com/\nKnown Limitations"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The full file name (including file extension). File.MD5 File MD5 hash",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "The SHA1 hash of the file File.SHA256 The SHA256 hash of the file",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "The size of the file in bytes File.Extension The extension of the file",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "Description of the file type based on its magic numbers File.Path The path of the file",
+      "name": "File.Type",
+      "required": ""
+    },
+    {
+      "description": "Attribute to label an IoC File.ThreatTypes A list with the description of the elements in the block list",
+      "name": "File.Tags",
+      "required": ""
+    },
+    {
+      "description": "The DBot score DBotScore.Type The type of indicator",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score DBotScore.Indicator The indicator that was tested",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Qualitative scoring of the maliciousness of the file. Values from 0 to 100. Maltiverse.File.Tags Attribute to label an IOC",
+      "name": "Maltiverse.File.Score",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the vendor that made the decision Maltiverse.File.Malicious.Description For malicious files, describes the reason for the file to be malicious",
+      "name": "Maltiverse.File.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The number of sources that positively reported the indicator as block list. Maltiverse.File.Name The file name",
+      "name": "Maltiverse.File.PositiveDetections",
+      "required": ""
+    },
+    {
+      "description": "Qualitative maliciousness classification for an IoC. Possible values are malicious, suspicious, neutral and whitelist Maltiverse.File.Blacklist.FirstSeen Date",
+      "name": "Maltiverse.File.Classification",
+      "required": ""
+    },
+    {
+      "description": "Maltiverse.File.Blacklist.LastSeen Date Last time that the IoC was seen",
+      "name": "First time that the IoC has been seen.",
+      "required": ""
+    },
+    {
+      "description": "Describes the reason for the URL to be in the block list Maltiverse.File.Blacklist.Source The name of sources that reported the indicator",
+      "name": "Maltiverse.File.Blacklist.Description",
+      "required": ""
+    },
+    {
+      "description": "Date Date when the IOC has been updated for the last time Maltiverse.File.CreationTime",
+      "name": "Maltiverse.File.ModificationTime",
+      "required": ""
+    },
+    {
+      "description": "Date when a IOC has been inserted for the first time Maltiverse.File.Size Size of the file in bytes",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "List of processes raised by the file in runtime. Maltiverse.File.ContactedHost List of the IP addresses contacted by the sample in runtime",
+      "name": "Maltiverse.File.ProcessList",
+      "required": ""
+    },
+    {
+      "description": "List of hostnames resolved by the sample in runtime",
+      "name": "Maltiverse.File.DNSRequest",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Maltiverse",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/maltiverse"
+}

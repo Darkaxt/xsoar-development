@@ -1,0 +1,109 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "get-mapping-fields",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Returns the list of fields available for outgoing mirroring. This command is intended for debugging purposes only.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "get-mapping-fields",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "To set up the mirroring: Enable Fetching incidents",
+      "name": "You can enable incident mirroring between Cortex XSOAR incidents and GravityZone corresponding incidents (available from Cortex XSOAR version 6.0.0).",
+      "required": ""
+    },
+    {
+      "description": "In the Mirroring Direction integration parameter, select in which direction the incidents should be mirrored:",
+      "name": "in your instance configuration.",
+      "required": ""
+    },
+    {
+      "description": "Description None Disables incident mirroring.",
+      "name": "Option",
+      "required": ""
+    },
+    {
+      "description": "Reflects status changes from GravityZone incidents in Cortex XSOAR incidents. Outgoing Reflects status changes from Cortex XSOAR incidents in GravityZone incidents.",
+      "name": "Incoming",
+      "required": ""
+    },
+    {
+      "description": "Synchronizes status changes bidirectionally between Cortex XSOAR and GravityZone incidents. Newly fetched incidents will be mirrored in the chosen direction. However, this selection does not affect existing incidents. Edit this page",
+      "name": "Both",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab GraphQL Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure GravityZone in Cortex Commands fetch-incidents",
+      "name": "Graylog \u00bb",
+      "required": ""
+    },
+    {
+      "description": "gz-endpoint-get gz-endpoint-download-investigation-package gz-endpoint-download-file",
+      "name": "gz-endpoint-list",
+      "required": ""
+    },
+    {
+      "description": "gz-endpoint-deisolate gz-endpoint-kill-process gz-endpoint-run-command",
+      "name": "gz-endpoint-isolate",
+      "required": ""
+    },
+    {
+      "description": "gz-endpoint-list-by-running-process-hash gz-endpoint-get-process-tree-by-hash gz-incident-get",
+      "name": "gz-endpoint-upload-file",
+      "required": ""
+    },
+    {
+      "description": "gz-incident-add-note gz-incident-change-status gz-poll-investigation-activity-status",
+      "name": "gz-incident-list",
+      "required": ""
+    },
+    {
+      "description": "gz-poll-task-status get-modified-remote-data get-remote-data",
+      "name": "gz-poll-live-search-status",
+      "required": ""
+    },
+    {
+      "description": "get-mapping-fields Incident Mirroring Docs",
+      "name": "update-remote-system",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GravityZone",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/gravity-zone"
+}

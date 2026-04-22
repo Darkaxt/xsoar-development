@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The ID of the group to which the attribute was added.",
+  "examples": [
+    "Command Example\n!tc-create-document-group file_name=\"sample.pdf\" name=\"sample.pdf\" EntryID=\"13094@b2672a50-1db8-4424-8dcc-2136f4548ce4\"\n31. Retrieve a single group\nRetrieves a single group.\nBase Command\ntc-get-group\nInput\nArgument Name",
+    "!tc-create-document-group file_name=\"sample.pdf\" name=\"sample.pdf\" EntryID=\"13094@b2672a50-1db8-4424-8dcc-2136f4548ce4\"\n31. Retrieve a single group\nRetrieves a single group.\nBase Command\ntc-get-group\nInput\nArgument Name\nDescription",
+    "Command Example\n!tc-get-group group_id=4579650 group_type=events\nContext Example\n{\n\"TC.Group\": {\n\"DateAdded\": \"2019-09-18T10:08:37Z\",\n\"EventDate\": \"2019-09-18T10:08:37Z\",\n\"ID\": 4579650,",
+    "!tc-get-group group_id=4579650 group_type=events\nContext Example\n{\n\"TC.Group\": {\n\"DateAdded\": \"2019-09-18T10:08:37Z\",\n\"EventDate\": \"2019-09-18T10:08:37Z\",\n\"ID\": 4579650,\n\"Name\": \"MyTest\","
+  ],
+  "kind": "integration-command",
+  "name": "tc-get-group",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date The date on which the group was added. TC.Group.EventDate",
+      "name": "TC.Group.DateAdded",
+      "required": ""
+    },
+    {
+      "description": "The date on which the event occurred. TC.Group.Name The name of the group.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The ID of the group owner. TC.Group.Owner.Name The name of the group owner.",
+      "name": "TC.Group.Owner.ID",
+      "required": ""
+    },
+    {
+      "description": "The type of the owner. TC.Group.Status The status of the group.",
+      "name": "TC.Group.Owner.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

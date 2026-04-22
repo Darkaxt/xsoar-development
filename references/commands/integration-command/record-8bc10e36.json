@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "SslLabs.Info.messages",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Assessment host, which can be a hostname or an IP address SslLabs.Analyze.port Assessment port (e.g., 443)",
+      "name": "SslLabs.Analyze.host",
+      "required": ""
+    },
+    {
+      "description": "Protocol (e.g., HTTP) SslLabs.Analyze.isPublic true if this assessment is publicly available (listed on the SSL Labs assessment boards)",
+      "name": "SslLabs.Analyze.protocol",
+      "required": ""
+    },
+    {
+      "description": "Assessment status; possible values: DNS, ERROR, IN_PROGRESS, and READY. SslLabs.Analyze.startTime Assessment starting time, in milliseconds since 1970",
+      "name": "SslLabs.Analyze.status",
+      "required": ""
+    },
+    {
+      "description": "Assessment completion time, in milliseconds since 1970 SslLabs.Analyze.engineVersion Assessment engine version (e.g., \"2.2.0\")",
+      "name": "SslLabs.Analyze.testTime",
+      "required": ""
+    },
+    {
+      "description": "Grading criteria version (e.g., \"2009l\") SslLabs.Analyze.cacheExpiryTime When will the assessment results expire from the cache (typically set only for assessment with errors; otherwise the results stay in the cache for as long as there's sufficient room)",
+      "name": "SslLabs.Analyze.criteriaVersion",
+      "required": ""
+    },
+    {
+      "description": "The list of certificate hostnames collected from the certificates seen during assessment. The hostnames may not be valid. This field is available only if the server certificate doesn't match the requested hostname. In that case, this field saves you some time as you don't have to inspect the certificates yourself to find out what valid hostnames might be. SslLabs.Analyze.endpoints list of Endpoint objects",
+      "name": "SslLabs.Analyze.certHostnames",
+      "required": ""
+    },
+    {
+      "description": "a list of Cert object, representing the chain certificates in the order in which they were retrieved from the server. Edit this page Report an Issue",
+      "name": "SslLabs.Analyze.certs",
+      "required": ""
+    },
+    {
+      "description": "\u00ab SpyCloud Enterprise Protection Feed Next Stairwell Inception \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands ssl-labs-register-email ssl-labs-info",
+      "name": "Configure SSL Labs (Community Contribution) in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "ssl-labs-analyze",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SSL Labs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ssl-labs"
+}

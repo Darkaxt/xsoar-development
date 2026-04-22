@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!cb-push-file-to-endpoint entry-id=84@583490 path=\"c:\\Users\\All Users\\Desktop\" sensor=17\nContext Example\n{\n\"CbLiveResponse\": {\n\"Commands\": {\n\"CbCommandID\": 1,\n\"CbSensorID\": 17,",
+    "!cb-push-file-to-endpoint entry-id=84@583490 path=\"c:\\Users\\All Users\\Desktop\" sensor=17\nContext Example\n{\n\"CbLiveResponse\": {\n\"Commands\": {\n\"CbCommandID\": 1,\n\"CbSensorID\": 17,\n\"CbSessionID\": 338,"
+  ],
+  "kind": "integration-command",
+  "name": "cb-push-file-to-endpoint",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique command identifier. CbLiveResponse.Commands.CommandName The command name.",
+      "name": "CbLiveResponse.Commands.CbCommandID",
+      "required": ""
+    },
+    {
+      "description": "The command Status ('pending', 'in progress', 'complete', 'error', 'canceled'). CbLiveResponse.Commands.CommandCompletionTime The command completion time (0 if not complete).",
+      "name": "CbLiveResponse.Commands.Status",
+      "required": ""
+    },
+    {
+      "description": "The destination path of the file.",
+      "name": "CbLiveResponse.Commands.OperandObject",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "gcp-project-hierarchy"
+  ],
+  "arguments": [],
+  "description": "GCPProjectHierarchy | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GCPProjectHierarchy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the project/folder/organization object, such as `folders/folder-name`. GCPHierarchy.level Level in relation to the original project such as project, 1, 2, etc.",
+      "name": "GCPHierarchy.id",
+      "required": ""
+    },
+    {
+      "description": "GCPHierarchy.number Number of the project/folder/organization object such as `folders/111111111111`. Edit this page",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab GCPOffendingFirewallRule Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "generate_profile_id \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GCPProjectHierarchy",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/gcp-project-hierarchy"
+}

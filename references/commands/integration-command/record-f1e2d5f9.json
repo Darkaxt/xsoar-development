@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!microsoft-teams-teams-list-joined user_id=3fa9f28b-eb0e-463a-ba7b-8089fe9991e2\nContext Example\n#\n{\n\"MicrosoftTeams\"\n:",
+    "!microsoft-teams-teams-list-joined user_id=3fa9f28b-eb0e-463a-ba7b-8089fe9991e2\nContext Example\n#\n{\n\"MicrosoftTeams\"\n:\n{\n\"Team\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date Timestamp of when the group was created. The value cannot be modified and is automatically populated when the group is created. The Timestamp type represents date and time information using ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 would look like this: '2014-01-01T00:00:00Z'. MicrosoftTeams.Team.classification",
+      "name": "MicrosoftTeams.Team.createdDateTime",
+      "required": ""
+    },
+    {
+      "description": "Typically describes the data or business sensitivity of the team. MicrosoftTeams.Team.isArchived Whether this team is in read-only mode.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The display name for the group. MicrosoftTeams.Team.visibility Specifies the visibility of a Microsoft 365 group. Possible values are: Private, Public, or Hiddenmembership; blank values are treated as public.",
+      "name": "MicrosoftTeams.Team.displayName",
+      "required": ""
+    },
+    {
+      "description": "The unique identifier for the group. MicrosoftTeams.Team.description An optional description for the group.",
+      "name": "MicrosoftTeams.Team.id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Teams Management",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-teams-management"
+}

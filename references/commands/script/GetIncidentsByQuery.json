@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "get-incidents-by-query"
+  ],
+  "arguments": [],
+  "description": "GetIncidentsByQuery | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetIncidentsByQuery",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The output file name. GetIncidentsByQuery.FileFormat The output file format.",
+      "name": "GetIncidentsByQuery.Filename",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Next GetIncidentTasks \u00bb Script Data",
+      "name": "\u00ab GetIncidentsApiModule",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetIncidentsByQuery",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-incidents-by-query"
+}

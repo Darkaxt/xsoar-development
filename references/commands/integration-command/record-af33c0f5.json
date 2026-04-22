@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\naccessdata-get-processing-case-id\nContext Example\n#\n{\n\"Accessdata.ProcessingCaseId\": 2\n}"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the processing case.",
+      "name": "Accessdata.ProcessingCaseId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Accessdata (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/accessdata"
+}

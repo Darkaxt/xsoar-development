@@ -1,0 +1,122 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "John LaCour not@domain.com",
+  "examples": [
+    "Command Example\n!phishlabs-ioc-eir-get-incident-by-id incident_id=INC0671150\nContext Example\n{\n\"DBotScore\": [\n{\n\"Indicator\": \"https://google.com\",\n\"Score\": 1,",
+    "!phishlabs-ioc-eir-get-incident-by-id incident_id=INC0671150\nContext Example\n{\n\"DBotScore\": [\n{\n\"Indicator\": \"https://google.com\",\n\"Score\": 1,\n\"Type\": \"URL\","
+  ],
+  "kind": "integration-command",
+  "name": "phishlabs-ioc-eir-get-incident-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Incident reason type PhishLabsIOC.EIR.Classification Incident classification",
+      "name": "PhishLabsIOC.EIR.CaseType",
+      "required": ""
+    },
+    {
+      "description": "Detailed classification PhishLabsIOC.EIR.Severity Incident severity",
+      "name": "PhishLabsIOC.EIR.SubClassification",
+      "required": ""
+    },
+    {
+      "description": "Email submission method PhishLabsIOC.EIR.FurtherReviewReason Incident further review reason",
+      "name": "PhishLabsIOC.EIR.SubmissionMethod",
+      "required": ""
+    },
+    {
+      "description": "Id of incident PhishLabsIOC.EIR.Title Title of reported incident",
+      "name": "PhishLabsIOC.EIR.ID",
+      "required": ""
+    },
+    {
+      "description": "Description of reporeted incident PhishLabsIOC.EIR.Status Status of reported incident",
+      "name": "PhishLabsIOC.EIR.Description",
+      "required": ""
+    },
+    {
+      "description": "Date Date of incident creation PhishLabsIOC.EIR.Modified",
+      "name": "PhishLabsIOC.EIR.Created",
+      "required": ""
+    },
+    {
+      "description": "Date of incident last modified PhishLabsIOC.EIR.Closed Date",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "PhishLabsIOC.EIR.Duration Duration until closing incident in seconds PhishLabsIOC.EIR.EmailReportedBy",
+      "name": "Date of incident closing",
+      "required": ""
+    },
+    {
+      "description": "User who reported the incident PhishLabsIOC.EIR.Email.EmailBody Email body",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Email sender PhishLabsIOC.EIR.Email.URL.URL Url found in body",
+      "name": "PhishLabsIOC.EIR.Email.Sender",
+      "required": ""
+    },
+    {
+      "description": "Is the url malicious? PhishLabsIOC.EIR.Email.URL.MaliciousDomain Is the url domain malicious?",
+      "name": "PhishLabsIOC.EIR.Email.URL.Malicious",
+      "required": ""
+    },
+    {
+      "description": "Name of the attached file PhishLabsIOC.EIR.Email.Attachment.MimeType Attachemt mime type",
+      "name": "PhishLabsIOC.EIR.Email.Attachment.FileName",
+      "required": ""
+    },
+    {
+      "description": "Attachemt md5 hash PhishLabsIOC.EIR.Email.Attachment.SHA256 Attachemt sha256 hash",
+      "name": "PhishLabsIOC.EIR.Email.Attachment.MD5",
+      "required": ""
+    },
+    {
+      "description": "Is the file malicious? Email.To The recipient of the email.",
+      "name": "PhishLabsIOC.EIR.Email.Attachment.Malicious",
+      "required": ""
+    },
+    {
+      "description": "The sender of the email. Email.Body/HTML The plain-text version of the email.",
+      "name": "Email.From",
+      "required": ""
+    },
+    {
+      "description": "The full file name (including file extension). File.SHA256 The SHA256 hash of the file.",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the file. File.Malicious.Vendor The vendor that reported the file as malicious.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "A description explaining why the file was determined to be malicious. URL.Data The URL",
+      "name": "File.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The vendor reporting the URL as malicious. URL.Malicious.Description A description of the malicious URL.",
+      "name": "URL.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Score The actual score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PhishLabs IOC EIR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/phish-labs-ioc-eir"
+}

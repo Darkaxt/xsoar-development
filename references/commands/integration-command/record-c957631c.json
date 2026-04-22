@@ -1,0 +1,58 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!test-custom-indicator\nHuman Readable Output\n#\ncustom_value\nEdit this page\nReport an Issue",
+    "!test-custom-indicator\nHuman Readable Output\n#\ncustom_value\nEdit this page\nReport an Issue\nPrevious\n\u00ab Cuckoo Sandbox"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Dummy output. Context Example",
+      "name": "Demo.Result.Output",
+      "required": ""
+    },
+    {
+      "description": "[ { \"Indicator\": \"custom_value\",",
+      "name": "DBotScore",
+      "required": ""
+    },
+    {
+      "description": "\"Type\": \"MyCustomIndicator\", \"Vendor\": \"CustomIndicatorDemo\" }",
+      "name": "\"Score\": 1,",
+      "required": ""
+    },
+    {
+      "description": "Demo.Result { \"dummy\": \"test\"",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "custom [ {",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"param1\": \"value1\", \"param2\": \"value2\" }",
+      "name": "\"Value\": \"custom_value\",",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "]",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CustomIndicatorDemo",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/custom-indicator-demo"
+}

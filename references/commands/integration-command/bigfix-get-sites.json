@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Delete an action: bigfix-action-delete",
+  "examples": [
+    "Command Example\n!bigfix-get-sites\nContext Example\n{\n\"Bigfix\": {\n\"Site\": [\n{\n\"Resource\": \"https://xsoar-example:20021/api/site/master/ActionSite\",",
+    "!bigfix-get-sites\nContext Example\n{\n\"Bigfix\": {\n\"Site\": [\n{\n\"Resource\": \"https://xsoar-example:20021/api/site/master/ActionSite\",\n\"Description\": null,"
+  ],
+  "kind": "integration-command",
+  "name": "bigfix-get-sites",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Site Bigfix.Site.Name Name of the site",
+      "name": "Bigfix.Site",
+      "required": ""
+    },
+    {
+      "description": "Description of the site Bigfix.Site.Resource Link to the endpoint resource",
+      "name": "Bigfix.Site.Description",
+      "required": ""
+    },
+    {
+      "description": "Type of the site (\"master\", \"custom\", \"external\", \"operator\") Bigfix.Site.Domain Site domain",
+      "name": "Bigfix.Site.Type",
+      "required": ""
+    },
+    {
+      "description": "Gather URL Bigfix.Site.GlobalReadPermission Whether the Global Read Permission is available",
+      "name": "Bigfix.Site.GatherURL",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BigFix",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/big-fix"
+}

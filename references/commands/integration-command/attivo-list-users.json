@@ -1,0 +1,30 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "There are no input arguments for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "attivo-list-users",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Attivo Botsink",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/attivo-botsink"
+}

@@ -1,0 +1,56 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "58b525579968cba0c68e8f7ae12e51e0b5542acc2c14a2e75fa6df44556e373f",
+  "examples": [
+    "!domain domain=kopabayport.co.tz\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Score The actual score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Reliability of the source providing the intelligence data. Domain.Name Domain found.",
+      "name": "DBotScore.Reliability",
+      "required": ""
+    },
+    {
+      "description": "description of the domain. Domain.TrafficLightProtocol TLP level.",
+      "name": "Domain.Description",
+      "required": ""
+    },
+    {
+      "description": "Categories matching this domain. LIS.Domain.Risk Risk associated to this domain.",
+      "name": "LIS.Domain.Categories",
+      "required": ""
+    },
+    {
+      "description": "TLP level. LIS.Domain.Type Type of domain.",
+      "name": "LIS.Domain.TLP",
+      "required": ""
+    },
+    {
+      "description": "Usage mode for LIS. LIS.Domain.Value The domain name.",
+      "name": "LIS.Domain.UsageMode",
+      "required": ""
+    },
+    {
+      "description": "Vulnerabilities associated to this domain.",
+      "name": "LIS.Domain.Vulnerabilities",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "LastInfoSec",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/last-info-sec"
+}

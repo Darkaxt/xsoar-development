@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "get-strings-distance"
+  ],
+  "arguments": [],
+  "description": "GetStringsDistance | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetStringsDistance",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The closeness of the sender domain to the configured domains. Edit this page Report an Issue",
+      "name": "LevenshteinDistance",
+      "required": ""
+    },
+    {
+      "description": "\u00ab GetSlackBlockBuilderResponse Next getSystemHealthStatus \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetStringsDistance",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-strings-distance"
+}

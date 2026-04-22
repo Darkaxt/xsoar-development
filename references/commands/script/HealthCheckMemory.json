@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "health-check-memory"
+  ],
+  "arguments": [],
+  "description": "HealthCheckMemory | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "HealthCheckMemory",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HealthCheckMemory",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/health-check-memory"
+}

@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "IOC Triggered On Machine",
+  "examples": [
+    "Command Example\nContext Example\nHuman Readable Output\n4. Get information for machine modules\nGet Names and ID's of modules of the machine. Filter by name or IOC score.\nBase Command\nnetwitness-get-machine-modules\nInput",
+    "Command Example\n!netwitness-get-machine-modules machineGUID= iocScoreGreaterThan=\"20\" limit=\"50\"\nContext Example\n{\n\"\nFile\n\"\n: {",
+    "!netwitness-get-machine-modules machineGUID= iocScoreGreaterThan=\"20\" limit=\"50\"\nContext Example\n{\n\"\nFile\n\"\n: {\n\""
+  ],
+  "kind": "integration-command",
+  "name": "netwitness-get-machine-modules",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Machine GUID NetWitness.Modules.ModuleName Module name",
+      "name": "NetWitness.Machines.MachineGUID",
+      "required": ""
+    },
+    {
+      "description": "Module ID NetWitness.Modules.Description Description",
+      "name": "NetWitness.Modules.ModuleID",
+      "required": ""
+    },
+    {
+      "description": "IOC score NetWitness.Modules.AnalyticsScore Analytics score",
+      "name": "NetWitness.Modules.IOCScore",
+      "required": ""
+    },
+    {
+      "description": "Global machine count NetWitness.Modules.MD5 MD5",
+      "name": "NetWitness.Modules.GlobalMachineCount",
+      "required": ""
+    },
+    {
+      "description": "SHA-256",
+      "name": "NetWitness.Modules.SHA256",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness Endpoint",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-endpoint"
+}

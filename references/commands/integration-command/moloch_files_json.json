@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!moloch_connections_csv date=\"-1\"\nHuman Readable Output\n3. Return a list of files\nReturn a list of files in the Moloch database.\nBase Command\nmoloch_files_json\nInput",
+    "!moloch_connections_csv date=\"-1\"\nHuman Readable Output\n3. Return a list of files\nReturn a list of files in the Moloch database.\nBase Command\nmoloch_files_json\nInput\nArgument Name",
+    "Command Example\n!moloch_files_json length=\"10\"\nHuman Readable Output\n{\n\"data\": [\n{\n\"filesize\": 15819,\n\"first\": 1273057060,",
+    "!moloch_files_json length=\"10\"\nHuman Readable Output\n{\n\"data\": [\n{\n\"filesize\": 15819,\n\"first\": 1273057060,\n\"id\": \"demo-1\","
+  ],
+  "kind": "integration-command",
+  "name": "moloch_files_json",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Moloch (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/moloch"
+}

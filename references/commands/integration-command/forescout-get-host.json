@@ -1,0 +1,141 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Indicates the user name of the client.",
+  "examples": [
+    "Command Example\nforescout-get-host ip=192.168.1.212 fields=fsapi_DemistoTest,fsapi_demisto_composite,fsapi_demisto_list,fsapi_composite_1\nContext Example\n{\n\"Forescout.Host\": {\n\"MACAddress\": null,\n\"IPAddress\": \"192.168.1.212\",\n\"ID\": \"3232235988\""
+  ],
+  "kind": "integration-command",
+  "name": "forescout-get-host",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "An endpoint may match multiple profiles. This property indicates all the classification profiles that this endpoint matches. Forescout.Host.EngineSeenPacket Indicates the host was seen by CounterACT.",
+      "name": "Forescout.Host.MatchedFingerprint",
+      "required": ""
+    },
+    {
+      "description": "Host is online. Forescout.Host.PrimClassification Indicates the most specific endpoint function detected. If CounterACT detects multiple endpoint functions, the property is resolved as the most specific value that is common to all the detected functions. If there is no common value, the property is resolved as \u2018Multiple Suggestions\u2019.",
+      "name": "Forescout.Host.Online",
+      "required": ""
+    },
+    {
+      "description": "Indicates a value associated with the NIC Vendor Forescout.Host.SambaOpenPort NetBIOS ports are open",
+      "name": "Forescout.Host.MacVendorString",
+      "required": ""
+    },
+    {
+      "description": "Indicates the operating system of the endpoint, as determined by classification tools. Forescout.Host.Vendor Network Device Vendor, Type and Model",
+      "name": "Forescout.Host.UserDefFp",
+      "required": ""
+    },
+    {
+      "description": "Indicates the SecureConnector version installed on a Windows host. Forescout.Host.Fingerprint Passive OS detection based on Syn packets",
+      "name": "Forescout.Host.AgentVersion",
+      "required": ""
+    },
+    {
+      "description": "Indicates the last IP that was investigated for this host Forescout.Host.VendorClassification Indicates the most specific vendor and model detected.",
+      "name": "Forescout.Host.AccessIP",
+      "required": ""
+    },
+    {
+      "description": "Indicates if the host is running SecureConnector. Forescout.Host.Onsite Indicates that a host is connected to the organizational network",
+      "name": "Forescout.Host.ManageAgent",
+      "required": ""
+    },
+    {
+      "description": "MAC prefix Forescout.Host.VaNetfunc Reported CDP VoIP device description for VA netfunc",
+      "name": "Forescout.Host.MacPrefix32",
+      "required": ""
+    },
+    {
+      "description": "Nmap-OS Fingerprint(Ver. 7.01) Forescout.Host.NmapDefFp5 Nmap-OS Fingerprint(Ver. 5.3)",
+      "name": "Forescout.Host.NmapDefFp7",
+      "required": ""
+    },
+    {
+      "description": "Indicates the SecureConnector deployment mode installed on the host. Forescout.Host.NmapFp7 Nmap-OS Class(Ver. 7.01) (Obsolete)",
+      "name": "Forescout.Host.AgentInstallMode",
+      "required": ""
+    },
+    {
+      "description": "Indicates how CounterACT determines the Network Function property of the endpoint. Forescout.Host.ClRule Indicates the rule responsible for classifying the host",
+      "name": "Forescout.Host.ClType",
+      "required": ""
+    },
+    {
+      "description": "Indicates the SecureConnector visible mode installed on the host. Forescout.Host.OSClassification Operating System",
+      "name": "Forescout.Host.AgentVisibleMode",
+      "required": ""
+    },
+    {
+      "description": "Indicates how the Operating System classification property was determined for this endpoint. Forescout.Host.LastNbtReportTime Last time when NBT name was reported",
+      "name": "Forescout.Host.ClassificationSourceOS",
+      "required": ""
+    },
+    {
+      "description": "Miscellaneous Forescout.Host.ClassificationSourceFunc Indicates how the Function classification property was determined for this endpoint.",
+      "name": "Forescout.Host.Misc",
+      "required": ""
+    },
+    {
+      "description": "Nmap-Network Function(Ver. 7.01) Forescout.Host.MAC ARP Spoofing (Obsolete)",
+      "name": "Forescout.Host.NmapNetfunc7",
+      "required": ""
+    },
+    {
+      "description": "Open Ports Forescout.Host.GstSignedInStat Logged In Status",
+      "name": "Forescout.Host.OpenPort",
+      "required": ""
+    },
+    {
+      "description": "The device class according to the DHCP fingerprint Forescout.Host.ADM Admission Events.",
+      "name": "Forescout.Host.DhcpClass",
+      "required": ""
+    },
+    {
+      "description": "The host DHCP request fingerprint Forescout.Host.DhcpOptFingerprint The host DHCP options fingerprint",
+      "name": "Forescout.Host.DhcpReqFingerprint",
+      "required": ""
+    },
+    {
+      "description": "Indicates the last time that IPv4 reported to the infrastructure Forescout.Host.DhcpOS The device OS according to the DHCP fingerprint",
+      "name": "Forescout.Host.Ipv4ReportTime",
+      "required": ""
+    },
+    {
+      "description": "The device Host Name as advertised by DHCP Forescout.Host.IPAddress Host IP address",
+      "name": "Forescout.Host.DhcpHostname",
+      "required": ""
+    },
+    {
+      "description": "Host MAC address Forescout.Host.ID Forescout ID number for the host",
+      "name": "Forescout.Host.MACAddress",
+      "required": ""
+    },
+    {
+      "description": "IP Address of the host. Endpoint.MACAddress MAC Address of the host.",
+      "name": "Endpoint.IPAddress",
+      "required": ""
+    },
+    {
+      "description": "Endpoint DHCP Server. Endpoint.Hostname Hostname of the endpoint.",
+      "name": "Endpoint.DHCPServer",
+      "required": ""
+    },
+    {
+      "description": "Endpoint Operating System. Endpoint.Model Vendor and Model of the endpoint.",
+      "name": "Endpoint.OS",
+      "required": ""
+    },
+    {
+      "description": "Domain of the endpoint.",
+      "name": "Endpoint.Domain",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Forescout CounterACT",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forescout"
+}

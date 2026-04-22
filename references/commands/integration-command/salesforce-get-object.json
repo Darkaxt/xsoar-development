@@ -1,0 +1,121 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n3. Get an object\nGet object by path\nBase Command\nsalesforce-get-object\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "salesforce-get-object",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Case Object ID SalesForce.Case.CaseNumber Case number",
+      "name": "SalesForce.Case.ID",
+      "required": ""
+    },
+    {
+      "description": "Case subject SalesForce.Case.Description Case description",
+      "name": "SalesForce.Case.Subject",
+      "required": ""
+    },
+    {
+      "description": "date Time the case was created SalesForce.Case.ClosedDate",
+      "name": "SalesForce.Case.CreateDate",
+      "required": ""
+    },
+    {
+      "description": "Time the case was closed SalesForce.Case.Owner Case owner",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "Case priority (Low, Medium, High) SalesForce.Case.Origin How case originated (Web, Phone, Email)",
+      "name": "SalesForce.Case.Priority",
+      "required": ""
+    },
+    {
+      "description": "Case status (New, Escalated, On Hold, or Closed) SalesForce.Case.Reason Reason the case was created",
+      "name": "SalesForce.Case.Status",
+      "required": ""
+    },
+    {
+      "description": "Contact ID SalesForce.Contact.Name Contact name",
+      "name": "SalesForce.Contact.ID",
+      "required": ""
+    },
+    {
+      "description": "Account associated with the contact information SalesForce.Contact.Title Contact title",
+      "name": "SalesForce.Contact.Account",
+      "required": ""
+    },
+    {
+      "description": "Contact phone number SalesForce.Contact.MobliePhone Contact mobile number",
+      "name": "SalesForce.Contact.Phone",
+      "required": ""
+    },
+    {
+      "description": "Contact email address SalesForce.Contact.Owner Contact owner",
+      "name": "SalesForce.Contact.Email",
+      "required": ""
+    },
+    {
+      "description": "Lead ID SalesForce.Lead.Name Lead name",
+      "name": "SalesForce.Lead.ID",
+      "required": ""
+    },
+    {
+      "description": "Lead title SalesForce.Lead.Company Lead company",
+      "name": "SalesForce.Lead.Title",
+      "required": ""
+    },
+    {
+      "description": "Lead phone number SalesForce.Lead.Mobile Lead mobile number",
+      "name": "SalesForce.Lead.Phone",
+      "required": ""
+    },
+    {
+      "description": "Lead email address SalesForce.Lead.Owner Lead owner",
+      "name": "SalesForce.Lead.Email",
+      "required": ""
+    },
+    {
+      "description": "Lead status (New, Nurturing, Working, Qualified, or Unqualified) SalesForce.Task.ID Task ID",
+      "name": "SalesForce.Lead.Status",
+      "required": ""
+    },
+    {
+      "description": "Task subject SalesForce.Task.Lead Task leader",
+      "name": "SalesForce.Task.Subject",
+      "required": ""
+    },
+    {
+      "description": "Relevant account SalesForce.Task.DueDate date",
+      "name": "SalesForce.Task.RelatedTo",
+      "required": ""
+    },
+    {
+      "description": "SalesForce.User.ID User ID SalesForce.User.Name",
+      "name": "Task due date",
+      "required": ""
+    },
+    {
+      "description": "User's name SalesForce.User.Title User's title",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "User's phone number SalesForce.User.Email",
+      "name": "SalesForce.User.Phone",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Salesforce",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/salesforce"
+}

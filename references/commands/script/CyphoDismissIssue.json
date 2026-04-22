@@ -1,0 +1,67 @@
+{
+  "aliases": [
+    "cypho-dismiss-issue"
+  ],
+  "arguments": [
+    {
+      "description": "The automation automatically uses: The current incident owner The Cypho ticket ID associated with the incident",
+      "name": "There are no manual inputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The dismissal action triggered by the analyst",
+      "required": ""
+    }
+  ],
+  "description": "CyphoDismissIssue | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CyphoDismissIssue",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The script performs a background synchronization and updates the issue status in Cypho to Dismissed .",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "\u2714 Notes",
+      "required": ""
+    },
+    {
+      "description": "button on the incident layout. The incident",
+      "name": "This script is intended to be executed via a",
+      "required": ""
+    },
+    {
+      "description": "before the dismissal action is allowed. Designed to prevent unauthorized or automated dismissals. Ensures accurate tracking of analyst decisions and incident resolution flow.",
+      "name": "must be assigned",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Seamlessly integrates Cypho issue lifecycle management with Cortex XSOAR workflows.",
+      "required": ""
+    },
+    {
+      "description": "Next CyphoDownloadAttachments \u00bb Script Data",
+      "name": "\u00ab CyphoAssignToMeButton",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "\u2714 Notes",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyphoDismissIssue",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cypho-dismiss-issue"
+}

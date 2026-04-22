@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "3. Get IP addresses associated with an SSL certificate",
+  "examples": [
+    "Command Example\n!circl-ssl-query-certificate certificate=c46fed822dadac3f31f9bb4d1a78a1d9eae4567b limitResults=10\nContext Example\n{\n\"\nHits\n\"\n:",
+    "!circl-ssl-query-certificate certificate=c46fed822dadac3f31f9bb4d1a78a1d9eae4567b limitResults=10\nContext Example\n{\n\"\nHits\n\"\n:\n1066"
+  ],
+  "kind": "integration-command",
+  "name": "circl-ssl-query-certificate",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA-1 fingerprint of the certificate CIRCLssl.Certificate.Hits Number of hits for the certificate (number of associated addresses)",
+      "name": "CIRCLssl.Certificate.SHA1",
+      "required": ""
+    },
+    {
+      "description": "IP address associated to the certificate",
+      "name": "CIRCLssl.Certificate.IPAddress",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CIRCL",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/circl"
+}

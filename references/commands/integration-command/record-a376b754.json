@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Retrieve information about a Campaign from Mandiant",
+  "examples": [
+    "!mati-get-campaign campaign_id=CAMP.21.014\nContext Example\n#\n{\n\"MANDIANTTI\"\n:\n{\n\"Campaign\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the Campaign MANDIANTTI.Campaign.fields.actors The Threat Actors associated with the Campaign",
+      "name": "MANDIANTTI.Campaign.value",
+      "required": ""
+    },
+    {
+      "description": "The description of the Campaign MANDIANTTI.Campaign.fields.tags The industries associated with the Campaign",
+      "name": "MANDIANTTI.Campaign.fields.description",
+      "required": ""
+    },
+    {
+      "description": "The title of a report associated with the Campaign MANDIANTTI.Campaign.fields.publications.link The link to the report in Mandiant Advantage",
+      "name": "MANDIANTTI.Campaign.fields.publications.title",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Mandiant Advantage Threat Intelligence",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mandiant-advantage-threat-intelligence"
+}

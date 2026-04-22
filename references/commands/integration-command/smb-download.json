@@ -1,0 +1,13 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.\u00a0After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "smb-download",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Server Message Block (SMB) (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/server-message-block-smb"
+}

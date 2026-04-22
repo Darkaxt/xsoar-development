@@ -1,0 +1,224 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "xdome-get-device-vulnerability-relations",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Get details of devices with their related vulnerabilities from the database. The data returned by this endpoint for each device corresponds to the vulnerabilities table in the single device page.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "xdome-get-device-vulnerability-relations",
+      "required": ""
+    },
+    {
+      "description": "Name designated by Claroty's Research team, based on the advisory name or CVE ID. XDome.DeviceVulnerability.vulnerability_type Type such as \"Application\", \"Clinical\", \"IoT\" or \"Platform\".",
+      "name": "XDome.DeviceVulnerability.vulnerability_name",
+      "required": ""
+    },
+    {
+      "description": "List Relevant Common Vulnerability Exploits for the selected vulnerability. XDome.DeviceVulnerability.vulnerability_cvss_v3_score",
+      "name": "XDome.DeviceVulnerability.vulnerability_cve_ids",
+      "required": ""
+    },
+    {
+      "description": "Common Vulnerability Scoring System Version 3 score (0-10). In case of multiple CVEs, the highest Subscore is displayed. XDome.DeviceVulnerability.vulnerability_adjusted_vulnerability_score The Adjusted Vulnerability Score represents the vulnerability score based on its impact and exploitability.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The calculated Adjusted vulnerability Score (AVS) level of a vulnerability, such as \"Critical\", or \"High\". XDome.DeviceVulnerability.vulnerability_epss_score A probability score between 0 to 1 indicating the likelihoodof a vulnerability to be exploited in the wild, based on the Exploit Prediction Scoring System (EPSS) model.",
+      "name": "XDome.DeviceVulnerability.vulnerability_adjusted_vulnerability_score_level",
+      "required": ""
+    },
+    {
+      "description": "Details about the vulnerability. XDome.DeviceVulnerability.vulnerability_exploits_count An aggregated numeric field of the number of known exploits based on ExploitDB.",
+      "name": "XDome.DeviceVulnerability.vulnerability_description",
+      "required": ""
+    },
+    {
+      "description": "A boolean field indicating whether a vulnerability is currently exploited in-the-wild, based on the CISA Catalog of Known Exploited Vulnerabilities. XDome.DeviceVulnerability.vulnerability_published_date Date",
+      "name": "XDome.DeviceVulnerability.vulnerability_is_known_exploited",
+      "required": ""
+    },
+    {
+      "description": "XDome.DeviceVulnerability.vulnerability_relevance The device vulnerability relevance reflects the confidence level of the detection process, corresponding to several components, such as the vulnerability type. XDome.DeviceVulnerability.device_vulnerability_detection_date",
+      "name": "The date and time the vulnerability was released.",
+      "required": ""
+    },
+    {
+      "description": "The date when the vulnerability was initially detected on the device. A vulnerability is considered detected once marked as \u201cconfirmed\u201d or \u201cpotentially relevant\u201d for the respective device. XDome.DeviceVulnerability.device_network_list List",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "XDome.DeviceVulnerability.device_category The device category group (see \"About Device Categorization\" in the Knowledge Base). XDome.DeviceVulnerability.device_subcategory",
+      "name": "The network types, \"Corporate\" and or \"Guest\", that the device belongs to.",
+      "required": ""
+    },
+    {
+      "description": "The device sub-category group (see \"About Device Categorization\" in the Knowledge Base). XDome.DeviceVulnerability.device_type The device type group (see \"About Device Categorization\" in the Knowledge Base).",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "A universal unique identifier (UUID) for the device. XDome.DeviceVulnerability.device_asset_id Asset ID.",
+      "name": "XDome.DeviceVulnerability.device_uid",
+      "required": ""
+    },
+    {
+      "description": "List MAC address associated with the device. XDome.DeviceVulnerability.device_ip_list",
+      "name": "XDome.DeviceVulnerability.device_mac_list",
+      "required": ""
+    },
+    {
+      "description": "IP address associated with the device. IPs may be suffixed by a / (annotation), where annotation may be a child device ID or (Last Known IP). XDome.DeviceVulnerability.device_type_family The device type family group (see \"About Device Categorization\" in the Knowledge Base).",
+      "name": "List",
+      "required": ""
+    },
+    {
+      "description": "The device's model. XDome.DeviceVulnerability.device_os_category The device's OS category, such as \"Windows\", \"Linux\" or \"Other\".",
+      "name": "XDome.DeviceVulnerability.device_model",
+      "required": ""
+    },
+    {
+      "description": "The device's serial number. XDome.DeviceVulnerability.device_vlan_list List",
+      "name": "XDome.DeviceVulnerability.device_serial_number",
+      "required": ""
+    },
+    {
+      "description": "XDome.DeviceVulnerability.device_labels List The labels added to the device manually or automatically.",
+      "name": "The virtual LAN to which the device belongs.",
+      "required": ""
+    },
+    {
+      "description": "List The users and or groups the device is assigned to. XDome.DeviceVulnerability.device_hw_version",
+      "name": "XDome.DeviceVulnerability.device_assignees",
+      "required": ""
+    },
+    {
+      "description": "The hardware version of the device. XDome.DeviceVulnerability.device_local_name Similar to hostname, the device name identifier is extracted from protocol traffic.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The aggregated value of OS name, version and revision, such as \"Windows XP SP3\". XDome.DeviceVulnerability.device_endpoint_security_names List",
+      "name": "XDome.DeviceVulnerability.device_combined_os",
+      "required": ""
+    },
+    {
+      "description": "XDome.DeviceVulnerability.device_equipment_class Determines the equipment class of the device, according to The Joint Commission (TJC). XDome.DeviceVulnerability.device_management_services",
+      "name": "The names of endpoint security applications installed on the device.",
+      "required": ""
+    },
+    {
+      "description": "Defines whether the device is managed by Active Directory, Mobile Device Management, or neither. XDome.DeviceVulnerability.device_purdue_level The network layer the device belongs to, based on the Purdue Reference Model for Industrial Control System (ICS). The network segmentation-based model defines OT and IT systems into six levels and the logical network boundary controls for securing these networks.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The most recent unique hostname identifier of the device, extracted from HTTP protocol traffic. XDome.DeviceVulnerability.device_snmp_last_seen_hostname The most recent unique hostname identifier of the device, extracted from SNMP protocol traffic.",
+      "name": "XDome.DeviceVulnerability.device_http_last_seen_hostname",
+      "required": ""
+    },
+    {
+      "description": "The notes added to the device. XDome.DeviceVulnerability.device_domains List",
+      "name": "XDome.DeviceVulnerability.device_note",
+      "required": ""
+    },
+    {
+      "description": "XDome.DeviceVulnerability.device_internet_communication The manner of the device's communication over the internet. XDome.DeviceVulnerability.device_edr_is_up_to_date_text",
+      "name": "The domain name of the network that the device belongs to.",
+      "required": ""
+    },
+    {
+      "description": "Determines whether the endpoint security application installed on the device is up-to-date. XDome.DeviceVulnerability.device_mac_oui_list List",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "XDome.DeviceVulnerability.device_ip_assignment_list List The device's IP assignment method, extracted from DHCP protocol traffic, such as \"DHCP\", \"DHCP (Static Lease)\", or \"Static\".",
+      "name": "The vendor of the device's NIC, according to the OUI (Organizational Unique Identifier) in the MAC address.",
+      "required": ""
+    },
+    {
+      "description": "List The name of the VLAN, extracted from switch configurations. XDome.DeviceVulnerability.device_vlan_description_list",
+      "name": "XDome.DeviceVulnerability.device_vlan_name_list",
+      "required": ""
+    },
+    {
+      "description": "The description of the VLAN, extracted from switch configurations. XDome.DeviceVulnerability.device_connection_type_list List",
+      "name": "List",
+      "required": ""
+    },
+    {
+      "description": "XDome.DeviceVulnerability.device_ssid_list List The name of the wireless network the device is connected to, such as \"Guest\".",
+      "name": "The connection types of a device, such as \"Ethernet\".",
+      "required": ""
+    },
+    {
+      "description": "List The location of the access point the device is connected to, extracted from Network Management integrations. XDome.DeviceVulnerability.device_switch_port_list",
+      "name": "XDome.DeviceVulnerability.device_ap_location_list",
+      "required": ""
+    },
+    {
+      "description": "The port identifier of the switch the device is connected to. XDome.DeviceVulnerability.device_switch_location_list List",
+      "name": "List",
+      "required": ""
+    },
+    {
+      "description": "XDome.DeviceVulnerability.device_number_of_nics The number of network interface cards seen on the network. XDome.DeviceVulnerability.device_last_seen_list",
+      "name": "The location of the switch the device is connected to.",
+      "required": ""
+    },
+    {
+      "description": "The date and time a device's NIC was last seen. XDome.DeviceVulnerability.device_first_seen_list List",
+      "name": "List",
+      "required": ""
+    },
+    {
+      "description": "XDome.DeviceVulnerability.device_is_online A boolean field indicating whether the device is online or not. XDome.DeviceVulnerability.device_network_scope_list",
+      "name": "The date and time a device's NIC was first seen.",
+      "required": ""
+    },
+    {
+      "description": "The device's Network Scope - used to differentiate between internal networks that share the same IP subnets. XDome.DeviceVulnerability.device_name The Device Name attribute is set automatically based on the priority of the Auto-Assigned Device attribute. You can also set it manually. The Device Name can be the device\u2019s IP, hostname, etc.",
+      "name": "List",
+      "required": ""
+    },
+    {
+      "description": "Manufacturer of the device, such as \"Alaris\". XDome.DeviceVulnerability.device_site_name The name of the site within the healthcare organization the device is associated with.",
+      "name": "XDome.DeviceVulnerability.device_manufacturer",
+      "required": ""
+    },
+    {
+      "description": "The calculated risk level of a device, such as \"Critical\", or \"High\". XDome.DeviceVulnerability.device_risk_score_points The calculated risk points of a device, such as \"54.1\".",
+      "name": "XDome.DeviceVulnerability.device_risk_score",
+      "required": ""
+    },
+    {
+      "description": "The calculated effective likelihood subscore level of a device, such as \"Critical\", or \"High\". XDome.DeviceVulnerability.device_effective_likelihood_subscore_points The calculated effective likelihood subscore points of a device, such as \"54.1\".",
+      "name": "XDome.DeviceVulnerability.device_effective_likelihood_subscore",
+      "required": ""
+    },
+    {
+      "description": "The calculated likelihood subscore level of a device, such as \"Critical\", or \"High\". XDome.DeviceVulnerability.device_likelihood_subscore_points The calculated likelihood subscore points of a device, such as \"54.1\".",
+      "name": "XDome.DeviceVulnerability.device_likelihood_subscore",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "xDome",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/x-dome"
+}

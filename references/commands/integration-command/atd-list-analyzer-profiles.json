@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "} 3 items Name: iexplore.exe RelType:8 Sha256: Reputation:15 Risk: --- Severity:-2 Url: WIN-K0RA93TITV8 Verdict:{",
+  "examples": [
+    "Command Example\n!atd-list-analyzer-profiles\nContext Example\n{\nresults:[\n] 4 items 0:{",
+    "!atd-list-analyzer-profiles\nContext Example\n{\nresults:[\n] 4 items 0:{"
+  ],
+  "kind": "integration-command",
+  "name": "atd-list-analyzer-profiles",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Analyzer's profile name ATD.ListAnalyzerProfiles.AnalyzerProfileId Analyzer's profile ID",
+      "name": "ATD.ListAnalyzerProfiles.Name",
+      "required": ""
+    },
+    {
+      "description": "Analyzer's profile description ATD.ListAnalyzerProfiles.Sandbox Whether the Analyzer's profile has access to the sandbox",
+      "name": "ATD.ListAnalyzerProfiles.Description",
+      "required": ""
+    },
+    {
+      "description": "Whether the Analyzer's profile has access to the internet ATD.ListAnalyzerProfiles.LocalBlackList Whether the Analyzer's profile has access to the local block list",
+      "name": "ATD.ListAnalyzerProfiles.Internet",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Advanced Threat Defense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-advanced-threat-defense"
+}

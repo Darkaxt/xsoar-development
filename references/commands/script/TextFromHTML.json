@@ -1,0 +1,43 @@
+{
+  "aliases": [
+    "text-from-html"
+  ],
+  "arguments": [],
+  "description": "TextFromHTML | Cortex XSOAR",
+  "examples": [
+    "!TextFromHTML html=\"<!DOCTYPE html><html><body><h1>This is heading 1</h1></body></html>\"\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nThis is heading 1"
+  ],
+  "kind": "script",
+  "name": "TextFromHTML",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Text extracted from the given HTML. Script Examples",
+      "name": "TextFromHTML",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!TextFromHTML html=\"<!DOCTYPE html><html><body><h1>This is heading 1</h1></body></html>\"",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TextFromHTML",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/text-from-html"
+}

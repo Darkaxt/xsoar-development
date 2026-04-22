@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "4. Get details for an entity",
+  "examples": [
+    "Command Example\n!jask-get-entity-details entity-id=d07ef37f-06c1-58c3-a7a0-c1cd0fa4cd8e\nContext Example\n{\n\"Jask\": {\n\"Entity\": {\n\"Name\": \"craig.campbell\",\n\"EntityType\": \"username\",",
+    "!jask-get-entity-details entity-id=d07ef37f-06c1-58c3-a7a0-c1cd0fa4cd8e\nContext Example\n{\n\"Jask\": {\n\"Entity\": {\n\"Name\": \"craig.campbell\",\n\"EntityType\": \"username\",\n\"PrimaryEntityType\": \"hostname\","
+  ],
+  "kind": "integration-command",
+  "name": "jask-get-entity-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Entity ID Jask.Entity.Name Entity name",
+      "name": "Jask.Entity.Id",
+      "required": ""
+    },
+    {
+      "description": "Entity IP address Jask.Entity.FirstSeen Time the entity was first seen",
+      "name": "Jask.Entity.IpAddress",
+      "required": ""
+    },
+    {
+      "description": "Time the entity was last seen Jask.Entity.Source The source of the entity",
+      "name": "Jask.Entity.LastSeen",
+      "required": ""
+    },
+    {
+      "description": "Asset type Jask.Entity.PrimaryAssetType Primary asset type",
+      "name": "Jask.Entity.AssetType",
+      "required": ""
+    },
+    {
+      "description": "Hostname Jask.Entity.RiskScore Risk score",
+      "name": "Jask.Entity.HostName",
+      "required": ""
+    },
+    {
+      "description": "Whether or not the entity is on allow list",
+      "name": "Jask.Entity.IsWhiteListed",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Jask (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jask"
+}

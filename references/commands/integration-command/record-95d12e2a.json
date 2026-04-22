@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!dragos-get-ioc-csv serial=DOM-2023-37",
+  "examples": [
+    "!dragos-get-ioc-csv serial=DOM-2023-37\nHuman Readable Output\n#\ndragos-get-stix2\n#\nGet the stix2 json bundle of indicators from a given report\nBase Command\n#",
+    "Command Example\n#\n!dragos-get-stix2 serial=DOM-2023-37\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious",
+    "!dragos-get-stix2 serial=DOM-2023-37\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious\n\u00ab Doppel\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Dragos Worldview",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dragos-worldview"
+}

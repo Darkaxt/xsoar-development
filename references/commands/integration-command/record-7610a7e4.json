@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\\VED\\Policy\\Venafi Operational Certificates",
+  "examples": [
+    "Command Example\n#\n!venafi-get-certificate-details guid=941e5574-e467-46c4-a735-e5daaa65832b\nContext Example\n#\n{\n\"Venafi\"\n:",
+    "!venafi-get-certificate-details guid=941e5574-e467-46c4-a735-e5daaa65832b\nContext Example\n#\n{\n\"Venafi\"\n:\n{\n\"Certificate\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The certificate object GUID. Venafi.Certificate.ParentDN The full path to the parent of the object in Trust Protection Platform.",
+      "name": "Venafi.Certificate.ID",
+      "required": ""
+    },
+    {
+      "description": "date The exact date and time when the Certificate object was created. Venafi.Certificate.DN",
+      "name": "Venafi.Certificate.CreatedOn",
+      "required": ""
+    },
+    {
+      "description": "The DN of the certificate. Venafi.Certificate.Name The name of the certificate.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "The class name of the certificate object. Venafi.Certificate.Approver An array of one or more users or groups who are certificate approvers.",
+      "name": "Venafi.Certificate.SchemaClass",
+      "required": ""
+    },
+    {
+      "description": "The CA template that is required for certificate renewal. Venafi.Certificate.Contact An array of one or more users or groups who receive event notifications. The events notify people about certificate expiration and validation failures.",
+      "name": "Venafi.Certificate.CertificateAuthorityDN",
+      "required": ""
+    },
+    {
+      "description": "Certificate description. Venafi.Certificate.ManagedBy Certificate manager.",
+      "name": "Venafi.Certificate.Description",
+      "required": ""
+    },
+    {
+      "description": "The level of management that the Trust Protection Platform applies to the certificate. Venafi.Certificate.CertificateDetails.AIAKeyIdentifier Authority key identifier.",
+      "name": "Venafi.Certificate.ManagementType",
+      "required": ""
+    },
+    {
+      "description": "The CN, O, L, S, and C values from the certificate request. Venafi.Certificate.CertificateDetails.Serial The unique serial number that the CA assigned to the certificate.",
+      "name": "Venafi.Certificate.CertificateDetails.Issuer",
+      "required": ""
+    },
+    {
+      "description": "The CN, O, L, S, and C values from the certificate request. Venafi.Certificate.CertificateDetails.Thumbprint The SHA1 thumbprint hash of the certificate.",
+      "name": "Venafi.Certificate.CertificateDetails.Subject",
+      "required": ""
+    },
+    {
+      "description": "Certificate validation start date. Venafi.Certificate.CertificateDetails.ValidTo Certificate validation end time.",
+      "name": "Venafi.Certificate.CertificateDetails.ValidFrom",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Venafi (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/venafi"
+}

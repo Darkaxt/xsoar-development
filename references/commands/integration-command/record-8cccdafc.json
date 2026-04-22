@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "This domain is trusted,",
+  "examples": [
+    "Command Example\n#\n!hyas-get-nameserver-verdict nameserver=\"ns1.example.com\"\nContext Example\n#\n{\n\"HYAS\"\n:",
+    "!hyas-get-nameserver-verdict nameserver=\"ns1.example.com\"\nContext Example\n#\n{\n\"HYAS\"\n:\n{\n\"NameserverVerdict\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Score The actual score.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the indicator score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "Verdict for the provided Nameserver. HYAS.NameserverVerdict.reasons Verdict Reasons for the provided Nameserver.",
+      "name": "HYAS.NameserverVerdict.verdict",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HYAS Protect",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hyas-protect"
+}

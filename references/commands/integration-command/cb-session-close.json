@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!cb-session-close session=3951\nContext Example\n{\n\"CbSensorID\": 13,\n\"CbSessionID\": 3951,\n\"Hostname\": \"WIN1\",\n\"SessionTimeout\": 300,",
+    "!cb-session-close session=3951\nContext Example\n{\n\"CbSensorID\": 13,\n\"CbSessionID\": 3951,\n\"Hostname\": \"WIN1\",\n\"SessionTimeout\": 300,\n\"Status\": \"close\","
+  ],
+  "kind": "integration-command",
+  "name": "cb-session-close",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Session status CbLiveResponse.Sessions.Hostname Hostname",
+      "name": "CbLiveResponse.Sessions.Status",
+      "required": ""
+    },
+    {
+      "description": "Sensor ID CbLiveResponse.Sessions.CbSessionID Session ID",
+      "name": "CbLiveResponse.Sessions.CbSensorID",
+      "required": ""
+    },
+    {
+      "description": "Session Timeout CbLiveResponse.Sessions.WaitTimeout Sensor wait timeout",
+      "name": "CbLiveResponse.Sessions.SessionTimeout",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

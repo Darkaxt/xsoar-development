@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "get-tasks-with-sections"
+  ],
+  "arguments": [],
+  "description": "GetTasksWithSections | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetTasksWithSections",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The entire task object Tasks.id Task ID",
+      "name": "Tasks",
+      "required": ""
+    },
+    {
+      "description": "Tasks.name Task name Tasks.section",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Tasks.type Task type (regular, condition, title, playbook, start) Tasks.owner",
+      "name": "Task section path",
+      "required": ""
+    },
+    {
+      "description": "Tasks.state Task state (inprogress, Completed, WillNotBeExecuted, Error, Waiting, Blocked, and empty string for not started) Tasks.scriptId",
+      "name": "Task owner",
+      "required": ""
+    },
+    {
+      "description": "Tasks.startDate Task start date Tasks.completedDate",
+      "name": "Task related script (empty if manual)",
+      "required": ""
+    },
+    {
+      "description": "Tasks.dueDate Task due date (SLA) Tasks.parentPlaybookID",
+      "name": "Task completed date",
+      "required": ""
+    },
+    {
+      "description": "Tasks.completedBy Name of the user who completed the task Edit this page",
+      "name": "Task parent playbook ID (if the task is part of a sub-playbook)",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab getSystemHealthStatus Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "GetTime \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetTasksWithSections",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-tasks-with-sections"
+}

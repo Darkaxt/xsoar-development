@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "RuleGroupStatus: ACTIVE",
+  "examples": [
+    "Command Example\n#\n!aws-network-firewall-update-subnet-change-protection subnet_change_protection=False firewall_arn=arn:aws:network-firewall:us-west-2:123456789012:firewall/myfirewall2\nContext Example\n#\n{\n\"AWS-NetworkFirewall\"\n:",
+    "!aws-network-firewall-update-subnet-change-protection subnet_change_protection=False firewall_arn=arn:aws:network-firewall:us-west-2:123456789012:firewall/myfirewall2\nContext Example\n#\n{\n\"AWS-NetworkFirewall\"\n:\n{\n\"FirewallAttributes\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "An optional token that you can use for optimistic locking. Network Firewall returns a token to your requests that access the firewall. The token marks the state of the firewall resource at the time of the request. To make an unconditional change to the firewall, omit the token in your update request. Without the token, Network Firewall performs your updates regardless of whether the firewall has changed since you last retrieved it. To make a conditional change to the firewall, provide the token ",
+      "name": "AWS-NetworkFirewall.UpdateToken",
+      "required": ""
+    },
+    {
+      "description": "The descriptive name of the firewall. You can't change the name of a firewall after you create it. AWS-NetworkFirewall.SubnetChangeProtection A setting indicating whether the firewall is protected against changes to the subnet associations. Use this setting to protect against accidentally modifying the subnet associations for a firewall that is in use. When you create a firewall, the operation initializes this setting to TRUE.",
+      "name": "AWS-NetworkFirewall.FirewallName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS Network Firewall",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws-network-firewall"
+}

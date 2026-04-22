@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address. IP.Geo.Location Latitude and longitude of the IP address.",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "Country of origin of the IP address. Ipstack.IP.address IP address.",
+      "name": "IP.Geo.Country",
+      "required": ""
+    },
+    {
+      "description": "IP type (ipv4 or ipv6). Ipstack.IP.continent_name Continent of the IP address.",
+      "name": "Ipstack.IP.type",
+      "required": ""
+    },
+    {
+      "description": "Latitude of the IP address. Ipstack.IP.longitude Longitude of the IP address.",
+      "name": "Ipstack.IP.latitude",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Score The actual score.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "How reliable the score is (for example, \"C - fairly reliable\"). DBotScore.Type The indicator type.",
+      "name": "DBotScore.Reliability",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. Edit this page Report an Issue",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "\u00ab IPQualityScore Next IRIS DFIR \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands ip Docs",
+      "name": "Configure ipstack in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ipstack",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ipstack"
+}

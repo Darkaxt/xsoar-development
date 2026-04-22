@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!internal-wildfire-get-report sha256=abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious",
+    "!internal-wildfire-get-report sha256=abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious\n\u00ab Palo Alto Networks Traps (Deprecated)\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks WildFire Reports",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/wild-fire-reports"
+}

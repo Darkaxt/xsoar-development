@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "to validate the URLs, token, and connection.",
+  "examples": [
+    "Command Example\n!ct-triage-endpoint endpoint=ct-win10-01 full_scan=no\nContext Example\nCyberTriage.SessionID: ct-win10-01|1538074422288\nCyberTriage.Hostname: ct-win10-01\nHuman Readable Output\nA collection has been scheduled for ct-win10-01\nEdit this page",
+    "!ct-triage-endpoint endpoint=ct-win10-01 full_scan=no\nContext Example\nCyberTriage.SessionID: ct-win10-01|1538074422288\nCyberTriage.Hostname: ct-win10-01\nHuman Readable Output\nA collection has been scheduled for ct-win10-01\nEdit this page\nReport an Issue"
+  ],
+  "kind": "integration-command",
+  "name": "ct-triage-endpoint",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The session ID for the newly created session Endpoint.IPAddress The endpoint IP address that Cyber Triage investigated",
+      "name": "CyberTriage.SessionId",
+      "required": ""
+    },
+    {
+      "description": "The endpoint hostname that Cyber Triage investigated",
+      "name": "Endpoint.Hostname",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cyber Triage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyber-triage"
+}

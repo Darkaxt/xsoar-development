@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "!dropbox-get-events should_push_events='false' limit=3\nHuman Readable Output\n#\nDropbox logs\n#\nActor\nContext\nDetails"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "dropbox-get-events",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Get events.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "dropbox-get-events",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Dropbox Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dropbox-events-collector"
+}

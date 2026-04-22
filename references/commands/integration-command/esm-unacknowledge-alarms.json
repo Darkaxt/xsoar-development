@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!esm-acknowledge-alarms alarmIds=2,5,6",
+  "examples": [
+    "Command Example\n!esm-acknowledge-alarms alarmIds=2,5,6\nHuman Readable Output\nAlarms has been Acknowledged.\n16. Mark triggered alarms as unacknowledged\nMarks triggered alarms as unacknowledged.\nBase Command\nesm-unacknowledge-alarms",
+    "!esm-acknowledge-alarms alarmIds=2,5,6\nHuman Readable Output\nAlarms has been Acknowledged.\n16. Mark triggered alarms as unacknowledged\nMarks triggered alarms as unacknowledged.\nBase Command\nesm-unacknowledge-alarms\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "esm-unacknowledge-alarms",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v10 and v11 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v10"
+}

@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "DBotScore.Reliability",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The File name. File.Extension The File extension.",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "The File path. File.SHA256 The File SHA256 hash value.",
+      "name": "File.Path",
+      "required": ""
+    },
+    {
+      "description": "The File SHA1 hash value. File.MD5 The File MD5 hash value.",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "The ssdeep hash of the File (same as displayed in file entries). File.Tags The File related tags.",
+      "name": "File.SSDeep",
+      "required": ""
+    },
+    {
+      "description": "The File related indicator type. File.FeedRelatedIndicators.type The File related indicator value.",
+      "name": "File.FeedRelatedIndicators.value",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Score The actual score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Reliability of the source providing the intelligence data. Edit this page Report an Issue",
+      "name": "DBotScore.Reliability",
+      "required": ""
+    },
+    {
+      "description": "\u00ab ANY.RUN TI Feed Next AnythingLLM \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Generate API token Configure ANY.RUN Lookup in Cortex Commands",
+      "name": "Use Cases",
+      "required": ""
+    },
+    {
+      "description": "ip domain url",
+      "name": "anyrun-get-intelligence",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "file",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ANY.RUN TI Lookup",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/anyrun-ti-lookup"
+}

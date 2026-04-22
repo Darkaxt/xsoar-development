@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!vectra-get-threatfeed\nContext Example\n{\n\"Vectra.ThreatFeed\": [\n{\n\"Category\": \"exfil\",\n\"Certainty\": \"Medium\",",
+    "!vectra-get-threatfeed\nContext Example\n{\n\"Vectra.ThreatFeed\": [\n{\n\"Category\": \"exfil\",\n\"Certainty\": \"Medium\",\n\"Duration\": 14,"
+  ],
+  "kind": "integration-command",
+  "name": "vectra-get-threatfeed",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The category in which the detection will fire if a match is observed with any indicator in the ThreatFeed Vectra.ThreatFeed.Name The name of the ThreatFeed",
+      "name": "Vectra.ThreatFeed.Category",
+      "required": ""
+    },
+    {
+      "description": "The default certainty to use for indicators in the STIX file Vectra.ThreatFeed.IndicatorType The default indicatorType to use for the observables in the STIX file",
+      "name": "Vectra.ThreatFeed.Certainty",
+      "required": ""
+    },
+    {
+      "description": "The default duration for which indicators in the ThreatFeed are valid Vectra.ThreatFeed.ID The ID of the ThreatFeed",
+      "name": "Vectra.ThreatFeed.Duration",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Vectra v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vectra-v2"
+}

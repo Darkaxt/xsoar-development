@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "endace-delete-archived-file",
+  "examples": [
+    "Command Example\n#\n!endace-delete-archived-file archived_filename=\"event-1586976861\"\nContext Example\n#\n{\n\"Endace\": {\n\"ArchivedFile\": {",
+    "!endace-delete-archived-file archived_filename=\"event-1586976861\"\nContext Example\n#\n{\n\"Endace\": {\n\"ArchivedFile\": {\n\"Delete\": {\n\"Error\": \"NoError\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Filename of the deleted archived file Endace.ArchivedFile.Delete.Status Archived File Delete task status",
+      "name": "Endace.ArchivedFile.Delete.FileName",
+      "required": ""
+    },
+    {
+      "description": "Delete Error",
+      "name": "Endace.ArchivedFile.Delete.Error",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Endace",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/endace"
+}

@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "4. Get threats from the iDefense database",
+  "examples": [
+    "Command Example\n!idefense-general max_result=1\nContext Example\n{\n\"URL\": [\n{\n\"Malicious\": {\n\"Vendor\": \"iDefense\",",
+    "!idefense-general max_result=1\nContext Example\n{\n\"URL\": [\n{\n\"Malicious\": {\n\"Vendor\": \"iDefense\",\n\"Description\": \"last seen as MALWARE_DOWNLOAD\""
+  ],
+  "kind": "integration-command",
+  "name": "idefense-general",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the bad IP Address. IP.Malicious.Vendor For malicious IPs, the vendor that made the decision.",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "For malicious IPs, the reason that the vendor made the decision. Domain.Name The name of the bad domain.",
+      "name": "IP.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "For malicious domains, the vendor that made the decision. Domain.Malicious.Description For malicious domains, the reason that the vendor made the decision.",
+      "name": "Domain.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The bad URL found. URL.Malicious.Vendor For malicious URLs, the vendor that made the decision.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the reason that the vendor made the decision. DBotScore.Indicator The indicator that was tested.",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The type of indicator. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "iDefense (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/i-defense"
+}

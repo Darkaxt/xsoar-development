@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "For errors within Tenable.sc, the cause is generally specified, e.g., The currently logged in used is not an administrator, Unable to retrieve Asset #2412. Asset #2412 does not exist or Invalid login credentials. However there might be connection errors, for example when the server URL provided is incorrect.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Tessian \u00bb Use cases",
+      "name": "\u00ab Tenable Vulnerability Management (formerly Tenable.io)",
+      "required": ""
+    },
+    {
+      "description": "Commands tenable-sc-list-scans Tenable.sc Scans",
+      "name": "Configure Tenable.sc in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Tenable.sc Scan Tenable.sc Scan 130 Report tenable-sc-get-vulnerability",
+      "name": "tenable-sc-launch-scan",
+      "required": ""
+    },
+    {
+      "description": "Synopsis Description Solution",
+      "name": "Vulnerability: FTP Server Detection (10092)",
+      "required": ""
+    },
+    {
+      "description": "Risk Information Exploit Information Plugin Details",
+      "name": "Hosts",
+      "required": ""
+    },
+    {
+      "description": "tenable-sc-get-scan-status Tenable.sc Scan Status tenable-sc-get-scan-report",
+      "name": "Vulnerability Information",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tenable.sc",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tenablesc"
+}

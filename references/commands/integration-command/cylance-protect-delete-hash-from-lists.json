@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "value is Global Safe. The value can be one of the following: \u2022 Admin Tool \u2022 Commercial Software \u2022 Drivers \u2022 Internal Application \u2022 Operating System \u2022 Security Software \u2022 None",
+  "examples": [
+    "Command Example\n!cylance-protect-add-hash-to-list sha256=\"9ACD45F5F3F2C7629E51FE3123D31296EF763F6ABC1F895CDD1BF1AFB9A7453B\" listType=\"GlobalQuarantine\"\nHuman Readable Output\n18. Remove a threat from a list\nRemoves an identified threat from either the Global Quarantine list or the Global Safe list for a particular Tenant.\nBase Command\ncylance-protect-delete-hash-from-lists\nInput",
+    "!cylance-protect-add-hash-to-list sha256=\"9ACD45F5F3F2C7629E51FE3123D31296EF763F6ABC1F895CDD1BF1AFB9A7453B\" listType=\"GlobalQuarantine\"\nHuman Readable Output\n18. Remove a threat from a list\nRemoves an identified threat from either the Global Quarantine list or the Global Safe list for a particular Tenant.\nBase Command\ncylance-protect-delete-hash-from-lists\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "cylance-protect-delete-hash-from-lists",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "SHA-256 of the file File.Cylance.ListType",
+      "name": "File.SHA256",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

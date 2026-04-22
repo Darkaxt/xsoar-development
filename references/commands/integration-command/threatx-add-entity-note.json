@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "test-note-from-demisto",
+  "examples": [
+    "Command Example\n!threatx-add-entity-note entity_id=566056709675514809 message=\"test note.\"\nHuman Readable Output\nResult\nNote for Entity<id=566056709675514809> created\nEdit this page\nReport an Issue\nPrevious",
+    "!threatx-add-entity-note entity_id=566056709675514809 message=\"test note.\"\nHuman Readable Output\nResult\nNote for Entity<id=566056709675514809> created\nEdit this page\nReport an Issue\nPrevious\n\u00ab ThreatQ v2"
+  ],
+  "kind": "integration-command",
+  "name": "threatx-add-entity-note",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatX",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-x"
+}

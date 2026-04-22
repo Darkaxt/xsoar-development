@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!gct-translate-text text=\"ciao\" target=\"iw\"\nContext Example\n{\n\"GoogleCloudTranslate.TranslateText\": {\n\"ID\": <ID>,\n\"detected_language_code\": \"it\",\n\"source_language_code\": null,",
+    "!gct-translate-text text=\"ciao\" target=\"iw\"\nContext Example\n{\n\"GoogleCloudTranslate.TranslateText\": {\n\"ID\": <ID>,\n\"detected_language_code\": \"it\",\n\"source_language_code\": null,\n\"target_language_code\": \"iw\","
+  ],
+  "kind": "integration-command",
+  "name": "gct-translate-text text=\"hello world\" target=\"hr\"",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the request. GoogleCloudTranslate.TranslateText.detected_language_code The detected two-letter ISO language code of the source language. Null, if no source argument is defined.",
+      "name": "GoogleCloudTranslate.TranslateText.ID",
+      "required": ""
+    },
+    {
+      "description": "The source language as specified in the source argument. Null, if no source argument is defined. GoogleCloudTranslate.TranslateText.target_language_code The two letter ISO language code to which the text was translated.",
+      "name": "GoogleCloudTranslate.TranslateText.source_language_code",
+      "required": ""
+    },
+    {
+      "description": "The source (original) text that was translated. GoogleCloudTranslate.TranslateText.translated_text The translated text.",
+      "name": "GoogleCloudTranslate.TranslateText.text",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Translate",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-translate"
+}

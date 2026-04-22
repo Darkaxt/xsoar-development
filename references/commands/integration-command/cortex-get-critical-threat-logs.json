@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2. Return logs for critical threats",
+  "examples": [
+    "Command Example\n!cortex-get-critical-threat-logs timeRange=\"weeks\" rangeValue=2 logsAmount=5\nContext Example\n{\n\"Logging\"\n:\n[\n{",
+    "!cortex-get-critical-threat-logs timeRange=\"weeks\" rangeValue=2 logsAmount=5\nContext Example\n{\n\"Logging\"\n:\n[\n{\n\"action\""
+  ],
+  "kind": "integration-command",
+  "name": "cortex-get-critical-threat-logs",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Log ID Cortex.Logging.score Log score",
+      "name": "Cortex.Logging.id",
+      "required": ""
+    },
+    {
+      "description": "Log action Cortex.Logging.app Log application",
+      "name": "Cortex.Logging.action",
+      "required": ""
+    },
+    {
+      "description": "Protocol used Cortex.Logging.dst Destination IP",
+      "name": "Cortex.Logging.proto",
+      "required": ""
+    },
+    {
+      "description": "Rule used for log Cortex.Logging.src Source of action",
+      "name": "Cortex.Logging.rule",
+      "required": ""
+    },
+    {
+      "description": "Application's category Cortex.Logging.srcloc Source location",
+      "name": "Cortex.Logging.category-of-app",
+      "required": ""
+    },
+    {
+      "description": "Destination location Cortex.Logging.characteristic-of-app Application's characteristics",
+      "name": "Cortex.Logging.dstloc",
+      "required": ""
+    },
+    {
+      "description": "Device name Cortex.Logging.nat Was NAT used?",
+      "name": "Cortex.Logging.device_name",
+      "required": ""
+    },
+    {
+      "description": "NAT port Cortex.Logging.natdst NAT destination",
+      "name": "Cortex.Logging.natdport",
+      "required": ""
+    },
+    {
+      "description": "NAT source Cortex.Logging.risk-of-app Application's risk",
+      "name": "Cortex.Logging.natsrc",
+      "required": ""
+    },
+    {
+      "description": "Threat type Cortex.Logging.pcap_id Pcap ID",
+      "name": "Cortex.Logging.type",
+      "required": ""
+    },
+    {
+      "description": "Report ID Cortex.Logging.category-of-threatid Category of threat ID",
+      "name": "Cortex.Logging.reportid",
+      "required": ""
+    },
+    {
+      "description": "Threat sub-type Cortex.Logging.time_received Time the threat was received",
+      "name": "Cortex.Logging.subtype",
+      "required": ""
+    },
+    {
+      "description": "PCAP Cortex.Logging.name-of-threatid Name of threat ID",
+      "name": "Cortex.Logging.pcap",
+      "required": ""
+    },
+    {
+      "description": "Threat severity",
+      "name": "Cortex.Logging.severity",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Cortex (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-cortex"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!azure-get-indicators\nHuman Readable Output\n#\nIndicators from Azure Feed\n#\nvalue",
+    "!azure-get-indicators\nHuman Readable Output\n#\nIndicators from Azure Feed\n#\nvalue\ntype\n20.37.158.0/23"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-feed"
+}

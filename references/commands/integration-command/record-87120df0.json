@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!exabeam-data-lake-search query=\"risk_score:3\" start_time=\"2024.02.27\" end_time=\"2024.02.28\" limit=2\nContext Example\n#\n{\n\"ExabeamDataLake\"\n:\n{\n\"Event\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "str The event ID. ExabeamDataLake.Event._source.Vendor",
+      "name": "ExabeamDataLake.Event._id",
+      "required": ""
+    },
+    {
+      "description": "Vendor of the event. ExabeamDataLake.Event._source.Product str",
+      "name": "str",
+      "required": ""
+    },
+    {
+      "description": "ExabeamDataLake.Event._source.@timestamp str The time of the event.",
+      "name": "Product of the event.",
+      "required": ""
+    },
+    {
+      "description": "str The message of the event.",
+      "name": "ExabeamDataLake.Event._source.message",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Exabeam Data Lake",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/exabeam-data-lake"
+}

@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Prints the Archer's integration cache.",
+  "examples": [
+    "Command Example\n#\n!archer-print-cache\nContext Example\n#\n{\n}\nHuman Readable Output",
+    "!archer-print-cache\nContext Example\n#\n{\n}\nHuman Readable Output\n#\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer-v2"
+}

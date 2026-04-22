@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "extend-query-based-on-phishing-labels"
+  ],
+  "arguments": [],
+  "description": "ExtendQueryBasedOnPhishingLabels | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ExtendQueryBasedOnPhishingLabels",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The original query extended by a part which takes into account the phishingLabels argument. Edit this page Report an Issue",
+      "name": "ExtendQueryBasedOnPhishingLabels.extendedQuery",
+      "required": ""
+    },
+    {
+      "description": "\u00ab ExposeIncidentOwner Next ExtFilter \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Used In",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExtendQueryBasedOnPhishingLabels",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/extend-query-based-on-phishing-labels"
+}

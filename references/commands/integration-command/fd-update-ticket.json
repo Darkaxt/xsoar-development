@@ -1,0 +1,72 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Demonstrate Ticket Creation",
+  "examples": [
+    "Command Example\n!fd-update-ticket id=108 priority=Medium subject=\"Demonstrating Ticket Updating\" assigned_agent=jeffrey.collins@gmail.com additional_fields=\"tags=almost completed,yep;attachments=2@5a0be47f-748f-4d60-8f46-81feb8f0c438\"\nContext Example\n{\n\"Freshdesk.Ticket\": {\n\"Status\": 2,\n\"ResponderID\": 2043022085976,\n\"DueBy\": \"2019-02-06T15:00:00Z\",",
+    "!fd-update-ticket id=108 priority=Medium subject=\"Demonstrating Ticket Updating\" assigned_agent=jeffrey.collins@gmail.com additional_fields=\"tags=almost completed,yep;attachments=2@5a0be47f-748f-4d60-8f46-81feb8f0c438\"\nContext Example\n{\n\"Freshdesk.Ticket\": {\n\"Status\": 2,\n\"ResponderID\": 2043022085976,\n\"DueBy\": \"2019-02-06T15:00:00Z\",\n\"FrDueBy\": \"2019-02-06T14:00:00Z\","
+  ],
+  "kind": "integration-command",
+  "name": "fd-update-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the updated ticket Freshdesk.Ticket.Priority Ticket priority",
+      "name": "Freshdesk.Ticket.ID",
+      "required": ""
+    },
+    {
+      "description": "Date Timestamp that denotes when the ticket is due to be resolved Freshdesk.Ticket.Subject",
+      "name": "Freshdesk.Ticket.DueBy",
+      "required": ""
+    },
+    {
+      "description": "Ticket subject Freshdesk.Ticket.Status Ticket status",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "User ID of the requester Freshdesk.Ticket.Tag Tags associated with the ticket",
+      "name": "Freshdesk.Ticket.RequesterID",
+      "required": ""
+    },
+    {
+      "description": "ID of the group assigned to the ticket Freshdesk.Ticket.Source The channel through which the ticket was created",
+      "name": "Freshdesk.Ticket.GroupID",
+      "required": ""
+    },
+    {
+      "description": "Date Ticket creation timestamp Freshdesk.Ticket.ResponderId",
+      "name": "Freshdesk.Ticket.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "ID of the agent the ticket was assigned to Freshdesk.Ticket.FrDueBy Date",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Freshdesk.Ticket.UpdatedAt Date Ticket update timestamp",
+      "name": "Timestamp that denotes when the first response is due",
+      "required": ""
+    },
+    {
+      "description": "Additional fields and values that were updated using the \u2018additional_fields\u2019 argument Freshdesk.Ticket.Attachment.AttachmentURL URL to download the file attached to the ticket to your local machine",
+      "name": "Freshdesk.Ticket.AdditionalFields",
+      "required": ""
+    },
+    {
+      "description": "The name of the file attached to the ticket Freshdesk.Ticket.Attachment.ContentType Content type of the attached file",
+      "name": "Freshdesk.Ticket.Attachment.Name",
+      "required": ""
+    },
+    {
+      "description": "ID number for the attached file Freshdesk.Ticket.Attachment.Size Size of the attached file in bytes",
+      "name": "Freshdesk.Ticket.Attachment.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Freshdesk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/freshdesk"
+}

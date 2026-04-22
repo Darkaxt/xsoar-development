@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!pan-os-edl-update-external-file file_path=test_playbook_list4.txt list_name=test_playbook_list4 verbose=true\nHuman Readable Output\n#\nUpdated File Data\n#\nData",
+    "!pan-os-edl-update-external-file file_path=test_playbook_list4.txt list_name=test_playbook_list4 verbose=true\nHuman Readable Output\n#\nUpdated File Data\n#\nData\njojo.com\nkoko.com"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks PAN-OS EDL Management (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-pan-os-edl-management"
+}

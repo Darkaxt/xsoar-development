@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "socradar-reset-fetch-indicators",
+  "examples": [
+    "Command Example\n#\n!socradar-reset-fetch-indicators\nHuman Readable Output\n#\nFetch history has been successfully deleted!\nEdit this page\nReport an Issue",
+    "!socradar-reset-fetch-indicators\nHuman Readable Output\n#\nFetch history has been successfully deleted!\nEdit this page\nReport an Issue\nPrevious\n\u00ab SOCRadar Takedown"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SOCRadar Threat Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/feed-soc-radar-threat-feed"
+}

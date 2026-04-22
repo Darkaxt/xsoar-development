@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "mail-listener-get-email-as-eml",
+  "examples": [
+    "Command Example\n#\n!mail-listener-get-email-as-eml message-id=65445\nContext Example\n#\n{\n\"File\": {\n\"EntryID\": \"1276@97a9b81e-928e-4c93-80bc-2729ca35cb1c\",",
+    "!mail-listener-get-email-as-eml message-id=65445\nContext Example\n#\n{\n\"File\": {\n\"EntryID\": \"1276@97a9b81e-928e-4c93-80bc-2729ca35cb1c\",\n\"Extension\": \"eml\",\n\"Info\": \"message/rfc822\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Mail Listener v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mail-listener-v2"
+}

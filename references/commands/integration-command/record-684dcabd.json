@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "8. risksense-apply-tag",
+  "examples": [
+    "Command Example\n#\n!risksense-apply-tag tagname=\"Test\" assettype=\"host\"\nContext Example\n#\n{\n\"RiskSense.TagAssociation\":\n{",
+    "!risksense-apply-tag tagname=\"Test\" assettype=\"host\"\nContext Example\n#\n{\n\"RiskSense.TagAssociation\":\n{\n\"AssociationID\": 2542063,\n\"Created\": \"2020-04-29T08:46:54\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name of the tag. RiskSense.TagAssociation.AssociationID Tag association ID.",
+      "name": "RiskSense.TagAssociation.TagName",
+      "required": ""
+    },
+    {
+      "description": "The time when the tag was associated.",
+      "name": "RiskSense.TagAssociation.Created",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RiskSense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/risk-sense"
+}

@@ -1,0 +1,51 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Win.Ransomware.Buhtrap-9865977-0",
+  "examples": [
+    "!gdetect-get-threats uuid=23465d22-3464-39ce-b8b3-bc2ee7d6eecf\nContext Example\n#\n{\n\"GLIMPS\"\n:\n{\n\"GDetect\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "list of analysed filename GLIMPS.GDetect.Threats.link a link to the analysis in the GLIMPS Malware Expert interface",
+      "name": "GLIMPS.GDetect.Threats.filenames",
+      "required": ""
+    },
+    {
+      "description": "Summary of threats found in submission. Each submission file reaching threshold score will add an entry. Entry keys are the SHA256 of files GLIMPS.GDetect.Threats.tags Summary of threats found in submission. Each submission file reaching threshold score will add an entry. Entry keys are the SHA256 of files",
+      "name": "GLIMPS.GDetect.Threats",
+      "required": ""
+    },
+    {
+      "description": "tag name GLIMPS.GDetect.Threats.tags.value tag value",
+      "name": "GLIMPS.GDetect.Threats.tags.name",
+      "required": ""
+    },
+    {
+      "description": "highest score given by probes GLIMPS.GDetect.Threats.magic file magic - file type",
+      "name": "GLIMPS.GDetect.Threats.score",
+      "required": ""
+    },
+    {
+      "description": "string hex encoded input file SHA256 GLIMPS.GDetect.Threats.sha1 string hex encoded input file SHA1",
+      "name": "GLIMPS.GDetect.Threats.sha256",
+      "required": ""
+    },
+    {
+      "description": "string hex encoded input file MD5 GLIMPS.GDetect.Threats.ssdeep string input file SSDeep",
+      "name": "GLIMPS.GDetect.Threats.md5",
+      "required": ""
+    },
+    {
+      "description": "input file size (in bytes) GLIMPS.GDetect.Threats.mime file mime type",
+      "name": "GLIMPS.GDetect.Threats.file_size",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GLIMPS Detect",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/glimps-detect"
+}

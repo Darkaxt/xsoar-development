@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "redmine-tracker-id-list",
+  "examples": [
+    "!redmine-tracker-id-list\nContext Example\n#\n{\n\"Redmine\"\n:\n{\n\"trackers\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "str ID of the tracker field. Redmine.trackers.Name",
+      "name": "Redmine.trackers.ID",
+      "required": ""
+    },
+    {
+      "description": "Name of the tracker field.",
+      "name": "str",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Redmine",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/redmine"
+}

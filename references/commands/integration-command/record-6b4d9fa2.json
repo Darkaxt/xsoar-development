@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "https://www.threatcrowd.org/listMalware.php?antivirus=plugx",
+  "examples": [
+    "Command Example\n#\n!file file=31d0e421894004393c48de1769744687 using=ThreatCrowdv2_instance_1\nContext Example\n#\n{\n\"DBotScore\"\n:",
+    "!file file=31d0e421894004393c48de1769744687 using=ThreatCrowdv2_instance_1\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The MD5 hash of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The vendor that reported the file as malicious. File.Malicious.Description A description explaining why the file was determined to be malicious.",
+      "name": "File.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The SHA1 hash of the file. ThreatCrowd.File.references The refernces related to the file.",
+      "name": "ThreatCrowd.File.sha1",
+      "required": ""
+    },
+    {
+      "description": "The link to the file in the product. ThreatCrowd.File.ips The ips related to the file.",
+      "name": "ThreatCrowd.File.permalink",
+      "required": ""
+    },
+    {
+      "description": "The domains related to the file. ThreatCrowd.File.value The file identifier.",
+      "name": "ThreatCrowd.File.domains",
+      "required": ""
+    },
+    {
+      "description": "The scans related to thefile. ThreatCrowd.File.md5 The MD5 of the file.",
+      "name": "ThreatCrowd.File.scans",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Score The actual score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Reliability",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Threat Crowd v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-crowd-v2"
+}

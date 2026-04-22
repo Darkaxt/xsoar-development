@@ -1,0 +1,89 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "jira-get-organizations",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Lists all the organizations.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "jira-get-organizations",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Atlassian Jira v3 \u00bb Use Cases",
+      "name": "\u00ab Atlassian Jira Service Management",
+      "required": ""
+    },
+    {
+      "description": "Fetched Incidents Data Commands jira-issue-query",
+      "name": "Configure jira-v2 on Cortex XSOAR",
+      "required": ""
+    },
+    {
+      "description": "jira-create-issue jira-issue-upload-file jira-issue-add-comment",
+      "name": "jira-get-issue",
+      "required": ""
+    },
+    {
+      "description": "jira-edit-issue jira-get-comments jira-delete-issue",
+      "name": "jira-issue-add-link",
+      "required": ""
+    },
+    {
+      "description": "jira-get-id-by-attribute jira-list-transitions jira-append-to-field",
+      "name": "jira-get-id-offset",
+      "required": ""
+    },
+    {
+      "description": "get-remote-data get-mapping-fields update-remote-system",
+      "name": "jira-get-specific-field",
+      "required": ""
+    },
+    {
+      "description": "jira-issue-assign Configure Incident Mirroring Mirror In And Out Custom Fields",
+      "name": "get-modified-remote-data",
+      "required": ""
+    },
+    {
+      "description": "Add the new field to the incoming mapper Add the new field to the outgoing mapper Change Ticket's Status Using Transitions",
+      "name": "Add a new custom field and add it to the incident type's layout",
+      "required": ""
+    },
+    {
+      "description": "jira-get-project-role jira-get-organizations Docs",
+      "name": "jira-add-user-to-project",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Atlassian Jira v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jira-v2"
+}

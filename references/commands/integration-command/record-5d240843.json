@@ -1,0 +1,86 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "MSGraphMail.Rule.sequence",
+  "examples": [
+    "!msgraph-mail-auth-reset\n. This command resets the authentication mechanism, allowing for the new credentials to be accepted.\nInsert the newly created credentials into the original instance where the error occurred. Make sure the credentials are entered correctly to avoid further errors.\nAfter updating the credentials, test the integration.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Microsoft Graph API"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Troubleshooting",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "hash verification error: Use the Oproxy flow to generate a new pair of credentials. This is crucial as it ensures that any issues related to authentication can be mitigated with fresh credentials.",
+      "name": "In case of a",
+      "required": ""
+    },
+    {
+      "description": "!msgraph-mail-auth-reset . This command resets the authentication mechanism, allowing for the new credentials to be accepted. Insert the newly created credentials into the original instance where the error occurred. Make sure the credentials are entered correctly to avoid further errors.",
+      "name": "Execute the command",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "After updating the credentials, test the integration.",
+      "required": ""
+    },
+    {
+      "description": "Next Microsoft Graph Search \u00bb Fetch Incidents",
+      "name": "\u00ab Microsoft Graph API",
+      "required": ""
+    },
+    {
+      "description": "Authentication Email Attachments Limitations Required Permissions",
+      "name": "OData Usage",
+      "required": ""
+    },
+    {
+      "description": "Commands msgraph-mail-create-draft reply-mail",
+      "name": "Configure Microsoft Graph Mail Single User in Cortex",
+      "required": ""
+    },
+    {
+      "description": "msgraph-mail-reply-to msgraph-mail-send-draft msgraph-mail-test",
+      "name": "send-mail",
+      "required": ""
+    },
+    {
+      "description": "msgraph-mail-list-emails msgraph-mail-list-attachments msgraph-mail-get-attachment",
+      "name": "msgraph-mail-auth-reset",
+      "required": ""
+    },
+    {
+      "description": "msgraph-update-email-status msgraph-mail-generate-login-url msgraph-mail-create-folder",
+      "name": "msgraph-mail-get-email-as-eml",
+      "required": ""
+    },
+    {
+      "description": "msgraph-mail-list-folders msgraph-mail-list-child-folders msgraph-mail-list-rules",
+      "name": "msgraph-mail-move-email",
+      "required": ""
+    },
+    {
+      "description": "msgraph-mail-delete-rule Troubleshooting Docs",
+      "name": "msgraph-mail-get-rule",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Graph Mail Single User",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-mail-single-user"
+}

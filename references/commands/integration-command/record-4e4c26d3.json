@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!winrm-run-powershell script=`Write-Host \"Hello, World!\"` scriptname=\"Hello\"\nHuman Readable Output\n#\nHello, World!\nEdit this page\nReport an Issue",
+    "!winrm-run-powershell script=`Write-Host \"Hello, World!\"` scriptname=\"Hello\"\nHuman Readable Output\n#\nHello, World!\nEdit this page\nReport an Issue\nPrevious\n\u00ab Whois"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "STDOUT of the WinRM command WinRM.Powershell.Error STDERR of the WinRM command",
+      "name": "WinRM.Powershell.Output",
+      "required": ""
+    },
+    {
+      "description": "Status code of the WInRM command Context Example",
+      "name": "WinRM.Powershell.Status",
+      "required": ""
+    },
+    {
+      "description": "\"Script\": { \"error\": \"#SomeError\", \"hostname\": 8.8.8.8,",
+      "name": "\"WinRM\": {",
+      "required": ""
+    },
+    {
+      "description": "} \"script\": \"Hello\", \"status\": 0",
+      "name": "\"output\": \"Hello, World!\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Windows Remote Management (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/windows-remote-management"
+}

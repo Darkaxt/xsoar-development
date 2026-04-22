@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!opencti-get-indicators limit=2 indicator_types=\"IP\"\nContext Example\n#\n{\n\"OpenCTI\"\n:",
+    "!opencti-get-indicators limit=2 indicator_types=\"IP\"\nContext Example\n#\n{\n\"OpenCTI\"\n:\n{\n\"Indicators\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OpenCTI Feed 4.X",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/open-cti-feed-4x"
+}

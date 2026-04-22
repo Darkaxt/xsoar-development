@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "gcp-offending-firewall-rule"
+  ],
+  "arguments": [],
+  "description": "GCPOffendingFirewallRule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GCPOffendingFirewallRule",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "One or more potential offending firewall rules in GCP based on port, protocol and possibly target tags (network tags). Edit this page Report an Issue",
+      "name": "GCPOffendingFirewallRule",
+      "required": ""
+    },
+    {
+      "description": "\u00ab GatewatcherAlertEngine Next GCPProjectHierarchy \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Used In",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GCPOffendingFirewallRule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/gcp-offending-firewall-rule"
+}

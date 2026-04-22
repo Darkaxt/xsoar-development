@@ -1,0 +1,89 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "bmc-discovery-scan-status-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Scan UUID BmcDiscovery.Scan.Status.blocked Is blocked",
+      "name": "BmcDiscovery.Scan.Status.uuid",
+      "required": ""
+    },
+    {
+      "description": "Number of scanned hosts BmcDiscovery.Scan.Status.total Number of hosts to scan",
+      "name": "BmcDiscovery.Scan.Status.done",
+      "required": ""
+    },
+    {
+      "description": "Is finished BmcDiscovery.Scan.Status.label Scan name",
+      "name": "BmcDiscovery.Scan.Status.finished",
+      "required": ""
+    },
+    {
+      "description": "IP/Cloud/API BmcDiscovery.Scan.Status.scan_level Full discovery/Sweep scan",
+      "name": "BmcDiscovery.Scan.Status.scan_kind",
+      "required": ""
+    },
+    {
+      "description": "Snapshot/scheduled BmcDiscovery.Scan.Status.user Initiating user",
+      "name": "BmcDiscovery.Scan.Status.scan_type",
+      "required": ""
+    },
+    {
+      "description": "IP ranges to scan BmcDiscovery.Scan.Status.cancelled Is canceled",
+      "name": "BmcDiscovery.Scan.Status.valid_ranges",
+      "required": ""
+    },
+    {
+      "description": "Scan key BmcDiscovery.Scan.Status.outpost_id Outpost id",
+      "name": "BmcDiscovery.Scan.Status.key",
+      "required": ""
+    },
+    {
+      "description": "Scan scope BmcDiscovery.Scan.Status.scan_params.provider Scan provider",
+      "name": "BmcDiscovery.Scan.Status.scope",
+      "required": ""
+    },
+    {
+      "description": "Is NO-PING option set BmcDiscovery.Scan.Status.scan_options.SESSION_LOGGING Is SESSION_LOGGING option set",
+      "name": "BmcDiscovery.Scan.Status.scan_options.NO_PING",
+      "required": ""
+    },
+    {
+      "description": "Is SKIP_IMPLICIT_SCANS option set BmcDiscovery.Scan.Status.scan_options.MAX_START_SSM_SESSIONS Is MAX_START_SSM_SESSIONS option set",
+      "name": "BmcDiscovery.Scan.Status.scan_options.SKIP_IMPLICIT_SCANS",
+      "required": ""
+    },
+    {
+      "description": "Is MAX_ACTIVE_SSM_SESSIONS option set BmcDiscovery.Scan.Status.scanning Number of entities in scanning status",
+      "name": "BmcDiscovery.Scan.Status.scan_options.MAX_ACTIVE_SSM_SESSIONS",
+      "required": ""
+    },
+    {
+      "description": "Number of entities in pre_scanning status BmcDiscovery.Scan.Status.starttime Date",
+      "name": "BmcDiscovery.Scan.Status.pre_scanning",
+      "required": ""
+    },
+    {
+      "description": "BmcDiscovery.Scan.Status.waiting Number of entities in waiting status BmcDiscovery.Scan.Status.uri",
+      "name": "Scan start time",
+      "required": ""
+    },
+    {
+      "description": "Scan URI BmcDiscovery.Scan.Status.inferred Scan inferred URI",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Scan results URI BmcDiscovery.Scan.Status.consolidating Is consolidating",
+      "name": "BmcDiscovery.Scan.Status.results",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BMC Discovery",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bmc-discovery"
+}

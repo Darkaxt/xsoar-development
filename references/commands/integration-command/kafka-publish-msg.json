@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!kafka-print-topics\nContext Example\nHuman Readable Output\n2. Publish a message to Kafka\nPublishes a message to Kafka.\nBase Command\nkafka-publish-msg",
+    "!kafka-print-topics\nContext Example\nHuman Readable Output\n2. Publish a message to Kafka\nPublishes a message to Kafka.\nBase Command\nkafka-publish-msg\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "kafka-publish-msg",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Kafka v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/kafka-v2"
+}

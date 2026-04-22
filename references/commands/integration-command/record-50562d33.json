@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "#### Command Example\nHuman Readable Output\n#\nfireeye-ex-update-blockedlist\n#\nUpdates blocked sender domain.\nBase Command\n#",
+    "Command Example\n#\n#### Human Readable Output\n### fireeye-ex-delete-blockedlist\n***\nDeletes blocked sender domain.\n#### Base Command\n`fireeye-ex-delete-blockedlist`",
+    "#### Command Example\nHuman Readable Output\n#\nKnown Limitations\n#\nClicking the\nTest\nbutton of the"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The allowed domain name. FireEyeEX.created-at The time the domain name was added to the list.",
+      "name": "FireEyeEX.name",
+      "required": ""
+    },
+    {
+      "description": "The number of matches for the domain name when compared against the incoming emails.",
+      "name": "FireEyeEX.matches",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FireEye Email Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fire-eye-email-security"
+}

@@ -1,0 +1,104 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "cisco-spark-send-message-to-room",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Sends a message to a room, by name or room ID.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "cisco-spark-send-message-to-room",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Cisco WSA v2 \u00bb Configure Cisco Webex Teams in Cortex",
+      "name": "\u00ab Cisco Webex Feed",
+      "required": ""
+    },
+    {
+      "description": "cisco-spark-list-people cisco-spark-create-person cisco-spark-get-person-details",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "cisco-spark-delete-person cisco-spark-get-own-details cisco-spark-list-rooms",
+      "name": "cisco-spark-update-person",
+      "required": ""
+    },
+    {
+      "description": "cisco-spark-get-room-details cisco-spark-update-room cisco-spark-delete-room",
+      "name": "cisco-spark-create-room",
+      "required": ""
+    },
+    {
+      "description": "cisco-spark-create-membership cisco-spark-get-membership-details cisco-spark-update-membership",
+      "name": "cisco-spark-list-memberships",
+      "required": ""
+    },
+    {
+      "description": "cisco-spark-list-messages cisco-spark-create-message cisco-spark-get-message-details",
+      "name": "cisco-spark-delete-membership",
+      "required": ""
+    },
+    {
+      "description": "cisco-spark-list-teams cisco-spark-create-team cisco-spark-get-team-details",
+      "name": "cisco-spark-delete-message",
+      "required": ""
+    },
+    {
+      "description": "cisco-spark-delete-team cisco-spark-list-team-memberships cisco-spark-create-team-membership",
+      "name": "cisco-spark-update-team",
+      "required": ""
+    },
+    {
+      "description": "cisco-spark-update-team-membership cisco-spark-delete-team-membership cisco-spark-list-webhooks",
+      "name": "cisco-spark-get-team-membership-details",
+      "required": ""
+    },
+    {
+      "description": "cisco-spark-get-webhook-details cisco-spark-update-webhook cisco-spark-delete-webhook",
+      "name": "cisco-spark-create-webhook",
+      "required": ""
+    },
+    {
+      "description": "cisco-spark-get-organization-details cisco-spark-list-licenses cisco-spark-get-license-details",
+      "name": "cisco-spark-list-organizations",
+      "required": ""
+    },
+    {
+      "description": "cisco-spark-get-role-details cisco-spark-send-message-to-person cisco-spark-send-message-to-room",
+      "name": "cisco-spark-list-roles",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Webex Teams",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-spark"
+}

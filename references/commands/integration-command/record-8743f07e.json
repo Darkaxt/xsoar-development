@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Argument",
+      "required": ""
+    }
+  ],
+  "description": "AutoSLR.generate.EntryID",
+  "examples": [
+    "!autoslr-csp-upload\nArguments\n#\nArgument\nDescription\nType\ninput_file\nThe EntryID of the file to upload"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Description Type AutoSLR.upload.id",
+      "name": "Context Key",
+      "required": ""
+    },
+    {
+      "description": "AutoSLR.upload.send_to The email address the completed report will be sent to Edit this page",
+      "name": "The SLR Reference ID returned by the CSP API",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab Palo Alto Networks AutoFocus v2 (Deprecated) Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure Automatic SLR on XSOAR Step-by-step configuration Firewall API Key",
+      "name": "Palo Alto Networks BPA (Deprecated) \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Commands Dump Integration Parameters Retrieve \"show system info\" Output",
+      "name": "Customer Support Portal (CSP) API Key",
+      "required": ""
+    },
+    {
+      "description": "Check SLR Generation Status Download *-stats_dump.tar.gz from the firewall Upload *-stats_dump.tar.gz to Palo Alto Networks",
+      "name": "Initiate SLR Generation",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Automatic SLR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-automatic-slr-community"
+}

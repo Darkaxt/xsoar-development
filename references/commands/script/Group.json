@@ -1,0 +1,52 @@
+{
+  "aliases": [
+    "group"
+  ],
+  "arguments": [
+    {
+      "description": "chunk Size of each group. type",
+      "name": "An input list.",
+      "required": ""
+    },
+    {
+      "description": "delimiter Separate elements using delimiter (If type is String).",
+      "name": "Group as list or string.",
+      "required": ""
+    }
+  ],
+  "description": "This Script is part of the",
+  "examples": [],
+  "kind": "script",
+  "name": "Group",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The list after grouping. Edit this page Report an Issue",
+      "name": "Group",
+      "required": ""
+    },
+    {
+      "description": "\u00ab GridFieldSetup Next GrrGetFiles \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Group",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/group"
+}

@@ -1,0 +1,56 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "For malicious files, the vendor that made the decision.",
+  "examples": [
+    "Command Example\ncrowdstrike-search filetype=.docx\nContext Example\n{\n\"VX.Search\": [],\n\"File\": []\n}"
+  ],
+  "kind": "integration-command",
+  "name": "crowdstrike-search",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA-256 hash of the search result. File.SHA1 The SHA-1 of the search result.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the search result. File.environmentId The environment ID of the search result.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The start time of the search result. File.threatscore The threat score of the search result (by server).",
+      "name": "File.start_time",
+      "required": ""
+    },
+    {
+      "description": "The verdict of the search result. File.environmentDescription The environment description of search result.",
+      "name": "File.verdict",
+      "required": ""
+    },
+    {
+      "description": "The submission name of the search result. File.vxfamily The family of the search result.",
+      "name": "File.submitname",
+      "required": ""
+    },
+    {
+      "description": "The threat score of the search result. File.type_short The type of search result, for example: url or host.",
+      "name": "File.threatscore",
+      "required": ""
+    },
+    {
+      "description": "The size of the search result. File.Malicious.Vendor For malicious files, the vendor that made the decision.",
+      "name": "File.size",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the reason that the vendor made the decision.",
+      "name": "File.Malicious.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vx-stream"
+}

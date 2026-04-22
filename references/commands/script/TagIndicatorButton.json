@@ -1,0 +1,43 @@
+{
+  "aliases": [
+    "tag-indicator-button"
+  ],
+  "arguments": [],
+  "description": "TagIndicatorButton | Cortex XSOAR",
+  "examples": [
+    "!TagIndicatorButton Indicators=1.1.1.1 Tags=allow\nContext Example\n#\n{\n}\nHuman Readable Output\n#\ndone - updated 1 indicators"
+  ],
+  "kind": "script",
+  "name": "TagIndicatorButton",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!TagIndicatorButton Indicators=1.1.1.1 Tags=allow",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TagIndicatorButton",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/tag-indicator-button"
+}

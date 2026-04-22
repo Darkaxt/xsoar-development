@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!threat-grid-get-sample-state-by-id id=052de338e02c4e013a4e9f5da8a87d5b\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"State\": \"fail\",\n\"ID\": \"052de338e02c4e013a4e9f5da8a87d5b\"",
+    "!threat-grid-get-sample-state-by-id id=052de338e02c4e013a4e9f5da8a87d5b\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"State\": \"fail\",\n\"ID\": \"052de338e02c4e013a4e9f5da8a87d5b\""
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-sample-state-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The sample ID, globally unique, and the canonical identifier of this sample analysis ThreatGrid.Sample.State The state of the sample, one of a stable set of strings (\u201cwait\", \"prep\", \"run\", \"proc\", \"succ\", \"fail\u201d)",
+      "name": "ThreatGrid.Sample.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

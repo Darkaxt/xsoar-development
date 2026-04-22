@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "If relevant, add this Request details to the Knowledge base. Close the Request.",
+  "examples": [
+    "!sysaid-service-record-add-note id=25 note=\nthis is a new note````\nHuman Readable Output\n#\nUpdated record with new note\nEdit this page\nReport an Issue\nPrevious"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SysAid",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sys-aid"
+}

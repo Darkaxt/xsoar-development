@@ -1,0 +1,63 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "5. Get related entities",
+  "examples": [
+    "Command Example\n!jask-get-related-entities entity-id=d5d04bc6-c00a-4a9a-a8f5-6f6231f55d80\nContext Example\n{\n\"Jask\": {\n\"RelatedEntityList\": [\n{\n\"Username\": \"craig.campbell\",",
+    "!jask-get-related-entities entity-id=d5d04bc6-c00a-4a9a-a8f5-6f6231f55d80\nContext Example\n{\n\"Jask\": {\n\"RelatedEntityList\": [\n{\n\"Username\": \"craig.campbell\",\n\"Name\": \"craig.campbell\","
+  ],
+  "kind": "integration-command",
+  "name": "jask-get-related-entities",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Entity ID Jask.RelatedEntityList.Name Entity name",
+      "name": "Jask.RelatedEntityList.Id",
+      "required": ""
+    },
+    {
+      "description": "Entity email Jask.RelatedEntityList.Source Entity source",
+      "name": "Jask.RelatedEntityList.Email",
+      "required": ""
+    },
+    {
+      "description": "Username of the related entity Jask.RelatedEntityList.HostName Entity hostname",
+      "name": "Jask.RelatedEntityList.UserName",
+      "required": ""
+    },
+    {
+      "description": "Whether or not the entity is active Jask.RelatedEntityList.Admin Entity admin",
+      "name": "Jask.RelatedEntityList.Active",
+      "required": ""
+    },
+    {
+      "description": "Asset type Jask.RelatedEntityList.CreatedTimestamp Time the entity was created",
+      "name": "Jask.RelatedEntityList.AssetType",
+      "required": ""
+    },
+    {
+      "description": "Time the entity was first seen Jask.RelatedEntityList.GivenName Name given to the entity",
+      "name": "Jask.RelatedEntityList.FirstSeen",
+      "required": ""
+    },
+    {
+      "description": "Whether or not the entity is on allow list Jask.RelatedEntityList.LastSeen Time the entity was last seen",
+      "name": "Jask.RelatedEntityList.IsWhiteListed",
+      "required": ""
+    },
+    {
+      "description": "The last name Jask.RelatedEntityList.RiskScore Entity risk score",
+      "name": "Jask.RelatedEntityList.LastName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Jask (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jask"
+}

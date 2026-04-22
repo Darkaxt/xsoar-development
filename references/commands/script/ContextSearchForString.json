@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "context-search-for-string"
+  ],
+  "arguments": [],
+  "description": "ContextSearchForString | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ContextSearchForString",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the given string exists in context. False Whether the given string does not exist in context.",
+      "name": "True",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next ContextSetup \u00bb Script Data",
+      "name": "\u00ab ContextGetPathForString",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ContextSearchForString",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/context-search-for-string"
+}

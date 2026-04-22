@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!create-test-incident-from-raw-json incident_entry_id=\"12@12\"\nHuman Readable Output\n#\nLoaded 1 incidents from file.\n!create-test-incident-from-raw-json incident_raw_json=\"{'name': 'test_incident'}\"\nHuman Readable Output\n#\nLoaded 1 incidents from file.",
+    "!create-test-incident-from-raw-json incident_raw_json=\"{'name': 'test_incident'}\"\nHuman Readable Output\n#\nLoaded 1 incidents from file.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Covalence Managed Security"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Create Test Incidents",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/create-incidents"
+}

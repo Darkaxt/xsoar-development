@@ -1,0 +1,61 @@
+{
+  "aliases": [
+    "get-user-data"
+  ],
+  "arguments": [],
+  "description": "get-user-data | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "get-user-data",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The brand (integration) used to disable the user. UserData.Instance The integration instance used to disable the user.",
+      "name": "UserData.Brand",
+      "required": ""
+    },
+    {
+      "description": "UserData.ID The user ID. UserData.Username",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "UserData.Email The email address of the account. UserData.RiskLevel",
+      "name": "The username in the relevant system.",
+      "required": ""
+    },
+    {
+      "description": "UserData.AdditionalFields All the other outputs returned. UserData.Status",
+      "name": "The risk level of the user.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Status of the results returned from the command.",
+      "required": ""
+    },
+    {
+      "description": "Next GetAskLinks \u00bb Script Data",
+      "name": "\u00ab get-endpoint-data",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "get-user-data",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-user-data"
+}

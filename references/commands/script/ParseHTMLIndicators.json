@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "parse-html-indicators"
+  ],
+  "arguments": [],
+  "description": "ParseHTMLIndicators | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ParseHTMLIndicators",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The extracted indicators http.parsedBlog.sourceLink The link for the source of the indicators",
+      "name": "http.parsedBlog.indicators",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next ParseHTMLTables \u00bb Script Data",
+      "name": "\u00ab ParseExcel",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ParseHTMLIndicators",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/parse-html-indicators"
+}

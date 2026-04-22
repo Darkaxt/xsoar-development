@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "ip-calc-return-subnet-addresses"
+  ],
+  "arguments": [],
+  "description": "IPCalcReturnSubnetAddresses | Cortex XSOAR",
+  "examples": [
+    "!IPCalcReturnSubnetAddresses subnet=192.168.20.90/28\nContext Example\n#\n{\n\"IPCalc\"\n:\n{\n\"IP\""
+  ],
+  "kind": "script",
+  "name": "IPCalcReturnSubnetAddresses",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Subnet addresses Script Example",
+      "name": "IPCalc.IP.Address",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!IPCalcReturnSubnetAddresses subnet=192.168.20.90/28",
+      "required": ""
+    },
+    {
+      "description": "\"IPCalc\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"Address\"",
+      "name": "\"IP\"",
+      "required": ""
+    },
+    {
+      "description": "[ \"192.168.20.81\" ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ", \"192.168.20.83\" ,",
+      "name": "\"192.168.20.82\"",
+      "required": ""
+    },
+    {
+      "description": ", \"192.168.20.85\" ,",
+      "name": "\"192.168.20.84\"",
+      "required": ""
+    },
+    {
+      "description": ", \"192.168.20.87\" ,",
+      "name": "\"192.168.20.86\"",
+      "required": ""
+    },
+    {
+      "description": ", \"192.168.20.89\" ,",
+      "name": "\"192.168.20.88\"",
+      "required": ""
+    },
+    {
+      "description": ", \"192.168.20.91\" ,",
+      "name": "\"192.168.20.90\"",
+      "required": ""
+    },
+    {
+      "description": ", \"192.168.20.93\" ,",
+      "name": "\"192.168.20.92\"",
+      "required": ""
+    },
+    {
+      "description": "] } }",
+      "name": "\"192.168.20.94\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IPCalcReturnSubnetAddresses",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ip-calc-return-subnet-addresses"
+}

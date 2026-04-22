@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "iam-init-okta-user"
+  ],
+  "arguments": [],
+  "description": "IAMInitOktaUser | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IAMInitOktaUser",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "True if the Okta user was successfully activated, false otherwise. IAM.InitOktaUser.sentMail True if the mail containing the information about the user activation and its auto-generated password was successfully sent to IT, false otherwise.",
+      "name": "IAM.InitOktaUser.success",
+      "required": ""
+    },
+    {
+      "description": "IAM.InitOktaUser.errorDetails The error details, if exists. IAM.InitOktaUser.sendMailError",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The error received from send-mail command, if exists.",
+      "required": ""
+    },
+    {
+      "description": "Next IbmAddNote \u00bb Script Data",
+      "name": "\u00ab IAMApiModule",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IAMInitOktaUser",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/iam-init-okta-user"
+}

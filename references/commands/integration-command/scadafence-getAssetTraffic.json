@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "5. Get asset network activity data",
+  "examples": [
+    "Command Example\n!scadafence-getAssetTraffic ipAddress=3.3.3.3\nContext Example\n{\n\"TCP\": {\n\"Bytes received\": 447191388,\n\"Bytes sent\": 100766536\n},",
+    "!scadafence-getAssetTraffic ipAddress=3.3.3.3\nContext Example\n{\n\"TCP\": {\n\"Bytes received\": 447191388,\n\"Bytes sent\": 100766536\n},\n\"UDP\": {"
+  ],
+  "kind": "integration-command",
+  "name": "scadafence-getAssetTraffic",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "\"TCP\": { \"Bytes received\": 447191388, \"Bytes sent\": 100766536",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"UDP\": { \"Bytes received\": 0, \"Bytes sent\": 27560",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "} Path Type",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Bytes sent by the asset via TCP SCADAfence.AssetTraffic.TCP_rx_bytes Bytes received by the asset via TCP",
+      "name": "SCADAfence.AssetTraffic.TCP_tx_bytes",
+      "required": ""
+    },
+    {
+      "description": "Bytes sent by the asset via UDP SCADAfence.AssetTraffic.UDP_rx_bytes Bytes received by the asset via UDP",
+      "name": "SCADAfence.AssetTraffic.UDP_tx_bytes",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SCADAfence CNM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/scad-afence-cnm"
+}

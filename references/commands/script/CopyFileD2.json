@@ -1,0 +1,38 @@
+{
+  "aliases": [
+    "copy-file-d2"
+  ],
+  "arguments": [],
+  "description": "CopyFileD2 | Cortex XSOAR",
+  "examples": [
+    "!CopyFileD2 destpath=/home/sansforensics/collectedbinaries/inv8_suspiciousPE1.exe.evil entryid=21@8 system=Analyst1\nScript Data\n#\nName\nDescription\nScript Type\njavascript\nTags"
+  ],
+  "kind": "script",
+  "name": "CopyFileD2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next CopyLinkedAnalystNotes \u00bb Script Data",
+      "name": "\u00ab CopyContextToField",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CopyFileD2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/copy-file-d2"
+}

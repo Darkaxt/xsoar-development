@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Search organization resources: grm-search-organizations",
+  "examples": [
+    "Command Example\ngrm-create-project project_id=faramir-111 parent_id=690006273490 parent_type=organization name=\"Faramir\"\nContext Example\n{\n\"GRM.Project\": {\n\"Name\": \"Faramir\",\n\"Parent\": {\n\"Type\": \"organization\","
+  ],
+  "kind": "integration-command",
+  "name": "grm-create-project",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The user-assigned display name of the Project GRM.Project.ID The unique, user-assigned ID of the Project",
+      "name": "GRM.Project.Name",
+      "required": ""
+    },
+    {
+      "description": "The number uniquely identifying the Project GRM.Project.State The Project lifecycle state",
+      "name": "GRM.Project.Number",
+      "required": ""
+    },
+    {
+      "description": "Date createTime - The time the resource was created GRM.Project.Label",
+      "name": "GRM.Project.CreateTime",
+      "required": ""
+    },
+    {
+      "description": "The labels associated with this Project GRM.Project.Parent.ID ID of the parent resource",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Type of the parent resource",
+      "name": "GRM.Project.Parent.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Resource Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-resource-manager"
+}

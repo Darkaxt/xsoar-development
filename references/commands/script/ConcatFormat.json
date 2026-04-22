@@ -1,0 +1,627 @@
+{
+  "aliases": [
+    "concat-format"
+  ],
+  "arguments": [
+    {
+      "description": "Note value jdoe",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "suffix @${domain} ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"domain\": \"paloaltonetworks.com\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value paloaltonetworks.com",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "${userid}@ suffix ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"userid\": \"jdoe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value paloaltonetworks.com",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "%userid%@ suffix ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers %,%",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "keep_symbol_to_null",
+      "required": ""
+    },
+    {
+      "description": "\"userid\": \"jdoe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value paloaltonetworks.com",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "$userid@ suffix ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers $",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "keep_symbol_to_null",
+      "required": ""
+    },
+    {
+      "description": "\"userid\": \"jdoe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value paloaltonetworks.com",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "${userid}@ suffix ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "true",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value paloaltonetworks.com",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "${userid=val.toUpperCase()}@ suffix ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"userid\": \"jdoe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value John Doe",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "Hello, suffix . ${message-${messageID}}",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": ". Make sure that From previous tasks",
+      "name": "ctx_data",
+      "required": ""
+    },
+    {
+      "description": "ctx_inputs ctx_inc variable_markers",
+      "name": "is selected",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "keep_symbol_to_null",
+      "required": ""
+    },
+    {
+      "description": "\"message-1\": \"This is a test message.\", \"messageID\": 1 }",
+      "name": "{",
+      "required": ""
+    }
+  ],
+  "description": "ConcatFormat | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ConcatFormat",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Getting Started",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Examples",
+      "name": "The transformer concatenates prefix and suffix which supports DT expressions to the string.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Build an email address from a user ID by appending a domain",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value jdoe",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "suffix @${domain} ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"domain\": \"paloaltonetworks.com\" } Output",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Build an email address by adding a user ID to the domain",
+      "name": "jdoe@example.com",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value paloaltonetworks.com",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "${userid}@ suffix ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"userid\": \"jdoe\" } Output",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Change the variable start and end marker to the windows command shell style such as %name%",
+      "name": "jdoe@example.com",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value paloaltonetworks.com",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "%userid%@ suffix ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers %,%",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "keep_symbol_to_null",
+      "required": ""
+    },
+    {
+      "description": "\"userid\": \"jdoe\" } Output",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Change the variable start and end marker to the UNIX shell style such as $name",
+      "name": "jdoe@example.com",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value paloaltonetworks.com",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "$userid@ suffix ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers $",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "keep_symbol_to_null",
+      "required": ""
+    },
+    {
+      "description": "\"userid\": \"jdoe\" } Output",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Keep variable names if they are missing in the context",
+      "name": "jdoe@example.com",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value paloaltonetworks.com",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "${userid}@ suffix ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "true",
+      "required": ""
+    },
+    {
+      "description": "} Output",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Use DTs to build variables",
+      "name": "${userid}@paloaltonetworks.com",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value paloaltonetworks.com",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "${userid=val.toUpperCase()}@ suffix ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"userid\": \"jdoe\" } Output",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Use nested DTs to build variables",
+      "name": "jdoe@example.com",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value John Doe",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "Hello, suffix . ${message-${messageID}}",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": ". Make sure that From previous tasks",
+      "name": "ctx_data",
+      "required": ""
+    },
+    {
+      "description": "ctx_inputs ctx_inc variable_markers",
+      "name": "is selected",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "keep_symbol_to_null",
+      "required": ""
+    },
+    {
+      "description": "\"message-1\": \"This is a test message.\", \"messageID\": 1 }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Hello, John Doe. This is a test message.",
+      "required": ""
+    },
+    {
+      "description": "Next ConferIncidentDetails \u00bb Script Data",
+      "name": "\u00ab CompleteTaskOnTimerBreach",
+      "required": ""
+    },
+    {
+      "description": "Build an email address by adding a user ID to the domain",
+      "name": "jdoe@example.com",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value paloaltonetworks.com",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "${userid}@ suffix ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"userid\": \"jdoe\" } Output",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Change the variable start and end marker to the windows command shell style such as %name%",
+      "name": "jdoe@example.com",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value paloaltonetworks.com",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "%userid%@ suffix ctx_data",
+      "name": "prefix",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers %,%",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "keep_symbol_to_null",
+      "required": ""
+    },
+    {
+      "description": "\"userid\": \"jdoe\" } Output",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Change the variable start and end marker to the UNIX shell style such as $name",
+      "name": "jdoe@example.com",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value paloaltonetworks.com",
+      "name": "Value",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ConcatFormat",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/concat-format"
+}

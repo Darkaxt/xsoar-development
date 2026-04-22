@@ -1,0 +1,52 @@
+{
+  "aliases": [
+    "expose-incident-owner"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "ExposeIncidentOwner | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ExposeIncidentOwner",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The full name of the incident owner. IncidentOwner.email The email address of the incident owner.",
+      "name": "IncidentOwner.name",
+      "required": ""
+    },
+    {
+      "description": "IncidentOwner.phone The phone number of the incident owner. IncidentOwner.roles",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The roles of the incident owner.",
+      "required": ""
+    },
+    {
+      "description": "Next ExtendQueryBasedOnPhishingLabels \u00bb Script Data",
+      "name": "\u00ab ExportToXLSX",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExposeIncidentOwner",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/expose-incident-owner"
+}

@@ -1,0 +1,45 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "microsoft-365-defender-auth-reset",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Microsoft Defender Threat Intelligence \u00bb Deprecation Announcement",
+      "name": "\u00ab Microsoft Defender for Endpoint",
+      "required": ""
+    },
+    {
+      "description": "Configure Microsoft Defender for Endpoint Alerts on Cortex XSIAM Commands microsoft-365-defender-get-events",
+      "name": "Replacement Option",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "microsoft-365-defender-auth-reset",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Defender for Endpoint Alerts (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-365-defender-event-collector"
+}

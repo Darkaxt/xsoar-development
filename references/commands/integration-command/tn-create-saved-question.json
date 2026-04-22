@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "com.tanium.components.parameters::TextInputParameter",
+  "examples": [
+    "Command Example\n!tn-create-saved-question name=ip_all_machines question-id=50477\nContext Example\n{\n\"Tanium.SavedQuestion\": {\n\"ID\": 450,\n\"name\": \"ip_all_machines\"",
+    "!tn-create-saved-question name=ip_all_machines question-id=50477\nContext Example\n{\n\"Tanium.SavedQuestion\": {\n\"ID\": 450,\n\"name\": \"ip_all_machines\""
+  ],
+  "kind": "integration-command",
+  "name": "tn-create-saved-question",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the saved question. Tanium.SavedQuestion.Name The name of the saved question.",
+      "name": "Tanium.SavedQuestion.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

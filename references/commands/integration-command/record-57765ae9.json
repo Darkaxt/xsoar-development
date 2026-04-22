@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "get-events",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Gets events from NetQuest OMX. Each event is a report for the specified statistic type. Available only for Cortex XSIAM.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "get-events",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Netscout Arbor Edge Defense \u00bb Configure NetQuest OMX in Cortex",
+      "name": "\u00ab Netmiko",
+      "required": ""
+    },
+    {
+      "description": "netquest-address-list-upload netquest-address-list-optimize netquest-address-list-create",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "netquest-address-list-delete get-events Docs",
+      "name": "netquest-address-list-rename",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "NetQuest OMX",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/net-quest-omx"
+}

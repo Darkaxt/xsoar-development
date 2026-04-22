@@ -1,0 +1,84 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "AWS-DynamoDB.TableDescription",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Indicates whether TTL is to be enabled (true) or disabled (false) on the table. AWS-DynamoDB.TimeToLiveSpecification.AttributeName The name of the TTL attribute used to store the expiration time for items in the table.",
+      "name": "AWS-DynamoDB.TimeToLiveSpecification.Enabled",
+      "required": ""
+    },
+    {
+      "description": "Represents the output of an UpdateTimeToLive operation. Edit this page Report an Issue",
+      "name": "AWS-DynamoDB.TimeToLiveSpecification",
+      "required": ""
+    },
+    {
+      "description": "\u00ab AlphaVantage Next Amazon Security Lake \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands aws-dynamodb-batch-get-item aws-dynamodb-batch-write-item",
+      "name": "Configure Amazon DynamoDB in Cortex",
+      "required": ""
+    },
+    {
+      "description": "aws-dynamodb-create-global-table aws-dynamodb-create-table aws-dynamodb-delete-backup",
+      "name": "aws-dynamodb-create-backup",
+      "required": ""
+    },
+    {
+      "description": "aws-dynamodb-delete-table aws-dynamodb-describe-backup aws-dynamodb-describe-continuous-backups",
+      "name": "aws-dynamodb-delete-item",
+      "required": ""
+    },
+    {
+      "description": "aws-dynamodb-describe-global-table aws-dynamodb-describe-global-table-settings aws-dynamodb-describe-limits",
+      "name": "aws-dynamodb-describe-endpoints",
+      "required": ""
+    },
+    {
+      "description": "aws-dynamodb-describe-time-to-live aws-dynamodb-get-item aws-dynamodb-list-backups",
+      "name": "aws-dynamodb-describe-table",
+      "required": ""
+    },
+    {
+      "description": "aws-dynamodb-list-tables aws-dynamodb-list-tags-of-resource aws-dynamodb-put-item",
+      "name": "aws-dynamodb-list-global-tables",
+      "required": ""
+    },
+    {
+      "description": "aws-dynamodb-restore-table-from-backup aws-dynamodb-restore-table-to-point-in-time aws-dynamodb-scan",
+      "name": "aws-dynamodb-query",
+      "required": ""
+    },
+    {
+      "description": "aws-dynamodb-transact-get-items aws-dynamodb-transact-write-items aws-dynamodb-untag-resource",
+      "name": "aws-dynamodb-tag-resource",
+      "required": ""
+    },
+    {
+      "description": "aws-dynamodb-update-global-table aws-dynamodb-update-global-table-settings aws-dynamodb-update-item",
+      "name": "aws-dynamodb-update-continuous-backups",
+      "required": ""
+    },
+    {
+      "description": "aws-dynamodb-update-time-to-live Docs Developer Docs",
+      "name": "aws-dynamodb-update-table",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Amazon DynamoDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/amazon-dynamo-db"
+}

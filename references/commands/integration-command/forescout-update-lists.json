@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\u201csound\u201d: \u201cpip\u201d, \u201clifespan\u201d: \u201c5\u201d, \u201cregion\u201d: \u201cEverywher\u201d}]}",
+  "examples": [
+    "Command Example\nforescout-update-lists list_names=disallowed_names,creatures update_type=add_list_values values=\"ignatius,devon\"\nHuman Readable Output\nSuccessfully added values to the 2 lists.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Forcepoint Web Security"
+  ],
+  "kind": "integration-command",
+  "name": "forescout-update-lists",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Forescout CounterACT",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forescout"
+}

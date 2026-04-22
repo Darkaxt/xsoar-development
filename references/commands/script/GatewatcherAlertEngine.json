@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "gatewatcher-alert-engine"
+  ],
+  "arguments": [],
+  "description": "GatewatcherAlertEngine | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GatewatcherAlertEngine",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GatewatcherAlertEngine",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/gatewatcher-alert-engine"
+}

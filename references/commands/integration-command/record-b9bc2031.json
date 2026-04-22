@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "get_capture_file.Output",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Dict Output of the action execution info Edit this page",
+      "name": "get_action_execution.Output",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab SysAid Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure Sysdig Response Actions in Cortex Commands execute-response-action",
+      "name": "Syslog (Deprecated) \u00bb",
+      "required": ""
+    },
+    {
+      "description": "get-capture-file get-action-execution Docs",
+      "name": "create-system-capture",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Sysdig Response Actions",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sysdig-response-actions"
+}

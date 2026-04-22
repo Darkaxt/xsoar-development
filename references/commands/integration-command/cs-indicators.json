@@ -1,0 +1,102 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no raw output for this command.",
+  "examples": [
+    "Command Example\n!cs-indicators filter=match parameter=indicator value=\"panda\"\nRaw Output\nDBotScore\n[\n{\n\"Indicator\":\"nadazpanda.publicvm.com\",\n\"Score\":3,",
+    "!cs-indicators filter=match parameter=indicator value=\"panda\"\nRaw Output\nDBotScore\n[\n{\n\"Indicator\":\"nadazpanda.publicvm.com\",\n\"Score\":3,\n\"Type\":\"domain\","
+  ],
+  "kind": "integration-command",
+  "name": "cs-indicators",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Malicious MD5 hash file File.SHA1 Malicious SHA-1 hash file",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "Malicious SHA-256 hash file Malicious.Vendor For malicious files, the vendor that made the decision",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the reason that the vendor made that decision File.Reports For malicious files, the associated reports describing the hash",
+      "name": "File.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the associated actors File.MalwareFamilies For malicious files, the associated malware family",
+      "name": "File.Actors",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the associated kill chain URL.Data Malicious URL",
+      "name": "File.KillChains",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the vendor that made the decision URL.Malicious.Description For malicious URLs, the reason that the vendor made that decision",
+      "name": "URL.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the associated reports describing the URL URL.Actors For malicious URLs, the associated actors",
+      "name": "URL.Reports",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the associated malware family URL.KillChains For malicious URLs, the associated kill chain",
+      "name": "URL.MalwareFamilies",
+      "required": ""
+    },
+    {
+      "description": "Malicious domain Domain.Malicious.Vendor For malicious domains, the vendor that made the decision",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "For malicious domains, the reason that the vendor made that decision Domain.Reports For malicious domains, the associated reports describing the domain",
+      "name": "Domain.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "For malicious domains, the associated actors Domain.MalwareFamilies For malicious domains, the associated malware family",
+      "name": "Domain.Actors",
+      "required": ""
+    },
+    {
+      "description": "For malicious domains, the associated kill chain IP.Address IP Indicators",
+      "name": "Domain.KillChains",
+      "required": ""
+    },
+    {
+      "description": "For malicious IP addresses, the vendor that made the decision IP.Malicious.Description For malicious IP addresses, the reason that the vendor made that decision",
+      "name": "IP.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "For malicious IP addresses, the associated reports describing the IP IP.Actors For malicious IP addresses, the associated actors",
+      "name": "IP.Reports",
+      "required": ""
+    },
+    {
+      "description": "For malicious IP addresses, the associated malware family IP.KillChains For malicious IP addresses, the associated kill chain",
+      "name": "IP.MalwareFamilies",
+      "required": ""
+    },
+    {
+      "description": "The indicator tested DBotScore.Type Type of indicator tested",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Intel (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-intel"
+}

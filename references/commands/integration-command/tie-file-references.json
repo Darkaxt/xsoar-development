@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!tie-set-file-reputation file=3b0fcc439a7d83860433d34e564ff1e9ddd4cfaa trust_level=MOST_LIKELY_TRUSTED\nHuman Readable Output\n3. Get the systems that referenced a file\nRetrieves the set of systems which have referenced (typically executed) the specified file.\nBase Command\ntie-file-references\nInput",
+    "!tie-set-file-reputation file=3b0fcc439a7d83860433d34e564ff1e9ddd4cfaa trust_level=MOST_LIKELY_TRUSTED\nHuman Readable Output\n3. Get the systems that referenced a file\nRetrieves the set of systems which have referenced (typically executed) the specified file.\nBase Command\ntie-file-references\nInput\nArgument Name",
+    "Command Example\n!tie-file-references file=3d720dc2b8b0ff23f616aa850447e702eb89047e\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab McAfee NSM v2\nNext",
+    "!tie-file-references file=3d720dc2b8b0ff23f616aa850447e702eb89047e\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab McAfee NSM v2\nNext\nMcAfee Threat Intelligence Exchange v2 \u00bb"
+  ],
+  "kind": "integration-command",
+  "name": "tie-file-references",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "MD5 hash of the file (if supplied). File.SHA1 SHA1 hash of the file (if supplied).",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "SHA256 hash of the file (if supplied). File.References.AgentGuid The GUID of the system that referenced the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The time the system first referenced the file.",
+      "name": "File.References.Date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Threat Intelligence Exchange (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-threat-intelligence-exchange"
+}

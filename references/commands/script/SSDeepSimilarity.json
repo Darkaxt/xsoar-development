@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "ss-deep-similarity"
+  ],
+  "arguments": [],
+  "description": "SSDeepSimilarity | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SSDeepSimilarity",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The difference calculation score between the ssdeep_hash and the compared hash. SSDeepSimilarity.compared_hashes.hash The hash compared to the ssdeep_hash.",
+      "name": "SSDeepSimilarity.compared_hashes.similarityValue",
+      "required": ""
+    },
+    {
+      "description": "Please note the outputs are changed to use output_key instead of 'SSDeepSimilarity' if provided. Edit this page Report an Issue",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "\u00ab SSDeepReputation Next SSIMScoreWidget \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SSDeepSimilarity",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ss-deep-similarity"
+}

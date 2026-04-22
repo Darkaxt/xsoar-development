@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!tn-get-question-result question-id=50477\nContext Example\n{\n\"Tanium.QuestionResult\": {\n\"QuestionID\": \"50477\",\n\"Status\": \"Pending\"",
+    "!tn-get-question-result question-id=50477\nContext Example\n{\n\"Tanium.QuestionResult\": {\n\"QuestionID\": \"50477\",\n\"Status\": \"Pending\""
+  ],
+  "kind": "integration-command",
+  "name": "tn-get-question-result",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the question object. Tanium.QuestionResult.Results The question results.",
+      "name": "Tanium.QuestionResult.QuestionID",
+      "required": ""
+    },
+    {
+      "description": "The status of the question request. Can be: \"Completed\" or \"Pending\".",
+      "name": "Tanium.QuestionResult.Status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

@@ -1,0 +1,65 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input",
+      "required": ""
+    }
+  ],
+  "description": "RecordedFuture.DetectionRules.rules.content",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Request status Breaking changes from the previous version of this integration - Recorded Future v2",
+      "name": "RecordedFuture.CollectiveInsight.status",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Renamed the integration setting \"Incident Sharing\" to \"Collective Insights\", resetting any previous configuration to this setting.",
+      "required": ""
+    },
+    {
+      "description": "Next Red Canary \u00bb Configure Recorded Future v2 in Cortex",
+      "name": "\u00ab Recorded Future RiskList Feed",
+      "required": ""
+    },
+    {
+      "description": "domain ip file",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "url recordedfuture-threat-assessment recordedfuture-intelligence",
+      "name": "cve",
+      "required": ""
+    },
+    {
+      "description": "recordedfuture-single-alert recordedfuture-alerts recordedfuture-alert-rules",
+      "name": "recordedfuture-links",
+      "required": ""
+    },
+    {
+      "description": "recordedfuture-alert-set-note recordedfuture-malware-search Breaking changes from the previous version of this integration - Recorded Future v2",
+      "name": "recordedfuture-alert-set-status",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future-v2"
+}

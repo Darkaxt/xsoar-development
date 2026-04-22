@@ -1,0 +1,81 @@
+{
+  "aliases": [
+    "pfx-analyzer"
+  ],
+  "arguments": [],
+  "description": "PFXAnalyzer | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PFXAnalyzer",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "True if a private key was found in the PFX. PFXAnalysis.Key_Type Type of the private key (e.g., RSA, ECC).",
+      "name": "PFXAnalysis.Private_Key_Present",
+      "required": ""
+    },
+    {
+      "description": "PFXAnalysis.Key_Size Size of the private key in bits (for RSA) or curve name (for ECC). PFXAnalysis.Certificate_Present",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "PFXAnalysis.Common_Name Common Name from the certificate's subject. PFXAnalysis.Issuer",
+      "name": "True if a certificate was found in the PFX.",
+      "required": ""
+    },
+    {
+      "description": "PFXAnalysis.Validity_Start Certificate validity start date/time (UTC). date",
+      "name": "Common Name of the certificate's issuer.",
+      "required": ""
+    },
+    {
+      "description": "Certificate validity end date/time (UTC). date PFXAnalysis.Validity_Days",
+      "name": "PFXAnalysis.Validity_End",
+      "required": ""
+    },
+    {
+      "description": "PFXAnalysis.Self_Signed True if the certificate is self-signed. PFXAnalysis.Trusted_Issuer",
+      "name": "Total number of days the certificate is valid for.",
+      "required": ""
+    },
+    {
+      "description": "PFXAnalysis.CRL_URIs List of CRL Distribution Point URIs. PFXAnalysis.OCSP_URIs",
+      "name": "True if the certificate's issuer is in the predefined trusted list.",
+      "required": ""
+    },
+    {
+      "description": "PFXAnalysis.Suspicious_Keywords_in_CN True if suspicious keywords were found in the Common Name. PFXAnalysis.Reasons",
+      "name": "List of OCSP Access Method URIs.",
+      "required": ""
+    },
+    {
+      "description": "PFXAnalysis.Is_Suspicious Overall boolean indicator if the PFX is considered suspicious. Edit this page",
+      "name": "A list of all identified suspicious reasons.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab PerformActionOnCampaignIncidents Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "PHash \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PFXAnalyzer",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/pfx-analyzer"
+}

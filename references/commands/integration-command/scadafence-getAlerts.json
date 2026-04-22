@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get asset connection data: scadafence-getAssetConnections",
+  "examples": [
+    "Command Example\n!scadafence-getAlerts severity=Critical\nHuman Readable Output\nAlerts are:\nstatus\nseverity\nip\ncreatedOn",
+    "!scadafence-getAlerts severity=Critical\nHuman Readable Output\nAlerts are:\nstatus\nseverity\nip\ncreatedOn\ndetails"
+  ],
+  "kind": "integration-command",
+  "name": "scadafence-getAlerts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "{ \"createdOn\": \"2018-08-05T12:06:22.278Z\", \"details\": \"140.80.0.101 sent suspicious write command to PLC 2.2.2.2.\",",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "\"ip\": \"2.2.2.2\", \"severity\": \"Critical\", \"status\": \"Resolved\",",
+      "name": "\"id\": \"5b600cecfeb8001f1cc5d2ea\",",
+      "required": ""
+    },
+    {
+      "description": "} ] Path",
+      "name": "\"type\": \"Suspicious write command to PLC\"",
+      "required": ""
+    },
+    {
+      "description": "Alert ID SCADAfence.Alert.ip Asset IP",
+      "name": "SCADAfence.Alert.id",
+      "required": ""
+    },
+    {
+      "description": "Alert severity level SCADAfence.Alert.type Short description of the alert",
+      "name": "SCADAfence.Alert.severity",
+      "required": ""
+    },
+    {
+      "description": "Extended description of the alert",
+      "name": "SCADAfence.Alert.details",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SCADAfence CNM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/scad-afence-cnm"
+}

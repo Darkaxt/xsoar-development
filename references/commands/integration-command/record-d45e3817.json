@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "kenna-search-assets-by-external-id",
+  "examples": [
+    "!kenna-search-assets-by-external-id external_id=dummy limit=2 to_context=true\nContext Example\n#\n{\n\"Kenna\"\n:\n{\n\"Assets\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The asset ID. Kenna.Assets.Notes Notes of current asset.",
+      "name": "Kenna.Assets.ID",
+      "required": ""
+    },
+    {
+      "description": "Count of vulnerabilities of current asset. Kenna.Assets.Hostname Hostname of current asset.",
+      "name": "Kenna.Assets.VulnerabilitiesCount",
+      "required": ""
+    },
+    {
+      "description": "Score of current asset. Kenna.Assets.IpAddress IP of current asset.",
+      "name": "Kenna.Assets.Score",
+      "required": ""
+    },
+    {
+      "description": "Operating system of current asset.",
+      "name": "Kenna.Assets.OperatingSystem",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Kenna v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/kennav2"
+}

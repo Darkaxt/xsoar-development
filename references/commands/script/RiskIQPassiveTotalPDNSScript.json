@@ -1,0 +1,163 @@
+{
+  "aliases": [
+    "risk-iq-passive-total-pdns-script"
+  ],
+  "arguments": [],
+  "description": "RiskIQPassiveTotalPDNSScript | Cortex XSOAR",
+  "examples": [
+    "!RiskIQPassiveTotalPDNSScript indicator_value=\"www.furth.com.ar\"\nContext Example\n#\n{\n\"DBotScore\": [\n{\n\"Indicator\": \"furth.com.ar\",\n\"Score\": 0,"
+  ],
+  "kind": "script",
+  "name": "RiskIQPassiveTotalPDNSScript",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!RiskIQPassiveTotalPDNSScript indicator_value=\"www.furth.com.ar\"",
+      "required": ""
+    },
+    {
+      "description": "\"DBotScore\": [ { \"Indicator\": \"furth.com.ar\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Type\": \"domain\", \"Vendor\": \"PassiveTotal\" },",
+      "name": "\"Score\": 0,",
+      "required": ""
+    },
+    {
+      "description": "\"Indicator\": \"77.81.241.5\", \"Score\": 0, \"Type\": \"ip\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "}, { \"Indicator\": \"184.75.255.33\",",
+      "name": "\"Vendor\": \"PassiveTotal\"",
+      "required": ""
+    },
+    {
+      "description": "\"Type\": \"ip\", \"Vendor\": \"PassiveTotal\" }",
+      "name": "\"Score\": 0,",
+      "required": ""
+    },
+    {
+      "description": "\"Domain\": { \"Name\": \"furth.com.ar\" },",
+      "name": "],",
+      "required": ""
+    },
+    {
+      "description": "{ \"Address\": \"77.81.241.5\" },",
+      "name": "\"IP\": [",
+      "required": ""
+    },
+    {
+      "description": "\"Address\": \"184.75.255.33\" } ],",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"PDNS\": [ { \"collected\": \"2020-06-17 12:26:33\",",
+      "name": "\"PassiveTotal\": {",
+      "required": ""
+    },
+    {
+      "description": "\"lastSeen\": \"2020-06-17 05:26:33\", \"recordHash\": \"abf781b2484ea79d521cffb0745b71319d4db1158f71bb019b41077f8e55b035\", \"recordType\": \"CNAME\",",
+      "name": "\"firstSeen\": \"2010-12-15 09:10:10\",",
+      "required": ""
+    },
+    {
+      "description": "\"resolveType\": \"domain\", \"source\": [ \"riskiq\",",
+      "name": "\"resolve\": \"furth.com.ar\",",
+      "required": ""
+    },
+    {
+      "description": "], \"value\": \"www.furth.com.ar\" },",
+      "name": "\"pingly\"",
+      "required": ""
+    },
+    {
+      "description": "\"collected\": \"2020-06-17 12:26:33\", \"firstSeen\": \"2020-05-29 03:57:44\", \"lastSeen\": \"2020-06-17 05:26:33\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"recordType\": \"A\", \"resolve\": \"77.81.241.5\", \"resolveType\": \"ip\",",
+      "name": "\"recordHash\": \"d7183564ca617e173fc26aeff66a38bb5c1b9089e56819851183860b9a37ccca\",",
+      "required": ""
+    },
+    {
+      "description": "\"riskiq\", \"pingly\" ],",
+      "name": "\"source\": [",
+      "required": ""
+    },
+    {
+      "description": "}, { \"collected\": \"2020-06-17 12:26:33\",",
+      "name": "\"value\": \"www.furth.com.ar\"",
+      "required": ""
+    },
+    {
+      "description": "\"lastSeen\": \"2017-10-24 08:53:52\", \"recordHash\": \"345780dcde96f0c28e3b93ec53bd33067f26075f30c2d4e49fafe0d2396194ca\", \"recordType\": \"A\",",
+      "name": "\"firstSeen\": \"2016-01-11 15:45:15\",",
+      "required": ""
+    },
+    {
+      "description": "\"resolveType\": \"ip\", \"source\": [ \"riskiq\"",
+      "name": "\"resolve\": \"184.75.255.33\",",
+      "required": ""
+    },
+    {
+      "description": "\"value\": \"www.furth.com.ar\" }, {",
+      "name": "],",
+      "required": ""
+    },
+    {
+      "description": "\"firstSeen\": \"2020-06-17 05:26:33\", \"lastSeen\": \"2020-06-17 05:26:33\", \"recordHash\": \"63deb7c38cbea98f631777fd3ba89de0c270178bd37eb6a270ee7e37b3cd92e5\",",
+      "name": "\"collected\": \"2020-06-17 12:26:33\",",
+      "required": ""
+    },
+    {
+      "description": "\"resolve\": \"webmaster@furth.com.ar\", \"resolveType\": \"email\", \"source\": [",
+      "name": "\"recordType\": \"SOA\",",
+      "required": ""
+    },
+    {
+      "description": "], \"value\": \"www.furth.com.ar\" },",
+      "name": "\"pingly\"",
+      "required": ""
+    },
+    {
+      "description": "\"collected\": \"2020-06-17 12:26:33\", \"firstSeen\": \"2020-06-17 05:26:33\", \"lastSeen\": \"2020-06-17 05:26:33\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"recordType\": \"MX\", \"resolve\": \"furth.com.ar\", \"resolveType\": \"domain\",",
+      "name": "\"recordHash\": \"24fa99da36eecc22b8970a33f8adf0f150598391319df4fc02128d677999e886\",",
+      "required": ""
+    },
+    {
+      "description": "\"pingly\" ], \"value\": \"www.furth.com.ar\"",
+      "name": "\"source\": [",
+      "required": ""
+    },
+    {
+      "description": "] } }",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RiskIQPassiveTotalPDNSScript",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/risk-iq-passive-total-pdns-script"
+}

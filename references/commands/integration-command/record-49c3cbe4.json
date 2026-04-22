@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "adding further to the risk that hundreds of millions of Adobe customers already faced.",
+  "examples": [
+    "Command Example\n#\n!pwned-username username=\"jondon\"\nContext Example\n#\n{\n\"Domain\": {\n\"Pwned-V2\": {",
+    "!pwned-username username=\"jondon\"\nContext Example\n#\n{\n\"Domain\": {\n\"Pwned-V2\": {\n\"Compromised\": {\n\"Vendor\": \"Have I Been Pwned? V2\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "For compromised usernames, the vendor that made the decision. Username.Pwned-V2.Compromised.Reporters For compromised usernames, the reporters for the vendor to make the compromised decision.",
+      "name": "Username.Pwned-V2.Compromised.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The username name. Username.Malicious.Vendor For malicious usernames, the vendor that made the decision.",
+      "name": "Username.Name",
+      "required": ""
+    },
+    {
+      "description": "For malicious usernames, the reason that the vendor made the decision.",
+      "name": "Username.Malicious.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Have I Been Pwned? v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/have-i-been-pwned-v2"
+}

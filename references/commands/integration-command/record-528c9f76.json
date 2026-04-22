@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The items were successfully merged",
+  "examples": [
+    "!symantec-email-security-item-block-list-delete item_id=000\nHuman Readable Output\n#\nThe items were successfully deleted\n#\nEdit this page\nReport an Issue\nPrevious"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Email Security Cloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-email-security-cloud"
+}

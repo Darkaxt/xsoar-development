@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Indicator type in Cortex XSOAR",
+  "examples": [
+    "Command Example\n!ip ip=\"10.200.104.236\"\nHuman Readable Output\n7. Lookup and enrich and enrich an email address\nLookup and enrich an email address.\nBase Command\nemail\nInput",
+    "!ip ip=\"10.200.104.236\"\nHuman Readable Output\n7. Lookup and enrich and enrich an email address\nLookup and enrich an email address.\nBase Command\nemail\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "email",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Device ID associated with the specified email address AwakeSecurity.Emails.deviceName Device name associated with the specified email address",
+      "name": "AwakeSecurity.Emails.deviceId",
+      "required": ""
+    },
+    {
+      "description": "Date that the email address was first seen in Awake Security AwakeSecurity.Emails.lastSeen Date that the email address was last seen in Awake Security",
+      "name": "AwakeSecurity.Emails.firstSeen",
+      "required": ""
+    },
+    {
+      "description": "Time (in seconds) between the email address first seen date and last seen date in Awake Security AwakeSecurity.Emails.os Operating system of the device associated with the specified email address",
+      "name": "AwakeSecurity.Emails.duration",
+      "required": ""
+    },
+    {
+      "description": "Device type associated with the specified email address AwakeSecurity.Emails.ips IP addresses that the device associated with the specified email address accessed",
+      "name": "AwakeSecurity.Emails.deviceType",
+      "required": ""
+    },
+    {
+      "description": "Monitoring point IDs on which the device associated with the specified email address were seen AwakeSecurity.Emails.application Email applications associated with this email address",
+      "name": "AwakeSecurity.Emails.monitoringPointIds",
+      "required": ""
+    },
+    {
+      "description": "Notability (risk score) of the specified email address AwakeSecurity.Emails.numberSimilarDevices Number of similar devices associated with the device of the specified email addresses",
+      "name": "AwakeSecurity.Emails.notabilityPercentile",
+      "required": ""
+    },
+    {
+      "description": "Number of TCP sessions the device associated with this email address initiated AwakeSecurity.Emails.ackTime Date of the last TCP session acknowledgment of the device associated with the specified email address",
+      "name": "AwakeSecurity.Emails.numberSessions",
+      "required": ""
+    },
+    {
+      "description": "bool Is the device associated with the specified email address in the allow list DBotScore.Score",
+      "name": "AwakeSecurity.Emails.whiteListed",
+      "required": ""
+    },
+    {
+      "description": "Severity score of the specified email address in Cortex XSOAR DBotScore.Type Indicator type in Cortex XSOAR",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to assess the specified email address DBotScore.Indicator",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Awake Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/awake-security"
+}

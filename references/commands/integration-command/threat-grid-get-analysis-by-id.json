@@ -1,0 +1,92 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"MD5\": \"7aeb2b515af0c5e1c8cfca234377e44f\"",
+  "examples": [
+    "Command Example\n!threat-grid-get-analysis-by-id id=9798717402a40970a2d043014d9a6170\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"Id\": \"9798717402a40970a2d043014d9a6170\"\n}",
+    "!threat-grid-get-analysis-by-id id=9798717402a40970a2d043014d9a6170\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"Id\": \"9798717402a40970a2d043014d9a6170\"\n}\n},"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-analysis-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the sample for which the report was downloaded Demisto.File File containing unfiltered result",
+      "name": "ThreatGrid.Sample.ID",
+      "required": ""
+    },
+    {
+      "description": "The VM ID for the sample ThreatGrid.Sample.VM.Name The VM Name for the sample",
+      "name": "ThreatGrid.Sample.VM.ID",
+      "required": ""
+    },
+    {
+      "description": "Start time of the analysis ThreatGrid.Sample.Runtime Runtime of the analysis",
+      "name": "ThreatGrid.Sample.StartedAt",
+      "required": ""
+    },
+    {
+      "description": "File name of the sample ThreatGrid.Sample.Size Size of the sample",
+      "name": "ThreatGrid.Sample.FileName",
+      "required": ""
+    },
+    {
+      "description": "The sample MD5 value ThreatGrid.Sample.SHA1 The sample's SHA-1 value",
+      "name": "ThreatGrid.Sample.MD5",
+      "required": ""
+    },
+    {
+      "description": "The sample's SHA-256 value ThreatGrid.Sample.MagicType Sample magic type",
+      "name": "ThreatGrid.Sample.SHA256",
+      "required": ""
+    },
+    {
+      "description": "Sample's file type ThreatGrid.Sample.ThreatScore The threat score of the sample",
+      "name": "ThreatGrid.Sample.Type",
+      "required": ""
+    },
+    {
+      "description": "The sample's heuristic score ThreatGrid.Sample.FilesDeleted The files that were created during the analysis",
+      "name": "ThreatGrid.Sample.HeuristicScore",
+      "required": ""
+    },
+    {
+      "description": "The files that were created during the analysis ThreatGrid.Sample.FilesModified The files that were modified during the analysis",
+      "name": "ThreatGrid.Sample.FileCreated",
+      "required": ""
+    },
+    {
+      "description": "The directory of the sample ThreatGrid.Sample.CMD The command line execution of the sample",
+      "name": "ThreatGrid.Sample.Directory",
+      "required": ""
+    },
+    {
+      "description": "The process name of the sample ThreatGrid.Sample.Destination The destination IP of the sample",
+      "name": "ThreatGrid.Sample.ProcessName",
+      "required": ""
+    },
+    {
+      "description": "The destination port of the sample ThreatGrid.Sample.PacketSize Packet size in bytes",
+      "name": "ThreatGrid.Sample.DestinationPort",
+      "required": ""
+    },
+    {
+      "description": "Sample malicious hits in VirusTotal ThreatGrid.Sample.VT.Engines Number of engines that scanned the Sample on VirusTotal",
+      "name": "ThreatGrid.Sample.VT.Hits",
+      "required": ""
+    },
+    {
+      "description": "Artifact ID (yara signature name ThreatGrid.Artifact.Tags Artifact tags",
+      "name": "ThreatGrid.Artifact.Yara",
+      "required": ""
+    },
+    {
+      "description": "Artifact family name ThreatGrid.Artifact.ThreatName Artifact threat name",
+      "name": "ThreatGrid.Artifact.FamilyName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

@@ -1,0 +1,127 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "17. Get information about a user that was assigned to an application",
+  "examples": [
+    "Command Example\n!okta-get-application-assignments limit=1 since=2018-07-31T08:22:18Z\nContext Example\n{\n\"Okta\": {\n\"Logs\": {\n\"Events\": {\n\"actor\": {",
+    "!okta-get-application-assignments limit=1 since=2018-07-31T08:22:18Z\nContext Example\n{\n\"Okta\": {\n\"Logs\": {\n\"Events\": {\n\"actor\": {\n\"alternateId\": \"actor@org.com\","
+  ],
+  "kind": "integration-command",
+  "name": "okta-get-application-assignments",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alternative ID of actor. Okta.Logs.Events.actor.displayName Display name of actor.",
+      "name": "Okta.Logs.Events.actor.alternateId",
+      "required": ""
+    },
+    {
+      "description": "ID of actor. Okta.Logs.Events.client.userAgent.rawUserAgent A raw string representation of the user agent, formatted according to section 5.5.3 of HTTP/1.1 Semantics and Content. Both the browser and the OS fields can be derived from this field.",
+      "name": "Okta.Logs.Events.actor.id",
+      "required": ""
+    },
+    {
+      "description": "The Operating System the client runs on (for example, Windows 10). Okta.Logs.Events.client.userAgent.browser If the client is a web browser, this field identifies the type of web browser (for example, CHROME, FIREFOX).",
+      "name": "Okta.Logs.Events.client.userAgent.os",
+      "required": ""
+    },
+    {
+      "description": "The type of device that the client operated from (for example, Computer). Okta.Logs.Events.client.id For OAuth requests this is the ID of the requesting OAuth client.",
+      "name": "Okta.Logs.Events.client.device",
+      "required": ""
+    },
+    {
+      "description": "Okta.Logs.Events.client.ipAddress IP address that the client made the request from. Okta.Logs.Events.client.geographicalContext.city",
+      "name": "For SSWS token requests, this is the ID of the requesting agent.",
+      "required": ""
+    },
+    {
+      "description": "The city encompassing the area containing the geolocation coordinates, if available (for example, Seattle, San Francisco)",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Full name of the state or province encompassing the area containing the geolocation coordinates (for example, Montana, Incheon).",
+      "name": "Okta.Logs.Events.geographicalContext.state",
+      "required": ""
+    },
+    {
+      "description": "Full name of the country encompassing the area containing the geolocation coordinates (for example, France, Uganda).",
+      "name": "Okta.Logs.Events.client.geographicalContext.country",
+      "required": ""
+    },
+    {
+      "description": "The display message for an event. Okta.Logs.Events.eventType The type of event that was published.",
+      "name": "Okta.Logs.Events.displayMessage",
+      "required": ""
+    },
+    {
+      "description": "Result of the action: SUCCESS FAILURE",
+      "name": "Okta.Logs.Events.outcome.result",
+      "required": ""
+    },
+    {
+      "description": "Okta.Logs.Events.outcome.reason Reason for the result (for example, INVALID_CREDENTIALS). Okta.Logs.Events.published",
+      "name": "SKIPPED",
+      "required": ""
+    },
+    {
+      "description": "Timestamp when the event was published. Okta.Logs.Events.severity Indicates how severe the event is:",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "INFO WARN ERROR",
+      "name": "DEBUG",
+      "required": ""
+    },
+    {
+      "description": "Autonomous system number associated with the autonomous system that the event request was sourced to. Okta.Logs.Events.securityContext.asOrg Organization associated with the autonomous system that the event request was sourced to.",
+      "name": "Okta.Logs.Events.securityContext.asNumber",
+      "required": ""
+    },
+    {
+      "description": "Internet service provider used to sent the event\u2019s request. Okta.Logs.Events.securityContext.domain The domain name associated with the IP address of the inbound event request.",
+      "name": "Okta.Logs.Events.securityContext.isp",
+      "required": ""
+    },
+    {
+      "description": "Specifies whether an event\u2019s request is from a known proxy. Okta.Logs.Events.request.ipChain.IP IP address.",
+      "name": "Okta.Logs.Events.securityContext.isProxy",
+      "required": ""
+    },
+    {
+      "description": "The city encompassing the area containing the geolocation coordinates, if available (for example, Seattle, San Francisco).",
+      "name": "Okta.Logs.Events.request.ipChain.geographicalContext.city",
+      "required": ""
+    },
+    {
+      "description": "Full name of the state or province encompassing the area containing the geolocation coordinates (for example, Montana, Incheon).",
+      "name": "Okta.Logs.Events.request.ipChain.geographicalContext.state",
+      "required": ""
+    },
+    {
+      "description": "Full name of the country encompassing the area containing the geolocation coordinates (for example, France, Uganda).",
+      "name": "Okta.Logs.Events.request.ipChain.geographicalContext.country",
+      "required": ""
+    },
+    {
+      "description": "Details regarding the source. Okta.Logs.Events.target.id Target ID.",
+      "name": "Okta.Logs.Events.request.ipChain.source",
+      "required": ""
+    },
+    {
+      "description": "Target type. Okta.Logs.Events.target.alternateId Alternative target ID.",
+      "name": "Okta.Logs.Events.target.type",
+      "required": ""
+    },
+    {
+      "description": "Display name of the target.",
+      "name": "Okta.Logs.Events.target.displayName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "okta (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta"
+}

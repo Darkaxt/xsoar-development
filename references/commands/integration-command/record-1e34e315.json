@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "aws-lambda-delete-layer-version",
+  "examples": [
+    "!aws-lambda-delete-layer-version version-number=4 layer-name=test_layer\nContext Output\n#\nThere is no context output for this command.\nHuman Readable Output\n#\nDeleted version number 2 of testLayer Successfully\nEdit this page"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - Lambda",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---lambda"
+}

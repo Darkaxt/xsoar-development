@@ -1,0 +1,61 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Fetch list of alerts.",
+  "examples": [
+    "!dspm-list-alerts cloudEnvironmentEquals=\"TESTING\"\nContext Example\n#\n{\n\"DSPM\"\n:\n{\n\"Alerts\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alert ID. DSPM.Alert.detectionTime Date",
+      "name": "DSPM.Alert.id",
+      "required": ""
+    },
+    {
+      "description": "DSPM.Alert.policyName Alert policy name. DSPM.Alert.assetName",
+      "name": "Alert detection time.",
+      "required": ""
+    },
+    {
+      "description": "Alert asset name. DSPM.Alert.assetLabels Alert asset label.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Alert cloud provider. DSPM.Alert.destinationProjects Alert destination projects.",
+      "name": "DSPM.Alert.cloudProvider",
+      "required": ""
+    },
+    {
+      "description": "Alert cloud enviroment. DSPM.Alert.policySeverity Alert policy severity.",
+      "name": "DSPM.Alert.cloudEnvironment",
+      "required": ""
+    },
+    {
+      "description": "Alert policy category type. DSPM.Alert.status Alert status.",
+      "name": "DSPM.Alert.policyCategoryType",
+      "required": ""
+    },
+    {
+      "description": "Alert event actor. DSPM.Alert.eventUserAgent Alert event user agent.",
+      "name": "DSPM.Alert.eventActor",
+      "required": ""
+    },
+    {
+      "description": "Alert event action medium. DSPM.Alert.eventSource Alert event source.",
+      "name": "DSPM.Alert.eventActionMedium",
+      "required": ""
+    },
+    {
+      "description": "Alert policy frameworks. DSPM.Alert.eventRawData Alert event raw data.",
+      "name": "DSPM.Alert.policyFrameWorks",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Prisma Cloud DSPM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dspm"
+}

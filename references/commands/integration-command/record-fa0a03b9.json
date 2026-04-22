@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "PingOne user updated: richard.smith",
+  "examples": [
+    "Command Example\n#\n!pingone-delete-user username=richard.smith\nHuman Readable Output\n#\nUser: 9bc53389-f806-47b6-9480-ab1e3c6269b5 was Deleted successfully\nEdit this page\nReport an Issue",
+    "!pingone-delete-user username=richard.smith\nHuman Readable Output\n#\nUser: 9bc53389-f806-47b6-9480-ab1e3c6269b5 was Deleted successfully\nEdit this page\nReport an Issue\nPrevious\n\u00ab PingCastle"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PingOne",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ping-one"
+}

@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!servicenow-add-comment id=\"0c23f8d24f102300d316b63ca310c742\" ticket_type=\"incident\" comment=\"This is a comment\"\nHuman Readable Output\n7. Get ticket information from a query\nRetrieves ticket information via a query.\nBase Command\nservicenow-query-tickets\nInput",
+    "!servicenow-add-comment id=\"0c23f8d24f102300d316b63ca310c742\" ticket_type=\"incident\" comment=\"This is a comment\"\nHuman Readable Output\n7. Get ticket information from a query\nRetrieves ticket information via a query.\nBase Command\nservicenow-query-tickets\nInput\nArgument Name",
+    "Command Example\n!servicenow-query-tickets limit=\"10\" query=\"impact<2^short_descriptionISNOTEMPTY\" ticket_type=\"incident\"\nContext Example\n{\n\"ServiceNow\": {\n\"Ticket\": [\n{\n\"Active\": \"false\",",
+    "!servicenow-query-tickets limit=\"10\" query=\"impact<2^short_descriptionISNOTEMPTY\" ticket_type=\"incident\"\nContext Example\n{\n\"ServiceNow\": {\n\"Ticket\": [\n{\n\"Active\": \"false\",\n\"Assignee\": \"46b87022a9fe198101a78787e40d7547\","
+  ],
+  "kind": "integration-command",
+  "name": "servicenow-query-tickets",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ticket identifier Ticket.Creator A string field that indicates the user who created the ticket",
+      "name": "Ticket.ID",
+      "required": ""
+    },
+    {
+      "description": "date The date and time when the ticket was created Ticket.Assignee",
+      "name": "Ticket.CreatedOn",
+      "required": ""
+    },
+    {
+      "description": "Specifies the user assigned to complete the ticket. By default, this field uses a reference qualifier to only display users with the itil role. Ticket.State Status of the ticket",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "A human-readable title for the record Ticket.Number The display value of the ticket",
+      "name": "Ticket.Summary",
+      "required": ""
+    },
+    {
+      "description": "Specifies whether work is still being done on a task or whether the work for the task is complete Ticket.AdditionalComments Comments about the task record",
+      "name": "Ticket.Active",
+      "required": ""
+    },
+    {
+      "description": "Specifies how high a priority the ticket should be for the assignee Ticket.OpenedAt date",
+      "name": "Ticket.Priority",
+      "required": ""
+    },
+    {
+      "description": "Ticket.Escalation Indicates how long the ticket has been open",
+      "name": "The date and time when the ticket was opened for the first time",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now"
+}

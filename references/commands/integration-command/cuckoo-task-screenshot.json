@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!cuckoo-delete-task id=88\n7. Get analysis screenshots\nRetrieves screenshots taken during a task analysis. If the screenshot number argument is omitted, the command retrieves a ZIP file with all screenshots.\nBase Command\ncuckoo-task-screenshot\nInput\nArgument Name",
+    "!cuckoo-delete-task id=88\n7. Get analysis screenshots\nRetrieves screenshots taken during a task analysis. If the screenshot number argument is omitted, the command retrieves a ZIP file with all screenshots.\nBase Command\ncuckoo-task-screenshot\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "cuckoo-task-screenshot",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Size of file File.SHA1 File SHA-1",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "File SHA-256 File.Name File name",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "File SSDeep File.EntryID File entry ID",
+      "name": "File.SSDeep",
+      "required": ""
+    },
+    {
+      "description": "File info File.Type File type",
+      "name": "File.Info",
+      "required": ""
+    },
+    {
+      "description": "File MD5 File.Extension File extension",
+      "name": "File.MD5",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cuckoo Sandbox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cuckoo-sandbox"
+}

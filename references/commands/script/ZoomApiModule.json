@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "zoom-api-module"
+  ],
+  "arguments": [],
+  "description": "ZoomApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ZoomApiModule",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ZoomApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/zoom-api-module"
+}

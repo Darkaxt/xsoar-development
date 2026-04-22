@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "tc-download-document",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The size of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. File.Name The name of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The ssdeep hash of the file (same as displayed in file entries). File.EntryID The entry ID of the file.",
+      "name": "File.SSDeep",
+      "required": ""
+    },
+    {
+      "description": "The information of the file. File.Type The type of the file.",
+      "name": "File.Info",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the file. File.Extension",
+      "name": "File.MD5",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!bigfix-action-delete action_id\nHuman Readable Output\n9. Get the status of an action\nGets the status of an action against its targets.\nBase Command\nbigfix-action-status\nInput",
+    "!bigfix-action-delete action_id\nHuman Readable Output\n9. Get the status of an action\nGets the status of an action against its targets.\nBase Command\nbigfix-action-status\nInput\nArgument Name",
+    "Command Example\n!bigfix-action-status action_id=56\nContext Example\n{\n\"Bigfix\": {\n\"Action\": {\n\"Status\": \"Open\",\n\"ID\": \"56\"",
+    "!bigfix-action-status action_id=56\nContext Example\n{\n\"Bigfix\": {\n\"Action\": {\n\"Status\": \"Open\",\n\"ID\": \"56\""
+  ],
+  "kind": "integration-command",
+  "name": "bigfix-action-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Action ID Bigfix.Action.Status Action status (e.g., \"Open\", \"Stopped\")",
+      "name": "Bigfix.Action.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BigFix",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/big-fix"
+}

@@ -1,0 +1,94 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "update-remote-system",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Updates the remote system with local changes.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "update-remote-system",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "To set up the mirroring: Enable Fetching incidents",
+      "name": "You can enable incident mirroring between Cortex XSOAR incidents and CTM360 CyberBlindspot corresponding events (available from Cortex XSOAR version 6.0.0).",
+      "required": ""
+    },
+    {
+      "description": "In the Mirroring Direction integration parameter, select in which direction the incidents should be mirrored:",
+      "name": "in your instance configuration.",
+      "required": ""
+    },
+    {
+      "description": "Description None Turns off incident mirroring.",
+      "name": "Option",
+      "required": ""
+    },
+    {
+      "description": "Any changes in CTM360 CyberBlindspot events (mirroring incoming fields) will be reflected in Cortex XSOAR incidents. Outgoing Any changes in Cortex XSOAR incidents will be reflected in CTM360 CyberBlindspot events (outgoing mirrored fields).",
+      "name": "Incoming",
+      "required": ""
+    },
+    {
+      "description": "Changes in Cortex XSOAR incidents and CTM360 CyberBlindspot events will be reflected in both directions. Newly fetched incidents will be mirrored in the chosen direction. However, this selection does not affect existing incidents. Important Note:",
+      "name": "Incoming And Outgoing",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "To ensure the mirroring works as expected, mappers are required, both for incoming and outgoing, to map the expected fields in Cortex XSOAR and CTM360 CyberBlindspot.",
+      "required": ""
+    },
+    {
+      "description": "Next CTM360 HackerView \u00bb Configure CTM360 CyberBlindspot in Cortex",
+      "name": "\u00ab CSV Feed",
+      "required": ""
+    },
+    {
+      "description": "ctm360-cbs-incident-list ctm360-cbs-incident-close ctm360-cbs-incident-request-takedown",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "ctm360-cbs-incident-details ctm360-cbs-incident-retrieve-screenshots get-remote-data",
+      "name": "get-mapping-fields",
+      "required": ""
+    },
+    {
+      "description": "update-remote-system Incident Mirroring Docs",
+      "name": "get-modified-remote-data",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CTM360 CyberBlindspot",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ctm360-cyber-blindspot"
+}

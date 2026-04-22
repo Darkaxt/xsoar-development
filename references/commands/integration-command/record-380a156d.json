@@ -1,0 +1,71 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "{'applicationName': None, 'applicationProtocol': 'snmp', 'port': 16161, 'transportProtocol': 'udp'}",
+  "examples": [
+    "!trustwave-search-assets limit=2 type=\"DEVICE\" name=\"host.example.com\"\nContext Example\n#\n{\n\"Trustwave\"\n:\n{\n\"Asset\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Network address in CIDR notation. Trustwave.Asset.createdOn Date",
+      "name": "Trustwave.Asset.cidr",
+      "required": ""
+    },
+    {
+      "description": "Trustwave.Asset.customerName The customer name for the asset. Trustwave.Asset.id",
+      "name": "Time when the asset was created.",
+      "required": ""
+    },
+    {
+      "description": "The asset ID. Trustwave.Asset.ips List of IP addresses for the asset.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Date Time of the last activity associated with the asset. Trustwave.Asset.name",
+      "name": "Trustwave.Asset.lastActivity",
+      "required": ""
+    },
+    {
+      "description": "The name of the asset. Trustwave.Asset.networkInterfaces.gateway Gateway address for the asset network interface.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "List of hostname for the asset network interface Trustwave.Asset.networkInterfaces.ip IP address for the asset network interface",
+      "name": "Trustwave.Asset.networkInterfaces.hostnames",
+      "required": ""
+    },
+    {
+      "description": "MAC address for the asset network interface Trustwave.Asset.networkInterfaces.macVendor Vendor associated with the MAC address for the asset network interface",
+      "name": "Trustwave.Asset.networkInterfaces.macAddress",
+      "required": ""
+    },
+    {
+      "description": "Network subnet the asset network interface Trustwave.Asset.os Asset operating system.",
+      "name": "Trustwave.Asset.networkInterfaces.subnet",
+      "required": ""
+    },
+    {
+      "description": "Asset status. Trustwave.Asset.type The type of asset.",
+      "name": "Trustwave.Asset.status",
+      "required": ""
+    },
+    {
+      "description": "Date Time when the asset was last updated. Trustwave.Asset.uri",
+      "name": "Trustwave.Asset.updatedOn",
+      "required": ""
+    },
+    {
+      "description": "URI of the asset.",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TrustwaveFusion",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/trustwave-fusion"
+}

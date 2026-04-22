@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!wiz-reopen-issue issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\" reopen-note=\"still an issue\"",
+  "examples": [
+    "Command Example\n#\n!wiz-reopen-issue issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\" reopen-note=\"still an issue\"\nwiz-reject-issue\n#\nRe-open an Issue.\nBase Command\nwiz-reject-issue",
+    "!wiz-reopen-issue issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\" reopen-note=\"still an issue\"\nwiz-reject-issue\n#\nRe-open an Issue.\nBase Command\nwiz-reject-issue\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "wiz-reject-issue",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Issue details",
+      "name": "Wiz.Manager.Issue",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Wiz",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/wiz"
+}

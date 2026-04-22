@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "verify-i-pv6-indicator"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "The IPv6 to vriefy.",
+      "required": ""
+    }
+  ],
+  "description": "VerifyIPv6Indicator | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "VerifyIPv6Indicator",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next VerifyJSON \u00bb Script Data",
+      "name": "\u00ab VerifyIPv4Indicator",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VerifyIPv6Indicator",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/verify-i-pv6-indicator"
+}

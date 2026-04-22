@@ -1,0 +1,13 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco AppDynamics",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-app-dynamics"
+}

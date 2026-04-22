@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "cymulate-get-incident-info",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Cymulate payload that generated this incident Cymulate.Incident.Name The name of the incident",
+      "name": "Cymulate.Incident.Payload",
+      "required": ""
+    },
+    {
+      "description": "The attack status (Enum Values- Penetrated, Blocked, Dead) Cymulate.Incident.ID The incident ID",
+      "name": "Cymulate.Incident.Status",
+      "required": ""
+    },
+    {
+      "description": "The Md5 Cymulate.Incident.Attack_Vector The Attack Vector",
+      "name": "Cymulate.Incident.Md5",
+      "required": ""
+    },
+    {
+      "description": "The Sha256 Cymulate.Incident.Sha1 The Sha1",
+      "name": "Cymulate.Incident.Sha256",
+      "required": ""
+    },
+    {
+      "description": "The cymulate's ID of the incident Cymulate.Incident.Attack_ID The cymulate's Attack ID of the incident",
+      "name": "Cymulate.Incident.Cymulate_ID",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Cymptom",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Cymulate v2 \u00bb Configure Cymulate on Cortex XSOAR Fetched Incidents Data",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "1. cymulate_get_incident_info Cymulate Resutls cymulate-get-incident-info",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cymulate",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cymulate"
+}

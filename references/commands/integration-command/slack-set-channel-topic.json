@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!slack-send-file file=1@2 channel=general",
+  "examples": [
+    "Command Example\n!slack-send-file file=1@2 channel=general\nHuman Readable Output\nFile sent to Slack successfully.\n5. slack-set-channel-topic\nSets the topic for a channel.\nBase Command\nslack-set-channel-topic",
+    "!slack-send-file file=1@2 channel=general\nHuman Readable Output\nFile sent to Slack successfully.\n5. slack-set-channel-topic\nSets the topic for a channel.\nBase Command\nslack-set-channel-topic\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "slack-set-channel-topic",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Slack v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slack-v2"
+}

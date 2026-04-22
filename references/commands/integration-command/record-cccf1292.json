@@ -1,0 +1,139 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "GoogleThreatIntelligence.Submission.id",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The MD5 hash of the URL. GoogleThreatIntelligence.URL.attributes.favicon.dhash Difference hash.",
+      "name": "GoogleThreatIntelligence.URL.attributes.favicon.raw_md5",
+      "required": ""
+    },
+    {
+      "description": "The last HTTPS response length. GoogleThreatIntelligence.URL.attributes.last_http_response_headers.date Date",
+      "name": "GoogleThreatIntelligence.URL.attributes.last_http_response_content_length",
+      "required": ""
+    },
+    {
+      "description": "GoogleThreatIntelligence.URL.attributes.last_http_response_headers.x-sinkhole DNS sinkhole from last response. GoogleThreatIntelligence.URL.attributes.last_http_response_headers.content-length",
+      "name": "The last response header date.",
+      "required": ""
+    },
+    {
+      "description": "The content length of the last response. GoogleThreatIntelligence.URL.attributes.last_http_response_headers.content-type The content type of the last response.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The SHA-256 hash of the content of the last response. GoogleThreatIntelligence.URL.attributes.last_http_response_code Last response status code.",
+      "name": "GoogleThreatIntelligence.URL.attributes.last_http_response_content_sha256",
+      "required": ""
+    },
+    {
+      "description": "Last final URL. GoogleThreatIntelligence.URL.attributes.url The URL itself.",
+      "name": "GoogleThreatIntelligence.URL.attributes.last_final_url",
+      "required": ""
+    },
+    {
+      "description": "Title of the page. GoogleThreatIntelligence.URL.attributes.last_analysis_stats.harmless The number of engines that found the domain to be harmless.",
+      "name": "GoogleThreatIntelligence.URL.attributes.title",
+      "required": ""
+    },
+    {
+      "description": "The number of engines that found the indicator to be malicious. GoogleThreatIntelligence.URL.attributes.last_analysis_stats.suspicious The number of engines that found the indicator to be suspicious.",
+      "name": "GoogleThreatIntelligence.URL.attributes.last_analysis_stats.malicious",
+      "required": ""
+    },
+    {
+      "description": "The number of engines that could not detect the indicator. GoogleThreatIntelligence.URL.attributes.last_analysis_stats.timeout The number of engines that timed out for the indicator.",
+      "name": "GoogleThreatIntelligence.URL.attributes.last_analysis_stats.undetected",
+      "required": ""
+    },
+    {
+      "description": "Outgoing links of the URL page. GoogleThreatIntelligence.URL.type Type of the indicator (private_url).",
+      "name": "GoogleThreatIntelligence.URL.attributes.outgoing_links",
+      "required": ""
+    },
+    {
+      "description": "ID of the indicator. GoogleThreatIntelligence.URL.links.self Link to the response.",
+      "name": "GoogleThreatIntelligence.URL.id",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Google Sheets",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Google Threat Intelligence - ASM Issues \u00bb Configure Google Threat Intelligence in Cortex Acquiring your API key",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Indicator Thresholds Rules Threshold Reputation commands (ip, url, domain, and file)",
+      "name": "DBot Score / Reputation scores",
+      "required": ""
+    },
+    {
+      "description": "gti-comments-get Detonation (scan) Commands file",
+      "name": "Comments",
+      "required": ""
+    },
+    {
+      "description": "gti-file-scan-upload-url New Commands Commands",
+      "name": "url-scan",
+      "required": ""
+    },
+    {
+      "description": "url domain cve",
+      "name": "ip",
+      "required": ""
+    },
+    {
+      "description": "url-scan gti-comments-add gti-file-scan-upload-url",
+      "name": "CVE Information: CVE-2022-30190",
+      "required": ""
+    },
+    {
+      "description": "gti-comments-get gti-comments-get-by-id gti-search",
+      "name": "gti-comments-delete",
+      "required": ""
+    },
+    {
+      "description": "gti-passive-dns-data gti-analysis-get gti-file-sigma-analysis",
+      "name": "gti-file-sandbox-report",
+      "required": ""
+    },
+    {
+      "description": "gti-privatescanning-file-scan gti-privatescanning-analysis-get gti-curated-threat-actors-get",
+      "name": "gti-privatescanning-file",
+      "required": ""
+    },
+    {
+      "description": "gti-curated-campaigns-get gti-url-scan-and-analysis-get gti-file-scan-and-analysis-get",
+      "name": "gti-curated-malware-families-get",
+      "required": ""
+    },
+    {
+      "description": "gti-private-file-scan-and-analysis-get gti-assessment-get gti-private-url-scan-and-analysis-get",
+      "name": "gti-private-file-scan-and-analysis-get",
+      "required": ""
+    },
+    {
+      "description": "gti-privatescanning-url Docs Developer Docs",
+      "name": "gti-privatescanning-url-scan",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Threat Intelligence",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-threat-intelligence"
+}

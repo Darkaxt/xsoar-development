@@ -1,0 +1,63 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "00000011-0000-0000-0000-000000000000",
+  "examples": [
+    "Command Example\n!cb-get-file-from-endpoint path=\"c:\\Users\\All Users\\Desktop\\mooncake.jpg\" sensor=17\nContext Example\n{\n\"CbLiveResponse\": {\n\"Commands\": {\n\"CbCommandID\": 2,\n\"CbSensorID\": 17,",
+    "!cb-get-file-from-endpoint path=\"c:\\Users\\All Users\\Desktop\\mooncake.jpg\" sensor=17\nContext Example\n{\n\"CbLiveResponse\": {\n\"Commands\": {\n\"CbCommandID\": 2,\n\"CbSensorID\": 17,\n\"CbSessionID\": 356,"
+  ],
+  "kind": "integration-command",
+  "name": "cb-get-file-from-endpoint",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique command identifier. CbLiveResponse.Commands.CommandName The command name.",
+      "name": "CbLiveResponse.Commands.CbCommandID",
+      "required": ""
+    },
+    {
+      "description": "The command Status ('pending', 'in progress', 'complete', 'error', 'canceled'). CbLiveResponse.Commands.CommandCompletionTime The command completion time (0 if not complete).",
+      "name": "CbLiveResponse.Commands.Status",
+      "required": ""
+    },
+    {
+      "description": "The source path of the file. CbLiveResponse.Commands.FileID Unique file ID.",
+      "name": "CbLiveResponse.Commands.OperandObject",
+      "required": ""
+    },
+    {
+      "description": "File size. CbLiveResponse.File.SHA1 File SHA1.",
+      "name": "CbLiveResponse.File.Size",
+      "required": ""
+    },
+    {
+      "description": "File SHA256. CbLiveResponse.File.Name File name.",
+      "name": "CbLiveResponse.File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "File SSDeep. CbLiveResponse.File.EntryID File EntryID.",
+      "name": "CbLiveResponse.File.SSDeep",
+      "required": ""
+    },
+    {
+      "description": "File info. CbLiveResponse.File.Type File type.",
+      "name": "CbLiveResponse.File.Info",
+      "required": ""
+    },
+    {
+      "description": "File MD5 hash CbLiveResponse.File.Extension File extension.",
+      "name": "CbLiveResponse.File.MD5",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

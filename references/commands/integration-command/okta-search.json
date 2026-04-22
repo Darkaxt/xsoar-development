@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!okta-set-password username=test@this.com password=newpassword",
+  "examples": [
+    "Command Example\n!okta-set-password username=test@this.com password=newpassword\nHuman Readable Output\nOkta user password set\n11. Search a specified term\nReturns details of users that match the found term.\nBase Command\nokta-search",
+    "!okta-set-password username=test@this.com password=newpassword\nHuman Readable Output\nOkta user password set\n11. Search a specified term\nReturns details of users that match the found term.\nBase Command\nokta-search\nInput",
+    "Command Example\n!okta-search term=test@this.com\nContext Example\n{\n\"Account\": [\n{\n\"DisplayName\": \"test this\",\n\"Email\": \"test@this.com\",",
+    "!okta-search term=test@this.com\nContext Example\n{\n\"Account\": [\n{\n\"DisplayName\": \"test this\",\n\"Email\": \"test@this.com\",\n\"ID\": \"00ued6gq9jItNhAsN0h7\","
+  ],
+  "kind": "integration-command",
+  "name": "okta-search",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Okta account IDs returned by search. Account.Username Okta account usernames returned by search.",
+      "name": "Account.ID",
+      "required": ""
+    },
+    {
+      "description": "Okta account emails returned by search. Accout.DisplayName Okta account display names returned by search.",
+      "name": "Account.Email",
+      "required": ""
+    },
+    {
+      "description": "Account type returned by search, such as Okta.",
+      "name": "Account.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "okta (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta"
+}

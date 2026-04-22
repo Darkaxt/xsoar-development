@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!qintel-qwatch-exposures email=test@example.local\nContext Example\n#\n{\n\"Qintel\"\n:",
+    "!qintel-qwatch-exposures email=test@example.local\nContext Example\n#\n{\n\"Qintel\"\n:\n{\n\"QWatch\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "QWatch Exposure Records",
+      "name": "Qintel.QWatch.Exposures",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Qintel QWatch",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/qintel-q-watch"
+}

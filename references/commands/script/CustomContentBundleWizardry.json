@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "custom-content-bundle-wizardry"
+  ],
+  "arguments": [],
+  "description": "CustomContentBundleWizardry | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CustomContentBundleWizardry",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of files in the custom content bundle Edit this page Report an Issue",
+      "name": "CustomContent",
+      "required": ""
+    },
+    {
+      "description": "\u00ab CuckooTaskStatus Next CustomPackInstaller \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CustomContentBundleWizardry",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/custom-content-bundle-wizardry"
+}

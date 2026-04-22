@@ -1,0 +1,63 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Returns a list of directories on the endpoint.",
+  "examples": [
+    "Command Example\n!cb-directory-listing path=\"c:\\Users\\All Users\\Desktop\\\" sensor=17\nContext Example\n{\n\"CbLiveResponse\": {\n\"Commands\": {\n\"CbCommandID\": 1,\n\"CbSensorID\": 17,",
+    "!cb-directory-listing path=\"c:\\Users\\All Users\\Desktop\\\" sensor=17\nContext Example\n{\n\"CbLiveResponse\": {\n\"Commands\": {\n\"CbCommandID\": 1,\n\"CbSensorID\": 17,\n\"CbSessionID\": 332,"
+  ],
+  "kind": "integration-command",
+  "name": "cb-directory-listing",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique command ID CbLiveResponse.Commands.CommandName The command name",
+      "name": "CbLiveResponse.Commands.CbCommandID",
+      "required": ""
+    },
+    {
+      "description": "The command status pending in progress",
+      "name": "CbLiveResponse.Commands.DirectoryList.Status",
+      "required": ""
+    },
+    {
+      "description": "error canceled CbLiveResponse.Commands.CommandCompletionTime",
+      "name": "complete",
+      "required": ""
+    },
+    {
+      "description": "0 if not complete) CbLiveResponse.Commands.OperandObject",
+      "name": "The time the command was completed (",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.Commands.Files.FileAttributes A list of file attributes CbLiveResponse.Commands.Files.CreateTime",
+      "name": "the directory listing filter (or path)",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.Commands.Files.LastAccessTime Last access time in Unix time format. CbLiveResponse.Commands.Files.LastWriteTime",
+      "name": "Create time in Unix time format",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.Commands.Files.FileSize The file size. CbLiveResponse.Commands.Files.FileName",
+      "name": "Last write time in Unix time format.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The file name.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "d2-execute-command"
+  ],
+  "arguments": [
+    {
+      "description": "commandName The D2 command to run.",
+      "name": "The arguments to pass to the D2script. This is done in a Dictionary format \"{arg1:val1,arg2:val2}\".",
+      "required": ""
+    }
+  ],
+  "description": "D2ExecuteCommand | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "D2ExecuteCommand",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next D2GetFile \u00bb Script Data",
+      "name": "\u00ab D2Exec",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "D2ExecuteCommand",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/d2-execute-command"
+}

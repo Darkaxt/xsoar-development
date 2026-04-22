@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "#### Command Example\nHuman Readable Output\n#\nmeraki-update-firewall-rules\n#\nUpdate rule to L3 firewall rules of an SSID.\nBase Command\n#",
+    "Command Example\n#\n#### Human Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab Cisco ISE\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List List of firewalls. Each includes Number, NetworkId, Policy, Protocol, DestPort, DestCidr, and Comment",
+      "name": "Firewall",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Meraki (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-meraki"
+}

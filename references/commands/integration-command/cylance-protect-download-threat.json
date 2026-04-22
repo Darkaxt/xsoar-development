@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"reason\":\"Malicious File Found\",",
+  "examples": [
+    "Command Example\n!cylance-protect-download-threat sha256=\"0f427b33b824110427b2ba7be20740b45ea4da41bc1416dd55771edfb0c18f09\" unzip=\"yes\"\nContext Example\nDBotScore\n{\n\"Indicator\": \"AutoitLocker.exe\",\n\"Score\": 3,\n\"Type\": \"file\",",
+    "!cylance-protect-download-threat sha256=\"0f427b33b824110427b2ba7be20740b45ea4da41bc1416dd55771edfb0c18f09\" unzip=\"yes\"\nContext Example\nDBotScore\n{\n\"Indicator\": \"AutoitLocker.exe\",\n\"Score\": 3,\n\"Type\": \"file\",\n\"Vendor\": \"Cylance Protect\""
+  ],
+  "kind": "integration-command",
+  "name": "cylance-protect-download-threat",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "SHA-256 of the file File.Name File name",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "File size File.Safelisted Safelisted",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "Timestamp File.Md5 MD5",
+      "name": "File.Timestamp",
+      "required": ""
+    },
+    {
+      "description": "The Indicator DBotScore.Score The DBot score",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The Indicator type DBotScore.Vendor The DBot score vendor",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the vendor that made the decision File.Malicious.Description For malicious files, the reason that the vendor made the decision",
+      "name": "File.Malicious.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

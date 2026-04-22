@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "PolarSecurity.DataStores.Stores.sensitivitiesSummary",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next PolySwarm \u00bb Configure Polar Security in Cortex",
+      "name": "\u00ab Plain Text Feed",
+      "required": ""
+    },
+    {
+      "description": "polar-list-linked-vendors polar-list-data-stores polar-data-stores-summary",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "polar-get-data-store polar-list-vendor-accessible-data-stores polar-apply-label",
+      "name": "polar-list-vendors-data-stores",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Polar Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/polar-security"
+}

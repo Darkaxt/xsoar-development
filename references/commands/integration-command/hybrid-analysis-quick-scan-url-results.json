@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The scanner description.",
+  "examples": [
+    "Command Example\n!hybrid-analysis-list-scanners\nHuman Readable Output\n9. Get scan results\nReturns the scan results of the given URL ID.\nBase Command\nhybrid-analysis-quick-scan-url-results\nInput",
+    "!hybrid-analysis-list-scanners\nHuman Readable Output\n9. Get scan results\nReturns the scan results of the given URL ID.\nBase Command\nhybrid-analysis-quick-scan-url-results\nInput\nArgument Name",
+    "Command Example\n!hybrid-analysis-quick-scan-url-results scanID=5d6cf460028838eb26d56dc4\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab HYAS Protect\nNext",
+    "!hybrid-analysis-quick-scan-url-results scanID=5d6cf460028838eb26d56dc4\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab HYAS Protect\nNext\nIBM MaaS360 Security \u00bb"
+  ],
+  "kind": "integration-command",
+  "name": "hybrid-analysis-quick-scan-url-results",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The scan ID. HybridAnalysis.URL.SHA256 The SHA256 hash of the indicator.",
+      "name": "HybridAnalysis.URL.ScanID",
+      "required": ""
+    },
+    {
+      "description": "Whether the process completed. HybridAnalysis.URL.Scanner.Name The scanner name.",
+      "name": "HybridAnalysis.URL.Finished",
+      "required": ""
+    },
+    {
+      "description": "The number of positive results. HybridAnalysis.URL.Scanner.Status The status of the file.",
+      "name": "HybridAnalysis.URL.Scanner.Positives",
+      "required": ""
+    },
+    {
+      "description": "The type of ID. HybridAnalysis.URL.Whitelist.Value Whether the indicator is on the allow list.",
+      "name": "HybridAnalysis.URL.Whitelist.ID",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Hybrid Analysis (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hybrid-analysis"
+}

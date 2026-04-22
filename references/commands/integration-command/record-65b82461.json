@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "zscaler-delete-ip-destination-groups",
+  "examples": [
+    "Command Example\n#\n!zscaler-delete-ip-destination-groups ip_group_id=2077311,2030563\nHuman Readable Output\n#\nIP Destination Group 2077311,2030563 deleted successfully\nEdit this page\nReport an Issue",
+    "!zscaler-delete-ip-destination-groups ip_group_id=2077311,2030563\nHuman Readable Output\n#\nIP Destination Group 2077311,2030563 deleted successfully\nEdit this page\nReport an Issue\nPrevious\n\u00ab Zoom_IAM"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Zscaler Internet Access",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/zscaler"
+}

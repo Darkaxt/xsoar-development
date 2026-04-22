@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "ad-get-user"
+  ],
+  "arguments": [],
+  "description": "ADGetUser | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ADGetUser",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Active Directory acount. Account.Type The type of the Account entity.",
+      "name": "Account",
+      "required": ""
+    },
+    {
+      "description": "Account.ID The unique Account DN (Distinguished Name). Account.Username",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Account.Email The email object associated with the Account. Account.Groups",
+      "name": "The Account username.",
+      "required": ""
+    },
+    {
+      "description": "Account.DisplayName The Account display name. Account.Manager",
+      "name": "The groups the Account is part of.",
+      "required": ""
+    },
+    {
+      "description": "Account.Email.Address The email address object associated with the Account. DBotScore.Indicator",
+      "name": "The Account's manager.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Type The indicator's type. DBotScore.Vendor",
+      "name": "The indicator value.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Score The indicator's score. Edit this page",
+      "name": "The indicator's vendor.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab AddUserToIncidentTeam Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data Dependencies",
+      "name": "AdoptionMetrics \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ADGetUser",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ad-get-user"
+}

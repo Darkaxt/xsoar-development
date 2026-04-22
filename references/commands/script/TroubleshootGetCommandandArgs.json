@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "troubleshoot-get-commandand-args"
+  ],
+  "arguments": [],
+  "description": "TroubleshootGetCommandandArgs | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "TroubleshootGetCommandandArgs",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The instance name. CommandArgs.command The command.",
+      "name": "CommandArgs.instance_name",
+      "required": ""
+    },
+    {
+      "description": "CommandArgs.Arguments The arguments in the command. CommandArgs.Arguments.using",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The instance name. All other arguments are dynamically provided.",
+      "required": ""
+    },
+    {
+      "description": "Next TroubleshootGetInstanceParameters \u00bb Script Data",
+      "name": "\u00ab TroubleshootExecutePlaybookByAlertQuery",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TroubleshootGetCommandandArgs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/troubleshoot-get-commandand-args"
+}

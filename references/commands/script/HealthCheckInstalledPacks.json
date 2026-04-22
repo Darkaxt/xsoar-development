@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "health-check-installed-packs"
+  ],
+  "arguments": [],
+  "description": "HealthCheckInstalledPacks | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "HealthCheckInstalledPacks",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HealthCheckInstalledPacks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/health-check-installed-packs"
+}

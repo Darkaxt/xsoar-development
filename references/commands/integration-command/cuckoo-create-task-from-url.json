@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!cuckoo-list-tasks\nContext Example\nHuman Readable Output\n4. Submit a URL for analysis\nSubmits a URL to Cuckoo Sandbox for analysis.\nNotice: Submitting indicators using this command might make the indicator data publicly available. See the vendor\u2019s documentation for more details.\nBase Command\ncuckoo-create-task-from-url"
+  ],
+  "kind": "integration-command",
+  "name": "cuckoo-create-task-from-url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Task ID",
+      "name": "Cuckoo.Task.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cuckoo Sandbox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cuckoo-sandbox"
+}

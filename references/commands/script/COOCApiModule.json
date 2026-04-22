@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "cooc-api-module"
+  ],
+  "arguments": [],
+  "description": "COOCApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "COOCApiModule",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "COOCApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cooc-api-module"
+}

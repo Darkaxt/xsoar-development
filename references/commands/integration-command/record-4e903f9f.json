@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2025-08-07T12:00:00.000",
+  "examples": [
+    "!infobloxcloud-soc-insight-comment-list soc_insight_id=\"00000000-0000-0000-0000-000000000000\"\nContext Example\n#\n{\n\"InfobloxCloud\"\n:\n{\n\"Comment\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The user who created or changed the comment. InfobloxCloud.Comment.dateChanged Date",
+      "name": "InfobloxCloud.Comment.commentsChanger",
+      "required": ""
+    },
+    {
+      "description": "InfobloxCloud.Comment.status The status associated with the comment. InfobloxCloud.Comment.newComment",
+      "name": "The timestamp when the comment was created or modified.",
+      "required": ""
+    },
+    {
+      "description": "The comment text.",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Infoblox Threat Defense with DDI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/infoblox-blox-one-threat-defense"
+}

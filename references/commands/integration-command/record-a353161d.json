@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### lgtm-get-alerts\n***\nGet detailed alert information\n#### Base Command\n`lgtm-get-alerts`",
+    "#### Command Example\n```!lgtm-get-alerts analysis-id=1977acc9cbeb31c5fb106de40600a365061506e9```\n#### Context Example\n```json\n{\n\"LGTM\": {\n\"alerts\": {\n\"$schema\": \"https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "LGTM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/lgtm"
+}

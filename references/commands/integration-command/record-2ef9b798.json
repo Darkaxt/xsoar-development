@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Clarizen IAM \u00bb Configure Citrix DaaS in Cortex",
+      "name": "\u00ab Citrix Cloud",
+      "required": ""
+    },
+    {
+      "description": "Prerequisites Locate your tenant's Citrix Cloud ID Commands",
+      "name": "Configuration steps",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "citrix-daas-get-events",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Citrix DaaS",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/citrix-daas"
+}

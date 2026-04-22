@@ -1,0 +1,78 @@
+{
+  "aliases": [
+    "read-qr-code"
+  ],
+  "arguments": [],
+  "description": "ReadQRCode | Cortex XSOAR",
+  "examples": [
+    "!ReadQRCode entry_id=1234@1234abcd-12ab-12ab-12ab-1234abcd\nContext Example\n#\n{\n\"QRCodeReader\"\n:\n{\n\"Domain\""
+  ],
+  "kind": "script",
+  "name": "ReadQRCode",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The raw text extracted from the QR code image. QRCodeReader.Domain The domains extracted from the QR code image if they are present.",
+      "name": "QRCodeReader.Text",
+      "required": ""
+    },
+    {
+      "description": "QRCodeReader.URL The URLs extracted from the QR code image if they are present. QRCodeReader.IP",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Script Examples",
+      "name": "The IPs extracted from the QR code image if they are present.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!ReadQRCode entry_id=1234@1234abcd-12ab-12ab-12ab-1234abcd",
+      "required": ""
+    },
+    {
+      "description": "\"QRCodeReader\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": [ \"xsoar.pan.dev\"",
+      "name": "\"Domain\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Text\" :",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": ", \"URL\" :",
+      "name": "\"https://xsoar.pan.dev/\"",
+      "required": ""
+    },
+    {
+      "description": "\"https://xsoar.pan.dev/\" ] }",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ReadQRCode",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/read-qr-code"
+}

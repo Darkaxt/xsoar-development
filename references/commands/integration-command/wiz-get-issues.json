@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!wiz-get-issue issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\"",
+  "examples": [
+    "Command Example\n#\n!wiz-get-issue issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\"\nwiz-get-issues\n#\nGet the issues on cloud resources.\nBase Command\nwiz-get-issues",
+    "!wiz-get-issue issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\"\nwiz-get-issues\n#\nGet the issues on cloud resources.\nBase Command\nwiz-get-issues\nInput\nArgument Name",
+    "Command Example\n#\n!wiz-get-issues entity_type=\"VIRTUAL_MACHINE\"\n!wiz-get-issues issue_type=\"THREAT_DETECTION\"\n!wiz-get-issues resource_id=\"arn:aws:ec2:us-east-2:123456789098:instance/i-0g03j4h5gd123d456\"\n!wiz-get-issues resource_id=\"arn:aws:ec2:us-east-2:123456789098:instance/i-0g03j4h5gd123d456\" severity=HIGH\nwiz-get-resource\n#",
+    "!wiz-get-issues entity_type=\"VIRTUAL_MACHINE\"\n!wiz-get-issues issue_type=\"THREAT_DETECTION\"\n!wiz-get-issues resource_id=\"arn:aws:ec2:us-east-2:123456789098:instance/i-0g03j4h5gd123d456\"\n!wiz-get-issues resource_id=\"arn:aws:ec2:us-east-2:123456789098:instance/i-0g03j4h5gd123d456\" severity=HIGH\nwiz-get-resource\n#",
+    "!wiz-get-issues issue_type=\"THREAT_DETECTION\"\n!wiz-get-issues resource_id=\"arn:aws:ec2:us-east-2:123456789098:instance/i-0g03j4h5gd123d456\"\n!wiz-get-issues resource_id=\"arn:aws:ec2:us-east-2:123456789098:instance/i-0g03j4h5gd123d456\" severity=HIGH\nwiz-get-resource\n#",
+    "!wiz-get-issues resource_id=\"arn:aws:ec2:us-east-2:123456789098:instance/i-0g03j4h5gd123d456\"\n!wiz-get-issues resource_id=\"arn:aws:ec2:us-east-2:123456789098:instance/i-0g03j4h5gd123d456\" severity=HIGH\nwiz-get-resource\n#",
+    "!wiz-get-issues resource_id=\"arn:aws:ec2:us-east-2:123456789098:instance/i-0g03j4h5gd123d456\" severity=HIGH\nwiz-get-resource\n#"
+  ],
+  "kind": "integration-command",
+  "name": "wiz-get-issues",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "All Issues",
+      "name": "Wiz.Manager.Issues",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Wiz",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/wiz"
+}

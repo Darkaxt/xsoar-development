@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Unblock a domain: sw-unblock-domain",
+  "examples": [
+    "Command Example\n!sw-show-alert alertID=275\nContext Example\n{\n\"assigned_to\": null,\n\"assigned_to_username\": null,\n\"created\": \"2018-07-23T15:30:00Z\",\n\"description\": \"Source has started a port scan on a device internal to your network.\",",
+    "!sw-show-alert alertID=275\nContext Example\n{\n\"assigned_to\": null,\n\"assigned_to_username\": null,\n\"created\": \"2018-07-23T15:30:00Z\",\n\"description\": \"Source has started a port scan on a device internal to your network.\",\n\"hostname\": \"\","
+  ],
+  "kind": "integration-command",
+  "name": "sw-show-alert",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alert ID Stealthwatch.Alert.assigned_to Alert assignee",
+      "name": "Stealthwatch.Alert.id",
+      "required": ""
+    },
+    {
+      "description": "date Alert creation date Stealthwatch.Alert.last_modified",
+      "name": "Stealthwatch.Alert.obj_created",
+      "required": ""
+    },
+    {
+      "description": "Alert last modification Stealthwatch.Alert.resolved Alert state",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "IP of the alert's source Stealthwatch.Alert.source_info.hostnames Hostname of the alert's source",
+      "name": "Stealthwatch.Alert.source_info.ips",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Secure Cloud Analytics (Stealthwatch Cloud)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/stealthwatch-cloud"
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!domain domain=moogle.com using-brand=\"Palo Alto Minemeld\"",
+  "examples": [
+    "!domain domain=moogle.com using-brand=\"Palo Alto Minemeld\"\nWar Room Output\n8. Get URL indicator\nRetrieves all occurrences of the specified URL, including the context in which it is found.\nFor this command to succeed, the miner (associated with the URL indicator) has to be on a Cortex XSOAR block list or allow list.\nBase Command\nurl\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Indicator DBotScore.Type The Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The DBot score vendor DBotScore.Score The DBot score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the vendor that defined the URL as malicious URL.Malicious.Description For malicious URLs, the reason that the vendor defined the URL as malicious",
+      "name": "URL.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "URL data (value) URL.MineMeld.Indicators Entire indicator object",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "Indicator value URL.MineMeld.Indicators.miner Miner of the indicator",
+      "name": "URL.MineMeld.Indicators.indicator",
+      "required": ""
+    },
+    {
+      "description": "Indicator type URL.MineMeld.Indicators.comment Indicator comment",
+      "name": "URL.MineMeld.Indicators.type",
+      "required": ""
+    },
+    {
+      "description": "Entire indicator object MineMeld.Indicators.indicator Indicator value",
+      "name": "MineMeld.Indicators",
+      "required": ""
+    },
+    {
+      "description": "Miner of the Indicator MineMeld.Indicators.type Indicator type",
+      "name": "MineMeld.Indicators.miner",
+      "required": ""
+    },
+    {
+      "description": "Indicator comment MineMeld.Miner Entire miner object",
+      "name": "MineMeld.Indicators.comment",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "MineMeld.Miner.name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks MineMeld (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-minemeld"
+}

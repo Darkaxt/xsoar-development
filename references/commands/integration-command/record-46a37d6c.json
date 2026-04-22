@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "GoogleChatWebhook.Message.SenderDisplayName",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Google Chat custom card details GoogleChatWebhook.CustomCard.SpaceType Google Chat space type",
+      "name": "GoogleChatWebhook.CustomCard.Cards",
+      "required": ""
+    },
+    {
+      "description": "Google Chat custom card sender name GoogleChatWebhook.CustomCard.ThreadReply Determines if a custom card is in a thread reply",
+      "name": "GoogleChatWebhook.CustomCard.SenderName",
+      "required": ""
+    },
+    {
+      "description": "Google Chat space display name GoogleChatWebhook.CustomCard.Name Google Chat space full name",
+      "name": "GoogleChatWebhook.CustomCard.SpaceDisplayName",
+      "required": ""
+    },
+    {
+      "description": "Google Chat custom card sender type GoogleChatWebhook.CustomCard.SpaceName Google Chat space name",
+      "name": "GoogleChatWebhook.CustomCard.SenderType",
+      "required": ""
+    },
+    {
+      "description": "Google Chat custom card creation time GoogleChatWebhook.CustomCard.ThreadName Google Chat thread name",
+      "name": "GoogleChatWebhook.CustomCard.CreatedTime",
+      "required": ""
+    },
+    {
+      "description": "Google Chat custom card sender display name Edit this page Report an Issue",
+      "name": "GoogleChatWebhook.CustomCard.SenderDisplayName",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Google Calendar Next Google Cloud Compute \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands send-google-chat-message send-google-chat-custom-card",
+      "name": "Configure Google Chat via Webhook in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Chat via Webhook",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-chat-via-webhook"
+}

@@ -1,0 +1,58 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "6. Get ticket details",
+  "examples": [
+    "Command Example\n!rtir-get-ticket ticket-id=1\nRaw Output\n{\n\"CF.{Customer}\": \"\",\n\"CF.{How Reported}\": \"Email\",\n\"CF.{IP}\": \"8.8.8.8\",\n\"CF.{Reporter Type}\": \"\",",
+    "!rtir-get-ticket ticket-id=1\nRaw Output\n{\n\"CF.{Customer}\": \"\",\n\"CF.{How Reported}\": \"Email\",\n\"CF.{IP}\": \"8.8.8.8\",\n\"CF.{Reporter Type}\": \"\",\n\"Created\": \"Mon Jul 09 03:25:47 2018\","
+  ],
+  "kind": "integration-command",
+  "name": "rtir-get-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Linked ticket ID. RTIR.Ticket.ID Ticket ID.",
+      "name": "RTIR.Ticket.LinkedTo.ID",
+      "required": ""
+    },
+    {
+      "description": "Ticket state. RTIR.Ticket.Creator Ticket creator.",
+      "name": "RTIR.Ticket.State",
+      "required": ""
+    },
+    {
+      "description": "Ticket subject. RTIR.Ticket.Created Ticket creation date.",
+      "name": "RTIR.Ticket.Subject",
+      "required": ""
+    },
+    {
+      "description": "Ticket priority (0-100). RTIR.Ticket.InitialPriority Ticket initial priority (0-100).",
+      "name": "RTIR.Ticket.Priority",
+      "required": ""
+    },
+    {
+      "description": "Ticket final priority (0-100). RTIR.Ticket.Queue Ticket queue.",
+      "name": "RTIR.Ticket.FinalPriority",
+      "required": ""
+    },
+    {
+      "description": "Ticket owner. RTIR.Ticket.IP Ticket custom field - IP address.",
+      "name": "RTIR.Ticket.Owner",
+      "required": ""
+    },
+    {
+      "description": "Ticket custom field - How the ticket was reported. RTIR.Ticket.Customer Ticket custom field - Customer.",
+      "name": "RTIR.Ticket.HowReported",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RTIR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rtir"
+}

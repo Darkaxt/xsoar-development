@@ -1,0 +1,56 @@
+{
+  "aliases": [
+    "os-query-basic-query"
+  ],
+  "arguments": [],
+  "description": "OSQueryBasicQuery | Cortex XSOAR",
+  "examples": [
+    "!OSQueryBasicQuery system=test_system query=\"select liu.*, p.name, p.cmdline, p.cwd, p.root from logged_in_users liu, processes p where liu.pid = p.pid;\"\nReturns logged in users details from a remote system using OSQuery.\n!OSQueryBasicQuery system=test_system query=\"select distinct pid, family, protocol, local_address, local_port, remote_address, remote_port, path from process_open_sockets where path <> '' or remote_address <> '';\"\nReturns open sockets details from a remote system using OSQuery.\n!OSQueryBasicQuery system=test_system query=\"select * from processes;\"\nReturns processes details from a remote system using OSQuery.\n!OSQueryBasicQuery system=test_system query=\"select * from users;\"\nReturns Users Table from a remote system using OSQuery.",
+    "!OSQueryBasicQuery system=test_system query=\"select distinct pid, family, protocol, local_address, local_port, remote_address, remote_port, path from process_open_sockets where path <> '' or remote_address <> '';\"\nReturns open sockets details from a remote system using OSQuery.\n!OSQueryBasicQuery system=test_system query=\"select * from processes;\"\nReturns processes details from a remote system using OSQuery.\n!OSQueryBasicQuery system=test_system query=\"select * from users;\"\nReturns Users Table from a remote system using OSQuery.\nEdit this page\nReport an Issue",
+    "!OSQueryBasicQuery system=test_system query=\"select * from processes;\"\nReturns processes details from a remote system using OSQuery.\n!OSQueryBasicQuery system=test_system query=\"select * from users;\"\nReturns Users Table from a remote system using OSQuery.\nEdit this page\nReport an Issue\nPrevious\n\u00ab OnionURLReputation",
+    "!OSQueryBasicQuery system=test_system query=\"select * from users;\"\nReturns Users Table from a remote system using OSQuery.\nEdit this page\nReport an Issue\nPrevious\n\u00ab OnionURLReputation\nNext\nOSQueryLoggedInUsers \u00bb"
+  ],
+  "kind": "script",
+  "name": "OSQueryBasicQuery",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Returns logged in users details from a remote system using OSQuery. !OSQueryBasicQuery system=test_system query=\"select distinct pid, family, protocol, local_address, local_port, remote_address, remote_port, path from process_open_sockets where path <> '' or remote_address <> '';\" Returns open sockets details from a remote system using OSQuery.",
+      "name": "!OSQueryBasicQuery system=test_system query=\"select liu.*, p.name, p.cmdline, p.cwd, p.root from logged_in_users liu, processes p where liu.pid = p.pid;\"",
+      "required": ""
+    },
+    {
+      "description": "Returns processes details from a remote system using OSQuery. !OSQueryBasicQuery system=test_system query=\"select * from users;\" Returns Users Table from a remote system using OSQuery.",
+      "name": "!OSQueryBasicQuery system=test_system query=\"select * from processes;\"",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab OnionURLReputation",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "OSQueryLoggedInUsers \u00bb Script Data Dependencies",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Examples",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OSQueryBasicQuery",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/os-query-basic-query"
+}

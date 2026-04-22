@@ -1,0 +1,16 @@
+{
+  "artifact_type": "list-json",
+  "classifier": {
+    "top_level_fields": [
+      "id",
+      "name",
+      "data"
+    ]
+  },
+  "do": [
+    "Treat empty and malformed list content as recoverable states in scripts."
+  ],
+  "do_not": [
+    "Do not assume tenant helper functions exist without verification."
+  ]
+}

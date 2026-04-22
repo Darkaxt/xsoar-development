@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Endpoint Copy to Network Share",
+  "examples": [
+    "Command Example\n!symantec-dlp-update-incident incident_id=2222 data_owner_email=EMAIL data_owner_name=NAME note=NOTE note_time=2018-08-01T11:50:16\nHuman Readable Output\nSymantec DLP incident 2222 details\nBatch ID\nInaccessible Incident Long ID\nInaccessible Incident ID\nStatus Code",
+    "!symantec-dlp-update-incident incident_id=2222 data_owner_email=EMAIL data_owner_name=NAME note=NOTE note_time=2018-08-01T11:50:16\nHuman Readable Output\nSymantec DLP incident 2222 details\nBatch ID\nInaccessible Incident Long ID\nInaccessible Incident ID\nStatus Code\n44102"
+  ],
+  "kind": "integration-command",
+  "name": "symantec-dlp-update-incident",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Data Loss Prevention (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-data-loss-prevention"
+}

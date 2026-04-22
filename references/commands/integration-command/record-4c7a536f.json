@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Permanently removes a group.",
+  "examples": [
+    "Command Example\n#\n!iam-delete-group scim={\"id\": \"121212\"}\nContext Example\n#\n{\n\"DeleteGroup\"\n:",
+    "!iam-delete-group scim={\"id\": \"121212\"}\nContext Example\n#\n{\n\"DeleteGroup\"\n:\n{\n\"active\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Group ID. DeleteGroup.displayName Display name of the group.",
+      "name": "DeleteGroup.id",
+      "required": ""
+    },
+    {
+      "description": "Success status of the commands DeleteGroup.errorCode Error code if there is a failure.",
+      "name": "DeleteGroup.success",
+      "required": ""
+    },
+    {
+      "description": "Error details if there is failure.",
+      "name": "DeleteGroup.errorMessage",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - IAM (user lifecycle management)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws-ilm"
+}

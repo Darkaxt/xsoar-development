@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!threat-grid-search-samples checksum=d3c852ed16a7e4a4cde88266c060ee064ed047a8a43685ae52ce6c82f40e5b3f\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"Details\": \"/api/v2/samples/b9218ef55a1bc6d50456f32dc5e31fba\",\n\"Result\": \"b9218ef55a1bc6d50456f32dc5e31fba\"",
+    "!threat-grid-search-samples checksum=d3c852ed16a7e4a4cde88266c060ee064ed047a8a43685ae52ce6c82f40e5b3f\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"Details\": \"/api/v2/samples/b9218ef55a1bc6d50456f32dc5e31fba\",\n\"Result\": \"b9218ef55a1bc6d50456f32dc5e31fba\""
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-search-samples",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Result ID ThreatGrid.Samples.Details Detail of sample",
+      "name": "ThreatGrid.Samples.Result",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

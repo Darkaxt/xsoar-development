@@ -1,0 +1,66 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"675515a1-62e9-4d55-880c-fd46a7963a56\"",
+  "examples": [
+    "Command Example\n#\n# Get an alert result\nintezer-get-alert-result alert_id=<Alert ID> wait_for_result=true\nContext Example\n#\n{\n\"Intezer.Analysis\": {"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Alert ID Intezer.Alert.Status The Alert status",
+      "name": "Intezer.Alert.ID",
+      "required": ""
+    },
+    {
+      "description": "The full report of the alert Intezer.Alert.Result.intezer_alert_url The url for the alert result on Intezer Analyze",
+      "name": "Intezer.Alert.Result",
+      "required": ""
+    },
+    {
+      "description": "The indicator we tested DBotScore.Type The type of the indicator",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Hash SHA256 File.SHA1 Hash SHA1",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "Hash MD5 URL.Data The tested URL",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "For malicious URL, the vendor that made the decision URL.Relationships The relationships between two urls",
+      "name": "URL.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The raw alert as submitted to Intezer Intezer.Alert.Result.triage_result.alert_verdict_display The verdict of the alert",
+      "name": "Intezer.Alert.Result.raw_alert",
+      "required": ""
+    },
+    {
+      "description": "The calculated verdict of the Alert Intezer.Alert.Result.triage_result.risk_category_display The risk category of the Alert",
+      "name": "Intezer.Alert.Result.source_display",
+      "required": ""
+    },
+    {
+      "description": "The actions recommended by Intezer to be taken",
+      "name": "Intezer.Alert.Result.response.user_recommended_actions_display",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Intezer v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/intezer-v2"
+}

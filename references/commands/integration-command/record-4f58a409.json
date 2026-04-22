@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Run any supported command on the mxtoolbox API",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Successful results MXToolbox.Failed Query failures",
+      "name": "MXToolbox.Passed",
+      "required": ""
+    },
+    {
+      "description": "Query errors MXToolbox.Warnings Warning for query",
+      "name": "MXToolbox.Errors",
+      "required": ""
+    },
+    {
+      "description": "Additional information regarding the query MXToolbox.MultiInformation Additional multi-information",
+      "name": "MXToolbox.Information",
+      "required": ""
+    },
+    {
+      "description": "Query transcript Edit this page Report an Issue",
+      "name": "MXToolbox.Transcript",
+      "required": ""
+    },
+    {
+      "description": "\u00ab MS-ISAC Next National Vulnerability Database \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "mxtoolbox",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MxToolBox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mx-tool-box"
+}

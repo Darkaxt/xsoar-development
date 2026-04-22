@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "umbrella-domain-delete",
+  "examples": [
+    "Command Example\n#\n!umbrella-domain-delete name=test6.com\nContext Example\n#\n{\n}\nHuman Readable Output",
+    "!umbrella-domain-delete name=test6.com\nContext Example\n#\n{\n}\nHuman Readable Output\n#\ntest6.com domain was removed from block list"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Umbrella Enforcement",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-umbrella-enforcement"
+}

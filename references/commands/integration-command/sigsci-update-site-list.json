@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!sigsci-delete-site-list list_id=site.sitelistdoc2 siteName=demisto\n11. Update a site list\nUpdates a site list in Signal Sciences.\nBase Command\nsigsci-update-site-list\nInput\nArgument Name",
+    "!sigsci-delete-site-list list_id=site.sitelistdoc2 siteName=demisto\n11. Update a site list\nUpdates a site list in Signal Sciences.\nBase Command\nsigsci-update-site-list\nInput\nArgument Name\nDescription",
+    "Command Example\n!sigsci-update-site-list entries_list=77.8.77.8 list_id=site.sitelistdoc3 method=Add siteName=demisto\nContext Example\n{\n\"SigSciences.Corp.Site.List\": {\n\"Name\": \"sitelistdoc3\",\n\"CreatedDate\": \"2019-03-28T09:20:34Z\",\n\"UpdatedDate\": \"2019-03-28T09:53:01Z\",",
+    "!sigsci-update-site-list entries_list=77.8.77.8 list_id=site.sitelistdoc3 method=Add siteName=demisto\nContext Example\n{\n\"SigSciences.Corp.Site.List\": {\n\"Name\": \"sitelistdoc3\",\n\"CreatedDate\": \"2019-03-28T09:20:34Z\",\n\"UpdatedDate\": \"2019-03-28T09:53:01Z\",\n\"CreatedBy\": \"user@demisto.com\","
+  ],
+  "kind": "integration-command",
+  "name": "sigsci-update-site-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "The name of the list in Signal Sciences. SigSciences.Corp.Site.List.Type The type of the list in Signal Sciences.",
+      "name": "SigSciences.Corp.Site.List.Name",
+      "required": ""
+    },
+    {
+      "description": "The entry list of the list in Signal Sciences. SigSciences.Corp.Site.List.ID The ID of the list in Signal Sciences.",
+      "name": "SigSciences.Corp.Site.List.Entries",
+      "required": ""
+    },
+    {
+      "description": "The description of the list in Signal Sciences. Maximum is 140 characters. SigSciences.Corp.Site.List.CreatedBy The creator of the list in Signal Sciences.",
+      "name": "SigSciences.Corp.Site.List.Description",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the list in Signal Sciences. SigSciences.Corp.Site.List.UpdatedDate The last update date of the list in Signal Sciences.",
+      "name": "SigSciences.Corp.Site.List.CreatedDate",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

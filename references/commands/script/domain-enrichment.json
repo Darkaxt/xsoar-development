@@ -1,0 +1,266 @@
+{
+  "aliases": [
+    "domain-enrichment"
+  ],
+  "arguments": [],
+  "description": "domain-enrichment | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "domain-enrichment",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Domain. DomainEnrichment.MaxScore The max score of all the indicators found.",
+      "name": "DomainEnrichment.Value",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.MaxVerdict The max verdict of all the indicators found. DomainEnrichment.Results",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.TIMScore The TIM score of the domain. DomainEnrichment.Status",
+      "name": "List of all indicators found for the domain.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.ModifiedTime The time the indicator was last modified. Date",
+      "name": "The status of the indicator: \"Manual\" if the score was changed manually, \"Fresh\" if modified within the last week, \"Stale\" if modified more than a week ago, and \"None\" if never modified.",
+      "required": ""
+    },
+    {
+      "description": "The brand of the indicator. DomainEnrichment.Results.Score The score of the indicator.",
+      "name": "DomainEnrichment.Results.Brand",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.Verdict The verdict of the indicator. DomainEnrichment.Results.DetectionEngines",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.PositiveDetections The positive detections of the indicator. DomainEnrichment.Results.Name",
+      "name": "The detection engines of the indicator.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields All fields extracted from the indicator other then the main keys (\"Brand\", \"Score\", \"Verdict\", \"DetectionEngines\", \"PositiveDetections\", \"Name\"). DomainEnrichment.Results.AdditionalFields.Relationships.EntityA",
+      "name": "The Domain.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Relationships.EntityB The destination of the relationship. DomainEnrichment.Results.AdditionalFields.Relationships.Relationship",
+      "name": "The source of the relationship.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Relationships.EntityAType The type of the source of the relationship. DomainEnrichment.Results.AdditionalFields.Relationships.EntityBType",
+      "name": "The name of the relationship.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.DNS A list of IP objects resolved by DNS. DomainEnrichment.Results.AdditionalFields.CreationDate",
+      "name": "The type of the destination of the relationship.",
+      "required": ""
+    },
+    {
+      "description": "Date DomainEnrichment.Results.AdditionalFields.UpdatedDate The date when the domain was last updated.",
+      "name": "The date when the domain was created.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.ExpirationDate The expiration date of the domain. Date",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The status of the domain. Datte DomainEnrichment.Results.AdditionalFields.NameServers",
+      "name": "DomainEnrichment.Results.AdditionalFields.DomainStatus",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Organization The organization of the domain. DomainEnrichment.Results.AdditionalFields.Subdomains",
+      "name": "(List<String>) Name servers of the domain.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Admin.Country The country of the domain administrator. DomainEnrichment.Results.AdditionalFields.Admin.Email",
+      "name": "(List<String>) Subdomains of the domain.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Admin.Name The name of the domain administrator. DomainEnrichment.Results.AdditionalFields.Admin.Phone",
+      "name": "The email address of the domain administrator.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Registrant.Country The country of the registrant. DomainEnrichment.Results.AdditionalFields.Registrant.Email",
+      "name": "The phone number of the domain administrator.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Registrant.Name The name of the registrant. DomainEnrichment.Results.AdditionalFields.Registrant.Phone",
+      "name": "The email address of the registrant.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Tags (List) Tags of the domain. DomainEnrichment.Results.AdditionalFields.FeedRelatedIndicators.value",
+      "name": "The phone number to receive abuse reports.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.FeedRelatedIndicators.type The type of the indicators that are associated with the domain. DomainEnrichment.Results.AdditionalFields.FeedRelatedIndicators.description",
+      "name": "Indicators that are associated with the domain.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.MalwareFamily The malware family associated with the domain. DomainEnrichment.Results.AdditionalFields.WHOIS.DomainStatus",
+      "name": "The description of the indicators that are associated with the domain.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.WHOIS.NameServers (List<String>) Name servers of the domain. DomainEnrichment.Results.AdditionalFields.WHOIS.CreationDate",
+      "name": "The status of the domain.",
+      "required": ""
+    },
+    {
+      "description": "Date DomainEnrichment.Results.AdditionalFields.WHOIS.UpdatedDate The date that the domain was last updated.",
+      "name": "The date that the domain was created.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.WHOIS.ExpirationDate The expiration date of the domain. Date",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The name of the registrant. DomainEnrichment.Results.AdditionalFields.WHOIS.Registrant.Email The email address of the registrant.",
+      "name": "DomainEnrichment.Results.AdditionalFields.WHOIS.Registrant.Name",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.WHOIS.Registrant.Phone The phone number of the registrant. DomainEnrichment.Results.AdditionalFields.WHOIS.Registrar.Name",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.WHOIS.Registrar.AbuseEmail The email address of the contact to report abuse. DomainEnrichment.Results.AdditionalFields.WHOIS.Registrar.AbusePhone",
+      "name": "The name of the registrar, for example, GoDaddy.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.WHOIS.Admin.Name The name of the domain administrator. DomainEnrichment.Results.AdditionalFields.WHOIS.Admin.Email",
+      "name": "The phone number of the contact to report abuse.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.WHOIS.Admin.Phone The phone number of the domain administrator. DomainEnrichment.Results.AdditionalFields.WHOIS.History",
+      "name": "The email address of the domain administrator.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Malicious.Vendor The vendor reporting the domain as malicious. DomainEnrichment.Results.AdditionalFields.Malicious.Description",
+      "name": "List of Whois objects.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.DomainIDNName The internationalized domain name (IDN) of the domain. DomainEnrichment.Results.AdditionalFields.Port",
+      "name": "Reason the domain was reported as malicious.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Internal Whether the domain is internal or external. Bool",
+      "name": "Ports associated with the domain.",
+      "required": ""
+    },
+    {
+      "description": "The category associated with the indicator. DomainEnrichment.Results.AdditionalFields.Campaign The campaign associated with the domain.",
+      "name": "DomainEnrichment.Results.AdditionalFields.Category",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.TrafficLightProtocol The Traffic Light Protocol (TLP) color that is suitable for the domain. DomainEnrichment.Results.AdditionalFields.ThreatTypes.threatcategory",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.ThreatTypes.threatcategoryconfidence Threat Category Confidence is the confidence level provided by the vendor for the threat type category. For example, a confidence of 90 for the threat type category 'malware' means the vendor estimates a 90% likelihood that it is malware. DomainEnrichment.Results.AdditionalFields.Geo.Location",
+      "name": "The threat category associated to this indicator by the source vendor, for example, Phishing, Control, TOR, etc.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Geo.Country The country in which the domain address is located. DomainEnrichment.Results.AdditionalFields.Geo.Description",
+      "name": "The geolocation where the domain address is located, in the format: latitude:longitude.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Tech.Country The country of the domain technical contact. DomainEnrichment.Results.AdditionalFields.Tech.Name",
+      "name": "Additional information about the location.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Tech.Organization The organization of the domain technical contact. DomainEnrichment.Results.AdditionalFields.Tech.Email",
+      "name": "The name of the domain technical contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.CommunityNotes.note Notes on the domain that were given by the community. DomainEnrichment.Results.AdditionalFields.CommunityNotes.timestamp",
+      "name": "The email address of the domain technical contact.",
+      "required": ""
+    },
+    {
+      "description": "Date DomainEnrichment.Results.AdditionalFields.Publications.source The source where the article was published.",
+      "name": "Time the note was published.",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Publications.title The name of the article. DomainEnrichment.Results.AdditionalFields.Publications.link",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "DomainEnrichment.Results.AdditionalFields.Publications.timestamp Time the article was published. Date",
+      "name": "A link to the original article.",
+      "required": ""
+    },
+    {
+      "description": "Billing address of the domain. Core.AnalyticsPrevalence.Domain.value Whether the domain is prevalent or not.",
+      "name": "DomainEnrichment.Results.AdditionalFields.Billing",
+      "required": ""
+    },
+    {
+      "description": "Core.AnalyticsPrevalence.Domain.data.global_prevalence.value The global prevalence of the domain. Core.AnalyticsPrevalence.Domain.data.local_prevalence.value",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "Core.AnalyticsPrevalence.Domain.data.prevalence.value The prevalence of the domain. Edit this page",
+      "name": "The local prevalence of the domain.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab DockerHardeningCheck Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "DomainExtractAndEnrich \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "domain-enrichment",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/domain-enrichment"
+}

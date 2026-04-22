@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Updates a specified device.",
+  "examples": [
+    "Command Example\n!cylance-protect-update-device id=652bbfa9-cf74-4e24-90f7-d01b16429701\nRaw Output\n{",
+    "!cylance-protect-update-device id=652bbfa9-cf74-4e24-90f7-d01b16429701\nRaw Output\n{"
+  ],
+  "kind": "integration-command",
+  "name": "cylance-protect-update-device",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

@@ -1,0 +1,15 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "gcs-create-bucket bucket_name=my-bucket bucket_acl=publicRead default_object_acl=authenticatedRead",
+  "examples": [
+    "Command Example\ngcs-create-bucket bucket_name=my-bucket bucket_acl=publicRead default_object_acl=authenticatedRead\nHuman Readable Output\nBucket my-bucket was created successfully.\n4. Delete a bucket\nDeletes a bucket.\nBase Command\ngcs-delete-bucket"
+  ],
+  "kind": "integration-command",
+  "name": "gcs-delete-bucket",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Storage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-storage"
+}

@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "bitsight-companies-guid-get",
+  "examples": [
+    "!bitsight-companies-guid-get\nContext Example\n#\n{\n\"BitSight\"\n:\n{\n\"Company\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name of this company. BitSight.Company.shortname The abbreviated name of this company.",
+      "name": "BitSight.Company.name",
+      "required": ""
+    },
+    {
+      "description": "The unique identifier of this company. BitSight.Company.customId The customizable ID assigned to this company.",
+      "name": "BitSight.Company.guid",
+      "required": ""
+    },
+    {
+      "description": "The number of IPv4 addresses attributed to this company. BitSight.Company.rating The most recent security rating of this company.",
+      "name": "BitSight.Company.networkSizeV4",
+      "required": ""
+    },
+    {
+      "description": "Date The date when the rating report for this company was generated. BitSight.Company.dateAdded",
+      "name": "BitSight.Company.ratingDate",
+      "required": ""
+    },
+    {
+      "description": "The date when this company was added to your portfolio. BitSight.Company.industry The industry of this company.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The slug name of this company's industry. BitSight.Company.subIndustry The sub-industry of this company.",
+      "name": "BitSight.Company.industrySlug",
+      "required": ""
+    },
+    {
+      "description": "The slug name of this company's sub-industry. BitSight.Company.type The rating type.",
+      "name": "BitSight.Company.subIndustrySlug",
+      "required": ""
+    },
+    {
+      "description": "The URL in the Bitsight platform to this company's logo image. BitSight.Company.sparkline The URL in the Bitsight platform to this company's historical ratings trend line.",
+      "name": "BitSight.Company.logo",
+      "required": ""
+    },
+    {
+      "description": "The external ID assigned to this company. BitSight.Company.subscriptionType The subscription type used to monitor this company.",
+      "name": "BitSight.Company.externalId",
+      "required": ""
+    },
+    {
+      "description": "The slug name of the subscription type used to monitor this company. BitSight.Company.primaryDomain The primary domain of this company.",
+      "name": "BitSight.Company.subscriptionTypeKey",
+      "required": ""
+    },
+    {
+      "description": "For internal Bitsight use. BitSight.Company.gradeDate Date",
+      "name": "BitSight.Company.securityGrade",
+      "required": ""
+    },
+    {
+      "description": "BitSight.Company.displayURL The URL in the Bitsight platform to this company's overview page. BitSight.Company.href",
+      "name": "For internal Bitsight use.",
+      "required": ""
+    },
+    {
+      "description": "The URL in the Bitsight platform to this company's page. BitSight.MyCompany.guid The unique identifier of my company.",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Bitsight for Security Performance Management",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bit-sight-for-security-performance-management"
+}

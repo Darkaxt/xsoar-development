@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "aella-get-event",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Event name Aella.Event.severity Severity score",
+      "name": "Aella.Event.event_name",
+      "required": ""
+    },
+    {
+      "description": "Destination IP Aella.Event.srcip Source IP",
+      "name": "Aella.Event.dstip",
+      "required": ""
+    },
+    {
+      "description": "Tenant ID Aella.Event.srcip_reputation Source IP reputation",
+      "name": "Aella.Event.tenantid",
+      "required": ""
+    },
+    {
+      "description": "Destination IP reputation Aella.Event.dstip_geo Destination IP geolocation",
+      "name": "Aella.Event.dstip_reputation",
+      "required": ""
+    },
+    {
+      "description": "Source IP geolocation Edit this page Report an Issue",
+      "name": "Aella.Event.srcip_geo",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Admin By Request Next Agari Phishing Defense \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Aella Star Light",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aella-star-light"
+}

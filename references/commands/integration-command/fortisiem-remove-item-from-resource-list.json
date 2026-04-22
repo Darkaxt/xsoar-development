@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "8. Remove elements from a resource list",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "fortisiem-remove-item-from-resource-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FortiSIEM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forti-siem"
+}

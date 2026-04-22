@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Get the details of a specified policy",
+  "examples": [
+    "Command Example\n!cbd-get-policy policyId=6525\nContext Example\nCarbonBlackDefense:{} 1 item\nGetPolicy:{} 5 items\nId:6525\nLatestRevision:1488926710902\nPolicy:{} 6 items",
+    "!cbd-get-policy policyId=6525\nContext Example\nCarbonBlackDefense:{} 1 item\nGetPolicy:{} 5 items\nId:6525\nLatestRevision:1488926710902\nPolicy:{} 6 items\navSettings:{} 6 items"
+  ],
+  "kind": "integration-command",
+  "name": "cbd-get-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The policy ID CarbonBlackDefense.GetPolicy.PriorityLevel The policy's priority level",
+      "name": "CarbonBlackDefense.GetPolicy.Id",
+      "required": ""
+    },
+    {
+      "description": "System policy ( ) CarbonBlackDefense.GetPolicy.LatestRevision",
+      "name": "CarbonBlackDefense.GetPolicy.SystemPolicy",
+      "required": ""
+    },
+    {
+      "description": "CarbonBlackDefense.GetPolicy.Policy The policy object",
+      "name": "The policy's latest revision",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black Endpoint Standard (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-defense"
+}

@@ -1,0 +1,35 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "usta-tsa-search-phishing-site",
+  "examples": [
+    "Command Example\n#\n!usta-tsa-search-phishing-site url=example.com\nContext Example\n#\n{\n\"USTA\"\n:",
+    "!usta-tsa-search-phishing-site url=example.com\nContext Example\n#\n{\n\"USTA\"\n:\n{\n\"ThreatStreamMaliciousUrls\"",
+    "Command Example\nContext Example\nusta-tsa-search-malicious-url\nCommand Example\nContext Example\nusta-tsa-search-phishing-site\nCommand Example\nContext Example",
+    "Command Example\nContext Example\nusta-tsa-search-phishing-site\nCommand Example\nContext Example\nDocs\nDeveloper Docs\nBecome a Technology Partner",
+    "Command Example\nContext Example\nDocs\nDeveloper Docs\nBecome a Technology Partner\nSocial\nBlog\nCopyright \u00a9 2026 Palo Alto Networks, Inc."
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the alert USTA.ThreatStreamPhishingSites.url The URL of the phishing site",
+      "name": "USTA.ThreatStreamPhishingSites.id",
+      "required": ""
+    },
+    {
+      "description": "Whether the phishing site is a domain USTA.ThreatStreamPhishingSites.ip_addresses The IP addresses of the phishing site",
+      "name": "USTA.ThreatStreamPhishingSites.is_domain",
+      "required": ""
+    },
+    {
+      "description": "Date The creation date of the phishing site",
+      "name": "USTA.ThreatStreamPhishingSites.created",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "USTA Threat Stream IOC Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/feed-usta-threat-stream"
+}

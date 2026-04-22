@@ -1,0 +1,47 @@
+{
+  "aliases": [
+    "set-indicator-grid-field"
+  ],
+  "arguments": [
+    {
+      "description": "keys_from_context A comma-separated string listing the keys to extract values from the provided dictionaries in the input. The extracted values will be mapped to the headers in the order provided. append",
+      "name": "Either a JSON or list of lists. This argument is mandatory.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "When set to True, appends the new content to the existing grid content instead of overwriting it.",
+      "required": ""
+    }
+  ],
+  "description": "SetIndicatorGridField | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SetIndicatorGridField",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next SetIndicatorTableData \u00bb Script Data",
+      "name": "\u00ab SetIfEmpty",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SetIndicatorGridField",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/set-indicator-grid-field"
+}

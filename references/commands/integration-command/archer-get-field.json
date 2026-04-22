@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!archer-delete-record applicationId=423 contentId=227542",
+  "examples": [
+    "Command Example\n!archer-delete-record applicationId=423 contentId=227542\nRaw Output\ncontent id = 227542 was deleted successfully\nMap list value name to list value ID\nReturns mapping from list value name to list value ID.\nBase Command\narcher-get-field",
+    "!archer-delete-record applicationId=423 contentId=227542\nRaw Output\ncontent id = 227542 was deleted successfully\nMap list value name to list value ID\nReturns mapping from list value name to list value ID.\nBase Command\narcher-get-field\nInput",
+    "Command Example\n!archer-get-field applicationId=433 fieldID=16107\nRaw Output\n{\n\"FieldId\": \"16107\",",
+    "!archer-get-field applicationId=433 fieldID=16107\nRaw Output\n{\n\"FieldId\": \"16107\","
+  ],
+  "kind": "integration-command",
+  "name": "archer-get-field",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

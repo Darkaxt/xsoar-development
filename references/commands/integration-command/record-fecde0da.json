@@ -1,0 +1,13 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Downloads files from HTTP, HTTPS, or FTP to node",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Linux",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ansible-linux"
+}

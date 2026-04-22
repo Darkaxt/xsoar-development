@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!velocloud-get-events limit=1\n{\n\"VeloCloud\"\n:\n{\n\"Event\"",
+    "!velocloud-get-events limit=1\n{\n\"VeloCloud\"\n:\n{\n\"Event\"\n:\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Event logical ID VeloCloud.Event.category Event category",
+      "name": "VeloCloud.Event.logicalId",
+      "required": ""
+    },
+    {
+      "description": "Event type VeloCloud.Event.severity Event severity",
+      "name": "VeloCloud.Event.event",
+      "required": ""
+    },
+    {
+      "description": "Event message VeloCloud.Event.detail Event details, usually in JSON string format",
+      "name": "VeloCloud.Event.message",
+      "required": ""
+    },
+    {
+      "description": "Date Event timestamp VeloCloud.Event.created",
+      "name": "VeloCloud.Event.eventTime",
+      "required": ""
+    },
+    {
+      "description": "Event creation time VeloCloud.Event.edgeName Name of the edge",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Name of the enterprise VeloCloud.Event.enterpriseUsername Username associated with the enterprise",
+      "name": "VeloCloud.Event.enterpriseName",
+      "required": ""
+    },
+    {
+      "description": "Name of the network segment",
+      "name": "VeloCloud.Event.segmentName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VeloCloud Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/velo-cloud-event-collector"
+}

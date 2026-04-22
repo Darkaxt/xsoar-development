@@ -1,0 +1,116 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "whoisrequest@markmonitor.com",
+  "examples": [
+    "!ip ip=8.8.8.8\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Globally unique identifier used for routing information exchange with Autonomous Systems. Whois.IP.asn_cidr Network routing block assigned to an ASN.",
+      "name": "Whois.IP.asn",
+      "required": ""
+    },
+    {
+      "description": "ASN assigned country code in ISO 3166-1 format. Whois.IP.asn_date Date",
+      "name": "Whois.IP.asn_country_code",
+      "required": ""
+    },
+    {
+      "description": "Whois.IP.asn_description The ASN description Whois.IP.asn_registry",
+      "name": "ASN allocation date in ISO 8601 format.",
+      "required": ""
+    },
+    {
+      "description": "ASN assigned regional internet registry. Whois.IP.entities list of object names referenced by an RIR network. Map these to the objects dictionary keys.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Network routing block an IP address belongs to. Whois.IP.network.country Country code registered with the RIR in ISO 3166-1 format.",
+      "name": "Whois.IP.network.cidr",
+      "required": ""
+    },
+    {
+      "description": "The last IP address in a network block. Whois.IP.network.events.action The reason for an event.",
+      "name": "Whois.IP.network.end_address",
+      "required": ""
+    },
+    {
+      "description": "The identifier for an event initiator (if any). Whois.IP.network.events.timestamp Date",
+      "name": "Whois.IP.network.events.actor",
+      "required": ""
+    },
+    {
+      "description": "Whois.IP.network.handle Unique identifier for a registered object. Whois.IP.network.ip_version",
+      "name": "The date an event occurred in ISO 8601 format.",
+      "required": ""
+    },
+    {
+      "description": "IP protocol version (v4 or v6) of an IP address. Whois.IP.network.links HTTP/HTTPS links provided for an RIR object.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "The identifier assigned to the network registration for an IP address. Whois.IP.network.notices.description The description/body of a notice.",
+      "name": "Whois.IP.network.name",
+      "required": ""
+    },
+    {
+      "description": "list of HTTP/HTTPS links provided for a notice. Whois.IP.network.notices.title The title/header for a notice.",
+      "name": "Whois.IP.network.notices.links",
+      "required": ""
+    },
+    {
+      "description": "Unique identifier for the parent network of a registered network. Whois.IP.network.remarks List of remark (notice) dictionaries.",
+      "name": "Whois.IP.network.parent_handle",
+      "required": ""
+    },
+    {
+      "description": "The first IP address in a network block. Whois.IP.network.status List indicating the state of a registered object.",
+      "name": "Whois.IP.network.start_address",
+      "required": ""
+    },
+    {
+      "description": "The RIR classification of a registered network. Whois.IP.query The IP address",
+      "name": "Whois.IP.network.type",
+      "required": ""
+    },
+    {
+      "description": "IP address IP.ASN The autonomous system name for the IP address, for example: \"AS8948\".",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "The country in which the IP address is located. IP.Organization.Name The organization name.",
+      "name": "IP.Geo.Country",
+      "required": ""
+    },
+    {
+      "description": "Indicators that are associated with the IP. IP.feed_related_indicators.type The type of the indicators that are associated with the IP",
+      "name": "IP.feed_related_indicators.value",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Score The actual score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Reliability",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Whois",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/whois"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "XSOAR Development"
+  short_description: "Cortex XSOAR content, packaging, and command lookup guardrails"
+  default_prompt: "Use $xsoar-development for Cortex XSOAR scripts, playbooks, dashboards, automations, packs, native command syntax, XSOAR runtime imports, and package structure."

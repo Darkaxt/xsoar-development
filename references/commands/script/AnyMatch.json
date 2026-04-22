@@ -1,0 +1,106 @@
+{
+  "aliases": [
+    "any-match"
+  ],
+  "arguments": [],
+  "description": "AnyMatch | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "AnyMatch",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Table of examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Right Result Explanation",
+      "name": "Left",
+      "required": ""
+    },
+    {
+      "description": "\"1\" 1 Integers are treated as strings.",
+      "name": "1,2,3",
+      "required": ""
+    },
+    {
+      "description": "25,10 250 A part of 250 exists in the right side.",
+      "name": "1,2,250",
+      "required": ""
+    },
+    {
+      "description": "21 None 5,1,6,9,65,8",
+      "name": "1",
+      "required": ""
+    },
+    {
+      "description": "1,6,65 a holla",
+      "name": "1,6",
+      "required": ""
+    },
+    {
+      "description": "bca A bca",
+      "name": "None",
+      "required": ""
+    },
+    {
+      "description": "{'alert' {'data': 'x'}} x {'alert' {'data': 'x'}}",
+      "name": "The filter is case-insensitive.",
+      "required": ""
+    },
+    {
+      "description": "{'a':1,'c':2} None {'a':1,'c':2}",
+      "name": "{'a':1},{'b':2}",
+      "required": ""
+    },
+    {
+      "description": "{'a':1},{'b':2} {a:1} None",
+      "name": "is nat a part of a value from the left.",
+      "required": ""
+    },
+    {
+      "description": "is not a part of any value from the left. {key1:value1, key2:value2} 1",
+      "name": "{a:1}",
+      "required": ""
+    },
+    {
+      "description": "A json is treated as a single string, even when there is a comma in it. '',' {'a':1,'c':2}",
+      "name": "{key1:value1, key2:value2}",
+      "required": ""
+    },
+    {
+      "description": "'' is not a part of {'a':1,'c':2}",
+      "name": "'",
+      "required": ""
+    },
+    {
+      "description": "' is. Edit this page",
+      "name": ", but",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab AnyLlmWorkspaceUpdate Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "AppendIfNotEmpty \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Table of examples",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AnyMatch",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/any-match"
+}

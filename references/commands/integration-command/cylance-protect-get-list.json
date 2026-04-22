@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!cylance-protect-update-device-threats threat_id=ED01EBFBC9EB5BBEA545AF4D01BF5F1071661840480439C6E5BABE8E080E41AA",
+  "examples": [
+    "Command Example\n!cylance-protect-update-device-threats threat_id=ED01EBFBC9EB5BBEA545AF4D01BF5F1071661840480439C6E5BABE8E080E41AA\nRaw Output\ntrue\n15. Get a list for hashes\nReturns a list for hashes.\nBase Command\ncylance-protect-get-list",
+    "!cylance-protect-update-device-threats threat_id=ED01EBFBC9EB5BBEA545AF4D01BF5F1071661840480439C6E5BABE8E080E41AA\nRaw Output\ntrue\n15. Get a list for hashes\nReturns a list for hashes.\nBase Command\ncylance-protect-get-list\nInput",
+    "Command Example\n!cylance-protect-get-list listTypeId=0 page_size=4\nRaw Output\n{\n\"added\":\"2017-11-07T04:30:04\",\n\"added_by\":\"3ff9b11e-b64e-4350-97ba-aeb0a099b8ee\",\n\"av_industry\":null,\n\"category\":\"\",",
+    "!cylance-protect-get-list listTypeId=0 page_size=4\nRaw Output\n{\n\"added\":\"2017-11-07T04:30:04\",\n\"added_by\":\"3ff9b11e-b64e-4350-97ba-aeb0a099b8ee\",\n\"av_industry\":null,\n\"category\":\"\",\n\"classification\":\"Malware\","
+  ],
+  "kind": "integration-command",
+  "name": "cylance-protect-get-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Timestamp when the file was added to the list File.AddedBy Tenant user ID who added the file to the list",
+      "name": "File.Added",
+      "required": ""
+    },
+    {
+      "description": "The score provided by the Anti-Virus industry File.Category The category for the list specified (for the Global Safe list only)",
+      "name": "File.AvIndustry",
+      "required": ""
+    },
+    {
+      "description": "Threat classification assigned by Cylance File.CylanceScore The Cylance score assigned to the threat",
+      "name": "File.Classification",
+      "required": ""
+    },
+    {
+      "description": "list type that the threat belongs to File.Md5 MD5 of the threat",
+      "name": "File.ListType",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 of the threat File.Name Threat name",
+      "name": "File.Sha256",
+      "required": ""
+    },
+    {
+      "description": "The tested indicator DBotScore.Type Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

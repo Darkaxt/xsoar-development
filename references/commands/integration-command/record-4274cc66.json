@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "!lumu-get-cache\nContext Example\n#\n{\n\"Lumu\"\n:\n{\n\"GetCache\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "lumu-get-cache",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Lumu get cache",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "lumu-get-cache",
+      "required": ""
+    },
+    {
+      "description": "Lumu cache Lumu.GetCache.lumu_incidentsId Lumu incident ids processed",
+      "name": "Lumu.GetCache.cache",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Lumu",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/lumu"
+}

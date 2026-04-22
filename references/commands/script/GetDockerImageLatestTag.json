@@ -1,0 +1,38 @@
+{
+  "aliases": [
+    "get-docker-image-latest-tag"
+  ],
+  "arguments": [],
+  "description": "GetDockerImageLatestTag | Cortex XSOAR",
+  "examples": [
+    "!GetDockerImageLatestTag docker_image=demisto/python3\nHuman Readable Output\n#\n3.10.4.29342\nEdit this page\nReport an Issue\nPrevious\n\u00ab getDockerContainersCount"
+  ],
+  "kind": "script",
+  "name": "GetDockerImageLatestTag",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "!GetDockerImageLatestTag docker_image=demisto/python3",
+      "required": ""
+    },
+    {
+      "description": "Example command",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetDockerImageLatestTag",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-docker-image-latest-tag"
+}

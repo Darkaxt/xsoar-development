@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "hyas-get-associated-domains-by-hash",
+  "examples": [
+    "!hyas-get-associated-domains-by-hash md5=\"1d0a97c41afe5540edd0a8c1fb9a0f1c\"\nContext Example\n#\n{\n\"HYAS\"\n:\n{\n\"HASH-DOMAIN\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Associated Domains for the provided MD5 value HYAS.HASH-DOMAIN.md5 The provided MD5 value",
+      "name": "HYAS.HASH-DOMAIN.domains",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HYAS Insight",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hyas-insight"
+}

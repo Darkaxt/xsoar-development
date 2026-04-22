@@ -1,0 +1,44 @@
+{
+  "aliases": [
+    "array-to-csv"
+  ],
+  "arguments": [],
+  "description": "ArrayToCSV | Cortex XSOAR",
+  "examples": [
+    "!ArrayToCSV value=\n[\"example\",\"example\"]````\nContext Example\n#\n{\n}\nHuman Readable Output\n#",
+    "!ArrayToCSV value=\"example,example,example\"\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nexample,example,example"
+  ],
+  "kind": "script",
+  "name": "ArrayToCSV",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "!ArrayToCSV value= [\"example\",\"example\"]```` Context Example",
+      "name": "``",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ArrayToCSV",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/array-to-csv"
+}

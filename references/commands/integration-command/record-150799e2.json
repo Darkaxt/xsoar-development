@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Phone number of SMS reciever (e.g. +123456789101).",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Twilio SendGrid \u00bb TwilioSendSMS",
+      "name": "\u00ab Tufin",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Twilio",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/twilio"
+}

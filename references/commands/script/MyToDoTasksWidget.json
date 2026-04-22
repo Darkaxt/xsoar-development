@@ -1,0 +1,21 @@
+{
+  "aliases": [
+    "my-to-do-tasks-widget"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "MyToDoTasksWidget | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "MyToDoTasksWidget",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MyToDoTasksWidget",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/my-to-do-tasks-widget"
+}

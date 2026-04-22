@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "is-internal-domain-name"
+  ],
+  "arguments": [],
+  "description": "IsInternalDomainName | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IsInternalDomainName",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The subdomain that was checked to see if it is part of the specified domains. IsInternalDomain.IsInternal True, if the subdomain is part of one of the specified domains. Otherwise, false.",
+      "name": "IsInternalDomain.DomainToTest",
+      "required": ""
+    },
+    {
+      "description": "IsInternalDomain.DomainToCompare The names of the main domains that were used to compare the subdomains to. Edit this page",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab IsIntegrationAvailable Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "IsInternalHostName \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IsInternalDomainName",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/is-internal-domain-name"
+}

@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "get-modified-remote-data",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Available from Cortex XSOAR version 6.1.0. This command queries for incidents that were modified since the last update. This method is only used for debugging purposes.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "get-modified-remote-data",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Strata Logging Service XSOAR Connector \u00bb Configure Stellar Cyber in Cortex",
+      "name": "\u00ab Starter Base Integration - Name the integration as it will appear in the XSOAR UI",
+      "required": ""
+    },
+    {
+      "description": "Commands stellar-get-alert stellar-update-case",
+      "name": "Incident Mirroring",
+      "required": ""
+    },
+    {
+      "description": "get-modified-remote-data Docs Developer Docs",
+      "name": "get-remote-data",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Stellar Cyber",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/stellar-cyber"
+}

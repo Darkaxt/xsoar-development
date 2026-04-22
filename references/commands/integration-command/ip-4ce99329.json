@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "slashnext-download-screenshot",
+  "examples": [
+    "Command Example\n!ip ip=8.8.8.8\nContext Example\n{\n\"DBotScore\": {\n\"Indicator\": \"8.8.8.8\",\n\"Score\": 1,\n\"Type\": \"ip\",",
+    "!ip ip=8.8.8.8\nContext Example\n{\n\"DBotScore\": {\n\"Indicator\": \"8.8.8.8\",\n\"Score\": 1,\n\"Type\": \"ip\",\n\"Vendor\": \"SlashNext Phishing Incident Response\""
+  ],
+  "kind": "integration-command",
+  "name": "ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested DBotScore.Type Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "IP address IP.Malicious.Vendor For malicious IP addresses, the vendor that made the decision",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "For malicious IP addresses, the reason that the vendor made the decision SlashNext.IP.Value Value of the Indicator of Compromise (IoC)",
+      "name": "IP.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Type of the Indicator of Compromise (IoC) SlashNext.IP.Verdict SlashNext Phishing Incident Response verdict on the IoC",
+      "name": "SlashNext.IP.Type",
+      "required": ""
+    },
+    {
+      "description": "Threat status of the IoC SlashNext.IP.ThreatName Name of the threat posed by the IoC",
+      "name": "SlashNext.IP.ThreatStatus",
+      "required": ""
+    },
+    {
+      "description": "Type of the threat posed by the IoC SlashNext.IP.FirstSeen date",
+      "name": "SlashNext.IP.ThreatType",
+      "required": ""
+    },
+    {
+      "description": "SlashNext.IP.LastSeen date Time when the IoC was last observed",
+      "name": "Time when the IoC was first observed",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SlashNext Phishing Incident Response (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slash-next-phishing-incident-response"
+}

@@ -1,0 +1,33 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "2eb7bfae-7739-5863-9b00-1681309c3d8c",
+  "examples": [
+    "Command Example\n#\n!taxii-server-info\nContext Example\n#\n{\n\"TAXIIServer\"\n:",
+    "!taxii-server-info\nContext Example\n#\n{\n\"TAXIIServer\"\n:\n{\n\"ServerInfo\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The server title TAXIIServer.ServerInfo.api_roots The server API roots URLs.",
+      "name": "TAXIIServer.ServerInfo.title",
+      "required": ""
+    },
+    {
+      "description": "The default URL. TAXIIServer.ServerInfo.description The server description",
+      "name": "TAXIIServer.ServerInfo.default",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TAXII2 Server",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/taxii2-server"
+}

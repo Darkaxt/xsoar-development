@@ -1,0 +1,77 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "na-sightline-tms-group-list",
+  "examples": [
+    "Command Example\n#\n!na-sightline-tms-group-list limit=2\nContext Example\n#\n{\n\"NASightline\"\n:",
+    "!na-sightline-tms-group-list limit=2\nContext Example\n#\n{\n\"NASightline\"\n:\n{\n\"TMSGroup\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "If true, ensures that all TMS appliances or Cisco ASR 9000 vDDoS Protection devices in a group use less than 90% of the allowed traffic rate in order for a mitigation to start. NASightline.TMSGroup.check_bgp_peering If true, ensures that the TMS appliances or Cisco ASR 9000 vDDoS Protection devices are part of a peering session.",
+      "name": "NASightline.TMSGroup.check_available_bw",
+      "required": ""
+    },
+    {
+      "description": "If true, requires all group members to be up before starting a mitigation. This ensures that sufficient resources are available before a mitigation starts. NASightline.TMSGroup.default_bgp_offramp If true, the default BGP diversion nexthops of the TMS appliances or Cisco ASR 9000 vDDoS Protection devices in the TMS group are used.",
+      "name": "NASightline.TMSGroup.check_group_allup",
+      "required": ""
+    },
+    {
+      "description": "Description of the TMS group. NASightline.TMSGroup.fail_open If true, ends the mitigation if one or more group members fails or becomes unreachable.",
+      "name": "NASightline.TMSGroup.description",
+      "required": ""
+    },
+    {
+      "description": "In TMS flowspec diversion deployments, these attributes each specify a destination route target or IP address. The Sightline peer uses these destinations in TMS mitigations to advertise routes to its BGP peers. NASightline.TMSGroup.flowspec_redirect_ipv4_type In TMS flowspec diversion deployments, these attributes define whether the Sightline peer redirects TMS mitigation traffic to a route target or to an IP address.",
+      "name": "NASightline.TMSGroup.flowspec_redirect_ipv4_destination",
+      "required": ""
+    },
+    {
+      "description": "In TMS flowspec diversion deployments, these attributes each specify a destination route target or IP address. The Sightline peer uses these destinations in TMS mitigations to advertise routes to its BGP peers. NASightline.TMSGroup.flowspec_redirect_ipv6_type In TMS flowspec diversion deployments, these attributes define whether the Sightline peer redirects TMS mitigation traffic to a route target or to an IP address.",
+      "name": "NASightline.TMSGroup.flowspec_redirect_ipv6_destination",
+      "required": ""
+    },
+    {
+      "description": "The TMS group ID. NASightline.TMSGroup.l3vpn_flowspec_ipv4_route_distinguisher The route distinguisher (RD) for a VPN, which uniquely identifies the routes for that VPN.",
+      "name": "NASightline.TMSGroup.id",
+      "required": ""
+    },
+    {
+      "description": "The route distinguisher (RD) for a VPN, which uniquely identifies the routes for that VPN. NASightline.TMSGroup.member_limits_differ If true, TMS device limits (such as maximum mitigations or filter lists) differ, which leads to either performance issues if devices change midstream for ongoing mitigations, or failure to start or save mitigations.",
+      "name": "NASightline.TMSGroup.l3vpn_flowspec_ipv6_route_distinguisher",
+      "required": ""
+    },
+    {
+      "description": "The percentage of total bandwidth capacity at which this TMS group will become overloaded. NASightline.TMSGroup.mitigation_orchestration.enabled If true, mitigation orchestration is enabled for this TMS group.",
+      "name": "NASightline.TMSGroup.mitigation_orchestration.bandwidth_threshold_percent",
+      "required": ""
+    },
+    {
+      "description": "TMS group name. NASightline.TMSGroup.nexthop The IPv4 address for the BGP diversion nexthop. It overrides the default nexthops of the TMS appliances or Cisco ASR 9000 vDDoS Protection devices that are in the TMS group.",
+      "name": "NASightline.TMSGroup.name",
+      "required": ""
+    },
+    {
+      "description": "The IPv6 address for the BGP diversion nexthop. It overrides the default nexthops of the TMS appliances or Cisco ASR 9000 vDDoS Protection devices that are in the TMS group. NASightline.TMSGroup.relationships Relationships of the managed object (only visible when extending the data).",
+      "name": "NASightline.TMSGroup.nexthop_v6",
+      "required": ""
+    },
+    {
+      "description": "If true, the TMS group is pre-configured in Sightline and is not editable. NASightline.TMSGroup.tms_group_type Type of the TMS group.",
+      "name": "NASightline.TMSGroup.system",
+      "required": ""
+    },
+    {
+      "description": "Type of the returned object.",
+      "name": "NASightline.TMSGroup.type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Netscout Arbor Sightline (Peakflow)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/netscout-arbor-sightline"
+}

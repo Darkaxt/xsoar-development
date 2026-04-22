@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!prisma-access-cli-command cmd=\"show system info | match hostname\"",
+  "examples": [
+    "Command Example\n#\n!prisma-access-cli-command cmd=\"show system info | match hostname\"\nprisma-access-active-users (deprecated)\n#\nQuery currently active users.\nBase Command\n#",
+    "!prisma-access-cli-command cmd=\"show system info | match hostname\"\nprisma-access-active-users (deprecated)\n#\nQuery currently active users.\nBase Command\n#\nprisma-access-active-users\nInput",
+    "Command Example\n#\n!prisma-access-active-users limit=10\nEdit this page\nReport an Issue\nPrevious\n\u00ab Preempt (Deprecated)\nNext",
+    "!prisma-access-active-users limit=10\nEdit this page\nReport an Issue\nPrevious\n\u00ab Preempt (Deprecated)\nNext\nPrisma Access Egress IP feed \u00bb\nPrisma Access Integration"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Active Users on Prisma Access",
+      "name": "PrismaAccess.ActiveUsers",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Prisma Access",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/prisma-access"
+}

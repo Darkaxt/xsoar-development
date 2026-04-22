@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Search for alerts: perch-search-alerts",
+  "examples": [
+    "Command Example\n!perch-search-alerts page_size=1\nContext Example\n{\n\"Perch\": {\n\"Alert\": [\n{\n\"Protocol\": \"TCP\",",
+    "!perch-search-alerts page_size=1\nContext Example\n{\n\"Perch\": {\n\"Alert\": [\n{\n\"Protocol\": \"TCP\",\n\"Title\": \"ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 82\","
+  ],
+  "kind": "integration-command",
+  "name": "perch-search-alerts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Destination port of the alert. Perch.Alert.SrcPort Source port of the alert.",
+      "name": "Perch.Alert.DestPort",
+      "required": ""
+    },
+    {
+      "description": "Destination IP of the alert. Perch.Alert.IndicatorID Indicator ID of the alert.",
+      "name": "Perch.Alert.DestIP",
+      "required": ""
+    },
+    {
+      "description": "IP address of the source. Perch.Alert.SrcGeo.Country Country of the threat.",
+      "name": "Perch.Alert.SrcIP",
+      "required": ""
+    },
+    {
+      "description": "Latitude of the detected threat. Perch.Alert.SrcGeo.Longitude Longitude of the detected threat.",
+      "name": "Perch.Alert.SrcGeo.Latitude",
+      "required": ""
+    },
+    {
+      "description": "ID of the sensor that reported the threat. Perch.Alert.Title Title of the alert.",
+      "name": "Perch.Alert.SensorID",
+      "required": ""
+    },
+    {
+      "description": "Protocol on which the alert was detected. Perch.Alert.ID ID of the alert.",
+      "name": "Perch.Alert.Protocol",
+      "required": ""
+    },
+    {
+      "description": "ID of the observable event. Perch.Alert.TS Date",
+      "name": "Perch.Alert.ObservableID",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Timestamp of the alert.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Perch",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/perch"
+}

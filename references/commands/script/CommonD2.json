@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "common-d2"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "CommonD2 | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CommonD2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next CommonServerUserPowerShell \u00bb Script Data",
+      "name": "\u00ab CommitFiles",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CommonD2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/common-d2"
+}

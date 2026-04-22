@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Elasticsearch.IndexStatistics.DocumentsDeleted",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ES|QL search result Edit this page Report an Issue",
+      "name": "Elasticsearch.ESQLSearch",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Elasticsearch Feed Next Email Hippo \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Configure Elasticsearch v2 in Cortex Commands es-search",
+      "name": "Permissions",
+      "required": ""
+    },
+    {
+      "description": "get-mapping-fields es-eql-search es-index",
+      "name": "search",
+      "required": ""
+    },
+    {
+      "description": "es-get-indices-statistics es-esql-search Docs",
+      "name": "es-integration-health-check",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Elasticsearch v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/elasticsearch-v2"
+}

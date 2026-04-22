@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "threatexchange-members",
+  "examples": [
+    "Command Example\n#\n!threatexchange-members\nHuman Readable Output\n#\nThreatExchange Members\n#\nemail",
+    "!threatexchange-members\nHuman Readable Output\n#\nThreatExchange Members\n#\nemail\nid\nname"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatExchange (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-exchange"
+}

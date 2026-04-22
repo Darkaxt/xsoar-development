@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "extract-email-v2"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "The Emails to process.",
+      "required": ""
+    }
+  ],
+  "description": "ExtractEmailV2 | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ExtractEmailV2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next ExtractFQDNFromUrlAndEmail \u00bb Script Data",
+      "name": "\u00ab ExtractEmailTransformer",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExtractEmailV2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/extract-email-v2"
+}

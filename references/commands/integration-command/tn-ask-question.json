@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get all objects: tn-get-all-objects",
+  "examples": [
+    "Command Example\n!tn-ask-question question=\"Get Computer Name from all machines\"\nContext Example\n{\nTanium: {\nQuestionResults:[{\nComputer Name: Demisto-Computer,\nCount:1",
+    "!tn-ask-question question=\"Get Computer Name from all machines\"\nContext Example\n{\nTanium: {\nQuestionResults:[{\nComputer Name: Demisto-Computer,\nCount:1\n}]"
+  ],
+  "kind": "integration-command",
+  "name": "tn-ask-question",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Results of the requested question. Can be a complex object.",
+      "name": "Tanium.QuestionResults",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium"
+}

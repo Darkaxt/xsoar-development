@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!redcanary-list-endpoints\nContext Example\n{\n\"EndPoint\": [\n{\n\"MACAddress\": [\n\"06:79:02:e0:b0:7c\"",
+    "!redcanary-list-endpoints\nContext Example\n{\n\"EndPoint\": [\n{\n\"MACAddress\": [\n\"06:79:02:e0:b0:7c\"\n],"
+  ],
+  "kind": "integration-command",
+  "name": "redcanary-list-endpoints",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Fully-qualified endpoint hostname Endpoint.ID Endpoint ID",
+      "name": "Endpoint.Hostname",
+      "required": ""
+    },
+    {
+      "description": "IP address of the endpoint Endpoint.MACAddress MAC address of the endpoint",
+      "name": "Endpoint.IPAddress",
+      "required": ""
+    },
+    {
+      "description": "The operating system used by the endpoint Endpoint.OSVersion The complete operating system version identifier used by the endpoint",
+      "name": "Endpoint.OS",
+      "required": ""
+    },
+    {
+      "description": "Physical memory of the endpoint in bytes Endpoint.IsIsolated Whether or not the endpoint is currently network isolated",
+      "name": "Endpoint.Memory",
+      "required": ""
+    },
+    {
+      "description": "Whether or not the endpoint is decommissioned",
+      "name": "Endpoint.IsDecommissioned",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Red Canary",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/red-canary"
+}

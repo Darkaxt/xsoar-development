@@ -1,0 +1,27 @@
+{
+  "aliases": [
+    "cyren-threat-in-depth-related-widget"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "CyrenThreatInDepthRelatedWidget | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CyrenThreatInDepthRelatedWidget",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyrenThreatInDepthRelatedWidget",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cyren-threat-in-depth-related-widget"
+}

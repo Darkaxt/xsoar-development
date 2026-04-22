@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Creates a policy, as prescribed by further input.",
+  "examples": [
+    "Command Example\n!cbd-create-policy priorityLevel=LOW name=YARDENTEST3 description=yardentesttest3 policy={ \"policyInfo\": { \"description\": \"test policy for documentation\", \"name\": \"documentation test\", \"policy\": { \"avSettings\": { \"apc\": { \"enabled\": false, \"maxExeDelay\": 45, \"maxFileSize\": 4, \"riskLevel\": 4 }, \"features\": [ { \"enabled\": false, \"name\": \"SIGNATURE_UPDATE\" }, { \"enabled\": true, \"name\": \"ONACCESS_SCAN\" }, { \"enabled\": true, \"name\": \"ONDEMAND_SCAN\" } ], \"onAccessScan\": { \"profile\": \"NORMAL\" }, \"onDemandScan\": { \"profile\": \"NORMAL\", \"scanCdDvd\": \"AUTOSCAN\", \"scanUsb\": \"AUTOSCAN\", \"schedule\": { \"days\": null, \"rangeHours\": 0, \"recoveryScanIfMissed\": true, \"startHour\": 0 } }, \"signatureUpdate\": { \"schedule\": { \"fullIntervalHours\": 0, \"initialRandomDelayHours\": 4, \"intervalHours\": 2 } }, \"updateServers\": { \"servers\": [ { \"flags\": 0, \"regId\": null, \"server\": [ \"http://updates.cdc.carbonblack.io/update\" ] } ], \"serversForOffSiteDevices\": [ \"http://updates.cdc.carbonblack.io/update\" ] } }, \"directoryActionRules\": [ { \"actions\": { \"FILE_UPLOAD\": false, \"PROTECTION\": false }, \"path\": \"C:\\\\FXCM\\\\**\" }, { \"actions\": { \"FILE_UPLOAD\": true, \"PROTECTION\": false }, \"path\": \"sadf\" }, { \"",
+    "!cbd-create-policy priorityLevel=LOW name=YARDENTEST3 description=yardentesttest3 policy={ \"policyInfo\": { \"description\": \"test policy for documentation\", \"name\": \"documentation test\", \"policy\": { \"avSettings\": { \"apc\": { \"enabled\": false, \"maxExeDelay\": 45, \"maxFileSize\": 4, \"riskLevel\": 4 }, \"features\": [ { \"enabled\": false, \"name\": \"SIGNATURE_UPDATE\" }, { \"enabled\": true, \"name\": \"ONACCESS_SCAN\" }, { \"enabled\": true, \"name\": \"ONDEMAND_SCAN\" } ], \"onAccessScan\": { \"profile\": \"NORMAL\" }, \"onDemandScan\": { \"profile\": \"NORMAL\", \"scanCdDvd\": \"AUTOSCAN\", \"scanUsb\": \"AUTOSCAN\", \"schedule\": { \"days\": null, \"rangeHours\": 0, \"recoveryScanIfMissed\": true, \"startHour\": 0 } }, \"signatureUpdate\": { \"schedule\": { \"fullIntervalHours\": 0, \"initialRandomDelayHours\": 4, \"intervalHours\": 2 } }, \"updateServers\": { \"servers\": [ { \"flags\": 0, \"regId\": null, \"server\": [ \"http://updates.cdc.carbonblack.io/update\" ] } ], \"serversForOffSiteDevices\": [ \"http://updates.cdc.carbonblack.io/update\" ] } }, \"directoryActionRules\": [ { \"actions\": { \"FILE_UPLOAD\": false, \"PROTECTION\": false }, \"path\": \"C:\\\\FXCM\\\\**\" }, { \"actions\": { \"FILE_UPLOAD\": true, \"PROTECTION\": false }, \"path\": \"sadf\" }, { \"actions\": { \"FIL"
+  ],
+  "kind": "integration-command",
+  "name": "cbd-create-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The new policy ID",
+      "name": "CarbonBlackDefense.CreatePolicy.PolicyId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black Endpoint Standard (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-defense"
+}

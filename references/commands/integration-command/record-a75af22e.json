@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Keyfactor.CSRTemplate.Lists.Name",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Certificate Serial Number Keyfactor.CSRTemplate.Lists.IssuerDN Certificate Issuer Domain",
+      "name": "Keyfactor.CSRTemplate.Lists.SerialNumber",
+      "required": ""
+    },
+    {
+      "description": "Certificate Thumb Print Keyfactor.CSRTemplate.Lists.KeyfactorID Certificate KeyfactorID",
+      "name": "Keyfactor.CSRTemplate.Lists.Thumbprint",
+      "required": ""
+    },
+    {
+      "description": "List of Certificates Keyfactor.CertInfo.Lists.RequestDisposition Certificate Request Disposition",
+      "name": "Keyfactor.CertInfo.Lists.Certificates",
+      "required": ""
+    },
+    {
+      "description": "Certificate Request Disposition Message Keyfactor.CertInfo.Lists.EnrollmentContext Certificate Request Enrollment Context",
+      "name": "Keyfactor.CertInfo.Lists.DispositionMessage",
+      "required": ""
+    },
+    {
+      "description": "Certificate Request ID Keyfactor.CertInfo.Lists.formated_cert Formatted Certificate without Trust Chain",
+      "name": "Keyfactor.CertInfo.Lists.KeyfactorRequestId",
+      "required": ""
+    },
+    {
+      "description": "Formatted Certificate's Trust Chain Edit this page Report an Issue",
+      "name": "Keyfactor.CertInfo.Lists.formated_chain",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Kenna v2 Next KnowBe4 KMSAT Event Collector \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "keyfactor-post-enrollment-csr Docs Developer Docs",
+      "name": "keyfactor-get-enrollment-csr",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Keyfactor",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/keyfactor"
+}

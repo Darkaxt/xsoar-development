@@ -1,0 +1,63 @@
+{
+  "aliases": [
+    "extract-hyperlinks-from-office-files"
+  ],
+  "arguments": [],
+  "description": "ExtractHyperlinksFromOfficeFiles | Cortex XSOAR",
+  "examples": [
+    "!ExtractHyperlinksFromOfficeFiles entry_id=1249@93725c86-540d-4ee4-8728-f0ab82b1cb46\nContext Example\n#\n{\n\"ExtractedHyperLink\"\n:\n{\n\"FileName\""
+  ],
+  "kind": "script",
+  "name": "ExtractHyperlinksFromOfficeFiles",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The extracted hyperlinks URL. ExtractedHyperLink.FileName The office file that the hyperlinks extracted from.",
+      "name": "ExtractedHyperLink.URL",
+      "required": ""
+    },
+    {
+      "description": "Script Examples",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!ExtractHyperlinksFromOfficeFiles entry_id=1249@93725c86-540d-4ee4-8728-f0ab82b1cb46",
+      "required": ""
+    },
+    {
+      "description": "\"ExtractedHyperLink\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": \"Link.docx\" ,",
+      "name": "\"FileName\"",
+      "required": ""
+    },
+    {
+      "description": ": \"https://www.paloaltonetworks.com/\" }",
+      "name": "\"URL\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExtractHyperlinksFromOfficeFiles",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/extract-hyperlinks-from-office-files"
+}

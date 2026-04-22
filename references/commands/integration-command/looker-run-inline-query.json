@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2019-04-16T11:41:57.482Z",
+  "examples": [
+    "Command Example\nlooker-run-inline-query model=\"thelook\" view=\"order_items\" fields=\"order_items.status, order_items.order_id, products.brand\" filters=\"products.brand=Ray-Ban, Calvin Klein\" limit=\"2\" result_format=\"json\"\nContext Example\n\"LookerResults\": {\n\"InlineQuery\": [\n{\n\"OrderItems_OrderId\": 5704,\n\"OrderItems_Status\": \"Cancelled\","
+  ],
+  "kind": "integration-command",
+  "name": "looker-run-inline-query",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Inline query results.",
+      "name": "LookerResults.InlineQuery",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Looker",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/looker"
+}

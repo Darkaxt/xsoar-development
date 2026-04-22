@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The DBot score vendor.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "hybrid-analysis-get-report-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The state of the process. HybridAnalysis.Submit.SHA256 The SHA256 hash of the submission.",
+      "name": "HybridAnalysis.Submit.State",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "HybridAnalysis.Submit.JobID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Hybrid Analysis (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hybrid-analysis"
+}

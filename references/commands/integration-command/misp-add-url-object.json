@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!misp-add-url-object event_id=743 url=https://github.com/MISP/misp-objects/blob/master/objects/url/definition.json?q=1\nContext Example\n{\n\"MISP.Event\": {\n\"Object\": {\n\"Comment\": \"\",\n\"EventID\": \"743\",",
+    "!misp-add-url-object event_id=743 url=https://github.com/MISP/misp-objects/blob/master/objects/url/definition.json?q=1\nContext Example\n{\n\"MISP.Event\": {\n\"Object\": {\n\"Comment\": \"\",\n\"EventID\": \"743\",\n\"Timestamp\": \"1565013625\","
+  ],
+  "kind": "integration-command",
+  "name": "misp-add-url-object",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "MISP event ID. MISP.Event.Object.MetaCategory Object meta category.",
+      "name": "MISP.Event.ID",
+      "required": ""
+    },
+    {
+      "description": "Distribution of the object. MISP.Event.Object.Name Name of the object.",
+      "name": "MISP.Event.Object.Distribution",
+      "required": ""
+    },
+    {
+      "description": "Template version of the object. MISP.Event.Object.EventID ID of the event in which the object was first created.",
+      "name": "MISP.Event.Object.TemplateVersion",
+      "required": ""
+    },
+    {
+      "description": "UUID of the template. MISP.Event.Object.Timestamp Timestamp when the object was created.",
+      "name": "MISP.Event.Object.TemplateUUID",
+      "required": ""
+    },
+    {
+      "description": "Whether the object was deleted. MISP.Event.Object.ID ID of the object.",
+      "name": "MISP.Event.Object.Deleted",
+      "required": ""
+    },
+    {
+      "description": "UUID of the object. MISP.Event.Object.Attribute.Value Value of the attribute.",
+      "name": "MISP.Event.Object.UUID",
+      "required": ""
+    },
+    {
+      "description": "ID of the first event from which the object originated. MISP.Event.Object.Attribute.Timestamp Date",
+      "name": "MISP.Event.Object.Attribute.EventID",
+      "required": ""
+    },
+    {
+      "description": "MISP.Event.Object.Attribute.Deleted Whether the object was deleted. MISP.Event.Object.Attribute.ObjectID",
+      "name": "Timestamp when the object was created.",
+      "required": ""
+    },
+    {
+      "description": "ID of the object. MISP.Event.Object.Attribute.DisableCorrelation Whether correlation is disabled.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "ID of the attribute. MISP.Event.Object.Attribute.ObjectRelation Relation of the object.",
+      "name": "MISP.Event.Object.Attribute.ID",
+      "required": ""
+    },
+    {
+      "description": "Object type. MISP.Event.Object.Attribute.UUID UUID of the attribute.",
+      "name": "MISP.Event.Object.Attribute.Type",
+      "required": ""
+    },
+    {
+      "description": "Whether the to_ids flag is on. MISP.Event.Object.Attribute.Category Category of the attribute.",
+      "name": "MISP.Event.Object.Attribute.ToIDs",
+      "required": ""
+    },
+    {
+      "description": "ID of the sharing group. MISP.Event.Object.Attribute.Comment Comment of the attribute.",
+      "name": "MISP.Event.Object.Attribute.SharingGroupID",
+      "required": ""
+    },
+    {
+      "description": "Description of the object.",
+      "name": "MISP.Event.Object.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MISP v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/misp-v2"
+}

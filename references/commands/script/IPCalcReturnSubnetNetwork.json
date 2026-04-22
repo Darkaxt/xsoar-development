@@ -1,0 +1,53 @@
+{
+  "aliases": [
+    "ip-calc-return-subnet-network"
+  ],
+  "arguments": [],
+  "description": "IPCalcReturnSubnetNetwork | Cortex XSOAR",
+  "examples": [
+    "!IPCalcReturnSubnetNetwork subnet=87.248.100.215/28\nContext Example\n#\n{\n\"IPCalc\"\n:\n{\n\"IP\""
+  ],
+  "kind": "script",
+  "name": "IPCalcReturnSubnetNetwork",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Subnet network Script Example",
+      "name": "IPCalc.IP.Network",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!IPCalcReturnSubnetNetwork subnet=87.248.100.215/28",
+      "required": ""
+    },
+    {
+      "description": "\"IPCalc\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"Network\"",
+      "name": "\"IP\"",
+      "required": ""
+    },
+    {
+      "description": "\"87.248.100.208\" } }",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IPCalcReturnSubnetNetwork",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ip-calc-return-subnet-network"
+}

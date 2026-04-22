@@ -1,0 +1,267 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [
+    "!beyondtrust-pm-cloud-get-events event_type=\"Events\" start_date=\"2025-01-01T00:00:00.000Z\" limit=\"10\"\nContext Example (Events)\n#\n{\n\"BeyondTrust\"\n:\n{\n\"Event\"",
+    "!beyondtrust-pm-cloud-get-events event_type=\"Activity Audits\" limit=\"10\"\nContext Example (Activity Audits)\n#\n{\n\"BeyondTrust\"\n:\n{\n\"Event\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the event. BeyondTrust.Event.created Date",
+      "name": "BeyondTrust.Event.id",
+      "required": ""
+    },
+    {
+      "description": "BeyondTrust.Event.@timestamp Date The timestamp of the event.",
+      "name": "The creation time of the event.",
+      "required": ""
+    },
+    {
+      "description": "Audit type name (Activity Audits only). BeyondTrust.Event.details Details of the activity (Activity Audits only).",
+      "name": "BeyondTrust.Event.auditType",
+      "required": ""
+    },
+    {
+      "description": "Name of Activity Audit entity (Activity Audits only). BeyondTrust.Event.user Initiated user email or API client identifier (Activity Audits only).",
+      "name": "BeyondTrust.Event.entity",
+      "required": ""
+    },
+    {
+      "description": "Audit ChangedBy - API or Portal (Activity Audits only). Command example (Events)",
+      "name": "BeyondTrust.Event.changedBy",
+      "required": ""
+    },
+    {
+      "description": "Context Example (Events)",
+      "name": "!beyondtrust-pm-cloud-get-events event_type=\"Events\" start_date=\"2025-01-01T00:00:00.000Z\" limit=\"10\"",
+      "required": ""
+    },
+    {
+      "description": "\"BeyondTrust\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": [ {",
+      "name": "\"Event\"",
+      "required": ""
+    },
+    {
+      "description": ": \"event-123\" ,",
+      "name": "\"id\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2025-01-01T00:00:00.000Z\" ,",
+      "name": "\"created\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2025-01-01T00:00:00.000Z\" }",
+      "name": "\"@timestamp\"",
+      "required": ""
+    },
+    {
+      "description": "} } Command example (Activity Audits)",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "Context Example (Activity Audits)",
+      "name": "!beyondtrust-pm-cloud-get-events event_type=\"Activity Audits\" limit=\"10\"",
+      "required": ""
+    },
+    {
+      "description": "\"BeyondTrust\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": [ {",
+      "name": "\"Event\"",
+      "required": ""
+    },
+    {
+      "description": ": 123 ,",
+      "name": "\"id\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2025-01-01T00:00:00.000Z\" ,",
+      "name": "\"created\"",
+      "required": ""
+    },
+    {
+      "description": ": \"User created\" ,",
+      "name": "\"details\"",
+      "required": ""
+    },
+    {
+      "description": ": \"admin@example.com\" ,",
+      "name": "\"user\"",
+      "required": ""
+    },
+    {
+      "description": ": \"User\" ,",
+      "name": "\"entity\"",
+      "required": ""
+    },
+    {
+      "description": ": \"Create\" ,",
+      "name": "\"auditType\"",
+      "required": ""
+    },
+    {
+      "description": ": \"Portal\" }",
+      "name": "\"changedBy\"",
+      "required": ""
+    },
+    {
+      "description": "} } Event Collection",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "Fetch events enabled, the integration will: Fetch Activity Audits and/or Events based on the",
+      "name": "This integration supports event collection for XSIAM. When configured with",
+      "required": ""
+    },
+    {
+      "description": "configuration. Add required XSIAM fields to each event: _time",
+      "name": "Events types to fetch",
+      "required": ""
+    },
+    {
+      "description": "created or @timestamp",
+      "name": ": Set from the event's",
+      "required": ""
+    },
+    {
+      "description": "source_log_type : Set to activity_audits",
+      "name": "field",
+      "required": ""
+    },
+    {
+      "description": "events depending on the event type vendor",
+      "name": "or",
+      "required": ""
+    },
+    {
+      "description": "beyondtrust product : Set to",
+      "name": ": Set to",
+      "required": ""
+    },
+    {
+      "description": "Continuous Event Coverage",
+      "name": "pm_cloud",
+      "required": ""
+    },
+    {
+      "description": ": The integration uses a continuous coverage approach to prevent event gaps:",
+      "name": "Important",
+      "required": ""
+    },
+    {
+      "description": "This ensures events created between fetch cycles are never missed Example: If Fetch 1 runs at 12:00 and finds events up to 11:50, it stores 12:00 as the next start time When Fetch 2 runs at 12:05, it fetches from 12:00 to 12:05, capturing any events created in that window",
+      "name": "Each fetch cycle stores the fetch start time (not the last event's timestamp) as the next run's start time",
+      "required": ""
+    },
+    {
+      "description": "Event Types",
+      "name": "Deduplication is performed based on event IDs to handle any overlapping events",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Activity Audits",
+      "required": ""
+    },
+    {
+      "description": "User management (create, modify, disable) Group management Policy changes",
+      "name": "Activity Audits track configuration changes and administrative actions in PM Cloud, including:",
+      "required": ""
+    },
+    {
+      "description": "API client changes Installation key changes Settings modifications",
+      "name": "Computer management",
+      "required": ""
+    },
+    {
+      "description": ": beyondtrust_pm_cloud_raw Source Log Type",
+      "name": "Dataset",
+      "required": ""
+    },
+    {
+      "description": "activity_audits Events",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "Application execution events Privilege elevation events Authorization requests",
+      "name": "Events track endpoint privilege management activities, including:",
+      "required": ""
+    },
+    {
+      "description": "Security events Dataset :",
+      "name": "Policy enforcement events",
+      "required": ""
+    },
+    {
+      "description": "Source Log Type : events",
+      "name": "beyondtrust_pm_cloud_raw",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "API Documentation",
+      "required": ""
+    },
+    {
+      "description": "BeyondTrust PM Cloud API Documentation Activity Audits endpoint: GET /management-api/v3/ActivityAudits/Details",
+      "name": "This integration uses the BeyondTrust PM Cloud Management API v3. For more information, refer to:",
+      "required": ""
+    },
+    {
+      "description": "GET /management-api/v3/Events/FromStartDate Known Limitations",
+      "name": "Events endpoint:",
+      "required": ""
+    },
+    {
+      "description": "FromStartDate ) has a maximum record size of 1000 per request. The Activity Audits endpoint has a maximum page size of 200 records.",
+      "name": "The Events endpoint (",
+      "required": ""
+    },
+    {
+      "description": "Troubleshooting",
+      "name": "This integration is developed for blind deployment and will be tested in the customer's environment.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Authentication Issues",
+      "required": ""
+    },
+    {
+      "description": "Ensure the API account has the necessary permissions in PM Cloud. Check that the Server URL is in the correct format: https://[yourProductionSub-domainName]-services.pm.beyondtrustcloud.com",
+      "name": "Verify the Client ID and Client Secret are correct.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "No Events Fetched",
+      "required": ""
+    },
+    {
+      "description": "First fetch timestamp is set appropriately. Check that events exist in the specified time range.",
+      "name": "Verify the",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BeyondTrust Privilege Management Cloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/beyond-trust-privilege-management-cloud"
+}

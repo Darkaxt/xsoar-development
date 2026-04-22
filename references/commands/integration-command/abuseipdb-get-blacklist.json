@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!abuseipdb-report-ip ip=8.8.8.8 categories=\"18,22,23\"\nHuman Readable Output\n4. Get a list of the most reported IP addresses\nReturns a list of the most reported IP addresses\nBase Command\nabuseipdb-get-blacklist\nInput",
+    "!abuseipdb-report-ip ip=8.8.8.8 categories=\"18,22,23\"\nHuman Readable Output\n4. Get a list of the most reported IP addresses\nReturns a list of the most reported IP addresses\nBase Command\nabuseipdb-get-blacklist\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "abuseipdb-get-blacklist",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of IPs on block list",
+      "name": "AbuseIPDB.Blacklist",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AbuseIPDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/abuse-ipdb"
+}

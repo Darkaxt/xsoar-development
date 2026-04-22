@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!gvault-add-heldAccount matterID=\"6e067f34-7fac-4ab2-bd9f-eede4f32dd32\" holdID=\"41l9c2w2oqtmjc\"",
+  "examples": [
+    "!gvault-add-heldAccount matterID=\"6e067f34-7fac-4ab2-bd9f-eede4f32dd32\" holdID=\"41l9c2w2oqtmjc\"\naccountID=\"101966995162112532972\"\nContext Example\nHuman Readable Output\n8. Remove a Held Account from a hold\nRemoves a Held Account from a hold.\nBase Command\ngvault-remove-heldAccount",
+    "Command Example"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-remove-heldAccount",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

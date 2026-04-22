@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!get-remote-data id=1 lastUpdate=2000-01-1",
+  "examples": [
+    "!get-remote-data id=1 lastUpdate=2000-01-1\nHuman Readable Output\n#\nztap-get-alert-entries\n#\nGet the entries data from a remote incident.\nBase Command\n#",
+    "Command Example\n#\n!ztap-get-alert-entries id=1\nHuman Readable Output\n#\nExample comment.\nSent by User (test@test) via ZTAP\nEdit this page",
+    "!ztap-get-alert-entries id=1\nHuman Readable Output\n#\nExample comment.\nSent by User (test@test) via ZTAP\nEdit this page\nReport an Issue\nPrevious"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ZeroTrustAnalyticsPlatform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/zero-trust-analytics-platform"
+}

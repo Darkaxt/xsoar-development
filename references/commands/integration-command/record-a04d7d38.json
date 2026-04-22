@@ -1,0 +1,139 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Akamai Edgehostnames.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Akamai WAF SIEM \u00bb Configure Akamai WAF in Cortex",
+      "name": "\u00ab Aha",
+      "required": ""
+    },
+    {
+      "description": "akamai-check-group akamai-create-group akamai-create-enrollment",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "akamai-create-domain akamai-update-property akamai-get-change",
+      "name": "akamai-list-enrollments",
+      "required": ""
+    },
+    {
+      "description": "akamai-get-enrollment-by-cn akamai-list-groups akamai-get-group",
+      "name": "akamai-update-change",
+      "required": ""
+    },
+    {
+      "description": "akamai-create-client-list akamai-deprecate-client-list akamai-activate-client-list",
+      "name": "akamai-get-client-list",
+      "required": ""
+    },
+    {
+      "description": "akamai-remove-client-list-entry akamai-get-contract-group akamai-update-client-list",
+      "name": "akamai-add-client-list-entry",
+      "required": ""
+    },
+    {
+      "description": "akamai-update-client-list-entry akamai-get-domains akamai-get-domain",
+      "name": "akamai-deactivate-client-list",
+      "required": ""
+    },
+    {
+      "description": "akamai-clone-papi-property akamai-add-papi-property-hostname akamai-new-papi-edgehostname",
+      "name": "akamai-create-datacenter",
+      "required": ""
+    },
+    {
+      "description": "akamai-new-papi-cpcode akamai-patch-papi-property-rule-cpcode akamai-patch-papi-property-rule-origin",
+      "name": "akamai-get-cps-enrollmentid-by-cnname",
+      "required": ""
+    },
+    {
+      "description": "akamai-clone-security-policy akamai-new-match-target akamai-activate-appsec-config-version",
+      "name": "akamai-activate-papi-property",
+      "required": ""
+    },
+    {
+      "description": "akamai-get-appsec-config-latest-version akamai-get-security-policy-id-by-name akamai-clone-appsec-config-version",
+      "name": "akamai-get-appsec-config-activation-status",
+      "required": ""
+    },
+    {
+      "description": "akamai-get-papi-property-activation-status-command akamai-get-papi-edgehostname-creation-status-command akamai-acknowledge-warning-command",
+      "name": "akamai-patch-papi-property-rule-httpmethods",
+      "required": ""
+    },
+    {
+      "description": "akamai-get-production-deployment akamai-get-change-history akamai-patch-papi-property-rule-siteshield",
+      "name": "akamai-modify-appsec-config-selected-hosts",
+      "required": ""
+    },
+    {
+      "description": "akamai-new-or-renew-match-target akamai-patch-papi-property-rule-generic akamai-get-papi-property-rule",
+      "name": "akamai-update-appsec-config-version-notes",
+      "required": ""
+    },
+    {
+      "description": "akamai-get-papi-property-by-name akamai-list-papi-property-by-group akamai-get-papi-property-by-id",
+      "name": "akamai-acknowledge-pre-verification-warning",
+      "required": ""
+    },
+    {
+      "description": "akamai-list-papi-property-activations akamai-list-appsec-configuration-activation-history akamai-list-papi-property-by-hostname",
+      "name": "akamai-new-papi-property-version",
+      "required": ""
+    },
+    {
+      "description": "akamai-get-cps-enrollment-deployment akamai-list-cidr-blocks akamai-update-cps-enrollment",
+      "name": "akamai-list-siteshield-map",
+      "required": ""
+    },
+    {
+      "description": "akamai-get-cps-change-status akamai-list-cps-active-certificates akamai-cancel-cps-change",
+      "name": "akamai-update-cps-enrollment-schedule",
+      "required": ""
+    },
+    {
+      "description": "akamai-list-appsec-config akamai-list-dns-zones akamai-list-dns-zone-recordsets",
+      "name": "akamai-get-cps-enrollment-by-id",
+      "required": ""
+    },
+    {
+      "description": "akamai-list-idam-properties akamai-list-datastreams akamai-get-datastream",
+      "name": "akamai-new-datastream",
+      "required": ""
+    },
+    {
+      "description": "akamai-list-datastream-properties-bygroup akamai-delete-datastream akamai-patch-datastream",
+      "name": "akamai-list-datastream-groups",
+      "required": ""
+    },
+    {
+      "description": "akamai-get-client_lists akamai-list-edgehostname akamai-generic-api-call-command",
+      "name": "akamai-toggle-datastream",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Akamai WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/akamai-waf"
+}

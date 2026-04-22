@@ -1,0 +1,157 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "rule foobar { strings: $ = \"foobar\" condition: all of them }",
+  "examples": [
+    "Command Example\n#\n!vt-private-quota-limits-list\nContext Example\n#\n{\n\"VirusTotal\"\n:",
+    "!vt-private-quota-limits-list\nContext Example\n#\n{\n\"VirusTotal\"\n:\n{\n\"QuotaLimits\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "quota has been used. VirusTotal.QuotaLimits.cases_creation_monthly.user.allowed quota limit.",
+      "name": "VirusTotal.QuotaLimits.cases_creation_monthly.user.group.used",
+      "required": ""
+    },
+    {
+      "description": "group from which the quota is inherited. VirusTotal.QuotaLimits.intelligence_vtdiff_creation_monthly.group.group.used quota has been used.",
+      "name": "VirusTotal.QuotaLimits.intelligence_vtdiff_creation_monthly.group.inherited_from",
+      "required": ""
+    },
+    {
+      "description": "quota limit. VirusTotal.QuotaLimits.intelligence_vtdiff_creation_monthly.user.group.used quota has been used.",
+      "name": "VirusTotal.QuotaLimits.intelligence_vtdiff_creation_monthly.group.allowed",
+      "required": ""
+    },
+    {
+      "description": "quota limit. VirusTotal.QuotaLimits.monitor_uploaded_files.user.group.used quota has been used.",
+      "name": "VirusTotal.QuotaLimits.intelligence_vtdiff_creation_monthly.user.allowed",
+      "required": ""
+    },
+    {
+      "description": "quota limit. VirusTotal.QuotaLimits.monitor_uploaded_bytes.user.group.used quota has been used.",
+      "name": "VirusTotal.QuotaLimits.monitor_uploaded_files.user.allowed",
+      "required": ""
+    },
+    {
+      "description": "quota limit. VirusTotal.QuotaLimits.monitor_storage_files.user.group.used quota has been used.",
+      "name": "VirusTotal.QuotaLimits.monitor_uploaded_bytes.user.allowed",
+      "required": ""
+    },
+    {
+      "description": "quota limit. VirusTotal.QuotaLimits.api_requests_monthly.group.inherited_from group from which the quota is inherited.",
+      "name": "VirusTotal.QuotaLimits.monitor_storage_files.user.allowed",
+      "required": ""
+    },
+    {
+      "description": "quota has been used. VirusTotal.QuotaLimits.api_requests_monthly.group.allowed quota limit.",
+      "name": "VirusTotal.QuotaLimits.api_requests_monthly.group.group.used",
+      "required": ""
+    },
+    {
+      "description": "quota has been used. VirusTotal.QuotaLimits.api_requests_monthly.user.allowed quota limit.",
+      "name": "VirusTotal.QuotaLimits.api_requests_monthly.user.group.used",
+      "required": ""
+    },
+    {
+      "description": "group from which the quota is inherited. VirusTotal.QuotaLimits.intelligence_downloads_monthly.group.group.used quota has been used.",
+      "name": "VirusTotal.QuotaLimits.intelligence_downloads_monthly.group.inherited_from",
+      "required": ""
+    },
+    {
+      "description": "quota limit. VirusTotal.QuotaLimits.intelligence_downloads_monthly.user.group.used quota has been used.",
+      "name": "VirusTotal.QuotaLimits.intelligence_downloads_monthly.group.allowed",
+      "required": ""
+    },
+    {
+      "description": "quota limit. VirusTotal.QuotaLimits.api_requests_hourly.group.inherited_from group from which the quota is inherited.",
+      "name": "VirusTotal.QuotaLimits.intelligence_downloads_monthly.user.allowed",
+      "required": ""
+    },
+    {
+      "description": "quota has been used. VirusTotal.QuotaLimits.api_requests_hourly.group.allowed hourly api requests group's quota limit",
+      "name": "VirusTotal.QuotaLimits.api_requests_hourly.group.group.used",
+      "required": ""
+    },
+    {
+      "description": "quota has been used. VirusTotal.QuotaLimits.api_requests_hourly.user.allowed Date",
+      "name": "VirusTotal.QuotaLimits.api_requests_hourly.user.group.used",
+      "required": ""
+    },
+    {
+      "description": "VirusTotal.QuotaLimits.intelligence_hunting_rules.group.inherited_from group from which the quota is inherited. VirusTotal.QuotaLimits.intelligence_hunting_rules.group.group.used",
+      "name": "hourly api requests user's quota limit",
+      "required": ""
+    },
+    {
+      "description": "quota has been used. VirusTotal.QuotaLimits.intelligence_hunting_rules.group.allowed intelligence_hunting_rules group's quota limit",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "quota has been used. VirusTotal.QuotaLimits.intelligence_hunting_rules.user.allowed intelligence_hunting_rules user's quota limit",
+      "name": "VirusTotal.QuotaLimits.intelligence_hunting_rules.user.group.used",
+      "required": ""
+    },
+    {
+      "description": "group from which the quota is inherited. VirusTotal.QuotaLimits.intelligence_graphs_private.group.group.used quota has been used.",
+      "name": "VirusTotal.QuotaLimits.intelligence_graphs_private.group.inherited_from",
+      "required": ""
+    },
+    {
+      "description": "quota limit. VirusTotal.QuotaLimits.intelligence_graphs_private.user.group.used quota has been used.",
+      "name": "VirusTotal.QuotaLimits.intelligence_graphs_private.group.allowed",
+      "required": ""
+    },
+    {
+      "description": "quota limit. VirusTotal.QuotaLimits.api_requests_daily.group.inherited_from group from which the quota is inherited.",
+      "name": "VirusTotal.QuotaLimits.intelligence_graphs_private.user.allowed",
+      "required": ""
+    },
+    {
+      "description": "quota has been used. VirusTotal.QuotaLimits.api_requests_daily.group.allowed quota limit.",
+      "name": "VirusTotal.QuotaLimits.api_requests_daily.group.group.used",
+      "required": ""
+    },
+    {
+      "description": "quota has been used. VirusTotal.QuotaLimits.api_requests_daily.user.allowed quota limit.",
+      "name": "VirusTotal.QuotaLimits.api_requests_daily.user.group.used",
+      "required": ""
+    },
+    {
+      "description": "quota has been used. VirusTotal.QuotaLimits.monitor_storage_bytes.user.allowed quota limit.",
+      "name": "VirusTotal.QuotaLimits.monitor_storage_bytes.user.group.used",
+      "required": ""
+    },
+    {
+      "description": "group from which the quota is inherited. VirusTotal.QuotaLimits.intelligence_retrohunt_jobs_monthly.group.group.used quota has been used.",
+      "name": "VirusTotal.QuotaLimits.intelligence_retrohunt_jobs_monthly.group.inherited_from",
+      "required": ""
+    },
+    {
+      "description": "quota limit. VirusTotal.QuotaLimits.intelligence_retrohunt_jobs_monthly.user.group.used quota has been used.",
+      "name": "VirusTotal.QuotaLimits.intelligence_retrohunt_jobs_monthly.group.allowed",
+      "required": ""
+    },
+    {
+      "description": "quota limit. VirusTotal.QuotaLimits.intelligence_searches_monthly.group.inherited_from group from which the quota is inherited.",
+      "name": "VirusTotal.QuotaLimits.intelligence_retrohunt_jobs_monthly.user.allowed",
+      "required": ""
+    },
+    {
+      "description": "quota has been used. VirusTotal.QuotaLimits.intelligence_searches_monthly.group.allowed quota limit.",
+      "name": "VirusTotal.QuotaLimits.intelligence_searches_monthly.group.group.used",
+      "required": ""
+    },
+    {
+      "description": "quota has been used. VirusTotal.QuotaLimits.intelligence_searches_monthly.user.allowed quota limit.",
+      "name": "VirusTotal.QuotaLimits.intelligence_searches_monthly.user.group.used",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VirusTotal - Premium (API v3)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/virus-total---premium-api-v3"
+}

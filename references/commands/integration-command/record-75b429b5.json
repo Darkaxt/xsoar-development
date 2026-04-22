@@ -1,0 +1,104 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "checkpointhec-download-large-email",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Download large email file.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "checkpointhec-download-large-email",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Check Point Harmony Endpoint \u00bb Configure Check Point Harmony Email and Collaboration (HEC) in Cortex",
+      "name": "\u00ab Check Point Firewall (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "checkpointhec-get-entity checkpointhec-get-email-info checkpointhec-get-scan-info",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "checkpointhec-send-action checkpointhec-get-action-result checkpointhec-send-notification",
+      "name": "checkpointhec-search-emails",
+      "required": ""
+    },
+    {
+      "description": "checkpointhec-get-ctp-list checkpointhec-delete-avurl-exceptions checkpointhec-delete-avdlp-exception",
+      "name": "checkpointhec-get-events",
+      "required": ""
+    },
+    {
+      "description": "checkpointhec-update-cp2-exception checkpointhec-create-avdlp-exception checkpointhec-delete-ctp-list-items",
+      "name": "checkpointhec-get-anomaly-exceptions",
+      "required": ""
+    },
+    {
+      "description": "checkpointhec-get-ap-exceptions checkpointhec-create-avurl-exception checkpointhec-get-avdlp-exceptions",
+      "name": "checkpointhec-update-avdlp-exception",
+      "required": ""
+    },
+    {
+      "description": "checkpointhec-create-anomaly-exception checkpointhec-delete-cp2-exception checkpointhec-delete-anomaly-exceptions",
+      "name": "checkpointhec-delete-ctp-lists",
+      "required": ""
+    },
+    {
+      "description": "checkpointhec-get-avdlp-exception checkpointhec-delete-ctp-list-item checkpointhec-get-ctp-list-item",
+      "name": "checkpointhec-report-mis-classification",
+      "required": ""
+    },
+    {
+      "description": "checkpointhec-create-ctp-list-item checkpointhec-delete-ap-exception checkpointhec-delete-avurl-exception",
+      "name": "checkpointhec-update-avurl-exception",
+      "required": ""
+    },
+    {
+      "description": "checkpointhec-update-ap-exception checkpointhec-create-cp2-exception checkpointhec-delete-cp2-exceptions",
+      "name": "checkpointhec-get-cp2-exception",
+      "required": ""
+    },
+    {
+      "description": "checkpointhec-update-ctp-list-item checkpointhec-create-ap-exception checkpointhec-get-avurl-exceptions",
+      "name": "checkpointhec-get-ctp-lists",
+      "required": ""
+    },
+    {
+      "description": "checkpointhec-get-cp2-exceptions checkpointhec-get-avurl-exception checkpointhec-delete-avdlp-exceptions",
+      "name": "checkpointhec-get-ctp-list-items",
+      "required": ""
+    },
+    {
+      "description": "checkpointhec-download-large-email Docs Developer Docs",
+      "name": "checkpointhec-download-email",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Check Point Harmony Email and Collaboration (HEC)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/check-point-hec"
+}

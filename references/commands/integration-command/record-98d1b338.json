@@ -1,0 +1,194 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2025-08-19T09:29:31.827Z",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique identifier for the alert. GoogleThreatIntelligenceDTMAlerts.Alerts.monitor_id Identifier of the monitoring source that generated the alert.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.id",
+      "required": ""
+    },
+    {
+      "description": "Unique document ID associated with the alert. GoogleThreatIntelligenceDTMAlerts.Alerts.doc.__type Type of document associated with the alert.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.doc.__id",
+      "required": ""
+    },
+    {
+      "description": "Full content or message body of the alert. GoogleThreatIntelligenceDTMAlerts.Alerts.doc.channel.channel_id ID of the channel where the alert was observed.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.doc.body",
+      "required": ""
+    },
+    {
+      "description": "Description of the channel where the alert was detected. GoogleThreatIntelligenceDTMAlerts.Alerts.doc.channel.channel_url URL of the detected channel.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.doc.channel.channel_info.description",
+      "required": ""
+    },
+    {
+      "description": "Invite link of the detected channel, if available. GoogleThreatIntelligenceDTMAlerts.Alerts.doc.channel.messenger.id Identifier of the messenger platform linked to the alert.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.doc.channel.invite_url",
+      "required": ""
+    },
+    {
+      "description": "Name of the messenger platform. GoogleThreatIntelligenceDTMAlerts.Alerts.doc.channel.name Name of the channel where the content was found.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.doc.channel.messenger.name",
+      "required": ""
+    },
+    {
+      "description": "Date Date and time when the document was ingested into the system. GoogleThreatIntelligenceDTMAlerts.Alerts.doc.message_id",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.doc.ingested",
+      "required": ""
+    },
+    {
+      "description": "Identifier of the specific message triggering the alert. GoogleThreatIntelligenceDTMAlerts.Alerts.doc.messenger.id Messenger platform ID associated with the message.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Name of the messenger platform associated with the message. GoogleThreatIntelligenceDTMAlerts.Alerts.doc.sender.avatar_file.hashes.sha256 SHA-256 hash of the sender's avatar file.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.doc.messenger.name",
+      "required": ""
+    },
+    {
+      "description": "MIME type of the sender's avatar file. GoogleThreatIntelligenceDTMAlerts.Alerts.doc.sender.identity.first_name First name of the sender.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.doc.sender.avatar_file.mime_type",
+      "required": ""
+    },
+    {
+      "description": "Last name of the sender. GoogleThreatIntelligenceDTMAlerts.Alerts.doc.sender.identity.name Full name of the sender.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.doc.sender.identity.last_name",
+      "required": ""
+    },
+    {
+      "description": "Telegram username of the sender. GoogleThreatIntelligenceDTMAlerts.Alerts.doc.sender.telegram.user_id Telegram user ID of the sender.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.doc.sender.telegram.name",
+      "required": ""
+    },
+    {
+      "description": "Source of the document or content triggering the alert. GoogleThreatIntelligenceDTMAlerts.Alerts.doc.timestamp Date",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.doc.source",
+      "required": ""
+    },
+    {
+      "description": "GoogleThreatIntelligenceDTMAlerts.Alerts.labels.id Unique identifier of the label assigned to the alert. GoogleThreatIntelligenceDTMAlerts.Alerts.labels.classifier",
+      "name": "Timestamp when the message or document was created.",
+      "required": ""
+    },
+    {
+      "description": "Classifier name used for label assignment. GoogleThreatIntelligenceDTMAlerts.Alerts.labels.version Version of the classifier or labeling process.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Name of the label assigned to the alert. GoogleThreatIntelligenceDTMAlerts.Alerts.labels.confidence Confidence score of the assigned label.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.labels.label",
+      "required": ""
+    },
+    {
+      "description": "Path of the element where the label was applied. GoogleThreatIntelligenceDTMAlerts.Alerts.topics.id Unique identifier of the extracted topic.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.labels.element_path",
+      "required": ""
+    },
+    {
+      "description": "Type of the extracted topic. GoogleThreatIntelligenceDTMAlerts.Alerts.topics.value Value of the extracted topic.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.topics.type",
+      "required": ""
+    },
+    {
+      "description": "Name of the topic extraction tool. GoogleThreatIntelligenceDTMAlerts.Alerts.topics.extractor_version Version of the topic extractor used.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.topics.extractor",
+      "required": ""
+    },
+    {
+      "description": "Path of the element where the entity was detected. GoogleThreatIntelligenceDTMAlerts.Alerts.topics.entity_locations.offsets Character offsets of the detected entity in the document.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.topics.entity_locations.element_path",
+      "required": ""
+    },
+    {
+      "description": "Identifier of the matched topic. GoogleThreatIntelligenceDTMAlerts.Alerts.topic_matches.value Matched value for the topic.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.topic_matches.topic_id",
+      "required": ""
+    },
+    {
+      "description": "List List of labels matched for the alert. GoogleThreatIntelligenceDTMAlerts.Alerts.doc_matches.match_path",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.label_matches",
+      "required": ""
+    },
+    {
+      "description": "Path within the document where a match occurred. GoogleThreatIntelligenceDTMAlerts.Alerts.doc_matches.locations.offsets Offset positions of the document match.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Value of the matched document content. GoogleThreatIntelligenceDTMAlerts.Alerts.tags List",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.doc_matches.locations.value",
+      "required": ""
+    },
+    {
+      "description": "GoogleThreatIntelligenceDTMAlerts.Alerts.created_at Date Date and time when the alert was created.",
+      "name": "Tags associated with the alert.",
+      "required": ""
+    },
+    {
+      "description": "Date Date and time when the alert was last updated. GoogleThreatIntelligenceDTMAlerts.Alerts.labels_url",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.updated_at",
+      "required": ""
+    },
+    {
+      "description": "URL to fetch labels associated with the alert. GoogleThreatIntelligenceDTMAlerts.Alerts.topics_url URL to fetch topics associated with the alert.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "URL of the original document related to the alert. GoogleThreatIntelligenceDTMAlerts.Alerts.status Current status of the alert (e.g., open, closed, triaged).",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.doc_url",
+      "required": ""
+    },
+    {
+      "description": "Type or category of the alert. GoogleThreatIntelligenceDTMAlerts.Alerts.alert_summary Summary of the alert.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.alert_type",
+      "required": ""
+    },
+    {
+      "description": "Title of the alert. GoogleThreatIntelligenceDTMAlerts.Alerts.email_sent_at Timestamp when the alert email was sent.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.title",
+      "required": ""
+    },
+    {
+      "description": "Malicious score of the indicator related to the alert. GoogleThreatIntelligenceDTMAlerts.Alerts.severity Severity level of the alert (e.g., low, medium, high).",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.indicator_mscore",
+      "required": ""
+    },
+    {
+      "description": "Confidence score of the alert detection. GoogleThreatIntelligenceDTMAlerts.Alerts.aggregated_under_id ID under which the alert has been aggregated.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.confidence",
+      "required": ""
+    },
+    {
+      "description": "Indicates whether the alert has an associated analysis. GoogleThreatIntelligenceDTMAlerts.Alerts.ai_doc_summary AI-generated summary of the document related to the alert.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.has_analysis",
+      "required": ""
+    },
+    {
+      "description": "Similarity score between this alert and related alerts. GoogleThreatIntelligenceDTMAlerts.Alerts.severity_reasoning.rule Rule used to determine the severity of the alert.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.similarity_score",
+      "required": ""
+    },
+    {
+      "description": "Version of the confidence reasoning model. GoogleThreatIntelligenceDTMAlerts.Alerts.confidence_reasoning.response_count Number of responses contributing to confidence reasoning.",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.confidence_reasoning.version",
+      "required": ""
+    },
+    {
+      "description": "Number of malicious detections contributing to confidence. GoogleThreatIntelligenceDTMAlerts.Alerts.confidence_reasoning.benign_count",
+      "name": "GoogleThreatIntelligenceDTMAlerts.Alerts.confidence_reasoning.malicious_count",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Threat Intelligence - DTM Alerts",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-threat-intelligence-dtm-alerts"
+}

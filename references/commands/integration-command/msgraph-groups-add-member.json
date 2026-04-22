@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "name@demistodev.onmicrosoft.com",
+  "examples": [
+    "Command Example\n!msgraph-groups-add-member group_id=\"id\" user_id=\"id\"",
+    "!msgraph-groups-add-member group_id=\"id\" user_id=\"id\""
+  ],
+  "kind": "integration-command",
+  "name": "msgraph-groups-add-member",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Entra ID Groups",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-groups"
+}

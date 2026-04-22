@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "61099dc46b544e38fa3ce89a",
+  "examples": [
+    "Command Example\n#\n!saas-security-remediation-status-get asset_id=61099dc46b544e38fa3ce89a remediation_type=Quarantine\nContext Example\n#\n{\n\"SaasSecurity\"\n:",
+    "!saas-security-remediation-status-get asset_id=61099dc46b544e38fa3ce89a remediation_type=Quarantine\nContext Example\n#\n{\n\"SaasSecurity\"\n:\n{\n\"Remediation\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The asset ID. SaasSecurity.Remediation.asset_name The asset name.",
+      "name": "SaasSecurity.Remediation.asset_id",
+      "required": ""
+    },
+    {
+      "description": "The remediation type. SaasSecurity.Remediation.action_taker The source of the remediation action. For example, 'api'.",
+      "name": "SaasSecurity.Remediation.remediation_type",
+      "required": ""
+    },
+    {
+      "description": "Date The date when the remediation action was taken. SaasSecurity.Remediation.status",
+      "name": "SaasSecurity.Remediation.action_date",
+      "required": ""
+    },
+    {
+      "description": "The remediation action status.",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SaaS Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/saas-security"
+}

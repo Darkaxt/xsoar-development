@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!fileorbis-change-user-status user_id=\"69a0e65c-54d7-4210-9cc4-08c40d1a0b9d\" status=\"1\"\nContext Example\n#\n{\n\"FileOrbis\"\n:",
+    "!fileorbis-change-user-status user_id=\"69a0e65c-54d7-4210-9cc4-08c40d1a0b9d\" status=\"1\"\nContext Example\n#\n{\n\"FileOrbis\"\n:\n{\n\"UserStatus\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "User Id to change its status FileOrbis.UserStatus.Success True if operation completed successfully",
+      "name": "FileOrbis.UserStatus.UserID",
+      "required": ""
+    },
+    {
+      "description": "Result code of the operation FileOrbis.UserStatus.Message User friendly result message of the operation",
+      "name": "FileOrbis.UserStatus.Status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FileOrbis",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/file-orbis"
+}

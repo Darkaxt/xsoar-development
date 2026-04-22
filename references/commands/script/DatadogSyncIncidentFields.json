@@ -1,0 +1,52 @@
+{
+  "aliases": [
+    "datadog-sync-incident-fields"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "This script does not take any inputs. It operates on the current incident context and requires the incident to have a Datadog Security Signal ID in its custom fields.",
+      "required": ""
+    }
+  ],
+  "description": "DatadogSyncIncidentFields | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DatadogSyncIncidentFields",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Use Cases",
+      "name": "There are no context outputs for this script. The script updates the incident fields directly.",
+      "required": ""
+    },
+    {
+      "description": "Update incident owner based on Datadog signal assignee Automatically close XSOAR incidents when the corresponding Datadog security signal is archived Edit this page",
+      "name": "Synchronize incident fields with the latest Datadog security signal data",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab DamSensorDown Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Dependencies Commands Scripts",
+      "name": "DataDomainReputation \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Use Cases",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DatadogSyncIncidentFields",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/datadog-sync-incident-fields"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!openphish-status\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious",
+    "!openphish-status\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious\n\u00ab OpenCVE\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OpenPhish v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/open-phish-v2"
+}

@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "status.cloud.google.com",
+  "examples": [
+    "Command Example\n!vt-private-get-file-report resource=2d8bb37078ff9efd02d9361975c9e625ae56bd8a8a65d50fc568341bc88392ae allInfo=true longFormat=true\nContext Example\n{\n\"MD5\": \"fedeb68e5bc9a1627b32504da4d7475a\",\n\"Malicious\": {\n\"Detections\": 58,\n\"TotalEngines\": 68,",
+    "!vt-private-get-file-report resource=2d8bb37078ff9efd02d9361975c9e625ae56bd8a8a65d50fc568341bc88392ae allInfo=true longFormat=true\nContext Example\n{\n\"MD5\": \"fedeb68e5bc9a1627b32504da4d7475a\",\n\"Malicious\": {\n\"Detections\": 58,\n\"TotalEngines\": 68,\n\"Vendor\": \"VirusTotal\""
+  ],
+  "kind": "integration-command",
+  "name": "vt-private-get-file-report",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File's MD5 File.SHA1 File's SHA1",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "File's SHA256 File.Malicious.Vendor For malicious files, the vendor that made the decision",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "For malicious files. Total detections. File.Malicious.TotalEngines For malicious files. Total engines",
+      "name": "File.Malicious.Detections",
+      "required": ""
+    },
+    {
+      "description": "The indicator we tested DBotScore.Type The type of the indicator",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Scan vendor for this hash File.VirusTotal.Scans.Detected Scan detection for this hash (True,False)",
+      "name": "File.VirusTotal.Scans.Source",
+      "required": ""
+    },
+    {
+      "description": "Scan result for this hash - signature, etc.",
+      "name": "File.VirusTotal.Scans.Result",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VirusTotal - Private API (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/virus-total---private-api"
+}

@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The status of the event.",
+  "examples": [
+    "Command Example\n!tc-get-events\n25. Return all groups\nReturns all groups, filtered by the group type.\nBase Command\ntc-get-groups\nInput\nArgument Name",
+    "!tc-get-events\n25. Return all groups\nReturns all groups, filtered by the group type.\nBase Command\ntc-get-groups\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "tc-get-groups",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date The date on which the group was added. TC.Group.EventDate",
+      "name": "TC.Group.DateAdded",
+      "required": ""
+    },
+    {
+      "description": "The date on which the event occurred. TC.Group.Name The name of the group.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The name of the owner of the group. TC.Group.Status The status of the group.",
+      "name": "TC.Group.OwnerName",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "TC.Group.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

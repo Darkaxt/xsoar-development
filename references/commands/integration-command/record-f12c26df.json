@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "7855068e0cfb093ab9be9ec172676e3c119e16511f3d631d715a4e77ddad9d89",
+  "examples": [
+    "!urlhaus-download-sample file=254ca6a7a7ef7f17d9884c4a86f88b5d5fd8fe5341c0996eaaf1d4bcb3b2337b\nHuman Readable Output\n#\n{\n\"HumanReadable\": \"No results for SHA256: 254ca6a7a7ef7f17d9884c4a86f88b5d5fd8fe5341c0996eaaf1d4bcb3b2337b\",\n\"HumanReadableFormat\": \"markdown\",\n\"Type\": 1\n}"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File size. File.SHA1 SHA1 hash of the file.",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "SHA256 hash of the file. File.Name File name.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "SSDeep hash of the file. File.EntryID File entry ID.",
+      "name": "File.SSDeep",
+      "required": ""
+    },
+    {
+      "description": "File information. File.Type File type.",
+      "name": "File.Info",
+      "required": ""
+    },
+    {
+      "description": "MD5 hash of the file. File.Extension File extension.",
+      "name": "File.MD5",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "URLhaus",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ur-lhaus"
+}

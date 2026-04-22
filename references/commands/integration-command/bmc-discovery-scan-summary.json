@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "BmcDiscovery.Scan.Create.uuid",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "bmc-discovery-scan-summary",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Number of successfully scanned entities BmcDiscovery.Scan.Summary.Skipped Number of skipped entities",
+      "name": "BmcDiscovery.Scan.Summary.Success",
+      "required": ""
+    },
+    {
+      "description": "Number of entities with no access BmcDiscovery.Scan.Summary.NoResponse Number of entities with no response",
+      "name": "BmcDiscovery.Scan.Summary.NoAccess",
+      "required": ""
+    },
+    {
+      "description": "Number of entities in error",
+      "name": "BmcDiscovery.Scan.Summary.Error",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BMC Discovery",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bmc-discovery"
+}

@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!redcanary-acknowledge-detection id=4\nHuman Readable Output\n2. Update the remediation state of a detection\nUpdates the remediation state of a detection.\nBase Command\nredcanary-update-remediation-state\nInput",
+    "!redcanary-acknowledge-detection id=4\nHuman Readable Output\n2. Update the remediation state of a detection\nUpdates the remediation state of a detection.\nBase Command\nredcanary-update-remediation-state\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "redcanary-update-remediation-state",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Red Canary",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/red-canary"
+}

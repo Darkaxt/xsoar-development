@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!esm-unacknowledge-alarms alarmIds=\"1,8,7\"",
+  "examples": [
+    "Command Example\n!esm-unacknowledge-alarms alarmIds=\"1,8,7\"\nHuman Readable Output\nAlarms has been Unacknowledged.\n17. Delete triggered alarms\nDeletes triggered alarms.\nBase Command\nesm-delete-alarms",
+    "!esm-unacknowledge-alarms alarmIds=\"1,8,7\"\nHuman Readable Output\nAlarms has been Unacknowledged.\n17. Delete triggered alarms\nDeletes triggered alarms.\nBase Command\nesm-delete-alarms\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "esm-delete-alarms",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v10 and v11 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v10"
+}

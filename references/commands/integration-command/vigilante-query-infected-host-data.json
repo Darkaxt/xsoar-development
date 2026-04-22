@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Add account details to a watchlist: vigilante-watchlist-add-accounts",
+  "examples": [
+    "Command Example\n!vigilante-query-infected-host-data days_ago=\"10\" limit=\"4\"\nContext Example\n{\n\"VigilanteATI\": {\n\"InfectedHost\": [\n{\n\"c&c\": \"184.105.192.2\",",
+    "!vigilante-query-infected-host-data days_ago=\"10\" limit=\"4\"\nContext Example\n{\n\"VigilanteATI\": {\n\"InfectedHost\": [\n{\n\"c&c\": \"184.105.192.2\",\n\"country\": \"Asia\","
+  ],
+  "kind": "integration-command",
+  "name": "vigilante-query-infected-host-data",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alphanumeric version of the IPv4 address belonging to this infected host. VigilanteATI.InfectedHosts.port Port number used by the infected host.",
+      "name": "VigilanteATI.InfectedHosts.ip",
+      "required": ""
+    },
+    {
+      "description": "Domain name associated with the infected host. (e.g sample.com) VigilanteATI.InfectedHosts.country Country code representing the country the host is located in. (e.g US)",
+      "name": "VigilanteATI.InfectedHosts.domain",
+      "required": ""
+    },
+    {
+      "description": "Name of the malware family we believe has infected the host. (e.g c_zeroaccess) VigilanteATI.InfectedHosts.c_and_c IP address of the C&C the infected host was seen communicating with.",
+      "name": "VigilanteATI.InfectedHosts.malware",
+      "required": ""
+    },
+    {
+      "description": "date Timestamp of when we last saw this infected host and imported it into our database. (e.g 2015-10-10 12:01:01) VigilanteATI.GetInfectedHostsToken",
+      "name": "VigilanteATI.InfectedHosts.timestamp",
+      "required": ""
+    },
+    {
+      "description": "Token required to paginate the next set of results in. This is only provided if host number of items in the response exceeds our max pagination size. Otherwise it is set to an empty string. If empty, it means there is no next page VigilanteATI.InfectedHosts Container for infected host objects. This is basically a list of dictionaries (hosts).",
+      "name": "string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "InfoArmor VigilanteATI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/info-armor-vigilante-ati"
+}

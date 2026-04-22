@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The IPs '0.0.0.0' were successfully banned",
+  "examples": [
+    "!fortigate-unban-ip ip_address=0.0.0.0\nHuman Readable Output\n#\nThe IPs '0.0.0.0' were successfully unbanned\n#\nEdit this page\nReport an Issue\nPrevious"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FortiGate",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forti-gate"
+}

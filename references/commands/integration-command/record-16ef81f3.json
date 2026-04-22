@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!digital-guardian-get-events limit=2 should_push_events=false\nContext Output\n#\nThere is no context output for this command.\nHuman Readable Output\n#",
+    "!digital-guardian-get-events limit=2 should_push_events=false\nContext Output\n#\nThere is no context output for this command.\nHuman Readable Output\n#\nEvents for Profile defaultExportProfile\n#"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Digital Guardian ARC Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/digital-guardian-arc-event-collector"
+}

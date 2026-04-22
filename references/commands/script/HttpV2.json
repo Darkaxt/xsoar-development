@@ -1,0 +1,388 @@
+{
+  "aliases": [
+    "http-v2"
+  ],
+  "arguments": [],
+  "description": "HttpV2 | Cortex XSOAR",
+  "examples": [
+    "!HttpV2 method=GET url=\"https://test.jamfcloud.com/JSSResource/computers/id/1/subset/General\" response_content_type=json request_content_type=json auth_credentials=myUser,myPass parse_response_as=json\nContext Example\n#\n{\n\"HttpRequest\"\n:\n{\n\"Response\""
+  ],
+  "kind": "script",
+  "name": "HttpV2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The number that indicates the status of the request. HttpRequest.Response.StatusText The text corresponding to the status code",
+      "name": "HttpRequest.Response.StatusCode",
+      "required": ""
+    },
+    {
+      "description": "HttpRequest.Response.URL The URL of the response HttpRequest.Response.ParsedBody",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "HttpRequest.Response.Headers The response headers. HttpRequest.Response.Body",
+      "name": "The parsed response, according to `parse_response_as` argument.",
+      "required": ""
+    },
+    {
+      "description": "Script Examples",
+      "name": "The response data.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!HttpV2 method=GET url=\"https://test.jamfcloud.com/JSSResource/computers/id/1/subset/General\" response_content_type=json request_content_type=json auth_credentials=myUser,myPass parse_response_as=json",
+      "required": ""
+    },
+    {
+      "description": "\"HttpRequest\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"Body\"",
+      "name": "\"Response\"",
+      "required": ""
+    },
+    {
+      "description": "\"{\\\"computer\\\":{\\\"general\\\":{\\\"id\\\":1,\\\"name\\\":\\\"Computer 1\\\",\\\"network_adapter_type\\\":\\\"\\\",\\\"mac_address\\\":\\\"11:5B:35:CA:12:12\\\",\\\"alt_network_adapter_type\\\":\\\"\\\",\\\"alt_mac_address\\\":\\\"A1:34:95:EC:97:C1\\\",\\\"ip_address\\\":\\\"123.243.192.11\\\",\\\"last_reported_ip\\\":\\\"192.168.1.11\\\",\\\"serial_number\\\":\\\"AA40F81C60A3\\\",\\\"udid\\\":\\\"AA40F812-60A3-11E4-90B8-12DF261F2C7E\\\",\\\"jamf_version\\\":\\\"9.6.29507.c\\\",\\\"platform\\\":\\\"Mac\\\",\\\"barcode_1\\\":\\\"\\\",\\\"barcode_2\\\":\\\"\\\",\\\"asset_tag\\\":\\\"\\\",\\\"remote_management\\\":{\\\"m",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "{ \"Accept-Ranges\" :",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ", \"Cache-Control\" :",
+      "name": "\"bytes\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Connection\" :",
+      "name": "\"no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Content-Encoding\" :",
+      "name": "\"keep-alive\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Content-Length\" :",
+      "name": "\"gzip\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Content-Type\" :",
+      "name": "\"641\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Date\" :",
+      "name": "\"text/plain;charset=UTF-8\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Server\" :",
+      "name": "\"Wed, 19 Jan 2022 12:12:16 GMT\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Set-Cookie\" :",
+      "name": "\"Jamf Cloud Node\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Strict-Transport-Security\" :",
+      "name": "\"AASALB=rbRVEXaRgAKa6+YhXAr2E4JbbP5PSS3eZpm9G1AeWQBNVG/vQ3SOmsNV4tYA5N0v7sEUQd+QYMkuUTOmF/7USLyVnQVz/yW7wQh4dWrbGOY/gAU7rL30IvQwfdut; Expires=Wed, 26 Jan 2022 12:12:16 GMT; Path=/, AWSALBCORS=rbRVEXaRgAKa6+YhXAr2E4JbbP5PSS3eZpm9G1AeWQBNVG/vQ3SOmsNV4tYA5N0v7sEUQd+QYMkuUTOmF/7USLyVnQVz/yW7wQh4dWrbGOY/gAU7rL30IvQwfdut; Expires=Wed, 26 Jan 2022 12:12:16 GMT; Path=/; SameSite=None; Secure, APBALANCEID=aws.usw2-std-ellison2-tc-4; path=/;HttpOnly;Secure;\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Vary\" :",
+      "name": "\"max-age=31536000; includeSubdomains;, max-age=31536000 ; includeSubDomains\"",
+      "required": ""
+    },
+    {
+      "description": ", \"X-FRAME-OPTIONS\" :",
+      "name": "\"Accept-Charset,Accept-Encoding,Accept-Language,Accept\"",
+      "required": ""
+    },
+    {
+      "description": ", \"X-XSS-Protection\" :",
+      "name": "\"DENY\"",
+      "required": ""
+    },
+    {
+      "description": "} , \"ParsedBody\"",
+      "name": "\"1; mode=block\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"computer\" :",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"general\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": \"A1:34:95:EC:97:C1\" ,",
+      "name": "\"alt_mac_address\"",
+      "required": ""
+    },
+    {
+      "description": ": \"\" ,",
+      "name": "\"alt_network_adapter_type\"",
+      "required": ""
+    },
+    {
+      "description": ": \"\" ,",
+      "name": "\"asset_tag\"",
+      "required": ""
+    },
+    {
+      "description": ": \"\" ,",
+      "name": "\"barcode_1\"",
+      "required": ""
+    },
+    {
+      "description": ": \"\" ,",
+      "name": "\"barcode_2\"",
+      "required": ""
+    },
+    {
+      "description": ": \"\" ,",
+      "name": "\"distribution_point\"",
+      "required": ""
+    },
+    {
+      "description": ": 1 ,",
+      "name": "\"id\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2021-03-29\" ,",
+      "name": "\"initial_entry_date\"",
+      "required": ""
+    },
+    {
+      "description": ": 1617021852322 ,",
+      "name": "\"initial_entry_date_epoch\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2021-03-29T12:44:12.322+0000\" ,",
+      "name": "\"initial_entry_date_utc\"",
+      "required": ""
+    },
+    {
+      "description": ": \"200.200.200.200\" ,",
+      "name": "\"ip_address\"",
+      "required": ""
+    },
+    {
+      "description": ": false ,",
+      "name": "\"itunes_store_account_is_active\"",
+      "required": ""
+    },
+    {
+      "description": ": \"9.6.29507.c\" ,",
+      "name": "\"jamf_version\"",
+      "required": ""
+    },
+    {
+      "description": ": 0 ,",
+      "name": "\"last_cloud_backup_date_epoch\"",
+      "required": ""
+    },
+    {
+      "description": ": \"\" ,",
+      "name": "\"last_cloud_backup_date_utc\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2014-10-24 10:26:55\" ,",
+      "name": "\"last_contact_time\"",
+      "required": ""
+    },
+    {
+      "description": ": 1414146415335 ,",
+      "name": "\"last_contact_time_epoch\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2014-10-24T10:26:55.335+0000\" ,",
+      "name": "\"last_contact_time_utc\"",
+      "required": ""
+    },
+    {
+      "description": ": 1414146339607 ,",
+      "name": "\"last_enrolled_date_epoch\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2014-10-24T10:25:39.607+0000\" ,",
+      "name": "\"last_enrolled_date_utc\"",
+      "required": ""
+    },
+    {
+      "description": ": \"192.168.1.10\" ,",
+      "name": "\"last_reported_ip\"",
+      "required": ""
+    },
+    {
+      "description": ": \"11:5B:35:CA:12:12\" ,",
+      "name": "\"mac_address\"",
+      "required": ""
+    },
+    {
+      "description": ": false ,",
+      "name": "\"mdm_capable\"",
+      "required": ""
+    },
+    {
+      "description": ": { }",
+      "name": "\"mdm_capable_users\"",
+      "required": ""
+    },
+    {
+      "description": "\"mdm_profile_expiration_epoch\" : 0",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"mdm_profile_expiration_utc\" : \"\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"name\" : \"Computer 1\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"network_adapter_type\" : \"\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"platform\" : \"Mac\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"remote_management\" : {",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ": false ,",
+      "name": "\"managed\"",
+      "required": ""
+    },
+    {
+      "description": ": \"abc0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\" ,",
+      "name": "\"management_password_sha256\"",
+      "required": ""
+    },
+    {
+      "description": ": \"\" }",
+      "name": "\"management_username\"",
+      "required": ""
+    },
+    {
+      "description": "\"report_date\" : \"2021-03-29 12:44:12\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"report_date_epoch\" : 1617021852595",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"report_date_utc\" : \"2021-03-29T12:44:12.595+0000\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"serial_number\" : \"AA40F81C60A3\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"site\" : {",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ": -1 ,",
+      "name": "\"id\"",
+      "required": ""
+    },
+    {
+      "description": ": \"None\" }",
+      "name": "\"name\"",
+      "required": ""
+    },
+    {
+      "description": "\"supervised\" : false",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"sus\" : \"\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"udid\" : \"AA40F812-60A3-11E4-90B8-12DF261F2C7E\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "} } ,",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": ": 200 ,",
+      "name": "\"StatusCode\"",
+      "required": ""
+    },
+    {
+      "description": ": \"\" ,",
+      "name": "\"StatusText\"",
+      "required": ""
+    },
+    {
+      "description": ": \"https://test.jamfcloud.com/JSSResource/computers/id/1/subset/General\" }",
+      "name": "\"URL\"",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HttpV2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/http-v2"
+}

@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "azure-sql-resource-group-list",
+  "examples": [
+    "Command Example\n#\nazure-sql-resource-group-list tag=\"Name:name\"\nContext Example\n#\n{\n\"AzureSQL\"\n:"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the resource group. AzureSQL.ResourceGroup.name The name of the resource group.",
+      "name": "AzureSQL.ResourceGroup.id",
+      "required": ""
+    },
+    {
+      "description": "The type of the resource group. AzureSQL.ResourceGroup.location The location of the resource group. It cannot be changed after the resource group has been created. It must be one of the supported Azure locations.",
+      "name": "AzureSQL.ResourceGroup.type",
+      "required": ""
+    },
+    {
+      "description": "The resource group properties. AzureSQL.ResourceGroup.tags The tags attached to the resource group.",
+      "name": "AzureSQL.ResourceGroup.properties",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure SQL Management",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-sql-management"
+}

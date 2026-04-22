@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "delinea-platform-get-user-search-by-text",
+  "examples": [
+    "Command Example\n#\n!delinea-platform-get-user-search-by-text filter.searchText=\"sail\"\nContext Example\n#\n{\n\"Delinea\"\n:",
+    "!delinea-platform-get-user-search-by-text filter.searchText=\"sail\"\nContext Example\n#\n{\n\"Delinea\"\n:\n{\n\"Platform\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "SearchText is looked for in multiple fields and returning results",
+      "name": "Delinea.Platform.UserSearchResults",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DelineaSS",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/delinea-ss"
+}

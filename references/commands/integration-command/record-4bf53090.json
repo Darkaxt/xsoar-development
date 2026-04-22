@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Create an API Key",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "https://auth.abuse.ch/ Once you've logged in to abuse.ch, add at least one more way to log in. This helps ensure you can always access abuse.ch platforms, even if one of your login methods stops working. Click the",
+      "name": "Sign up for an abuse.ch account by using an existing account that you may already have on X, LinkedIn, Google or Github. Just log in with the authentication provider of your choice here:",
+      "required": ""
+    },
+    {
+      "description": "button. In the",
+      "name": "Save profile",
+      "required": "Optional"
+    },
+    {
+      "description": "If you already have a profile, you only need to follow step 3. There\u2019s nothing further to do for your authentication set up. Edit this page Report an Issue",
+      "name": "section, you can now create an Auth-Key. This is your personal authentication key that you can use to query any abuse.ch APIs.",
+      "required": ""
+    },
+    {
+      "description": "\u00ab ThreatExchange v2 Next ThreatMiner \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands threatfox-get-indicators Docs",
+      "name": "Configure ThreatFox Feed in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatFox Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-fox-feed"
+}

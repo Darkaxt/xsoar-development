@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "cybereason-update-malop-investigation-status",
+  "examples": [
+    "!cybereason-update-malop-investigation-status malopGuid=<malop_guid> investigationStatus=\"Under Investigation\"\nContext Example\n#\n{\n\"Cybereason\"\n:\n{\n\"Malops\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Malop GUID. Cybereason.Malops.InvestigationStatus Malop investigation status: Pending, Reopened, Under Investigation, On Hold, Closed.",
+      "name": "Cybereason.Malops.GUID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cybereason",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cybereason"
+}

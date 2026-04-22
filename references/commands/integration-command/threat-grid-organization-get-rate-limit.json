@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!threat-grid-url-to-file urls=www.google.com\nHuman Readable Output\n20. Get rate limits for an organization\nGet rate limits applied to an organization. ThreatGrid employs a simple rate limiting method for sample submissions by specifying the number of samples which can be submitted within some variable time period by an entire organization and/or per a license basis. Multiple rate limits can be employed to form overlapping submission limits. For example, 20 submissions per hour AND 400 per day.\nBase Command\nthreat-grid-organization-get-rate-limit\nInput",
+    "!threat-grid-url-to-file urls=www.google.com\nHuman Readable Output\n20. Get rate limits for an organization\nGet rate limits applied to an organization. ThreatGrid employs a simple rate limiting method for sample submissions by specifying the number of samples which can be submitted within some variable time period by an entire organization and/or per a license basis. Multiple rate limits can be employed to form overlapping submission limits. For example, 20 submissions per hour AND 400 per day.\nBase Command\nthreat-grid-organization-get-rate-limit\nInput\nArgument Name",
+    "Command Example\n!threat-grid-organization-get-rate-limit adminLogin=\"admin\"\nContext Example\n{\n\"ThreatGrid\": {\n\"User\": {\n\"RateLimit\": [\n{",
+    "!threat-grid-organization-get-rate-limit adminLogin=\"admin\"\nContext Example\n{\n\"ThreatGrid\": {\n\"User\": {\n\"RateLimit\": [\n{\n\"SubmissionsAvailable\": 47,"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-organization-get-rate-limit",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Array of array(s) representing submission(s) per minute(s) or the string\"nil\" to clear the value. Example: [[5, 1440]], which represents 5 samples per day. This field represent the minutes. ThreatGrid.User.RateLimit.Samples Array of array(s) representing submission(s) per minute(s) or the string\"nil\" to clear the value. Example: [[5, 1440]], which represents 5 samples per day. This field represent the number of samples allowed.",
+      "name": "ThreatGrid.User.RateLimit.Minutes",
+      "required": ""
+    },
+    {
+      "description": "The number of seconds to wait for a submission to be uploaded on the platform ThreatGrid.User.RateLimit.SubmissionsAvailable The number of submissions available for the entire organization",
+      "name": "ThreatGrid.User.RateLimit.SubmissionWaitSeconds",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

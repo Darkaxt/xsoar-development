@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "49a3a20b-ec4b-4581-9a55-56716d9e0c6e",
+  "examples": [
+    "Command Example\n#\n!url url=test.com\nContext Example\n#\n{\n\"CheckPhish\"\n:",
+    "!url url=test.com\nContext Example\n#\n{\n\"CheckPhish\"\n:\n{\n\"URL\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "URL that was submitted. CheckPhish.URL.status CheckPhish job status of the URL.",
+      "name": "CheckPhish.URL.url",
+      "required": ""
+    },
+    {
+      "description": "CheckPhish jobID that was assigned to the URL when it was submitted. CheckPhish.URL.disposition The CheckPhish category (disposition) of the URL.",
+      "name": "CheckPhish.URL.jobID",
+      "required": ""
+    },
+    {
+      "description": "The brand (attack target) countered by the URL. DBotScore.Indicator The indicator that was tested.",
+      "name": "CheckPhish.URL.brand",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Reliability Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "URL that was submitted. URL.Malicious.Vendor CheckPhish.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "The brand (attack target) countered by the URL. DBotScore.Indicator The indicator that was tested.",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Reliability Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CheckPhish",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/check-phish"
+}

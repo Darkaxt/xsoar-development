@@ -1,0 +1,97 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!mobileiron-cloud-get-device-by-id device_id=1100646\nContext Example\n#\n{\n\"MobileIronCloud\"\n:",
+    "!mobileiron-cloud-get-device-by-id device_id=1100646\nContext Example\n#\n{\n\"MobileIronCloud\"\n:\n{\n\"Device\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the device that is fetched. MobileIronCloud.Device.guid GUID of the device that is fetched.",
+      "name": "MobileIronCloud.Device.id",
+      "required": ""
+    },
+    {
+      "description": "Model of the device that is fetched. MobileIronCloud.Device.deviceName Name of the device that is fetched.",
+      "name": "MobileIronCloud.Device.deviceModel",
+      "required": ""
+    },
+    {
+      "description": "Platform type of the device that is fetched. MobileIronCloud.Device.platformVersion Platform version of the device that is fetched.",
+      "name": "MobileIronCloud.Device.platformType",
+      "required": ""
+    },
+    {
+      "description": "Operating system build version of the device that is fetched. MobileIronCloud.Device.lastCheckin Date",
+      "name": "MobileIronCloud.Device.osBuildVersion",
+      "required": ""
+    },
+    {
+      "description": "MobileIronCloud.Device.registrationState Registration state of the device that is fetched. MobileIronCloud.Device.displayName",
+      "name": "Last check in time of the device that is fetched.",
+      "required": ""
+    },
+    {
+      "description": "Display name of the device that is fetched. MobileIronCloud.Device.firstName First name of the device that is fetched.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Last name of the device that is fetched. MobileIronCloud.Device.uid UID of the device that is fetched.",
+      "name": "MobileIronCloud.Device.lastName",
+      "required": ""
+    },
+    {
+      "description": "Email address of the device that is fetched. MobileIronCloud.Device.manufacturer Manufacturer of the device that is fetched.",
+      "name": "MobileIronCloud.Device.emailAddress",
+      "required": ""
+    },
+    {
+      "description": "International Mobile Equipment Identity (IMEI) of the device that is fetched. MobileIronCloud.Device.imei2 International Mobile Equipment Identity 2 (IME2) of the device that is fetched.",
+      "name": "MobileIronCloud.Device.imei",
+      "required": ""
+    },
+    {
+      "description": "International mobile subscriber identity (IMSI) of the device that is fetched. MobileIronCloud.Device.wifiMacAddress WiFi MAC address of the device that is fetched.",
+      "name": "MobileIronCloud.Device.imsi",
+      "required": ""
+    },
+    {
+      "description": "Serial number of the device that is fetched. MobileIronCloud.Device.altSerialNumber Alternative serial number of the device that is fetched.",
+      "name": "MobileIronCloud.Device.serialNumber",
+      "required": ""
+    },
+    {
+      "description": "Ownership type of the device that is fetched. MobileIronCloud.Device.complianceState Compliance state of the device that is fetched.",
+      "name": "MobileIronCloud.Device.ownershipType",
+      "required": ""
+    },
+    {
+      "description": "Roaming status of the device that is fetched. MobileIronCloud.Device.supervised Device Supervised",
+      "name": "MobileIronCloud.Device.roaming",
+      "required": ""
+    },
+    {
+      "description": "Device UDID of the device that is fetched. MobileIronCloud.Device.policyViolationCount Policy violation count of the device that is fetched.",
+      "name": "MobileIronCloud.Device.udid",
+      "required": ""
+    },
+    {
+      "description": "Date Last registration time of the device that is fetched. MobileIronCloud.Device.quarantined",
+      "name": "MobileIronCloud.Device.lastRegistrationTime",
+      "required": ""
+    },
+    {
+      "description": "Whether the device is quarantined. MobileIronCloud.Device.jailbroken Whether the device is jailbroken.",
+      "name": "Boolean",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MobileIronCLOUD",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mobile-iron-cloud"
+}

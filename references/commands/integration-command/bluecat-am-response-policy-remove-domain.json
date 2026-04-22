@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "bluecat-am-response-policy-add-domain policy_id=\"100930\" domain=\"demisto.com\"",
+  "examples": [
+    "Command Example\nbluecat-am-response-policy-add-domain policy_id=\"100930\" domain=\"demisto.com\"\nHuman Readable Output\nSuccessfully added demisto.com to response policy 100930\n5. Remove a domain from a response policy\nRemoves a domain from the given response policy.\nBase Command\nbluecat-am-response-policy-remove-domain"
+  ],
+  "kind": "integration-command",
+  "name": "bluecat-am-response-policy-remove-domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Bluecat Address Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bluecat-address-manager"
+}

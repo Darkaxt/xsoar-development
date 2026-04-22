@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "PhishTankV2 Database reloaded",
+  "examples": [
+    "Command Example\n#\n!phishtank-status\nHuman Readable Output\n#\nPhishTankV2 Database Status\nTotal **13181** URLs loaded\nLast Load time **Sun Oct 04 2020 09:43:01 (UTC)**",
+    "!phishtank-status\nHuman Readable Output\n#\nPhishTankV2 Database Status\nTotal **13181** URLs loaded\nLast Load time **Sun Oct 04 2020 09:43:01 (UTC)**\nEdit this page\nReport an Issue"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PhishTank v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/phish-tank-v2"
+}

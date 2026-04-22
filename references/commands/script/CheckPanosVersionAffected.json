@@ -1,0 +1,61 @@
+{
+  "aliases": [
+    "check-panos-version-affected"
+  ],
+  "arguments": [],
+  "description": "CheckPanosVersionAffected | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CheckPanosVersionAffected",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The type of advisory this is MatchingSecurityAdvisory.data_format The format of the advisory, such as MITRE",
+      "name": "MatchingSecurityAdvisory.data_type",
+      "required": ""
+    },
+    {
+      "description": "MatchingSecurityAdvisory.cve_id The ID of the CVE described by this advisory MatchingSecurityAdvisory.cve_date_public",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "MatchingSecurityAdvisory.cve_title The name of this CVE MatchingSecurityAdvisory.affects_vendor_name",
+      "name": "The date this CVE was released",
+      "required": ""
+    },
+    {
+      "description": "MatchingSecurityAdvisory.description Human readable description of Advisory MatchingSecurityAdvisory.affected_version_list",
+      "name": "The name of the product this affects, such as PAN-OS",
+      "required": ""
+    },
+    {
+      "description": "MatchingSecurityAdvisory.cvss_score CVSS Score of matched vulnerability MatchingSecurityAdvisory.cvss_severity",
+      "name": "List of PAN-OS affected versions exactly",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "CVSS Severity of matched vulnerability",
+      "required": ""
+    },
+    {
+      "description": "Next CheckPDFEncryptionAndValidity \u00bb Script Data",
+      "name": "\u00ab CheckLastEnrichment",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CheckPanosVersionAffected",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/check-panos-version-affected"
+}

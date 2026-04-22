@@ -1,0 +1,61 @@
+{
+  "aliases": [
+    "stix-creator"
+  ],
+  "arguments": [],
+  "description": "StixCreator | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "StixCreator",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The date/time that the indicator was created. date StixExportedIndicators.firstSeen",
+      "name": "StixExportedIndicators.created",
+      "required": ""
+    },
+    {
+      "description": "date StixExportedIndicators.source The source system for this indicator.",
+      "name": "The date/time that the indicator was first seen.",
+      "required": ""
+    },
+    {
+      "description": "StixExportedIndicators.type The STIX type (always exported as \"indicator\"). StixExportedIndicators.pattern",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "StixExportedIndicators.score The STIX impact score. Can be, \"High\", \"Medium\", \"None\", or \"Not Specified\". StixExportedIndicators.modified",
+      "name": "The type and value of indicators. For example, \"URL\", \"IPv4\", \"domain\", \"email\", and so on.",
+      "required": ""
+    },
+    {
+      "description": "date Edit this page Report an Issue",
+      "name": "The date/time that the indicator was last seen.",
+      "required": ""
+    },
+    {
+      "description": "\u00ab StaticAnalyze Next StixParser \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "StixCreator",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/stix-creator"
+}

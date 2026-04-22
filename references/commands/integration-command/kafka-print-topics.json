@@ -1,0 +1,30 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Print all partitions for a topic: kafka-print-topics",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "kafka-print-topics",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Topic name. Kafka.Topic.Partitions.ID Topic partition ID.",
+      "name": "Kafka.Topic.Name",
+      "required": ""
+    },
+    {
+      "description": "Topic partition earliest offset. Kafka.Topic.Partitions.LatestOffset Topic partition latest offset.",
+      "name": "Kafka.Topic.Partitions.EarliestOffset",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Kafka v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/kafka-v2"
+}

@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "3. Search response policies by domain",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "bluecat-am-search-response-policies-by-domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the response policy. BlueCat.AddressManager.ResponsePolicies.Name Name of the response policy.",
+      "name": "BlueCat.AddressManager.ResponsePolicies.ID",
+      "required": ""
+    },
+    {
+      "description": "Time to live (TTL) of the response policy BlueCat.AddressManager.ResponsePolicies.Type Type of the responce policy ( BLACKLIST, BLACKHOLE, WHITELIST, or REDIRECT).",
+      "name": "BlueCat.AddressManager.ResponsePolicies.Ttl",
+      "required": ""
+    },
+    {
+      "description": "Target of redirect, in case of REDIRECT policy type.",
+      "name": "BlueCat.AddressManager.ResponsePolicies.RedirectTarget",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Bluecat Address Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bluecat-address-manager"
+}

@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "gem-add-timeline-event",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Add a timeline event to a threat.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "gem-add-timeline-event",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Generic API Event Collector (Beta) \u00bb Configure Gem in Cortex",
+      "name": "\u00ab GCP-IAM",
+      "required": ""
+    },
+    {
+      "description": "gem-list-threats gem-get-threat-details gem-get-alert-details",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "gem-get-resource-details gem-list-ips-by-entity gem-list-services-by-entity",
+      "name": "gem-list-inventory-resources",
+      "required": ""
+    },
+    {
+      "description": "gem-list-accessing-entities gem-list-using-entities gem-list-events-on-entity",
+      "name": "gem-list-events-by-entity",
+      "required": ""
+    },
+    {
+      "description": "gem-update-threat-status gem-run-action gem-add-timeline-event",
+      "name": "gem-list-accessing-ips",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Gem",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/gem"
+}

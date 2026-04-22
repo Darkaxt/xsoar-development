@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get the results and status of a compliance search: exchange2016-get-compliance-search",
+  "examples": [
+    "Command Example\nexchange2016-start-compliance-search query=\"subject:\\\"Email to be searched and deleted\\\"\"\nContext Example\n{\n\"EWS\": {\n\"ComplianceSearch\": {\n\"Status\": \"Starting\",\n\"Name\": \"DemistoSearch939b54bcd2bb4848bb0885dc4071d366\""
+  ],
+  "kind": "integration-command",
+  "name": "exchange2016-start-compliance-search",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the compliance search EWS.ComplianceSearch.Status The status of the compliance search",
+      "name": "EWS.ComplianceSearch.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Exchange 2016 Compliance Search (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/exchange-2016-compliance-search"
+}

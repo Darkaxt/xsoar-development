@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Graph Groups Test - TEMP",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "msgraph-groups-delete-group",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique identifier for the group. MSGraphGroup.Deleted",
+      "name": "MSGraphGroups.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Entra ID Groups",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-groups"
+}

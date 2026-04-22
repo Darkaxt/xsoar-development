@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!azure-storage-queue-message-clear queue_name=\"xsoar-test\"\nHuman Readable Output\n#\nxsoar-test was cleared of messages successfully.\nEdit this page\nReport an Issue",
+    "!azure-storage-queue-message-clear queue_name=\"xsoar-test\"\nHuman Readable Output\n#\nxsoar-test was cleared of messages successfully.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Azure Storage Management"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Storage Queue",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-storage-queue"
+}

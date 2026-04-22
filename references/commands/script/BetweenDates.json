@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "between-dates"
+  ],
+  "arguments": [],
+  "description": "BetweenDates | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "BetweenDates",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the input hour is between the given hours. BetweenDates.value The value to check.",
+      "name": "BetweenDates.result",
+      "required": ""
+    },
+    {
+      "description": "BetweenDates.begin_date Lower date range. BetweenDates.end_date",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Upper date range.",
+      "required": ""
+    },
+    {
+      "description": "Next BetweenHours \u00bb Script Data",
+      "name": "\u00ab BeforeRelativeDate",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BetweenDates",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/between-dates"
+}

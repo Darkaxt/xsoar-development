@@ -1,0 +1,47 @@
+{
+  "aliases": [
+    "cvss-color"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "cvss_color | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "cvss_color",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next CVSSCalculator \u00bb CVECVSSColor",
+      "name": "\u00ab cveReputationV2",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "cvss_color",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cvss-color"
+}

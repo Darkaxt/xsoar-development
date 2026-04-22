@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!postmark-spamcheck entryid=\"654@731f1b54-bdea-4d4a-860f-328527df0cd7\"\nContext Example\n#\n{\n\"Postmark\"\n:\n{\n\"Spamcheck\"",
+    "!postmark-spamcheck entryid=\"654@731f1b54-bdea-4d4a-860f-328527df0cd7\" short=True\nContext Example\n#\n{\n\"Postmark\"\n:\n{\n\"Spamcheck\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Value of SpamAssassin score Postmark.Spamcheck.success State of SpamAssassin check",
+      "name": "Postmark.Spamcheck.score",
+      "required": ""
+    },
+    {
+      "description": "List the matched SpamAssassin rules Postmark.Spamcheck.report Detailed SpamAssassin report",
+      "name": "Postmark.Spamcheck.rules",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Postmark Spamcheck",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/postmark-spamcheck"
+}

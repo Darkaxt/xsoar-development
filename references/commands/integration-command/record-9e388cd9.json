@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n#\n!proofpoint-tr-verify-quarantine messageid=<message_id_example> time=\"2022-06-02T17:22:45Z\" recipient=example@example.com\nContext Example\n#\n{\n\"ProofPointTRAP\"\n:",
+    "!proofpoint-tr-verify-quarantine messageid=<message_id_example> time=\"2022-06-02T17:22:45Z\" recipient=example@example.com\nContext Example\n#\n{\n\"ProofPointTRAP\"\n:\n{\n\"Quarantine\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "proofpoint-tr-verify-quarantine",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Verify if an email has been quarantined.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "proofpoint-tr-verify-quarantine",
+      "required": ""
+    },
+    {
+      "description": "The result of the quarantine.",
+      "name": "ProofPointTRAP.Quarantine",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Proofpoint Threat Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/proofpoint-threat-response"
+}

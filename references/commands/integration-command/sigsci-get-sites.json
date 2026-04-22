@@ -1,0 +1,33 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!sigsci-blacklist-remove-ip IP=6.8.6.8 siteName=demisto\n7. Get all site names\nReturns all site names from the Signal Sciences platform.\nBase Command\nsigsci-get-sites\nInput\nThere are no input arguments for this command.",
+    "!sigsci-blacklist-remove-ip IP=6.8.6.8 siteName=demisto\n7. Get all site names\nReturns all site names from the Signal Sciences platform.\nBase Command\nsigsci-get-sites\nInput\nThere are no input arguments for this command.\nContext Output"
+  ],
+  "kind": "integration-command",
+  "name": "sigsci-get-sites",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "SigSciences.Site.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

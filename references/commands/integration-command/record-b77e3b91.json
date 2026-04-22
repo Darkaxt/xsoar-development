@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "##### Command Example",
+  "examples": [
+    "##### Command Example\nHuman Readable Output\n#\nGet a list of all user sessions\n#\nLists all the sessions with client IP for the given username.\nBase Command\n#",
+    "Command Example\n#\nEdit this page\nReport an Issue\nPrevious\n\u00ab F5 Application Security Manager (WAF)\nNext\nF5 LTM \u00bb"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "F5 firewall",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/f5-firewall"
+}

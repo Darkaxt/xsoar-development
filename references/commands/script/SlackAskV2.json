@@ -1,0 +1,111 @@
+{
+  "aliases": [
+    "slack-ask-v2"
+  ],
+  "arguments": [],
+  "description": "SlackAskV2 | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SlackAskV2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Guide",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "It uses a mechanism that allows external users to respond in Cortex XSOAR (per investigation) with entitlement strings embedded within the message contents. The automation can utilize the interactive capabilities of Slack to send a form with buttons - this requires the external endpoint for interactive responses to be available for connection (See the SlackV3 integration documentation for more information).",
+      "name": "The automation is most useful in a playbook to determine the outcome of a conditional task - which will be one of the provided options.",
+      "required": ""
+    },
+    {
+      "description": "responseType argument. To use",
+      "name": "You can also utilize threads instead, simply by specifying the",
+      "required": ""
+    },
+    {
+      "description": "via playbook: Add the SlackAskV2",
+      "name": "SlackAskV2",
+      "required": ""
+    },
+    {
+      "description": "In the message argument, specify the message to be sent.",
+      "name": "script to a playbook as a task.",
+      "required": ""
+    },
+    {
+      "description": "option1 and option2",
+      "name": "Configure the response options by filling out the",
+      "required": ""
+    },
+    {
+      "description": "Either a user or a channel_id or channel_name must be specified. In the SlackAskV2",
+      "name": "arguments (default values are 'Yes' and 'No').",
+      "required": ""
+    },
+    {
+      "description": "task argument. All other inputs are optional.",
+      "name": "task, pass a tag value to the",
+      "required": ""
+    },
+    {
+      "description": "SlackAskV2 , add a manual conditional task, which holds up the playbook execution until the response is received from Slack. The condition names must match the response options you passed in to",
+      "name": "At some point at the playbook, after running",
+      "required": ""
+    },
+    {
+      "description": ". In order to tie the conditional task back to SlackAskV2",
+      "name": "SlackAskV2",
+      "required": ""
+    },
+    {
+      "description": "SlackAskV2 form. Notes",
+      "name": ", add the same tag from the fifth step to the conditional task (under the \"Details\" tab of the task). The conditional task will be marked as completed when a user responds to the",
+      "required": ""
+    },
+    {
+      "description": "replyEntriesTag argument, the persistent",
+      "name": "When using the",
+      "required": ""
+    },
+    {
+      "description": "True . SlackAskV2",
+      "name": "argument must be set to",
+      "required": ""
+    },
+    {
+      "description": "Whitespaces are not supported in custom options and will not work. (i.e. setting a button to I Agree )",
+      "name": "will not work when run in the playbook debugger. This is because the debugger does not generate entitlements, since they must be tied to an investigation. Entitlements are needed to track the response.",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab SlackAsk",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "SlackBlockBuilder \u00bb Script Data Use Case",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Notes Docs Developer Docs",
+      "name": "Guide",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SlackAskV2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/slack-ask-v2"
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "ews-remove-tenant-allow-block-list-items",
+  "examples": [
+    "Command Example\n#\n!ews-remove-tenant-allow-block-list-items list_type=sender entries=\"attacker2@phishingsite.com\"\nContext Example\n#\n{\n\"Action\"\n:",
+    "!ews-remove-tenant-allow-block-list-items list_type=sender entries=\"attacker2@phishingsite.com\"\nContext Example\n#\n{\n\"Action\"\n:\n\"0\"\n,"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Action EWS.RemovedTenantBlocks.EntryValueHash Null for deleted items.",
+      "name": "EWS.RemovedTenantBlocks.Action",
+      "required": ""
+    },
+    {
+      "description": "Null for deleted items. EWS.RemovedTenantBlocks.ExpirationDate Null for deleted items.",
+      "name": "EWS.RemovedTenantBlocks.Error",
+      "required": ""
+    },
+    {
+      "description": "Blank for deleted items. EWS.RemovedTenantBlocks.LastModifiedDateTime Null for deleted items.",
+      "name": "EWS.RemovedTenantBlocks.Identity",
+      "required": ""
+    },
+    {
+      "description": "Null for deleted items. EWS.RemovedTenantBlocks.ModifiedBy Null for deleted items.",
+      "name": "EWS.RemovedTenantBlocks.ListSubType",
+      "required": ""
+    },
+    {
+      "description": "Null for deleted items. EWS.RemovedTenantBlocks.ObjectState State of the object (Deleted)",
+      "name": "EWS.RemovedTenantBlocks.Notes",
+      "required": ""
+    },
+    {
+      "description": "Name of Remote Powershell endpoint EWS.RemovedTenantBlocks.PSShowComputerName Bool",
+      "name": "EWS.RemovedTenantBlocks.PSComputerName",
+      "required": ""
+    },
+    {
+      "description": "EWS.RemovedTenantBlocks.RunspaceId RunspaceID of the entry EWS.RemovedTenantBlocks.SubmissionID",
+      "name": "Flag whether or not remote computer name is shown in PS prompt",
+      "required": ""
+    },
+    {
+      "description": "SubmissionID of the entry EWS.RemovedTenantBlocks.SysManaged Bool",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "EWS.RemovedTenantBlocks.Value The value of the entry that was removed",
+      "name": "SysManaged property of the entry",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EWS Extension Online Powershell v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ews-extension-online-powershell-v2"
+}

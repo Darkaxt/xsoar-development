@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "gcloud-operations-cancel",
+  "examples": [
+    "Command Example\n#\n!gcloud-operations-cancel project=gcp-integrations zone=xxxx operation=operation-xxxx\nHuman Readable Output\n#\nProject gcp-integrations - Zone xxxx - Operation operation-xxxx canceled\n#\nKnown limitations",
+    "!gcloud-operations-cancel project=gcp-integrations zone=xxxx operation=operation-xxxx\nHuman Readable Output\n#\nProject gcp-integrations - Zone xxxx - Operation operation-xxxx canceled\n#\nKnown limitations\n#\nAfter apply new configuration an operation in Google cloud will start, In order to apply another operation the operation must finish running, In order to handle this limitation you can use"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Kubernetes Engine",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-kubernetes-engine"
+}

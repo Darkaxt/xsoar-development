@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "005056A6-3FB1-0ed3-0000-004294973459",
+  "examples": [
+    "!ciscofp-delete-network-analysis-policy network_analysis_policy_id=005056A6-3FB1-0ed3-0000-004294994745\nHuman Readable Output\n#\nDeleted Network Analysis Policy Information\n#\nID\nName\nInspection Mode"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Firepower",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-firepower"
+}

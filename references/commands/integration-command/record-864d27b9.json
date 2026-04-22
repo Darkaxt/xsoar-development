@@ -1,0 +1,169 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "PaloAltoNetworksXDR.EndpointTriagePreset.uuid",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique identifier assigned to the created triage action. PaloAltoNetworksXDR.EndpointTriage.SUCCESSFUL_AGENT_IDS A list of agent IDs where the triage action was successfully initiated.",
+      "name": "PaloAltoNetworksXDR.EndpointTriage.TRIAGE_ID",
+      "required": ""
+    },
+    {
+      "description": "A list of agent IDs where the triage action failed to initiate. Edit this page Report an Issue",
+      "name": "PaloAltoNetworksXDR.EndpointTriage.UNSUCCESSFUL_AGENT_IDS",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Palo Alto Networks Cortex (Deprecated) Next Palo Alto Networks Enterprise DLP \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Configuration Playbooks Use Cases",
+      "name": "Configure Palo Alto Networks Cortex XDR - Investigation and Response on Cortex XSOAR",
+      "required": ""
+    },
+    {
+      "description": "Fetched Incidents Data XDR Incident Mirroring XDR Mirroring Notes, limitations and Troubleshooting",
+      "name": "Automation",
+      "required": ""
+    },
+    {
+      "description": "Commands xdr-get-incidents (Deprecated) xdr-get-incident-extra-data (Deprecated)",
+      "name": "Fetch Behavior vs Mirroring",
+      "required": ""
+    },
+    {
+      "description": "xdr-insert-parsed-alert (Deprecated) xdr-insert-cef-alerts (Deprecated) xdr-endpoint-isolate",
+      "name": "xdr-update-incident (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "xdr-get-endpoints xdr-get-distribution-versions xdr-create-distribution",
+      "name": "xdr-endpoint-unisolate",
+      "required": ""
+    },
+    {
+      "description": "xdr-get-create-distribution-status xdr-get-audit-management-logs xdr-get-audit-agent-reports",
+      "name": "xdr-get-distribution-url",
+      "required": ""
+    },
+    {
+      "description": "xdr-allowlist-files xdr-file-quarantine xdr-get-quarantine-status",
+      "name": "xdr-blocklist-files",
+      "required": ""
+    },
+    {
+      "description": "xdr-endpoint-scan-execute xdr-endpoint-scan-abort get-mapping-fields",
+      "name": "xdr-file-restore",
+      "required": ""
+    },
+    {
+      "description": "get-modified-remote-data xdr-get-policy xdr-get-scripts",
+      "name": "get-remote-data",
+      "required": ""
+    },
+    {
+      "description": "xdr-get-endpoint-device-control-violations xdr-file-retrieve xdr-retrieve-file-details",
+      "name": "xdr-delete-endpoints",
+      "required": ""
+    },
+    {
+      "description": "xdr-get-script-code xdr-action-status-get xdr-run-script",
+      "name": "xdr-get-script-metadata",
+      "required": ""
+    },
+    {
+      "description": "xdr-get-script-execution-status xdr-get-script-execution-results xdr-get-script-execution-result-files",
+      "name": "xdr-snippet-code-script-execute",
+      "required": ""
+    },
+    {
+      "description": "xdr-file-delete-script-execute xdr-file-exist-script-execute xdr-kill-process-script-execute",
+      "name": "xdr-script-commands-execute",
+      "required": ""
+    },
+    {
+      "description": "xdr-get-endpoints-by-status xdr-get-cloud-original-alerts (Deprecated) xdr-remove-allowlist-files",
+      "name": "endpoint",
+      "required": ""
+    },
+    {
+      "description": "xdr-get-alerts xdr-get-contributing-event xdr-replace-featured-field",
+      "name": "xdr-remove-blocklist-files",
+      "required": ""
+    },
+    {
+      "description": "xdr-list-risky-users xdr-list-risky-hosts xdr-list-user-groups",
+      "name": "xdr-list-users",
+      "required": ""
+    },
+    {
+      "description": "xdr-set-user-role xdr-remove-user-role xdr-script-run",
+      "name": "xdr-list-roles",
+      "required": ""
+    },
+    {
+      "description": "xdr-endpoint-tag-remove xdr-get-tenant-info Incident Mirroring",
+      "name": "xdr-endpoint-tag-add",
+      "required": ""
+    },
+    {
+      "description": "xdr-update-alert xdr-asset-group-update xdr-asset-group-create",
+      "name": "xdr-endpoint-alias-change",
+      "required": ""
+    },
+    {
+      "description": "xdr-asset-group-delete xdr-asset-schema-field-options-get xdr-asset-schema-get",
+      "name": "xdr-asset-group-list",
+      "required": ""
+    },
+    {
+      "description": "xdr-api-key-delete xdr-api-key-list xdr-bioc-list",
+      "name": "xdr-asset-list",
+      "required": ""
+    },
+    {
+      "description": "xdr-bioc-update xdr-bioc-delete xdr-correlation-rule-list",
+      "name": "xdr-bioc-create",
+      "required": ""
+    },
+    {
+      "description": "xdr-correlation-rule-update xdr-correlation-rule-delete xdr-case-list",
+      "name": "xdr-correlation-rule-create",
+      "required": ""
+    },
+    {
+      "description": "xdr-case-artifact-list xdr-automation-playbook-create xdr-automation-playbook-get",
+      "name": "xdr-case-update",
+      "required": ""
+    },
+    {
+      "description": "xdr-automation-script-delete xdr-automation-script-get xdr-automation-script-create",
+      "name": "xdr-automation-playbook-delete",
+      "required": ""
+    },
+    {
+      "description": "xdr-healthcheck-run xdr-endpoint-triage-preset-list xdr-endpoint-triage",
+      "name": "xdr-vulnerability-details-get",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Cortex XDR - Investigation and Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cortex-xdr---ir"
+}

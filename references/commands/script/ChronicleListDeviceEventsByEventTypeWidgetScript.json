@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "chronicle-list-device-events-by-event-type-widget-script"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "ChronicleListDeviceEventsByEventTypeWidgetScript | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ChronicleListDeviceEventsByEventTypeWidgetScript",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next ChroniclePotentiallyBlockedIPWidgetScript \u00bb Script Data",
+      "name": "\u00ab ChronicleIsolatedIPWidgetScript",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ChronicleListDeviceEventsByEventTypeWidgetScript",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/chronicle-list-device-events-by-event-type-widget-script"
+}

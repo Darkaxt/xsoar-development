@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "Type",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Get packet content: nw-sdk-content",
+  "examples": [
+    "Command Example\n!netwitness-msearch search=\"ab\" limit=\"10\" flags=\"sp,ci\"\nRaw Output\n[\n{\n\"flags\":1074200578,\n\"results\":{\n\"fields\":[",
+    "!netwitness-msearch search=\"ab\" limit=\"10\" flags=\"sp,ci\"\nRaw Output\n[\n{\n\"flags\":1074200578,\n\"results\":{\n\"fields\":[\n{"
+  ],
+  "kind": "integration-command",
+  "name": "netwitness-msearch",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness Packets and Logs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-packets-and-logs"
+}

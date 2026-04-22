@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Submit a website or file URL for quick analysis: hybrid-analysis-quick-scan-url",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "hybrid-analysis-scan",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "SHA256 hash of the file. File.SHA1 SHA1 hash of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "MD5 hash of the file. File.environmentId The environment ID of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The start time of the file analysis. File.submitname The submission name of the file.",
+      "name": "File.analysis_start_time",
+      "required": ""
+    },
+    {
+      "description": "A list of classification tags of the file. File.vxfamily The family classification of the file.",
+      "name": "File.classification_tags",
+      "required": ""
+    },
+    {
+      "description": "The total number of network connections of the file. File.total_processes The total processes count of the file.",
+      "name": "File.total_network_connections",
+      "required": ""
+    },
+    {
+      "description": "The total signatures count of the file. File.hosts A list of hosts of the file.",
+      "name": "File.total_signatures",
+      "required": ""
+    },
+    {
+      "description": "Whether the server found the file interesting. File.domains A list of domains related to the file.",
+      "name": "File.isinteresting",
+      "required": ""
+    },
+    {
+      "description": "Whether the file was analyzed by a URL. File.Malicious.Vendor For malicious files, the vendor that made the decision.",
+      "name": "File.isurlanalysis",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the reason that the vendor made the decision. DBotScore.Indicator The indicator.",
+      "name": "File.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The DBot score vendor.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Hybrid Analysis (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hybrid-analysis"
+}

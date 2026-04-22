@@ -1,0 +1,63 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!usta-atp-search-username username=user123456 page_size=1 page=1\nContext Example\n#\n{\n\"USTA\"\n:",
+    "!usta-atp-search-username username=user123456 page_size=1 page=1\nContext Example\n#\n{\n\"USTA\"\n:\n{\n\"AccountTakeoverPrevention\"",
+    "Command Example\nContext Example\nDocs\nDeveloper Docs\nBecome a Technology Partner\nSocial\nBlog\nCopyright \u00a9 2026 Palo Alto Networks, Inc."
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the alert USTA.AccountTakeoverPrevention.username The username of the compromised credential",
+      "name": "USTA.AccountTakeoverPrevention.id",
+      "required": ""
+    },
+    {
+      "description": "The password of the compromised credential USTA.AccountTakeoverPrevention.url The URL of the compromised credential",
+      "name": "USTA.AccountTakeoverPrevention.password",
+      "required": ""
+    },
+    {
+      "description": "Whether the compromised credential is corporate USTA.AccountTakeoverPrevention.created The creation date of the compromised credential",
+      "name": "USTA.AccountTakeoverPrevention.is_corporate",
+      "required": ""
+    },
+    {
+      "description": "The IP address of the victim USTA.AccountTakeoverPrevention.victim_detail.country The country of the victim",
+      "name": "USTA.AccountTakeoverPrevention.victim_detail.ip",
+      "required": ""
+    },
+    {
+      "description": "The phone number of the victim USTA.AccountTakeoverPrevention.victim_detail.computer_name The computer name of the victim computer",
+      "name": "USTA.AccountTakeoverPrevention.victim_detail.phone_number",
+      "required": ""
+    },
+    {
+      "description": "The OS of the victim computer USTA.AccountTakeoverPrevention.victim_detail.language The language of the victim computer",
+      "name": "USTA.AccountTakeoverPrevention.victim_detail.victim_os",
+      "required": ""
+    },
+    {
+      "description": "The memory of the victim computer USTA.AccountTakeoverPrevention.victim_detail.cpu The CPU of the victim computer",
+      "name": "USTA.AccountTakeoverPrevention.victim_detail.memory",
+      "required": ""
+    },
+    {
+      "description": "The GPU of the victim computer USTA.AccountTakeoverPrevention.victim_detail.malware The family of the malware that infected the victim computer",
+      "name": "USTA.AccountTakeoverPrevention.victim_detail.gpu",
+      "required": ""
+    },
+    {
+      "description": "The infection date of the victim computer",
+      "name": "USTA.AccountTakeoverPrevention.victim_detail.infection_date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "USTA Account Takeover Prevention",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/usta-account-takeover-prevention"
+}

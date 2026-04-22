@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "True if blocked, False if unblocked",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "smg-block-domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name of the domain that was blocked",
+      "name": "Domain.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Messaging Gateway",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-messaging-gateway"
+}

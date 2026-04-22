@@ -1,0 +1,416 @@
+{
+  "aliases": [
+    "base-content-api-module"
+  ],
+  "arguments": [],
+  "description": "BaseContentApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "BaseContentApiModule",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "alerts , readable_output",
+      "name": "=",
+      "required": ""
+    },
+    {
+      "description": "tableToMarkdown ( \"Alerts\"",
+      "name": "=",
+      "required": ""
+    },
+    {
+      "description": "alerts ) )",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "test_module ( client",
+      "name": "def",
+      "required": ""
+    },
+    {
+      "description": "MyIntegrationClient ) -",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "str : \"\"\"Test the integration connection.\"\"\"",
+      "name": ">",
+      "required": ""
+    },
+    {
+      "description": ": client .",
+      "name": "try",
+      "required": ""
+    },
+    {
+      "description": "( limit =",
+      "name": "get_alerts",
+      "required": ""
+    },
+    {
+      "description": ") return \"ok\"",
+      "name": "1",
+      "required": ""
+    },
+    {
+      "description": "Exception as e",
+      "name": "except",
+      "required": ""
+    },
+    {
+      "description": "return f\"Test failed: {",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "( e )",
+      "name": "str",
+      "required": ""
+    },
+    {
+      "description": "\" # ===== Main ===== def",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "( ) :",
+      "name": "main",
+      "required": ""
+    },
+    {
+      "description": "= MyExecutionConfig (",
+      "name": "execution",
+      "required": ""
+    },
+    {
+      "description": "command = execution",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": "command try :",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "= execution .",
+      "name": "params",
+      "required": ""
+    },
+    {
+      "description": "client = MyIntegrationClient",
+      "name": "params",
+      "required": ""
+    },
+    {
+      "description": "params ) if",
+      "name": "(",
+      "required": ""
+    },
+    {
+      "description": "== \"test-module\" :",
+      "name": "command",
+      "required": ""
+    },
+    {
+      "description": "( test_module (",
+      "name": "return_results",
+      "required": ""
+    },
+    {
+      "description": ") ) elif",
+      "name": "client",
+      "required": ""
+    },
+    {
+      "description": "== \"my-integration-get-alerts\" :",
+      "name": "command",
+      "required": ""
+    },
+    {
+      "description": "= execution .",
+      "name": "args",
+      "required": ""
+    },
+    {
+      "description": "return_results ( get_alerts_command",
+      "name": "get_alerts_args",
+      "required": ""
+    },
+    {
+      "description": "client , args",
+      "name": "(",
+      "required": ""
+    },
+    {
+      "description": ") else :",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": "NotImplementedError ( f\"Command",
+      "name": "raise",
+      "required": ""
+    },
+    {
+      "description": "command } not implemented\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "except Exception as",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": ": demisto .",
+      "name": "e",
+      "required": ""
+    },
+    {
+      "description": "( f\"Error executing {",
+      "name": "error",
+      "required": ""
+    },
+    {
+      "description": "} : {",
+      "name": "command",
+      "required": ""
+    },
+    {
+      "description": "( e )",
+      "name": "str",
+      "required": ""
+    },
+    {
+      "description": "\" ) return_error",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "str ( e",
+      "name": "(",
+      "required": ""
+    },
+    {
+      "description": ") if __name__",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": "( \"__main__\" ,",
+      "name": "in",
+      "required": ""
+    },
+    {
+      "description": ", \"builtins\" )",
+      "name": "\"__builtin__\"",
+      "required": ""
+    },
+    {
+      "description": "main ( )",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "API Reference",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "ContentBaseModel",
+      "required": ""
+    },
+    {
+      "description": "Methods",
+      "name": "Base Pydantic model with user-friendly validation error formatting.",
+      "required": ""
+    },
+    {
+      "description": "Description __init__(**data) Initialize model with validation.",
+      "name": "Method",
+      "required": ""
+    },
+    {
+      "description": "String representation using aliases. __repr__() Representation using aliases.",
+      "name": "__str__()",
+      "required": ""
+    },
+    {
+      "description": "Convert to dictionary. Configuration",
+      "name": "dict(by_alias=True)",
+      "required": ""
+    },
+    {
+      "description": "Value Description extra",
+      "name": "Setting",
+      "required": ""
+    },
+    {
+      "description": "Ignore extra fields not defined in model. allow_population_by_field_name True",
+      "name": "Extra.ignore",
+      "required": ""
+    },
+    {
+      "description": "Example",
+      "name": "Allow both field names and aliases.",
+      "required": ""
+    },
+    {
+      "description": "BaseContentApiModule import ContentBaseModel",
+      "name": "from",
+      "required": ""
+    },
+    {
+      "description": "pydantic import Field",
+      "name": "from",
+      "required": ""
+    },
+    {
+      "description": "validator class MyModel",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "ContentBaseModel ) :",
+      "name": "(",
+      "required": ""
+    },
+    {
+      "description": ": str age",
+      "name": "name",
+      "required": ""
+    },
+    {
+      "description": "int = Field",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "ge = 0",
+      "name": "(",
+      "required": ""
+    },
+    {
+      "description": "le = 150",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "email : str",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": "None = None",
+      "name": "|",
+      "required": ""
+    },
+    {
+      "description": ": bool =",
+      "name": "is_active",
+      "required": ""
+    },
+    {
+      "description": "( default =",
+      "name": "Field",
+      "required": ""
+    },
+    {
+      "description": ", alias =",
+      "name": "True",
+      "required": ""
+    },
+    {
+      "description": ") @validator (",
+      "name": "\"isActive\"",
+      "required": ""
+    },
+    {
+      "description": ") def validate_email",
+      "name": "'email'",
+      "required": ""
+    },
+    {
+      "description": "cls , v",
+      "name": "(",
+      "required": ""
+    },
+    {
+      "description": ": if v",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": "'@' not in",
+      "name": "and",
+      "required": ""
+    },
+    {
+      "description": ": raise ValueError",
+      "name": "v",
+      "required": ""
+    },
+    {
+      "description": "'Invalid email format' ) return",
+      "name": "(",
+      "required": ""
+    },
+    {
+      "description": "# Valid usage model =",
+      "name": "v",
+      "required": ""
+    },
+    {
+      "description": "( name =",
+      "name": "MyModel",
+      "required": ""
+    },
+    {
+      "description": ", age =",
+      "name": "\"John\"",
+      "required": ""
+    },
+    {
+      "description": ", isActive =",
+      "name": "30",
+      "required": ""
+    },
+    {
+      "description": ") # Invalid usage - clear error message try",
+      "name": "False",
+      "required": ""
+    },
+    {
+      "description": "model = MyModel",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "name = \"John\"",
+      "name": "(",
+      "required": ""
+    },
+    {
+      "description": "age = 200",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "except DemistoException as",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": ": # Error: \"Invalid Inputs:\\n- age: ensure this value is less than or equal to 150\" pass",
+      "name": "e",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BaseContentApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/base-content-api-module"
+}

@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Kaspersky Security Center Network Agent",
+  "examples": [
+    "Command Example\n#\n!ksc-policy-get policy_id=1\nContext Example\n#\n{\n\"KasperskySecurityCenter\"\n:",
+    "!ksc-policy-get policy_id=1\nContext Example\n#\n{\n\"KasperskySecurityCenter\"\n:\n{\n\"Policy\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the policy is active. KasperskySecurityCenter.Policy.KLPOL_CREATED.value Date",
+      "name": "KasperskySecurityCenter.Policy.KLPOL_ACTIVE",
+      "required": ""
+    },
+    {
+      "description": "KasperskySecurityCenter.Policy.KLPOL_MODIFIED.value Date Policy modification date.",
+      "name": "Policy creation date.",
+      "required": ""
+    },
+    {
+      "description": "Policy display name. KasperskySecurityCenter.Policy.KLPOL_PRODUCT Policy product name.",
+      "name": "KasperskySecurityCenter.Policy.KLPOL_DN",
+      "required": ""
+    },
+    {
+      "description": "Policy product version. KasperskySecurityCenter.Policy.KLPOL_GROUP_ID Policy group ID.",
+      "name": "KasperskySecurityCenter.Policy.KLPOL_VERSION",
+      "required": ""
+    },
+    {
+      "description": "Policy ID.",
+      "name": "KasperskySecurityCenter.Policy.KLPOL_ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Kaspersky Security Center (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/kaspersky-security-center"
+}

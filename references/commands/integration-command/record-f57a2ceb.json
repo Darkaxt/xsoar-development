@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": ". Only applicable with the",
+  "examples": [
+    "Command Example\n#\n!eis-update print_indicators=true query=type:IP format=text list_size=4\nHuman Readable Output\n#\nIndicators\n1.1.1.1\n2.2.2.2",
+    "!eis-update print_indicators=true query=type:IP format=text list_size=4\nHuman Readable Output\n#\nIndicators\n1.1.1.1\n2.2.2.2\n3.3.3.3\n4.4.4.4"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Export Indicators Service (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/export-indicators"
+}

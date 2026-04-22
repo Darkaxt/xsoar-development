@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!slack-set-channel-topic channel=general topic=\"Cortex XSOAR rocks\"",
+  "examples": [
+    "Command Example\n!slack-set-channel-topic channel=general topic=\"Cortex XSOAR rocks\"\nHuman Readable Output\nTopic successfully set.\n6. slack-create-channel\nCreates a channel in Slack.\nBase Command\nslack-create-channel",
+    "!slack-set-channel-topic channel=general topic=\"Cortex XSOAR rocks\"\nHuman Readable Output\nTopic successfully set.\n6. slack-create-channel\nCreates a channel in Slack.\nBase Command\nslack-create-channel\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "slack-create-channel",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Slack v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slack-v2"
+}

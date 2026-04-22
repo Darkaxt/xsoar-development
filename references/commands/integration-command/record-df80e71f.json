@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is not input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "This command allows you to retrieve the stored client offset for the feed API.",
+  "examples": [
+    "Command Example\n#\n!cyren-threat-indepth-get-client-offset\nHuman Readable Output\n#\nCyren Threat InDepth ip_reputation feed client offset is 500 (API provided max offset of 1000).\nAdditional Information\n#",
+    "!cyren-threat-indepth-get-client-offset\nHuman Readable Output\n#\nCyren Threat InDepth ip_reputation feed client offset is 500 (API provided max offset of 1000).\nAdditional Information\n#\nContact us:\nsupport@cyren.com"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cyren Threat InDepth Threat Intelligence Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyren-threat-in-depth"
+}

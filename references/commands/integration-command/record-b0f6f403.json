@@ -1,0 +1,84 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "prisma-sase-cie-user-get",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The common name. PrismaSase.CIE.User.distinguished_name The distinguished name.",
+      "name": "PrismaSase.CIE.User.common_name",
+      "required": ""
+    },
+    {
+      "description": "The manager. PrismaSase.CIE.User.name The name.",
+      "name": "PrismaSase.CIE.User.manager",
+      "required": ""
+    },
+    {
+      "description": "The unique identifier. Edit this page Report an Issue",
+      "name": "PrismaSase.CIE.User.unique_identifier",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Palo Alto Networks - Prisma Cloud Compute Next Palo Alto Networks AIOps \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands prisma-sase-security-rule-create prisma-sase-security-rule-list",
+      "name": "Configure Palo Alto Networks - Strata Cloud Manager in Cortex",
+      "required": ""
+    },
+    {
+      "description": "prisma-sase-security-rule-update prisma-sase-address-object-update prisma-sase-config-job-list",
+      "name": "prisma-sase-candidate-config-push",
+      "required": ""
+    },
+    {
+      "description": "prisma-sase-address-object-create prisma-sase-address-object-delete prisma-sase-address-object-list",
+      "name": "prisma-sase-security-rule-delete",
+      "required": ""
+    },
+    {
+      "description": "prisma-sase-tag-create prisma-sase-tag-update prisma-sase-tag-delete",
+      "name": "prisma-sase-tag-list",
+      "required": ""
+    },
+    {
+      "description": "prisma-sase-address-group-create prisma-sase-address-group-update prisma-sase-address-group-delete",
+      "name": "prisma-sase-address-group-list",
+      "required": ""
+    },
+    {
+      "description": "prisma-sase-custom-url-category-create prisma-sase-custom-url-category-update prisma-sase-custom-url-category-delete",
+      "name": "prisma-sase-custom-url-category-list",
+      "required": ""
+    },
+    {
+      "description": "prisma-sase-external-dynamic-list-create prisma-sase-external-dynamic-list-update prisma-sase-external-dynamic-list-delete",
+      "name": "prisma-sase-external-dynamic-list-list",
+      "required": ""
+    },
+    {
+      "description": "prisma-sase-quarantine-host prisma-sase-cie-user-get Docs",
+      "name": "prisma-sase-url-category-list",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks - Strata Cloud Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks---prisma-sase"
+}

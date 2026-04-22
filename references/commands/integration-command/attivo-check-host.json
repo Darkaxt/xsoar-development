@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!attivo-check-host host=\"linuxserver\"\nContext Example\n{\n\"Attivo\": {\n\"Host\": {\n\"IsDeceptive\": true,\n\"HostInfo\": {",
+    "!attivo-check-host host=\"linuxserver\"\nContext Example\n{\n\"Attivo\": {\n\"Host\": {\n\"IsDeceptive\": true,\n\"HostInfo\": {\n\"name\": ["
+  ],
+  "kind": "integration-command",
+  "name": "attivo-check-host",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Attivo Botsink",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/attivo-botsink"
+}

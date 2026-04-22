@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!kafka-publish-msg topic=test value=\"test message\"\nHuman Readable Output\n3. Consume a single Kafka message\nConsumes a single Kafka message.\nBase Command\nkafka-consume-msg\nInput",
+    "!kafka-publish-msg topic=test value=\"test message\"\nHuman Readable Output\n3. Consume a single Kafka message\nConsumes a single Kafka message.\nBase Command\nkafka-consume-msg\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "kafka-consume-msg",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Topic name Kafka.Topic.Message.Value Message value",
+      "name": "Kafka.Topic.Name",
+      "required": ""
+    },
+    {
+      "description": "Offset of the value in the topic",
+      "name": "Kafka.Topic.Message.Offset",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Kafka v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/kafka-v2"
+}

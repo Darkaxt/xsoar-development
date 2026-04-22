@@ -1,0 +1,38 @@
+{
+  "aliases": [
+    "remove-key-from-list"
+  ],
+  "arguments": [],
+  "description": "RemoveKeyFromList | Cortex XSOAR",
+  "examples": [
+    "!RemoveKeyFromList listName=\"NewList\" keyName=\"SomeKey\"\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nSuccessfully removed key SomeKey from list NewList."
+  ],
+  "kind": "script",
+  "name": "RemoveKeyFromList",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!RemoveKeyFromList listName=\"NewList\" keyName=\"SomeKey\"",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RemoveKeyFromList",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/remove-key-from-list"
+}

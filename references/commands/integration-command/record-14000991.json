@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "CybleEvents.Events.cybleeventsalias",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Returns details for given event of specific type Edit this page Report an Issue",
+      "name": "CybleEvents.Events.Details",
+      "required": ""
+    },
+    {
+      "description": "\u00ab CyberX - Central Manager Next Cyble Threat Intel \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands cyble-vision-fetch-iocs cyble-vision-fetch-alerts",
+      "name": "Configure Cyble Events in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "cyble-vision-fetch-event-detail",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cyble Events",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyble-events"
+}

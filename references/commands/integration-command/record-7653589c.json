@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!aws-route53-test-dns-answer hostedZoneId=Z339SDF2MA6R6ADFSM5G9 recordName=testing2.example.com recordType=A",
+  "examples": [
+    "Command Example\n#\n!aws-route53-test-dns-answer hostedZoneId=Z339SDF2MA6R6ADFSM5G9 recordName=testing2.example.com recordType=A\naws-route53-upsert-record\n#\nUpsert a resource record set. If a resource record set does not already exist, AWS creates it. If a resource set does exist, Amazon Route 53 updates it with the values in the request.\nBase Command\n#",
+    "!aws-route53-test-dns-answer hostedZoneId=Z339SDF2MA6R6ADFSM5G9 recordName=testing2.example.com recordType=A\naws-route53-upsert-record\n#\nUpsert a resource record set. If a resource record set does not already exist, AWS creates it. If a resource set does exist, Amazon Route 53 updates it with the values in the request.\nBase Command\n#\naws-route53-upsert-record\nInput",
+    "Command Example\n#\n!aws-route53-upsert-record hostedZoneId=Z33ASF9#22MSFA6R6M5G9 source=test.example.com target=192.168.1.2 ttl=300 type=A comment=\"test record\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab AWS - Organizations\nNext",
+    "!aws-route53-upsert-record hostedZoneId=Z33ASF9#22MSFA6R6M5G9 source=test.example.com target=192.168.1.2 ttl=300 type=A comment=\"test record\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab AWS - Organizations\nNext\nAWS - S3 \u00bb\nConfigure AWS - Route53 in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the request. AWS.Route53.RecordSetsChange.Status The current state of the request. PENDING indicates that this request has not yet been applied to all Amazon Route 53 DNS servers.",
+      "name": "AWS.Route53.RecordSetsChange.Id",
+      "required": ""
+    },
+    {
+      "description": "A complex type that describes change information about changes made to your hosted zone.",
+      "name": "AWS.Route53.RecordSetsChange.Comment",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - Route53",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---route53"
+}

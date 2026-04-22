@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "delete file,put file,reg delete key,directory list,reg create key,get file,reg enum key,reg query value,kill,create process,process list,reg delete value,reg set value,create directory,memdump",
+  "examples": [
+    "Command Example\n!cb-session-info session=3997\nContext Example\n{\n\"CbSensorID\": 13,\n\"CbSessionID\": 3997,\n\"Hostname\": \"WIN1\",\n\"SessionTimeout\": 300,",
+    "!cb-session-info session=3997\nContext Example\n{\n\"CbSensorID\": 13,\n\"CbSessionID\": 3997,\n\"Hostname\": \"WIN1\",\n\"SessionTimeout\": 300,\n\"Status\": \"active\","
+  ],
+  "kind": "integration-command",
+  "name": "cb-session-info",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Session status CbLiveResponse.Sessions.Hostname Hostname",
+      "name": "CbLiveResponse.Sessions.Status",
+      "required": ""
+    },
+    {
+      "description": "Sensor ID CbLiveResponse.Sessions.CbSessionID Session ID",
+      "name": "CbLiveResponse.Sessions.CbSensorID",
+      "required": ""
+    },
+    {
+      "description": "Session Timeout CbLiveResponse.Sessions.WaitTimeout Sensor wait timeout",
+      "name": "CbLiveResponse.Sessions.SessionTimeout",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

@@ -1,0 +1,26 @@
+{
+  "aliases": [
+    "cidr-bigger-than-prefix"
+  ],
+  "arguments": [
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "description": "CIDRBiggerThanPrefix | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CIDRBiggerThanPrefix",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CIDRBiggerThanPrefix",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cidr-bigger-than-prefix"
+}

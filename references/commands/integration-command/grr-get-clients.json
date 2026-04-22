@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!grr-get-clients\nContext Example\n{\n\"Client\": [\n{\n\"HardwareInfo\": {\n\"system_product_name\": \"HVM domU\",",
+    "!grr-get-clients\nContext Example\n{\n\"Client\": [\n{\n\"HardwareInfo\": {\n\"system_product_name\": \"HVM domU\",\n\"bios_rom_size\": \"64 kB\","
+  ],
+  "kind": "integration-command",
+  "name": "grr-get-clients",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "GRR client Client.ID GRR client ID",
+      "name": "Client",
+      "required": ""
+    },
+    {
+      "description": "GRR client LastBootedAt time Client.FirstSeenAt GRR client FirstSeenAt time",
+      "name": "Client.LastBootedAt",
+      "required": ""
+    },
+    {
+      "description": "GRR client LastClock Client.LastCrashAt GRR client LastCrashAt time",
+      "name": "Client.LatClock",
+      "required": ""
+    },
+    {
+      "description": "GRR client AgentInfo Client.HardwareInfo GRR client HardwareInfo",
+      "name": "Client.AgentInfo",
+      "required": ""
+    },
+    {
+      "description": "GRR client interfaces Client.Labels GRR client labels",
+      "name": "Client.Interfaces",
+      "required": ""
+    },
+    {
+      "description": "GRR client OS details Client.User GRR Client user",
+      "name": "Client.OS",
+      "required": ""
+    },
+    {
+      "description": "GRR client volumes",
+      "name": "Client.Volumes",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GRR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/grr"
+}

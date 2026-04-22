@@ -1,0 +1,72 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "to validate the URLs, token, and connection.",
+  "examples": [
+    "Command Example\n!ip ip=\"8.8.8.8\"\nContext Example\n{\n\"IP\": {\n\"Geo\": {\n\"Country\": \"United States\",\n\"Location\": \"37.751, -97.822\"",
+    "!ip ip=\"8.8.8.8\"\nContext Example\n{\n\"IP\": {\n\"Geo\": {\n\"Country\": \"United States\",\n\"Location\": \"37.751, -97.822\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The IP address MaxMind.Address The IP address",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "The IP city IP.Geo.Country The IP country",
+      "name": "MaxMind.Geo.City",
+      "required": ""
+    },
+    {
+      "description": "The IP country IP.Geo.Location The IP geographic location in coordinates",
+      "name": "MaxMind.Geo.Country",
+      "required": ""
+    },
+    {
+      "description": "The IP geographic location in coordinates MaxMind.Geo.TimeZone The time zone the IP is located",
+      "name": "MaxMind.Geo.Location",
+      "required": ""
+    },
+    {
+      "description": "The accuracy of the location MaxMind.Geo.Continent The IP continent",
+      "name": "MaxMind.Geo.Accuracy",
+      "required": ""
+    },
+    {
+      "description": "The IP subdivision IP.ASN The IP ASN",
+      "name": "MaxMind.Geo.Subdivision",
+      "required": ""
+    },
+    {
+      "description": "The IP ASN MaxMind.Organization The IP organization",
+      "name": "MaxMind.ASN",
+      "required": ""
+    },
+    {
+      "description": "Is IP a Tor exit node MaxMind.Host The IP host",
+      "name": "MaxMind.Tor",
+      "required": ""
+    },
+    {
+      "description": "Is the IP anonymous MaxMind.UserType The IP user type",
+      "name": "MaxMind.Anonymous",
+      "required": ""
+    },
+    {
+      "description": "The IP ISP MaxMind.Domain The domain associated to the IP",
+      "name": "MaxMind.ISP",
+      "required": ""
+    },
+    {
+      "description": "ISO code for the country the IP is located MaxMind.RegisteredCountry Country the IP is registered to",
+      "name": "MaxMind.ISO_Code",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MaxMind GeoIP2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/max-mind-geo-ip2"
+}

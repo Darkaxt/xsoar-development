@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "asana-get-all-projects",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "gets the list of projects on asana",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "asana-get-all-projects",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Asimily Insight \u00bb asana-get-project",
+      "name": "\u00ab Armorblox",
+      "required": ""
+    },
+    {
+      "description": "asana-get-all-projects Docs Developer Docs",
+      "name": "asana-create-task",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AsanaConnect",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/asana-connect"
+}

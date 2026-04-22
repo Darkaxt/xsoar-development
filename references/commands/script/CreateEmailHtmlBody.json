@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "create-email-html-body"
+  ],
+  "arguments": [],
+  "description": "CreateEmailHtmlBody | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CreateEmailHtmlBody",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The HTML body. Edit this page Report an Issue",
+      "name": "htmlBody",
+      "required": ""
+    },
+    {
+      "description": "\u00ab CreateEDLInstance Next CreateFileFromPathObject \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CreateEmailHtmlBody",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/create-email-html-body"
+}

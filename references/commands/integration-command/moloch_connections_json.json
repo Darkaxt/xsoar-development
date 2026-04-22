@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Retrieve session data in PCAP: moloch_sessions_pcap",
+  "examples": [
+    "!moloch_sessions_json startTime=\"2014/02/26 10:27:57\"\n. For more\u00a0 examples see\nhere\n.\nOptional\nstopTime\nIf the date parameter is not set, this is the stop time of the date to return. If an integer is used (the number of seconds since Unix EPOC), otherwise parsed using JavaScript Date parser. Usage example:\n!moloch_sessions_json startTime=\"2014/02/26 10:27:57\"",
+    "!moloch_sessions_json startTime=\"2014/02/26 10:27:57\"\n. For more\u00a0 examples see\nhere\n.\nOptional\nstrictly\nWhen this argument is used, the entire session must be within the date range to be observed, otherwise if it overlaps it is displayed\nOptional",
+    "Command Example\n!moloch_connections_json startTime=\"2014/02/26 10:27:57\"\nHuman Readable Output\n{\n\"health\": {\n\"_timeStamp\": 1534839251551,\n\"active_primary_shards\": 380,\n\"active_shards\": 380,",
+    "!moloch_connections_json startTime=\"2014/02/26 10:27:57\"\nHuman Readable Output\n{\n\"health\": {\n\"_timeStamp\": 1534839251551,\n\"active_primary_shards\": 380,\n\"active_shards\": 380,\n\"active_shards_percent_as_number\": 100,"
+  ],
+  "kind": "integration-command",
+  "name": "moloch_connections_json",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Moloch (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/moloch"
+}

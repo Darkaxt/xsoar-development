@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Oracle Cloud Infrastructure Event Collector \u00bb Configure OPSWAT-Metadefender v2 in Cortex",
+      "name": "\u00ab OPSWAT Filescan Sandbox (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "opswat-scan-file opswat-hash opswat-scan-result",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "opswat-sanitization-result",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OPSWAT-Metadefender v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/opswat-metadefender-v2"
+}

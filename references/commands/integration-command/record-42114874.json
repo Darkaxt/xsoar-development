@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\ngoogle-maps-geocode address=45 rothschild tel aviv\nHuman Readable Output\n#\nResults\n#\nAddress"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The address provided as input. For example, a postal address, a business name, or an area. GoogleMaps.Address Address of the geocoded location.",
+      "name": "GoogleMaps.SearchAddress",
+      "required": ""
+    },
+    {
+      "description": "Latitude of the geocoded location. GoogleMaps.lng Longitude of the geocoded location.",
+      "name": "GoogleMaps.lat",
+      "required": ""
+    },
+    {
+      "description": "Country of the geocoded location.",
+      "name": "GoogleMaps.Country",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Maps",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-maps"
+}

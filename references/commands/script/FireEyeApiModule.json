@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "fire-eye-api-module"
+  ],
+  "arguments": [],
+  "description": "FireEyeApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "FireEyeApiModule",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FireEyeApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/fire-eye-api-module"
+}

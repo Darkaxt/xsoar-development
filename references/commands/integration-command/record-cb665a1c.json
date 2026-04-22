@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### vt-comments-get\n***\nPrivate API. Retrieves comments for a given resource.\n#### Base Command\n`vt-comments-get`",
+    "#### Command Example\n```!vt-comments-get resource=https://paloaltonetworks.com using=vt```\n#### Human Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab VirusTotal (API v3)\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The special upload URL for large files.",
+      "name": "vtUploadURL",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VirusTotal (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/virus-total"
+}

@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The indicator that was tested",
+  "examples": [
+    "Command Example\nfile file=00112233445566778899aabbccddeeff\n4. Get related entities of an observable\nReturns related entities of a single observable.\nBase Command\neclecticiq-get-observable-related-entity\nInput\nArgument Name",
+    "Command Example\neclecticiq-get-observable-related-entity observable_id=63\nContext Example\n{\n\"EclecticIQ.Entity\": [\n{\n\"HalfLife\": \"30 Days\",\n\"Title\": \"Indicator containing malicious file hashes\","
+  ],
+  "kind": "integration-command",
+  "name": "eclecticiq-get-observable-related-entity",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Entity analysis description EclecticIQ.Entity.EstimatedObservedTime Date",
+      "name": "EclecticIQ.Entity.Analysis",
+      "required": ""
+    },
+    {
+      "description": "EclecticIQ.Entity.EstimatedStartTime Date Entity estimated start time",
+      "name": "Entity estimated observed time",
+      "required": ""
+    },
+    {
+      "description": "Is entity in the community feed EclecticIQ.Entity.Exposure.Detection Is entity detected",
+      "name": "EclecticIQ.Entity.Exposure.Community",
+      "required": ""
+    },
+    {
+      "description": "Is entity exposed EclecticIQ.Entity.Exposure.Prevention Is entity in prevented feed",
+      "name": "EclecticIQ.Entity.Exposure.Exposed",
+      "required": ""
+    },
+    {
+      "description": "Is entity sighted EclecticIQ.Entity.HalfLife The time it takes an entity to decay in intelligence value, expressed in the number of days until a 50% decay",
+      "name": "EclecticIQ.Entity.Exposure.Sighting",
+      "required": ""
+    },
+    {
+      "description": "Entity ID EclecticIQ.Entity.Source.Name Entity source name",
+      "name": "EclecticIQ.Entity.ID",
+      "required": ""
+    },
+    {
+      "description": "Entity source reliability EclecticIQ.Entity.Title Entity title",
+      "name": "EclecticIQ.Entity.Source.Reliability",
+      "required": ""
+    },
+    {
+      "description": "Entity source type",
+      "name": "EclecticIQ.Entity.Source.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EclecticIQ Platform (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/eclectic-iq-platform"
+}

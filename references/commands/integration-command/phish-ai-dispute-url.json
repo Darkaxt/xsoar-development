@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The Phish.AI scan ID.",
+  "examples": [
+    "Command Example\n!phish-ai-check-status scan_id=\"{CsFCgZ494mmW2JMI4hkK}\"\nHuman Readable Output\n3. Dispute a scan result\nDisputes the result of a scan.\nBase Command\nphish-ai-dispute-url\nInput",
+    "!phish-ai-check-status scan_id=\"{CsFCgZ494mmW2JMI4hkK}\"\nHuman Readable Output\n3. Dispute a scan result\nDisputes the result of a scan.\nBase Command\nphish-ai-dispute-url\nInput\nArgument Name",
+    "Command Example\n!phish-ai-dispute-url scan_id=\"CsFCgZ494mmW2JMI4hkK\"\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab Perplexity AI\nNext",
+    "!phish-ai-dispute-url scan_id=\"CsFCgZ494mmW2JMI4hkK\"\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab Perplexity AI\nNext\nPhishER \u00bb"
+  ],
+  "kind": "integration-command",
+  "name": "phish-ai-dispute-url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Phish.AI (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/phishai"
+}

@@ -1,0 +1,58 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!urlscan-search searchParameter=8.8.8.8",
+  "examples": [
+    "!urlscan-search searchParameter=8.8.8.8\n!urlscan-search searchType=advanced searchParameter=\"filename:logo.png AND date:>now-24h\"\n!urlscan-search searchType=raw searchParameter=\"q=meta%3Asearchhit.search.04eb755f-468d-4421-ab86-210a01ee1bdd&datasource=hostnames&search_after=\"\n2. (Deprecated) Submit a URL directly to urlscan.io\nSubmits a URL to urlscan.io.\nThis command is deprecated, but will still work if it is used in a playbook.\nBase Command\nurlscan-submit",
+    "!urlscan-search searchType=advanced searchParameter=\"filename:logo.png AND date:>now-24h\"\n!urlscan-search searchType=raw searchParameter=\"q=meta%3Asearchhit.search.04eb755f-468d-4421-ab86-210a01ee1bdd&datasource=hostnames&search_after=\"\n2. (Deprecated) Submit a URL directly to urlscan.io\nSubmits a URL to urlscan.io.\nThis command is deprecated, but will still work if it is used in a playbook.\nBase Command\nurlscan-submit\nInput",
+    "!urlscan-search searchType=raw searchParameter=\"q=meta%3Asearchhit.search.04eb755f-468d-4421-ab86-210a01ee1bdd&datasource=hostnames&search_after=\"\n2. (Deprecated) Submit a URL directly to urlscan.io\nSubmits a URL to urlscan.io.\nThis command is deprecated, but will still work if it is used in a playbook.\nBase Command\nurlscan-submit\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "urlscan-submit",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "URLs related to the scanned URL URLScan.RelatedIPs IPs related to the scanned URL",
+      "name": "URLScan.URLs",
+      "required": ""
+    },
+    {
+      "description": "ASNs related to the scanned URL URLScan.Countries Countries associated with the scanned URL",
+      "name": "URLScan.RelatedASNs",
+      "required": ""
+    },
+    {
+      "description": "IOCs found for the scanned URL URLScan.Subdomains Associated subdomains for the url scanned",
+      "name": "URLScan.relatedhashes",
+      "required": ""
+    },
+    {
+      "description": "ASN of the URL scanned URLScan.Data URL of the file found",
+      "name": "URLScan.ASN",
+      "required": ""
+    },
+    {
+      "description": "Vendor reporting the malicious indicator for the file URLScan.Malicious.Description Description of the malicious indicator",
+      "name": "URLScan.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "SHA256 of file found URLScan.File.FileName File name of file found",
+      "name": "URLScan.File.Hash",
+      "required": ""
+    },
+    {
+      "description": "File type of the file found URLScan.File.Hostname URL where the file was found",
+      "name": "URLScan.File.FileType",
+      "required": ""
+    },
+    {
+      "description": "Certificates found for the scanned URL",
+      "name": "URLScan.Certificates",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "urlscan.io",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/urlscanio"
+}

@@ -1,0 +1,194 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "CarbonBlackEEDR.Alert.workflow.state",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the job found by the search. CarbonBlackEEDR.SearchProcess.status The status of the job found by the search.",
+      "name": "CarbonBlackEEDR.SearchProcess.job_id",
+      "required": ""
+    },
+    {
+      "description": "The device ID that is guaranteed to be unique within each PSC environment. CarbonBlackEEDR.SearchProcess.results.process_username The user names related to the process.",
+      "name": "CarbonBlackEEDR.SearchProcess.results.device_id",
+      "required": ""
+    },
+    {
+      "description": "Date A date/time field formatted as an ISO-8601 string based on the UTC timezone. For example, device_timestamp:2018-03-14T21:06:45.183Z. CarbonBlackEEDR.SearchProcess.results.childproc_count",
+      "name": "CarbonBlackEEDR.SearchProcess.results.backend_timestamp",
+      "required": ""
+    },
+    {
+      "description": "The cumulative count of child-process creations since process tracking started. CarbonBlackEEDR.SearchProcess.results.crossproc_count The cumulative count of cross-process events since process tracking started.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The ID of the sensor group where the device belongs. CarbonBlackEEDR.SearchProcess.results.device_name The name of the device.",
+      "name": "CarbonBlackEEDR.SearchProcess.results.device_group_id",
+      "required": ""
+    },
+    {
+      "description": "The ID of the policy applied to the device. CarbonBlackEEDR.SearchProcess.results.device_timestamp Date",
+      "name": "CarbonBlackEEDR.SearchProcess.results.device_policy_id",
+      "required": ""
+    },
+    {
+      "description": "CarbonBlackEEDR.SearchProcess.results.enriched True if the process document came from the CBD data stream. CarbonBlackEEDR.SearchProcess.results.enriched_event_type",
+      "name": "The time displayed on the sensor based on the sensor\u2019s clock. The time is an ISO-8601 formatted time string based on the UTC timezone.",
+      "required": ""
+    },
+    {
+      "description": "The CBD enriched event type. CarbonBlackEEDR.SearchProcess.results.event_type The CBD event type (valid only for events coming through analytics). Possible values are: CREATE_PROCESS, DATA_ACCESS, FILE_CREATE, INJECT_CODE, NETWORK, POLICY_ACTION, REGISTRY_ACCESS, and SYSTEM_API_CALL.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The cumulative count of file modifications since process tracking started. CarbonBlackEEDR.SearchProcess.results.ingress_time Date",
+      "name": "CarbonBlackEEDR.SearchProcess.results.filemod_count",
+      "required": ""
+    },
+    {
+      "description": "CarbonBlackEEDR.SearchProcess.results.legacy True if the process document came from the legacy data stream (deprecated, use enriched). CarbonBlackEEDR.SearchProcess.results.modload_count",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "The cumulative count of module loads since process tracking started. CarbonBlackEEDR.SearchProcess.results.netconn_count The cumulative count of network connections since process tracking started.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The globally unique organization key. This will most likely be the PSC organization ID + PSC environment ID or some other unique token used across environments. CarbonBlackEEDR.SearchProcess.results.parent_guid The process GUID of the parent process.",
+      "name": "CarbonBlackEEDR.SearchProcess.results.org_id",
+      "required": ""
+    },
+    {
+      "description": "The PID of the parent process. CarbonBlackEEDR.SearchProcess.results.process_guid Unique ID of the solr document. Appears as process_guid + server-side timestamp in epoch ms (1/1/1970 based).",
+      "name": "CarbonBlackEEDR.SearchProcess.results.parent_pid",
+      "required": ""
+    },
+    {
+      "description": "The MD5 and SHA-256 hashes of the process\u2019s main module in a multi-valued field. CarbonBlackEEDR.SearchProcess.results.process_name The tokenized file path of the process\u2019s main module.",
+      "name": "CarbonBlackEEDR.SearchProcess.results.process_hash",
+      "required": ""
+    },
+    {
+      "description": "The PID of a process. Can be multi-valued in case of exec/fork on Linux/OSX. CarbonBlackEEDR.SearchProcess.results.process_username User names related to the process.",
+      "name": "CarbonBlackEEDR.SearchProcess.results.process_pid",
+      "required": ""
+    },
+    {
+      "description": "The cumulative count of registry modifications since process tracking started. CarbonBlackEEDR.SearchProcess.results.scriptload_count The cumulative count of loaded scripts since process tracking started.",
+      "name": "CarbonBlackEEDR.SearchProcess.results.regmod_count",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Troubleshooting",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Note: If the API returns duplicates, the duplicates will be dropped, causing the total number of alerts fetched to potentially be fewer than the set limit. Moreover, if all of the alerts returned are duplicates, they will all be dropped, causing no alerts to be returned. In such cases, increase the limit.",
+      "required": ""
+    },
+    {
+      "description": "Next Carbon Black Live Response Cloud \u00bb Overview",
+      "name": "\u00ab Carbon Black Endpoint Standard v3",
+      "required": ""
+    },
+    {
+      "description": "Commands 1. cb-eedr-alert-workflow-update Successfully updated the alert: \"A28C720DCBCD66333A624893AB1E0FE9\"",
+      "name": "Configure VMware Carbon Black Enterprise EDR on Cortex XSOAR",
+      "required": ""
+    },
+    {
+      "description": "3. cb-eedr-device-unquarantine 4. cb-eedr-device-background-scan-stop 5. cb-eedr-device-background-scan",
+      "name": "2. cb-eedr-device-quarantine",
+      "required": ""
+    },
+    {
+      "description": "7. cb-eedr-device-unbypass 8. cb-eedr-device-policy-update 9. cb-eedr-devices-list",
+      "name": "6. cb-eedr-device-bypass",
+      "required": ""
+    },
+    {
+      "description": "10. cb-eedr-list-alerts Alerts list results 11. cb-eedr-watchlist-list",
+      "name": "Devices list results",
+      "required": ""
+    },
+    {
+      "description": "12. cb-eedr-get-watchlist-by-id Watchlist JI5wCDVTPGEgbWlDCoGgQ information 13. cb-eedr-watchlist-alerts-status",
+      "name": "Carbon Black Enterprise EDR Watchlists",
+      "required": ""
+    },
+    {
+      "description": "15. cb-eedr-watchlist-alerts-disable 16. cb-eedr-watchlist-create The watchlist \"test watchlist3\" created successfully",
+      "name": "14. cb-eedr-watchlist-alerts-enable",
+      "required": ""
+    },
+    {
+      "description": "18. cb-eedr-watchlist-update The watchlist \"2Bge40iPRCachAa1oYqMkA\" was updated successfully 19. cb-eedr-report-get",
+      "name": "17. cb-eedr-watchlist-delete",
+      "required": ""
+    },
+    {
+      "description": "The IOCs for the report 20. cb-eedr-ioc-ignore-status 21. cb-eedr-ioc-ignore",
+      "name": "Report \"A59huyinQSmAr8t1a2hpg\" information",
+      "required": ""
+    },
+    {
+      "description": "23. cb-eedr-report-ignore 24. cb-eedr-report-reactivate 25. cb-eedr-report-ignore-status",
+      "name": "22. cb-eedr-ioc-reactivate",
+      "required": ""
+    },
+    {
+      "description": "27. cb-eedr-report-create The report was created successfully The IOCs for the report",
+      "name": "26. cb-eedr-report-remove",
+      "required": ""
+    },
+    {
+      "description": "The report was updated successfully The IOCs for the report 29. cb-eedr-file-device-summary",
+      "name": "28. cb-eedr-report-update",
+      "required": ""
+    },
+    {
+      "description": "30. cb-eedr-get-file-metadata The file metadata 31. cb-eedr-files-download-link-get",
+      "name": "The file device summary",
+      "required": ""
+    },
+    {
+      "description": "32. cb-eedr-file-paths The file path for the sha256 33. cb-eedr-process-search",
+      "name": "The file to download",
+      "required": ""
+    },
+    {
+      "description": "35. cb-eedr-process-search-results cb-eedr-add-threat-tags cb-eedr-add-threat-notes",
+      "name": "34. cb-eedr-events-by-process-get",
+      "required": ""
+    },
+    {
+      "description": "cb-eedr-get-threat-tags cb-eedr-list-alerts cb-eedr-process-search",
+      "name": "cb-eedr-add-alert-notes",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Troubleshooting",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Carbon Black Enterprise EDR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-enterprise-edr"
+}

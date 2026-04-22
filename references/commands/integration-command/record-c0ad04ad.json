@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The logo description provided by the Google Vision API. GoogleVisionAPI.Logo.MID The unique logo MID provided by the Google Vision API.",
+      "name": "GoogleVisionAPI.Logo.Description",
+      "required": ""
+    },
+    {
+      "description": "The certainty score provided by the Google Vision API. Edit this page Report an Issue",
+      "name": "GoogleVisionAPI.Logo.Score",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Google Vertex AI Next Google Workspace Admin \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands google-vision-detect-logos Docs",
+      "name": "Configure Google Vision AI in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vision AI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vision-ai"
+}

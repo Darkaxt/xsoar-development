@@ -1,0 +1,131 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook. After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [
+    "Command Example\nphishlabs-global-feed since=30d indicator_type=Domain remove_protocol=true limit=10\nContext Example\n{\n\"Domain\": [\n{\n\"Malicious\": {\n\"Vendor\": \"PhishLabs\","
+  ],
+  "kind": "integration-command",
+  "name": "phishlabs-global-feed",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "URL address. URL.Malicious.Vendor Vendor reporting the malicious status.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "Description of the malicious URL. PhishLabs.URL.Data URL address.",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "URL PhishLabs ID. PhishLabs.URL.CreatedAt Date",
+      "name": "PhishLabs.URL.ID",
+      "required": ""
+    },
+    {
+      "description": "PhishLabs.URL.UpdatedAt Date URL update time, in PhishLabs.",
+      "name": "URL creation time, in PhishLabs.",
+      "required": ""
+    },
+    {
+      "description": "URL attribute name. PhishLabs.URL.Attribute.Value URL attribute value.",
+      "name": "PhishLabs.URL.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "Date URL attribute creation time. PhishLabs.URL.FalsePositive",
+      "name": "PhishLabs.URL.Attribute.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Whether this URL is a false positive. Domain.Name Domain name.",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "Vendor reporting the malicious status. Domain.Malicious.Description Description of the malicious domain.",
+      "name": "Domain.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Domain name. PhishLabs.Domain.ID Domain PhishLabs ID.",
+      "name": "PhishLabs.Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "Date Domain creation time, in PhishLabs. PhishLabs.Domain.UpdatedAt",
+      "name": "PhishLabs.Domain.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Domain update time, in PhishLabs. PhishLabs.Domain.Attribute.Name Domain attribute name.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Domain attribute value. PhishLabs.Domain.Attribute.CreatedAt Date",
+      "name": "PhishLabs.Domain.Attribute.Value",
+      "required": ""
+    },
+    {
+      "description": "PhishLabs.Domain.FalsePositive Whether this domain is a false positive. File.Name",
+      "name": "Domain attribute creation time.",
+      "required": ""
+    },
+    {
+      "description": "Full filename. File.MD5 MD5 hash of the file.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "File type. PhishLabs.File.ID File PhishLabs ID.",
+      "name": "File.Type",
+      "required": ""
+    },
+    {
+      "description": "Full filename. PhishLabs.File.MD5 MD5 hash of the file.",
+      "name": "PhishLabs.File.Name",
+      "required": ""
+    },
+    {
+      "description": "File type. PhishLabs.File.CreatedAt Date",
+      "name": "PhishLabs.File.Type",
+      "required": ""
+    },
+    {
+      "description": "PhishLabs.File.UpdatedAt Date File update time, in PhishLabs.",
+      "name": "File creation time, in PhishLabs.",
+      "required": ""
+    },
+    {
+      "description": "File attribute name. PhishLabs.File.Attribute.Value File attribute value.",
+      "name": "PhishLabs.File.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "Date File attribute creation time. PhishLabs.File.FalsePositive",
+      "name": "PhishLabs.File.Attribute.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Whether this file is a false positive. DBotScore.Indicator The indicator that was tested.",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "Indicator type. DBotScore.Vendor Vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PhishLabs IOC",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/phish-labs-ioc"
+}

@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "81bb4c30-0a83-4e33-bbf7-0bb96ca15b9d",
+  "examples": [
+    "Command Example\n#\n!redlock-get-scan-results scan_id=\"81bb4c30-0a83-4e33-bbf7-0bb96ca15b9d\"\nContext Example\n#\n{\n\"Redlock\"\n:",
+    "!redlock-get-scan-results scan_id=\"81bb4c30-0a83-4e33-bbf7-0bb96ca15b9d\"\nContext Example\n#\n{\n\"Redlock\"\n:\n{\n\"Scans\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Scan ID Redlock.Scans.results.attributes.blameList.file Scan results blame list file",
+      "name": "Redlock.Scans.id",
+      "required": ""
+    },
+    {
+      "description": "Scan results blame list locations line Redlock.Scans.results.attributes.blameList.locations.path Scan results blame list locations path",
+      "name": "Redlock.Scans.results.attributes.blameList.locations.line",
+      "required": ""
+    },
+    {
+      "description": "Scan results description Redlock.Scans.results.attributes.docUrl Scan results doc URL",
+      "name": "Redlock.Scans.results.attributes.desc",
+      "required": ""
+    },
+    {
+      "description": "Scan results files Redlock.Scans.results.attributes.name Scan results name",
+      "name": "Redlock.Scans.results.attributes.files",
+      "required": ""
+    },
+    {
+      "description": "Scan results policy ID Redlock.Scans.results.attributes.rule Scan results rule",
+      "name": "Redlock.Scans.results.attributes.policyId",
+      "required": ""
+    },
+    {
+      "description": "Scan results severity Redlock.Scans.results.attributes.systemDefault Scan results system default",
+      "name": "Redlock.Scans.results.attributes.severity",
+      "required": ""
+    },
+    {
+      "description": "Scan results ID",
+      "name": "Redlock.Scans.results.id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Prisma Cloud (RedLock) (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/red-lock"
+}

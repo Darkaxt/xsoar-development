@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "OSV.VulnerabilityList.vulns.references.url",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The `id` field is a unique identifier for the vulnerability entry. OSV.VulnerabilityList.vulns.published The RFC3339 timestamp indicating when this entry was published.",
+      "name": "OSV.VulnerabilityList.vulns.id",
+      "required": ""
+    },
+    {
+      "description": "The RFC3339 timestamp indicating when this entry was last modified. OSV.VulnerabilityList.vulns.withdrawn The RFC3339 timestamp indicating when this entry is considered to be withdrawn.",
+      "name": "OSV.VulnerabilityList.vulns.modified",
+      "required": ""
+    },
+    {
+      "description": "One line human readable summary for the vulnerability. It is recommended to keep this under 120 characters. OSV.VulnerabilityList.vulns.details Any additional human readable details for the vulnerability.",
+      "name": "OSV.VulnerabilityList.vulns.summary",
+      "required": ""
+    },
+    {
+      "description": "Applicable if type is GIT. The publicly accessible URL of the repo that can be directly passed to clone commands. OSV.VulnerabilityList.vulns.affected.ranges.events.introduced The earliest version/commit where this vulnerability was introduced in.",
+      "name": "OSV.VulnerabilityList.vulns.affected.ranges.repo",
+      "required": ""
+    },
+    {
+      "description": "The version/commit that this vulnerability was fixed in. OSV.VulnerabilityList.vulns.affected.ranges.events.limit The limit to apply to the range.",
+      "name": "OSV.VulnerabilityList.vulns.affected.ranges.events.fixed",
+      "required": ""
+    },
+    {
+      "description": "Reference URL for more details. Edit this page Report an Issue",
+      "name": "OSV.VulnerabilityList.vulns.references.url",
+      "required": ""
+    },
+    {
+      "description": "\u00ab ORKL Threat Intel Feed Next OTRS \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands osv-get-vuln-by-id osv-query-affected-by-commit",
+      "name": "Configure OSV in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "osv-query-affected-by-package",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OSV",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/osv"
+}

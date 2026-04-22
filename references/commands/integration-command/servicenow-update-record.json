@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!servicenow-update-record table_name=incident id=748692114fc2230021ae045e9310c7ff fields=\"short_description=new desc;assigned_to=new user\"\nContext Example\n{\n\"ServiceNow\": {\n\"Record\": {\n\"CreatedAt\": \"2018-11-27 12:51:44\",\n\"CreatedBy\": \"admin\",",
+    "!servicenow-update-record table_name=incident id=748692114fc2230021ae045e9310c7ff fields=\"short_description=new desc;assigned_to=new user\"\nContext Example\n{\n\"ServiceNow\": {\n\"Record\": {\n\"CreatedAt\": \"2018-11-27 12:51:44\",\n\"CreatedBy\": \"admin\",\n\"ID\": \"748692114fc2230021ae045e9310c7ff\","
+  ],
+  "kind": "integration-command",
+  "name": "servicenow-update-record",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique record identifier for the record. ServiceNow.Record.UpdatedBy A string field that indicates the user who most recently updated the record.",
+      "name": "ServiceNow.Record.ID",
+      "required": ""
+    },
+    {
+      "description": "date A time-stamp field that indicates the date and time of the most recent update. ServiceNow.Record.CreatedBy",
+      "name": "ServiceNow.Record.UpdatedAt",
+      "required": ""
+    },
+    {
+      "description": "A string field that indicates the user who created the record. ServiceNow.Record.CreatedOn date",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "time-stamp field that indicates when a record was created.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now"
+}

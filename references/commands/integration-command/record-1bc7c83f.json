@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "cyberarkepm-get-events",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Gets events from Cyber Ark EPM.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "cyberarkepm-get-events",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next CyberArk EPM SOC Response (Beta) \u00bb Configure CyberArk EPM Event Collector in Cortex",
+      "name": "\u00ab CyberArk Certificate Manager",
+      "required": ""
+    },
+    {
+      "description": "cyberarkepm-get-admin-audits Admin Audits cyberarkepm-get-policy-audits",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "cyberarkepm-get-events Detailed Evens Docs",
+      "name": "Policy Audits",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyberArk EPM Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyber-ark-epm-event-collector"
+}

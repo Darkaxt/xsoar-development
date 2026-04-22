@@ -1,0 +1,25 @@
+{
+  "aliases": [
+    "demisto.executeCommand(\"createList\", args)"
+  ],
+  "arguments": [
+    {
+      "name": "listName",
+      "required": true
+    },
+    {
+      "name": "listData",
+      "required": false
+    }
+  ],
+  "description": "Creates an XSOAR list when the target tenant supports this native command.",
+  "examples": [
+    "demisto.executeCommand(\"createList\", {\"listName\": list_name, \"listData\": data})"
+  ],
+  "kind": "native",
+  "name": "createList",
+  "notes": [
+    "Verify tenant behavior before relying on overwrite semantics."
+  ],
+  "source_url": "sanitized:public-xsoar-native-guidance"
+}

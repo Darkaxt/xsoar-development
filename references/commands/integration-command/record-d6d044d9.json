@@ -1,0 +1,30 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!recordedfuture-identity-playbook-alerts-details alert_ids=\"12312312-1231-1231-1231-123123123123\" detail_sections=\"status,log\"",
+  "examples": [
+    "Command Example\n#\n!recordedfuture-identity-playbook-alerts-details alert_ids=\"12312312-1231-1231-1231-123123123123\" detail_sections=\"status,log\"\nrecordedfuture-identity-playbook-alerts-update\n#\nUpdate the status of one or multiple Playbook alerts.\nBase Command\n#",
+    "!recordedfuture-identity-playbook-alerts-details alert_ids=\"12312312-1231-1231-1231-123123123123\" detail_sections=\"status,log\"\nrecordedfuture-identity-playbook-alerts-update\n#\nUpdate the status of one or multiple Playbook alerts.\nBase Command\n#\nrecordedfuture-identity-playbook-alerts-update\nInput",
+    "Command Example\n#\n!recordedfuture-identity-playbook-alerts-update alert_ids=\"12312312-1231-1231-1231-123123123123\" new_status=\"in-progress\"\n!recordedfuture-identity-playbook-alerts-update alert_ids=\"12312312-1231-1231-1231-123123123123\" new_status=\"resolved\" comment=\"Resolved in XSOAR\" add_actions_taken=\"\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab Recorded Future Event Collector",
+    "!recordedfuture-identity-playbook-alerts-update alert_ids=\"12312312-1231-1231-1231-123123123123\" new_status=\"in-progress\"\n!recordedfuture-identity-playbook-alerts-update alert_ids=\"12312312-1231-1231-1231-123123123123\" new_status=\"resolved\" comment=\"Resolved in XSOAR\" add_actions_taken=\"\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab Recorded Future Event Collector\nNext\nRecorded Future RiskList Feed \u00bb",
+    "!recordedfuture-identity-playbook-alerts-update alert_ids=\"12312312-1231-1231-1231-123123123123\" new_status=\"resolved\" comment=\"Resolved in XSOAR\" add_actions_taken=\"\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab Recorded Future Event Collector\nNext\nRecorded Future RiskList Feed \u00bb\nRecorded Future Identity Integration"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique ID of the playbook alert in Recorded Future. IdentityRecordedFuture.PlaybookAlerts.current_status Current status of playbook alert in Recorded Future.",
+      "name": "IdentityRecordedFuture.PlaybookAlerts.playbook_alert_id",
+      "required": ""
+    },
+    {
+      "description": "Title of the playbook alert in Recorded Future. IdentityRecordedFuture.PlaybookAlerts.status_message Message describing the outcome of the update.",
+      "name": "IdentityRecordedFuture.PlaybookAlerts.title",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future Identity",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future-identity"
+}

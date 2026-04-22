@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "jso-nto-csv"
+  ],
+  "arguments": [],
+  "description": "JSONtoCSV | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "JSONtoCSV",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Filename (only in case of report type=json) File.Type File type e.g. \"PE\" (only in case of report type=json)",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "File.Size File size (only in case of report type=json) File.MD5",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "File.SHA1 SHA1 hash of the file (only in case of report type=json) File.SHA256",
+      "name": "MD5 hash of the file (only in case of report type=json)",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "SHA256 hash of the file (only in case of report type=json)",
+      "required": ""
+    },
+    {
+      "description": "Next JsonToTable \u00bb Script Data",
+      "name": "\u00ab JSONFileToCSV",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "JSONtoCSV",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/jso-nto-csv"
+}

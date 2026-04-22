@@ -1,0 +1,102 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "-1y2p0ij32e8cc:-1y2p0ij323hwg",
+  "examples": [
+    "Command Example\n#\n!tripwire-nodes-list limit=5\nContext Example\n#\n{\n\"Tripwire\"\n:",
+    "!tripwire-nodes-list limit=5\nContext Example\n#\n{\n\"Tripwire\"\n:\n{\n\"Nodes\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Agent Type of nodes. Tripwire.Nodes.agentVersion Agent versions of nodes.",
+      "name": "Tripwire.Nodes.agentType",
+      "required": ""
+    },
+    {
+      "description": "Audit enabled condition of nodes. Tripwire.Nodes.description Descriptions of nodes.",
+      "name": "Tripwire.Nodes.auditEnabled",
+      "required": ""
+    },
+    {
+      "description": "Element counts of nodes. Tripwire.Nodes.eventGeneratorEnabled Event generator enabled condition of nodes.",
+      "name": "Tripwire.Nodes.elementCount",
+      "required": ""
+    },
+    {
+      "description": "Event generator installed condition of nodes. Tripwire.Nodes.hasFailures Has failures condition of nodes.",
+      "name": "Tripwire.Nodes.eventGeneratorInstalled",
+      "required": ""
+    },
+    {
+      "description": "IDs of nodes. Tripwire.Nodes.importedTime Date",
+      "name": "Tripwire.Nodes.id",
+      "required": ""
+    },
+    {
+      "description": "Tripwire.Nodes.ipAddresses IP addresses of nodes (only finds agent nodes). Tripwire.Nodes.isDisabled",
+      "name": "Imported times of nodes.",
+      "required": ""
+    },
+    {
+      "description": "Is disabled condition of nodes. Tripwire.Nodes.isSocksProxy Is socks proxy condition of nodes.",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "Date Last checks of nodes. Tripwire.Nodes.lastRegistration",
+      "name": "Tripwire.Nodes.lastCheck",
+      "required": ""
+    },
+    {
+      "description": "Last registration dates of nodes. Tripwire.Nodes.licensedFeatures Licensed features of nodes.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Make of nodes. Tripwire.Nodes.maxSeverity Max severities of nodes.",
+      "name": "Tripwire.Nodes.make",
+      "required": ""
+    },
+    {
+      "description": "Models of nodes. Tripwire.Nodes.modifiedTime Date",
+      "name": "Tripwire.Nodes.model",
+      "required": ""
+    },
+    {
+      "description": "Tripwire.Nodes.name Names of nodes. Tripwire.Nodes.realTimeEnabled",
+      "name": "Modified times of nodes.",
+      "required": ""
+    },
+    {
+      "description": "Real time enabled condition of nodes. Tripwire.Nodes.rmiHost RMI hosts of nodes.",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "RMI ports of nodes. Tripwire.Nodes.tags.tag Tags of nodes.",
+      "name": "Tripwire.Nodes.rmiPort",
+      "required": ""
+    },
+    {
+      "description": "Tags sets of nodes. Tripwire.Nodes.tags.type Tags types of nodes.",
+      "name": "Tripwire.Nodes.tags.tagset",
+      "required": ""
+    },
+    {
+      "description": "Tracking IDs of nodes. Tripwire.Nodes.type Node type of nodes.",
+      "name": "Tripwire.Nodes.trackingId",
+      "required": ""
+    },
+    {
+      "description": "Versions of nodes.",
+      "name": "Tripwire.Nodes.version",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tripwire",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tripwire"
+}

@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "37. Returns indicators associated with a specific group",
+  "examples": [
+    "Command Example\n!tc-get-associated-groups group_id=4579650 group_type=events\nContext Example\n{\n\"TC.Group.AssociatedGroup\": [\n{\n\"DateAdded\": \"2019-01-13T18:13:19Z\",\n\"GroupID\": 3594873,",
+    "!tc-get-associated-groups group_id=4579650 group_type=events\nContext Example\n{\n\"TC.Group.AssociatedGroup\": [\n{\n\"DateAdded\": \"2019-01-13T18:13:19Z\",\n\"GroupID\": 3594873,\n\"Name\": \"NewCampaign\","
+  ],
+  "kind": "integration-command",
+  "name": "tc-get-associated-groups",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date The date on which group was added. TC.Group.AssociatedGroup.GroupID",
+      "name": "TC.Group.AssociatedGroup.DateAdded",
+      "required": ""
+    },
+    {
+      "description": "The ID of the group. TC.Group.AssociatedGroup.Name The name of the group.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The name of the owner of the group. TC.Group.AssociatedGroup.Type The type of the group.",
+      "name": "TC.Group.AssociatedGroup.OwnerName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

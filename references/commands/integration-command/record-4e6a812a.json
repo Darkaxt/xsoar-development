@@ -1,0 +1,106 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Creates & assigns rules to a particular ruleset. Added or updated Rules will remain in draft state until their containing Rule Set is provisioned using the \"illumio-object-provision\" command.",
+  "examples": [
+    "!illumio-rule-create ruleset_href=/orgs/1/sec_policy/draft/rule_sets/2687 consumers=ams providers=ams ingress_services=/orgs/1/sec_policy/draft/services/1751\nContext Example\n#\n{\n\"Illumio\"\n:\n{\n\"Rule\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Label URI. Illumio.Rule.created_at Date",
+      "name": "Illumio.Rule.href",
+      "required": ""
+    },
+    {
+      "description": "Illumio.Rule.updated_at Date Rule updated time.",
+      "name": "Rule creation time.",
+      "required": ""
+    },
+    {
+      "description": "Date Rule deleted time. Illumio.Rule.created_by.href",
+      "name": "Illumio.Rule.deleted_at",
+      "required": ""
+    },
+    {
+      "description": "URI of the user who has created the rule. Illumio.Rule.updated_by.href URI of the user who has updated the rule.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "URI of the user who has deleted the rule. Illumio.Rule.update_type Type of modification done on the rule.",
+      "name": "Illumio.Rule.deleted_by",
+      "required": ""
+    },
+    {
+      "description": "Description of the rule. Illumio.Rule.enabled Whether the rule is enabled or not.",
+      "name": "Illumio.Rule.description",
+      "required": ""
+    },
+    {
+      "description": "Providers label URI. Illumio.Rule.providers.actors All workloads.",
+      "name": "Illumio.Rule.providers.label.href",
+      "required": ""
+    },
+    {
+      "description": "Providers label group URI. Illumio.Rule.providers.virtual_server.href Providers virtual server URI.",
+      "name": "Illumio.Rule.providers.label_group.href",
+      "required": ""
+    },
+    {
+      "description": "Provider virtual service URI. Illumio.Rule.providers.ip_list.href Provider ip list URI.",
+      "name": "Illumio.Rule.providers.virtual_service.href",
+      "required": ""
+    },
+    {
+      "description": "Provider workload URI. Illumio.Rule.consumers.label.href Consumer label URI.",
+      "name": "Illumio.Rule.providers.workload.href",
+      "required": ""
+    },
+    {
+      "description": "Consumer label group URI. Illumio.Rule.consumers.actors All workloads.",
+      "name": "Illumio.Rule.consumers.label_group.href",
+      "required": ""
+    },
+    {
+      "description": "Consumer virtual service URI. Illumio.Rule.consumers.ip_list.href Consumer ip list URI.",
+      "name": "Illumio.Rule.consumers.virtual_service.href",
+      "required": ""
+    },
+    {
+      "description": "Consumer workload URI. Illumio.Rule.consumers.virtual_server.href Consumer virtual server URI.",
+      "name": "Illumio.Rule.consumers.workload.href",
+      "required": ""
+    },
+    {
+      "description": "URI of consuming security principals. Illumio.Rule.sec_connect Whether a secure connection is established or not.",
+      "name": "Illumio.Rule.consuming_security_principals",
+      "required": ""
+    },
+    {
+      "description": "Whether packet filtering is stateless for the rule or not. Illumio.Rule.machine_auth Whether machine authentication is enabled or not.",
+      "name": "Illumio.Rule.stateless",
+      "required": ""
+    },
+    {
+      "description": "Whether the scope for rule consumers is set to all or not. Illumio.Rule.network_type Network types to which this rule should apply to.",
+      "name": "Illumio.Rule.unscoped_consumers",
+      "required": ""
+    },
+    {
+      "description": "Array of service URI and port/protocol combinations. Illumio.Rule.resolve_labels_as.providers Providers resolve labels.",
+      "name": "Illumio.Rule.ingress_services.href",
+      "required": ""
+    },
+    {
+      "description": "Consumers resolve labels.",
+      "name": "Illumio.Rule.resolve_labels_as.consumers",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Illumio Core",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/illumio-core"
+}

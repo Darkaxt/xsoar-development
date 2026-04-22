@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Search Id: 97df79d3-b2b8-4260-bd12-805b69434591",
+  "examples": [
+    "Command Example\n#\n!lp-search-logs search_id=29023c62-12f4-4771-b988-067284a0e0c5\nContext Example\n#\n{\n\"LogPoint\"\n:",
+    "!lp-search-logs search_id=29023c62-12f4-4771-b988-067284a0e0c5\nContext Example\n#\n{\n\"LogPoint\"\n:\n{\n\"SearchLogs\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Search results",
+      "name": "LogPoint.SearchLogs",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "LogPoint SIEM Integration",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/log-point-siem-integration"
+}

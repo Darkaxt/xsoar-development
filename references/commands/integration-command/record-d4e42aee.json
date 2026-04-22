@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "MSGraphMail.Rule.sequence",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next O365 Teams (Using Graph API) \u00bb Configure O365 Outlook Mail (Using Graph API) in Cortex",
+      "name": "\u00ab O365 Outlook Calendar",
+      "required": ""
+    },
+    {
+      "description": "Commands msgraph-mail-list-emails msgraph-mail-get-email",
+      "name": "Required Permissions",
+      "required": ""
+    },
+    {
+      "description": "msgraph-mail-list-attachments msgraph-mail-get-attachment msgraph-mail-list-folders",
+      "name": "msgraph-mail-delete-email",
+      "required": ""
+    },
+    {
+      "description": "msgraph-mail-create-folder msgraph-mail-update-folder msgraph-mail-delete-folder",
+      "name": "msgraph-mail-list-child-folders",
+      "required": ""
+    },
+    {
+      "description": "msgraph-mail-get-email-as-eml msgraph-mail-create-draft send-mail",
+      "name": "msgraph-mail-move-email",
+      "required": ""
+    },
+    {
+      "description": "msgraph-mail-send-draft reply-mail msgraph-mail-update-email-status",
+      "name": "msgraph-mail-reply-to",
+      "required": ""
+    },
+    {
+      "description": "msgraph-mail-list-rules msgraph-mail-get-rule msgraph-mail-delete-rule",
+      "name": "msgraph-mail-auth-reset",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "O365 Outlook Mail (Using Graph API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-mail"
+}

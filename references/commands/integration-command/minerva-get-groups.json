@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "{6368a324-139b-4765-98f5-5f8417fb296c}",
+  "examples": [
+    "Command Example\n!minerva-get-groups\nHuman Readable Output\nName\nCreation Time\nEvents\nEndpoint Settings\nPolicy",
+    "!minerva-get-groups\nHuman Readable Output\nName\nCreation Time\nEvents\nEndpoint Settings\nPolicy\nEndpoints"
+  ],
+  "kind": "integration-command",
+  "name": "minerva-get-groups",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the group. Minerva.Group.Name The name of the group.",
+      "name": "Minerva.Group.Id",
+      "required": ""
+    },
+    {
+      "description": "The policy applied to the group. Minerva.Group.PolicyVersion The policy version applied to the group.",
+      "name": "Minerva.Group.Policy",
+      "required": ""
+    },
+    {
+      "description": "The settings applied to the group. Minerva.Group.Endpoints The number of endpoints in the group.",
+      "name": "Minerva.Group.EndpointSettings",
+      "required": ""
+    },
+    {
+      "description": "The comment the group creator added. Minerva.Group.CreationTime date",
+      "name": "Minerva.Group.Comment",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The time the group was created.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Minerva Labs Anti-Evasion Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/minerva-labs-anti-evasion-platform"
+}

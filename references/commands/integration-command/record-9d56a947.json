@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Notes",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "The BitSight API returns first_seen timestamps in date-only format (YYYY-MM-DD) without hours or minutes. The integration converts these to full timestamps in the",
+      "name": "API Date Format Limitation:",
+      "required": ""
+    },
+    {
+      "description": "field for XSIAM compatibility. This means all events will show timestamps like 2025-08-30T00:00:00 (midnight UTC) regardless of when during that day the finding was actually discovered.",
+      "name": "_time",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab BitDam",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Bitsight for Security Performance Management \u00bb Configure BitSight Event Collector in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Notes Docs Developer Docs",
+      "name": "bitsight-get-events",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BitSight Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bit-sight-event-collector"
+}

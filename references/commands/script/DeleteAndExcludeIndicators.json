@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "delete-and-exclude-indicators"
+  ],
+  "arguments": [],
+  "description": "DeleteAndExcludeIndicators | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DeleteAndExcludeIndicators",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DeleteAndExcludeIndicators",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/delete-and-exclude-indicators"
+}

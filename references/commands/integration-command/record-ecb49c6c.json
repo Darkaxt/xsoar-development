@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "organizations/123456789",
+  "examples": [
+    "Command Example\n#\n!google-cloud-scc-finding-state-update name=\"organizations/595779152576/sources/10134421585261057824/findings/00002906967111ea87141217baf6db4d\" state=ACTIVE\"\nContext Example\n#\n{\n\"GoogleCloudSCC\"\n:",
+    "!google-cloud-scc-finding-state-update name=\"organizations/595779152576/sources/10134421585261057824/findings/00002906967111ea87141217baf6db4d\" state=ACTIVE\"\nContext Example\n#\n{\n\"GoogleCloudSCC\"\n:\n{\n\"Finding\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The relative resource name of this finding. GoogleCloudSCC.Finding.parent The relative resource name of the source the finding belongs to.",
+      "name": "GoogleCloudSCC.Finding.name",
+      "required": ""
+    },
+    {
+      "description": "For findings on Google Cloud resources, the full resource name of the Google Cloud resource this finding is for. GoogleCloudSCC.Finding.state The state of the finding.",
+      "name": "GoogleCloudSCC.Finding.resourceName",
+      "required": ""
+    },
+    {
+      "description": "The additional taxonomy group within findings from a given source. GoogleCloudSCC.Finding.externalUri The URI that, if available, points to a web page outside of Security Command Center where additional information about the finding can be found.",
+      "name": "GoogleCloudSCC.Finding.category",
+      "required": ""
+    },
+    {
+      "description": "The time at which the finding was created in Security Command Center. GoogleCloudSCC.Finding.eventTime The time at which the event took place, or when an update to the finding occurred.",
+      "name": "GoogleCloudSCC.Finding.createTime",
+      "required": ""
+    },
+    {
+      "description": "Source specific properties. These properties are managed by the source that writes the finding. Properties are varying from finding to finding. GoogleCloudSCC.Finding.severity Severity of the finding.",
+      "name": "GoogleCloudSCC.Finding.sourceProperties",
+      "required": ""
+    },
+    {
+      "description": "The relative resource name of the SecurityMarks. GoogleCloudSCC.Finding.securityMarks.marks Mutable user specified security marks belonging to the parent resource.",
+      "name": "GoogleCloudSCC.Finding.securityMarks.name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud SCC",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-scc"
+}

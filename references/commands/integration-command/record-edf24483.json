@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Twinwave.JobsAndResources.Jobs.ID",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Temporary URL Edit this page Report an Issue",
+      "name": "Twinwave.TempArtifactURL.URL",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Twilio SendGrid Next Twitter (Deprecated) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands twinwave-submit-url twinwave-submit-file",
+      "name": "Configure Twinwave in Cortex",
+      "required": ""
+    },
+    {
+      "description": "twinwave-get-job-summary twinwave-get-job-normalized-forensics twinwave-get-task-normalized-forensics",
+      "name": "twinwave-resubmit-job",
+      "required": ""
+    },
+    {
+      "description": "twinwave-download-submitted-resource twinwave-get-engines twinwave-search-across-jobs-and-resources",
+      "name": "twinwave-get-task-raw-forensics",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "twinwave-get-temp-artifact-url",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Twinwave",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/twinwave"
+}

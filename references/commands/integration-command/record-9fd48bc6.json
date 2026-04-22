@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Customer Display Name",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### cherwell-get-business-object-id\n***\nGet a general business object id by name\n#### Base Command\n`cherwell-get-business-object-id`",
+    "#### Command Example\n```!cherwell-get-business-object-id business_object_name=incident```\n#### Context Example\n```json\n{\n\"Cherwell\": {\n\"BusinessObjectInfo\": {\n\"BusinessObjectId\": \"6dd53665c0c24cab86870a21cf6434ae\",",
+    "#### Command Example\n```!cherwell-get-business-object-summary name=task```\n#### Context Example\n```json\n{\n\"Cherwell\": {\n\"BusinessObjectSummary\": {\n\"busObId\": \"9446978f53c84aef2835904a7ab96cfc882efe030c\",",
+    "#### Command Example\n```!cherwell-get-one-step-actions-for-business-object busobjectid=6dd53665c0c24cab86870a21cf6434ae```\n#### Context Example\n```json\n{\n\"Cherwell\": {\n\"OneStepActions\": {\n\"Actions\": {"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cherwell",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cherwell"
+}

@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Return URL analysis reports.",
+  "examples": [
+    "!url url=\"http://classicairjordanshoes.com/classic-air-jordan-9-c-7.html?zenid=egbmmbi039iqms5ho5dt2qnunm0mettt\"\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The URL DBotScore.Score The actual score.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Indicator The indicator that was tested.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. ReversingLabs.url_report The URL report.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Classification string for this URL. ReversingLabs.url_report.rl.reason Reason for the classification.",
+      "name": "ReversingLabs.url_report.rl.classification",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ReversingLabs TitaniumCloud v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/reversing-labs-titanium-cloud-v2"
+}

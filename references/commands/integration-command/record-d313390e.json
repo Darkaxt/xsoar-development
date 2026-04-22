@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "num_successful_updates",
+  "examples": [
+    "Command Example\n#\n!nutanix-hypervisor-alerts-resolve-by-filter limit=2 impact_types=SystemIndicator entity_types=VM\nContext Example\n#\n{\n\"NutanixHypervisor\"\n:",
+    "!nutanix-hypervisor-alerts-resolve-by-filter limit=2 impact_types=SystemIndicator entity_types=VM\nContext Example\n#\n{\n\"NutanixHypervisor\"\n:\n{\n\"ResolvedFilterAlerts\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The number of successful alerts resolved. NutanixHypervisor.ResolvedFilterAlerts.num_failed_updates The number of failed alerts to resolve.",
+      "name": "NutanixHypervisor.ResolvedFilterAlerts.num_successful_updates",
+      "required": ""
+    },
+    {
+      "description": "ID of the status of the alert. NutanixHypervisor.ResolvedFilterAlerts.alert_status_list.successful Whether the resolution for this task was successful.",
+      "name": "NutanixHypervisor.ResolvedFilterAlerts.alert_status_list.id",
+      "required": ""
+    },
+    {
+      "description": "Message returned by the resolve operation.",
+      "name": "NutanixHypervisor.ResolvedFilterAlerts.alert_status_list.message",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Nutanix Hypervisor",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/nutanix-hypervisor"
+}

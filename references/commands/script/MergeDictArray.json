@@ -1,0 +1,103 @@
+{
+  "aliases": [
+    "merge-dict-array"
+  ],
+  "arguments": [],
+  "description": "MergeDictArray | Cortex XSOAR",
+  "examples": [
+    "!MergeDictArray value=`${.=[\n{\n\"Address\": \"8.8.8.8\",\n\"ANS\": 15169,\n\"Hostname\": \"dns.google\"\n},\n{\n\"Address\": \"8.8.4.4\","
+  ],
+  "kind": "script",
+  "name": "MergeDictArray",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "{ \"Address\": \"8.8.8.8\", \"ANS\": 15169,",
+      "name": "!MergeDictArray value=`${.=[",
+      "required": ""
+    },
+    {
+      "description": "}, { \"Address\": \"8.8.4.4\",",
+      "name": "\"Hostname\": \"dns.google\"",
+      "required": ""
+    },
+    {
+      "description": "\"Hostname\": \"dns.google\" } ]}` merge_with=`${.=[{",
+      "name": "\"ANS\": 15169,",
+      "required": ""
+    },
+    {
+      "description": "\"ISP\": \"Google LLC\", \"Longitude\": -122.0775, \"Port\": [",
+      "name": "\"Address\": \"8.8.8.8\",",
+      "required": ""
+    },
+    {
+      "description": "], \"CountryName\": \"United States\", \"Latitude\": 37.4056,",
+      "name": "53",
+      "required": ""
+    },
+    {
+      "description": "\"ASN\": \"AS15169\" }]}` mapping=\"Address:Address\" out_path=\"res\" Example Output",
+      "name": "\"Org\": \"Google LLC\",",
+      "required": ""
+    },
+    {
+      "description": "\"res\": [ { \"ANS\": 15169,",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Address\": \"8.8.8.8\", \"CountryName\": \"United States\", \"Hostname\": \"dns.google\",",
+      "name": "\"ASN\": \"AS15169\",",
+      "required": ""
+    },
+    {
+      "description": "\"Latitude\": 37.4056, \"Longitude\": -122.0775, \"Org\": \"Google LLC\",",
+      "name": "\"ISP\": \"Google LLC\",",
+      "required": ""
+    },
+    {
+      "description": "53 ] },",
+      "name": "\"Port\": [",
+      "required": ""
+    },
+    {
+      "description": "\"ANS\": 15169, \"Address\": \"8.8.4.4\", \"Hostname\": \"dns.google\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "] } Edit this page",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab MCPApiModule Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "MicrosoftApiModule \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Example Output Docs Developer Docs",
+      "name": "Example",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MergeDictArray",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/merge-dict-array"
+}

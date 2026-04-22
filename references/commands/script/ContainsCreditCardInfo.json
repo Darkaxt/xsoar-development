@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "contains-credit-card-info"
+  ],
+  "arguments": [],
+  "description": "ContainsCreditCardInfo | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ContainsCreditCardInfo",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the value is true (either has object or string True). no Whether the value is not true (either has object or string True).",
+      "name": "yes",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next ContentClientApiModule \u00bb Script Data",
+      "name": "\u00ab ConflueraProgressionsDataWarroom",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ContainsCreditCardInfo",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/contains-credit-card-info"
+}

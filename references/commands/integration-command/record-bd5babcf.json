@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "!msgraph-get-managed-device-physical-memory-by-id device_id=111111-1111-1111-1111-1111111\nContext Example\n#\n{\n\"MSGraphDeviceManagement\"\n:\n{\n\"DeviceMemory\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "msgraph-get-managed-device-physical-memory-by-id",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Get the managed device physical memory bytes.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "msgraph-get-managed-device-physical-memory-by-id",
+      "required": ""
+    },
+    {
+      "description": "The ID of the managed device. MSGraphDeviceManagement.Device.physicalMemoryInBytes The correct value of ID of the managed device.",
+      "name": "MSGraphDeviceManagement.Device.id",
+      "required": ""
+    },
+    {
+      "description": "Name of the device.",
+      "name": "MSGraphDeviceManagement.Device.deviceName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Endpoint Manager (Intune)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-device-management"
+}

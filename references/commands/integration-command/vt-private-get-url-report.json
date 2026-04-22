@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Generates a report about a specific URL.",
+  "examples": [
+    "Command Example\n!vt-private-get-url-report resource=\"www.google.com,https://ctgold.in.net/G5?POP!=junk.name@jonk.com\"\nContext Example\n{\n\"URL\": [\n{\n\"Data\": \"https://ctgold.in.net/G5?POP!=junk.name@jonk.com\",\n\"VirusTotal\": {",
+    "!vt-private-get-url-report resource=\"www.google.com,https://ctgold.in.net/G5?POP!=junk.name@jonk.com\"\nContext Example\n{\n\"URL\": [\n{\n\"Data\": \"https://ctgold.in.net/G5?POP!=junk.name@jonk.com\",\n\"VirusTotal\": {\n\"Scans\": ["
+  ],
+  "kind": "integration-command",
+  "name": "vt-private-get-url-report",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "URL address URL.Malicious.Vendor For malicious URLs, the vendor that made the decision",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the reason that the vendor made the decision DBotScore.Indicator The indicator that was tested",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The indicator type DBotScore.Vendor Vendor used to calculate the score",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score URL.VirusTotal.Resolutions.ip_address IPs that resolved to this URL",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "Resolve date of IPs that resolved to this URL URL.VirusTotal.ResponseContentSHA256 SHA256 hash of the response content",
+      "name": "URL.VirusTotal.Resolutions.last_resolved",
+      "required": ""
+    },
+    {
+      "description": "The response headers URL.VirusTotal.Scans.Source Scan vendor for this URL",
+      "name": "URL.VirusTotal.ResponseHeaders",
+      "required": ""
+    },
+    {
+      "description": "Scan detection for this URL (True/False) URL.VirusTotal.Scans.Result Scan result for this URL - signature, etc.",
+      "name": "URL.VirusTotal.Scans.Detected",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VirusTotal - Private API (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/virus-total---private-api"
+}

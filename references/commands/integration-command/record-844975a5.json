@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "The input data for the recipe. Currently accepts strings.",
+      "required": "Required"
+    },
+    {
+      "description": "Arguments for the magic operation.",
+      "name": "args",
+      "required": "Optional"
+    }
+  ],
+  "description": "!cyberchef-bake input=\"79 110 101 44 32 116 119 111 44 32 116 104 114 101 101 44 32 102 111 117 114 46\" recipe=\"{\\\"op\\\": \\\"from decimal\\\"}\" outputType=string",
+  "examples": [
+    "!cyberchef-bake input=\"79 110 101 44 32 116 119 111 44 32 116 104 114 101 101 44 32 102 111 117 114 46\" recipe=\"{\\\"op\\\": \\\"from decimal\\\"}\" outputType=string\nHuman Readable Output\n#\ncyberchef-magic\n#\nCyberChef Magic function\nBase Command\n#",
+    "Command Example\n#\n!cyberchef-magic input=\"79 110 101 44 32 116 119 111 44 32 116 104 114 101 101 44 32 102 111 117 114 46\"\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious",
+    "!cyberchef-magic input=\"79 110 101 44 32 116 119 111 44 32 116 104 114 101 101 44 32 102 111 117 114 46\"\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious\n\u00ab CyberArk PAM\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Output of the Magic operation",
+      "name": "CyberChef.Magic",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyberChef",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyber-chef"
+}

@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "add-user-to-incident-team"
+  ],
+  "arguments": [],
+  "description": "AddUserToIncidentTeam | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "AddUserToIncidentTeam",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next ADGetUser \u00bb Script Data",
+      "name": "\u00ab AddKeyToList",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AddUserToIncidentTeam",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/add-user-to-incident-team"
+}

@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Returns information about an endpoint.",
+  "examples": [
+    "!endpoint ip=8.8.8.8\nContext Example\n#\n{\n\"Endpoint\"\n:\n{\n\"Hostname\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The endpoint's hostname. Endpoint.OS The endpoint's operation system.",
+      "name": "Endpoint.Hostname",
+      "required": ""
+    },
+    {
+      "description": "The endpoint's IP address. Endpoint.ID The endpoint's ID.",
+      "name": "Endpoint.IPAddress",
+      "required": ""
+    },
+    {
+      "description": "The endpoint's MAC address. Endpoint.Vendor The integration name of the endpoint vendor.",
+      "name": "Endpoint.MACAddress",
+      "required": ""
+    },
+    {
+      "description": "The endpoint's operation system version.",
+      "name": "Endpoint.OSVersion",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DataBee",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/data-bee"
+}

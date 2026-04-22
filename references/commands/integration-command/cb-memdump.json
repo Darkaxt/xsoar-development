@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "The PID of the executed process",
+  "examples": [
+    "Command Example\nContext Example\nHuman Readable Output\n19. Endpoint memory dump\nEndpoint memory dump.\nBase Command\ncb-memdump\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "cb-memdump",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique command ID CbLiveResponse.Commands.CommandName The command name",
+      "name": "CbLiveResponse.Commands.CbCommandID",
+      "required": ""
+    },
+    {
+      "description": "The command Status pending in progress",
+      "name": "CbLiveResponse.Commands.Status",
+      "required": ""
+    },
+    {
+      "description": "error canceled CbLiveResponse.Commands.CommandCompletionTime",
+      "name": "complete",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.Commands.OperandObject The path to save the resulting memory dump (on the endpoint) CbLiveResponse.Commands.ReturnCode",
+      "name": "The command completion time (0 if not complete)",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.Commands.CompressingEnabled Boolean flag indicating if compression is enabled. CbLiveResponse.Commands.Complete",
+      "name": "Return code of the memory dump process",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.Commands.PercentDone Percent of the process completed CbLiveResponse.Commands.DumpingInProgress",
+      "name": "Boolean flag indicating if memory dump is completed.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Boolean flag indicating if memory dump is in progress.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

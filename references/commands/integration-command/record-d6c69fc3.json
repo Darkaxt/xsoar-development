@@ -1,0 +1,56 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Checks the reputation of a CSV list of IPv4 addresses within a file.",
+  "examples": [
+    "!cymru-bulk-whois entry_id=${File.EntryID}\nTroubleshooting\n#\nIn case of a problem with the proxy configuration, validate that the given proxy is working with the Whois content pack.\nEdit this page\nReport an Issue\nPrevious\n\u00ab TAXII2 Server"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address. IP.ASN The autonomous system name for the IP address, for example: \"AS8948\".",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "The autonomous system owner of the IP address. IP.Geo.Country The country in which the IP address is located.",
+      "name": "IP.ASOwner",
+      "required": ""
+    },
+    {
+      "description": "The network of the contact for reporting abuse. DBotScore.Indicator The indicator that was tested.",
+      "name": "IP.Registrar.Abuse.Network",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Reliability Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The IP address. TeamCymru.IP.ASN The IP ASN.",
+      "name": "TeamCymru.IP.Address",
+      "required": ""
+    },
+    {
+      "description": "The IP AS owner. TeamCymru.IP.Geo.Country The IP country.",
+      "name": "TeamCymru.IP.ASOwner",
+      "required": ""
+    },
+    {
+      "description": "The IP range relevant for abuse inquiries provided for the IP.",
+      "name": "TeamCymru.IP.Registrar.Abuse.Network",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Team Cymru",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/team-cymru"
+}

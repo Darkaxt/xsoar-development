@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"MD5\": \"f90b597ba419030d7d4bc97b21f79c90\"",
+  "examples": [
+    "Command Example\n!threat-grid-get-summary-by-id id=9798717402a40970a2d043014d9a6170\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"ArtifactsCount\": {\n\"Extracted\": 1,",
+    "!threat-grid-get-summary-by-id id=9798717402a40970a2d043014d9a6170\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"ArtifactsCount\": {\n\"Extracted\": 1,\n\"Disk\": 3,"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-summary-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The sample ID ThreatGrid.Sample.AnalysisSummary.RegistryCount The registry count of the sample",
+      "name": "ThreatGrid.Sample.ID",
+      "required": ""
+    },
+    {
+      "description": "The filename of the sample ThreatGrid.Sample.AnalysisSummary.SHA256 The SHA-256 hash of the sample",
+      "name": "ThreatGrid.Sample.AnalysisSummary.FileName",
+      "required": ""
+    },
+    {
+      "description": "The sample type ThreatGrid.Sample.AnalysisSummary.FirstSeen date",
+      "name": "ThreatGrid.Sample.AnalysisSummary.SampleType",
+      "required": ""
+    },
+    {
+      "description": "ThreatGrid.Sample.AnalysisSummary.LastSeen date The timestamp when the sample was last seen",
+      "name": "The timestamp when the sample was first seen",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

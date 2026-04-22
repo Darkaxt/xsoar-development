@@ -1,0 +1,96 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "CN=45g4rg43g4fr3434g.gb.net",
+  "examples": [
+    "!ip ip=8.8.8.8,8.8.4.4\nContext Example\n#\n{\n\"services\"\n:\n[\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The port number associated with the service running on the IP. Censys.IP.services.transport_protocol The transport protocol used by the service running on the IP.",
+      "name": "Censys.IP.services.port",
+      "required": ""
+    },
+    {
+      "description": "The name of the service running on the IP. Censys.IP.services.cert The SSL/TLS certificate associated with the service running on the IP.",
+      "name": "Censys.IP.services.protocol",
+      "required": ""
+    },
+    {
+      "description": "Labels associated with the IP address (with premium access only). Censys.IP.dns.reverse_dns.names Reverse DNS names associated with the IP address.",
+      "name": "Censys.IP.labels",
+      "required": ""
+    },
+    {
+      "description": "The country code of the autonomous system associated with the IP address. Censys.IP.autonomous_system.description Description of the autonomous system associated with the IP address.",
+      "name": "Censys.IP.autonomous_system.country_code",
+      "required": ""
+    },
+    {
+      "description": "Name of the autonomous system associated with the IP address. Censys.IP.autonomous_system.bgp_prefix BGP prefix of the autonomous system associated with the IP address.",
+      "name": "Censys.IP.autonomous_system.name",
+      "required": ""
+    },
+    {
+      "description": "Autonomous System Number (ASN) of the autonomous system associated with the IP address. Censys.IP.ip The IP address.",
+      "name": "Censys.IP.autonomous_system.asn",
+      "required": ""
+    },
+    {
+      "description": "Country name of the location associated with the IP address. Censys.IP.location.timezone Time zone of the location associated with the IP address.",
+      "name": "Censys.IP.location.country",
+      "required": ""
+    },
+    {
+      "description": "Province name of the location associated with the IP address. Censys.IP.location.coordinates.latitude Latitude coordinate of the location associated with the IP address.",
+      "name": "Censys.IP.location.province",
+      "required": ""
+    },
+    {
+      "description": "Longitude coordinate of the location associated with the IP address. Censys.IP.location.continent Continent name of the location associated with the IP address.",
+      "name": "Censys.IP.location.coordinates.longitude",
+      "required": ""
+    },
+    {
+      "description": "Postal code of the location associated with the IP address. Censys.IP.location.city City name of the location associated with the IP address.",
+      "name": "Censys.IP.location.postal_code",
+      "required": ""
+    },
+    {
+      "description": "Country code of the location associated with the IP address. IP.Address The IP address.",
+      "name": "Censys.IP.location.country_code",
+      "required": ""
+    },
+    {
+      "description": "The IP ASN. IP.Geo.Country The IP country.",
+      "name": "IP.ASN",
+      "required": ""
+    },
+    {
+      "description": "The IP location. IP.UpdatedDate The IP last update",
+      "name": "IP.Geo.Location",
+      "required": ""
+    },
+    {
+      "description": "The IP port DBotScore.Indicator The indicator that was tested.",
+      "name": "IP.Port",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Score The actual score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "Reliability of the source providing the intelligence data. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Reliability",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Censys v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/censys-v2"
+}

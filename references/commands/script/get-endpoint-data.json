@@ -1,0 +1,154 @@
+{
+  "aliases": [
+    "get-endpoint-data"
+  ],
+  "arguments": [],
+  "description": "get-endpoint-data | Cortex XSOAR",
+  "examples": [
+    "!endpoint\ncommand will run across all available brands.\nIf you provide specific brands, only those brands will be executed.\nIf you include additional brands not on the defaultlist, the predefined list of default brands and the\n!endpoint\ncommand will run only for those brands.\nExamples\n#",
+    "!endpoint\ncommand will run only for those brands.\nExamples\n#\nbrands=\"Active Directory Query v2,FireEyeHX v2\"\n\u2192 the script will run the Active Directory Query v2 and the FireEyeHX v2 commands.\nbrands=\"Microsoft Defender Advanced Threat Protection\"\n\u2192 the script will run !endpoint only with this brand."
+  ],
+  "kind": "script",
+  "name": "get-endpoint-data",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The endpoint's hostname. EndpointData.Hostname.source The vendor from which the hostname of this endpoint was retrieved.",
+      "name": "EndpointData.Hostname.value",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.EntityA.value The source of the relationship. EndpointData.EntityA.source",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.EntityB.value The destination of the relationship. EndpointData.EntityB.source",
+      "name": "The vendor from which EntityA of this endpoint was retrieved.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Relationship.value The name of the relationship. EndpointData.Relationship.source",
+      "name": "The vendor from which EntityB of this endpoint was retrieved.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.EntityAType.value The type of the source of the relationship. EndpointData.EntityAType.source",
+      "name": "The vendor from which the relationship of this endpoint was retrieved.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.EntityBType.value The type of the destination of the relationship. EndpointData.EntityBType.source",
+      "name": "The vendor from which the type of the source of the relationship of this endpoint was retrieved.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.ID.value The endpoint's ID. EndpointData.ID.source",
+      "name": "The vendor from which the type of the destination of the relationship of this endpoint was retrieved.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.RiskLevel The endpoint's risk level. EndpointData.IPAddress.value",
+      "name": "The vendor from which the ID of this endpoint was retrieved.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.IPAddress.source The vendor from which the IP address of this endpoint was retrieved. EndpointData.Domain.value",
+      "name": "The endpoint's IP address.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Domain.source The vendor from which the domain of this endpoint was retrieved. EndpointData.MACAddress.value",
+      "name": "The endpoint's domain.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.MACAddress.source The vendor from which the MAC address of this endpoint was retrieved. EndpointData.DHCPServer.value",
+      "name": "The endpoint's MAC address.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.DHCPServer.source The vendor from which the DHCP server of this endpoint was retrieved. EndpointData.OS.value",
+      "name": "The DHCP server of the EndpointData.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.OS.source The vendor from which the operating system of this endpoint was retrieved. EndpointData.OSVersion.value",
+      "name": "The endpoint's operating system.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.OSVersion.source The vendor from which the operating system version of this endpoint was retrieved. EndpointData.BIOSVersion.value",
+      "name": "The endpoint's operating system version.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.BIOSVersion.source The vendor from which the BIOS version of this endpoint was retrieved. EndpointData.Model.value",
+      "name": "The endpoint's BIOS version.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Model.source The vendor from which the model of this endpoint was retrieved. EndpointData.Memory.value",
+      "name": "The model of the machine or device.",
+      "required": ""
+    },
+    {
+      "description": "Integer EndpointData.Memory.source The vendor from which the amount of memory of this endpoint was retrieved.",
+      "name": "Amount of memory on this EndpointData.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Processors.value The number of processors. Integer",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The vendor from which the processors of this endpoint was retrieved. EndpointData.Processor.value The model of the processor.",
+      "name": "EndpointData.Processors.source",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Processor.source The vendor from which the processor of this endpoint was retrieved. EndpointData.IsIsolated.value",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.IsIsolated.source The vendor from which the isolation of this endpoint was retrieved. EndpointData.Status.value",
+      "name": "The endpoint's isolation status.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Status.source The vendor from which the status of this endpoint was retrieved. EndpointData.Vendor.value",
+      "name": "The endpoint's status.",
+      "required": ""
+    },
+    {
+      "description": "EndpointData.Vendor.source The vendor from which the Vendor of this endpoint was retrieved. Edit this page",
+      "name": "The integration name of the endpoint vendor.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab GenericPollingScheduledTask Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Examples Script Data",
+      "name": "get-user-data \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "get-endpoint-data",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-endpoint-data"
+}

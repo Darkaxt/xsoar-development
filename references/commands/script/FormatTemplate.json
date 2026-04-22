@@ -1,0 +1,707 @@
+{
+  "aliases": [
+    "format-template"
+  ],
+  "arguments": [
+    {
+      "description": "Note value Any value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "My name is ${first_name} ${last_name}. template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value See the value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "My name is ${.first_name} ${.last_name}. template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "value (structured)",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value My name is ${first_name} ${last_name}.",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "template_type ctx_data .",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "From previous tasks is selected ctx_inputs",
+      "name": "Make sure that",
+      "required": ""
+    },
+    {
+      "description": "variable_markers keep_symbol_to_null Context Data",
+      "name": "ctx_inc",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value Any value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "My name is %first_name% %last_name%. template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers %,%",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "keep_symbol_to_null",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value Any value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "My name is $first_name $last_name. template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers $",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "keep_symbol_to_null",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value Any value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "My name is ${first_name} ${last_name}. template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "true",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value Any value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "My name is ${first_name=val.toUpperCase()} ${last_name=val.toUpperCase()}. template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value Any value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "See the template template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "template (structured)",
+      "required": ""
+    },
+    {
+      "description": "\"1\": \"First name is ${first_name}\", \"2\": \"Last name is ${last_name}\", \"3\": [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Last name is ${last_name}\" ] }",
+      "name": "\"First name is ${first_name}\",",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Note value Any value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "See the template template_type json",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": ". Make sure that From previous tasks",
+      "name": "ctx_data",
+      "required": ""
+    },
+    {
+      "description": "ctx_inputs ctx_inc variable_markers",
+      "name": "is selected",
+      "required": ""
+    },
+    {
+      "description": "template",
+      "name": "keep_symbol_to_null",
+      "required": ""
+    },
+    {
+      "description": "\"1\": \"First name is ${first_name}\", \"2\": \"Last name is ${last_name}\", \"3\": [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Last name is ${last_name}\" ] }",
+      "name": "\"First name is ${first_name}\",",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    }
+  ],
+  "description": "FormatTemplate | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "FormatTemplate",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Getting Started",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "This is a test message for ${user_name}. The template will be formatted to This is a test message for John Doe.",
+      "name": "The transformer builds a text from a template text which includes variables just like:",
+      "required": ""
+    },
+    {
+      "description": "By default, a variable name starts with ${ and ends with",
+      "name": "by replacing the variable parameters.",
+      "required": ""
+    },
+    {
+      "description": ". You can change the start marker and end marker by specifying the variable_markers parameter.",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Examples",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Replace variables in a text based on the context data",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value Any value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "My name is ${first_name} ${last_name}. template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "Replace variables in a text based on the value",
+      "name": "My name is John Doe.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value See the value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "My name is ${.first_name} ${.last_name}. template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "value (structured)",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "Format the template given to the value",
+      "name": "My name is John Doe.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value My name is ${first_name} ${last_name}.",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "template_type ctx_data .",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "From previous tasks is selected ctx_inputs",
+      "name": "Make sure that",
+      "required": ""
+    },
+    {
+      "description": "variable_markers keep_symbol_to_null Context Data",
+      "name": "ctx_inc",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "Change the variable start and end marker to the windows command shell style such as %name%",
+      "name": "My name is John Doe.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value Any value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "My name is %first_name% %last_name%. template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers %,%",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "keep_symbol_to_null",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "Change the variable start and end marker to the UNIX shell style such as $name",
+      "name": "My name is John Doe.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value Any value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "My name is $first_name $last_name. template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers $",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "keep_symbol_to_null",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "Keep variable names if they are missing in the context",
+      "name": "My name is John Doe.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value Any value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "My name is ${first_name} ${last_name}. template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "Context Data",
+      "name": "true",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\" } Output",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Use DTs to build variables",
+      "name": "My name is John ${last_name}",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value Any value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "My name is ${first_name=val.toUpperCase()} ${last_name=val.toUpperCase()}. template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "Convert all the values in a structured data",
+      "name": "My name is JOHN DOE.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Parameters",
+      "required": ""
+    },
+    {
+      "description": "Note value Any value",
+      "name": "Value",
+      "required": ""
+    },
+    {
+      "description": "See the template template_type ctx_data",
+      "name": "template",
+      "required": ""
+    },
+    {
+      "description": "Make sure that From previous tasks is selected",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "ctx_inc variable_markers keep_symbol_to_null",
+      "name": "ctx_inputs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "template (structured)",
+      "required": ""
+    },
+    {
+      "description": "\"1\": \"First name is ${first_name}\", \"2\": \"Last name is ${last_name}\", \"3\": [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Last name is ${last_name}\" ] }",
+      "name": "\"First name is ${first_name}\",",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Data",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "\"1\": \"First name is John\", \"2\": \"Last name is Doe\", \"3\": [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Last name is Doe\" ] }",
+      "name": "\"First name is John\",",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Convert all the values in a JSON text",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FormatTemplate",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/format-template"
+}

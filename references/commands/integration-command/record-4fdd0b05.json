@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "asm-get-attack-surface-rule",
+  "examples": [
+    "!asm-get-attack-surface-rule attack_surface_rule_id=RdpServer raw-response=true\nContext Example\n#\n{\n\"reply\"\n:\n{\n\"attack_surface_rules\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Attack surface rule ID. ASM.AttackSurfaceRule.attack_surface_rule_name Attack surface rule name.",
+      "name": "ASM.AttackSurfaceRule.attack_surface_rule_id",
+      "required": ""
+    },
+    {
+      "description": "Attack surface rule category. ASM.AttackSurfaceRule.enabled_status Attack surface rule status.",
+      "name": "ASM.AttackSurfaceRule.category",
+      "required": ""
+    },
+    {
+      "description": "Attack surface rule priority. ASM.AttackSurfaceRule.remediation_guidance Remediation guidance of attack surface rule.",
+      "name": "ASM.AttackSurfaceRule.priority",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cortex Attack Surface Management",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cortex-attack-surface-management"
+}

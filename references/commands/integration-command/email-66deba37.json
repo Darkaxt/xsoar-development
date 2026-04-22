@@ -1,0 +1,51 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "5. Get the reputation of an email observable: email",
+  "examples": [
+    "Command Example\nemail email=disco-team@stealthemail.com\nContext Example\n{\n\"EclecticIQ.Email\": [\n{\n\"Maliciousness\": \"unknown\",\n\"Created\": \"2018-11-21T13:34:31.126027+00:00\","
+  ],
+  "kind": "integration-command",
+  "name": "email",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Email that was tested EclecticIQ.Email.Created Date",
+      "name": "EclecticIQ.Email.Address",
+      "required": ""
+    },
+    {
+      "description": "EclecticIQ.Email.LastUpdate Date Observable last updated date",
+      "name": "Observable creation date",
+      "required": ""
+    },
+    {
+      "description": "Observable ID EclecticIQ.Email.Maliciousness Maliciousness confidence level",
+      "name": "EclecticIQ.Email.ID",
+      "required": ""
+    },
+    {
+      "description": "Email that was tested Account.Email.Malcious.Vendor For malicious email addresses, the vendor that made the decision",
+      "name": "Account.Email.Address",
+      "required": ""
+    },
+    {
+      "description": "For malicious email addresses, the reason that the vendor made the decision DBotScore.Type Indicator type",
+      "name": "Account.Email.Malcious.Description",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EclecticIQ Platform (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/eclectic-iq-platform"
+}

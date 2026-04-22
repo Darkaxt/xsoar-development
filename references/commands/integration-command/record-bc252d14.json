@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n#\n!abnormal-security-list-unanalyzed-abuse-mailbox-campaigns\nContext Example\n#\n{\n\"AbnormalSecurity\"\n:",
+    "!abnormal-security-list-unanalyzed-abuse-mailbox-campaigns\nContext Example\n#\n{\n\"AbnormalSecurity\"\n:\n{\n\"AbuseCampaign\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "abnormal-security-list-unanalyzed-abuse-mailbox-campaigns",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Get a list of unanalyzed Abuse Mailbox campaigns",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "abnormal-security-list-unanalyzed-abuse-mailbox-campaigns",
+      "required": ""
+    },
+    {
+      "description": "An id which maps to an abuse campaign. AbnormalSecurity.UnanalyzedAbuseCampaigns.results.recipient.name The name of the recipient.",
+      "name": "AbnormalSecurity.UnanalyzedAbuseCampaigns.results.abx_message_id",
+      "required": ""
+    },
+    {
+      "description": "The email address of the recipient. AbnormalSecurity.UnanalyzedAbuseCampaigns.results.reported_datetime The datetime the report was made.",
+      "name": "AbnormalSecurity.UnanalyzedAbuseCampaigns.results.recipient.email",
+      "required": ""
+    },
+    {
+      "description": "The email address of the reporter. AbnormalSecurity.UnanalyzedAbuseCampaigns.results.reporter.name The name of the reporter.",
+      "name": "AbnormalSecurity.UnanalyzedAbuseCampaigns.results.reporter.email",
+      "required": ""
+    },
+    {
+      "description": "The subject of the message. AbnormalSecurity.UnanalyzedAbuseCampaigns.results.not_analyzed_reason The reason the message was not analyzed.",
+      "name": "AbnormalSecurity.UnanalyzedAbuseCampaigns.results.subject",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Abnormal Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/abnormal-security"
+}

@@ -1,0 +1,82 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "acti-getThreatIntelReport",
+  "examples": [
+    "Command Example\n#\n!acti-getThreatIntelReport uuid=8b8b48f1-92a0-411a-a073-3241f6819f8b\nContext Example\n#\n{\n\"DBotScore\"\n:",
+    "!acti-getThreatIntelReport uuid=8b8b48f1-92a0-411a-a073-3241f6819f8b\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "This field is specific to Intelligence Alert and provides a summarised context, for example, 'The worldwide COVID-19 outbreak...' IAIR.last_published The last published timestamp of the IA/IR, for example, '2020-06-26T01:14:56.000Z'",
+      "name": "IAIR.abstract",
+      "required": ""
+    },
+    {
+      "description": "The index timestamp of the IA/IR, for example, '2022-02-11T17:24:03.604Z' IAIR.display_text The display text of the IA/IR, for example, 'SITREP Cybersecurity Risks Related to COVID-19'",
+      "name": "IAIR.index_timestamp",
+      "required": ""
+    },
+    {
+      "description": "The value of the IA/IR, for example, '8b8b48f1-92a0-411a-a073-3241f6819f8b' IAIR.last_modified The last modified timestamp of the IA/IR, for example, '2022-02-11T17:21:48.000Z'",
+      "name": "IAIR.value",
+      "required": ""
+    },
+    {
+      "description": "The threat type of the IA/IR, for example, '- Hacktivism- Cyber Espionage- Cyber Crime- Vulnerability'. It's formatted in such a way that it gets displayed better. IAIR.created_on The creation timestamp of the IA/IR, for example, '2020-03-12T22:22:25.000Z'",
+      "name": "IAIR.threat_types",
+      "required": ""
+    },
+    {
+      "description": "The title of the IA/IR, for example, 'SITREP Cybersecurity Risks Related to COVID-19' IAIR.type The type of report i.e. an IA/IR , for example, 'intelligence_alert'",
+      "name": "IAIR.title",
+      "required": ""
+    },
+    {
+      "description": "The uuid of the IA/IR, for example, '8b8b48f1-92a0-411a-a073-3241f6819f8b' IAIR.analysis The analysis of the IA/IR, for example, 'COVID-19 Introduces Cyberthreat Opportunities...'",
+      "name": "IAIR.uuid",
+      "required": ""
+    },
+    {
+      "description": "Provides with the document links related to the Intelligence Alert. This field is specific to Intelligence Alert, for example, ' https://intelgraph.idefense.com/rest/files/download/ ...'",
+      "name": "IAIR.attachment_links",
+      "required": ""
+    },
+    {
+      "description": "Provides severity rating. This field is specific to Intelligence Alert, for example, '4' IAIR.mitigation Provides info on how to mitigate. This field is specific to Intelligence Alert, for example, '## Expert, Experienced Advice Will be CriticalTo minimize targeting opportunities...'",
+      "name": "IAIR.severity",
+      "required": ""
+    },
+    {
+      "description": "Provides conclusion of the report. This field is specific to Intelligence Report IAIR.summary Provides with a summary of the report. This field is specific to Intelligence Report.",
+      "name": "IAIR.conclusion",
+      "required": ""
+    },
+    {
+      "description": "Provides with the dynamic properties related to the intelligence alert/report. IAIR.links Provides details of the linked fields related to the intelligence alert/report.",
+      "name": "IAIR.dynamic_properties",
+      "required": ""
+    },
+    {
+      "description": "Provides with external sources related to the intelligence alert/report. DBotScore.Indicator The indicator that was tested.",
+      "name": "IAIR.sources_external",
+      "required": ""
+    },
+    {
+      "description": "Reliability of the source providing the intelligence data. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Reliability",
+      "required": ""
+    },
+    {
+      "description": "The vendor that was used to calculate the score. DBotScore.Score The actual score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ACTI Indicator Query",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/acti-indicator-query"
+}

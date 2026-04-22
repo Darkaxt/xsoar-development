@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Reveal data using key configured in Fortanix DSM",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Decryption output Edit this page Report an Issue",
+      "name": "Fortanix.Data.Plain",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Forescout EyeInspect Next FortiAuthenticator \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Configure Fortanix DSM in Cortex Commands fortanix-list-secrets",
+      "name": "Authorize Cortext XSOAR to Fortanix DSM",
+      "required": ""
+    },
+    {
+      "description": "fortanix-fetch-secret fortanix-new-secret fortanix-rotate-secret",
+      "name": "fortanix-get-secret-metadata",
+      "required": ""
+    },
+    {
+      "description": "fortanix-invoke-plugin fortanix-encrypt fortanix-decrypt",
+      "name": "fortanix-delete-secret",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Fortanix DSM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fortanix-dsm"
+}

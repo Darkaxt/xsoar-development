@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!wiz-get-resource resource_id=\"arn:aws:ec2:us-east-2:123456789098:instance/i-0g03j4h5gd123d456\"",
+  "examples": [
+    "!wiz-get-resource resource_id=\"arn:aws:ec2:us-east-2:123456789098:instance/i-0g03j4h5gd123d456\"\n!wiz-get-resource resource_name=\"i-0g03j4h5gd123d456\"\n!wiz-get-resource resource_name=\"test_vm\"\nwiz-get-resources\n#\nGet details of multiple resources based on various filters.\nBase Command\nwiz-get-resources",
+    "!wiz-get-resource resource_name=\"i-0g03j4h5gd123d456\"\n!wiz-get-resource resource_name=\"test_vm\"\nwiz-get-resources\n#\nGet details of multiple resources based on various filters.\nBase Command\nwiz-get-resources\nInput",
+    "!wiz-get-resource resource_name=\"test_vm\"\nwiz-get-resources\n#\nGet details of multiple resources based on various filters.\nBase Command\nwiz-get-resources\nInput\nArgument Name",
+    "Command Example\n#\n!wiz-get-resources search=\"web-server\"\n!wiz-get-resources entity_type=\"VIRTUAL_MACHINE\"",
+    "!wiz-get-resources search=\"web-server\"\n!wiz-get-resources entity_type=\"VIRTUAL_MACHINE\"",
+    "!wiz-get-resources entity_type=\"VIRTUAL_MACHINE\""
+  ],
+  "kind": "integration-command",
+  "name": "wiz-get-resources",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "This command returns the raw response data from the Wiz API. The response includes resource details in JSON format.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Wiz",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/wiz"
+}

@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!cve cve=CVE-2021-0123\nContext Example\n#\n{\n\"CVE\"\n:",
+    "!cve cve=CVE-2021-0123\nContext Example\n#\n{\n\"CVE\"\n:\n{\n\"CVSS\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the CVE, for example: CVE-2015-1653 CVE.CVSS The CVSS of the CVE, for example: 10.0",
+      "name": "CVE.ID",
+      "required": ""
+    },
+    {
+      "description": "Date The timestamp of when the CVE was published. CVE.Modified",
+      "name": "CVE.Published",
+      "required": ""
+    },
+    {
+      "description": "The timestamp of when the CVE was last modified. CVE.Description A description of the CVE.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The ID of the CVE Qintel.CVE.AffectedSystem Systems affected by the CVE",
+      "name": "Qintel.CVE.ID",
+      "required": ""
+    },
+    {
+      "description": "Systems affected by the CVE Qintel.CVE.LastObserved Last threat actor observation time",
+      "name": "Qintel.CVE.AffectedVersions",
+      "required": ""
+    },
+    {
+      "description": "List of observations DBotScore.Indicator The indicator that was tested.",
+      "name": "Qintel.CVE.Observations",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Qintel PMI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/qintel-pmi"
+}

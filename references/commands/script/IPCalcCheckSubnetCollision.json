@@ -1,0 +1,73 @@
+{
+  "aliases": [
+    "ip-calc-check-subnet-collision"
+  ],
+  "arguments": [],
+  "description": "IPCalcCheckSubnetCollision | Cortex XSOAR",
+  "examples": [
+    "!IPCalcCheckSubnetCollision subnet_one=192.169.20.10/28 subnet_two=192.169.20.11\nContext Example\n#\n{\n\"IPCalc\"\n:\n{\n\"IP\""
+  ],
+  "kind": "script",
+  "name": "IPCalcCheckSubnetCollision",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Collission first subnet IPCalc.IP.Collision.subnet2 Collission second subnet",
+      "name": "IPCalc.IP.Collision.subnet1",
+      "required": ""
+    },
+    {
+      "description": "IPCalc.IP.Collision.collision Collission result Script Example",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!IPCalcCheckSubnetCollision subnet_one=192.169.20.10/28 subnet_two=192.169.20.11",
+      "required": ""
+    },
+    {
+      "description": "\"IPCalc\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"Collision\"",
+      "name": "\"IP\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"collision\" :",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ", \"subnet1\" :",
+      "name": "true",
+      "required": ""
+    },
+    {
+      "description": ", \"subnet2\" :",
+      "name": "\"192.169.20.0/28\"",
+      "required": ""
+    },
+    {
+      "description": "} } }",
+      "name": "\"192.169.20.11/32\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IPCalcCheckSubnetCollision",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ip-calc-check-subnet-collision"
+}

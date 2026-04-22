@@ -1,0 +1,61 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "7. Get policy information",
+  "examples": [
+    "Command Example\nsymantec-mc-get-policy uuid=\"0D264052-9628-4872-8C07-E04A8B95F602\"\nContext Example\n{\n\"SymantecMC.Policy\": {\n\"ReferenceID\": \"test_ip_list\",\n\"ContentType\": \"IP_LIST\",\n\"Description\": \"New description\","
+  ],
+  "kind": "integration-command",
+  "name": "symantec-mc-get-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Policy name. SymantecMC.Policy.SchemaVersion Policy content schema version.",
+      "name": "SymantecMC.Policy.Name",
+      "required": ""
+    },
+    {
+      "description": "Policy content revision number. SymantecMC.Policy.RevisionInfo.Description Policy content revision description.",
+      "name": "SymantecMC.Policy.RevisionInfo.Number",
+      "required": ""
+    },
+    {
+      "description": "Policy content revision author. SymantecMC.Policy.RevisionInfo.Date Date",
+      "name": "SymantecMC.Policy.RevisionInfo.Author",
+      "required": ""
+    },
+    {
+      "description": "SymantecMC.Policy.IP.Address Policy IP address. SymantecMC.Policy.IP.Description",
+      "name": "Policy content revision date.",
+      "required": ""
+    },
+    {
+      "description": "Policy IP description. SymantecMC.Policy.IP.Enabled Policy IP enabled.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Policy URL address. SymantecMC.Policy.URL.Description Policy URL description.",
+      "name": "SymantecMC.Policy.URL.Address",
+      "required": ""
+    },
+    {
+      "description": "Policy URL enabled. SymantecMC.Policy.Category.Name Policy category name.",
+      "name": "SymantecMC.Policy.URL.Enabled",
+      "required": ""
+    },
+    {
+      "description": "Policy UUID. SymantecMC.Policy.Description Policy Description.",
+      "name": "SymantecMC.Policy.UUID",
+      "required": ""
+    },
+    {
+      "description": "Policy reference ID.",
+      "name": "SymantecMC.Policy.ReferenceID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-management-center"
+}

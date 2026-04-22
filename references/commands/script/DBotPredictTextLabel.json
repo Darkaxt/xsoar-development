@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "d-bot-predict-text-label"
+  ],
+  "arguments": [],
+  "description": "DBotPredictTextLabel | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DBotPredictTextLabel",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The suggested label. DBotPredictTextLabel.Probability The prediction probability.",
+      "name": "DBotPredictTextLabel.Label",
+      "required": ""
+    },
+    {
+      "description": "DBotPredictTextLabel.InputTextNumberOfTokens The number of tokens in the input text. DBotPredictTextLabel.InputTextTokens",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The input text.",
+      "required": ""
+    },
+    {
+      "description": "Next DBotPredictURLPhishing \u00bb Script Data",
+      "name": "\u00ab DBotPredictPhishingWords",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DBotPredictTextLabel",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/d-bot-predict-text-label"
+}

@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "604f64e1e4b0bbedc8c77aa4",
+  "examples": [
+    "Command Example\n#\n!cisco-stealthwatch-list-security-events-results tenant_id=102 limit=5 search_id=604f64e1e4b0bbedc8c77aa4\nContext Example\n#\n{\n\"CiscoStealthwatch\"\n:",
+    "!cisco-stealthwatch-list-security-events-results tenant_id=102 limit=5 search_id=604f64e1e4b0bbedc8c77aa4\nContext Example\n#\n{\n\"CiscoStealthwatch\"\n:\n{\n\"SecurityEventResults\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "str The ID of the security event. CiscoStealthwatch.SecurityEventResults.domainId",
+      "name": "CiscoStealthwatch.SecurityEventResults.id",
+      "required": ""
+    },
+    {
+      "description": "The domain ID of the security event. CiscoStealthwatch.SecurityEventResults.deviceId str",
+      "name": "str",
+      "required": ""
+    },
+    {
+      "description": "CiscoStealthwatch.SecurityEventResults.securityEventType str The type of the security event.",
+      "name": "The device ID of the security event.",
+      "required": ""
+    },
+    {
+      "description": "str The first active time of the security event. CiscoStealthwatch.SecurityEventResults.lastActiveTime",
+      "name": "CiscoStealthwatch.SecurityEventResults.firstActiveTime",
+      "required": ""
+    },
+    {
+      "description": "The last active time of the security event. CiscoStealthwatch.SecurityEventResults.source str",
+      "name": "str",
+      "required": ""
+    },
+    {
+      "description": "CiscoStealthwatch.SecurityEventResults.target str The target of the security event.",
+      "name": "The source of the security event.",
+      "required": ""
+    },
+    {
+      "description": "str The details of the security event. CiscoStealthwatch.SecurityEventResults.hitCount",
+      "name": "CiscoStealthwatch.SecurityEventResults.details",
+      "required": ""
+    },
+    {
+      "description": "The hit count of the security event.",
+      "name": "str",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Secure Network Analytics (Stealthwatch)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-stealthwatch"
+}

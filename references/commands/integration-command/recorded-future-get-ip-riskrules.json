@@ -1,0 +1,33 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!recorded-future-get-ip-riskrules\nContext Example\n{\n\"RecordedFuture\": {\n\"RiskRule\": {\n\"IP\": [\n{",
+    "!recorded-future-get-ip-riskrules\nContext Example\n{\n\"RecordedFuture\": {\n\"RiskRule\": {\n\"IP\": [\n{\n\"Count\": 1187,"
+  ],
+  "kind": "integration-command",
+  "name": "recorded-future-get-ip-riskrules",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Risk rule name RecordedFuture.RiskRule.IP.Description Risk rule description",
+      "name": "RecordedFuture.RiskRule.IP.Name",
+      "required": ""
+    },
+    {
+      "description": "Risk rule indicator count RecordedFuture.RiskRule.IP.Criticality Risk rule criticality",
+      "name": "RecordedFuture.RiskRule.IP.Count",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

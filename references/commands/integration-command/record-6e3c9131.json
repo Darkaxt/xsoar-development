@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Darktrace.AIAnalyst.eventId",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Investigation Group Unique Identifier Darktrace.AIAnalyst.incidentEvents Associated events",
+      "name": "Darktrace.AIAnalyst.groupId",
+      "required": ""
+    },
+    {
+      "description": "Associated Mitre Tactics seen on incident Darktrace.AIAnalyst.groupScore Group score",
+      "name": "Darktrace.AIAnalyst.mitreTactics",
+      "required": ""
+    },
+    {
+      "description": "Group category Edit this page Report an Issue",
+      "name": "Darktrace.AIAnalyst.groupCategory",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Darktrace Admin Next Darktrace ASM \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands darktrace-get-ai-analyst-incident-event darktrace-get-comments-for-ai-analyst-incident-event",
+      "name": "Configure Darktrace in Cortex",
+      "required": ""
+    },
+    {
+      "description": "darktrace-acknowledge-ai-analyst-incident-event darktrace-unacknowledge-ai-analyst-incident-event darktrace-get-ai-analyst-incident-group-from-eventId",
+      "name": "darktrace-post-comment-to-ai-analyst-incident-event",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Darktrace AI Analyst",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/darktrace-aia"
+}

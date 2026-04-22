@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Description:High confidence",
+  "examples": [
+    "Command Example\n!cs-reports actor=panda limit=10",
+    "!cs-reports actor=panda limit=10"
+  ],
+  "kind": "integration-command",
+  "name": "cs-reports",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Intel (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-intel"
+}

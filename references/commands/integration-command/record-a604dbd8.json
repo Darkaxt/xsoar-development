@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Microsoft Windows [Version 10.0.17763.1935]",
+  "examples": [
+    "Command Example\n#\n!cbd-lr-memdump device_id=\"the actually device ID\" target_path=C:\\test\\memdump\\dumped_file\nHuman Readable Output\n#\nMemory was successfully dumped to C:\\test\\memdump\\dumped_file.\nEdit this page\nReport an Issue",
+    "!cbd-lr-memdump device_id=\"the actually device ID\" target_path=C:\\test\\memdump\\dumped_file\nHuman Readable Output\n#\nMemory was successfully dumped to C:\\test\\memdump\\dumped_file.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Carbon Black Enterprise EDR"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Carbon Black Live Response Cloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-live-response-cloud"
+}

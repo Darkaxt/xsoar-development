@@ -1,0 +1,40 @@
+{
+  "aliases": [
+    "penfield-assign"
+  ],
+  "arguments": [],
+  "description": "PenfieldAssign | Cortex XSOAR",
+  "examples": [
+    "!PenfieldAssign\n!PenfieldAssign assign='Yes'\n!PenfieldAssign assign='No'\nHuman Readable Output\n#\nincident assigned to: charles\nEdit this page\nReport an Issue",
+    "!PenfieldAssign assign='Yes'\n!PenfieldAssign assign='No'\nHuman Readable Output\n#\nincident assigned to: charles\nEdit this page\nReport an Issue\nPrevious",
+    "!PenfieldAssign assign='No'\nHuman Readable Output\n#\nincident assigned to: charles\nEdit this page\nReport an Issue\nPrevious\n\u00ab PDFUnlocker"
+  ],
+  "kind": "script",
+  "name": "PenfieldAssign",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "!PenfieldAssign assign='Yes' !PenfieldAssign assign='No'",
+      "name": "!PenfieldAssign",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Examples",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PenfieldAssign",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/penfield-assign"
+}

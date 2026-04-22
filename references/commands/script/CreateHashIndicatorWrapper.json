@@ -1,0 +1,418 @@
+{
+  "aliases": [
+    "create-hash-indicator-wrapper"
+  ],
+  "arguments": [],
+  "description": "CreateHashIndicatorWrapper | Cortex XSOAR",
+  "examples": [
+    "!CreateHashIndicatorWrapper action=block hash=9310daf6d10f4fbfaf390e74bcf1c4d9acc023d7db3e26030f8772528572a22a\nContext Example\n#\n{\n\"PaloAltoNetworksXDR\"\n:\n{\n\"blackList\""
+  ],
+  "kind": "script",
+  "name": "CreateHashIndicatorWrapper",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Created by the system when the indicator is ingested. Generated GUID/unique identifier. MicrosoftATP.Indicators.action The action to apply if the indicator is matched within the targetProduct security tool. Possible values: \"unknown\", \"allow\", \"block\", or \"alert\".",
+      "name": "MicrosoftATP.Indicators.id",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.additionalInformation A catchall area where extra data from the indicator not covered by the other indicator properties may be placed. Data placed into additionalInformation is typically not utilized by the targetProduct security tool. MicrosoftATP.Indicators.azureTenantId",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.confidence An integer representing confidence the indicator data accurately identifies malicious behavior. Possible values are 0 \u2013 100, with 100 being the highest. MicrosoftATP.Indicators.description",
+      "name": "Stamped by the system when the indicator is ingested. The Entra ID submitting client tenant ID.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.diamondModel The area of the Diamond Model in which this indicator exists. Possible values: \"unknown\", \"adversary\", \"capability\", \"infrastructure\", and \"victim\". MicrosoftATP.Indicators.domainName",
+      "name": "Brief description (100 characters or less) of the threat represented by the indicator.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.expirationDateTime DateTime string indicating when the indicator expires. To avoid stale indicators persisting in the system, all indicators must have an expiration date. The timestamp type represents date and time information in ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 looks like: '2014-01-01T00:00:00Z' Date",
+      "name": "Domain name associated with this indicator. Should be in the format subdomain.domain.topleveldomain.",
+      "required": ""
+    },
+    {
+      "description": "An identification number that ties the indicator back to the indicator provider\u2019s system (for example, a foreign key). MicrosoftATP.Indicators.fileCompileDateTime DateTime the file was compiled. The timestamp type represents date and time information in ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 looks like: '2014-01-01T00:00:00Z'",
+      "name": "MicrosoftATP.Indicators.externalId",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.fileCreatedDateTime DateTime the file was created.The Timestamp type represents date and time information in ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 looks like: '2014-01-01T00:00:00Z' Date",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The type of hash stored in fileHashValue. Possible values: \"unknown\", \"sha1\", \"sha256\", \"md5\", \"authenticodeHash256\", \"lsHash\", and \"ctph\". MicrosoftATP.Indicators.fileHashValue The file hash value.",
+      "name": "MicrosoftATP.Indicators.fileHashType",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.fileMutexName The Mutex name used in file-based detections. MicrosoftATP.Indicators.fileName",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.filePacker The packer used to build the file in question. MicrosoftATP.Indicators.filePath",
+      "name": "The name of the file if the indicator is file-based. Multiple file names may be delimited by commas.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.fileSize The size of the file in bytes. MicrosoftATP.Indicators.fileType",
+      "name": "The path of the file indicating a compromise. Can be a Windows or *nix style path.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.ingestedDateTime The timestamp the indicator was ingested into the system. The Timestamp type represents date and time information in ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 looks like: '2014-01-01T00:00:00Z' Date",
+      "name": "The text description of the type of file. For example, \u201cWord Document\u201d or \u201cBinary\u201d.",
+      "required": ""
+    },
+    {
+      "description": "Used to deactivate indicators within the system. By default, any indicator submitted is set as active. However, providers may submit existing indicators with this set to \u2018False\u2019 to deactivate indicators in the system. MicrosoftATP.Indicators.knownFalsePositives Scenarios in which the indicator may cause false positives. This should be human-readable text.",
+      "name": "MicrosoftATP.Indicators.isActive",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.lastReportedDateTime The last time the indicator was seen. The timestamp type represents date and time information in ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 looks like: '2014-01-01T00:00:00Z' Date",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The CIDR Block notation representation of the network referenced in this indicator. Use only if the source and destination cannot be identified. MicrosoftATP.Indicators.networkDestinationAsn The destination autonomous system identifier of the network referenced in the indicator.",
+      "name": "MicrosoftATP.Indicators.networkCidrBlock",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.networkDestinationCidrBlock The CIDR Block notation representation of the destination network in this indicator. MicrosoftATP.Indicators.networkDestinationIPv4",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.networkDestinationIPv6 The IPv6 IP address destination. MicrosoftATP.Indicators.networkDestinationPort",
+      "name": "The IPv4 IP address destination.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.networkIPv4 The IPv4 IP address. MicrosoftATP.Indicators.networkIPv6",
+      "name": "The TCP port destination.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.networkPort The TCP port. MicrosoftATP.Indicators.networkProtocol",
+      "name": "The IPv6 IP address.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.networkSourceAsn The source autonomous system identifier of the network referenced in the indicator. MicrosoftATP.Indicators.networkSourceCidrBlock",
+      "name": "The decimal representation of the protocol field in the IPv4 header.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.networkSourceIPv4 The IPv4 IP address source. MicrosoftATP.Indicators.networkSourceIPv6",
+      "name": "The CIDR Block notation representation of the source network in this indicator.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.networkSourcePort The TCP port source. MicrosoftATP.Indicators.passiveOnly",
+      "name": "The IPv6 IP address source.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.severity An integer representing the severity of the malicious behavior identified by the data within the indicator. Possible values: \"Informational\", \"Low\", \"MediumLow\", \"MediumHigh\", and \"High\", where High is the most severe and Informational is not severe at all. MicrosoftATP.Indicators.targetProduct",
+      "name": "Determines if the indicator should trigger an event that is visible to an end-user. When set to \u2018true,\u2019 security tools do not notify the end user that a \u2018hit\u2019 has occurred. This is most often treated as audit or silent mode by security products where they simply log that a match occurred but do not perform the action. Default value is false.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.threatType Each indicator must have a valid Indicator Threat Type. Possible values: \"Botnet\", \"C2\", \"CryptoMining\", \"Darknet\", \"DDoS\", \"MaliciousUrl\", \"Malware\", \"Phishing\", \"Proxy\", \"PUA\", and \"WatchList\". MicrosoftATP.Indicators.tlpLevel",
+      "name": "A string representing a single security product to which the indicator should be applied.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.url Uniform Resource Locator. This URL complies with RFC 1738. MicrosoftATP.Indicators.userAgent",
+      "name": "Traffic Light Protocol value for the indicator. Possible values: \"unknown\", \"white\", \"green\", \"amber\", and \"red\".",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.Indicators.vendorInformation Information about the vendor. File.Name",
+      "name": "User-Agent string from a web request that could indicate compromise.",
+      "required": ""
+    },
+    {
+      "description": "File.Size The size of the file in bytes. File.MD5",
+      "name": "The full file name (including file extension).",
+      "required": ""
+    },
+    {
+      "description": "File.SHA1 The SHA1 hash of the file. File.SHA256",
+      "name": "The MD5 hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "File.SHA512 The SHA512 hash of the file. File.Type",
+      "name": "The SHA256 hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "File.Path The path where the file is located. CrowdStrike.IOC.Type",
+      "name": "The file type, as determined by libmagic (same as displayed in file entries).",
+      "required": ""
+    },
+    {
+      "description": "CrowdStrike.IOC.Value The string representation of the indicator. CrowdStrike.IOC.ID",
+      "name": "The type of the IOC.",
+      "required": ""
+    },
+    {
+      "description": "CrowdStrike.IOC.Policy The policy of the indicator. CrowdStrike.IOC.Source",
+      "name": "The full ID of the indicator (type:value).",
+      "required": ""
+    },
+    {
+      "description": "CrowdStrike.IOC.ShareLevel The level at which the indicator will be shared. CrowdStrike.IOC.Expiration",
+      "name": "The source of the IOC.",
+      "required": ""
+    },
+    {
+      "description": "CrowdStrike.IOC.Description The description of the IOC. CrowdStrike.IOC.CreatedTime",
+      "name": "The datetime the indicator will expire.",
+      "required": ""
+    },
+    {
+      "description": "CrowdStrike.IOC.CreatedBy The identity of the user/process who created the IOC. CrowdStrike.IOC.ModifiedTime",
+      "name": "The datetime the IOC was created.",
+      "required": ""
+    },
+    {
+      "description": "CrowdStrike.IOC.ModifiedBy The identity of the user/process who last updated the IOC. Script Examples",
+      "name": "The date and time the indicator was last modified.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!CreateHashIndicatorWrapper action=block hash=9310daf6d10f4fbfaf390e74bcf1c4d9acc023d7db3e26030f8772528572a22a",
+      "required": ""
+    },
+    {
+      "description": "\"PaloAltoNetworksXDR\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"fileHash\"",
+      "name": "\"blackList\"",
+      "required": ""
+    },
+    {
+      "description": "[ \"9310daf6d10f4fbfaf390e74bcf1c4d9acc023d7db3e26030f8772528572a22a\" ]",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "} , \"CrowdStrike\"",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "{ \"IOC\" :",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "{ \"Description\" :",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": ", \"ModifiedTime\" :",
+      "name": "\"Blacklisted based on XSOAR inc ab57e22c-ad03-4aba-8b6c-b42bd895a116\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Platforms\" :",
+      "name": "\"2022-03-27T09:58:22.418527196Z\"",
+      "required": ""
+    },
+    {
+      "description": "\"linux\" , \"mac\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "\"windows\" ] ,",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ": \"73c8c51f9084ec745ddb86c9f1a8da3281b6cf5276300e3df0e32ae44b76f63f\" ,",
+      "name": "\"Value\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2022-03-09T09:58:04.151795968Z\" ,",
+      "name": "\"CreatedTime\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2bf188d347e44e08946f2e61ef590c24\" ,",
+      "name": "\"ModifiedBy\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2bf188d347e44e08946f2e61ef590c24\" ,",
+      "name": "\"CreatedBy\"",
+      "required": ""
+    },
+    {
+      "description": ": \"prevent\" ,",
+      "name": "\"Action\"",
+      "required": ""
+    },
+    {
+      "description": ": \"sha256\" ,",
+      "name": "\"Type\"",
+      "required": ""
+    },
+    {
+      "description": ": \"aa6ab986d7a9bf41d96e0140f373e2806d2d2b8a389eeff160d02d88b4229586\" ,",
+      "name": "\"ID\"",
+      "required": ""
+    },
+    {
+      "description": ": \"high\" }",
+      "name": "\"Severity\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"Description\" :",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"ModifiedTime\" :",
+      "name": "\"Blacklisted based on XSOAR inc ab57e22c-ad03-4aba-8b6c-b42bd895a116\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Platforms\" :",
+      "name": "\"2022-03-27T09:58:22.83074978Z\"",
+      "required": ""
+    },
+    {
+      "description": "\"linux\" , \"mac\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "\"windows\" ] ,",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ": \"006a103a9f4b9b6273d55b16ba01a704ad3e4fad59f198a77e8b64177a1064ef\" ,",
+      "name": "\"Value\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2022-03-09T09:58:03.608685951Z\" ,",
+      "name": "\"CreatedTime\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2bf188d347e44e08946f2e61ef590c24\" ,",
+      "name": "\"ModifiedBy\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2bf188d347e44e08946f2e61ef590c24\" ,",
+      "name": "\"CreatedBy\"",
+      "required": ""
+    },
+    {
+      "description": ": \"prevent\" ,",
+      "name": "\"Action\"",
+      "required": ""
+    },
+    {
+      "description": ": \"sha256\" ,",
+      "name": "\"Type\"",
+      "required": ""
+    },
+    {
+      "description": ": \"5e6bf43f5de8b64e3d6f37177171d7edceed67d6bcac06a953c3d369151f6f39\" ,",
+      "name": "\"ID\"",
+      "required": ""
+    },
+    {
+      "description": ": \"high\" }",
+      "name": "\"Severity\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"Description\" :",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"ModifiedTime\" :",
+      "name": "\"Blacklisted based on XSOAR inc ab57e22c-ad03-4aba-8b6c-b42bd895a116\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Platforms\" :",
+      "name": "\"2022-03-27T10:00:24.023778625Z\"",
+      "required": ""
+    },
+    {
+      "description": "\"linux\" , \"mac\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "\"windows\" ] ,",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ": \"9310daf6d10f4fbfaf390e74bcf1c4d9acc023d7db3e26030f8772528572a22a\" ,",
+      "name": "\"Value\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2022-03-27T10:00:24.023778625Z\" ,",
+      "name": "\"CreatedTime\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2bf188d347e44e08946f2e61ef590c24\" ,",
+      "name": "\"ModifiedBy\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2bf188d347e44e08946f2e61ef590c24\" ,",
+      "name": "\"CreatedBy\"",
+      "required": ""
+    },
+    {
+      "description": ": \"prevent\" ,",
+      "name": "\"Action\"",
+      "required": ""
+    },
+    {
+      "description": ": \"sha256\" ,",
+      "name": "\"Type\"",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CreateHashIndicatorWrapper",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/create-hash-indicator-wrapper"
+}

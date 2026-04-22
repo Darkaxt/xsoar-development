@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Output of the command",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Output of the command Edit this page Report an Issue",
+      "name": "ollama.generate",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Okta v2 Next OnboardingIntegration \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands ollama-list-models ollama-model-pull",
+      "name": "Configure Ollama in Cortex",
+      "required": ""
+    },
+    {
+      "description": "ollama-conversation ollama-model-info ollama-model-create",
+      "name": "ollama-model-delete",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "ollama-generate",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ollama",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ollama"
+}

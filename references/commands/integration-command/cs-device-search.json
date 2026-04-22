@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!cs-search-iocs types=domain",
+  "examples": [
+    "Command Example\n!cs-search-iocs types=domain\n!cs-search-iocs types=ipv4\nHuman Readable Output\n6. Search for devices\nSearch for devices in your environment by platform, host name, IP, or various other parameters.\nBase Command\ncs-device-search",
+    "!cs-search-iocs types=domain\n!cs-search-iocs types=ipv4\nHuman Readable Output\n6. Search for devices\nSearch for devices in your environment by platform, host name, IP, or various other parameters.\nBase Command\ncs-device-search\nInput",
+    "!cs-search-iocs types=ipv4\nHuman Readable Output\n6. Search for devices\nSearch for devices in your environment by platform, host name, IP, or various other parameters.\nBase Command\ncs-device-search\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "cs-device-search",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Device IDs found by device search",
+      "name": "FalconHostDevices",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FalconHost (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-host"
+}

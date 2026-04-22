@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "illusionblack-get-event-by-id",
+  "examples": [
+    "Command Example\n#\n!illusionblack-get-event-by-id id=\"2020-02-25T09:49:15Z-0950f80f-7571-4382-b4b8-5e04c160c4c0\"\nContext Example\n#\n{\n\"IllusionBlack\": {\n\"Event\": {",
+    "!illusionblack-get-event-by-id id=\"2020-02-25T09:49:15Z-0950f80f-7571-4382-b4b8-5e04c160c4c0\"\nContext Example\n#\n{\n\"IllusionBlack\": {\n\"Event\": {\n\"attacker.id\": \"NT AUTHORITY\\\\SYSTEM\",\n\"attacker.name\": \"NT AUTHORITY\\\\SYSTEM\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IllusionBLACK Single Event. IllusionBlack.Event.attacker.id IllusionBLACK Event Attacker ID.",
+      "name": "IllusionBlack.Event",
+      "required": ""
+    },
+    {
+      "description": "IllusionBLACK Event Decoy ID. IllusionBlack.Event.id IllusionBLACK Event ID.",
+      "name": "IllusionBlack.Event.decoy.id",
+      "required": ""
+    },
+    {
+      "description": "IllusionBLACK Event Severity. IllusionBlack.Event.type IllusionBLACK Event Attack Type.",
+      "name": "IllusionBlack.Event.severity",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Smokescreen IllusionBLACK",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/smokescreen-illusion-black"
+}

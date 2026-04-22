@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!cisco-ise-update-endpoint-custom-attribute macAddress=00:0E:35:D4:D8:51 attributeName=mytest attributeValue=test1=testing",
+  "examples": [
+    "Command Example\n!cisco-ise-update-endpoint-custom-attribute macAddress=00:0E:35:D4:D8:51 attributeName=mytest attributeValue=test1=testing\nHuman Readable Output\nSuccessfully updated endpoint 327b0120-4ba1-11e8-93bd-000c296ec148, the new custom fields are: \"{test1=testing}\"\n6. Update the group of an endpoint\nUpdates the group of an endpoint.\nBase Command\ncisco-ise-update-endpoint-group",
+    "!cisco-ise-update-endpoint-custom-attribute macAddress=00:0E:35:D4:D8:51 attributeName=mytest attributeValue=test1=testing\nHuman Readable Output\nSuccessfully updated endpoint 327b0120-4ba1-11e8-93bd-000c296ec148, the new custom fields are: \"{test1=testing}\"\n6. Update the group of an endpoint\nUpdates the group of an endpoint.\nBase Command\ncisco-ise-update-endpoint-group\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "cisco-ise-update-endpoint-group",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ISE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-ise"
+}

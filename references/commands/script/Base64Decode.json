@@ -1,0 +1,78 @@
+{
+  "aliases": [
+    "base64-decode"
+  ],
+  "arguments": [],
+  "description": "Base64Decode | Cortex XSOAR",
+  "examples": [
+    "!Base64Decode value=VGhpcyBpcyBhIHRlc3Q\nContext Example\n#\n{\n\"Base64\"\n:\n{\n\"decoded\""
+  ],
+  "kind": "script",
+  "name": "Base64Decode",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The decoded output in Base64 format. Base64.originalValue The passed value that was decoded.",
+      "name": "Base64.decoded",
+      "required": ""
+    },
+    {
+      "description": "Script Examples",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!Base64Decode value=VGhpcyBpcyBhIHRlc3Q",
+      "required": ""
+    },
+    {
+      "description": "\"Base64\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": \"This is a test\" ,",
+      "name": "\"decoded\"",
+      "required": ""
+    },
+    {
+      "description": ": \"VGhpcyBpcyBhIHRlc3Q\" }",
+      "name": "\"originalValue\"",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Next Base64Encode \u00bb Script Data",
+      "name": "\u00ab AzureFindAvailableNSGPriorities",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example Docs",
+      "name": "Script Examples",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Base64Decode",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/base64-decode"
+}

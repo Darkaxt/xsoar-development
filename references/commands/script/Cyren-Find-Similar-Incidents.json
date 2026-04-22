@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "cyren-find-similar-incidents"
+  ],
+  "arguments": [],
+  "description": "Cyren-Find-Similar-Incidents | Cortex XSOAR",
+  "examples": [
+    "!Cyren-Find-Similar-Incidents\nContext Example\n#\n{\n\"isSimilarIncidentFound\"\n:\nfalse\n}"
+  ],
+  "kind": "script",
+  "name": "Cyren-Find-Similar-Incidents",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Similar incident ID. cyrenIsSimilarIncidentFound Whether a similar incident was found (\"true\" or \"false\").",
+      "name": "cyrenSimilarIncident.raw_id",
+      "required": ""
+    },
+    {
+      "description": "cyrenSimilarIncident Similar incident. cyrenSimilarIncident.name",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "cyrenSimilarIncidentList an array if similar incidents cyrenSimilarIncidentCsv",
+      "name": "Similar incident name.",
+      "required": ""
+    },
+    {
+      "description": "Script Example",
+      "name": "comma separated raw ids",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!Cyren-Find-Similar-Incidents",
+      "required": ""
+    },
+    {
+      "description": "\"isSimilarIncidentFound\" : false",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cyren-Find-Similar-Incidents",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cyren-find-similar-incidents"
+}

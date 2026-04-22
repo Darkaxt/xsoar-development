@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "dspm-check-and-set-error-entries"
+  ],
+  "arguments": [],
+  "description": "DSPMCheckAndSetErrorEntries | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DSPMCheckAndSetErrorEntries",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "If one or more entries is an error. no If none of the entries is not an error.",
+      "name": "yes",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next DSPMCreateRiskSlackBlocks \u00bb Script Data",
+      "name": "\u00ab DrawRelatedIncidentsCanvas",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DSPMCheckAndSetErrorEntries",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/dspm-check-and-set-error-entries"
+}

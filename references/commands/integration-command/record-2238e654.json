@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!xsoaredlchecker-get-edl\nContext Example\n#\n{\n\"EDLChecker\"\n:\n[\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Name of the EDL from the Generic Indicators Export Service instance EDLChecker.Status The HTTP Status Code returned by the EDL",
+      "name": "EDLChecker.Name",
+      "required": ""
+    },
+    {
+      "description": "The Response or Error from the check. EDLChecker.ItemsOnList The number of indicators on the list, assuming a successful response!",
+      "name": "EDLChecker.Response",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "XSOAR EDL Checker",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/xsoar-edl-checker"
+}

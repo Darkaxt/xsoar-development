@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Looks up the reputation of the indicator in the Enterprise collection only.",
+  "examples": [
+    "Command Example\n#\n!attack-pattern attack_pattern=\"Search Threat Vendor Data\"\nHuman Readable Output\n#\nMITRE ATTACK\n#\nName: Search Threat Vendor Data - ID: T1681",
+    "!attack-pattern attack_pattern=\"Search Threat Vendor Data\"\nHuman Readable Output\n#\nMITRE ATTACK\n#\nName: Search Threat Vendor Data - ID: T1681\n#\nThreat actors may seek information/indicators from closed or open threat intelligence sources gathered about their own campaigns, as well as those conducted by other adversaries that may align with their target industries, capabilities/objectives, or other operational concerns. These reports may include descriptions of behavior, detailed breakdowns of attacks, atomic indicators such as malware hashes or IP addresses, timelines of a group\u2019s activity, and more. Adversaries may change their behavior when planning their future operations."
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Score The actual score.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The STIX ID of the Attack Pattern. AttackPattern.KillChainPhases The kill chain phases of the Attack Pattern.",
+      "name": "AttackPattern.STIXID",
+      "required": ""
+    },
+    {
+      "description": "The first seen by source of the Attack Pattern. AttackPattern.Description The description of the Attack Pattern.",
+      "name": "AttackPattern.FirstSeenBySource",
+      "required": ""
+    },
+    {
+      "description": "The operating system references of the Attack Pattern. AttackPattern.Publications The publications of the Attack Pattern.",
+      "name": "AttackPattern.OperatingSystemRefs",
+      "required": ""
+    },
+    {
+      "description": "The MITRE ID of the Attack Pattern. AttackPattern.Tags The tags of the Attack Pattern.",
+      "name": "AttackPattern.MITREID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MITRE ATT&CK",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mitre-attck-v2"
+}

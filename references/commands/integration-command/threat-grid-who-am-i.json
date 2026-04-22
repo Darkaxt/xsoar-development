@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!threat-grid-who-am-i\nContext Example\n{\n\"ThreatGrid\": {\n\"User\": {\n\"Organization\": 42,\n\"Login\": \"String\",",
+    "!threat-grid-who-am-i\nContext Example\n{\n\"ThreatGrid\": {\n\"User\": {\n\"Organization\": 42,\n\"Login\": \"String\",\n\"Role\": \"org-admin\","
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-who-am-i",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Email of the logged in user ThreatGrid.User.Login Login ID of the logged in user",
+      "name": "ThreatGrid.User.Email",
+      "required": ""
+    },
+    {
+      "description": "Name of the logged in user ThreatGrid.User.OrganizationId The Organization ID of the logged in user",
+      "name": "ThreatGrid.User.Name",
+      "required": ""
+    },
+    {
+      "description": "Role of the logged in user",
+      "name": "ThreatGrid.User.Role",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "sftp-upload-file",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Uploads a file from the War Room using it's Entry ID to the SFTP Server at a given path",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "sftp-upload-file",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Single Connect \u00bb sftp-listdir",
+      "name": "\u00ab Silverfort",
+      "required": ""
+    },
+    {
+      "description": "sftp-upload-file Docs Developer Docs",
+      "name": "sftp-copyfrom",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Simple SFTP",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/simple-sftp"
+}

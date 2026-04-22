@@ -1,0 +1,102 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!threatq-get-related-events obj_id=1 obj_type=adversary",
+  "examples": [
+    "Command Example\n!threatq-get-related-events obj_id=1 obj_type=adversary\nHuman Readable Output\n16. Get related adversaries\nRetrieve related adversaries from an object in ThreatQ.\nBase Command\nthreatq-get-related-adversaries\nInput",
+    "!threatq-get-related-events obj_id=1 obj_type=adversary\nHuman Readable Output\n16. Get related adversaries\nRetrieve related adversaries from an object in ThreatQ.\nBase Command\nthreatq-get-related-adversaries\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-get-related-adversaries",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the related adversary. ThreatQ.Indicator.RelatedAdversary.Source.ID Source ID of the related adversary.",
+      "name": "ThreatQ.Indicator.RelatedAdversary.ID",
+      "required": ""
+    },
+    {
+      "description": "The Source name of the related adversary. ThreatQ.Indicator.RelatedAdversary.Attribute.ID The attribute ID of the related adversary.",
+      "name": "ThreatQ.Indicator.RelatedAdversary.Source.Name",
+      "required": ""
+    },
+    {
+      "description": "The attribute name of the related adversary. ThreatQ.Indicator.RelatedAdversary.Attribute.Value The attribute value of the related adversary.",
+      "name": "ThreatQ.Indicator.RelatedAdversary.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "date The last update date of the related adversary. ThreatQ.Indicator.RelatedAdversary.CreatedAt",
+      "name": "ThreatQ.Indicator.RelatedAdversary.UpdatedAt",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the related adversary. ThreatQ.Indicator.RelatedAdversary.Name The name of the related adversary.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "The ID of the Indicator. ThreatQ.Event.RelatedAdversary.ID The ID of the related adversary.",
+      "name": "ThreatQ.Indicator.ID",
+      "required": ""
+    },
+    {
+      "description": "The source ID of the related adversary. ThreatQ.Event.RelatedAdversary.Source.Name The source name of the related adversary.",
+      "name": "ThreatQ.Event.RelatedAdversary.Source.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute ID of the related adversary. ThreatQ.Event.RelatedAdversary.Attribute.Name The Attribute name of the related adversary.",
+      "name": "ThreatQ.Event.RelatedAdversary.Attribute.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute value of the related adversary. ThreatQ.Event.RelatedAdversary.UpdatedAt date",
+      "name": "ThreatQ.Event.RelatedAdversary.Attribute.Value",
+      "required": ""
+    },
+    {
+      "description": "ThreatQ.Event.RelatedAdversary.CreatedAt date The creation date of the related adversary.",
+      "name": "The last update date of the related adversary.",
+      "required": ""
+    },
+    {
+      "description": "The name of the related adversary. ThreatQ.Event.ID The ID of the Event.",
+      "name": "ThreatQ.Event.RelatedAdversary.Name",
+      "required": ""
+    },
+    {
+      "description": "The ID of the Related adversary. ThreatQ.Adversary.RelatedAdversary.Source.ID The source ID of the related adversary.",
+      "name": "ThreatQ.Adversary.RelatedAdversary.ID",
+      "required": ""
+    },
+    {
+      "description": "The source name of the related adversary. ThreatQ.Adversary.RelatedAdversary.Attribute.ID The attribute ID of the related adversary.",
+      "name": "ThreatQ.Adversary.RelatedAdversary.Source.Name",
+      "required": ""
+    },
+    {
+      "description": "The attribute name of the related adversary. ThreatQ.Adversary.RelatedAdversary.Attribute.Value The attribute value of the related adversary.",
+      "name": "ThreatQ.Adversary.RelatedAdversary.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "date The last update date of the related adversary. ThreatQ.Adversary.RelatedAdversary.CreatedAt",
+      "name": "ThreatQ.Adversary.RelatedAdversary.UpdatedAt",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the related adversary. ThreatQ.Adversary.RelatedAdversary.Name The name of the related adversary.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "ThreatQ.Adversary.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

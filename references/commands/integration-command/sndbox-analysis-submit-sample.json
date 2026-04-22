@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!sndbox-analysis-info analysis_id=\"65577395-48d8-4d51-bc97-bc2486f49ca0\"",
+  "examples": [
+    "Command Example\n!sndbox-analysis-info analysis_id=\"65577395-48d8-4d51-bc97-bc2486f49ca0\"\nContext Example\nHuman Readable Output\n3. Submit a sample for analysis\nSubmit a sample for analysis.\nBase Command\nsndbox-analysis-submit-sample",
+    "!sndbox-analysis-info analysis_id=\"65577395-48d8-4d51-bc97-bc2486f49ca0\"\nContext Example\nHuman Readable Output\n3. Submit a sample for analysis\nSubmit a sample for analysis.\nBase Command\nsndbox-analysis-submit-sample\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "sndbox-analysis-submit-sample",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Analysis ID SNDBOX.Analysis.SampleName Sample data, (file name or URL)",
+      "name": "SNDBOX.Analysis.ID",
+      "required": ""
+    },
+    {
+      "description": "Analysis status SNDBOX.Analysis.Time date",
+      "name": "SNDBOX.Analysis.Status",
+      "required": ""
+    },
+    {
+      "description": "SNDBOX.Analysis.Result Analysis results SNDBOX.Analysis.Errors",
+      "name": "Submitted time",
+      "required": ""
+    },
+    {
+      "description": "Raised errors during sampling SNDBOX.Analysis.Link Analysis Link",
+      "name": "unknown",
+      "required": ""
+    },
+    {
+      "description": "MD5 of analysis sample SNDBOX.Analysis.SHA1 SHA-1 of analysis sample",
+      "name": "SNDBOX.Analysis.MD5",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 of analysis sample DBotScore.Vendor Vendor name: SNDBOX",
+      "name": "SNDBOX.Analysis.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The name of the sample file or URL DBotScore.Type 'url' for url samples, otherwise 'file'",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The actual score DBotScore.Malicious.Vendor Vendor name: SNDBOX",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "SHA-1 of the file",
+      "name": "DBotScore.Malicious.SHA1",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SNDBOX (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sndbox"
+}

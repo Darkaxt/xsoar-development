@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The requested asset(s) have been successfully added",
+  "examples": [
+    "Command Example\n#\n!df-update-assets name=\"dummy.com\" type=\"Domain\" organization=\"RiskIQ\" action=\"Add\"\nContext Example\n#\n{\n\"RiskIQDigitalFootprint\": {\n\"Task\": {",
+    "!df-update-assets name=\"dummy.com\" type=\"Domain\" organization=\"RiskIQ\" action=\"Add\"\nContext Example\n#\n{\n\"RiskIQDigitalFootprint\": {\n\"Task\": {\n\"estimated\": 1,\n\"state\": \"COMPLETE\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique Identifier to check the status of the updating asset using Get Task Status request. RiskIQDigitalFootprint.Task.state The state of the task for updating the asset according to the last fetch.",
+      "name": "RiskIQDigitalFootprint.Task.uuid",
+      "required": ""
+    },
+    {
+      "description": "The reason mentioned in the task for updating the asset according to the last fetch. RiskIQDigitalFootprint.Task.estimated Number of estimated asset(s) that should be updated.",
+      "name": "RiskIQDigitalFootprint.Task.reason",
+      "required": ""
+    },
+    {
+      "description": "Number of total asset(s) that have been updated.",
+      "name": "RiskIQDigitalFootprint.Task.totalUpdates",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RiskIQ Digital Footprint",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/risk-iq-digital-footprint"
+}

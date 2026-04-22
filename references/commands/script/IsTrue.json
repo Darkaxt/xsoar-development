@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "is-true"
+  ],
+  "arguments": [],
+  "description": "IsTrue | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IsTrue",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the value is \"True\" (either it has an object or string True/true). False Whether the value is \"False\" (either it has an object or string True/true).",
+      "name": "True",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next IsUrlPartOfDomain \u00bb Script Data",
+      "name": "\u00ab IsRFC1918Address",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IsTrue",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/is-true"
+}

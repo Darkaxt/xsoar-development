@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!talos-get-indicators\nHuman Readable Output\n#\nvalue\ntype\n60.249.23.235",
+    "!talos-get-indicators\nHuman Readable Output\n#\nvalue\ntype\n60.249.23.235\nIP\nEdit this page"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Talos Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/talos-feed"
+}

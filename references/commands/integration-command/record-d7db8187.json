@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Retrieve details about the policy specified.",
+  "examples": [
+    "Command Example\n#\n!gh-set-policy policyid=\"16567\" updatemethod=\"patch\" policyjson=\"{\\\"config\\\": [\\\"or\\\", [\\\"and\\\", {\\\"opt\\\": \\\"from\\\", \\\"values\\\": [\\\"asdf@asdf.com\\\",\\\"asdf2@asdf2.com\\\"], \\\"type\\\": \\\"regex\\\"}]]}\"\nContext Example\n#\n{\n\"GreatHorn\"\n:",
+    "!gh-set-policy policyid=\"16567\" updatemethod=\"patch\" policyjson=\"{\\\"config\\\": [\\\"or\\\", [\\\"and\\\", {\\\"opt\\\": \\\"from\\\", \\\"values\\\": [\\\"asdf@asdf.com\\\",\\\"asdf2@asdf2.com\\\"], \\\"type\\\": \\\"regex\\\"}]]}\"\nContext Example\n#\n{\n\"GreatHorn\"\n:\n{\n\"Policy\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the policy.",
+      "name": "GreatHorn.Policy.id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GreatHorn",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/great-horn"
+}

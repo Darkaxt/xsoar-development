@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "check-status",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Return the response code of the EDL",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "check-status",
+      "required": ""
+    },
+    {
+      "description": "The response code. Edit this page Report an Issue",
+      "name": "ResponseCode",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Edgescan Next Elasticsearch Event Collector \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands get-edl-contents email-edl-contents",
+      "name": "Configure EDL Monitor in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "check-status",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EDL Monitor",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/edl-monitor"
+}

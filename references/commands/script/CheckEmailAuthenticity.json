@@ -1,0 +1,81 @@
+{
+  "aliases": [
+    "check-email-authenticity"
+  ],
+  "arguments": [],
+  "description": "CheckEmailAuthenticity | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CheckEmailAuthenticity",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "SPF ID Email.SPF.Validation-Result Validation Result. Possible values are \"None\", \"Neutral\", \"Pass\", \"Fail\", \"SoftFail\", \"TempError\", and \"PermError\".",
+      "name": "Email.SPF.MessageID",
+      "required": ""
+    },
+    {
+      "description": "Email.SPF.Reason Reason for the SPF result, which is located in the headers of the email. Email.SPF.Sender-IP",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Email.DKIM.Message-ID DKIM ID. Email.DKIM.Reason",
+      "name": "Email sender IP address.",
+      "required": ""
+    },
+    {
+      "description": "Email.DMARC.Message-ID DMARC ID. Email.DMARC.Validation-Result",
+      "name": "DKIM reason (if found).",
+      "required": ""
+    },
+    {
+      "description": "Email.DMARC.Tags DMARC Tags (if found) Email.DMARC.From-Domain",
+      "name": "DMARC reason. Possible values are \"None\", \"Pass\", \"Fail\", \"Temperror\", and \"Permerror\".",
+      "required": ""
+    },
+    {
+      "description": "Email.DKIM.Signing-Domain Sender's Domain Email.AuthenticityCheck",
+      "name": "Sender's Domain",
+      "required": ""
+    },
+    {
+      "description": "Email.DKIM DKIM information extracted from the email. Email.SPF",
+      "name": "Possible values are be: Fail / Suspicious / Undetermined / Pass",
+      "required": ""
+    },
+    {
+      "description": "Email.DMARC DMARC information extracted from the email. Email.DKIM.Validation-Result",
+      "name": "SPF information extracted from the email.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Validation result. Possible values are \"None\", \"Pass\", \"Fail\", \"Policy\", \"Neutral\", \"Temperror\", and \"Permerror\".",
+      "required": ""
+    },
+    {
+      "description": "Next CheckFieldValue \u00bb Script Data",
+      "name": "\u00ab CheckDockerImageAvailable",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CheckEmailAuthenticity",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/check-email-authenticity"
+}

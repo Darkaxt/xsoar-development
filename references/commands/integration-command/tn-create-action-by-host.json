@@ -1,0 +1,72 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!tn-create-action-by-host action-group-id=1 action-name=`Trace - Install Endpoint Certificate [Windows]` package-id=225 ip-address=127.0.0.1\nContext Example\n{\n\"Tanium.Action\": {\n\"ActionGroupId\": 1,\n\"ActionGroupName\": \"All Computers\",\n\"ApproverId\": 1,",
+    "!tn-create-action-by-host action-group-id=1 action-name=`Trace - Install Endpoint Certificate [Windows]` package-id=225 ip-address=127.0.0.1\nContext Example\n{\n\"Tanium.Action\": {\n\"ActionGroupId\": 1,\n\"ActionGroupName\": \"All Computers\",\n\"ApproverId\": 1,\n\"CreationTime\": \"2019-11-27T15:06:19Z\","
+  ],
+  "kind": "integration-command",
+  "name": "tn-create-action-by-host",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The id of the parent group of machines to target. Tanium.Action.ActionGroupName The name of the parent group of machines to target.",
+      "name": "Tanium.Action.ActionGroupId",
+      "required": ""
+    },
+    {
+      "description": "The id of the approver of this action. Tanium.Action.ApproverName The name of the approver of this action.",
+      "name": "Tanium.Action.ApproverId",
+      "required": ""
+    },
+    {
+      "description": "Date The date and time when this object was created in the database. Tanium.Action.ExpirationTime",
+      "name": "Tanium.Action.CreationTime",
+      "required": ""
+    },
+    {
+      "description": "The date and time when the action expires. Tanium.Action.ExpireSeconds The timeout in seconds for the action expiry.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The ID of the saved question that tracks the results of the action. Tanium.Action.ID The unique ID of the action object.",
+      "name": "Tanium.Action.HistorySavedQuestionId",
+      "required": ""
+    },
+    {
+      "description": "The action name. Tanium.Action.PackageId The ID of the package deployed by this action.",
+      "name": "Tanium.Action.Name",
+      "required": ""
+    },
+    {
+      "description": "The name of the package deployed by this action. Tanium.Action.SavedActionId The ID of the saved action that this action was issued from, if any.",
+      "name": "Tanium.Action.PackageName",
+      "required": ""
+    },
+    {
+      "description": "The date and time when the action became active. Tanium.Action.Status The status of the action. Can be: \"Pending\", \"Active\", \"Stopped\", or \"Expired\".",
+      "name": "Tanium.Action.StartTime",
+      "required": ""
+    },
+    {
+      "description": "Whether an action stop has been issued for this action. A value of true indicates an action stop was issued. Tanium.Action.TargetGroupId The ID of the group of machines to target.",
+      "name": "Tanium.Action.StoppedFlag",
+      "required": ""
+    },
+    {
+      "description": "The name of the group of machines to target. Tanium.Action.UserDomain The domain of the user who issued this action.",
+      "name": "Tanium.Action.TargetGroupName",
+      "required": ""
+    },
+    {
+      "description": "The ID of the user who issued this action. Tanium.Action.UserName The name of the user who issued this action.",
+      "name": "Tanium.Action.UserId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

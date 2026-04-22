@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!cofense-get-threat-indicators type=\"URL\" level=\"Malicious\" start_date=\"2020-05-28\"\nContext Example\n#\n{\n\"Cofense\": {\n\"ThreatIndicators\": {",
+    "!cofense-get-threat-indicators type=\"URL\" level=\"Malicious\" start_date=\"2020-05-28\"\nContext Example\n#\n{\n\"Cofense\": {\n\"ThreatIndicators\": {\n\"CreatedAt\": \"2020-05-28T22:14:52.690Z\",\n\"ID\": 75,"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Threat indicator output Cofense.ThreatIndicators.ID Threat indicator ID in Cofense Triage.",
+      "name": "Cofense.ThreatIndicators",
+      "required": ""
+    },
+    {
+      "description": "Cofense Triage operator who designated the threat indicator. Cofense.ThreatIndicators.ReportId Associated Report in Cofense Triage.",
+      "name": "Cofense.ThreatIndicators.OperatorId",
+      "required": ""
+    },
+    {
+      "description": "Threat indicator type. Cofense.ThreatIndicators.ThreatLevel Threat indicator level.",
+      "name": "Cofense.ThreatIndicators.ThreatKey",
+      "required": ""
+    },
+    {
+      "description": "Value of the threat indicator.",
+      "name": "Cofense.ThreatIndicators.ThreatValue",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cofense Triage v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cofense-triage-v2"
+}

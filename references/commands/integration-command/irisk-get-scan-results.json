@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The severity of the issue.",
+  "examples": [
+    "Command Example\n!irisk-get-domain-issues domain=google.com\nHuman Readable Output\n5. Get the results of a scan\nQueries data for a specific component for companies in the portfolio.\nBase Command\nirisk-get-scan-results\nInput",
+    "!irisk-get-domain-issues domain=google.com\nHuman Readable Output\n5. Get the results of a scan\nQueries data for a specific component for companies in the portfolio.\nBase Command\nirisk-get-scan-results\nInput\nArgument Name",
+    "Command Example\n!irisk-get-scan-results component=application domain=demisto.com\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab BruteForceBlocker Feed\nNext",
+    "!irisk-get-scan-results component=application domain=demisto.com\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab BruteForceBlocker Feed\nNext\nCado Response \u00bb"
+  ],
+  "kind": "integration-command",
+  "name": "irisk-get-scan-results",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Query status. C2sec.Domain.application.Domain The domain name being queried.",
+      "name": "C2sec.Domain.application.result",
+      "required": ""
+    },
+    {
+      "description": "Details about the application being checked. C2sec.Domain.application.data.info Information regarding the data being processed.",
+      "name": "C2sec.Domain.application.data.appdetail",
+      "required": ""
+    },
+    {
+      "description": "Website address being processed. C2sec.Domain.credential.result Query status.",
+      "name": "C2sec.Domain.application.data.website",
+      "required": ""
+    },
+    {
+      "description": "The domain name being queried. C2sec.Domain.credential.data.user User name.",
+      "name": "C2sec.Domain.credential.Domain",
+      "required": ""
+    },
+    {
+      "description": "User password. C2sec.Domain.network.result Query status.",
+      "name": "C2sec.Domain.credential.data.pw",
+      "required": ""
+    },
+    {
+      "description": "The domain name being queried. C2sec.Domain.network.data.firewall Firewall status.",
+      "name": "C2sec.Domain.network.Domain",
+      "required": ""
+    },
+    {
+      "description": "Port number. C2sec.Domain.network.data.IP IP address.",
+      "name": "C2sec.Domain.network.data.port",
+      "required": ""
+    },
+    {
+      "description": "Name of the user. C2sec.Domain.network.data.service Name of the service being used.",
+      "name": "C2sec.Domain.network.data.Name",
+      "required": ""
+    },
+    {
+      "description": "Name of the protocol being used. C2sec.Domain.network.data.state State of the network application (\u201copen\u201d or \u201cclosed\u201d).",
+      "name": "C2sec.Domain.network.data.protocol",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "C2sec irisk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/c2sec-irisk"
+}

@@ -1,0 +1,132 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The date of the event that happened.",
+  "examples": [
+    "Command Example\n!threatq-create-event date=\"2019-09-30 20:00:00\" title=\"Offra Alta\" type=Incident\nHuman Readable Output\n13. Get related indicators\nRetrieves related indicators for an object in ThreatQ.\nBase Command\nthreatq-get-related-indicators\nInput",
+    "!threatq-create-event date=\"2019-09-30 20:00:00\" title=\"Offra Alta\" type=Incident\nHuman Readable Output\n13. Get related indicators\nRetrieves related indicators for an object in ThreatQ.\nBase Command\nthreatq-get-related-indicators\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-get-related-indicators",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the related indicator. ThreatQ.Indicator.RelatedIndicator.Source.ID The source ID of the related indicator.",
+      "name": "ThreatQ.Indicator.RelatedIndicator.ID",
+      "required": ""
+    },
+    {
+      "description": "The source name of the related indicator. ThreatQ.Indicator.RelatedIndicator.Attribute.ID The attribute ID of the related indicator.",
+      "name": "ThreatQ.Indicator.RelatedIndicator.Source.Name",
+      "required": ""
+    },
+    {
+      "description": "The attribute name of the related indicator. ThreatQ.Indicator.RelatedIndicator.Attribute.Value The attribute value of the related indicator.",
+      "name": "ThreatQ.Indicator.RelatedIndicator.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "date The last update date of the related indicator. ThreatQ.Indicator.RelatedIndicator.CreatedAt",
+      "name": "ThreatQ.Indicator.RelatedIndicator.UpdatedAt",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the related indicator. ThreatQ.Indicator.RelatedIndicator.Type The type of the related indicator.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "The description of the related indicator. ThreatQ.Indicator.RelatedIndicator.Value The value of the related indicator.",
+      "name": "ThreatQ.Indicator.RelatedIndicator.Description",
+      "required": ""
+    },
+    {
+      "description": "The status of the related indicator. ThreatQ.Indicator.RelatedIndicator.TQScore The ThreatQ score of the related indicator.",
+      "name": "ThreatQ.Indicator.RelatedIndicator.Status",
+      "required": ""
+    },
+    {
+      "description": "The ID of the indicator. ThreatQ.Event.RelatedIndicator.ID The ID of the related indicator.",
+      "name": "ThreatQ.Indicator.ID",
+      "required": ""
+    },
+    {
+      "description": "The source ID of the related indicator. ThreatQ.Event.RelatedIndicator.Source.Name The source name of the related indicator.",
+      "name": "ThreatQ.Event.RelatedIndicator.Source.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute ID of the related indicator. ThreatQ.Event.RelatedIndicator.Attribute.Name The attribute name of the related indicator.",
+      "name": "ThreatQ.Event.RelatedIndicator.Attribute.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute value of the related indicator. ThreatQ.Event.RelatedIndicator.UpdatedAt date",
+      "name": "ThreatQ.Event.RelatedIndicator.Attribute.Value",
+      "required": ""
+    },
+    {
+      "description": "ThreatQ.Event.RelatedIndicator.CreatedAt date The creation date of the related indicator.",
+      "name": "The last update date of the related indicator.",
+      "required": ""
+    },
+    {
+      "description": "The type of the related indicator. ThreatQ.Event.RelatedIndicator.Description The description of the related indicator.",
+      "name": "ThreatQ.Event.RelatedIndicator.Type",
+      "required": ""
+    },
+    {
+      "description": "The value of the related indicator. ThreatQ.Event.RelatedIndicator.Status The status of the related indicator.",
+      "name": "ThreatQ.Event.RelatedIndicator.Value",
+      "required": ""
+    },
+    {
+      "description": "The ThreatQ score of the related indicator. ThreatQ.Event.ID ID of the Event.",
+      "name": "ThreatQ.Event.RelatedIndicator.TQScore",
+      "required": ""
+    },
+    {
+      "description": "ID of the related indicator. ThreatQ.Adversary.RelatedIndicator.Source.ID Source ID of the related indicator.",
+      "name": "ThreatQ.Adversary.RelatedIndicator.ID",
+      "required": ""
+    },
+    {
+      "description": "Source name of the related indicator. ThreatQ.Adversary.RelatedIndicator.Attribute.ID ID attribute of the related indicator.",
+      "name": "ThreatQ.Adversary.RelatedIndicator.Source.Name",
+      "required": ""
+    },
+    {
+      "description": "Attribute name of the related indicator. ThreatQ.Adversary.RelatedIndicator.Attribute.Value Attribute value of the related indicator.",
+      "name": "ThreatQ.Adversary.RelatedIndicator.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "date The last update date of the related indicator. ThreatQ.Adversary.RelatedIndicator.CreatedAt",
+      "name": "ThreatQ.Adversary.RelatedIndicator.UpdatedAt",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the related indicator. ThreatQ.Adversary.RelatedIndicator.Type The type of the related indicator.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "Description of the related indicator. ThreatQ.Adversary.RelatedIndicator.Value The value of the related indicator.",
+      "name": "ThreatQ.Adversary.RelatedIndicator.Description",
+      "required": ""
+    },
+    {
+      "description": "The status of the related indicator. ThreatQ.Adversary.RelatedIndicator.TQScore The ThreatQ score of the related indicator.",
+      "name": "ThreatQ.Adversary.RelatedIndicator.Status",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "ThreatQ.Adversary.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

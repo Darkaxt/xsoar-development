@@ -1,0 +1,76 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "For malicious files, the vendor that made the decision.",
+  "examples": [
+    "Command Example\ncrowdstrike-scan file=59e17f98cef7dd1bf4fb791eb1dcd0cea6dd870b6e36af7c37bd732c84d43355\nContext Example\n{\n\"DBotScore\": {\n\"Vendor\": \"CrowdStrike Falcon Sandbox\",\n\"Indicator\": \"59e17f98cef7dd1bf4fb791eb1dcd0cea6dd870b6e36af7c37bd732c84d43355\",\n\"Score\": 3,"
+  ],
+  "kind": "integration-command",
+  "name": "crowdstrike-scan",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA-256 hash of the file. File.SHA1 The SHA-1 hash of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the file. File.environmentId The environment ID of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The analysis start time of the file. File.submitname The submission name of the file.",
+      "name": "File.analysis_start_time",
+      "required": ""
+    },
+    {
+      "description": "A list of classification tags of the file. File.vxfamily The family classification of the file.",
+      "name": "File.classification_tags",
+      "required": ""
+    },
+    {
+      "description": "The total network connections of the file. File.total_processes The total processes count of the file.",
+      "name": "File.total_network_connections",
+      "required": ""
+    },
+    {
+      "description": "The total signatures count if the file. File.hosts A list of the file\u2019s hosts.",
+      "name": "File.total_signatures",
+      "required": ""
+    },
+    {
+      "description": "If the server found this file interesting. File.domains A list of the file\u2019s related domains.",
+      "name": "File.isinteresting",
+      "required": ""
+    },
+    {
+      "description": "Whether the file was analyzed by URL. File.Malicious.Vendor or malicious files, the vendor that made the decision.",
+      "name": "File.isurlanalysis",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the reason for the vendor to make the decision. DBotScore.Indicator The indicator that was tested.",
+      "name": "File.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. File.hash The hash used to query the file.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The state of the file test.",
+      "name": "File.state",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vx-stream"
+}

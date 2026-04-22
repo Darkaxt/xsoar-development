@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "###Logged in successfully.",
+  "examples": [
+    "Command Example\n#\n!servicenow-cmdb-oauth-test\nHuman Readable Output\n#\n###Instance Configured Successfully.\nEdit this page\nReport an Issue",
+    "!servicenow-cmdb-oauth-test\nHuman Readable Output\n#\n###Instance Configured Successfully.\nEdit this page\nReport an Issue\nPrevious\n\u00ab ServiceNow (Deprecated)"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow CMDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now-cmdb"
+}

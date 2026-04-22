@@ -1,0 +1,144 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "CloudShare.Invites.message",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Blueprint short ID CloudShare.POCInvites.projectName Project name",
+      "name": "CloudShare.POCInvites.blueprintShortId",
+      "required": ""
+    },
+    {
+      "description": "Created on CloudShare.POCInvites.owningSe Owning SE",
+      "name": "CloudShare.POCInvites.createdOn",
+      "required": ""
+    },
+    {
+      "description": "Environment ID CloudShare.POCInvites.pocUser POC user",
+      "name": "CloudShare.POCInvites.environmentId",
+      "required": ""
+    },
+    {
+      "description": "Start date CloudShare.POCInvites.status Status",
+      "name": "CloudShare.POCInvites.startDate",
+      "required": ""
+    },
+    {
+      "description": "Opportunity CloudShare.POCInvites.owningSeUserId Owning SE user ID",
+      "name": "CloudShare.POCInvites.opportunity",
+      "required": ""
+    },
+    {
+      "description": "Project ID CloudShare.POCInvites.randomToken Random token",
+      "name": "CloudShare.POCInvites.projectId",
+      "required": ""
+    },
+    {
+      "description": "ID CloudShare.POCInvites.expirationDate Expiration date",
+      "name": "CloudShare.POCInvites.id",
+      "required": ""
+    },
+    {
+      "description": "Blueprint name Edit this page Report an Issue",
+      "name": "CloudShare.POCInvites.blueprintName",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Cloudflare Zero Trust Next CloudShark \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-get-envs cloudshare-get-projects cloudshare-get-project",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-get-project-blueprints cloudshare-get-project-blueprint cloudshare-get-classes",
+      "name": "cloudshare-get-project-policies",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-delete-class cloudshare-delete-class-environments cloudshare-get-classes-countries",
+      "name": "cloudshare-get-class",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-get-classes-detailed cloudshare-get-classes-instructors cloudshare-create-class",
+      "name": "cloudshare-get-classes-customfields",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-suspend-class-environments cloudshare-modify-class cloudshare-get-students",
+      "name": "cloudshare-send-class-invitations",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-delete-student cloudshare-register-student cloudshare-modify-student",
+      "name": "cloudshare-get-student",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-get-timezones cloudshare-get-env-resource cloudshare-get-env-extended",
+      "name": "cloudshare-get-regions",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-get-env-extended-token cloudshare-get-env-multiple-resources cloudshare-extend-env",
+      "name": "cloudshare-get-env-extended-vanity",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-resume-env cloudshare-revert-env cloudshare-suspend-env",
+      "name": "cloudshare-postpone-env-suspend",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-delete-env cloudshare-create-env cloudshare-modify-env",
+      "name": "cloudshare-get-env",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-check-vm-execution-status cloudshare-get-vm-remote-access-file cloudshare-execute-vm-command",
+      "name": "cloudshare-delete-vm",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-reboot-vm cloudshare-revert-vm cloudshare-get-cloud-folders",
+      "name": "cloudshare-modify-vm-hardware",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-generate-cloud-folder-password cloudshare-unmount-env-folders cloudshare-get-templates",
+      "name": "cloudshare-get-env-cloud-folders",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-get-env-snapshots cloudshare-mark-default-snapshot cloudshare-take-snapshot-env",
+      "name": "cloudshare-get-snapshot",
+      "required": ""
+    },
+    {
+      "description": "cloudshare-invite-user-poc cloudshare-get-poc-invitations Docs",
+      "name": "cloudshare-get-teams",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CloudShare (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cloud-share"
+}

@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Deep Instinct \u00bb Configure DeCYFIR Indicators & Threat Intelligence Feed in Cortex",
+      "name": "\u00ab DeCYFIR Event Collector",
+      "required": ""
+    },
+    {
+      "description": "decyfir-get-indicators Docs Developer Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DeCYFIR Indicators & Threat Intelligence Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/de-cyfir-feed"
+}

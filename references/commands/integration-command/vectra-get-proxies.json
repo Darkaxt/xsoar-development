@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There are no context output for this command.",
+  "examples": [
+    "Command Example\n!vectra-get-users\n7. vectra-get-proxies\nRetrieves the current list of proxy IP addresses, or just one by Proxy ID\nBase Command\nvectra-get-proxies\nInput\nArgument Name",
+    "!vectra-get-users\n7. vectra-get-proxies\nRetrieves the current list of proxy IP addresses, or just one by Proxy ID\nBase Command\nvectra-get-proxies\nInput\nArgument Name\nDescription",
+    "Command Example\n!vectra-get-proxies",
+    "!vectra-get-proxies"
+  ],
+  "kind": "integration-command",
+  "name": "vectra-get-proxies",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Whether the proxy was auto detected by Cognito or was added by user Vectra.Proxy.ID The ID of the Proxy",
+      "name": "Vectra.Proxy.Source",
+      "required": ""
+    },
+    {
+      "description": "Whether the proxy was auto detected by Cognito or was added by user Vectra.Proxy.ConsidersProxy Whether to consider the object as a proxy or not",
+      "name": "Vectra.Proxy.Source",
+      "required": ""
+    },
+    {
+      "description": "The proxy IP address",
+      "name": "Vectra.Proxy.Address",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Vectra v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vectra-v2"
+}

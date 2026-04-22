@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "risk-iq-passive-total-host-pair-children-script"
+  ],
+  "arguments": [],
+  "description": "RiskIQPassiveTotalHostPairChildrenScript | Cortex XSOAR",
+  "examples": [
+    "!RiskIQPassiveTotalHostPairChildrenScript indicator_value=ns1.furth.com.ar\nContext Example\n#\n{\n\"PassiveTotal\": {\n\"HostPair\": [\n{\n\"cause\": \"redirect\","
+  ],
+  "kind": "script",
+  "name": "RiskIQPassiveTotalHostPairChildrenScript",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!RiskIQPassiveTotalHostPairChildrenScript indicator_value=ns1.furth.com.ar",
+      "required": ""
+    },
+    {
+      "description": "\"PassiveTotal\": { \"HostPair\": [ {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"child\": \"furth.com.ar\", \"firstSeen\": \"2020-05-29 07:05:22\", \"lastSeen\": \"2020-06-10 11:53:23\",",
+      "name": "\"cause\": \"redirect\",",
+      "required": ""
+    },
+    {
+      "description": "}, { \"cause\": \"parentPage\",",
+      "name": "\"parent\": \"ns1.furth.com.ar\"",
+      "required": ""
+    },
+    {
+      "description": "\"firstSeen\": \"2020-05-02 06:47:23\", \"lastSeen\": \"2020-06-08 03:08:38\", \"parent\": \"ns1.furth.com.ar\"",
+      "name": "\"child\": \"ns1.furth.com.ar\",",
+      "required": ""
+    },
+    {
+      "description": "] } }",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RiskIQPassiveTotalHostPairChildrenScript",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/risk-iq-passive-total-host-pair-children-script"
+}

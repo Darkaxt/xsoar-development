@@ -1,0 +1,84 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "o365-sc-email-security-search-and-delete-email-office-365-quick-action",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Case hold policy name. Edit this page Report an Issue",
+      "name": "O365.SecurityAndCompliance.CaseHoldRule.Name",
+      "required": ""
+    },
+    {
+      "description": "\u00ab O365 - Security And Compliance - Content Search (Deprecated) Next O365 Defender SafeLinks \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands Replacement Key Features Playbooks",
+      "name": "\u26a0\ufe0f Important: Deprecation Notice",
+      "required": ""
+    },
+    {
+      "description": "Overview App Authentication (App-Only) Delegated User Authentication",
+      "name": "Permissions and Authentication Setup",
+      "required": ""
+    },
+    {
+      "description": "Configure SecurityAndComplianceV2 in Cortex Troubleshooting and Testing Common Issues and Solutions",
+      "name": "Known Endpoints",
+      "required": ""
+    },
+    {
+      "description": "Additional Resources Commands o365-sc-auth-start",
+      "name": "Testing the Integration",
+      "required": ""
+    },
+    {
+      "description": "o365-sc-auth-test o365-sc-new-search o365-sc-set-search",
+      "name": "o365-sc-auth-complete",
+      "required": ""
+    },
+    {
+      "description": "o365-sc-list-search o365-sc-get-search o365-sc-start-search",
+      "name": "o365-sc-remove-search",
+      "required": ""
+    },
+    {
+      "description": "o365-sc-new-search-action o365-sc-remove-search-action o365-sc-list-search-action",
+      "name": "o365-sc-stop-search",
+      "required": ""
+    },
+    {
+      "description": "Tips for finding messages to remove o365-sc-compliance-case-create o365-sc-compliance-case-list",
+      "name": "o365-sc-get-search-action",
+      "required": ""
+    },
+    {
+      "description": "o365-sc-case-hold-policy-create o365-sc-case-hold-policy-get o365-sc-case-hold-policy-delete",
+      "name": "o365-sc-compliance-case-delete",
+      "required": ""
+    },
+    {
+      "description": "o365-sc-case-hold-rule-list o365-sc-case-hold-rule-delete Known Limitations",
+      "name": "o365-sc-case-hold-rule-create",
+      "required": ""
+    },
+    {
+      "description": "o365-sc-email-security-search-and-delete-email-office-365-quick-action Docs Developer Docs",
+      "name": "o365-sc-case-hold-policy-set",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "O365 - Security And Compliance - Content Search v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/security-and-compliance-v2"
+}

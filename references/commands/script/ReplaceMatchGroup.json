@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "replace-match-group"
+  ],
+  "arguments": [],
+  "description": "ReplaceMatchGroup | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ReplaceMatchGroup",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next RepopulateFiles \u00bb Script Data",
+      "name": "\u00ab RemoveNullBytes",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ReplaceMatchGroup",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/replace-match-group"
+}

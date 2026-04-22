@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2025-03-03T14:28:22.089922",
+  "examples": [
+    "!cybelangel-report-comments-get report_id=1234\nContext Example\n#\n{\n\"CybelAngel\"\n:\n{\n\"Report\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The list of comments for the report.",
+      "name": "CybelAngel.Report.Comment",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CybelAngel",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cybel-angel-event-collector"
+}

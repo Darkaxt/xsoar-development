@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "!abuseipdb-get-blacklist days=30 limit=5",
+  "examples": [
+    "Command Example\n!abuseipdb-get-blacklist days=30 limit=5\nContext Example\nHuman Readable Output\n5. Get a list of report categories\nReturns a list of report categories from AbuseIPDB\nBase Command\nabuseipdb-get-categories",
+    "!abuseipdb-get-blacklist days=30 limit=5\nContext Example\nHuman Readable Output\n5. Get a list of report categories\nReturns a list of report categories from AbuseIPDB\nBase Command\nabuseipdb-get-categories\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "abuseipdb-get-categories",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "AbuseIPDB.Categories",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AbuseIPDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/abuse-ipdb"
+}

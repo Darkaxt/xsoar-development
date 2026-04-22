@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "0c6f3f867882c2d243a83310",
+  "examples": [
+    "!netskope-user-associated-host-list username=test@goxsoar.com\nContext Example\n#\n{\n\"Netskope\"\n:\n{\n\"Host\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Netskope device UID. Netskope.Host.os The device operating system.",
+      "name": "Netskope.Host.nsdeviceuid",
+      "required": ""
+    },
+    {
+      "description": "The device operating system version. Netskope.Host.device_model The device model.",
+      "name": "Netskope.Host.os_version",
+      "required": ""
+    },
+    {
+      "description": "The hostname of the device. Netskope.Host.agent_status The status of the agent on the device.",
+      "name": "Netskope.Host.hostname",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Netskope (API v1)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/netskope-ap-iv1"
+}

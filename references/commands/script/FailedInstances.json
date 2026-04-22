@@ -1,0 +1,77 @@
+{
+  "aliases": [
+    "failed-instances"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "FailedInstances | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "FailedInstances",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the failed integration instance. FailedInstances.brand The brand of the failed integration instance.",
+      "name": "FailedInstances.instance",
+      "required": ""
+    },
+    {
+      "description": "FailedInstances.category The category of the failed integration instance. FailedInstances.information",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "FailedInstances.status Status of the instance. InstancesCount.FailedCount",
+      "name": "The error information of the failed integration instance.",
+      "required": ""
+    },
+    {
+      "description": "InstancesCount.SuccessCount The number of working instances. InstancesCount.TotalCount",
+      "name": "The number of failed instances.",
+      "required": ""
+    },
+    {
+      "description": "SuccessInstances.brand Brand of succeeded integration instance. SuccessInstances.category",
+      "name": "The number of total enabled instances.",
+      "required": ""
+    },
+    {
+      "description": "SuccessInstances.information succeeded. SuccessInstances.instance",
+      "name": "Category of succeeded integration instance.",
+      "required": ""
+    },
+    {
+      "description": "SuccessInstances.status Status of the instance. Edit this page",
+      "name": "Name of succeeded integration instance",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab ExtraHopTrackIncidents Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "FeedCyCognitoGetAssetEndpoint \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FailedInstances",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/failed-instances"
+}

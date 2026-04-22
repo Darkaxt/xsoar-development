@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "timestamp: 1601688814",
+  "examples": [
+    "Command Example\n#\n!aria-mute-alert-src-subnet rule_name=\"srcSubnetAlert\"\nContext Example\n#\n{\n\"Aria\"\n:",
+    "!aria-mute-alert-src-subnet rule_name=\"srcSubnetAlert\"\nContext Example\n#\n{\n\"Aria\"\n:\n{\n\"MuteAlertSrcSubnet\"",
+    "!(sia1, sia2)\nThis RCS will select all SIAs with a region label \"MA\" and a group label \"HR\", while excluding SIAs with name labels of \"sia1\" and \"sia2\".\nsecurityDomain@ARIA-NORTH@\nPIdevice@MA.HR.sia1\n,sia2,^ARIA-SOUTH\nThis RCS will select the SIA with a region label of \"MA\", group label of \"HR\", and name label of \"sia1\". It will also select the SIA named \"sia2\" as well as any SIAs that are members of both domains (i.e., ARIA-NORTH and ARIA-SOUTH).\nAdditional Information\n#"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the rule and the settings that define the rule. Aria.MuteAlertSrcSubnet.Status The state of the command, and the timestamp indicating when the command completed. Possible states include \"Success\", \"Failure\", or \"Endpoint matching RCS not found\".",
+      "name": "Aria.MuteAlertSrcSubnet.Rule",
+      "required": ""
+    },
+    {
+      "description": "Endpoint information, such as the IP address, about the SIAs that were modified based on the rule change.",
+      "name": "Aria.MuteAlertSrcSubnet.Endpoints",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ARIA Packet Intelligence",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aria-packet-intelligence"
+}

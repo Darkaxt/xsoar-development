@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!urlscan-submit url=http://www.github.com/",
+  "examples": [
+    "Command Example\n!urlscan-submit url=http://www.github.com/\n3. Submit a URL (specify using urlscan.io)\nSubmit a URL to scan and specify the\nusing\nargument as urlscan.io.\nBase Command\nurl",
+    "!urlscan-submit url=http://www.github.com/\n3. Submit a URL (specify using urlscan.io)\nSubmit a URL to scan and specify the\nusing\nargument as urlscan.io.\nBase Command\nurl\nInput",
+    "Command Example\n!url url=http://www.github.com/\u00a0using=\"urlscan.io\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab URLhaus Feed\nNext\nUSTA \u00bb",
+    "!url url=http://www.github.com/\u00a0using=\"urlscan.io\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab URLhaus Feed\nNext\nUSTA \u00bb\nDocs"
+  ],
+  "kind": "integration-command",
+  "name": "url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "URLs related to the scanned URL URLScan.RelatedIPs IPs related to the URL scanned",
+      "name": "URLScan.URLs",
+      "required": ""
+    },
+    {
+      "description": "ASNs related to the scanned URL URLScan.Countries Countries associated with the scanned URL",
+      "name": "URLScan.RelatedASNs",
+      "required": ""
+    },
+    {
+      "description": "IOCs found for the scanned URL URLScan.Subdomains Associated sub-domains for the scanned URL",
+      "name": "URLScan.relatedhashes",
+      "required": ""
+    },
+    {
+      "description": "ASN of the scanned URL URLScan.Data URL of the file found",
+      "name": "URLScan.ASN",
+      "required": ""
+    },
+    {
+      "description": "Vendor reporting the malicious indicator for the file URLScan.Malicious.Description Description of the malicious indicator",
+      "name": "URLScan.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 of file found URLScan.File.FileName File name of file found",
+      "name": "URLScan.File.Hash",
+      "required": ""
+    },
+    {
+      "description": "File type of the file found URLScan.File.Hostname URL where the file was found",
+      "name": "URLScan.File.FileType",
+      "required": ""
+    },
+    {
+      "description": "Certificates found for the scanned URL URLScan.RedirectedURLS Redirected URLs from the URL scanned",
+      "name": "URLScan.Certificates",
+      "required": ""
+    },
+    {
+      "description": "Effective URL of the original URL URL.ASN The URL ASN.",
+      "name": "URLScan.EffectiveURL",
+      "required": ""
+    },
+    {
+      "description": "Indicators that are associated with the URL. URL.FeedRelatedIndicators.type The type of the indicators that are associated with the URL.",
+      "name": "URL.FeedRelatedIndicators.value",
+      "required": ""
+    },
+    {
+      "description": "The URL country. URL.ASOwner The URL AS owner.",
+      "name": "URL.Geo.Country",
+      "required": ""
+    },
+    {
+      "description": "Tags that are associated with the URL.",
+      "name": "URL.Tags",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "urlscan.io",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/urlscanio"
+}

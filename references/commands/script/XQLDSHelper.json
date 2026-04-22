@@ -1,0 +1,422 @@
+{
+  "aliases": [
+    "xqlds-helper"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Query Execution Timeout and Retry Limits",
+      "required": ""
+    }
+  ],
+  "description": "XQLDSHelper | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "XQLDSHelper",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The query parameters. XQLDSHelper.QueryHash The hash value of the query parameters.",
+      "name": "XQLDSHelper.QueryParams",
+      "required": ""
+    },
+    {
+      "description": "XQLDSHelper.RequestURL The URL path, including query parameters, used to search datasets in the XQL builder. XQLDSHelper.ResultURL",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "XQLDSHelper.ExecutionID The unique execution ID for the request query. XQLDSHelper.RecordSet",
+      "name": "The URL path used to get the results of an executed query in the XQL builder.",
+      "required": ""
+    },
+    {
+      "description": "XQLDSHelper.Entry The entry data for the general dynamic section. Structure of the templates",
+      "name": "The record set retrieved by the XQL query.",
+      "required": ""
+    },
+    {
+      "description": "templates depends on the parameter specified in templates_type",
+      "name": "The data provided to",
+      "required": ""
+    },
+    {
+      "description": "templates_type: raw Specifies the list of templates directly. The details will be provided later.",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "base64 Specifies the list of templates encoded directly in base64. The details will be provided later. templates_type:",
+      "name": "templates_type:",
+      "required": ""
+    },
+    {
+      "description": "Specifies the name of a list managed in the Lists of Cortex XSIAM/XSOAR. The list of templates is retrieved from it.",
+      "name": "list",
+      "required": ""
+    },
+    {
+      "description": "It can contain multiple templates, and a summary of the structure is provided below. { <template_name>: <template>,",
+      "name": "The list of templates must be either a dictionary or a serialized JSON string.",
+      "required": ""
+    },
+    {
+      "description": "} A template must be a dictionary node with two mandatory dictionary nodes ( query",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "entry ) and an optional dictionary node ( config",
+      "name": "and",
+      "required": ""
+    },
+    {
+      "description": "The summary of the template structure in the templates is provided below. { <template_name>: {",
+      "name": ").",
+      "required": ""
+    },
+    {
+      "description": "\"variable_substitution\": { \"opening\": \"<opening marker>\", \"closing\": \"<closing marker>\"",
+      "name": "\"config\": {",
+      "required": ""
+    },
+    {
+      "description": "\"context\": { \"filters\": <filter paths>, \"default\": <default values>,",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "\"entries-only\": <ctrl flag>, \"paths\": <target paths> }",
+      "name": "\"remove-null\": {",
+      "required": ""
+    },
+    {
+      "description": "\"alert\": { \"filters\": <filter paths>, \"default\": <default values>,",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "\"entries-only\": <ctrl flag>, \"paths\": <target paths> }",
+      "name": "\"remove-null\": {",
+      "required": ""
+    },
+    {
+      "description": "\"issue\": { \"filters\": <filter paths>, \"default\": <default values>,",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "\"entries-only\": <ctrl flag>, \"paths\": <target paths> }",
+      "name": "\"remove-null\": {",
+      "required": ""
+    },
+    {
+      "description": "\"incident\": { \"filters\": <filter paths>, \"default\": <default values>,",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "\"entries-only\": <ctrl flag>, \"paths\": <target paths> }",
+      "name": "\"remove-null\": {",
+      "required": ""
+    },
+    {
+      "description": "}, \"query\": { \"xql\": \"<query string>\",",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"name\": \"<command name>\", \"using\": \"<instance name>\" },",
+      "name": "\"command\": {",
+      "required": ""
+    },
+    {
+      "description": "\"earliest_time\": \"<earliest time>\", \"latest_time\": \"<latest time>\", \"round_time\": <round time>",
+      "name": "\"time_range\": {",
+      "required": ""
+    },
+    {
+      "description": "\"conditions\": <conditions>, \"locking\": { \"module\": \"<locking module>\",",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "\"info\": \"<info for lock>\", \"timeout\": <timeout>, \"using\": \"<instance name>\"",
+      "name": "\"name\": \"<name of lock>\",",
+      "required": ""
+    },
+    {
+      "description": "}, \"entry\": { \"type\": \"<widget type>\",",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"default\": { \"scope\": \"<scope>\", \"entry\": <default entry>,",
+      "name": "\"<widget type>\": <widget type dependent data>",
+      "required": ""
+    },
+    {
+      "description": "\"query_skipped\": <default entry> } }",
+      "name": "\"no_recordset\": <default entry>,",
+      "required": ""
+    },
+    {
+      "description": ": } Node: config",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "[Optional] The opening marker of the enclosure for variable substitution. It overrides the opening marker specified in the variable_substitution parameter of the arguments.",
+      "name": ".config.variable_substitution.opening",
+      "required": ""
+    },
+    {
+      "description": ".config.variable_substitution.closing [Optional] The closing marker of the enclosure for variable substitution. It overrides the opening marker specified in the variable_substitution",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": ".config.context.filters [Optional] A list of node paths to extract from the context data for use. The filters are applied before the default parameters are applied. List",
+      "name": "parameter of the arguments.",
+      "required": ""
+    },
+    {
+      "description": "[Optional] Default parameters to use when not present in the context data. Dict .config.context.remove-null.entries-only",
+      "name": ".config.context.default",
+      "required": ""
+    },
+    {
+      "description": ".config.context.remove-null.paths [Optional] A list of node paths to remove dictionary entries or values from the context data before applying default parameters. List",
+      "name": "[Optional] Set to True to remove only dictionary entries; set to false to remove both dictionary entries and null values in lists (Default = true).",
+      "required": ""
+    },
+    {
+      "description": "[Optional] A list of node paths to extract from the alert for use. alert. prefix is not required. The filters are applied before the default parameters are applied.",
+      "name": ".config.alert.filters",
+      "required": ""
+    },
+    {
+      "description": ".config.alert.default [Optional] Default parameters to use when not present in the alert. Dict",
+      "name": "List",
+      "required": ""
+    },
+    {
+      "description": "[Optional] Set to True to remove only dictionary entries; set to false to remove both dictionary entries and null values in lists (Default = true). .config.alert.remove-null.paths [Optional] A list of node paths to remove dictionary entries or values from the alert before applying default parameters.",
+      "name": ".config.alert.remove-null.entries-only",
+      "required": ""
+    },
+    {
+      "description": ".config.issue.filters [Optional] A list of node paths to extract from the issue for use. issue.",
+      "name": "List",
+      "required": ""
+    },
+    {
+      "description": "List .config.issue.default [Optional] Default parameters to use when not present in the issue.",
+      "name": "prefix is not required. The filters are applied before the default parameters are applied.",
+      "required": ""
+    },
+    {
+      "description": ".config.issue.remove-null.entries-only [Optional] Set to True to remove only dictionary entries; set to false to remove both dictionary entries and null values in lists (Default = true). .config.issue.remove-null.paths",
+      "name": "Dict",
+      "required": ""
+    },
+    {
+      "description": "List .config.incident.filters [Optional] A list of node paths to extract from the incident for use.",
+      "name": "[Optional] A list of node paths to remove dictionary entries or values from the issue before applying default parameters.",
+      "required": ""
+    },
+    {
+      "description": "prefix is not required. The filters are applied before the default parameters are applied. List .config.incident.default",
+      "name": "incident.",
+      "required": ""
+    },
+    {
+      "description": "Dict .config.incident.remove-null.entries-only [Optional] Set to True to remove only dictionary entries; set to false to remove both dictionary entries and null values in lists (Default = true).",
+      "name": "[Optional] Default parameters to use when not present in the incident.",
+      "required": ""
+    },
+    {
+      "description": ".config.incident.remove-null.paths [Optional] A list of node paths to remove dictionary entries or values from the incident before applying default parameters. List",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "config node. \"config\": {",
+      "name": "Below is a sample of the",
+      "required": ""
+    },
+    {
+      "description": "\"opening\": \"{\", \"closing\": \"}\" },",
+      "name": "\"variable_substitution\": {",
+      "required": ""
+    },
+    {
+      "description": "\"filters\": [ \"User\", \"time_format\"",
+      "name": "\"context\": {",
+      "required": ""
+    },
+    {
+      "description": "\"remove-null\": { \"entries-only\": true, \"paths\": [",
+      "name": "],",
+      "required": ""
+    },
+    {
+      "description": "] }, \"default\": {",
+      "name": "\"User.ID\"",
+      "required": ""
+    },
+    {
+      "description": "\"ID\": \"Administrator\" }, \"time_format\": \"%b %d, %Y\"",
+      "name": "\"User\": {",
+      "required": ""
+    },
+    {
+      "description": "}, \"alert\": { \"default\": {",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "} }, \"issue\": {",
+      "name": "\"username\": \"Administrator\"",
+      "required": ""
+    },
+    {
+      "description": "\"username\": \"Administrator\" } },",
+      "name": "\"default\": {",
+      "required": ""
+    },
+    {
+      "description": "\"default\": { \"username\": \"Administrator\" }",
+      "name": "\"incident\": {",
+      "required": ""
+    },
+    {
+      "description": "} .filters ,",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": ", and .default settings under",
+      "name": ".remove-null",
+      "required": ""
+    },
+    {
+      "description": ", alert ,",
+      "name": "content",
+      "required": ""
+    },
+    {
+      "description": ", and incident can help minimize the data used for Variable Substitution and provide default values.",
+      "name": "issue",
+      "required": ""
+    },
+    {
+      "description": "${.=val.username} is time-consuming. By using these settings to minimize the data and define default values, you can reduce the need to pass the entire data, thereby improving processing performance. Node: query",
+      "name": "Using Variable Substitution to pass the entire data to variables like",
+      "required": ""
+    },
+    {
+      "description": "The XQL query string to retrieve the record set to create an entry. .query.command.using [Optional] The name of the integration instance to execute the XQL query command. It overrides",
+      "name": ".query.xql",
+      "required": ""
+    },
+    {
+      "description": "in the argument parameters. .query.time_range.earliest_time [Optional] The earliest time at which the time range of the query starts. It overrides",
+      "name": "xql_query_instance",
+      "required": ""
+    },
+    {
+      "description": "in the argument parameters. String or Number .query.time_range.latest_time",
+      "name": "earliest_time",
+      "required": ""
+    },
+    {
+      "description": "latest_time in the argument parameters. String or Number",
+      "name": "[Optional] The latest time at which the time range of the query ends. It overrides",
+      "required": ""
+    },
+    {
+      "description": "[Optional] The value (in seconds) used to round down the base time. If the value is of type dict, .query.time_range.round_time.earliest_time and",
+      "name": ".query.time_range.round_time",
+      "required": ""
+    },
+    {
+      "description": "can be provided. This parameter overrides round_time in the argument parameters.",
+      "name": ".query.time_range.round_time.latest_time",
+      "required": ""
+    },
+    {
+      "description": ".query.time_range.round_time.earliest_time [Optional] The value (in seconds) used to round down the base time for earliest_time",
+      "name": "String, Number or Dict",
+      "required": ""
+    },
+    {
+      "description": "String or Number .query.time_range.round_time.latest_time [Optional] The value (in seconds) used to round down the base time for",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": ". String or Number .query.conditions",
+      "name": "latest_time",
+      "required": ""
+    },
+    {
+      "description": ".entry.default will be applied if it is specified and the conditions defined for it are satisfied, otherwise, an empty record set will be returned. Any",
+      "name": "[Optional] Conditions for executing XQL: it will only be executed if the conditions evaluate to true or are not specified. If the conditions evaluate to false, the",
+      "required": ""
+    },
+    {
+      "description": "[Optional] The locking module to use. Must be either core-lock or",
+      "name": ".query.locking.module",
+      "required": ""
+    },
+    {
+      "description": "(Default = core-lock). .query.locking.name [Optional] The lock name passed as the",
+      "name": "demisto-lock",
+      "required": ""
+    },
+    {
+      "description": "parameter to the core-lock-get command.",
+      "name": "name",
+      "required": ""
+    },
+    {
+      "description": ".query.locking.info [Optional] Additional information provided for the lock instance via the info",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "core-lock-get command. .query.locking.timeout",
+      "name": "parameter of the",
+      "required": ""
+    },
+    {
+      "description": "timeout parameter of the core-lock-get",
+      "name": "[Optional] The timeout value (in seconds) passed to the",
+      "required": ""
+    },
+    {
+      "description": "String or Number .query.locking.using [Optional] The name of the Core Lock integration instance to execute the",
+      "name": "command.",
+      "required": ""
+    },
+    {
+      "description": "and core-lock-release .",
+      "name": "core-lock-get",
+      "required": ""
+    },
+    {
+      "description": "This node supports Variable Substitution for all parameters.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Node: .query.conditions",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "XQLDSHelper",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/xqlds-helper"
+}

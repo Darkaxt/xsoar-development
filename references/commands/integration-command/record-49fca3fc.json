@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "unit42-get-threat-objects",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Gets threat objects from the feed.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "unit42-get-threat-objects",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Unit 42 Intel Objects Feed (Deprecated) \u00bb Configure Unit 42 Feed in Cortex",
+      "name": "\u00ab Unit 42 ATOMs Feed (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "Limit Calculation Algorithm Examples Fetch Priority Order",
+      "name": "How the Maximum Indicators Per Fetch Parameter Works",
+      "required": ""
+    },
+    {
+      "description": "unit42-get-indicators unit42-get-threat-objects Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Unit 42 Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/unit-42-feed"
+}

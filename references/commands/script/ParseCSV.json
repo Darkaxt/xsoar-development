@@ -1,0 +1,56 @@
+{
+  "aliases": [
+    "parse-csv"
+  ],
+  "arguments": [],
+  "description": "ParseCSV | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ParseCSV",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address found in the parsed file. Domain.Name Domain found in the parsed file.",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "File.MD5 MD5 found in the parsed file. File.SHA1",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "File.SHA256 SHA256 found in the parsed file. ParseCSV.ParsedCSV",
+      "name": "SHA1 found in the parsed file.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Parsed csv in the form of JSON array.",
+      "required": ""
+    },
+    {
+      "description": "Next ParseEmailFiles \u00bb Script Data",
+      "name": "\u00ab PanwIndicatorCreateQueries",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ParseCSV",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/parse-csv"
+}

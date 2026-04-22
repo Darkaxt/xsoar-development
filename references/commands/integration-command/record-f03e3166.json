@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "domaintools-iris-detect-reset-fetch-indicators",
+  "examples": [
+    "!domaintools-iris-detect-reset-fetch-indicators\nHuman Readable Output\n#\nFetch history deleted successfully\nEdit this page\nReport an Issue\nPrevious\n\u00ab DomainTools Iris"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DomainTools Iris Detect",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/domain-tools-iris-detect"
+}

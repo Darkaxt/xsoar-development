@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Wordpress.Users.description",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Workday \u00bb Configure Wordpress in Cortex",
+      "name": "\u00ab WootCloud",
+      "required": ""
+    },
+    {
+      "description": "wordpress-url-request wordpress-list-posts wordpress-get-post",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "wordpress-update-post wordpress-delete-post wordpress-list-categories",
+      "name": "wordpress-create-post",
+      "required": ""
+    },
+    {
+      "description": "wordpress-get-category wordpress-update-category wordpress-delete-category",
+      "name": "wordpress-create-category",
+      "required": ""
+    },
+    {
+      "description": "wordpress-create-tag wordpress-get-tag wordpress-update-tag",
+      "name": "wordpress-list-tags",
+      "required": ""
+    },
+    {
+      "description": "wordpress-list-comments wordpress-create-comment wordpress-get-comment",
+      "name": "wordpress-delete-tag",
+      "required": ""
+    },
+    {
+      "description": "wordpress-delete-comment wordpress-list-users wordpress-get-user",
+      "name": "wordpress-update-comment",
+      "required": ""
+    },
+    {
+      "description": "wordpress-update-user wordpress-delete-user Docs",
+      "name": "wordpress-create-user",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Wordpress",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/wordpress"
+}

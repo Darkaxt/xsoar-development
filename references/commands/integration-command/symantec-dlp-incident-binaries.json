@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "4. symantec-dlp-incident-binaries",
+  "examples": [
+    "Command Example\n!symantec-dlp-incident-binaries incident_id=2222\nContext Example\n\"SymantecDLP.Incident\": {\n'ID': 2222,\n'OriginalMessage': 'msg',\n'Component': [\n'ID': 69065,",
+    "!symantec-dlp-incident-binaries incident_id=2222\nContext Example\n\"SymantecDLP.Incident\": {\n'ID': 2222,\n'OriginalMessage': 'msg',\n'Component': [\n'ID': 69065,\n'Name': 'CCN.txt',"
+  ],
+  "kind": "integration-command",
+  "name": "symantec-dlp-incident-binaries",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the incident. SymantecDLP.Incident.LongID The long ID of the incident.",
+      "name": "SymantecDLP.Incident.ID",
+      "required": ""
+    },
+    {
+      "description": "The original message of the incident. SymantecDLP.Component.ID The ID of the component",
+      "name": "SymantecDLP.Incident.OriginalMessage",
+      "required": ""
+    },
+    {
+      "description": "The name of the component. SymantecDLP.Component.TypeID The ID of the type of the component.",
+      "name": "SymantecDLP.Component.Name",
+      "required": ""
+    },
+    {
+      "description": "The type of the component SymantecDLP.Component.Content The content of the component",
+      "name": "SymantecDLP.Component.Type",
+      "required": ""
+    },
+    {
+      "description": "The long ID of the component.",
+      "name": "SymantecDLP.Component.LongID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Data Loss Prevention (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-data-loss-prevention"
+}

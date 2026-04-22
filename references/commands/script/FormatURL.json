@@ -1,0 +1,49 @@
+{
+  "aliases": [
+    "format-url"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "A pipe (\"",
+      "required": ""
+    }
+  ],
+  "description": "FormatURL | Cortex XSOAR",
+  "examples": [
+    "!FormatURL input=https://urldefense.proofpoint.com/v2/url?u=https-3A__example.com_something.html\nContext Example\n#\n{\n\"URL\"\n:\n[\n\"https://example.com/something.html\""
+  ],
+  "kind": "script",
+  "name": "FormatURL",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "URL formatted. Script Example",
+      "name": "URL",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!FormatURL input=https://urldefense.proofpoint.com/v2/url?u=https-3A__example.com_something.html",
+      "required": ""
+    },
+    {
+      "description": "\"URL\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "] }",
+      "name": "\"https://example.com/something.html\"",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FormatURL",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/format-url"
+}

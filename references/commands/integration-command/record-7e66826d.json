@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!amp_put_computers_isolation connector_guid=12345abcde",
+  "examples": [
+    "Command Example\n#\n!amp_put_computers_isolation connector_guid=12345abcde\n23. amp_get_computers_isolation\n#\nReturns a fine grained isolation status for a computer.\nBase Command\n#",
+    "!amp_put_computers_isolation connector_guid=12345abcde\n23. amp_get_computers_isolation\n#\nReturns a fine grained isolation status for a computer.\nBase Command\n#\namp_get_computers_isolation\nInput",
+    "Command Example\n#\n!amp_get_computers_isolation connector_guid=12345abcde\nEdit this page\nReport an Issue\nPrevious\n\u00ab Amazon Web Services\nNext",
+    "!amp_get_computers_isolation connector_guid=12345abcde\nEdit this page\nReport an Issue\nPrevious\n\u00ab Amazon Web Services\nNext\nAnalyst1 \u00bb\nConfigure AMP on Cortex XSOAR"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AMP",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/amp"
+}

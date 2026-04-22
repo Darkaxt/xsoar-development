@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "azure-find-available-nsg-priorities"
+  ],
+  "arguments": [],
+  "description": "AzureFindAvailableNSGPriorities | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "AzureFindAvailableNSGPriorities",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Description Type AvailableAzureNSGPriorities",
+      "name": "Context Path",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "List of numbers that represent available Azure NSG priorities",
+      "required": ""
+    },
+    {
+      "description": "Next Base64Decode \u00bb Script Data",
+      "name": "\u00ab AwsStopInstance",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AzureFindAvailableNSGPriorities",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/azure-find-available-nsg-priorities"
+}

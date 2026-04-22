@@ -1,0 +1,63 @@
+{
+  "aliases": [
+    "time-stamp-compare"
+  ],
+  "arguments": [],
+  "description": "TimeStampCompare | Cortex XSOAR",
+  "examples": [
+    "!TimeStampCompare tested_time='01-01-2020' values_to_compare='2020-02-01T00:00:00,31.12.2019'\nContext Example\n#\n{\n\"TimeStampCompare\": [\n{\n\"ComparedTime\": \"'2020-02-01T00:00:00\",\n\"Result\": \"after\","
+  ],
+  "kind": "script",
+  "name": "TimeStampCompare",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The tested time Date TimeStampCompare.ComapredTime",
+      "name": "TimeStampCompare.TestedTime",
+      "required": ""
+    },
+    {
+      "description": "Date TimeStampCompare.Result Whether the tested time was before, after, or equal to the comapred time.",
+      "name": "The compared time",
+      "required": ""
+    },
+    {
+      "description": "Script Example",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!TimeStampCompare tested_time='01-01-2020' values_to_compare='2020-02-01T00:00:00,31.12.2019'",
+      "required": ""
+    },
+    {
+      "description": "\"TimeStampCompare\": [ { \"ComparedTime\": \"'2020-02-01T00:00:00\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"TestedTime\": \"'01-01-2020'\" }, {",
+      "name": "\"Result\": \"after\",",
+      "required": ""
+    },
+    {
+      "description": "\"Result\": \"before\", \"TestedTime\": \"'01-01-2020'\" }",
+      "name": "\"ComparedTime\": \"31.12.2019'\",",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TimeStampCompare",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/time-stamp-compare"
+}

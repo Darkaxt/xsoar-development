@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "22. Get a list of groups",
+  "examples": [
+    "Command Example\n!okta-list-groups query=test1\nContext Example\n{\n\"Okta\": {\n\"Group\": {\n\"Created\": \"2016-10-25T14:52:38.000Z\",\n\"Description\": null,",
+    "!okta-list-groups query=test1\nContext Example\n{\n\"Okta\": {\n\"Group\": {\n\"Created\": \"2016-10-25T14:52:38.000Z\",\n\"Description\": null,\n\"ID\": \"00g8mo0l5wuTxmoIC0h7\","
+  ],
+  "kind": "integration-command",
+  "name": "okta-list-groups",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique key for the group Okta.Group.Created date",
+      "name": "Okta.Group.ID",
+      "required": ""
+    },
+    {
+      "description": "Okta.Group.ObjectClass The group profile Okta.Group.LastUpdated",
+      "name": "Timestamp for when the group was created",
+      "required": ""
+    },
+    {
+      "description": "Timestamp for when the group profile was last updated Okta.Group.LastMembershipUpdated date",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "Okta.Group.Type Determines how a group\u2019s profile and memberships are managed OKTA_GROUP",
+      "name": "Timestamp for when the group\u2019s memberships were last updated",
+      "required": ""
+    },
+    {
+      "description": "BUILT_IN Okta.Group.Name Name of the group",
+      "name": "APP_GROUP",
+      "required": ""
+    },
+    {
+      "description": "Description of the group",
+      "name": "Okta.Group.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "okta (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta"
+}

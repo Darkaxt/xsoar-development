@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Test incident fetching to verify alarms are available and date parsing works correctly.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Total number of incidents found. SOCRadar.TestFetch.SampleIncidents Sample incidents for testing.",
+      "name": "SOCRadar.TestFetch.TotalCount",
+      "required": ""
+    },
+    {
+      "description": "Parsed start date used for the test. SOCRadar.TestFetch.TotalRecords Total number of incidents from service.",
+      "name": "SOCRadar.TestFetch.StartDate",
+      "required": ""
+    },
+    {
+      "description": "Total number of pages of incidents from service. License",
+      "name": "SOCRadar.TestFetch.TotalPages",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "This integration is provided as part of the Cortex XSOAR content pack.",
+      "required": ""
+    },
+    {
+      "description": "Next SOCRadar Incidents v4 \u00bb Overview",
+      "name": "\u00ab SOCRadar Incidents",
+      "required": ""
+    },
+    {
+      "description": "Centralized Multi-Company Management Automatic Company ID Handling Company Visibility Control",
+      "name": "Multi-Tenant Features",
+      "required": ""
+    },
+    {
+      "description": "Multi-Tenant Specific Core Features (from v4.0) Technical Improvements",
+      "name": "What's New in Multi-Tenant v4.0",
+      "required": ""
+    },
+    {
+      "description": "Prerequisites",
+      "name": "Key Differences: Standard vs Multi-Tenant",
+      "required": "Required"
+    },
+    {
+      "description": "Configuration Integration Settings Filtering Options",
+      "name": "API Access",
+      "required": ""
+    },
+    {
+      "description": "socradar-change-alarm-status socradar-mark-false-positive socradar-mark-resolved",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "socradar-add-assignee socradar-add-tag socradar-test-fetch",
+      "name": "socradar-add-comment",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "License",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SOCRadar Incidents Multi-Tenant",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/soc-radar-incidents-multi-tenant"
+}

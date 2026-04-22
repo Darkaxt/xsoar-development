@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "EDAD4D73-95E7-4C11-84EB-D0C73D28D50A",
+  "examples": [
+    "Command Example\nsymantec-mc-add-policy-content uuid=\"0D264052-9628-4872-8C07-E04A8B95F602\" content_type=\"IP_LIST\" change_description=\"test\" ip=\"2.2.2.2,4.4.4.4,8.8.8.8\" description=\"Test IPs\""
+  ],
+  "kind": "integration-command",
+  "name": "symantec-mc-add-policy-content",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-management-center"
+}

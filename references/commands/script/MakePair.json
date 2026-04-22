@@ -1,0 +1,416 @@
+{
+  "aliases": [
+    "make-pair"
+  ],
+  "arguments": [],
+  "description": "MakePair | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "MakePair",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "value: [ 1,",
+      "name": "Simply create a list of dictionary by aggregating elements from two arrays.",
+      "required": ""
+    },
+    {
+      "description": "3 ] array1_key:",
+      "name": "2,",
+      "required": ""
+    },
+    {
+      "description": "[ \"a\", \"b\",",
+      "name": "array2:",
+      "required": ""
+    },
+    {
+      "description": "] array2_key: output_name1: xxx",
+      "name": "\"c\"",
+      "required": ""
+    },
+    {
+      "description": "determine_output_length_by: merge_dict: Output",
+      "name": "output_name2: yyy",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": 1, \"yyy\": \"a\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": 2, \"yyy\": \"b\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": 3, \"yyy\": \"c\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] Aggregate each of value from the keys given. value:",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"a\", \"key2\": \"A\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"b\", \"key2\": \"B\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"key2\": \"C\" }",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "array1_key: key1 array2: [",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "\"key3\": \"x\", \"key4\": \"X\" },",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"key3\": \"y\", \"key4\": \"Y\" },",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"key4\": \"Z\" } ]",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "output_name1: xxx output_name2: yyy determine_output_length_by:",
+      "name": "array2_key: key3",
+      "required": ""
+    },
+    {
+      "description": "Output",
+      "name": "merge_dict:",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": \"a\", \"yyy\": \"x\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": \"b\", \"yyy\": \"y\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": null, \"yyy\": null",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] Truncate remaining elements of array2 which is longer than array1. value:",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"a\", \"key2\": \"A\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"b\", \"key2\": \"B\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] array1_key: key1 array2:",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "{ \"key3\": \"x\", \"key4\": \"X\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"key3\": \"y\", \"key4\": \"Y\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"key3\": \"z\", \"key4\": \"Z\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] array2_key: key3 output_name1: xxx",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "determine_output_length_by: array1 merge_dict: Output",
+      "name": "output_name2: yyy",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": \"a\", \"yyy\": \"x\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": \"b\", \"yyy\": \"y\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] array2 is longer than array1. fill in shorten elements with null. value:",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"a\", \"key2\": \"A\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"b\", \"key2\": \"B\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] array1_key: key1 array2:",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "{ \"key3\": \"x\", \"key4\": \"X\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"key3\": \"y\", \"key4\": \"Y\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"key3\": \"z\", \"key4\": \"Z\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] array2_key: key3 output_name1: xxx",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "determine_output_length_by: array2 merge_dict: Output",
+      "name": "output_name2: yyy",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": \"a\", \"yyy\": \"x\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": \"b\", \"yyy\": \"y\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": null, \"yyy\": \"z\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] Merge each of dictionary element. value:",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"a\", \"key2\": \"A\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"b\", \"key2\": \"B\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] array1_key: array2:",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "{ \"key3\": \"x\", \"key4\": \"X\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"key3\": \"y\", \"key4\": \"Y\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] array2_key: output_name1: xxx",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "determine_output_length_by: merge_dict: array1<2 Output",
+      "name": "output_name2: yyy",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"a\", \"key2\": \"A\",",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "\"key4\": \"X\" }, {",
+      "name": "\"key3\": \"x\",",
+      "required": ""
+    },
+    {
+      "description": "\"key2\": \"B\", \"key3\": \"y\", \"key4\": \"Y\"",
+      "name": "\"key1\": \"b\",",
+      "required": ""
+    },
+    {
+      "description": "] Merge each of element into a dictionary. value:",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"a\", \"key2\": \"A\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"b\", \"key2\": \"B\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] array1_key: array2:",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "1, 2 ]",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "output_name1: xxx output_name2: yyy determine_output_length_by:",
+      "name": "array2_key:",
+      "required": ""
+    },
+    {
+      "description": "Output",
+      "name": "merge_dict: array1",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"a\", \"key2\": \"A\",",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "}, { \"key1\": \"b\",",
+      "name": "\"yyy\": 1",
+      "required": ""
+    },
+    {
+      "description": "\"yyy\": 2 } ]",
+      "name": "\"key2\": \"B\",",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab LowerCidrNumAddresses",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "MaliciousRatioReputation \u00bb Script Data",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": 1, \"yyy\": \"a\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": 2, \"yyy\": \"b\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"xxx\": 3, \"yyy\": \"c\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] Aggregate each of value from the keys given. value:",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"a\", \"key2\": \"A\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"key1\": \"b\", \"key2\": \"B\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"key2\": \"C\" }",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "array1_key: key1 array2: [",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "\"key3\": \"x\", \"key4\": \"X\" },",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"key3\": \"y\", \"key4\": \"Y\" },",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"key4\": \"Z\" } ]",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "output_name1: xxx output_name2: yyy determine_output_length_by:",
+      "name": "array2_key: key3",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MakePair",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/make-pair"
+}

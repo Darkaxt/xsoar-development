@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "12/09/2022, 06:55 AM UTC",
+  "examples": [
+    "!cofense-searchable-headers-get\nContext Example\n#\n{\n\"Cofense\"\n:\n{\n\"Config\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name of the configuration which is 'searchableHeaders'. Cofense.Config.value List of headers that are available to create a message search.",
+      "name": "Cofense.Config.name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cofense Vision",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cofense-vision"
+}

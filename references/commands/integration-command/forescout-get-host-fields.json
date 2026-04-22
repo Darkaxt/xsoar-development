@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2. Get an index of host fields",
+  "examples": [
+    "Command Example\nforescout-get-host-fields search_term=hostname case_sensitive=false host_field_type=tree_path,string match_exactly=False search_in=name,label,description\nContext Example\n{\n\"Forescout.HostField\": [\n{\n\"Name\": \"nbthost\",\n\"Type\": \"string\","
+  ],
+  "kind": "integration-command",
+  "name": "forescout-get-host-fields",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List index of host properties.",
+      "name": "Forescout.HostField",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Forescout CounterACT",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forescout"
+}

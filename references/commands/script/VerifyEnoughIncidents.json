@@ -1,0 +1,63 @@
+{
+  "aliases": [
+    "verify-enough-incidents"
+  ],
+  "arguments": [],
+  "description": "VerifyEnoughIncidents | Cortex XSOAR",
+  "examples": [
+    "!VerifyEnoughIncidents query=\"sourceInstance:Some_Integration_instance_1\" size=\"1\"\nContext Example\n#\n{\n\"IncidentsCheck\"\n:\n{\n\"ConditionMet\""
+  ],
+  "kind": "script",
+  "name": "VerifyEnoughIncidents",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The number of incidents in Cortex XSOAR that is expected to match the query. IncidentsCheck.ConditionMet Whether there are sufficient incidents in Cortex XSOAR that match the query.",
+      "name": "IncidentsCheck.Size",
+      "required": ""
+    },
+    {
+      "description": "IncidentsCheck.Query The incidents query which was used to check if the condition was met. Script Example",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!VerifyEnoughIncidents query=\"sourceInstance:Some_Integration_instance_1\" size=\"1\"",
+      "required": ""
+    },
+    {
+      "description": "\"IncidentsCheck\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": true ,",
+      "name": "\"ConditionMet\"",
+      "required": ""
+    },
+    {
+      "description": ": \"sourceInstance:Some_Integration_instance_1\" ,",
+      "name": "\"Query\"",
+      "required": ""
+    },
+    {
+      "description": ": 1 }",
+      "name": "\"Size\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VerifyEnoughIncidents",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/verify-enough-incidents"
+}

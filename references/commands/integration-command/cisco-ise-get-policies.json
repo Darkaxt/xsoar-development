@@ -1,0 +1,33 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Unknown Identity Group",
+  "examples": [
+    "Command Example\n!cisco-ise-get-policies\nContext Example\n{\n\"CiscoISE.Policy\": [\n{\n\"ID\": \"ANCPortBounce\",\n\"Name\": \"ANCPortBounce\"",
+    "!cisco-ise-get-policies\nContext Example\n{\n\"CiscoISE.Policy\": [\n{\n\"ID\": \"ANCPortBounce\",\n\"Name\": \"ANCPortBounce\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "cisco-ise-get-policies",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The description of the ANC policy. CiscoISE.Policy.ID The ID of the ANC policy.",
+      "name": "CiscoISE.Policy.Description",
+      "required": ""
+    },
+    {
+      "description": "The name of the ANC policy.",
+      "name": "CiscoISE.Policy.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ISE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-ise"
+}

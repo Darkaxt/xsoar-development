@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "gcs-upload-file entry_id=889@a7c34bf4-a552-49b2-83b6-e95590596286 bucket_name=my-bucket object_name=/some/path/my_file.txt object_acl=bucketOwnerRead",
+  "examples": [
+    "Command Example\ngcs-upload-file entry_id=889@a7c34bf4-a552-49b2-83b6-e95590596286 bucket_name=my-bucket object_name=/some/path/my_file.txt object_acl=bucketOwnerRead\nHuman Readable Output\nFile some_source_file.txt was successfully uploaded to bucket my-bucket as /some/path/my_file.txt\n8. Retrieve the Access Control List of a bucket\nRetrieves the Access Control List of a bucket.\nBase Command\ngcs-list-bucket-policy",
+    "Command Example\ngcs-list-bucket-policy bucket_name=my-bucket\nHuman Readable Output\nACL policy for bucket my-bucket\nBucket\nEntity\nEmail\nRole"
+  ],
+  "kind": "integration-command",
+  "name": "gcs-list-bucket-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name of the bucket holding the Access Control List. GCS.BucketPolicy.Entity The entity holding the permission.",
+      "name": "GCS.BucketPolicy.Bucket",
+      "required": ""
+    },
+    {
+      "description": "Email address associated with the entity (if any). GCS.BucketPolicy.Role The access permission for the entity.",
+      "name": "GCS.BucketPolicy.Email",
+      "required": ""
+    },
+    {
+      "description": "Project team associated with the entity (if any).",
+      "name": "GCS.BucketPolicy.Team",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Storage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-storage"
+}

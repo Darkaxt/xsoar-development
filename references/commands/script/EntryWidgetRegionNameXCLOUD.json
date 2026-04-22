@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "entry-widget-region-name-xcloud"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "EntryWidgetRegionNameXCLOUD | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "EntryWidgetRegionNameXCLOUD",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next EntryWidgetResourceTypeXCLOUD \u00bb Script Data",
+      "name": "\u00ab EntryWidgetPortBasedRules",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EntryWidgetRegionNameXCLOUD",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/entry-widget-region-name-xcloud"
+}

@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "16. Get all alerts for a site",
+  "examples": [
+    "Command Example\n!sigsci-get-all-alerts siteName=demisto\nContext Example\n{\n\"SigSciences.Corp.Site.Alert\": [\n{\n\"LongName\": \"ggggg\",\n\"SkipNotifications\": \"\",",
+    "!sigsci-get-all-alerts siteName=demisto\nContext Example\n{\n\"SigSciences.Corp.Site.Alert\": [\n{\n\"LongName\": \"ggggg\",\n\"SkipNotifications\": \"\",\n\"Interval\": 10,"
+  ],
+  "kind": "integration-command",
+  "name": "sigsci-get-all-alerts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the alert. SigSciences.Corp.Site.Alert.SiteID The ID of the site.",
+      "name": "SigSciences.Corp.Site.Alert.ID",
+      "required": ""
+    },
+    {
+      "description": "The name of the tag whose occurrences the alert is watching. SigSciences.Corp.Site.Alert.LongName A short description of the alert.",
+      "name": "SigSciences.Corp.Site.Alert.TagName",
+      "required": ""
+    },
+    {
+      "description": "The number of minutes of past traffic to examine. SigSciences.Corp.Site.Alert.Threshold The number of occurrences of the tag in the specified interval that are required to trigger the alert.",
+      "name": "SigSciences.Corp.Site.Alert.Interval",
+      "required": ""
+    },
+    {
+      "description": "The number of seconds this alert is active. SigSciences.Corp.Site.Alert.SkipNotification A flag to disable external notifications - Slack, webhooks, emails, and so on.",
+      "name": "SigSciences.Corp.Site.Alert.BlockDurationSeconds",
+      "required": ""
+    },
+    {
+      "description": "A flag to toggle this alert. SigSciences.Corp.Site.Alert.Action A flag that describes what happens when the alert is triggered.",
+      "name": "SigSciences.Corp.Site.Alert.Enabled",
+      "required": ""
+    },
+    {
+      "description": "date The timestamp of event (RFC3339 format).",
+      "name": "SigSciences.Corp.Site.Alert.CreatedDate",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

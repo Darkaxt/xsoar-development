@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2. Execute a file retrieve operation / SAM on an agent",
+  "examples": [
+    "Command Example\n!traps-endpoint-files-retrieve endpoint_id=\"d3339851f18f470182bf2bf98ad5db4b\" file_name=\"C:\\\\Program Files\n(x86)\\\\Notepad++\\\\notepad++.exe\" event_id=\"1cfb8fac7b504dc9894eabb9eb33de73\"\nContext Example\n{\n\"Traps.FileRetrieve\": {\n\"EndpointID\": \"d3339851f18f470182bf2bf98ad5db4b\",\n\"OperationID\": \"3f7d6e86e5bd11e9acbf0245d8e950da\",",
+    "!traps-endpoint-files-retrieve endpoint_id=\"d3339851f18f470182bf2bf98ad5db4b\" file_name=\"C:\\\\Program Files\n(x86)\\\\Notepad++\\\\notepad++.exe\" event_id=\"1cfb8fac7b504dc9894eabb9eb33de73\"\nContext Example\n{\n\"Traps.FileRetrieve\": {\n\"EndpointID\": \"d3339851f18f470182bf2bf98ad5db4b\",\n\"OperationID\": \"3f7d6e86e5bd11e9acbf0245d8e950da\",\n\"Type\": \"files-retrieve\""
+  ],
+  "kind": "integration-command",
+  "name": "traps-endpoint-files-retrieve",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the endpoint. Traps.FileRetrieve.OperationID The ID of the operation.",
+      "name": "Traps.FileRetrieve.EndpointID",
+      "required": ""
+    },
+    {
+      "description": "The type of operation.",
+      "name": "Traps.FileRetrieve.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Traps (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/traps"
+}

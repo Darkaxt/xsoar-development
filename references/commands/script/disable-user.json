@@ -1,0 +1,61 @@
+{
+  "aliases": [
+    "disable-user"
+  ],
+  "arguments": [],
+  "description": "disable-user | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "disable-user",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The brand (integration) used to disable the user. DisableUser.Instance The integration instance used to disable the user.",
+      "name": "DisableUser.Brand",
+      "required": ""
+    },
+    {
+      "description": "DisableUser.Disabled Whether the user is disabled. DisableUser.Result",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "DisableUser.Message The output message of the disable action. DisableUser.UserProfile.Username",
+      "name": "Whether the disable action was successful. The result does not indicate whether the user is disabled. Possible values are: \"Success\", \"Failed\"",
+      "required": ""
+    },
+    {
+      "description": "DisableUser.UserProfile.ID The ID of the user. DisableUser.UserProfile.Email",
+      "name": "The username of the user.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The Email address of the user.",
+      "required": ""
+    },
+    {
+      "description": "Next DisableUserWrapper \u00bb Script Data",
+      "name": "\u00ab Dig",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "disable-user",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/disable-user"
+}

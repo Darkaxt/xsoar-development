@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Terraform Policy Checks",
+  "examples": [
+    "!terraform-get-events limit=2\nHuman Readable Output\n#\nTerraform Audit Trail Events\n#\ntimestamp\nid\nversion"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HashiCorp Terraform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hashicorp-terraform"
+}

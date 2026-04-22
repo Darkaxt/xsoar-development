@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "microsoft-defender-cloud-apps-auth-reset",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Run this command if for some reason you need to rerun the authentication process.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "microsoft-defender-cloud-apps-auth-reset",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Microsoft Defender for Cloud Event Collector \u00bb Configure Microsoft Defender for Cloud Apps Event Collector in Cortex",
+      "name": "\u00ab Microsoft Defender for Cloud Apps",
+      "required": ""
+    },
+    {
+      "description": "microsoft-defender-cloud-apps-get-events microsoft-defender-cloud-apps-auth-reset Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Defender for Cloud Apps Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-defender-for-cloud-apps-event-collector"
+}

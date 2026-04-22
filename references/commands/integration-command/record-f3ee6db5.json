@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!pingcastle-get-report delete_report=No\nContext Example\n#\n{\n\"PingCastle\"\n:",
+    "!pingcastle-get-report delete_report=No\nContext Example\n#\n{\n\"PingCastle\"\n:\n{\n\"Report\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The XML report sent by Ping Castle",
+      "name": "PingCastle.Report.report",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PingCastle",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ping-castle"
+}

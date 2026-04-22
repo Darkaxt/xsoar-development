@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "threat-grid-domain-associated-ips",
+  "examples": [
+    "!threat-grid-domain-associated-ips domain=domain_example\nContext Example\n#\n{\n\"ThreatGrid\"\n:\n{\n\"DomainAssociatedIp\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Domain. ThreatGrid.DomainAssociatedIp.ips The associated IP.",
+      "name": "ThreatGrid.DomainAssociatedIp.domain",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Secure Malware Analytics (Threat Grid) v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-gridv2"
+}

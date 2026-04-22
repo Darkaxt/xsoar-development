@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!feedly-get-indicators limit=100\nHuman Readable Output\n#\nIndicators from Feedly Feed\n#\nValue\nA new sophisticated SkidMap variant targets unsecured Redis servers\nDarkWatchman RAT detection with Wazuh"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Feedly Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/feedly-feed"
+}

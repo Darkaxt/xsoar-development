@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!ip ip=7.77.7.7\nContext Example\nHuman Readable Output\n2. Search for an indicator of type URL\nSearches for an indicator of type URL.\nBase Command\nurl",
+    "!ip ip=7.77.7.7\nContext Example\nHuman Readable Output\n2. Search for an indicator of type URL\nSearches for an indicator of type URL.\nBase Command\nurl\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the indicator. TC.Indicator.Type The type of the indicator.",
+      "name": "TC.Indicator.Name",
+      "required": ""
+    },
+    {
+      "description": "The ID of the indicator. TC.Indicator.Description The description of the indicator.",
+      "name": "TC.Indicator.ID",
+      "required": ""
+    },
+    {
+      "description": "The owner of the indicator. TC.Indicator.CreateDate date",
+      "name": "TC.Indicator.Owner",
+      "required": ""
+    },
+    {
+      "description": "TC.Indicator.LastModified date The date on which the indicator was last modified.",
+      "name": "The date on which the indicator was created.",
+      "required": ""
+    },
+    {
+      "description": "The threat rating of the indicator. TC.Indicator.Confidence The confidence rating of the indicator.",
+      "name": "TC.Indicator.Rating",
+      "required": ""
+    },
+    {
+      "description": "The value assigned by DBot for the indicator. DBotScore.Type The type assigned by DBot for the indicator.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The score assigned by DBot for the indicator. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The data of the URL indicator. URL.Malicious.Vendor For malicious URLs, the vendor that made the decision.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the full description.",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

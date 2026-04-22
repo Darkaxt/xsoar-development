@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "For malicious files, the full description.",
+  "examples": [
+    "Command Example\nHuman Readable Output\n4. Retrieves all owners for the current account\nRetrieves all owners for the current account.\nBase Command\ntc-owners\nContext Output\nPath"
+  ],
+  "kind": "integration-command",
+  "name": "tc-owners",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the owner. TC.Owner.ID",
+      "name": "TC.Owner.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!file file=eb57446af5846faa28a726a8b7d43ce5a7fcbd55\nContext Example\n#\n{\n\"DBotScore\": [\n{",
+    "!file file=eb57446af5846faa28a726a8b7d43ce5a7fcbd55\nContext Example\n#\n{\n\"DBotScore\": [\n{\n\"Indicator\": \"eb57446af5846faa28a726a8b7d43ce5a7fcbd55\",\n\"Score\": 3,"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The MD5 hash of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. File.Malicious.Vendor The vendor that reported the file as malicious.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "A description explaining why the file was determined to be malicious. DBotScore.Indicator The indicator that was tested.",
+      "name": "File.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. Polygon.Analysis.Score Malware score in Polygon.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the file. Polygon.Analysis.SHA1 The SHA1 hash of the file.",
+      "name": "Polygon.Analysis.MD5",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. Polygon.Analysis.Found bool",
+      "name": "Polygon.Analysis.SHA256",
+      "required": ""
+    },
+    {
+      "description": "Polygon.Analysis.Verdict bool Polygon verdict for file.",
+      "name": "File was found in cloud or not.",
+      "required": ""
+    },
+    {
+      "description": "Malware families.",
+      "name": "Polygon.Analysis.Malware-families",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Group-IB THF Polygon",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/group-ib-tds-polygon"
+}

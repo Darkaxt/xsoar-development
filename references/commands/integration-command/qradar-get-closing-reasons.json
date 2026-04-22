@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!qradar-get-closing-reasons include_reserved=false\nContext Example\n{\n\"QRadar\": {\n\"Offense\": {\n\"ClosingReasons\": [\n{",
+    "!qradar-get-closing-reasons include_reserved=false\nContext Example\n{\n\"QRadar\": {\n\"Offense\": {\n\"ClosingReasons\": [\n{\n\"IsReserved\": false,"
+  ],
+  "kind": "integration-command",
+  "name": "qradar-get-closing-reasons",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Closing reason ID QRadar.Offense.ClosingReasons.Name Closing reason name",
+      "name": "QRadar.Offense.ClosingReasons.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM QRadar (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/q-radar"
+}

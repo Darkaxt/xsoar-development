@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!cs-update-ioc type=ipv4 value=8.8.8.8 policy=none\nHuman Readable Output\n4. Delete an indicator\nDeletes an indicator that you are monitoring.\nBase Command\ncs-delete-ioc\nInput",
+    "!cs-update-ioc type=ipv4 value=8.8.8.8 policy=none\nHuman Readable Output\n4. Delete an indicator\nDeletes an indicator that you are monitoring.\nBase Command\ncs-delete-ioc\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "cs-delete-ioc",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FalconHost (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-host"
+}

@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!pan-advisories-get-advisories product=\"PAN-OS\" q=CVE-2022-0778\nContext Example\n#\n{\n\"PANSecurityAdvisory\"\n:\n{\n\"Advisory\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The type of advisory this is PANSecurityAdvisory.Advisory.data_format The format of the advisory, such as MITRE",
+      "name": "PANSecurityAdvisory.Advisory.data_type",
+      "required": ""
+    },
+    {
+      "description": "The ID of the CVE described by this advisory PANSecurityAdvisory.Advisory.cve_date_public The date this CVE was released",
+      "name": "PANSecurityAdvisory.Advisory.cve_id",
+      "required": ""
+    },
+    {
+      "description": "The name of this CVE PANSecurityAdvisory.Advisory.description Human readable description of Advisory",
+      "name": "PANSecurityAdvisory.Advisory.cve_title",
+      "required": ""
+    },
+    {
+      "description": "The CVSS Score PANSecurityAdvisory.Advisory.cvss_severity The CVSS Severity",
+      "name": "PANSecurityAdvisory.Advisory.cvss_score",
+      "required": ""
+    },
+    {
+      "description": "The CVSS Vector string PANSecurityAdvisory.Advisory.affected_version_list List of affected versions strings",
+      "name": "PANSecurityAdvisory.Advisory.cvss_vector_string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Security Advisories (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-security-advisories"
+}

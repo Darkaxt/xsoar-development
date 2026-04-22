@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSIAM CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Trend Vision One events. Edit this page Report an Issue",
+      "name": "TrendMicroVisionOne.Events",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Trend Micro Email Security Event Collector Next TrendAI Vision One\u2122 \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "API Limitations Commands trend-micro-vision-one-get-events",
+      "name": "Configure Trend Vision One Event Collector on Cortex XSIAM",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Trend Micro Vision One Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/trend-micro-vision-one-event-collector"
+}

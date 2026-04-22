@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "!cloudflare-waf-ip-list-item-list list_id=\"e6efdc37cf7d41f2860a3fd448c68df8\"\nContext Example\n#\n{\n\"CloudflareWAF\"\n:\n{\n\"IpListItem\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The list items. CloudflareWAF.IpListItem.list_id The list ID.",
+      "name": "CloudflareWAF.IpListItem.items",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cloudflare WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cloudflare-waf"
+}

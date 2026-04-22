@@ -1,0 +1,153 @@
+{
+  "aliases": [
+    "file-create-and-upload-v2"
+  ],
+  "arguments": [],
+  "description": "FileCreateAndUploadV2 | Cortex XSOAR",
+  "examples": [
+    "!FileCreateAndUploadV2 filename=test.txt data=test\nContext Example\n#\n{\n\"File\"\n:\n{\n\"EntryID\""
+  ],
+  "kind": "script",
+  "name": "FileCreateAndUploadV2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The size of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "File.SHA256 The SHA256 hash of the file. File.SHA512",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "File.Name The name of the file. File.SSDeep",
+      "name": "The SHA512 hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "File.EntryID The entry ID of the file. File.Info",
+      "name": "The SSDeep hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "File.Type The file type. File.MD5",
+      "name": "File information.",
+      "required": ""
+    },
+    {
+      "description": "File.Extension The file extension. Script Examples",
+      "name": "The MD5 hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!FileCreateAndUploadV2 filename=test.txt data=test",
+      "required": ""
+    },
+    {
+      "description": "\"File\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": \"919@35961d68-3216-49b9-870a-2f09e5dac489\" ,",
+      "name": "\"EntryID\"",
+      "required": ""
+    },
+    {
+      "description": ": \"txt\" ,",
+      "name": "\"Extension\"",
+      "required": ""
+    },
+    {
+      "description": ": \"text/plain; charset=utf-8\" ,",
+      "name": "\"Info\"",
+      "required": ""
+    },
+    {
+      "description": ": \"098f6bcd4621d373cade4e832627b4f6\" ,",
+      "name": "\"MD5\"",
+      "required": ""
+    },
+    {
+      "description": ": \"test.txt\" ,",
+      "name": "\"Name\"",
+      "required": ""
+    },
+    {
+      "description": ": \"a94a8fe5ccb19ba61c4c0873d391e987982fbbd3\" ,",
+      "name": "\"SHA1\"",
+      "required": ""
+    },
+    {
+      "description": ": \"9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08\" ,",
+      "name": "\"SHA256\"",
+      "required": ""
+    },
+    {
+      "description": ": \"ee26b0dd4af7e749aa1a8ee3c10ae9923f618980772e473f8819a5d4940e0db27ac185f8a0e1d5f84f88bc887fd67b143732c304cc5fa9ad8e6f57f50028a8ff\" ,",
+      "name": "\"SHA512\"",
+      "required": ""
+    },
+    {
+      "description": ": \"3:Hn:Hn\" ,",
+      "name": "\"SSDeep\"",
+      "required": ""
+    },
+    {
+      "description": ": 4 ,",
+      "name": "\"Size\"",
+      "required": ""
+    },
+    {
+      "description": ": \"ASCII text, with no line terminators\" }",
+      "name": "\"Type\"",
+      "required": ""
+    },
+    {
+      "description": "Limitation",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "entryID argument to copy the contents of an existing file from different incidents",
+      "name": "Using the",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "is only available from XSOAR version 6.12.0 onwards.",
+      "required": ""
+    },
+    {
+      "description": "Next FileReputation \u00bb Script Data",
+      "name": "\u00ab FileCreateAndUpload",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example Limitation",
+      "name": "Script Examples",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FileCreateAndUploadV2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/file-create-and-upload-v2"
+}

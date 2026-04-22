@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!threatq-unlink-objects obj1_id=173317 obj1_type=indicator obj2_id=1 obj2_type=adversary",
+  "examples": [
+    "Command Example\n!threatq-unlink-objects obj1_id=173317 obj1_type=indicator obj2_id=1 obj2_type=adversary\nHuman Readable Output\n20. Delete an object\nDeletes an object in ThreatQ.\nBase Command\nthreatq-delete-object\nInput",
+    "!threatq-unlink-objects obj1_id=173317 obj1_type=indicator obj2_id=1 obj2_type=adversary\nHuman Readable Output\n20. Delete an object\nDeletes an object in ThreatQ.\nBase Command\nthreatq-delete-object\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-delete-object",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

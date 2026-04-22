@@ -1,0 +1,149 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "fortisiem-event-search-results",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The customer ID the event is related to. FortiSIEM.Event.index The position number of the event in the results.",
+      "name": "FortiSIEM.Event.custId",
+      "required": ""
+    },
+    {
+      "description": "Event ID. FortiSIEM.Event.eventType The event type.",
+      "name": "FortiSIEM.Event.id",
+      "required": ""
+    },
+    {
+      "description": "Date When the event was received in UTC time. FortiSIEM.Event.nid",
+      "name": "FortiSIEM.Event.receiveTime",
+      "required": ""
+    },
+    {
+      "description": "The event ID. FortiSIEM.Event.attributes Additional attributes of the event.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Breaking changes from the previous version of this integration - FortiSIEM v2",
+      "required": ""
+    },
+    {
+      "description": "Commands",
+      "name": "The following sections list the changes in this version.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The following commands were removed in this version",
+      "required": ""
+    },
+    {
+      "description": "- this command was replaced by fortisiem-event-list-by-incident .",
+      "name": "fortisiem-get-events-by-incident",
+      "required": ""
+    },
+    {
+      "description": "- this command was replaced by fortisiem-incident-update .",
+      "name": "fortisiem-clear-incident",
+      "required": ""
+    },
+    {
+      "description": "- this command was replaced by fortisiem-event-search-status .",
+      "name": "fortisiem-get-events-by-filter",
+      "required": ""
+    },
+    {
+      "description": "- this command was replaced by fortisiem-cmdb-devices-list .",
+      "name": "fortisiem-get-cmdb-devices",
+      "required": ""
+    },
+    {
+      "description": "- this command was replaced by fortisiem-event-search-status .",
+      "name": "fortisiem-get-events-by-query",
+      "required": ""
+    },
+    {
+      "description": ". fortisiem-add-item-to-resource-list .",
+      "name": "fortisiem-get-lists",
+      "required": ""
+    },
+    {
+      "description": ". fortisiem-get-resource-list .",
+      "name": "fortisiem-remove-item-from-resource-list",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Additional Considerations for this version",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The following commands were added in this version",
+      "required": ""
+    },
+    {
+      "description": "fortisiem-watchlist-get fortisiem-watchlist-add fortisiem-watchlist-entry-add",
+      "name": "fortisiem-watchlist-list",
+      "required": ""
+    },
+    {
+      "description": "fortisiem-watchlist-delete fortisiem-watchlist-entry-delete fortisiem-watchlist-entry-get",
+      "name": "fortisiem-watchlist-entry-update",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The fetch incidents command can also fetch triggered events",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab FortiSIEM",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Fortiweb VM \u00bb Configure FortiSIEM v2 in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "fortisiem-incident-update fortisiem-cmdb-devices-list fortisiem-cmdb-device-get",
+      "name": "fortisiem-event-search",
+      "required": ""
+    },
+    {
+      "description": "fortisiem-event-list-by-incident fortisiem-watchlist-list fortisiem-watchlist-get",
+      "name": "fortisiem-monitored-organizations-list",
+      "required": ""
+    },
+    {
+      "description": "fortisiem-watchlist-entry-add fortisiem-watchlist-entry-update fortisiem-watchlist-entry-delete",
+      "name": "fortisiem-watchlist-add",
+      "required": ""
+    },
+    {
+      "description": "fortisiem-watchlist-entry-get fortisiem-event-search-results Breaking changes from the previous version of this integration - FortiSIEM v2",
+      "name": "fortisiem-watchlist-delete",
+      "required": ""
+    },
+    {
+      "description": "Additional Considerations for this version Docs Developer Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FortiSIEM v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forti-siemv2"
+}

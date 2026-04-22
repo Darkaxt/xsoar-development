@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "7. Get a list of details for all canned responses in a folder",
+  "examples": [
+    "Command Example\n!fd-get-canned-response-folder id=2043000174274\nContext Example\n{\n\"Freshdesk.CRFolder\": [\n{\n\"Content\": \"Thank you for reaching out to us. Our team will look into your request and get back to you shortly. \\n \\n \\n You can check the status of your request and add comments here:\\n \\n {{ticket.url}}\\n \\n \\n Regards, \\n {{ticket.agent.name}}\",\n\"FolderID\": 2043000174274,",
+    "!fd-get-canned-response-folder id=2043000174274\nContext Example\n{\n\"Freshdesk.CRFolder\": [\n{\n\"Content\": \"Thank you for reaching out to us. Our team will look into your request and get back to you shortly. \\n \\n \\n You can check the status of your request and add comments here:\\n \\n {{ticket.url}}\\n \\n \\n Regards, \\n {{ticket.agent.name}}\",\n\"FolderID\": 2043000174274,\n\"ContentHTML\": \"<div dir=\\\"ltr\\\">\\n Thank you for reaching out to us. Our team will look into your request and get back to you shortly. \\n <br>\\n <br>\\n You can check the status of your request and add comments here:\\n <br>\\n {{ticket.url}}\\n <br>\\n <br>\\n Regards,<br>\\n {{ticket.agent.name}}\\n </div>\\n \","
+  ],
+  "kind": "integration-command",
+  "name": "fd-get-canned-response-folder",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique ID of the canned response Freshdesk.CRFolder.CR.Title Title of the canned response",
+      "name": "Freshdesk.CRFolder.CR.ID",
+      "required": ""
+    },
+    {
+      "description": "ID of the containing folder Freshdesk.CRFolder.CR.Content Plaintext version of the canned response content",
+      "name": "Freshdesk.CRFolder.CR.FolderID",
+      "required": ""
+    },
+    {
+      "description": "HTML version of the canned response content Freshdesk.CRFolder.CR.Attachment.AttachmentURL URL to download the file attached to the ticket to your local machine",
+      "name": "Freshdesk.CRFolder.CR.ContentHTML",
+      "required": ""
+    },
+    {
+      "description": "The name of the file attached to the ticket Freshdesk.CRFolder.CR.Attachment.ContentType Content type of the file attached to the ticket",
+      "name": "Freshdesk.CRFolder.CR.Attachment.Name",
+      "required": ""
+    },
+    {
+      "description": "ID number for the file attached to the ticket Freshdesk.CRFolder.CR.Attachment.Size Size of the file attached to the file",
+      "name": "Freshdesk.CRFolder.CR.Attachment.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Freshdesk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/freshdesk"
+}

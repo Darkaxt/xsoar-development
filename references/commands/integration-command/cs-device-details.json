@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!cs-device-search limit=2",
+  "examples": [
+    "Command Example\n!cs-device-search limit=2\n!cs-device-search\nHuman Readable Output\n7. Get device details\nGet details for one or more devices, according to device ID.\nBase Command\ncs-device-details",
+    "!cs-device-search limit=2\n!cs-device-search\nHuman Readable Output\n7. Get device details\nGet details for one or more devices, according to device ID.\nBase Command\ncs-device-details\nInput",
+    "!cs-device-search\nHuman Readable Output\n7. Get device details\nGet details for one or more devices, according to device ID.\nBase Command\ncs-device-details\nInput\nArgument Name",
+    "Command Example"
+  ],
+  "kind": "integration-command",
+  "name": "cs-device-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID to retrieve details for. Supports comma-separated list of IDs. Endpoint.ID Unique ID of the endpoint in FalconHost",
+      "name": "FalconHostDetails",
+      "required": ""
+    },
+    {
+      "description": "IPAddress of the endpoint Endpoint.Domain Domain of the endpoint",
+      "name": "Endpoint.IPAddress",
+      "required": ""
+    },
+    {
+      "description": "MAC address of the endpoint Endpoint.OS OS of the endpoint",
+      "name": "Endpoint.MACAddress",
+      "required": ""
+    },
+    {
+      "description": "OS version of the endpoint Endpoint.BIOSVersion BIOS version of the endpoint",
+      "name": "Endpoint.OSVersion",
+      "required": ""
+    },
+    {
+      "description": "The host of the endpoint",
+      "name": "Endpoint.HostName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FalconHost (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-host"
+}

@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Pulsedive.Scan.success",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Score The actual score.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "Complete data returned from the scan. Domain.Name The domain name.",
+      "name": "Pulsedive.ScanResult",
+      "required": ""
+    },
+    {
+      "description": "The status of the domain. Domain.NameServers Name servers of the domain.",
+      "name": "Domain.DomainStatus",
+      "required": ""
+    },
+    {
+      "description": "A CSV string of name servers, for example 'ns1.bla.com, ns2.bla.com'. Pulsedive.Scan.success The success message.",
+      "name": "Domain.WHOIS.NameServers",
+      "required": ""
+    },
+    {
+      "description": "IP address. IP.Geo.Country The country in which the IP address is located.",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "Ports that are associated with the IP. IP.ASN The autonomous system name for the URL, for example: 'AS8948'.",
+      "name": "IP.Port",
+      "required": ""
+    },
+    {
+      "description": "The URL. Edit this page Report an Issue",
+      "name": "URL.DATA",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Public DNS Feed Next Qintel PMI \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands ip domain",
+      "name": "Configure Pulsedive in Cortex",
+      "required": ""
+    },
+    {
+      "description": "pulsedive-scan pulsedive-scan-result Docs",
+      "name": "url",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Pulsedive",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/pulsedive"
+}

@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "slack-ask"
+  ],
+  "arguments": [],
+  "description": "SlackAsk | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SlackAsk",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SlackAsk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/slack-ask"
+}

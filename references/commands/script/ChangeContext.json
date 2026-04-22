@@ -1,0 +1,57 @@
+{
+  "aliases": [
+    "change-context"
+  ],
+  "arguments": [
+    {
+      "description": "inplace If \"True\" replaces the existing key. The default is \"True\". replace_dict",
+      "name": "The context to change (i.e., ${Context.Key}).",
+      "required": ""
+    },
+    {
+      "description": "capitalize If \"True\" capitalizes the first letter of the context key. output_key",
+      "name": "A list of key-values to replace key for value in the following format: {\"old_key1\":\"new_key1\", \"old_key2\":\"new_key2\"}",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The context path in which to output the results. Should be in the format of Context.Key.",
+      "required": ""
+    }
+  ],
+  "description": "ChangeContext | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ChangeContext",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next ChangeRemediationSLAOnSevChange \u00bb Script Data",
+      "name": "\u00ab CertificatesTroubleshoot",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ChangeContext",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/change-context"
+}

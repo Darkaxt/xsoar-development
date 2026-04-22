@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "This command is deprecated.",
+  "examples": [
+    "Command Example\n!domain domain=google.com detailed=true\nContext Example\n{\n\"DBotScore\": {\n\"Indicator\": \"google.com\",\n\"Score\": 2,\n\"Type\": \"domain\",",
+    "!domain domain=google.com detailed=true\nContext Example\n{\n\"DBotScore\": {\n\"Indicator\": \"google.com\",\n\"Score\": 2,\n\"Type\": \"domain\",\n\"Vendor\": \"Recorded Future\""
+  ],
+  "kind": "integration-command",
+  "name": "domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested DBotScore.Type Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Domain name Domain.RecordedFuture.Criticality Domain criticality label",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "date Risk first seen timestamp Domain.RecordedFuture.LastSeen",
+      "name": "Domain.RecordedFuture.FirstSeen",
+      "required": ""
+    },
+    {
+      "description": "Risk last seen timestamp Domain.Tags Tags that are associated with the Domain.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "A summary note on the mentioning of the domain in a source monitored by Recorded Future. Domain.CommunityNotes.timestamp date",
+      "name": "Domain.CommunityNotes.note",
+      "required": ""
+    },
+    {
+      "description": "Domain.Publications.source The publication's source. Domain.Publications.title",
+      "name": "The timestamp in which the community note was created.",
+      "required": ""
+    },
+    {
+      "description": "The title of the published information. Domain.Publications.link A link to the published information.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "date The timestamp in which the information was published.",
+      "name": "Domain.Publications.timestamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

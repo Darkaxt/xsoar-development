@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The sub-analysis detection statuses",
+  "examples": [
+    "Command Example\n!sndbox-download-sample analysis_id=65577395-48d8-4d51-bc97-bc2486f49ca0\nContext Example\nEdit this page\nReport an Issue\nPrevious\n\u00ab Smokescreen IllusionBLACK\nNext",
+    "!sndbox-download-sample analysis_id=65577395-48d8-4d51-bc97-bc2486f49ca0\nContext Example\nEdit this page\nReport an Issue\nPrevious\n\u00ab Smokescreen IllusionBLACK\nNext\nSnort IP Blocklist Feed \u00bb"
+  ],
+  "kind": "integration-command",
+  "name": "sndbox-download-sample",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File size File.SHA1 SHA-1 hash of the file",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 hash of the file File.Name The sample name",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "SSDeep hash of the file File.EntryID War Room entry ID of the file",
+      "name": "File.SSDeep",
+      "required": ""
+    },
+    {
+      "description": "Basic information of the file File.Type File type, e.g., \"PE\"",
+      "name": "File.Info",
+      "required": ""
+    },
+    {
+      "description": "MD5 hash of the file File.Extension File extension",
+      "name": "File MD5",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SNDBOX (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sndbox"
+}

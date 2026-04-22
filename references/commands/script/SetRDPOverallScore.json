@@ -1,0 +1,47 @@
+{
+  "aliases": [
+    "set-rdp-overall-score"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "SetRDPOverallScore | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SetRDPOverallScore",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The overall score of matches found in the extracted strings by StringSifter and StringSimilarity analysis. This is a value of 1 to 100 which is a precent of malicious strings found. Edit this page Report an Issue",
+      "name": "RDPOverallScore",
+      "required": ""
+    },
+    {
+      "description": "\u00ab SetPhishingCampaignDetails Next SetRSANetWitnessAlertsMD \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SetRDPOverallScore",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/set-rdp-overall-score"
+}

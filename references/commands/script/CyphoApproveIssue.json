@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "cypho-approve-issue"
+  ],
+  "arguments": [
+    {
+      "description": "The automation automatically uses: The Cypho ticket ID associated with the incident The assigned incident owner",
+      "name": "There are no manual inputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Analyst email mapped from the XSOAR user context",
+      "required": ""
+    }
+  ],
+  "description": "CyphoApproveIssue | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CyphoApproveIssue",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The script performs a background approval action in Cypho and updates the external issue state accordingly. \u2714 Notes",
+      "name": "There are no direct outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "incident action button . The incident",
+      "name": "This script is intended to be executed via an",
+      "required": ""
+    },
+    {
+      "description": "before approval can be performed. Ensures synchronization between XSOAR and Cypho issue status. Prevents unauthorized or untracked approval actions.",
+      "name": "must be assigned",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Designed for seamless integration with Cypho and Cortex XSOAR incident workflows.",
+      "required": ""
+    },
+    {
+      "description": "Next CyphoAssignToMeButton \u00bb Script Data",
+      "name": "\u00ab CyphoAdjustTimeToAssignmentAndRemediationSLAs",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "\u2714 Notes",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyphoApproveIssue",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cypho-approve-issue"
+}

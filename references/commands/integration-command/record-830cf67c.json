@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "app_id: chrome:aaaaaaaaaaaa",
+  "examples": [
+    "Command Example\n#\n!gsuite-policy-groups-delete customer_id=test target_type=Group target_resource=1111 policy_schema=chrome.users.apps.InstallType additional_target_keys=\"\"\\\"app_id\\\":\\\"chrome:111111\\\"\"\nHuman Readable Output\n#\nPolicy has been deleted for the customer CUSTOMER_ID.\nEdit this page\nReport an Issue",
+    "!gsuite-policy-groups-delete customer_id=test target_type=Group target_resource=1111 policy_schema=chrome.users.apps.InstallType additional_target_keys=\"\"\\\"app_id\\\":\\\"chrome:111111\\\"\"\nHuman Readable Output\n#\nPolicy has been deleted for the customer CUSTOMER_ID.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Google Vision AI"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Workspace Admin",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/g-suite-admin"
+}

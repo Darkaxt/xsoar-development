@@ -1,0 +1,15 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!okta-deactivate-user username=test@this.com",
+  "examples": [
+    "!okta-deactivate-user username=test@this.com\nHuman Readable Output\nOkta user deactivated\nWar Room Output\n3. Activate a user\nActivate a specified user.\nBase Command\nokta-activate-user"
+  ],
+  "kind": "integration-command",
+  "name": "okta-activate-user",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "okta (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta"
+}

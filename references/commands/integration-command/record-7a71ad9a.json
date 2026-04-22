@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Gather infos about your Hetzner Cloud volumes.",
+  "examples": [
+    "Command Example\n#\n!hcloud-volume-info\nContext Example\n#\n{\n\"HCloud\"\n:",
+    "!hcloud-volume-info\nContext Example\n#\n{\n\"HCloud\"\n:\n{\n\"HcloudVolumeInfo\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The volume infos as list",
+      "name": "HCloud.HcloudVolumeInfo.hcloud_volume_info",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ansible HCloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ansible-h-cloud"
+}

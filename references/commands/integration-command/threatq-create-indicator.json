@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The type of the indicator.",
+  "examples": [
+    "Command Example\n!domain domain=www.testdomain.com\nHuman Readable Output\n7. Create an indicator\nCreates a new indicator in ThreatQ.\nBase Command\nthreatq-create-indicator\nInput",
+    "!domain domain=www.testdomain.com\nHuman Readable Output\n7. Create an indicator\nCreates a new indicator in ThreatQ.\nBase Command\nthreatq-create-indicator\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-create-indicator",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the indicator. ThreatQ.Indicator.Value The value of the indicator.",
+      "name": "ThreatQ.Indicator.ID",
+      "required": ""
+    },
+    {
+      "description": "The source ID of the indicator. ThreatQ.Indicator.Source.Name The source name of the indicator.",
+      "name": "ThreatQ.Indicator.Source.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute ID of the indicator. ThreatQ.Indicator.Attribute.Value The attribute value of the indicator.",
+      "name": "ThreatQ.Indicator.Attribute.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute name of the indicator. ThreatQ.Indicator.CreatedAt Date",
+      "name": "ThreatQ.Indicator.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "ThreatQ.Indicator.UpdatedAt Date The last update date of the indicator.",
+      "name": "The creation date of the indicator.",
+      "required": ""
+    },
+    {
+      "description": "The status of the indicator. ThreatQ.Indicator.TQScore The ThreatQ score of the indicator.",
+      "name": "ThreatQ.Indicator.Status",
+      "required": ""
+    },
+    {
+      "description": "The description of the indicator. ThreatQ.Indicator.Type",
+      "name": "ThreatQ.Indicator.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

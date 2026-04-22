@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Submit a URL for analysis: crowdstrike-submit-url",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "vx-scan",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA-256 hash of the file. File.SHA1 SHA1 of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the file. File.environmentId The environment ID of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The analysis start time of the file. File.submitname The submission name of the file.",
+      "name": "File.analysis_start_time",
+      "required": ""
+    },
+    {
+      "description": "The list of classification tags of the file. File.vxfamily The family classification of the file.",
+      "name": "File.classification_tags",
+      "required": ""
+    },
+    {
+      "description": "The total network connections of the file. File.total_processes The total processes count of the file.",
+      "name": "File.total_network_connections",
+      "required": ""
+    },
+    {
+      "description": "The total signatures count of the file. File.hosts The list of the file\u2019s hosts.",
+      "name": "File.total_signatures",
+      "required": ""
+    },
+    {
+      "description": "Whether the server found this file interesting. File.domains A list of the file\u2019s related domains.",
+      "name": "File.isinteresting",
+      "required": ""
+    },
+    {
+      "description": "If file analyzed by url. File.Malicious.Vendor",
+      "name": "File.isurlanalysis",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vx-stream"
+}

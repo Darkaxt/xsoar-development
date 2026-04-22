@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!threat-grid-get-analysis-ioc id=8ee72188b95b7d8f4e1a6c4842e98566 ioc=network-communications-http-get-url",
+  "examples": [
+    "Command Example\n!threat-grid-get-analysis-ioc id=8ee72188b95b7d8f4e1a6c4842e98566 ioc=network-communications-http-get-url\nHuman Readable Output\n35. Get metadata for an analysis\nReturns metadata about the analysis.\nBase Command\nthreat-grid-get-analysis-metadata\nInput",
+    "!threat-grid-get-analysis-ioc id=8ee72188b95b7d8f4e1a6c4842e98566 ioc=network-communications-http-get-url\nHuman Readable Output\n35. Get metadata for an analysis\nReturns metadata about the analysis.\nBase Command\nthreat-grid-get-analysis-metadata\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-analysis-metadata",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

@@ -1,0 +1,72 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "fireeye-nx-get-events",
+  "examples": [
+    "Command Example\n#\n!fireeye-nx-get-events duration=48_hours end_time=2020-08-10T06:31:00\nContext Example\n#\n{\n\"FireEyeNX\": {\n\"Event\": [",
+    "!fireeye-nx-get-events duration=48_hours end_time=2020-08-10T06:31:00\nContext Example\n#\n{\n\"FireEyeNX\": {\n\"Event\": [\n{\n\"EventId\":1,"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the event. FireEyeNX.Event.Occurred The date and time when the event occurred.",
+      "name": "FireEyeNX.Event.EventId",
+      "required": ""
+    },
+    {
+      "description": "The IP address of the victim. FireEyeNX.Event.SrcPort The port number of the victim.",
+      "name": "FireEyeNX.Event.SrcIp",
+      "required": ""
+    },
+    {
+      "description": "The IP address of the attacker. FireEyeNX.Event.DstPort The port number of the attacker.",
+      "name": "FireEyeNX.Event.DstIp",
+      "required": ""
+    },
+    {
+      "description": "The severity level of the event. FireEyeNX.Event.SignatureRev The signature revision number of the event.",
+      "name": "FireEyeNX.Event.Severity",
+      "required": ""
+    },
+    {
+      "description": "The signature identity number of the event. FireEyeNX.Event.SignatureMatchCnt The signature match count number of the event.",
+      "name": "FireEyeNX.Event.SignatureIden",
+      "required": ""
+    },
+    {
+      "description": "The virtual LAN (VLAN) of the event. FireEyeNX.Event.VmVerified Whether the event VM was verified.",
+      "name": "FireEyeNX.Event.Vlan",
+      "required": ""
+    },
+    {
+      "description": "The MAC address of the source machine. FireEyeNX.Event.DstMac The MAC address of the destination machine.",
+      "name": "FireEyeNX.Event.SrcMac",
+      "required": ""
+    },
+    {
+      "description": "The rule name for the event. FireEyeNX.Event.SensorId The sensor ID of the FireEye machine.",
+      "name": "FireEyeNX.Event.RuleName",
+      "required": ""
+    },
+    {
+      "description": "The CVE ID found in the event. FireEyeNX.Event.ActionTaken The IPS blocking action taken on the event.",
+      "name": "FireEyeNX.Event.CveId",
+      "required": ""
+    },
+    {
+      "description": "The attack mode mentioned in the event. FireEyeNX.Event.InterfaceId The interface ID of the event.",
+      "name": "FireEyeNX.Event.AttackMode",
+      "required": ""
+    },
+    {
+      "description": "The protocol used in the event. FireEyeNX.Event.IncidentId The incident ID of the event on FireEye.",
+      "name": "FireEyeNX.Event.Protocol",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FireEye NX",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fire-eye-nx"
+}

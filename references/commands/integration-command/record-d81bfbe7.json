@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!f5-silverline-ip-object-delete list_type=denylist object_id=66202ba3-04f1-4f7c-b1a8-9a49776a96a4\nHuman Readable Output\n#\nIP object with ID: 66202ba3-04f1-4f7c-b1a8-9a49776a96a4 deleted successfully from the denylist list.\nFetch F5 Silverline alerts\n#",
+    "!f5-silverline-ip-object-delete list_type=denylist object_id=66202ba3-04f1-4f7c-b1a8-9a49776a96a4\nHuman Readable Output\n#\nIP object with ID: 66202ba3-04f1-4f7c-b1a8-9a49776a96a4 deleted successfully from the denylist list.\nFetch F5 Silverline alerts\n#\nF5 Silverline supported alert type\nIncident Type"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "F5 Silverline",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/f5-silverline"
+}

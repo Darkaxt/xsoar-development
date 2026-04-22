@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!vigilante-watchlist-add-accounts account_identifiers=\"demisto.com\" type=\"domain\"",
+  "examples": [
+    "!vigilante-watchlist-add-accounts account_identifiers=\"demisto.com\" type=\"domain\"\nContext Example\nN/A\nHuman Readable Output\n9. Remove account identifiers from a watchlist\nRemoves account identifiers from your watchlist.\nBase Command\nvigilante-watchlist-remove-accounts",
+    "Command Example"
+  ],
+  "kind": "integration-command",
+  "name": "vigilante-watchlist-remove-accounts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "InfoArmor VigilanteATI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/info-armor-vigilante-ati"
+}

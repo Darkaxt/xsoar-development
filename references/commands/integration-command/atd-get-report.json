@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "} 1 item taskIdList:221 success:true",
+  "examples": [
+    "Command Example\n!atd-get-report taskId=391 type=json\nContext Example\n{\nroot:{\n} 1 item Summary:{\n} 20 items Bait: Baitexe activated but not infected Behavior:[\n] 15 items 0: Identified as --- by Gateway Anti-Malware 1: Identified as --- by GTI File Reputation 2: Identified as --- by GTI URL Reputation 3: Identified as --- by Anti-Malware 4: Altered Web Proxy Auto-Discovery Protocol (WPAD) for rerouting of the network traffic 5: Modified time attribute of the specified file after its creation 6: Modified file's time creation attributes 7: Hid content by modifying its attributes 8: Downloaded data from a webserver 9: Modified INTERNET_OPTION_CONNECT_RETRIES: number of times that WinInet attempts to resolve and connect to a host 10: Connected to a specific service provider 11: Manipulated an existing Windows service by its handle 12: Created named mutex object 13: Obtained user's logon name 14: Set a filter function to supersede the top-level exception handler ( http: //msdn.microsoft.com/en-us/library/vstudio/x85tt0dd.aspx ) DETversion:4.2 .0.171220 Data:{",
+    "!atd-get-report taskId=391 type=json\nContext Example\n{\nroot:{\n} 1 item Summary:{\n} 20 items Bait: Baitexe activated but not infected Behavior:[\n] 15 items 0: Identified as --- by Gateway Anti-Malware 1: Identified as --- by GTI File Reputation 2: Identified as --- by GTI URL Reputation 3: Identified as --- by Anti-Malware 4: Altered Web Proxy Auto-Discovery Protocol (WPAD) for rerouting of the network traffic 5: Modified time attribute of the specified file after its creation 6: Modified file's time creation attributes 7: Hid content by modifying its attributes 8: Downloaded data from a webserver 9: Modified INTERNET_OPTION_CONNECT_RETRIES: number of times that WinInet attempts to resolve and connect to a host 10: Connected to a specific service provider 11: Manipulated an existing Windows service by its handle 12: Created named mutex object 13: Obtained user's logon name 14: Set a filter function to supersede the top-level exception handler ( http: //msdn.microsoft.com/en-us/library/vstudio/x85tt0dd.aspx ) DETversion:4.2 .0.171220 Data:{\n} 3 items analysis_seconds:66 compiled_with: Not Available sandbox_analysis:5 Environment:["
+  ],
+  "kind": "integration-command",
+  "name": "atd-get-report",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Filename (only if the report type is JSON) File.Type File type, for example \"PE\" (only if the report type is JSON)",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "File size (only if the report type is JSON) File.MD5 MD5 hash of the file (only if the report type is JSON)",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "SHA-1 hash of the file (only if the report type is JSON) File.SHA256 SHA-256 hash of the file (only if the report type is JSON)",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the vendor that made the decision File.Malicious.Description For malicious files, the reason for the vendor to make the decision",
+      "name": "File.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator we tested (only if the report type is JSON) DBotScore.Type The type of the indicator (only if the report type is JSON)",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score (only if the report type is JSON) DBotScore.Score The actual score (only if the report type is JSON)",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Entry ID of the sample IP.Address IPs relevant to the sample",
+      "name": "File.EntryID",
+      "required": ""
+    },
+    {
+      "description": "EntryID of the report file InfoFile.Extension Extension of the report file",
+      "name": "InfoFile.EntryID",
+      "required": ""
+    },
+    {
+      "description": "The name of the report file, which you can use later, for example, to send the report in an email as part of a playbook task. The report name is the the taskId, for example, 7173.pdf. InfoFile.Info Information for the report file",
+      "name": "InfoFile.Name",
+      "required": ""
+    },
+    {
+      "description": "Size of the report file InfoFile.Type Type of the report file",
+      "name": "InfoFile.Size",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Advanced Threat Defense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-advanced-threat-defense"
+}

@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "to validate the URLs, token, and connection.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next SpecterOpsBHE \u00bb Overview",
+      "name": "\u00ab Spamcop",
+      "required": ""
+    },
+    {
+      "description": "spamhaus-get-indicators Docs Developer Docs",
+      "name": "Configure SpamhausFeed on Cortex XSOAR",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Spamhaus Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/spamhaus-feed"
+}

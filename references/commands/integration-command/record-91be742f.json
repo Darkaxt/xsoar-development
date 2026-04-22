@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!initialize-context\nHuman Readable Output\n#\nThe integration context has been initialized.\nEdit this page\nReport an Issue",
+    "!initialize-context\nHuman Readable Output\n#\nThe integration context has been initialized.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Workday IAM"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Workday IAM Event Generator (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/workday-iam-event-generator"
+}

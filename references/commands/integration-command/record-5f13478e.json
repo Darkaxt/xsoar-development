@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "BinalyzeAIR.Isolate.result.organizationId",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Acquisition unique task ID BinalyzeAIR.Acquire.result.name Acquisiton task name",
+      "name": "BinalyzeAIR.Acquire.result._id",
+      "required": ""
+    },
+    {
+      "description": "Organization Id of endpoint Edit this page Report an Issue",
+      "name": "BinalyzeAIR.Acquire.result.organizationId",
+      "required": ""
+    },
+    {
+      "description": "\u00ab BigFix Next Bitbucket \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "This integration allows you to use the Binalyze AIR's isolation and evidence collecting features easily Configure Binalyze AIR in Cortex Commands",
+      "name": "Binalyze AIR Integration",
+      "required": ""
+    },
+    {
+      "description": "binalyze-air-acquire Docs Developer Docs",
+      "name": "binalyze-air-isolate",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Binalyze AIR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/binalyze-air"
+}

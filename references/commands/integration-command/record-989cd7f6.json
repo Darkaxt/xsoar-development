@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The Falcon Intel Reports API allows to query CrowdStrike intelligence publications.",
+  "examples": [
+    "Command Example\n#\n!cs-reports limit=1 created_date=\"2016-09-30T19:15:53.000Z\"\nContext Example\n#\n{\n\"FalconIntel\": {\n\"Report\": {",
+    "!cs-reports limit=1 created_date=\"2016-09-30T19:15:53.000Z\"\nContext Example\n#\n{\n\"FalconIntel\": {\n\"Report\": {\n\"CreatedDate\": \"2016-09-30T19:15:53.000Z\",\n\"ID\": 7448,"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The report ID. FalconIntel.Report.URL The report URL.",
+      "name": "FalconIntel.Report.ID",
+      "required": ""
+    },
+    {
+      "description": "The report name. FalconIntel.Report.Type The report type.",
+      "name": "FalconIntel.Report.Name",
+      "required": ""
+    },
+    {
+      "description": "The report sub type. FalconIntel.Report.Slug Slug name of the report",
+      "name": "FalconIntel.Report.SubType",
+      "required": ""
+    },
+    {
+      "description": "Date The date the report was created. FalconIntel.Report.LastModifiedSate",
+      "name": "FalconIntel.Report.CreatedDate",
+      "required": ""
+    },
+    {
+      "description": "The date the report was last modified. FalconIntel.Report.ShortDescription The report short description.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The report full description. FalconIntel.Report.TargetIndustries Targeted industries included in the report. Ex: aerospace",
+      "name": "FalconIntel.Report.Description",
+      "required": ""
+    },
+    {
+      "description": "Targeted countries included in the report. Ex: afghanistan FalconIntel.Report.Motivations Motivations included in the report. Ex: criminal",
+      "name": "FalconIntel.Report.TargetCountries",
+      "required": ""
+    },
+    {
+      "description": "The report's tags. Ex: intel_feed",
+      "name": "FalconIntel.Report.Tags",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Intel v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/crowd-strike-falcon-intel-v2"
+}

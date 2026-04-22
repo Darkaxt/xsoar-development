@@ -1,0 +1,203 @@
+{
+  "aliases": [
+    "prisma-cloud-attribution"
+  ],
+  "arguments": [],
+  "description": "PrismaCloudAttribution | Cortex XSOAR",
+  "examples": [
+    "!PrismaCloudAttribution assets=\"${Redlock.Asset}\"\nContext Example\n#\n{\n\"PrismaCloud\"\n:\n{\n\"Attribution\""
+  ],
+  "kind": "script",
+  "name": "PrismaCloudAttribution",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Cloud Account ID PrismaCloud.Attribution.accountName Cloud Account Name",
+      "name": "PrismaCloud.Attribution.accountId",
+      "required": ""
+    },
+    {
+      "description": "PrismaCloud.Attribution.cloudType Cloud Type PrismaCloud.Attribution.fqdn",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "PrismaCloud.Attribution.rrn Resource RRN PrismaCloud.Attribution.ip",
+      "name": "FQDNs associated to the resource",
+      "required": ""
+    },
+    {
+      "description": "PrismaCloud.Attribution.regionId Cloud Region ID PrismaCloud.Attribution.hasAlert",
+      "name": "IPs associated to the resource",
+      "required": ""
+    },
+    {
+      "description": "PrismaCloud.Attribution.resourceName Resource Name PrismaCloud.Attribution.resourceType",
+      "name": "Resource has Prisma Cloud Alert",
+      "required": ""
+    },
+    {
+      "description": "PrismaCloud.Attribution.service Cloud Service Script Example",
+      "name": "Resource Type",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!PrismaCloudAttribution assets=\"${Redlock.Asset}\"",
+      "required": ""
+    },
+    {
+      "description": "\"PrismaCloud\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": [ {",
+      "name": "\"Attribution\"",
+      "required": ""
+    },
+    {
+      "description": ": \"123456\" ,",
+      "name": "\"accountId\"",
+      "required": ""
+    },
+    {
+      "description": ": \"aws-user-personal\" ,",
+      "name": "\"accountName\"",
+      "required": ""
+    },
+    {
+      "description": ": \"aws\" ,",
+      "name": "\"cloudType\"",
+      "required": ""
+    },
+    {
+      "description": ": [ \"application-lb-123456.us-east-1.elb.amazonaws.com\"",
+      "name": "\"fqdn\"",
+      "required": ""
+    },
+    {
+      "description": ", \"hasAlert\" :",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": ", \"id\" :",
+      "name": "false",
+      "required": ""
+    },
+    {
+      "description": ", \"ip\" :",
+      "name": "\"arn:aws:elasticloadbalancing:us-east-1:123456:loadbalancer/app/application-lb/1398164320221c02\"",
+      "required": ""
+    },
+    {
+      "description": ", \"regionId\" :",
+      "name": "null",
+      "required": ""
+    },
+    {
+      "description": ", \"resourceName\" :",
+      "name": "\"us-east-1\"",
+      "required": ""
+    },
+    {
+      "description": ", \"resourceType\" :",
+      "name": "\"application-lb\"",
+      "required": ""
+    },
+    {
+      "description": ", \"rrn\" :",
+      "name": "\"Managed Load Balancer\"",
+      "required": ""
+    },
+    {
+      "description": ", \"service\" :",
+      "name": "\"rrn::managedLb:us-east-1:123456:b38d940663c047b02c2116be49695cf353976dff:arn%3Aaws%3Aelasticloadbalancing%3Aus-east-1%3A123456%3Aloadbalancer%2Fapp%2Fapplication-lb%2F1398164320221c02\"",
+      "required": ""
+    },
+    {
+      "description": "} , {",
+      "name": "\"Amazon Elastic Load Balancing\"",
+      "required": ""
+    },
+    {
+      "description": ": \"123456\" ,",
+      "name": "\"accountId\"",
+      "required": ""
+    },
+    {
+      "description": ": \"aws-user-personal\" ,",
+      "name": "\"accountName\"",
+      "required": ""
+    },
+    {
+      "description": ": \"aws\" ,",
+      "name": "\"cloudType\"",
+      "required": ""
+    },
+    {
+      "description": ": [ \"ec2.eu.compute-1.amazonaws.com\"",
+      "name": "\"fqdn\"",
+      "required": ""
+    },
+    {
+      "description": ", \"hasAlert\" :",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": ", \"id\" :",
+      "name": "false",
+      "required": ""
+    },
+    {
+      "description": ", \"ip\" :",
+      "name": "\"i-654321b\"",
+      "required": ""
+    },
+    {
+      "description": "\"35.180.1.1\" ] ,",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": ": \"eu-west-3\" ,",
+      "name": "\"regionId\"",
+      "required": ""
+    },
+    {
+      "description": ": \"testvm\" ,",
+      "name": "\"resourceName\"",
+      "required": ""
+    },
+    {
+      "description": ": \"Instance\" ,",
+      "name": "\"resourceType\"",
+      "required": ""
+    },
+    {
+      "description": ": \"rrn::instance:eu-west-3:123456:9db2db5fdba47606863c8da86d3ae594fb5aee2b:i-654321b\" ,",
+      "name": "\"rrn\"",
+      "required": ""
+    },
+    {
+      "description": ": \"Amazon EC2\" }",
+      "name": "\"service\"",
+      "required": ""
+    },
+    {
+      "description": "} }",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PrismaCloudAttribution",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/prisma-cloud-attribution"
+}

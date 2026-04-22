@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [
+    "Command Example\n#\n!dns-nsupdate record=test.example.com. value=123.123.123.123\nContext Example\n#\n{\n\"DNS\"\n:",
+    "!dns-nsupdate record=test.example.com. value=123.123.123.123\nContext Example\n#\n{\n\"DNS\"\n:\n{\n\"Nsupdate\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "If module has modified record DNS.Nsupdate.record DNS record",
+      "name": "DNS.Nsupdate.changed",
+      "required": ""
+    },
+    {
+      "description": "DNS record TTL DNS.Nsupdate.type DNS record type",
+      "name": "DNS.Nsupdate.ttl",
+      "required": ""
+    },
+    {
+      "description": "DNS record value(s) DNS.Nsupdate.zone DNS record zone",
+      "name": "DNS.Nsupdate.value",
+      "required": ""
+    },
+    {
+      "description": "dnspython return code DNS.Nsupdate.dns_rc_str dnspython return code (string representation)",
+      "name": "DNS.Nsupdate.dns_rc",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ansible DNS",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ansible-dns"
+}

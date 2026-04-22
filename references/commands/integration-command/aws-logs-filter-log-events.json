@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!aws-logs-delete-log-stream logGroupName=test logStreamName=test",
+  "examples": [
+    "!aws-logs-delete-log-stream logGroupName=test logStreamName=test\nContext Example\nThere is no context output for this command.\nHuman Readable Output\n5. Get list of log events\nLists log events from the specified log group. You can list all the log events or filter the results using a filter pattern, a time range, and the name of the log stream.\nBase Command\naws-logs-filter-log-events"
+  ],
+  "kind": "integration-command",
+  "name": "aws-logs-filter-log-events",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the log stream this event belongs to. AWS.CloudWatchLogs.Events.Timestamp date",
+      "name": "AWS.CloudWatchLogs.Events.LogStreamName",
+      "required": ""
+    },
+    {
+      "description": "AWS.CloudWatchLogs.Events.Message The data contained in the log event. AWS.CloudWatchLogs.Events.IngestionTime",
+      "name": "The time the event occurred, expressed as the number of milliseconds after Jan 1, 1970 00:00:00 UTC.",
+      "required": ""
+    },
+    {
+      "description": "The time the event was ingested, expressed as the number of milliseconds after Jan 1, 1970 00:00:00 UTC. AWS.CloudWatchLogs.Events.EventId The ID of the event.",
+      "name": "date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - CloudWatchLogs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---cloud-watch-logs"
+}

@@ -1,0 +1,77 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!vigilante-get-vulnerable-host-data limit=\"5\" q_address=\"9.9.9.9\"\nContext Example\n{\n\"VigilanteATI\": {\n\"Hosts\": [\n{\n\"geoip\": {",
+    "!vigilante-get-vulnerable-host-data limit=\"5\" q_address=\"9.9.9.9\"\nContext Example\n{\n\"VigilanteATI\": {\n\"Hosts\": [\n{\n\"geoip\": {\n\"postal_code\": \"27709\","
+  ],
+  "kind": "integration-command",
+  "name": "vigilante-get-vulnerable-host-data",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Container for vulnerable host objects. This is basically a list of dictionaries (hosts). VigilanteATI.Hosts.ip Alphanumeric version of the IPv4 address belonging to this vulnerable host.",
+      "name": "VigilanteATI.Hosts",
+      "required": ""
+    },
+    {
+      "description": "Hostname of the host. Obtained by doing a lookup using the given IPv4 address. (e.g \"sample.hostname.com\") VigilanteATI.Hosts.type Vulnerability type/name. (e.g heartbleed)",
+      "name": "VigilanteATI.Hosts.hostname",
+      "required": ""
+    },
+    {
+      "description": "Port numbers that this might affect. (e.g 443) VigilanteATI.Hosts.protocols Protocols that this might affect. (e.g \"ssh\")",
+      "name": "VigilanteATI.Hosts.port",
+      "required": ""
+    },
+    {
+      "description": "URL field. Only applicable with certain vulnerability types such as web shell. VigilanteATI.Hosts.geoip JSon of all the data we have about the IP and its location.",
+      "name": "VigilanteATI.Hosts.url",
+      "required": ""
+    },
+    {
+      "description": "Timezone (e.g Asia/Tokyo) VigilanteATI.Hosts.geoip.ip IPv4 addresss",
+      "name": "VigilanteATI.Hosts.geoip.timezone",
+      "required": ""
+    },
+    {
+      "description": "Contient Code (e.g AS) VigilanteATI.Hosts.geoip.city_name City Name (e.g Tokyo)",
+      "name": "VigilanteATI.Hosts.geoip.continent_code",
+      "required": ""
+    },
+    {
+      "description": "Country Code (e.g JP) VigilanteATI.Hosts.geoip.country_name Country Name (e.g Japan)",
+      "name": "VigilanteATI.Hosts.geoip.country_code2",
+      "required": ""
+    },
+    {
+      "description": "Country Code (e.g JP) VigilanteATI.Hosts.geoip.region_name Region Name(e.g Tokyo)",
+      "name": "VigilanteATI.Hosts.geoip.country_code3",
+      "required": ""
+    },
+    {
+      "description": "Latitude (e.g 35.6502) VigilanteATI.Hosts.geoip.longitude Longitude (e.g 139.6939)",
+      "name": "VigilanteATI.Hosts.geoip.latitude",
+      "required": ""
+    },
+    {
+      "description": "Postal Code (e.g 153-0042) VigilanteATI.Hosts.geoip.region_code Region Code (e.g 13)",
+      "name": "VigilanteATI.Hosts.geoip.postal_code",
+      "required": ""
+    },
+    {
+      "description": "date Timestamp of when we found this vulnerable host and imported it into our database. (e.g 2015-10-10 12:01:01) VigilanteATI.GetVulnerableHostsToken",
+      "name": "VigilanteATI.Hosts.timestamp",
+      "required": ""
+    },
+    {
+      "description": "The re_token parameter value required to retrieve the next page of results. The token is valid for 5 minutes. The value is null if count is equal to either 0 or total.",
+      "name": "unknown",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "InfoArmor VigilanteATI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/info-armor-vigilante-ati"
+}

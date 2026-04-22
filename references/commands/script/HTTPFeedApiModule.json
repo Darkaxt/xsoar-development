@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "http-feed-api-module"
+  ],
+  "arguments": [],
+  "description": "HTTPFeedApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "HTTPFeedApiModule",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HTTPFeedApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/http-feed-api-module"
+}

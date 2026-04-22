@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "visualization, osint, domain-resolve",
+  "examples": [
+    "!opswat-filescan-search-query query=\"834d1dbfab8330ea5f1844f6e905ed0ac19d1033ee9a9f1122ad2051c56783dc\"\nContext Example\n#\n{\n\"OPSWAT\"\n:\n{\n\"Filescan\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The analysis id. OPSWAT.Filescan.Analysis.file.name The name of the file.",
+      "name": "OPSWAT.Filescan.Analysis.id",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 of the file. OPSWAT.Filescan.Analysis.verdict The final verdict.",
+      "name": "OPSWAT.Filescan.Analysis.file.sha256",
+      "required": ""
+    },
+    {
+      "description": "Overall state of the scan. OPSWAT.Filescan.Analysis.date Date",
+      "name": "OPSWAT.Filescan.Analysis.state",
+      "required": ""
+    },
+    {
+      "description": "OPSWAT.Filescan.Analysis.file.mime_type The file MimeType. OPSWAT.Filescan.Analysis.file.short_type",
+      "name": "The scan date.",
+      "required": ""
+    },
+    {
+      "description": "The type of the submission. OPSWAT.Filescan.Analysis.tags All tags.",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OPSWAT Filescan Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/opswat-filescan"
+}

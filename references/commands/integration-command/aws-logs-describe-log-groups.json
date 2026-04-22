@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!aws-logs-filter-log-events logGroupName=test",
+  "examples": [
+    "Command Example\n!aws-logs-filter-log-events logGroupName=test\nContext Example\nHuman Readable Output\n6. Get a list of log groups\nLists the specified log groups. You can list all your log groups or filter the results by prefix. The results are ASCII-sorted by log group name.\nBase Command\naws-logs-describe-log-groups",
+    "!aws-logs-filter-log-events logGroupName=test\nContext Example\nHuman Readable Output\n6. Get a list of log groups\nLists the specified log groups. You can list all your log groups or filter the results by prefix. The results are ASCII-sorted by log group name.\nBase Command\naws-logs-describe-log-groups\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "aws-logs-describe-log-groups",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the log group. AWS.CloudWatchLogs.LogGroups.CreationTime The creation time of the log group, expressed as the number of milliseconds after Jan 1, 1970 00:00:00 UTC.",
+      "name": "AWS.CloudWatchLogs.LogGroups.LogGroupName",
+      "required": ""
+    },
+    {
+      "description": "The number of days to retain the log events in the specified log group. AWS.CloudWatchLogs.LogGroups.MetricFilterCount The number of metric filters.",
+      "name": "AWS.CloudWatchLogs.LogGroups.RetentionInDays",
+      "required": ""
+    },
+    {
+      "description": "The Amazon Resource Name (ARN) of the log group. AWS.CloudWatchLogs.LogGroups.StoredBytes The number of bytes stored.",
+      "name": "AWS.CloudWatchLogs.LogGroups.Arn",
+      "required": ""
+    },
+    {
+      "description": "The Amazon Resource Name (ARN) of the CMK to use when encrypting log data.",
+      "name": "AWS.CloudWatchLogs.LogGroups.KmsKeyId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - CloudWatchLogs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---cloud-watch-logs"
+}

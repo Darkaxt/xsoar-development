@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "bluecat-am-response-policy-remove-domain policy_id=\"100930\" domain=\"demisto.com\"",
+  "examples": [
+    "Command Example\nbluecat-am-response-policy-remove-domain policy_id=\"100930\" domain=\"demisto.com\"\nHuman Readable Output\nSuccessfully removed demisto.com from response policy 100930\n6. Get an IPv4 block containing an IPv4 address\nGets an IPv4 block, which contains a specified IPv4 address.\nBase Command\nbluecat-am-get-range-by-ip",
+    "Command Example\n!bluecat-am-get-range-by-ip ip=10.0.0.11\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab BloodHoundEnterprise\nNext",
+    "!bluecat-am-get-range-by-ip ip=10.0.0.11\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab BloodHoundEnterprise\nNext\nBlueliv ThreatCompass \u00bb"
+  ],
+  "kind": "integration-command",
+  "name": "bluecat-am-get-range-by-ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The address manager ID of the Range. BlueCat.AddressManager.Range.Name Name of the Range.",
+      "name": "BlueCat.AddressManager.Range.ID",
+      "required": ""
+    },
+    {
+      "description": "Type of the Range. BlueCat.AddressManager.Range.Parents.ID ID of the parent Range.",
+      "name": "BlueCat.AddressManager.Range.Type",
+      "required": ""
+    },
+    {
+      "description": "Type of the parent Range. BlueCat.AddressManager.Range.Parents.Name Name of the parent Range.",
+      "name": "BlueCat.AddressManager.Range.Parents.Type",
+      "required": ""
+    },
+    {
+      "description": "Classless Inter-Domain Routing.",
+      "name": "BlueCat.AddressManager.Range.Parents.CIDR",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Bluecat Address Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bluecat-address-manager"
+}

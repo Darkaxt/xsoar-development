@@ -1,0 +1,61 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!cb-memdump path=\"c:\\Users\\All Users\\Desktop\" sensor=17",
+  "examples": [
+    "Command Example\n!cb-memdump path=\"c:\\Users\\All Users\\Desktop\" sensor=17\nContext Example\nHuman Readable Output\n20. Create a live response command\nCreates a Carbon Black Live Response command.\nBase Command\ncb-command-create",
+    "!cb-memdump path=\"c:\\Users\\All Users\\Desktop\" sensor=17\nContext Example\nHuman Readable Output\n20. Create a live response command\nCreates a Carbon Black Live Response command.\nBase Command\ncb-command-create\nInput",
+    "Command Example\n!cb-command-create session=337 name=\"process-list\"\n!cb-command-create session=337 name=\"directory-list\" object=\"c:\\Users\\\"\n(path)",
+    "!cb-command-create session=337 name=\"process-list\"\n!cb-command-create session=337 name=\"directory-list\" object=\"c:\\Users\\\"\n(path)",
+    "!cb-command-create session=337 name=\"directory-list\" object=\"c:\\Users\\\"\n(path)"
+  ],
+  "kind": "integration-command",
+  "name": "cb-command-create",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Command Status CbLiveResponse.Commands.Hostname The hostname running the command",
+      "name": "CbLiveResponse.Commands.Status",
+      "required": ""
+    },
+    {
+      "description": "The Sensor ID CbLiveResponse.Commands.CommandName The Command name",
+      "name": "CbLiveResponse.Commands.CbLiveResponse.Commands.CbSensorID",
+      "required": ""
+    },
+    {
+      "description": "The Session ID CbLiveResponse.Commands.CbCommandID The Command ID",
+      "name": "CbLiveResponse.Commands.CbSessionID",
+      "required": ""
+    },
+    {
+      "description": "Object argument for the CbLive command - e.g. for 'directory list' this is the path of the dir to list. For more information, see the Carbon Black documentation .",
+      "name": "CbLiveResponse.Commands.OperandObject",
+      "required": ""
+    },
+    {
+      "description": "Command create time CbLiveResponse.Commands.CommandCompletionTime The time the command completed or 0 if still in progres.",
+      "name": "CbLiveResponse.Commands.CreateTime",
+      "required": ""
+    },
+    {
+      "description": "Result description CbLiveResponse.Commands.Result.Type Result type",
+      "name": "CbLiveResponse.Commands.Result.Desc",
+      "required": ""
+    },
+    {
+      "description": "Result code",
+      "name": "CbLiveResponse.Commands.Result.Code",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

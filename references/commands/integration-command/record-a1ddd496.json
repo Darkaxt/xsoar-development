@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!autofocus-get-indicators limit=4\nHuman Readable Output\n#\nIndicators from AutoFocus\n#\nValue",
+    "!autofocus-get-indicators limit=4\nHuman Readable Output\n#\nIndicators from AutoFocus\n#\nValue\nType\nXSOAR\\<Span>.com",
+    "!autofocus-get-indicators limit=4 offset=4\nDemo Video\n#\nSorry, your browser doesn't support embedded videos. You can download the video at: https://github.com/demisto/content-assets/raw/7fd9e45c4d809dc1a41521c66828733dafe82148/Assets/FeedAutofocus/AutoFocus_Feed_demo.mp4\nNote:\nThe video instructs users to click the\n_API\nlink to get the JSON query of the"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AutoFocus Feed (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/auto-focus-feed"
+}

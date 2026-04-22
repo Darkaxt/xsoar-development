@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "armis-update-alert-status",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### armis-search-alerts-by-aql-string\n***\nSearches the alerts with a raw AQL string.\n#### Base Command\n`armis-search-alerts-by-aql-string`",
+    "#### Command Example\n```!armis-search-alerts-by-aql-string aql_string=\"alertId:(3821)\"```\n#### Context Example\n```json\n{\n\"Armis\": {\n\"Alert\": {\n\"activityIds\": [",
+    "#### Command Example\n```!armis-tag-device device_id=165722 tags=test```\n#### Human Readable Output\n>Successfully Tagged device: 165722 with tags: ['test']\n### armis-untag-device\n***\nRemoves a tag from a device.\n#### Base Command",
+    "#### Command Example\n```!armis-untag-device device_id=165722 tags=test```\n#### Human Readable Output\n>Successfully Untagged device: 165722 with tags: ['test']\n### armis-search-devices\n***\nSearch devices by identifiers.\n#### Base Command"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Armis",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/armis"
+}

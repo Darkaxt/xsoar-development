@@ -1,0 +1,126 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!varonis-get-alerted-events page=1 alert_id=72D0D925-0937-4111-AB4A-FFFD4A529A3C max_results=1\nContext Example\n#\n{\n\"Varonis\"\n:\n{\n\"Event\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Event type Varonis.Event.UTCTime Date",
+      "name": "Varonis.Event.Type",
+      "required": ""
+    },
+    {
+      "description": "Varonis.Event.Status Filters according to the status of the event. Options are: - Fail",
+      "name": "Event time UTC format",
+      "required": ""
+    },
+    {
+      "description": "Varonis.Event.Description Description of the activity Varonis.Event.Country",
+      "name": "- Success",
+      "required": ""
+    },
+    {
+      "description": "Name of the country from which the event occurred Varonis.Event.State Name of the state or regional subdivision from which the event occurred",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Device external IP Varonis.Event.Details.IsBlacklist Whether any of the geographical locations from which an alerted activity originated was on the blacklist at the time the activity occurred",
+      "name": "Varonis.Event.ExternalIP",
+      "required": ""
+    },
+    {
+      "description": "Type of operation that occurred during the event. Options are: - Accessed - Added",
+      "name": "Varonis.Event.Details.Operation",
+      "required": ""
+    },
+    {
+      "description": "- Removed - Sent - Received",
+      "name": "- Changed",
+      "required": ""
+    },
+    {
+      "description": "Varonis.Event.ByUser.Name Name of the user that triggered the event Varonis.Event.ByUser.UserType",
+      "name": "- Requested",
+      "required": ""
+    },
+    {
+      "description": "Type of account, i.e., user or computer Varonis.Event.ByUser.UserAccountType Logon name used to support clients and servers running earlier versions of the Windows operating system, such as Windows NT 4.0. In the dashboards (other than the Alert dashboard), this is the SAM account name of the user or group",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Domain of the user that triggered the event Varonis.Event. ByUser.DisabledAccount Whether the account is disabled",
+      "name": "Varonis.Event.ByUser.Domain",
+      "required": ""
+    },
+    {
+      "description": "Whether the account is stale Varonis.Event.ByUser.LockoutAccounts Whether the account is lockout",
+      "name": "Varonis.Event.ByUser.StaleAccount",
+      "required": ""
+    },
+    {
+      "description": "Source IP of the device triggered the event Varonis.Event. IsMaliciousIP Whether the IP is known to be malicious",
+      "name": "Varonis.Event.SourceIP",
+      "required": ""
+    },
+    {
+      "description": "Reputation score of the IP. The score is a numeric value from 1-100 Varonis.Event.IPThreatType List of threat types associated with the IP",
+      "name": "Varonis.Event. IPReputation",
+      "required": ""
+    },
+    {
+      "description": "Name of object on which the event was performed Varonis.Event.OnObject.ObjectType Type of object on which the event was performed",
+      "name": "Varonis.Event.OnObject.Name",
+      "required": ""
+    },
+    {
+      "description": "Type of platform on which the server resides. For example, Windows, Exchange, or SharePoint Varonis.Event.OnObject.IsSensitive Indicates whether the resource on which the event was performed is sensitive",
+      "name": "Varonis.Event.OnObject.Platform",
+      "required": ""
+    },
+    {
+      "description": "File server of object on which the event was performed Varonis.Event.OnObject.IsDisabledAccount Whether the account is disabled",
+      "name": "Varonis.Event.OnObject.FileServerOrDomain",
+      "required": ""
+    },
+    {
+      "description": "Whether the account is lockout Varonis.Event.OnObject.SAMAccountName Logon name used to support clients and servers running earlier versions of the Windows operating system, such as Windows NT 4.0. In the dashboards (other than the Alert dashboard), this is the SAM account name of the user or group",
+      "name": "Varonis.Event.OnObject.IsLockOutAccount",
+      "required": ""
+    },
+    {
+      "description": "Specified type of privileged account. Options are: - Service accounts",
+      "name": "Varonis.Event.OnObject.UserAccountType",
+      "required": ""
+    },
+    {
+      "description": "- Executive accounts - Test accounts Varonis.Event.OnObject.DestinationIP",
+      "name": "- Admin accounts",
+      "required": ""
+    },
+    {
+      "description": "Destination IP address within the organization Varonis.Event.OnObject.DestinationDevice Destination host name for relevant services",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Path of asset Varonis.Pagination.Page Current page number requested by user",
+      "name": "Varonis.Event.OnObject.Path",
+      "required": ""
+    },
+    {
+      "description": "Number of records on the page",
+      "name": "Varonis.Pagination.PageSize",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Varonis Data Security Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/varonis-data-security-platform"
+}

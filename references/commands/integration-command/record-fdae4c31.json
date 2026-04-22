@@ -1,0 +1,117 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!box_files_get_info file_id=723447059947\nContext Example\n#\n{\n\"Box\"\n:",
+    "!box_files_get_info file_id=723447059947\nContext Example\n#\n{\n\"Box\"\n:\n{\n\"ContentCreatedAt\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Size of file (in bits) Box.ContentModifiedAt date",
+      "name": "Box.Size",
+      "required": ""
+    },
+    {
+      "description": "Box.Sha1 File's SHA1 Box.ModifiedAt",
+      "name": "Time of content modification",
+      "required": ""
+    },
+    {
+      "description": "Time of file info Box.Parent.Etag Parent's etag",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "Parent's ID Box.Parent.Name Parent's name",
+      "name": "Box.Parent.Id",
+      "required": ""
+    },
+    {
+      "description": "Parent's sequence ID Box.Parent.Type Parent's type",
+      "name": "Box.SequenceId",
+      "required": ""
+    },
+    {
+      "description": "date Time of file's upload Box.Name",
+      "name": "Box.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "File's name Box.ModifiedBy.Id ID's of last user modified",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "User's login email Box.ModifiedBy.Name User's name of last modified",
+      "name": "Box.ModifiedBy.Login",
+      "required": ""
+    },
+    {
+      "description": "User's type Box.ContentCreatedAt date",
+      "name": "Box.ModifiedBy.User",
+      "required": ""
+    },
+    {
+      "description": "Box.OwnedBy.Id File's owner ID Box.OwnedBy.Login",
+      "name": "File's time of creation",
+      "required": ""
+    },
+    {
+      "description": "File's owner email Box.OwnedBy.Name File's owner name",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "File's owner type Box.SharedLink Shared link",
+      "name": "Box.OwnedBy.Type",
+      "required": ""
+    },
+    {
+      "description": "File's etag Box.FileVersion.Id File's version ID",
+      "name": "Box.Etag",
+      "required": ""
+    },
+    {
+      "description": "File's version SHA1 Box.FileVersion.Type File's version type",
+      "name": "Box.FileVersion.Sha1",
+      "required": ""
+    },
+    {
+      "description": "Path's collection entries etag Box.PathCollection.Entries.Id Path's collection entries ID",
+      "name": "Box.PathCollection.Entries.Etag",
+      "required": ""
+    },
+    {
+      "description": "Path's collection entries SHA1 Box.PathCollection.Entries.Name Path's collection entries name",
+      "name": "Box.PathCollection.Entries.Sha1",
+      "required": ""
+    },
+    {
+      "description": "Path's collection entries sequence_id Box.PathCollection.Entries.Type Path's collection entries type",
+      "name": "Box.PathCollection.Entries.SequenceId",
+      "required": ""
+    },
+    {
+      "description": "Size of path_collection object Box.PurgedAt purged at",
+      "name": "Box.PathCollection.TotalCount",
+      "required": ""
+    },
+    {
+      "description": "File's type Box.Id File's ID",
+      "name": "Box.Type",
+      "required": ""
+    },
+    {
+      "description": "File's description Box.ItemStatus File's status",
+      "name": "Box.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Box (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/box"
+}

@@ -1,0 +1,113 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The following argument was removed in this version",
+      "required": ""
+    },
+    {
+      "description": "dhs-get-indicators command, tlp_color",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "The behavior of the following arguments was changed",
+      "name": "was removed.",
+      "required": ""
+    },
+    {
+      "description": "dhs-get-indicators command, the default value of the limit",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "argument was changed to '10'.",
+      "required": ""
+    }
+  ],
+  "description": "e6ecb146f469d243945ad8a5451ba1129c5b190f7d50c64580dbad4b8246f88e",
+  "examples": [
+    "Command Example\n#\n!dhs-get-collections\nContext Example\n#\n{\n\"DHS.Collections\"\n:",
+    "!dhs-get-collections\nContext Example\n#\n{\n\"DHS.Collections\"\n:\n[\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Collection ID. DHS.Collections.Name Collection name.",
+      "name": "DHS.Collections.ID",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The following outputs were removed in this version",
+      "required": ""
+    },
+    {
+      "description": "dhs-get-indicators command: DHS.type",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "DHS.Indicators.type . DHS.value",
+      "name": "- this output was replaced by",
+      "required": ""
+    },
+    {
+      "description": "DHS.Indicators.value . DHS.tlp",
+      "name": "- this output was replaced by",
+      "required": ""
+    },
+    {
+      "description": "Additional Considerations for this version",
+      "name": "- this output was removed.",
+      "required": ""
+    },
+    {
+      "description": "Known Limitations",
+      "name": "Use this version if your certificate supports TAXII 2 protocol.",
+      "required": ""
+    },
+    {
+      "description": "Therefore, it is not possible to fetch indicators that last appeared in the feed more than 48 hours ago. Edit this page Report an Issue",
+      "name": "\"First Fetch Time\" parameter can be configured for a maximum of 48 hours, due to limitations in DHS TAXII2 API.",
+      "required": ""
+    },
+    {
+      "description": "\u00ab DHS Feed Next Digital Defense FrontlineVM \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands dhs-get-indicators dhs-get-collections",
+      "name": "Configure DHS Feed v2 in Cortex",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Breaking Changes",
+      "required": ""
+    },
+    {
+      "description": "Known Limitations Docs Developer Docs",
+      "name": "Additional Considerations for this version",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DHS Feed v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dhs-feed-v2"
+}

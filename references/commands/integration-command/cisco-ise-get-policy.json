@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "9. Get a single ANC policy",
+  "examples": [
+    "Command Example\n!cisco-ise-get-policy policy_name=policy3\nContext Example\n{\n\"CiscoISE.Policy\": [\n{\n\"Action\": [\n\"QUARANTINE\"",
+    "!cisco-ise-get-policy policy_name=policy3\nContext Example\n{\n\"CiscoISE.Policy\": [\n{\n\"Action\": [\n\"QUARANTINE\"\n],"
+  ],
+  "kind": "integration-command",
+  "name": "cisco-ise-get-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The action of the policy. Can be \"QUARANTINE\", \"PORTBOUNCE\", or \"SHUTDOWN\". CiscoISE.Policy.ID The ID of the ANC policy.",
+      "name": "CiscoISE.Policy.Action",
+      "required": ""
+    },
+    {
+      "description": "The link for the ANC policy (GUI). CiscoISE.Policy.Name The name of the ANC policy.",
+      "name": "CiscoISE.Policy.Link",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ISE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-ise"
+}

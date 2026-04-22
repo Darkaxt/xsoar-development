@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "This command is deprecated.",
+  "examples": [
+    "Command Example\n!recorded-future-get-threats-vulnerabilities detailed=true\nContext Example\n{\n\"CVE\": {\n\"ID\": \"CVE-2017-0147\",\n\"RecordedFuture\": {\n\"FirstSeen\": \"2017-03-14T16:59:26.413Z\",",
+    "!recorded-future-get-threats-vulnerabilities detailed=true\nContext Example\n{\n\"CVE\": {\n\"ID\": \"CVE-2017-0147\",\n\"RecordedFuture\": {\n\"FirstSeen\": \"2017-03-14T16:59:26.413Z\",\n\"Criticality\": \"Very Critical\","
+  ],
+  "kind": "integration-command",
+  "name": "recorded-future-get-threats-vulnerabilities",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Vulnerability CVE ID CVE.RecordedFuture.Criticality CVE criticality label",
+      "name": "CVE.ID",
+      "required": ""
+    },
+    {
+      "description": "date Risk first seen timestamp CVE.RecordedFuture.LastSeen",
+      "name": "CVE.RecordedFuture.FirstSeen",
+      "required": ""
+    },
+    {
+      "description": "Risk last seen timestamp",
+      "name": "date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

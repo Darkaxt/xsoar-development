@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Occurrences count of detected activity.",
+  "examples": [
+    "!cyberint-get-url value=http://dummy.com\nContext Example\n#\n{\n\"data\"\n:\n{\n\"entity\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator type. Cyberint.url.entity.value The indicator value.",
+      "name": "Cyberint.url.entity.type",
+      "required": ""
+    },
+    {
+      "description": "Malicious score. Cyberint.url.risk.occurrences_count Occurrences count.",
+      "name": "Cyberint.url.risk.malicious_score",
+      "required": ""
+    },
+    {
+      "description": "IPs. Cyberint.url.enrichment.hostname Hostname.",
+      "name": "Cyberint.url.enrichment.ips",
+      "required": ""
+    },
+    {
+      "description": "Domain. Cyberint.url.benign Benign.",
+      "name": "Cyberint.url.enrichment.domain",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cyberint Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyberint-feed"
+}

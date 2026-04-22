@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "parse-yaml"
+  ],
+  "arguments": [],
+  "description": "ParseYAML | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ParseYAML",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "JSON data loaded from YAML string Edit this page Report an Issue",
+      "name": "ParseYAML",
+      "required": ""
+    },
+    {
+      "description": "\u00ab ParseWordDoc Next PcapConvert \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ParseYAML",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/parse-yaml"
+}

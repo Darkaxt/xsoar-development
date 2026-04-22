@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The URL from which the content was extracted. Tavily.Content The full content extracted from the URL.",
+      "name": "Tavily.URL",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Tanium v2",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "TAXII 2 Feed \u00bb Configure Tavily in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "tavily-extract",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tavily",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tavily"
+}

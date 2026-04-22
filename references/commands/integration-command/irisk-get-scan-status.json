@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The name of the searched domain.",
+  "examples": [
+    "Command Example\n!irisk-add-domain newscan=false domain=demisto.com\nHuman Readable Output\n2. Get the status of a scan\nQueries the status of a scan.\nBase Command\nirisk-get-scan-status\nInput",
+    "!irisk-add-domain newscan=false domain=demisto.com\nHuman Readable Output\n2. Get the status of a scan\nQueries the status of a scan.\nBase Command\nirisk-get-scan-status\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "irisk-get-scan-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the scanned domain. C2sec.Domain.Scan.workitemid The ID of the current scan.",
+      "name": "C2sec.Domain.Scan.domain",
+      "required": ""
+    },
+    {
+      "description": "date The time that the scan was completed. C2sec.Domain.Scan.creationTime",
+      "name": "C2sec.Domain.Scan.completeTime",
+      "required": ""
+    },
+    {
+      "description": "The time that the scan was initiated. C2sec.Domain.Scan.status",
+      "name": "date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "C2sec irisk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/c2sec-irisk"
+}

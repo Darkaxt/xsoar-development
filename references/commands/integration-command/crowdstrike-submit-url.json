@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The vendor used to calculate the score.",
+  "examples": [
+    "Command Example\ncrowdstrike-submit-url url=www.google.com environmentID=100\nContext Example\n{\n\"CrowdStrike\": {\n\"EnvironmentID\": 100,\n\"JobID\": \"58c1c211aac2eda9503bc31f\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "crowdstrike-submit-url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA-256 hash of the file. CrowdStrike.EnvironmentID The ID of the environment in which the URL was analyzed.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The job ID of the URL analysis.",
+      "name": "CrowdStrike.JobID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vx-stream"
+}

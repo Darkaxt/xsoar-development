@@ -1,0 +1,265 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "The following arguments were removed in this version",
+      "required": ""
+    },
+    {
+      "description": "tanium-tr-get-intel-doc-by-id command: intel-doc-id",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "intel_doc_id . In the",
+      "name": "- this argument was replaced by",
+      "required": ""
+    },
+    {
+      "description": "command: computer-ip-address - this argument was replaced by",
+      "name": "tanium-tr-list-alerts",
+      "required": ""
+    },
+    {
+      "description": ". computer-name - this argument was replaced by",
+      "name": "computer_ip_address",
+      "required": ""
+    },
+    {
+      "description": ". scan-config-id - this argument was replaced by",
+      "name": "computer_name",
+      "required": ""
+    },
+    {
+      "description": ". intel-doc-id - this argument was replaced by",
+      "name": "scan_config_id",
+      "required": ""
+    },
+    {
+      "description": ". In the tanium-tr-get-alert-by-id",
+      "name": "intel_doc_id",
+      "required": ""
+    },
+    {
+      "description": "alert-id - this argument was replaced by alert_id",
+      "name": "command:",
+      "required": ""
+    },
+    {
+      "description": "In the tanium-tr-alert-update-state command:",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "- this argument was replaced by alert_ids .",
+      "name": "alert-id",
+      "required": ""
+    },
+    {
+      "description": "tanium-tr-create-snapshot command: connection-name",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "connection_id . In the",
+      "name": "- this argument was replaced by",
+      "required": ""
+    },
+    {
+      "description": "command: connection-name - this argument was replaced by",
+      "name": "tanium-tr-delete-snapshot",
+      "required": ""
+    },
+    {
+      "description": ". snapshot-id - this argument was replaced by",
+      "name": "connection_id",
+      "required": ""
+    },
+    {
+      "description": ". In the tanium-tr-delete-local-snapshot",
+      "name": "snapshot_ids",
+      "required": ""
+    },
+    {
+      "description": "connection-name - this argument was replaced by connection_id",
+      "name": "command:",
+      "required": ""
+    },
+    {
+      "description": "file-name - this argument was removed. In the",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "command: remote - this argument was removed.",
+      "name": "tanium-tr-create-connection",
+      "required": ""
+    },
+    {
+      "description": "- this argument was removed. destination - this argument was removed.",
+      "name": "destination-type",
+      "required": ""
+    },
+    {
+      "description": "- this argument was removed. This command receiving new arguments: client_id",
+      "name": "connection-timeout",
+      "required": ""
+    },
+    {
+      "description": "ip , platform",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "hostname . In the",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "command: connection-name - this argument was replaced by",
+      "name": "tanium-tr-delete-connection",
+      "required": ""
+    },
+    {
+      "description": ". In the tanium-tr-get-label-by-id",
+      "name": "connection_id",
+      "required": ""
+    },
+    {
+      "description": "label-id - this argument was replaced by label_id",
+      "name": "command:",
+      "required": ""
+    },
+    {
+      "description": "In the tanium-tr-list-file-downloads command:",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "- this argument was removed. In the tanium-tr-get-downloaded-file",
+      "name": "host",
+      "required": ""
+    },
+    {
+      "description": "file-id - this argument was replaced by file_id",
+      "name": "command:",
+      "required": ""
+    },
+    {
+      "description": "In the tanium-tr-list-events-by-connection command:",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "- this argument was replaced by connection_id .",
+      "name": "connection-name",
+      "required": ""
+    },
+    {
+      "description": "- this argument was replaced by type .",
+      "name": "event-type",
+      "required": ""
+    },
+    {
+      "description": "tanium-tr-get-file-download-info command: host",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "path - this argument was removed. id",
+      "name": "- this argument was removed.",
+      "required": ""
+    },
+    {
+      "description": "file_id . In the",
+      "name": "- this argument was replaced by",
+      "required": ""
+    },
+    {
+      "description": "command: connection-name - this argument was replaced by",
+      "name": "tanium-tr-get-process-info",
+      "required": ""
+    },
+    {
+      "description": ". In the tanium-tr-get-events-by-process",
+      "name": "connection_id",
+      "required": ""
+    },
+    {
+      "description": "connection-name - this argument was replaced by connection_id",
+      "name": "command:",
+      "required": ""
+    },
+    {
+      "description": "In the tanium-tr-get-process-children command:",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "- this argument was replaced by connection_id .",
+      "name": "connection-name",
+      "required": ""
+    }
+  ],
+  "description": "Tanium.ResponseActions.eid",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Tanium.ResponseActions.computerName Tanium.ResponseActions.options Tanium.ResponseActions.status",
+      "name": "Tanium.ResponseActions.type",
+      "required": ""
+    },
+    {
+      "description": "Tanium.ResponseActions.userId Tanium.ResponseActions.userName Tanium.ResponseActions.results",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Tanium.ResponseActions.expirationTime Date Tanium.ResponseActions.createdAt",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Tanium.ResponseActions.updatedAt Date Tanium.ResponseActions.id",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Tanium.ResponseActions.eid Breaking changes from the previous version of this integration - Tanium Threat Response v2",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Commands",
+      "name": "The following sections list the changes in this version.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The following commands were removed in this version",
+      "required": ""
+    },
+    {
+      "description": "tanium-tr-list-local-snapshots-by-connection tanium-tr-get-connection-by-name tanium-tr-get-parent-process-tree",
+      "name": "tanium-tr-list-snapshots-by-connection",
+      "required": ""
+    },
+    {
+      "description": "tanium-tr-get-process-timeline tanium-tr-get-download-file-request-status - this command was replaced by",
+      "name": "tanium-tr-list-evidence",
+      "required": ""
+    },
+    {
+      "description": ".",
+      "name": "tanium-tr-get-task-by-id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium Threat Response v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-threat-response-v2"
+}

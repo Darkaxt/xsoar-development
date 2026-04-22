@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There are no context output for this command.",
+  "examples": [
+    "Command Example\n!threatq-add-attribute obj_type=indicator obj_id=173317 name=TestAttr3 value=Val3\nHuman Readable Output\n9. Modify an attribute\nModifies an attribute for an object in ThreatQ.\nBase Command\nthreatq-modify-attribute\nInput",
+    "!threatq-add-attribute obj_type=indicator obj_id=173317 name=TestAttr3 value=Val3\nHuman Readable Output\n9. Modify an attribute\nModifies an attribute for an object in ThreatQ.\nBase Command\nthreatq-modify-attribute\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-modify-attribute",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

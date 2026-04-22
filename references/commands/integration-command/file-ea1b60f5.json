@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Search for actors: cs-actors",
+  "examples": [
+    "Command Example\n!file file=369c8fc6532ba547d7ef5985bb5e880a using-brand=\"FalconIntel V2\"\nRaw Output\nDBotScore\n{\n\"Indicator\":\"369c8fc6532ba547d7ef5985bb5e880a\",\n\"Score\":3,\n\"Type\":\"hash\",",
+    "!file file=369c8fc6532ba547d7ef5985bb5e880a using-brand=\"FalconIntel V2\"\nRaw Output\nDBotScore\n{\n\"Indicator\":\"369c8fc6532ba547d7ef5985bb5e880a\",\n\"Score\":3,\n\"Type\":\"hash\",\n\"Vendor\":\"CrowdStrike\""
+  ],
+  "kind": "integration-command",
+  "name": "file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Malicious MD5 hash file File.SHA1 Malicious SHA-1 hash file",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "Malicious SHA-256 hash file File.Malicious.Vendor For malicious files, the vendor that made the decision",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the reason that the vendor made the decision DBotScore.Indicator The indicator tested",
+      "name": "File.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Type of indicator tested DBotScore.Vendor Vendor used to calculate the score",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Intel (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-intel"
+}

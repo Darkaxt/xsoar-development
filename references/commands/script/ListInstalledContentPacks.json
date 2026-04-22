@@ -1,0 +1,56 @@
+{
+  "aliases": [
+    "list-installed-content-packs"
+  ],
+  "arguments": [],
+  "description": "ListInstalledContentPacks | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ListInstalledContentPacks",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Pack Name InstalledPacks.Version Pack Version",
+      "name": "InstalledPacks.Name",
+      "required": ""
+    },
+    {
+      "description": "InstalledPacks.Update Is there an update available Troubleshooting",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "automation. Make sure the Use tenant parameter (in the Cortex Rest API integration) is checked",
+      "name": "Multi-tenant environments should be configured with the Cortex Rest API instance when using this",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "to ensure that API calls are made to the current tenant instead of the master tenant.",
+      "required": ""
+    },
+    {
+      "description": "Next ListPlaybookAutomationsCommands \u00bb Script Data",
+      "name": "\u00ab ListGroupBy",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Troubleshooting",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ListInstalledContentPacks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/list-installed-content-packs"
+}

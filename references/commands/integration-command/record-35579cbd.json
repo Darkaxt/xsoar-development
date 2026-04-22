@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "selenianboondocks.com",
+  "examples": [
+    "Command Example\n#\n!domain domain=\"twitter.com\"\nContext Example\n#\n{\n\"DBotScore\"\n:",
+    "!domain domain=\"twitter.com\"\nContext Example\n#\n{\n\"DBotScore\"\n:\n[\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "A rank that's based on popularity. HostIo.Domain.web.server Name of the server where the domain exists.",
+      "name": "HostIo.Domain.web.rank",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Score The actual score.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The domain name. Domain.Registrant.Name The name of the registrant.",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "The country of the registrant. Domain.UpdatedDate Date",
+      "name": "Domain.Registrant.Country",
+      "required": ""
+    },
+    {
+      "description": "Domain.NameServers Name of the server where the domain exist.",
+      "name": "The date when the domain was last updated in ISO8601 format (i.e. '2020-04-30T10:35:00.000Z').",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HostIo",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/host-io"
+}

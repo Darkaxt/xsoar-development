@@ -1,0 +1,27 @@
+{
+  "aliases": [
+    "feed-related-indicators-widget"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "FeedRelatedIndicatorsWidget | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "FeedRelatedIndicatorsWidget",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FeedRelatedIndicatorsWidget",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/feed-related-indicators-widget"
+}

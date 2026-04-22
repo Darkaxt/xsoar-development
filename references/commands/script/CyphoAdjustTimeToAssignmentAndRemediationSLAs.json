@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "cypho-adjust-time-to-assignment-and-remediation-sl-as"
+  ],
+  "arguments": [
+    {
+      "description": "The automation automatically uses: The incident assignment event Predefined SLA timer fields associated with Cypho incidents",
+      "name": "There are no manual inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "CyphoAdjustTimeToAssignmentAndRemediationSLAs | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CyphoAdjustTimeToAssignmentAndRemediationSLAs",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The script performs background SLA timer adjustments within Cortex XSOAR. \u2714 Notes",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "automatically and should not be executed manually. Triggered when an incident owner is assigned.",
+      "name": "This script is designed to run",
+      "required": ""
+    },
+    {
+      "description": "Time to Assignment timer and starts the Remediation SLA",
+      "name": "Stops the",
+      "required": ""
+    },
+    {
+      "description": "Ensures accurate SLA tracking and SOC KPI calculations. Designed for seamless integration with Cypho and Cortex XSOAR incident workflows. Edit this page",
+      "name": "timer.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab CyphoAddCommentButton Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "CyphoApproveIssue \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "\u2714 Notes",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyphoAdjustTimeToAssignmentAndRemediationSLAs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cypho-adjust-time-to-assignment-and-remediation-sl-as"
+}

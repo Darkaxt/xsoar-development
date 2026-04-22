@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\nContext Example\nHuman Readable Output\n27. Delete a registry key\nDeletes the specified registry key.\nBase Command\ncb-registry-delete-key\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "cb-registry-delete-key",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique command ID CbLiveResponse.Commands.CommandName The command name",
+      "name": "CbLiveResponse.Commands.CbCommandID",
+      "required": ""
+    },
+    {
+      "description": "The command status pending in progress",
+      "name": "CbLiveResponse.Commands.Status",
+      "required": ""
+    },
+    {
+      "description": "error canceled CbLiveResponse.Commands.CommandCompletionTime",
+      "name": "complete",
+      "required": ""
+    },
+    {
+      "description": "0 if not complete) CbLiveResponse.Commands.OperandObject",
+      "name": "The command completion time (",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

@@ -1,0 +1,35 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "No input parameter is required.",
+      "required": ""
+    }
+  ],
+  "description": "!slashnext-download-text scanid=48ae7b06-5915-4633-bc51-2cfaa0036742",
+  "examples": [
+    "Command Example\n!slashnext-download-text scanid=48ae7b06-5915-4633-bc51-2cfaa0036742\nHuman Readable Output\nForensics: Webpage Rendered Text for URL Scan ID = 48ae7b06-5915-4633-bc51-2cfaa0036742\n14. slashnext-api-quota\nQueries the SlashNext cloud database and retrieves the details of API quota.\nBase Command\nslashnext-api-quota",
+    "!slashnext-download-text scanid=48ae7b06-5915-4633-bc51-2cfaa0036742\nHuman Readable Output\nForensics: Webpage Rendered Text for URL Scan ID = 48ae7b06-5915-4633-bc51-2cfaa0036742\n14. slashnext-api-quota\nQueries the SlashNext cloud database and retrieves the details of API quota.\nBase Command\nslashnext-api-quota\nInput",
+    "Command Example\n!slashnext-api-quota\nHuman Readable Output\nSlashNext Phishing Incident Response - API Quota\nNote: Your annual API quota will be reset to zero, once either the limit is reached or upon quota expiration date indicated above.\nLicensedQuota\nRemainingQuota\nExpirationDate",
+    "!slashnext-api-quota\nHuman Readable Output\nSlashNext Phishing Incident Response - API Quota\nNote: Your annual API quota will be reset to zero, once either the limit is reached or upon quota expiration date indicated above.\nLicensedQuota\nRemainingQuota\nExpirationDate\nUnlimited"
+  ],
+  "kind": "integration-command",
+  "name": "slashnext-api-quota",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "\"SlashNext.Quota\": { \"LicensedQuota\": \"Unlimited\", \"RemainingQuota\": \"Unlimited\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"IsExpired\": false } }",
+      "name": "\"ExpirationDate\": \"2020-12-01\",",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SlashNext Phishing Incident Response (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slash-next-phishing-incident-response"
+}

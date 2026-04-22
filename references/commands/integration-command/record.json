@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Incoming Url PhishUp.Result response types \"Clean\", \"Phish\"",
+      "name": "PhishUp.Url",
+      "required": ""
+    },
+    {
+      "description": "Phishup Engine Url Score DBotScore.Indicator The indicator that was tested.",
+      "name": "PhishUp.Score",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PhishUp",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/6437c006-1d86-4cdc-89d5-23305f207e3a"
+}

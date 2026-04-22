@@ -1,0 +1,56 @@
+{
+  "aliases": [
+    "prisma-cloud-compute-parse-compliance-alert"
+  ],
+  "arguments": [],
+  "description": "PrismaCloudComputeParseComplianceAlert | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PrismaCloudComputeParseComplianceAlert",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The compliance description PrismaCloudCompute.ComplianceAlert.compliance.id The compliance ID",
+      "name": "PrismaCloudCompute.ComplianceAlert.compliance.description",
+      "required": ""
+    },
+    {
+      "description": "PrismaCloudCompute.ComplianceAlert.compliance.type The compliance type PrismaCloudCompute.ComplianceAlert.time",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Date PrismaCloudCompute.ComplianceAlert.type Entity type (host / image / container)",
+      "name": "Compliance alert creation time",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Next PrismaCloudComputeParseVulnerabilityAlert \u00bb Script Data",
+      "name": "\u00ab PrismaCloudComputeParseCloudDiscoveryAlert",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PrismaCloudComputeParseComplianceAlert",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/prisma-cloud-compute-parse-compliance-alert"
+}

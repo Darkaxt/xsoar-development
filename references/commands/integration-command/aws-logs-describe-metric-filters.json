@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!aws-logs-delete-metric-filter filterName=test logGroupName=test",
+  "examples": [
+    "!aws-logs-delete-metric-filter filterName=test logGroupName=test\nContext Example\nThere is no context output for this command.\nHuman Readable Output\n13. Get a list of metric filters\nLists the specified metric filters. You can list all the metric filters or filter the results by log name, prefix, metric name, or metric namespace.\nBase Command\naws-logs-describe-metric-filters",
+    "Command Example\n!aws-logs-describe-metric-filters\nContext Example\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab AWS - CloudTrail",
+    "!aws-logs-describe-metric-filters\nContext Example\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab AWS - CloudTrail\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "aws-logs-describe-metric-filters",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the metric filter. AWS.CloudWatchLogs.MetricFilters.filterPattern A symbolic description of how CloudWatch Logs should interpret the data in each log event. For example, a log event may contain time stamps, IP addresses, strings, and so on. You use the filter pattern to specify what to look for in the log event message.",
+      "name": "AWS.CloudWatchLogs.MetricFilters.filterName",
+      "required": ""
+    },
+    {
+      "description": "The name of the CloudWatch metric. AWS.CloudWatchLogs.MetricFilters.metricTransformations.metricNamespace The namespace of the CloudWatch metric.",
+      "name": "AWS.CloudWatchLogs.MetricFilters.metricTransformations.metricName",
+      "required": ""
+    },
+    {
+      "description": "The value to publish to the CloudWatch metric when a filter pattern matches a log event. AWS.CloudWatchLogs.MetricFilters.metricTransformations.defaultValue The value to emit when a filter pattern does not match a log event. This value can be null.",
+      "name": "AWS.CloudWatchLogs.MetricFilters.metricTransformations.metricValue",
+      "required": ""
+    },
+    {
+      "description": "date The creation time of the metric filter, expressed as the number of milliseconds after Jan 1, 1970 00:00:00 UTC. AWS.CloudWatchLogs.MetricFilters.logGroupName",
+      "name": "AWS.CloudWatchLogs.MetricFilters.creationTime",
+      "required": ""
+    },
+    {
+      "description": "The name of the log group.",
+      "name": "string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - CloudWatchLogs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---cloud-watch-logs"
+}

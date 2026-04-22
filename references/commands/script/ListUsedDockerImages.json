@@ -1,0 +1,113 @@
+{
+  "aliases": [
+    "list-used-docker-images"
+  ],
+  "arguments": [],
+  "description": "ListUsedDockerImages | Cortex XSOAR",
+  "examples": [
+    "!ListUsedDockerImages\nContext Example\n#\n{\n\"UsedDockerImages\"\n:\n[\n{"
+  ],
+  "kind": "script",
+  "name": "ListUsedDockerImages",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Docker image name. UsedDockerImages.ContentItem The integration or automation name that used the specific Docker image.",
+      "name": "UsedDockerImages.DockerImage",
+      "required": ""
+    },
+    {
+      "description": "Script Example",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!ListUsedDockerImages",
+      "required": ""
+    },
+    {
+      "description": "\"UsedDockerImages\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"ContentItem\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "] , \"DockerImage\"",
+      "name": "\"Active Directory Query v2\"",
+      "required": ""
+    },
+    {
+      "description": "\"demisto/ldap:1.0.0.23980\" } ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"ContentItem\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ", \"McAfee ePO\" ,",
+      "name": "\"AutoFocus Daily Feed\"",
+      "required": ""
+    },
+    {
+      "description": ", \"ServiceNow IAM\" ,",
+      "name": "\"ServiceNow CMDB\"",
+      "required": ""
+    },
+    {
+      "description": "] , \"DockerImage\"",
+      "name": "\"ServiceNow v2\"",
+      "required": ""
+    },
+    {
+      "description": "\"demisto/python3:3.9.6.22912\" } ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"ContentItem\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ", \"GitLab (Community Contribution)\" ,",
+      "name": "\"AutoFocus Feed\"",
+      "required": ""
+    },
+    {
+      "description": ", \"ExtractEmailV2\" ,",
+      "name": "\"Palo Alto Networks AutoFocus v2\"",
+      "required": ""
+    },
+    {
+      "description": "] , \"DockerImage\"",
+      "name": "\"GetIndicatorDBotScoreFromCache\"",
+      "required": ""
+    },
+    {
+      "description": "\"demisto/python3:3.9.6.24019\" } ]",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ListUsedDockerImages",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/list-used-docker-images"
+}

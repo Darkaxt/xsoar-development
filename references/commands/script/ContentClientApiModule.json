@@ -1,0 +1,416 @@
+{
+  "aliases": [
+    "content-client-api-module"
+  ],
+  "arguments": [],
+  "description": "ContentClientApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ContentClientApiModule",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "alerts , readable_output",
+      "name": "=",
+      "required": ""
+    },
+    {
+      "description": "tableToMarkdown ( \"Alerts\"",
+      "name": "=",
+      "required": ""
+    },
+    {
+      "description": "alerts ) )",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "main ( )",
+      "name": "def",
+      "required": ""
+    },
+    {
+      "description": "params = demisto",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "params ( )",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "= demisto .",
+      "name": "command",
+      "required": ""
+    },
+    {
+      "description": "( ) args",
+      "name": "command",
+      "required": ""
+    },
+    {
+      "description": "demisto . args",
+      "name": "=",
+      "required": ""
+    },
+    {
+      "description": ") try :",
+      "name": "(",
+      "required": ""
+    },
+    {
+      "description": "= SecurityVendorClient (",
+      "name": "client",
+      "required": ""
+    },
+    {
+      "description": "= params .",
+      "name": "base_url",
+      "required": ""
+    },
+    {
+      "description": "( \"url\" )",
+      "name": "get",
+      "required": ""
+    },
+    {
+      "description": "client_id = params",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "get ( \"client_id\"",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": ", client_secret =",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": ". get (",
+      "name": "params",
+      "required": ""
+    },
+    {
+      "description": ") , verify",
+      "name": "\"client_secret\"",
+      "required": ""
+    },
+    {
+      "description": "not params .",
+      "name": "=",
+      "required": ""
+    },
+    {
+      "description": "( \"insecure\" ,",
+      "name": "get",
+      "required": ""
+    },
+    {
+      "description": ") , proxy",
+      "name": "False",
+      "required": ""
+    },
+    {
+      "description": "params . get",
+      "name": "=",
+      "required": ""
+    },
+    {
+      "description": "\"proxy\" , False",
+      "name": "(",
+      "required": ""
+    },
+    {
+      "description": ") if command",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": "\"test_module\" : # Replace underscore with dash",
+      "name": "==",
+      "required": ""
+    },
+    {
+      "description": "( test_module (",
+      "name": "return_results",
+      "required": ""
+    },
+    {
+      "description": ") ) elif",
+      "name": "client",
+      "required": ""
+    },
+    {
+      "description": "== \"fetch-incidents\" :",
+      "name": "command",
+      "required": ""
+    },
+    {
+      "description": "= fetch_incidents (",
+      "name": "incidents",
+      "required": ""
+    },
+    {
+      "description": ", params .",
+      "name": "client",
+      "required": ""
+    },
+    {
+      "description": "( \"max_fetch\" ,",
+      "name": "get",
+      "required": ""
+    },
+    {
+      "description": ") ) demisto",
+      "name": "50",
+      "required": ""
+    },
+    {
+      "description": "incidents ( incidents",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "elif command ==",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": ": return_results (",
+      "name": "\"security-vendor-get-alerts\"",
+      "required": ""
+    },
+    {
+      "description": "( client ,",
+      "name": "get_alerts_command",
+      "required": ""
+    },
+    {
+      "description": ") ) else",
+      "name": "args",
+      "required": ""
+    },
+    {
+      "description": "raise NotImplementedError (",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "{ command }",
+      "name": "f\"Command",
+      "required": ""
+    },
+    {
+      "description": ") except Exception",
+      "name": "not implemented\"",
+      "required": ""
+    },
+    {
+      "description": "e : demisto",
+      "name": "as",
+      "required": ""
+    },
+    {
+      "description": "error ( f\"Error:",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "str ( e",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "} \" )",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": "( str (",
+      "name": "return_error",
+      "required": ""
+    },
+    {
+      "description": ") ) if",
+      "name": "e",
+      "required": ""
+    },
+    {
+      "description": "in ( \"__main__\"",
+      "name": "__name__",
+      "required": ""
+    },
+    {
+      "description": "\"__builtin__\" , \"builtins\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ": main (",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": "API Reference",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "ContentClient",
+      "required": ""
+    },
+    {
+      "description": "BaseClient functionality. Constructor Parameters",
+      "name": "The main client class that extends",
+      "required": ""
+    },
+    {
+      "description": "Type Default Description",
+      "name": "Parameter",
+      "required": ""
+    },
+    {
+      "description": "str",
+      "name": "base_url",
+      "required": "Required"
+    },
+    {
+      "description": "verify bool True",
+      "name": "Base URL for the API",
+      "required": ""
+    },
+    {
+      "description": "proxy bool False",
+      "name": "Verify SSL certificates",
+      "required": ""
+    },
+    {
+      "description": "ok_codes tuple ()",
+      "name": "Use system proxy settings",
+      "required": ""
+    },
+    {
+      "description": "headers Dict[str, str] None",
+      "name": "HTTP status codes to consider successful (empty tuple means use standard HTTP success codes)",
+      "required": ""
+    },
+    {
+      "description": "auth tuple None",
+      "name": "Default headers for all requests",
+      "required": ""
+    },
+    {
+      "description": "timeout float 60.0",
+      "name": "Basic auth credentials (username, password)",
+      "required": ""
+    },
+    {
+      "description": "auth_handler AuthHandler None",
+      "name": "Request timeout in seconds",
+      "required": ""
+    },
+    {
+      "description": "retry_policy RetryPolicy None",
+      "name": "Authentication handler instance",
+      "required": ""
+    },
+    {
+      "description": "rate_limiter RateLimitPolicy None",
+      "name": "Retry policy configuration",
+      "required": ""
+    },
+    {
+      "description": "circuit_breaker CircuitBreakerPolicy None",
+      "name": "Rate limiting configuration",
+      "required": ""
+    },
+    {
+      "description": "diagnostic_mode bool False",
+      "name": "Circuit breaker configuration",
+      "required": ""
+    },
+    {
+      "description": "client_name str \"ContentClient\"",
+      "name": "Enable detailed request tracing",
+      "required": ""
+    },
+    {
+      "description": "Methods",
+      "name": "Client identifier for logging",
+      "required": ""
+    },
+    {
+      "description": "Description _http_request(...) Make an HTTP request (BaseClient compatible)",
+      "name": "Method",
+      "required": ""
+    },
+    {
+      "description": "Make a GET request post(url_suffix, ...) Make a POST request",
+      "name": "get(url_suffix, ...)",
+      "required": ""
+    },
+    {
+      "description": "Make a PUT request patch(url_suffix, ...) Make a PATCH request",
+      "name": "put(url_suffix, ...)",
+      "required": ""
+    },
+    {
+      "description": "Make a DELETE request get_diagnostic_report() Get comprehensive diagnostic report",
+      "name": "delete(url_suffix, ...)",
+      "required": ""
+    },
+    {
+      "description": "Get diagnosis and solution for an error health_check() Check client health status",
+      "name": "diagnose_error(error)",
+      "required": ""
+    },
+    {
+      "description": "Close the client and release resources RetryPolicy",
+      "name": "close()",
+      "required": ""
+    },
+    {
+      "description": "Parameter Type Default",
+      "name": "Configuration for automatic request retries.",
+      "required": ""
+    },
+    {
+      "description": "int 5 Maximum number of retry attempts",
+      "name": "max_attempts",
+      "required": ""
+    },
+    {
+      "description": "float 1.0 Initial delay between retries (seconds)",
+      "name": "initial_delay",
+      "required": ""
+    },
+    {
+      "description": "float 2.0 Delay multiplier for exponential backoff",
+      "name": "multiplier",
+      "required": ""
+    },
+    {
+      "description": "float 60.0 Maximum delay between retries (seconds)",
+      "name": "max_delay",
+      "required": ""
+    },
+    {
+      "description": "float 0.2 Random jitter factor (0.0 to 1.0)",
+      "name": "jitter",
+      "required": ""
+    },
+    {
+      "description": "bool True Honor Retry-After header from server",
+      "name": "respect_retry_after",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ContentClientApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/content-client-api-module"
+}

@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "verify-i-pv4-indicator"
+  ],
+  "arguments": [],
+  "description": "VerifyIPv4Indicator | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "VerifyIPv4Indicator",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VerifyIPv4Indicator",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/verify-i-pv4-indicator"
+}

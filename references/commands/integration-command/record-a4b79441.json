@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "ZoomMail.Profile.threadsTotal",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the users role. ZoomMail.User.display_name The display name of the user.",
+      "name": "ZoomMail.User.role_id",
+      "required": ""
+    },
+    {
+      "description": "The ID of the user. ZoomMail.User.email The email for the user.",
+      "name": "ZoomMail.User.id",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Zoom Feed",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Zoom_IAM \u00bb Configure Zoom Mail in Cortex Scopes Required",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Granular Scopes Additional Resources Commands",
+      "name": "Classic Scopes",
+      "required": ""
+    },
+    {
+      "description": "zoom-mail-email-list zoom-mail-thread-list zoom-mail-email-attachment-get",
+      "name": "zoom-mail-email-move-trash",
+      "required": ""
+    },
+    {
+      "description": "zoom-mail-mailbox-profile-get zoom-mail-user-list Docs",
+      "name": "zoom-mail-send-email",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Zoom Mail",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/zoom-mail"
+}

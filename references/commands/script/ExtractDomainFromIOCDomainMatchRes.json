@@ -1,0 +1,63 @@
+{
+  "aliases": [
+    "extract-domain-from-ioc-domain-match-res"
+  ],
+  "arguments": [],
+  "description": "ExtractDomainFromIOCDomainMatchRes | Cortex XSOAR",
+  "examples": [
+    "!ExtractDomainFromIOCDomainMatchRes json_response=\"{\\\"Artifact\\\": \\\"e9428.b.akamaiedge.net\\\", \\\"IocIngestTime\\\": \\\"2020-07-17T20:00:00Z\\\", \\\"FirstAccessedTime\\\": \\\"2018-11-05T12:01:29Z\\\", \\\"LastAccessedTime\\\": \\\"2018-11-09T11:51:03Z\\\", \\\"Sources\\\": [{\\\"Category\\\": \\\"Observed serving executables\\\", \\\"IntRawConfidenceScore\\\": 0, \\\"NormalizedConfidenceScore\\\": \\\"Low\\\", \\\"RawSeverity\\\": \\\"Low\\\", \\\"Source\\\": \\\"ET Intelligence Rep List\\\"}]}\"\nContext Example\n#\n{\n\"ChronicleIOCDomainMatches\": {\n\"Domain\": \"e9428.b.akamaiedge.net\",\n\"FirstSeen\": \"2018-11-05T12:01:29Z\",\n\"IOCIngestTime\": \"2020-07-17T20:00:00Z\","
+  ],
+  "kind": "script",
+  "name": "ExtractDomainFromIOCDomainMatchRes",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The suspicious domain name recently observed in enterprise. ChronicleIOCDomainMatches.Domain The suspicious domain name recently observed in enterprise.",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "ChronicleIOCDomainMatches.IOCIngestTime Time(UTC) the IOC was first seen by Chronicle. date",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Time(UTC) the artifact was first seen within your enterprise. date ChronicleIOCDomainMatches.LastSeen",
+      "name": "ChronicleIOCDomainMatches.FirstSeen",
+      "required": ""
+    },
+    {
+      "description": "date Script Example",
+      "name": "Time(UTC) the artifact was most recently seen within your enterprise.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!ExtractDomainFromIOCDomainMatchRes json_response=\"{\\\"Artifact\\\": \\\"e9428.b.akamaiedge.net\\\", \\\"IocIngestTime\\\": \\\"2020-07-17T20:00:00Z\\\", \\\"FirstAccessedTime\\\": \\\"2018-11-05T12:01:29Z\\\", \\\"LastAccessedTime\\\": \\\"2018-11-09T11:51:03Z\\\", \\\"Sources\\\": [{\\\"Category\\\": \\\"Observed serving executables\\\", \\\"IntRawConfidenceScore\\\": 0, \\\"NormalizedConfidenceScore\\\": \\\"Low\\\", \\\"RawSeverity\\\": \\\"Low\\\", \\\"Source\\\": \\\"ET Intelligence Rep List\\\"}]}\"",
+      "required": ""
+    },
+    {
+      "description": "\"ChronicleIOCDomainMatches\": { \"Domain\": \"e9428.b.akamaiedge.net\", \"FirstSeen\": \"2018-11-05T12:01:29Z\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"LastSeen\": \"2018-11-09T11:51:03Z\" }, \"Domain\": {",
+      "name": "\"IOCIngestTime\": \"2020-07-17T20:00:00Z\",",
+      "required": ""
+    },
+    {
+      "description": "} }",
+      "name": "\"Name\": \"e9428.b.akamaiedge.net\"",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExtractDomainFromIOCDomainMatchRes",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/extract-domain-from-ioc-domain-match-res"
+}

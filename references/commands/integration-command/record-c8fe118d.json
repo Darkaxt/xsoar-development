@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"PNG image data, 711 x 531, 8-bit/color RGB, non-interlaced\"",
+  "examples": [
+    "Command Example\n#\n!cyberint-alerts-analysis-report alert_ref_id=\"ARG-4\" report_name=\"Expert Analysis - Active Phishing Website Targeting Company.pdf\"\nContext Example\n#\n{\n\"File\"\n:",
+    "!cyberint-alerts-analysis-report alert_ref_id=\"ARG-4\" report_name=\"Expert Analysis - Active Phishing Website Targeting Company.pdf\"\nContext Example\n#\n{\n\"File\"\n:\n{\n\"EntryID\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The size of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. File.Name The name of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The SSDeep hash of the file. File.EntryID The entry ID of the file.",
+      "name": "File.SSDeep",
+      "required": ""
+    },
+    {
+      "description": "File information. File.Type The file type.",
+      "name": "File.Info",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the file. File.Extension The file extension.",
+      "name": "File.MD5",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cyberint Alerts",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyberint"
+}

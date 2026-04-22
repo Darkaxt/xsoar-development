@@ -1,0 +1,15 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "gcs-put-bucket-policy bucket_name=my-bucket entity=user-alice@company.com role=Reader",
+  "examples": [
+    "Command Example\ngcs-put-bucket-policy bucket_name=my-bucket entity=user-alice@company.com role=Reader\nHuman Readable Output\nUpdated ACL entity user-alice@company.com in bucket my-bucket to role Reader\n11. Removes an entity from a bucket's Access Control List\nRemoves an entity from a bucket's Access Control List.\nBase Command\ngcs-delete-bucket-policy"
+  ],
+  "kind": "integration-command",
+  "name": "gcs-delete-bucket-policy",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Storage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-storage"
+}

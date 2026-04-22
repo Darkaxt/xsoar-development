@@ -1,0 +1,137 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2020-07-20T13:39:30.5559003Z",
+  "examples": [
+    "Command Example\n#\n!ms-ata-entity-get id=\"7a58c171-fa19-44f9-bf1e-81b544b318ad\"\nContext Example\n#\n{\n\"MicrosoftATA\": {\n\"Entity\": {",
+    "!ms-ata-entity-get id=\"7a58c171-fa19-44f9-bf1e-81b544b318ad\"\nContext Example\n#\n{\n\"MicrosoftATA\": {\n\"Entity\": {\n\"BadPasswordTime\": null,\n\"CanonicalName\": \"demisto.local/Users/Test ATA\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date Time in which bad password was entered. MicrosoftATA.Entity.CanonicalName",
+      "name": "MicrosoftATA.Entity.BadPasswordTime",
+      "required": ""
+    },
+    {
+      "description": "Entity canonical name. MicrosoftATA.Entity.CreationTime Date",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATA.Entity.Description Entity description. MicrosoftATA.Entity.DistinguishedName",
+      "name": "Time in which the entity was created in.",
+      "required": ""
+    },
+    {
+      "description": "Entity distinguished name. MicrosoftATA.Entity.DnsName Entity DNS name.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Whether the entity is in the global catalog. MicrosoftATA.Entity.DomainController.IsPrimary Whether the entity is primary.",
+      "name": "MicrosoftATA.Entity.DomainController.IsGlobalCatalog",
+      "required": ""
+    },
+    {
+      "description": "Whether the entity is read only. MicrosoftATA.Entity.DomainId Identifier of the entity domain.",
+      "name": "MicrosoftATA.Entity.DomainController.IsReadOnly",
+      "required": ""
+    },
+    {
+      "description": "Date Expiration time of the entity. MicrosoftATA.Entity.Id",
+      "name": "MicrosoftATA.Entity.ExpiryTime",
+      "required": ""
+    },
+    {
+      "description": "Identifer of the entity. MicrosoftATA.Entity.IpAddress Entity IP address.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Whether the entity is delegation enabled. MicrosoftATA.Entity.IsDeleted Whether the entity is deleted.",
+      "name": "MicrosoftATA.Entity.IsDelegationEnabled",
+      "required": ""
+    },
+    {
+      "description": "Whether the entity is Data Encryption Standard only. MicrosoftATA.Entity.IsDisabled Whether the entity is disabled.",
+      "name": "MicrosoftATA.Entity.IsDesEncryptionOnly",
+      "required": ""
+    },
+    {
+      "description": "Whether the entity is domain controller. MicrosoftATA.Entity.IsExpired Whether the entity is expired.",
+      "name": "MicrosoftATA.Entity.IsDomainController",
+      "required": ""
+    },
+    {
+      "description": "Whether the entity is related to Honeytoken activity. MicrosoftATA.Entity.IsLocked Whether the entity is locked.",
+      "name": "MicrosoftATA.Entity.IsHoneytoken",
+      "required": ""
+    },
+    {
+      "description": "Whether the entity is new. MicrosoftATA.Entity.IsNotDelegatable Whether the entity is non-delegatable.",
+      "name": "MicrosoftATA.Entity.IsNew",
+      "required": ""
+    },
+    {
+      "description": "Whether the entity is partial. MicrosoftATA.Entity.IsPasswordExpired Whether the entity password is expired.",
+      "name": "MicrosoftATA.Entity.IsPartial",
+      "required": ""
+    },
+    {
+      "description": "Whether the entity is sensitive. MicrosoftATA.Entity.IsServer Whether the entity is a server.",
+      "name": "MicrosoftATA.Entity.IsSensitive",
+      "required": ""
+    },
+    {
+      "description": "Whether a smart card is required for the entity. MicrosoftATA.Entity.OperatingSystemDisplayName The entity OS name,",
+      "name": "MicrosoftATA.Entity.IsSmartcardRequired",
+      "required": ""
+    },
+    {
+      "description": "Entitiy Security Account Manager name. MicrosoftATA.Entity.Sid Entity security identifier.",
+      "name": "MicrosoftATA.Entity.SamName",
+      "required": ""
+    },
+    {
+      "description": "Entity Search Service Principal Names. MicrosoftATA.Entity.SystemCreationTime Date",
+      "name": "MicrosoftATA.Entity.Spns",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATA.Entity.SystemDisplayName System display name of the entity. MicrosoftATA.Entity.Type",
+      "name": "System creation time of the entity.",
+      "required": ""
+    },
+    {
+      "description": "Type of the entity. MicrosoftATA.Entity.UpnName Entity User Principal Name.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Whether the entity profile behavior changed. MicrosoftATA.Entity.Profile.OpenSuspiciousActivityCount Number of entity profile suspicious activities.",
+      "name": "MicrosoftATA.Entity.Profile.IsBehaviorChanged",
+      "required": ""
+    },
+    {
+      "description": "Number of entity profile suspicious activities with High severity. MicrosoftATA.Entity.Profile.SuspiciousActivitySeverityToCountMapping.Low Number of entity profile suspicious activities with Low severity.",
+      "name": "MicrosoftATA.Entity.Profile.SuspiciousActivitySeverityToCountMapping.High",
+      "required": ""
+    },
+    {
+      "description": "Number of entity profile suspicious activities with Medium severity. MicrosoftATA.Entity.Profile.Type Type of the entity profile.",
+      "name": "MicrosoftATA.Entity.Profile.SuspiciousActivitySeverityToCountMapping.Medium",
+      "required": ""
+    },
+    {
+      "description": "Date Update time of the entity profile.",
+      "name": "MicrosoftATA.Entity.Profile.UpdateTime",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Advanced Threat Analytics (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-advanced-threat-analytics"
+}

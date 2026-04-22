@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "aggregationTaskInput:",
+  "examples": [
+    "Command Example\n#\n!identityiq-create-alert display_name=Testing-Via-XSOAR\nHuman Readable Output\n#\nResults\n#\nAlert",
+    "!identityiq-create-alert display_name=Testing-Via-XSOAR\nHuman Readable Output\n#\nResults\n#\nAlert\n#\nid"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Internal id of the Alert in IdentityIQ. IdentityIQ.Alert.lastProcessed Date",
+      "name": "IdentityIQ.Alert.id",
+      "required": ""
+    },
+    {
+      "description": "IdentityIQ.Alert.displayName Display name of the alert in IdentityIQ. IdentityIQ.Alert.meta.created",
+      "name": "Timestamp of when this alert was processed by IdentityIQ for match.",
+      "required": ""
+    },
+    {
+      "description": "Timestamp of when this alert. IdentityIQ.Alert.name Unique name of the alert in IdentityIQ.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Array of attributes associated with this alert. IdentityIQ.Alert.actions Array of actions taken on this alert after processing.",
+      "name": "IdentityIQ.Alert.attributes",
+      "required": ""
+    },
+    {
+      "description": "List of applications that are related to this alert.",
+      "name": "IdentityIQ.Alert.application",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SailPoint IdentityIQ",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sail-point-identity-iq"
+}

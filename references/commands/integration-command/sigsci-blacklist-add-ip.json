@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "4. Add an IP address to a block list: sigsci-blacklist-add-ip",
+  "examples": [
+    "Command Example\n!sigsci-blacklist-add-ip ip=5.7.5.7 note=docdoc siteName=demisto\nContext Example\n{\n\"SigSciences.Corp.Site.Blacklist\": {\n\"ExpiryDate\": \"\",\n\"Note\": \"docdoc\",\n\"Source\": \"5.7.5.7\",",
+    "!sigsci-blacklist-add-ip ip=5.7.5.7 note=docdoc siteName=demisto\nContext Example\n{\n\"SigSciences.Corp.Site.Blacklist\": {\n\"ExpiryDate\": \"\",\n\"Note\": \"docdoc\",\n\"Source\": \"5.7.5.7\",\n\"CreatedBy\": \"user@demisto.com\","
+  ],
+  "kind": "integration-command",
+  "name": "sigsci-blacklist-add-ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The IP address on the blacklist. SigSciences.Corp.Site.Blacklist.Note The note associated with the tag.",
+      "name": "SigSciences.Corp.Site.Blacklist.Source",
+      "required": ""
+    },
+    {
+      "description": "The ID for this entry. SigSciences.Corp.Site.Blacklist.CreatedBy The user who added this source.",
+      "name": "SigSciences.Corp.Site.Blacklist.ID",
+      "required": ""
+    },
+    {
+      "description": "date The created date timestamp. SigSciences.Corp.Site.Blacklist.ExpiryDate",
+      "name": "SigSciences.Corp.Site.Blacklist.CreatedDate",
+      "required": ""
+    },
+    {
+      "description": "The expiration timestamp.",
+      "name": "date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

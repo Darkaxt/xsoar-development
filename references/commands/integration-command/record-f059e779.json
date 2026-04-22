@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2020-12-03T02:07:02+00:00",
+  "examples": [
+    "Command Example\n#\n!apd-remediate-message id=\"0e43a684-2e0e-11eb-815a-0a8f2da72108\" operation=\"move\"\nContext Example\n#\n{\n}\nHuman Readable Output",
+    "!apd-remediate-message id=\"0e43a684-2e0e-11eb-815a-0a8f2da72108\" operation=\"move\"\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nMessage ID - 0e43a684-2e0e-11eb-815a-0a8f2da72108 remediated successfully with operation 'move'."
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Agari Phishing Defense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/agari-phishing-defense"
+}

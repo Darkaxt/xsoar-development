@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "docker-hardening-check"
+  ],
+  "arguments": [],
+  "description": "DockerHardeningCheck | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DockerHardeningCheck",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Notes",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "The network host check only checks available access on the default gateway's IP using an https request to port 443. There still may be access available to the host network either on a different IP or port and this check will not detect it. Edit this page Report an Issue",
+      "name": "Network Host Check:",
+      "required": ""
+    },
+    {
+      "description": "\u00ab DlpAskFeedback Next domain-enrichment \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Notes",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DockerHardeningCheck",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/docker-hardening-check"
+}

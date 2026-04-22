@@ -1,0 +1,35 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "!cisco-ise-reauthenticate-endpoint macAddress=00:0E:35:D4:D8:51",
+  "examples": [
+    "Command Example\n!cisco-ise-reauthenticate-endpoint macAddress=00:0E:35:D4:D8:51\nHuman Readable Output\n'Activation result was : True\n4. Get data for all existing endpoints\nReturns data for existing endpoints.\nBase Command\ncisco-ise-get-endpoints",
+    "!cisco-ise-reauthenticate-endpoint macAddress=00:0E:35:D4:D8:51\nHuman Readable Output\n'Activation result was : True\n4. Get data for all existing endpoints\nReturns data for existing endpoints.\nBase Command\ncisco-ise-get-endpoints\nInput",
+    "Command Example\n!cisco-ise-get-endpoints\nContext Example\n{\n\"CiscoISE.Endpoint\": [\n{\n\"MACAddress\": \"00:0A:35:11:A9:00\",\n\"ID\": \"50080fc0-a07a-11e8-808e-000c295fdd32\"",
+    "!cisco-ise-get-endpoints\nContext Example\n{\n\"CiscoISE.Endpoint\": [\n{\n\"MACAddress\": \"00:0A:35:11:A9:00\",\n\"ID\": \"50080fc0-a07a-11e8-808e-000c295fdd32\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "cisco-ise-get-endpoints",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Endpoint ID. Endpoint.MACAddress Endpoint MAC address.",
+      "name": "Endpoint.ID",
+      "required": ""
+    },
+    {
+      "description": "Endpoint ID. CiscoISE.Endpoint.MACAddress Endpoint MAC address.",
+      "name": "CiscoISE.Endpoint.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ISE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-ise"
+}

@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The scan result status.",
+  "examples": [
+    "Command Example\n!irisk-rescan-domain domain=demisto.com\nHuman Readable Output\n4. Get the issues for a domain\nReturns the issues located under the specified domain.\nBase Command\nirisk-get-domain-issues\nInput",
+    "!irisk-rescan-domain domain=demisto.com\nHuman Readable Output\n4. Get the issues for a domain\nReturns the issues located under the specified domain.\nBase Command\nirisk-get-domain-issues\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "irisk-get-domain-issues",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the domain against which it was checked. C2sec.Domain.Issue.ID Issue ID.",
+      "name": "C2sec.Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "Asset associated with the issues. For example, IP addresses, website URLs, and so on. C2sec.Domain.Issue.Component The component used in the issue.",
+      "name": "C2sec.Domain.Issue.Asset",
+      "required": ""
+    },
+    {
+      "description": "The display name of the component being used. C2sec.Domain.Issue.Details The details for the issue.",
+      "name": "C2sec.Domain.Issue.ComponentDisplay",
+      "required": ""
+    },
+    {
+      "description": "The name of the issue. C2sec.Domain.Issue.Severity",
+      "name": "C2sec.Domain.Issue.Issue",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "C2sec irisk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/c2sec-irisk"
+}

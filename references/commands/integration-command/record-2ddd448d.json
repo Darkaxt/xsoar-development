@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!ibm-guardium-get-events limit=50 start_time=\"2024-01-01T00:00:00\" end_time=\"2024-01-01T23:59:59\" should_push_events=true\nHuman Readable Output\n#\nIBM Guardium Events\n#\nClient IP",
+    "!ibm-guardium-get-events limit=50 start_time=\"2024-01-01T00:00:00\" end_time=\"2024-01-01T23:59:59\" should_push_events=true\nHuman Readable Output\n#\nIBM Guardium Events\n#\nClient IP\nDatabase User\nSource Program"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM Security Guardium",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ibm-security-guardium"
+}

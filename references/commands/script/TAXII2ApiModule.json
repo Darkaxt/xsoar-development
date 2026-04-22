@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "taxii2-api-module"
+  ],
+  "arguments": [],
+  "description": "TAXII2ApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "TAXII2ApiModule",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TAXII2ApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/taxii2-api-module"
+}

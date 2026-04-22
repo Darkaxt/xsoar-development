@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "CyberArkEPMSOCResponse.Action",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The IDs of the endpoints removed from risk plan. Edit this page Report an Issue",
+      "name": "CyberArkEPMSOCResponse.EndpointIDs",
+      "required": ""
+    },
+    {
+      "description": "\u00ab CyberArk EPM Event Collector Next CyberArk Identity Event Collector \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands cyberarkepm-activate-risk-plan cyberarkepm-deactivate-risk-plan",
+      "name": "Configure CyberArk EPM SOC Response (Beta) in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyberArk EPM SOC Response (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyber-ark-epmsoc-response"
+}

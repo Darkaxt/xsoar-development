@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "format-actiurl"
+  ],
+  "arguments": [],
+  "description": "FormatACTIURL | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "FormatACTIURL",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FormatACTIURL",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/format-actiurl"
+}

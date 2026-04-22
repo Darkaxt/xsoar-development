@@ -1,0 +1,52 @@
+{
+  "aliases": [
+    "defang"
+  ],
+  "arguments": [
+    {
+      "description": "defang_options Specify which IOC needs defanging. mail_options",
+      "name": "The input to be defanged.",
+      "required": ""
+    },
+    {
+      "description": "url_options URL defang can be configured to merely defang . or https or :// or all.",
+      "name": "Mail defang can be configured to merely defang . or @ or both.",
+      "required": ""
+    }
+  ],
+  "description": "Defang | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "Defang",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The defanged output Edit this page Report an Issue",
+      "name": "Defang.output",
+      "required": ""
+    },
+    {
+      "description": "\u00ab DeduplicateValuesbyKey Next DefaultIncidentClassifier \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Defang",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/defang"
+}

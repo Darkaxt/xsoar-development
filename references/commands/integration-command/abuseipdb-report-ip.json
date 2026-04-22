@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!abuseipdb-check-cidr-block network=\"127.0.0.2/24\" days=\"30\" limit=\"40\" threshold=\"80\"",
+  "examples": [
+    "Command Example\n!abuseipdb-check-cidr-block network=\"127.0.0.2/24\" days=\"30\" limit=\"40\" threshold=\"80\"\nHuman Readable Output\n3. Report an IP address\nReport an IP address to AbuseIPDB\nBase Command\nabuseipdb-report-ip\nInput",
+    "!abuseipdb-check-cidr-block network=\"127.0.0.2/24\" days=\"30\" limit=\"40\" threshold=\"80\"\nHuman Readable Output\n3. Report an IP address\nReport an IP address to AbuseIPDB\nBase Command\nabuseipdb-report-ip\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "abuseipdb-report-ip",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AbuseIPDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/abuse-ipdb"
+}

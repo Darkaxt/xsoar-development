@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Killed calculator.exe [pid: 40396] with image path: c:\\program files\\windowsapps\\microsoft.windowscalculator_10.2002.13.0_x64__8wekyb3d8bbwe\\calculator.exe",
+  "examples": [
+    "Command Example\n#\n!infocyte-get-alerts alertId=\"d2e1499e-8b11-4300-9848-c1e97094834b\"\nContext Example\n#\n{\n\"Infocyte\": {\n\"Alert\": [",
+    "!infocyte-get-alerts alertId=\"d2e1499e-8b11-4300-9848-c1e97094834b\"\nContext Example\n#\n{\n\"Infocyte\": {\n\"Alert\": [\n{\n\"avPositives\": 53,"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Infocyte alertId Infocyte.Alert.scanId Infocyte scanId the alert originated from",
+      "name": "Infocyte.Alert.id",
+      "required": ""
+    },
+    {
+      "description": "Name of alerted file or alert Infocyte.Alert.type Type of object or artifact (process, module, artifact, autostart, script, etc.)",
+      "name": "Infocyte.Alert.name",
+      "required": ""
+    },
+    {
+      "description": "Threat category assigned by extension logic (Good, Low risk, Unknown, Suspicious, Bad) Infocyte.Alert.hasAvScan True if it has been scanned by AV and/or sandbox malware engines",
+      "name": "Infocyte.Alert.threatName",
+      "required": ""
+    },
+    {
+      "description": "0-10 confidence score. Higher = more confident. Infocyte.Alert.avPositive Number of engines and threat intel sources flagging the object as bad",
+      "name": "Infocyte.Alert.threatScore",
+      "required": ""
+    },
+    {
+      "description": "Number of engines and threat intel sources that analyzed the object Infocyte.Alert.synapseScore Infocyte proprietary machine learning score on maliciousness. Negative (especially below -1) indicates backdoor or remote access tool features (generally bad), positive is good",
+      "name": "Infocyte.Alert.avTotal",
+      "required": ""
+    },
+    {
+      "description": "Size of object/file in bytes Infocyte.Alert.flagname Name of user assigned flag in Infocyte on this artifact",
+      "name": "Infocyte.Alert.size",
+      "required": ""
+    },
+    {
+      "description": "0-10 user-assigned score assigned to the flag. Higher = more critical Infocyte.Alert.createdOn date",
+      "name": "Infocyte.Alert.flagWeight",
+      "required": ""
+    },
+    {
+      "description": "Infocyte.Alert.hostname Hostname of target host Infocyte.Alert.sha1",
+      "name": "Datetime stamp the alert",
+      "required": ""
+    },
+    {
+      "description": "Sha1 (fileRepId) of file Infocyte.Alert.signed Valid and unexpired digital signature on file",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "File has been hash validated as part of a linux package manager",
+      "name": "Infocyte.Alert.managed",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Infocyte",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/infocyte"
+}

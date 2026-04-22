@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "jobId: 123 argString: 123",
+  "examples": [
+    "Command Example\n#\n!rundeck-webhook-event-send json=\n{\"test\":1}\nauth_token={auth_id}\nHuman Readable Output\n#\nWebhook event send",
+    "!rundeck-webhook-event-send json=\n{\"test\":1}\nauth_token={auth_id}\nHuman Readable Output\n#\nWebhook event send\n#\nJob Id"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the executed job. Rundeck.WebhookEvent.executionId The ID of the execution.",
+      "name": "Rundeck.WebhookEvent.jobId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Rundeck",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rundeck"
+}

@@ -1,0 +1,159 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "QRadar.LogSourceGroup.ParentID",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The display name of the event collector. Not localized because it is derived from a process/component name and the hostname of the managed host it runs on, neither of which are translatable. QRadar.EventCollector.HostID The ID of the host on which this event collector process runs.",
+      "name": "QRadar.EventCollector.Name",
+      "required": ""
+    },
+    {
+      "description": "The name of the component backing this event collector process. Also contained in the \"name\" field. QRadar.EventCollector.ID The unique ID of the event collector.",
+      "name": "QRadar.EventCollector.ComponentName",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab IBM QRadar v2 (Deprecated)",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "IBM Security Guardium \u00bb Configure IBM QRadar v3 in Cortex Required Permissions",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Creating a Classifier Using the Pull from instance Parameter",
+      "name": "Mapping Limitation for Cortex XSOAR Versions below 6.0.0",
+      "required": ""
+    },
+    {
+      "description": "Query to fetch offenses Parameter Migration from QRadar v2 to QRadar v3",
+      "name": "Important Note Regarding the",
+      "required": ""
+    },
+    {
+      "description": "New Commands Command Name Changes Mirroring",
+      "name": "Additions and Changes from QRadar v2 to QRadar v3",
+      "required": ""
+    },
+    {
+      "description": "Use the API Token Instead of Username and Password Choose Your API Version View Your QRadar Version",
+      "name": "Mirroring Events",
+      "required": ""
+    },
+    {
+      "description": "Fetch with Events Retries API Call Metrics Duplicate Incidents",
+      "name": "Troubleshooting",
+      "required": ""
+    },
+    {
+      "description": "qradar-offenses-list qradar-offense-update qradar-closing-reasons",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "qradar-offense-note-create qradar-rules-list qradar-rule-groups-list",
+      "name": "qradar-offense-notes-list",
+      "required": ""
+    },
+    {
+      "description": "qradar-saved-searches-list qradar-searches-list qradar-search-create",
+      "name": "qradar-assets-list",
+      "required": ""
+    },
+    {
+      "description": "qradar-search-results-get qradar-search-delete qradar-reference-sets-list",
+      "name": "qradar-search-status-get",
+      "required": ""
+    },
+    {
+      "description": "qradar-reference-sets-list qradar-reference-set-create qradar-reference-set-delete",
+      "name": "qradar-search-cancel",
+      "required": ""
+    },
+    {
+      "description": "qradar-reference-set-value-delete qradar-domains-list qradar-indicators-upload",
+      "name": "qradar-reference-set-value-upsert",
+      "required": ""
+    },
+    {
+      "description": "qradar-log-sources-list qradar-get-custom-properties qradar-reset-last-run",
+      "name": "qradar-geolocations-for-ip",
+      "required": ""
+    },
+    {
+      "description": "get-mapping-fields get-remote-data get-modified-remote-data",
+      "name": "qradar-print-context",
+      "required": ""
+    },
+    {
+      "description": "qradar-offense-by-id qradar-searches qradar-get-search",
+      "name": "qradar-offenses",
+      "required": ""
+    },
+    {
+      "description": "qradar-get-assets qradar-get-asset-by-id qradar-get-closing-reasons",
+      "name": "qradar-get-search-results",
+      "required": ""
+    },
+    {
+      "description": "qradar-create-note qradar-get-reference-by-name qradar-create-reference-set",
+      "name": "qradar-get-note",
+      "required": ""
+    },
+    {
+      "description": "qradar-create-reference-set-value qradar-update-reference-set-value qradar-delete-reference-set-value",
+      "name": "qradar-delete-reference-set",
+      "required": ""
+    },
+    {
+      "description": "qradar-get-domains qradar-get-domain-by-id qradar-upload-indicators",
+      "name": "qradar-delete-reference-set-value",
+      "required": ""
+    },
+    {
+      "description": "qradar-ips-local-destination-get qradar-search-retrieve-events qradar-remote-network-cidr-create",
+      "name": "qradar-ips-source-get",
+      "required": ""
+    },
+    {
+      "description": "qradar-remote-network-cidr-delete qradar-remote-network-cidr-update qradar-remote-network-deploy-execution",
+      "name": "qradar-remote-network-cidr-list",
+      "required": ""
+    },
+    {
+      "description": "qradar-log-source-delete qradar-wincollect-destinations-list qradar-log-source-create",
+      "name": "qradar-log-source-extensions-list",
+      "required": ""
+    },
+    {
+      "description": "qradar-log-source-protocol-types-list qradar-disconnected-log-collectors-list qradar-log-source-update",
+      "name": "qradar-log-source-languages-list",
+      "required": ""
+    },
+    {
+      "description": "qradar-log-source-groups-list qradar-event-collectors-list Docs",
+      "name": "qradar-log-source-types-list",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM QRadar v3",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/q-radar-v3"
+}

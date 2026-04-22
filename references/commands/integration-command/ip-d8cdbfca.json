@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!minemeld-get-indicator-from-miner miner=Suspicious indicator=7.7.7.7",
+  "examples": [
+    "Command Example\n!minemeld-get-indicator-from-miner miner=Suspicious indicator=7.7.7.7\nWar Room Output\n5. Get IP address indicator\nRetrieves all occurrences of the specified IP address, including the context in which it is found.\nFor this command to succeed, the miner (associated with the IP address indicator) has to be on a Cortex XSOAR block list or allow list.\nBase Command\nip",
+    "!minemeld-get-indicator-from-miner miner=Suspicious indicator=7.7.7.7\nWar Room Output\n5. Get IP address indicator\nRetrieves all occurrences of the specified IP address, including the context in which it is found.\nFor this command to succeed, the miner (associated with the IP address indicator) has to be on a Cortex XSOAR block list or allow list.\nBase Command\nip\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Indicator DBotScore.Type The Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The DBot score vendor DBotScore.Score The DBot score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "For malicious IP addresses, the vendor defined the IP address as malicious IP.Malicious.Description For malicious IP addresses, the reason why the vendor defined the IP address as malicious",
+      "name": "IP.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "IP address IP.MineMeld.Indicators Entire indicator object",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "Indicator value IP.MineMeld.Indicators.miner Miner of the indicator",
+      "name": "IP.MineMeld.Indicators.indicator",
+      "required": ""
+    },
+    {
+      "description": "Indicator type IP.MineMeld.Indicators.comment Indicator comment",
+      "name": "IP.MineMeld.Indicators.type",
+      "required": ""
+    },
+    {
+      "description": "Entire indicator object MineMeld.Indicators.indicator Indicator value",
+      "name": "MineMeld.Indicators",
+      "required": ""
+    },
+    {
+      "description": "Miner of the indicator MineMeld.Indicators.type Indicator type",
+      "name": "MineMeld.Indicators.miner",
+      "required": ""
+    },
+    {
+      "description": "Indicator comment MineMeld.Miner Entire miner object",
+      "name": "MineMeld.Indicators.comment",
+      "required": ""
+    },
+    {
+      "description": "Miner name",
+      "name": "MineMeld.Miner.name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks MineMeld (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-minemeld"
+}

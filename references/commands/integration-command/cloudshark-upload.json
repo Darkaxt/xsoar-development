@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "cloudshark-upload: cloudshark-upload",
+  "examples": [
+    "Command Example\n!cloudshark-upload file=494@1e6024f1-485b-4d1a-8ee3-b6bf51e8ca1a filename=demisto.pcapng additional_tags=demisto,cloudshark,test\nContext Example\n{\n\"CloudShark\": {\n\"CaptureID\": \"5277a3a64076\"\n},\n\"URL\": {",
+    "!cloudshark-upload file=494@1e6024f1-485b-4d1a-8ee3-b6bf51e8ca1a filename=demisto.pcapng additional_tags=demisto,cloudshark,test\nContext Example\n{\n\"CloudShark\": {\n\"CaptureID\": \"5277a3a64076\"\n},\n\"URL\": {\n\"Data\": \"CLOUDSHARK_URL/captures/5277a3a64076\""
+  ],
+  "kind": "integration-command",
+  "name": "cloudshark-upload",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "URL of the capture file in CS Enterprise CloudShark.CaptureID Capture ID of the capture in CS Enterprise",
+      "name": "URL.Data",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CloudShark",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cloud-shark"
+}

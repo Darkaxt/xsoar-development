@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2025-02-11T16:55:42.000Z",
+  "examples": [
+    "!gti-asm-issue-status-update issue_id=\"dummy_uid\" status=\"resolved\"\nContext Example\n#\n{\n\"GoogleThreatIntelligenceASMIssues\"\n:\n{\n\"Issues\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique identifier for the issue in Google Threat Intelligence. GoogleThreatIntelligenceASMIssues.Issues.success Indicates whether the API request to fetch issue details was successful.",
+      "name": "GoogleThreatIntelligenceASMIssues.Issues.uid",
+      "required": ""
+    },
+    {
+      "description": "Response message returned by the API, providing additional information. GoogleThreatIntelligenceASMIssues.Issues.result Result status or outcome returned by the API for the issue request.",
+      "name": "GoogleThreatIntelligenceASMIssues.Issues.message",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Threat Intelligence - ASM Issues",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-threat-intelligence-asm-issues"
+}

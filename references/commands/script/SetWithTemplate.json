@@ -1,0 +1,422 @@
+{
+  "aliases": [
+    "set-with-template"
+  ],
+  "arguments": [],
+  "description": "SetWithTemplate | Cortex XSOAR",
+  "examples": [
+    "!SetWithTemplate key=out template=${lists.Template}\nLists Library\n#\nTemplate:\nMy name is ${first_name} ${last_name}.\nContext Data\n#\n{",
+    "!SetWithTemplate key=out template=${lists.Template} variable_markers=%,%\nLists Library\n#\nTemplate:\nMy name is %first_name% %last_name%.\nContext Data\n#\n{",
+    "!SetWithTemplate key=out template=${lists.Template} variable_markers=$\nLists Library\n#\nTemplate:\nMy name is $first_name $last_name.\nContext Data\n#\n{",
+    "!SetWithTemplate key=out template=${lists.Template} keep_symbol_to_null=true\nLists Library\n#\nTemplate:\nMy name is ${first_name} ${last_name}.\nContext Data\n#\n{",
+    "!SetWithTemplate key=out template=${lists.Template}\nLists Library\n#\nTemplate:\nMy name is ${first_name=val.toUpperCase()} ${last_name=val.toUpperCase()}.\nContext Data\n#\n{"
+  ],
+  "kind": "script",
+  "name": "SetWithTemplate",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Getting Started",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "This is a test message for ${user_name}. The template will be formatted to This is a test message for John Doe.",
+      "name": "The script builds a text from a template text which includes variables such as:",
+      "required": ""
+    },
+    {
+      "description": "By default, a variable name starts with ${ and ends with",
+      "name": "by replacing variable parameters.",
+      "required": ""
+    },
+    {
+      "description": ". You can change the start marker and end marker by specifying the variable_markers parameter.",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Examples",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Replace variables in a text based on the context data",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command",
+      "required": ""
+    },
+    {
+      "description": "Lists Library",
+      "name": "!SetWithTemplate key=out template=${lists.Template}",
+      "required": ""
+    },
+    {
+      "description": "My name is ${first_name} ${last_name}. Context Data",
+      "name": "Template:",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "\"out\": \"My name is John Doe.\" } Change the variable start and end marker to the windows command shell style such as %name%",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command",
+      "required": ""
+    },
+    {
+      "description": "Lists Library",
+      "name": "!SetWithTemplate key=out template=${lists.Template} variable_markers=%,%",
+      "required": ""
+    },
+    {
+      "description": "My name is %first_name% %last_name%. Context Data",
+      "name": "Template:",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "\"out\": \"My name is John Doe.\" } Change the variable start and end marker to the UNIX shell style such as $name",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command",
+      "required": ""
+    },
+    {
+      "description": "Lists Library",
+      "name": "!SetWithTemplate key=out template=${lists.Template} variable_markers=$",
+      "required": ""
+    },
+    {
+      "description": "My name is $first_name $last_name. Context Data",
+      "name": "Template:",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "\"out\": \"My name is John Doe.\" } Keep variable names if they are missing in the context",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command",
+      "required": ""
+    },
+    {
+      "description": "Lists Library",
+      "name": "!SetWithTemplate key=out template=${lists.Template} keep_symbol_to_null=true",
+      "required": ""
+    },
+    {
+      "description": "My name is ${first_name} ${last_name}. Context Data",
+      "name": "Template:",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\" } Output",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"out\": \"My name is John ${last_name}.\" } Use DTs to build variables",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command",
+      "required": ""
+    },
+    {
+      "description": "Lists Library",
+      "name": "!SetWithTemplate key=out template=${lists.Template}",
+      "required": ""
+    },
+    {
+      "description": "My name is ${first_name=val.toUpperCase()} ${last_name=val.toUpperCase()}. Context Data",
+      "name": "Template:",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "\"out\": \"My name is JOHN DOE.\" } Edit this page",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab SetTime Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "ShowCampaignHighestSeverity \u00bb",
+      "required": ""
+    },
+    {
+      "description": "\"out\": \"My name is John Doe.\" } Change the variable start and end marker to the windows command shell style such as %name%",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command",
+      "required": ""
+    },
+    {
+      "description": "Lists Library",
+      "name": "!SetWithTemplate key=out template=${lists.Template} variable_markers=%,%",
+      "required": ""
+    },
+    {
+      "description": "My name is %first_name% %last_name%. Context Data",
+      "name": "Template:",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "\"out\": \"My name is John Doe.\" } Change the variable start and end marker to the UNIX shell style such as $name",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command",
+      "required": ""
+    },
+    {
+      "description": "Lists Library",
+      "name": "!SetWithTemplate key=out template=${lists.Template} variable_markers=$",
+      "required": ""
+    },
+    {
+      "description": "My name is $first_name $last_name. Context Data",
+      "name": "Template:",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "\"out\": \"My name is John Doe.\" } Keep variable names if they are missing in the context",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command",
+      "required": ""
+    },
+    {
+      "description": "Lists Library",
+      "name": "!SetWithTemplate key=out template=${lists.Template} keep_symbol_to_null=true",
+      "required": ""
+    },
+    {
+      "description": "My name is ${first_name} ${last_name}. Context Data",
+      "name": "Template:",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\" } Output",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"out\": \"My name is John ${last_name}.\" } Use DTs to build variables",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command",
+      "required": ""
+    },
+    {
+      "description": "Lists Library",
+      "name": "!SetWithTemplate key=out template=${lists.Template}",
+      "required": ""
+    },
+    {
+      "description": "My name is ${first_name=val.toUpperCase()} ${last_name=val.toUpperCase()}. Context Data",
+      "name": "Template:",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "\"out\": \"My name is JOHN DOE.\" } Edit this page",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab SetTime Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "ShowCampaignHighestSeverity \u00bb",
+      "required": ""
+    },
+    {
+      "description": "\"out\": \"My name is John Doe.\" } Change the variable start and end marker to the UNIX shell style such as $name",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command",
+      "required": ""
+    },
+    {
+      "description": "Lists Library",
+      "name": "!SetWithTemplate key=out template=${lists.Template} variable_markers=$",
+      "required": ""
+    },
+    {
+      "description": "My name is $first_name $last_name. Context Data",
+      "name": "Template:",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "\"out\": \"My name is John Doe.\" } Keep variable names if they are missing in the context",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command",
+      "required": ""
+    },
+    {
+      "description": "Lists Library",
+      "name": "!SetWithTemplate key=out template=${lists.Template} keep_symbol_to_null=true",
+      "required": ""
+    },
+    {
+      "description": "My name is ${first_name} ${last_name}. Context Data",
+      "name": "Template:",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\" } Output",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"out\": \"My name is John ${last_name}.\" } Use DTs to build variables",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command",
+      "required": ""
+    },
+    {
+      "description": "Lists Library",
+      "name": "!SetWithTemplate key=out template=${lists.Template}",
+      "required": ""
+    },
+    {
+      "description": "My name is ${first_name=val.toUpperCase()} ${last_name=val.toUpperCase()}. Context Data",
+      "name": "Template:",
+      "required": ""
+    },
+    {
+      "description": "\"first_name\": \"John\", \"last_name\": \"Doe\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SetWithTemplate",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/set-with-template"
+}

@@ -1,0 +1,118 @@
+{
+  "aliases": [
+    "match-i-pin-cidr-indicators"
+  ],
+  "arguments": [],
+  "description": "MatchIPinCIDRIndicators | Cortex XSOAR",
+  "examples": [
+    "!MatchIPinCIDRIndicators ip=\"44.224.1.1\" tags=\"AWS,GCP,Azure\"\nContext Example\n#\n{\n\"MatchingCIDRIndicator\"\n:\n{\n\"CustomFields\""
+  ],
+  "kind": "script",
+  "name": "MatchIPinCIDRIndicators",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Matching CIDR Indicator Script Example",
+      "name": "MatchingCIDRIndicator",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!MatchIPinCIDRIndicators ip=\"44.224.1.1\" tags=\"AWS,GCP,Azure\"",
+      "required": ""
+    },
+    {
+      "description": "\"MatchingCIDRIndicator\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"region\"",
+      "name": "\"CustomFields\"",
+      "required": ""
+    },
+    {
+      "description": "\"us-west-2\" , \"service\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"EC2\" , \"tags\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "[ \"AWS\" ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ", \"EC2\" ]",
+      "name": "\"AMAZON\"",
+      "required": ""
+    },
+    {
+      "description": ", \"expiration\" :",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": ", \"expirationStatus\" :",
+      "name": "\"2020-11-30T22:46:50.594897749Z\"",
+      "required": ""
+    },
+    {
+      "description": ", \"firstSeen\" :",
+      "name": "\"active\"",
+      "required": ""
+    },
+    {
+      "description": ", \"id\" :",
+      "name": "\"2020-11-23T22:04:13.912289994Z\"",
+      "required": ""
+    },
+    {
+      "description": ", \"lastSeen\" :",
+      "name": "\"70575\"",
+      "required": ""
+    },
+    {
+      "description": ", \"score\" :",
+      "name": "\"2020-11-23T22:15:06.02640521Z\"",
+      "required": ""
+    },
+    {
+      "description": ", \"sourceBrands\" :",
+      "name": "1",
+      "required": ""
+    },
+    {
+      "description": "\"AWS Feed\" ] ,",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": ": [ \"AWS Feed_instance_1\"",
+      "name": "\"sourceInstances\"",
+      "required": ""
+    },
+    {
+      "description": ", \"value\" :",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "} }",
+      "name": "\"44.224.0.0/11\"",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MatchIPinCIDRIndicators",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/match-i-pin-cidr-indicators"
+}

@@ -1,0 +1,72 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!checkpoint-set-rule name=\"bar-from-6.6.6.5\" layer=\"8a5e96fb-c793-457f-b78f-c667074223a5\"",
+  "examples": [
+    "Command Example\n!checkpoint-set-rule name=\"bar-from-6.6.6.5\" layer=\"8a5e96fb-c793-457f-b78f-c667074223a5\"\nHuman Readable Output\n3. Get the status of a Check Point task\nShows status of a Check Point task, by task UUID.\nBase Command\ncheckpoint-task-status\nInput",
+    "!checkpoint-set-rule name=\"bar-from-6.6.6.5\" layer=\"8a5e96fb-c793-457f-b78f-c667074223a5\"\nHuman Readable Output\n3. Get the status of a Check Point task\nShows status of a Check Point task, by task UUID.\nBase Command\ncheckpoint-task-status\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "checkpoint-task-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The object name. Should be unique in the domain. CheckpointFWTask.UID The unique identifier of the object.",
+      "name": "CheckpointFWTask.Name",
+      "required": ""
+    },
+    {
+      "description": "The object type. CheckpointFWTask.Domain Information about the domain that the object belongs to.",
+      "name": "CheckpointFWTask.Type",
+      "required": ""
+    },
+    {
+      "description": "The object name. Should be unique in the domain. CheckpointFWTask.Domain.UID The unique identifier of the object.",
+      "name": "CheckpointFWTask.Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "Domain type. CheckpointFWTask.LastUpdateTime The last update date and time (in international ISO 8601 format).",
+      "name": "CheckpointFWTask.Domain.Type",
+      "required": ""
+    },
+    {
+      "description": "The object creation time. CheckpointFWTask.MetaInfo.Creator The object creator.",
+      "name": "CheckpointFWTask.MetaInfo.CreationTime",
+      "required": ""
+    },
+    {
+      "description": "The last modifier of object. CheckpointFWTask.MetaInfo.LastModifyTime The object last modification time.",
+      "name": "CheckpointFWTask.MetaInfo.LastModifier",
+      "required": ""
+    },
+    {
+      "description": "The object lock state. Editing objects locked by other sessions is not supported. CheckpointFWTask.MetaInfo.ValidationStatus The object validation state (ok, info, warning, error).",
+      "name": "CheckpointFWTask.MetaInfo.LockStatus",
+      "required": ""
+    },
+    {
+      "description": "The object progress percentage. CheckpointFWTask.ReadOnly Read only.",
+      "name": "CheckpointFWTask.ProgressPercentage",
+      "required": ""
+    },
+    {
+      "description": "The start time date and time (in international ISO 8601 format). CheckpointFWTask.Status The task status.",
+      "name": "CheckpointFWTask.StartTime",
+      "required": ""
+    },
+    {
+      "description": "Is suppressed. CheckpointFWTask.Tags A collection of tag objects identified by the name or UID. The level of detail returned depends on the \u201cdetails-level\u201d field of the request. This table shows the level of detail shown when \u201cdetails-level\u201d is set to standard.",
+      "name": "CheckpointFWTask.Suppressed",
+      "required": ""
+    },
+    {
+      "description": "The task details. The level of detail returned depends on the \u201cdetails-level\u201d field of the request. This table shows the level of detail shown when \u201cdetails-level\u201d is set to standard. CheckpointFWTask.ID",
+      "name": "CheckpointFWTask.Details",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Check Point Firewall (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/check-point"
+}

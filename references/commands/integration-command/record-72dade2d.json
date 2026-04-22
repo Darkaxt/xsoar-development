@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "A list of events. Edit this page Report an Issue",
+      "name": "ReilaQuest.Events",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Redmine Next ReliaQuest GreyMatter DRP Incidents \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "ReliaQuest GreyMatter DRP EventCollector Authentication Limitations Commands",
+      "name": "Configure ReliaQuest GreyMatter DRP Event Collector On XSIAM",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "relia-quest-get-events",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ReliaQuest GreyMatter DRP Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/relia-quest-grey-matter-drp-event-collector"
+}

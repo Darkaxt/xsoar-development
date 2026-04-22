@@ -1,0 +1,189 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique identifier of the alert. Uptycs.Alert.agentType Type of agent associated with the alert (e.g., asset).",
+      "name": "Uptycs.Alert.id",
+      "required": ""
+    },
+    {
+      "description": "Alert identifier. Uptycs.Alert.alertRuleId Identifier of the alert rule that triggered this alert.",
+      "name": "Uptycs.Alert.alertId",
+      "required": ""
+    },
+    {
+      "description": "Name of the alert rule that triggered this alert. Uptycs.Alert.alertStatusReasonId Identifier for the alert status reason.",
+      "name": "Uptycs.Alert.alertRuleName",
+      "required": ""
+    },
+    {
+      "description": "Tags associated with the alert (e.g., MITRE ATT&CK techniques). Uptycs.Alert.alertTime Date",
+      "name": "Uptycs.Alert.alertTags",
+      "required": ""
+    },
+    {
+      "description": "Uptycs.Alert.alertTimeSuppresionDuration Duration of alert time suppression. Uptycs.Alert.alertTimeSuppresionStart",
+      "name": "Timestamp when the alert was triggered.",
+      "required": ""
+    },
+    {
+      "description": "Start time of alert time suppression. Uptycs.Alert.assetCityId City identifier of the asset.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Number of CPU cores on the asset. Uptycs.Alert.assetCpuBrand CPU brand of the asset.",
+      "name": "Uptycs.Alert.assetCores",
+      "required": ""
+    },
+    {
+      "description": "Description of the asset. Uptycs.Alert.assetDisabled Whether the asset is disabled.",
+      "name": "Uptycs.Alert.assetDescription",
+      "required": ""
+    },
+    {
+      "description": "Gateway IP address of the asset. Uptycs.Alert.assetHardwareModel Hardware model of the asset.",
+      "name": "Uptycs.Alert.assetGateway",
+      "required": ""
+    },
+    {
+      "description": "Hardware serial number of the asset. Uptycs.Alert.assetHardwareVendor Hardware vendor of the asset.",
+      "name": "Uptycs.Alert.assetHardwareSerial",
+      "required": ""
+    },
+    {
+      "description": "Hostname of the asset associated with the alert. Uptycs.Alert.assetId Unique identifier of the asset.",
+      "name": "Uptycs.Alert.assetHostName",
+      "required": ""
+    },
+    {
+      "description": "Date Timestamp of the asset's last activity. Uptycs.Alert.assetLastEnrolledAt",
+      "name": "Uptycs.Alert.assetLastActivityAt",
+      "required": ""
+    },
+    {
+      "description": "Timestamp when the asset was last enrolled. Uptycs.Alert.assetLatitude Latitude of the asset's location.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Whether the asset is currently live. Uptycs.Alert.assetLocation Geographic location of the asset.",
+      "name": "Uptycs.Alert.assetLive",
+      "required": ""
+    },
+    {
+      "description": "Number of logical CPU cores on the asset. Uptycs.Alert.assetLongitude Longitude of the asset's location.",
+      "name": "Uptycs.Alert.assetLogicalCores",
+      "required": ""
+    },
+    {
+      "description": "Whether the asset has manual Slack assignment. Uptycs.Alert.assetMemoryMb Memory in MB of the asset.",
+      "name": "Uptycs.Alert.assetManualSlackAssignment",
+      "required": ""
+    },
+    {
+      "description": "Object group identifier of the asset. Uptycs.Alert.assetOs Operating system of the asset.",
+      "name": "Uptycs.Alert.assetObjectGroupId",
+      "required": ""
+    },
+    {
+      "description": "OS flavor of the asset (e.g., debian). Uptycs.Alert.assetOsKey OS key identifier of the asset.",
+      "name": "Uptycs.Alert.assetOsFlavor",
+      "required": ""
+    },
+    {
+      "description": "OS version of the asset. Uptycs.Alert.assetOsqueryVersion Osquery version installed on the asset.",
+      "name": "Uptycs.Alert.assetOsVersion",
+      "required": ""
+    },
+    {
+      "description": "Slack user ID associated with the asset. Uptycs.Alert.assetStatus Status of the asset (e.g., active).",
+      "name": "Uptycs.Alert.assetSlackUserId",
+      "required": ""
+    },
+    {
+      "description": "User the alert is assigned to. Uptycs.Alert.attackType Type of attack associated with the alert.",
+      "name": "Uptycs.Alert.assignedTo",
+      "required": ""
+    },
+    {
+      "description": "Cloud region code of the resource. Uptycs.Alert.cloudResourceId Cloud resource identifier.",
+      "name": "Uptycs.Alert.cloudRegionCode",
+      "required": ""
+    },
+    {
+      "description": "Cloud tenant identifier. Uptycs.Alert.cloudType Cloud provider type.",
+      "name": "Uptycs.Alert.cloudTenantId",
+      "required": ""
+    },
+    {
+      "description": "Alert code identifier. Uptycs.Alert.createdAt Date",
+      "name": "Uptycs.Alert.code",
+      "required": ""
+    },
+    {
+      "description": "Uptycs.Alert.custom Whether this is a custom alert rule. Uptycs.Alert.customerId",
+      "name": "Timestamp when the alert was created.",
+      "required": ""
+    },
+    {
+      "description": "Customer identifier. Uptycs.Alert.description Description of the alert.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Display name of the alert. Uptycs.Alert.eventId Event identifier associated with the alert.",
+      "name": "Uptycs.Alert.displayName",
+      "required": ""
+    },
+    {
+      "description": "Exception metadata containing detailed event information. Uptycs.Alert.groupId Group identifier.",
+      "name": "Uptycs.Alert.exceptionMetadata",
+      "required": ""
+    },
+    {
+      "description": "Group name. Uptycs.Alert.grouping Alert grouping category (e.g., ATTACK).",
+      "name": "Uptycs.Alert.groupName",
+      "required": ""
+    },
+    {
+      "description": "Second-level grouping (e.g., MITRE tactic). Uptycs.Alert.groupingL3 Third-level grouping (e.g., MITRE technique).",
+      "name": "Uptycs.Alert.groupingL2",
+      "required": ""
+    },
+    {
+      "description": "Fourth-level grouping. Uptycs.Alert.hashKey Hash key of the alert.",
+      "name": "Uptycs.Alert.groupingL4",
+      "required": ""
+    },
+    {
+      "description": "Whether the alert is related to a container. Uptycs.Alert.isTask Whether the alert is a task.",
+      "name": "Uptycs.Alert.isContainer",
+      "required": ""
+    },
+    {
+      "description": "Key field of the alert. Uptycs.Alert.lastActiveAt Date",
+      "name": "Uptycs.Alert.key",
+      "required": ""
+    },
+    {
+      "description": "Uptycs.Alert.lastOccurredAt Date Timestamp when the alert last occurred.",
+      "name": "Timestamp when the alert was last active.",
+      "required": ""
+    },
+    {
+      "description": "Alert metadata containing detailed event information.",
+      "name": "Uptycs.Alert.metadata",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Uptycs Event Collector (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/uptycs-event-collector"
+}

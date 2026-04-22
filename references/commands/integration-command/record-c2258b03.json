@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!tufin-search-applications name=\"3Rivers\"",
+  "examples": [
+    "!tufin-search-applications name=\"3Rivers\"\nHuman Readable Output\n#\n10. tufin-search-application-connections\n#\nGet SecureApp application connections\nBase Command\n#",
+    "Command Example\n#\n!tufin-search-application-connections app_id=215\nHuman Readable Output\n#\nTroubleshooting\n#\nContact Tufin support via the Tufin User Portal, or by going to",
+    "!tufin-search-application-connections app_id=215\nHuman Readable Output\n#\nTroubleshooting\n#\nContact Tufin support via the Tufin User Portal, or by going to\nhttps://www.tufin.com/support\nEdit this page"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Connection ID Tufin.AppConnections.Name Connection name",
+      "name": "Tufin.AppConnections.ID",
+      "required": ""
+    },
+    {
+      "description": "Connection status Tufin.AppConnections.Source.ID Connection source ID",
+      "name": "Tufin.AppConnections.Status",
+      "required": ""
+    },
+    {
+      "description": "Connection source type Tufin.AppConnections.Source.Name Connection source name",
+      "name": "Tufin.AppConnections.Source.Type",
+      "required": ""
+    },
+    {
+      "description": "Connection destination ID Tufin.AppConnections.Destination.Type Connection destination type",
+      "name": "Tufin.AppConnections.Destination.ID",
+      "required": ""
+    },
+    {
+      "description": "Connection destination name Tufin.AppConnections.Service.ID Connection service ID",
+      "name": "Tufin.AppConnections.Destination.Name",
+      "required": ""
+    },
+    {
+      "description": "Connection service name Tufin.AppConnections.Comment Connection comment",
+      "name": "Tufin.AppConnections.Service.Name",
+      "required": ""
+    },
+    {
+      "description": "Application ID",
+      "name": "Tufin.AppConnections.ApplicationID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tufin",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tufin"
+}

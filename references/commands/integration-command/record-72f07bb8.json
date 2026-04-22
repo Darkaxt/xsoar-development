@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "20. analyst1-get-sensors",
+  "examples": [
+    "!analyst1-get-sensors page=1 pageSize=50\nContext Example\n#\n{\n\"Analyst1\"\n:\n{\n\"SensorList\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Analyst1",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/analyst1"
+}

@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "e871eee9d85a9898d1f7aec37f22f291fb1d1971",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "cloudshark-download",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "File",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CloudShark",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cloud-shark"
+}

@@ -1,0 +1,43 @@
+{
+  "aliases": [
+    "convert-domain-to-ur-ls"
+  ],
+  "arguments": [],
+  "description": "ConvertDomainToURLs | Cortex XSOAR",
+  "examples": [
+    "!ConvertDomainToURLs domains=demo.com\nContext Example\n#\n{\n\"DomainToURL\": [\n\"http://demo.com\",\n\"https://demo.com\"\n]"
+  ],
+  "kind": "script",
+  "name": "ConvertDomainToURLs",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Converted URLs Script Example",
+      "name": "DomainToURL",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!ConvertDomainToURLs domains=demo.com",
+      "required": ""
+    },
+    {
+      "description": "\"DomainToURL\": [ \"http://demo.com\", \"https://demo.com\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ConvertDomainToURLs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/convert-domain-to-ur-ls"
+}

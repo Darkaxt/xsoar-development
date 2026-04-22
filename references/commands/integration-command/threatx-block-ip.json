@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Remove an IP address or CIDR from the allow list: threatx-unwhitelist-ip",
+  "examples": [
+    "Command Example\n!threatx-block-ip ip=12.12.12.12\nContext Example\n{\n\"IP\": [\n{\n\"Address\": \"12.12.12.12\"\n}",
+    "!threatx-block-ip ip=12.12.12.12\nContext Example\n{\n\"IP\": [\n{\n\"Address\": \"12.12.12.12\"\n}\n]"
+  ],
+  "kind": "integration-command",
+  "name": "threatx-block-ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address or CIDR that was blocked.",
+      "name": "IP.Address",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatX",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-x"
+}

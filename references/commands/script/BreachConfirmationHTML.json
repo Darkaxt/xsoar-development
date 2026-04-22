@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "breach-confirmation-html"
+  ],
+  "arguments": [],
+  "description": "BreachConfirmationHTML | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "BreachConfirmationHTML",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BreachConfirmationHTML",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/breach-confirmation-html"
+}

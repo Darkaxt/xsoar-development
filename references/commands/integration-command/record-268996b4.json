@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!epo-update-issue id=10 name=\"test\" description=\"testing epo integration\" state=\"NEW\"\nHuman Readable Output\n#\nIssue with id=10 was updated\nEdit this page\nReport an Issue",
+    "!epo-update-issue id=10 name=\"test\" description=\"testing epo integration\" state=\"NEW\"\nHuman Readable Output\n#\nIssue with id=10 was updated\nEdit this page\nReport an Issue\nPrevious\n\u00ab McAfee ePO (Deprecated)"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ePO v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-e-po-v2"
+}

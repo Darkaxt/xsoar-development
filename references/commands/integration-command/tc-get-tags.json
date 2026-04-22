@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!tc-indicators limit=5",
+  "examples": [
+    "Command Example\n!tc-indicators limit=5\nContext Example\nHuman Readable Output\n6. Return a list of all ThreatConnect tags\nReturns a list of all ThreatConnect tags.\nBase Command\ntc-get-tags",
+    "!tc-indicators limit=5\nContext Example\nHuman Readable Output\n6. Return a list of all ThreatConnect tags\nReturns a list of all ThreatConnect tags.\nBase Command\ntc-get-tags\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "tc-get-tags",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "TC.Tags",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

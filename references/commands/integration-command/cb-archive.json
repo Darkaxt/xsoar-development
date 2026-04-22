@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Set a registry value: cb-registry-set-value",
+  "examples": [
+    "Command Example\ncb-archive session=3997\nContext Example\n{\n\"EntryID\": \"56@a8449d77-4188-4270-846a-396c5a20d1ef\",\n\"Extension\": \"zip\",\n\"Info\": \"zip\",\n\"MD5\": \"81e67ceddfa1dd2fa668840ffab869c0\","
+  ],
+  "kind": "integration-command",
+  "name": "cb-archive",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

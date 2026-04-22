@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "is-greater-than"
+  ],
+  "arguments": [],
+  "description": "IsGreaterThan | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IsGreaterThan",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Returns yes if first > second. no Returns no if first <= second.",
+      "name": "yes",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next IsIncidentPartOfCampaign \u00bb Script Data",
+      "name": "\u00ab isError",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IsGreaterThan",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/is-greater-than"
+}

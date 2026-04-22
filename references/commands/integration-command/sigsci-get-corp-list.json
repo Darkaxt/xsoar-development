@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The last update date of the list.",
+  "examples": [
+    "Command Example\n!sigsci-create-corp-list entries_list=3.5.3.5 list_name=fordoc list_type=IP\n19. Get information for a corp list\nRetrieves all data about a given corp list.\nBase Command\nsigsci-get-corp-list\nInput\nArgument Name",
+    "!sigsci-create-corp-list entries_list=3.5.3.5 list_name=fordoc list_type=IP\n19. Get information for a corp list\nRetrieves all data about a given corp list.\nBase Command\nsigsci-get-corp-list\nInput\nArgument Name\nDescription",
+    "Command Example\n!sigsci-get-corp-list list_id=corp.fordoc2\nContext Example\n{\n\"SigSciences.Corp.List\": {\n\"Name\": \"fordoc2\",\n\"CreatedDate\": \"2019-03-28T09:14:43Z\",\n\"UpdatedDate\": \"2019-03-28T09:53:14Z\",",
+    "!sigsci-get-corp-list list_id=corp.fordoc2\nContext Example\n{\n\"SigSciences.Corp.List\": {\n\"Name\": \"fordoc2\",\n\"CreatedDate\": \"2019-03-28T09:14:43Z\",\n\"UpdatedDate\": \"2019-03-28T09:53:14Z\",\n\"CreatedBy\": \"user@demisto.com\","
+  ],
+  "kind": "integration-command",
+  "name": "sigsci-get-corp-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the list. SigSciences.Corp.List.Type The type of the list.",
+      "name": "SigSciences.Corp.List.Name",
+      "required": ""
+    },
+    {
+      "description": "The entry list of the list. SigSciences.Corp.List.ID The ID of the list.",
+      "name": "SigSciences.Corp.List.Entries",
+      "required": ""
+    },
+    {
+      "description": "The description of the list. SigSciences.Corp.List.CreatedBy The creator of the list.",
+      "name": "SigSciences.Corp.List.Description",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the list. SigSciences.Corp.List.UpdatedDate The last update date of the list.",
+      "name": "SigSciences.Corp.List.CreatedDate",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

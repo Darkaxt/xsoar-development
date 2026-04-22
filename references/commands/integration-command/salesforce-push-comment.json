@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "SalesForce.User.Email",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "salesforce-push-comment",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Comment body SalesForce.Comment.CreatedDate date",
+      "name": "SalesForce.Comment.Body",
+      "required": ""
+    },
+    {
+      "description": "SalesForce.Comment.Title Comment title SalesForce.Comment.ParentType",
+      "name": "Comment created date",
+      "required": ""
+    },
+    {
+      "description": "Comment parent type SalesForce.Comment.ParentName Comment parent name",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Comment URL link SalesForce.Comment.Visibility",
+      "name": "SalesForce.Comment.URL",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Salesforce",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/salesforce"
+}

@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "encode-to-ascii"
+  ],
+  "arguments": [],
+  "description": "EncodeToAscii | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "EncodeToAscii",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The data encoded in ASCII. Edit this page Report an Issue",
+      "name": "asciiencode.encoded",
+      "required": ""
+    },
+    {
+      "description": "\u00ab EmailSLABreach Next enrich_exclude_button \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EncodeToAscii",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/encode-to-ascii"
+}

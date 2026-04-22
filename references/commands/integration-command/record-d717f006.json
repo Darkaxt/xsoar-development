@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Supported Cortex XSOAR versions: 6.0.0 and later.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The key holds down the information about detected objects in the picture. Edit this page Report an Issue",
+      "name": "ComputerVision",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Commvault Cloud Next ConcentricAI \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "yolo-coco-process-image",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Computer Vision Engine",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/computer-vision-engine"
+}

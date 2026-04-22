@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "13. Create a new user",
+  "examples": [
+    "Command Example\n!okta-create-user email=test@that.com firstName=test lastName=that login=test@that.com\nContext Example\n{\n\"Account\": [\n{\n\"DisplayName\": \"test that\",\n\"Email\": \"test@that.com\",",
+    "!okta-create-user email=test@that.com firstName=test lastName=that login=test@that.com\nContext Example\n{\n\"Account\": [\n{\n\"DisplayName\": \"test that\",\n\"Email\": \"test@that.com\",\n\"ID\": \"00ufufhqits3y78Ju0h7\","
+  ],
+  "kind": "integration-command",
+  "name": "okta-create-user",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Created Okta account ID. Account.Email Created Okta account email.",
+      "name": "Account.ID",
+      "required": ""
+    },
+    {
+      "description": "Created Okta account username. Account.DisplayName Created Okta account display name.",
+      "name": "Account.Username",
+      "required": ""
+    },
+    {
+      "description": "Type of account that was created, such as Okta.",
+      "name": "Account.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "okta (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta"
+}

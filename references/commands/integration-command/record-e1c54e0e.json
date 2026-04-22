@@ -1,0 +1,96 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSIAM CLI as part of an automation or in a playbook.",
+  "examples": [
+    "!saas-security-get-events limit=200 should_push_events=False\nContext Example\n#\n{\n\"SaasSecurity\"\n:\n{\n\"Event\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Event type. SaasSecurity.Event.item_type Item type (File, Folder, or User).",
+      "name": "SaasSecurity.Event.log_type",
+      "required": ""
+    },
+    {
+      "description": "Name of the file, folder, or user associated with the event. SaasSecurity.Event.item_unique_id Unique ID number for an asset\u2019s related asset.",
+      "name": "SaasSecurity.Event.item_name",
+      "required": ""
+    },
+    {
+      "description": "Cloud app user that performed the action. SaasSecurity.Event.source_ip Original session source IP address.",
+      "name": "SaasSecurity.Event.user",
+      "required": ""
+    },
+    {
+      "description": "Location of the cloud app user that performed the event. SaasSecurity.Event.action Action performed.",
+      "name": "SaasSecurity.Event.location",
+      "required": ""
+    },
+    {
+      "description": "Target name. SaasSecurity.Event.target_type Target type.",
+      "name": "SaasSecurity.Event.target_name",
+      "required": ""
+    },
+    {
+      "description": "Serial number of the organization using the service (tenant). SaasSecurity.Event.cloud_app_instance Cloud app name (not cloud app type).",
+      "name": "SaasSecurity.Event.serial",
+      "required": ""
+    },
+    {
+      "description": "Date ISO8601 timestamp to show when the event occurred. SaasSecurity.Event.severity",
+      "name": "SaasSecurity.Event.timestamp",
+      "required": ""
+    },
+    {
+      "description": "Severity (0-5). SaasSecurity.Event.incident_id Incident/risk id.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Exposure level (public, external, company, or internal). SaasSecurity.Event.asset_id The asset ID.",
+      "name": "SaasSecurity.Event.exposure",
+      "required": ""
+    },
+    {
+      "description": "The item owner. SaasSecurity.Event.container_name Item\u2019s container name.",
+      "name": "SaasSecurity.Event.item_owner",
+      "required": ""
+    },
+    {
+      "description": "Item creator. SaasSecurity.Event.occurrences_by_rule Number of times the asset violated the policy.",
+      "name": "SaasSecurity.Event.item_creator",
+      "required": ""
+    },
+    {
+      "description": "Violated policy\u2019s name. SaasSecurity.Event.incident_owner Incident owner.",
+      "name": "SaasSecurity.Event.policy_rule_name",
+      "required": ""
+    },
+    {
+      "description": "Incident category. SaasSecurity.Event.item_creator_email Item creator\u2019s email.",
+      "name": "SaasSecurity.Event.incident_category",
+      "required": ""
+    },
+    {
+      "description": "Action taken. SaasSecurity.Event.action_taken_by Action taken by.",
+      "name": "SaasSecurity.Event.action_taken",
+      "required": ""
+    },
+    {
+      "description": "Name of field (optional). SaasSecurity.Event.resource_value_old Old resource value. (optional).",
+      "name": "SaasSecurity.Event.field",
+      "required": ""
+    },
+    {
+      "description": "New resource value. (optional).",
+      "name": "SaasSecurity.Event.resource_value_new",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SaaS Security Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/saa-s-security-event-collector"
+}

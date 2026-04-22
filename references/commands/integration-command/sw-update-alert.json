@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"text\": \"Internal Port Scanner on 5.5.255.25\",",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "sw-update-alert",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alert ID Stealthwatch.Alert.assigned_to Alert assignee",
+      "name": "Stealthwatch.Alert.id",
+      "required": ""
+    },
+    {
+      "description": "date Alert creation date Stealthwatch.Alert.last_modified",
+      "name": "Stealthwatch.Alert.obj_created",
+      "required": ""
+    },
+    {
+      "description": "Date the alert was last modified Stealthwatch.Alert.resolved Alert state",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "IP of the alert's source Stealthwatch.Alert.source_info.hostname",
+      "name": "Stealthwatch.Alert.source_info.ips",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Secure Cloud Analytics (Stealthwatch Cloud)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/stealthwatch-cloud"
+}

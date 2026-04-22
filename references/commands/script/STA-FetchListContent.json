@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "sta-fetch-list-content"
+  ],
+  "arguments": [],
+  "description": "STA-FetchListContent | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "STA-FetchListContent",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Return Unusual Activity Group name. Edit this page Report an Issue",
+      "name": "STA.GET.GROUP",
+      "required": ""
+    },
+    {
+      "description": "\u00ab SSLVerifierV2_ParseOutput Next STA-PostProcessing \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Dependencies",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "STA-FetchListContent",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/sta-fetch-list-content"
+}

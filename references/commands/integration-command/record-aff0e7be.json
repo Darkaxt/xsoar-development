@@ -1,0 +1,131 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The Netmiko integration currently only supports the netmiko-cmds command for SSH. This command can be used via the XSOAR CLI, as part of an automation, or as a task in an XSOAR playbook. Like other XSOAR commands, this object can be passed a single command, a list of commands, or an array of commands to execute in a single session.",
+  "examples": [
+    "Command Example (Single command)\n#\n!netmiko-cmds cmds=\"whoami\"\nContext Example\n#\n{\n\"Command\": \"whoami\",\n\"DateTimeUTC\": \"2023-04-24T21:40:21.755985\",",
+    "!netmiko-cmds cmds=\"whoami\"\nContext Example\n#\n{\n\"Command\": \"whoami\",\n\"DateTimeUTC\": \"2023-04-24T21:40:21.755985\",\n\"Hostname\": \"192.168.0.1\",\n\"Output\": \"[someuser@someserver ~]$ root\"",
+    "Command Example (Multiple commands)\n#\nAs multiple commands via CLI or task\n#\n!netmiko-cmds cmds=\"whoami\nwho\"\nAs multiple commands via CLI or task using an array\n#",
+    "!netmiko-cmds cmds=\"whoami\nwho\"\nAs multiple commands via CLI or task using an array\n#\narray context key = [\"whoami\", \"who\"]\n!netmiko-cmds cmds=${array}\nContext Example\n#",
+    "!netmiko-cmds cmds=${array}\nContext Example\n#\n{\n\"Netmiko\": [{\n\"Command\": \"whoami\",\n\"DateTimeUTC\": \"2023-04-24T21:59:02.177240\",\n\"Hostname\": \"192.168.0.1\",",
+    "Command Example (Multiple commands)\nDocs\nDeveloper Docs\nBecome a Technology Partner\nSocial\nBlog\nCopyright \u00a9 2026 Palo Alto Networks, Inc."
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The executed command(s) Netmiko.DateTimeUTC DateTime",
+      "name": "Netmiko.Command",
+      "required": ""
+    },
+    {
+      "description": "Netmiko.Hostname The hostname used for this execution of the integration Netmiko.Output",
+      "name": "The datetime at which the command(s) were executed (in UTC)",
+      "required": ""
+    },
+    {
+      "description": "The results of the command(s) that were executed Command Example (Single command)",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!netmiko-cmds cmds=\"whoami\"",
+      "required": ""
+    },
+    {
+      "description": "\"Command\": \"whoami\", \"DateTimeUTC\": \"2023-04-24T21:40:21.755985\", \"Hostname\": \"192.168.0.1\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "\"Output\": \"[someuser@someserver ~]$ root\"",
+      "required": ""
+    },
+    {
+      "description": "2023-04-24T21:40:21.755985 192.168.0.1 root",
+      "name": "whoami",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Command Example (Multiple commands)",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "As multiple commands via CLI or task",
+      "required": ""
+    },
+    {
+      "description": "who\" As multiple commands via CLI or task using an array",
+      "name": "!netmiko-cmds cmds=\"whoami",
+      "required": ""
+    },
+    {
+      "description": "!netmiko-cmds cmds=${array} Context Example",
+      "name": "array context key = [\"whoami\", \"who\"]",
+      "required": ""
+    },
+    {
+      "description": "\"Netmiko\": [{ \"Command\": \"whoami\", \"DateTimeUTC\": \"2023-04-24T21:59:02.177240\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Output\": \"[someuser@somehost ~]$ root\" }, {",
+      "name": "\"Hostname\": \"192.168.0.1\",",
+      "required": ""
+    },
+    {
+      "description": "\"DateTimeUTC\": \"2023-04-24T21:59:04.882842\", \"Hostname\": \"192.168.0.1\", \"Output\": \"[someuser@somehost ~]$ root pts/0 2023-04-24 17:58 (192.168.0.1)\"",
+      "name": "\"Command\": \"who\",",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "}]",
+      "required": ""
+    },
+    {
+      "description": "2023-04-24T21:59:02.177240 192.168.0.1 root",
+      "name": "whoami",
+      "required": ""
+    },
+    {
+      "description": "2023-04-24T21:59:04.882842 192.168.0.1 [someuser@somehost ~]$ root pts/0 2023-04-24 17:58 (192.168.0.1)",
+      "name": "who",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Netcraft (Deprecated)",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "NetQuest OMX \u00bb Netmiko SSH module integration Configure Netmiko Integration in Cortex XSOAR",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "netmiko-cmds Command Example (Multiple commands) Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Netmiko",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/netmiko"
+}

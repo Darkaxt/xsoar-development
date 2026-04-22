@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "example.ax.internal.cloudapp.net",
+  "examples": [
+    "!azure-nsg-public-ip-addresses-list\nContext Example\n#\n{\n\"AzureNSG\"\n:\n{\n\"PublicIPAddress\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The public IP address's name. AzureNSG.PublicIPAdress.id The public IP address's ID.",
+      "name": "AzureNSG.PublicIPAdress.name",
+      "required": ""
+    },
+    {
+      "description": "The public IP address's etag. AzureNSG.PublicIPAdress.provisioningState The public IP address's provisioning state.",
+      "name": "AzureNSG.PublicIPAdress.etag",
+      "required": ""
+    },
+    {
+      "description": "The public IP address's version. AzureNSG.PublicIPAdress.ipAddress The public IP address's IP address.",
+      "name": "AzureNSG.PublicIPAdress.publicIPAddressVersion",
+      "required": ""
+    },
+    {
+      "description": "The public IP address's domain name label. AzureNSG.PublicIPAdress.fqdn The public IP address's fully qualified domain name (FQDN).",
+      "name": "AzureNSG.PublicIPAdress.domainNameLabel",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Network Security Groups",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-network-security-groups"
+}

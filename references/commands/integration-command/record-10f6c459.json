@@ -1,0 +1,114 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "All Qualys assets associated with the specified QID (Qualys ID).",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "All the Qualys QID (Qualys ID) associated with a specified CVE. Edit this page Report an Issue",
+      "name": "Qualys.QID",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Qualys FIM Next Query.AI \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Configure Qualys VMDR in Cortex Notes Asset Tag Commands",
+      "name": "Changes compared to V1",
+      "required": ""
+    },
+    {
+      "description": "qualys-ip-list qualys-report-list qualys-vm-scan-list",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "qualys-pc-scan-list qualys-schedule-scan-list qualys-host-list",
+      "name": "qualys-scap-scan-list",
+      "required": ""
+    },
+    {
+      "description": "qualys-virtual-host-manage qualys-host-excluded-list qualys-scheduled-report-list",
+      "name": "qualys-virtual-host-list",
+      "required": ""
+    },
+    {
+      "description": "qualys-vulnerability-list qualys-group-list qualys-report-fetch",
+      "name": "qualys-report-template-list",
+      "required": ""
+    },
+    {
+      "description": "qualys-pc-scan-fetch qualys-report-cancel qualys-report-delete",
+      "name": "qualys-vm-scan-fetch",
+      "required": ""
+    },
+    {
+      "description": "qualys-vm-scan-action qualys-pc-scan-manage qualys-pc-scan-launch",
+      "name": "qualys-vm-scan-launch",
+      "required": ""
+    },
+    {
+      "description": "qualys-ip-update qualys-host-excluded-manage qualys-scheduled-report-launch",
+      "name": "qualys-ip-add",
+      "required": ""
+    },
+    {
+      "description": "qualys-report-launch-host-based-findings qualys-report-launch-scan-based-findings qualys-report-launch-patch",
+      "name": "qualys-report-launch-map",
+      "required": ""
+    },
+    {
+      "description": "qualys-report-launch-compliance qualys-report-launch-compliance-policy qualys-ip-restricted-list",
+      "name": "qualys-report-launch-remediation",
+      "required": ""
+    },
+    {
+      "description": "qualys-schedule-scan-create qualys-schedule-scan-update qualys-asset-group-add",
+      "name": "qualys-ip-restricted-manage",
+      "required": ""
+    },
+    {
+      "description": "qualys-asset-group-delete qualys-schedule-scan-delete qualys-time-zone-code",
+      "name": "qualys-asset-group-edit",
+      "required": ""
+    },
+    {
+      "description": "qualys-host-update qualys-update-unix-record qualys-asset-tag-list",
+      "name": "qualys-host-list-detection",
+      "required": ""
+    },
+    {
+      "description": "qualys-asset-tag-update qualys-asset-tag-delete qualys-update-vmware-record",
+      "name": "qualys-asset-tag-create",
+      "required": ""
+    },
+    {
+      "description": "qualys-vcenter-esxi-mapped-record-list qualys-vcenter-esxi-mapped-record-import qualys-vcenter-esxi-mapped-record-purge",
+      "name": "qualys-update-vcenter-record",
+      "required": ""
+    },
+    {
+      "description": "qualys-get-assets qualys-get-quid-by-cve Docs",
+      "name": "qualys-get-events",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Qualys VMDR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/qualys-v2"
+}

@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Name of lock to retrieve information for. When omitted, the default is",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "demisto-lock-release",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Demisto Lock",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/demisto-lock"
+}

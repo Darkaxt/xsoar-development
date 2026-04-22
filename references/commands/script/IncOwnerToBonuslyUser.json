@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "inc-owner-to-bonusly-user"
+  ],
+  "arguments": [],
+  "description": "IncOwnerToBonuslyUser | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IncOwnerToBonuslyUser",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Email address of the incident owner. BonuslyUser Usernname in Bonusly of the incident owner.",
+      "name": "IncOwnerEmail",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next IncreaseIncidentSeverity \u00bb Script Data",
+      "name": "\u00ab IncidentState",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IncOwnerToBonuslyUser",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/inc-owner-to-bonusly-user"
+}

@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "A comma separated list of CVE IDs to search.",
+  "examples": [
+    "Command Example\n#\n!cve cve_id=CVE-2014-1234\nContext Example\n#\n{\n\"CVE\": [\n{",
+    "!cve cve_id=CVE-2014-1234\nContext Example\n#\n{\n\"CVE\": [\n{\n\"ID\": \"CVE-2014-1234\",\n\"Published\": \"2014-01-10T12:02:00\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the CVE. CVE.CVSS The CVSS score of the CVE.",
+      "name": "CVE.ID",
+      "required": ""
+    },
+    {
+      "description": "Date The date the CVE was published. CVE.Modified",
+      "name": "CVE.Published",
+      "required": ""
+    },
+    {
+      "description": "The date the CVE was last modified. CVE.Description The description of the CVE.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The indicator value. DBotScore.Score The indicator score.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor reporting the score of the indicator.",
+      "name": "DBotScore.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CVE Search v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cve-search-v2"
+}

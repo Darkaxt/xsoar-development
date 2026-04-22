@@ -1,0 +1,15 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Sep 16, 2022 05:52 AM",
+  "examples": [
+    "!umbrella-reporting-summary-list domains=api.tunnels.cdfw.umbrella.com\nContext Example\n#\n{\n\"UmbrellaReporting\"\n:\n{\n\"Summary\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Umbrella Reporting",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-umbrella-reporting"
+}

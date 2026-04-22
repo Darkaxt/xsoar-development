@@ -1,0 +1,157 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The attribute value of the file.",
+  "examples": [
+    "Command Example\n!threatq-upload-file entry_id=5379@9da8d636-cf30-42c2-8263-d09f5268be8a file_category=\"Generic Text\" title=\"File Title\"\nHuman Readable Output\n18. Search by Object type and ID\nSearches for an object by object type and ID.\nBase Command\nthreatq-search-by-id\nInput",
+    "!threatq-upload-file entry_id=5379@9da8d636-cf30-42c2-8263-d09f5268be8a file_category=\"Generic Text\" title=\"File Title\"\nHuman Readable Output\n18. Search by Object type and ID\nSearches for an object by object type and ID.\nBase Command\nthreatq-search-by-id\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-search-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the indicator. ThreatQ.Indicator.Source.ID Source ID of the indicator.",
+      "name": "ThreatQ.Indicator.ID",
+      "required": ""
+    },
+    {
+      "description": "Source name of the indicator. ThreatQ.Indicator.Attribute.ID Attribute ID of the indicator.",
+      "name": "ThreatQ.Indicator.Source.Name",
+      "required": ""
+    },
+    {
+      "description": "Attribute name of the indicator. ThreatQ.Indicator.Attribute.Value Attribute value of the indicator.",
+      "name": "ThreatQ.Indicator.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "date Creation date of the indicator. ThreatQ.Indicator.UpdatedAt",
+      "name": "ThreatQ.Indicator.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Last update date of the indicator. ThreatQ.Indicator.Description Description of the indicator.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "The value of the indicator. ThreatQ.Indicator.Status The status of indicator.",
+      "name": "ThreatQ.Indicator.Value",
+      "required": ""
+    },
+    {
+      "description": "The type of the indicator. For example, IP Address. ThreatQ.Indicator.TQScore The ThreatQ Score of the indicator.",
+      "name": "ThreatQ.Indicator.Type",
+      "required": ""
+    },
+    {
+      "description": "The ID of the indicator. ThreatQ.Event.Source.ID The source ID of the indicator.",
+      "name": "ThreatQ.Event.ID",
+      "required": ""
+    },
+    {
+      "description": "The source name of the indicator. ThreatQ.Event.Attribute.ID The attribute ID of the indicator.",
+      "name": "ThreatQ.Event.Source.Name",
+      "required": ""
+    },
+    {
+      "description": "The attribute name of the indicator. ThreatQ.Event.Attribute.Value The attribute value of the indicator.",
+      "name": "ThreatQ.Event.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "date The last update date of the event. ThreatQ.Event.CreatedAt",
+      "name": "ThreatQ.Event.UpdatedAt",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the event. ThreatQ.Event.Type The type of the event.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "Description of the event. ThreatQ.Event.Title The title of the event.",
+      "name": "ThreatQ.Event.Description",
+      "required": ""
+    },
+    {
+      "description": "date The date that the event happened. ThreatQ.Adversary.Name",
+      "name": "ThreatQ.Event.Occurred",
+      "required": ""
+    },
+    {
+      "description": "The name of the adversary. ThreatQ.Adversary.ID The ID of the adversary.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "The source of the adversary. ThreatQ.Adversary.Source.Name The source name of the adversary.",
+      "name": "ThreatQ.Adversary.Source.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute ID of the adversary. ThreatQ.Adversary.Attribute.Name The attribute name of the adversary.",
+      "name": "ThreatQ.Adversary.Attribute.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute value of the adversary. ThreatQ.Adversary.UpdatedAt date",
+      "name": "ThreatQ.Adversary.Attribute.Value",
+      "required": ""
+    },
+    {
+      "description": "ThreatQ.Adversary.CreatedAt date The last update date of the adversary.",
+      "name": "The creation date of the adversary.",
+      "required": ""
+    },
+    {
+      "description": "Date Date of the file upload. ThreatQ.File.Size",
+      "name": "ThreatQ.File.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Size (in bytes) of the file. ThreatQ.File.MD5 The MD5 hash of the file.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The File ID in ThreatQ. ThreatQ.File.Name The name of the File.",
+      "name": "ThreatQ.File.ID",
+      "required": ""
+    },
+    {
+      "description": "The title of the file. ThreatQ.File.UpdatedAt Date",
+      "name": "ThreatQ.File.Title",
+      "required": ""
+    },
+    {
+      "description": "ThreatQ.File.MalwareLocked Whether malware files are zipped. ThreatQ.File.ContentType",
+      "name": "The last update of the file.",
+      "required": ""
+    },
+    {
+      "description": "The content type of the file. ThreatQ.File.Category The type of the file.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The source of the file. ThreatQ.File.Source.Name The source name of the file.",
+      "name": "ThreatQ.File.Source.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute ID of the file. ThreatQ.File.Attribute.Name The attribute name of the file.",
+      "name": "ThreatQ.File.Attribute.ID",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "ThreatQ.File.Attribute.Value",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

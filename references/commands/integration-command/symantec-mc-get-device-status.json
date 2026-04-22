@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "5. Get the status of a device",
+  "examples": [
+    "Command Example\nsymantec-mc-get-device-status uuid=\"C131C3D1-171B-4DA7-ADE2-AA736EA91540\"\nContext Example\n{\n\"SymantecMC.Device\": {\n\"StartDate\": \"2019-03-25T12:37:42\",\n\"Errors\": 0,\n\"Name\": \"192.168.1.207 - Blue Coat SG-VA Series\","
+  ],
+  "kind": "integration-command",
+  "name": "symantec-mc-get-device-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Device UUID. SymantecMC.Device.Name Device name.",
+      "name": "SymantecMC.Device.UUID",
+      "required": ""
+    },
+    {
+      "description": "Date Device check date. SymantecMC.Device.StartDate",
+      "name": "SymantecMC.Device.CheckDate",
+      "required": ""
+    },
+    {
+      "description": "Device start date. SymantecMC.Device.MonitorState Device monitor state.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Device warning count. SymantecMC.Device.Errors Device error count.",
+      "name": "SymantecMC.Device.Warnings",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-management-center"
+}

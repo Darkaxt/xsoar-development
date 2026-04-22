@@ -1,0 +1,89 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "bmc-itsm-worklog-attachment-get",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Retrieves a list of service request definitions. The records are retrieved by the query argument or by the filtering arguments. When using filtering arguments, each one defines a 'LIKE' operation and an 'AND' operator is used between them. To see the entire JSON then you can use the raw_response=true at the end of the command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "bmc-itsm-worklog-attachment-get",
+      "required": ""
+    },
+    {
+      "description": "The Work Log ID. Edit this page Report an Issue",
+      "name": "BmcITSM.Attachment.ID",
+      "required": ""
+    },
+    {
+      "description": "\u00ab BMC Discovery Next BMC Helix Remedyforce \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands bmc-itsm-user-list bmc-itsm-company-list",
+      "name": "Configure BMC Helix ITSM in Cortex",
+      "required": ""
+    },
+    {
+      "description": "bmc-itsm-ticket-list bmc-itsm-service-request-create bmc-itsm-incident-update",
+      "name": "bmc-itsm-service-request-definition-list",
+      "required": ""
+    },
+    {
+      "description": "bmc-itsm-incident-create bmc-itsm-change-request-create bmc-itsm-change-request-update",
+      "name": "bmc-itsm-ticket-delete",
+      "required": ""
+    },
+    {
+      "description": "bmc-itsm-problem-investigation-create bmc-itsm-problem-investigation-update bmc-itsm-known-error-create",
+      "name": "bmc-itsm-task-update",
+      "required": ""
+    },
+    {
+      "description": "bmc-itsm-change-request-template-list bmc-itsm-incident-template-list bmc-itsm-task-template-list",
+      "name": "bmc-itsm-known-error-update",
+      "required": ""
+    },
+    {
+      "description": "get-remote-data get-modified-remote-data bmc-itsm-support-group-list",
+      "name": "get-mapping-fields",
+      "required": ""
+    },
+    {
+      "description": "bmc-itsm-work-order-create bmc-itsm-work-order-update Incident Mirroring",
+      "name": "bmc-itsm-work-order-template-list",
+      "required": ""
+    },
+    {
+      "description": "bmc-itsm-worklog-list bmc-itsm-ticket-create-relationship bmc-itsm-worklog-attachment-get",
+      "name": "bmc-itsm-worklog-add",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BMC Helix ITSM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bmc-itsm"
+}

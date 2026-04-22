@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!ataya-assign-user imsi=\"001010000000001\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab Asimily Insight\nNext",
+    "!ataya-assign-user imsi=\"001010000000001\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab Asimily Insight\nNext\nAtlassian Cloud MCP \u00bb\nConfigure Ataya Harmony in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ataya Harmony",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ataya-harmony"
+}

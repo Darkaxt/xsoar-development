@@ -1,0 +1,194 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "cbd-find-observation-results",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Category of the alert associated with the event. CarbonBlackDefense.Events.Results.alert_id The unique alert ID.",
+      "name": "CarbonBlackDefense.Events.Results.alert_category",
+      "required": ""
+    },
+    {
+      "description": "Date Timestamp when the event was processed on the backend. CarbonBlackDefense.Events.Results.childproc_count",
+      "name": "CarbonBlackDefense.Events.Results.backend_timestamp",
+      "required": ""
+    },
+    {
+      "description": "Number of child processes spawned by the process. CarbonBlackDefense.Events.Results.crossproc_count Number of cross-process operations performed by the process.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "External IP address of the device. CarbonBlackDefense.Events.Results.device_group_id The device group ID.",
+      "name": "CarbonBlackDefense.Events.Results.device_external_ip",
+      "required": ""
+    },
+    {
+      "description": "The unique device ID. CarbonBlackDefense.Events.Results.device_installed_by User or entity that installed the device.",
+      "name": "CarbonBlackDefense.Events.Results.device_id",
+      "required": ""
+    },
+    {
+      "description": "Internal IP address of the device. CarbonBlackDefense.Events.Results.device_location Physical or network location of the device.",
+      "name": "CarbonBlackDefense.Events.Results.device_internal_ip",
+      "required": ""
+    },
+    {
+      "description": "Name of the device. CarbonBlackDefense.Events.Results.device_os Operating system running on the device.",
+      "name": "CarbonBlackDefense.Events.Results.device_name",
+      "required": ""
+    },
+    {
+      "description": "Version of the operating system running on the device. CarbonBlackDefense.Events.Results.device_policy Security policy applied to the device.",
+      "name": "CarbonBlackDefense.Events.Results.device_os_version",
+      "required": ""
+    },
+    {
+      "description": "The ID of the security policy applied to the device. CarbonBlackDefense.Events.Results.device_sensor_version Version of the sensor installed on the device.",
+      "name": "CarbonBlackDefense.Events.Results.device_policy_id",
+      "required": ""
+    },
+    {
+      "description": "Priority of the device as a target. CarbonBlackDefense.Events.Results.device_timestamp Date",
+      "name": "CarbonBlackDefense.Events.Results.device_target_priority",
+      "required": ""
+    },
+    {
+      "description": "CarbonBlackDefense.Events.Results.document_guid The global unique ID for the document associated with the event. CarbonBlackDefense.Events.Results.enriched",
+      "name": "Timestamp of the event as recorded by the device.",
+      "required": ""
+    },
+    {
+      "description": "Indicates whether the event data has been enriched. CarbonBlackDefense.Events.Results.enriched_event_type Type of the enriched event.",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "Threat score assigned to the event. CarbonBlackDefense.Events.Results.filemod_count Number of file modifications performed by the process.",
+      "name": "CarbonBlackDefense.Events.Results.event_threat_score",
+      "required": ""
+    },
+    {
+      "description": "Date Time when the event was ingested by the system. CarbonBlackDefense.Events.Results.legacy",
+      "name": "CarbonBlackDefense.Events.Results.ingress_time",
+      "required": ""
+    },
+    {
+      "description": "Indicates whether the event is considered a legacy event. CarbonBlackDefense.Events.Results.modload_count Number of modules loaded by the process.",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "Number of network connections established by the process. CarbonBlackDefense.Events.Results.observation_description Description of the observation associated with the event.",
+      "name": "CarbonBlackDefense.Events.Results.netconn_count",
+      "required": ""
+    },
+    {
+      "description": "The unique observation ID. CarbonBlackDefense.Events.Results.observation_type Type of the observation associated with the event.",
+      "name": "CarbonBlackDefense.Events.Results.observation_id",
+      "required": ""
+    },
+    {
+      "description": "The ID of the organization associated with the event. CarbonBlackDefense.Events.Results.parent_cmdline Command line used to execute the parent process.",
+      "name": "CarbonBlackDefense.Events.Results.org_id",
+      "required": ""
+    },
+    {
+      "description": "Length of the command line used to execute the parent process. CarbonBlackDefense.Events.Results.parent_effective_reputation Effective reputation of the parent process.",
+      "name": "CarbonBlackDefense.Events.Results.parent_cmdline_length",
+      "required": ""
+    },
+    {
+      "description": "Source of the effective reputation of the parent process. CarbonBlackDefense.Events.Results.parent_guid The global unique ID for the parent process.",
+      "name": "CarbonBlackDefense.Events.Results.parent_effective_reputation_source",
+      "required": ""
+    },
+    {
+      "description": "Hash of the parent process. CarbonBlackDefense.Events.Results.parent_name Name of the parent process.",
+      "name": "CarbonBlackDefense.Events.Results.parent_hash",
+      "required": ""
+    },
+    {
+      "description": "The process ID of the parent process. CarbonBlackDefense.Events.Results.parent_publisher Publisher of the parent process.",
+      "name": "CarbonBlackDefense.Events.Results.parent_pid",
+      "required": ""
+    },
+    {
+      "description": "Publisher state of the parent process. CarbonBlackDefense.Events.Results.parent_reputation Reputation of the parent process.",
+      "name": "CarbonBlackDefense.Events.Results.parent_publisher_state",
+      "required": ""
+    },
+    {
+      "description": "Command line used to execute the process. CarbonBlackDefense.Events.Results.process_cmdline_length Length of the command line used to execute the process.",
+      "name": "CarbonBlackDefense.Events.Results.process_cmdline",
+      "required": ""
+    },
+    {
+      "description": "Company name associated with the process. CarbonBlackDefense.Events.Results.process_effective_reputation Effective reputation of the process.",
+      "name": "CarbonBlackDefense.Events.Results.process_company_name",
+      "required": ""
+    },
+    {
+      "description": "Source of the effective reputation of the process. CarbonBlackDefense.Events.Results.process_elevated Indicates whether the process is running with elevated privileges.",
+      "name": "CarbonBlackDefense.Events.Results.process_effective_reputation_source",
+      "required": ""
+    },
+    {
+      "description": "File description of the process. CarbonBlackDefense.Events.Results.process_guid The global unique process ID.",
+      "name": "CarbonBlackDefense.Events.Results.process_file_description",
+      "required": ""
+    },
+    {
+      "description": "Hash of the process. CarbonBlackDefense.Events.Results.process_integrity_level Integrity level of the process.",
+      "name": "CarbonBlackDefense.Events.Results.process_hash",
+      "required": ""
+    },
+    {
+      "description": "Internal name of the process. CarbonBlackDefense.Events.Results.process_name Name of the process.",
+      "name": "CarbonBlackDefense.Events.Results.process_internal_name",
+      "required": ""
+    },
+    {
+      "description": "Original filename of the process. CarbonBlackDefense.Events.Results.process_pid The process ID of the process.",
+      "name": "CarbonBlackDefense.Events.Results.process_original_filename",
+      "required": ""
+    },
+    {
+      "description": "Privileges associated with the process. CarbonBlackDefense.Events.Results.process_product_name Product name associated with the process.",
+      "name": "CarbonBlackDefense.Events.Results.process_privileges",
+      "required": ""
+    },
+    {
+      "description": "Product version associated with the process. CarbonBlackDefense.Events.Results.process_publisher Publisher of the process.",
+      "name": "CarbonBlackDefense.Events.Results.process_product_version",
+      "required": ""
+    },
+    {
+      "description": "Publisher state of the process. CarbonBlackDefense.Events.Results.process_reputation Reputation of the process.",
+      "name": "CarbonBlackDefense.Events.Results.process_publisher_state",
+      "required": ""
+    },
+    {
+      "description": "Service name associated with the process. CarbonBlackDefense.Events.Results.process_sha256 SHA-256 hash of the process.",
+      "name": "CarbonBlackDefense.Events.Results.process_service_name",
+      "required": ""
+    },
+    {
+      "description": "Date Start time of the process. CarbonBlackDefense.Events.Results.process_username",
+      "name": "CarbonBlackDefense.Events.Results.process_start_time",
+      "required": ""
+    },
+    {
+      "description": "Username under which the process is running.",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Carbon Black Endpoint Standard v3",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-endpoint-standard-v3"
+}

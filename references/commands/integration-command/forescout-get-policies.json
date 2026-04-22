@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "4. Get a list of policies",
+  "examples": [
+    "Command Example\nforescout-get-policies\nContext Example\n{\n\"Forescout.Policy\": [\n{\n\"Name\": \"Primary Classification\",\n\"Description\": \"\","
+  ],
+  "kind": "integration-command",
+  "name": "forescout-get-policies",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Forescout ID for the policy. Forescout.Policy.Name Forescout name of the policy.",
+      "name": "Forescout.Policy.ID",
+      "required": ""
+    },
+    {
+      "description": "Description of the policy. Forescout.Policy.Rule List of rules that make up the policy.",
+      "name": "Forescout.Policy.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Forescout CounterACT",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forescout"
+}

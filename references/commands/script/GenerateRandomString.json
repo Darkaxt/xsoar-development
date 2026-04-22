@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "generate-random-string"
+  ],
+  "arguments": [],
+  "description": "GenerateRandomString | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GenerateRandomString",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The generated string. Edit this page Report an Issue",
+      "name": "RandomString",
+      "required": ""
+    },
+    {
+      "description": "\u00ab GenerateRandomJSON Next GenerateRandomUUID \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GenerateRandomString",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/generate-random-string"
+}

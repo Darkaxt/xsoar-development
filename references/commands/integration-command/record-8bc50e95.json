@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "The employee's username in the app.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Incident Mirroring",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "To set up the mirroring: Enable Fetching incidents",
+      "name": "You can enable incident mirroring between Cortex XSOAR incidents and Hello World IAM corresponding events (available from Cortex XSOAR version 6.0.0).",
+      "required": ""
+    },
+    {
+      "description": "Newly fetched incidents will be mirrored in the chosen direction. However, this selection does not affect existing incidents. Important Note: To ensure the mirroring works as expected, mappers are required, both for incoming and outgoing, to map the expected fields in Cortex XSOAR and Hello World IAM.",
+      "name": "in your instance configuration.",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Have I Been Pwned? v2",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Hello World v2 \u00bb Configure Hello World IAM in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "iam-update-user iam-get-user iam-disable-user",
+      "name": "iam-create-user",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring Docs Developer Docs",
+      "name": "get-mapping-fields",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Hello World IAM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hello-iam-world"
+}

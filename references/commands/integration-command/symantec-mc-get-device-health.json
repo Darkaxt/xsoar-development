@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "3. Get device health information",
+  "examples": [
+    "Command Example\nsymantec-mc-get-device-health uuid=\"C131C3D1-171B-4DA7-ADE2-AA736EA91540\"\nContext Example\n{\n\"SymantecMC.Device\": {\n\"Health\": [\n{\n\"Category\": \"DNS Server\","
+  ],
+  "kind": "integration-command",
+  "name": "symantec-mc-get-device-health",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Device UUID. SymantecMC.Device.Name Device name.",
+      "name": "SymantecMC.Device.UUID",
+      "required": ""
+    },
+    {
+      "description": "Device health category. SymantecMC.Device.Health.Name Device health name.",
+      "name": "SymantecMC.Device.Health.Category",
+      "required": ""
+    },
+    {
+      "description": "Device health state. SymantecMC.Device.Health.Message Device health message.",
+      "name": "SymantecMC.Device.Health.State",
+      "required": ""
+    },
+    {
+      "description": "Device health status.",
+      "name": "SymantecMC.Device.Health.Status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-management-center"
+}

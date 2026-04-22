@@ -1,0 +1,74 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The total wait time (in seconds).",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "crowdstrike-detonate-file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "12. (Deprecated) Detonate a file Detonates a file using Falcon Sandbox. Base Command",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "crowdstrike-detonate-file",
+      "required": ""
+    },
+    {
+      "description": "The SHA-256 hash of the file. File.SHA1 The SHA-1 hash of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the file. File.environmentId The environment ID of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The analysis start time of the file. File.submitname The submission name of the file.",
+      "name": "File.analysis_start_time",
+      "required": ""
+    },
+    {
+      "description": "A list of classification tags of the file. File.vxfamily The family classification of the file.",
+      "name": "File.classification_tags",
+      "required": ""
+    },
+    {
+      "description": "The total network connections of the file. File.total_processes The total processes count of the file.",
+      "name": "File.total_network_connections",
+      "required": ""
+    },
+    {
+      "description": "The total signatures count of the file. File.hosts A list of file\u2019s hosts.",
+      "name": "File.total_signatures",
+      "required": ""
+    },
+    {
+      "description": "Whether the server found this file interesting. File.domains A list of the file\u2019s related domains.",
+      "name": "File.isinteresting",
+      "required": ""
+    },
+    {
+      "description": "Whether the file was analyzed by URL. File.Malicious.Vendor For malicious files, the vendor that made the decision.",
+      "name": "File.isurlanalysis",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the reason that the vendor made the decision. DBotScore.Indicator The indicator that was tested.",
+      "name": "File.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor",
+      "name": "DBotScore.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vx-stream"
+}

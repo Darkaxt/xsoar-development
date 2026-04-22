@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Nozomi Networks - Results for Query",
+  "examples": [
+    "Command Example\n#\n!nozomi-find-ip-by-mac mac='00:0c:29:22:50:26' only_nodes_confirmed='True'\nContext Example\n#\n{\n\"Nozomi\": {\n\"Error\": \"Ip not found\"",
+    "!nozomi-find-ip-by-mac mac='00:0c:29:22:50:26' only_nodes_confirmed='True'\nContext Example\n#\n{\n\"Nozomi\": {\n\"Error\": \"Ip not found\"\n}\n}"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Array of ips found for the mac address passed, empty if not found. Nozomi.Error Usually an ip not found error",
+      "name": "Nozomi.IpByMac.ips",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Nozomi Networks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/nozomi-networks"
+}

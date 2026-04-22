@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "deduplicate-valuesby-key"
+  ],
+  "arguments": [],
+  "description": "DeduplicateValuesbyKey | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DeduplicateValuesbyKey",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of unique values for the specified key Edit this page Report an Issue",
+      "name": "DeduplicatedValues",
+      "required": ""
+    },
+    {
+      "description": "\u00ab DedupBy Next Defang \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DeduplicateValuesbyKey",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/deduplicate-valuesby-key"
+}

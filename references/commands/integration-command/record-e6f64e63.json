@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Added paloaltonetworks.com",
+  "examples": [
+    "Command Example\n#\n!pihole-get-list list=white\nContext Example\n#\n{\n\"PiHole\": {\n\"Lists\": {",
+    "!pihole-get-list list=white\nContext Example\n#\n{\n\"PiHole\": {\n\"Lists\": {\n\"data\": [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "get a list data",
+      "name": "PiHole.Lists",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PiHole",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/pi-hole"
+}

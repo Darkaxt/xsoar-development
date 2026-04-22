@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Traceable.Instancecache.expiry",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Cache entry ID. Traceable.Instancecache.expiry date",
+      "name": "Traceable.Instancecache.id",
+      "required": ""
+    },
+    {
+      "description": "Traceable.Instancecache.deletion_status Cache entry deletion status. Official Traceable Documentation",
+      "name": "Cache entry expiration date.",
+      "required": ""
+    },
+    {
+      "description": "Issues?",
+      "name": "https://docs.traceable.ai/",
+      "required": ""
+    },
+    {
+      "description": "support@traceable.ai Edit this page Report an Issue",
+      "name": "Reach out to",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Tor Exit Addresses Feed Next Trellix Email Security - Cloud \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Setup Customize Event/Activity Collection Incident Types",
+      "name": "Overview",
+      "required": ""
+    },
+    {
+      "description": "list_incident_cache purge_incident_cache Official Traceable Documentation",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Issues?",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Traceable",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/traceable"
+}

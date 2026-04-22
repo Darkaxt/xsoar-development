@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "SigSciences.Site.CreatedDate",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "sigsci-create-site-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the list. SigSciences.Corp.Site.List.Type The type of the list.",
+      "name": "SigSciences.Corp.Site.List.Name",
+      "required": ""
+    },
+    {
+      "description": "The entry list of the list. SigSciences.Corp.Site.List.ID The ID of the list.",
+      "name": "SigSciences.Corp.Site.List.Entries",
+      "required": ""
+    },
+    {
+      "description": "The description of the list. SigSciences.Corp.Site.List.CreatedBy The creator of the list.",
+      "name": "SigSciences.Corp.Site.List.Description",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the list. SigSciences.Corp.Site.List.UpdatedDate",
+      "name": "SigSciences.Corp.Site.List.CreatedDate",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

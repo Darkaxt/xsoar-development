@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### box-get-current-user\n***\nRetrieves information about the user who is currently authenticated.\n#### Base Command\n`box-get-current-user`",
+    "#### Command Example\n```!box-get-current-user as_user=\"14342567114\"```\n#### Context Example\n```json\n{\n\"Box\": {\n\"User\": {\n\"address\": \"\",",
+    "#### Command Example\n```!box-update-user phone=\"4808675309\" is_sync_enabled=\"true\" is_exempt_from_device_limits=\"true\" is_external_collab_restricted=\"false\" is_exempt_from_login_verification=\"false\" can_see_managed_users=\"true\" user_id=\"14342567114\" as_user=\"14342567114\"```\n#### Context Example\n```json\n{\n\"Box\": {\n\"User\": {\n\"address\": \"\",",
+    "#### Command Example\n```!box-create-user name=\"some_name_test\" is_sync_enabled=\"false\" phone=\"000000000\" can_see_managed_users=\"false\" is_exempt_from_device_limits=\"true\" is_exempt_from_login_verification=\"false\" is_external_collab_restricted=\"false\" is_platform_access_only=\"true\"```\n#### Context Example\n```json\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Box v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/box-v2"
+}

@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "qualys-fim-assets-list",
+  "examples": [
+    "Command Example\n#\n!qualys-fim-assets-list limit=3\nContext Example\n#\n{\n\"QualysFIM\"\n:",
+    "!qualys-fim-assets-list limit=3\nContext Example\n#\n{\n\"QualysFIM\"\n:\n{\n\"Asset\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "str Asset hostname. QualysFIM.Assets.lastCheckedIn",
+      "name": "QualysFIM.Assets.hostname",
+      "required": ""
+    },
+    {
+      "description": "Date the asset was last checked. QualysFIM.Assets.created str",
+      "name": "str",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Date the asset was created.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Qualys FIM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/qualys-fim"
+}

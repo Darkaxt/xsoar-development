@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Create an object by server-side copying data from another object.",
+  "examples": [
+    "Command Example\n#\n!minio-copy-object bucket_name_src=\"test12\" name_src=\"test_source.txt\" bucket_name_dst=\"test12\" name_dst=\"test_destination.txt\"\n!minio-copy-object bucket_name_src=\"test12\" name_src=\"test_source.txt\" bucket_name_dst=\"test12\" name_dst=\"myFolder/test_destination.txt\"\n(It will create the folder\nmyFolder\n)\nContext Example",
+    "!minio-copy-object bucket_name_src=\"test12\" name_src=\"test_source.txt\" bucket_name_dst=\"test12\" name_dst=\"test_destination.txt\"\n!minio-copy-object bucket_name_src=\"test12\" name_src=\"test_source.txt\" bucket_name_dst=\"test12\" name_dst=\"myFolder/test_destination.txt\"\n(It will create the folder\nmyFolder\n)\nContext Example\n#\n{",
+    "!minio-copy-object bucket_name_src=\"test12\" name_src=\"test_source.txt\" bucket_name_dst=\"test12\" name_dst=\"myFolder/test_destination.txt\"\n(It will create the folder\nmyFolder\n)\nContext Example\n#\n{\n\"MinIO\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Bucket Name. MinIO.Objects.object Object Name",
+      "name": "MinIO.Objects.bucket",
+      "required": ""
+    },
+    {
+      "description": "Object Status",
+      "name": "MinIO.Objects.status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MinIO",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/min-io"
+}

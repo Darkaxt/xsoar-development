@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "File downloaded from CloudShark",
+  "examples": [
+    "Command Example\n!cloudshark-download capture_id=ccaa62cbbb06\nHuman Readable Output\n4. cloudshark-delete\nDelete a capture file from CS Enterprise\nBase Command\ncloudshark-delete\nInput",
+    "!cloudshark-download capture_id=ccaa62cbbb06\nHuman Readable Output\n4. cloudshark-delete\nDelete a capture file from CS Enterprise\nBase Command\ncloudshark-delete\nInput\nArgument Name",
+    "Command Example\n!cloudshark-delete capture_id=ccaa62cbbb06\nContext Example\n{\n\"CloudShark\": {\n\"Result\": {\n\"id\": \"5277a3a64076\",\n\"message\": \"Capture deleted successfully.\",",
+    "!cloudshark-delete capture_id=ccaa62cbbb06\nContext Example\n{\n\"CloudShark\": {\n\"Result\": {\n\"id\": \"5277a3a64076\",\n\"message\": \"Capture deleted successfully.\",\n\"status\": 200"
+  ],
+  "kind": "integration-command",
+  "name": "cloudshark-delete",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Result of delete command",
+      "name": "CloudShark.Result",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CloudShark",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cloud-shark"
+}

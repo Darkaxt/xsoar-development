@@ -1,0 +1,56 @@
+{
+  "aliases": [
+    "hey"
+  ],
+  "arguments": [],
+  "description": "This Script is part of the",
+  "examples": [],
+  "kind": "script",
+  "name": "Hey",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Timeout for each request. Hey.Concurrency Max number of concurrent workers.",
+      "name": "Hey.Timeout",
+      "required": ""
+    },
+    {
+      "description": "Hey.Requests Number of requests sent to URL. Hey.SlowestTime",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "Hey.FastestTime The fastest time it took for a request to finish. Hey.SuccessfulResponses",
+      "name": "The slowest time it took for a request to finish.",
+      "required": ""
+    },
+    {
+      "description": "Hey.AverageTime The average time it took for a request to finish. Hey.Result",
+      "name": "The number of responses that returned with 200 status code.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The full result in text format when output is set to \"human_readable\"",
+      "required": ""
+    },
+    {
+      "description": "Next hideFieldsOnNewIncident \u00bb",
+      "name": "\u00ab HelloWorldScript",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Hey",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/hey"
+}

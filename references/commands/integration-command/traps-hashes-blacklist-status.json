@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!traps-hashes-blacklist-status\nhash_ids=\"5616ff15b3f5df4e18d28771ccdae19173873009f2318761aa9f9e573b9d9acc,360b12ccfa33c6d2021bf34162b111ffc2f5939b0524b2e045cd682d93318d69\"\nContext Example\n{\n\"Traps.File\": [\n{\n\"BlacklistStatus\": \"blacklisted\",",
+    "!traps-hashes-blacklist-status\nhash_ids=\"5616ff15b3f5df4e18d28771ccdae19173873009f2318761aa9f9e573b9d9acc,360b12ccfa33c6d2021bf34162b111ffc2f5939b0524b2e045cd682d93318d69\"\nContext Example\n{\n\"Traps.File\": [\n{\n\"BlacklistStatus\": \"blacklisted\",\n\"SHA256\": \"360b12ccfa33c6d2021bf34162b111ffc2f5939b0524b2e045cd682d93318d69\""
+  ],
+  "kind": "integration-command",
+  "name": "traps-hashes-blacklist-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The block list status of the file hash. Can be \"blacklisted\" or \"none\". Traps.File.SHA256 The SHA256 hash of the file.",
+      "name": "Traps.File.BlacklistStatus",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Traps (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/traps"
+}

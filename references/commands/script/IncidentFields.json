@@ -1,0 +1,43 @@
+{
+  "aliases": [
+    "incident-fields"
+  ],
+  "arguments": [],
+  "description": "IncidentFields | Cortex XSOAR",
+  "examples": [
+    "!IncidentFields exclude_system_fields=\"false\" short_names=\"true\"\nContext Example\n#\n{\n}\nHuman Readable Output\n#\n{"
+  ],
+  "kind": "script",
+  "name": "IncidentFields",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!IncidentFields exclude_system_fields=\"false\" short_names=\"true\"",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IncidentFields",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/incident-fields"
+}

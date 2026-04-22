@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "qrcodereader"
+  ],
+  "arguments": [],
+  "description": "qrcodereader | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "qrcodereader",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether a QR code was detected or not Edit this page Report an Issue",
+      "name": "QR",
+      "required": ""
+    },
+    {
+      "description": "\u00ab QRadarPrintEvents Next QualysCreateIncidentFromReport \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "qrcodereader",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/qrcodereader"
+}

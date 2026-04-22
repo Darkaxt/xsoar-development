@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "ping"
+  ],
+  "arguments": [],
+  "description": "This Script is part of the",
+  "examples": [],
+  "kind": "script",
+  "name": "Ping",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ping return code Ping.destination Ping destination address",
+      "name": "Ping.ret_code",
+      "required": ""
+    },
+    {
+      "description": "Ping.max_rtt Ping max round trip time Ping.avg_rtt",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Ping.min_rtt Ping minimum round trip time Ping.destination_ip",
+      "name": "Ping average round trip time",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Ping destination IP",
+      "required": ""
+    },
+    {
+      "description": "Next PopulateCriticalAssets \u00bb Script Data",
+      "name": "\u00ab PHash",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ping",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ping"
+}

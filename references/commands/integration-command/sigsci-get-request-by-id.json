@@ -1,0 +1,119 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The agent response code.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "sigsci-get-request-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the request. SigSciences.Corp.Site.Request.ServerHostName Server hostname.",
+      "name": "SigSciences.Corp.Site.Request.ID",
+      "required": ""
+    },
+    {
+      "description": "The remote IP address. SigSciences.Corp.Site.Request.RemoteHostName The remote hostname.",
+      "name": "SigSciences.Corp.Site.Request.RemoteIP",
+      "required": ""
+    },
+    {
+      "description": "The remote country code. SigSciences.Corp.Site.Request.UserAgent The user agent of the request.",
+      "name": "SigSciences.Corp.Site.Request.RemoteCountryCode",
+      "required": ""
+    },
+    {
+      "description": "The timestamp RFC3339 date time serverHostname string. SigSciences.Corp.Site.Request.Method The HTTP method, for example, \u201cPUT\u201d.",
+      "name": "SigSciences.Corp.Site.Request.Timestamp",
+      "required": ""
+    },
+    {
+      "description": "The server name. SigSciences.Corp.Site.Request.Protocol The HTTP protocol, for example \u201cHTTP/1.1\u201d.",
+      "name": "SigSciences.Corp.Site.Request.ServerName",
+      "required": ""
+    },
+    {
+      "description": "The path. SigSciences.Corp.Site.Request.URI The URI.",
+      "name": "SigSciences.Corp.Site.Request.Path",
+      "required": ""
+    },
+    {
+      "description": "The HTTP response code. SigSciences.Corp.Site.Request.ResponseSize The HTTP response size.",
+      "name": "SigSciences.Corp.Site.Request.ResponseCode",
+      "required": ""
+    },
+    {
+      "description": "The response time in milliseconds. SigSciences.Corp.Site.Request.AgentResponseCode The agent response code.",
+      "name": "SigSciences.Corp.Site.Request.ResponseMillis",
+      "required": ""
+    },
+    {
+      "description": "An array of relevant tags. ### sigsci-get-events ***",
+      "name": "SigSciences.Corp.Site.Request.Tags",
+      "required": ""
+    },
+    {
+      "description": "#### Base Command `sigsci-get-events` #### Input",
+      "name": "Fetches events from Signal Sciences.",
+      "required": ""
+    },
+    {
+      "description": "| --- | --- | --- | | siteName | The name of the site to fetch events from. | Required | | from_time | The POSIX Unix time to start. | Optional |",
+      "name": "| **Argument Name** | **Description** | **Required** |",
+      "required": ""
+    },
+    {
+      "description": "| sort | The sort order (\"asc\" or \"desc\"). Possible values are: asc, desc. | Optional | | since_id | The ID of the first object in the set. | Optional | | max_id | The ID of the last object in the set. . | Optional |",
+      "name": "| until_time | The POSIX Unix time to end. . | Optional |",
+      "required": ""
+    },
+    {
+      "description": "| page | The page of the results. | Optional | | action | The action to filter by ('flagged' or 'info'). . Possible values are: flagged, info. | Optional | | tag | The tag to filter by. Must be a valid tag name. | Optional |",
+      "name": "| limit | The maximum number of entries to return. | Optional |",
+      "required": ""
+    },
+    {
+      "description": "| status | The status to filter by (\"active\" or \"expired\"). Possible values are: active, expired. | Optional | #### Context Output | **Path** | **Type** | **Description** |",
+      "name": "| ip | The ID to filter by. | Optional |",
+      "required": ""
+    },
+    {
+      "description": "| SigSciences.Corp.Site.Event.ID | string | The unique ID of the event. | | SigSciences.Corp.Site.Event.Timestamp | date | The timestamp of the event \\(RFC3339 format\\). | | SigSciences.Corp.Site.Event.Source | string | The source information, for example, \"IP\". |",
+      "name": "| --- | --- | --- |",
+      "required": ""
+    },
+    {
+      "description": "| SigSciences.Corp.Site.Event.RemoteHostname | string | The remote hostname. | | SigSciences.Corp.Site.Event.UserAgents | unknown | An array of user agents. | | SigSciences.Corp.Site.Event.Action | unknown | If \"flagged\", the IP address is flagged and subsequent malicious requests will be blocked. If \"info\", the IP address is flagged and subsequent requests will be logged. |",
+      "name": "| SigSciences.Corp.Site.Event.RemoteCountryCode | string | The country code. |",
+      "required": ""
+    },
+    {
+      "description": "| SigSciences.Corp.Site.Event.RequestCount | number | The total number of requests. | | SigSciences.Corp.Site.Event.TagCount | number | The total number of tags. | | SigSciences.Corp.Site.Event.Window | number | The time window \\(in seconds\\) when the items were detected. |",
+      "name": "| SigSciences.Corp.Site.Event.Reasons | unknown | The reason the event was triggered. |",
+      "required": ""
+    },
+    {
+      "description": "| SigSciences.Corp.Site.Event.ExpiredBy | string | The email address of the user that expired the event \\(if the event is expired manually\\). | Edit this page Report an Issue",
+      "name": "| SigSciences.Corp.Site.Event.DateExpires | string | The date the event expires \\(RFC3339 format\\). |",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Shodan v2 Next SIGNL4 (Beta) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

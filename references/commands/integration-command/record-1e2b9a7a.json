@@ -1,0 +1,138 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "The following arguments were removed in this version",
+      "required": ""
+    },
+    {
+      "description": "absolute-device-application-list command, the following argument was removed: account_uids",
+      "name": "In the",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!absolute-device-get-events start_date=\"one minute ago\" end_date=\"now\" limit=10\nCreating a filtering and sorting query\n#\nThe following commands have the option to insert a\nfilter\nargument:",
+    "!absolute-device-get-events start_date=\"one minute ago\" end_date=\"now\" limit=10\nCreating a filtering and sorting query\n#\nThe following commands have the option to insert a\nfilter\nargument:\nabsolute-device-application-list\nabsolute-device-list"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "absolute-device-unenroll command the following outputs were replaced: Absolute.DeviceUnenroll.DeviceUid",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "Absolute.DeviceUnenroll.Devices.DeviceUid . Absolute.DeviceUnenroll.ESN",
+      "name": "- replaced by",
+      "required": ""
+    },
+    {
+      "description": "Absolute.DeviceUnenroll.Devices.ESN . In the",
+      "name": "- replaced by",
+      "required": ""
+    },
+    {
+      "description": "command the following outputs were replaced: Absolute.FreezeRequestDetail.Configuration.issuedUtc - replaced by",
+      "name": "absolute-device-freeze-request-get",
+      "required": ""
+    },
+    {
+      "description": ". Absolute.FreezeRequestDetail.RequesterUid - replaced by",
+      "name": "Absolute.FreezeRequestDetail.Configuration.issuedDateTimeUTC",
+      "required": ""
+    },
+    {
+      "description": ". Absolute.FreezeRequestDetail.Statuses.ackClientUtc - replaced by",
+      "name": "Absolute.FreezeRequestDetail.Requester",
+      "required": ""
+    },
+    {
+      "description": ". Absolute.FreezeRequestDetail.Statuses.scheduledFreezeDateUTC - replaced by",
+      "name": "Absolute.FreezeRequestDetail.Statuses.ackClientDateTimeUtcs",
+      "required": ""
+    },
+    {
+      "description": ". Absolute.FreezeRequestDetail.Statuses.updatedUtc - replaced by",
+      "name": "Absolute.FreezeRequestDetail.Statuses.scheduledFreezeDateTimeUtc",
+      "required": ""
+    },
+    {
+      "description": ". In the absolute-device-application-list",
+      "name": "Absolute.FreezeRequestDetail.Statuses.updatedDateTimeUtc",
+      "required": ""
+    },
+    {
+      "description": "Absolute.DeviceApplication.AccountUid In the absolute-custom-device-field-list",
+      "name": "command the following output was removed:",
+      "required": ""
+    },
+    {
+      "description": "Absolute.CustomDeviceField.ESN In the absolute-device-freeze-request-get",
+      "name": "command the following output was removed:",
+      "required": ""
+    },
+    {
+      "description": "Absolute.FreezeRequestDetail.Statuses.statusUid Absolute.FreezeRequestDetail.RequesterUid In the",
+      "name": "command the following outputs were removed:",
+      "required": ""
+    },
+    {
+      "description": "command the following outputs were removed: Absolute.DeviceUnenroll.EligibleStatus Absolute.DeviceUnenroll.Serial",
+      "name": "absolute-device-unenroll",
+      "required": ""
+    },
+    {
+      "description": "Absolute.DeviceUnenroll.Username Edit this page Report an Issue",
+      "name": "Absolute.DeviceUnenroll.SystemName",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Abnormal Security Event Collector Next abuse.ch SSL Blacklist Feed \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands absolute-custom-device-field-list absolute-custom-device-field-update",
+      "name": "Configure Absolute in Cortex",
+      "required": ""
+    },
+    {
+      "description": "absolute-device-remove-freeze-request absolute-device-freeze-request-get absolute-device-freeze-message-list",
+      "name": "absolute-device-freeze-request",
+      "required": ""
+    },
+    {
+      "description": "absolute-device-freeze-message-update absolute-device-freeze-message-delete absolute-device-unenroll",
+      "name": "absolute-device-freeze-message-create",
+      "required": ""
+    },
+    {
+      "description": "absolute-device-list absolute-device-get absolute-device-location-get",
+      "name": "absolute-device-application-list",
+      "required": ""
+    },
+    {
+      "description": "Creating a filtering and sorting query Breaking changes from the previous version of this integration - Absolute",
+      "name": "absolute-device-get-events",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Absolute",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/absolute"
+}

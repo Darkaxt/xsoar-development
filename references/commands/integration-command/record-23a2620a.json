@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "TrendMicroDDA.Submission.SHA1",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Trend Micro Deep Security \u00bb trendmicro-dda-get-sample",
+      "name": "\u00ab Trend Micro Cloud App Security",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-dda-get-sample-list trendmicro-dda-check-status trendmicro-dda-upload-url",
+      "name": "trendmicro-dda-get-report",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-dda-get-brief-report Docs Developer Docs",
+      "name": "trendmicro-dda-upload-file",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Trend Micro Deep Discovery Analyzer (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/trend-micro-deep-discovery-analyzer"
+}

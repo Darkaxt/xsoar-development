@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!traps-endpoint-files-retrieve-result operation_id=\"d129d313e5ba11e9acbf0245d8e950da\"\nContext Example\n{\n\"Traps.FileRetrieveResult\": {\n\"OperationID\": \"d129d313e5ba11e9acbf0245d8e950da\",\n\"Status\": \"finished\"",
+    "!traps-endpoint-files-retrieve-result operation_id=\"d129d313e5ba11e9acbf0245d8e950da\"\nContext Example\n{\n\"Traps.FileRetrieveResult\": {\n\"OperationID\": \"d129d313e5ba11e9acbf0245d8e950da\",\n\"Status\": \"finished\""
+  ],
+  "kind": "integration-command",
+  "name": "traps-endpoint-files-retrieve-result",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Traps (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/traps"
+}

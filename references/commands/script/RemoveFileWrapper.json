@@ -1,0 +1,78 @@
+{
+  "aliases": [
+    "remove-file-wrapper"
+  ],
+  "arguments": [],
+  "description": "RemoveFileWrapper | Cortex XSOAR",
+  "examples": [
+    "!RemoveFileWrapper device_ids=0bde2c4645294245aca522971ccc44c4 file_path=/tmp/a.txt\nContext Example\n#\n{\n\"CrowdStrike\"\n:\n{\n\"Command\""
+  ],
+  "kind": "script",
+  "name": "RemoveFileWrapper",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the initiated action. PaloAltoNetworksXDR.ScriptRun.endpoints_count The number of endpoints the action was initiated on.",
+      "name": "PaloAltoNetworksXDR.ScriptRun.action_id",
+      "required": ""
+    },
+    {
+      "description": "CrowdStrike.Command.rm.HostID The host ID. CrowdStrike.Command.rm.Error",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Script Examples",
+      "name": "The error message raised if the command failed.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!RemoveFileWrapper device_ids=0bde2c4645294245aca522971ccc44c4 file_path=/tmp/a.txt",
+      "required": ""
+    },
+    {
+      "description": "\"CrowdStrike\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"rm\"",
+      "name": "\"Command\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"HostID\" :",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ", \"Error\" :",
+      "name": "\"0bde2c4645294245aca522971ccc44c4\"",
+      "required": ""
+    },
+    {
+      "description": "} } }",
+      "name": "\"Success\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RemoveFileWrapper",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/remove-file-wrapper"
+}

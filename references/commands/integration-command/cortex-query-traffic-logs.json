@@ -1,0 +1,117 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!cortex-query-traffic-logs rule=To_Internet,To_VPN limit=2\nContext Example\n{\n\"Cortex.Logging.Traffic\": [\n{\n\"Action\": \"allow\",\n\"App\": \"dns\",",
+    "!cortex-query-traffic-logs rule=To_Internet,To_VPN limit=2\nContext Example\n{\n\"Cortex.Logging.Traffic\": [\n{\n\"Action\": \"allow\",\n\"App\": \"dns\",\n\"Bytes\": 309,"
+  ],
+  "kind": "integration-command",
+  "name": "cortex-query-traffic-logs",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Identifies the action that the firewall took for the network traffic. Cortex.Logging.Traffic.RiskOfApp Indicates the risk of the application, from a network security perspective. The risk range is 1-5, where 5 is the riskiest.",
+      "name": "Cortex.Logging.Traffic.Action",
+      "required": ""
+    },
+    {
+      "description": "Post-NAT source port. Cortex.Logging.Traffic.SessionID Identifies the firewall's internal identifier for a specific network session.",
+      "name": "Cortex.Logging.Traffic.Natsport",
+      "required": ""
+    },
+    {
+      "description": "Number of total packets (transmit and receive) seen for the session. Cortex.Logging.Traffic.CharacteristicOfApp Identifies the behaviorial characteristic of the application associated with the network traffic.",
+      "name": "Cortex.Logging.Traffic.Packets",
+      "required": ""
+    },
+    {
+      "description": "Application associated with the network traffic. Cortex.Logging.Traffic.Vsys Virtual system associated with the network traffic.",
+      "name": "Cortex.Logging.Traffic.App",
+      "required": ""
+    },
+    {
+      "description": "Indicates whether the firewall is performing network address translation (NAT) for the logged traffic. If it is, this value is 1. Cortex.Logging.Traffic.ReceiveTime Time the log was received at the management plane.",
+      "name": "Cortex.Logging.Traffic.Nat",
+      "required": ""
+    },
+    {
+      "description": "Identifies the application's subcategory. The subcategory is related to the application's category, Cortex.Logging.Traffic.Users Srcuser or dstuser or srcip (one of).",
+      "name": "Cortex.Logging.Traffic.SubcategoryOfApp",
+      "required": ""
+    },
+    {
+      "description": "IP protocol associated with the session. Cortex.Logging.Traffic.TunneledApp Whether the application is tunneled.",
+      "name": "Cortex.Logging.Traffic.Proto",
+      "required": ""
+    },
+    {
+      "description": "Post-NAT destination port. Cortex.Logging.Traffic.Dst Original destination IP address. The IP address is an IPv4/IPv6 address in hex format.",
+      "name": "Cortex.Logging.Traffic.Natdport",
+      "required": ""
+    },
+    {
+      "description": "If destination NAT performed, the post-NAT destination IP address. The IP address is an IPv4/IPv6 address in hex format. Cortex.Logging.Traffic.Rule Name of the security policy rule that the network traffic matched.",
+      "name": "Cortex.Logging.Traffic.Natdst",
+      "required": ""
+    },
+    {
+      "description": "Network traffic's destination port. If this value is 0, then the app is using its standard port. Cortex.Logging.Traffic.Elapsed Total time taken for the network session to complete.",
+      "name": "Cortex.Logging.Traffic.Dport",
+      "required": ""
+    },
+    {
+      "description": "The hostname of the firewall that logged the network traffic. Cortex.Logging.Traffic.Subtype Traffic log subtype. Values are: start, end, drop, deny.",
+      "name": "Cortex.Logging.Traffic.DeviceName",
+      "required": ""
+    },
+    {
+      "description": "Time the log was received at the management plane. Cortex.Logging.Traffic.SessionEndReason The reason a session terminated. If the termination had multiple causes. This field displays only the highest priority reason.",
+      "name": "Cortex.Logging.Traffic.TimeReceived",
+      "required": ""
+    },
+    {
+      "description": "If source NAT was performed, the post-NAT source IP address. The IP address is an IPv4/IPv6 address in hex format. Cortex.Logging.Traffic.Src Original source IP address. The IP address is an IPv4/IPv6 address in hex format.",
+      "name": "Cortex.Logging.Traffic.Natsrc",
+      "required": ""
+    },
+    {
+      "description": "Time when the session was established. Cortex.Logging.Traffic.TimeGenerated Time the log was generated on the data plane.",
+      "name": "Cortex.Logging.Traffic.Start",
+      "required": ""
+    },
+    {
+      "description": "Identifies the high-level family of the application. Cortex.Logging.Traffic.Srcloc Source country or internal region for private addresses. The internal region is a user-defined name for a specific network in the user's enterprise.",
+      "name": "Cortex.Logging.Traffic.CategoryOfApp",
+      "required": ""
+    },
+    {
+      "description": "Destination country or internal region for private addresses. The internal region is a user-defined name for a specific network in the user's enterprise. Cortex.Logging.Traffic.Serial Serial number of the firewall that generated the log.",
+      "name": "Cortex.Logging.Traffic.Dstloc",
+      "required": ""
+    },
+    {
+      "description": "Number of total bytes (transmit and receive). Cortex.Logging.Traffic.VsysID A unique identifier for a virtual system on a Palo Alto Networks firewall.",
+      "name": "Cortex.Logging.Traffic.Bytes",
+      "required": ""
+    },
+    {
+      "description": "Networking zone to which the traffic was sent. Cortex.Logging.Traffic.Category URL category associated with the session (if applicable).",
+      "name": "Cortex.Logging.Traffic.To",
+      "required": ""
+    },
+    {
+      "description": "Source port utilized by the session. Cortex.Logging.Traffic.Tunnel Type of tunnel.",
+      "name": "Cortex.Logging.Traffic.Sport",
+      "required": ""
+    },
+    {
+      "description": "Detected enterprise credential submission by an end user. IP.Address IP address.",
+      "name": "Cortex.Logging.Traffic.IsPhishing",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Cortex (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-cortex"
+}

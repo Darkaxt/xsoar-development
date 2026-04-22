@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!threatq-delete-attribute attribute_id=996896 obj_id=173317 obj_type=indicator",
+  "examples": [
+    "Command Example\n!threatq-delete-attribute attribute_id=996896 obj_id=173317 obj_type=indicator\nHuman Readable Output\n24. Edit an adversary\nUpdates an adversary name in ThreatQ.\nBase Command\nthreatq-edit-adversary\nInput",
+    "!threatq-delete-attribute attribute_id=996896 obj_id=173317 obj_type=indicator\nHuman Readable Output\n24. Edit an adversary\nUpdates an adversary name in ThreatQ.\nBase Command\nthreatq-edit-adversary\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-edit-adversary",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the adversary. ThreatQ.Adversary.ID The ID of the adversary.",
+      "name": "ThreatQ.Adversary.Name",
+      "required": ""
+    },
+    {
+      "description": "The source ID of the adversary. ThreatQ.Adversary.Source.Name The source name of the adversary.",
+      "name": "ThreatQ.Adversary.Source.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute ID of the adversary. ThreatQ.Adversary.Attribute.Name The attribute name of the adversary.",
+      "name": "ThreatQ.Adversary.Attribute.ID",
+      "required": ""
+    },
+    {
+      "description": "The value of the adversary. ThreatQ.Adversary.UpdatedAt date",
+      "name": "ThreatQ.Adversary.Attribute.Value",
+      "required": ""
+    },
+    {
+      "description": "ThreatQ.Adversary.CreatedAt date",
+      "name": "The creation date of the adversary.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "192.168.11."
+  ],
+  "arguments": [],
+  "description": "2018-03-15T16:39:18.802Z",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "netwitness-delete-incident",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness v11.1 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-v111"
+}

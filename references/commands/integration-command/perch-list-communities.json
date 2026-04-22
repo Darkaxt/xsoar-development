@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "3. Get a list of all communities",
+  "examples": [
+    "Command Example\n!perch-list-communities\nContext Example\n{\n\"Perch\": {\n\"Community\": [\n{\n\"Selectablefeeds\": true,",
+    "!perch-list-communities\nContext Example\n{\n\"Perch\": {\n\"Community\": [\n{\n\"Selectablefeeds\": true,\n\"Allsectors\": true,"
+  ],
+  "kind": "integration-command",
+  "name": "perch-list-communities",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Indicates if the community covers all sectors. Perch.Community.Credentialreq Credentials required to interact with the community.",
+      "name": "Perch.Community.Allsectors",
+      "required": ""
+    },
+    {
+      "description": "Description of the community. Perch.Community.Id ID of the community.",
+      "name": "Perch.Community.Desc",
+      "required": ""
+    },
+    {
+      "description": "Name of the community. Perch.Community.Poweredby Organization providing the feed.",
+      "name": "Perch.Community.Name",
+      "required": ""
+    },
+    {
+      "description": "Whether the feeds are selectable.",
+      "name": "Perch.Community.Selectablefeeds",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Perch",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/perch"
+}

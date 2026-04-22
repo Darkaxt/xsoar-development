@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The tags of the sample.",
+  "examples": [
+    "Command Example\n!autofocus-search-samples scope=\"public\" size=\"10\" sort=\"create_date\" order=\"desc\" query=\"{\\\"operator\\\": \\\"all\\\", \\\"children\\\": [{\\\"field\\\": \\\"sample.malware\\\", \\\"operator\\\": \\\"is\\\", \\\"value\\\": 1}]}\"\nHuman Readable Output\n2. Search for sessions\nSearch for sessions in Palo Alto Networks AutoFocus.\nBase Command\nautofocus-search-sessions\nInput",
+    "!autofocus-search-samples scope=\"public\" size=\"10\" sort=\"create_date\" order=\"desc\" query=\"{\\\"operator\\\": \\\"all\\\", \\\"children\\\": [{\\\"field\\\": \\\"sample.malware\\\", \\\"operator\\\": \\\"is\\\", \\\"value\\\": 1}]}\"\nHuman Readable Output\n2. Search for sessions\nSearch for sessions in Palo Alto Networks AutoFocus.\nBase Command\nautofocus-search-sessions\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "autofocus-search-sessions",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The cookie for the results. Autofocus.Sessions.id The ID of the session.",
+      "name": "Autofocus.Cookie",
+      "required": ""
+    },
+    {
+      "description": "The device industry. Autofocus.Sessions.filename The name of the file.",
+      "name": "Autofocus.Sessions.device_industry",
+      "required": ""
+    },
+    {
+      "description": "The region for the session. Autofocus.Sessions.sha256 The SHA-256 of the file.",
+      "name": "Autofocus.Sessions.region",
+      "required": ""
+    },
+    {
+      "description": "The timestamp for the session. Autofocus.Sessions.upload_src",
+      "name": "Autofocus.Sessions.tstamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto AutoFocus (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/autofocus"
+}

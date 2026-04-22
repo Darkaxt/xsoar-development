@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!phish-ai-scan url=www.demisto.com",
+  "examples": [
+    "Command Example\n!phish-ai-scan url=www.demisto.com\nHuman Readable Output\n2. Check a URL status\nChecks the status of a URL, for example, \u201ccompleted\u201d or \u201cin progress\u201d.\nBase Command\nphish-ai-check-status\nInput",
+    "!phish-ai-scan url=www.demisto.com\nHuman Readable Output\n2. Check a URL status\nChecks the status of a URL, for example, \u201ccompleted\u201d or \u201cin progress\u201d.\nBase Command\nphish-ai-check-status\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "phish-ai-check-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The IP address of the URL. PhishAI.Status That status of the scan.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "PhishAI.ScanID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Phish.AI (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/phishai"
+}

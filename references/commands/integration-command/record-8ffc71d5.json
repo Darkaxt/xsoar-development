@@ -1,0 +1,66 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "{'oid': 0, 'time': 1637740800000, 'duration': 30000, 'values': [4]},",
+  "examples": [
+    "!extrahop-detections-list limit=3\nContext Example\n#\n{\n\"ExtraHop\"\n:\n{\n\"Detections\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique detection ID of the detection. ExtraHop.Detections.start_time The timestamp when the detection was identified.",
+      "name": "ExtraHop.Detections.id",
+      "required": ""
+    },
+    {
+      "description": "The timestamp when the detection was last modified. ExtraHop.Detections.end_time The timestamp when the detection was completed.",
+      "name": "ExtraHop.Detections.mod_time",
+      "required": ""
+    },
+    {
+      "description": "The title of the detection. ExtraHop.Detections.description The description of the event for which the detection was created.",
+      "name": "ExtraHop.Detections.title",
+      "required": ""
+    },
+    {
+      "description": "The categories associated with the detection. ExtraHop.Detections.risk_score The risk level of the event.",
+      "name": "ExtraHop.Detections.categories",
+      "required": ""
+    },
+    {
+      "description": "The detection type. ExtraHop.Detections.properties The detection properties.",
+      "name": "ExtraHop.Detections.type",
+      "required": ""
+    },
+    {
+      "description": "The participants involved in the event. ExtraHop.Detections.ticket_id The unique ticket ID for the detection that is being tracked.",
+      "name": "ExtraHop.Detections.participants",
+      "required": ""
+    },
+    {
+      "description": "The user assigned to the detection. ExtraHop.Detections.status The status of the detection.",
+      "name": "ExtraHop.Detections.assignee",
+      "required": ""
+    },
+    {
+      "description": "The resolution status of the detection. ExtraHop.Detections.mitre_tactics The MITRE tactics associated with the attack.",
+      "name": "ExtraHop.Detections.resolution",
+      "required": ""
+    },
+    {
+      "description": "The MITRE techniques associated with the attack. ExtraHop.Detections.appliance_id The unique identifier of the sensor on which the attack was detected.",
+      "name": "ExtraHop.Detections.mitre_techniques",
+      "required": ""
+    },
+    {
+      "description": "Indicates whether the detection is user-created.",
+      "name": "ExtraHop.Detections.is_user_created",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExtraHop Reveal(x)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/extra-hop-v2"
+}

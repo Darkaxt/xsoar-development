@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!servicenow-create short_description=\"This is a new ticket\" ticket_type=\"incident\" type=\"normal\"\nContext Example\n{\n\"ServiceNow\": {\n\"Ticket\": {\n\"Active\": \"true\",\n\"CreatedOn\": \"2018-11-27 12:11:39\",",
+    "!servicenow-create short_description=\"This is a new ticket\" ticket_type=\"incident\" type=\"normal\"\nContext Example\n{\n\"ServiceNow\": {\n\"Ticket\": {\n\"Active\": \"true\",\n\"CreatedOn\": \"2018-11-27 12:11:39\",\n\"ID\": \"bd5d42994f82230021ae045e9310c7bd\","
+  ],
+  "kind": "integration-command",
+  "name": "servicenow-create-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ServiceNow ticket ID ServiceNow.Ticket.OpenedBy ServiceNow ticket opener ID",
+      "name": "ServiceNow.Ticket.ID",
+      "required": ""
+    },
+    {
+      "description": "date ServiceNow ticket creation date ServiceNow.Ticket.Assignee",
+      "name": "ServiceNow.Ticket.CreatedOn",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow ticket assignee ID ServiceNow.Ticket.State ServiceNow ticket state",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow ticket short summary ServiceNow.Ticket.Number ServiceNow ticket number",
+      "name": "ServiceNow.Ticket.Summary",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow ticket active ServiceNow.Ticket.AdditionalComments ServiceNow ticket comments",
+      "name": "ServiceNow.Ticket.Active",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow ticket priority ServiceNow.Ticket.OpenedAt date",
+      "name": "ServiceNow.Ticket.Priority",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow.Ticket.ResolvedBy ServiceNow ticket resolver ID ServiceNow.Ticket.CloseCode",
+      "name": "ServiceNow ticket opening time",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow ticket close code",
+      "name": "string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now"
+}

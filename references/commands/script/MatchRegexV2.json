@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "match-regex-v2"
+  ],
+  "arguments": [],
+  "description": "MatchRegexV2 | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "MatchRegexV2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of Regex matches Edit this page Report an Issue",
+      "name": "MatchRegex.results",
+      "required": ""
+    },
+    {
+      "description": "\u00ab MatchRegex Next MathUtil \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MatchRegexV2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/match-regex-v2"
+}

@@ -1,0 +1,89 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook. After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique ID of the Anomaly to track in Linkshadow Linkshadow.data.action_time Date",
+      "name": "Linkshadow.data.GlobalID",
+      "required": ""
+    },
+    {
+      "description": "Linkshadow.data.anomaly_flag Anomaly Flag Value 1 - Means Active Anomaly, 0 Means Fixed Anomaly Linkshadow.data.anomaly_id",
+      "name": "Time of Anomaly Send to XSOAR",
+      "required": ""
+    },
+    {
+      "description": "Anomaly ID for LinkShadow Linkshadow.data.anomaly_type Incident Type",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Bandwidth usage of the Anomalous session Linkshadow.data.category Additional Information for the anomaly",
+      "name": "Linkshadow.data.bandwidth",
+      "required": ""
+    },
+    {
+      "description": "Time of Anomaly seen Linkshadow.data.desc Description of anomaly from linkshadow",
+      "name": "Linkshadow.data.data",
+      "required": ""
+    },
+    {
+      "description": "Destination Ip in the detected anomaly Linkshadow.data.dmac Destination mac address",
+      "name": "Linkshadow.data.dip",
+      "required": ""
+    },
+    {
+      "description": "Destination port number of the anomalous session Linkshadow.data.id NA",
+      "name": "Linkshadow.data.dport",
+      "required": ""
+    },
+    {
+      "description": "Date Time of Anomaly added to the database Linkshadow.data.score",
+      "name": "Linkshadow.data.inserted_time",
+      "required": ""
+    },
+    {
+      "description": "Risk Score of the Anomaly - Typical value between 1-20 Linkshadow.data.sip Source IP in the detected Anomaly",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Source Mac Address in the detected Anomaly Linkshadow.data.sport Source port number of the anomalous session",
+      "name": "Linkshadow.data.smac",
+      "required": ""
+    },
+    {
+      "description": "Date Time of Anomaly seen Edit this page",
+      "name": "Linkshadow.data.time_seen",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab LINENotify Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure Linkshadow in Cortex Commands Linkshadow-fetch-entity-anomalies",
+      "name": "Linux \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Linkshadow",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/linkshadow"
+}

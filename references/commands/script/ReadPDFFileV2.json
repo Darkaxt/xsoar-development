@@ -1,0 +1,121 @@
+{
+  "aliases": [
+    "read-pdf-file-v2"
+  ],
+  "arguments": [],
+  "description": "ReadPDFFileV2 | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ReadPDFFileV2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The list of URLs that were extracted from the PDF file. File.Text The text that was extracted from the PDF file.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "File.Producer The producer of the PDF file. File.Title",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "File.Author The author of the PDF file. File.ModDate",
+      "name": "The title of the PDF file.",
+      "required": ""
+    },
+    {
+      "description": "Date File.CreationDate The CreationDate of the PDF file.",
+      "name": "The ModDate of the PDF file.",
+      "required": ""
+    },
+    {
+      "description": "File.Pages The number of pages in the PDF file. File.Size",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "File.Form The PDF form type. File.Encrypted",
+      "name": "The file size in bytes.",
+      "required": ""
+    },
+    {
+      "description": "File.FileSize The file size in bytes. File.SHA1",
+      "name": "Whether the file is encrypted.",
+      "required": ""
+    },
+    {
+      "description": "File.PageRot The page rotation of the PDF file. File.Optimized",
+      "name": "The SHA1 file hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "File.SHA256 The SHA256 file hash of the file. File.PDFVersion",
+      "name": "Whether the page has been optimized.",
+      "required": ""
+    },
+    {
+      "description": "File.Name The name of the PDF file. File.Creator",
+      "name": "The PDF version.",
+      "required": ""
+    },
+    {
+      "description": "File.Tagged Whether the file has tagged meta-information. File.SSDeep",
+      "name": "The creator of the PDF file.",
+      "required": ""
+    },
+    {
+      "description": "File.EntryID The Entry ID of the file. File.JavaScript",
+      "name": "The SSDeep hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "File.Info The additional information about the file. File.PageSize",
+      "name": "Whether the file is in JavaScript.",
+      "required": ""
+    },
+    {
+      "description": "File.Type The file type. File.Suspects",
+      "name": "The PDF file page size.",
+      "required": ""
+    },
+    {
+      "description": "File.MD5 The MD5 file hash of the file. File.UserProperties",
+      "name": "Indicates the presence of tag suspects.",
+      "required": ""
+    },
+    {
+      "description": "File.Extension The file's extension. Account.Email",
+      "name": "Indicates the presence of the structure elements that contain user properties attributes.",
+      "required": ""
+    },
+    {
+      "description": "Hashes.type The hash type extracted from the PDF file. Hashes.value",
+      "name": "The email address of the account.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The hash value extracted from the PDF file.",
+      "required": ""
+    },
+    {
+      "description": "Next ReadProcessesFile \u00bb Script Data",
+      "name": "\u00ab ReadNetstatFileWrapper",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ReadPDFFileV2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/read-pdf-file-v2"
+}

@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Updates an existing group resource. This command allows individual (or groups of) users to be added or removed from the group with a single operation. A maximum of 15,000 users can be modified in a single call.",
+  "examples": [
+    "Command Example\n#\n!iam-update-group scim={\"id\": \"121212\"} memberIdsToAdd=[\"123456\"]\nContext Example\n#\n{\n\"UpdateGroup\"\n:",
+    "!iam-update-group scim={\"id\": \"121212\"} memberIdsToAdd=[\"123456\"]\nContext Example\n#\n{\n\"UpdateGroup\"\n:\n{\n\"brand\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Group ID. UpdateGroup.displayName Display name of the group.",
+      "name": "UpdateGroup.id",
+      "required": ""
+    },
+    {
+      "description": "Success status of the command. UpdateGroup.errorCode Error code if there is a failure.",
+      "name": "UpdateGroup.success",
+      "required": ""
+    },
+    {
+      "description": "Error details if there is a failure.",
+      "name": "UpdateGroup.errorMessage",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Oracle IAM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/oracle-iam"
+}

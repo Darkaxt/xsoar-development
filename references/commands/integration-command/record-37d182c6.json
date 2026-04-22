@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Known Limitations",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": ": The indicator type field in Elasticsearch must exactly match the indicator type in Cortex XSOAR, including case sensitivity. For example, if the indicator type in XSOAR is File (with uppercase 'F'), then the indicator type in Elasticsearch must also be",
+      "name": "Indicator Type Case Sensitivity",
+      "required": ""
+    },
+    {
+      "description": ", not file (lowercase). If there is a case mismatch, indicators will not be created in XSOAR.",
+      "name": "File",
+      "required": ""
+    },
+    {
+      "description": "Check the existing indicator types in XSOAR by navigating to: <XSOAR Domain>/configuration/indicator/types Update your Elasticsearch documents so that the indicator type field matches the exact case of the type in XSOAR",
+      "name": "To resolve this issue:",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "For the Generic Feed type, ensure the field specified in the \"Indicator Type Field\" parameter returns values that match XSOAR's indicator types exactly",
+      "required": ""
+    },
+    {
+      "description": "Next Elasticsearch v2 \u00bb Overview",
+      "name": "\u00ab Elasticsearch Event Collector",
+      "required": ""
+    },
+    {
+      "description": "Commands es-get-indicators Known Limitations",
+      "name": "Configure Elasticsearch Feed in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Elasticsearch Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/elasticsearch-feed"
+}

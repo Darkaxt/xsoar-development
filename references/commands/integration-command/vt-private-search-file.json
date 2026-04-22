@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Submits a query to Virus Total.",
+  "examples": [
+    "Command Example\n!vt-private-search-file query=\"type:peexe size:90kb+ positives:5+ behaviour:'taskkill'\"\nContext Example\n{\n\"SearchFile\": {\n\"Query\": \"type:peexe size:90kb+ positives:5+ behaviour:'taskkill'\",\n\"SearchResult\": [\n\"698a9a11c38763b514fd6fc74ee773c2510b0a88faefaf0e5807d51d39f59af7\",",
+    "!vt-private-search-file query=\"type:peexe size:90kb+ positives:5+ behaviour:'taskkill'\"\nContext Example\n{\n\"SearchFile\": {\n\"Query\": \"type:peexe size:90kb+ positives:5+ behaviour:'taskkill'\",\n\"SearchResult\": [\n\"698a9a11c38763b514fd6fc74ee773c2510b0a88faefaf0e5807d51d39f59af7\",\n\"7c6ebc9225163da5e6a01766895b9b520c8aa24320e6ff9a6ea87c8b8eecfa8e\",",
+    "Command Example\n!vt-private-hash-communication hash=\"ba5d0f897e89ff70cffb3e95e4d54ea152d6a273a95bdff2224a224c90c0d16e\" fullResponse=\"false\"\nContext Example\n{\n\"SearchFile\": {\n\"Query\": \"type:peexe size:90kb+ positives:5+ behaviour:'taskkill'\",\n\"SearchResult\": [\n\"698a9a11c38763b514fd6fc74ee773c2510b0a88faefaf0e5807d51d39f59af7\",",
+    "!vt-private-hash-communication hash=\"ba5d0f897e89ff70cffb3e95e4d54ea152d6a273a95bdff2224a224c90c0d16e\" fullResponse=\"false\"\nContext Example\n{\n\"SearchFile\": {\n\"Query\": \"type:peexe size:90kb+ positives:5+ behaviour:'taskkill'\",\n\"SearchResult\": [\n\"698a9a11c38763b514fd6fc74ee773c2510b0a88faefaf0e5807d51d39f59af7\",\n\"7c6ebc9225163da5e6a01766895b9b520c8aa24320e6ff9a6ea87c8b8eecfa8e\","
+  ],
+  "kind": "integration-command",
+  "name": "vt-private-search-file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Hashes of files that match the query VirusTotal.SearchFile.Query Original search query",
+      "name": "VirusTotal.SearchFile.SearchResult",
+      "required": ""
+    },
+    {
+      "description": "Domains that the hash communicates with File.VirusTotal.CommunicatedURLs URLs that the hash communicates with",
+      "name": "File.VirusTotal.CommunicatedDomains",
+      "required": ""
+    },
+    {
+      "description": "IPs that the hash communicates with File.VirusTotal.CommunicatedHosts Hosts that the hash communicates with",
+      "name": "File.VirusTotal.CommunicatedIPs",
+      "required": ""
+    },
+    {
+      "description": "MD5 of the file File.SHA1 SHA-1 of the file",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 of the file",
+      "name": "File.SHA256",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VirusTotal - Private API (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/virus-total---private-api"
+}

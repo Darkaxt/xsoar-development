@@ -1,0 +1,47 @@
+{
+  "aliases": [
+    "json-to-table"
+  ],
+  "arguments": [],
+  "description": "JsonToTable | Cortex XSOAR",
+  "examples": [
+    "!JsonToTable value=`[{\"name\": \"name1\", \"value\": \"val1\"}, {\"name\": \"name2\", \"value\" : \"val2\"}]`\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nname",
+    "!JsonToTable value=`[{\"name\": \"name1\", \"value\": \"val1\"}, {\"name\": \"name2\", \"value\" : \"val2\"}]` headers=name\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nname",
+    "!JsonToTable value=`[{\"name\": {\"first\": \"a\", \"second\": \"b\", \"not_important\": \"no\"}, \"value\": \"val1\"}, {\"name\": {\"first\": \"c\", \"second\": \"d\", \"not_important\": \"no\"}, \"value\": \"val2\"}]` is_auto_json_transform=true\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nname",
+    "!JsonToTable value=`[{\"name\": {\"first\": \"a\", \"second\": \"b\", \"not_important\": \"no\"}, \"value\": \"val1\"}, {\"name\": {\"first\": \"c\", \"second\": \"d\", \"not_important\": \"no\"}, \"value\": \"val2\"}]` json_transform_properties=`{\"name\": {\"keys\": [\"first\", \"second\"]}}`\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nname",
+    "!JsonToTable value=`[{\"name\": {\"first\": {\"a\": \"val\"}, \"second\": \"b\", \"not_important\": \"no\"}, \"value\": \"val1\"}, {\"name\": {\"first\": {\"a\": \"val2\"}, \"second\": \"d\", \"not_important\": \"no\"}, \"value\": \"val2\"}]` json_transform_properties=`{\"name\": {\"keys\": [\"a\", \"second\"], \"is_nested\": \"true\"}}`\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nname"
+  ],
+  "kind": "script",
+  "name": "JsonToTable",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!JsonToTable value=`[{\"name\": \"name1\", \"value\": \"val1\"}, {\"name\": \"name2\", \"value\" : \"val2\"}]`",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "JsonToTable",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/json-to-table"
+}

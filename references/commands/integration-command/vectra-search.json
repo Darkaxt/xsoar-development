@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Advanced search on hosts and detections",
+  "examples": [
+    "Command Example\n!vectra-search query_string=\"host.threat:>=20 and host.certainty:>=20\" search_type=hosts\nContext Example\n{\n\"Vectra.Host\": [\n{\n\"Certainty_Score\": 33,\n\"Hostname\": \"BThomas-Win7\",",
+    "!vectra-search query_string=\"host.threat:>=20 and host.certainty:>=20\" search_type=hosts\nContext Example\n{\n\"Vectra.Host\": [\n{\n\"Certainty_Score\": 33,\n\"Hostname\": \"BThomas-Win7\",\n\"ID\": 7,"
+  ],
+  "kind": "integration-command",
+  "name": "vectra-search",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Vectra v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vectra-v2"
+}

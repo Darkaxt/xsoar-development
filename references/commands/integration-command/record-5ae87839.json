@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2020-02-26T14:35:55.698549Z",
+  "examples": [
+    "Command Example\n#\n!blueliv-tc-signature signature_id=84458\nContext Example\n#\n{\n\"signature\": {\n\"malware\": 0,",
+    "!blueliv-tc-signature signature_id=84458\nContext Example\n#\n{\n\"signature\": {\n\"malware\": 0,\n\"malwareIds\": \"\",\n\"name\": \"ET TROJAN DonotGroup Staging Domain in DNS Query (sid 2030333)\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Signature name BluelivThreatContext.signature.updatedAt Signature updated at",
+      "name": "BluelivThreatContext.signature.name",
+      "required": ""
+    },
+    {
+      "description": "Signature IPs internal IDs BluelivThreatContext.signature.malware Signature malware",
+      "name": "BluelivThreatContext.signature.ipIds",
+      "required": ""
+    },
+    {
+      "description": "Signature malwares internal IDs BluelivThreatContext.signature.score Signature score",
+      "name": "BluelivThreatContext.signature.malwareIds",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Blueliv ThreatContext",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/blueliv-threat-context"
+}

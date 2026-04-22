@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Verify if the user has the necessary permissions to execute the operation",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Zafran API \u00bb Zabbix Playbook",
+      "name": "\u00ab Xsoar_Utils",
+      "required": ""
+    },
+    {
+      "description": "Fetched Incidents Data Commands 1. zabbix-execute-command",
+      "name": "Configure Zabbix on Cortex XSOAR",
+      "required": ""
+    },
+    {
+      "description": "2. zabbix-hostgroup-get zabbix-hostgroup-get 3. zabbix-host-get",
+      "name": "zabbix-execute-command",
+      "required": ""
+    },
+    {
+      "description": "4. zabbix-trigger-get zabbix-trigger-get 5. zabbix-event-get",
+      "name": "zabbix-host-get",
+      "required": ""
+    },
+    {
+      "description": "Additional Information Known Limitations Troubleshooting",
+      "name": "zabbix-event-get",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "test-module",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Zabbix",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/zabbix"
+}

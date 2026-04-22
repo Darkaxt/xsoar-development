@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "cisco-ise-assign-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The MAC address of the endpoint. CiscoISE.Endpoint.PolicyName The policy name that was applied to the endpoint.",
+      "name": "CiscoISE.Endpoint.MACAddress",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ISE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-ise"
+}

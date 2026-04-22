@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!autofocus-daily-get-indicators limit=4\nHuman Readable Output\n#\nIndicators from AutoFocus\n#\nValue",
+    "!autofocus-daily-get-indicators limit=4\nHuman Readable Output\n#\nIndicators from AutoFocus\n#\nValue\nType\ndemsito\\<Span>.com",
+    "!autofocus-daily-get-indicators limit=4 offset=4\nEdit this page\nReport an Issue\nPrevious\n\u00ab Augur Security\nNext\nAutoFocus Feed (Deprecated) \u00bb\nConfigure AutoFocus Feed in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AutoFocus Daily Feed (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/auto-focus-daily-feed"
+}

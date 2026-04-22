@@ -1,0 +1,119 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Ticket assign status code",
+  "examples": [
+    "Command Example\n!secure-works-assign-ticket id=\"SR11525106\" worklog=\"test\"\nHuman Readable Output\n7. Retrieve tickets from previous 24 hours\nRetrieves tickets from the 24 hours prior to when the updates command is executed. If a limit is specified, it will retrieve up to that many tickets (max is 500 tickets). Tickets must be updated within the last 24 hours to be visible in the command results. When executing this command you also receive the ticket worklogs. In order to view the attachment information of a specific ticket, you must use the get-ticket command. This command will return the list of attachments available for that particular ticket. Use acknowledge to confirm the updates.\nBase Command\nsecure-works-get-tickets-updates\nInput",
+    "!secure-works-assign-ticket id=\"SR11525106\" worklog=\"test\"\nHuman Readable Output\n7. Retrieve tickets from previous 24 hours\nRetrieves tickets from the 24 hours prior to when the updates command is executed. If a limit is specified, it will retrieve up to that many tickets (max is 500 tickets). Tickets must be updated within the last 24 hours to be visible in the command results. When executing this command you also receive the ticket worklogs. In order to view the attachment information of a specific ticket, you must use the get-ticket command. This command will return the list of attachments available for that particular ticket. Use acknowledge to confirm the updates.\nBase Command\nsecure-works-get-tickets-updates\nInput\nArgument Name",
+    "Command Example\n!secure-works-get-tickets-updates acknowledge=\"false\nContext Example\n{\n\"SecureWorks\": {\n\"Ticket\": [\n{\n\"assignedGroup\": \"ESC - OpIntel\",",
+    "!secure-works-get-tickets-updates acknowledge=\"false\nContext Example\n{\n\"SecureWorks\": {\n\"Ticket\": [\n{\n\"assignedGroup\": \"ESC - OpIntel\",\n\"attachmentInfo\": ["
+  ],
+  "kind": "integration-command",
+  "name": "secure-works-get-tickets-updates",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket change approval SecureWorks.Ticket.attachmentInfo.id Ticket attachment info ID",
+      "name": "SecureWorks.Ticket.changeApproval",
+      "required": ""
+    },
+    {
+      "description": "Ticket change service level objective SecureWorks.Ticket.changeWindowStart Ticket change window start",
+      "name": "SecureWorks.Ticket.changeSlo",
+      "required": ""
+    },
+    {
+      "description": "Ticket change window end SecureWorks.Ticket.client.id Ticket client ID",
+      "name": "SecureWorks.Ticket.changeWindowEnd",
+      "required": ""
+    },
+    {
+      "description": "Ticket client name SecureWorks.Ticket.contact.id Ticket contact ID",
+      "name": "SecureWorks.Ticket.client.name",
+      "required": ""
+    },
+    {
+      "description": "Ticket contact name SecureWorks.Ticket.dateCreated Ticket creation time",
+      "name": "SecureWorks.Ticket.contact.name",
+      "required": ""
+    },
+    {
+      "description": "Ticket closing time SecureWorks.Ticket.dateModified Ticket modified",
+      "name": "SecureWorks.Ticket.dateClosed",
+      "required": ""
+    },
+    {
+      "description": "Ticket detailed description SecureWorks.Ticket.devices.id Ticket device ID",
+      "name": "SecureWorks.Ticket.detailedDescription",
+      "required": ""
+    },
+    {
+      "description": "Ticket device name SecureWorks.Ticket.impact Ticket impact",
+      "name": "SecureWorks.Ticket.devices.name",
+      "required": ""
+    },
+    {
+      "description": "Ticket client location ID SecureWorks.Ticket.partner Ticket partner",
+      "name": "SecureWorks.Ticket.clientLocation.id",
+      "required": ""
+    },
+    {
+      "description": "Ticket priority SecureWorks.Ticket.reason Ticket closure reason",
+      "name": "SecureWorks.Ticket.priority",
+      "required": ""
+    },
+    {
+      "description": "Ticket request type SecureWorks.Ticket.riskAssessment Ticket risk assessment",
+      "name": "SecureWorks.Ticket.requestType",
+      "required": ""
+    },
+    {
+      "description": "Ticket service SecureWorks.Ticket.status Ticket status",
+      "name": "SecureWorks.Ticket.service",
+      "required": ""
+    },
+    {
+      "description": "Ticket symptom description SecureWorks.Ticket.ticketId Ticket ID",
+      "name": "SecureWorks.Ticket.symptomDescription",
+      "required": ""
+    },
+    {
+      "description": "Ticket type SecureWorks.Ticket.urgency Ticket urgency",
+      "name": "SecureWorks.Ticket.type",
+      "required": ""
+    },
+    {
+      "description": "Ticket watchers SecureWorks.Ticket.category Ticket category",
+      "name": "SecureWorks.Ticket.watchers",
+      "required": ""
+    },
+    {
+      "description": "Ticket category class SecureWorks.Ticket.categoryType Ticket category class",
+      "name": "SecureWorks.Ticket.categoryClass",
+      "required": ""
+    },
+    {
+      "description": "Ticket category item SecureWorks.Ticket.attachmentInfo.name Ticket attachment name",
+      "name": "SecureWorks.Ticket.categoryItem",
+      "required": ""
+    },
+    {
+      "description": "Ticket client location name SecureWorks.Ticket.worklogs.createdBy Ticket worklog creator",
+      "name": "SecureWorks.Ticket.clientLocation.name",
+      "required": ""
+    },
+    {
+      "description": "Ticket worklog creation date SecureWorks.Ticket.worklogs.description Ticket worklog description",
+      "name": "SecureWorks.Ticket.worklogs.dateCreated",
+      "required": ""
+    },
+    {
+      "description": "Ticket worklog type SecureWorks.Ticket.closeCodes Ticket close codes",
+      "name": "SecureWorks.Ticket.worklogs.type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Dell Secureworks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dell-secureworks"
+}

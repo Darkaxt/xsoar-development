@@ -1,0 +1,138 @@
+{
+  "artifact_types": [
+    {
+      "artifact_type": "packaged-script-yml",
+      "classifier": {
+        "path_hints": [
+          "Scripts/<ScriptName>/<ScriptName>.yml"
+        ],
+        "top_level_fields": [
+          "commonfields",
+          "name",
+          "script",
+          "type",
+          "subtype"
+        ]
+      },
+      "path": "packaged-script-yml.json"
+    },
+    {
+      "artifact_type": "exported-automation-yml",
+      "classifier": {
+        "path_hints": [
+          "draft-exports/<AutomationName>.yml"
+        ],
+        "top_level_fields": [
+          "commonfields",
+          "name",
+          "script",
+          "type",
+          "subtype"
+        ]
+      },
+      "path": "exported-automation-yml.json"
+    },
+    {
+      "artifact_type": "python-runtime-script",
+      "classifier": {
+        "path_hints": [
+          "Scripts/<ScriptName>/<ScriptName>.py"
+        ],
+        "top_level_fields": []
+      },
+      "path": "python-runtime-script.json"
+    },
+    {
+      "artifact_type": "playbook-yml",
+      "classifier": {
+        "top_level_fields": [
+          "id",
+          "name",
+          "tasks",
+          "starttaskid",
+          "inputs",
+          "outputs"
+        ]
+      },
+      "path": "playbook-yml.json"
+    },
+    {
+      "artifact_type": "incident-field-json",
+      "classifier": {
+        "top_level_fields": [
+          "id",
+          "name",
+          "type"
+        ]
+      },
+      "path": "incident-field-json.json"
+    },
+    {
+      "artifact_type": "incident-type-json",
+      "classifier": {
+        "top_level_fields": [
+          "id",
+          "name"
+        ]
+      },
+      "path": "incident-type-json.json"
+    },
+    {
+      "artifact_type": "list-json",
+      "classifier": {
+        "top_level_fields": [
+          "id",
+          "name",
+          "data"
+        ]
+      },
+      "path": "list-json.json"
+    },
+    {
+      "artifact_type": "layout-json",
+      "classifier": {
+        "top_level_fields": [
+          "id",
+          "name",
+          "group"
+        ]
+      },
+      "path": "layout-json.json"
+    },
+    {
+      "artifact_type": "dashboard-json",
+      "classifier": {
+        "top_level_fields": [
+          "id",
+          "name",
+          "layout"
+        ]
+      },
+      "path": "dashboard-json.json"
+    },
+    {
+      "artifact_type": "classifier-mapper-json",
+      "classifier": {
+        "top_level_fields": [
+          "id",
+          "name",
+          "type"
+        ]
+      },
+      "path": "classifier-mapper-json.json"
+    },
+    {
+      "artifact_type": "pack-metadata-json",
+      "classifier": {
+        "path_hints": [
+          "pack_metadata.json"
+        ],
+        "top_level_fields": [
+          "name",
+          "description"
+        ]
+      },
+      "path": "pack-metadata-json.json"
+    }
+  ]
+}

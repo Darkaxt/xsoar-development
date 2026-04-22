@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "5. Get IP address report",
+  "examples": [
+    "Command Example\n!vt-private-get-ip-report ip=8.8.8.8\u00a0fullResponse=\"false\"\nContext Example\n{\n\"ASN\": \"15169\",\n\"Address\": \"8.8.8.8\",\n\"Geo\": {\n\"Country\": \"US\"",
+    "!vt-private-get-ip-report ip=8.8.8.8\u00a0fullResponse=\"false\"\nContext Example\n{\n\"ASN\": \"15169\",\n\"Address\": \"8.8.8.8\",\n\"Geo\": {\n\"Country\": \"US\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "vt-private-get-ip-report",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Bad IP address found IP.ASN Bad IP ASN",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "Bad IP country IP.Malicious.Vendor For malicious IPs, the vendor that made the decision",
+      "name": "IP.Geo.Country",
+      "required": ""
+    },
+    {
+      "description": "For malicious IPs, the reason that the vendor made the decision DBotScore.Indicator The indicator that was tested",
+      "name": "IP.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The type of the indicator DBotScore.Vendor Vendor used to calculate the score",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score IP.VirusTotal.DownloadedHashes Latest files that are detected by at least one antivirus solution and were downloaded by VirusTotal from the IP address",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "Latest files that are not detected by any antivirus solution and were downloaded by VirusTotal from the IP address provided IP.VirusTotal.DetectedURLs Latest URLs hosted in this IP address detected by at least one URL scanner",
+      "name": "IP.VirusTotal.UnAVDetectedDownloadedHashes",
+      "required": ""
+    },
+    {
+      "description": "Latest detected files that communicate with this IP address IP.VirusTotal.UnAVDetectedCommunicatingHashes Latest undetected files that communicate with this IP address",
+      "name": "IP.VirusTotal.CommunicatingHashes",
+      "required": ""
+    },
+    {
+      "description": "The following domains resolved to the given IP IP.VirusTotal.ReferrerHashes Latest detected files that embed this IP address in their strings",
+      "name": "IP.VirusTotal.Resolutions.hostname",
+      "required": ""
+    },
+    {
+      "description": "Latest undetected files that embed this IP address in their strings IP.VirusTotal.Resolutions.last_resolved The last time the following domains resolved to the given IP",
+      "name": "IP.VirusTotal.UnAVDetectedReferrerHashes",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VirusTotal - Private API (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/virus-total---private-api"
+}

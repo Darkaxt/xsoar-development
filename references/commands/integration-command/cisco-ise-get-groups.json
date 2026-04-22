@@ -1,0 +1,35 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "!cisco-ise-update-endpoint-group groupName=Blacklist id=7d5e0530-133c-11e9-a5db-02420d3c5249",
+  "examples": [
+    "Command Example\n!cisco-ise-update-endpoint-group groupName=Blacklist id=7d5e0530-133c-11e9-a5db-02420d3c5249\nHuman Readable Output\nEndpoint 7d5e0530-133c-11e9-a5db-02420d3c5249 updated successfully\n7. Get a collection of endpoint identity groups\nRetrieves a collection of endpoint identity groups.\nBase Command\ncisco-ise-get-groups",
+    "!cisco-ise-update-endpoint-group groupName=Blacklist id=7d5e0530-133c-11e9-a5db-02420d3c5249\nHuman Readable Output\nEndpoint 7d5e0530-133c-11e9-a5db-02420d3c5249 updated successfully\n7. Get a collection of endpoint identity groups\nRetrieves a collection of endpoint identity groups.\nBase Command\ncisco-ise-get-groups\nInput",
+    "Command Example\n!cisco-ise-get-groups\nContext Example\n{\n\"CiscoISE.Group\": [\n{\n\"Name\": \"Sony-Device\",\n\"Description\": \"Identity Group for Profile: Sony-Device\",",
+    "!cisco-ise-get-groups\nContext Example\n{\n\"CiscoISE.Group\": [\n{\n\"Name\": \"Sony-Device\",\n\"Description\": \"Identity Group for Profile: Sony-Device\",\n\"ID\": \"38a73670-8c00-11e6-996c-525400b48521\""
+  ],
+  "kind": "integration-command",
+  "name": "cisco-ise-get-groups",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The description of the endpoint identity groups. CiscoISE.Group.ID The ID of the endpoint identity groups.",
+      "name": "CiscoISE.Group.Description",
+      "required": ""
+    },
+    {
+      "description": "The name of the endpoint identity groups.",
+      "name": "CiscoISE.Group.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ISE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-ise"
+}

@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Submission of malware and other files for community sharing",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next FireEye NX \u00bb ip",
+      "name": "\u00ab FireEye HX Event Collector",
+      "required": ""
+    },
+    {
+      "description": "file isight-get-report isight-submit-file",
+      "name": "domain",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FireEye iSIGHT",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fire-eye-i-sight"
+}

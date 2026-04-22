@@ -1,0 +1,57 @@
+{
+  "aliases": [
+    "health-check-incident-types"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "HealthCheckIncidentTypes | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "HealthCheckIncidentTypes",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Troubleshooting",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "automation. Make sure the Use tenant parameter (in the Cortex Rest API integration) is checked",
+      "name": "Multi-tenant environments should be configured with the Cortex Rest API instance when using this",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "to ensure that API calls are made to the current tenant instead of the master tenant.",
+      "required": ""
+    },
+    {
+      "description": "Next HealthCheckInstalledPacks \u00bb Script Data",
+      "name": "\u00ab HealthCheckIncidentsCreatedWeekly",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Troubleshooting",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HealthCheckIncidentTypes",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/health-check-incident-types"
+}

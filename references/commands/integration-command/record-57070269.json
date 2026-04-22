@@ -1,0 +1,109 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "SafeBreach.Simulator.status",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of User whose data has been updated. SafeBreach.User.name The name of User after running the update command according to safebreach records.",
+      "name": "SafeBreach.User.id",
+      "required": ""
+    },
+    {
+      "description": "the email of the user whose data has been updated by the command. SafeBreach.User.createdAt the time at which the user who has been selected has been created",
+      "name": "SafeBreach.User.email",
+      "required": ""
+    },
+    {
+      "description": "The last updated time of User selected for update. this will be the execution time for the command or close to it. SafeBreach.User.deletedAt The Deletion time of User selected to update. Generally this is empty unless user chosen to update is a deleted user",
+      "name": "SafeBreach.User.updatedAt",
+      "required": ""
+    },
+    {
+      "description": "The roles of User updated. these will change if role has been updated during updating user details else they will be same as pre update. SafeBreach.User.description The description of User after updating user, if description field has been given any new value during update then its updated else this will be left unchanged from previous value.",
+      "name": "SafeBreach.User.roles",
+      "required": ""
+    },
+    {
+      "description": "The roles and permissions related to user who has been selected for update.unless this field has been given a value , this will not be updated and will stay the same as previous value. SafeBreach.User.deployments The deployments related to user, this will be comma separated values of deployment IDs",
+      "name": "SafeBreach.User.role",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab SaaS Security Event Collector",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "SafeBreach (Deprecated) \u00bb Configure Safebreach in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "safebreach-generate-api-key safebreach-create-deployment safebreach-create-user",
+      "name": "safebreach-approve-simulator",
+      "required": ""
+    },
+    {
+      "description": "safebreach-delete-deployment safebreach-clear-integration-issues safebreach-delete-scheduled-scenarios",
+      "name": "safebreach-delete-api-key",
+      "required": ""
+    },
+    {
+      "description": "safebreach-delete-test-with-id safebreach-delete-user safebreach-get-integration-issues",
+      "name": "safebreach-delete-simulator",
+      "required": ""
+    },
+    {
+      "description": "safebreach-get-running-tests safebreach-get-available-simulator-details safebreach-get-tests",
+      "name": "safebreach-get-running-simulations",
+      "required": ""
+    },
+    {
+      "description": "safebreach-get-all-users safebreach-get-custom-scenarios safebreach-list-deployments",
+      "name": "safebreach-get-tests-with-scenario-id",
+      "required": ""
+    },
+    {
+      "description": "safebreach-get-simulator-download-links safebreach-get-prebuilt-scenarios safebreach-get-scheduled-scenarios",
+      "name": "safebreach-get-indicators",
+      "required": ""
+    },
+    {
+      "description": "safebreach-get-simulations safebreach-get-available-simulator-count safebreach-get-simulator-with-id",
+      "name": "safebreach-get-services-status",
+      "required": ""
+    },
+    {
+      "description": "safebreach-get-user-with-matching-name-or-email safebreach-get-verification-token safebreach-pause/resume-simulations-tests",
+      "name": "safebreach-get-simulators-versions-list",
+      "required": ""
+    },
+    {
+      "description": "safebreach-rerun-test safebreach-rotate-verification-token safebreach-update-deployment",
+      "name": "safebreach-rerun-simulation",
+      "required": ""
+    },
+    {
+      "description": "safebreach-upgrade-simulator safebreach-update-user Docs",
+      "name": "safebreach-update-simulator",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SafeBreach",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/safebreach"
+}

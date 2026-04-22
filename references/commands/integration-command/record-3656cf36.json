@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Error: confirmation failed.",
+  "examples": [
+    "Command Example\n#\n!azure-risky-users-confirm-compromise user=user_id_1,name2@test.com,name3@test.com\nContext Example\n#\n{\n\"AzureRiskyUsers\"\n:",
+    "!azure-risky-users-confirm-compromise user=user_id_1,name2@test.com,name3@test.com\nContext Example\n#\n{\n\"AzureRiskyUsers\"\n:\n{\n\"Remediation\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the user. AzureRiskyUsers.Remediation.UserPrincipalName The UPN of the user. This key will be populated only if the user's UPN is provided.",
+      "name": "AzureRiskyUsers.Remediation.UserID",
+      "required": ""
+    },
+    {
+      "description": "Whether the new state was applied successfully. AzureRiskyUsers.Remediation.RiskState The new risk state of the user.",
+      "name": "AzureRiskyUsers.Remediation.Success",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Risky Users",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-risky-users"
+}

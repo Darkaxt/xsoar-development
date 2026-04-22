@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Request successfully linked",
+  "examples": [
+    "Command Example\n#\n!service-desk-plus-request-close request_id=123640000000288001\nContext Example\n#\n{}\nHuman Readable Output\n#",
+    "!service-desk-plus-request-close request_id=123640000000288001\nContext Example\n#\n{}\nHuman Readable Output\n#\nSuccessfully closed request 123640000000288001\n#"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Service Desk Plus (On-Premise) (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-desk-plus-on-premise"
+}

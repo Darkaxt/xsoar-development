@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Classification description (human-readable).",
+  "examples": [
+    "Command Example\n!vulndb-get-vuln-by-id vuln_id=\"1\"\nHuman Readable Output\n2. Get information for a vendor\nReturns all, or specific, vendor details to include vendor name and ID.\nBase Command\nvulndb-get-vendor\nInput",
+    "!vulndb-get-vuln-by-id vuln_id=\"1\"\nHuman Readable Output\n2. Get information for a vendor\nReturns all, or specific, vendor details to include vendor name and ID.\nBase Command\nvulndb-get-vendor\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "vulndb-get-vendor",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Result ID. VulnDB.Results.Name Result name.",
+      "name": "VulnDB.Results.Id",
+      "required": ""
+    },
+    {
+      "description": "Result short name. VulnDB.Results.VendorUrl",
+      "name": "VulnDB.Results.ShortName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VulnDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vuln-db"
+}

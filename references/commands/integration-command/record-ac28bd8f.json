@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "File fraud_test.txt was uploaded successfully to incident with an incident id JJJ-604206",
+  "examples": [
+    "Command Example\n#\n!fraudwatch-brands-list\nContext Example\n#\n{\n\"FraudWatch\"\n:",
+    "!fraudwatch-brands-list\nContext Example\n#\n{\n\"FraudWatch\"\n:\n{\n\"Brand\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Brand client. FraudWatch.Brand.alternate business name Brand alternative business name.",
+      "name": "FraudWatch.Brand.client",
+      "required": ""
+    },
+    {
+      "description": "Brand name. FraudWatch.Brand.active Wether the brand is active or not.",
+      "name": "FraudWatch.Brand.name",
+      "required": ""
+    },
+    {
+      "description": "Brand service name. FraudWatch.Brand.services.action Brand service action.",
+      "name": "FraudWatch.Brand.services.name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FraudWatch",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fraud-watch"
+}

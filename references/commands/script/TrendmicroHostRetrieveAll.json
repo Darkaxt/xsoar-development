@@ -1,0 +1,47 @@
+{
+  "aliases": [
+    "trendmicro-host-retrieve-all"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "TrendmicroHostRetrieveAll | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "TrendmicroHostRetrieveAll",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next TrendmicroSecurityProfileAssignToHost \u00bb Script Data",
+      "name": "\u00ab TrendmicroHostAntimalwareScan",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TrendmicroHostRetrieveAll",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/trendmicro-host-retrieve-all"
+}

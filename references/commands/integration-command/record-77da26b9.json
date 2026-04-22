@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "List all available appliances for all organizations/tenants, with a limit of max 25 appliances per organization.",
+  "examples": [
+    "!vd-appliance-list limit=3\nContext Example\n#\n{\n\"VersaDirector\"\n:\n{\n\"Appliance\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Appliance name. VersaDirector.Appliance.uuid Appliance UUID.",
+      "name": "VersaDirector.Appliance.name",
+      "required": ""
+    },
+    {
+      "description": "Appliance IP address. VersaDirector.Appliance.appType Appliance application type.",
+      "name": "VersaDirector.Appliance.ipAddress",
+      "required": ""
+    },
+    {
+      "description": "Application branch ID.",
+      "name": "VersaDirector.Appliance.branchId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Versa Director",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/versa-director"
+}

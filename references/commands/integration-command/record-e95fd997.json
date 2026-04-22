@@ -1,0 +1,74 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Returns a list of watchlists' names and IDs.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the watchlist. McAfeeESM.Watchlist.id The ID of the watchlist.",
+      "name": "McAfeeESM.Watchlist.name",
+      "required": ""
+    },
+    {
+      "description": "The type of the watchlist. Edit this page Report an Issue",
+      "name": "McAfeeESM.Watchlist.type",
+      "required": ""
+    },
+    {
+      "description": "\u00ab McAfee ESM v10 and v11 (Deprecated) Next McAfee NSM (Deprecated) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Required Permissions Commands esm-fetch-fields",
+      "name": "Configure McAfee ESM v2 in Cortex",
+      "required": ""
+    },
+    {
+      "description": "esm-fetch-alarms esm-get-case-list esm-add-case",
+      "name": "esm-search",
+      "required": ""
+    },
+    {
+      "description": "esm-get-case-statuses esm-edit-case-status esm-get-case-detail",
+      "name": "esm-edit-case",
+      "required": ""
+    },
+    {
+      "description": "esm-add-case-status esm-delete-case-status esm-get-organization-list",
+      "name": "esm-get-case-event-list",
+      "required": ""
+    },
+    {
+      "description": "esm-acknowledge-alarms esm-unacknowledge-alarms esm-delete-alarms",
+      "name": "esm-get-user-list",
+      "required": ""
+    },
+    {
+      "description": "esm-list-alarm-events esm-create-watchlist esm-delete-watchlist",
+      "name": "esm-get-alarm-event-details",
+      "required": ""
+    },
+    {
+      "description": "esm-watchlist-delete-entry esm-watchlist-list-entries esm-get-watchlists",
+      "name": "esm-watchlist-add-entry",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v2"
+}

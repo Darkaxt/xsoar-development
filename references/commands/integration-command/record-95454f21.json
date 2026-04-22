@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab CrowdStrike Falcon Intel (Deprecated)\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Intel Feed Actors",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/crowdstrike-falcon-intel-feed"
+}

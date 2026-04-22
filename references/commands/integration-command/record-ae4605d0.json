@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "vectra-entity-reset-fetch",
+  "examples": [
+    "!vectra-entity-reset-fetch entity_id=1 entity_type=host\nHuman Readable Output\n#\nReset fetch status for 1-host\nEdit this page\nReport an Issue\nPrevious\n\u00ab Vectra v2 (Deprecated)"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Vectra XDR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vectra-xdr"
+}

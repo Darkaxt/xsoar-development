@@ -1,0 +1,97 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!bigfix-get-endpoint computer_id=3385267\nContext Example\n{\n\"Bigfix\": {\n\"Endpoint\": {\n\"UserName\": \"Administrator\",\n\"BESRootServer\": \"win-cqd6uqjia7j (0)\",",
+    "!bigfix-get-endpoint computer_id=3385267\nContext Example\n{\n\"Bigfix\": {\n\"Endpoint\": {\n\"UserName\": \"Administrator\",\n\"BESRootServer\": \"win-cqd6uqjia7j (0)\",\n\"TotalSizeofSystemDrive\": \"101896 MB\","
+  ],
+  "kind": "integration-command",
+  "name": "bigfix-get-endpoint",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Endpoint (computer) Bigfix.Endpoint.ID The if of the endpoint (computer ID)",
+      "name": "Bigfix.Endpoint",
+      "required": ""
+    },
+    {
+      "description": "URL to the endpoint details Bigfix.Endpoint.LastReportTime date",
+      "name": "Bigfix.Endpoint.Resource",
+      "required": ""
+    },
+    {
+      "description": "Bigfix.Endpoint.ActiveDirectoryPath Active directory path of the endpoint device Bigfix.Endpoint.AgentType",
+      "name": "Last report time of the endpoint",
+      "required": ""
+    },
+    {
+      "description": "Agent Type of the endpoint Bigfix.Endpoint.AgentVersion Agent version of the endpoint",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Relay selection method of the endpoint Bigfix.Endpoint.BESRelayServiceInstalled Relay service installed of the endpoint",
+      "name": "Bigfix.Endpoint.BESRelaySelectionMethod",
+      "required": ""
+    },
+    {
+      "description": "Root server of the endpoint Bigfix.Endpoint.BIOS BIOS of the endpoint",
+      "name": "Bigfix.Endpoint.BESRootServer",
+      "required": ""
+    },
+    {
+      "description": "CPU of the endpoint Bigfix.Endpoint.ClientSettings Client settings of the endpoint",
+      "name": "Bigfix.Endpoint.CPU",
+      "required": ""
+    },
+    {
+      "description": "Computer name of the endpoint Bigfix.Endpoint.ComputerType Computer type of the endpoint",
+      "name": "Bigfix.Endpoint.ComputerName",
+      "required": ""
+    },
+    {
+      "description": "DNS name of the endpoint Bigfix.Endpoint.DeviceType Device type of the endpoint device",
+      "name": "Bigfix.Endpoint.DNSName",
+      "required": ""
+    },
+    {
+      "description": "Distance to BES Relay of the endpoint Bigfix.Endpoint.FreeSpaceonSystemDrive Free space on system drive of the endpoint",
+      "name": "Bigfix.Endpoint.DistancetoBESRelay",
+      "required": ""
+    },
+    {
+      "description": "IP of the endpoint Bigfix.Endpoint.LicenseType License of the endpoint",
+      "name": "Bigfix.Endpoint.IPAddress",
+      "required": ""
+    },
+    {
+      "description": "Locked of the endpoint Bigfix.Endpoint.OS OS of the endpoint",
+      "name": "Bigfix.Endpoint.Locked",
+      "required": ""
+    },
+    {
+      "description": "RAM of the endpoint Bigfix.Endpoint.Relay Relay of the endpoint",
+      "name": "Bigfix.Endpoint.RAM",
+      "required": ""
+    },
+    {
+      "description": "Relay Name of the client Bigfix.Endpoint.SubnetAddress Subnet Address of the endpoint",
+      "name": "Bigfix.Endpoint.RelayNameOfClient",
+      "required": ""
+    },
+    {
+      "description": "Subscribed sites Bigfix.Endpoint.TotalSizeofSystemDrive Total size of system drive",
+      "name": "Bigfix.Endpoint.SubscribedSites",
+      "required": ""
+    },
+    {
+      "description": "User name",
+      "name": "Bigfix.Endpoint.UserName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BigFix",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/big-fix"
+}

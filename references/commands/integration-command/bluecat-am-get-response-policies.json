@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2. Get all response policies",
+  "examples": [
+    "Command Example\nbluecat-am-get-response-policies start=\"0\" count=\"30\"\nContext Example\n{\n\"BlueCat.AddressManager.ResponsePolicies\": [\n{\n\"RedirectTarget\": \"foo.com\",\n\"ResponsePolicyType\": \"REDIRECT\","
+  ],
+  "kind": "integration-command",
+  "name": "bluecat-am-get-response-policies",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the response policy. BlueCat.AddressManager.ResponsePolicies.Name Name of the response policy.",
+      "name": "BlueCat.AddressManager.ResponsePolicies.ID",
+      "required": ""
+    },
+    {
+      "description": "Time to live (TTL) of the response policy. BlueCat.AddressManager.ResponsePolicies.Type Type of the response policy (BLACKLIST, BLACKHOLE, WHITELIST, or REDIRECT).",
+      "name": "BlueCat.AddressManager.ResponsePolicies.Ttl",
+      "required": ""
+    },
+    {
+      "description": "Target of redirect, in case of REDIRECT policy type.",
+      "name": "BlueCat.AddressManager.ResponsePolicies.RedirectTarget",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Bluecat Address Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bluecat-address-manager"
+}

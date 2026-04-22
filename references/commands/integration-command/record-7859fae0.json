@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!smb-directory-remove path=Shared/Tests\nHuman Readable Output\n#\nDirectory: 127.0.0.1/Shared/Tests was removed successfully\nEdit this page\nReport an Issue",
+    "!smb-directory-remove path=Shared/Tests\nHuman Readable Output\n#\nDirectory: 127.0.0.1/Shared/Tests was removed successfully\nEdit this page\nReport an Issue\nPrevious\n\u00ab Server Message Block (SMB) (Deprecated)"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Server Message Block (SMB) v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/server-message-block-smb-v2"
+}

@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "google-sheets-spreadsheet-update",
+  "examples": [
+    "!google-sheets-spreadsheet-update spreadsheet_id=1EwL7rqcSVdkXCAwuGt4jIiDrDUEKW3bmP63dqTBolfk requests=\n{\"requests\": [{\"copyPaste\": {\"destination\": {\"startRowIndex\": 0, \"startColumnIndex\": 0, \"endRowIndex\": 5, \"endColumnIndex\": 5, \"sheetId\": 3}, \"pasteOrientation\": \"TRANSPOSE\", \"source\": {\"sheetId\": 3, \"startRowIndex\": 0, \"startColumnIndex\": 0, \"endColumnIndex\": 5, \"endRowIndex\": 5}, \"pasteType\": \"PASTE_NORMAL\"}}]}````\nHuman Readable Output\n#\nSuccess\n#\nEdit this page\nReport an Issue"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Spreadsheet title. GoogleSheets.Spreadsheet.spreadsheetId Spreadsheet ID.",
+      "name": "GoogleSheets.Spreadsheet.updatedSpreadsheet.properties.title",
+      "required": ""
+    },
+    {
+      "description": "Spreadsheet URL. GoogleSheets.Spreadsheet.updatedSpreadsheet.sheets.sheetId Sheet ID.",
+      "name": "GoogleSheets.Spreadsheet.updatedSpreadsheet.spreadsheetUrl",
+      "required": ""
+    },
+    {
+      "description": "Sheet title.",
+      "name": "GoogleSheets.Spreadsheet.updatedSpreadsheet.sheets.title",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Sheets",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-sheets"
+}

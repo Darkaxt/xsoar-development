@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "EclecticIQ_create_observable",
+  "examples": [
+    "Command Example\n#\n!EclecticIQ_create_observable type=\"ipv4\" value=\"001.001.001.001\" maliciousness=\"high\"\nContext Example\n#\n{\n\"Observables\"\n:",
+    "!EclecticIQ_create_observable type=\"ipv4\" value=\"001.001.001.001\" maliciousness=\"high\"\nContext Example\n#\n{\n\"Observables\"\n:\n{\n\"Data\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Observable Type Observables.Data.data.value Observable Value",
+      "name": "Observables.Data.data.type",
+      "required": ""
+    },
+    {
+      "description": "Observable maliciousness",
+      "name": "Observables.Data.data.maliciousness",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EclecticIQ Platform v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/eclectic-iq-platform-v2"
+}

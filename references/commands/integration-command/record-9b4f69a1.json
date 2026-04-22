@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Additional Information",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "All timestamps are in UTC Edit this page Report an Issue",
+      "name": "Timezone:",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Image OCR Next Impartner \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "iManage Threat Manager Authentication Application Token Authentication (for Behavior Analytics alerts) User Sign-in Authentication (for Addressable Alerts and Detect And Protect Alerts)",
+      "name": "Configure iManage Threat Manager in Cortex",
+      "required": ""
+    },
+    {
+      "description": "imanage-threat-manager-get-events Additional Information Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "iManage Threat Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/i-manage-threat-manager"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!doh-resolve domain=domain.com\nContext Example\n#\n{\n\"DNSOverHTTPS\"\n:",
+    "!doh-resolve domain=domain.com\nContext Example\n#\n{\n\"DNSOverHTTPS\"\n:\n{\n\"Results\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List DNS query results",
+      "name": "DNSOverHTTPS.Results",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DNSOverHttps",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dns-over-https"
+}

@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "............................",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "symantec-mss-get-incident",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Managed Security Services",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-mss"
+}

@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next DeCYFIR Indicators & Threat Intelligence Feed \u00bb Configure DeCYFIR Event Collector in Cortex",
+      "name": "\u00ab DeCYFIR",
+      "required": ""
+    },
+    {
+      "description": "decyfir-get-events Docs Developer Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DeCYFIR Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/decyfir-event-collector"
+}

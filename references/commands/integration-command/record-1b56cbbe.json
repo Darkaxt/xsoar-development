@@ -1,0 +1,192 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!greynoise-community-lookup ips=1.1.1.1",
+    "!greynoise-community-lookup ips=1.1.1.1"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Reliability The reliability value.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. IP.Address IP address.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "ASN Value. IP.Geo.Country Source Country.",
+      "name": "IP.ASN",
+      "required": ""
+    },
+    {
+      "description": "Additional Geo Information - City, Region, Country Code. IP.Hostname rDNS value.",
+      "name": "IP.Geo.Description",
+      "required": ""
+    },
+    {
+      "description": "Description of Malicious IP. IP.Malicious.Vendor Vendor Identifying IP as Malicious.",
+      "name": "IP.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Name of identified organization scanning. GreyNoise.IP.address The IP address of the scanning device IP.",
+      "name": "GreyNoise.IP.actor",
+      "required": ""
+    },
+    {
+      "description": "Identifies if the IP is associated with BOT activity. GreyNoise.IP.category If a business service, identifies the category.",
+      "name": "GreyNoise.IP.bot",
+      "required": ""
+    },
+    {
+      "description": "Whether the device has been categorized as unknown, benign, or malicious. GreyNoise.IP.description If there is a business service, provides a description of the provider.",
+      "name": "GreyNoise.IP.classification",
+      "required": ""
+    },
+    {
+      "description": "If there is a business service, provides an explanation of the category. GreyNoise.IP.first_seen The date of the first observed scanning activity.",
+      "name": "GreyNoise.IP.explanation",
+      "required": ""
+    },
+    {
+      "description": "Whether the IP is found in GreyNoise. GreyNoise.IP.ip The IP address of the scanning device IP.",
+      "name": "GreyNoise.IP.found",
+      "required": ""
+    },
+    {
+      "description": "The date of the last observed scanning activity. GreyNoise.IP.last_seen_timestamp The timestamp of the last observed scanning activity.",
+      "name": "GreyNoise.IP.last_seen",
+      "required": ""
+    },
+    {
+      "description": "If there is a business service, indicates the last time the source record was parsed. GreyNoise.IP.metadata.asn The autonomous system identification number.",
+      "name": "GreyNoise.IP.last_updated",
+      "required": ""
+    },
+    {
+      "description": "The carrier information for the IP address. GreyNoise.IP.metadata.category Whether the device belongs to a business, isp, hosting, education, or mobile network.",
+      "name": "GreyNoise.IP.metadata.carrier",
+      "required": ""
+    },
+    {
+      "description": "The datacenter information for the IP address. GreyNoise.IP.metadata.destination_countries The list of countries targeted by scanning.",
+      "name": "GreyNoise.IP.metadata.datacenter",
+      "required": ""
+    },
+    {
+      "description": "The list of country codes targeted by scanning. GreyNoise.IP.metadata.domain The domain associated with the IP address.",
+      "name": "GreyNoise.IP.metadata.destination_country_codes",
+      "required": ""
+    },
+    {
+      "description": "The latitude coordinate of the IP address location. GreyNoise.IP.metadata.longitude The longitude coordinate of the IP address location.",
+      "name": "GreyNoise.IP.metadata.latitude",
+      "required": ""
+    },
+    {
+      "description": "Whether the device is on a mobile network. GreyNoise.IP.metadata.organization The organization that owns the network that the IP address belongs to.",
+      "name": "GreyNoise.IP.metadata.mobile",
+      "required": ""
+    },
+    {
+      "description": "The name of the operating system of the device. GreyNoise.IP.metadata.rdns Reverse DNS lookup of the IP address.",
+      "name": "GreyNoise.IP.metadata.os",
+      "required": ""
+    },
+    {
+      "description": "The parent domain of the reverse DNS lookup. GreyNoise.IP.metadata.rdns_validated Whether the reverse DNS lookup has been validated.",
+      "name": "GreyNoise.IP.metadata.rdns_parent",
+      "required": ""
+    },
+    {
+      "description": "The full name of the region the device is geographically located in. GreyNoise.IP.metadata.sensor_count The number of sensors that observed activity from this IP.",
+      "name": "GreyNoise.IP.metadata.region",
+      "required": ""
+    },
+    {
+      "description": "The number of sensors events recorded from this IP. GreyNoise.IP.metadata.single_destination Whether the IP targets a single destination.",
+      "name": "GreyNoise.IP.metadata.sensor_hits",
+      "required": ""
+    },
+    {
+      "description": "The city where the IP is geographically located. GreyNoise.IP.metadata.source_country The full name of the IP source country.",
+      "name": "GreyNoise.IP.metadata.source_city",
+      "required": ""
+    },
+    {
+      "description": "The country code of the IP source country. GreyNoise.IP.name If there is a business service, indicates the provider name.",
+      "name": "GreyNoise.IP.metadata.source_country_code",
+      "required": ""
+    },
+    {
+      "description": "The number of bytes sent by the source. GreyNoise.IP.reference If there is a business service, indicates the references used to validate the entry.",
+      "name": "GreyNoise.IP.raw_data.source.bytes",
+      "required": ""
+    },
+    {
+      "description": "Whether the IP is in the business services dataset. GreyNoise.IP.seen Whether the IP is in the internet scanner dataset.",
+      "name": "GreyNoise.IP.riot",
+      "required": ""
+    },
+    {
+      "description": "Whether the IP complete a three-way handshake during scanning. GreyNoise.IP.tags.category The category of the given tag.",
+      "name": "GreyNoise.IP.spoofable",
+      "required": ""
+    },
+    {
+      "description": "date The date the tag was added to the GreyNoise system. GreyNoise.IP.tags.description",
+      "name": "GreyNoise.IP.tags.created",
+      "required": ""
+    },
+    {
+      "description": "A description of what the tag identifies. GreyNoise.IP.tags.id The unique id of the tag.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "The intention of the associated activity the tag identifies. GreyNoise.IP.tags.name The name of the tag.",
+      "name": "GreyNoise.IP.tags.intention",
+      "required": ""
+    },
+    {
+      "description": "Indicates if IPs associated with this tag should be blocked. GreyNoise.IP.tags.references A list of references used to create the tag.",
+      "name": "GreyNoise.IP.tags.recommend_block",
+      "required": ""
+    },
+    {
+      "description": "The unique slug of the tag. GreyNoise.IP.tags.updated_at date",
+      "name": "GreyNoise.IP.tags.slug",
+      "required": ""
+    },
+    {
+      "description": "GreyNoise.IP.tor Whether the IP is on the known TOR exit node list. GreyNoise.IP.trust_level",
+      "name": "The date the tag was last updated.",
+      "required": ""
+    },
+    {
+      "description": "If there is a business service, indicates the level of trustworthiness. GreyNoise.IP.vpn Whether the IP is associated with a knwon VPN service.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "If the IP is part of a VPN, provides the name of the service.",
+      "name": "GreyNoise.IP.vpn_service",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GreyNoise Community",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/grey-noise-community"
+}

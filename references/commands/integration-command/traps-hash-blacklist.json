@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "cfe4d15aca924bfcb7d2fc629b696bdd",
+  "examples": [
+    "Command Example\n!traps-hash-blacklist hash_id=\"1111111111111111111111111111111111111111111111111111111111111111\"\nContext Example\n{\n\"Traps.File\": {\n\"BlacklistStatus\": \"blacklisted\",\n\"SHA256\": \"1111111111111111111111111111111111111111111111111111111111111111\"",
+    "!traps-hash-blacklist hash_id=\"1111111111111111111111111111111111111111111111111111111111111111\"\nContext Example\n{\n\"Traps.File\": {\n\"BlacklistStatus\": \"blacklisted\",\n\"SHA256\": \"1111111111111111111111111111111111111111111111111111111111111111\""
+  ],
+  "kind": "integration-command",
+  "name": "traps-hash-blacklist",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The status of the file hash (\"blacklisted\" or \"none\"). Traps.File.SHA256 The SHA256 hash of the file.",
+      "name": "Traps.File.BlacklistStatus",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Traps (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/traps"
+}

@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "c24405d5-49f5-48b8-b15c-1a1aba540979",
+  "examples": [
+    "Command Example\n#\n!cognni-fetch-insights min_severity=2\nContext Example\n#\n{\n\"Cognni\"\n:",
+    "!cognni-fetch-insights min_severity=2\nContext Example\n#\n{\n\"Cognni\"\n:\n{\n\"insights\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of insight IDs. Cognni.insights.name List of insight names.",
+      "name": "Cognni.insights.id",
+      "required": ""
+    },
+    {
+      "description": "List of insight descriptions. Cognni.insights.severity List of insight severities.",
+      "name": "Cognni.insights.description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cognni",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cognni"
+}

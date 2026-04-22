@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "ReversingLabs TitaniumScale delete multiple tasks",
+  "examples": [
+    "!reversinglabs-titaniumscale-get-yara-id\nContext Example\n#\n{\n\"ReversingLabs\"\n:\n{\n\"yara_id\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Identifier of the current set of YARA rules on the TitaniumScale Worker instance.",
+      "name": "ReversingLabs.yara_id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ReversingLabs TitaniumScale",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/reversing-labs-titanium-scale"
+}

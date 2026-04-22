@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Generic Export Indicators Service \u00bb Configure Generic API Event Collector (Beta) in Cortex",
+      "name": "\u00ab Gem",
+      "required": ""
+    },
+    {
+      "description": "Authentication Pagination Request Data (And initial request data)",
+      "name": "How to configure the event collector",
+      "required": ""
+    },
+    {
+      "description": "Query parameters (And Initial Query parameters) Timestamp field Timestamp format",
+      "name": "Request JSON (And initial request JSON)",
+      "required": ""
+    },
+    {
+      "description": "Event ID & Type Substitutions in API requests calls Commands",
+      "name": "Events",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "generic-api-event-collector-get-events",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Generic API Event Collector (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/generic-api-event-collector"
+}

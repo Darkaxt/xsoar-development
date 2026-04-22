@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "0D264052-9628-4872-8C07-E04A8B95F602",
+  "examples": [
+    "Command Example\nsymantec-mc-delete-policy uuid=\"DCF96A1D-1D42-493A-B377-84E682D91BF1\""
+  ],
+  "kind": "integration-command",
+  "name": "symantec-mc-delete-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-management-center"
+}

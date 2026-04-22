@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "FireEyeETP.Events.Logs",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Trellix Email Security - Cloud Event Collector \u00bb Overview",
+      "name": "\u00ab Traceable",
+      "required": ""
+    },
+    {
+      "description": "Authentication and Authorization Configuring API Keys Authentication Prerequisites",
+      "name": "Use Cases",
+      "required": ""
+    },
+    {
+      "description": "Authentication Setup (Choose One) Configure Trellix Email Security - Cloud in Cortex Fetched Incidents Data",
+      "name": "Dual Authentication Methods",
+      "required": ""
+    },
+    {
+      "description": "fireeye-etp-search-messages fireeye-etp-get-message fireeye-etp-list-alerts",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "fireeye-etp-list-yara-rulesets fireeye-etp-download-yara-file fireeye-etp-upload-yara-file",
+      "name": "fireeye-etp-download-alert-case-files",
+      "required": ""
+    },
+    {
+      "description": "fireeye-etp-quarantine-release Docs Developer Docs",
+      "name": "fireeye-etp-get-events-data",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Trellix Email Security - Cloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fire-eye-etp"
+}

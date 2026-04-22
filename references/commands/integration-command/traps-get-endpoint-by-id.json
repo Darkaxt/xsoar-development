@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get the result of a quarantine operation: traps-event-quarantine-result",
+  "examples": [
+    "Command Example\n!traps-get-endpoint-by-id endpoint_id=\"d3339851f18f470182bf2bf98ad5db4b\"\nContext Example\n{\n\"Traps.Endpoint\": {\n\"ComputerSid\": \"S-1-5-21-202186053-2642234773-3690463397\",\n\"Domain\": \"WORKGROUP\",\n\"ID\": \"d3339851f18f470182bf2bf98ad5db4b\",",
+    "!traps-get-endpoint-by-id endpoint_id=\"d3339851f18f470182bf2bf98ad5db4b\"\nContext Example\n{\n\"Traps.Endpoint\": {\n\"ComputerSid\": \"S-1-5-21-202186053-2642234773-3690463397\",\n\"Domain\": \"WORKGROUP\",\n\"ID\": \"d3339851f18f470182bf2bf98ad5db4b\",\n\"IP\": \"172.31.33.227\","
+  ],
+  "kind": "integration-command",
+  "name": "traps-get-endpoint-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the endpoint. Traps.Endpoint.Name The name of the endpoint.",
+      "name": "Traps.Endpoint.ID",
+      "required": ""
+    },
+    {
+      "description": "date The domain of the endpoint. Traps.Endpoint.Platform",
+      "name": "Traps.Endpoint.Domain",
+      "required": ""
+    },
+    {
+      "description": "The OS of the endpoint. Traps.Endpoint.Status The status of the endpoint.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The IP address of the endpoint. Traps.Endpoint.ComputerSid The computer SID.",
+      "name": "Traps.Endpoint.IP",
+      "required": ""
+    },
+    {
+      "description": "Whether the endpoint is compromised. Traps.Endpoint.OsVersion The version of the OS on the endpoint.",
+      "name": "Traps.Endpoint.IsCompromised",
+      "required": ""
+    },
+    {
+      "description": "The OS type of the endpoint. Traps.Endpoint.OsProductName The name of the OS on the endpoint.",
+      "name": "Traps.Endpoint.OsProductType",
+      "required": ""
+    },
+    {
+      "description": "The bitness of the OS on the endpoint. Traps.Endpoint.LastSeen The date/time of the last active ping.",
+      "name": "Traps.Endpoint.Is64",
+      "required": ""
+    },
+    {
+      "description": "The last active user on the machine.",
+      "name": "Traps.Endpoint.LastUser",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Traps (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/traps"
+}

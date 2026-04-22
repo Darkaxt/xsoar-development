@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "removed successfully.",
+  "examples": [
+    "!aws-org-account-close account_id=111222333444\nHuman Readable Output\n#\nClosing account:\nAWS account\n111222333444\nclosed successfully.\nEdit this page"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - Organizations",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---organizations"
+}

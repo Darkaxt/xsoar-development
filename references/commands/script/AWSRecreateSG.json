@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "aws-recreate-sg"
+  ],
+  "arguments": [],
+  "description": "AWSRecreateSG | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "AWSRecreateSG",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Sets the value to true or false if the security group is created. Edit this page Report an Issue",
+      "name": "awssgrecreated",
+      "required": ""
+    },
+    {
+      "description": "\u00ab AWSPackageUpgrade Next AwsRunInstance \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Dependencies Used In",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWSRecreateSG",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/aws-recreate-sg"
+}

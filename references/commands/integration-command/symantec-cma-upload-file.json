@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There are no context output for this command.",
+  "examples": [
+    "Command Example\n!symantec-cma-upload-url url=www.demisto.com\nHuman Readable Output\n2. symantec-cma-upload-file\nSubmit a file for analysis.\nBase Command\nsymantec-cma-upload-file\nInput",
+    "!symantec-cma-upload-url url=www.demisto.com\nHuman Readable Output\n2. symantec-cma-upload-file\nSubmit a file for analysis.\nBase Command\nsymantec-cma-upload-file\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "symantec-cma-upload-file",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Blue Coat Content and Malware Analysis (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-blue-coat-content-and-malware-analysis"
+}

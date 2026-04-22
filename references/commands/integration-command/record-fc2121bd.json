@@ -1,0 +1,56 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!nvd-get-indicators history=\"7 days\"\nInput\n#\nArgument Name\nDescription\nRequired\nhistory\nTime back to retrieve CVEs, e.g."
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the CVE. CVE.CVSS The CVSS score of the CVE.",
+      "name": "CVE.ID",
+      "required": ""
+    },
+    {
+      "description": "Date The date the CVE was published. CVE.Modified",
+      "name": "CVE.Published",
+      "required": ""
+    },
+    {
+      "description": "The date that the CVE was last modified. CVE.Description The description of the CVE.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The CVSS version used for scoring (e.g. 4.0, 3.1, 2.0). CVE.Severity The CVSS severity level (e.g. CRITICAL, HIGH, MEDIUM, LOW).",
+      "name": "CVE.CVSSVersion",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab National Vulnerability Database",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Ncurion \u00bb Configure National Vulnerability Database in Cortex NOTE ONE - Sample Debug Output - /var/log/demisto/integration_instance.log",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "nvd-get-indicators Docs Developer Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "National Vulnerability Database Feed v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/feed-nv-dv2"
+}

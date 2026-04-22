@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "This command has dynamic output keys.",
+  "examples": [
+    "Command Example\n!looker-search-looks limit=\"2\"\nContext Example\n\"Looker\": {\n\"Look\": {\n[\n{\n\"ID\": 3,",
+    "!looker-search-looks limit=\"2\"\nContext Example\n\"Looker\": {\n\"Look\": {\n[\n{\n\"ID\": 3,\n\"LastUpdated\": \"2019-04-10T16:11:43.249Z\","
+  ],
+  "kind": "integration-command",
+  "name": "looker-search-looks",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Look ID. Looker.Look.Name Look name.",
+      "name": "Looker.Look.ID",
+      "required": ""
+    },
+    {
+      "description": "ID of the space that contains the look. Looker.Look.SpaceName Name of the space that contains the look.",
+      "name": "Looker.Look.SpaceID",
+      "required": ""
+    },
+    {
+      "description": "Date The time that the look was last updated.",
+      "name": "Looker.Look.LastUpdated",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Looker",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/looker"
+}

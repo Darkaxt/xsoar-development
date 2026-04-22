@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "Context Data There is no context data for this command.",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "\"Name\": \"Last Updated\",",
+  "examples": [
+    "Command Example\n!archer-get-reports\nRaw Output\n{\n\"ReportValues\":\n{\n\"ReportValue\":[\n{",
+    "!archer-get-reports\nRaw Output\n{\n\"ReportValues\":\n{\n\"ReportValue\":[\n{\n\"ApplicationGUID\":\"4cf0d0c6-4b51-404c-91c2-40ade972e95b\","
+  ],
+  "kind": "integration-command",
+  "name": "archer-get-reports",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

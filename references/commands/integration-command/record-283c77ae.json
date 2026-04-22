@@ -1,0 +1,139 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "aws-iam-deactivate-mfa-devices",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Deactivates the specified MFA device and removes it from association with the user name for which it was originally enabled.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "aws-iam-deactivate-mfa-devices",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next AWS - Lambda \u00bb Configure AWS - IAM in Cortex",
+      "name": "\u00ab AWS - IAM Identity Center",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-create-user aws-iam-get-user aws-iam-list-users",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-delete-user aws-iam-update-login-profile aws-iam-create-group",
+      "name": "aws-iam-update-user",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-list-groups-for-user aws-iam-add-user-to-group aws-iam-create-access-key",
+      "name": "aws-iam-list-groups",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-list-access-keys-for-user aws-iam-list-policies aws-iam-list-roles",
+      "name": "aws-iam-update-access-key",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-detach-policy aws-iam-delete-login-profile aws-iam-delete-group",
+      "name": "aws-iam-attach-policy",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-create-login-profile aws-iam-delete-access-key aws-iam-create-instance-profile",
+      "name": "aws-iam-remove-user-from-group",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-list-instance-profiles aws-iam-add-role-to-instance-profile aws-iam-remove-role-from-instance-profile",
+      "name": "aws-iam-delete-instance-profile",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-get-instance-profile aws-iam-get-role aws-iam-delete-role",
+      "name": "aws-iam-list-instance-profiles-for-role",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-create-policy aws-iam-delete-policy aws-iam-create-policy-version",
+      "name": "aws-iam-create-role",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-list-policy-versions aws-iam-get-policy-version aws-iam-set-default-policy-version",
+      "name": "aws-iam-delete-policy-version",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-delete-account-alias aws-iam-get-account-password-policy aws-iam-update-account-password-policy",
+      "name": "aws-iam-create-account-alias",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-get-role-policy aws-iam-get-policy aws-iam-list-user-policies",
+      "name": "aws-iam-list-role-policies",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-list-attached-group-policies aws-iam-get-user-login-profile aws-iam-put-role-policy",
+      "name": "aws-iam-list-attached-user-polices",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-put-user-policy Policy {policy_name} was added to role {user_name} aws-iam-put-group-policy",
+      "name": "Policy {policy_name} was added to role {role_name}",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-tag-role Added the following tags to role {role_name} aws-iam-tag-user",
+      "name": "Policy {policy_name} was added to role {group_name}",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-untag-user Untagged the following tags from user {user_name} aws-iam-untag-role",
+      "name": "Added the following tags to user {user_name}",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-get-access-key-last-used Found the following information about access key access_Key_Id aws-iam-list-attached-role-policies",
+      "name": "Untagged the following tags from role {role_name}",
+      "required": ""
+    },
+    {
+      "description": "aws-iam-delete-mfa-devices aws-iam-deactivate-mfa-devices Docs",
+      "name": "aws-iam-list-mfa-devices",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - Identity and Access Management",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---iam"
+}

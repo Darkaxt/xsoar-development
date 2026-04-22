@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "|report_id|a3b93da98349831c5c477370bb352e6b2a75b91c4996b402542b1094b39feff800a|",
+  "examples": [
+    "!threatvault-atp-report-pcap-get report_id=\"5c4b78a92dea9d7bb3171b4f7be131400897fa0e61e6fed9532f2f9de5686b4b\"\nContext Example\n#\n{\n\"ThreatVault\"\n:\n{\n\"ATP\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Threatvault ATP PCAP ID ThreatVault.ATP.PCAP.Name Threatvault ATP PCAP Name",
+      "name": "ThreatVault.ATP.PCAP.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Threat Vault v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-threat-vault-v2"
+}

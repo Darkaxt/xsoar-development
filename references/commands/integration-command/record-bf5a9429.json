@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!gmail-get-attachments message-id=16d4316a25a332e4 user-id=admin@demistodev.com",
+  "examples": [
+    "Command Example\n#\n!gmail-get-attachments message-id=16d4316a25a332e4 user-id=admin@demistodev.com\ngmail-get-incidents\n#\nRetrieves a list of emails from Gmail within a specific date range and formats them as incidents.\nBase Command\n#",
+    "!gmail-get-attachments message-id=16d4316a25a332e4 user-id=admin@demistodev.com\ngmail-get-incidents\n#\nRetrieves a list of emails from Gmail within a specific date range and formats them as incidents.\nBase Command\n#\ngmail-get-incidents\nInput",
+    "Command Example\n#\n!gmail-get-incidents from=\"admin@dummy.com\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab Gmail\nNext",
+    "!gmail-get-incidents from=\"admin@dummy.com\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab Gmail\nNext\nGoogle Apigee \u00bb\nConfigure Gmail Single User on Cortex XSOAR"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Gmail Single User",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/gmail-single-user"
+}

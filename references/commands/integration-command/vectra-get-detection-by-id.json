@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Argument Name",
+      "required": ""
+    }
+  ],
+  "description": "5. vectra-get-detection-by-id",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "vectra-get-detection-by-id",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Vectra v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vectra-v2"
+}

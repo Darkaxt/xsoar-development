@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "string-similarity"
+  ],
+  "arguments": [],
+  "description": "StringSimilarity | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "StringSimilarity",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Similarity score - a value between 1.0 if the sequences are identical, and 0.0 if they have nothing in common. Edit this page Report an Issue",
+      "name": "StringSimilarity.SimilarityScore",
+      "required": ""
+    },
+    {
+      "description": "\u00ab StringSifter Next StringToArray \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Used In",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "StringSimilarity",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/string-similarity"
+}

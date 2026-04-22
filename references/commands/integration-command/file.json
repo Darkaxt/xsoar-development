@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!autofocus-sample-analysis id=\"7ebf30b8f908ce574fda70af1f94ebcb071c2e5f0e22f2ec349a2290f243a036\" coverage=true sections=file\nHuman Readable Output\n5. Get the reputation of a file\nChecks the file reputation of the given hash.\nBase Command\nfile\nInput",
+    "!autofocus-sample-analysis id=\"7ebf30b8f908ce574fda70af1f94ebcb071c2e5f0e22f2ec349a2290f243a036\" coverage=true sections=file\nHuman Readable Output\n5. Get the reputation of a file\nChecks the file reputation of the given hash.\nBase Command\nfile\nInput\nArgument Name",
+    "Command Example\n!file file=\"75779e62f9790bd4c2ed449bd20be741f78811fb5ce848a2c5a516af17cdeccf\" using-brand=\"Autofocus\"\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab PagerDuty v2\nNext",
+    "!file file=\"75779e62f9790bd4c2ed449bd20be741f78811fb5ce848a2c5a516af17cdeccf\" using-brand=\"Autofocus\"\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab PagerDuty v2\nNext\nPalo Alto Networks - Prisma Cloud Compute \u00bb"
+  ],
+  "kind": "integration-command",
+  "name": "file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The MD5 hash of the file. File.SHA1 The SHA-1 hash of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The SHA-256 hash of the file. File.Malicious.Vendor For malicious files, the vendor that made the decision.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the reason that the vendor made the decision. DBotScore.Indicator The indicator that was tested.",
+      "name": "File.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Description The reason for the score (if any).",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto AutoFocus (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/autofocus"
+}

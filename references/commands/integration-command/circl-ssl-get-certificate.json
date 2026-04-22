@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "c46fed822dadac3f31f9bb4d1a78a1d9eae4567b",
+  "examples": [
+    "Command Example\n!circl-ssl-get-certificate certificate=37221925980c05deefac014f9a72b4765e716341\nContext Example\n{\n\"\nDistribution\n\"\n:",
+    "!circl-ssl-get-certificate certificate=37221925980c05deefac014f9a72b4765e716341\nContext Example\n{\n\"\nDistribution\n\"\n:\n\""
+  ],
+  "kind": "integration-command",
+  "name": "circl-ssl-get-certificate",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA-1 fingerprint of the certificate CIRCLssl.Certificate.Usage Extended key usage",
+      "name": "CIRCLssl.Certificate.SHA1",
+      "required": ""
+    },
+    {
+      "description": "CRL distribution points CIRCLssl.Certificate.Issuer Certificate issuer",
+      "name": "CIRCLssl.Certificate.Distribution",
+      "required": ""
+    },
+    {
+      "description": "date Certificate issued time (***not_before) CIRCLssl.Certificate.Subject",
+      "name": "CIRCLssl.Certificate.Time",
+      "required": ""
+    },
+    {
+      "description": "Certificate subject CIRCLssl.Certificate.Key Certificate public key",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Certificate in PEM format CIRCLssl.Certificate.Seen Number of times the certificate was seen",
+      "name": "CIRCLssl.Certificate.Pem",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CIRCL",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/circl"
+}

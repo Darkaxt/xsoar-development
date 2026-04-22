@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "cortex-xdr-remediation-actions-widget"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "CortexXDRRemediationActionsWidget | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CortexXDRRemediationActionsWidget",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next CountArraySize \u00bb Script Data",
+      "name": "\u00ab CortexXDRInvestigationVerdict",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CortexXDRRemediationActionsWidget",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cortex-xdr-remediation-actions-widget"
+}

@@ -1,0 +1,40 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "22. Get information for all lists of a corp",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "sigsci-get-all-corp-lists",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the list. SigSciences.Corp.List.Type The type of the list.",
+      "name": "SigSciences.Corp.List.Name",
+      "required": ""
+    },
+    {
+      "description": "The entry list of the list. SigSciences.Corp.List.ID The ID of the list.",
+      "name": "SigSciences.Corp.List.Entries",
+      "required": ""
+    },
+    {
+      "description": "The description of the list. SigSciences.Corp.List.CreatedBy The creator of the list.",
+      "name": "SigSciences.Corp.List.Description",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "SigSciences.Corp.List.CreatedDate",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "find-incidents-with-indicator"
+  ],
+  "arguments": [],
+  "description": "findIncidentsWithIndicator | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "findIncidentsWithIndicator",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was found in other incidents. IncidentsWithIndicator.incidentIDs The incident IDs that the indicator was found in.",
+      "name": "IncidentsWithIndicator.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next FindPlaybookCustomDependencies \u00bb Permissions",
+      "name": "\u00ab FindEmailCampaign",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "findIncidentsWithIndicator",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/find-incidents-with-indicator"
+}

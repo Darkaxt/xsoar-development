@@ -1,0 +1,29 @@
+{
+  "aliases": [
+    "!aws-s3-upload-file bucket=\"bucket name\" key=\"file name to be displayed\" entryID=##@"
+  ],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!aws-s3-put-public-access-block bucket=\"bucket name\" BlockPublicAcls=True IgnorePublicAcls=False BlockPublicPolicy=True RestrictPublicBuckets=True\nContext Example\n#\n{\n\"AWS\": {\n\"S3\": {",
+    "!aws-s3-put-public-access-block bucket=\"bucket name\" BlockPublicAcls=True IgnorePublicAcls=False BlockPublicPolicy=True RestrictPublicBuckets=True\nContext Example\n#\n{\n\"AWS\": {\n\"S3\": {\n\"Buckets\": [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "S3 Bucket Encryption SSE Algorithm. AWS.S3.Buckets.BucketName.ServerSideEncryptionConfiguration.Rules.ApplyServerSideEncryptionByDefault.KMSMasterKeyID S3 Bucket Encryption KMS Master Key ID.",
+      "name": "AWS.S3.Buckets.BucketName.ServerSideEncryptionConfiguration.Rules.ApplyServerSideEncryptionByDefault.SSEAlgorithm",
+      "required": ""
+    },
+    {
+      "description": "S3 Bucket Encryption Key Enabled.",
+      "name": "AWS.S3.Buckets.BucketName.ServerSideEncryptionConfiguration.Rules.BucketKeyEnabled",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - S3",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---s3"
+}

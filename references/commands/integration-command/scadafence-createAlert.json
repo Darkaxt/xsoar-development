@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Creates an alert in SCADAfence CNM.",
+  "examples": [
+    "Command Example\n!scadafence-createAlert alertIsActive=True description=test_alert ipAddress=10.0.0.6 severity=Information remediationText=\"test alert\"\nContext Example\nCreate alert:\nalertCreated\nid\ntrue\n5bcf1925a81ed3000f831578",
+    "!scadafence-createAlert alertIsActive=True description=test_alert ipAddress=10.0.0.6 severity=Information remediationText=\"test alert\"\nContext Example\nCreate alert:\nalertCreated\nid\ntrue\n5bcf1925a81ed3000f831578\nHuman Readable Output"
+  ],
+  "kind": "integration-command",
+  "name": "scadafence-createAlert",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Flag defining alert creation status SCADAfence.Alert.id Unique ID set to a new alert",
+      "name": "SCADAfence.Alert.alertCreated",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SCADAfence CNM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/scad-afence-cnm"
+}

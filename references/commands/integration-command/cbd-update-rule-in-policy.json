@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!cbd-delete-rule-from-policy ruleId=2 policyId=21355",
+  "examples": [
+    "Command Example\n!cbd-delete-rule-from-policy ruleId=2 policyId=21355\nHuman Readable Output\nRequest Success\nUpdate a rule in a policy\nUpdates a rule in a specified policy.\nBase Command\ncbd-update-rule-in-policy",
+    "!cbd-delete-rule-from-policy ruleId=2 policyId=21355\nHuman Readable Output\nRequest Success\nUpdate a rule in a policy\nUpdates a rule in a specified policy.\nBase Command\ncbd-update-rule-in-policy\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "cbd-update-rule-in-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black Endpoint Standard (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-defense"
+}

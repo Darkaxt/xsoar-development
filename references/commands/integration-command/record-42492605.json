@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n## Known Limitations\nClicking the **Test** button of the **Integration instance settings** window verifies that the instance configuration is correct.\nDue to a known limitation, clicking the **Test** button several times in quick succession may result in an \"Unauthorized\" error, even after a successful result was initially returned. It is enough to receive one success message to verify that the configuration is correct. \"Unauthorized\" error messages received from repeated clicking of the instance configuration **Test** button do not affect the validity of the instance if the initial response was successful.\nEdit this page\nReport an Issue"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The EntryID of the artifact file. InfoFile.Extension The extension of the artifact file.",
+      "name": "InfoFile.EntryID",
+      "required": ""
+    },
+    {
+      "description": "The name of the artifact file. InfoFile.Info The info of the artifact file.",
+      "name": "InfoFile.Name",
+      "required": ""
+    },
+    {
+      "description": "The size of the artifact file. InfoFile.Type The type of the artifact file.",
+      "name": "InfoFile.Size",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FireEye Central Management",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fire-eye-central-management"
+}

@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "14. Check the reputation of a file",
+  "examples": [
+    "Command Example\n!file file=84c82835a5d21bbcf75a61706d8ab549 threshold=LOW\nContext Example\n{\n\"DBotScore\": {\n\"Vendor\": \"TruSTAR\",\n\"Indicator\": \"84c82835a5d21bbcf75a61706d8ab549\",\n\"Score\": 3,",
+    "!file file=84c82835a5d21bbcf75a61706d8ab549 threshold=LOW\nContext Example\n{\n\"DBotScore\": {\n\"Vendor\": \"TruSTAR\",\n\"Indicator\": \"84c82835a5d21bbcf75a61706d8ab549\",\n\"Score\": 3,\n\"Type\": \"file\""
+  ],
+  "kind": "integration-command",
+  "name": "file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File MD5 File.SHA1 File SHA-1",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "File SHA-256 File.Malicious.Vendor For malicious files, the vendor that made the decision",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The indicator we tested DBotScore.Type The type of the indicator",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Indicator value TruSTAR.File.Whitelisted Is the indicator on allow list",
+      "name": "TruSTAR.File.Value",
+      "required": ""
+    },
+    {
+      "description": "Indicator's priority level by TruSTAR",
+      "name": "TruSTAR.File.Priority",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TruSTAR (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tru-star"
+}

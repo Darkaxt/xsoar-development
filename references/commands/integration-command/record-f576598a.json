@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "xsoar-ws-setup-form-submission",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Setup a form submission job that can take multiple values from multiple users.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "xsoar-ws-setup-form-submission",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Xsoar_Utils \u00bb Configure XSOAR-Web-Server in Cortex",
+      "name": "\u00ab XSOAR Storage",
+      "required": ""
+    },
+    {
+      "description": "xsoar-ws-setup-simple-action xsoar-ws-clear-cache xsoar-ws-show-cache",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "xsoar-ws-get-action-status xsoar-ws-set-job-complete xsoar-ws-setup-form-submission",
+      "name": "xsoar-ws-remove-action",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "XSOAR-Web-Server",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/xsoar-web-server"
+}

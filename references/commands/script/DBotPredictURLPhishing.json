@@ -1,0 +1,83 @@
+{
+  "aliases": [
+    "d-bot-predict-url-phishing"
+  ],
+  "arguments": [],
+  "description": "DBotPredictURLPhishing | Cortex XSOAR",
+  "examples": [
+    "!DBotPredictURLPhishing urls=\"http://google.com\"\nContext Example\n#\n{\n\"DBotPredictURLPhishing\"\n:\n[\n{"
+  ],
+  "kind": "script",
+  "name": "DBotPredictURLPhishing",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "URL on which the model ran. DBotPredictURLPhishing.FinalVerdict Final verdict of the URL.",
+      "name": "DBotPredictURLPhishing.URL",
+      "required": ""
+    },
+    {
+      "description": "DBotPredictURLPhishing.UseOfSuspiciousLogo Whether a logo (from our list of top most use company for phishing) has been fraudulently used. Our predefined list of logos is: Paypal, Instagram, Gmail, Outlook, Linkedin, Facebook, Ebay, amazon, Google, Microsoft. DBotPredictURLPhishing.HasLoginForm",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "DBotPredictURLPhishing.URLStaticScore Probability for the URL to be malicious based only on the URL syntax. DBotPredictURLPhishing.BadSEOQuality",
+      "name": "Whether there is a login form in the HTML. Usually phishing attacks aim to steal credentials from the victim and attackers using login forms to retrieve this information.",
+      "required": ""
+    },
+    {
+      "description": "DBotPredictURLPhishing.NewDomain Whether the domain is younger than 6 months. New domains tend to be malicious. DBotPredictURLPhishing.TopMajesticDomain",
+      "name": "Whether the domain has a good search engine optimization. Malicious domains tend to have a poor SEO.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Score Severity score. Script Examples",
+      "name": "Whether the domain belongs to the top Majestic domain list. If it does, we will always consider this domain as benign.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!DBotPredictURLPhishing urls=\"http://google.com\"",
+      "required": ""
+    },
+    {
+      "description": "\"DBotPredictURLPhishing\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"FinalVerdict\" : \"Benign\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"TopMajesticDomain\" : \"True\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"URL\" : \"http://google.com\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "] }",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DBotPredictURLPhishing",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/d-bot-predict-url-phishing"
+}

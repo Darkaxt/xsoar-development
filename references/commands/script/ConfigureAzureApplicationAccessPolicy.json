@@ -1,0 +1,63 @@
+{
+  "aliases": [
+    "configure-azure-application-access-policy"
+  ],
+  "arguments": [],
+  "description": "ConfigureAzureApplicationAccessPolicy | Cortex XSOAR",
+  "examples": [
+    "!ConfigureAzureApplicationAccessPolicy app_id=\"37b5b9d5\" identity=\"demisto@palo.com\" username=\"admin@palo.com\" password=\"12345\"\nContext Example\n#\n{\n\"ConfigureAzureApplicationAccessPolicy\"\n:\n{\n\"Status\""
+  ],
+  "kind": "script",
+  "name": "ConfigureAzureApplicationAccessPolicy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the access policy was given. ConfigureAzureApplicationAccessPolicy.Account The email of the user who received permissions to create a meeting.",
+      "name": "ConfigureAzureApplicationAccessPolicy.Status",
+      "required": ""
+    },
+    {
+      "description": "ConfigureAzureApplicationAccessPolicy.AppID The relevant app's ID from the app studio. Script Example",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!ConfigureAzureApplicationAccessPolicy app_id=\"37b5b9d5\" identity=\"demisto@palo.com\" username=\"admin@palo.com\" password=\"12345\"",
+      "required": ""
+    },
+    {
+      "description": "\"ConfigureAzureApplicationAccessPolicy\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": \"Access policy was given\" ,",
+      "name": "\"Status\"",
+      "required": ""
+    },
+    {
+      "description": ": \"demisto@palo.com\" ,",
+      "name": "\"Account\"",
+      "required": ""
+    },
+    {
+      "description": ": \"37b5b9d5\" }",
+      "name": "\"AppID\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ConfigureAzureApplicationAccessPolicy",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/configure-azure-application-access-policy"
+}

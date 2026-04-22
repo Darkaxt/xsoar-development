@@ -1,0 +1,109 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "VisionOne.Update_Custom_Script.status",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique alphanumeric string that identifies an Observed Attack Techniques event. VisionOne.Get_Observed_Attack_Techniques.source The data sources associated with log types.",
+      "name": "VisionOne.Get_Observed_Attack_Techniques.id",
+      "required": ""
+    },
+    {
+      "description": "Object that contains detailed information about an Observed Attack Technique event. Object may vary depending on the products purchased by the customer and the products supported in their respective regions. VisionOne.Get_Observed_Attack_Techniques.filters List of filters and associated information.",
+      "name": "VisionOne.Get_Observed_Attack_Techniques.detail",
+      "required": ""
+    },
+    {
+      "description": "Object that contains information about an endpoint. This field is displayed only when the detection event is related to endpoints. VisionOne.Get_Observed_Attack_Techniques.entity_name Name associated with an entity.",
+      "name": "VisionOne.Get_Observed_Attack_Techniques.endpoint",
+      "required": ""
+    },
+    {
+      "description": "Entity type associated with an event is determined by the products purchased by the customer and the products supported in their regions. VisionOne.Get_Observed_Attack_Techniques.detected_date_time Timestamp in ISO 8601 format that indicates when an Observed Attack Techniques event was detected.",
+      "name": "VisionOne.Get_Observed_Attack_Techniques.entity_type",
+      "required": ""
+    },
+    {
+      "description": "Timestamp in ISO 8601 format that indicates when the pipeline ingested data related to an Observed Attack Techniques event. This field is displayed only when ingestedStartDateTime and ingestedEndDateTime are used to define the data retrieval time range. Edit this page Report an Issue",
+      "name": "VisionOne.Get_Observed_Attack_Techniques.ingested_date_time",
+      "required": ""
+    },
+    {
+      "description": "\u00ab TrendAI Vision One\u2122 Next Tripwire \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands trendmicro-visionone-enable-user-account trendmicro-visionone-disable-user-account",
+      "name": "Configure TrendAI Vision One\u2122 v3 in Cortex",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-force-password-reset trendmicro-visionone-add-to-block-list trendmicro-visionone-remove-from-block-list",
+      "name": "trendmicro-visionone-force-signout",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-delete-email-message trendmicro-visionone-restore-email-message trendmicro-visionone-isolate-endpoint",
+      "name": "trendmicro-visionone-quarantine-email-message",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-add-objects-to-exception-list trendmicro-visionone-delete-objects-from-exception-list trendmicro-visionone-add-objects-to-suspicious-list",
+      "name": "trendmicro-visionone-restore-endpoint-connection",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-get-endpoint-info trendmicro-visionone-get-endpoint-activity-data trendmicro-visionone-get-endpoint-activity-data-count",
+      "name": "trendmicro-visionone-delete-objects-from-suspicious-list",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-get-email-activity-data-count trendmicro-visionone-terminate-process trendmicro-visionone-get-file-analysis-status",
+      "name": "trendmicro-visionone-get-email-activity-data",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-collect-forensic-file trendmicro-visionone-download-information-for-collected-forensic-file trendmicro-visionone-download-investigation-package",
+      "name": "trendmicro-visionone-get-file-analysis-result",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-download-analysis-report trendmicro-visionone-submit-file-to-sandbox trendmicro-visionone-submit-file-entry-to-sandbox",
+      "name": "trendmicro-visionone-download-suspicious-object-list",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-get-alert-details trendmicro-visionone-run-sandbox-submission-polling trendmicro-visionone-check-task-status",
+      "name": "trendmicro-visionone-submit-urls-to-sandbox",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-update-status trendmicro-visionone-run-custom-script trendmicro-visionone-get-custom-script-list",
+      "name": "trendmicro-visionone-add-note",
+      "required": ""
+    },
+    {
+      "description": "trendmicro-visionone-download-custom-script trendmicro-visionone-delete-custom-script trendmicro-visionone-update-custom-script",
+      "name": "trendmicro-visionone-add-custom-script",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "trendmicro-visionone-get-observed-attack-techniques",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TrendAI Vision One\u2122 v3",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/trend-micro-vision-one-v3"
+}

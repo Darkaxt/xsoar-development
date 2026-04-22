@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "GIBDRP.Violation.detected",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Group-IB THF Polygon \u00bb Configure Group-IB Digital Risk Protection in Cortex",
+      "name": "\u00ab GreyNoise Indicator Feed",
+      "required": ""
+    },
+    {
+      "description": "gibdrp-get-brands gibdrp-get-subscriptions gibdrp-get-violation-by-id",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "gibdrp-change-violation-status",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Group-IB Digital Risk Protection",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/group-ib-digital-risk-protection"
+}

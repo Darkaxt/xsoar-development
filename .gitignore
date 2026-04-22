@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Private, team-specific overlays are intentionally local-only.
+references/local/**
+!references/local/.gitkeep
+
+# Generated or runtime review outputs.
+*.generated.json
+*.scan.json
+*.report.json
+exports/
+ready/
+tmp/
+cache/
+*.zip

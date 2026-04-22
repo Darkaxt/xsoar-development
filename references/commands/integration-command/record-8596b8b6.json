@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Edgescan.VulnerabilitiesRiskAccept",
+  "examples": [
+    "Command Example\n#\n!edgescan-vulnerabilities-risk-accept id=52496 value=true\nBase Command\n#\nedgescan-vulnerabilities-add-annotation\nInput\n#",
+    "!edgescan-vulnerabilities-risk-accept id=52496 value=true\nBase Command\n#\nedgescan-vulnerabilities-add-annotation\nInput\n#\nArgument Name\nDescription",
+    "Command Example\n#\n!edgescan-vulnerabilities-add-annotation id=\"52492\" text=\"anotherTEST\"\nContext Example\n#\n{\n\"Edgescan\"\n:",
+    "!edgescan-vulnerabilities-add-annotation id=\"52492\" text=\"anotherTEST\"\nContext Example\n#\n{\n\"Edgescan\"\n:\n{\n\"AnnotationAdd\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the added annotation Edgescan.AnnotationAdd.category The category of the added annotation",
+      "name": "Edgescan.AnnotationAdd.id",
+      "required": ""
+    },
+    {
+      "description": "The text of the added annotation Edgescan.AnnotationAdd.user The user that has added annotation",
+      "name": "Edgescan.AnnotationAdd.text",
+      "required": ""
+    },
+    {
+      "description": "The user ID of the added annotation Edgescan.AnnotationAdd.created_at Date",
+      "name": "Edgescan.AnnotationAdd.user_id",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The date when the annoation was added",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Edgescan",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/edgescan"
+}

@@ -1,0 +1,199 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "github-revoke-credentials",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Revoke exposed GitHub credentials (tokens) via the GitHub credential revocation API. This endpoint is unauthenticated by design and does not use the configured token. Limited to 60 unauthenticated requests per hour.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "github-revoke-credentials",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next GitHub Event Collector \u00bb Overview",
+      "name": "\u00ab GitGuardian Event Collector",
+      "required": ""
+    },
+    {
+      "description": "Configuration Configure Access to GitHub Configure Integration Parameters",
+      "name": "Use Cases",
+      "required": ""
+    },
+    {
+      "description": "GitHub-create-issue Issues GitHub-close-issue",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "GitHub-update-issue Issues GitHub-list-all-issues",
+      "name": "Issues",
+      "required": ""
+    },
+    {
+      "description": "GitHub-search-code GitHub-search-issues Issues",
+      "name": "Issues",
+      "required": ""
+    },
+    {
+      "description": "Releases GitHub-get-stale-prs Stale PRs",
+      "name": "GitHub-get-download-count",
+      "required": ""
+    },
+    {
+      "description": "Branch \"master\" GitHub-create-branch GitHub-get-team-membership",
+      "name": "GitHub-get-branch",
+      "required": ""
+    },
+    {
+      "description": "GitHub-request-review Requested Reviewers for #1 GitHub-create-comment",
+      "name": "Team Membership of example-user2",
+      "required": ""
+    },
+    {
+      "description": "GitHub-list-issue-comments Comments for Issue #1 GitHub-list-pr-files",
+      "name": "Created Comment",
+      "required": ""
+    },
+    {
+      "description": "GitHub-list-pr-reviews Pull Request Reviews for #1 GitHub-get-commit",
+      "name": "Pull Request Files for #1",
+      "required": ""
+    },
+    {
+      "description": "8a67a07813 GitHub-add-label GitHub-get-pull-request",
+      "name": "Commit",
+      "required": ""
+    },
+    {
+      "description": "GitHub-list-teams Teams for Organization \"demisto\" GitHub-delete-branch",
+      "name": "Pull Request #1",
+      "required": ""
+    },
+    {
+      "description": "Pull Request Review Comments for #1 GitHub-update-pull-request Updated Pull Request #15",
+      "name": "GitHub-list-pr-review-comments",
+      "required": ""
+    },
+    {
+      "description": "GitHub-create-pull-request Created Pull Request #16 Github-get-github-actions-usage",
+      "name": "GitHub-is-pr-merged",
+      "required": ""
+    },
+    {
+      "description": "Github-get-check-run GitHub-get-file-content File file.json successfully fetched",
+      "name": "Github Actions Usage",
+      "required": ""
+    },
+    {
+      "description": "Files in path: Index GitHub-list-team-members Team Member of team content in organization XSOAR",
+      "name": "Github-list-files",
+      "required": ""
+    },
+    {
+      "description": "Github-commit-file GitHub-create-release Github-list-issue-events",
+      "name": "GitHub-list-branch-pull-requests",
+      "required": ""
+    },
+    {
+      "description": "GitHub-move-issue-to-project-board GitHub-add-issue-to-project-board GitHub-get-path-data",
+      "name": "GitHub-list-all-projects",
+      "required": ""
+    },
+    {
+      "description": "GitHub-update-comment GitHub-delete-comment GitHub-add-assignee",
+      "name": "GitHub-releases-list",
+      "required": ""
+    },
+    {
+      "description": "GitHub-cancel-workflow GitHub-list-workflows github-commit-file",
+      "name": "GitHub-trigger-workflow",
+      "required": ""
+    },
+    {
+      "description": "github-search-issues github-create-comment github-add-label",
+      "name": "github-list-team-members",
+      "required": ""
+    },
+    {
+      "description": "github-add-issue-to-project-board github-releases-list github-is-pr-merged",
+      "name": "github-delete-branch",
+      "required": ""
+    },
+    {
+      "description": "github-create-branch github-list-pr-files github-search-code",
+      "name": "github-list-all-issues",
+      "required": ""
+    },
+    {
+      "description": "github-delete-file github-get-download-count github-create-pull-request",
+      "name": "github-update-pull-request",
+      "required": ""
+    },
+    {
+      "description": "github-create-release github-get-pull-request github-list-pr-review-comments",
+      "name": "github-update-comment",
+      "required": ""
+    },
+    {
+      "description": "github-get-file-content github-list-issue-events github-delete-comment",
+      "name": "github-close-issue",
+      "required": ""
+    },
+    {
+      "description": "github-list-branch-pull-requests github-list-files github-get-team-membership",
+      "name": "github-list-pr-reviews",
+      "required": ""
+    },
+    {
+      "description": "github-trigger-workflow github-get-stale-prs github-add-assignee",
+      "name": "github-get-github-actions-usage",
+      "required": ""
+    },
+    {
+      "description": "github-get-branch github-get-commit github-list-issue-comments",
+      "name": "github-get-check-run",
+      "required": ""
+    },
+    {
+      "description": "github-list-workflows github-list-teams github-create-issue",
+      "name": "github-list-all-projects",
+      "required": ""
+    },
+    {
+      "description": "github-update-issue github-request-review github-cancel-workflow",
+      "name": "github-get-path-data",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "github-revoke-credentials",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GitHub",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/git-hub"
+}

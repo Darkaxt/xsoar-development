@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "For malicious files, the reason that the vendor made the decision.",
+  "examples": [
+    "Command Example\ncrowdstrike-get-screenshots file=59e17f98cef7dd1bf4fb791eb1dcd0cea6dd870b6e36af7c37bd732c84d43355\n15. (Deprecated) Detonate a URL\nDetonates a URL address using Falcon Sandbox. This command is only supported in v2.\nBase Command\ncrowdstrike-detonate-url\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "crowdstrike-detonate-url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vx-stream"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!canarytools-edit-alert-status alertID=incident:canarytoken:d6fe0ae4dfd36cc3cc6d9d4f::1548593719 status=Acknowledge\nContext Example\n{\n\"CanaryTools\":{\n\"Alert\":{\n\"Status\":\"Acknowledge\",\n\"ID\":\"incident:canarytoken:d6fe0ae4dfd36cc3cc6d9d4f::1548593719\"",
+    "!canarytools-edit-alert-status alertID=incident:canarytoken:d6fe0ae4dfd36cc3cc6d9d4f::1548593719 status=Acknowledge\nContext Example\n{\n\"CanaryTools\":{\n\"Alert\":{\n\"Status\":\"Acknowledge\",\n\"ID\":\"incident:canarytoken:d6fe0ae4dfd36cc3cc6d9d4f::1548593719\""
+  ],
+  "kind": "integration-command",
+  "name": "canarytools-edit-alert-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alert ID CanaryTools.Alert.Status Alert status",
+      "name": "CanaryTools.Alert.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Thinkst Canary",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/thinkst-canary"
+}

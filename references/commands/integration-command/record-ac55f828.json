@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "RecordedFuture.PlaybookAlerts.panel_whois.body.value.type",
+  "examples": [
+    "Command Example\n#\n!recordedfuture-playbook-alerts-update alert_ids=\"12312312-1231-1231-1231-123123123123\" new_status=\"New\"\nContext Output\n#\nPath\nType\nDescription",
+    "!recordedfuture-playbook-alerts-update alert_ids=\"12312312-1231-1231-1231-123123123123\" new_status=\"New\"\nContext Output\n#\nPath\nType\nDescription\nRecordedFuture.PlaybookAlerts.playbook_alert_id\nstring"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique ID of the playbook alert in Recorded Future. RecordedFuture.PlaybookAlerts.current_status Current status of playbook alert in Recorded Future.",
+      "name": "RecordedFuture.PlaybookAlerts.playbook_alert_id",
+      "required": ""
+    },
+    {
+      "description": "Title of the playbook alert in Recorded Future. RecordedFuture.PlaybookAlerts.status_message Message describing the outcome of the update.",
+      "name": "RecordedFuture.PlaybookAlerts.title",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Recorded Future - Lists",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Recorded Future Alerts \u00bb Configure Recorded Future - Playbook Alerts on Cortex XSOAR Pre-Process Rule",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "recordedfuture-playbook-alerts-search recordedfuture-playbook-alerts-details recordedfuture-playbook-alerts-update",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future - Playbook Alerts",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future-playbook-alerts"
+}

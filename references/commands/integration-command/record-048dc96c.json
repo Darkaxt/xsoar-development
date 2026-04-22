@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "!sandblast-quota\nContext Example\n#\n{\n\"SandBlast\"\n:\n{\n\"Quota\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Remaining quota hours. SandBlast.Quota.RemainQuotaMonth Remaining quota months.",
+      "name": "SandBlast.Quota.RemainQuotaHour",
+      "required": ""
+    },
+    {
+      "description": "Assigned quota hours. SandBlast.Quota.AssignedQuotaMonth Assigned quota months.",
+      "name": "SandBlast.Quota.AssignedQuotaHour",
+      "required": ""
+    },
+    {
+      "description": "Hourly quota next reset. SandBlast.Quota.MonthlyQuotaNextReset Monthly quota next reset.",
+      "name": "SandBlast.Quota.HourlyQuotaNextReset",
+      "required": ""
+    },
+    {
+      "description": "Quota ID. SandBlast.Quota.CloudMonthlyQuotaPeriodStart Cloud monthly quota period start.",
+      "name": "SandBlast.Quota.QuotaId",
+      "required": ""
+    },
+    {
+      "description": "Cloud monthly quota usage for this GW. SandBlast.Quota.CloudHourlyQuotaUsageForThisGw Cloud hourly quota usage for this GW.",
+      "name": "SandBlast.Quota.CloudMonthlyQuotaUsageForThisGw",
+      "required": ""
+    },
+    {
+      "description": "Cloud monthly quota usage for QuotaID. SandBlast.Quota.CloudHourlyQuotaUsageForQuotaId Cloud hourly quota usage for QuotaID.",
+      "name": "SandBlast.Quota.CloudMonthlyQuotaUsageForQuotaId",
+      "required": ""
+    },
+    {
+      "description": "Monthly exceeded quota. SandBlast.Quota.HourlyExceededQuota Hourly exceeded quota.",
+      "name": "SandBlast.Quota.MonthlyExceededQuota",
+      "required": ""
+    },
+    {
+      "description": "Cloud quota max allowed to exceed percentage. SandBlast.Quota.PodTimeGmt Pod time GMT.",
+      "name": "SandBlast.Quota.CloudQuotaMaxAllowToExceedPercentage",
+      "required": ""
+    },
+    {
+      "description": "Quota expiration. SandBlast.Quota.Action Quota action.",
+      "name": "SandBlast.Quota.QuotaExpiration",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Check Point Threat Emulation (SandBlast)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/check-point-sand-blast"
+}

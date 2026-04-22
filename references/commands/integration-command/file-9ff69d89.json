@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "http://chstarkeco.com",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File MD5 hash that was tested EclecticIQ.File.SHA1 File SHA-1 hash that was tested",
+      "name": "EclecticIQ.File.MD5",
+      "required": ""
+    },
+    {
+      "description": "File SHA-256 hash that was tested EclecticIQ.File.SHA512 File SHA-512 hash that was tested",
+      "name": "EclecticIQ.File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "Date Observable creation date EclecticIQ.File.LastUpdate",
+      "name": "EclecticIQ.File.Created",
+      "required": ""
+    },
+    {
+      "description": "Observable last updated date EclecticIQ.File.ID Observable ID",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Maliciousness confidence level File.MD5 File MD5 hash that was tested",
+      "name": "EclecticIQ.File.Maliciousness",
+      "required": ""
+    },
+    {
+      "description": "File SHA-1 hash that was tested File.SHA256 File SHA-256 hash that was tested",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "File SHA-512 hash that was tested File.Malcious.Vendor For malicious files, the vendor that made the decision",
+      "name": "File.SHA512",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the reason that the vendor made the decision DBotScore.Type Indicator type",
+      "name": "File.Malcious.Description",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EclecticIQ Platform (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/eclectic-iq-platform"
+}

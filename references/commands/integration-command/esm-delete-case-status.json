@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!esm-add-case-status name=Deprecated",
+  "examples": [
+    "Command Example\n!esm-add-case-status name=Deprecated\nHuman Readable Output\nAdded case status : Deprecated\n12. Remove a status from a case\nDeletes a case status from a case.\nBase Command\nesm-delete-case-status",
+    "!esm-add-case-status name=Deprecated\nHuman Readable Output\nAdded case status : Deprecated\n12. Remove a status from a case\nDeletes a case status from a case.\nBase Command\nesm-delete-case-status\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "esm-delete-case-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v10 and v11 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v10"
+}

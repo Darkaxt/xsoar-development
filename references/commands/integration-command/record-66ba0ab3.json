@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!update-remote-system\nHuman Readable Output\n#\n\u2705 Remote incident successfully updated.\nIncident Fields\n#",
+    "!update-remote-system\nHuman Readable Output\n#\n\u2705 Remote incident successfully updated.\nIncident Fields\n#\nField\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Check Point XDR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/check-point-xdr"
+}

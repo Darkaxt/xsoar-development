@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "import-sigma-rules-from-zip"
+  ],
+  "arguments": [],
+  "description": "ImportSigmaRulesFromZIP | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ImportSigmaRulesFromZIP",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ImportSigmaRulesFromZIP",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/import-sigma-rules-from-zip"
+}

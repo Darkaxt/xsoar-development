@@ -1,0 +1,33 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "The type of the submission. Can be \"file\" or \"url\".",
+  "examples": [
+    "Command Example\n!hybrid-analysis-submit-url environmentID=100 url=www.google.com\nHuman Readable Output\n8. Get a list of scanners\nReturns a list of available scanners.\nBase Command\nhybrid-analysis-list-scanners\nInput",
+    "!hybrid-analysis-submit-url environmentID=100 url=www.google.com\nHuman Readable Output\n8. Get a list of scanners\nReturns a list of available scanners.\nBase Command\nhybrid-analysis-list-scanners\nInput\nThere are no input arguments for this command."
+  ],
+  "kind": "integration-command",
+  "name": "hybrid-analysis-list-scanners",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the scanner is available. HybridAnalysis.Scanner.Name The scanner name.",
+      "name": "HybridAnalysis.Scanner.Available",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "HybridAnalysis.Scanner.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Hybrid Analysis (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hybrid-analysis"
+}

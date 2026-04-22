@@ -1,0 +1,51 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2019-01-16T11:55:11.708640+00:00",
+  "examples": [
+    "Command Example\nurl url=http://chstarkeco.com\nContext Example\n{\n\"DBotScore\": {\n\"Vendor\": \"OpenPhish\",\n\"Indicator\": \"http://chstarkeco.com\",\n\"Score\": 0,"
+  ],
+  "kind": "integration-command",
+  "name": "url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "URL that was tested EclecticIQ.URL.Created Date",
+      "name": "EclecticIQ.URL.Data",
+      "required": ""
+    },
+    {
+      "description": "EclecticIQ.URL.LastUpdate Date Observable last updated date",
+      "name": "Observable creation date",
+      "required": ""
+    },
+    {
+      "description": "Observable ID EclecticIQ.URL.Maliciousness Maliciousness confidence level",
+      "name": "EclecticIQ.URL.ID",
+      "required": ""
+    },
+    {
+      "description": "URL that was tested URL.Malcious.Vendor For malicious URLs, the vendor that made the decision",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the reason that the vendor made the decision DBotScore.Type Indicator type",
+      "name": "URL.Malcious.Description",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EclecticIQ Platform (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/eclectic-iq-platform"
+}

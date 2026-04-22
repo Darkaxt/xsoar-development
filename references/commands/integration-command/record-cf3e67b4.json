@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "sumologic-sec-threat-intel-update-source",
+  "examples": [
+    "Command Example\n#\n!sumologic-sec-threat-intel-update-source threat-intel-source-id=54 active=true value=1.2.3.4 description=test expiration=2021-04-29T00:00:00.000Z\nHuman Readable Output\n#\nResult:\nResult\nServer Response",
+    "!sumologic-sec-threat-intel-update-source threat-intel-source-id=54 active=true value=1.2.3.4 description=test expiration=2021-04-29T00:00:00.000Z\nHuman Readable Output\n#\nResult:\nResult\nServer Response\nSuccess\ntrue"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Result (Success or Failed) SumoLogicSec.UpdateResult.Server response Server response (True or False)",
+      "name": "SumoLogicSec.UpdateResult.Result",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Sumo Logic Cloud SIEM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sumo-logic-sec"
+}

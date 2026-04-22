@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "List of AbuseIPDB categories",
+  "examples": [
+    "Command Example\n!abuseipdb-get-categories\nHuman Readable Output\n6. Get the full list of false positive IP addresses\nReturns the False Positive List (FPL) from abuse.ch, containing indicators (IPs and domains) that have been removed from their blocklists.\nBase Command\nabuseipdb-get-fplist\nInput",
+    "!abuseipdb-get-categories\nHuman Readable Output\n6. Get the full list of false positive IP addresses\nReturns the False Positive List (FPL) from abuse.ch, containing indicators (IPs and domains) that have been removed from their blocklists.\nBase Command\nabuseipdb-get-fplist\nInput\nArgument Name",
+    "Command Example\n!abuseipdb-get-fplist format=\"json\" limit=10\nAdditional Information\nWhat is the \"Confidence of Abuse\" rating, and how is it calculated?\nAbuseIPDB confidence of abuse is a rating (0-100) of how confident we are, based on user reports, that an IP address is completely malicious. A rating of 100 means we are certain that an IP address is malicious, and a rating of 0 means we have no reason to suspect it is malicious.\nEdit this page\nReport an Issue\nPrevious",
+    "!abuseipdb-get-fplist format=\"json\" limit=10\nAdditional Information\nWhat is the \"Confidence of Abuse\" rating, and how is it calculated?\nAbuseIPDB confidence of abuse is a rating (0-100) of how confident we are, based on user reports, that an IP address is completely malicious. A rating of 100 means we are certain that an IP address is malicious, and a rating of 0 means we have no reason to suspect it is malicious.\nEdit this page\nReport an Issue\nPrevious\n\u00ab abuse.ch SSL Blacklist Feed"
+  ],
+  "kind": "integration-command",
+  "name": "abuseipdb-get-fplist",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique identifier for the False Positive List entry. AbuseIPDB.FPL.time_stamp Date",
+      "name": "AbuseIPDB.FPL.id",
+      "required": ""
+    },
+    {
+      "description": "AbuseIPDB.FPL.platform The platform or service associated with the entry. AbuseIPDB.FPL.entry_type",
+      "name": "The date and time (UTC) when the entry was added to the False Positive List.",
+      "required": ""
+    },
+    {
+      "description": "The type of the indicator (e.g., IPv4, domain). AbuseIPDB.FPL.entry_value The actual indicator value (IP address or domain) that was marked as a false positive.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The entity or user who requested the removal of the indicator from the blocklist. AbuseIPDB.FPL.removal_notes Additional context or justification for why the indicator was removed.",
+      "name": "AbuseIPDB.FPL.removed_by",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AbuseIPDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/abuse-ipdb"
+}

@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!ip ip=1.1.1.1\nContext Example\n#\n{\n\"Barracuda\"\n:",
+    "!ip ip=1.1.1.1\nContext Example\n#\n{\n\"Barracuda\"\n:\n{\n\"IP\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Get IP details from Barracuda(BRBL) service Barracuda.IP IP details",
+      "name": "ip",
+      "required": ""
+    },
+    {
+      "description": "The indicator itself DBotScore.Score Score",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Type of the indicator DBotScore.Vendor Vendor information",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "IP address IP.Malicious.Vendor The vendor reporting the IP address as malicious.",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "A description explaining why the IP address was reported as malicious.",
+      "name": "IP.Malicious.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Barracuda Reputation Block List (BRBL)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/barracuda-reputation-block-list---brbl"
+}

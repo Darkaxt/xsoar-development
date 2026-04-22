@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"fe80::81c5:1670:9363:a40b\"",
+  "examples": [
+    "Command Example\n#\n!ms-ecm-get-user-device-affinity device_names=EC2AMAZ-2AKQ815\nContext Example\n#\n{\n\"MicrosoftECM\"\n:",
+    "!ms-ecm-get-user-device-affinity device_names=EC2AMAZ-2AKQ815\nContext Example\n#\n{\n\"MicrosoftECM\"\n:\n{\n\"UserDeviceAffinity\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the device. MicrosoftECM.UserDeviceAffinity.UserName The user name in domain\\user format.",
+      "name": "MicrosoftECM.UserDeviceAffinity.DeviceName",
+      "required": ""
+    },
+    {
+      "description": "The resource ID of the device. MicrosoftECM.UserDeviceAffinity.IsActive Whether the relationship is active.",
+      "name": "MicrosoftECM.UserDeviceAffinity.ResourceID",
+      "required": ""
+    },
+    {
+      "description": "date The time when the relationship was created. MicrosoftECM.UserDeviceAffinity.RelationshipResourceID",
+      "name": "MicrosoftECM.UserDeviceAffinity.CreationTime",
+      "required": ""
+    },
+    {
+      "description": "The unique identifier for this relationship.",
+      "name": "number",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Endpoint Configuration Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-endpoint-configuration-manager"
+}

@@ -1,0 +1,52 @@
+{
+  "aliases": [
+    "get-cisco-ise-active-instance"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "GetCiscoISEActiveInstance | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetCiscoISEActiveInstance",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Returns instance name of the active Cisco ISE node. PaloAltoIoTIntegrationBase.NodeErrorStatus Returns the nodes error status if no active Cisco ISE nodes are found.",
+      "name": "PaloAltoIoTIntegrationBase.ActiveNodeInstance",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "unknown",
+      "required": ""
+    },
+    {
+      "description": "Next getContentPackStatus \u00bb Script Data",
+      "name": "\u00ab GetCampaignLowSimilarityIncidentsInfo",
+      "required": ""
+    },
+    {
+      "description": "Dependencies",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetCiscoISEActiveInstance",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-cisco-ise-active-instance"
+}

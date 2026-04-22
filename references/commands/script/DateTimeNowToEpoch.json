@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "date-time-now-to-epoch"
+  ],
+  "arguments": [],
+  "description": "DateTimeNowToEpoch | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DateTimeNowToEpoch",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DateTimeNowToEpoch",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/date-time-now-to-epoch"
+}

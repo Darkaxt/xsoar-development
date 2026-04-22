@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Delete a task: cuckoo-delete-task",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "cuckoo-create-task-from-file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the task",
+      "name": "Cuckoo.Task.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cuckoo Sandbox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cuckoo-sandbox"
+}

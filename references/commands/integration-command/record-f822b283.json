@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "azure-storage-table-entity-delete",
+  "examples": [
+    "Command Example\n#\n!azure-storage-table-entity-delete table_name=\"xsoar\" partition_key=\"xsoar-partition\" row_key=\"xsoar-row\"\nHuman Readable Output\n#\nEntity in xsoar table successfully deleted.\nEdit this page\nReport an Issue",
+    "!azure-storage-table-entity-delete table_name=\"xsoar\" partition_key=\"xsoar-partition\" row_key=\"xsoar-row\"\nHuman Readable Output\n#\nEntity in xsoar table successfully deleted.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Azure Storage Queue"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Storage Table",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-storage-table"
+}

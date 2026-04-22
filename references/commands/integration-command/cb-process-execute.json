@@ -1,0 +1,50 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "18. Run an executable on an endpoint",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "cb-process-execute",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique command ID CbLiveResponse.Commands.CommandName The command name",
+      "name": "CbLiveResponse.Commands.CbCommandID",
+      "required": ""
+    },
+    {
+      "description": "The command Status pending in progress",
+      "name": "CbLiveResponse.Commands.Status",
+      "required": ""
+    },
+    {
+      "description": "error canceled CbLiveResponse.Commands.CommandCompletionTime",
+      "name": "complete",
+      "required": ""
+    },
+    {
+      "description": "0 if not complete). CbLiveResponse.Commands.OperandObject",
+      "name": "The command completion time (",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.Commands.ReturnCode The return code of the process (if wait was set to true",
+      "name": "The path and command line of the executable",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.Commands.ProcessID",
+      "name": ")",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

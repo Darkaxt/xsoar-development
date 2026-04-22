@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "concentricai-get-file-sharing-details",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Get's file sharing details",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "concentricai-get-file-sharing-details",
+      "required": ""
+    },
+    {
+      "description": "Sharing type. ConcentricAI.FileSharingInfo.user_name User name.",
+      "name": "ConcentricAI.FileSharingInfo.type",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Computer Vision Engine",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Confluera \u00bb Configure ConcentricAI in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "concentricai-get-users-overview concentricai-get-user-details concentricai-get-file-sharing-details",
+      "name": "concentricai-get-file-details",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ConcentricAI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/concentric-ai"
+}

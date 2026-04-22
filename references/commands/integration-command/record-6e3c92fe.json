@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Successfully removed the attribute 'XSOAR_BP' from the following entities",
+  "examples": [
+    "!xmcyber-calculate-risk-score entity_values=\"user1,hostname1\"\nContext Example\n#\n{\n\"XMCyber\"\n:\n{\n\"CalculateRiskScore\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The entity values that were evaluated. XMCyber.CalculateRiskScore.compromisedRiskScoreLevel The risk level based on the highest Compromise Risk Score found.",
+      "name": "XMCyber.CalculateRiskScore.entities",
+      "required": ""
+    },
+    {
+      "description": "The highest Compromise Risk Score found across all evaluated entities. XMCyber.CalculateRiskScore.compromisedChokePointScoreLevel The risk level based on the highest Choke Point Score found.",
+      "name": "XMCyber.CalculateRiskScore.compromisedRiskScore",
+      "required": ""
+    },
+    {
+      "description": "The highest Choke Point Score found across all evaluated entities. XMCyber.CalculateRiskScore.calculatedRiskScore The final calculated risk score based on weighted combination of Compromise Risk Score and Choke Point Score.",
+      "name": "XMCyber.CalculateRiskScore.compromisedChokePointScore",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "XM Cyber CEM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/xm-cyber-cem"
+}

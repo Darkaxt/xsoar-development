@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!gti-iocstream-get-indicators limit=1 filter=source_type:hunting_ruleset\nHuman Readable Output\n#\nIndicators from Google Threat Intelligence IoC Stream\n#\nId",
+    "!gti-iocstream-get-indicators limit=1 filter=source_type:hunting_ruleset\nHuman Readable Output\n#\nIndicators from Google Threat Intelligence IoC Stream\n#\nId\nDetections\nOrigin"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Threat Intelligence IoC Stream Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-threat-intelligence-io-c-stream-feed"
+}

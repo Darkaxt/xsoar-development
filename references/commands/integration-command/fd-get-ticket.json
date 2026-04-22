@@ -1,0 +1,77 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Email:\u00a0jeffrey.collins@gmail.com",
+  "examples": [
+    "Command Example\n!fd-get-ticket id=108 include_requester=true include_stats=true\nContext Example\n{\n\"Freshdesk.Ticket\": {\n\"Status\": 2,\n\"DueBy\": \"2019-02-07T09:00:00Z\",\n\"FrDueBy\": \"2019-02-06T10:00:00Z\",",
+    "!fd-get-ticket id=108 include_requester=true include_stats=true\nContext Example\n{\n\"Freshdesk.Ticket\": {\n\"Status\": 2,\n\"DueBy\": \"2019-02-07T09:00:00Z\",\n\"FrDueBy\": \"2019-02-06T10:00:00Z\",\n\"Priority\": 3,"
+  ],
+  "kind": "integration-command",
+  "name": "fd-get-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID number of the fetched ticket Freshdesk.Ticket.Priority Ticket priority",
+      "name": "Freshdesk.Ticket.ID",
+      "required": ""
+    },
+    {
+      "description": "Date Timestamp that denotes when the ticket is due to be resolved Freshdesk.Ticket.Subject",
+      "name": "Freshdesk.Ticket.DueBy",
+      "required": ""
+    },
+    {
+      "description": "Ticket subject Freshdesk.Ticket.Status Ticket status",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "User ID of the requester Freshdesk.Ticket.Tag Tags associated with the ticket",
+      "name": "Freshdesk.Ticket.RequesterID",
+      "required": ""
+    },
+    {
+      "description": "ID of the group the ticket was assigned to Freshdesk.Ticket.Source The channel through which the ticket was created",
+      "name": "Freshdesk.Ticket.GroupID",
+      "required": ""
+    },
+    {
+      "description": "Date Ticket creation timestamp Freshdesk.Ticket.ResponderID",
+      "name": "Freshdesk.Ticket.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "ID of the agent the ticket was assigned to Freshdesk.Ticket.FrDueBy Date",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Freshdesk.Ticket.Conversation Conversations associated with this ticket Freshdesk.Ticket.Attachment.AttachmentURL",
+      "name": "Timestamp that denotes when the first response is due",
+      "required": ""
+    },
+    {
+      "description": "URL to download the file attached to the ticket to your local machine Freshdesk.Ticket.Attachment.Name The name of the file attached to the ticket",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Content type of the file attached to the ticket Freshdesk.Ticket.Attachment.ID ID number of the file attached to the ticket",
+      "name": "Freshdesk.Ticket.Attachment.ContentType",
+      "required": ""
+    },
+    {
+      "description": "Size of the file attached to the ticket Freshdesk.Ticket.UpdatedAt Date",
+      "name": "Freshdesk.Ticket.Attachment.Size",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Ticket update timestamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Freshdesk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/freshdesk"
+}

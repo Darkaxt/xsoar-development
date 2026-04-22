@@ -1,0 +1,43 @@
+{
+  "aliases": [
+    "CommonServerPython.CommandResults"
+  ],
+  "arguments": [
+    {
+      "description": "Human-readable Markdown shown in the War Room.",
+      "name": "readable_output",
+      "required": "Optional"
+    },
+    {
+      "description": "Context output prefix matching yml contextPath prefix.",
+      "name": "outputs_prefix",
+      "required": "Optional"
+    },
+    {
+      "description": "Structured data written to context.",
+      "name": "outputs",
+      "required": "Optional"
+    },
+    {
+      "description": "Original raw response/content.",
+      "name": "raw_response",
+      "required": "Optional"
+    },
+    {
+      "description": "Prevents indicator auto-extract when true.",
+      "name": "ignore_auto_extract",
+      "required": "Optional"
+    }
+  ],
+  "description": "CommonServerPython class used to return readable output, context outputs, raw response, files, and metadata to XSOAR.",
+  "examples": [
+    "CommandResults(readable_output='Done', outputs_prefix='Example', outputs={'status': 'ok'})"
+  ],
+  "kind": "api",
+  "name": "CommandResults",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Common Server Python",
+  "source_url": "https://xsoar.pan.dev/docs/reference/api/common-server-python"
+}

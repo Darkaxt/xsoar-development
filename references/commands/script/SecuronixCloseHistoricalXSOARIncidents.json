@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "securonix-close-historical-xsoar-incidents"
+  ],
+  "arguments": [],
+  "description": "SecuronixCloseHistoricalXSOARIncidents | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SecuronixCloseHistoricalXSOARIncidents",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of XSOAR incident IDs that were closed. Troubleshooting",
+      "name": "Securonix.CloseHistoricalXSOARIncidents.IncidentIDs",
+      "required": ""
+    },
+    {
+      "description": "timeout of the script by using the execution-timeout argument. This argument expects the value to be passed in",
+      "name": "The default timeout of this script is 1 hour. If you expect more number of incidents to be closed, then increase the",
+      "required": ""
+    },
+    {
+      "description": ". Edit this page Report an Issue",
+      "name": "seconds",
+      "required": ""
+    },
+    {
+      "description": "\u00ab SearchIndicatorRelationships Next SecuronixGetViolations \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Dependencies",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Troubleshooting",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SecuronixCloseHistoricalXSOARIncidents",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/securonix-close-historical-xsoar-incidents"
+}

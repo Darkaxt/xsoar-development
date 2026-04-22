@@ -1,0 +1,61 @@
+{
+  "aliases": [
+    "pan-os-get-device-disk-space"
+  ],
+  "arguments": [],
+  "description": "PAN-OS-GetDeviceDiskSpace | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PAN-OS-GetDeviceDiskSpace",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Serial number of the device. PANOS.DiskSpace.FileSystems.FileSystem The device file system.",
+      "name": "PANOS.DiskSpace.hostid",
+      "required": ""
+    },
+    {
+      "description": "PANOS.DiskSpace.FileSystems.Size The size of the file system. PANOS.DiskSpace.FileSystems.Used",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "PANOS.DiskSpace.FileSystems.Avail The amount of free space on the file system. PANOS.DiskSpace.FileSystems.Used%",
+      "name": "The amount of used space on the file system.",
+      "required": ""
+    },
+    {
+      "description": "PANOS.DiskSpace.FileSystems.MountedOn The path where the file system is mounted. PANOS.DiskSpace.FileSystems.Units",
+      "name": "The percentage of total size used.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The unit used to represent disk space values.",
+      "required": ""
+    },
+    {
+      "description": "Next PAN-OS_Security_Advisories_Enrichment \u00bb Script Data",
+      "name": "\u00ab PAN-OS-GetAvailablePANOSSoftware",
+      "required": ""
+    },
+    {
+      "description": "Used In",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PAN-OS-GetDeviceDiskSpace",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/pan-os-get-device-disk-space"
+}

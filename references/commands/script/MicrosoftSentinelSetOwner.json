@@ -1,0 +1,106 @@
+{
+  "aliases": [
+    "microsoft-sentinel-set-owner"
+  ],
+  "arguments": [],
+  "description": "MicrosoftSentinelSetOwner | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "MicrosoftSentinelSetOwner",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The incident ID. AzureSentinel.Incident.Title The incident's title.",
+      "name": "AzureSentinel.Incident.ID",
+      "required": ""
+    },
+    {
+      "description": "AzureSentinel.Incident.Description Description of the incident. AzureSentinel.Incident.Severity",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "AzureSentinel.Incident.Status The incident status. AzureSentinel.Incident.AssigneeName",
+      "name": "The incident severity.",
+      "required": ""
+    },
+    {
+      "description": "AzureSentinel.Incident.AssigneeEmail The email address of the incident assignee. AzureSentinel.Incident.AssigneeObjectID",
+      "name": "The name of the incident assignee.",
+      "required": ""
+    },
+    {
+      "description": "AzureSentinel.Incident.AssigneeUPN The user principal name of the incident assignee. AzureSentinel.Incident.Label.Name",
+      "name": "The object ID of the incident assignee.",
+      "required": ""
+    },
+    {
+      "description": "AzureSentinel.Incident.Label.Type The incident label type. AzureSentinel.Incident.FirstActivityTimeUTC",
+      "name": "The name of the incident label.",
+      "required": ""
+    },
+    {
+      "description": "Date AzureSentinel.Incident.LastActivityTimeUTC The date and time of the incident's last activity.",
+      "name": "The date and time of the incident's first activity.",
+      "required": ""
+    },
+    {
+      "description": "AzureSentinel.Incident.LastModifiedTimeUTC The date and time the incident was last modified. Date",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The date and time the incident was created. Date AzureSentinel.Incident.IncidentNumber",
+      "name": "AzureSentinel.Incident.CreatedTimeUTC",
+      "required": ""
+    },
+    {
+      "description": "AzureSentinel.Incident.AlertsCount The number of alerts in the incident. AzureSentinel.Incident.BookmarkCount",
+      "name": "The incident number.",
+      "required": ""
+    },
+    {
+      "description": "AzureSentinel.Incident.CommentCount The number of comments in the incident. AzureSentinel.Incident.AlertProductNames",
+      "name": "The number of bookmarks in the incident.",
+      "required": ""
+    },
+    {
+      "description": "AzureSentinel.Incident.Tactics The incident's tactics. AzureSentinel.Incident.FirstActivityTimeGenerated",
+      "name": "The alert product names of the incident.",
+      "required": ""
+    },
+    {
+      "description": "Date AzureSentinel.Incident.LastActivityTimeGenerated The incident's generated last activity time.",
+      "name": "The incident's generated first activity time.",
+      "required": ""
+    },
+    {
+      "description": "AzureSentinel.Incident.Etag The Etag of the incident. Edit this page",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab MicrosoftSentinelConvertRelationsToTable Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "MicrosoftSentinelSubmitNewComment \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MicrosoftSentinelSetOwner",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/microsoft-sentinel-set-owner"
+}

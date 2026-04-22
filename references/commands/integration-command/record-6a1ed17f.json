@@ -1,0 +1,74 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "get-modified-remote-data",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Get the list of incidents that were modified since the last update time. This method is used for debugging purposes. The get-modified-remote-data command is used as part of the Mirroring feature that was introduced in Cortex XSOAR version 6.1.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "get-modified-remote-data",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Microsoft Advanced Threat Analytics (Deprecated) \u00bb Authentication Using the Device Code Flow",
+      "name": "\u00ab MicroFocus SMAX",
+      "required": ""
+    },
+    {
+      "description": "Self-Deployed Application - Device Code Flow Self-Deployed Application - Client Credentials Flow Configure Microsoft 365 Defender on Cortex XSOAR",
+      "name": "Cortex XSOAR App",
+      "required": ""
+    },
+    {
+      "description": "Mirroring In (Microsoft 365 Defender \u2192 XSOAR) Mirroring Out (XSOAR \u2192 Microsoft 365 Defender) Closing Logic",
+      "name": "Incident Mirroring",
+      "required": ""
+    },
+    {
+      "description": "Commands microsoft-365-defender-auth-start microsoft-365-defender-auth-complete",
+      "name": "Configure Incident Mirroring",
+      "required": ""
+    },
+    {
+      "description": "microsoft-365-defender-auth-test microsoft-365-defender-incidents-list microsoft-365-defender-incident-get",
+      "name": "microsoft-365-defender-auth-reset",
+      "required": ""
+    },
+    {
+      "description": "microsoft-365-defender-incident-update microsoft-365-defender-advanced-hunting update-remote-system",
+      "name": "microsoft-365-defender-incident-get",
+      "required": ""
+    },
+    {
+      "description": "get-modified-remote-data Docs Developer Docs",
+      "name": "get-remote-data",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft 365 Defender",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-365-defender"
+}

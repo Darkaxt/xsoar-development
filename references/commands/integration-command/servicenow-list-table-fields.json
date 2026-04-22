@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!servicenow-delete-record id=748692114fc2230021ae045e9310c7ff table_name=incident\nHuman Readable Output\n14. List API fiels for a table\nLists API fields for a specified ServiceNow table.\nBase Command\nservicenow-list-table-fields\nInput",
+    "!servicenow-delete-record id=748692114fc2230021ae045e9310c7ff table_name=incident\nHuman Readable Output\n14. List API fiels for a table\nLists API fields for a specified ServiceNow table.\nBase Command\nservicenow-list-table-fields\nInput\nArgument Name",
+    "Command Example\n!servicenow-list-table-fields table_name=alm_asset\nContext Example\n{\n\"ServiceNow\": {\n\"Field\": [\n{\n\"Name\": \"reserved_for\"",
+    "!servicenow-list-table-fields table_name=alm_asset\nContext Example\n{\n\"ServiceNow\": {\n\"Field\": [\n{\n\"Name\": \"reserved_for\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "servicenow-list-table-fields",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Table API field name",
+      "name": "ServiceNow.Field",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now"
+}

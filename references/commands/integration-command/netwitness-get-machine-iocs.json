@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Microsoft Windows Server 2012 R2 Datacenter",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "netwitness-get-machine-iocs",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Machine GUID NetWitness.IOCs.Description Description",
+      "name": "NetWitness.Machines.MachineGUID",
+      "required": ""
+    },
+    {
+      "description": "Type NetWitness.IOCs.MachineCount Machine count",
+      "name": "NetWitness.IOCs.Type",
+      "required": ""
+    },
+    {
+      "description": "Module count NetWitness.IOCs.IOCLevel IOC level",
+      "name": "NetWitness.IOCs.ModuleCount",
+      "required": ""
+    },
+    {
+      "description": "Priority NetWitness.IOCs.Active Active",
+      "name": "NetWitness.IOCs.Priority",
+      "required": ""
+    },
+    {
+      "description": "Last executed NetWitness.IOCs.Alertable Alertable",
+      "name": "NetWitness.IOCs.LastExecuted",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "NetWitness.IOCs.IOCTriggeredOnMachine",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness Endpoint",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-endpoint"
+}

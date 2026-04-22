@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "is-url-part-of-domain"
+  ],
+  "arguments": [],
+  "description": "IsUrlPartOfDomain | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IsUrlPartOfDomain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The path of the URLs. IsUrlPartOfDomain.Domain The domain checked with the URL.",
+      "name": "IsUrlPartOfDomain.URL",
+      "required": ""
+    },
+    {
+      "description": "IsUrlPartOfDomain.IsInternal Whether the URL is in the domain. Edit this page",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab IsTrue Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data Used In",
+      "name": "IsValueInArray \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IsUrlPartOfDomain",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/is-url-part-of-domain"
+}

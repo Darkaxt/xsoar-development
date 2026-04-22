@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!cuckoo-view-task id=88",
+  "examples": [
+    "Command Example\n!cuckoo-view-task id=88\nContext Example\nHuman Readable Output\n6. Delete a task\nDeletes a task from Cuckoo Sandbox.\nBase Command\ncuckoo-delete-task",
+    "!cuckoo-view-task id=88\nContext Example\nHuman Readable Output\n6. Delete a task\nDeletes a task from Cuckoo Sandbox.\nBase Command\ncuckoo-delete-task\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "cuckoo-delete-task",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cuckoo Sandbox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cuckoo-sandbox"
+}

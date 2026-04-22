@@ -1,0 +1,15 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "repositories: {\"nodes\": [{\"name\": \"content\"}, {\"name\": \"demisto-sdk\"}, {\"name\": \"content-docs\"}]}",
+  "examples": [
+    "Command Example\n#\n```!graphql-mutation query=\"mutation AddReactionToIssue {addReaction(input:{subjectId:\"MDU6SXNzdWUyMzEzOTE1NTE=\",content:HOORAY}) {reaction {content} subject { id } } }\" max_result_size=\"10\" populate_context_data=\"true\"````\nContext Example\n#\n{\n\"GraphQL\"\n:"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GraphQL",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/graph-ql"
+}

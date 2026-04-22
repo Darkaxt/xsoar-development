@@ -1,0 +1,29 @@
+{
+  "aliases": [
+    "1) or benchmark(10000000,MD5(1))"
+  ],
+  "arguments": [],
+  "description": "http://Google.com/signup",
+  "examples": [
+    "Command Example\n#\n!cymulate-simulations-id-list module=\"kill-chain\" from_date=\"2021-01-01\"\nContext Example\n#\n{\n\"Cymulate\"\n:",
+    "!cymulate-simulations-id-list module=\"kill-chain\" from_date=\"2021-01-01\"\nContext Example\n#\n{\n\"Cymulate\"\n:\n{\n\"Simulations\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Attack ID. Cymulate.Simulations.Timestamp Attack timestamp",
+      "name": "Cymulate.Simulations.ID",
+      "required": ""
+    },
+    {
+      "description": "Agent connected to the attack. Cymulate.Simulations.Template Attack template.",
+      "name": "Cymulate.Simulations.Agent",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cymulate v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cymulate-v2"
+}

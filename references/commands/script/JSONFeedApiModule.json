@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "json-feed-api-module"
+  ],
+  "arguments": [],
+  "description": "JSONFeedApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "JSONFeedApiModule",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "JSONFeedApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/json-feed-api-module"
+}

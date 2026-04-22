@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "DeviceDetails DeviceVersion",
+  "examples": [
+    "Command Example\n!cbd-find-processes ipAddress=\"67.143.208.113\" rows=2\nContext Example\nCarbonBlackDefense:{} 1 item\nGetProcesses:[] 3 items\n0:{} 6 items\nApplicationName:Google Chrome\nApplicationPath:/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "!cbd-find-processes ipAddress=\"67.143.208.113\" rows=2\nContext Example\nCarbonBlackDefense:{} 1 item\nGetProcesses:[] 3 items\n0:{} 6 items\nApplicationName:Google Chrome\nApplicationPath:/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\nNumEvents:3580"
+  ],
+  "kind": "integration-command",
+  "name": "cbd-find-processes",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Application name CarbonBlackDefense.GetProcesses.ProcessId Process ID",
+      "name": "CarbonBlackDefense.GetProcesses.ApplicationName",
+      "required": ""
+    },
+    {
+      "description": "Number of events CarbonBlackDefense.GetProcesses.ApplicationPath Application path",
+      "name": "CarbonBlackDefense.GetProcesses.NumEvents",
+      "required": ""
+    },
+    {
+      "description": "Private PID CarbonBlackDefense.GetProcesses.Sha256Hash SHA-256 hash",
+      "name": "CarbonBlackDefense.GetProcesses.PrivatePid",
+      "required": ""
+    },
+    {
+      "description": "Total results",
+      "name": "CarbonBlackDefense.GetProcesses.TotalResults",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black Endpoint Standard (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-defense"
+}

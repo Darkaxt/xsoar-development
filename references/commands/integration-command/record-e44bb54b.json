@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "475d7efc7983357e51ea780e350b0efe6a5ba2e2",
+  "examples": [
+    "Command Example\n#\nanyrun-run-analysis obj_type=file file=693@66884384-c643-4343-8cf7-26f59e62a88e env_bitness=64\nContext Example\n#\n{\n\"ANYRUN.Task\": {\n\"ID\": \"e04b401f-9396-4183-ad00-b6ed34c023e3\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the task created to analyze the submission.",
+      "name": "ANYRUN.Task.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ANY.RUN (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/anyrun"
+}

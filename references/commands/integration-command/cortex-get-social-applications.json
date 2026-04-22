@@ -1,0 +1,73 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "3. Get social applications",
+  "examples": [
+    "Command Example\n!cortex-get-social-applications startTime=\"2018-04-26 00:00:00\" endTime=\"2018-04-28 00:00:00\" logsAmount=5\nCommand Example\n{\n\"Logging\"\n:\n[\n{",
+    "!cortex-get-social-applications startTime=\"2018-04-26 00:00:00\" endTime=\"2018-04-28 00:00:00\" logsAmount=5\nCommand Example\n{\n\"Logging\"\n:\n[\n{\n\"action\"",
+    "Command Example\n{\n\"Logging\"\n:\n[\n{\n\"action\"\n:"
+  ],
+  "kind": "integration-command",
+  "name": "cortex-get-social-applications",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Log ID Cortex.Logging.score Log score",
+      "name": "Cortex.Logging.id",
+      "required": ""
+    },
+    {
+      "description": "Log action Cortex.Logging.app Log application",
+      "name": "Cortex.Logging.action",
+      "required": ""
+    },
+    {
+      "description": "Protocol used Cortex.Logging.dst Destination IP",
+      "name": "Cortex.Logging.proto",
+      "required": ""
+    },
+    {
+      "description": "Rule used for log Cortex.Logging.src Source of action",
+      "name": "Cortex.Logging.rule",
+      "required": ""
+    },
+    {
+      "description": "Application's category Cortex.Logging.srcloc Source location",
+      "name": "Cortex.Logging.category-of-app",
+      "required": ""
+    },
+    {
+      "description": "Destination location Cortex.Logging.characteristic-of-app Application's characteristics",
+      "name": "Cortex.Logging.dstloc",
+      "required": ""
+    },
+    {
+      "description": "Device name Cortex.Logging.nat Was NAT used?",
+      "name": "Cortex.Logging.device_name",
+      "required": ""
+    },
+    {
+      "description": "NAT port Cortex.Logging.natdst NAT destination",
+      "name": "Cortex.Logging.natdport",
+      "required": ""
+    },
+    {
+      "description": "NAT source Cortex.Logging.risk-of-app Application's risk",
+      "name": "Cortex.Logging.natsrc",
+      "required": ""
+    },
+    {
+      "description": "Aggregations size Cortex.Logging.natsport NAT port",
+      "name": "Cortex.Logging.aggregations.size",
+      "required": ""
+    },
+    {
+      "description": "Traffic start Cortex.Logging.subcategory-of-apptime_received Sub-category of application time",
+      "name": "Cortex.Logging.start",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Cortex (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-cortex"
+}

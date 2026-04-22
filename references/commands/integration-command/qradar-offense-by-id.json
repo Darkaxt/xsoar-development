@@ -1,0 +1,88 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!qradar-offense-by-id fields=id,magnitude offense_id=78\n!qradar-offense-by-id offense_id=78\nContext Example\n{\n\"QRadar\": {\n\"Offense\": {\n\"Followup\": false,",
+    "!qradar-offense-by-id fields=id,magnitude offense_id=78\n!qradar-offense-by-id offense_id=78\nContext Example\n{\n\"QRadar\": {\n\"Offense\": {\n\"Followup\": false,\n\"OffenseSource\": \"admin\",",
+    "!qradar-offense-by-id offense_id=78\nContext Example\n{\n\"QRadar\": {\n\"Offense\": {\n\"Followup\": false,\n\"OffenseSource\": \"admin\",\n\"Description\": \"Multiple Login Failures for the Same User\\n preceded by shachar_test\\n containing Failed Login Attempt\\n\","
+  ],
+  "kind": "integration-command",
+  "name": "qradar-offense-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The credibility of the offense QRadar.Offense.Relevance The relevance of the offense",
+      "name": "QRadar.Offense.Credibility",
+      "required": ""
+    },
+    {
+      "description": "The severity of the offense QRadar.Offense.SourceAddress The source addresses that are associated with the offense.",
+      "name": "QRadar.Offense.Severity",
+      "required": ""
+    },
+    {
+      "description": "The local destination addresses that are associated with the offense. If your offense has a remote destination, you will need to use QRadarFullSearch playbook with the following query: SELECT destinationip FROM events WHERE inOffense() GROUP BY destinationip QRadar.Offense.RemoteDestinationCount",
+      "name": "QRadar.Offense.DestinationAddress",
+      "required": ""
+    },
+    {
+      "description": "The remote destination that are associated with the offense. If this value is greater than 0 that means your offense has a remote destination, you will need to use QRadarFullSearch playbook with the following query: SELECT destinationip FROM events WHERE inOffense() GROUP BY destinationip QRadar.Offense.AssignedTo",
+      "name": "unknown",
+      "required": ""
+    },
+    {
+      "description": "The user the offense is assigned to QRadar.Offense.StartTime date",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "QRadar.Offense.ID int The ID of the offense.",
+      "name": "The time (ISO) when the offense started",
+      "required": ""
+    },
+    {
+      "description": "Destination hostname QRadar.Offense.Description The description of the offense",
+      "name": "QRadar.Offense.DestinationHostname",
+      "required": ""
+    },
+    {
+      "description": "The number of events that are associated with the offense. QRadar.Offense.OffenseSource The source of the offense.",
+      "name": "QRadar.Offense.EventCount",
+      "required": ""
+    },
+    {
+      "description": "The status of the offense (\"OPEN\", \"HIDDEN\", or \"CLOSED\") QRadar.Offense.Magnitude The magnitude of the offense.",
+      "name": "QRadar.Offense.Status",
+      "required": ""
+    },
+    {
+      "description": "The user that closed the offense QRadar.Offense.ClosingReason The offense closing reason.",
+      "name": "QRadar.Offense.ClosingUser",
+      "required": ""
+    },
+    {
+      "description": "date The time when the offense was closed. QRadar.Offense.LastUpdatedTime",
+      "name": "QRadar.Offense.CloseTime",
+      "required": ""
+    },
+    {
+      "description": "The time (ISO) when the offense was last updated. QRadar.Offense.Categories Event categories that are associated with the offense.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "The number of flows that are associated with the offense. QRadar.Offense.FollowUp Offense followup.",
+      "name": "QRadar.Offense.FlowCount",
+      "required": ""
+    },
+    {
+      "description": "A number that represents the offense type QRadar.Offense.Protected Is the offense protected",
+      "name": "QRadar.Offense.OffenseType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IBM QRadar (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/q-radar"
+}

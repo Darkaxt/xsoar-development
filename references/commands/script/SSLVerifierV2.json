@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "ssl-verifier-v2"
+  ],
+  "arguments": [],
+  "description": "SSLVerifierV2 | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SSLVerifierV2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date Certificate Expires SSLVerifierV2.Certificate.Site Site that was checked",
+      "name": "SSLVerifierV2.Certificate.ExpirationDate",
+      "required": ""
+    },
+    {
+      "description": "SSLVerifierV2.Certificate.TimeToExpiration Days to expiration Edit this page",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab SSIMScoreWidget Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "SSLVerifierV2_GenerateEmailBody \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SSLVerifierV2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ssl-verifier-v2"
+}

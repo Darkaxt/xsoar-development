@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "set-severity-by-score"
+  ],
+  "arguments": [],
+  "description": "SetSeverityByScore | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SetSeverityByScore",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next SetTagsBySearch \u00bb Script Data",
+      "name": "\u00ab SetRSANetWitnessAlertsMD",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SetSeverityByScore",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/set-severity-by-score"
+}

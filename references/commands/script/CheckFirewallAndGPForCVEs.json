@@ -1,0 +1,152 @@
+{
+  "aliases": [
+    "check-firewall-and-gp-for-cv-es"
+  ],
+  "arguments": [
+    {
+      "description": "cve_json Format",
+      "name": "pan_os_system_info_list Format",
+      "required": ""
+    }
+  ],
+  "description": "CheckFirewallAndGPForCVEs | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CheckFirewallAndGPForCVEs",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The CVE identifier CVE_Check.Result.Hostname Firewall hostname",
+      "name": "CVE_Check.CVE_ID",
+      "required": ""
+    },
+    {
+      "description": "Firewall IP address CVE_Check.Result.SWVersion PAN-OS software version",
+      "name": "CVE_Check.Result.IPAddress",
+      "required": ""
+    },
+    {
+      "description": "Whether PAN-OS version is affected by the CVE CVE_Check.Result.GlobalProtectVersion GlobalProtect client version",
+      "name": "CVE_Check.Result.IsFirewallVersionAffected",
+      "required": ""
+    },
+    {
+      "description": "Whether GlobalProtect version is affected by the CVE CVE_Check.Severity CVE severity level",
+      "name": "CVE_Check.Result.IsGlobalProtectVersionAffected",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Example",
+      "required": ""
+    },
+    {
+      "description": "\"CVE_Check\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": \"CVE-2072-1234\" ,",
+      "name": "\"CVE_ID\"",
+      "required": ""
+    },
+    {
+      "description": ": [ {",
+      "name": "\"Result\"",
+      "required": ""
+    },
+    {
+      "description": ": \"fw-affected\" ,",
+      "name": "\"Hostname\"",
+      "required": ""
+    },
+    {
+      "description": ": \"1.1.1.1\" ,",
+      "name": "\"IPAddress\"",
+      "required": ""
+    },
+    {
+      "description": ": \"10.2.3\" ,",
+      "name": "\"SWVersion\"",
+      "required": ""
+    },
+    {
+      "description": ": true ,",
+      "name": "\"IsFirewallVersionAffected\"",
+      "required": ""
+    },
+    {
+      "description": ": \"6.0.1\" ,",
+      "name": "\"GlobalProtectVersion\"",
+      "required": ""
+    },
+    {
+      "description": ": true }",
+      "name": "\"IsGlobalProtectVersionAffected\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"Hostname\" :",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"IPAddress\" :",
+      "name": "\"fw-patched\"",
+      "required": ""
+    },
+    {
+      "description": ", \"SWVersion\" :",
+      "name": "\"2.2.2.2\"",
+      "required": ""
+    },
+    {
+      "description": ", \"IsFirewallVersionAffected\" :",
+      "name": "\"10.2.3-h2\"",
+      "required": ""
+    },
+    {
+      "description": ", \"GlobalProtectVersion\" :",
+      "name": "false",
+      "required": ""
+    },
+    {
+      "description": ", \"IsGlobalProtectVersionAffected\" :",
+      "name": "\"6.0.3\"",
+      "required": ""
+    },
+    {
+      "description": "} ] ,",
+      "name": "false",
+      "required": ""
+    },
+    {
+      "description": ": \"MEDIUM\" }",
+      "name": "\"Severity\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "CVE-2072-1234 Notes Docs",
+      "name": "Context Example",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CheckFirewallAndGPForCVEs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/check-firewall-and-gp-for-cv-es"
+}

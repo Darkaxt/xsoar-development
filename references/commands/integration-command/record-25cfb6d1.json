@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!file-management-get-file-hash fileURI=\"/markdown/image/12142_60cad1a9-6f90-42c5-8b1b-514d66d74fc0.jpg\"\nContext Example\n#\n{\n\"File_Hash\"\n:",
+    "!file-management-get-file-hash fileURI=\"/markdown/image/12142_60cad1a9-6f90-42c5-8b1b-514d66d74fc0.jpg\"\nContext Example\n#\n{\n\"File_Hash\"\n:\n{\n\"Extension\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Extension of the file. File_Hash.MD5 MD5 of the file.",
+      "name": "File_Hash.Extension",
+      "required": ""
+    },
+    {
+      "description": "Name of the file. File_Hash.SHA1 SHA1 of the file.",
+      "name": "File_Hash.Name",
+      "required": ""
+    },
+    {
+      "description": "SHA256 of the file. File_Hash.SHA512 SHA512 of the file.",
+      "name": "File_Hash.SHA256",
+      "required": ""
+    },
+    {
+      "description": "Size of the file.",
+      "name": "File_Hash.Size",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "XSOAR File Management",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/xsoar-file-management"
+}

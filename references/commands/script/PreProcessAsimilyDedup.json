@@ -1,0 +1,67 @@
+{
+  "aliases": [
+    "pre-process-asimily-dedup"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "PreProcessAsimilyDedup | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PreProcessAsimilyDedup",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "False if incident already exists to Drop incoming incident. Otherwise return True",
+      "name": "Returns",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "Next PreprocessEmail \u00bb Permissions",
+      "name": "\u00ab PrepareArcannaRawJson",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "if incident already exists to Drop incoming incident. Otherwise return True .",
+      "name": "False",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab PrepareArcannaRawJson",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "PreprocessEmail \u00bb Permissions Script Data",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PreProcessAsimilyDedup",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/pre-process-asimily-dedup"
+}

@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!gvault-delete-hold matterID=6e067f1d-7fac-4ab2-bd9f-eede4f32dd32 holdID=41l9c2w2oqtmjc\nHuman Readable Output\n10. Get a list of matters\nLists matters the user has access to.\nBase Command\ngvault-list-matters\nInput",
+    "!gvault-delete-hold matterID=6e067f1d-7fac-4ab2-bd9f-eede4f32dd32 holdID=41l9c2w2oqtmjc\nHuman Readable Output\n10. Get a list of matters\nLists matters the user has access to.\nBase Command\ngvault-list-matters\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-list-matters",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The matter name GoogleVault.Matter.MatterID Matter ID",
+      "name": "GoogleVault.Matter.Name",
+      "required": ""
+    },
+    {
+      "description": "Matter's state",
+      "name": "GoogleVault.Matter.State",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

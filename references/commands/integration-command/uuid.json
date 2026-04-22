@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "http://example.com/suspicious_file.exe",
+  "examples": [
+    "Command Example\n!uuid uuid=44a7d565-a260-9oc6-b7f4-2368dc3a4a67 using=iDefense_instance_1\nContext Example\n{\n\"Domain\": [\n{\n\"Malicious\": {\n\"Vendor\": \"iDefense\",",
+    "!uuid uuid=44a7d565-a260-9oc6-b7f4-2368dc3a4a67 using=iDefense_instance_1\nContext Example\n{\n\"Domain\": [\n{\n\"Malicious\": {\n\"Vendor\": \"iDefense\",\n\"Description\": \"last seen as MALWARE_C2\""
+  ],
+  "kind": "integration-command",
+  "name": "uuid",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the bad IP Address. IP.Malicious.Vendor For malicious IPs, the vendor that made the decision.",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "For malicious IPs, the reason that the vendor made the decision. Domain.Name The name of the bad domain.",
+      "name": "IP.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "For malicious domains, the vendor that made the decision. Domain.Malicious.Description For malicious domains, the reason that the vendor made the decision.",
+      "name": "Domain.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The name of the bad URL. URL.Malicious.Vendor For malicious URLs, the vendor that made the decision.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the reason that the vendor made the decision. DBotScore.Indicator The indicator that was tested.",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The type of indicator. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "iDefense (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/i-defense"
+}

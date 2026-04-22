@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Manage Services on Kubernetes",
+  "examples": [
+    "Command Example\n#\n!k8s-service state=\"present\" name=\"test-https\" namespace=\"testing\" ports=\"{{ [{'port': 443, 'protocol': 'TCP'}] }}\" selector=\"{'app': 'nginx'}\"\nContext Example\n#\n{\n\"Kubernetes\"\n:",
+    "!k8s-service state=\"present\" name=\"test-https\" namespace=\"testing\" ports=\"{{ [{'port': 443, 'protocol': 'TCP'}] }}\" selector=\"{'app': 'nginx'}\"\nContext Example\n#\n{\n\"Kubernetes\"\n:\n{\n\"K8SService\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The created, patched, or otherwise present Service object. Will be empty in the case of a deletion.",
+      "name": "Kubernetes.K8sService.result",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ansible Kubernetes",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ansible-kubernetes"
+}

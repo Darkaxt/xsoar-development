@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "3. Add an IP address to an allow list: sigsci-whitelist-add-ip",
+  "examples": [
+    "Command Example\n!sigsci-whitelist-add-ip ip=9.7.9.7 note=docdoc siteName=demisto\nContext Example\n{\n\"SigSciences.Corp.Site.Whitelist\": {\n\"ExpiryDate\": \"\",\n\"Note\": \"docdoc\",\n\"Source\": \"9.7.9.7\",",
+    "!sigsci-whitelist-add-ip ip=9.7.9.7 note=docdoc siteName=demisto\nContext Example\n{\n\"SigSciences.Corp.Site.Whitelist\": {\n\"ExpiryDate\": \"\",\n\"Note\": \"docdoc\",\n\"Source\": \"9.7.9.7\",\n\"CreatedBy\": \"user@demisto.com\","
+  ],
+  "kind": "integration-command",
+  "name": "sigsci-whitelist-add-ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The IP address on the allow list. SigSciences.Corp.Site.Whitelist.Note The note associated with the tag.",
+      "name": "SigSciences.Corp.Site.Whitelist.Source",
+      "required": ""
+    },
+    {
+      "description": "The ID for this entry. SigSciences.Corp.Site.Whitelist.CreatedBy The user who added this source.",
+      "name": "SigSciences.Corp.Site.Whitelist.ID",
+      "required": ""
+    },
+    {
+      "description": "date The created date timestamp SigSciences.Corp.Site.Whitelist.ExpiryDate",
+      "name": "SigSciences.Corp.Site.Whitelist.CreatedDate",
+      "required": ""
+    },
+    {
+      "description": "The expiration timestamp.",
+      "name": "date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

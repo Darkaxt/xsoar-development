@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "1c9fe398b2294301aa3080ede8d77356_472d590fdd4e49639e41f81928df2542",
+  "examples": [
+    "Command Example\n#\n!cs-fx-download-ioc id=\"cd1db2f53e8760792a48a2ec544a29e6f876643204598621783f71017f6b4266\" name=\"test\" accept_encoding=\"gzip\"\nContext Example\n#\n{\n\"csfalconx\"\n:",
+    "!cs-fx-download-ioc id=\"cd1db2f53e8760792a48a2ec544a29e6f876643204598621783f71017f6b4266\" name=\"test\" accept_encoding=\"gzip\"\nContext Example\n#\n{\n\"csfalconx\"\n:\n{\n\"resource\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Intelligence Sandbox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/crowd-strike-falcon-x"
+}

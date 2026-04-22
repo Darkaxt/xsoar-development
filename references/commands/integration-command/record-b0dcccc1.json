@@ -1,0 +1,127 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "since = 2021-06-16T02:22:14Z",
+  "examples": [
+    "Command Example\n#\n!flashpoint-compromised-credentials-list\nContext Example\n#\n{\n\"Flashpoint\"\n:",
+    "!flashpoint-compromised-credentials-list\nContext Example\n#\n{\n\"Flashpoint\"\n:\n{\n\"CompromisedCredential\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the IoC. Flashpoint.CompromisedCredential._source.affected_domain Affected domain of the IoC.",
+      "name": "Flashpoint.CompromisedCredential._id",
+      "required": ""
+    },
+    {
+      "description": "The array contains the underlying type of the credentials object, in this case [\"credential-sighting\"]. Flashpoint.CompromisedCredential._source.body.raw This is the raw content captured from the breach Flashpoint discovered.",
+      "name": "Flashpoint.CompromisedCredential._source.basetypes",
+      "required": ""
+    },
+    {
+      "description": "This is the breach header object. Flashpoint.CompromisedCredential._source.breach.basetypes Array containing underlying base type of breach object, i.e. [\"breach\"].",
+      "name": "Flashpoint.CompromisedCredential._source.breach._header",
+      "required": ""
+    },
+    {
+      "description": "Constant for future use. Flashpoint.CompromisedCredential._source.breach.created_at.date-time Date",
+      "name": "Flashpoint.CompromisedCredential._source.breach.breach_type",
+      "required": ""
+    },
+    {
+      "description": "Flashpoint.CompromisedCredential._source.breach.created_at.timestamp UNIX timestamp. Flashpoint.CompromisedCredential._source.breach.first_observed_at.date-time",
+      "name": "Datetime object formatted as YYYY-mm-ddTHH:MM:SSZ.",
+      "required": ""
+    },
+    {
+      "description": "Datetime object formatted as YYYY-mm-ddTHH:MM:SSZ. Flashpoint.CompromisedCredential._source.breach.first_observed_at.timestamp UNIX timestamp.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Flashpoint ID of the breach. Flashpoint.CompromisedCredential._source.breach.source Data source of breach (i.e. Analyst Research, CredentialStealer, etc.).",
+      "name": "Flashpoint.CompromisedCredential._source.breach.fpid",
+      "required": ""
+    },
+    {
+      "description": "Type of source of the breach. Flashpoint.CompromisedCredential._source.breach.title Title of breach.",
+      "name": "Flashpoint.CompromisedCredential._source.breach.source_type",
+      "required": ""
+    },
+    {
+      "description": "Victim of the breach. Flashpoint.CompromisedCredential._source.credential_record_fpid This is the Flashpoint ID of the associated record object. This is used to retrieve sightings for a credential.",
+      "name": "Flashpoint.CompromisedCredential._source.breach.victim",
+      "required": ""
+    },
+    {
+      "description": "Customer ID of the IoC. Flashpoint.CompromisedCredential._source.domain This is the domain object extracted off of the email address.",
+      "name": "Flashpoint.CompromisedCredential._source.customer_id",
+      "required": ""
+    },
+    {
+      "description": "The email address for the compromised credential. Flashpoint.CompromisedCredential._source.extraction_id Extraction ID of the IoC.",
+      "name": "Flashpoint.CompromisedCredential._source.email",
+      "required": ""
+    },
+    {
+      "description": "Extraction record ID of the IoC. Flashpoint.CompromisedCredential._source.fpid The Flashpoint ID of this credentials object.",
+      "name": "Flashpoint.CompromisedCredential._source.extraction_record_id",
+      "required": ""
+    },
+    {
+      "description": "source.header .indexed_at Timestamp for when this document was indexed into the Flashpoint database.",
+      "name": "Flashpoint.CompromisedCredential.",
+      "required": ""
+    },
+    {
+      "description": "source.header .pipeline_duration Pipeline duration header information of the IoC.",
+      "name": "Flashpoint.CompromisedCredential.",
+      "required": ""
+    },
+    {
+      "description": "This will be \"true\" if the credential has not been seen before, and it hasn't been marked \"not fresh\" by an analyst. (Historical breaches are not \"fresh\".). Flashpoint.CompromisedCredential._source.last_observed_at.date-time Date",
+      "name": "Flashpoint.CompromisedCredential._source.is_fresh",
+      "required": ""
+    },
+    {
+      "description": "Flashpoint.CompromisedCredential._source.last_observed_at.timestamp UNIX timestamp. Flashpoint.CompromisedCredential._source.password",
+      "name": "If exists, time object for when the credential was previously observed. Datetime object formatted as YYYY-mm-ddTHH:MM:SSZ.",
+      "required": ""
+    },
+    {
+      "description": "The password for the credential (in plain text, if possible). Flashpoint.CompromisedCredential._source.password_complexity.has_lowercase Boolean true/false if lowercase letters are present.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Boolean true/false if numbers are present. Flashpoint.CompromisedCredential._source.password_complexity.has_symbol Boolean true/false if symbols are present.",
+      "name": "Flashpoint.CompromisedCredential._source.password_complexity.has_number",
+      "required": ""
+    },
+    {
+      "description": "Boolean true/false if uppercase letters are present. Flashpoint.CompromisedCredential._source.password_complexity.length Integer value that represents number of characters in password.",
+      "name": "Flashpoint.CompromisedCredential._source.password_complexity.has_uppercase",
+      "required": ""
+    },
+    {
+      "description": "List of possible hash algorithms suspected based on textpattern of the password (May include values like \"MD5\", \"SHA-1\", \"SHA-256\", \"bcrypt\", etc.) Flashpoint.CompromisedCredential._source.times_seen Integer representing the number of times the credential has been seen at Flashpoint.",
+      "name": "Flashpoint.CompromisedCredential._source.password_complexity.probable_hash_algorithms",
+      "required": ""
+    },
+    {
+      "description": "Type of the IoC. Flashpoint.CompromisedCredential.matched_queries Matching queries of the IoC.",
+      "name": "Flashpoint.CompromisedCredential._type",
+      "required": ""
+    },
+    {
+      "description": "Sort value of the IoC.",
+      "name": "Flashpoint.CompromisedCredential.sort",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Flashpoint (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/flashpoint"
+}

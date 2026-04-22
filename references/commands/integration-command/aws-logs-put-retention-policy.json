@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!aws-logs-describe-log-streams logGroupName=test",
+  "examples": [
+    "Command Example\n!aws-logs-describe-log-streams logGroupName=test\nContext Example\nHuman Readable Output\n8. Assign a retention policy for a log group\nSets the retention of the specified log group. A retention policy allows you to configure the number of days for which to retain log events in the specified log group.\nBase Command\naws-logs-put-retention-policy",
+    "!aws-logs-describe-log-streams logGroupName=test\nContext Example\nHuman Readable Output\n8. Assign a retention policy for a log group\nSets the retention of the specified log group. A retention policy allows you to configure the number of days for which to retain log events in the specified log group.\nBase Command\naws-logs-put-retention-policy\nInput",
+    "Command Example"
+  ],
+  "kind": "integration-command",
+  "name": "aws-logs-put-retention-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - CloudWatchLogs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---cloud-watch-logs"
+}

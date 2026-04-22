@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"gzip compressed data, max compression, from Unix, original size 3028\"",
+  "examples": [
+    "!cs-falcon-sandbox-report-state file=8decc8571946d4cd70a024949e033a2a2a54377fe9f1c1b944c20f9ee11a9e51 environmentID=300\nContext Example\n#\n{\n\"CrowdStrike\"\n:\n{\n\"State\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The state of the report. CrowdStrike.State.error_type The error type of the report.",
+      "name": "CrowdStrike.State.state",
+      "required": ""
+    },
+    {
+      "description": "The error origin. CrowdStrike.State.error The error description.",
+      "name": "CrowdStrike.State.error_origin",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox v2 (Hybrid-Analysis)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/crowd-strike-falcon-sandbox-v2"
+}

@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "[Enter a description of the data returned in this output.] Edit this page Report an Issue",
+      "name": "BaseIntegration.Output",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Stamus Next Stellar Cyber \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands baseintegration-dummy Docs",
+      "name": "Configure Starter Base Integration - Name the integration as it will appear in the XSOAR UI in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Starter Base Integration - Name the integration as it will appear in the XSOAR UI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/base-integration"
+}

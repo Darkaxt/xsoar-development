@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+  "examples": [
+    "Command Example\n#\n!illusive-get-forensics-artifacts event_id=2\nHuman Readable Output\n#\nevent id 2 has no artifacts\n#\nEdit this page",
+    "!illusive-get-forensics-artifacts event_id=2\nHuman Readable Output\n#\nevent id 2 has no artifacts\n#\nEdit this page\nReport an Issue\nPrevious"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IllusiveNetworks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/illusive-networks"
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "email-domain-squatting-reputation"
+  ],
+  "arguments": [],
+  "description": "EmailDomainSquattingReputation | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "EmailDomainSquattingReputation",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The user account. Account.Email The account's email object.",
+      "name": "Account",
+      "required": ""
+    },
+    {
+      "description": "Account.Email.Username The account's email username. Account.Email.Address",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Account.Email.Domain The account's email domain. Account.Email.Distance",
+      "name": "The account's email address.",
+      "required": ""
+    },
+    {
+      "description": "Account.Email.Distance.Domain The compared domain. Account.Email.Distance.Value",
+      "name": "The email address distance compared to the domains in the query.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Indicator The indicator. DBotScore.Type",
+      "name": "The distance between the email domain and the compared domain.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Vendor The DBot vendor score. DBotScore.Score",
+      "name": "The indicator type.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The DBot score.",
+      "required": ""
+    },
+    {
+      "description": "Next EmailDomainWhitelist \u00bb Script Data",
+      "name": "\u00ab EmailDomainBlacklist",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EmailDomainSquattingReputation",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/email-domain-squatting-reputation"
+}

@@ -1,0 +1,45 @@
+{
+  "aliases": [
+    "get-list-content"
+  ],
+  "arguments": [],
+  "description": "GetListContent | Cortex XSOAR",
+  "examples": [
+    "!GetListContent value=\"list_name\"\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nNone",
+    "!GetListContent value=\"list_name\" type=json\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nNone",
+    "!GetListContent value=\"list_name\" type=string\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nNone"
+  ],
+  "kind": "script",
+  "name": "GetListContent",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!GetListContent value=\"list_name\"",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetListContent",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-list-content"
+}

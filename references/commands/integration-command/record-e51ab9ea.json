@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "aws-waf-statement-json-template-get",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Gets the statement template.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "aws-waf-statement-json-template-get",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Axonius \u00bb Configure AWS-WAF in Cortex",
+      "name": "\u00ab AWS-SNS-Listener",
+      "required": ""
+    },
+    {
+      "description": "aws-waf-ip-set-create aws-waf-ip-set-get aws-waf-ip-set-update",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "aws-waf-ip-set-delete aws-waf-regex-set-create aws-waf-regex-set-get",
+      "name": "aws-waf-ip-set-list",
+      "required": ""
+    },
+    {
+      "description": "aws-waf-regex-set-list aws-waf-regex-set-delete aws-waf-rule-group-list",
+      "name": "aws-waf-regex-set-update",
+      "required": ""
+    },
+    {
+      "description": "aws-waf-rule-group-delete aws-waf-rule-group-create aws-waf-ip-rule-create",
+      "name": "aws-waf-rule-group-get",
+      "required": ""
+    },
+    {
+      "description": "aws-waf-string-match-rule-create aws-waf-rule-delete aws-waf-ip-statement-add",
+      "name": "aws-waf-country-rule-create",
+      "required": ""
+    },
+    {
+      "description": "aws-waf-string-match-statement-add aws-waf-statement-json-add aws-waf-statement-json-template-get",
+      "name": "aws-waf-country-statement-add",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS-WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws-waf"
+}

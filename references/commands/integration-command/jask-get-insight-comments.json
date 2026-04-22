@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "2. Get comments for an insight",
+  "examples": [
+    "Command Example\nasdf\nContext Example\nasdf\nHuman Readable Output\nasdf"
+  ],
+  "kind": "integration-command",
+  "name": "jask-get-insight-comments",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Comment ID Jask.InsightCommentList.InsightId Insight ID",
+      "name": "Jask.InsightCommentList.id",
+      "required": ""
+    },
+    {
+      "description": "Author of comment Jask.InsightCommentList.Body Comment body",
+      "name": "Jask.InsightCommentList.Author",
+      "required": ""
+    },
+    {
+      "description": "The date the comment was last updated Jask.InsightCommentList.Timestamp The time of the comment",
+      "name": "Jask.InsightCommentList.LastUpdated",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Jask (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jask"
+}

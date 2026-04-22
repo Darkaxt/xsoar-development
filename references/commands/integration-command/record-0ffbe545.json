@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!pan-os-bpa-get-job-results task_id=b0539068-e1c1-496c-9dfd-a1274947f76e check_id=104,105 check_name=\"Accelerated Aging\"\nContext Example\n#\n{\n\"PAN-OS-BPA\"\n:",
+    "!pan-os-bpa-get-job-results task_id=b0539068-e1c1-496c-9dfd-a1274947f76e check_id=104,105 check_name=\"Accelerated Aging\"\nContext Example\n#\n{\n\"PAN-OS-BPA\"\n:\n{\n\"JobResults\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The submitted job ID. PAN-OS-BPA.JobResults.Status The job status in the queue (in progress or completed).",
+      "name": "PAN-OS-BPA.JobResults.JobID",
+      "required": ""
+    },
+    {
+      "description": "The list of checks. InfoFile.Name File name.",
+      "name": "PAN-OS-BPA.JobResults.Checks",
+      "required": ""
+    },
+    {
+      "description": "File entry ID. InfoFile.Size File size.",
+      "name": "InfoFile.EntryID",
+      "required": ""
+    },
+    {
+      "description": "File type, e.g., \"PE\" InfoFile.Info Basic information of the file.",
+      "name": "InfoFile.Type",
+      "required": ""
+    },
+    {
+      "description": "File extension.",
+      "name": "InfoFile.Extension",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks BPA (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bpa"
+}

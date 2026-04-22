@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get an event by ID: msgraph-calendar-get-event",
+  "examples": [
+    "Command Example\n!msgraph-calendar-list-calendars user=someemail@domain.com\nContext Example\n{\n\"MSGraphCalendar.Calendar\": [\n{\n\"CanEdit\": true,\n\"CanShare\": true,",
+    "!msgraph-calendar-list-calendars user=someemail@domain.com\nContext Example\n{\n\"MSGraphCalendar.Calendar\": [\n{\n\"CanEdit\": true,\n\"CanShare\": true,\n\"CanViewPrivateItems\": true,"
+  ],
+  "kind": "integration-command",
+  "name": "msgraph-calendar-list-calendars",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the calendar. MSGraphCalendar.Calendar.CanShare Whether the user has permission to share the calendar. Only the user who created the calendar can share.",
+      "name": "MSGraphCalendar.Calendar.Name",
+      "required": ""
+    },
+    {
+      "description": "Whether the user can write to the calendar (this is true for the user who created the calendar and for a user who has been granted access to a shared calendar). MSGraphCalendar.Calendar.ChangeKey Identifies the version of the calendar object. Every time the calendar is changed, the changeKey changes as well. This allows the exchange to apply changes to the correct version of the object. Read-only.",
+      "name": "MSGraphCalendar.Calendar.CanEdit",
+      "required": ""
+    },
+    {
+      "description": "The user who created or added the calendar. MSGraphCalendar.Calendar.ID The unique ID of the calendar. Read-only.",
+      "name": "MSGraphCalendar.Calendar.Owner",
+      "required": ""
+    },
+    {
+      "description": "Whether the user can read calendar items that have been marked private.",
+      "name": "MSGraphCalendar.Calendar.CanViewPrivateItems",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "O365 Outlook Calendar",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-calendar"
+}

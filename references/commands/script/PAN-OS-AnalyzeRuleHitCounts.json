@@ -1,0 +1,107 @@
+{
+  "aliases": [
+    "pan-os-analyze-rule-hit-counts"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "PAN-OS-AnalyzeRuleHitCounts | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PAN-OS-AnalyzeRuleHitCounts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The total number of local rules analyzed. PANOS.UnusedRules.TotalPanoramaRulesAnalyzed The total number of rules pushed from Panorama analyzed.",
+      "name": "PANOS.UnusedRules.TotalLocalRulesAnalyzed",
+      "required": ""
+    },
+    {
+      "description": "PANOS.UnusedRules.UsedPanoramaRules.from_dg_name Name of the device group the rule is inherited from. PANOS.UnusedRules.UsedPanoramaRules.hostids_with_hits",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "PANOS.UnusedRules.UsedPanoramaRules.hostnames_with_hits Hostnames of firewalls where this rule has hits. PANOS.UnusedRules.UsedPanoramaRules.hostids_with_zero_hits",
+      "name": "Host IDs of firewalls where this rule has hits.",
+      "required": ""
+    },
+    {
+      "description": "PANOS.UnusedRules.UsedPanoramaRules.hostnames_with_zero_hits Hostnames of firewalls where this rule has zero hits. PANOS.UnusedRules.UsedPanoramaRules.instanceName",
+      "name": "Host IDs of firewalls where this rule has zero hits.",
+      "required": ""
+    },
+    {
+      "description": "PANOS.UnusedRules.UsedPanoramaRules.name The name of the rule. PANOS.UnusedRules.UsedPanoramaRules.position",
+      "name": "Name of the PAN-OS Integration Instance used to collect rule hitcount data.",
+      "required": ""
+    },
+    {
+      "description": "PANOS.UnusedRules.UsedPanoramaRules.rulebase The rulebase where the rule is configured (e.g. \"Security\", \"NAT\", etc). PANOS.UnusedRules.UnusedLocalRules.activeHAPeer",
+      "name": "The position of the rule within the Panorama device-group rulebase (pre-rulebase or post-rulebase).",
+      "required": ""
+    },
+    {
+      "description": "PANOS.UnusedRules.UnusedLocalRules.hostid Host ID of the firewall where the rule is configured. PANOS.UnusedRules.UnusedLocalRules.hostname",
+      "name": "If the firewall where this rule data comes from is in an HA pair, contains the hostid of the active device in the pair.",
+      "required": ""
+    },
+    {
+      "description": "PANOS.UnusedRules.UnusedLocalRules.vsys The virtual system (vsys) where the rule is configured. PANOS.UnusedRules.UnusedLocalRules.instanceName",
+      "name": "Hostname of the firewall where this rule is configured.",
+      "required": ""
+    },
+    {
+      "description": "PANOS.UnusedRules.UnusedLocalRules.name The name of the rule. PANOS.UnusedRules.UnusedLocalRules.position",
+      "name": "Name of the PAN-OS Integration Instance used to collect rule hitcount data.",
+      "required": ""
+    },
+    {
+      "description": "PANOS.UnusedRules.UnusedLocalRules.rulebase The rulebase where the rule is configured (e.g. \"Security\", \"NAT\", etc). PANOS.UnusedRules.UnusedPanoramaRules.from_dg_name",
+      "name": "The position of the rule within the Panorama device-group rulebase (pre-rulebase or post-rulebase).",
+      "required": ""
+    },
+    {
+      "description": "PANOS.UnusedRules.UnusedPanoramaRules.instanceName Name of the PAN-OS Integration Instance used to collect rule hitcount data. PANOS.UnusedRules.UnusedPanoramaRules.name",
+      "name": "The rulebase where the rule is configured (e.g. \"Security\", \"NAT\", etc).",
+      "required": ""
+    },
+    {
+      "description": "PANOS.UnusedRules.UnusedPanoramaRules.position The position of the rule within the Panorama device-group rulebase (pre-rulebase or post-rulebase). PANOS.UnusedRules.UnusedPanoramaRules.rulebase",
+      "name": "The name of the rule.",
+      "required": ""
+    },
+    {
+      "description": "PANOS.UnusedRules.ignore_auto_extract Instructs the system not to perform indicator extraction on returned data. Edit this page",
+      "name": "The rulebase where the rule is configured (e.g. \"Security\", \"NAT\", etc).",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab PagerDutyAssignOnCallUser Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "PAN-OS-GetAvailablePANOSSoftware \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PAN-OS-AnalyzeRuleHitCounts",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/pan-os-analyze-rule-hit-counts"
+}

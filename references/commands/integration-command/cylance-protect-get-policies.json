@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "\"name\":\"2017-08-12-Trickbot-binary-from-usdata.estoreseller.com.exe\",",
+  "examples": [
+    "Command Example\n!cylance-protect-get-policies id=6033f7a1-e66c-4aef-9c7d-ed454457d071 pageNumber=2 pageSize=75\nRaw Output\n{\n\"date_added\":\"2018-03-05T12:29:02\",\n\"date_modified\":\"2018-03-05T12:29:02\",\n\"device_count\":0,",
+    "!cylance-protect-get-policies id=6033f7a1-e66c-4aef-9c7d-ed454457d071 pageNumber=2 pageSize=75\nRaw Output\n{\n\"date_added\":\"2018-03-05T12:29:02\",\n\"date_modified\":\"2018-03-05T12:29:02\",\n\"device_count\":0,"
+  ],
+  "kind": "integration-command",
+  "name": "cylance-protect-get-policies",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date and time (in UTC) when the Console policy resource was first created CylanceProtect.Policies.DateModified Date and time (in UTC) when the Console policy resource was last modified",
+      "name": "CylanceProtect.Policies.DateAdded",
+      "required": ""
+    },
+    {
+      "description": "Number of devices assigned to this policy CylanceProtect.Policies.Id Unique ID for the policy resource",
+      "name": "CylanceProtect.Policies.DeviceCount",
+      "required": ""
+    },
+    {
+      "description": "Policy name CylanceProtect.Policies.ZoneCount Number of zones assigned to this policy",
+      "name": "CylanceProtect.Policies.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

@@ -1,0 +1,50 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "The Slack bot message.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Palo Alto Networks IoT \u00bb Setup",
+      "name": "\u00ab Palo Alto Networks Cortex XDR - Investigation and Response",
+      "required": ""
+    },
+    {
+      "description": "Commands pan-dlp-get-report pan-dlp-update-incident",
+      "name": "Configure Palo Alto Networks Enterprise DLP in Cortex",
+      "required": ""
+    },
+    {
+      "description": "pan-dlp-slack-message pan-dlp-reset-last-run Docs",
+      "name": "pan-dlp-exemption-eligible",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Enterprise DLP",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-enterprise-dlp"
+}

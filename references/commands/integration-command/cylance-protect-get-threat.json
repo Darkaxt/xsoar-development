@@ -1,0 +1,80 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!cylance-protect-update-zone id=f15b2f79-c100-4146-b056-a8005c13b2de",
+  "examples": [
+    "Command Example\n!cylance-protect-update-zone id=f15b2f79-c100-4146-b056-a8005c13b2de\nRaw Output\ntrue\n10. Get information for a threat\nReturns information for a threat.\nBase Command\ncylance-protect-get-threat",
+    "!cylance-protect-update-zone id=f15b2f79-c100-4146-b056-a8005c13b2de\nRaw Output\ntrue\n10. Get information for a threat\nReturns information for a threat.\nBase Command\ncylance-protect-get-threat\nInput",
+    "Command Example\n!cylance-protect-get-threat sha256=ED01EBFBC9EB5BBEA545AF4D01BF5F1071661840480439C6E5BABE8E080E41AA\nRaw Output\n{\n\"auto_run\":false,\n\"av_industry\":null,\n\"cert_issuer\":\"\",\n\"cert_publisher\":\"\",",
+    "!cylance-protect-get-threat sha256=ED01EBFBC9EB5BBEA545AF4D01BF5F1071661840480439C6E5BABE8E080E41AA\nRaw Output\n{\n\"auto_run\":false,\n\"av_industry\":null,\n\"cert_issuer\":\"\",\n\"cert_publisher\":\"\",\n\"cert_timestamp\":\"0001-01-01T00:00:00\","
+  ],
+  "kind": "integration-command",
+  "name": "cylance-protect-get-threat",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Indicates if the file is set to automatically run on system startup File.AvIndustry The score provided by the Anti-Virus industry",
+      "name": "File.AutoRun",
+      "required": ""
+    },
+    {
+      "description": "ID for the certificate issuer File.CertPublisher ID for the certificate publisher",
+      "name": "File.CertIssuer",
+      "required": ""
+    },
+    {
+      "description": "Date and time (in UTC) when the file was signed using the certificate File.Classification Threat classification for the threat",
+      "name": "File.CertTimestamp",
+      "required": ""
+    },
+    {
+      "description": "Cylance Score assigned to the threat File.DetectedBy Name of the Cylance module that detected the threat",
+      "name": "File.CylanceScore",
+      "required": ""
+    },
+    {
+      "description": "Size of the file File.GlobalQuarantine Identifies if the threat is on the Global Quarantine list",
+      "name": "File.FileSize",
+      "required": ""
+    },
+    {
+      "description": "MD5 hash for the threat File.Name Threat name",
+      "name": "File.Md5",
+      "required": ""
+    },
+    {
+      "description": "Identifies if the threat is executing, or another executable loaded or called it File.Safelisted Identifies if the threat is on the Safe List",
+      "name": "File.Running",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 hash for the threat File.Signed Identifies the file as signed or not signed",
+      "name": "File.Sha256",
+      "required": ""
+    },
+    {
+      "description": "The threat sub-classification for the threat File.UniqueToCylance The threat was identified by Cylance but not by other anti-virus sources",
+      "name": "File.SubClassification",
+      "required": ""
+    },
+    {
+      "description": "The tested indicator DBotScore.Type Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

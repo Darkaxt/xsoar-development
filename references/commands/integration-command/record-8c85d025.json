@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "ab5a7594-5fde-4c5c-9ee6-e67291f0a40c",
+  "examples": [
+    "Command Example\n#\n!rapid7-insight-idr-query-log-set log_set_id=74c4af9d-2673-4bc2-b8e8-afe3d1354987 query=where(destination_asset=\\\"jenkinsnode.someorganiztion.co\\\") start_time=0 end_time=3000557004000\nContext Example\n#\n{\n\"Rapid7InsightIDR\"\n:",
+    "!rapid7-insight-idr-query-log-set log_set_id=74c4af9d-2673-4bc2-b8e8-afe3d1354987 query=where(destination_asset=\\\"jenkinsnode.someorganiztion.co\\\") start_time=0 end_time=3000557004000\nContext Example\n#\n{\n\"Rapid7InsightIDR\"\n:\n{\n\"Event\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Event message. Rapid7InsightIDR.Event.message ID of the log the event appears in.",
+      "name": "Rapid7InsightIDR.Event.log_id",
+      "required": ""
+    },
+    {
+      "description": "Time when the event fired.",
+      "name": "Rapid7InsightIDR.Event.timestamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Rapid7 InsightIDR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rapid7-insight-idr"
+}

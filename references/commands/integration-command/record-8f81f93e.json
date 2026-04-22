@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "O365Defender.SafeLinks.AtpPolicy.WhenChangedUTC",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Safe Links does not work on mail-enabled public folders. Safe Links protection is available in the following locations: Office 365 apps: Safe Links protection for Office 365 apps is available in supported desktop, mobile, and web apps. You configure Safe Links protection for Office 365 apps in the global setting that are outside of Safe Links policies. For instructions, see",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": ". Microsoft Teams: Safe Links protection for links in Teams conversations, group chats, or from channels is also controlled by Safe Links policies. There is no default Safe Links policy, so to get the protection of Safe Links in Teams, you need to create one or more Safe Links policies. Email messages: Safe Links protection for links in email messages is controlled by Safe Links policies. There is no default Safe Links policy, so to get the protection of Safe Links in email messages, you need to",
+      "name": "Configure global settings for Safe Links settings in Microsoft Defender for Office 365",
+      "required": ""
+    },
+    {
+      "description": "Organization - be sure to use an .onmicrosoft.com domain in the Organization parameter value. Otherwise, you might encounter cryptic permission issues when you run commands in the app context.",
+      "name": "Allow up to 30 minutes for a new or updated policy to be applied.",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab O365 - Security And Compliance - Content Search v2",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "O365 Defender SafeLinks - Single User (Deprecated) \u00bb Required Permissions Configure O365 Defender SafeLinks in Cortex",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Commands o365-defender-safelinks-policy-list o365-defender-safelinks-policy-create",
+      "name": "Safe Links Rule and Policy",
+      "required": ""
+    },
+    {
+      "description": "o365-defender-safelinks-policy-remove o365-defender-safelinks-rule-list o365-defender-safelinks-rule-create",
+      "name": "o365-defender-safelinks-policy-update",
+      "required": ""
+    },
+    {
+      "description": "o365-defender-safelinks-detailed-report-get Results of o365-defender-safelinks-detailed-report-get o365-defender-safelinks-aggregate-report-get",
+      "name": "o365-defender-safelinks-rule-update",
+      "required": ""
+    },
+    {
+      "description": "Known Limitations o365-defender-safelinks-atp-policy-set Docs",
+      "name": "Results of o365-defender-safelinks-aggregate-report-get",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "O365 Defender SafeLinks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/o365-defender-safe-links"
+}

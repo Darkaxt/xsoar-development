@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "ms365-defender-user-list-to-table"
+  ],
+  "arguments": [],
+  "description": "MS365DefenderUserListToTable | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "MS365DefenderUserListToTable",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next MSEScoreWidget \u00bb Script Data",
+      "name": "\u00ab MS365DefenderCountIncidentCategories",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MS365DefenderUserListToTable",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ms365-defender-user-list-to-table"
+}

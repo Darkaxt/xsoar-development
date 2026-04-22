@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!gti-threatlists-get-indicators\n!gti-threatlists-get-indicators feed=malware package=2025021910 filter=\"gti_score:70+\" limit=10\nHuman Readable Output\n#\nIndicators from Google Threat Intelligence Threat Lists\n#",
+    "!gti-threatlists-get-indicators\n!gti-threatlists-get-indicators feed=malware package=2025021910 filter=\"gti_score:70+\" limit=10\nHuman Readable Output\n#\nIndicators from Google Threat Intelligence Threat Lists\n#\nId\nDetections",
+    "!gti-threatlists-get-indicators feed=malware package=2025021910 filter=\"gti_score:70+\" limit=10\nHuman Readable Output\n#\nIndicators from Google Threat Intelligence Threat Lists\n#\nId\nDetections\nGti Threat Score"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Threat Intelligence Threat Lists",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-threat-intelligence-threat-lists"
+}

@@ -1,0 +1,98 @@
+{
+  "aliases": [
+    "risk-iq-passive-total-ssl-script"
+  ],
+  "arguments": [],
+  "description": "RiskIQPassiveTotalSSLScript | Cortex XSOAR",
+  "examples": [
+    "!RiskIQPassiveTotalSSLScript indicator_value=61135c80f8ed28d2\nContext Example\n#\n{\n\"PassiveTotal\": {\n\"SSL\": [\n{\n\"expirationDate\": \"Apr 09 13:15:00 2019 GMT\","
+  ],
+  "kind": "script",
+  "name": "RiskIQPassiveTotalSSLScript",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!RiskIQPassiveTotalSSLScript indicator_value=61135c80f8ed28d2",
+      "required": ""
+    },
+    {
+      "description": "\"PassiveTotal\": { \"SSL\": [ {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"fingerprint\": \"88:48:e8:68:b1:90:d0:fd:cb:6f:39:c3:7b:53:82:c8:7e:09:76:b0\", \"firstSeen\": 1547559631314, \"issueDate\": \"Jan 15 13:15:00 2019 GMT\",",
+      "name": "\"expirationDate\": \"Apr 09 13:15:00 2019 GMT\",",
+      "required": ""
+    },
+    {
+      "description": "\"issuerCountry\": \"US\", \"issuerOrganizationName\": \"Google Trust Services\", \"lastSeen\": 1547607634446,",
+      "name": "\"issuerCommonName\": \"Google Internet Authority G3\",",
+      "required": ""
+    },
+    {
+      "description": "\"sha1\": \"8848e868b190d0fdcb6f39c37b5382c87e0976b0\", \"sslVersion\": \"3\", \"subjectAlternativeNames\": [",
+      "name": "\"serialNumber\": \"6995036355238373586\",",
+      "required": ""
+    },
+    {
+      "description": "], \"subjectCommonName\": \"www.google.com\", \"subjectCountry\": \"US\",",
+      "name": "\"www.google.com\"",
+      "required": ""
+    },
+    {
+      "description": "\"subjectOrganizationName\": \"Google LLC\", \"subjectProvince\": \"California\", \"subjectStateOrProvinceName\": \"California\"",
+      "name": "\"subjectLocalityName\": \"Mountain View\",",
+      "required": ""
+    },
+    {
+      "description": "{ \"expirationDate\": \"Apr 09 13:15:00 2019 GMT\", \"fingerprint\": \"99:5b:00:5f:44:be:53:bf:3e:59:21:90:1d:79:a9:8e:54:af:d3:29\",",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "\"issueDate\": \"Jan 15 13:15:00 2019 GMT\", \"issuerCommonName\": \"Google Internet Authority G3\", \"issuerCountry\": \"US\",",
+      "name": "\"firstSeen\": 1548455641692,",
+      "required": ""
+    },
+    {
+      "description": "\"lastSeen\": 1549571983939, \"serialNumber\": \"6995036355238373586\", \"sha1\": \"995b005f44be53bf3e5921901d79a98e54afd329\",",
+      "name": "\"issuerOrganizationName\": \"Google Trust Services\",",
+      "required": ""
+    },
+    {
+      "description": "\"subjectAlternativeNames\": [ \"www.google.com\" ],",
+      "name": "\"sslVersion\": \"3\",",
+      "required": ""
+    },
+    {
+      "description": "\"subjectCountry\": \"US\", \"subjectLocalityName\": \"Mountain View\", \"subjectOrganizationName\": \"Google LLC\",",
+      "name": "\"subjectCommonName\": \"www.google.com\",",
+      "required": ""
+    },
+    {
+      "description": "\"subjectStateOrProvinceName\": \"California\" } ]",
+      "name": "\"subjectProvince\": \"California\",",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RiskIQPassiveTotalSSLScript",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/risk-iq-passive-total-ssl-script"
+}

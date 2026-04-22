@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!fetch-incidents\n!fetch-incidents scope=123456789\nEdit this page\nReport an Issue\nPrevious\n\u00ab Sepio",
+    "!fetch-incidents\n!fetch-incidents scope=123456789\nEdit this page\nReport an Issue\nPrevious\n\u00ab Sepio\nNext\nServer Message Block (SMB) (Deprecated) \u00bb",
+    "!fetch-incidents scope=123456789\nEdit this page\nReport an Issue\nPrevious\n\u00ab Sepio\nNext\nServer Message Block (SMB) (Deprecated) \u00bb\nConfigure XMCO Serenety in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Serenety",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/serenety"
+}

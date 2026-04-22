@@ -1,0 +1,97 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "https://www.mockapi.com/zones/europe-west2-c",
+  "examples": [
+    "Command Example\n#\n!gcp-compute-add-network-tag tag=\"example-tag\" zone=\"europe-west2-c\" instance=\"test01\"\nContext Example\n#\n{\n\"GoogleCloudCompute\": {\n\"ProjectMetadata\": {",
+    "!gcp-compute-add-network-tag tag=\"example-tag\" zone=\"europe-west2-c\" instance=\"test01\"\nContext Example\n#\n{\n\"GoogleCloudCompute\": {\n\"ProjectMetadata\": {\n\"id\": \"42\",\n\"insertTime\": \"2020-05-03T01:15:54.395-07:00\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique identifier for the resource. This identifier is defined by the server. GoogleCloudCompute.Operations.name Name of the resource.",
+      "name": "GoogleCloudCompute.Operations.id",
+      "required": ""
+    },
+    {
+      "description": "The URL of the zone where the operation resides. Only available when performing per-zone operations. You must specify this field as part of the HTTP request URL. It is not settable as a field in the request body. GoogleCloudCompute.Operations.clientOperationId The value of requestId if you provided it in the request. Not present otherwise.",
+      "name": "GoogleCloudCompute.Operations.zone",
+      "required": ""
+    },
+    {
+      "description": "The type of operation, such as insert, update, or delete, and so on. GoogleCloudCompute.Operations.targetLink The URL of the resource that the operation modifies. For operations related to creating a snapshot, this points to the persistent disk that the snapshot was created from.",
+      "name": "GoogleCloudCompute.Operations.operationType",
+      "required": ""
+    },
+    {
+      "description": "The unique target ID, which identifies a specific incarnation of the target resource GoogleCloudCompute.Operations.status The status of the operation, which can be one of the following: PENDING RUNNING or DONE",
+      "name": "GoogleCloudCompute.Operations.targetId",
+      "required": ""
+    },
+    {
+      "description": "An optional textual description of the current status of the operation. GoogleCloudCompute.Operations.user User who requested the operation for example EMAILADDRESS.",
+      "name": "GoogleCloudCompute.Operations.statusMessage",
+      "required": ""
+    },
+    {
+      "description": "An optional progress indicator that ranges from 0 to 100. There is no requirement that this be linear or support any granularity of operations. This should not be used to guess when the operation will be complete. This number should monotonically increase as the operation progresses. GoogleCloudCompute.Operations.insertTime The time that this operation was requested. This value is in RFC3339 text format.",
+      "name": "GoogleCloudCompute.Operations.progress",
+      "required": ""
+    },
+    {
+      "description": "The time that this operation was started by the server. This value is in RFC3339 text format. GoogleCloudCompute.Operations.endTime The time that this operation was completed. This value is in RFC3339 text format.",
+      "name": "GoogleCloudCompute.Operations.startTime",
+      "required": ""
+    },
+    {
+      "description": "If errors are generated during processing of the operation, this field will be populated. GoogleCloudCompute.Operations.error.errors The array of errors encountered while processing this operation.",
+      "name": "GoogleCloudCompute.Operations.error",
+      "required": ""
+    },
+    {
+      "description": "The error type identifier for this error. GoogleCloudCompute.Operations.error.errors.location Indicates the field in the request that caused the error. This property is optional.",
+      "name": "GoogleCloudCompute.Operations.error.errors.code",
+      "required": ""
+    },
+    {
+      "description": "An optional, human-readable error message. GoogleCloudCompute.Operations.warnings If warning messages are generated during processing of the operation, this field will be populated.",
+      "name": "GoogleCloudCompute.Operations.error.errors.message",
+      "required": ""
+    },
+    {
+      "description": "A warning code, if applicable. For example, Compute Engine returns NO_RESULTS_ON_PAGE if there are no results in the response. GoogleCloudCompute.Operations.warnings.message A human-readable description of the warning code.",
+      "name": "GoogleCloudCompute.Operations.warnings.code",
+      "required": ""
+    },
+    {
+      "description": "Metadata about this warning in key: value format. GoogleCloudCompute.Operations.warnings.data.key A key that provides more detail on the warning being returned. For example, for warnings where there are no results in a list request for a particular zone, this key might be scope and the key value might be the zone name. Other examples might be a key indicating a deprecated resource and a suggested replacement, or a warning about invalid network settings (for example, if an instance attempts to pe",
+      "name": "GoogleCloudCompute.Operations.warnings.data",
+      "required": ""
+    },
+    {
+      "description": "A warning data value corresponding to the key. GoogleCloudCompute.Operations.httpErrorStatusCode If the operation fails, this field contains the HTTP error status code that was returned. For example, a 404 means the resource was not found.",
+      "name": "GoogleCloudCompute.Operations.warnings.data.value",
+      "required": ""
+    },
+    {
+      "description": "If the operation fails, this field contains the HTTP error message that was returned, such as NOT FOUND. GoogleCloudCompute.Operations.selfLink Server-defined URL for the resource.",
+      "name": "GoogleCloudCompute.Operations.httpErrorMessage",
+      "required": ""
+    },
+    {
+      "description": "The URL of the region where the operation resides. Only available when performing regional operations. You must specify this field as part of the HTTP request URL. It is not settable as a field in the request body. GoogleCloudCompute.Operations.description A textual description of the operation, which is set when the operation is created.",
+      "name": "GoogleCloudCompute.Operations.region",
+      "required": ""
+    },
+    {
+      "description": "Type of the resource. Always compute#operation for Operation resources.",
+      "name": "GoogleCloudCompute.Operations.kind",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Compute",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-compute"
+}

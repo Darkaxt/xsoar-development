@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Arduino.AnalogPins.PinValue",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Data Send Arduino.DataSend.Sent The data sent",
+      "name": "Arduino.DataSend",
+      "required": ""
+    },
+    {
+      "description": "The data received Edit this page Report an Issue",
+      "name": "Arduino.DataSend.Received",
+      "required": ""
+    },
+    {
+      "description": "\u00ab ArcusTeam Next ARIA Packet Intelligence \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands arduino-set-pin arduino-get-pin",
+      "name": "Configure Arduino in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "arduino-send-data",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Arduino",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/arduino"
+}

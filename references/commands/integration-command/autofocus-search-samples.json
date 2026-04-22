@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Search for sessions: autofocus-search-sessions",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "autofocus-search-samples",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The cookie for the results Autofocus.Samples.id The ID of the sample.",
+      "name": "Autofocus.Cookie",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the sample. Autofocus.Samples.sha1 The SHA-1 of the sample.",
+      "name": "Autofocus.Samples.md5",
+      "required": ""
+    },
+    {
+      "description": "The SHA-256 of the sample. Autofocus.Samples.app_name The application name (if exists).",
+      "name": "Autofocus.Samples.sha256",
+      "required": ""
+    },
+    {
+      "description": "The size of the sample. Autofocus.Samples.ssdeep The SSDeep of the sample.",
+      "name": "Autofocus.Samples.size",
+      "required": ""
+    },
+    {
+      "description": "The create date for the sample. Autofocus.Samples.finish_date The finish date for the sample.",
+      "name": "Autofocus.Samples.create_date",
+      "required": ""
+    },
+    {
+      "description": "Is this malware (0 or 1). Autofocus.Samples.app_packagename The sample package name (if exists).",
+      "name": "Autofocus.Samples.malware",
+      "required": ""
+    },
+    {
+      "description": "The sample type. Autofocus.Samples.region Where this sample was seen.",
+      "name": "Autofocus.Samples.filetype",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Autofocus.Samples.tag",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto AutoFocus (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/autofocus"
+}

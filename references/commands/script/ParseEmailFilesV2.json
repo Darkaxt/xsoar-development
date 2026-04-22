@@ -1,0 +1,111 @@
+{
+  "aliases": [
+    "parse-email-files-v2"
+  ],
+  "arguments": [],
+  "description": "ParseEmailFilesV2 | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ParseEmailFilesV2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "This shows to whom the message was addressed, but may not contain the recipient's address. Email.CC Email 'cc' addresses",
+      "name": "Email.To",
+      "required": ""
+    },
+    {
+      "description": "Email.From This displays who the message is from, however, this can be easily forged and can be the least reliable. Email.Subject",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Email.HTML Email 'html' body if exists Email.Text",
+      "name": "Email subject",
+      "required": ""
+    },
+    {
+      "description": "Email.Depth The depth of the email. Depth=0 for the first level email. If email1 contains email2 contains email3. Then email1 depth is 0, email2 depth is 1, email3 depth is 2 Email.Headers",
+      "name": "Email 'text' body if exists",
+      "required": ""
+    },
+    {
+      "description": "Email.HeadersMap The full email headers json Email.HeadersMap.From",
+      "name": "Deprecated - use Email.HeadersMap output instead. The full email headers as a single string",
+      "required": ""
+    },
+    {
+      "description": "Email.HeadersMap.To This shows to whom the message was addressed, but may not contain the recipient's address. Email.HeadersMap.Subject",
+      "name": "This displays who the message is from, however, this can be easily forged and can be the least reliable.",
+      "required": ""
+    },
+    {
+      "description": "Email.HeadersMap.Date The date and time the email message was composed Email.HeadersMap.CC",
+      "name": "Email subject",
+      "required": ""
+    },
+    {
+      "description": "Email.HeadersMap.Reply-To The email address for return mail Email.HeadersMap.Received",
+      "name": "Email 'cc' addresses",
+      "required": ""
+    },
+    {
+      "description": "Email.HeadersMap.Message-ID A unique string assigned by the mail system when the message is first created. These can easily be forged. (e.g. 5c530c1b.1c69fb81.bd826.0eff@mx.google.com",
+      "name": "List of all the servers/computers through which the message traveled",
+      "required": ""
+    },
+    {
+      "description": "Email.AttachmentsData.Name The name of the attachment Email.AttachmentsData.Content-ID",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": "Email.AttachmentsData.Content-Disposition The content-disposition of the attachment Email.AttachmentsData.FilePath",
+      "name": "The content-id of the attachment",
+      "required": ""
+    },
+    {
+      "description": "Email.AttachmentNames The list of attachment names in the email Email.Format",
+      "name": "the location of the attachment, on the XSOAR server",
+      "required": ""
+    },
+    {
+      "description": "Notes",
+      "name": "The format of the email if available",
+      "required": ""
+    },
+    {
+      "description": "If it's an EML and it has the content-type of",
+      "name": "We handle EML and MSG parsing differently when the email contains HTML.",
+      "required": ""
+    },
+    {
+      "description": ", the content of the body will be stored in the html field. If it's an MSG, we store the text inside the HTML in the text field and the HTML in the html field. Edit this page",
+      "name": "text/html",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab ParseEmailFiles Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "ParseExcel \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ParseEmailFilesV2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/parse-email-files-v2"
+}

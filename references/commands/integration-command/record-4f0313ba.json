@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "unifivideo-get-recording-motion-snapshot",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Gets the frame snapshot that has triggered the motion event.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "unifivideo-get-recording-motion-snapshot",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Unisys Stealth \u00bb unifivideo-get-camera-list",
+      "name": "\u00ab UltraMSG",
+      "required": ""
+    },
+    {
+      "description": "unifivideo-get-recording unifivideo-set-recording-settings unifivideo-ir-leds",
+      "name": "unifivideo-get-snapshot",
+      "required": ""
+    },
+    {
+      "description": "unifivideo-get-snapshot-at-frame unifivideo-get-recording-snapshot unifivideo-get-recording-motion-snapshot",
+      "name": "unifivideo-get-recording-list",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "UnifiVideo",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/unifi-video"
+}

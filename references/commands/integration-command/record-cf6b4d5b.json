@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2021-07-14T12:22:37.000+0000",
+  "examples": [
+    "!skyhigh-security-policy-dictionary-update dictionary_id=\"121212\" name=\"(Default) Internal Domains\" content=\"gmail.com, outlook.com\"\nHuman Readable Output\n#\nDictionary id: 121212 was updated.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Skyhigh Secure Web Gateway (On Prem)"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Skyhigh Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/skyhigh-security"
+}

@@ -1,0 +1,106 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!ip ip=1.1.1.1\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The IP address. IPinfo.IP.Hostname The IP hostname.",
+      "name": "IPinfo.IP.Address",
+      "required": ""
+    },
+    {
+      "description": "The IP ASN. IPinfo.IP.ASOwner The IP AS owner.",
+      "name": "IPinfo.IP.ASN",
+      "required": ""
+    },
+    {
+      "description": "The IP organization name (Only available in some IPinfo.io plans). IPinfo.IP.Organization.Type The IP organization type (Only available in some IPinfo.io plans).",
+      "name": "IPinfo.IP.Organization.Name",
+      "required": ""
+    },
+    {
+      "description": "The IP geographic location (coordinates as lat:lon). IPinfo.IP.Geo.Country The IP country.",
+      "name": "IPinfo.IP.Geo.Location",
+      "required": ""
+    },
+    {
+      "description": "The IP location as <City, Region, Postal Code, Country>. IPinfo.IP.Registrar.Abuse.Address The physical address registered for receiving abuse reports for the IP. (Only available in some IPinfo.io plans).",
+      "name": "IPinfo.IP.Geo.Description",
+      "required": ""
+    },
+    {
+      "description": "The country where abuse reports are received for the IP. (Only available in some IPinfo.io plans). IPinfo.IP.Registrar.Abuse.Email The email address for abuse reports provided by the IP. (Only available in some IPinfo.io plans).",
+      "name": "IPinfo.IP.Registrar.Abuse.Country",
+      "required": ""
+    },
+    {
+      "description": "The name of the abuse report handler received for the IP. (Only available in some IPinfo.io plans). IPinfo.IP.Registrar.Abuse.Network The IP range relevant for abuse inquiries provided for the IP. (Only available in some IPinfo.io plans).",
+      "name": "IPinfo.IP.Registrar.Abuse.Name",
+      "required": ""
+    },
+    {
+      "description": "The IP address. IP.Hostname The IP hostname.",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "The IP ASN. IP.Tags Tags related the IP use (hosting, proxy, tor, vpn).",
+      "name": "IP.ASN",
+      "required": ""
+    },
+    {
+      "description": "Names of indicators associated with the IP. IP.FeedRelatedIndicators.type Types of indicators associated with the IP.",
+      "name": "IP.FeedRelatedIndicators.value",
+      "required": ""
+    },
+    {
+      "description": "The source of the relationship. IP.Relationships.EntityB The destination of the relationship.",
+      "name": "IP.Relationships.EntityA",
+      "required": ""
+    },
+    {
+      "description": "The name of the relationship. IP.Relationships.EntityAType The type of the source of the relationship.",
+      "name": "IP.Relationships.Relationship",
+      "required": ""
+    },
+    {
+      "description": "The type of the destination of the relationship. IP.Geo.Location The IP geographic location (coordinates as lat:lon)",
+      "name": "IP.Relationships.EntityBType",
+      "required": ""
+    },
+    {
+      "description": "The IP country. IP.Geo.Description The IP location as <City, Region, Postal Code, Country>.",
+      "name": "IP.Geo.Country",
+      "required": ""
+    },
+    {
+      "description": "The organization of the IP. IP.Organization.Type The organization type of the IP.",
+      "name": "IP.Organization.Name",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Score The actual score.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "How reliable the score is (for example, \"C - fairly reliable\"). DBotScore.Type The indicator type.",
+      "name": "DBotScore.Reliability",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IPinfo v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ipinfo-v2"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!phisher-tags-delete id=00a43d65-5802-4df6-9c3c-f7d2024ddb0b tags=\"Tag2\"\nHuman Readable Output\n#\nThe tags were deleted successfully\nEdit this page\nReport an Issue",
+    "!phisher-tags-delete id=00a43d65-5802-4df6-9c3c-f7d2024ddb0b tags=\"Tag2\"\nHuman Readable Output\n#\nThe tags were deleted successfully\nEdit this page\nReport an Issue\nPrevious\n\u00ab Phish.AI (Deprecated)"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PhishER",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/phisher"
+}

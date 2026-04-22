@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The search domains Domain Generation Algorithm (DGA). Includes DBotScore and domain information.",
+  "examples": [
+    "Command Example\n#\n!domain domain=google.com\nContext Example\n#\n{\n\"AnomaliEnterprise\"\n:",
+    "!domain domain=google.com\nContext Example\n#\n{\n\"AnomaliEnterprise\"\n:\n{\n\"DGA\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The domain that was checked. AnomaliEnterprise.DGA.malware_family The malware family associated with the domain.",
+      "name": "AnomaliEnterprise.DGA.domain",
+      "required": ""
+    },
+    {
+      "description": "The probability of the domain being malicious. DBotScore.Indicator The indicator that was tested.",
+      "name": "AnomaliEnterprise.DGA.domain",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. Domain.Name The domain name. For example, \"google.com\".",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The vendor that reported that the domain is malicious. Domain.Malicious.Description A description of the malicious domain.",
+      "name": "Domain.Malicious.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Anomali Match",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/anomali-enterprise"
+}

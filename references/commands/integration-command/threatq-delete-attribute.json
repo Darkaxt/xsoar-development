@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!threatq-delete-source obj_id=173317 obj_type=indicator source_id=3333819",
+  "examples": [
+    "Command Example\n!threatq-delete-source obj_id=173317 obj_type=indicator source_id=3333819\nHuman Readable Output\n23. Delete an attribute\nDeletes an attribute from an object in ThreatQ.\nBase Command\nthreatq-delete-attribute\nInput",
+    "!threatq-delete-source obj_id=173317 obj_type=indicator source_id=3333819\nHuman Readable Output\n23. Delete an attribute\nDeletes an attribute from an object in ThreatQ.\nBase Command\nthreatq-delete-attribute\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-delete-attribute",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

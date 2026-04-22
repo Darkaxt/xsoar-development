@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "531e678e-73e3-4f2a-ac80-55aa203461za",
+  "examples": [
+    "Command Example\n#\n!circleci-trigger-workflow parameters={\"param1\": \"value\"}\nContext Example\n#\n{\n\"CircleCI\"\n:",
+    "!circleci-trigger-workflow parameters={\"param1\": \"value\"}\nContext Example\n#\n{\n\"CircleCI\"\n:\n{\n\"WorkflowTrigger\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The workflow ID. CircleCI.WorkflowTrigger.created_at Date when the workflow was created.",
+      "name": "CircleCI.WorkflowTrigger.id",
+      "required": ""
+    },
+    {
+      "description": "The workflow number. CircleCI.WorkflowTrigger.state The workflow state.",
+      "name": "CircleCI.WorkflowTrigger.number",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CircleCI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/circle-ci"
+}

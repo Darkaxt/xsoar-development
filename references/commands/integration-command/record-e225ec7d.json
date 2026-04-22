@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ftp-get",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Download file from FTP server.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "ftp-get",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next FullHunt \u00bb Configure FTP in Cortex",
+      "name": "\u00ab Freshworks Freshservice",
+      "required": ""
+    },
+    {
+      "description": "ftp-ls ftp-put ftp-get",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FTP",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ftp"
+}

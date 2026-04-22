@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "app-sec-engine-group-list",
+  "examples": [
+    "!app-sec-engine-group-list limit=1\nContext Example\n#\n{\n\"Rapid7AppSec\"\n:\n{\n\"EngineGroup\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the engine group. Rapid7AppSec.EngineGroup.name The name of the engine group.",
+      "name": "Rapid7AppSec.EngineGroup.id",
+      "required": ""
+    },
+    {
+      "description": "Description about the engine group.",
+      "name": "Rapid7AppSec.EngineGroup.description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Rapid7AppSec",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rapid7appsec"
+}

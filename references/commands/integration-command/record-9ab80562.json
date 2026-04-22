@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Bulk updates entries in a collection.",
+  "examples": [
+    "Command Example\n#\n!mongodb-update collection=test filter=`[{\"Name\": \"dummy1\"},{\"$and\": [{\"value\": 1, \"another_value\":0}]}]` update=`[{\"$set\": {\"test\": false}},{\"$set\": {\"test\": true}}]` upsert=true\nHuman Readable Output\n#\nMongoDB: Total of 1 entries has been modified.\nMongoDB: Total of 1 entries has been inserted.\nAdditional Information",
+    "!mongodb-update collection=test filter=`[{\"Name\": \"dummy1\"},{\"$and\": [{\"value\": 1, \"another_value\":0}]}]` update=`[{\"$set\": {\"test\": false}},{\"$set\": {\"test\": true}}]` upsert=true\nHuman Readable Output\n#\nMongoDB: Total of 1 entries has been modified.\nMongoDB: Total of 1 entries has been inserted.\nAdditional Information\n#\na guide on how to use the"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MongoDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mongo-db"
+}

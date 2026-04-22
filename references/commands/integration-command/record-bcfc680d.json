@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!celonis-get-events should_push_events=false limit=10 end_date=2025-02-04T10:33:24.647Z start_date=2025-02-10T10:33:24.647Z\nEdit this page\nReport an Issue\nPrevious\n\u00ab Carbon Black Live Response Cloud\nNext\nCensys v2 \u00bb\nConfigure Celonis in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List The list of audit logs events.",
+      "name": "Celonis.Audit",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Celonis",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/celonis-event-collector"
+}

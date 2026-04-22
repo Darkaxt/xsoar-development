@@ -1,0 +1,139 @@
+{
+  "aliases": [
+    "set-threat-vault-incident-markdown-representation"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "SetThreatVaultIncidentMarkdownRepresentation | Cortex XSOAR",
+  "examples": [
+    "!SetThreatVaultIncidentMarkdownRepresentation\nContext Example\n#\n{\n\"Spyware\"\n:\n[\n{"
+  ],
+  "kind": "script",
+  "name": "SetThreatVaultIncidentMarkdownRepresentation",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!SetThreatVaultIncidentMarkdownRepresentation",
+      "required": ""
+    },
+    {
+      "description": "\"Spyware\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"severity\" : \"medium\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"pan_id\" : 22144",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"attack_name\" : \"WebCompanion Adware Traffic Detection\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"category\" : \"spyware\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"action\" : \"alert\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"change_data\" : \"new coverage\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"min_version\" : \"8.1.0\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"max_version\" : \"\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", { \"severity\"",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"medium\" , \"pan_id\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "22145 , \"attack_name\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"AdLoad Adware Traffic Detection\" , \"category\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"spyware\" , \"action\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"alert\" , \"change_data\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"new coverage\" , \"min_version\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"8.1.0\" , \"max_version\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"\" } ]",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SetThreatVaultIncidentMarkdownRepresentation",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/set-threat-vault-incident-markdown-representation"
+}

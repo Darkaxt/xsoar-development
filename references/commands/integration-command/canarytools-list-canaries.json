@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Check if an IP address is whitelisted: canarytools-check-whitelist",
+  "examples": [
+    "Command Example\n!canarytools-list-canaries\nContext Example\n{\n\"CanaryTools\":{\n\"Device\":{\n\"Status\":true,\n\"Description\":\"Lab\",",
+    "!canarytools-list-canaries\nContext Example\n{\n\"CanaryTools\":{\n\"Device\":{\n\"Status\":true,\n\"Description\":\"Lab\",\n\"LastUpdated\":\"2019-02-24 16:46:01 UTC+0000\","
+  ],
+  "kind": "integration-command",
+  "name": "canarytools-list-canaries",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Device ID CanaryTools.Device.Name Device name",
+      "name": "CanaryTools.Device.ID",
+      "required": ""
+    },
+    {
+      "description": "Device description CanaryTools.Device.Address Device IP address",
+      "name": "CanaryTools.Device.Description",
+      "required": ""
+    },
+    {
+      "description": "Device status - Live (True/False) CanaryTools.Device.Location Device location",
+      "name": "CanaryTools.Device.Status",
+      "required": ""
+    },
+    {
+      "description": "Device version CanaryTools.Device.LastSeen date",
+      "name": "CanaryTools.Device.Version",
+      "required": ""
+    },
+    {
+      "description": "CanaryTools.Device.LastUpdated date Device last updated time",
+      "name": "Device last seen time",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Thinkst Canary",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/thinkst-canary"
+}

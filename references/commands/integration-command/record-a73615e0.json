@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!azure-storage-fileshare-file-delete share_name=\"test-xsoar\" file_name=\"AzureStorage.txt\" directory_path=\"xsoar-directory\"\nHuman Readable Output\n#\nFile AzureStorage.txt successfully deleted from test-xsoar.\nEdit this page\nReport an Issue",
+    "!azure-storage-fileshare-file-delete share_name=\"test-xsoar\" file_name=\"AzureStorage.txt\" directory_path=\"xsoar-directory\"\nHuman Readable Output\n#\nFile AzureStorage.txt successfully deleted from test-xsoar.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Azure Storage Container"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Storage FileShare",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-storage-file-share"
+}

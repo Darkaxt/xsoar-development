@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!grr-get-flows client_id=\"C.d824a5afc0ee6a46\" count=\"2\"\nContext Example\n{\n\"Flow\": [\n{\n\"Expires\": null,\n\"IsRobot\": null,",
+    "!grr-get-flows client_id=\"C.d824a5afc0ee6a46\" count=\"2\"\nContext Example\n{\n\"Flow\": [\n{\n\"Expires\": null,\n\"IsRobot\": null,\n\"Description\": null,"
+  ],
+  "kind": "integration-command",
+  "name": "grr-get-flows",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "A GRR flow Flow.ID GRR flow ID",
+      "name": "Flow",
+      "required": ""
+    },
+    {
+      "description": "GRR flow Args Flow.Creator GRR flow creator",
+      "name": "Flow.Args",
+      "required": ""
+    },
+    {
+      "description": "When the flow was last active Flow.NestedFlow Nested GRR flows",
+      "name": "Flow.LastActiveAt",
+      "required": ""
+    },
+    {
+      "description": "When the flow was started Flow.State GRR flow state",
+      "name": "Flow.StartedAt",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GRR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/grr"
+}

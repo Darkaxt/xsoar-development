@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "jira-create-issue-example"
+  ],
+  "arguments": [],
+  "description": "JiraCreateIssue-example | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "JiraCreateIssue-example",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Id of ticket Ticket.Key Key of ticket",
+      "name": "Ticket.Id",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next JiraListStatus \u00bb Script Data",
+      "name": "\u00ab JiraChangeStatus",
+      "required": ""
+    },
+    {
+      "description": "Used In",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "JiraCreateIssue-example",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/jira-create-issue-example"
+}

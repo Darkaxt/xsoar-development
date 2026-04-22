@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!trustar-get-phishing-indicators from_time=\"7 days ago\"\nContext Example\n#\n{}\nHuman Readable Output\n#",
+    "!trustar-get-phishing-indicators from_time=\"7 days ago\"\nContext Example\n#\n{}\nHuman Readable Output\n#\nNo phishing indicators were found.\nEdit this page"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Indicator Type TruSTAR.PhishingIndicator.normalizedIndicatorScore Indicator normalized score",
+      "name": "TruSTAR.PhishingIndicator.indicatorType",
+      "required": ""
+    },
+    {
+      "description": "Indicator original score name TruSTAR.PhishingIndicator.originalIndicatorScore.value Indicator original score value",
+      "name": "TruSTAR.PhishingIndicator.originalIndicatorScore.name",
+      "required": ""
+    },
+    {
+      "description": "Indicator source key TruSTAR.PhishingIndicator.value Indicator value",
+      "name": "TruSTAR.PhishingIndicator.sourceKey",
+      "required": ""
+    },
+    {
+      "description": "The full file name (including file extension). File.MD5 The MD5 hash of the file.",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "The SHA1 hash of the file. File.SHA256 The SHA1 hash of the file.",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "IP address URL.Data The URL",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "The ID of the CVE, for example: CVE-2015-1653 Account.Email.Address The email address of the account.",
+      "name": "CVE.ID",
+      "required": ""
+    },
+    {
+      "description": "The path to the registry key Domain.Name The domain name, for example: \"google.com\".",
+      "name": "RegistryKey.Path",
+      "required": ""
+    },
+    {
+      "description": "The indicator we tested DBotScore.Type The type of the indicator",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TruSTAR v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tru-star-v2"
+}

@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "[{\u201cmessage\u201d: \u201cFailed User Logon\u201d, \u201clastTime\u201d: \u201c03/11/2019 01:01:13\u201d, \u201cid\u201d: {\u201cvalue\u201d: \u201c144115188075855872|8850\u201d}}]",
+  "examples": [
+    "Command Example\n!esm-get-case-event-list ids=144115188075855872|8850,144115188075855872|9718\nContext Example\n{\n\"CaseEvents\": [\n{\n\"Message\": \"Failed User Logon\",\n\"LastTime\": \"03/11/2019 01:01:13\",",
+    "!esm-get-case-event-list ids=144115188075855872|8850,144115188075855872|9718\nContext Example\n{\n\"CaseEvents\": [\n{\n\"Message\": \"Failed User Logon\",\n\"LastTime\": \"03/11/2019 01:01:13\",\n\"ID\": \"144115188075855872|8850\""
+  ],
+  "kind": "integration-command",
+  "name": "esm-get-case-event-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the event CaseEvents.LastTime date",
+      "name": "CaseEvents.ID",
+      "required": ""
+    },
+    {
+      "description": "CaseEvents.Message The message of the event",
+      "name": "The last updated time of the event",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v10 and v11 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v10"
+}

@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "6. Get a list of policies",
+  "examples": [
+    "Command Example\nsymantec-mc-list-policies content_type=\"EQ IP_LIST\"\nContext Example\n{\n\"SymantecMC.Policy\": [\n{\n\"ReferenceID\": \"test_ip_list\",\n\"ContentType\": \"IP_LIST\","
+  ],
+  "kind": "integration-command",
+  "name": "symantec-mc-list-policies",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Policy UUID. SymantecMC.Policy.Name Policy name.",
+      "name": "SymantecMC.Policy.UUID",
+      "required": ""
+    },
+    {
+      "description": "Policy content type. SymantecMC.Policy.Author Policy author.",
+      "name": "SymantecMC.Policy.ContentType",
+      "required": ""
+    },
+    {
+      "description": "Policy shared. SymantecMC.Policy.ReferenceID Policy reference ID",
+      "name": "SymantecMC.Policy.Shared",
+      "required": ""
+    },
+    {
+      "description": "Policy tenant. SymantecMC.ReplaceVariables Policy replace variables.",
+      "name": "SymantecMC.Policy.Tenant",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-management-center"
+}

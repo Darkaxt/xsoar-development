@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Check a domain: domain",
+  "examples": [
+    "Command Example\n!ip ip=256.256.256.256 using=iDefense_instance_1\nContext Example\n{\n\"IP\": [\n{\n\"Malicious\": {\n\"Vendor\": \"iDefense\",",
+    "!ip ip=256.256.256.256 using=iDefense_instance_1\nContext Example\n{\n\"IP\": [\n{\n\"Malicious\": {\n\"Vendor\": \"iDefense\",\n\"Description\": \"last seen as MALWARE_C2\""
+  ],
+  "kind": "integration-command",
+  "name": "ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The address of the bad IP. IP.Malicious.Vendor For malicious IPs, the name of the vendor that made the decision.",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "For malicious IPs, the reason that the vendor to made the decision. DBotScore.Indicator The indicator that was tested.",
+      "name": "IP.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The type of indicator. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "iDefense (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/i-defense"
+}

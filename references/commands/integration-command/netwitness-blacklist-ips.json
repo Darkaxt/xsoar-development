@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "6. Block list IP addresses",
+  "examples": [
+    "Command Example\n!netwitness-blacklist-ips ips=\"1.1.1.1,2.2.2.2\"\nContext Example\n{\n\"\nNetWitness\n\"\n: {",
+    "!netwitness-blacklist-ips ips=\"1.1.1.1,2.2.2.2\"\nContext Example\n{\n\"\nNetWitness\n\"\n: {\n\""
+  ],
+  "kind": "integration-command",
+  "name": "netwitness-blacklist-ips",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness Endpoint",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-endpoint"
+}

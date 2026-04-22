@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "create-hash"
+  ],
+  "arguments": [],
+  "description": "CreateHash | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CreateHash",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "CreateHash",
+      "required": ""
+    },
+    {
+      "description": "Next CreateHashIndicatorWrapper \u00bb Script Data",
+      "name": "\u00ab CreateFileFromPathObject",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CreateHash",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/create-hash"
+}

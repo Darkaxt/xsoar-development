@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "{\"value\":\"0001-01-01T00:00:00\",\"DateTime\":\"Monday, January 1, 0001 12:00:00 AM\"}",
+  "examples": [
+    "!o365-defender-safelinks-aggregate-report-get end_date=08-01-2022 start_date=07-31-2022\nContext Example\n#\n{\n\"O365Defender\"\n:\n{\n\"SafeLinks\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "App where the link was found. O365Defender.SafeLinks.AggregateReport.Data.Action Action type.",
+      "name": "O365Defender.SafeLinks.AggregateReport.Data.App",
+      "required": ""
+    },
+    {
+      "description": "Number of messages with a link. O365Defender.SafeLinks.AggregateReport.Data.RecipientCount Number of recipients of the link.",
+      "name": "O365Defender.SafeLinks.AggregateReport.Data.MessageCount",
+      "required": ""
+    },
+    {
+      "description": "The report id, unique for every run",
+      "name": "O365Defender.SafeLinks.AggregateReport.ReportId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "O365 Defender SafeLinks - Single User (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/o365-defender-safe-links---single-user"
+}

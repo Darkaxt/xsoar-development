@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "} 12 items cache:0 destIp:null file: https: //demisto.com md5: xxx messageId: sha1: sha256: size:19 srcIp: submitType:1 taskId:388 url: https: //demisto.com subId:385 success:true",
+  "examples": [
+    "Command Example\n!atd-get-taskids jobId=${ATD.Task.jobId}M\n!atd-get-taskids jobId=[220,34]\nContext Example\n{\nroot:[\n] 2 items 0:{\n} 2 items result:{",
+    "!atd-get-taskids jobId=${ATD.Task.jobId}M\n!atd-get-taskids jobId=[220,34]\nContext Example\n{\nroot:[\n] 2 items 0:{\n} 2 items result:{\n} 1 item taskIdList:220 success:true 1:{",
+    "!atd-get-taskids jobId=[220,34]\nContext Example\n{\nroot:[\n] 2 items 0:{\n} 2 items result:{\n} 1 item taskIdList:220 success:true 1:{"
+  ],
+  "kind": "integration-command",
+  "name": "atd-get-task-ids",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "taskId that corresponds to the jobId that was sent ATD.Task.jobId The jobId that was sent",
+      "name": "ATD.Task.jobId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Advanced Threat Defense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-advanced-threat-defense"
+}

@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The risk rule name. RecordedFutureFeed.RiskRule.Description The risk rule description.",
+      "name": "RecordedFutureFeed.RiskRule.Name",
+      "required": ""
+    },
+    {
+      "description": "The risk rule criticality. Troubleshooting",
+      "name": "RecordedFutureFeed.RiskRule.Criticality",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "If indicators expire unexpectedly, ensure that the feed is not receiving more than 100,000 indicators per fetch. As it is discouraged to use \"large\" as a risk rule, we currently receive indicators in a single large CSV file containing up to 100,000 indicators. If Recorded Future has additional indicators to send, the CSV will be sorted in descending order based on the highest score. Consequently, some indicators may not pass through, leading to their expiration, particularly if the expiration is configured as \"When removed from the feed\" and they were present in our system from previous fetches.",
+      "required": ""
+    },
+    {
+      "description": "Next Recorded Future v2 \u00bb Configure Recorded Future Feed on Cortex XSOAR",
+      "name": "\u00ab Recorded Future Identity",
+      "required": ""
+    },
+    {
+      "description": "Commands rf-feed-get-indicators rf-feed-get-risk-rules",
+      "name": "Notes",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Troubleshooting",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future RiskList Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future-feed"
+}

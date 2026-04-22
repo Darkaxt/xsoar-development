@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The new advance Threat Hunt started with ID: hunt-abc",
+  "examples": [
+    "!rubrik-anomaly-csv-analysis-v2 cluster_id=\"00000000-0000-0000-0000-000000000000\" snapshot_id=\"00000000-0000-0000-0000-000000000000\" object_id=\"00000000-0000-0000-0000-000000000000-vm-000\"\nContext Example\n#\n{\n\"InfoFile\"\n:\n{\n\"EntryID\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the cluster. RubrikPolaris.AnomalyCSVv2.snapshotId The ID of the snapshot.",
+      "name": "RubrikPolaris.AnomalyCSVv2.clusterId",
+      "required": ""
+    },
+    {
+      "description": "The ID of the object. RubrikPolaris.AnomalyCSVv2.externalId The external ID of the CSV file.",
+      "name": "RubrikPolaris.AnomalyCSVv2.objectId",
+      "required": ""
+    },
+    {
+      "description": "Whether the CSV analysis was successful or not. InfoFile.Name FileName.",
+      "name": "RubrikPolaris.AnomalyCSVv2.isSuccessful",
+      "required": ""
+    },
+    {
+      "description": "The EntryID of the report. InfoFile.Size File Size.",
+      "name": "InfoFile.EntryID",
+      "required": ""
+    },
+    {
+      "description": "File type e.g. \"PE\". InfoFile.Info Basic information of the file.",
+      "name": "InfoFile.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Rubrik Security Cloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rubrik-polaris"
+}

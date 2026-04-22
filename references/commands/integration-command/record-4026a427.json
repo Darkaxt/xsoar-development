@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!netbox-get-events should_push_events=true limit=1\nHuman Readable Output\n#\njournal-entries Events\n#\nassigned_object",
+    "!netbox-get-events should_push_events=true limit=1\nHuman Readable Output\n#\njournal-entries Events\n#\nassigned_object\nassigned_object_id\nassigned_object_type"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "NetBox Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/net-box-event-collector"
+}

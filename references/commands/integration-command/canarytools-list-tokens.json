@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!canarytools-list-tokens\nContext Example\n{\n\"CanaryTools\":{\n\"Tokens\":[\n{\n\"Status\":true,",
+    "!canarytools-list-tokens\nContext Example\n{\n\"CanaryTools\":{\n\"Tokens\":[\n{\n\"Status\":true,\n\"Kind\":\"doc-msword\","
+  ],
+  "kind": "integration-command",
+  "name": "canarytools-list-tokens",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Canary Token CanaryTools.Tokens.CreatedTime date",
+      "name": "CanaryTools.Tokens.CanaryToken",
+      "required": ""
+    },
+    {
+      "description": "CanaryTools.Tokens.Status Token status - Enabled (True / False) CanaryTools.Tokens.Kind",
+      "name": "Token Created time",
+      "required": ""
+    },
+    {
+      "description": "Token Kind CanaryTools.Tokens.Triggered Token triggered count",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Token document name (If the token is from type document) CanaryTools.Tokens.TokenURL Token URL (How the token is presented)",
+      "name": "CanaryTools.Tokens.DocName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Thinkst Canary",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/thinkst-canary"
+}

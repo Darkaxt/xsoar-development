@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "JiraAsset.Attachment.Url",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the attachment that was deleted. JiraAsset.Attachment.Author Author of the attachment.",
+      "name": "JiraAsset.Attachment.ID",
+      "required": ""
+    },
+    {
+      "description": "The file's MIME type. JiraAsset.Attachment.Filename The file's name.",
+      "name": "JiraAsset.Attachment.MimeType",
+      "required": ""
+    },
+    {
+      "description": "The size of the file. JiraAsset.Attachment.Created Date",
+      "name": "JiraAsset.Attachment.Filesize",
+      "required": ""
+    },
+    {
+      "description": "JiraAsset.Attachment.Comment The comment attached to the attachment, if there is one. JiraAsset.Attachment.CommentOutput",
+      "name": "The date in which this attachment was created.",
+      "required": ""
+    },
+    {
+      "description": "The comment output of the attachment, if there is one. JiraAsset.Attachment.Url URL to the attachment.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Atlassian IAM",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Atlassian Jira v2 (Deprecated) \u00bb Configure Atlassian Jira Service Management in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "jira-asset-object-type-list jira-asset-object-type-attribute-list jira-asset-object-create",
+      "name": "jira-asset-object-schema-list",
+      "required": ""
+    },
+    {
+      "description": "jira-asset-object-delete jira-asset-object-get jira-asset-object-search",
+      "name": "jira-asset-object-update",
+      "required": ""
+    },
+    {
+      "description": "jira-asset-comment-create jira-asset-connected-ticket-list jira-asset-comment-list",
+      "name": "jira-asset-attribute-json-create",
+      "required": ""
+    },
+    {
+      "description": "jira-asset-attachment-list jira-asset-attachment-remove Docs",
+      "name": "jira-asset-attachment-add",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Atlassian Jira Service Management",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/atlassian-jira-service-management"
+}

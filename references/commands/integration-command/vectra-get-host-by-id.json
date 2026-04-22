@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!vectra-get-host-by-id host_id=11\nContext Example\n{\n\"Vectra.Host\": [\n{\n\"CertaintyScore\": 27,\n\"Hostname\": \"Robert-MBP\",",
+    "!vectra-get-host-by-id host_id=11\nContext Example\n{\n\"Vectra.Host\": [\n{\n\"CertaintyScore\": 27,\n\"Hostname\": \"Robert-MBP\",\n\"ID\": 11,"
+  ],
+  "kind": "integration-command",
+  "name": "vectra-get-host-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Vectra v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vectra-v2"
+}

@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The ThreatQ Score of the indicator.",
+  "examples": [
+    "Command Example\n!threatq-edit-indicator id=173317 description=\"This is a new description\" type=\"Email Address\" value=goo@test.com\nHuman Readable Output\n26. Edit an event\nUpdates an event in ThreatQ.\nBase Command\nthreatq-edit-event\nInput",
+    "!threatq-edit-indicator id=173317 description=\"This is a new description\" type=\"Email Address\" value=goo@test.com\nHuman Readable Output\n26. Edit an event\nUpdates an event in ThreatQ.\nBase Command\nthreatq-edit-event\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-edit-event",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the event. ThreatQ.Event.Source.ID The source ID of the event.",
+      "name": "ThreatQ.Event.ID",
+      "required": ""
+    },
+    {
+      "description": "The source name of the event. ThreatQ.Event.Attribute.ID The attribute ID of the event.",
+      "name": "ThreatQ.Event.Source.Name",
+      "required": ""
+    },
+    {
+      "description": "The attribute name of the event. ThreatQ.Event.Attribute.Value The attribute value of the event.",
+      "name": "ThreatQ.Event.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "date The last update date of the event. ThreatQ.Event.CreatedAt",
+      "name": "ThreatQ.Event.UpdatedAt",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the event. ThreatQ.Event.Type The type of the event.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "The description of the event. ThreatQ.Event.Title The title of the event.",
+      "name": "ThreatQ.Event.Description",
+      "required": ""
+    },
+    {
+      "description": "date",
+      "name": "ThreatQ.Event.Occurred",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

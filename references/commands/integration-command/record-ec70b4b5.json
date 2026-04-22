@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "druva-find-sharedDrives",
+  "examples": [
+    "!druva-find-sharedDrives search_string=\"rahul_drive\"\nContext Example\n#\n{\n\"Druva\"\n:\n{\n\"Resource\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the Resource. Druva.Resource.resourceType The type of the Resource.",
+      "name": "Druva.Resource.resourceID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Druva Ransomware Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/druva-ransomware-response"
+}

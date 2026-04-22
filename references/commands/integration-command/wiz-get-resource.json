@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get Details of a resource. You should pass exactly one of",
+  "examples": [
+    "Command Example\n#"
+  ],
+  "kind": "integration-command",
+  "name": "wiz-get-resource",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Resource details",
+      "name": "Wiz.Manager.Resource",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Wiz",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/wiz"
+}

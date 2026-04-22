@@ -1,0 +1,77 @@
+{
+  "aliases": [
+    "troubleshoot-execute-command"
+  ],
+  "arguments": [
+    {
+      "description": "instance_name The instance name.",
+      "name": "The arguments of the command.",
+      "required": ""
+    }
+  ],
+  "description": "TroubleshootExecuteCommand | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "TroubleshootExecuteCommand",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The command executed. TroubleshootExecuteCommand.instance_name On which instance of the integration the command executed.",
+      "name": "TroubleshootExecuteCommand.command",
+      "required": ""
+    },
+    {
+      "description": "TroubleshootExecuteCommand.Error The errors from the command. File.Name",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "File.EntryID The ID for locating the file in the War Room. File.Size",
+      "name": "The full file name (including file extension).",
+      "required": ""
+    },
+    {
+      "description": "File.MD5 The MD5 hash of the file. File.SHA1",
+      "name": "The size of the file in bytes.",
+      "required": ""
+    },
+    {
+      "description": "File.SHA256 The SHA1 hash of the file. File.SHA512",
+      "name": "The SHA1 hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "File.SSDeep The ssdeep hash of the file (same as displayed in file entries). File.Extension",
+      "name": "The SHA512 hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "File.Type The file type, as determined by libmagic (same as displayed in the file entries). Edit this page",
+      "name": "The file extension, for example: 'xls'.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab TroubleshootCloseAlertsByQuery Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data Used In",
+      "name": "TroubleshootExecutePlaybookByAlertQuery \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TroubleshootExecuteCommand",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/troubleshoot-execute-command"
+}

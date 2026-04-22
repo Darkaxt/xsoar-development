@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The timestamp of the event (RFC3339 format).",
+  "examples": [
+    "Command Example\n!sigsci-get-alert alert_id=5b8ba7fd7a54b34f0c0f12cc siteName=demisto\nHuman Readable Output\n14. Delete an alert from a site\nDeletes an alert from a given site in Signal Sciences.\nBase Command\nsigsci-delete-alert\nInput",
+    "!sigsci-get-alert alert_id=5b8ba7fd7a54b34f0c0f12cc siteName=demisto\nHuman Readable Output\n14. Delete an alert from a site\nDeletes an alert from a given site in Signal Sciences.\nBase Command\nsigsci-delete-alert\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "sigsci-delete-alert",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

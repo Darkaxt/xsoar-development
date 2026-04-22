@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "\"ReportName\":\"Policies - Summary view\"",
+  "examples": [
+    "Command Example\n!archer-get-application-fields applicationId=433\nRaw Output\n{\n\"Groups\": {\n\"-count\": \"3\",\n\"Metadata\": {\n\"FieldDefinitions\": {",
+    "!archer-get-application-fields applicationId=433\nRaw Output\n{\n\"Groups\": {\n\"-count\": \"3\",\n\"Metadata\": {\n\"FieldDefinitions\": {\n\"FieldDefinition\": ["
+  ],
+  "kind": "integration-command",
+  "name": "archer-execute-statistic-search-by-report",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

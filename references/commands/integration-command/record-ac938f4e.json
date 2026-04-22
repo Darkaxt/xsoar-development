@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Gather information on instances of Alibaba Cloud ECS.",
+  "examples": [
+    "Command Example\n#\n!ali-instance-info\nContext Example\n#\n{\n\"AlibabaCloud\"\n:",
+    "!ali-instance-info\nContext Example\n#\n{\n\"AlibabaCloud\"\n:\n{\n\"AliInstanceInfo\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of ECS instances AlibabaCloud.AliInstanceInfo.ids List of ECS instance IDs",
+      "name": "AlibabaCloud.AliInstanceInfo.instances",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ansible Alibaba Cloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ansible-alibaba-cloud"
+}

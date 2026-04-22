@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "This element identifies a CPE by the CPE 2.3 Naming specification CPE.titles This element contains the human-readable, English title for the CPE.",
+      "name": "CPE.cpe23Uril",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab MxToolBox",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "National Vulnerability Database Feed v2 \u00bb Configure National Vulnerability Database in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "nvd-get-indicators",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "National Vulnerability Database",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/national-vulnerability-database"
+}

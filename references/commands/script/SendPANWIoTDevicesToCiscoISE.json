@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "send-panw-io-t-devices-to-cisco-ise"
+  ],
+  "arguments": [],
+  "description": "SendPANWIoTDevicesToCiscoISE | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SendPANWIoTDevicesToCiscoISE",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Total count of devices updated or created on ISE Edit this page Report an Issue",
+      "name": "PaloAltoIoTIntegrationBase.Status",
+      "required": ""
+    },
+    {
+      "description": "\u00ab SendMessageToOnlineUsers Next SEPCheckOutdatedEndpoints \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Script Data Used In Dependencies",
+      "name": "Permissions",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SendPANWIoTDevicesToCiscoISE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/send-panw-io-t-devices-to-cisco-ise"
+}

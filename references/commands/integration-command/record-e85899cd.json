@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!satp-incident-events",
+  "examples": [
+    "Command Example\n#\n!satp-incident-events\nsatp-incidents\n#\nQuery incidents from ATP\nBase Command\n#",
+    "!satp-incident-events\nsatp-incidents\n#\nQuery incidents from ATP\nBase Command\n#\nsatp-incidents\nInput",
+    "Command Example\n#\n!satp-incidents\nEdit this page\nReport an Issue\nPrevious\n\u00ab Superna Zero Trust\nNext",
+    "!satp-incidents\nEdit this page\nReport an Issue\nPrevious\n\u00ab Superna Zero Trust\nNext\nSymantec Blue Coat Content and Malware Analysis (Beta) \u00bb\nConfigure Symantec Advanced Threat Protection in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "A unique identifier for this incident ATPIncidents.Result.priority_level Priority level of the incident. 1 = LOW, 2 = MED, 3 = HIGH",
+      "name": "ATPIncidents.Result.atp_incident_id",
+      "required": ""
+    },
+    {
+      "description": "The state of the incident. 1 = OPEN,2 = WAITING,3 = IN_WORK,4 = CLOSED ATPIncidents.Result.recommended_action Recommended action for this incident",
+      "name": "ATPIncidents.Result.state",
+      "required": ""
+    },
+    {
+      "description": "When the first event associated with the incident was created ATPIncidents.Result.last_event_seen When the last event associated with the incident was created",
+      "name": "ATPIncidents.Result.first_event_seen",
+      "required": ""
+    },
+    {
+      "description": "The number of events associated with the incident ATPIncidents.Result.device_time The timestamp that specifies the time at which the event occurred",
+      "name": "ATPIncidents.Result.event_count",
+      "required": ""
+    },
+    {
+      "description": "A list of ATP endpoint devices UID on which the events occurred ATPIncidents.Result.scanners A list of ATP scanners that discovered the threat",
+      "name": "ATPIncidents.Result.deviceUid",
+      "required": ""
+    },
+    {
+      "description": "A list of SHA256 hashes associated with this incident ATPIncidents.Result.domainid A list of domains associated with this incident",
+      "name": "ATPIncidents.Result.filehash",
+      "required": ""
+    },
+    {
+      "description": "Summary information about the incident ATPIncidents.Result.time The creation time (in ISO 8601 format) of the incident",
+      "name": "ATPIncidents.Result.summary",
+      "required": ""
+    },
+    {
+      "description": "The time (in ISO 8601 format) of last modification ATPIncidents.Result.log_name The index/type of the originating event",
+      "name": "ATPIncidents.Result.updated",
+      "required": ""
+    },
+    {
+      "description": "The GUID assigned for this incident",
+      "name": "ATPIncidents.Result.uuid",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Advanced Threat Protection (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-advanced-threat-protection"
+}

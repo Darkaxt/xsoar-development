@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "cypho-download-attachments"
+  ],
+  "arguments": [
+    {
+      "description": "The automation automatically uses: The Cypho ticket ID associated with the incident Attachment metadata retrieved from Cypho",
+      "name": "There are no manual inputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The active incident context in Cortex XSOAR",
+      "required": ""
+    }
+  ],
+  "description": "CyphoDownloadAttachments | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CyphoDownloadAttachments",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Each successfully retrieved attachment is stored in XSOAR and made available for analyst review. \u2714 Notes",
+      "name": "Downloaded attachments are added to the incident as files.",
+      "required": ""
+    },
+    {
+      "description": "incident action button . If no attachments exist for the issue, the script exits gracefully without errors.",
+      "name": "This script is intended to be executed via an",
+      "required": ""
+    },
+    {
+      "description": "Enhances investigation workflows by centralizing all evidence within XSOAR. Fully compatible with Cypho and Cortex XSOAR incident management processes. Edit this page",
+      "name": "Supports downloading multiple attachments in a single execution.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab CyphoDismissIssue Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "CyphoServerityChange \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "\u2714 Notes",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyphoDownloadAttachments",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cypho-download-attachments"
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The ID of the Adversary.",
+  "examples": [
+    "Command Example\n!threatq-get-related-adversaries obj_id=1 obj_type=adversary\nHuman Readable Output\n17. Upload a-file\nUploads a file to ThreatQ.\nBase Command\nthreatq-upload-file\nInput",
+    "!threatq-get-related-adversaries obj_id=1 obj_type=adversary\nHuman Readable Output\n17. Upload a-file\nUploads a file to ThreatQ.\nBase Command\nthreatq-upload-file\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-upload-file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date Date of the file upload. ThreatQ.File.Size",
+      "name": "ThreatQ.File.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Size (in bytes) of the file. ThreatQ.File.MD5 The MD5 of the file.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The File ID in ThreatQ. ThreatQ.File.Name The name of the File.",
+      "name": "ThreatQ.File.ID",
+      "required": ""
+    },
+    {
+      "description": "The title of the file. ThreatQ.File.UpdatedAt Date",
+      "name": "ThreatQ.File.Title",
+      "required": ""
+    },
+    {
+      "description": "ThreatQ.File.MalwareLocked Whether malware files are zipped. ThreatQ.File.ContentType",
+      "name": "The last update of the file.",
+      "required": ""
+    },
+    {
+      "description": "The content type of the file. ThreatQ.File.Category The type of the file.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The source of the file. ThreatQ.File.Source.Name The source name of the file.",
+      "name": "ThreatQ.File.Source.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute ID of the file. ThreatQ.File.Attribute.Name The attribute name of the file.",
+      "name": "ThreatQ.File.Attribute.ID",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "ThreatQ.File.Attribute.Value",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

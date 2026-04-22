@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Download a file to Cortex XSOAR:\u00a0threatq-download-file",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "threatq-search-by-name",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the Indicator. ThreatQ.Indicator.Value The value of the Indicator.",
+      "name": "ThreatQ.Indicator.ID",
+      "required": ""
+    },
+    {
+      "description": "The ID of the Event. ThreatQ.Event.Title The title of the Event.",
+      "name": "ThreatQ.Event.ID",
+      "required": ""
+    },
+    {
+      "description": "The ID of the Adversary. ThreatQ.Adversary.Name",
+      "name": "ThreatQ.Adversary.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

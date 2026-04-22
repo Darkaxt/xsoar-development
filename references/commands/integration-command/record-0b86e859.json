@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Gets a list of armorblox incidents",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next AsanaConnect \u00bb Configure Armorblox on Cortex XSOAR",
+      "name": "\u00ab Armis Event Collector",
+      "required": ""
+    },
+    {
+      "description": "armorblox-check-remediation-action fetch-incidents Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Armorblox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/armorblox"
+}

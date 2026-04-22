@@ -1,0 +1,97 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!vulndb-get-version product_name=\"1-Search\" max_size=\"20\"",
+  "examples": [
+    "Command Example\n!vulndb-get-version product_name=\"1-Search\" max_size=\"20\"\nHuman Readable Output\n5. Get a list of recent vulnerabilities\nReturns recent vulnerabilities, by date or number of hours.\nBase Command\nvulndb-get-updates-by-dates-or-hours\nInput",
+    "!vulndb-get-version product_name=\"1-Search\" max_size=\"20\"\nHuman Readable Output\n5. Get a list of recent vulnerabilities\nReturns recent vulnerabilities, by date or number of hours.\nBase Command\nvulndb-get-updates-by-dates-or-hours\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "vulndb-get-updates-by-dates-or-hours",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Vulnerability ID. VulnDB.Vulnerability.Title Vulnerability title (human-readable).",
+      "name": "VulnDB.Vulnerability.ID",
+      "required": ""
+    },
+    {
+      "description": "Vulnerability keywords. VulnDB.Vulnerability.Description Vulnerability description (human-readable).",
+      "name": "VulnDB.Vulnerability.Keywords",
+      "required": ""
+    },
+    {
+      "description": "Vulnerability solution (human readable). VulnDB.Vulnerability.PublishedDate date",
+      "name": "VulnDB.Vulnerability.Solution",
+      "required": ""
+    },
+    {
+      "description": "VulnDB.Vulnerability.TDescription Vulnerability description (human-readable). VulnDB.Vulnerability.SolutionDate",
+      "name": "Vulnerability published date.",
+      "required": ""
+    },
+    {
+      "description": "Vulnerability solution date. VulnDB.Vulnerability.DiscoveryDate date",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "VulnDB.Vulnerability.ExploitPublishDate date Exploit publish date.",
+      "name": "Vulnerability discovery date.",
+      "required": ""
+    },
+    {
+      "description": "CVE (constant string). VulnDB.CvssMetrics.Id CVSS reference value.",
+      "name": "VulnDB.CVE-ExtReferences.Value",
+      "required": ""
+    },
+    {
+      "description": "CVSS access vector. VulnDB.CvssMetrics.AccessComplexity Cvss access complexity",
+      "name": "VulnDB.CvssMetrics.AccessVector",
+      "required": ""
+    },
+    {
+      "description": "CVSS metric authentication. VulnDB.CvssMetrics.ConfidentialityImpact CVSS confidentiality impact.",
+      "name": "VulnDB.CvssMetrics.Authentication",
+      "required": ""
+    },
+    {
+      "description": "CVSS integrity impact. VulnDB.CvssMetrics.AvailabilityImpact CVSS availability impact.",
+      "name": "VulnDB.cvssMetrics.integrity_impact",
+      "required": ""
+    },
+    {
+      "description": "date CVSS metric date. VulnDB.CvssMetrics.Score",
+      "name": "VulnDB.CvssMetrics.Generated_on",
+      "required": ""
+    },
+    {
+      "description": "CVSS score. VulnDB.Vendors.Id Vendor ID.",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "Vendor name. VulnDB.Products.Id Product IDs.",
+      "name": "VulnDB.Vendor.Name",
+      "required": ""
+    },
+    {
+      "description": "Product names. VulnDB.Products.Versions.Id Product version IDs.",
+      "name": "VulnDB.Products.Name",
+      "required": ""
+    },
+    {
+      "description": "Product version names. VulnDB.Classification.Longname Classification name (long).",
+      "name": "VulnDB.Products.Versions.Name",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "VulnDB.Classification.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VulnDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vuln-db"
+}

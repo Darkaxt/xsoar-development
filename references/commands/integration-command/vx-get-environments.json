@@ -1,0 +1,35 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "3. (Deprecated) Get a list of all environments",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "vx-get-environments",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Environment ID. VX.Environment.description The environment description.",
+      "name": "VX.Environment.ID",
+      "required": ""
+    },
+    {
+      "description": "Environment architecture. VX.Environment.VMs_total Total virtual machines in the environment.",
+      "name": "VX.Environment.architecture",
+      "required": ""
+    },
+    {
+      "description": "Busy virtual machines in the environment. VX.Environment.analysisMode",
+      "name": "VX.Environment.VMs_busy",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vx-stream"
+}

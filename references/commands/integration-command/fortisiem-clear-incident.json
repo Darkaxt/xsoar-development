@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "<14>May 2 19:53:33 PA-Firewall 1,2019/05/02 19:53:33,007151000004733,TRAFFIC,start,2304,2019/05/01 09:53:33,10.100.100.17,8.8.8.8,80.227.43.146,8.8.8.8,Internet allow,dns,vsys1,Trust,Untrust,ethernet1/3,ethernet1/1,Forward to Fortisiem,2019/05/02 19:53:33,156575,1,57184,53,59686,53,0x400000,udp,allow,109,109,0,1,2019/05/02 19:53:31,0,any,0,32724731,0x0,10.0.0.0-10.255.255.255,United States,0,1,0,n/a,0,0,0,0,PA-Firewall,from-policy,0,0,N/A,0,0,0,0,dcc8adba-6c1a-4eb1-9ac3-d0f33439ea67,0",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "fortisiem-clear-incident",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FortiSIEM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forti-siem"
+}

@@ -1,0 +1,179 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "admin@internationaladmin.com",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The domain. CSCDomainManager.Domain.Configuration.domainLabel The domain label.",
+      "name": "CSCDomainManager.Domain.Configuration.domain",
+      "required": ""
+    },
+    {
+      "description": "The domain status code. CSCDomainManager.Domain.Configuration.domainExtension The domain extension.",
+      "name": "CSCDomainManager.Domain.Configuration.domainStatusCode",
+      "required": ""
+    },
+    {
+      "description": "Country associated with the domain. CSCDomainManager.Domain.Configuration.adminEmail Domain email.",
+      "name": "CSCDomainManager.Domain.Configuration.country",
+      "required": ""
+    },
+    {
+      "description": "Admin name associated with the domain. CSCDomainManager.Domain.Configuration.accountNumber The account number associated with the domain.",
+      "name": "CSCDomainManager.Domain.Configuration.adminName",
+      "required": ""
+    },
+    {
+      "description": "The account name associated with the domain. CSCDomainManager.Domain.Configuration.account.accountName The name of the account associated with the domain.",
+      "name": "CSCDomainManager.Domain.Configuration.accountName",
+      "required": ""
+    },
+    {
+      "description": "The account number associated with the domain. CSCDomainManager.Domain.Configuration.adminOrg The administrative organization managing the domain.",
+      "name": "CSCDomainManager.Domain.Configuration.account.accountNumber",
+      "required": ""
+    },
+    {
+      "description": "The business unit associated with the domain. CSCDomainManager.Domain.Configuration.dnsData.dnsDomain The DNS domain information.",
+      "name": "CSCDomainManager.Domain.Configuration.businessUnit",
+      "required": ""
+    },
+    {
+      "description": "The DNS provider for the domain. CSCDomainManager.Domain.Configuration.dnsHostingType The type of DNS hosting used for the domain.",
+      "name": "CSCDomainManager.Domain.Configuration.dnsData.dnsProvider",
+      "required": ""
+    },
+    {
+      "description": "The average DNS traffic over the last 12 months. CSCDomainManager.Domain.Configuration.extension The extension of the domain, such as .com, .net, etc.",
+      "name": "CSCDomainManager.Domain.Configuration.dnsTraffic12moAve",
+      "required": ""
+    },
+    {
+      "description": "Indicates if the domain has CSC URL forwarding enabled. CSCDomainManager.Domain.Configuration.hasDkim Indicates if DKIM is configured for the domain.",
+      "name": "CSCDomainManager.Domain.Configuration.hasCscUrlf",
+      "required": ""
+    },
+    {
+      "description": "Indicates if DMARC is configured for the domain. CSCDomainManager.Domain.Configuration.hasDnssecDs Indicates if the domain has DNSSEC DS records.",
+      "name": "CSCDomainManager.Domain.Configuration.hasDmarc",
+      "required": ""
+    },
+    {
+      "description": "Indicates if SPF is configured for the domain. CSCDomainManager.Domain.Configuration.hasWww Indicates if the domain has a WWW record.",
+      "name": "CSCDomainManager.Domain.Configuration.hasSpf",
+      "required": ""
+    },
+    {
+      "description": "Indicates if the domain is a gTLD (Generic Top-Level Domain). CSCDomainManager.Domain.Configuration.isLive Indicates if the domain is live.",
+      "name": "CSCDomainManager.Domain.Configuration.isGtld",
+      "required": ""
+    },
+    {
+      "description": "The type of live status for the domain. CSCDomainManager.Domain.Configuration.isMultilockEligible Indicates if the domain is eligible for multilock.",
+      "name": "CSCDomainManager.Domain.Configuration.isLiveType",
+      "required": ""
+    },
+    {
+      "description": "Indicates if the domain is considered vital. CSCDomainManager.Domain.Configuration.multiLocked Indicates if the domain is multilocked.",
+      "name": "CSCDomainManager.Domain.Configuration.isVital",
+      "required": ""
+    },
+    {
+      "description": "The number of live MX records for the domain. CSCDomainManager.Domain.Configuration.numRootA The number of root A records for the domain.",
+      "name": "CSCDomainManager.Domain.Configuration.numLiveMx",
+      "required": ""
+    },
+    {
+      "description": "The number of root TXT records for the domain. CSCDomainManager.Domain.Configuration.numSslNetcraft The number of SSL certificates detected by Netcraft for the domain.",
+      "name": "CSCDomainManager.Domain.Configuration.numRootTxt",
+      "required": ""
+    },
+    {
+      "description": "The number of WWW A records for the domain. CSCDomainManager.Domain.Configuration.numWwwCname The number of WWW CNAME records for the domain.",
+      "name": "CSCDomainManager.Domain.Configuration.numWwwA",
+      "required": ""
+    },
+    {
+      "description": "The registration email address for the domain. CSCDomainManager.Domain.Configuration.regName The registration name for the domain.",
+      "name": "CSCDomainManager.Domain.Configuration.regEmail",
+      "required": ""
+    },
+    {
+      "description": "The registration organization for the domain. CSCDomainManager.Domain.Configuration.registryExpiryDate Date",
+      "name": "CSCDomainManager.Domain.Configuration.regOrg",
+      "required": ""
+    },
+    {
+      "description": "CSCDomainManager.Domain.Configuration.rootHttpCode The HTTP response code for the root domain. CSCDomainManager.Domain.Configuration.rootHttpUrl",
+      "name": "The expiration date of the domain registration in the registry.",
+      "required": ""
+    },
+    {
+      "description": "The HTTP URL for the root domain. CSCDomainManager.Domain.Configuration.rootIsUrlf Indicates if the root domain is URL forwarding enabled.",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Indicates if the domain is prohibited from deletion by the server. CSCDomainManager.Domain.Configuration.serverTransferProhibited Indicates if the domain is prohibited from transfer by the server.",
+      "name": "CSCDomainManager.Domain.Configuration.serverDeleteProhibited",
+      "required": ""
+    },
+    {
+      "description": "Indicates if the domain is prohibited from updates by the server. CSCDomainManager.Domain.Configuration.techEmail The technical contact email address for the domain.",
+      "name": "CSCDomainManager.Domain.Configuration.serverUpdateProhibited",
+      "required": ""
+    },
+    {
+      "description": "The technical contact name for the domain. CSCDomainManager.Domain.Configuration.techOrg The technical contact organization for the domain.",
+      "name": "CSCDomainManager.Domain.Configuration.techName",
+      "required": ""
+    },
+    {
+      "description": "The top-level domain (TLD) of the domain. CSCDomainManager.Domain.Configuration.urlfTraffic12moAve The average URL forwarding traffic over the last 12 months.",
+      "name": "CSCDomainManager.Domain.Configuration.tld",
+      "required": ""
+    },
+    {
+      "description": "The value of root A records for the domain. CSCDomainManager.Domain.Configuration.valueRootMx The value of root MX records for the domain.",
+      "name": "CSCDomainManager.Domain.Configuration.valueRootA",
+      "required": ""
+    },
+    {
+      "description": "The value of root TXT records for the domain. CSCDomainManager.Domain.Configuration.valueWwwA The value of WWW A records for the domain.",
+      "name": "CSCDomainManager.Domain.Configuration.valueRootTxt",
+      "required": ""
+    },
+    {
+      "description": "The value of WWW CNAME records for the domain. CSCDomainManager.Domain.Configuration.wwwHttpCode The HTTP response code for the WWW domain.",
+      "name": "CSCDomainManager.Domain.Configuration.valueWwwCname",
+      "required": ""
+    },
+    {
+      "description": "The HTTP URL for the WWW domain. CSCDomainManager.Domain.Configuration.wwwIsUrlf Indicates if the WWW domain is URL forwarding enabled.",
+      "name": "CSCDomainManager.Domain.Configuration.wwwHttpUrl",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Cryptosim",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "CSV Feed \u00bb Configure CSCDomainManager in Cortex Access and Security",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Token Refresh",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CSCDomainManager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/csc-domain-manager"
+}

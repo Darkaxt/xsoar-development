@@ -1,0 +1,424 @@
+{
+  "aliases": [
+    "certificate-reputation"
+  ],
+  "arguments": [
+    {
+      "description": "update_indicator Set validation checks in the indicator",
+      "name": "Value of the indicator.",
+      "required": ""
+    }
+  ],
+  "description": "CertificateReputation | Cortex XSOAR",
+  "examples": [
+    "!CertificateReputation input=\"fead39be0bc680baaaf282d915b44c803e7ab66e61ff5afc356bcf0d12d73f2c\" update_indicator=false\nContext Example\n#\n{\n\"Certificate\"\n:\n{\n\"Extension\""
+  ],
+  "kind": "script",
+  "name": "CertificateReputation",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name (CN or SAN) appearing in the certificate. Certificate.SubjectDN The Subject Distinguished Name of the certificate.",
+      "name": "Certificate.Name",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PEM Certificate in PEM format. Certificate.IssuerDN",
+      "name": "This field includes the Common Name of the certificate.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.SerialNumber The Serial Number of the certificate. Certificate.ValidityNotAfter",
+      "name": "The Issuer Distinguished Name of the certificate.",
+      "required": ""
+    },
+    {
+      "description": "Date Certificate.ValidityNotBefore Start of certificate validity period.",
+      "name": "End of certificate validity period.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.SubjectAlternativeName.Type Type of the SAN. Certificate.SubjectAlternativeName.Value",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Certificate.SHA512 SHA512 Fingerprint of the certificate in DER format. Certificate.SHA256",
+      "name": "Name of the SAN.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.SHA1 SHA1 Fingerprint of the certificate in DER format. Certificate.MD5",
+      "name": "SHA256 Fingerprint of the certificate in DER format.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PublicKey.Algorithm Algorithm used for public key of the certificate. Certificate.PublicKey.Length",
+      "name": "MD5 Fingerprint of the certificate in DER format.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PublicKey.Modulus Modulus of the public key for RSA keys. Certificate.PublicKey.Exponent",
+      "name": "Length in bits of the public key of the certificate.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PublicKey.PublicKey The public key for DSA/Unknown keys. Certificate.PublicKey.P",
+      "name": "Exponent of the public key for RSA keys.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PublicKey.Q The Q parameter for DSA keys. Certificate.PublicKey.G",
+      "name": "The P parameter for DSA keys.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PublicKey.X The X parameter for EC keys. Certificate.PublicKey.Y",
+      "name": "The G parameter for DSA keys.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PublicKey.Curve Curve of the Public Key for EC keys. Certificate.SPKISHA256",
+      "name": "The Y parameter for EC keys.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.Signature.Algorithm Algorithm used in the signature of the certificate. Certificate.Signature.Signature",
+      "name": "SHA256 fingerprint of the certificate Subject Public Key Info.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.Extension.Critical Critical flag of the certificate extension. Bool",
+      "name": "Signature of the certificate.",
+      "required": ""
+    },
+    {
+      "description": "OID of the certificate extension. Certificate.Extension.Name Name of the certificate extension.",
+      "name": "Certificate.Extension.OID",
+      "required": ""
+    },
+    {
+      "description": "Certificate.Extension.Value Value of the certificate extension. Certificate.Malicious.Vendor",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Certificate.Malicious.Description A description explaining why the file was determined to be malicious. DBotScore.Indicator",
+      "name": "The vendor that reported the file as malicious.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Type The indicator type. DBotScore.Vendor",
+      "name": "The indicator that was tested.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Score The actual score. Script Example",
+      "name": "The vendor used to calculate the score.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!CertificateReputation input=\"fead39be0bc680baaaf282d915b44c803e7ab66e61ff5afc356bcf0d12d73f2c\" update_indicator=false",
+      "required": ""
+    },
+    {
+      "description": "\"Certificate\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": [ {",
+      "name": "\"Extension\"",
+      "required": ""
+    },
+    {
+      "description": ": true ,",
+      "name": "\"Critical\"",
+      "required": ""
+    },
+    {
+      "description": ": \"basicConstraints\" ,",
+      "name": "\"Name\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2.5.29.19\" ,",
+      "name": "\"OID\"",
+      "required": ""
+    },
+    {
+      "description": ": { \"CA\"",
+      "name": "\"Value\"",
+      "required": ""
+    },
+    {
+      "description": "false } }",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "{ \"Critical\" :",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"Name\" :",
+      "name": "false",
+      "required": ""
+    },
+    {
+      "description": ", \"OID\" :",
+      "name": "\"extendedKeyUsage\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Value\" :",
+      "name": "\"2.5.29.37\"",
+      "required": ""
+    },
+    {
+      "description": "\"Usages\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ", \"clientAuth\" ]",
+      "name": "\"serverAuth\"",
+      "required": ""
+    },
+    {
+      "description": "} , {",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": ": true ,",
+      "name": "\"Critical\"",
+      "required": ""
+    },
+    {
+      "description": ": \"keyUsage\" ,",
+      "name": "\"Name\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2.5.29.15\" ,",
+      "name": "\"OID\"",
+      "required": ""
+    },
+    {
+      "description": ": { \"DigitalSignature\"",
+      "name": "\"Value\"",
+      "required": ""
+    },
+    {
+      "description": "true , \"KeyEncipherment\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "true } }",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "{ \"Critical\" :",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"Name\" :",
+      "name": "false",
+      "required": ""
+    },
+    {
+      "description": ", \"OID\" :",
+      "name": "\"cRLDistributionPoints\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Value\" :",
+      "name": "\"2.5.29.31\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"FullName\" :",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"Type\" :",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": ", \"Value\" :",
+      "name": "\"uniformResourceIdentifier\"",
+      "required": ""
+    },
+    {
+      "description": "} ] }",
+      "name": "\"http://crl.godaddy.com/gdig2s1-2000.crl\"",
+      "required": ""
+    },
+    {
+      "description": "} , {",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": ": false ,",
+      "name": "\"Critical\"",
+      "required": ""
+    },
+    {
+      "description": ": \"certificatePolicies\" ,",
+      "name": "\"Name\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2.5.29.32\" ,",
+      "name": "\"OID\"",
+      "required": ""
+    },
+    {
+      "description": ": [ {",
+      "name": "\"Value\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2.16.840.1.114413.1.7.23.1\" ,",
+      "name": "\"PolicyIdentifier\"",
+      "required": ""
+    },
+    {
+      "description": ": [ \"http://certificates.godaddy.com/repository/\"",
+      "name": "\"PolicyQualifiers\"",
+      "required": ""
+    },
+    {
+      "description": "} , {",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": ": \"2.23.140.1.2.1\" }",
+      "name": "\"PolicyIdentifier\"",
+      "required": ""
+    },
+    {
+      "description": "} , {",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": ": false ,",
+      "name": "\"Critical\"",
+      "required": ""
+    },
+    {
+      "description": ": \"authorityInfoAccess\" ,",
+      "name": "\"Name\"",
+      "required": ""
+    },
+    {
+      "description": ": \"1.3.6.1.5.5.7.1.1\" ,",
+      "name": "\"OID\"",
+      "required": ""
+    },
+    {
+      "description": ": [ {",
+      "name": "\"Value\"",
+      "required": ""
+    },
+    {
+      "description": ": { \"Type\"",
+      "name": "\"AccessLocation\"",
+      "required": ""
+    },
+    {
+      "description": "\"uniformResourceIdentifier\" , \"Value\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"http://ocsp.godaddy.com/\" } ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ": \"OCSP\" }",
+      "name": "\"AccessMethod\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"AccessLocation\" :",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"Type\" : \"uniformResourceIdentifier\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Value\" : \"http://certificates.godaddy.com/repository/gdig2.crt\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"AccessMethod\" :",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "} ] }",
+      "name": "\"caIssuers\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"Critical\" :",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"Name\" :",
+      "name": "false",
+      "required": ""
+    },
+    {
+      "description": ", \"OID\" :",
+      "name": "\"authorityKeyIdentifier\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Value\" :",
+      "name": "\"2.5.29.35\"",
+      "required": ""
+    },
+    {
+      "description": "\"KeyIdentifier\" : \"40c2bd278ecc348330a233d7fb6cb3f0b42c80ce\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "} , {",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": ": false ,",
+      "name": "\"Critical\"",
+      "required": ""
+    },
+    {
+      "description": ": \"subjectAltName\" ,",
+      "name": "\"Name\"",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CertificateReputation",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/certificate-reputation"
+}

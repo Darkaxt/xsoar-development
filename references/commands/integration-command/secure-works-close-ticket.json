@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!secure-works-close-ticket closeCode=\"Work Completed\" id=IN29932241\nContext Example\n{\n\"SecureWorks\": {\n\"Ticket\": {\n\"ClosureStatusCode\": \"SUCCESS\",\n\"ticketId\": \"IN29932241\"",
+    "!secure-works-close-ticket closeCode=\"Work Completed\" id=IN29932241\nContext Example\n{\n\"SecureWorks\": {\n\"Ticket\": {\n\"ClosureStatusCode\": \"SUCCESS\",\n\"ticketId\": \"IN29932241\""
+  ],
+  "kind": "integration-command",
+  "name": "secure-works-close-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID in Secureworks SecureWorks.Ticket.ClosureStatusCode Ticket closure status code",
+      "name": "SecureWorks.Ticket.ticketId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Dell Secureworks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dell-secureworks"
+}

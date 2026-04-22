@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "June 29, 2021 at 04:08:37 PM",
+  "examples": [
+    "Command Example\n#\n!vmwuem-device-os-updates-list uuid=12345678-1234-1234-1234-123456789ABC\nContext Example\n#\n{\n\"VMwareWorkspaceONEUEM\"\n:",
+    "!vmwuem-device-os-updates-list uuid=12345678-1234-1234-1234-123456789ABC\nContext Example\n#\n{\n\"VMwareWorkspaceONEUEM\"\n:\n{\n\"OSUpdate\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The UUID of the device. VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.ProductKey The unique product key of the update.",
+      "name": "VMwareWorkspaceONEUEM.OSUpdate.Uuid",
+      "required": ""
+    },
+    {
+      "description": "The common name of the update. VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.ProductName The product name of the update.",
+      "name": "VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.HumanReadableName",
+      "required": ""
+    },
+    {
+      "description": "The version of the update. VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.Build The build number of the update.",
+      "name": "VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.Version",
+      "required": ""
+    },
+    {
+      "description": "Preview or beta version of the update. VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.DownloadSize Storage size needed to download the software update. Floating point number of bytes.",
+      "name": "VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.IsPreview",
+      "required": ""
+    },
+    {
+      "description": "Storage size needed to install the software update. Floating point number of bytes. VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.IsCritical Set to true if the update is considered critical. Defaults to false.",
+      "name": "VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.InstallSize",
+      "required": ""
+    },
+    {
+      "description": "Set to true if it is an update to a configuration file. Defaults to false (macOS only). VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.IsFirmwareUpdate Set to true if it is an update to the firmware. Defaults to false (macOS only).",
+      "name": "VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.IsConfigurationDataUpdate",
+      "required": ""
+    },
+    {
+      "description": "Set to true if the device restarts after the update is installed. Defaults to false. VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.AllowsInstallLater Set to true if the update is eligible for later Install. Defaults to true.",
+      "name": "VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.RestartRequired",
+      "required": ""
+    },
+    {
+      "description": "Each entry represents an app identifier that is closed to install the update (macOS only). VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.DeviceUpdateName The name of the device update.",
+      "name": "VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.AppIdentifiersToClose",
+      "required": ""
+    },
+    {
+      "description": "Indicates the release date of the corresponding device update. VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.ExpiationDate Date",
+      "name": "VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.ReleaseDate",
+      "required": ""
+    },
+    {
+      "description": "VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.DownloadPercentComplete Indicates the percentage of downloads that is complete. Floating point number (0.0 to 1.0). VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.Status",
+      "name": "Indicates the expiration date of the corresponding device update.",
+      "required": ""
+    },
+    {
+      "description": "Indicates the status of the update. VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.SampleTime Date",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.StatusTime Date Indicates the status time of the device update.",
+      "name": "Indicates the sampling time of the device update.",
+      "required": ""
+    },
+    {
+      "description": "Indicates the version for iOS device update. VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.DeviceUpdateUuid Indicates update UUID for the corresponding iOS device update.",
+      "name": "VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.DeviceUpdateVersion",
+      "required": ""
+    },
+    {
+      "description": "The unique identifier of the OS update. VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.Uuid The universally unique identifier of the OS update.",
+      "name": "VMwareWorkspaceONEUEM.OSUpdate.OSUpdateList.Id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Workspace ONE UEM (AirWatch MDM)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/v-mware-workspace-one-uem-air-watch-mdm"
+}

@@ -1,0 +1,77 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Query groups: servicenow-query-groups",
+  "examples": [
+    "Command Example\n!servicenow-get-ticket number=INC0010052\nContext Example\n{\n\"ServiceNow\": {\n\"Ticket\": {\n\"Active\": \"true\",\n\"CreatedOn\": \"2018-09-04 08:21:33\",",
+    "!servicenow-get-ticket number=INC0010052\nContext Example\n{\n\"ServiceNow\": {\n\"Ticket\": {\n\"Active\": \"true\",\n\"CreatedOn\": \"2018-09-04 08:21:33\",\n\"ID\": \"0c23f8d24f102300d316b63ca310c742\","
+  ],
+  "kind": "integration-command",
+  "name": "servicenow-get-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ServiceNow ticket ID ServiceNow.Ticket.OpenedBy ServiceNow ticket opener ID",
+      "name": "ServiceNow.Ticket.ID",
+      "required": ""
+    },
+    {
+      "description": "date ServiceNow ticket creation date ServiceNow.Ticket.Assignee",
+      "name": "ServiceNow.Ticket.CreatedOn",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow ticket assignee ID ServiceNow.Ticket.State ServiceNow ticket state",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow ticket short summary ServiceNow.Ticket.Number ServiceNow ticket number",
+      "name": "ServiceNow.Ticket.Summary",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow ticket active ServiceNow.Ticket.AdditionalComments ServiceNow ticket comments",
+      "name": "ServiceNow.Ticket.Active",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow ticket priority ServiceNow.Ticket.OpenedAt date",
+      "name": "ServiceNow.Ticket.Priority",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow.Ticket.ResolvedBy ServiceNow ticket resolver ID ServiceNow.Ticket.CloseCode",
+      "name": "ServiceNow ticket opening time",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow ticket close code File.Info Attachment file info",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Attachment file name File.Size Attachment file size",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "Attachment file SHA-1 File.SHA256 Attachment file SHA-256",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "Attachment file entry ID File.Type Attachment file type",
+      "name": "File.EntryID",
+      "required": ""
+    },
+    {
+      "description": "Attachment file MD5",
+      "name": "File.MD5",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now"
+}

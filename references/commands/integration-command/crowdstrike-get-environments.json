@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Analysis mode of environment.",
+  "examples": [
+    "Command Example\ncrowdstrike-get-environments\nContext Example\n{\n\"VX.Environment\": [\n{\n\"VMs_total\": 78,\n\"description\": \"Windows 7 32 bit\","
+  ],
+  "kind": "integration-command",
+  "name": "crowdstrike-get-environments",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The environment ID. CrowdStrike.Environment.description The environment description.",
+      "name": "CrowdStrike.Environment.ID",
+      "required": ""
+    },
+    {
+      "description": "The environment architecture. CrowdStrike.Environment.VMs_total The total virtual machines in the environment.",
+      "name": "CrowdStrike.Environment.architecture",
+      "required": ""
+    },
+    {
+      "description": "The busy virtual machines in the environment. CrowdStrike.Environment.analysisMode The analysis mode of the environment.",
+      "name": "CrowdStrike.Environment.VMs_busy",
+      "required": ""
+    },
+    {
+      "description": "The icon of the environment.",
+      "name": "CrowdStrike.Environment.groupicon",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vx-stream"
+}

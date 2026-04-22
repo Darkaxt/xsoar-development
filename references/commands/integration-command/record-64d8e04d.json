@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "MSGDefenderThreatIntel.WhoisHistory.domainStatus",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique identifier of the host object in Microsoft Defender Threat Intelligence. MSGDefenderThreatIntel.HostReputation.classification The reputation classification of the host (e.g., Malicious, Suspicious, Unknown).",
+      "name": "MSGDefenderThreatIntel.HostReputation.id",
+      "required": ""
+    },
+    {
+      "description": "TA numerical score representing the confidence or severity of the host's reputation. Edit this page Report an Issue",
+      "name": "MSGDefenderThreatIntel.HostReputation.score",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Microsoft Defender for Endpoint Alerts (Deprecated) Next Microsoft Endpoint Configuration Manager \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands msg-defender-threat-intel-auth-start msg-defender-threat-intel-auth-complete",
+      "name": "Configure MicrosoftDefenderThreatIntelligence in Cortex",
+      "required": ""
+    },
+    {
+      "description": "msg-defender-threat-intel-auth-reset msg-defender-threat-intel-article-list msg-defender-threat-intel-article-indicators-list",
+      "name": "msg-defender-threat-intel-auth-test",
+      "required": ""
+    },
+    {
+      "description": "msg-defender-threat-intel-profile-indicators-list msg-defender-threat-intel-host msg-defender-threat-intel-host-whois",
+      "name": "msg-defender-threat-intel-profile-list",
+      "required": ""
+    },
+    {
+      "description": "msg-defender-threat-intel-host Docs Developer Docs",
+      "name": "msg-defender-threat-intel-host-whois-history",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Defender Threat Intelligence",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-defender-threat-intelligence"
+}

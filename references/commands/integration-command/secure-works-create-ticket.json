@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Retrieve tickets from the previous 24 hours: secure-works-get-tickets-updates",
+  "examples": [
+    "Command Example\n!secure-works-create-ticket clientRef=https://prov.core.ctp.secureworks.net/prov/clients/1234567 clientLocationRef=https://prov.core.ctp.secureworks.net/prov/client-locations/654321 requestType=\"API support\" title=\"test create\" detail=\"testing\" pocContactRef=https://prov.core.ctp.secureworks.net/prov/contacts/9876543\nContext Example\n\"SecureWorks\": {\n\"Ticket\": {\n\"code\": \"SUCCESS\",",
+    "!secure-works-create-ticket clientRef=https://prov.core.ctp.secureworks.net/prov/clients/1234567 clientLocationRef=https://prov.core.ctp.secureworks.net/prov/client-locations/654321 requestType=\"API support\" title=\"test create\" detail=\"testing\" pocContactRef=https://prov.core.ctp.secureworks.net/prov/contacts/9876543\nContext Example\n\"SecureWorks\": {\n\"Ticket\": {\n\"code\": \"SUCCESS\","
+  ],
+  "kind": "integration-command",
+  "name": "secure-works-create-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID in Secureworks SecureWorks.Ticket.CreationStatusCode Ticket creation status code",
+      "name": "SecureWorks.Ticket.ticketId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Dell Secureworks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dell-secureworks"
+}

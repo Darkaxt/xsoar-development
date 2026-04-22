@@ -1,0 +1,24 @@
+{
+  "aliases": [
+    "/bin/sh -c addgroup -g 1000 node && adduser -u 1000 -G node -s /bin/sh -D node && apk add --no-cache libstdc++ && apk add --no-cache --virtual .build-deps curl && ARCH= && alpineArch=\"$(apk --print-arch)\" && case \"${alpineArch"
+  ],
+  "arguments": [],
+  "description": "{'CreatedAt': '2021-01-10T11:14:49+04:00', 'Driver': 'local', 'Labels': None, 'Mountpoint': '/var/lib/docker/volumes/temp-volume/_data', 'Name': 'temp-volume', 'Options': None, 'Scope': 'local'},",
+  "examples": [
+    "Command Example\n#\n!docker-volume-prune\nContext Example\n#\n{\n\"Docker\"\n:",
+    "!docker-volume-prune\nContext Example\n#\n{\n\"Docker\"\n:\n{\n\"VolumePruneResponse\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Disk space reclaimed in bytes",
+      "name": "Docker.VolumePruneResponse.SpaceReclaimed",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Docker Engine API",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/docker-engine-api"
+}

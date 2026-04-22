@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Detect Intel for Unix Revision 4 Delta",
+  "examples": [
+    "Command Example\n!tn-get-question-metadata question-id=50477\nContext Example\n{\n\"Tanium.Question\": {\n\"Expiration\": \"2019-11-27T14:16:24Z\",\n\"ExpireSeconds\": 0,\n\"ForceComputerIdFlag\": false,",
+    "!tn-get-question-metadata question-id=50477\nContext Example\n{\n\"Tanium.Question\": {\n\"Expiration\": \"2019-11-27T14:16:24Z\",\n\"ExpireSeconds\": 0,\n\"ForceComputerIdFlag\": false,\n\"ID\": 50477,"
+  ],
+  "kind": "integration-command",
+  "name": "tn-get-question-metadata",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the question object. Tanium.Question.Expiration Date",
+      "name": "Tanium.Question.ID",
+      "required": ""
+    },
+    {
+      "description": "Tanium.Question.ExpireSeconds The number of seconds before the question expires. Default is 600. Tanium.Question.ForceComputerIdFlag",
+      "name": "The date the question expires.",
+      "required": ""
+    },
+    {
+      "description": "Whether to force the question to be a counting question if only one selection is present. Default is not to force. If the question object is an instance of a saved question, this field is derived from the saved question Tanium.Question.IsExpired",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "Whether the question has expired. Tanium.Question.QueryText The textual representation of the question.",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "The ID of the saved question derived from this question. Tanium.Question.UserId The ID of the user who created / issued this question.",
+      "name": "Tanium.Question.SavedQuestionId",
+      "required": ""
+    },
+    {
+      "description": "The name of the user who created / issued this question.",
+      "name": "Tanium.Question.UserName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

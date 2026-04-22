@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!iboss-remove-entity-from-policy-layer-list entity=iboss.com policy_layer_name=\"Test Policy Layer - Allow List\"\nContext Example\n#\n{\n\"iboss\"\n:\n{\n\"RemoveEntityFromPolicyLayerList\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Operation result.",
+      "name": "iboss.RemoveEntityFromPolicyLayerList.message",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "iboss",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/iboss"
+}

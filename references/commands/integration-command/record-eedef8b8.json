@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!lr-networks-list count=2\nContext Example\n#\n{\n\"LogRhythm\"\n:",
+    "!lr-networks-list count=2\nContext Example\n#\n{\n\"LogRhythm\"\n:\n{\n\"Network\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The network entity ID. LogRhythm.Network.entity.name The network entity name.",
+      "name": "LogRhythm.Network.entity.id",
+      "required": ""
+    },
+    {
+      "description": "The network name. LogRhythm.Network.shortDesc The network short description.",
+      "name": "LogRhythm.Network.name",
+      "required": ""
+    },
+    {
+      "description": "The network long description. LogRhythm.Network.riskLevel The network risk level.",
+      "name": "LogRhythm.Network.longDesc",
+      "required": ""
+    },
+    {
+      "description": "The network threat level. LogRhythm.Network.threatLevelComment The threat level comments",
+      "name": "LogRhythm.Network.threatLevel",
+      "required": ""
+    },
+    {
+      "description": "The network record status name. LogRhythm.Network.hostZone The network zone.",
+      "name": "LogRhythm.Network.recordStatusName",
+      "required": ""
+    },
+    {
+      "description": "The network location ID. LogRhythm.Network.location.name The network location name.",
+      "name": "LogRhythm.Network.location.id",
+      "required": ""
+    },
+    {
+      "description": "Starting IP address. LogRhythm.Network.eip Ending IP address.",
+      "name": "LogRhythm.Network.bip",
+      "required": ""
+    },
+    {
+      "description": "Date The date the network was last updated. LogRhythm.Network.id",
+      "name": "LogRhythm.Network.dateUpdated",
+      "required": ""
+    },
+    {
+      "description": "The network ID.",
+      "name": "Number",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "LogRhythmRest v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/log-rhythm-rest-v2"
+}

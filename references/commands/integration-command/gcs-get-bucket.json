@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2. Retrieve bucket information",
+  "examples": [
+    "Command Example\ngcs-get-bucket bucket_name=my-bucket\nHuman Readable Output\nBucket my-bucket\nName\nTime Created\nTime Updated"
+  ],
+  "kind": "integration-command",
+  "name": "gcs-get-bucket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Bucket name (also ID). GCS.Bucket.TimeCreated Date",
+      "name": "GCS.Bucket.Name",
+      "required": ""
+    },
+    {
+      "description": "GCS.Bucket.TimeUpdated Date Last time bucket was modified.",
+      "name": "Bucket creation time.",
+      "required": ""
+    },
+    {
+      "description": "Bucket owner ID.",
+      "name": "GCS.Bucket.OwnerID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Storage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-storage"
+}

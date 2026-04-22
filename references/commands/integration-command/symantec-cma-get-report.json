@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There are no context output for this command.",
+  "examples": [
+    "Command Example\nsymantec-cma-upload-file file_id ={entry_id}\nHuman Readable Output\n3. symantec-cma-get-report\nRetrieves an analysis report.\nBase Command\nsymantec-cma-get-report\nInput",
+    "Command Example\nsymantec-cma-get-report task_id={task_id}\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab Symantec Advanced Threat Protection (Deprecated)\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "symantec-cma-get-report",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Blue Coat Content and Malware Analysis (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-blue-coat-content-and-malware-analysis"
+}

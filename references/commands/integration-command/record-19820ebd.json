@@ -1,0 +1,46 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!fortiwebvm-server-pool-rule-list group_name=test\nContext Example - API Version 1\n#\n{\n\"FortiwebVM\"\n:\n{\n\"ServerPoolGroup\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Server pool rule rule ID. FortiwebVM.ServerPoolGroup.Rule.server_type Server pool rule type.",
+      "name": "FortiwebVM.ServerPoolGroup.Rule.id",
+      "required": ""
+    },
+    {
+      "description": "Server pool rule IP. FortiwebVM.ServerPoolGroup.Rule.domain Server pool rule domain.",
+      "name": "FortiwebVM.ServerPoolGroup.Rule.ip",
+      "required": ""
+    },
+    {
+      "description": "Server pool rule port. FortiwebVM.ServerPoolGroup.Rule.weight Server pool rule weight.",
+      "name": "FortiwebVM.ServerPoolGroup.Rule.port",
+      "required": ""
+    },
+    {
+      "description": "Server pool rule status. FortiwebVM.ServerPoolGroup.Rule.backup_server Server pool rule backup server.",
+      "name": "FortiwebVM.ServerPoolGroup.Rule.status",
+      "required": ""
+    },
+    {
+      "description": "The maximum number of concurrent connections to the backend server. 0 for no connection limit FortiwebVM.ServerPoolGroup.Rule.http2 Whether to allow HTTP/2 communication between the FortiWeb and this back-end web server for HTTP/2 security inspections.",
+      "name": "FortiwebVM.ServerPoolGroup.Rule.connection_limit",
+      "required": ""
+    },
+    {
+      "description": "Server pool rule SSL settings.",
+      "name": "FortiwebVM.ServerPoolGroup.Rule.ssl_settings",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Fortiweb VM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fortiweb-vm"
+}

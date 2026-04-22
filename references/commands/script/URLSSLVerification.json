@@ -1,0 +1,56 @@
+{
+  "aliases": [
+    "urlssl-verification"
+  ],
+  "arguments": [],
+  "description": "URLSSLVerification | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "URLSSLVerification",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The URL object. URL.Data The URL address.",
+      "name": "URL",
+      "required": ""
+    },
+    {
+      "description": "URL.Malicious The malicious description. DBotScore",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Indicator The indicator. DBotScore.Type",
+      "name": "The DBotScore object.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Vendor The reputation vendor. DBotScore.Score",
+      "name": "The indicator's type.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The reputation score.",
+      "required": ""
+    },
+    {
+      "description": "Next UserEnrichAD \u00bb Script Data",
+      "name": "\u00ab UrlscanGetHttpTransactions",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "URLSSLVerification",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/urlssl-verification"
+}

@@ -1,0 +1,89 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "AzureFirewall.Subscription.tenantId",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the resource group. AzureFirewall.ResourceGroup.location The location of the resource group.",
+      "name": "AzureFirewall.ResourceGroup.id",
+      "required": ""
+    },
+    {
+      "description": "The ID of the resource that manages this resource group. AzureFirewall.ResourceGroup.name The name of the resource group.",
+      "name": "AzureFirewall.ResourceGroup.managedBy",
+      "required": ""
+    },
+    {
+      "description": "The provisioning state. AzureFirewall.ResourceGroup.tags The tags attached to the resource group.",
+      "name": "AzureFirewall.ResourceGroup.properties.provisioningState",
+      "required": ""
+    },
+    {
+      "description": "The type of the resource group. Edit this page Report an Issue",
+      "name": "AzureFirewall.ResourceGroup.type",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Azure Feed Next Azure Key Vault \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands azure-firewall-auth-test azure-firewall-auth-start",
+      "name": "Configure Azure Firewall in Cortex",
+      "required": ""
+    },
+    {
+      "description": "azure-firewall-auth-reset azure-firewall-list azure-firewall-get",
+      "name": "azure-firewall-auth-complete",
+      "required": ""
+    },
+    {
+      "description": "azure-firewall-rule-list azure-firewall-rule-get azure-firewall-policy-create",
+      "name": "azure-firewall-rule-collection-list",
+      "required": ""
+    },
+    {
+      "description": "azure-firewall-policy-get azure-firewall-policy-delete azure-firewall-policy-list",
+      "name": "azure-firewall-policy-update",
+      "required": ""
+    },
+    {
+      "description": "azure-firewall-policy-detach azure-firewall-network-rule-collection-create azure-firewall-network-rule-collection-delete",
+      "name": "azure-firewall-policy-attach",
+      "required": ""
+    },
+    {
+      "description": "azure-firewall-network-rule-update azure-firewall-network-rule-delete azure-firewall-network-rule-collection-update",
+      "name": "azure-firewall-network-rule-create",
+      "required": ""
+    },
+    {
+      "description": "azure-firewall-ip-group-create azure-firewall-ip-group-update azure-firewall-ip-group-list",
+      "name": "azure-firewall-service-tag-list",
+      "required": ""
+    },
+    {
+      "description": "azure-firewall-ip-group-delete azure-firewall-subscriptions-list azure-firewall-resource-group-list",
+      "name": "azure-firewall-ip-group-get",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Firewall",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-firewall"
+}

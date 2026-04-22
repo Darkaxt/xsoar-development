@@ -1,0 +1,104 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "SpurContextAPI.Context.client_types",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The actual score. DBotScore.Indicator The indicator that was tested.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "Reliability of the source providing the intelligence data. IP.Address IP address.",
+      "name": "DBotScore.Reliability",
+      "required": ""
+    },
+    {
+      "description": "The autonomous system name for the IP address, for example: \"AS8948\". IP.ASOwner The autonomous system owner of the IP.",
+      "name": "IP.ASN",
+      "required": ""
+    },
+    {
+      "description": "The organization name. IP.Geo.Country The country in which the IP address is located.",
+      "name": "IP.ClientTypes",
+      "required": ""
+    },
+    {
+      "description": "The organization name. IP.Risks Risks that we have determined based on our collection of data.",
+      "name": "IP.Organization.Name",
+      "required": ""
+    },
+    {
+      "description": "The different types of proxy or VPN services that are running on this IP address. SpurContextAPI.Context.ip IP that was enriched.",
+      "name": "IP.Tunnels",
+      "required": ""
+    },
+    {
+      "description": "Autonomous System details for an IP Address. SpurContextAPI.Context.organization The organization using this IP address.",
+      "name": "SpurContextAPI.Context.as",
+      "required": ""
+    },
+    {
+      "description": "The primary infracstructure type that this IP address supports. Common tags are MOBILE and DATACENTER. SpurContextAPI.Context.location Data-center or IP Hosting location based on MaxMind GeoLite.",
+      "name": "SpurContextAPI.Context.infrastructure",
+      "required": ""
+    },
+    {
+      "description": "The different types of proxy or VPN services that are running on this IP address. SpurContextAPI.Context.tunnels Different VPN or proxy tunnels that are currently in-use on this IP address.",
+      "name": "SpurContextAPI.Context.services",
+      "required": ""
+    },
+    {
+      "description": "Risks that we have determined based on our collection of data. SpurContextAPI.Context.client_concentration The strongest location concentration for clients using this IP address.",
+      "name": "SpurContextAPI.Context.risks",
+      "required": ""
+    },
+    {
+      "description": "The number of countries that we have observed clients located in for this IP address. SpurContextAPI.Context.client_spread The total geographic area in kilometers where we have observed users.",
+      "name": "SpurContextAPI.Context.client_countries",
+      "required": ""
+    },
+    {
+      "description": "The different types of callback proxies we have observed on clients using this IP address. SpurContextAPI.Context.client_count The average number of clients we observe on this IP address.",
+      "name": "SpurContextAPI.Context.client_proxies",
+      "required": ""
+    },
+    {
+      "description": "An array of behavior tags for an IP Address. SpurContextAPI.Context.client_types The different type of client devices that we have observed on this IP address.",
+      "name": "SpurContextAPI.Context.client_behaviors",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab SplunkPyPreRelease (Beta)",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "SpyCloud \u00bb Configure SpurContextAPI in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "ip Docs Developer Docs",
+      "name": "spur-context-api-enrich",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SpurContextAPI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/spur-context-api"
+}

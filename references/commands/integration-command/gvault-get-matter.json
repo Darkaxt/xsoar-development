@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!gvault-list-matters\nContext Example\nHuman Readable Output\n11. Search for matters\nSearch for a matter by name or by ID.\nBase Command\ngvault-get-matter",
+    "!gvault-list-matters\nContext Example\nHuman Readable Output\n11. Search for matters\nSearch for a matter by name or by ID.\nBase Command\ngvault-get-matter\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-get-matter",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Matter name GoogleVault.Matter.ID Matter ID",
+      "name": "GoogleVault.Matter.Name",
+      "required": ""
+    },
+    {
+      "description": "Matter's state",
+      "name": "GoogleVault.Matter.State",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

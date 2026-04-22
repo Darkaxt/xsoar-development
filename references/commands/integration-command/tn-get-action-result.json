@@ -1,0 +1,97 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "27. tn-get-action-result",
+  "examples": [
+    "Command Example\n!tn-get-action-result id=1\nAdditional Information\nKnown Limitations\nTroubleshooting\nEdit this page\nReport an Issue\nPrevious",
+    "!tn-get-action-result id=1\nAdditional Information\nKnown Limitations\nTroubleshooting\nEdit this page\nReport an Issue\nPrevious\n\u00ab Tanium Threat Response v2"
+  ],
+  "kind": "integration-command",
+  "name": "tn-get-action-result",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date The action result time. Tanium.ActionResult.max_available_age",
+      "name": "Tanium.ActionResult.now",
+      "required": ""
+    },
+    {
+      "description": "The maximum action result age. Tanium.ActionResult.result_sets.age The age of the action result.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The result sets ID. Tanium.ActionResult.result_sets.report_count The result sets report count.",
+      "name": "Tanium.ActionResult.result_sets.id",
+      "required": ""
+    },
+    {
+      "description": "The result sets saved question ID. Tanium.ActionResult.result_sets.question_id The result sets question ID.",
+      "name": "Tanium.ActionResult.result_sets.saved_question_id",
+      "required": ""
+    },
+    {
+      "description": "The result sets archived question ID. Tanium.ActionResult.result_sets.seconds_since_issued The result sets seconds since issued.",
+      "name": "Tanium.ActionResult.result_sets.archived_question_id",
+      "required": ""
+    },
+    {
+      "description": "The result sets issued seconds. Tanium.ActionResult.result_sets.expire_seconds The result sets expire seconds.",
+      "name": "Tanium.ActionResult.result_sets.issue_seconds",
+      "required": ""
+    },
+    {
+      "description": "The result sets tested. Tanium.ActionResult.result_sets.passed The result sets passed.",
+      "name": "Tanium.ActionResult.result_sets.tested",
+      "required": ""
+    },
+    {
+      "description": "The result sets mr tested. Tanium.ActionResult.result_sets.mr_passed The result sets mr passed.",
+      "name": "Tanium.ActionResult.result_sets.mr_tested",
+      "required": ""
+    },
+    {
+      "description": "The result sets estimated total. Tanium.ActionResult.result_sets.select_count The result sets select count.",
+      "name": "Tanium.ActionResult.result_sets.estimated_total",
+      "required": ""
+    },
+    {
+      "description": "The result sets error count. Tanium.ActionResult.result_sets.no_results_count The result sets no results count.",
+      "name": "Tanium.ActionResult.result_sets.error_count",
+      "required": ""
+    },
+    {
+      "description": "The result sets columns hash. Tanium.ActionResult.result_sets.columns.name The result sets columns name.",
+      "name": "Tanium.ActionResult.result_sets.columns.hash",
+      "required": ""
+    },
+    {
+      "description": "The result sets columns type. Tanium.ActionResult.result_sets.filtered_row_count The result sets filtered row count.",
+      "name": "Tanium.ActionResult.result_sets.columns.type",
+      "required": ""
+    },
+    {
+      "description": "The result sets filtered row count machines. Tanium.ActionResult.result_sets.row_count The result sets row count.",
+      "name": "Tanium.ActionResult.result_sets.filtered_row_count_machines",
+      "required": ""
+    },
+    {
+      "description": "The result sets row count machines. Tanium.ActionResult.result_sets.item_count The result sets item count.",
+      "name": "Tanium.ActionResult.result_sets.row_count_machines",
+      "required": ""
+    },
+    {
+      "description": "The action results row ID. Tanium.ActionResult.result_sets.rows.cid The action results computer ID.",
+      "name": "Tanium.ActionResult.result_sets.rows.id",
+      "required": ""
+    },
+    {
+      "description": "The action results status. Tanium.ActionResult.ID The action results ID.",
+      "name": "Tanium.ActionResult.result_sets.rows.data.text",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

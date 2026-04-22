@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!beyondtrust-get-credentials request_id=294\\",
+  "examples": [
+    "Command Example\n!beyondtrust-get-credentials request_id=294\\\nHuman Readable Output\nThe credentials for BeyondTrust request: shelly\n6. Update credentials for a managed account\nGenerates a list of active BeyondTrust requests.\nBase Command\nbeyondtrust-list-release-requests",
+    "!beyondtrust-get-credentials request_id=294\\\nHuman Readable Output\nThe credentials for BeyondTrust request: shelly\n6. Update credentials for a managed account\nGenerates a list of active BeyondTrust requests.\nBase Command\nbeyondtrust-list-release-requests\nEdit this page"
+  ],
+  "kind": "integration-command",
+  "name": "beyondtrust-list-release-requests",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BeyondTrust Password Safe",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/beyond-trust-password-safe"
+}

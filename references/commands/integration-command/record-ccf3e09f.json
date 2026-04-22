@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "duoadmin-modify-user",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Modify the user account.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "duoadmin-modify-user",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Duo Event Collector \u00bb Configure DUO Admin in Cortex",
+      "name": "\u00ab Duo",
+      "required": ""
+    },
+    {
+      "description": "duoadmin-get-authentication-logs-by-user duoadmin-dissociate-device-from-user duoadmin-delete-u2f-token",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "duoadmin-get-devices-by-user duoadmin-get-u2f-tokens-by-user duoadmin-get-devices",
+      "name": "duoadmin-get-users",
+      "required": ""
+    },
+    {
+      "description": "duoadmin-get-admins duoadmin-get-bypass-codes duoadmin-modify-admin",
+      "name": "duoadmin-associate-device-to-user",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "duoadmin-modify-user",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DUO Admin",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/duo-admin"
+}

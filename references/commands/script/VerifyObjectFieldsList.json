@@ -1,0 +1,48 @@
+{
+  "aliases": [
+    "verify-object-fields-list"
+  ],
+  "arguments": [],
+  "description": "VerifyObjectFieldsList | Cortex XSOAR",
+  "examples": [
+    "!VerifyObjectFieldsList fields_to_search=name,type object=${Indicators}\nContext Example\n#\n{\n\"CheckIfFieldsExists\"\n:\n{\n\"FieldsExists\""
+  ],
+  "kind": "script",
+  "name": "VerifyObjectFieldsList",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "If true, all the given fields exist in the object. Script Example",
+      "name": "FieldsExists",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!VerifyObjectFieldsList fields_to_search=name,type object=${Indicators}",
+      "required": ""
+    },
+    {
+      "description": "\"CheckIfFieldsExists\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": true }",
+      "name": "\"FieldsExists\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VerifyObjectFieldsList",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/verify-object-fields-list"
+}

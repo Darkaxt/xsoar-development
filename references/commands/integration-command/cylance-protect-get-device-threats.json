@@ -1,0 +1,63 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "\"PolicyID\":\"7bcb0817-e9c9-444d-96e2-be9b59f429cb\",",
+  "examples": [
+    "Command Example\n!cylance-protect-get-device-threats id=6033f7a1-e66c-4aef-9c7d-ed454457d071 pageNumber=2 pageSize=75\nRaw Output\n{\n\"classification\":\"Malware\",\n\"cylance_score\":-1,\n\"date_found\":\"2017-11-21T17:34:51\",\n\"file_path\":\"C:\\\\$Recycle.Bin\\\\S-1-5-21-3378384064-522475393-1698893855-1001\\\\$RPJNCM8\\\\artifacts\\\\2017-08-12-Trickbot-binary-from-usdata.estoreseller.com.exe\",",
+    "!cylance-protect-get-device-threats id=6033f7a1-e66c-4aef-9c7d-ed454457d071 pageNumber=2 pageSize=75\nRaw Output\n{\n\"classification\":\"Malware\",\n\"cylance_score\":-1,\n\"date_found\":\"2017-11-21T17:34:51\",\n\"file_path\":\"C:\\\\$Recycle.Bin\\\\S-1-5-21-3378384064-522475393-1698893855-1001\\\\$RPJNCM8\\\\artifacts\\\\2017-08-12-Trickbot-binary-from-usdata.estoreseller.com.exe\",\n\"file_status\":\"Default\","
+  ],
+  "kind": "integration-command",
+  "name": "cylance-protect-get-device-threats",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Cylance threat classification assigned to the threat File.CylanceScore Cylance score assigned to the threat",
+      "name": "File.Classification",
+      "required": ""
+    },
+    {
+      "description": "Date and time (in UTC) when the threat was found on the device File.FilePath File path where the threat was found on the device",
+      "name": "File.DateFound",
+      "required": ""
+    },
+    {
+      "description": "Current status of the file on the device. 0 = Default 1 = Quarantined",
+      "name": "File.FileStatus",
+      "required": ""
+    },
+    {
+      "description": "3 = Suspicious 4 = FileRemoved 5 = Corrupt",
+      "name": "2 = Whitelisted",
+      "required": ""
+    },
+    {
+      "description": "Threat name File.Sha256 SHA-256 has for the threat",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "Cylance threat sub-classification assigned to the threat DBotScore.Indicator Tested indicator",
+      "name": "File.SubClassification",
+      "required": ""
+    },
+    {
+      "description": "Indicator type DBotScore.Vendor Vendor used to calculate the score",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "Actual score",
+      "name": "DbotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

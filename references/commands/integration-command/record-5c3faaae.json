@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"domain\": \"example.com\",",
+  "examples": [
+    "Command Example\n#\n!bhe-path-exist from_principal=\"12345678-1234-1234-1234-123456789abc\" to_principal=\"87654321-4321-4321-4321-cba987654321\"\nHuman Readable Output\n#\nFrom Principal\nTo Principal\nStatus",
+    "!bhe-path-exist from_principal=\"12345678-1234-1234-1234-123456789abc\" to_principal=\"87654321-4321-4321-4321-cba987654321\"\nHuman Readable Output\n#\nFrom Principal\nTo Principal\nStatus\nMessage\nPath Exists"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The start node (from principal) used in the path check. SpecterOpsBHE.Path.ToPrincipal The end node (to principal) used in the path check.",
+      "name": "SpecterOpsBHE.Path.FromPrincipal",
+      "required": ""
+    },
+    {
+      "description": "The status of the path check (success or error). SpecterOpsBHE.Path.Message The message describing the result of the path check.",
+      "name": "SpecterOpsBHE.Path.Status",
+      "required": ""
+    },
+    {
+      "description": "Whether a path exists between the nodes (True or False).",
+      "name": "SpecterOpsBHE.Path.Data",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SpecterOpsBHE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/specter-ops-bhe"
+}

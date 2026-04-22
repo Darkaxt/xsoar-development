@@ -1,0 +1,114 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "get-modified-remote-data",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Gets the list of incidents that were modified since the last update time. Note that this method is here for debugging purposes. The get-modified-remote-data command is used as part of a Mirroring feature, which is available from version 6.1.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "get-modified-remote-data",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Mirroring In (Doppel \u2192 XSOAR)",
+      "required": ""
+    },
+    {
+      "description": "Any changes in Doppel alerts (mirroring incoming fields) will be reflected in Cortex XSOAR incidents. Supported Fields The following fields are mirrored:",
+      "name": "When incidents are mirrored into Cortex XSOAR from Doppel:",
+      "required": ""
+    },
+    {
+      "description": "Doppel Entity State \u2013 Represents the status of the alert. Audit Log History \u2013 A record of all changes made to the alert. Mirroring Out (XSOAR \u2192 Doppel)",
+      "name": "Doppel Queue State \u2013 Indicates the queue where the alert is currently assigned.",
+      "required": ""
+    },
+    {
+      "description": "Supported Fields The following fields are mirrored: Doppel Queue State \u2013 Indicates the queue where the alert is currently assigned.",
+      "name": "When incidents are mirrored out from Cortex XSOAR to Doppel. Currently, the Mirror-out feature updates the Doppel Alert queue to an archived state upon XSOAR incident closure. We intend to extend this capability in future releases to provide more comprehensive mirroring.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Configuration Steps",
+      "required": ""
+    },
+    {
+      "description": "Enable Fetching incidents in your instance configuration.",
+      "name": "To enable incident mirroring between Cortex XSOAR incidents and Doppel alerts:",
+      "required": ""
+    },
+    {
+      "description": "Mirroring Direction integration parameter, select in which direction the incidents should be mirrored: Option",
+      "name": "In the",
+      "required": ""
+    },
+    {
+      "description": "Turns off incident mirroring. Incoming Any changes in Doppel alerts (mirroring incoming fields) will be reflected in Cortex XSOAR incidents.",
+      "name": "None",
+      "required": ""
+    },
+    {
+      "description": "Mirroring out will only update queue state in Doppel alerts (outgoing mirrored fields). Incoming And Outgoing Changes in Cortex XSOAR incidents and Doppel alerts will be reflected in both directions.",
+      "name": "Outgoing",
+      "required": ""
+    },
+    {
+      "description": "Important Note: To ensure the mirroring works as expected, mappers are required, both for incoming and outgoing, to map the expected fields in Cortex XSOAR and Doppel. Edit this page",
+      "name": "Newly fetched incidents will be mirrored in the chosen direction. However, this selection does not affect existing incidents.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab DomainTools Iris Detect Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure Doppel on Cortex XSOAR Commands doppel-get-alert",
+      "name": "Dragos Worldview \u00bb",
+      "required": ""
+    },
+    {
+      "description": "doppel-update-alert doppel-create-abuse-alert doppel-get-alerts",
+      "name": "doppel-create-alert",
+      "required": ""
+    },
+    {
+      "description": "update-remote-system get-remote-data get-modified-remote-data",
+      "name": "get-mapping-fields",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Incident Mirroring",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Doppel",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/doppel"
+}

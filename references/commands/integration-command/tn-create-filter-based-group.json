@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "23. tn-create-filter-based-group",
+  "examples": [
+    "Command Example\n!tn-create-filter-based-group group-name=linux_machines text-filter=`operating system contains linux`\nContext Example\n{\n\"Tanium.Group\": {\n\"ID\": 31826,\n\"Type\": \"Manual group\"\n}",
+    "!tn-create-filter-based-group group-name=linux_machines text-filter=`operating system contains linux`\nContext Example\n{\n\"Tanium.Group\": {\n\"ID\": 31826,\n\"Type\": \"Manual group\"\n}\n}"
+  ],
+  "kind": "integration-command",
+  "name": "tn-create-filter-based-group",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the group object.",
+      "name": "Tanium.Group.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

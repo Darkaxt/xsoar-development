@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!threat-grid-get-analysis-artifact id=a6cc7ae4e3318e98d94e8a053dd72c47 aid=1",
+  "examples": [
+    "Command Example\n!threat-grid-get-analysis-artifact id=a6cc7ae4e3318e98d94e8a053dd72c47 aid=1\nHuman Readable Output\n33. Get artifacts for a sample ID\nReturns the sample id artifacts\nBase Command\nthreat-grid-get-analysis-artifacts\nInput",
+    "!threat-grid-get-analysis-artifact id=a6cc7ae4e3318e98d94e8a053dd72c47 aid=1\nHuman Readable Output\n33. Get artifacts for a sample ID\nReturns the sample id artifacts\nBase Command\nthreat-grid-get-analysis-artifacts\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-analysis-artifacts",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The raw JSON of the CVE entich information.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "CVE ID. Sixgill.CVE.Description Description of the given DVE remediation.",
+      "name": "Sixgill.CVE.value",
+      "required": ""
+    },
+    {
+      "description": "Possible remediation solutions for the CVE ID. Sixgill.CVE.rawJSON The raw JSON of the CVE entich information.",
+      "name": "Sixgill.CVE.Solutions",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Cybersixgill Actionable Alerts",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Cybersixgill DVE Feed Threat Intelligence (Deprecated) \u00bb Configure Sixgill_Darkfeed_Enrichment in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "cybersixgill-cve-remediation Docs Developer Docs",
+      "name": "cybersixgill-cve-enrich",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cybersixgill DVE Enrichment",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cybersixgill-dve-enrichment"
+}

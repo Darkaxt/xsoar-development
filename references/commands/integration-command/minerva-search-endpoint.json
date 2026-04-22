@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "C:\\Windows\\explorer.exe",
+  "examples": [
+    "Command Example\n!minerva-search-endpoint param=\"operatingSystem\" condition=\"equalTo\" value=\"Windows\"\nHuman Readable Output\nIs Armor Version Supported\nFirst Seen Online\nUpdated\nEndpoint\nGroup",
+    "!minerva-search-endpoint param=\"operatingSystem\" condition=\"equalTo\" value=\"Windows\"\nHuman Readable Output\nIs Armor Version Supported\nFirst Seen Online\nUpdated\nEndpoint\nGroup\nOperating System"
+  ],
+  "kind": "integration-command",
+  "name": "minerva-search-endpoint",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The group to which the endpoint belongs. Minerva.Endpoint.Name The endpoint name.",
+      "name": "Minerva.Endpoint.Group",
+      "required": ""
+    },
+    {
+      "description": "The list of logged-on users. Minerva.Endpoint.IP The reported IP address.",
+      "name": "Minerva.Endpoint.Users",
+      "required": ""
+    },
+    {
+      "description": "The endpoint operating system.",
+      "name": "Minerva.Endpoint.OS",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Minerva Labs Anti-Evasion Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/minerva-labs-anti-evasion-platform"
+}

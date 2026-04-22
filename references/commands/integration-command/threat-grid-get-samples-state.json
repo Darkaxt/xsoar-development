@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!threat-grid-search-urls ip=1.1.1.3\n25. Get the states of samples\nReturns Threat Grid samples state.\nBase Command\nthreat-grid-get-samples-state\nInput\nArgument Name",
+    "!threat-grid-search-urls ip=1.1.1.3\n25. Get the states of samples\nReturns Threat Grid samples state.\nBase Command\nthreat-grid-get-samples-state\nInput\nArgument Name\nDescription",
+    "Command Example\n!threat-grid-get-samples-state ids=9798717402a40970a2d043014d9a6170\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"State\": \"succ\",\n\"ID\": \"9798717402a40970a2d043014d9a6170\"",
+    "!threat-grid-get-samples-state ids=9798717402a40970a2d043014d9a6170\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"State\": \"succ\",\n\"ID\": \"9798717402a40970a2d043014d9a6170\""
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-samples-state",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "The sample ID, globally unique, and the canonical identifier of this sample analysis ThreatGrid.Sample.State The state of the sample, one of a stable set of strings \u201cwait\", \"prep\", \"run\", \"proc\", \"succ\", \"fail\u201d",
+      "name": "ThreatGrid.Sample.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

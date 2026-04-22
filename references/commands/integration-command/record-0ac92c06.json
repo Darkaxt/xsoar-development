@@ -1,0 +1,56 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "09ed1f1f-63fe-41d9-8e4a-f4909f94f2b9",
+  "examples": [
+    "!camlytics-get-events channelid=\"09ed1f1f-63fe-41d9-8e4a-f4909f94f2b9\" limit=\"10\"\nContext Example\n#\n{\n\"Camlytics\"\n:\n{\n\"Events\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The event ID. Camlytics.Events.type The event type.",
+      "name": "Camlytics.Events.event_id",
+      "required": ""
+    },
+    {
+      "description": "The event time. Camlytics.Events.timestamp The event timestamp.",
+      "name": "Camlytics.Events.time",
+      "required": ""
+    },
+    {
+      "description": "The event channel id. Camlytics.Events.channel_name The event channel name.",
+      "name": "Camlytics.Events.channel_id",
+      "required": ""
+    },
+    {
+      "description": "The event object id. Camlytics.Events.origin The event origin.",
+      "name": "Camlytics.Events.object_id",
+      "required": ""
+    },
+    {
+      "description": "The event rule id. Camlytics.Events.rule_name The event rule name.",
+      "name": "Camlytics.Events.rule_id",
+      "required": ""
+    },
+    {
+      "description": "The event snapshot path. Camlytics.Events.recording_path The event recording path.",
+      "name": "Camlytics.Events.snapshot_path",
+      "required": ""
+    },
+    {
+      "description": "The event video file name. Camlytics.Events.video_file_time Date",
+      "name": "Camlytics.Events.video_file_name",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The event video file time.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Camlytics",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/camlytics"
+}

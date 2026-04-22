@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "get-indicator-d-bot-score"
+  ],
+  "arguments": [],
+  "description": "GetIndicatorDBotScore | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetIndicatorDBotScore",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Vendor The DBot score vendor. DBotScore.Score",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The DBot score.",
+      "required": ""
+    },
+    {
+      "description": "Next GetIndicatorDBotScoreFromCache \u00bb Script Data",
+      "name": "\u00ab GetIndicatorCustomFieldsByQuery",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetIndicatorDBotScore",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-indicator-d-bot-score"
+}

@@ -1,0 +1,28 @@
+{
+  "aliases": [
+    "where-field-equals"
+  ],
+  "arguments": [
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "description": "WhereFieldEquals | Cortex XSOAR",
+  "examples": [
+    "!WhereFieldEquals\nwith the following arguments:\nvalue=[{ name: '192.1,0.82', type: 'IP' }, { name: 'myFile.txt, type: 'File' }, { name: '172.0.0.2', type: 'IP' }]\nfield='type'\nequalTo='IP'\ngetField='name'\nThis will return all item names where field\ntype"
+  ],
+  "kind": "script",
+  "name": "WhereFieldEquals",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "WhereFieldEquals",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/where-field-equals"
+}

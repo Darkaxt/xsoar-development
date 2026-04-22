@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"text\": \"Internal Port Scanner on 5.5.255.25\",",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "sw-block-domain-or-ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Domain name Stealthwatch.Domain.title Domain title",
+      "name": "Stealthwatch.Domain.identifier",
+      "required": ""
+    },
+    {
+      "description": "Domain ID Stealthwatch.IP.identifier IP address",
+      "name": "Stealthwatch.Domain.id",
+      "required": ""
+    },
+    {
+      "description": "IP title Stealthwatch.IP.id",
+      "name": "Stealthwatch.IP.title",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Secure Cloud Analytics (Stealthwatch Cloud)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/stealthwatch-cloud"
+}

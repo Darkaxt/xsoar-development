@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!securonix-lookup-table-entry-add name=\"TEST_TABLE\" json_data=\"[{\\\"id\\\": \\\"1\\\",\\\"ip\\\": \\\"127.0.0.1\\\",\\\"reputation\\\": \\\"bad\\\",\\\"expiryDate\\\":\\\"02/13/2023\\\"},{\\\"id\\\": \\\"2\\\",\\\"ip\\\": \\\"127.0.0.2\\\",\\\"reputation\\\": \\\"good\\\"}]\"\nHuman Readable Output\n#\nEntries added to TEST_TABLE successfully\nEdit this page\nReport an Issue\nPrevious\n\u00ab SecurityTrails"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Securonix",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/securonix"
+}

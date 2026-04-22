@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!superna-zt-lockout-user username=\"jsmith\"",
+  "examples": [
+    "Command Example\n#\n!superna-zt-lockout-user username=\"jsmith\"\nsuperna-zt-unlock-user\n#\nUnlock a user from NAS storage access.\nBase Command\n#",
+    "!superna-zt-lockout-user username=\"jsmith\"\nsuperna-zt-unlock-user\n#\nUnlock a user from NAS storage access.\nBase Command\n#\nsuperna-zt-unlock-user\nInput",
+    "Command Example\n#\n!superna-zt-unlock-user username=\"jsmith\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab SumoLogic\nNext",
+    "!superna-zt-unlock-user username=\"jsmith\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab SumoLogic\nNext\nSymantec Advanced Threat Protection (Deprecated) \u00bb\nSuperna Zero Trust"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The username that was unlocked SupernaZeroTrust.Unlock.Result Raw API response from the unlock operation",
+      "name": "SupernaZeroTrust.Unlock.Username",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Superna Zero Trust",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/superna-zero-trust"
+}

@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!ja3-search JA3=dda20ec0e6a8d4279860\nContext Example\n#\n{\n\"JA3\"\n:",
+    "!ja3-search JA3=dda20ec0e6a8d4279860\nContext Example\n#\n{\n\"JA3\"\n:\n{\n\"dda20ec0e6a8d4279860\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Number of times seen JA3.Last_seen Date",
+      "name": "JA3.Count",
+      "required": ""
+    },
+    {
+      "description": "JA3.User-Agent User-Agent",
+      "name": "Last seen date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ja3er",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ja3er"
+}

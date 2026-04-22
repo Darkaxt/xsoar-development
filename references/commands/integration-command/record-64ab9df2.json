@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "graylog-search-absolute",
+  "examples": [
+    "Command Example\n#\n!graylog-search-absolute query=\"\\<query here\\>\" from=<timefrom> to=<timeto>\nContext Example\n#\n{\n\"Graylog\"\n:",
+    "!graylog-search-absolute query=\"\\<query here\\>\" from=<timefrom> to=<timeto>\nContext Example\n#\n{\n\"Graylog\"\n:\n{\n\"SearchAbsolute\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Search results of Absolute search",
+      "name": "Graylog.SearchAbsolute",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Graylog",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/graylog"
+}

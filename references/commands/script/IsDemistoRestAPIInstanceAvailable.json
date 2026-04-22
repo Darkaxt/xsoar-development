@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "is-demisto-rest-api-instance-available"
+  ],
+  "arguments": [],
+  "description": "IsDemistoRestAPIInstanceAvailable | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "IsDemistoRestAPIInstanceAvailable",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The instance is available. no The instance is not available.",
+      "name": "yes",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next IsDomainInternal \u00bb Script Data",
+      "name": "\u00ab isArrayItemInList",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IsDemistoRestAPIInstanceAvailable",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/is-demisto-rest-api-instance-available"
+}

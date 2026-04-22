@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Returns search criteria by report GUID.",
+  "examples": [
+    "Command Example\n!archer-get-search-options-by-guid reportGuid=246b1d4b294e46c4a4713853456234f7\nRaw Output\n{\n\"SearchReport\": {\n\"Criteria\": {\n\"Filter\": {\n\"Conditions\": {",
+    "!archer-get-search-options-by-guid reportGuid=246b1d4b294e46c4a4713853456234f7\nRaw Output\n{\n\"SearchReport\": {\n\"Criteria\": {\n\"Filter\": {\n\"Conditions\": {\n\"ValueListFilterCondition\": ["
+  ],
+  "kind": "integration-command",
+  "name": "archer-get-search-options-by-guid",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

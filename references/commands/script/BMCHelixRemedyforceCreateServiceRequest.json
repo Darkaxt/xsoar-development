@@ -1,0 +1,53 @@
+{
+  "aliases": [
+    "bmc-helix-remedyforce-create-service-request"
+  ],
+  "arguments": [],
+  "description": "BMCHelixRemedyforceCreateServiceRequest | Cortex XSOAR",
+  "examples": [
+    "!BMCHelixRemedyforceCreateServiceRequest service_request_definition_id=\"a3H2w000000TfAPEA0\" using=\"BMCHelixRemedyforce_instance_jhanvi_acc\"\nContext Example\n#\n{\n\"BmcRemedyforce\": {\n\"ServiceRequest\": {\n\"CreatedDate\": \"2020-08-01T08:08:16Z\",\n\"Id\": \"a2U2w000000cRmvEAE\","
+  ],
+  "kind": "script",
+  "name": "BMCHelixRemedyforceCreateServiceRequest",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Service request number. BmcRemedyforce.ServiceRequest.Id Service request Id.",
+      "name": "BmcRemedyforce.ServiceRequest.Number",
+      "required": ""
+    },
+    {
+      "description": "BmcRemedyforce.ServiceRequest.CreatedDate Creation date & time of service request. Script Example",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!BMCHelixRemedyforceCreateServiceRequest service_request_definition_id=\"a3H2w000000TfAPEA0\" using=\"BMCHelixRemedyforce_instance_jhanvi_acc\"",
+      "required": ""
+    },
+    {
+      "description": "\"BmcRemedyforce\": { \"ServiceRequest\": { \"CreatedDate\": \"2020-08-01T08:08:16Z\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Number\": \"00000154\" } }",
+      "name": "\"Id\": \"a2U2w000000cRmvEAE\",",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BMCHelixRemedyforceCreateServiceRequest",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/bmc-helix-remedyforce-create-service-request"
+}

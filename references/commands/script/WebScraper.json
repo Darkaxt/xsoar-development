@@ -1,0 +1,83 @@
+{
+  "aliases": [
+    "web-scraper"
+  ],
+  "arguments": [],
+  "description": "WebScraper | Cortex XSOAR",
+  "examples": [
+    "!WebScraper page_url=https://example.com navigator_tree=body\nContext Example\n#\n{\n\"WebScraper\"\n:\n{\n\"Tree\""
+  ],
+  "kind": "script",
+  "name": "WebScraper",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Scraped Pages Script Example",
+      "name": "WebScraper.Tree",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!WebScraper page_url=https://example.com navigator_tree=body",
+      "required": ""
+    },
+    {
+      "description": "\"WebScraper\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": [ {",
+      "name": "\"Tree\"",
+      "required": ""
+    },
+    {
+      "description": ": \"Example Domain\" }",
+      "name": "\"h1\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"p\" :",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"This domain is for use in illustrative examples in documents. You may use this\\n domain in literature without prior coordination or asking for permission.\" , {",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": ": { \"#text\"",
+      "name": "\"a\"",
+      "required": ""
+    },
+    {
+      "description": "\"More information...\" , \"@href\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"https://www.iana.org/domains/example\" } }",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "} ] }",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "WebScraper",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/web-scraper"
+}

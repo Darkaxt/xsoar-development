@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "xdsQvfDzD-W38_alIwJnMg",
+  "examples": [
+    "!ksm-list-records\nContext Example\n#\n{\n\"KeeperSecretsManager\"\n:\n{\n\"Records\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Record UID. KeeperSecretsManager.Records.type Record Type.",
+      "name": "KeeperSecretsManager.Records.uid",
+      "required": ""
+    },
+    {
+      "description": "Record Title.",
+      "name": "KeeperSecretsManager.Records.title",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Keeper Secrets Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/keeper-secrets-manager"
+}

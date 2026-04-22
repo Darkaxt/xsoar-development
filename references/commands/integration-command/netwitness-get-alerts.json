@@ -1,0 +1,91 @@
+{
+  "aliases": [
+    "192.168.11."
+  ],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!netwitness-delete-incident incidentId=INC-12\n5. Get all alerts for an incident\nGet all the alerts related to a specific incident.\nBase Command\nnetwitness-get-alerts\nInput\nArgument Name",
+    "!netwitness-delete-incident incidentId=INC-12\n5. Get all alerts for an incident\nGet all the alerts related to a specific incident.\nBase Command\nnetwitness-get-alerts\nInput\nArgument Name\nDescription",
+    "Command Example\n!netwitness-get-alerts incidentId=\"INC-12\"\nContext Example\n{\n\"\nNetWitness\n\"\n: {",
+    "!netwitness-get-alerts incidentId=\"INC-12\"\nContext Example\n{\n\"\nNetWitness\n\"\n: {\n\""
+  ],
+  "kind": "integration-command",
+  "name": "netwitness-get-alerts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "The unique alert identifier NetWitness.Alerts.incidentId The incident ID associated with the alert",
+      "name": "NetWitness.Alerts.id",
+      "required": ""
+    },
+    {
+      "description": "The title or name of the rule that created the alert NetWitness.Alerts.detail The details of the alert. This can be the module name or meta that the module included.",
+      "name": "NetWitness.Alerts.title",
+      "required": ""
+    },
+    {
+      "description": "The timestamp of the alert created date NetWitness.Alerts.source The source of this alert. For example, \"Event Stream Analysis\", \"Malware Analysis\", and so on.",
+      "name": "NetWitness.Alerts.created",
+      "required": ""
+    },
+    {
+      "description": "The risk score of this alert, usually in the range 0 - 100. NetWitness.Alerts.type Type of alert (Network, Log, and so on)",
+      "name": "NetWitness.Alerts.riskScore",
+      "required": ""
+    },
+    {
+      "description": "The source IP address NetWitness.Alerts.events.source.device.port The source port",
+      "name": "NetWitness.Alerts.events.source.device.ipAddress",
+      "required": ""
+    },
+    {
+      "description": "The source Ethernet MAC address NetWitness.Alerts.events.source.device.dnsHostname The source DNS resolved hostname",
+      "name": "NetWitness.Alerts.events.source.device.macAddress",
+      "required": ""
+    },
+    {
+      "description": "The top-level domain from the DNS resolved hostname (source) NetWitness.Alerts.events.source.user.username The unique username (source)",
+      "name": "NetWitness.Alerts.events.source.device.dnsDomain",
+      "required": ""
+    },
+    {
+      "description": "An email address (source) NetWitness.Alerts.events.source.user.adUsername An Active Directory (AD) username (source)",
+      "name": "NetWitness.Alerts.events.source.user.emailAddress",
+      "required": ""
+    },
+    {
+      "description": "An Active Directory (AD) domain (source) NetWitness.Alerts.events.destination.device.ipAddress The destination IP address",
+      "name": "NetWitness.Alerts.events.source.user.adDomain",
+      "required": ""
+    },
+    {
+      "description": "The destination port NetWitness.Alerts.events.destination.device.macAddress The destination Ethernet MAC address",
+      "name": "NetWitness.Alerts.events.destination.device.port",
+      "required": ""
+    },
+    {
+      "description": "The destination DNS resolved hostname NetWitness.Alerts.events.destination.device.dnsDomain The top-level domain from the DNS resolved hostname (destination)",
+      "name": "NetWitness.Alerts.events.destination.device.dnsHostname",
+      "required": ""
+    },
+    {
+      "description": "The unique username (destination) NetWitness.Alerts.events.destination.user.emailAddress An email address (destination)",
+      "name": "NetWitness.Alerts.events.destination.user.username",
+      "required": ""
+    },
+    {
+      "description": "An Active Directory (AD) username (destination) NetWitness.Alerts.events.destination.user.adDomain An Active Directory (AD) domain (destination)",
+      "name": "NetWitness.Alerts.events.destination.user.adUsername",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness v11.1 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-v111"
+}

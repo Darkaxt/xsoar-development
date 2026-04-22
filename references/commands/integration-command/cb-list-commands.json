@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\nContext Example\nHuman Readable Output\n9. List existing command instances in a specified session\nReturns a list of the existing command instances and their details for the specified session.\nBase Command\ncb-list-commands\nInput",
+    "Command Example\n!cb-list-commands session=\"3951\"\nContext Example\n{\n\"Commands\": [\n{\n\"CbCommandID\": 1,\n\"CbSensorID\": 13,",
+    "!cb-list-commands session=\"3951\"\nContext Example\n{\n\"Commands\": [\n{\n\"CbCommandID\": 1,\n\"CbSensorID\": 13,\n\"CbSessionID\": 3951,"
+  ],
+  "kind": "integration-command",
+  "name": "cb-list-commands",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

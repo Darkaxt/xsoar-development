@@ -1,0 +1,134 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "ThreatCommand.URL.url",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Domain found. Domain.Name The name of the domain that was checked.",
+      "name": "Domain.domain",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Reliability Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. Domain.DNSRecords DNS records of the domain.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The domain value. ThreatCommand.Domain.sub_domains Date",
+      "name": "ThreatCommand.Domain.domain",
+      "required": ""
+    },
+    {
+      "description": "ThreatCommand.Domain.tags Tags of the domain. ThreatCommand.Domain.updated_date",
+      "name": "Sub domains of the domain.",
+      "required": ""
+    },
+    {
+      "description": "Domain updated date. Edit this page Report an Issue",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Radware Cloud DDoS Protection Services Next Rapid7 InsightIDR \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands threat-command-cyber-term-list threat-command-cyber-term-cve-list",
+      "name": "Configure Rapid7 - Threat Command (IntSights) in Cortex",
+      "required": ""
+    },
+    {
+      "description": "threat-command-source-list threat-command-source-document-create threat-command-source-document-delete",
+      "name": "threat-command-cyber-term-ioc-list",
+      "required": ""
+    },
+    {
+      "description": "threat-command-ioc-search threat-command-ioc-tags-add threat-command-account-whitelist-update",
+      "name": "threat-command-source-document-ioc-create",
+      "required": ""
+    },
+    {
+      "description": "threat-command-ioc-blocklist-add threat-command-ioc-blocklist-remove threat-command-ioc-severity-update",
+      "name": "threat-command-account-whitelist-remove",
+      "required": ""
+    },
+    {
+      "description": "threat-command-enrichment-quota-usage threat-command-alert-list threat-command-alert-takedown-request",
+      "name": "threat-command-ioc-comment-add",
+      "required": ""
+    },
+    {
+      "description": "threat-command-alert-create threat-command-alert-close threat-command-alert-severity-update",
+      "name": "threat-command-alert-takedown-request-status-get",
+      "required": ""
+    },
+    {
+      "description": "threat-command-alert-blocklist-update threat-command-alert-ioc-report threat-command-alert-assign",
+      "name": "threat-command-alert-blocklist-get",
+      "required": ""
+    },
+    {
+      "description": "threat-command-alert-reopen threat-command-alert-tag-add threat-command-alert-tag-remove",
+      "name": "threat-command-alert-unassign",
+      "required": ""
+    },
+    {
+      "description": "threat-command-alert-analyst-ask threat-command-alert-analyst-conversation-list threat-command-alert-activity-log-get",
+      "name": "threat-command-alert-send-mail",
+      "required": ""
+    },
+    {
+      "description": "threat-command-alert-note-add threat-command-alert-image-list threat-command-cve-list",
+      "name": "threat-command-alert-csv-get",
+      "required": ""
+    },
+    {
+      "description": "threat-command-cve-delete threat-command-asset-add threat-command-asset-list",
+      "name": "threat-command-cve-add",
+      "required": ""
+    },
+    {
+      "description": "threat-command-asset-delete threat-command-account-system-modules-list threat-command-mention-search",
+      "name": "threat-command-asset-type-list",
+      "required": ""
+    },
+    {
+      "description": "threat-command-mssp-user-list threat-command-account-user-list threat-command-alert-type-list",
+      "name": "threat-command-mssp-customer-list",
+      "required": ""
+    },
+    {
+      "description": "threat-command-alert-scenario-list file ip",
+      "name": "threat-command-alert-source-type-list",
+      "required": ""
+    },
+    {
+      "description": "domain Docs Developer Docs",
+      "name": "url",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Rapid7 - Threat Command (IntSights)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rapid7-threat-command"
+}

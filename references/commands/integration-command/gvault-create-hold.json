@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!gvault-create-export-groups matterID=\"0b8d30ec-ee41-4955-96b3-20d9408409c8\" exportName=\"groups_test_export1\" dataScope=\"All Data\" groups=\"group@dgmail.com,test@gmail.com\" exportPST=\"true\"",
+  "examples": [
+    "Command Example\n!gvault-create-export-groups matterID=\"0b8d30ec-ee41-4955-96b3-20d9408409c8\" exportName=\"groups_test_export1\" dataScope=\"All Data\" groups=\"group@dgmail.com,test@gmail.com\" exportPST=\"true\"\nContext Example\nHuman Readable Output\n6. Create a hold for a matter\nCreates a hold in the given matter. Holds are used to preserve data in the organization.\nBase Command\ngvault-create-hold",
+    "!gvault-create-export-groups matterID=\"0b8d30ec-ee41-4955-96b3-20d9408409c8\" exportName=\"groups_test_export1\" dataScope=\"All Data\" groups=\"group@dgmail.com,test@gmail.com\" exportPST=\"true\"\nContext Example\nHuman Readable Output\n6. Create a hold for a matter\nCreates a hold in the given matter. Holds are used to preserve data in the organization.\nBase Command\ngvault-create-hold\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-create-hold",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Hold name GoogleVault.Hold.ID Hold ID",
+      "name": "GoogleVaulty.Hold.Name",
+      "required": ""
+    },
+    {
+      "description": "Held account ID",
+      "name": "GoogleVault.Hold.Account.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

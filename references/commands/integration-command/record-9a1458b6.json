@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Remedy.Ticket.RequesterPERNR",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Email of requester. Remedy.Ticket.RequesterName Name of requester.",
+      "name": "Remedy.Ticket.RequesterEmail",
+      "required": ""
+    },
+    {
+      "description": "Phone of requester. Remedy.Ticket.RequesterNTID NTID of requester.",
+      "name": "Remedy.Ticket.RequesterPhone",
+      "required": ""
+    },
+    {
+      "description": "Work location of requester. Remedy.Ticket.RequesterWorkCity Work city of requester.",
+      "name": "Remedy.Ticket.RequesterWorkLocation",
+      "required": ""
+    },
+    {
+      "description": "Work street of requester. Remedy.Ticket.Details Ticket details.",
+      "name": "Remedy.Ticket.RequesterWorkStreet",
+      "required": ""
+    },
+    {
+      "description": "Ticket priority. Remedy.Ticket.ServiceRequestId Ticket Service request ID.",
+      "name": "Remedy.Ticket.Priority",
+      "required": ""
+    },
+    {
+      "description": "Requester PERNR. Remedy.Ticket.ContactEmail Contact Email.",
+      "name": "Remedy.Ticket.RequesterPERNR",
+      "required": ""
+    },
+    {
+      "description": "Contact Name. Remedy.Ticket.ContactPhone Contact Phone.",
+      "name": "Remedy.Ticket.ContactName",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Remedy On-Demand (Deprecated)",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Remote Access (Deprecated) \u00bb remedy-get-ticket remedy-create-ticket",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "remedy_sr_beta (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/remedy-sr-beta"
+}

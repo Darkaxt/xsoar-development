@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!exabeam-get-sequence-eventtypes asset_sequence_id=asset_sequence_id search_str=\"search_str\"",
+  "examples": [
+    "Command Example\n#\n!exabeam-get-sequence-eventtypes asset_sequence_id=asset_sequence_id search_str=\"search_str\"\nexabeam-list-incident\n#\nReturns incidents from Exabeam.\nBase Command\n#",
+    "!exabeam-get-sequence-eventtypes asset_sequence_id=asset_sequence_id search_str=\"search_str\"\nexabeam-list-incident\n#\nReturns incidents from Exabeam.\nBase Command\n#\nexabeam-list-incident\nInput",
+    "Command Example\n#\n!exabeam-list-incident priority=high\nTroubleshooting\n#\nIf you are experiencing error 400 with the message \"Internal Error: attempt to access uninitialized field\" when trying to fetch incidents or search for a specific incident, we recommend using the user email in the username configuration with the prefix [saml].\nFor example, for the email\nuser@example.com",
+    "!exabeam-list-incident priority=high\nTroubleshooting\n#\nIf you are experiencing error 400 with the message \"Internal Error: attempt to access uninitialized field\" when trying to fetch incidents or search for a specific incident, we recommend using the user email in the username configuration with the prefix [saml].\nFor example, for the email\nuser@example.com\n, use [saml]\nuser@example.com"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the incident. Exabeam.incidents.name The name of the incident.",
+      "name": "Exabeam.incidents.incidentId",
+      "required": ""
+    },
+    {
+      "description": "Date The starting date of the incident. Exabeam.incidents.fields.closedDate",
+      "name": "Exabeam.incidents.fields.startedDate",
+      "required": ""
+    },
+    {
+      "description": "The ending date of the incident. Exabeam.incidents.fields.createdAt Date",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Exabeam.incidents.fields.owner The incident owner. Exabeam.incidents.fields.status",
+      "name": "The creation date of the incident.",
+      "required": ""
+    },
+    {
+      "description": "The incident status. Exabeam.incidents.fields.incidentType The incident type.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The incident source. Exabeam.incidents.fields.priority The incident priority.",
+      "name": "Exabeam.incidents.fields.source",
+      "required": ""
+    },
+    {
+      "description": "The incident queue. Exabeam.incidents.fields.description The incident description.",
+      "name": "Exabeam.incidents.fields.queue",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Exabeam Advanced Analytics",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/exabeam"
+}

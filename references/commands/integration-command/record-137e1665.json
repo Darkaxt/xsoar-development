@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "343177d6-21f3-11ed-9d7b-0a1766ad1b93",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Giphy \u00bb Insight Overview",
+      "name": "\u00ab Genians",
+      "required": ""
+    },
+    {
+      "description": "Configure Gigamon ThreatINSIGHT in Cortex Commands insight-get-sensors",
+      "name": "Integration Overview",
+      "required": ""
+    },
+    {
+      "description": "insight-get-tasks insight-create-task insight-get-telemetry-events",
+      "name": "insight-get-devices",
+      "required": ""
+    },
+    {
+      "description": "insight-get-telemetry-network insight-get-entity-summary insight-get-entity-pdns",
+      "name": "insight-get-telemetry-packetstats",
+      "required": ""
+    },
+    {
+      "description": "insight-get-entity-file insight-get-detections insight-get-detection-rules",
+      "name": "insight-get-entity-dhcp",
+      "required": ""
+    },
+    {
+      "description": "insight-get-detection-rule-events insight-create-detection-rule Docs",
+      "name": "insight-resolve-detection",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Gigamon ThreatINSIGHT",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/gigamon-threat-insight"
+}

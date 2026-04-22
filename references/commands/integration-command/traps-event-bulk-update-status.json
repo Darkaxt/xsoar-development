@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!traps-event-update event_id=\"53edb3fa9a3b4b83bcf168390a2ec08d\" status=\"new\"",
+  "examples": [
+    "!traps-event-update event_id=\"53edb3fa9a3b4b83bcf168390a2ec08d\" status=\"new\"\nHuman Readable Output\nEvent: 53edb3fa9a3b4b83bcf168390a2ec08d was updated\nNew status: new\n5. Modify details for multiple events\nModifies the status of multiple events.\nBase Command\ntraps-event-bulk-update-status",
+    "Command Example\n!traps-event-bulk-update-status event_ids=\"df4e60a62515482f98c8ef37e74363df,cfe4d15aca924bfcb7d2fc629b696bdd\"\nstatus=\"new\"\nContext Example\n{}\nHuman Readable Output\nSuccessfully updated\n**No entries.**",
+    "!traps-event-bulk-update-status event_ids=\"df4e60a62515482f98c8ef37e74363df,cfe4d15aca924bfcb7d2fc629b696bdd\"\nstatus=\"new\"\nContext Example\n{}\nHuman Readable Output\nSuccessfully updated\n**No entries.**\nFailed to update"
+  ],
+  "kind": "integration-command",
+  "name": "traps-event-bulk-update-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Traps (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/traps"
+}

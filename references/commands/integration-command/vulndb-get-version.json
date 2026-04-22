@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!vulndb-get-product vendor_id=\"2974649\" max_size=\"20\"",
+  "examples": [
+    "Command Example\n!vulndb-get-product vendor_id=\"2974649\" max_size=\"20\"\nHuman Readable Output\n4. Get the version of a single product\nReturns the version of the specified product.\nBase Command\nvulndb-get-version\nInput",
+    "!vulndb-get-product vendor_id=\"2974649\" max_size=\"20\"\nHuman Readable Output\n4. Get the version of a single product\nReturns the version of the specified product.\nBase Command\nvulndb-get-version\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "vulndb-get-version",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Version ID. VulnDB.Results.Name",
+      "name": "VulnDB.Results.Id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VulnDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vuln-db"
+}

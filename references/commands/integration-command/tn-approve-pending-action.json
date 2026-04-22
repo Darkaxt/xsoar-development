@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!tn-approve-pending-action id=1050\nContext Example\nTanium:{\nActionApproval:[{\nApprovedFlag:1\nId:1050\nName:API Deploy Comply - Remove Selected Hashes - Unix",
+    "!tn-approve-pending-action id=1050\nContext Example\nTanium:{\nActionApproval:[{\nApprovedFlag:1\nId:1050\nName:API Deploy Comply - Remove Selected Hashes - Unix\n}]"
+  ],
+  "kind": "integration-command",
+  "name": "tn-approve-pending-action",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Approval status Tanium.ActionApproval.Id Saved action ID",
+      "name": "Tanium.ActionApproval.ApprovedFlag",
+      "required": ""
+    },
+    {
+      "description": "Saved action name",
+      "name": "Tanium.ActionApproval.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium"
+}

@@ -1,0 +1,43 @@
+{
+  "aliases": [
+    "hello-world-script"
+  ],
+  "arguments": [],
+  "description": "HelloWorldScript | Cortex XSOAR",
+  "examples": [
+    "!HelloWorldScript name=DBot\nContext Example\n#\n{\n\"HelloWorld\": {\n\"hello\": \"Hello DBot\"\n}\n}"
+  ],
+  "kind": "script",
+  "name": "HelloWorldScript",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Should be Hello **something** here. Script Example",
+      "name": "HelloWorld.hello",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!HelloWorldScript name=DBot",
+      "required": ""
+    },
+    {
+      "description": "\"HelloWorld\": { \"hello\": \"Hello DBot\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HelloWorldScript",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/hello-world-script"
+}

@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "check-last-enrichment"
+  ],
+  "arguments": [],
+  "description": "CheckLastEnrichment | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CheckLastEnrichment",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Refresh Enrichment Data no Don't Refresh Enrichment Data",
+      "name": "yes",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Next CheckPanosVersionAffected \u00bb Script Data",
+      "name": "\u00ab CheckIndicatorValue",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CheckLastEnrichment",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/check-last-enrichment"
+}

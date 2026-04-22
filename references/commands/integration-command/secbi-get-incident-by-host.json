@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "3. secbi-get-incident-by-host",
+  "examples": [
+    "Command Example\n!secbi-get-incident-by-host host=www.smooto.com\nHuman Readable Output\n### SecBI incident by host \"www.smooto.com\"\n|FirstAppearance|Host|ID|Identity|InternalIp|LastAppearance|SIp|\n|---|---|---|---|---|---|---|\n| 2017-07-31 06:46:14 | pix.crp.education,\nsolutions.sante-corps-esprit.com,",
+    "!secbi-get-incident-by-host host=www.smooto.com\nHuman Readable Output\n### SecBI incident by host \"www.smooto.com\"\n|FirstAppearance|Host|ID|Identity|InternalIp|LastAppearance|SIp|\n|---|---|---|---|---|---|---|\n| 2017-07-31 06:46:14 | pix.crp.education,\nsolutions.sante-corps-esprit.com,\ntracking.notizie.it,"
+  ],
+  "kind": "integration-command",
+  "name": "secbi-get-incident-by-host",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "SecBI incident ID SecBI.Incident.Host SecBI incident host names",
+      "name": "SecBI.Incident.ID",
+      "required": ""
+    },
+    {
+      "description": "SecBI incident identities SecBI.Incident.InternalIp SecBI incident client internal IP addresses",
+      "name": "SecBI.Incident.Identity",
+      "required": ""
+    },
+    {
+      "description": "SecBI incident client IP addresses SecBI.Incident.FirstAppearance Date",
+      "name": "SecBI.Incident.SIp",
+      "required": ""
+    },
+    {
+      "description": "SecBI.Incident.LastAppearance Date SecBI incident last appearance of data",
+      "name": "SecBI incident first appearance of data",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SecBI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sec-bi"
+}

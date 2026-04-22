@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get the status of a scan: irisk-get-scan-status",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "irisk-add-domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Result status of adding the new company. C2Sec.Domain.Name",
+      "name": "C2Sec.Domain.result",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "C2sec irisk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/c2sec-irisk"
+}

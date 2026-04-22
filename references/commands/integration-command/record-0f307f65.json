@@ -1,0 +1,46 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!bitbucket-workspace-member-list\nContext Example\n#\n{\n\"Bitbucket\"\n:\n{\n\"WorkspaceMember\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The action type. Bitbucket.WorkspaceMember.user.display_name The display name of the user.",
+      "name": "Bitbucket.WorkspaceMember.type",
+      "required": ""
+    },
+    {
+      "description": "Links with information about the user. Bitbucket.WorkspaceMember.user.type The type of the user.",
+      "name": "Bitbucket.WorkspaceMember.user.links",
+      "required": ""
+    },
+    {
+      "description": "The unique ID of the user. Bitbucket.WorkspaceMember.user.account_id The account ID of the user.",
+      "name": "Bitbucket.WorkspaceMember.user.uuid",
+      "required": ""
+    },
+    {
+      "description": "The nickname of the user. Bitbucket.WorkspaceMember.workspace.type The type of the workspace.",
+      "name": "Bitbucket.WorkspaceMember.user.nickname",
+      "required": ""
+    },
+    {
+      "description": "The unique ID of the workspace. Bitbucket.WorkspaceMember.workspace.name The name of the workspace.",
+      "name": "Bitbucket.WorkspaceMember.workspace.uuid",
+      "required": ""
+    },
+    {
+      "description": "The slug of the workspace. Bitbucket.WorkspaceMember.workspace.links Links to information about the workspace.",
+      "name": "Bitbucket.WorkspaceMember.workspace.slug",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Bitbucket",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bitbucket"
+}

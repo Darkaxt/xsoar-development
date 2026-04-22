@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!nmap-scan options=\"-sV\" targets=scanme.nmap.org\nContext Example\n#\n{\n\"NMAP\"\n:",
+    "!nmap-scan options=\"-sV\" targets=scanme.nmap.org\nContext Example\n#\n{\n\"NMAP\"\n:\n{\n\"Scan\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Scan summary. NMAP.Scan.Version nmap version.",
+      "name": "NMAP.Scan.Summary",
+      "required": ""
+    },
+    {
+      "description": "Start time epoch. NMAP.Scan.Ended End time epoch.",
+      "name": "NMAP.Scan.Started",
+      "required": ""
+    },
+    {
+      "description": "The command line being used. NMAP.Scan.ScanType The type of discovery scan.",
+      "name": "NMAP.Scan.CommandLine",
+      "required": ""
+    },
+    {
+      "description": "DNS hostname of scanned host. NMAP.Scan.Hosts.Address Scanned host address.",
+      "name": "NMAP.Scan.Hosts.Hostname",
+      "required": ""
+    },
+    {
+      "description": "Is the host up or down. NMAP.Scan.Hosts.Services.Port The port of the service.",
+      "name": "NMAP.Scan.Hosts.Status",
+      "required": ""
+    },
+    {
+      "description": "The protocol of the service. NMAP.Scan.Hosts.Services.State The state of the service.",
+      "name": "NMAP.Scan.Hosts.Services.Protocol",
+      "required": ""
+    },
+    {
+      "description": "Any captured banner from the service. NMAP.Scan.Hosts.Services.Service The service name.",
+      "name": "NMAP.Scan.Hosts.Services.Banner",
+      "required": ""
+    },
+    {
+      "description": "The name of the script used. NMAP.Scan.Hosts.ScriptResults.Output The raw results of the script execution.",
+      "name": "NMAP.Scan.Hosts.ScriptResults.ID",
+      "required": ""
+    },
+    {
+      "description": "Additional parseable fields from the script output.",
+      "name": "NMAP.Scan.Hosts.ScriptResults.Elements",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "nmap",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/nmap"
+}

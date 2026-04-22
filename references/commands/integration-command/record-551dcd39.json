@@ -1,0 +1,189 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The extension of the file.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "APIVoid.SiteTrust.domain_blacklist.engines.detected APIVoid.SiteTrust.domain_blacklist.engines.name APIVoid.SiteTrust.domain_blacklist.engines.reference",
+      "name": "APIVoid.SiteTrust.domain_blacklist.detections",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.geo_location.countries APIVoid.SiteTrust.domain_age.domain_age_in_days APIVoid.SiteTrust.domain_age.domain_age_in_months",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.domain_age.domain_age_in_years APIVoid.SiteTrust.domain_age.domain_creation_date APIVoid.SiteTrust.domain_age.found",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.server_details.isp APIVoid.SiteTrust.server_details.ip APIVoid.SiteTrust.server_details.latitude",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.server_details.longitude APIVoid.SiteTrust.server_details.hostname APIVoid.SiteTrust.server_details.country_name",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.server_details.region_name APIVoid.SiteTrust.server_details.country_code APIVoid.SiteTrust.server_details.continent_name",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.server_details.continent_code APIVoid.SiteTrust.server_details.city_name APIVoid.SiteTrust.response_headers.server",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.response_headers.content-encoding APIVoid.SiteTrust.response_headers.code APIVoid.SiteTrust.response_headers.content-type",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.response_headers.date date APIVoid.SiteTrust.response_headers.vary",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.response_headers.status APIVoid.SiteTrust.response_headers.x-amz-rid APIVoid.SiteTrust.response_headers.content-length",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.response_headers.connection APIVoid.SiteTrust.host APIVoid.SiteTrust.security_checks.is_website_popular",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.security_checks.is_suspended_site APIVoid.SiteTrust.security_checks.is_domain_recent APIVoid.SiteTrust.security_checks.is_heuristic_pattern",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.security_checks.is_sinkholed_domain APIVoid.SiteTrust.security_checks.is_risky_geo_location APIVoid.SiteTrust.security_checks.is_empty_page_title",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.security_checks.is_robots_noindex APIVoid.SiteTrust.security_checks.is_suspicious_domain APIVoid.SiteTrust.security_checks.is_most_abused_tld",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.security_checks.is_valid_https APIVoid.SiteTrust.security_checks.is_domain_blacklisted APIVoid.SiteTrust.security_checks.is_email_configured",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.security_checks.is_china_country APIVoid.SiteTrust.security_checks.is_directory_listing APIVoid.SiteTrust.security_checks.is_free_email",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.trust_score.result APIVoid.SiteTrust.dns_records APIVoid.SiteTrust.redirection.external",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.redirection.found APIVoid.SiteTrust.redirection.url APIVoid.SiteTrust.url_parts.host",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.url_parts.host_nowww APIVoid.SiteTrust.url_parts.path APIVoid.SiteTrust.url_parts.port",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.url_parts.query APIVoid.SiteTrust.url_parts.scheme APIVoid.SiteTrust.ecommerce_platform.is_magento",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.ecommerce_platform.is_opencart APIVoid.SiteTrust.ecommerce_platform.is_prestashop APIVoid.SiteTrust.ecommerce_platform.is_shopify",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.ecommerce_platform.is_woocommerce APIVoid.SiteTrust.ecommerce_platform.is_zencart APIVoid.SiteTrust.web_page.description",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.web_page.keywords APIVoid.SiteTrust.web_page.title APIVoid.SiteTrust.targeted_brands.patagonia",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.targeted_brands.rolex APIVoid.SiteTrust.targeted_brands.timberland APIVoid.SiteTrust.targeted_brands.hugoboss",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.targeted_brands.moncler APIVoid.SiteTrust.targeted_brands.longchamp APIVoid.SiteTrust.targeted_brands.abercrombie",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.targeted_brands.montblanc APIVoid.SiteTrust.targeted_brands.carhartt APIVoid.SiteTrust.targeted_brands.rayban",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.targeted_brands.drmartens APIVoid.SiteTrust.targeted_brands.hermes APIVoid.SiteTrust.targeted_brands.oakley",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.targeted_brands.michaelkors APIVoid.SiteTrust.targeted_brands.louisvuitton APIVoid.SiteTrust.targeted_brands.birkenstock",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.targeted_brands.adidas APIVoid.SiteTrust.targeted_brands.vans APIVoid.SiteTrust.targeted_brands.ralphlauren",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.targeted_brands.mulberry APIVoid.SiteTrust.targeted_brands.converse APIVoid.SiteTrust.targeted_brands.versace",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.targeted_brands.ugg APIVoid.SiteTrust.targeted_brands.nike APIVoid.SiteTrust.targeted_brands.swarovski",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.targeted_brands.peuterey APIVoid.SiteTrust.targeted_brands.cartier APIVoid.SiteTrust.targeted_brands.pandora",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.targeted_brands.burberry APIVoid.SiteTrust.targeted_brands.gucci APIVoid.SiteTrust.targeted_brands.salomon",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "APIVoid.SiteTrust.targeted_brands.liujo APIVoid.SiteTrust.targeted_brands.truereligion Edit this page",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Report an Issue",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "APIVoid",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/api-void"
+}

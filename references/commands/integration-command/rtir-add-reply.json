@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Added comment to ticket 113 successfully.",
+  "examples": [
+    "Command Example\n!rtir-add-reply text=replyText ticket-id=113\nRaw Output\nAdded reply to ticket 113 successfully.\nContext Example\nThere is no context example for this command.\nEdit this page\nReport an Issue",
+    "!rtir-add-reply text=replyText ticket-id=113\nRaw Output\nAdded reply to ticket 113 successfully.\nContext Example\nThere is no context example for this command.\nEdit this page\nReport an Issue\nPrevious"
+  ],
+  "kind": "integration-command",
+  "name": "rtir-add-reply",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RTIR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rtir"
+}

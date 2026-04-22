@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "//fedeploycheck.fireeye.com/appliance-test/alert.html",
+  "examples": [
+    "Command Example\n#\n!fireeye-dod-get-report-url report_id=82e71bec-04c7-4f04-945b-4d344a758abe\nContext Example\n#\n{\n}\nHuman Readable Output",
+    "!fireeye-dod-get-report-url report_id=82e71bec-04c7-4f04-945b-4d344a758abe\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nReport 82e71bec-04c7-4f04-945b-4d344a758abe is available"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FireEye Detection on Demand",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fire-eye-detection-on-demand"
+}

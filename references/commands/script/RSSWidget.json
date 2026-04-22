@@ -1,0 +1,33 @@
+{
+  "aliases": [
+    "rss-widget"
+  ],
+  "arguments": [],
+  "description": "RSSWidget | Cortex XSOAR",
+  "examples": [
+    "!RSSWidget url=https://threatpost.com/feed/\nHuman Readable Output\n#\nArticle Title #1\nPosted June 25, 2021 3:35 PM by Timor\nArticle #1 Summary\nArticle Title #2\nPosted June 18, 2021 3:35 PM by Shai"
+  ],
+  "kind": "script",
+  "name": "RSSWidget",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "!RSSWidget url=https://threatpost.com/feed/",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSSWidget",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/rss-widget"
+}

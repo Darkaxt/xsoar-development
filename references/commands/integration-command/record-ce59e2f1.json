@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Demo_AMP_Exploit_Prevention",
+  "examples": [
+    "!cisco-amp-license-get\nContext Example\n#\n{\n\"CiscoAMP\"\n:\n{\n\"LicenseInformation\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The number of currently registered connectors. CiscoAMP.LicenseInformation.number_of_connectors_seen_in_the_last_30_days The number of recently seen connectors in the last 30 days.",
+      "name": "CiscoAMP.LicenseInformation.number_of_connectors_registered",
+      "required": ""
+    },
+    {
+      "description": "The end date of the license. CiscoAMP.LicenseInformation.license_summaries.start_date The start date of the license.",
+      "name": "CiscoAMP.LicenseInformation.license_summaries.end_date",
+      "required": ""
+    },
+    {
+      "description": "The number of licensed seats. CiscoAMP.LicenseInformation.license_summaries.tier The tier type of the license.",
+      "name": "CiscoAMP.LicenseInformation.license_summaries.licensed_seats_count",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco AMP v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/am-pv2"
+}

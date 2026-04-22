@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### expanse-assign-pocs-to-iprange\n***\nAssign Point of Contacts to an Xpanse IP range.\n#### Base Command\n`expanse-assign-pocs-to-iprange`",
+    "#### Command Example\n```!expanse-assign-pocs-to-iprange asset_id=\"9847aa57-3c5d-4308-91d6-ee0fd5435785\" poc_emails=\"analyst@expanseinc.com\"```\n#### Human Readable Output\n>Operation complete\n### expanse-unassign-pocs-from-iprange\n***\nUnassign Point of Contacts from an Xpanse IP range.\n#### Base Command",
+    "#### Command Example\n```!expanse-unassign-pocs-from-iprange asset_id=\"9847aa57-3c5d-4308-91d6-ee0fd5435785\" poc_emails=\"analyst@expanseinc.com\"```\n#### Human Readable Output\n>Operation complete\n### expanse-assign-pocs-to-certificate\n***\nAssign pocs to an Xpanse certificate.\n#### Base Command",
+    "#### Command Example\n```!expanse-assign-pocs-to-certificate asset_id=\"1834b291-7be6-3161-a5f5-78207a548596\" poc_emails=\"analyst@expanseinc.com\"```\n#### Human Readable Output\n>Operation complete\n### expanse-unassign-pocs-from-certificate\n***\nUnassign pocs from an Xpanse certificate.\n#### Base Command",
+    "#### Command Example\n```!expanse-unassign-pocs-from-certificate asset_id=\"1834b291-7be6-3161-a5f5-78207a548596\" poc_emails=\"analyst@expanseinc.com\"```\n#### Human Readable Output\n>Operation complete\n### expanse-assign-pocs-to-domain\n***\nAssign pocs to an Xpanse domain.\n#### Base Command",
+    "#### Command Example\n```!expanse-assign-pocs-to-domain asset_id=\"3e65e20d-51eb-364c-bfa9-c54746131098\" poc_emails=\"analyst@expanseinc.com\"```\n#### Human Readable Output\n>Operation complete\n### expanse-unassign-pocs-from-domain\n***\nUnassign pocs from an Xpanse domain.\n#### Base Command",
+    "#### Command Example\n```!expanse-unassign-pocs-from-domain asset_id=\"3e65e20d-51eb-364c-bfa9-c54746131098\" poc_emails=\"analyst@expanseinc.com\"```\n#### Human Readable Output\n>Operation complete\n### expanse-list-businessunits\n***\nList available business units from Xpanse.\n#### Base Command",
+    "#### Command Example\n```!expanse-list-businessunits limit=\"2\"```\n#### Context Example\n```json\n{\n\"Expanse\": {\n\"BusinessUnit\": [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cortex Xpanse Legacy (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/expanse-v2"
+}

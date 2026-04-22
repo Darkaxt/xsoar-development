@@ -1,0 +1,114 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "msgraph-user-get-user-default-auth-method",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Retrieves the authentication preferences for a user, including the default method.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "msgraph-user-get-user-default-auth-method",
+      "required": ""
+    },
+    {
+      "description": "The user principal name. MSGraphUser.AuthMethod.DefaultMethod The default authentication method for the user.",
+      "name": "MSGraphUser.AuthMethod.User",
+      "required": ""
+    },
+    {
+      "description": "Whether system-preferred authentication is enabled. MSGraphUser.AuthMethod.UserPreferredMethodForSecondaryAuthentication The user's preferred method for secondary authentication.",
+      "name": "MSGraphUser.AuthMethod.IsSystemPreferredAuthenticationMethodEnabled",
+      "required": ""
+    },
+    {
+      "description": "The system-preferred authentication method. Edit this page Report an Issue",
+      "name": "MSGraphUser.AuthMethod.SystemPreferredAuthenticationMethod",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Entra ID Identity And Access Next Envoy IAM \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Authorize Cortex XSOAR for Entra ID Users (Self deployed Azure App) Configure Entra ID Users in Cortex Commands",
+      "name": "Authentication",
+      "required": ""
+    },
+    {
+      "description": "msgraph-user-unblock msgraph-user-update msgraph-user-delete",
+      "name": "msgraph-user-account-disable",
+      "required": ""
+    },
+    {
+      "description": "msgraph-user-get msgraph-user-list msgraph-direct-reports",
+      "name": "msgraph-user-create",
+      "required": ""
+    },
+    {
+      "description": "msgraph-user-assign-manager msgraph-user-change-password msgraph-user-test",
+      "name": "msgraph-user-get-manager",
+      "required": ""
+    },
+    {
+      "description": "msgraph-user-generate-login-url msgraph-user-auth-reset msgraph-user-tap-policy-delete",
+      "name": "msgraph-user-session-revoke",
+      "required": ""
+    },
+    {
+      "description": "msgraph-user-tap-policy-list msgraph-user-change-password-on-premise msgraph-user-force-reset-password",
+      "name": "msgraph-user-tap-policy-create",
+      "required": ""
+    },
+    {
+      "description": "msgraph-user-get-auth-methods msgraph-user-owned-devices-list msgraph-user-fido2-method-list",
+      "name": "msgraph-user-get-groups",
+      "required": ""
+    },
+    {
+      "description": "msgraph-user-email-method-list msgraph-user-email-method-delete msgraph-user-authenticator-method-list",
+      "name": "msgraph-user-fido2-method-delete",
+      "required": ""
+    },
+    {
+      "description": "msgraph-user-phone-method-list msgraph-user-phone-method-delete msgraph-user-software-oath-method-list",
+      "name": "msgraph-user-authenticator-method-delete",
+      "required": ""
+    },
+    {
+      "description": "msgraph-user-windows-hello-method-list msgraph-user-windows-hello-method-delete msgraph-user-temp-access-pass-method-list",
+      "name": "msgraph-user-software-oath-method-delete",
+      "required": ""
+    },
+    {
+      "description": "msgraph-user-request-mfa msgraph-user-get-user-default-auth-method Docs",
+      "name": "msgraph-user-temp-access-pass-method-delete",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Entra ID Users",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-user"
+}

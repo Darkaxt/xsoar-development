@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!aws-access-analyzer-update-findings analyzerArn=arn:aws:access-analyzer:us-east-2:123456789012:analyzer/ConsoleAnalyzer-k80aff71-2468-47l7-b24c-p8992b3f10d5 findingIds=78eb6782-5387-49k0-bpe5-39am61c3baee status=ACTIVE\nHuman Readable Output\n#\nFindings updated\nEdit this page\nReport an Issue",
+    "!aws-access-analyzer-update-findings analyzerArn=arn:aws:access-analyzer:us-east-2:123456789012:analyzer/ConsoleAnalyzer-k80aff71-2468-47l7-b24c-p8992b3f10d5 findingIds=78eb6782-5387-49k0-bpe5-39am61c3baee status=ACTIVE\nHuman Readable Output\n#\nFindings updated\nEdit this page\nReport an Issue\nPrevious\n\u00ab Awake Security"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - AccessAnalyzer",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---access-analyzer"
+}

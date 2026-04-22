@@ -1,0 +1,201 @@
+{
+  "aliases": [
+    "disposition:"
+  ],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "splunk-job-share",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Change job settings to share its results to all Splunk users, and change its TTL.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "splunk-job-share",
+      "required": ""
+    },
+    {
+      "description": "Additional Information",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Go to the Splunk UI. Under Settings",
+      "name": "To get the HEC token",
+      "required": ""
+    },
+    {
+      "description": "Data > Data inputs",
+      "name": ">",
+      "required": ""
+    },
+    {
+      "description": "HTTP Event Collector . Click",
+      "name": ", click",
+      "required": ""
+    },
+    {
+      "description": ". Add all the relevant details until done. For the HTTP Port number:",
+      "name": "New Token",
+      "required": ""
+    },
+    {
+      "description": "The default port is 8088. Troubleshooting",
+      "name": "Click on Global settings (in the HTTP Event Collector page)",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Index Validation Issues",
+      "required": ""
+    },
+    {
+      "description": "Recommended Action: Verify that the index name is spelled correctly in your request. If the index exists and is accessible in Splunk but is not found by the integration, please contact Splunk support for assistance, as this is a known limitation with the Splunk API.",
+      "name": "In some cases, the Splunk API may not return a complete list of all available indexes. If you try to submit an event to an index that you know exists but the integration reports that it cannot be found, it may be due to this Splunk issue. The integration will log an error message specifying which indexes could not be verified.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Connectivity Issues",
+      "required": ""
+    },
+    {
+      "description": "Splunk Cloud within Cortex XSOAR8 or Cortex XSIAM you may receive the following error: requests.exceptions.ConnectTimeout:",
+      "name": "If you encounter connectivity issues while using",
+      "required": ""
+    },
+    {
+      "description": ": Max retries exceeded with url: /services/auth/login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fc389a4e170>, 'Connection to <name>.splunkcloud.com timed out. (connect timeout=None)'))",
+      "name": "HTTPSConnectionPool(host='<name>.splunkcloud.com', port=8089)",
+      "required": ""
+    },
+    {
+      "description": "You can find the relevant IP addresses at: Cortex XSOAR Administrator Guide Under",
+      "name": "To resolve this issue, add the IP addresses of Cortex XSOAR8 or Cortex XSIAM to the Splunk Cloud whitelist.",
+      "required": ""
+    },
+    {
+      "description": ". Choose the IP address corresponding to your Cortex XSOAR region. Fetch Issues",
+      "name": "Used for communication between Cortex XSOAR and customer resources",
+      "required": ""
+    },
+    {
+      "description": "Reset the \"last run\" timestamp button. Note that the way to reset the mechanism is to run the",
+      "name": "If you encounter fetch issues and you have enriching enabled, the issue may be the result of pressing the",
+      "required": ""
+    },
+    {
+      "description": "command. See here",
+      "name": "splunk-reset-enriching-fetch-mechanism",
+      "required": ""
+    },
+    {
+      "description": "Large Search Results",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "splunk-search ) can cause performance issues in playbooks. Recommendation",
+      "name": "Commands that return large data (such as",
+      "required": ""
+    },
+    {
+      "description": "30,000 events, depending on the data size. You can do this through one of the following: Use the",
+      "name": ": Limit results to approximately",
+      "required": ""
+    },
+    {
+      "description": "argument (where available). Append | head 30000",
+      "name": "event_limit",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "directly to your Splunk query.",
+      "required": ""
+    },
+    {
+      "description": "Next SplunkPyPreRelease (Beta) \u00bb Use Cases",
+      "name": "\u00ab SplunkPy",
+      "required": ""
+    },
+    {
+      "description": "Query Load Analysis Configure SplunkPy v2 in Cortex Splunk Enterprise Security Users",
+      "name": "User Configuration Requirements",
+      "required": ""
+    },
+    {
+      "description": "Enriching finding events Incident Mirroring Mapping fetched incidents using Select Schema",
+      "name": "Fetching finding events",
+      "required": ""
+    },
+    {
+      "description": "Configure Splunk to Produce Alerts for SplunkPy v2 for non-ES Splunk Users Constraints Create KV Store",
+      "name": "Splunk non-Enterprise Security Users",
+      "required": ""
+    },
+    {
+      "description": "Commands splunk-results splunk-search",
+      "name": "Add data to the KV Store",
+      "required": ""
+    },
+    {
+      "description": "splunk-submit-event splunk-get-indexes splunk-finding-event-edit",
+      "name": "Splunk Search results for query: * | head 3",
+      "required": ""
+    },
+    {
+      "description": "splunk-parse-raw splunk-submit-event-hec splunk-job-status",
+      "name": "splunk-job-create",
+      "required": ""
+    },
+    {
+      "description": "splunk-kv-store-collection-create splunk-kv-store-collection-config splunk-kv-store-collection-add-entries",
+      "name": "get-mapping-fields",
+      "required": ""
+    },
+    {
+      "description": "splunk-kv-store-collection-data-list splunk-kv-store-collection-data-delete splunk-kv-store-collection-delete",
+      "name": "splunk-kv-store-collections-list",
+      "required": ""
+    },
+    {
+      "description": "splunk-kv-store-collection-delete-entry get-modified-remote-data splunk-reset-enriching-fetch-mechanism",
+      "name": "splunk-kv-store-collection-search-entry",
+      "required": ""
+    },
+    {
+      "description": "Xsoar-Splunk Username Mapping splunk-kv-store-collection-create-transform splunk-job-share",
+      "name": "splunk-get-username-by-xsoar-user",
+      "required": ""
+    },
+    {
+      "description": "Troubleshooting Index Validation Issues Connectivity Issues",
+      "name": "Additional Information",
+      "required": ""
+    },
+    {
+      "description": "Large Search Results Docs Developer Docs",
+      "name": "Fetch Issues",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SplunkPy v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/splunk-py-v2"
+}

@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!cbd-add-rule-to-policy action=\"TERMINATE\" id=\"7777\" operation=\"RANSOM\" required=\"false\" type=\"REPUTATION\" policyId=\"21355\" value=\"COMPANY_BLACK_LIST\"",
+  "examples": [
+    "Command Example\n!cbd-add-rule-to-policy action=\"TERMINATE\" id=\"7777\" operation=\"RANSOM\" required=\"false\" type=\"REPUTATION\" policyId=\"21355\" value=\"COMPANY_BLACK_LIST\"\nHuman Readable Output\nRequest Success\nDelete a rule from a policy\nDeletes a specified rule from a specified policy.\nBase Command\ncbd-delete-rule-from-policy",
+    "!cbd-add-rule-to-policy action=\"TERMINATE\" id=\"7777\" operation=\"RANSOM\" required=\"false\" type=\"REPUTATION\" policyId=\"21355\" value=\"COMPANY_BLACK_LIST\"\nHuman Readable Output\nRequest Success\nDelete a rule from a policy\nDeletes a specified rule from a specified policy.\nBase Command\ncbd-delete-rule-from-policy\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "cbd-delete-rule-from-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black Endpoint Standard (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-defense"
+}

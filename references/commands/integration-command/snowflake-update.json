@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2019-03-28 06:28:31.001000",
+  "examples": [
+    "Command Example\nsnowflake-update warehouse=demo_wh database=demo_db schema=public db_operation=\"update test set NAME='Persimmon' where ID=18\"\nHuman Readable Output\nOperation executed successfully.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Snort IP Blocklist Feed"
+  ],
+  "kind": "integration-command",
+  "name": "snowflake-update",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Snowflake",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/snowflake"
+}

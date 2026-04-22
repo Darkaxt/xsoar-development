@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "AzureKeyVault.ResourceGroup.properties.provisioningState",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Azure Kubernetes Services \u00bb Configure Azure Key Vault on Cortex XSOAR",
+      "name": "\u00ab Azure Firewall",
+      "required": ""
+    },
+    {
+      "description": "azure-key-vault-create-update azure-key-vault-delete azure-key-vault-get",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "azure-key-vault-access-policy-update azure-key-vault-key-get azure-key-vault-key-list",
+      "name": "azure-key-vault-list",
+      "required": ""
+    },
+    {
+      "description": "azure-key-vault-secret-get azure-key-vault-secret-list azure-key-vault-secret-delete",
+      "name": "azure-key-vault-key-delete",
+      "required": ""
+    },
+    {
+      "description": "azure-key-vault-certificate-list azure-key-vault-certificate-policy-get azure-key-vault-subscriptions-list",
+      "name": "azure-key-vault-certificate-get",
+      "required": ""
+    },
+    {
+      "description": "azure-key-vault-auth-reset Docs Developer Docs",
+      "name": "azure-key-vault-resource-group-list",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Key Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-key-vault"
+}

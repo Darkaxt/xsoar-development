@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2020-05-06T01:46:12.663+0000",
+  "examples": [
+    "Command Example\n#\n!logzio-get-logs-by-event-id id=9fb0e6a9-90c0-43ac-8e50-23028d8ea76c size=10\nContext Example\n#\n{\n\"Logzio.Result\": [\n{",
+    "!logzio-get-logs-by-event-id id=9fb0e6a9-90c0-43ac-8e50-23028d8ea76c size=10\nContext Example\n#\n{\n\"Logzio.Result\": [\n{\n\"log_information\": {\n\"level\": \"warning\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "An array of search results Logzio.Result.type Log type in the index",
+      "name": "Logzio.Result",
+      "required": ""
+    },
+    {
+      "description": "date The log's timestamp",
+      "name": "Logzio.Result.timestamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Logz.io",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/logzio"
+}

@@ -1,0 +1,23 @@
+{
+  "aliases": [
+    "fetch-indicators-from-file"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Automation Example",
+      "required": ""
+    }
+  ],
+  "description": "FetchIndicatorsFromFile | Cortex XSOAR",
+  "examples": [
+    "!FetchIndicatorsFromFile auto_detect=True entry_id={entry_id}\nHuman Readable Output\n#\nIndicators from indicator.csv:\nvalue\ntype\nxsoar.com\nDomain"
+  ],
+  "kind": "script",
+  "name": "FetchIndicatorsFromFile",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FetchIndicatorsFromFile",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/fetch-indicators-from-file"
+}

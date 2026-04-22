@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"MD5\": \"653e9905e882f44015e1023dcde66451\"",
+  "examples": [
+    "Command Example\n!threat-grid-search-submissions limit=2\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": [\n{\n\"Status\": \"job_done\",",
+    "!threat-grid-search-submissions limit=2\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": [\n{\n\"Status\": \"job_done\",\n\"SHA1\": \"e823f52975e7b2dff0c5873973682dd5c2eb2464\","
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-search-submissions",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The sample ID ThreatGrid.Sample.Filename The name of the sample file",
+      "name": "ThreatGrid.Sample.ID",
+      "required": ""
+    },
+    {
+      "description": "The state of the sample ThreatGrid.Sample.Status The status of the sample",
+      "name": "ThreatGrid.Sample.State",
+      "required": ""
+    },
+    {
+      "description": "The MD5 of the sample ThreatGrid.Sample.SHA1 The SHA-1 of the sample",
+      "name": "ThreatGrid.Sample.MD5",
+      "required": ""
+    },
+    {
+      "description": "The SHA-256 of the sample ThreatGrid.Sample.SubmittedAt Time of submission for the sample",
+      "name": "ThreatGrid.Sample.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The threat score of the sample",
+      "name": "ThreatGrid.Sample.ThreatScore",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

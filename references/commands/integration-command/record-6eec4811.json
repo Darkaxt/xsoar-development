@@ -1,0 +1,174 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "dataminrpulse-alerts-get",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique identifier of the alert. DataminrPulse.Alerts.alertTimestamp The timestamp when the alert was generated.",
+      "name": "DataminrPulse.Alerts.alertId",
+      "required": ""
+    },
+    {
+      "description": "The type of alert. DataminrPulse.Alerts.alertTopics.id The topic ID associated with the alert.",
+      "name": "DataminrPulse.Alerts.alertType.name",
+      "required": ""
+    },
+    {
+      "description": "The topic name associated with the alert. DataminrPulse.Alerts.alertCompanies.name The company name is related to the alert.",
+      "name": "DataminrPulse.Alerts.alertTopics.name",
+      "required": ""
+    },
+    {
+      "description": "The stock ticker symbol of the company. DataminrPulse.Alerts.alertSectors.name The sector name associated with the alert.",
+      "name": "DataminrPulse.Alerts.alertCompanies.ticker",
+      "required": ""
+    },
+    {
+      "description": "The main headline or summary of the alert. DataminrPulse.Alerts.subHeadline.title The subheadline title.",
+      "name": "DataminrPulse.Alerts.headline",
+      "required": ""
+    },
+    {
+      "description": "The subheadline detailed content. DataminrPulse.Alerts.publicPost.timestamp The timestamp of the original public post.",
+      "name": "DataminrPulse.Alerts.subHeadline.content",
+      "required": ""
+    },
+    {
+      "description": "The source URL of the public post. DataminrPulse.Alerts.publicPost.text The text of the public post.",
+      "name": "DataminrPulse.Alerts.publicPost.href",
+      "required": ""
+    },
+    {
+      "description": "The channels or platforms where the post appeared. DataminrPulse.Alerts.publicPost.media.type The type of attached media.",
+      "name": "DataminrPulse.Alerts.publicPost.channels",
+      "required": ""
+    },
+    {
+      "description": "The media hyperlink. DataminrPulse.Alerts.publicPost.englishText The english text of the public post.",
+      "name": "DataminrPulse.Alerts.publicPost.media.href",
+      "required": ""
+    },
+    {
+      "description": "The timestamp of the event corroboration. DataminrPulse.Alerts.eventCorroboration.summary.title The title of the event corroboration summary.",
+      "name": "DataminrPulse.Alerts.eventCorroboration.timestamp",
+      "required": ""
+    },
+    {
+      "description": "The content of the event corroboration summary. DataminrPulse.Alerts.estimatedEventLocation.name The estimated name or location of the event.",
+      "name": "DataminrPulse.Alerts.eventCorroboration.summary.content",
+      "required": ""
+    },
+    {
+      "description": "The coordinates of the estimated event location. DataminrPulse.Alerts.estimatedEventLocation.probabilityRadius The probability radius of the estimated location.",
+      "name": "DataminrPulse.Alerts.estimatedEventLocation.coordinates",
+      "required": ""
+    },
+    {
+      "description": "The name of the customer location asset. DataminrPulse.Alerts.assetsMatched.locationAssets.lng The longitude of the asset.",
+      "name": "DataminrPulse.Alerts.assetsMatched.locationAssets.name",
+      "required": ""
+    },
+    {
+      "description": "The latitude of the asset. DataminrPulse.Alerts.assetsMatched.locationAssets.distanceFromEventLocation The distance between the asset and the alert's estimated event location.",
+      "name": "DataminrPulse.Alerts.assetsMatched.locationAssets.lat",
+      "required": ""
+    },
+    {
+      "description": "The name of the location group. DataminrPulse.Alerts.assetsMatched.thirdPartyAssets.name The name of the third-party asset.",
+      "name": "DataminrPulse.Alerts.assetsMatched.locationAssets.locationGroups.name",
+      "required": ""
+    },
+    {
+      "description": "The customer-provided unique ID for the asset. DataminrPulse.Alerts.assetsMatched.travelSegments.name The name of the travel segment location or asset.",
+      "name": "DataminrPulse.Alerts.assetsMatched.thirdPartyAssets.customerProvidedId",
+      "required": ""
+    },
+    {
+      "description": "The longitude of the asset. DataminrPulse.Alerts.assetsMatched.travelSegments.lat The latitude of the asset.",
+      "name": "DataminrPulse.Alerts.assetsMatched.travelSegments.lng",
+      "required": ""
+    },
+    {
+      "description": "The distance between the asset and the alert's estimated event location. DataminrPulse.Alerts.assetsMatched.travelSegments.travelType The category of travel segment, such as HOTEL or FLIGHT.",
+      "name": "DataminrPulse.Alerts.assetsMatched.travelSegments.distanceFromEventLocation",
+      "required": ""
+    },
+    {
+      "description": "The type of the intelligence agent summary. DataminrPulse.Alerts.intelAgents.summary.title The title of the intelligence agent summary.",
+      "name": "DataminrPulse.Alerts.intelAgents.summary.type",
+      "required": ""
+    },
+    {
+      "description": "The content of the intelligence agent summary. DataminrPulse.Alerts.intelAgents.version The version of the intelligence agent.",
+      "name": "DataminrPulse.Alerts.intelAgents.summary.content",
+      "required": ""
+    },
+    {
+      "description": "The timestamp of the intelligence agent. DataminrPulse.Alerts.intelAgents.discoveredEntities.name The name of the discovered entity.",
+      "name": "DataminrPulse.Alerts.intelAgents.timestamp",
+      "required": ""
+    },
+    {
+      "description": "The type of discovered entity. DataminrPulse.Alerts.intelAgents.discoveredEntities.summary The summary of the discovered entity.",
+      "name": "DataminrPulse.Alerts.intelAgents.discoveredEntities.type",
+      "required": ""
+    },
+    {
+      "description": "The published date of the discovered entity. DataminrPulse.Alerts.intelAgents.discoveredEntities.products.productName The product name of the discovered entity.",
+      "name": "DataminrPulse.Alerts.intelAgents.discoveredEntities.publishedDate",
+      "required": ""
+    },
+    {
+      "description": "The product vendor of the discovered entity. DataminrPulse.Alerts.intelAgents.discoveredEntities.products.productVersion The product version of the discovered entity.",
+      "name": "DataminrPulse.Alerts.intelAgents.discoveredEntities.products.productVendor",
+      "required": ""
+    },
+    {
+      "description": "The known exploited date of the discovered entity. DataminrPulse.Alerts.intelAgents.discoveredEntities.epssScore The EPSS score of the discovered entity.",
+      "name": "DataminrPulse.Alerts.intelAgents.discoveredEntities.knownExploitedDate",
+      "required": ""
+    },
+    {
+      "description": "The CVSS score of the discovered entity. DataminrPulse.Alerts.intelAgents.discoveredEntities.exploitable The exploitability of the discovered entity.",
+      "name": "DataminrPulse.Alerts.intelAgents.discoveredEntities.cvss",
+      "required": ""
+    },
+    {
+      "description": "The exploit proof of concept links of the discovered entity. DataminrPulse.Alerts.intelAgents.discoveredEntities.affectedOperatingSystems The affected operating systems of the discovered entity.",
+      "name": "DataminrPulse.Alerts.intelAgents.discoveredEntities.exploitPocLinks",
+      "required": ""
+    },
+    {
+      "description": "The YARA rules of the discovered entity. DataminrPulse.Alerts.intelAgents.discoveredEntities.aliases The aliases of the discovered entity.",
+      "name": "DataminrPulse.Alerts.intelAgents.discoveredEntities.yaraRules",
+      "required": ""
+    },
+    {
+      "description": "The top-level technique name of the discovered entity. DataminrPulse.Alerts.intelAgents.discoveredEntities.ttps.techniqueName The technique name of the discovered entity.",
+      "name": "DataminrPulse.Alerts.intelAgents.discoveredEntities.ttps.topLevelTechniqueName",
+      "required": ""
+    },
+    {
+      "description": "The technique ID of the discovered entity. DataminrPulse.Alerts.intelAgents.discoveredEntities.ttps.tacticName The tactic name of the discovered entity.",
+      "name": "DataminrPulse.Alerts.intelAgents.discoveredEntities.ttps.techniqueId",
+      "required": ""
+    },
+    {
+      "description": "The country of origin of the discovered entity. DataminrPulse.Alerts.intelAgents.discoveredEntities.threatActors The threat actors related to malware of the discovered entity.",
+      "name": "DataminrPulse.Alerts.intelAgents.discoveredEntities.countryOfOrigin",
+      "required": ""
+    },
+    {
+      "description": "The website URL associated with the discovered entity.",
+      "name": "DataminrPulse.Alerts.intelAgents.discoveredEntities.websiteUrl",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Dataminr Pulse - ReGenAI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dataminr-pulse-re-gen-ai"
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "For malicious files, the full description.",
+  "examples": [
+    "Command Example\n!tc-incident-associate-indicator indicator=46.148.22.18 incidentId=64862 indicatorType=ADDRESSES\nHuman Readable Output\n14. Search for an indicator of type domain\nSearches for an indicator of type domain.\nBase Command\ndomain\nInput",
+    "!tc-incident-associate-indicator indicator=46.148.22.18 incidentId=64862 indicatorType=ADDRESSES\nHuman Readable Output\n14. Search for an indicator of type domain\nSearches for an indicator of type domain.\nBase Command\ndomain\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the of the indicator. TC.Indicator.Type The type of the domain.",
+      "name": "TC.Indicator.Name",
+      "required": ""
+    },
+    {
+      "description": "The ID of the domain. TC.Indicator.Description The description of the domain.",
+      "name": "TC.Indicator.ID",
+      "required": ""
+    },
+    {
+      "description": "The owner of the domain. TC.Indicator.CreateDate date",
+      "name": "TC.Indicator.Owner",
+      "required": ""
+    },
+    {
+      "description": "TC.Indicator.LastModified date The last date on which the indicator of the domain was modified.",
+      "name": "The date on which the indicator of the domain was created.",
+      "required": ""
+    },
+    {
+      "description": "The threat rating of the domain. TC.Indicator.Confidence The confidence rating of the domain.",
+      "name": "TC.Indicator.Rating",
+      "required": ""
+    },
+    {
+      "description": "The active indicator (for domains only). DBotScore.Indicator The value assigned by DBot for the indicator.",
+      "name": "TC.Indicator.WhoisActive",
+      "required": ""
+    },
+    {
+      "description": "The type assigned by DBot for the indicator. DBotScore.Score The score assigned by DBot for the indicator.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. Domain.Name The name of the domain.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "For malicious domains, the vendor that made the decision. Domain.Malicious.Description",
+      "name": "Domain.Malicious.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

@@ -1,0 +1,16 @@
+{
+  "artifact_type": "incident-field-json",
+  "classifier": {
+    "top_level_fields": [
+      "id",
+      "name",
+      "type"
+    ]
+  },
+  "do": [
+    "Preserve stable field identifiers and display names unless a migration is intentional."
+  ],
+  "do_not": [
+    "Do not remove fields without searching active layouts, playbooks, automations, and mappers."
+  ]
+}

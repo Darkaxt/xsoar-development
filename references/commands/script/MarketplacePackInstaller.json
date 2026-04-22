@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "marketplace-pack-installer"
+  ],
+  "arguments": [],
+  "description": "MarketplacePackInstaller | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "MarketplacePackInstaller",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MarketplacePackInstaller",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/marketplace-pack-installer"
+}

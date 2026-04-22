@@ -1,0 +1,184 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "dataminrpulse-related-alerts-get",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique ID of the alert. DataminrPulse.Alerts.watchlistsMatchedByType.id Unique ID of the watchlist.",
+      "name": "DataminrPulse.Alerts.alertId",
+      "required": ""
+    },
+    {
+      "description": "Type of the watchlist. DataminrPulse.Alerts.watchlistsMatchedByType.name Name of the watchlist.",
+      "name": "DataminrPulse.Alerts.watchlistsMatchedByType.type",
+      "required": ""
+    },
+    {
+      "description": "String containing the ID of external topic for watchlist type. DataminrPulse.Alerts.watchlistsMatchedByType.userProperties.omnilist String containing the boolean value of omnilist.",
+      "name": "DataminrPulse.Alerts.watchlistsMatchedByType.externalTopicIds",
+      "required": ""
+    },
+    {
+      "description": "Type of the watchlist on the Dataminr platform. DataminrPulse.Alerts.watchlistsMatchedByType.userProperties.watchlistColor Color of the watchlist defined on the Dataminr platform.",
+      "name": "DataminrPulse.Alerts.watchlistsMatchedByType.userProperties.uiListType",
+      "required": ""
+    },
+    {
+      "description": "Whether the alert has related alerts or not. DataminrPulse.Alerts.eventTime Timestamp of the event.",
+      "name": "DataminrPulse.Alerts.availableRelatedAlerts",
+      "required": ""
+    },
+    {
+      "description": "Volume of the event. DataminrPulse.Alerts.eventLocation.coordinates Latitude and Longitude of the event.",
+      "name": "DataminrPulse.Alerts.eventVolume",
+      "required": ""
+    },
+    {
+      "description": "The name of the place where the event occurred. DataminrPulse.Alerts.eventLocation.places Place IDs of the event location.",
+      "name": "DataminrPulse.Alerts.eventLocation.name",
+      "required": ""
+    },
+    {
+      "description": "Radius of the event location. DataminrPulse.Alerts.source.displayName The display name of the source.",
+      "name": "DataminrPulse.Alerts.eventLocation.radius",
+      "required": ""
+    },
+    {
+      "description": "The entity name of the source. DataminrPulse.Alerts.source.verified True if the source is verified, false otherwise.",
+      "name": "DataminrPulse.Alerts.source.entityName",
+      "required": ""
+    },
+    {
+      "description": "The Dataminr channel to which the source belongs. DataminrPulse.Alerts.post.timestamp The timestamp of the post.",
+      "name": "DataminrPulse.Alerts.source.channels",
+      "required": ""
+    },
+    {
+      "description": "The position of the post. DataminrPulse.Alerts.post.languages.lang The language of the post.",
+      "name": "DataminrPulse.Alerts.post.languages.position",
+      "required": ""
+    },
+    {
+      "description": "The type of the media. DataminrPulse.Alerts.post.media.url The URL of the media.",
+      "name": "DataminrPulse.Alerts.post.media.type",
+      "required": ""
+    },
+    {
+      "description": "The description of the media. DataminrPulse.Alerts.post.media.display_url The display URL of the media.",
+      "name": "DataminrPulse.Alerts.post.media.description",
+      "required": ""
+    },
+    {
+      "description": "The URL of the media. DataminrPulse.Alerts.post.media.source The source of the media.",
+      "name": "DataminrPulse.Alerts.post.media.media_url",
+      "required": ""
+    },
+    {
+      "description": "The link to the post. DataminrPulse.Alerts.caption The text of the alert.",
+      "name": "DataminrPulse.Alerts.post.link",
+      "required": ""
+    },
+    {
+      "description": "The name of the category to which the alert belongs. DataminrPulse.Alerts.categories.topicType The type of the Dataminr entity. Its value will be \"category\".",
+      "name": "DataminrPulse.Alerts.categories.name",
+      "required": ""
+    },
+    {
+      "description": "The unique identifier of the category. DataminrPulse.Alerts.categories.idStr The string value of the ID for the category.",
+      "name": "DataminrPulse.Alerts.categories.id",
+      "required": ""
+    },
+    {
+      "description": "String containing the boolean value for a category. DataminrPulse.Alerts.categories.path The path of the Dataminr category.",
+      "name": "DataminrPulse.Alerts.categories.requested",
+      "required": ""
+    },
+    {
+      "description": "Boolean value of retired for a particular category. DataminrPulse.Alerts.headerColor The hex value of the alert's header color.",
+      "name": "DataminrPulse.Alerts.categories.retired",
+      "required": ""
+    },
+    {
+      "description": "The label of the alert's header. DataminrPulse.Alerts.alertType.id The unique identifier of the alert type.",
+      "name": "DataminrPulse.Alerts.headerLabel",
+      "required": ""
+    },
+    {
+      "description": "The name of the alert type. DataminrPulse.Alerts.alertType.color The color of alert type.",
+      "name": "DataminrPulse.Alerts.alertType.name",
+      "required": ""
+    },
+    {
+      "description": "The unique identifier of the publisher category. DataminrPulse.Alerts.publisherCategory.name The name of the publisher category.",
+      "name": "DataminrPulse.Alerts.publisherCategory.id",
+      "required": ""
+    },
+    {
+      "description": "The color of the publisher category. DataminrPulse.Alerts.publisherCategory.shortName The short name for publisher category.",
+      "name": "DataminrPulse.Alerts.publisherCategory.color",
+      "required": ""
+    },
+    {
+      "description": "Value containing the URL of the small event map image. DataminrPulse.Alerts.eventMapLargeURL Value containing the URL of the large event map image.",
+      "name": "DataminrPulse.Alerts.eventMapSmallURL",
+      "required": ""
+    },
+    {
+      "description": "URL of the alert details page. DataminrPulse.Alerts.expandMapURL URL of the expanded map.",
+      "name": "DataminrPulse.Alerts.expandAlertURL",
+      "required": ""
+    },
+    {
+      "description": "Text of the related terms. DataminrPulse.Alerts.relatedTerms.url URL of the related terms.",
+      "name": "DataminrPulse.Alerts.relatedTerms.text",
+      "required": ""
+    },
+    {
+      "description": "URL of the related terms query. DataminrPulse.Alerts.parentAlertId Alert ID of the parent.",
+      "name": "DataminrPulse.Alerts.relatedTermsQueryURL",
+      "required": ""
+    },
+    {
+      "description": "Identifier for a specific part of a website referenced in posts that could be related to a target or attacker's infrastructure. DataminrPulse.Alerts.metadata.cyber.threats Name of cyber threat.",
+      "name": "DataminrPulse.Alerts.metadata.cyber.URLs",
+      "required": ""
+    },
+    {
+      "description": "IP address of attacker/victim. Note that IP can have more than one open port and ports are associated with specific products via IANA (iana.org). DataminrPulse.Alerts.metadata.cyber.addresses.port Port of attacker/victim.",
+      "name": "DataminrPulse.Alerts.metadata.cyber.addresses.ip",
+      "required": ""
+    },
+    {
+      "description": "Version of IP address. DataminrPulse.Alerts.metadata.cyber.asns Name of the autonomous systems number of the company hosting the impacted service(s).",
+      "name": "DataminrPulse.Alerts.metadata.cyber.addresses.version",
+      "required": ""
+    },
+    {
+      "description": "Name of the ASN (company hosting the impacted service). DataminrPulse.Alerts.metadata.cyber.products The server software used on an IP address.",
+      "name": "DataminrPulse.Alerts.metadata.cyber.orgs",
+      "required": ""
+    },
+    {
+      "description": "A unique identifier or fingerprint for a file, often a malicious executable. DataminrPulse.Alerts.metadata.cyber.malwares Malicious software posing a threat.",
+      "name": "DataminrPulse.Alerts.metadata.cyber.hashes",
+      "required": ""
+    },
+    {
+      "description": "Autonomous system number. DataminrPulse.Alerts.metadata.cyber.asOrgs.asOrg Autonomous system organization.",
+      "name": "DataminrPulse.Alerts.metadata.cyber.asOrgs.asn",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "DataminrPulse.Alerts.metadata.cyber.hashValues.value",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Dataminr Pulse",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dataminr-pulse"
+}

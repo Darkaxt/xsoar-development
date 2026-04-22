@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "test-scenario-ten",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "This command is executed five times in the PB",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "test-scenario-ten",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next APIVoid \u00bb test-scenario-one",
+      "name": "\u00ab AnythingLLM",
+      "required": ""
+    },
+    {
+      "description": "test-scenario-three test-scenario-four test-scenario-five",
+      "name": "test-scenario-two",
+      "required": ""
+    },
+    {
+      "description": "test-scenario-seven test-scenario-eight test-scenario-nine",
+      "name": "test-scenario-six",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "test-scenario-ten",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "APIMetricsValidation",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/api-metrics-validation"
+}

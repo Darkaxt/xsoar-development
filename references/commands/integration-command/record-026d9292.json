@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!crypto crypto=bitcoin:1AGNa15ZQXAZUgFiqJ2i7Z2DPU2J6hW62i\nContext Example\n#\n{\n\"Cryptocurrency\"\n:",
+    "!crypto crypto=bitcoin:1AGNa15ZQXAZUgFiqJ2i7Z2DPU2J6hW62i\nContext Example\n#\n{\n\"Cryptocurrency\"\n:\n{\n\"Address\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Score The actual score.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The cryptocurrency address. Cryptocurrency.AddressType The cryptocurrency type. e.g. 'bitcoin'.",
+      "name": "Cryptocurrency.Address",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cryptocurrency",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cryptocurrency"
+}

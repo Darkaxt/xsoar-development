@@ -1,0 +1,73 @@
+{
+  "aliases": [
+    "compare-indicators"
+  ],
+  "arguments": [],
+  "description": "CompareIndicators | Cortex XSOAR",
+  "examples": [
+    "!CompareIndicators base_list=\"abcd,1.1.1.0/30,2.2.2.2,3.3.3.3-3.3.3.6\" compare_to_list=\"bcde,1.1.1.2,2.2.2.2,3.3.3.2-3.3.3.5\"\nContext Example\n#\n{\n\"IndicatorCompare\"\n:\n{\n\"BaseList\""
+  ],
+  "kind": "script",
+  "name": "CompareIndicators",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Indicators that appear in the first indicators list only. IndicatorsCompare.CompareList Indicators that appear in the second indicators list only.",
+      "name": "IndicatorsCompare.BaseList",
+      "required": ""
+    },
+    {
+      "description": "Script Example",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!CompareIndicators base_list=\"abcd,1.1.1.0/30,2.2.2.2,3.3.3.3-3.3.3.6\" compare_to_list=\"bcde,1.1.1.2,2.2.2.2,3.3.3.2-3.3.3.5\"",
+      "required": ""
+    },
+    {
+      "description": "\"IndicatorCompare\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": [ \"1.1.1.0-1.1.1.1\"",
+      "name": "\"BaseList\"",
+      "required": ""
+    },
+    {
+      "description": "\"3.3.3.6\" , \"abcd\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"1.1.1.3\" ] ,",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ": [ \"3.3.3.2\"",
+      "name": "\"CompareList\"",
+      "required": ""
+    },
+    {
+      "description": "\"bcde\" ] }",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CompareIndicators",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/compare-indicators"
+}

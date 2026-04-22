@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get a single ANC policy: cisco-ise-get-policy",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "cisco-ise-get-endpoint-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Endpoint ID. Endpoint.MACAddress Endpoint MAC address.",
+      "name": "Endpoint.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ISE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-ise"
+}

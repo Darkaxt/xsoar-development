@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Any interaction will be based on your permissions on the Deception Director. Please consult",
+  "examples": [
+    "Command Example\n#\n!countercraft-manage-campaign breadcrumb_id=5 operation=activate\nHuman Readable Output\n#\nId\n5\nMessage",
+    "!countercraft-manage-campaign breadcrumb_id=5 operation=activate\nHuman Readable Output\n#\nId\n5\nMessage\nBreadcrumb is currently in state: PAUSED. Action activate discarded\nAdditional Information"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Result message CounterCraft.Breadcrumb.ID Breadcrumb ID",
+      "name": "CounterCraft.Breadcrumb.Message",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CounterCraft Deception Director",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/counter-craft-deception-director"
+}

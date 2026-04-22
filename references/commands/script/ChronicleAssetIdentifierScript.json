@@ -1,0 +1,53 @@
+{
+  "aliases": [
+    "chronicle-asset-identifier-script"
+  ],
+  "arguments": [],
+  "description": "ChronicleAssetIdentifierScript | Cortex XSOAR",
+  "examples": [
+    "!ChronicleAssetIdentifierScript artifact_identifiers=\"{\n\\\"AccessedDomain\\\": \\\"dummy-accessed-domain.com\\\",\n\\\"FirstAccessedTime\\\": \\\"2018-10-03T02:59:56Z\\\",\n\\\"HostName\\\": \\\"dummy-host-name\\\",\n\\\"LastAccessedTime\\\": \\\"2020-07-02T20:42:30Z\\\"\n}\"\nContext Example\n#"
+  ],
+  "kind": "script",
+  "name": "ChronicleAssetIdentifierScript",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Collects all the asset identifier. Script Example",
+      "name": "AssetIdentifiers",
+      "required": ""
+    },
+    {
+      "description": "\\\"AccessedDomain\\\": \\\"dummy-accessed-domain.com\\\", \\\"FirstAccessedTime\\\": \\\"2018-10-03T02:59:56Z\\\", \\\"HostName\\\": \\\"dummy-host-name\\\",",
+      "name": "!ChronicleAssetIdentifierScript artifact_identifiers=\"{",
+      "required": ""
+    },
+    {
+      "description": "}\" Context Example",
+      "name": "\\\"LastAccessedTime\\\": \\\"2020-07-02T20:42:30Z\\\"",
+      "required": ""
+    },
+    {
+      "description": "\"AssetIdentifiers\": [ \"dummy-host-name\" ]",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Script Example",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ChronicleAssetIdentifierScript",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/chronicle-asset-identifier-script"
+}

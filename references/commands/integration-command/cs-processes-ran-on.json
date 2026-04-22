@@ -1,0 +1,17 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Device IDs found by device IOC search",
+  "examples": [
+    "Command Example\n!cs-device-ran-on type=sha1 value=f28c592833f234c619917b5c7d8974840a810247\n!cs-device-ran-on type=domain value=7.tw\n10. Get the process ID of an indicator for a device\nReturns the process ID of the indicator if it ran on given device recently\nBase Command\ncs-processes-ran-on\nInput",
+    "!cs-device-ran-on type=sha1 value=f28c592833f234c619917b5c7d8974840a810247\n!cs-device-ran-on type=domain value=7.tw\n10. Get the process ID of an indicator for a device\nReturns the process ID of the indicator if it ran on given device recently\nBase Command\ncs-processes-ran-on\nInput\nArgument Name",
+    "!cs-device-ran-on type=domain value=7.tw\n10. Get the process ID of an indicator for a device\nReturns the process ID of the indicator if it ran on given device recently\nBase Command\ncs-processes-ran-on\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "cs-processes-ran-on",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FalconHost (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-host"
+}

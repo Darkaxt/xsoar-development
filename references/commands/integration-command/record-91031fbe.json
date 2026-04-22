@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "cisco-email-security-list-entry-delete",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Deletes a list entry.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "cisco-email-security-list-entry-delete",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next CiscoWSA (Deprecated) \u00bb Configure CiscoEmailSecurity in Cortex",
+      "name": "\u00ab Cisco WSA v2",
+      "required": ""
+    },
+    {
+      "description": "cisco-email-security-report-get cisco-email-security-messages-search cisco-email-security-message-details-get",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "cisco-email-security-spam-quarantine-message-details-get cisco-email-security-dlp-details-get cisco-email-security-amp-details-get",
+      "name": "cisco-email-security-spam-quarantine-search",
+      "required": ""
+    },
+    {
+      "description": "cisco-email-security-spam-quarantine-messages-delete cisco-email-security-spam-quarantine-messages-release cisco-email-security-list-entries-get",
+      "name": "cisco-email-security-url-details-get",
+      "required": ""
+    },
+    {
+      "description": "cisco-email-security-list-entry-delete Docs Developer Docs",
+      "name": "cisco-email-security-list-entry-add",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CiscoEmailSecurity (Beta) (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-email-security"
+}

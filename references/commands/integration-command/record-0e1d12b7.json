@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "https://group-ib.com/osi/public_leak?searchValue=100.100.100.100&q=100.100.100.100",
+  "examples": [
+    "Command Example\n#\n!gibtia-local-search collection_name=attacks/phishing query=100.100.100.100\nHuman Readable Output\n#\nSearch results\n#\nid",
+    "!gibtia-local-search collection_name=attacks/phishing query=100.100.100.100\nHuman Readable Output\n#\nSearch results\n#\nid\nadditional_info\n8bd7e5cef2290b0c3f04bf283586406dceffe25d"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Id of a feed that matches a query additional_info Additional info about feed",
+      "name": "id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Group-IB Threat Intelligence",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/group-ib-threat-intelligence--attribution"
+}

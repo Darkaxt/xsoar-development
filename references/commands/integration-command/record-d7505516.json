@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "SIEM Search results for query: host:crossiscoming81",
+  "examples": [
+    "!xet-send-mail to=\"james.bond@xsoar.local\" body=\"shaken or stirred?\"\nHuman Readable Output\n#\nXSOAR Engineer Training: fake email notification not sent\nEdit this page\nReport an Issue\nPrevious\n\u00ab XSOAR EDL Checker"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "XSOAR Engineer Training",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/xsoar-engineer-training"
+}

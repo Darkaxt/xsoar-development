@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!threatq-add-source obj_id=173317 obj_type=indicator source=\"AlienVault OTX\"",
+  "examples": [
+    "Command Example\n!threatq-add-source obj_id=173317 obj_type=indicator source=\"AlienVault OTX\"\nHuman Readable Output\n22. Delete a source from an object\nDeletes a source from an object in ThreatQ.\nBase Command\nthreatq-delete-source\nInput",
+    "!threatq-add-source obj_id=173317 obj_type=indicator source=\"AlienVault OTX\"\nHuman Readable Output\n22. Delete a source from an object\nDeletes a source from an object in ThreatQ.\nBase Command\nthreatq-delete-source\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-delete-source",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

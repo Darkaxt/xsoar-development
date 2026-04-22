@@ -1,0 +1,168 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "4ad25ae99a4911e88515b3c49ffeda59",
+  "examples": [
+    "Command Example\n!cbd-find-event eventId=\"4ad25ae99a4911e88515b3c49ffeda59\"\nContext Example\nCarbonBlackDefense:{} 1 item\nFindEvent:{} 1 item\nEventInfo:{} 13 items\nShortDescription:The application \"cloud-drive-ui\" successfully closed a TCP/6690 connection to 192.168.2.22:6690 (192.168.2.22).\nLongDescription:The application \"/Users/cberninger/.CloudStation/CloudStation.app/Contents/MacOS/cloud-drive-ui\" closed a TCP/6690 connection to 192.168.2.22:6690 (192.168.2.22) from 192.168.2.125:56001. There were 8169 Bytes Received and 2863 Bytes Sent in less than 1 second. The device was off the corporate network using the public address 67.143.208.113 (192.168.2.125, located in United States). The operation was successful.",
+    "!cbd-find-event eventId=\"4ad25ae99a4911e88515b3c49ffeda59\"\nContext Example\nCarbonBlackDefense:{} 1 item\nFindEvent:{} 1 item\nEventInfo:{} 13 items\nShortDescription:The application \"cloud-drive-ui\" successfully closed a TCP/6690 connection to 192.168.2.22:6690 (192.168.2.22).\nLongDescription:The application \"/Users/cberninger/.CloudStation/CloudStation.app/Contents/MacOS/cloud-drive-ui\" closed a TCP/6690 connection to 192.168.2.22:6690 (192.168.2.22) from 192.168.2.125:56001. There were 8169 Bytes Received and 2863 Bytes Sent in less than 1 second. The device was off the corporate network using the public address 67.143.208.113 (192.168.2.125, located in United States). The operation was successful.\nEventTime:1533649991975"
+  ],
+  "kind": "integration-command",
+  "name": "cbd-find-event",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Short description CarbonBlackDefense.GetAlertDetails.EventInfo.TargetHash.ApplicationName Application name",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.ShortDescription",
+      "required": ""
+    },
+    {
+      "description": "Reputation property CarbonBlackDefense.GetAlertDetails.EventInfo.TargetHash.Sha256Hash SHA-256 hash",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.TargetHash.ReputationProperty",
+      "required": ""
+    },
+    {
+      "description": "Event type CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessHash.Md5Hash MD5 hash",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.EventType",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 hash CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessHash.ApplicationPath Application path",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessHash.Sha256Hash",
+      "required": ""
+    },
+    {
+      "description": "Reputation property CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessHash.ApplicationName Application name",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessHash.ReputationProperty",
+      "required": ""
+    },
+    {
+      "description": "Organization ID CarbonBlackDefense.GetAlertDetails.EventInfo.OrgDetails.OrganizationName Organization name",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.OrgDetails.OrganizationId",
+      "required": ""
+    },
+    {
+      "description": "Organization type CarbonBlackDefense.GetAlertDetails.EventInfo.ParentHash.ApplicationName Application name",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.OrgDetails.OrganizationType",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 hash CarbonBlackDefense.GetAlertDetails.EventInfo.EventId Event ID",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.ParentHash.Sha256Hash",
+      "required": ""
+    },
+    {
+      "description": "Long description CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceIpV4Address Device IpV4 address",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.LongDescription",
+      "required": ""
+    },
+    {
+      "description": "Device type CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.Email Email address",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceType",
+      "required": ""
+    },
+    {
+      "description": "Target priority code CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.AgentLocation Agent location path",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.TargetPriorityCode",
+      "required": ""
+    },
+    {
+      "description": "Device host name CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceId Device ID",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceHostName",
+      "required": ""
+    },
+    {
+      "description": "Group name CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceVersion Device version",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.GroupName",
+      "required": ""
+    },
+    {
+      "description": "Target priority type CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceIpAddress Device IP address",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.TargetPriorityType",
+      "required": ""
+    },
+    {
+      "description": "Latitude CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceLocation.City City",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceLocation.Latitude",
+      "required": ""
+    },
+    {
+      "description": "Country code CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceLocation.DmaCode DMA code",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceLocation.CountryCode",
+      "required": ""
+    },
+    {
+      "description": "Longitude CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceLocation.MetroCode Metro code",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceLocation.Longitude",
+      "required": ""
+    },
+    {
+      "description": "Postal code CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceLocation.Region Region",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceLocation.PostalCode",
+      "required": ""
+    },
+    {
+      "description": "Area code CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceLocation.CountryName Country name",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceLocation.AreaCode",
+      "required": ""
+    },
+    {
+      "description": "Device name CarbonBlackDefense.GetAlertDetails.EventInfo.CreateTime Time of creation",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.DeviceDetails.DeviceName",
+      "required": ""
+    },
+    {
+      "description": "Event time CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.FullUserName Full user name",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.EventTime",
+      "required": ""
+    },
+    {
+      "description": "Name CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.ParentCommandLine Parent command line",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.Name",
+      "required": ""
+    },
+    {
+      "description": "Parent name CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.ParentPid Parent PID",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.ParentName",
+      "required": ""
+    },
+    {
+      "description": "Process ID CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.CommandLine Command line",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.ProcessId",
+      "required": ""
+    },
+    {
+      "description": "Milisecconds since process start CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.TargetCommandLine Target command line",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.MilisSinceProcessStart",
+      "required": ""
+    },
+    {
+      "description": "Target PID CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.UserName User name",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.TargetPid",
+      "required": ""
+    },
+    {
+      "description": "Parent private PID CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.PrivatePid Private PID",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.ParentPrivatePid",
+      "required": ""
+    },
+    {
+      "description": "Target name CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.TargetPrivatePid Target private PID",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.ProcessDetails.TargetName",
+      "required": ""
+    },
+    {
+      "description": "Threat indicators",
+      "name": "CarbonBlackDefense.GetAlertDetails.EventInfo.ThreatIndicators",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black Endpoint Standard (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-defense"
+}

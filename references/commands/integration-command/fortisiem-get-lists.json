@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "PAN-OS-TRAFFIC-start-allow",
+  "examples": [
+    "Command Example\n!fortisiem-get-lists\nContext Example\n{\n\"FortiSIEM.ResourceList\": [\n{\n\"ResourceType\": \"Reports\",\n\"NatualID\": \"PH_SYS_REPORT_Freq\",",
+    "!fortisiem-get-lists\nContext Example\n{\n\"FortiSIEM.ResourceList\": [\n{\n\"ResourceType\": \"Reports\",\n\"NatualID\": \"PH_SYS_REPORT_Freq\",\n\"DisplayName\": \"Frequently Used\","
+  ],
+  "kind": "integration-command",
+  "name": "fortisiem-get-lists",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FortiSIEM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forti-siem"
+}

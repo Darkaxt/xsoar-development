@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2022-11-11T15:00:00.0000000",
+  "examples": [
+    "Command Example\n!msgraph-calendar-delete-event user=\"someemail@domain.com\" event_id=Some_ID\nContext Example\n{\n\"MSGraphCalendar.Event\": {\n\"@Odata.Context\": \"https://graph.microsoft.com/v1.0/$metadata#users('oren%40demistodev.onmicrosoft.com')/calendars('Calendar')/events/$entity\",\n\"Attendees\": [\n{",
+    "!msgraph-calendar-delete-event user=\"someemail@domain.com\" event_id=Some_ID\nContext Example\n{\n\"MSGraphCalendar.Event\": {\n\"@Odata.Context\": \"https://graph.microsoft.com/v1.0/$metadata#users('oren%40demistodev.onmicrosoft.com')/calendars('Calendar')/events/$entity\",\n\"Attendees\": [\n{\n\"emailAddress\": {"
+  ],
+  "kind": "integration-command",
+  "name": "msgraph-calendar-delete-event",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The start time zone that was set when the event was created. . MSGraphCalendar.Event.HasAttachments",
+      "name": "MSGraphCalendar.Event.OriginalStartTimeZone",
+      "required": ""
+    },
+    {
+      "description": "Whether the event has attachments. MSGraphCalendar.Event.ResponseRequested Whether the sender receives a response when the event is accepted or declined.",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "The URL used to open the event in Outlook on the web. MSGraphCalendar.Event.Recurrence The recurrence pattern for the event.",
+      "name": "MSGraphCalendar.Event.WebLink",
+      "required": ""
+    },
+    {
+      "description": "The date, time, and time zone that the event starts. By default, the start time is in UTC. MSGraphCalendar.Event.End The date, time, and time zone that the event ends. By default, the end time is in UTC.",
+      "name": "MSGraphCalendar.Event.Start",
+      "required": ""
+    },
+    {
+      "description": "The location of the event. MSGraphCalendar.Event.Attendees The collection of attendees for the event.",
+      "name": "MSGraphCalendar.Event.Location",
+      "required": ""
+    },
+    {
+      "description": "The event type. For example, singleInstance, occurrence, exception, seriesMaster. Read-only. MSGraphCalendar.Event.ResponseStatus.response Indicates the type of response sent in response to an event message.",
+      "name": "MSGraphCalendar.Event.Type",
+      "required": ""
+    },
+    {
+      "description": "The importance of the event. For example, low, normal, high. MSGraphCalendar.Event.ICalUId A unique identifier that is shared by all instances of an event across different calendars.",
+      "name": "MSGraphCalendar.Event.Importance",
+      "required": ""
+    },
+    {
+      "description": "Whether the event has been canceled. MSGraphCalendar.Event.IsAllDay Whether the event lasts all day.",
+      "name": "MSGraphCalendar.Event.IsCancelled",
+      "required": ""
+    },
+    {
+      "description": "The number of minutes before the event start time of the reminder alert. MSGraphCalendar.Event.LastModifiedDateTime The time and date the event was last modified using the ISO 8601 format in UTC time. For example, midnight UTC on Jan 1, 2014 is '2014-01-01T00:00:00Z'",
+      "name": "MSGraphCalendar.Event.ReminderMinutesBeforeStart",
+      "required": ""
+    },
+    {
+      "description": "The end time zone that was set when the event was created. MSGraphCalendar.Event.CreatedDateTime The time and date the event was created using ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 is '2014-01-01T00:00:00Z'.",
+      "name": "MSGraphCalendar.Event.OriginalEndTimeZone",
+      "required": ""
+    },
+    {
+      "description": "Identifies the version of the event object. Every time the event is changed, the ChangeKey changes as well. This allows the exchange to apply changes to the correct version of the object. MSGraphCalendar.Event.ID The ID of the Event.",
+      "name": "MSGraphCalendar.Event.ChangeKey",
+      "required": ""
+    },
+    {
+      "description": "Whether the message sender is also the organizer. MSGraphCalendar.Event.Sensitivity The sensitivity of the event. Possible values are: normal, personal, private, confidential.",
+      "name": "MSGraphCalendar.Event.IsOrganizer",
+      "required": ""
+    },
+    {
+      "description": "Whether an alert is set to remind the user of the event. MSGraphCalendar.Event.Organizer The organizer of the event.",
+      "name": "MSGraphCalendar.Event.IsReminderOn",
+      "required": ""
+    },
+    {
+      "description": "The text of the event's subject line. MSGraphCalendar.Event.OnlineMeetingUrl A URL for an online meeting, used only when an organizer specifies an event as an online meeting, such as a Skype meeting. Read-only.",
+      "name": "MSGraphCalendar.Event.Subject",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "O365 Outlook Calendar",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-calendar"
+}

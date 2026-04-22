@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!nexpose-list-asset-group limit=2",
+  "examples": [
+    "!nexpose-list-asset-group limit=2\nnexpose-create-asset-group\n#\nCreate an asset group.\nBase Command\n#\nnexpose-create-asset-group\nInput",
+    "!nexpose-create-asset-group name=test3 type=dynamic ip_address_is=1.1.1.1 query=`risk-score is-greater-than 8000` escription=test\nEdit this page\nReport an Issue\nPrevious\n\u00ab Rapid7 InsightIDR\nNext\nRapid7 InsightVM Cloud \u00bb\nConfigure Rapid7 InsightVM on Cortex XSOAR"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "int The asset group ID.",
+      "name": "Nexpose.AssetGroup.id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Rapid7 InsightVM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rapid7-nexpose"
+}

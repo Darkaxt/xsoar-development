@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!cs-device-details ids=1e371d976b4549186ed5f09e49e49c12",
+  "examples": [
+    "!cs-device-details ids=1e371d976b4549186ed5f09e49e49c12\n!cs-device-details ids=${FalconHostDevices}\nContext Example\nHuman Readable Output\n8. Get the number of devices an IOC ran on\nReturns the number of devices on which an IOC ran, according to type and value of an IOC\nBase Command\ncs-device-count-ioc",
+    "!cs-device-details ids=${FalconHostDevices}\nContext Example\nHuman Readable Output\n8. Get the number of devices an IOC ran on\nReturns the number of devices on which an IOC ran, according to type and value of an IOC\nBase Command\ncs-device-count-ioc\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "cs-device-count-ioc",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FalconHost (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-host"
+}

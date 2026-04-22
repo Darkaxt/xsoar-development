@@ -1,0 +1,72 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "File Extension e.g., \"pcap\"",
+  "examples": [
+    "Command Example\n!awake-pcap-download hostA=\"10.200.103.100\" hostB=\"10.200.103.100\" portA=\"67\" portB=\"68\"\nHuman Readable Output\n5. Lookup and enrich a domain\nLookup and enrich a domain.\nBase Command\ndomain\nInput",
+    "!awake-pcap-download hostA=\"10.200.103.100\" hostB=\"10.200.103.100\" portA=\"67\" portB=\"68\"\nHuman Readable Output\n5. Lookup and enrich a domain\nLookup and enrich a domain.\nBase Command\ndomain\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Approximate bytes the indicator transferred AwakeSecurity.Domains.DomainWithSameRegistrant Domains with the same registrant",
+      "name": "AwakeSecurity.Domains.approxBytesTransferred",
+      "required": ""
+    },
+    {
+      "description": "Date that the domain with the same registrant as the specified domain was registered AwakeSecurity.Domains.IntelSources Indicators of compromise from Awake Security",
+      "name": "AwakeSecurity.Domains.domainsWithSameRegistrant.registrationDate",
+      "required": ""
+    },
+    {
+      "description": "IP addresses associated with the domain AwakeSecurity.Domains.isAlexaTopOneMillion Does the domain appear in Alexa 1 million list",
+      "name": "AwakeSecurity.Domains.ipAddresses",
+      "required": ""
+    },
+    {
+      "description": "Is domain generation algorithm AwakeSecurity.Domains.lastSeen Last time the domain was seen",
+      "name": "AwakeSecurity.Domains.isDGA",
+      "required": ""
+    },
+    {
+      "description": "Notability score of the domain AwakeSecurity.Domains.numAssociatedActivities Number of network activities associated with the domain",
+      "name": "AwakeSecurity.Domains.notabillity",
+      "required": ""
+    },
+    {
+      "description": "Number of devices associated with the domain AwakeSecurity.Domains.protocols List of protocols used in the domain activities",
+      "name": "AwakeSecurity.Domains.numAssociatedADevices",
+      "required": ""
+    },
+    {
+      "description": "Related subdomains of the specified domain AwakeSecurity.Domains.subdomains Subdomains of the specified domain",
+      "name": "AwakeSecurity.Domains.relatedSubdomains",
+      "required": ""
+    },
+    {
+      "description": "List of devices that accessed the specified domain (maximum is 10) AwakeSecurity.Domains.totalNumDevices Total number of devices that accessed the specified domain",
+      "name": "AwakeSecurity.Domains.topDevices",
+      "required": ""
+    },
+    {
+      "description": "Is the specified domain in allow list DBotScore.Indicator The specified domain",
+      "name": "AwakeSecurity.Domains.whiteListed",
+      "required": ""
+    },
+    {
+      "description": "Severity score of the specified domain in Cortex XSOAR DBotScore.Type Indicator type in Cortex XSOAR",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Awake Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/awake-security"
+}

@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n#\nsplunk-reset-enriching-fetch-mechanism\nHuman Readable Output\n#\nEnriching fetch mechanism was reset successfully.\nAdditional Information\n#"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "splunk-reset-enriching-fetch-mechanism",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Resets the enriching fetch mechanism.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "splunk-reset-enriching-fetch-mechanism",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SplunkPyPreRelease (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/splunk-py-pre-release"
+}

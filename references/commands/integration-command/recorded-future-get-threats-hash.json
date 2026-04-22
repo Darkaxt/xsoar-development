@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "This command is deprecated.",
+  "examples": [
+    "Command Example\n!recorded-future-get-threats-hash detailed=true orderby=sevendayshits\nContext Example\n{\n\"DBotScore\": {\n\"Vendor\": \"Recorded Future\",\n\"Indicator\": \"c4efca7808662973b7dc5ec04f82ea232b5f8fa4bb9bdd45cdfadc815c9ceeb9\",\n\"Score\": 3,",
+    "!recorded-future-get-threats-hash detailed=true orderby=sevendayshits\nContext Example\n{\n\"DBotScore\": {\n\"Vendor\": \"Recorded Future\",\n\"Indicator\": \"c4efca7808662973b7dc5ec04f82ea232b5f8fa4bb9bdd45cdfadc815c9ceeb9\",\n\"Score\": 3,\n\"Type\": \"file\""
+  ],
+  "kind": "integration-command",
+  "name": "recorded-future-get-threats-hash",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File SHA-256 File.SHA512 File SHA-512",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "File SHA-1 File.MD5 File MD5",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "File CRC-32 File.CTPH File CTPH",
+      "name": "File.CRC32",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the vendor that made the decision File.Malicious.Description For malicious files, the reason that the vendor made the decision",
+      "name": "File.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested DBotScore.Type Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Risk criticality label File.RecordedFuture.FirstSeen date",
+      "name": "File.RecordedFuture.Criticality",
+      "required": ""
+    },
+    {
+      "description": "File.RecordedFuture.LastSeen date Risk last seen timestamp",
+      "name": "Risk first seen timestamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

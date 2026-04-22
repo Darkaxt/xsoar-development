@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "domain:[google] | groupby eventtype",
+  "examples": [
+    "Command Example\n#\n!fireeye-helix-archive-search-get-status search_id=82,83\nHuman Readable Output\n#\nFireEye Helix - Search status\n#\nID",
+    "!fireeye-helix-archive-search-get-status search_id=82,83\nHuman Readable Output\n#\nFireEye Helix - Search status\n#\nID\nPercent Complete\nQuery"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The archive search's ID. FireEyeHelixSearch.PercentComplete The percentage of the search that was completed.",
+      "name": "FireEyeHelixSearch.ID",
+      "required": ""
+    },
+    {
+      "description": "The search query. FireEyeHelixSearch.State The state of the search.",
+      "name": "FireEyeHelixSearch.Query",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FireEye Helix",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fire-eye-helix"
+}

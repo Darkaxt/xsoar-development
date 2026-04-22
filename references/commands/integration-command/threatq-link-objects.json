@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!threatq-modify-attribute attribute_id=996895 attribute_value=NewVal obj_id=173317 obj_type=indicator",
+  "examples": [
+    "Command Example\n!threatq-modify-attribute attribute_id=996895 attribute_value=NewVal obj_id=173317 obj_type=indicator\nHuman Readable Output\n10. Link two objects\nLinks two objects together in ThreatQ.\nBase Command\nthreatq-link-objects\nInput",
+    "!threatq-modify-attribute attribute_id=996895 attribute_value=NewVal obj_id=173317 obj_type=indicator\nHuman Readable Output\n10. Link two objects\nLinks two objects together in ThreatQ.\nBase Command\nthreatq-link-objects\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-link-objects",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

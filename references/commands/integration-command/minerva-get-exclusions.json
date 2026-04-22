@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "!minerva-delete-vaccine vaccine_id=VACCINE_ID",
+  "examples": [
+    "!minerva-delete-vaccine vaccine_id=VACCINE_ID\nHuman Readable Output\nCortex XSOAR outputs:\n\"Vaccine '9fef012d-b066-4dc3-a912-8f6613e5bef0' was deleted\"\n8. Get all exclusions\nRetrieves all exclusions.\nBase Command\nminerva-get-exclusions",
+    "Command Example\n!minerva-get-exclusions\nHuman Readable Output\nLast Modified On\nDescription\nType\nApplied Groups Ids\nLast Modified By",
+    "!minerva-get-exclusions\nHuman Readable Output\nLast Modified On\nDescription\nType\nApplied Groups Ids\nLast Modified By\nData"
+  ],
+  "kind": "integration-command",
+  "name": "minerva-get-exclusions",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Exclusion ID. Minerva.Exclusion.Type Exclusion type.",
+      "name": "Minerva.Exclusion.Id",
+      "required": ""
+    },
+    {
+      "description": "Exclusion data. Minerva.Exclusion.Description Exclusion description.",
+      "name": "Minerva.Exclusion.Data",
+      "required": ""
+    },
+    {
+      "description": "The user that last modified this exclusion. Minerva.Exclusion.lastModifiedOn date",
+      "name": "Minerva.Exclusion.lastModifiedBy",
+      "required": ""
+    },
+    {
+      "description": "Minerva.Exclusion.appliedGroupsIds Group IDs to which this exclusion applies.",
+      "name": "The date this exclusion was last modified.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Minerva Labs Anti-Evasion Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/minerva-labs-anti-evasion-platform"
+}

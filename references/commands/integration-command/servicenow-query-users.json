@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!servicenow-query-users user_name=sean.bonnet\nContext Example\n{\n\"ServiceNow\": {\n\"User\": {\n\"Created\": \"2012-02-18 03:04:50\",\n\"Email\": \"sean.bonnet@example.com\",",
+    "!servicenow-query-users user_name=sean.bonnet\nContext Example\n{\n\"ServiceNow\": {\n\"User\": {\n\"Created\": \"2012-02-18 03:04:50\",\n\"Email\": \"sean.bonnet@example.com\",\n\"ID\": \"02826bf03710200044e0bfc8bcbe5d6d\","
+  ],
+  "kind": "integration-command",
+  "name": "servicenow-query-users",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "User sys_id ServiceNow.User.Name User name (first, middle, last)",
+      "name": "ServiceNow.User.ID",
+      "required": ""
+    },
+    {
+      "description": "User username ServiceNow.User.Email User email",
+      "name": "ServiceNow.User.UserName",
+      "required": ""
+    },
+    {
+      "description": "date User creation time ServiceNow.User.Updated",
+      "name": "ServiceNow.User.Created",
+      "required": ""
+    },
+    {
+      "description": "User update time",
+      "name": "date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now"
+}

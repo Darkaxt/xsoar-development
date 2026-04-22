@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "q-radar-create-aql-query"
+  ],
+  "arguments": [],
+  "description": "QRadarCreateAQLQuery | Cortex XSOAR",
+  "examples": [
+    "!QRadarCreateAQLQuery base_field_match=partial base_values_to_search=2367666DB8DFF58982A74695760E3EF0ACEBD050\nContext Example\n#\n{\n\"QRadarQuery\"\n:\n\"select DATEFORMAT(devicetime,'dd-MM-yyyy hh:mm'),LOGSOURCENAME(logsourceid),CATEGORYNAME(category),QIDNAME(qid),sourceip,destinationip,username from events where (UTF8(payload) ILIKE '%2367666DB8DFF58982A74695760E3EF0ACEBD050%') LAST 1 HOURS\"\n}",
+    "!QRadarCreateAQLQuery base_field_match=exact base_values_to_search=2367666DB8DFF58982A74695760E3EF0ACEBD050 base_fields_to_search=sha1,sha1-hash\nContext Example\n#\n{\n\"QRadarQuery\"\n:\n\"select DATEFORMAT(devicetime,'dd-MM-yyyy hh:mm'),LOGSOURCENAME(logsourceid),CATEGORYNAME(category),QIDNAME(qid),sourceip,destinationip,username from events where (sha1 = '2367666DB8DFF58982A74695760E3EF0ACEBD050' OR sha1-hash = '2367666DB8DFF58982A74695760E3EF0ACEBD050') LAST 1 HOURS\"\n}",
+    "!QRadarCreateAQLQuery base_field_match=exact base_values_to_search=2367666DB8DFF58982A74695760E3EF0ACEBD050 base_fields_to_search=sha1,sha1-hash first_additional_fields=username first_additional_values=admin\nContext Example\n#\n{\n\"QRadarQuery\"\n:\n\"select DATEFORMAT(devicetime,'dd-MM-yyyy hh:mm'),LOGSOURCENAME(logsourceid),CATEGORYNAME(category),QIDNAME(qid),sourceip,destinationip,username from events where (sha1 = '2367666DB8DFF58982A74695760E3EF0ACEBD050' OR sha1-hash = '2367666DB8DFF58982A74695760E3EF0ACEBD050') AND (username = 'admin') LAST 1 HOURS\"\n}",
+    "!QRadarCreateAQLQuery base_field_match=exact base_values_to_search=2367666DB8DFF58982A74695760E3EF0ACEBD050 base_fields_to_search=sha1 first_additional_field_state=exclude first_additional_field_match=partial first_additional_values=admin\nContext Example\n#\n{\n\"QRadarQuery\"\n:\n\"select DATEFORMAT(devicetime,'dd-MM-yyyy hh:mm'),LOGSOURCENAME(logsourceid),CATEGORYNAME(category),QIDNAME(qid),sourceip,destinationip,username from events where (sha1 = '2367666DB8DFF58982A74695760E3EF0ACEBD050') AND (UTF8(payload) NOT ILIKE '%admin%') LAST 1 HOURS\"\n}"
+  ],
+  "kind": "script",
+  "name": "QRadarCreateAQLQuery",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The resultant AQL query based on the inputs. Script Example Search for a hash where we dont know the field",
+      "name": "QRadarQuery",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!QRadarCreateAQLQuery base_field_match=partial base_values_to_search=2367666DB8DFF58982A74695760E3EF0ACEBD050",
+      "required": ""
+    },
+    {
+      "description": "\"QRadarQuery\" : \"select DATEFORMAT(devicetime,'dd-MM-yyyy hh:mm'),LOGSOURCENAME(logsourceid),CATEGORYNAME(category),QIDNAME(qid),sourceip,destinationip,username from events where (UTF8(payload) ILIKE '%2367666DB8DFF58982A74695760E3EF0ACEBD050%') LAST 1 HOURS\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example Search for a hash where we dont know the field",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "QRadarCreateAQLQuery",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/q-radar-create-aql-query"
+}

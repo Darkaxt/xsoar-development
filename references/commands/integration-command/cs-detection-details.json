@@ -1,0 +1,109 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!cs-detection-search query=\".exe\"",
+  "examples": [
+    "Command Example\n!cs-detection-search query=\".exe\"\nHuman Readable Output\n14. Get detection details (Deprecated)\nDeprecated. Use the cs-falcon-search-detection command from the CrowdStrike Falcon integration instead.\nFetches details of a CrowdStrike Detection using the detection ID.\nBase Command\ncs-detection-details",
+    "!cs-detection-search query=\".exe\"\nHuman Readable Output\n14. Get detection details (Deprecated)\nDeprecated. Use the cs-falcon-search-detection command from the CrowdStrike Falcon integration instead.\nFetches details of a CrowdStrike Detection using the detection ID.\nBase Command\ncs-detection-details\nInput",
+    "Command Example\n!cs-detection-details detectionID=${CrowdStrikeHost.Detections.detectionID}\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab F5 Silverline\nNext",
+    "!cs-detection-details detectionID=${CrowdStrikeHost.Detections.detectionID}\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab F5 Silverline\nNext\nFarsight DNSDB \u00bb"
+  ],
+  "kind": "integration-command",
+  "name": "cs-detection-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "cid of the detection CrowdStrikeHost.Detections.detection_id ID of the detection",
+      "name": "CrowdStrikeHost.Detections.cid",
+      "required": ""
+    },
+    {
+      "description": "First behavior of the detection CrowdStrikeHost.Detections.last_behavior Last behavior of the detection",
+      "name": "CrowdStrikeHost.Detections.first_behavior",
+      "required": ""
+    },
+    {
+      "description": "Max confidence of the detection CrowdStrikeHost.Detections.max_severity Max severity of the detection",
+      "name": "CrowdStrikeHost.Detections.max_confidence",
+      "required": ""
+    },
+    {
+      "description": "Displayname of the max severity CrowdStrikeHost.Detections.behaviors.alleged_file_type Alleged filetype of the behavior",
+      "name": "CrowdStrikeHost.Detections.max_severity_display_name",
+      "required": ""
+    },
+    {
+      "description": "ID of the behavior CrowdStrikeHost.Detections.behaviors.device_id ID of the device of the behavior",
+      "name": "CrowdStrikeHost.Detections.behaviors.behavior_id",
+      "required": ""
+    },
+    {
+      "description": "ID of the user of the behavior CrowdStrikeHost.Detections.behaviors.control_graph_id ID of the control graph of the behavior",
+      "name": "CrowdStrikeHost.Detections.behaviors.user_id",
+      "required": ""
+    },
+    {
+      "description": "Commandline of the behavior CrowdStrikeHost.Detections.behaviors.confidence Confidence of the behavior",
+      "name": "CrowdStrikeHost.Detections.behaviors.cmdline",
+      "required": ""
+    },
+    {
+      "description": "Severity of the behavior CrowdStrikeHost.Detections.behaviors.filename Filename of the behavior",
+      "name": "CrowdStrikeHost.Detections.behaviors.severity",
+      "required": ""
+    },
+    {
+      "description": "IOC description of the behavior CrowdStrikeHost.Detections.behaviors.ioc_source IOC source of the behavior",
+      "name": "CrowdStrikeHost.Detections.behaviors.ioc_description",
+      "required": ""
+    },
+    {
+      "description": "IOC type of the behavior CrowdStrikeHost.Detections.behaviors.ioc_value IOC value of the behavior",
+      "name": "CrowdStrikeHost.Detections.behaviors.ioc_type",
+      "required": ""
+    },
+    {
+      "description": "MD5 of the behavior CrowdStrikeHost.Detections.behaviors.sha256 SHA256 of the behavior",
+      "name": "CrowdStrikeHost.Detections.behaviors.md5",
+      "required": ""
+    },
+    {
+      "description": "Timestamp of the behavior CrowdStrikeHost.Detections.behaviors.parent_details.parent_cmdline Commandline of the parent of the behavior",
+      "name": "CrowdStrikeHost.Detections.behaviors.timestamp",
+      "required": ""
+    },
+    {
+      "description": "MD5 of the parent of the behavior CrowdStrikeHost.Detections.behaviors.parent_details.parent_sha256 SHA256 of the parent of the behavior",
+      "name": "CrowdStrikeHost.Detections.behaviors.parent_details.parent_md5",
+      "required": ""
+    },
+    {
+      "description": "Control graph ID of the parent of the behavior CrowdStrikeHost.Detections.device.agent_version Agent version of the device",
+      "name": "CrowdStrikeHost.Detections.behaviors.parent_details.parent_control_graph_id",
+      "required": ""
+    },
+    {
+      "description": "Bios version of the device CrowdStrikeHost.Detections.device.os_version OS version of the device",
+      "name": "CrowdStrikeHost.Detections.device.bios_version",
+      "required": ""
+    },
+    {
+      "description": "MACAddress of the device CrowdStrikeHost.Detections.device.local_ip Local IP of the device",
+      "name": "CrowdStrikeHost.Detections.device.mac_address",
+      "required": ""
+    },
+    {
+      "description": "External IP of the device CrowdStrikeHost.Detections.device.hostname Hostname of the device",
+      "name": "CrowdStrikeHost.Detections.device.external_ip",
+      "required": ""
+    },
+    {
+      "description": "Technique of the behavior",
+      "name": "CrowdStrikeHost.Detections.behaviors.technique",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FalconHost (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-host"
+}

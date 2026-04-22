@@ -1,0 +1,93 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this command.",
+      "required": ""
+    }
+  ],
+  "description": "2019-05-30T12:59:12.313",
+  "examples": [
+    "Command Example\n!beyondtrust-get-managed-systems\nHuman Readable Output\nBeyondTrust Managed Accounts\nManagedAssetID\nChangeFrequencyDays\nAssetID\nAssetName",
+    "!beyondtrust-get-managed-systems\nHuman Readable Output\nBeyondTrust Managed Accounts\nManagedAssetID\nChangeFrequencyDays\nAssetID\nAssetName\nPlatformID"
+  ],
+  "kind": "integration-command",
+  "name": "beyondtrust-get-managed-systems",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The port used to connect to the host. If null and the related Platform.PortFlag is true, Password Safe uses Platform.DefaultPort for communication. BeyondTrust.System.Timeout Connection timeout \u2013 Length of time in seconds before a slow or unresponsive connection to the system fails.",
+      "name": "BeyondTrust.System.Port",
+      "required": ""
+    },
+    {
+      "description": "True to queue a password change when scheduled password test fails, otherwise false. BeyondTrust.System.ChangeFrequencyDays When ChangeFrequencyType is \u201cxdays\u201d, the frequency with which the password changes (between 1-90 days).",
+      "name": "BeyondTrust.System.ResetPasswordOnMismatchFlag",
+      "required": ""
+    },
+    {
+      "description": "Default Information Systems Administrator (ISA) release duration. BeyondTrust.System.FunctionalAccountID ID of the functional account used for local Managed Account password changes.",
+      "name": "BeyondTrust.System.ISAReleaseDuration",
+      "required": ""
+    },
+    {
+      "description": "The change frequency for scheduled password changes: \"first\"\u2013 Changes are scheduled for the first day of the month; \"last\"\u2013 Changes are scheduled for the last day of the month; \"xdays\"\u2013 Changes are scheduled every \"x\" days (see ChangeFrequencyDays) BeyondTrust.System.DirectoryID ID of the directory. Is set if the Managed System is a Directory.",
+      "name": "BeyondTrust.System.ChangeFrequencyType",
+      "required": ""
+    },
+    {
+      "description": "ID of the Managed System. BeyondTrust.System.AssetID ID of the asset. Is set if the Managed System is an Asset or a Database.",
+      "name": "BeyondTrust.System.ManagedAssetID",
+      "required": ""
+    },
+    {
+      "description": "ID of the Managed System Platform. BeyondTrust.System.ElevationCommand Elevation command to use (sudo, pbrun, or pmrun).",
+      "name": "BeyondTrust.System.PlatformID",
+      "required": ""
+    },
+    {
+      "description": "True to enable password testing, otherwise false. BeyondTrust.System.CloudID ID of the Cloud System. Is set if the Managed System is a Cloud System.",
+      "name": "BeyondTrust.System.CheckPasswordFlag",
+      "required": ""
+    },
+    {
+      "description": "ID of the default DSS Key Rule assigned to Managed Accounts that were created under this Managed System. BeyondTrust.System.PasswordRuleID ID of the default Password Rule assigned to Managed Accounts that were created under this Managed System.",
+      "name": "BeyondTrust.System.DSSKeyRuleID",
+      "required": ""
+    },
+    {
+      "description": "Domain NetBIOS name. Setting this value will allow Password Safe to fall back to the NetBIOS name, if needed. BeyondTrust.System.DatabaseID ID of the database. Is set if the Managed System is a Database.",
+      "name": "BeyondTrust.System.NetBiosName",
+      "required": ""
+    },
+    {
+      "description": "Default maximum release duration. BeyondTrust.System.ChangePasswordAfterAnyReleaseFlag True to change passwords on release of a request, otherwise false.",
+      "name": "BeyondTrust.System.MaxReleaseDuration",
+      "required": ""
+    },
+    {
+      "description": "Name of the related entity (Asset, Directory, Database, or Cloud). BeyondTrust.System.ReleaseDuration Default release duration.",
+      "name": "BeyondTrust.System.SystemName",
+      "required": ""
+    },
+    {
+      "description": "Email address of the user that manages the system. BeyondTrust.System.Description The description of the system.",
+      "name": "BeyondTrust.System.ContactEmail",
+      "required": ""
+    },
+    {
+      "description": "Time (UTC) that password changes are scheduled to occur. BeyondTrust.System.AutoManagementFlag True if password auto-management is enabled, otherwise false.",
+      "name": "BeyondTrust.System.ChangeTime",
+      "required": ""
+    },
+    {
+      "description": "ID of the Functional Account used for SSH session logins.",
+      "name": "BeyondTrust.System.LoginAccountID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BeyondTrust Password Safe",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/beyond-trust-password-safe"
+}

@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "get-time"
+  ],
+  "arguments": [],
+  "description": "GetTime | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetTime",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Number of milliseconds since 1970/01/01. TimeNow Current time.",
+      "name": "TimeNowUnix",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Next GetUsersOnCall \u00bb Script Data",
+      "name": "\u00ab GetTasksWithSections",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetTime",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-time"
+}

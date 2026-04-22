@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "splunk-show-identity"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "SplunkShowIdentity | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SplunkShowIdentity",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next SSDeepReputation \u00bb Script Data",
+      "name": "\u00ab SplunkShowDrilldown",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SplunkShowIdentity",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/splunk-show-identity"
+}

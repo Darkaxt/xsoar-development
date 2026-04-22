@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "between-hours"
+  ],
+  "arguments": [],
+  "description": "BetweenHours | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "BetweenHours",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the input hour is between the given hours. BetweenHours.value The value to check.",
+      "name": "BetweenHours.result",
+      "required": ""
+    },
+    {
+      "description": "BetweenHours.begin_time The start time range in the format HH:MM:SS. BetweenHours.end_time",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The end time range in the format HH:MM:SS.",
+      "required": ""
+    },
+    {
+      "description": "Next BinarySearchPy \u00bb Script Data",
+      "name": "\u00ab BetweenDates",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BetweenHours",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/between-hours"
+}

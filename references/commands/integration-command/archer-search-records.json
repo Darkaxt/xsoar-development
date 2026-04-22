@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Search for records within a specified application.",
+  "examples": [
+    "Command Example\n!archer-search-records applicationId=433 maxResults=1\nRaw Output\n{\n\"Fields\":\n{\n\"Incident ID\": \"225828\",\n\"Record\":",
+    "!archer-search-records applicationId=433 maxResults=1\nRaw Output\n{\n\"Fields\":\n{\n\"Incident ID\": \"225828\",\n\"Record\":\n{"
+  ],
+  "kind": "integration-command",
+  "name": "archer-search-records",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

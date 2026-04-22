@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n!gct-supported-languages\nContext Example\n{\n\"GoogleCloudTranslate\": {\n\"SupportedLanguages\": [\n{\n\"language_code\": \"af\",",
+    "!gct-supported-languages\nContext Example\n{\n\"GoogleCloudTranslate\": {\n\"SupportedLanguages\": [\n{\n\"language_code\": \"af\",\n\"support_source\": true,"
+  ],
+  "kind": "integration-command",
+  "name": "gct-supported-languages",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The list of supported two-letter ISO language codes.",
+      "name": "GoogleCloudTranslate.SupportedLanguages",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Translate",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-translate"
+}

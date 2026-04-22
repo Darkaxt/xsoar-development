@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "jamf-protect-get-computer-assets",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Gets computer assets from Jamf Protect.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "jamf-protect-get-computer-assets",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next JAMF v2 \u00bb Configure Jamf Protect Event Collector in Cortex",
+      "name": "\u00ab Ja3er",
+      "required": ""
+    },
+    {
+      "description": "jamf-protect-get-events jamf-protect-get-computer-assets Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Jamf Protect Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jamf-protect-event-collector"
+}

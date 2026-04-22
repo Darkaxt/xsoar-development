@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Bitcoin address abcde12345 by abuse bitcoin user",
+  "examples": [
+    "Command Example\n#\n!bitcoinabuse-get-indicators limit=1\nContext Example\n#\n{\n}\nHuman Readable Output",
+    "!bitcoinabuse-get-indicators limit=1\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nIndicators"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BitcoinAbuse Feed (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bitcoin-abuse"
+}

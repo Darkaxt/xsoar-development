@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The list type the threat belongs to (GlobalQuarantine or GlobalSafe)",
+  "examples": [
+    "Command Example\n!cylance-protect-delete-hash-from-lists sha256=\"9ACD45F5F3F2C7629E51FE3123D31296EF763F6ABC1F895CDD1BF1AFB9A7453B\" listType=\"GlobalQuarantine\"\nHuman Readable Output\n19. Get details for a policy\nGets details for a single policy.\nBase Command\ncylance-protect-get-policy-details\nInput",
+    "!cylance-protect-delete-hash-from-lists sha256=\"9ACD45F5F3F2C7629E51FE3123D31296EF763F6ABC1F895CDD1BF1AFB9A7453B\" listType=\"GlobalQuarantine\"\nHuman Readable Output\n19. Get details for a policy\nGets details for a single policy.\nBase Command\ncylance-protect-get-policy-details\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "cylance-protect-get-policy-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Policy ID Cylance.Policy.Name",
+      "name": "Cylance.Policy.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

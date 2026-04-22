@@ -1,0 +1,129 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "kmsat-phishing-campaigns-security-tests-list",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Campaign Phishing Security Campaign ID KMSAT.CampaignPST.pst_id Campaign Phishing Security PST ID",
+      "name": "KMSAT.CampaignPST.campaign_id",
+      "required": ""
+    },
+    {
+      "description": "Campaign Phishing Security Status KMSAT.CampaignPST.name Campaign Phishing Security Name",
+      "name": "KMSAT.CampaignPST.status",
+      "required": ""
+    },
+    {
+      "description": "Campaign Phishing Security Group ID KMSAT.CampaignPST.groups.name Campaign Phishing Security Name",
+      "name": "KMSAT.CampaignPST.groups.group_id",
+      "required": ""
+    },
+    {
+      "description": "Campaign Phishing Security Phish Prone Percentage KMSAT.CampaignPST.started_at Date",
+      "name": "KMSAT.CampaignPST.phish_prone_percentage",
+      "required": ""
+    },
+    {
+      "description": "KMSAT.CampaignPST.duration Campaign Phishing Security Duration KMSAT.CampaignPST.categories.category_id",
+      "name": "Campaign Phishing Security Started At",
+      "required": ""
+    },
+    {
+      "description": "Campaign Phishing Security Categories Category ID KMSAT.CampaignPST.categories.name Campaign Phishing Security Categories Name",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Campaign Phishing Security Template ID KMSAT.CampaignPST.template.name Campaign Phishing Security Template Name",
+      "name": "KMSAT.CampaignPST.template.id",
+      "required": ""
+    },
+    {
+      "description": "Campaign Phishing Security Landing Page ID KMSAT.CampaignPST.landing_page.name Campaign Phishing Security Landing Page Name",
+      "name": "KMSAT.CampaignPST.landing_page.id",
+      "required": ""
+    },
+    {
+      "description": "Campaign Phishing Security Scheduled Count KMSAT.CampaignPST.delivered_count Campaign Phishing Security Delivered Count",
+      "name": "KMSAT.CampaignPST.scheduled_count",
+      "required": ""
+    },
+    {
+      "description": "Campaign Phishing Security Opened Count KMSAT.CampaignPST.clicked_count Campaign Phishing Security Clicked Count",
+      "name": "KMSAT.CampaignPST.opened_count",
+      "required": ""
+    },
+    {
+      "description": "Campaign Phishing Security Replied Count KMSAT.CampaignPST.attachment_open_count Campaign Phishing Security Attachment Open Count",
+      "name": "KMSAT.CampaignPST.replied_count",
+      "required": ""
+    },
+    {
+      "description": "Campaign Phishing Security Macro Enabled Count KMSAT.CampaignPST.data_entered_count Campaign Phishing Security Data Entered Count",
+      "name": "KMSAT.CampaignPST.macro_enabled_count",
+      "required": ""
+    },
+    {
+      "description": "Campaign Phishing Security QR Code Scanned Count KMSAT.CampaignPST.reported_count Campaign Phishing Security Reported Count",
+      "name": "KMSAT.CampaignPST.qr_code_scanned_count",
+      "required": ""
+    },
+    {
+      "description": "Campaign Phishing Security Bounced Count Edit this page Report an Issue",
+      "name": "KMSAT.CampaignPST.bounced_count",
+      "required": ""
+    },
+    {
+      "description": "\u00ab KnowBe4 KMSAT Event Collector Next KOI \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands kmsat-account-info-list kmsat-account-risk-score-history",
+      "name": "Configuration",
+      "required": ""
+    },
+    {
+      "description": "kmsat-account-risk-score-history kmsat-groups-risk-score-history kmsat-groups-members",
+      "name": "kmsat-groups-list",
+      "required": ""
+    },
+    {
+      "description": "kmsat-phishing-security-tests kmsat-phishing-security-tests-recipients kmsat-phishing-security-tests-failed-recipients",
+      "name": "kmsat-users-risk-score-history",
+      "required": ""
+    },
+    {
+      "description": "kmsat-training-campaigns kmsat-training-enrollments kmsat-user-event-list",
+      "name": "kmsat-phishing-campaign-security-tests",
+      "required": ""
+    },
+    {
+      "description": "kmsat-user-event-types-list kmsat-user-event-create kmsat-user-event-delete",
+      "name": "kmsat-user-events-list",
+      "required": ""
+    },
+    {
+      "description": "kmsat-user-event-statuses-list kmsat-phishing-campaigns-security-tests-list Docs",
+      "name": "kmsat-user-event-status-list",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "KnowBe4KMSAT",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/know-be4-kmsat"
+}

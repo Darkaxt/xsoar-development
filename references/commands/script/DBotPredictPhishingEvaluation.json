@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "d-bot-predict-phishing-evaluation"
+  ],
+  "arguments": [],
+  "description": "DBotPredictPhishingEvaluation | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DBotPredictPhishingEvaluation",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The precision score. Can be, 0-1. DBotPredictPhishingEvaluation.Recall The recall score. Can be, 0-1.",
+      "name": "DBotPredictPhishingEvaluation.Precision",
+      "required": ""
+    },
+    {
+      "description": "DBotPredictPhishingEvaluation.F1 The F1 score. Can be, 0-1. DBotPredictPhishingEvaluation.Size",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The test data size.",
+      "required": ""
+    },
+    {
+      "description": "Next DBotPredictPhishingWords \u00bb Script Data",
+      "name": "\u00ab DBotPredictOutOfTheBoxV2",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DBotPredictPhishingEvaluation",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/d-bot-predict-phishing-evaluation"
+}

@@ -1,0 +1,71 @@
+{
+  "aliases": [
+    "zip-file"
+  ],
+  "arguments": [],
+  "description": "ZipFile | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ZipFile",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The zipped file File.Name The full file name (including file extension).",
+      "name": "ZipFile.ZippedFile",
+      "required": ""
+    },
+    {
+      "description": "File.EntryID The ID for locating the file in the War Room. File.Size",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "File.MD5 The MD5 hash of the file. File.SHA1",
+      "name": "The size of the file in bytes.",
+      "required": ""
+    },
+    {
+      "description": "File.SHA256 The SHA1 hash of the file. File.SHA512",
+      "name": "The SHA1 hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "File.SSDeep The ssdeep hash of the file (same as displayed in file entries). File.Extension",
+      "name": "The SHA512 hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "File.Type The file type, as determined by libmagic (same as displayed in file entries). Troubleshooting",
+      "name": "The file extension, for example: 'xls'.",
+      "required": ""
+    },
+    {
+      "description": "https://en.wikipedia.org/wiki/ZIP_(file_format)#Encryption . Edit this page",
+      "name": "Because of security reasons we support only AES encryption which is not supported on the Windows OS without 3rd party unzip applications. For more information about the encryption methods, see",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab YaraScan Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "ZipStrings \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Troubleshooting",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ZipFile",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/zip-file"
+}

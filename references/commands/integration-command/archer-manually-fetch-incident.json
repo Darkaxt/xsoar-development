@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "\"Name\": \"Not Applicable Incident Response Procedures\",",
+  "examples": [
+    "Command Example\n!archer-manually-fetch-incident applicationId=433 incidentIds=227536\nRaw Output\n{\n\"details\": \"Incident Summary: inside_record_test_0_summary\",",
+    "!archer-manually-fetch-incident applicationId=433 incidentIds=227536\nRaw Output\n{\n\"details\": \"Incident Summary: inside_record_test_0_summary\","
+  ],
+  "kind": "integration-command",
+  "name": "archer-manually-fetch-incident",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

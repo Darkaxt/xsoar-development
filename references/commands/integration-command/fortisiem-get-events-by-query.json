@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "5. Get events using a query",
+  "examples": [
+    "Command Example\n!fortisiem-get-events-by-query query=`destIpAddr = 116.202.56.112 OR destIpAddr = 17.252.141.15` interval-type=Hourly report-window=17\nContext Example\n{\n\"FortiSIEM.Events\": [\n{\n\"Event Name\": \"Permitted traffic flow started\",\n\"Destination IP\": \"116.202.56.112\",",
+    "!fortisiem-get-events-by-query query=`destIpAddr = 116.202.56.112 OR destIpAddr = 17.252.141.15` interval-type=Hourly report-window=17\nContext Example\n{\n\"FortiSIEM.Events\": [\n{\n\"Event Name\": \"Permitted traffic flow started\",\n\"Destination IP\": \"116.202.56.112\",\n\"Incident ID\": null,"
+  ],
+  "kind": "integration-command",
+  "name": "fortisiem-get-events-by-query",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "FortiSIEM event type. FortiSIEM.Events.SourceCountry Event source country.",
+      "name": "FortiSIEM.Events.EventType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FortiSIEM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forti-siem"
+}

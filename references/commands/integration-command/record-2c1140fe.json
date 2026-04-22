@@ -1,0 +1,46 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "ThreatZone.Limits.Daily_Submission_Limit",
+  "examples": [
+    "Command Example\n#\ntz-get-result uuid=95b6bc52-d040-4d82-a98b-af6fd5f6feea\n(Sandbox)\ntz-get-result uuid=7ddad84a-7f9b-4b56-b8f4-914287a0a1a3\n(Static-Scan)\ntz-get-result uuid=1170250a-40ac-4b73-84f7-3c0b6026d8af\n(CDR)"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The owner e-mail of current plan. ThreatZone.Limits.API_Limit The remaining/total API request limits of the current plan.",
+      "name": "ThreatZone.Limits.E_Mail",
+      "required": ""
+    },
+    {
+      "description": "The remaining/total concurrent analysis limits of the current plan. ThreatZone.Limits.Daily_Submission_Limit The remaining/total daily submission limits of the current plan.",
+      "name": "ThreatZone.Limits.Concurrent_Limit",
+      "required": ""
+    },
+    {
+      "description": "Maximum upload size for the workspace plan (MiB). ThreatZone.Plan.Allowed_Extensions List",
+      "name": "ThreatZone.Plan.File_Size_Limit_MiB",
+      "required": ""
+    },
+    {
+      "description": "ThreatZone.Plan.Modules List Enabled ThreatZone modules for the workspace.",
+      "name": "The list of permitted file extensions for uploads.",
+      "required": ""
+    },
+    {
+      "description": "Full name of the authenticated user. ThreatZone.Metadata.Workspace Workspace identifier or name associated with the account.",
+      "name": "ThreatZone.Metadata.Full_Name",
+      "required": ""
+    },
+    {
+      "description": "Name of the active ThreatZone plan. ThreatZone.Metadata.Plan_Status Status of the active ThreatZone plan.",
+      "name": "ThreatZone.Metadata.Plan_Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatZone",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-zone"
+}

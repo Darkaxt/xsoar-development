@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "exabeam-platform-create-case-note",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Add a new note to the specified case.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "exabeam-platform-create-case-note",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next ExceedLMS IAM \u00bb Configure Exabeam Security Operations Platform in Cortex",
+      "name": "\u00ab Exabeam Data Lake",
+      "required": ""
+    },
+    {
+      "description": "exabeam-platform-event-search exabeam-platform-table-record-list exabeam-platform-table-record-create",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "exabeam-platform-context-table-delete exabeam-platform-context-table-list exabeam-platform-case-search",
+      "name": "exabeam-platform-alert-search",
+      "required": ""
+    },
+    {
+      "description": "exabeam-update-case-details exabeam-platform-list-case-notes exabeam-platform-create-case-note",
+      "name": "exabeam-platform-get-events",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Exabeam Security Operations Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/exabeam-sec-ops-platform"
+}

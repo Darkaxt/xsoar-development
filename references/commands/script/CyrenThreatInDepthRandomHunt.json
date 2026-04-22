@@ -1,0 +1,21 @@
+{
+  "aliases": [
+    "cyren-threat-in-depth-random-hunt"
+  ],
+  "arguments": [],
+  "description": "CyrenThreatInDepthRandomHunt | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CyrenThreatInDepthRandomHunt",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyrenThreatInDepthRandomHunt",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cyren-threat-in-depth-random-hunt"
+}

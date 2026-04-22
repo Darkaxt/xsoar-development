@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "This command is deprecated.",
+  "examples": [
+    "Command Example\n!recorded-future-get-alerts triggered_time=\"24 hours\"\nContext Example\n{\n\"RecordedFuture\": {\n\"Alert\": [\n{\n\"Status\": \"no-action\",",
+    "!recorded-future-get-alerts triggered_time=\"24 hours\"\nContext Example\n{\n\"RecordedFuture\": {\n\"Alert\": [\n{\n\"Status\": \"no-action\",\n\"Name\": \"DJIA Cyber - New references in 10 documents\","
+  ],
+  "kind": "integration-command",
+  "name": "recorded-future-get-alerts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alert ID RecordedFuture.Alert.Name Alert name",
+      "name": "RecordedFuture.Alert.ID",
+      "required": ""
+    },
+    {
+      "description": "Alert type RecordedFuture.Alert.Triggered date",
+      "name": "RecordedFuture.Alert.Type",
+      "required": ""
+    },
+    {
+      "description": "RecordedFuture.Alert.Status Alert status RecordedFuture.Alert.Assignee",
+      "name": "Alert triggered time",
+      "required": ""
+    },
+    {
+      "description": "Alert assignee RecordedFuture.Alert.Rule Alert rule name",
+      "name": "string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

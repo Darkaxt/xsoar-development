@@ -1,0 +1,88 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "Breaking changes from the previous version of this integration - MISP v3 Reputation commands Commands",
+      "name": "misp-search-attributes",
+      "required": ""
+    },
+    {
+      "description": "Additional Considerations for this version Indicator Scoring misp-update-attribute",
+      "name": "Arguments",
+      "required": ""
+    },
+    {
+      "description": "misp-publish-event misp-set-event-attributes misp-check-warninglist",
+      "name": "misp-delete-attribute",
+      "required": ""
+    },
+    {
+      "description": "misp-get-role-info misp-get-warninglists misp-change-warninglist",
+      "name": "misp-get-organization-info",
+      "required": ""
+    },
+    {
+      "description": "Docs",
+      "name": "misp-get-warninglist",
+      "required": ""
+    },
+    {
+      "description": "Indicator Scoring misp-update-attribute misp-delete-attribute",
+      "name": "Additional Considerations for this version",
+      "required": ""
+    },
+    {
+      "description": "misp-set-event-attributes misp-check-warninglist misp-get-organization-info",
+      "name": "misp-publish-event",
+      "required": ""
+    },
+    {
+      "description": "misp-get-warninglists misp-change-warninglist misp-get-warninglist",
+      "name": "misp-get-role-info",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Docs",
+      "required": ""
+    }
+  ],
+  "description": "Get a specific warninglist by its ID.",
+  "examples": [
+    "Command Example\n#\n!misp-get-warninglist id=1234\nContext Example\n#\n{\n\"MISP\"\n:",
+    "!misp-get-warninglist id=1234\nContext Example\n#\n{\n\"MISP\"\n:\n{\n\"Warninglist\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the warninglist. MISP.Warninglist.Name The warninglist's name.",
+      "name": "MISP.Warninglist.ID",
+      "required": ""
+    },
+    {
+      "description": "MISP warninglist type. MISP.Warninglist.Description Description of the warninglist.",
+      "name": "MISP.Warninglist.Type",
+      "required": ""
+    },
+    {
+      "description": "The warninglist version number. MISP.Warninglist.Enabled Whether the warninglist is enabled.",
+      "name": "MISP.Warninglist.Version",
+      "required": ""
+    },
+    {
+      "description": "Whether the warninglist is set as default. MISP.Warninglist.Category The category of the MISP warninglist.",
+      "name": "MISP.Warninglist.Default",
+      "required": ""
+    },
+    {
+      "description": "The warninglist entries. MISP.Warninglist.Attributes The valid attribute types for this warninglist.",
+      "name": "MISP.Warninglist.Entries",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MISP v3",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/misp-v3"
+}

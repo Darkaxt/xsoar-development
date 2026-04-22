@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "panorama-security-policy-match-wrapper"
+  ],
+  "arguments": [],
+  "description": "PanoramaSecurityPolicyMatchWrapper | Cortex XSOAR",
+  "examples": [
+    "!PanoramaSecurityPolicyMatchWrapper destination=2.2.2.2 source=1.1.1.1,8.8.8.8 protocol=1\nContext Example\n#\n{\n\"Panorama\"\n:\n{\n\"SecurityPolicyMatch\""
+  ],
+  "kind": "script",
+  "name": "PanoramaSecurityPolicyMatchWrapper",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The matching rule name. Panorama.SecurityPolicyMatch.Rules.Action The matching rule action.",
+      "name": "Panorama.SecurityPolicyMatch.Rules.Name",
+      "required": ""
+    },
+    {
+      "description": "Panorama.SecurityPolicyMatch.Rules.Category The matching rule category. Panorama.SecurityPolicyMatch.Rules.Destination",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Panorama.SecurityPolicyMatch.Rules.From The matching rule from zone. Panorama.SecurityPolicyMatch.Rules.Source",
+      "name": "The matching rule destination.",
+      "required": ""
+    },
+    {
+      "description": "Panorama.SecurityPolicyMatch.Rules.To The matching rule to zone. Script Examples",
+      "name": "The matching rule source.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!PanoramaSecurityPolicyMatchWrapper destination=2.2.2.2 source=1.1.1.1,8.8.8.8 protocol=1",
+      "required": ""
+    },
+    {
+      "description": "\"Panorama\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"Rules\"",
+      "name": "\"SecurityPolicyMatch\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"Action\" :",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ", \"Category\" :",
+      "name": "\"deny\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Destination\" :",
+      "name": "\"any\"",
+      "required": ""
+    },
+    {
+      "description": ", \"From\" :",
+      "name": "\"2.2.2.2\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Name\" :",
+      "name": "\"any\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Source\" :",
+      "name": "\"test rule\"",
+      "required": ""
+    },
+    {
+      "description": ", \"To\" :",
+      "name": "\"1.1.1.1\"",
+      "required": ""
+    },
+    {
+      "description": "} } }",
+      "name": "\"any\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PanoramaSecurityPolicyMatchWrapper",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/panorama-security-policy-match-wrapper"
+}

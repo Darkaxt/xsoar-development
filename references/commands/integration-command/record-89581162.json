@@ -1,0 +1,81 @@
+{
+  "aliases": [
+    "https://apidocs.securitycloud.symantec.com/"
+  ],
+  "arguments": [],
+  "description": "Command cancel_command not supported for target command type.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Score The actual score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Reliability of the source providing the intelligence data. File.MD5 MD5 hash of the file submitted for analysis.",
+      "name": "DBotScore.Reliability",
+      "required": ""
+    },
+    {
+      "description": "SHA1 hash of the file submitted for analysis. File.SHA256 SHA256 hash of the file submitted for analysis.",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Symantec Email Security Cloud",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Symantec Endpoint Protection v2 \u00bb Configure Symantec Endpoint Detection and Response (EDR) - On Prem in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "symantec-edr-domain-file-association-list symantec-edr-endpoint-domain-association-list symantec-edr-endpoint-file-association-list",
+      "name": "symantec-edr-endpoint-isolate",
+      "required": ""
+    },
+    {
+      "description": "symantec-edr-endpoint-instance-list symantec-edr-file-instance-list symantec-edr-system-activity-list",
+      "name": "symantec-edr-domain-instance-list",
+      "required": ""
+    },
+    {
+      "description": "symantec-edr-event-list symantec-edr-incident-event-list symantec-edr-incident-list",
+      "name": "symantec-edr-audit-event-list",
+      "required": ""
+    },
+    {
+      "description": "symantec-edr-deny-list-policy-get symantec-edr-allow-list-policy-get symantec-edr-incident-update",
+      "name": "symantec-edr-incident-comment-get",
+      "required": ""
+    },
+    {
+      "description": "symantec-edr-endpoint-rejoin symantec-edr-endpoint-delete-file symantec-edr-endpoint-cancel-command",
+      "name": "symantec-edr-endpoint-status",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "file",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Endpoint Detection and Response (EDR) - On Prem",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-edr"
+}

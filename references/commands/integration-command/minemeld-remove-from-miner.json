@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "!minemeld-add-to-miner miner=Supicious indicator=7.7.7.7\nWar Room Output\n2. Remove an indicator from a miner\nRemoves a specified indicator from a specified miner.\nBase Command\nminemeld-remove-from-miner\nInput\nArgument Name",
+    "!minemeld-remove-from-miner miner=Suspicious indicator=7.7.7.7\nWar Room Output\n3. Get miner details\nRetrieves information about a specified miner.\nBase Code\nminemeld-retrieve-miner\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "minemeld-remove-from-miner",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Entire miner object MineMeld.Miner.name Miner name",
+      "name": "MineMeld.Miner",
+      "required": ""
+    },
+    {
+      "description": "Miner class MineMeld.Indicators Entire indicator object",
+      "name": "MineMeld.Miner.class",
+      "required": ""
+    },
+    {
+      "description": "Miner of indicator MineMeld.Indicators.type Indicator type",
+      "name": "MineMeld.Indicators.miner",
+      "required": ""
+    },
+    {
+      "description": "Indicator value MineMeld.Indicators.comment",
+      "name": "MineMeld.Indicators.indicator",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks MineMeld (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-minemeld"
+}

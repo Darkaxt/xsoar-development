@@ -1,0 +1,184 @@
+{
+  "aliases": [
+    "pre-process-image"
+  ],
+  "arguments": [],
+  "description": "PreProcessImage | Cortex XSOAR",
+  "examples": [
+    "!PreProcessImage action=sharpened file_entry_id=<file_entry_id_example> image_resize_height=1700\nContext Example\n#\n{\n\"File\"\n:\n{\n\"EntryID\"",
+    "!PreProcessImage action=original file_entry_id=<file_entry_id_example> image_resize_height=1700 image_resize_width=500\nContext Example\n#\n{\n\"File\"\n:\n{\n\"EntryID\""
+  ],
+  "kind": "script",
+  "name": "PreProcessImage",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The entryID of the created file. PreProcessImage.action The action that was performed.",
+      "name": "PreProcessImage.file_entry_id_new",
+      "required": ""
+    },
+    {
+      "description": "Script Examples",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!PreProcessImage action=sharpened file_entry_id=<file_entry_id_example> image_resize_height=1700",
+      "required": ""
+    },
+    {
+      "description": "\"File\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": \"<EntryIDExample>\" ,",
+      "name": "\"EntryID\"",
+      "required": ""
+    },
+    {
+      "description": ": \"image/jpeg\" ,",
+      "name": "\"Info\"",
+      "required": ""
+    },
+    {
+      "description": ": \"<MD5Example>\" ,",
+      "name": "\"MD5\"",
+      "required": ""
+    },
+    {
+      "description": ": \"sharpened_IMG_3092\" ,",
+      "name": "\"Name\"",
+      "required": ""
+    },
+    {
+      "description": ": \"<SHA1Example>\" ,",
+      "name": "\"SHA1\"",
+      "required": ""
+    },
+    {
+      "description": ": \"<SHA256Example>\" ,",
+      "name": "\"SHA256\"",
+      "required": ""
+    },
+    {
+      "description": ": \"<SHA512Example>\" ,",
+      "name": "\"SHA512\"",
+      "required": ""
+    },
+    {
+      "description": ": \"24576:<SSDeepExample>\" ,",
+      "name": "\"SSDeep\"",
+      "required": ""
+    },
+    {
+      "description": ": 795730 ,",
+      "name": "\"Size\"",
+      "required": ""
+    },
+    {
+      "description": ": \"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 3024x1700, components 3\" }",
+      "name": "\"Type\"",
+      "required": ""
+    },
+    {
+      "description": "Example command",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!PreProcessImage action=original file_entry_id=<file_entry_id_example> image_resize_height=1700 image_resize_width=500",
+      "required": ""
+    },
+    {
+      "description": "\"File\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": \"<EntryIDExample>\" ,",
+      "name": "\"EntryID\"",
+      "required": ""
+    },
+    {
+      "description": ": \"image/jpeg\" ,",
+      "name": "\"Info\"",
+      "required": ""
+    },
+    {
+      "description": ": \"<MD5Example>\" ,",
+      "name": "\"MD5\"",
+      "required": ""
+    },
+    {
+      "description": ": \"original_IMG_3092\" ,",
+      "name": "\"Name\"",
+      "required": ""
+    },
+    {
+      "description": ": \"<SHA1Example>\" ,",
+      "name": "\"SHA1\"",
+      "required": ""
+    },
+    {
+      "description": ": \"<SHA256Example>\" ,",
+      "name": "\"SHA256\"",
+      "required": ""
+    },
+    {
+      "description": ": \"<SHA512Example>\" ,",
+      "name": "\"SHA512\"",
+      "required": ""
+    },
+    {
+      "description": ": \"3072:<SSDeepExample>\" ,",
+      "name": "\"SSDeep\"",
+      "required": ""
+    },
+    {
+      "description": ": 186613 ,",
+      "name": "\"Size\"",
+      "required": ""
+    },
+    {
+      "description": ": \"JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 500x1700, components 3\" }",
+      "name": "\"Type\"",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Next PrettyPrint \u00bb Script Data",
+      "name": "\u00ab PreprocessEmail",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example Example command",
+      "name": "Script Examples",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Context Example",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PreProcessImage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/pre-process-image"
+}

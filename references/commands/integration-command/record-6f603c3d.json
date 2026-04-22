@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "opencti-reset-fetch-indicators",
+  "examples": [
+    "Command Example\n#\n!opencti-reset-fetch-indicators\nContext Example\n#\n{}\nHuman Readable Output\n#",
+    "!opencti-reset-fetch-indicators\nContext Example\n#\n{}\nHuman Readable Output\n#\nFetch history deleted successfully\nEdit this page"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OpenCTI Feed 3.X (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/open-cti-feed"
+}

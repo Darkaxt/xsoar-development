@@ -1,0 +1,49 @@
+{
+  "aliases": [
+    "read-processes-file-xdr"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "ReadProcessesFileXDR | Cortex XSOAR",
+  "examples": [
+    "!ReadProcessesFileXDR\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nName"
+  ],
+  "kind": "script",
+  "name": "ReadProcessesFileXDR",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Examples",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!ReadProcessesFileXDR",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ReadProcessesFileXDR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/read-processes-file-xdr"
+}

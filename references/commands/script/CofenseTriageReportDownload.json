@@ -1,0 +1,173 @@
+{
+  "aliases": [
+    "cofense-triage-report-download"
+  ],
+  "arguments": [],
+  "description": "CofenseTriageReportDownload | Cortex XSOAR",
+  "examples": [
+    "!CofenseTriageReportDownloadScript email=dummy@xyz.com\nContext Example\n#\n{\n\"File\"\n:\n[\n{"
+  ],
+  "kind": "script",
+  "name": "CofenseTriageReportDownload",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!CofenseTriageReportDownloadScript email=dummy@xyz.com",
+      "required": ""
+    },
+    {
+      "description": "\"File\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"EntryID\" : \"1234@4696afd6-8bfb-4487-89b3-a9aaaddfe5ee\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Extension\" : \"eml\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"Info\" : \"eml\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"MD5\" : \"bdb1234321a1ffb216d08e8159924f7f\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"Name\" : \"Report ID - 88.eml\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"SHA1\" : \"12a3456a627619f1d84c2385f73f31a38a3433c3\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"SHA256\" : \"1ca12345f004115c7df1ebeda1e34a76e8f460abd1eb507aa8bf47e1345345da\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"SHA512\" : \"4d6f4abc1f1a9f5cda9e21fdd174d83c92ab372c5b4b98411ad17105a65a5cd568bb4abf02ce4beb708c655a5c48f4d3fda9e2a4587f6eddde0683d504b169ab\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"SSDeep\" : \"123:Rro28+wIah4VuBoeSdYKQ3Xf1UXtoDLwKkZkR6klyqX9z6w6G:Zo1+xGRoeSn6Lwx+RhlyueG\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"Size\" : 45514",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"Type\" : \"ASCII text, with CRLF line terminators\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", { \"EntryID\"",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"1234@4696afd6-8bfb-4487-89b3-a9aaaddfe5ee\" , \"Extension\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"eml\" , \"Info\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"eml\" , \"MD5\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"123456f995bad5f8ffbca6f3336e0f74\" , \"Name\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"Report ID - 253.eml\" , \"SHA1\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"7d12345c4ac51998dfdb465fde3188f11d62f930\" , \"SHA256\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"0f52e1234ccf44f118c13e000683f4b0355232f72c72a7bd306ff875667f8735\" , \"SHA512\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"0a4c123ab97a6852bdea86605041e48c176059e830c3642f388ae99251f3c90947c24e3f5ec9a8dde86ed17ccb60b549640b899aae4b29ef77727e97d87ca464\" , \"SSDeep\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"123:b254wJVFXVW2P/B/5mwwjekJYv3XDe4PYAuRAQt/M:bO/tw3GXJx96E\" , \"Size\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "15771 , \"Type\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"ASCII text, with CRLF line terminators\" } ]",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Next CofenseTriageThreatEnrichment \u00bb Script Data",
+      "name": "\u00ab Code42FileEventsToMarkdownTable",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Context Example Docs Developer Docs",
+      "name": "Script Example",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CofenseTriageReportDownload",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cofense-triage-report-download"
+}

@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "\"name\":\"WIN-0VJ9RO3P33Q\",",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "cylance-protect-get-indicators-report",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is not context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

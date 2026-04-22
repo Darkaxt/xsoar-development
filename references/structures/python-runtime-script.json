@@ -1,0 +1,23 @@
+{
+  "artifact_type": "python-runtime-script",
+  "classifier": {
+    "path_hints": [
+      "Scripts/<ScriptName>/<ScriptName>.py"
+    ],
+    "top_level_fields": []
+  },
+  "do": [
+    "Preserve XSOAR runtime imports.",
+    "Use local stubs for tests when needed."
+  ],
+  "do_not": [
+    "Do not delete XSOAR imports because local Python cannot import them."
+  ],
+  "runtime_imports": [
+    "demistomock",
+    "CommonServerPython"
+  ],
+  "synthetic_examples": [
+    "ExampleDetectionPack/Scripts/NormalizeAlert/NormalizeAlert.py"
+  ]
+}

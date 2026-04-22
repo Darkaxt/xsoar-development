@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!recorded-future-get-domain-risklist list=historicalThreatListMembership\nContext Example\n{\n\"InfoFile\": {\n\"Info\": \"text/csv; charset=utf-8\",\n\"Name\": \"domain_risk_list.csv\",\n\"Extension\": \"csv\",",
+    "!recorded-future-get-domain-risklist list=historicalThreatListMembership\nContext Example\n{\n\"InfoFile\": {\n\"Info\": \"text/csv; charset=utf-8\",\n\"Name\": \"domain_risk_list.csv\",\n\"Extension\": \"csv\",\n\"EntryID\": \"72047@cc00e449-9e7b-4609-8a68-1c8c01114562\","
+  ],
+  "kind": "integration-command",
+  "name": "recorded-future-get-domain-risklist",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File name InfoFile.EntryID The EntryID of the file",
+      "name": "InfoFile.Name",
+      "required": ""
+    },
+    {
+      "description": "File size InfoFile.Type File type, e.g., \u201cPE\u201d",
+      "name": "InfoFile.Size",
+      "required": ""
+    },
+    {
+      "description": "Basic information of the file InfoFile.Extension File extension",
+      "name": "InfoFile.Info",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

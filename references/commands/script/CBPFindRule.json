@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "cbp-find-rule"
+  ],
+  "arguments": [],
+  "description": "CBPFindRule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CBPFindRule",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next CBSensors \u00bb Script Data",
+      "name": "\u00ab CBPFindComputer",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CBPFindRule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cbp-find-rule"
+}

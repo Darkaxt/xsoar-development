@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The last update date of the adversary.",
+  "examples": [
+    "Command Example\n!threatq-edit-adversary id=23 name=\"New Adversary Name\"\nHuman Readable Output\n25. Edit an indicator\nUpdates an indicator in ThreatQ.\nBase Command\nthreatq-edit-indicator\nInput",
+    "!threatq-edit-adversary id=23 name=\"New Adversary Name\"\nHuman Readable Output\n25. Edit an indicator\nUpdates an indicator in ThreatQ.\nBase Command\nthreatq-edit-indicator\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-edit-indicator",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the indicator. ThreatQ.Indicator.Source.ID The source ID of the indicator.",
+      "name": "ThreatQ.Indicator.ID",
+      "required": ""
+    },
+    {
+      "description": "The source name of the indicator. ThreatQ.Indicator.Attribute.ID The attribute ID of the indicator.",
+      "name": "ThreatQ.Indicator.Source.Name",
+      "required": ""
+    },
+    {
+      "description": "The attribute name of the indicator. ThreatQ.Indicator.Attribute.Value The attribute value of the indicator.",
+      "name": "ThreatQ.Indicator.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "date The creation date of the indicator. ThreatQ.Indicator.UpdatedAt",
+      "name": "ThreatQ.Indicator.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "The last update date of the indicator. ThreatQ.Indicator.Description The description of the indicator.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "The value of the indicator. ThreatQ.Indicator.Status The status of the indicator.",
+      "name": "ThreatQ.Indicator.Value",
+      "required": ""
+    },
+    {
+      "description": "The type of the indicator. For example, IP Address. ThreatQ.Indicator.TQScore",
+      "name": "ThreatQ.Indicator.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

@@ -1,0 +1,76 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!msgraph-identity-audit-signin-event-get id=\"ed015f68-15ad-4375-9cad-16ec81880100\"\nContext Example\n#\n{\n\"MSGraphIdentity\"\n:\n{\n\"AuditLog\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Type Description MSGraphIdentity.AuditLog.signIns.appDisplayName",
+      "name": "Context Path",
+      "required": ""
+    },
+    {
+      "description": "App name displayed in the Microsoft Entra admin center. MSGraphIdentity.AuditLog.signIns.appId Unique GUID that represents the app ID in the Microsoft Entra ID.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "List of conditional access policies that the corresponding sign-in activity triggers. MSGraphIdentity.AuditLog.signIns.clientAppUsed Identifies the client used for the sign-in activity. Modern authentication clients include Browser, modern clients. Legacy authentication clients include Exchange ActiveSync, IMAP, MAPI, SMTP, POP, and other clients.",
+      "name": "MSGraphIdentity.AuditLog.signIns.appliedConditionalAccessPolicies",
+      "required": ""
+    },
+    {
+      "description": "Reports status of activated conditional access policy. Possible values are success, failure, notApplied, and unknownFutureValue. MSGraphIdentity.AuditLog.signIns.correlationId The request ID sent from the client when the sign-in is initiated. Used to troubleshoot sign-in activity.",
+      "name": "MSGraphIdentity.AuditLog.signIns.conditionalAccessStatus",
+      "required": ""
+    },
+    {
+      "description": "Date and time (UTC) the sign-in was initiated. MSGraphIdentity.AuditLog.signIns.deviceDetail Device information from where the sign-in occurred; includes device ID, operating system, and browser.",
+      "name": "MSGraphIdentity.AuditLog.signIns.createdDateTime",
+      "required": ""
+    },
+    {
+      "description": "Unique ID representing the sign-in activity. MSGraphIdentity.AuditLog.signIns.ipAddress IP address of the client used to sign in.",
+      "name": "MSGraphIdentity.AuditLog.signIns.id",
+      "required": ""
+    },
+    {
+      "description": "Indicates whether a sign-in is interactive. MSGraphIdentity.AuditLog.signIns.location Provides the city, state, and country code where the sign-in originated.",
+      "name": "MSGraphIdentity.AuditLog.signIns.isInteractive",
+      "required": ""
+    },
+    {
+      "description": "Name of the resource the user signed into. MSGraphIdentity.AuditLog.signIns.riskDetail The reason behind a specific state of a risky user, sign-in, or a risk event. The value none means that Microsoft Entra risk detection did not flag the user or the sign-in as a risky event so far.",
+      "name": "MSGraphIdentity.AuditLog.signIns.resourceDisplayName",
+      "required": ""
+    },
+    {
+      "description": "The list of risk event types associated with the sign-in. MSGraphIdentity.AuditLog.signIns.riskLevelAggregated Aggregated risk level. The value hidden means the user or sign-in wasn't enabled for Microsoft Entra ID Protection.",
+      "name": "MSGraphIdentity.AuditLog.signIns.riskEventTypes_v2",
+      "required": ""
+    },
+    {
+      "description": "Risk level during sign-in. The value hidden means the user or sign-in wasn't enabled for Microsoft Entra ID Protection. MSGraphIdentity.AuditLog.signIns.riskState Reports status of the risky user, sign-in, or a risk event.",
+      "name": "MSGraphIdentity.AuditLog.signIns.riskLevelDuringSignIn",
+      "required": ""
+    },
+    {
+      "description": "Sign-in status. Includes the error code and description of the error (if a sign-in failure occurs). MSGraphIdentity.AuditLog.signIns.userDisplayName Display name of the user that initiated the sign-in.",
+      "name": "MSGraphIdentity.AuditLog.signIns.status",
+      "required": ""
+    },
+    {
+      "description": "ID of the user that initiated the sign-in. MSGraphIdentity.AuditLog.signIns.userPrincipalName User principal name of the user that initiated the sign-in. This value is always in lowercase.",
+      "name": "MSGraphIdentity.AuditLog.signIns.userId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Entra ID Identity And Access",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-identityand-access"
+}

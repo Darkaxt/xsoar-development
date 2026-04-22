@@ -1,0 +1,53 @@
+{
+  "aliases": [
+    "bmc-helix-remedyforce-create-incident"
+  ],
+  "arguments": [],
+  "description": "BMCHelixRemedyforceCreateIncident | Cortex XSOAR",
+  "examples": [
+    "!BMCHelixRemedyforceCreateIncident client_id=0052w000004nuLjAAI using=BMCHelixRemedyforce_instance_jhanvi_acc\nContext Example\n#\n{\n\"BmcRemedyforce\": {\n\"Incident\": {\n\"CreatedDate\": \"2020-08-01 08:07:37\",\n\"Id\": \"a2U2w000000cRmqEAE\","
+  ],
+  "kind": "script",
+  "name": "BMCHelixRemedyforceCreateIncident",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Incident Id. BmcRemedyforce.Incident.Number Incident number.",
+      "name": "BmcRemedyforce.Incident.Id",
+      "required": ""
+    },
+    {
+      "description": "BmcRemedyforce.Incident.CreatedDate Creation date & time of Incident. Script Example",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!BMCHelixRemedyforceCreateIncident client_id=0052w000004nuLjAAI using=BMCHelixRemedyforce_instance_jhanvi_acc",
+      "required": ""
+    },
+    {
+      "description": "\"BmcRemedyforce\": { \"Incident\": { \"CreatedDate\": \"2020-08-01 08:07:37\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Number\": \"00000153\" } }",
+      "name": "\"Id\": \"a2U2w000000cRmqEAE\",",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BMCHelixRemedyforceCreateIncident",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/bmc-helix-remedyforce-create-incident"
+}

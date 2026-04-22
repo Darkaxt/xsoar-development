@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "publish-entries-to-context"
+  ],
+  "arguments": [],
+  "description": "PublishEntriesToContext | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PublishEntriesToContext",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The entries published to context. If the out key was not provided. Edit this page Report an Issue",
+      "name": "entries",
+      "required": ""
+    },
+    {
+      "description": "\u00ab PTEnrich Next PublishThreatIntelReport \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PublishEntriesToContext",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/publish-entries-to-context"
+}

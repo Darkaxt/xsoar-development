@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!tn-get-system-status\nContext Example\n{\n\"Tanium.Client\": [\n{\n\"ComputerId\": 9065264,\n\"FullVersion\": \"7.2.314.3476\",",
+    "!tn-get-system-status\nContext Example\n{\n\"Tanium.Client\": [\n{\n\"ComputerId\": 9065264,\n\"FullVersion\": \"7.2.314.3476\",\n\"HostName\": \"ec2amaz-kgmro60\","
+  ],
+  "kind": "integration-command",
+  "name": "tn-get-system-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The computer ID of the client. Tanium.Client.FullVersion The Tanium Client version.",
+      "name": "Tanium.Client.ComputerId",
+      "required": ""
+    },
+    {
+      "description": "The computer hostname. Tanium.Client.IpAddressClient The IP address of the client returned from a sensor on the client.",
+      "name": "Tanium.Client.HostName",
+      "required": ""
+    },
+    {
+      "description": "The IP address of the client that was recorded on the server during the last registration. Tanium.Client.LastRegistration Date",
+      "name": "Tanium.Client.IpAddressServer",
+      "required": ""
+    },
+    {
+      "description": "Tanium.Client.Status The status of the client. Can be: \"Blocked\", \"Leader\" \"Normal\", \"Slow link\".",
+      "name": "The most recent time that the client registered with the server.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

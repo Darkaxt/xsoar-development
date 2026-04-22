@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "VigilanteATI.WatchlistQueryToken",
+  "examples": [
+    "Command Example\n!vigilante-get-watchlist limit=\"1\"\nContext Example\n{\n\"VigilanteATI\": {\n\"Watchlist\": [\n{\n\"date added\": \"2018-06-19\",",
+    "!vigilante-get-watchlist limit=\"1\"\nContext Example\n{\n\"VigilanteATI\": {\n\"Watchlist\": [\n{\n\"date added\": \"2018-06-19\",\n\"date notified\": \"\","
+  ],
+  "kind": "integration-command",
+  "name": "vigilante-account-usage-info",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "InfoArmor VigilanteATI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/info-armor-vigilante-ati"
+}

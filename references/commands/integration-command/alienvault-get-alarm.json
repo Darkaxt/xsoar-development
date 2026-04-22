@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Organization: OOO Network of data-centers Selectel",
+  "examples": [
+    "Command Example\n!alienvault-get-alarm alarm_id=3194f0f5-0350-7a09-87b2-8fb20b963ed8\nContext Example\n{\n\"AlienVault.Alarm\": [\n{\n\"Source\": {\n\"Country\": [",
+    "!alienvault-get-alarm alarm_id=3194f0f5-0350-7a09-87b2-8fb20b963ed8\nContext Example\n{\n\"AlienVault.Alarm\": [\n{\n\"Source\": {\n\"Country\": [\n\"PL\""
+  ],
+  "kind": "integration-command",
+  "name": "alienvault-get-alarm",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alarm ID. AlienVault.Alarm.Priority Alarm priority.",
+      "name": "AlienVault.Alarm.ID",
+      "required": ""
+    },
+    {
+      "description": "Date Time the alarm occurred. AlienVault.Alarm.ReceivedTime",
+      "name": "AlienVault.Alarm.OccurredTime",
+      "required": ""
+    },
+    {
+      "description": "Time the alarm was received. AlienVault.Alarm.Source Alarm source object.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Alarm source IP address. AlienVault.Alarm.Source.Organization Source organization.",
+      "name": "AlienVault.Alarm.Source.IPAddress",
+      "required": ""
+    },
+    {
+      "description": "Source country. AlienVault.Alarm.Destination Alarm destination object.",
+      "name": "AlienVault.Alarm.Source.Country",
+      "required": ""
+    },
+    {
+      "description": "Alarm destination IP address. AlienVault.Alarm.RuleAttackID Rule attack ID.",
+      "name": "AlienVault.Alarm.Destination.IPAddress",
+      "required": ""
+    },
+    {
+      "description": "Rule strategy. AlienVault.Alarm.RuleIntent Rule intent.",
+      "name": "AlienVault.Alarm.RuleStrategy",
+      "required": ""
+    },
+    {
+      "description": "Rule ID. AlienVault.Alarm.RuleDictionary Rule dictionary.",
+      "name": "AlienVault.Alarm.RuleID",
+      "required": ""
+    },
+    {
+      "description": "Rule method. AlienVault.Alarm.RuleAttackTactic Rule attack tactic.",
+      "name": "AlienVault.Alarm.RuleMethod",
+      "required": ""
+    },
+    {
+      "description": "Rule attack technique.",
+      "name": "AlienVault.Alarm.RuleAttackTechnique",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AlienVault USM Anywhere",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/alien-vault-usm-anywhere"
+}

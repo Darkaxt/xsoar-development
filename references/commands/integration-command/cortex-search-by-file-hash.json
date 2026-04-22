@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "4. Query the Cortex logging service",
+  "examples": [
+    "Command Example\n!cortex-search-by-file-hash SHA256=503ca1a4fc0d48b18c0336f544ba0f0abf305ae3a3f49b3c2b86b8645d6572dc\nContext Example\n{\n\"Cortex\": {\n\"Logging\": [\n{\n\"SHA256\": \"503ca1a4fc0d48b18c0336f544ba0f0abf305ae3a3f49b3c2b86b8645d6572dc\",",
+    "!cortex-search-by-file-hash SHA256=503ca1a4fc0d48b18c0336f544ba0f0abf305ae3a3f49b3c2b86b8645d6572dc\nContext Example\n{\n\"Cortex\": {\n\"Logging\": [\n{\n\"SHA256\": \"503ca1a4fc0d48b18c0336f544ba0f0abf305ae3a3f49b3c2b86b8645d6572dc\",\n\"action\": \"allow\","
+  ],
+  "kind": "integration-command",
+  "name": "cortex-search-by-file-hash",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Log ID Cortex.Logging.score Log score",
+      "name": "Cortex.Logging.id",
+      "required": ""
+    },
+    {
+      "description": "Log action Cortex.Logging.app Log app",
+      "name": "Cortex.Logging.action",
+      "required": ""
+    },
+    {
+      "description": "The protocol used Cortex.Logging.dst Destination IP",
+      "name": "Cortex.Logging.proto",
+      "required": ""
+    },
+    {
+      "description": "Rule used Cortex.Logging.src The source of the action",
+      "name": "Cortex.Logging.rule",
+      "required": ""
+    },
+    {
+      "description": "Application's category Cortex.Logging.srcloc Source location",
+      "name": "Cortex.Logging.category-of-app",
+      "required": ""
+    },
+    {
+      "description": "Destination location Cortex.Logging.characteristic-of-app Application's characteristics",
+      "name": "Cortex.Logging.dstloc",
+      "required": ""
+    },
+    {
+      "description": "Device name Cortex.Logging.nat Whether NAT was used",
+      "name": "Cortex.Logging.device_name",
+      "required": ""
+    },
+    {
+      "description": "NAT port Cortex.Logging.natdst NAT destination",
+      "name": "Cortex.Logging.natdport",
+      "required": ""
+    },
+    {
+      "description": "NAT source Cortex.Logging.risk-of-app Risk of application",
+      "name": "Cortex.Logging.natsrc",
+      "required": ""
+    },
+    {
+      "description": "Threat type Cortex.Logging.pcad_id Pcap ID",
+      "name": "Cortex.Logging.type",
+      "required": ""
+    },
+    {
+      "description": "Report ID Cortex.Logging.category-of-threatid Category of threat ID",
+      "name": "Cortex.Logging.reportid",
+      "required": ""
+    },
+    {
+      "description": "Threat sub-type Cortex.Logging.time_received Time received",
+      "name": "Cortex.Logging.subtype",
+      "required": ""
+    },
+    {
+      "description": "Pcap Cortex.Logging.name-of-threatid Name of threat ID",
+      "name": "Cortex.Logging.pcap",
+      "required": ""
+    },
+    {
+      "description": "Threat Severity",
+      "name": "Cortex.Logging.severity",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Cortex (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-cortex"
+}

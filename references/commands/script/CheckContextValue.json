@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "check-context-value"
+  ],
+  "arguments": [],
+  "description": "CheckContextValue | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CheckContextValue",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Key Name CheckContextKey.exists.exists Whether the Key Exists.",
+      "name": "CheckContextKey.name",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next CheckDockerImageAvailable \u00bb Script Data",
+      "name": "\u00ab ChangeRemediationSLAOnSevChange",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CheckContextValue",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/check-context-value"
+}

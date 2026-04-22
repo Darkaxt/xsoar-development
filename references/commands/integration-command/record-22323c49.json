@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "xdr-xql-library-delete",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Deletes XQL queries from the library.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "xdr-xql-library-delete",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Cortex Xpanse \u00bb Configure Cortex XDR - XQL Query Engine in Cortex",
+      "name": "\u00ab Cortex XDR - IR CTF",
+      "required": ""
+    },
+    {
+      "description": "xdr-xql-generic-query xdr-xql-get-quota xdr-xql-get-query-results",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "xdr-xql-process-event-query xdr-xql-dll-module-query General Results",
+      "name": "xdr-xql-file-event-query",
+      "required": ""
+    },
+    {
+      "description": "xdr-xql-registry-query xdr-xql-event-log-query xdr-xql-dns-query",
+      "name": "xdr-xql-network-connection-query",
+      "required": ""
+    },
+    {
+      "description": "xdr-xql-process-instance-network-activity-query xdr-xql-process-causality-network-activity-query xdr-xql-library-create",
+      "name": "xdr-xql-file-dropper-query",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "xdr-xql-library-delete",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cortex XDR - XQL Query Engine",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cortex-xdr---xql-query-engine"
+}

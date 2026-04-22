@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"Subject\": \"unbelievable\"",
+  "examples": [
+    "Command Example\n!rtir-resolve-ticket ticket-id=121\nRaw Output\nTicket 121 was closed successfully.\nContext Example\n{\n\"RTIR\":{\n\"Ticket\":{",
+    "!rtir-resolve-ticket ticket-id=121\nRaw Output\nTicket 121 was closed successfully.\nContext Example\n{\n\"RTIR\":{\n\"Ticket\":{\n\"ID\":\"121\","
+  ],
+  "kind": "integration-command",
+  "name": "rtir-resolve-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID. RTIR.Ticket.State Ticket state.",
+      "name": "RTIR.Ticket.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RTIR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rtir"
+}

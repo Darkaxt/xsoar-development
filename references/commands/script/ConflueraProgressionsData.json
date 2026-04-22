@@ -1,0 +1,33 @@
+{
+  "aliases": [
+    "confluera-progressions-data"
+  ],
+  "arguments": [],
+  "description": "ConflueraProgressionsData | Cortex XSOAR",
+  "examples": [
+    "!ConflueraProgressionsData\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious\n\u00ab ConflueraProgressionsCount\nNext"
+  ],
+  "kind": "script",
+  "name": "ConflueraProgressionsData",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "N/A N/A Script Example",
+      "name": "N/A",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "!ConflueraProgressionsData",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ConflueraProgressionsData",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/confluera-progressions-data"
+}

@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!threat-grid-search-ips tag=malicious\nHuman Readable Output\n22. Get annotation data for an analysis\nReturns data about the annotations of the analysis.\nBase Command\nthreat-grid-get-analysis-annotations\nInput",
+    "!threat-grid-search-ips tag=malicious\nHuman Readable Output\n22. Get annotation data for an analysis\nReturns data about the annotations of the analysis.\nBase Command\nthreat-grid-get-analysis-annotations\nInput\nArgument Name",
+    "Command Example\n!threat-grid-get-analysis-annotations id=9798717402a40970a2d043014d9a6170\nContext Example\n{\n\"ThreatGrid\": {\n\"AnalysisResults\": {\n\"Sample\": {\n\"Id\": {",
+    "!threat-grid-get-analysis-annotations id=9798717402a40970a2d043014d9a6170\nContext Example\n{\n\"ThreatGrid\": {\n\"AnalysisResults\": {\n\"Sample\": {\n\"Id\": {\n\"Annotations\": ["
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-analysis-annotations",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address present in the annotation ThreatGrid.AnalysisResults.Sample.Id.Annotations.IP.Asn Autonomous system number of the IP",
+      "name": "ThreatGrid.AnalysisResults.Sample.Id.Annotations.IP",
+      "required": ""
+    },
+    {
+      "description": "IP city ThreatGrid.AnalysisResults.Sample.Id.Annotations.IP.Country IP country",
+      "name": "ThreatGrid.AnalysisResults.Sample.Id.Annotations.IP.City",
+      "required": ""
+    },
+    {
+      "description": "IP Org ThreatGrid.AnalysisResults.Sample.Id.Annotations.IP.Region IP region",
+      "name": "ThreatGrid.AnalysisResults.Sample.Id.Annotations.IP.Org",
+      "required": ""
+    },
+    {
+      "description": "IP timestamp",
+      "name": "ThreatGrid.AnalysisResults.Sample.Id.Annotations.IP.Timestamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

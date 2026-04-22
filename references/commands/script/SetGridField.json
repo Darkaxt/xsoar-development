@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "set-grid-field"
+  ],
+  "arguments": [],
+  "description": "SetGridField | Cortex XSOAR",
+  "examples": [
+    "Command Example\n#\nAssume the following:\nEntry Context:\n{\n\"EWS\"\n:\n{",
+    "!\nSetGridField\ncolumns\n=\n\"columnheader1,columnheader2\"\ncontext_path\n=\nEWS.Items.HeadersMap",
+    "!\nSetGridField\ncolumns\n=\n\"columnheader1,columnheader2\"\ncontext_path\n=\nEWS.Items.headers",
+    "!SetGridField_CopyForInvestigation columns=`User id,Risk level,Score,Reasons` grid_id=xdrriskyusers context_path=`PaloAltoNetworksXDR.RiskyUser` keys=`id,risk_level,score,reasons` keys_from_nested=description,points,severity\nTroubleshooting\n#\nThe first time you run\nSetGridField\non a newly created grid field, you may see an error similar to the following:\nTo resolve the error:\nMake sure the grid field is associated with the incident type the field is being used in.",
+    "!setIncident <GRID_FIELD_NAME>=[]\nEdit this page\nReport an Issue\nPrevious\n\u00ab SetDateField\nNext\nSetIfEmpty \u00bb\nScript Data",
+    "Command Example\nTroubleshooting\nDocs\nDeveloper Docs\nBecome a Technology Partner\nSocial\nBlog\nCopyright \u00a9 2026 Palo Alto Networks, Inc."
+  ],
+  "kind": "script",
+  "name": "SetGridField",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SetGridField",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/set-grid-field"
+}

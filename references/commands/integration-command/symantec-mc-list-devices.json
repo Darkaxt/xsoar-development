@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get a list of tenants: symantec-mc-list-tenants",
+  "examples": [
+    "Command Example\nsymantec-mc-list-devices name=\"CONTAINS Blue Coat\"\nContext Example\n{\n\"SymantecMC.Device\": [\n{\n\"Host\": \"192.168.1.207\",\n\"UUID\": \"C131C3D1-171B-4DA7-ADE2-AA736EA91540\","
+  ],
+  "kind": "integration-command",
+  "name": "symantec-mc-list-devices",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Device UUID. SymantecMC.Device.Name Device name.",
+      "name": "SymantecMC.Device.UUID",
+      "required": ""
+    },
+    {
+      "description": "Date Device last changed date. SymantecMC.Device.Type",
+      "name": "SymantecMC.Device.LastChanged",
+      "required": ""
+    },
+    {
+      "description": "Device type. SymantecMC.Device.Host Device host address.",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-management-center"
+}

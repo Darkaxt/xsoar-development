@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Is the device associated with the specified email address in the allow list",
+  "examples": [
+    "Command Example\n!awake-query-devices startTime=\"2018-07-18T07:00:00Z\" endTime=\"2018-07-18T07:30:00Z\"\nHuman Readable Output\n2. Query activities\nQuery activities in Awake Security\nBase Command\nawake-query-activities\nInput",
+    "!awake-query-devices startTime=\"2018-07-18T07:00:00Z\" endTime=\"2018-07-18T07:30:00Z\"\nHuman Readable Output\n2. Query activities\nQuery activities in Awake Security\nBase Command\nawake-query-activities\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "awake-query-activities",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "UUID that uniquely identifies the activity AwakeSecurity.Activities.sessionId UUID that uniquely identifies the corresponding session",
+      "name": "AwakeSecurity.Activities.activityId",
+      "required": ""
+    },
+    {
+      "description": "IP address of the source AwakeSecurity.Activities.sourceHost Hostname of the source",
+      "name": "AwakeSecurity.Activities.sourceIP",
+      "required": ""
+    },
+    {
+      "description": "Port of the source AwakeSecurity.Activities.destinationIP IP address of the destination",
+      "name": "AwakeSecurity.Activities.sourcePort",
+      "required": ""
+    },
+    {
+      "description": "Hostname of the destination AwakeSecurity.Activities.destinationPort Port of the destination",
+      "name": "AwakeSecurity.Activities.destinationHost",
+      "required": ""
+    },
+    {
+      "description": "bool Do we know for sure which endpoint was the client? AwakeSecurity.Activities.activityDeviceName",
+      "name": "AwakeSecurity.Activities.directionKnown",
+      "required": ""
+    },
+    {
+      "description": "Device name for the endpoint within your network AwakeSecurity.Activities.activityStart Date when the activity began",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Date when the activity ended AwakeSecurity.Activities.protocols",
+      "name": "AwakeSecurity.Activities.activityEnd",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Awake Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/awake-security"
+}

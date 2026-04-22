@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Resets the fetch incidents last run value, which resets the fetch to its initial fetch state.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Cortex Xpanse Legacy (Deprecated) \u00bb Configure Cortex Xpanse in Cortex",
+      "name": "\u00ab Cortex XDR - XQL Query Engine",
+      "required": ""
+    },
+    {
+      "description": "asm-list-external-service asm-get-external-service asm-list-external-ip-address-range",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "asm-list-asset-internet-exposure asm-get-asset-internet-exposure asm-list-alerts",
+      "name": "asm-get-external-ip-address-range",
+      "required": ""
+    },
+    {
+      "description": "asm-tag-asset-assign asm-tag-asset-remove asm-tag-range-assign",
+      "name": "asm-get-attack-surface-rule",
+      "required": ""
+    },
+    {
+      "description": "asm-list-incidents asm-get-incident asm-update-incident",
+      "name": "asm-tag-range-remove",
+      "required": ""
+    },
+    {
+      "description": "ip domain asm-list-external-websites",
+      "name": "asm-update-alerts",
+      "required": ""
+    },
+    {
+      "description": "asm-reset-last-run Docs Developer Docs",
+      "name": "asm-add-note-to-asset",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cortex Xpanse",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cortex-xpanse"
+}

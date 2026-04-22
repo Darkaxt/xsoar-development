@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!get-modified-remote-data lastUpdate=\"3 days\"",
+  "examples": [
+    "Command Example\n#\n!get-modified-remote-data lastUpdate=\"3 days\"\ncofense-report-image-download\n#\nDownloads the image of the report that matches the specified report ID.\nBase Command\n#",
+    "!get-modified-remote-data lastUpdate=\"3 days\"\ncofense-report-image-download\n#\nDownloads the image of the report that matches the specified report ID.\nBase Command\n#\ncofense-report-image-download\nInput",
+    "Command Example\n#\n!cofense-report-image-download id=\"4\"\nContext Example\n#\n{\n\"InfoFile\"\n:",
+    "!cofense-report-image-download id=\"4\"\nContext Example\n#\n{\n\"InfoFile\"\n:\n{\n\"EntryID\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File name. InfoFile.EntryID The entry ID of the file.",
+      "name": "InfoFile.Name",
+      "required": ""
+    },
+    {
+      "description": "File size in bytes. InfoFile.Type The file type.",
+      "name": "InfoFile.Size",
+      "required": ""
+    },
+    {
+      "description": "File information. InfoFile.Extension File extension.",
+      "name": "InfoFile.Info",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cofense Triage v3",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cofense-triage-v3"
+}

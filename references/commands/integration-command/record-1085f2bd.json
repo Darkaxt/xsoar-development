@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Online platforms usernames",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Email addresses Account.IDs User IDs",
+      "name": "Account.Email.Address",
+      "required": ""
+    },
+    {
+      "description": "Addresses (geographic) Account.Names Full names",
+      "name": "Account.Addresses",
+      "required": ""
+    },
+    {
+      "description": "Phone numbers Account.Usernames Online platforms usernames",
+      "name": "Account.Phones",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Score The actual DBot score.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "Reliability of the source providing the intelligence data. Edit this page Report an Issue",
+      "name": "DBotScore.Reliability",
+      "required": ""
+    },
+    {
+      "description": "\u00ab PingOne Next Plain Text Feed \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands pipl-search email",
+      "name": "Configure Pipl in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Pipl",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/pipl"
+}

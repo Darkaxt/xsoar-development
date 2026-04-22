@@ -1,0 +1,119 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "slack-get-conversation-replies",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Known Limitations",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "channel as a parameter, it is now advised to use channel-id",
+      "name": "All commands which use",
+      "required": ""
+    },
+    {
+      "description": "the incident's context under the Slack.Channels.ID value. Using",
+      "name": "using the channel ID found in",
+      "required": ""
+    },
+    {
+      "description": "as opposed to channel will improve",
+      "name": "channel-id",
+      "required": ""
+    },
+    {
+      "description": "SlackV3 mirrors incidents by listening to messages being sent in channels the bot has been added to. Because of this, you may have some users in Slack who are not users in Cortex XSOAR. This will occasionally cause the module",
+      "name": "the performance of the integration.",
+      "required": ""
+    },
+    {
+      "description": "is expected and is purely cosmetic in nature. In some cases when mirroring an investigation, kicking the admin will cause no further actions to be able to be performed by the bot. Any subsequent actions taken on the channel (such as mirror out) will result in a \"not in",
+      "name": "health to indicate that an error has occurred because a user was unable to be found. In this circumstance, the error",
+      "required": ""
+    },
+    {
+      "description": "Note: If a dedicated channel is configured, however there are no notifications being sent, verify that the Types of Notifications",
+      "name": "channel\" error.",
+      "required": ""
+    },
+    {
+      "description": "mirror-investigation will only mirror chat messages between Cortex XSOAR and Slack. Images, threads, and files are not supported at this tme.",
+      "name": "to send parameter is populated.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Troubleshooting",
+      "required": ""
+    },
+    {
+      "description": ": The survey sent from SlackBlockBuilder is sent to Slack and submitted successfully, but the response does not show up in context data in Cortex XSOAR. Resolution",
+      "name": "Issue",
+      "required": ""
+    },
+    {
+      "description": "settings, or the API key was not created by the default admin user. Ensure that an API key created by a default admin user is entered into the Slack v3 integration instance settings. Also, make sure to mark the Trust any certificate (",
+      "name": ": The most likely cause is that there is no API key entered into the Slack v3 integration instance",
+      "required": ""
+    },
+    {
+      "description": "integration parameter. Edit this page Report an Issue",
+      "name": "not secure)",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Slack v2 (Deprecated) Next SlashNext Phishing Incident Response (Deprecated) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Caching Creating a Custom App Installing the App to Your Workspace",
+      "name": "Configure SlackV3 in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Backwards Compatibility with Slack V2 Commands mirror-investigation",
+      "name": "Testing the Bot",
+      "required": ""
+    },
+    {
+      "description": "close-channel slack-send-file slack-set-channel-topic",
+      "name": "send-notification",
+      "required": ""
+    },
+    {
+      "description": "slack-invite-to-channel slack-kick-from-channel slack-rename-channel",
+      "name": "slack-create-channel",
+      "required": ""
+    },
+    {
+      "description": "slack-edit-message slack-pin-message slack-get-integration-context",
+      "name": "slack-get-user-details",
+      "required": ""
+    },
+    {
+      "description": "slack-list-channels slack-get-conversation-history slack-get-conversation-replies",
+      "name": "slack-user-session-reset",
+      "required": ""
+    },
+    {
+      "description": "Troubleshooting Docs Developer Docs",
+      "name": "Known Limitations",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Slack v3",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slack-v3"
+}

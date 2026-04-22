@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!secure-works-get-tickets-ids\nContext Example\n{\n\"SecureWorks\": {\n\"IDs\": [\n\"SR11536914\",\n\"SR11536642\"",
+    "!secure-works-get-tickets-ids\nContext Example\n{\n\"SecureWorks\": {\n\"IDs\": [\n\"SR11536914\",\n\"SR11536642\""
+  ],
+  "kind": "integration-command",
+  "name": "secure-works-get-tickets-ids",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ticket IDs",
+      "name": "SecureWorks.IDs",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Dell Secureworks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dell-secureworks"
+}

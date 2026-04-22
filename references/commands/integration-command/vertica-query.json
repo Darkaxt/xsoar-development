@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "to validate the URLs, token, and connection.",
+  "examples": [
+    "Command Example\n!vertica-query query=\"SELECT * FROM system_tables ORDER BY table_schema, table_name LIMIT 5;\" limit=\"50\"\nContext Example\nVertica:{} 2 items\nQuery:SELECT * FROM system_tables ORDER BY table_schema, table_name LIMIT 5;\nRow:[] 5 items\n0:{} 8 items\nIsAccessibleDuringLockdown:false",
+    "!vertica-query query=\"SELECT * FROM system_tables ORDER BY table_schema, table_name LIMIT 5;\" limit=\"50\"\nContext Example\nVertica:{} 2 items\nQuery:SELECT * FROM system_tables ORDER BY table_schema, table_name LIMIT 5;\nRow:[] 5 items\n0:{} 8 items\nIsAccessibleDuringLockdown:false\nIsMonitorable:true"
+  ],
+  "kind": "integration-command",
+  "name": "vertica-query",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The original query. Vertica.Row The content of rows.",
+      "name": "Vertica.Query",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Vertica",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vertica"
+}

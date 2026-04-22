@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The asynchronous unique identifier of the task.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "checkpoint-show-hosts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Object name. Should be unique in domain Endpoint.UID The unique identifier of the object.",
+      "name": "Endpoint.Hostname",
+      "required": ""
+    },
+    {
+      "description": "The object type. Endpoint.Domain Information about the domain that the object belongs to.",
+      "name": "Endpoint.Type",
+      "required": ""
+    },
+    {
+      "description": "The object name. Should be unique in the domain. Endpoint.Domain.UID Object unique identifier",
+      "name": "Endpoint.Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Endpoint.Domain.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Check Point Firewall (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/check-point"
+}

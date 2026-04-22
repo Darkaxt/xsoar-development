@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Exodus Intelligence\u2019s EVE",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "New date data stream is set to. Edit this page Report an Issue",
+      "name": "ExodusVulnerabilityEnrichment.ResetDataStream.end_ts",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Exchange 2016 Compliance Search (Deprecated) Next Expanse (Deprecated) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "exodus-reset-data-stream",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Exodus Intelligence Vulnerabilities",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/exodus-intelligence-vulnerabilities"
+}

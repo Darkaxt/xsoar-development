@@ -1,0 +1,16 @@
+{
+  "artifact_type": "layout-json",
+  "classifier": {
+    "top_level_fields": [
+      "id",
+      "name",
+      "group"
+    ]
+  },
+  "do": [
+    "Preserve field references and tab structure unless the task changes layout behavior."
+  ],
+  "do_not": [
+    "Do not remove fields solely because one report marks them deprecated."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "4. Check if a URL is in MISP events",
+  "examples": [
+    "Command Example\n!url url=\"www.example.com\"\nContext Example\n{\n\"URL\": [\n{\n\"Malicious\": {\n\"Vendor\": \"MISP.ORGNAME\",",
+    "!url url=\"www.example.com\"\nContext Example\n{\n\"URL\": [\n{\n\"Malicious\": {\n\"Vendor\": \"MISP.ORGNAME\",\n\"Description\": \"IP Found in MISP event: 743\""
+  ],
+  "kind": "integration-command",
+  "name": "url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Bad URLs found. URL.Malicious.Vendor For malicious URLs, the vendor that made the decision.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the reason that the vendor made the decision. DBotScore.Indicator The indicator that was tested.",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MISP v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/misp-v2"
+}

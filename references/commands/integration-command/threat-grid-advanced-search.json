@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\nthreat-grid-submit-urls url=\"www.example.com\"\n41. Advanced search for URLs/Samples already submitted for analysis\nPerform advanced search on ThreatGrid\nBase Command\nthreat-grid-advanced-search\nInput\nArgument Name",
+    "Command Example\n!threat-grid-advanced-search query=\"{\n\\\"query\\\": \\\"query get_sample($q_json:\nString) {sample(, q_json: $q_json,limit: 3) {submitted_at id submitted_file_type status threat_score state login url}}\\\",\\\"variables\\\": {\\\"q_json\\\": \\\"{\\\\\\\"op\\\\\\\": \\\\\\\"and\\\\\\\",\\\\\\\"clauses\\\\\\\": [{\\\\\\\"op\\\\\\\": \\\\\\\"attr\\\\\\\",\\\\\\\"attr\\\\\\\": \\\\\\\"submitted_file_name\\\\\\\",\\\\\\\"comp_op\\\\\\\": \\\\\\\"eq\\\\\\\",\\\\\\\"value\\\\\\\": \\\\\\\"www.example.com_.url\\\\\\\"}]}\\\"}}\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab Cisco ThousandEyes",
+    "!threat-grid-advanced-search query=\"{\n\\\"query\\\": \\\"query get_sample($q_json:\nString) {sample(, q_json: $q_json,limit: 3) {submitted_at id submitted_file_type status threat_score state login url}}\\\",\\\"variables\\\": {\\\"q_json\\\": \\\"{\\\\\\\"op\\\\\\\": \\\\\\\"and\\\\\\\",\\\\\\\"clauses\\\\\\\": [{\\\\\\\"op\\\\\\\": \\\\\\\"attr\\\\\\\",\\\\\\\"attr\\\\\\\": \\\\\\\"submitted_file_name\\\\\\\",\\\\\\\"comp_op\\\\\\\": \\\\\\\"eq\\\\\\\",\\\\\\\"value\\\\\\\": \\\\\\\"www.example.com_.url\\\\\\\"}]}\\\"}}\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab Cisco ThousandEyes\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-advanced-search",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

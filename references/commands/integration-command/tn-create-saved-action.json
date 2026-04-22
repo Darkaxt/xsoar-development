@@ -1,0 +1,82 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "16. tn-create-saved-action",
+  "examples": [
+    "Command Example\n!tn-create-saved-action package-id=102 action-group-id=1\nContext Example\n{\n\"Tanium.SavedAction\": {\n\"ActionGroupId\": 1,\n\"ApprovedFlag\": false,\n\"ApproverId\": 0,",
+    "!tn-create-saved-action package-id=102 action-group-id=1\nContext Example\n{\n\"Tanium.SavedAction\": {\n\"ActionGroupId\": 1,\n\"ApprovedFlag\": false,\n\"ApproverId\": 0,\n\"CreationTime\": \"2019-11-27T15:06:18Z\","
+  ],
+  "kind": "integration-command",
+  "name": "tn-create-saved-action",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the group of clients to target. Tanium.SavedAction.ApprovedFlag Whether the saved action is approved. True is approved.",
+      "name": "Tanium.SavedAction.ActionGroupId",
+      "required": ""
+    },
+    {
+      "description": "The ID of the user to approve the saved action. Tanium.SavedAction.ApproverName The name of the user to approve the saved action.",
+      "name": "Tanium.SavedAction.ApproverId",
+      "required": ""
+    },
+    {
+      "description": "Date The date and time when this object was created in the database. Tanium.SavedAction.EndTime",
+      "name": "Tanium.SavedAction.CreationTime",
+      "required": ""
+    },
+    {
+      "description": "The date and time to stop issuing actions. Tanium.SavedAction.ExpireSeconds The duration from the start time before the action expires.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The unique ID of the saved_action object. Tanium.SavedAction.LastActionId The ID of the action object that was issued last.",
+      "name": "Tanium.SavedAction.ID",
+      "required": ""
+    },
+    {
+      "description": "Date The start time of the action object that was issued last. Tanium.SavedAction.LastAaction.TargetGroupId",
+      "name": "Tanium.SavedAction.LastActionStartTime",
+      "required": ""
+    },
+    {
+      "description": "The target group of the action object that was issued last. Tanium.SavedAction.LastStartTime Date",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Tanium.SavedAction.Name The name of the saved action object. Tanium.SavedAction.NextStartTime",
+      "name": "The most recent date and time that the action started.",
+      "required": ""
+    },
+    {
+      "description": "The next date and time when the action will start. Tanium.SavedAction.PackageId The ID of the package deployed by the saved action.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The name of the package deployed by the saved action. Tanium.SavedAction.PackageSourceHash The source hash of the package deployed by the saved action.",
+      "name": "Tanium.SavedAction.PackageName",
+      "required": ""
+    },
+    {
+      "description": "Date The date and time when the action became active. An empty string or null starts immediately. Tanium.SavedAction.Status",
+      "name": "Tanium.SavedAction.StartTime",
+      "required": ""
+    },
+    {
+      "description": "The status of the saved action. Can be: \"0\" for Enabled, \"1\" for Disabled, or \"2\" for Deleted. Tanium.SavedAction.TargetGroupId The group of machines to target.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The ID of the user who created the saved action. Tanium.SavedAction.UserName The ID of the user who created the saved action.",
+      "name": "Tanium.SavedAction.UserId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

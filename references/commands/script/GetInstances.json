@@ -1,0 +1,273 @@
+{
+  "aliases": [
+    "get-instances"
+  ],
+  "arguments": [],
+  "description": "GetInstances | Cortex XSOAR",
+  "examples": [
+    "!GetInstances\nContext Example\n#\n{\n\"Modules\"\n:\n[\n{"
+  ],
+  "kind": "script",
+  "name": "GetInstances",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The instance name. Modules.category The instance category.",
+      "name": "Modules.name",
+      "required": ""
+    },
+    {
+      "description": "Modules.defaultIgnored True if the instance avilable by default, otherwise false. Modules.state",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Modules.brand The instance brand. Script Example",
+      "name": "True if the instance is enabled, otherwise false.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!GetInstances",
+      "required": ""
+    },
+    {
+      "description": "\"Modules\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"brand\" : \"EWS v2\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"category\" : \"Messaging\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"defaultIgnored\" : \"false\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"name\" : \"EWS v2_instance_1\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"state\" : \"active\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", { \"brand\"",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"Elasticsearch v2\" , \"category\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"Database\" , \"defaultIgnored\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"false\" , \"name\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"Elasticsearch v2_instance_1\" , \"state\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"active\" } ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"brand\" : \"Elasticsearch v2\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"category\" : \"Database\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"defaultIgnored\" : \"false\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"name\" : \"Elasticsearch v2_instance_2\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"state\" : \"disabled\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", { \"brand\"",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"Rapid7 Nexpose\" , \"category\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"Vulnerability Management\" , \"defaultIgnored\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"false\" , \"name\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"Rapid7 Nexpose_instance_1\" , \"state\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"active\" } ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"brand\" : \"activedir-login\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"category\" : \"Messaging\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"defaultIgnored\" : \"false\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"name\" : \"ad-login\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"state\" : \"active\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", { \"brand\"",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"activedir\" , \"category\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"Data Enrichment & Threat Intelligence\" , \"defaultIgnored\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"false\" , \"name\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"ad-query\" , \"state\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"active\" } ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"brand\" : \"d2\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"category\" : \"Endpoint\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"defaultIgnored\" : \"false\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"name\" : \"d2\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"state\" : \"active\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", { \"brand\"",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"splunk\" , \"category\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"Analytics & SIEM\" , \"defaultIgnored\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"false\" , \"name\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"splunk\" , \"state\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"active\" } ]",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetInstances",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-instances"
+}

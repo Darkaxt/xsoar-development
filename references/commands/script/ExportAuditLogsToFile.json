@@ -1,0 +1,61 @@
+{
+  "aliases": [
+    "export-audit-logs-to-file"
+  ],
+  "arguments": [],
+  "description": "ExportAuditLogsToFile | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ExportAuditLogsToFile",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Outputs",
+      "name": "Type of File to return, either JSON, or CSV",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next ExportContextToJSONFile \u00bb Script Data",
+      "name": "\u00ab expire-password",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next ExportContextToJSONFile \u00bb Script Data",
+      "name": "\u00ab expire-password",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExportAuditLogsToFile",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/export-audit-logs-to-file"
+}

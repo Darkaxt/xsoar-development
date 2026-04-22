@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!cycognito-get-indicators asset_type=ip count=2\nHuman Readable Output\n#\nIndicator Detail\n#\nAsset type: IP\n#\nAsset ID"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyCognito Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/feed-cy-cognito"
+}

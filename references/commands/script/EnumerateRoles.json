@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "enumerate-roles"
+  ],
+  "arguments": [],
+  "description": "EnumerateRoles | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "EnumerateRoles",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Role name Roles.users List of users in the role",
+      "name": "Roles.role",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Next EPOFindSystem \u00bb Script Data",
+      "name": "\u00ab EntryWidgetUnusedRules",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EnumerateRoles",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/enumerate-roles"
+}

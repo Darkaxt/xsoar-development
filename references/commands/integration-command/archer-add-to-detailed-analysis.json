@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!archer-upload-file applicationId=433 contentId=227610 entryId=61@95",
+  "examples": [
+    "Command Example\n!archer-upload-file applicationId=433 contentId=227610 entryId=61@95\nRaw Output\nFile uploaded successfully.\nAdd data to the detailed analysis field\nAdds data to the detailed analysis field.\nBase Command\narcher-add-to-detailed-analysis",
+    "!archer-upload-file applicationId=433 contentId=227610 entryId=61@95\nRaw Output\nFile uploaded successfully.\nAdd data to the detailed analysis field\nAdds data to the detailed analysis field.\nBase Command\narcher-add-to-detailed-analysis\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "archer-add-to-detailed-analysis",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

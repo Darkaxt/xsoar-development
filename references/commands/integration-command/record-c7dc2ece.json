@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The total number of messages in the system that match the specified filter criteria.",
+  "examples": [
+    "Command Example\n#\n!microsoft-teams-send-proactive-message user_id=\"user@example.com\" message=\"Your file has been quarantined due to security concerns.\"\nHuman Readable Output\n#\nMessage was sent successfully.\nEdit this page\nReport an Issue",
+    "!microsoft-teams-send-proactive-message user_id=\"user@example.com\" message=\"Your file has been quarantined due to security concerns.\"\nHuman Readable Output\n#\nMessage was sent successfully.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Microsoft Sentinel"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the conversation created or used. MicrosoftTeams.Conversation.UserId The resolved user ID.",
+      "name": "MicrosoftTeams.Conversation.ConversationId",
+      "required": ""
+    },
+    {
+      "description": "The ID of the sent message activity. MicrosoftTeams.Conversation.UserIdentifier The original user identifier provided.",
+      "name": "MicrosoftTeams.Conversation.ActivityId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Teams",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-teams"
+}

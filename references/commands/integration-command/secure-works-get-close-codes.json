@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!secure-works-get-close-codes id=\"IN28468487\"\nContext Example\n{\n\"SecureWorks\": {\n\"Ticket\": {\n\"closeCodes\": [\n\"Mitigated by Security Controls\",",
+    "!secure-works-get-close-codes id=\"IN28468487\"\nContext Example\n{\n\"SecureWorks\": {\n\"Ticket\": {\n\"closeCodes\": [\n\"Mitigated by Security Controls\",\n\"Authorized/Expected\","
+  ],
+  "kind": "integration-command",
+  "name": "secure-works-get-close-codes",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID SecureWorks.Ticket.closeCodes Ticket close codes",
+      "name": "SecureWorks.Ticket.ticketID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Dell Secureworks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dell-secureworks"
+}

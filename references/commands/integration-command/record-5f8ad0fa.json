@@ -1,0 +1,129 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "VirusTotal.Submission.id",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The MD5 hash of the URL. VirusTotal.URL.attributes.favicon.dhash Difference hash.",
+      "name": "VirusTotal.URL.attributes.favicon.raw_md5",
+      "required": ""
+    },
+    {
+      "description": "The last HTTPS response length. VirusTotal.URL.attributes.last_http_response_headers.date Date",
+      "name": "VirusTotal.URL.attributes.last_http_response_content_length",
+      "required": ""
+    },
+    {
+      "description": "VirusTotal.URL.attributes.last_http_response_headers.x-sinkhole DNS sinkhole from last response. VirusTotal.URL.attributes.last_http_response_headers.content-length",
+      "name": "The last response header date.",
+      "required": ""
+    },
+    {
+      "description": "The content length of the last response. VirusTotal.URL.attributes.last_http_response_headers.content-type The content type of the last response.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The SHA-256 hash of the content of the last response. VirusTotal.URL.attributes.last_http_response_code Last response status code.",
+      "name": "VirusTotal.URL.attributes.last_http_response_content_sha256",
+      "required": ""
+    },
+    {
+      "description": "Last final URL. VirusTotal.URL.attributes.url The URL itself.",
+      "name": "VirusTotal.URL.attributes.last_final_url",
+      "required": ""
+    },
+    {
+      "description": "Title of the page. VirusTotal.URL.attributes.last_analysis_stats.harmless The number of engines that found the domain to be harmless.",
+      "name": "VirusTotal.URL.attributes.title",
+      "required": ""
+    },
+    {
+      "description": "The number of engines that found the indicator to be malicious. VirusTotal.URL.attributes.last_analysis_stats.suspicious The number of engines that found the indicator to be suspicious.",
+      "name": "VirusTotal.URL.attributes.last_analysis_stats.malicious",
+      "required": ""
+    },
+    {
+      "description": "The number of engines that could not detect the indicator. VirusTotal.URL.attributes.last_analysis_stats.timeout The number of engines that timed out for the indicator.",
+      "name": "VirusTotal.URL.attributes.last_analysis_stats.undetected",
+      "required": ""
+    },
+    {
+      "description": "Outgoing links of the URL page. VirusTotal.URL.type Type of the indicator (private_url).",
+      "name": "VirusTotal.URL.attributes.outgoing_links",
+      "required": ""
+    },
+    {
+      "description": "ID of the indicator. VirusTotal.URL.links.self Link to the response.",
+      "name": "VirusTotal.URL.id",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Viper",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "VirusTotal (Deprecated) \u00bb Configure VirusTotal (API v3) in Cortex Acquiring your API key",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Indicator Thresholds Rules Threshold Premium analysis - Relationship Files Threshold",
+      "name": "DBot Score / Reputation scores",
+      "required": ""
+    },
+    {
+      "description": "Reputation commands (ip, url, domain, and file) Comments vt-comments-get",
+      "name": "Changes from VirusTotal integration",
+      "required": ""
+    },
+    {
+      "description": "file url-scan vt-file-scan-upload-url",
+      "name": "Detonation (scan) Commands",
+      "required": ""
+    },
+    {
+      "description": "Commands ip url",
+      "name": "New Commands",
+      "required": ""
+    },
+    {
+      "description": "url-scan vt-comments-add vt-file-scan-upload-url",
+      "name": "domain",
+      "required": ""
+    },
+    {
+      "description": "vt-comments-get vt-comments-get-by-id vt-search",
+      "name": "vt-comments-delete",
+      "required": ""
+    },
+    {
+      "description": "vt-passive-dns-data vt-analysis-get vt-file-sigma-analysis",
+      "name": "vt-file-sandbox-report",
+      "required": ""
+    },
+    {
+      "description": "vt-privatescanning-file-scan vt-privatescanning-analysis-get VT indicator fields",
+      "name": "vt-privatescanning-file",
+      "required": ""
+    },
+    {
+      "description": "vt-privatescanning-url Docs Developer Docs",
+      "name": "vt-privatescanning-url-scan",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VirusTotal (API v3)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/virus-total-api-v3"
+}

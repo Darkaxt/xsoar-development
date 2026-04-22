@@ -1,0 +1,118 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "The following argument names were changed, added, or removed in this version",
+      "required": ""
+    },
+    {
+      "description": "Old Command Argument Name New Command Name copy-to",
+      "name": "Remote Access Command Name",
+      "required": ""
+    },
+    {
+      "description": "Argument was removed copy-from Argument did not exist",
+      "name": "fileID",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "file_name",
+      "required": ""
+    }
+  ],
+  "description": "The file corresponding to entry ID: 104@49493d71-eef6-4bb4-8075-4be38d9bc340 was copied to remote host",
+  "examples": [
+    "Command Example\n#\n!copy-from file_path=\"test/remote_file.txt\" file_name=\"CopiedRemoteFile\"\nContext Example\n#\n{\n\"File\"\n:",
+    "!copy-from file_path=\"test/remote_file.txt\" file_name=\"CopiedRemoteFile\"\nContext Example\n#\n{\n\"File\"\n:\n{\n\"EntryID\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The full file name (including the file extension). File.EntryID The ID for locating the file in the War Room.",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "The size of the file in bytes. File.MD5 The MD5 hash of the file.",
+      "name": "File.Size",
+      "required": ""
+    },
+    {
+      "description": "The SHA1 hash of the file. File.SHA256 The SHA256 hash of the file.",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "The SHA512 hash of the file. File.Extension The file extension. For example: \"xls\".",
+      "name": "File.SHA512",
+      "required": ""
+    },
+    {
+      "description": "The file type, as determined by libmagic (same as displayed in file entries).",
+      "name": "File.Type",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The following outputs were removed in this version",
+      "required": ""
+    },
+    {
+      "description": "Old Command Outputs Remote Access v2 Command Name New Command Outputs",
+      "name": "Remote Access Command Name",
+      "required": ""
+    },
+    {
+      "description": "Command outputs were: - command - stdout",
+      "name": "ssh",
+      "required": ""
+    },
+    {
+      "description": "- remote machine IP - success status ssh",
+      "name": "- stderr",
+      "required": ""
+    },
+    {
+      "description": "- stdout - stderr Edit this page",
+      "name": "Outputs:",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab Remote Access (Deprecated) Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure RemoteAccess v2 in Cortex Configure SSH From Remote Configure the instance with SSH certificate",
+      "name": "Resecurity Monitoring \u00bb",
+      "required": ""
+    },
+    {
+      "description": "ssh copy-to copy-from",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Commands",
+      "name": "Breaking changes from the previous version of this integration - RemoteAccess v2",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RemoteAccess v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/remote-access-v2"
+}

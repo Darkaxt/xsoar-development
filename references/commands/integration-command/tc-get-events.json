@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The group ID to which the attribute was added.",
+  "examples": [
+    "Command Example\n!tc-add-group-attribute attribute_type=\"EXTERNAL ID\" attribute_value=123456789 group_id=4406377 group_type=events\n24. Return a list of events\nReturns a list of events.\nBase Command\ntc-get-events\nContext Output\nPath",
+    "!tc-add-group-attribute attribute_type=\"EXTERNAL ID\" attribute_value=123456789 group_id=4406377 group_type=events\n24. Return a list of events\nReturns a list of events.\nBase Command\ntc-get-events\nContext Output\nPath\nType"
+  ],
+  "kind": "integration-command",
+  "name": "tc-get-events",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date The date on which the event was added. TC.Event.EventDate",
+      "name": "TC.Event.DateAdded",
+      "required": ""
+    },
+    {
+      "description": "The date on which the event occurred. TC.Event.ID The ID of the event.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The name of the owner of the event. TC.Event.Status",
+      "name": "TC.Event.OwnerName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

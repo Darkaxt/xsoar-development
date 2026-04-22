@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "bmc-tool"
+  ],
+  "arguments": [],
+  "description": "BMCTool | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "BMCTool",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Collage image of the tiles from the RDP session cache. Edit this page Report an Issue",
+      "name": "Collages",
+      "required": ""
+    },
+    {
+      "description": "\u00ab BMCHelixRemedyforceCreateServiceRequest Next BrandImpersonationDetection \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BMCTool",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/bmc-tool"
+}

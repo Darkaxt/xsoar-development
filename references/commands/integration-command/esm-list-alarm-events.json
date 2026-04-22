@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "19. Get an event list related to an alarm",
+  "examples": [
+    "Command Example\n!esm-list-alarm-events alarmId=\"24\"\nContext Example\n{\n\"EsmAlarmEvent\": [\n{\n\"DstIP\": \"192.168.1.25\",\n\"Severity\": 25,",
+    "!esm-list-alarm-events alarmId=\"24\"\nContext Example\n{\n\"EsmAlarmEvent\": [\n{\n\"DstIP\": \"192.168.1.25\",\n\"Severity\": 25,\n\"SubType\": \"failure\","
+  ],
+  "kind": "integration-command",
+  "name": "esm-list-alarm-events",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Event ID EsmAlarmEvent.SubType Event type",
+      "name": "EsmAlarmEvent.ID",
+      "required": ""
+    },
+    {
+      "description": "Event severity EsmAlarmEvent.Message Event message",
+      "name": "EsmAlarmEvent.Severity",
+      "required": ""
+    },
+    {
+      "description": "date Event time EsmAlarmEvent.SrcIP",
+      "name": "EsmAlarmEvent.LastTime",
+      "required": ""
+    },
+    {
+      "description": "Source IP of the event EsmAlarmEvent.DstIP Destination IP of the event",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "A list of related cases to the event EsmAlarmEvent.Cases.ID Case ID",
+      "name": "EsmAlarmEvent.Cases",
+      "required": ""
+    },
+    {
+      "description": "date Case creation time EsmAlarmEvent.Cases.Severity",
+      "name": "EsmAlarmEvent.Cases.OpenTime",
+      "required": ""
+    },
+    {
+      "description": "Case severity EsmAlarmEvent.Cases.Status Case status",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "Case summary",
+      "name": "EsmAlarmEvent.Cases.Summary",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v10 and v11 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v10"
+}

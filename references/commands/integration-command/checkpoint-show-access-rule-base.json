@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get all host objects: checkpoint-show-hosts",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "checkpoint-show-access-rule-base",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The object name. Should be unique in the domain. CheckpointFWRule.UID The unique identifier of the object.",
+      "name": "CheckpointFWRule.Name",
+      "required": ""
+    },
+    {
+      "description": "The object type. CheckpointFWRule.Action The level of detail returned depends on the \u201cdetails-level\u201d field of the request (Accept, Drop, Apply Layer, Ask, Info). This table shows the level of detail shown when \u201cdetails-level\u201d is set to standard.",
+      "name": "CheckpointFWRule.Type",
+      "required": ""
+    },
+    {
+      "description": "Action settings. CheckpointFWRule.CustomFields Custom fields.",
+      "name": "CheckpointFWRule.ActionSetting",
+      "required": ""
+    },
+    {
+      "description": "The level of detail returned depends on the \u201cdetails-level\u201d field of the request. This table shows the level of detail shown when \u201cdetails-level\u201d is set to standard. CheckpointFWRule.Data.Name The object name. Should be unique in the domain.",
+      "name": "CheckpointFWRule.Data",
+      "required": ""
+    },
+    {
+      "description": "The unique identifier of the object. CheckpointFWRule.Type The object type.",
+      "name": "CheckpointFWRule.UID",
+      "required": ""
+    },
+    {
+      "description": "Information about the domain that the object belongs to. CheckpointFWRule.DataDirection The direction the file types processing is applied to.",
+      "name": "CheckpointFWRule.Data.Domain",
+      "required": ""
+    },
+    {
+      "description": "\u201cTrue\u201d if negate is set for data. CheckpointFWRule.Destination Collection of network objects identified by the name or UID. The level of detail returned depends on the \u201cdetails-level\u201d field of the request. This table shows the level of detail shown when \u201cdetails-level\u201d is set to standard.",
+      "name": "CheckpointFWRule.DataNegate",
+      "required": ""
+    },
+    {
+      "description": "\u201cTrue\u201d if negate is set for the destination. CheckpointFWRule.Domain Information about the domain that the object belongs to.",
+      "name": "CheckpointFWRule.DestinationNegate",
+      "required": ""
+    },
+    {
+      "description": "The object name. Should be unique in the domain. CheckpointFWRule.Domain.UID The unique identifier of the object.",
+      "name": "CheckpointFWRule.Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "The domain type. CheckpointFWRule.Enabled Whether the rule is enabled or disabled.",
+      "name": "CheckpointFWRule.Domain.Type",
+      "required": ""
+    },
+    {
+      "description": "The hits count object. CheckpointFWRule.Hits.FirstDate The first date of hits.",
+      "name": "CheckpointFWRule.Hits",
+      "required": ""
+    },
+    {
+      "description": "The last date of hits. CheckpointFWRule.Hits.Level The level of hits.",
+      "name": "CheckpointFWRule.Hits.LastDate",
+      "required": ""
+    },
+    {
+      "description": "The percentage of hits. CheckpointFWRule.Hits.Value",
+      "name": "CheckpointFWRule.Hits.Percentage",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Check Point Firewall (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/check-point"
+}

@@ -1,0 +1,142 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Additional Information",
+  "examples": [
+    "Command Example\n!cortex-query-threat-logs fields=src,dst ip=8.8.8.8 limit=1\nContext Example\n{\n\"Cortex.Logging.Threat\": [\n{\n\"Dst\": \"7.7.7.7\",\n\"Src\": \"8.8.8.8\",",
+    "!cortex-query-threat-logs fields=src,dst ip=8.8.8.8 limit=1\nContext Example\n{\n\"Cortex.Logging.Threat\": [\n{\n\"Dst\": \"7.7.7.7\",\n\"Src\": \"8.8.8.8\",\n\"id\": \"42635546_lcaas:4:2023012:4\","
+  ],
+  "kind": "integration-command",
+  "name": "cortex-query-threat-logs",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Path Type Description",
+      "name": "t",
+      "required": ""
+    },
+    {
+      "description": "Identifies the firewall's internal identifier for a specific network session. Cortex.Logging.Threat.Action Identifies the action that the firewall took for the network traffic.",
+      "name": "Cortex.Logging.Threat.SessionID",
+      "required": ""
+    },
+    {
+      "description": "Application associated with the network traffic. Cortex.Logging.Threat.Nat Indicates whether the firewall is performing network address translation (NAT) for the logged traffic. If it is, this value is 1.",
+      "name": "Cortex.Logging.Threat.App",
+      "required": ""
+    },
+    {
+      "description": "Identifies the application's subcategory. The subcategoryis related to the application's category, which is identified in category_of_app. Cortex.Logging.Threat.PcapID Packet capture (pcap) ID. This is used to correlate threat pcap files with extended pcaps taken as a part of the session flow. All threat logs will contain either a pcap_id of 0 (no associated pcap) , or an ID referencing the extended pcap file.",
+      "name": "Cortex.Logging.Threat.SubcategoryOfApp",
+      "required": ""
+    },
+    {
+      "description": "If destination NAT performed, the post-NAT destination IP address. The IP address is an IPv4/IPv6 address in hex format. Cortex.Logging.Threat.Flags Bit field which provides details on the session, such as whether the session use IPv6, whether the session was denied due to a URL filtering rule, and/or whether the log corresponds to a transaction within an HTTP proxy session.",
+      "name": "Cortex.Logging.Threat.Natdst",
+      "required": ""
+    },
+    {
+      "description": "Network traffic's destination port. If this value is 0, then the app is using its standard port. Cortex.Logging.Threat.ThreatID Numerical identifier for the threat type. All threats encountered by Palo Alto Networks firewalls are assigned a unique identifier",
+      "name": "Cortex.Logging.Threat.Dport",
+      "required": ""
+    },
+    {
+      "description": "If source NAT was performed, the post-NAT source IP address. The IP address is an IPv4/IPv6 address in hex format. Cortex.Logging.Threat.CategoryOfApp Identifies the managing application, or parent, of the application associated with this network traffic, if any.",
+      "name": "Cortex.Logging.Threat.Natsrc",
+      "required": ""
+    },
+    {
+      "description": "Source country or internal region for private addresses. The internal region is a user-defined name for a specific network in the user's enterprise. Cortex.Logging.Threat.Dstloc Destination country or internal region for private addresses. The internal region is a user-defined name for a specific network in the user's enterprise.",
+      "name": "Cortex.Logging.Threat.Srcloc",
+      "required": ""
+    },
+    {
+      "description": "Networking zone to which the traffic was sent. Cortex.Logging.Threat.RiskOfApp Indicates how risky the application is from a network security perspective. Values range from 1-5, where 5 is the riskiest.",
+      "name": "Cortex.Logging.Threat.To",
+      "required": ""
+    },
+    {
+      "description": "Post-NAT source port. Cortex.Logging.Threat.URLDenied Session was denied due to a URL filtering rule.",
+      "name": "Cortex.Logging.Threat.Natsport",
+      "required": ""
+    },
+    {
+      "description": "Identifies the behaviorial characteristic of the application associated with the network traffic. Cortex.Logging.Threat.HTTPMethod Only in URL filtering logs. Describes the HTTP Method used in the web request",
+      "name": "Cortex.Logging.Threat.CharacteristicOfApp",
+      "required": ""
+    },
+    {
+      "description": "The networking zone from which the traffic originated. Cortex.Logging.Threat.Vsys Virtual system associated with the network traffic.",
+      "name": "Cortex.Logging.Threat.From",
+      "required": ""
+    },
+    {
+      "description": "Time the log was received at the management plane. Cortex.Logging.Threat.Users Srcuser or dstuser or srcip (one of).",
+      "name": "Cortex.Logging.Threat.ReceiveTime",
+      "required": ""
+    },
+    {
+      "description": "IP protocol associated with the session. Cortex.Logging.Threat.Natdport Post-NAT destination port.",
+      "name": "Cortex.Logging.Threat.Proto",
+      "required": ""
+    },
+    {
+      "description": "Original destination IP address. The IP address is an IPv4/ IPv6 address in hex format. Cortex.Logging.Threat.Rule Name of the security policy rule that the network traffic matched.",
+      "name": "Cortex.Logging.Threat.Dst",
+      "required": ""
+    },
+    {
+      "description": "Threat category of the detected threat. Cortex.Logging.Threat.DeviceName The hostname of the firewall that logged the network traffic.",
+      "name": "Cortex.Logging.Threat.CategoryOfThreatID",
+      "required": ""
+    },
+    {
+      "description": "Subtype of the threat log. Cortex.Logging.Threat.TimeReceived Time the log was received at the management plane.",
+      "name": "Cortex.Logging.Threat.Subtype",
+      "required": ""
+    },
+    {
+      "description": "Indicates the direction of the attack, client-to-server or server-to-client: Cortex.Logging.Threat.Misc The meaning of this field differs according to the log's subtype: Subtype is URL, this field contains the requested URI. Subtype is File, this field contains the file name or file type. Subtype is Virus, this field contains the file name. Subtype is WildFire, this field contains the file name.",
+      "name": "Cortex.Logging.Threat.Direction",
+      "required": ""
+    },
+    {
+      "description": "Severity associated with the event. Cortex.Logging.Threat.Src Original source IP address. The IP address is an IPv4/IPv6 address in hex format.",
+      "name": "Cortex.Logging.Threat.Severity",
+      "required": ""
+    },
+    {
+      "description": "Time the log was generated on the data plane. Cortex.Logging.Threat.Serial Serial number of the firewall that generated the log.",
+      "name": "Cortex.Logging.Threat.TimeGenerated",
+      "required": ""
+    },
+    {
+      "description": "A unique identifier for a virtual system on a Palo Alto Networks firewall. Cortex.Logging.Threat.URLDomain The name of the internet domain that was visited in this session.",
+      "name": "Cortex.Logging.Threat.VsysID",
+      "required": ""
+    },
+    {
+      "description": "For the URL subtype, this identifies the URL Category. For the WildFire subtype, this identifies the verdict on the file. It is one of \u2018malicious\u2019, \u2018phishing\u2019, \u2018grayware\u2019, or \u2018benign\u2019; Cortex.Logging.Threat.Sport Source port utilized by the session.",
+      "name": "Cortex.Logging.Threat.Category",
+      "required": ""
+    },
+    {
+      "description": "Detected enterprise credential submission by an end user. IP.Address IP address.",
+      "name": "Cortex.Logging.Threat.IsPhishing",
+      "required": ""
+    },
+    {
+      "description": "The domain name, for example: \"google.com\". File.SHA256 The SHA256 hash of the file.",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "The full file name (including file extension). File.Type The file type, as determined by libmagic (same as displayed in file entries).",
+      "name": "File.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Cortex (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-cortex"
+}

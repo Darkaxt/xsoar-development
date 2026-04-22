@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "AnthropicClaude.Conversation",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Dictionary Entire conversation (if not reset) between the user and the Claude model. Edit this page",
+      "name": "AnthropicClaude.Conversation",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab Ansible VMware Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure Anthropic Claude on Cortex XSOAR Commands claude-send-message",
+      "name": "ANY.RUN (Deprecated) \u00bb",
+      "required": ""
+    },
+    {
+      "description": "claude-check-email-body claude-create-soc-email-template Docs",
+      "name": "claude-check-email-header",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Anthropic Claude",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/anthropic-claude"
+}

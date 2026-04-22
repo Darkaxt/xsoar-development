@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Uptycs deleted lookuptable",
+  "examples": [
+    "Command Example\n#\nuptycs-delete-asset-tag tag_id=\"14e579e4-3661-4bd6-ace3-082cf6fc4ec5\" asset_id=\"984d4a7a-9f3a-580a-a3ef-2841a561669b\"\nContext Example\n#\nHuman Readable Output\n#\nUptycs delete assets tag"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Uptycs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/uptycs"
+}

@@ -1,0 +1,824 @@
+{
+  "aliases": [
+    "ext-filter"
+  ],
+  "arguments": [
+    {
+      "description": "${inputs.} ctx_lists From Previous Tasks",
+      "name": "Enable to access the input parameters to sub playbooks and use",
+      "required": ""
+    },
+    {
+      "description": "Enable to access the list data and use",
+      "name": "list",
+      "required": ""
+    },
+    {
+      "description": "ctx_incident From Previous Tasks incident",
+      "name": "${list.}",
+      "required": ""
+    },
+    {
+      "description": "${incident.} NOTE: ${list.}",
+      "name": "Enable to access the incident context and use",
+      "required": ""
+    },
+    {
+      "description": "local prefix ( ${local.}",
+      "name": "doesn't work in XSOAR 6.0 in transformer.",
+      "required": ""
+    },
+    {
+      "description": ". prefix ( ${..}",
+      "name": ") and",
+      "required": ""
+    },
+    {
+      "description": "${local} refers the root value of the target, and ${local.<name>}",
+      "name": ") can be available for additional DT references.",
+      "required": ""
+    },
+    {
+      "description": "${..} refers the current value of the target, and ${.<name>}",
+      "name": "refers the value property located at the relateve path to the root.",
+      "required": ""
+    },
+    {
+      "description": "No parameters set is required for using ${local.} and",
+      "name": "refers the value property located at the relateve path to the current value.",
+      "required": ""
+    },
+    {
+      "description": ". Example 1",
+      "name": "${..}",
+      "required": ""
+    },
+    {
+      "description": "\"ends with\": \"${Extension}\" } Example 2",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"${KeyName}\": { \"ends with\": \"${Extension}\" }",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Example 3",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"ends with\": \"${Name}.exe\" } Example 4",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"ends with\": \"${.=val.Extension}\" } Example 5",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"ends with\": \"${incident.name}\" } Example 6",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"ends with\": \"${local.Extension}\" } Operators",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "is transformed with is filtered with value is filtered with",
+      "name": "Available operators",
+      "required": ""
+    },
+    {
+      "description": "doesn't keep is isn't",
+      "name": "keeps",
+      "required": ""
+    },
+    {
+      "description": "!== equals ==",
+      "name": "===",
+      "required": ""
+    },
+    {
+      "description": "!= greater or equal >=",
+      "name": "doesn't equal",
+      "required": ""
+    },
+    {
+      "description": "> less or equal <=",
+      "name": "greater than",
+      "required": ""
+    },
+    {
+      "description": "in range starts with starts with caseless",
+      "name": "less than",
+      "required": ""
+    },
+    {
+      "description": "doesn't start with caseless ends with ends with caseless",
+      "name": "doesn't start with",
+      "required": ""
+    },
+    {
+      "description": "doesn't end with caseless includes includes caseless",
+      "name": "doesn't end with",
+      "required": ""
+    },
+    {
+      "description": "doesn't include caseless finds finds caseless",
+      "name": "doesn't include",
+      "required": ""
+    },
+    {
+      "description": "doesn't find caseless matches matches caseless",
+      "name": "doesn't find",
+      "required": ""
+    },
+    {
+      "description": "doesn't match caseless wildcard: matches wildcard: matches caseless",
+      "name": "doesn't match",
+      "required": ""
+    },
+    {
+      "description": "wildcard: doesn't match caseless regex: matches regex: matches caseless",
+      "name": "wildcard: doesn't match",
+      "required": ""
+    },
+    {
+      "description": "regex: doesn't match caseless in in caseless",
+      "name": "regex: doesn't match",
+      "required": ""
+    },
+    {
+      "description": "not in caseless in list in caseless list",
+      "name": "not in",
+      "required": ""
+    },
+    {
+      "description": "not in caseless list contains contains caseless",
+      "name": "not in list",
+      "required": ""
+    },
+    {
+      "description": "doesn't contain caseless wildcard: contains wildcard: contains caseless",
+      "name": "doesn't contain",
+      "required": ""
+    },
+    {
+      "description": "wildcard: doesn't contain caseless regex: contains regex: contains caseless",
+      "name": "wildcard: doesn't contain",
+      "required": ""
+    },
+    {
+      "description": "regex: doesn't contain caseless matches any line of matches any caseless line of",
+      "name": "regex: doesn't contain",
+      "required": ""
+    },
+    {
+      "description": "doesn't match any caseless line of matches any string of matches any caseless string of",
+      "name": "doesn't match any line of",
+      "required": ""
+    },
+    {
+      "description": "doesn't match any caseless string of wildcard: matches any string of wildcard: matches any caseless string of",
+      "name": "doesn't match any string of",
+      "required": ""
+    },
+    {
+      "description": "wildcard: doesn't match any caseless string of regex: matches any string of regex: matches any caseless string of",
+      "name": "wildcard: doesn't match any string of",
+      "required": ""
+    },
+    {
+      "description": "regex: doesn't match any caseless string of contains any line of contains any caseless line of",
+      "name": "regex: doesn't match any string of",
+      "required": ""
+    },
+    {
+      "description": "doesn't contain any caseless line of contains any string of contains any caseless line of",
+      "name": "doesn't contain any line of",
+      "required": ""
+    },
+    {
+      "description": "doesn't contain any caseless line of wildcard: contains any string of wildcard: contains any caseless line of",
+      "name": "doesn't contain any string of",
+      "required": ""
+    },
+    {
+      "description": "wildcard: doesn't contain any caseless line of regex: contains any string of regex: contains any caseless line of",
+      "name": "wildcard: doesn't contain any string of",
+      "required": ""
+    },
+    {
+      "description": "regex: doesn't contain any caseless line of matches expressions of matches conditions of",
+      "name": "regex: doesn't contain any string of",
+      "required": ""
+    },
+    {
+      "description": "value matches conditions of json: encode array json: encode",
+      "name": "value matches expressions of",
+      "required": ""
+    },
+    {
+      "description": "base64: encode base64: decode digest",
+      "name": "json: decode",
+      "required": ""
+    },
+    {
+      "description": "is updated with appends if-then-else",
+      "name": "is replaced with",
+      "required": ""
+    },
+    {
+      "description": "collects values collects keys flattens with values",
+      "name": "switch-case",
+      "required": ""
+    },
+    {
+      "description": "abort email-header: decode regex: replace",
+      "name": "flattens with keys",
+      "required": ""
+    },
+    {
+      "description": "is collectively transformed with Operator: is transformed with",
+      "name": "is individually transformed with",
+      "required": ""
+    },
+    {
+      "description": "Filter Format : transformers",
+      "name": "Transforms elements with `transformers` given in a filter. See `Filter Syntax` for the details of `transformers`.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example 1",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Input",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"a.dat\", \"Size\": 100",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"b.exe\", \"Size\": 200",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"c.txt\", \"Size\": 300",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] Filter",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": ": is transformed with Path :",
+      "name": "Operator",
+      "required": ""
+    },
+    {
+      "description": ": { \"json: encode\": {},",
+      "name": "Filter",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "\"base64: encode\": {}",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"a.dat\", \"Size\": 100",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"b.exe\", \"Size\": 200",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"c.txt\", \"Size\": 300",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] Filter",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": ": is transformed with Path :",
+      "name": "Operator",
+      "required": ""
+    },
+    {
+      "description": ": { \"json: encode\": {},",
+      "name": "Filter",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "\"base64: encode\": {}",
+      "required": ""
+    },
+    {
+      "description": "\"File\": [ { \"Name\": \"a.dat\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "}, { \"Name\": \"b.exe\",",
+      "name": "\"Size\": 100",
+      "required": ""
+    },
+    {
+      "description": "} ], \"IP\": [",
+      "name": "\"Size\": 200",
+      "required": ""
+    },
+    {
+      "description": "\"2.2.2.2\" ] }",
+      "name": "\"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Filter",
+      "required": ""
+    },
+    {
+      "description": ": is transformed with Path : File",
+      "name": "Operator",
+      "required": ""
+    },
+    {
+      "description": ": { \"is filtered with\": {",
+      "name": "Filter",
+      "required": ""
+    },
+    {
+      "description": "\"ends with\": \".exe\" } },",
+      "name": "\"Name\": {",
+      "required": ""
+    },
+    {
+      "description": "\"base64: encode\": {} }",
+      "name": "\"json: encode\": {},",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"a.dat\", \"Size\": 100",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"b.exe\", \"Size\": 200",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] Filter",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": ": is transformed with Path :",
+      "name": "Operator",
+      "required": ""
+    },
+    {
+      "description": ": { \"is replaced with\": {",
+      "name": "Filter",
+      "required": ""
+    }
+  ],
+  "description": "ExtFilter | Cortex XSOAR",
+  "examples": [
+    "!==\nequals\n==\ndoesn't equal\n!=\ngreater or equal\n>=\ngreater than",
+    "!=\ngreater or equal\n>=\ngreater than\n>\nless or equal\n<=\nless than",
+    "!==\n#\nReturns a set of elements which doesn't match the data type or the value of a value given in a filter.\nFilter Format\n:\n<value>\nExample 1\n#",
+    "!=\n#\nReturns a set of elements which is not equal to a value given in a filter. The value is implicitly converted from its data type to another in a comparison between different data types. `!=` is an alias name for `doesn't equal`.\nFilter Format\n:\n<value>\nExample 1\n#",
+    "!==\nOperator:\nequals\n,\n==\nOperator:\ndoesn't equal\n,",
+    "!=\nOperator:\ngreater or equal\n,\n>=\nOperator:\ngreater than\n,"
+  ],
+  "kind": "script",
+  "name": "ExtFilter",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "\"eyJOYW1lIjogImEuZGF0IiwgIlNpemUiOiAxMDB9\", \"eyJOYW1lIjogImIuZXhlIiwgIlNpemUiOiAyMDB9\", \"eyJOYW1lIjogImMudHh0IiwgIlNpemUiOiAzMDB9\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "Example 2",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "\"File\": [ \"eyJOYW1lIjogImIuZXhlIiwgIlNpemUiOiAyMDB9\" ],",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"1.1.1.1\", \"2.2.2.2\" ]",
+      "name": "\"IP\": [",
+      "required": ""
+    },
+    {
+      "description": "Example 3",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "{ \"User\": \"JDOE\" }",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "Operator: is filtered with",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "Filter Format : conditions",
+      "name": "Evaluates each element of an array with given conditions and returns a set of the elements matched. The value is handled as an array which has only one element when its data type is `dictionary`. See `Filter Syntax` for the details of `conditions`.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example 1",
+      "required": ""
+    },
+    {
+      "description": "{ \"Name\": \"b.exe\", \"Size\": 200",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "] Operator: value is filtered with",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Filter Format : expressions",
+      "name": "Evaluates each value of dictionary elements or each element for values whose data type is not `dictionary`, and returns a set of the elements matched to expressions given in a filter. See `Filter Syntax` for the details of `expressions`.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example 1",
+      "required": ""
+    },
+    {
+      "description": "\"192.168.1.1\", \"192.168.1.2\" ]",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example 2",
+      "required": ""
+    },
+    {
+      "description": "\"Host1\": { \"User\": \"JDOE\", \"IP\": \"192.168.1.1\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "}, \"Host3\": { \"User\": \"MBLACK\",",
+      "name": "\"Score\": 30",
+      "required": ""
+    },
+    {
+      "description": "\"Score\": 40 } }",
+      "name": "\"IP\": \"3.3.3.3\",",
+      "required": ""
+    },
+    {
+      "description": "keeps",
+      "name": "Operator:",
+      "required": ""
+    },
+    {
+      "description": "Filter Format : expressions",
+      "name": "Evaluates each element of an array with keys given and returns a set of the elements which only retains the keys given and corresponding values. The value is handled as an array which has only one element when its data type is `dictionary`.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example 1",
+      "required": ""
+    },
+    {
+      "description": "{ \"Host\": \"JDOE\" },",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "\"User\": \"John Doe\" }, {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"User\": \"Taro Yamada\" } ]",
+      "name": "\"Host\": \"YTARO\",",
+      "required": ""
+    },
+    {
+      "description": "doesn't keeps",
+      "name": "Operator:",
+      "required": ""
+    },
+    {
+      "description": "Filter Format : expressions",
+      "name": "Evaluates each element of an array with keys given and returns a set of the elements which are excluded the keys given. The value is handled as an array which has only one element when its data type is `dictionary`.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example 1",
+      "required": ""
+    },
+    {
+      "description": "{ \"IP\": \"1.1.1.1\" },",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "\"First Name\": \"John\", \"Last Name\": \"Doe\" },",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "{ } ]",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "is",
+      "name": "Operator:",
+      "required": ""
+    },
+    {
+      "description": "Sub Operator: empty",
+      "name": "This operator works with a sub operator specified as filter.",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Returns a set of elements which is empty.",
+      "required": ""
+    },
+    {
+      "description": "Example 2",
+      "name": "null",
+      "required": ""
+    },
+    {
+      "description": "{ }, null",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "Sub Operator: null",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Returns a set of elements which is `null`.",
+      "required": ""
+    },
+    {
+      "description": "Example 2",
+      "name": "null",
+      "required": ""
+    },
+    {
+      "description": "null ] Sub Operator: string",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Returns a set of elements whose data type is `string`.",
+      "required": ""
+    },
+    {
+      "description": "Example 2",
+      "name": "null",
+      "required": ""
+    },
+    {
+      "description": "\"xxx\" ] Sub Operator: integer",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Returns a set of elements whose data type is `integer`.",
+      "required": ""
+    },
+    {
+      "description": "Example 2",
+      "name": "10",
+      "required": ""
+    },
+    {
+      "description": "10 ] Sub Operator: integer string",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Returns a set of elements whose data type is `string` and whose value is integer. The value that includes decimal point is evaluated as not integer.",
+      "required": ""
+    },
+    {
+      "description": "\"123\" ] Sub Operator: any integer",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Returns a set of elements matched with `string` or `integer string` operator.",
+      "required": ""
+    },
+    {
+      "description": "10, \"123\" ]",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Sub Operator: existing key",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Evaluates each dictionary element of an array, then returns a set of the elements which has a key given in `path`.",
+      "required": ""
+    },
+    {
+      "description": "{ \"Host\": \"JDOE\", \"IP\": \"1.1.1.1\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "] Example 2",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "{ \"Host\": { \"IP\": \"1.1.1.1\",",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "\"User\": \"JDOE\" }, \"User\": {",
+      "name": "\"Score\": 50,",
+      "required": ""
+    },
+    {
+      "description": "\"Name\": \"John Doe\" } }",
+      "name": "\"ID\": 1000,",
+      "required": ""
+    },
+    {
+      "description": "Operator: isn't",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "Sub Operator: empty",
+      "name": "This operator works with a sub operator specified as filter.",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Returns a set of elements which is not empty.",
+      "required": ""
+    },
+    {
+      "description": "Example 2",
+      "name": "10",
+      "required": ""
+    },
+    {
+      "description": "10, \"xxx\" ]",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Sub Operator: null",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Returns a set of elements which is not `null`.",
+      "required": ""
+    },
+    {
+      "description": "Example 2",
+      "name": "null",
+      "required": ""
+    },
+    {
+      "description": "10, { },",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "] Sub Operator: string",
+      "name": "\"xxx\"",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Returns a set of elements whose data type is not `string`.",
+      "required": ""
+    },
+    {
+      "description": "Example 2",
+      "name": "10",
+      "required": ""
+    },
+    {
+      "description": "10, { },",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "] Sub Operator: integer",
+      "name": "null",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Returns a set of elements whose date type is not `integer`.",
+      "required": ""
+    },
+    {
+      "description": "Example 2",
+      "name": "null",
+      "required": ""
+    },
+    {
+      "description": "\"123\" ] Sub Operator: integer string",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Returns a set of elements whose data type is not `string` or whose value is not integer. The value that includes decimal point is evaluated as not integer.",
+      "required": ""
+    },
+    {
+      "description": "10, \"123.0\" ]",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Sub Operator: any integer",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Returns a set of elements which are neither `string` or `integer string`.",
+      "required": ""
+    },
+    {
+      "description": "\"xxx\" ] Sub Operator: existing key",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "Example 1",
+      "name": "Evaluates each dictionary element of an array, then returns a set of the elements which doesn't have a key given in `path`.",
+      "required": ""
+    },
+    {
+      "description": "{ \"User\": \"John Doe\", \"Email\": \"jdoe@domain.com\"",
+      "name": "[",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExtFilter",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ext-filter"
+}

@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Description:High confidence",
+  "examples": [
+    "Command Example\nip ip=\"4.4.4.4\" using=\"FalconIntel V2_instance_1\"\nRaw Output\nDBotScore\n{\n\"Indicator\": \"4.4.4.4\",\n\"Score\": 1,\n\"Type\": \"ip\","
+  ],
+  "kind": "integration-command",
+  "name": "ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Malicious IP address IP.Malicious.Vendor For malicious IP addresses, the vendor that made the decision",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "For malicious IP addresses, the reason that the vendor made that decision DBotScore.Indicator The indicator tested",
+      "name": "IP.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Type of indicator tested DBotScore.Vendor Vendor used to calculate the score",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Intel (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-intel"
+}

@@ -1,0 +1,15 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "crowdstrike-result file=59e17f98cef7dd1bf4fb791eb1dcd0cea6dd870b6e36af7c37bd732c84d43355",
+  "examples": [
+    "Command Example\ncrowdstrike-result file=59e17f98cef7dd1bf4fb791eb1dcd0cea6dd870b6e36af7c37bd732c84d43355\n11. (Deprecated) Detonate a file\nDetonates file using Falcon Sandbox.\nBase Command\nvx-detonate-file\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "vx-detonate-file",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vx-stream"
+}

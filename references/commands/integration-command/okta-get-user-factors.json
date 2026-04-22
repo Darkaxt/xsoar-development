@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!okta-unsuspend-user username=\"test@this.com\"\nHuman Readable Output\n6. Get enrolled factors for a user\nReturns all the enrolled factors for the specified user.\nBase Command\nokta-get-user-factors\nInput",
+    "!okta-unsuspend-user username=\"test@this.com\"\nHuman Readable Output\n6. Get enrolled factors for a user\nReturns all the enrolled factors for the specified user.\nBase Command\nokta-get-user-factors\nInput\nArgument Name",
+    "Command Example\n!okta-get-user-factors userId=00ugo6k55kHeoJMYC0h7\nContext Example\n{\n\"Account\": {\n\"Factor\": [\n{\n\"FactorType\": \"push\",",
+    "!okta-get-user-factors userId=00ugo6k55kHeoJMYC0h7\nContext Example\n{\n\"Account\": {\n\"Factor\": [\n{\n\"FactorType\": \"push\",\n\"ID\": \"opfi25ztilatndHD80h7\","
+  ],
+  "kind": "integration-command",
+  "name": "okta-get-user-factors",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Okta account ID. Account.Factor.ID Okta account factor ID.",
+      "name": "Account.ID",
+      "required": ""
+    },
+    {
+      "description": "Okta account factor type. Account.Factor.Provider Okta account factor provider.",
+      "name": "Account.Factor.FactorType",
+      "required": ""
+    },
+    {
+      "description": "Okta account factor status. Account.Factor.Profile Okta account factor profile.",
+      "name": "Account.Factor.Status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "okta (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta"
+}

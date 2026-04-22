@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Return a list of flags assigned to an IP connection",
+  "examples": [
+    "Command Examples\n!wisdom-ip-flags proto=tcp ip=182.176.178.74 port=1604\n!wisdom-ip-flags proto=tcp ip=95.181.249.58 port=443\nRaw Output\n{\n\"flags\":[\n\"tor\"\n]",
+    "!wisdom-ip-flags proto=tcp ip=182.176.178.74 port=1604\n!wisdom-ip-flags proto=tcp ip=95.181.249.58 port=443\nRaw Output\n{\n\"flags\":[\n\"tor\"\n]\n}",
+    "!wisdom-ip-flags proto=tcp ip=95.181.249.58 port=443\nRaw Output\n{\n\"flags\":[\n\"tor\"\n]\n}\nContext Example"
+  ],
+  "kind": "integration-command",
+  "name": "wisdom-ip-flags",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AlphaSOC Wisdom",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/alpha-soc-wisdom"
+}

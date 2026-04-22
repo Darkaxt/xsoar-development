@@ -1,0 +1,63 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "\"value_type\": \"String\"",
+  "examples": [
+    "Command Example\n!tn-get-all-packages\nContext Example\nTanium:{\nPackages:[{\nskip_lock_flag:0\nhidden_flag:0\nverify_group_id:0",
+    "!tn-get-all-packages\nContext Example\nTanium:{\nPackages:[{\nskip_lock_flag:0\nhidden_flag:0\nverify_group_id:0\navailable_time:2016-04-06T13:03:12"
+  ],
+  "kind": "integration-command",
+  "name": "tn-get-all-packages",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Timeout for verifying the action (in seconds) Tanium.Packages.display_name Display name of package",
+      "name": "Tanium.Packages.verify_expire_seconds",
+      "required": ""
+    },
+    {
+      "description": "Name of created package Tanium.Packages.command Command to execute",
+      "name": "Tanium.Packages.name",
+      "required": ""
+    },
+    {
+      "description": "date Package creation time Tanium.Packages.command_timeout",
+      "name": "Tanium.Packages.creation_time",
+      "required": ""
+    },
+    {
+      "description": "Timeout for command execution (in seconds) Tanium.Packages.modification_time date",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "Tanium.Packages.last_modified_by User who last modified packge Tanium.Packages.last_update",
+      "name": "Package modification time",
+      "required": ""
+    },
+    {
+      "description": "Time when package was last updated Tanium.Packages.deleted_flag Is the package deleted",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "Tanium unique package ID Tanium.Packages.expire_seconds Timeout for the action (in seconds)",
+      "name": "Tanium.Packages.id",
+      "required": ""
+    },
+    {
+      "description": "Package files",
+      "name": "Tanium.Packages.files",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium"
+}

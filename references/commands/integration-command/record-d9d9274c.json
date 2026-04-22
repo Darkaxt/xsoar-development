@@ -1,0 +1,66 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Execute a HTTP-based API call to the configured API endpoint",
+  "examples": [
+    "!generic-api-call\nInput\n#\nArgument Name\nDescription\nRequired\nmethod\nThe HTTP method to use for the API call. (",
+    "!generic-api-call urlpath=/metrics.json request_content_type=application/json response_content_type=application/json method=GET parse_response_as=json\nContext Example\n#\nHuman Readable Output\n#\nSent a GET request to https://api.apis.guru/v2\nCommand example - XML\n#",
+    "!generic-api-call urlpath=/xmlapi/search?search=civilizations method=GET request_content_type=application/xml response_content_type=application/xml parse_response_as=xml\nContext Example\n#\nHuman Readable Output\n#\nSent a GET request to https://boardgamegeek.com/xmlapi\nCommand example - Saving output to file in war room/context\n#",
+    "!generic-api-call urlpath=/metrics.json request_content_type=application/json response_content_type=application/json method=GET parse_response_as=json save_as_file=true\nContext Example\n#\nHuman Readable Output\n#\nCommand example - API Call with JSON Request Body\n#\nAPI call with output to context - JSON specified in request body",
+    "!generic-api-call response_content_type=application/json method=POST urlpath=/api/users parse_response_as=json body=`{\"name\": \"xsoar\", \"job\": \"XSOAR Ninja\"}` request_content_type=application/json\nOutput Example\n#\nHuman Readable Output\n#\nSent a POST request to https://reqres.in\nCommand example - ElasticSearch Cases API Call\n#",
+    "!generic-api-call method=GET parse_response_as=json enable_redirect=true urlpath=/_find\"\nContext Example\n#\nHuman Readable Output\n#\nSent a GET request to https://X.X.X.X/api/cases\nEdit this page\nReport an Issue"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Path Type Description",
+      "name": "The response data",
+      "required": ""
+    },
+    {
+      "description": "The HTTP status code returned from the request APICall.StatusText The text corresponding to the returned HTTP status code",
+      "name": "APICall.StatusCode",
+      "required": ""
+    },
+    {
+      "description": "The URL of the API call APICall.ParsedBody The parsed response, formatted according to",
+      "name": "APICall.URL",
+      "required": ""
+    },
+    {
+      "description": "argument APICall.Headers The headers from the API call response",
+      "name": "parse_response_as",
+      "required": ""
+    },
+    {
+      "description": "The raw data returned from the API call Command examples",
+      "name": "APICall.Body",
+      "required": ""
+    },
+    {
+      "description": "JSON : https[:]//api[.]apis[.]guru/v2/metrics.json XML",
+      "name": "All examples in this documentation are based off the following endpoints:",
+      "required": ""
+    },
+    {
+      "description": "JSON Request Body : https[:]//reqres[.]in/ Command example - JSON",
+      "name": ": https[:]//boardgamegeek[.]com/xmlapi/search?search=civilizations",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "API call with output to context - JSON Return",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!generic-api-call urlpath=/metrics.json request_content_type=application/json response_content_type=application/json method=GET parse_response_as=json",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GenericAPICall",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/generic-api-call"
+}

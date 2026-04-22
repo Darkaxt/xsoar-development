@@ -1,0 +1,159 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "IntSights.MsspAccount.CompanyName",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "domain name Domain.DNS domain dns",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "domain resolutions Domain.Subdomains domain subdomains",
+      "name": "Domain.Resolutions",
+      "required": ""
+    },
+    {
+      "description": "domain whois Domain.Malicious domain malicious",
+      "name": "Domain.WHOIS/History",
+      "required": ""
+    },
+    {
+      "description": "ip address IP.IpDetails ip details",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "ip related hashes IP.WHOIS ip whois",
+      "name": "IP.RelatedHashes",
+      "required": ""
+    },
+    {
+      "description": "ip malicious URL.Data URL Data",
+      "name": "IP.Malicious",
+      "required": ""
+    },
+    {
+      "description": "URL Antivirus Detected Engines URL.AntivirusDetectionRatio URL Antivirus Detection Ratio",
+      "name": "URL.AntivirusDetectedEngines",
+      "required": ""
+    },
+    {
+      "description": "URL Antivirus Detections URL.AntivirusScanDate URL Antivirus Scan Date",
+      "name": "URL.AntivirusDetections",
+      "required": ""
+    },
+    {
+      "description": "URL Related Hashes URL.Malicious URL Malicious",
+      "name": "URL.RelatedHashes",
+      "required": ""
+    },
+    {
+      "description": "File Name File.AntivirusDetectedEngines File Antivirus Detected Engines",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "File Antivirus Detection Ratio File.AntivirusDetections File Antivirus Detections",
+      "name": "File.AntivirusDetectionRatio",
+      "required": ""
+    },
+    {
+      "description": "File Antivirus Scan Date File.Malicious File Malicious",
+      "name": "File.AntivirusScanDate",
+      "required": ""
+    },
+    {
+      "description": "IntSights Iocs Type IntSights.Iocs.Value IntSights Iocs Value",
+      "name": "IntSights.Iocs.Type",
+      "required": ""
+    },
+    {
+      "description": "IntSights Iocs First Seen IntSights.Iocs.LastSeen IntSights Iocs Last Seen",
+      "name": "IntSights.Iocs.FirstSeen",
+      "required": ""
+    },
+    {
+      "description": "IntSights Iocs Status IntSights.Iocs.Severity IntSights Iocs Severity",
+      "name": "IntSights.Iocs.Status",
+      "required": ""
+    },
+    {
+      "description": "IntSights Iocs Related Malwares IntSights.Iocs.Sources IntSights Iocs Sources",
+      "name": "IntSights.Iocs.RelatedMalwares",
+      "required": ""
+    },
+    {
+      "description": "IntSights Iocs Is Known Ioc IntSightsIocs.RelatedThreatActors IntSights Iocs Related Threat Actors",
+      "name": "IntSights.Iocs.IsKnownIoc",
+      "required": ""
+    },
+    {
+      "description": "IntSights Iocs SystemTags IntSights.Iocs.Tags IntSights Iocs Tags",
+      "name": "IntSights.Iocs.SystemTags",
+      "required": ""
+    },
+    {
+      "description": "IntSights Iocs Whitelisted IntSights.Iocs.OriginalValue IntSights Iocs Original Value",
+      "name": "IntSights.Iocs.Whitelisted",
+      "required": ""
+    },
+    {
+      "description": "Domain WHOIS Edit this page Report an Issue",
+      "name": "Domain.WHOIS",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Intezer v2 Next Investigation & Response \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands intsights-get-alert-image intsights-get-alert-activities",
+      "name": "Configure IntSights in Cortex",
+      "required": ""
+    },
+    {
+      "description": "intsights-unassign-alert intsights-send-mail intsights-ask-the-analyst",
+      "name": "intsights-assign-alert",
+      "required": ""
+    },
+    {
+      "description": "intsights-remove-tag-from-alert intsights-add-comment-to-alert intsights-update-alert-severity",
+      "name": "intsights-add-tag-to-alert",
+      "required": ""
+    },
+    {
+      "description": "intsights-get-ioc-by-value intsights-get-iocs intsights-get-alerts",
+      "name": "intsights-get-alert-by-id",
+      "required": ""
+    },
+    {
+      "description": "intsights-get-alert-takedown-status intsights-update-ioc-blocklist-status intsights-get-ioc-blocklist-status",
+      "name": "intsights-alert-takedown-request",
+      "required": ""
+    },
+    {
+      "description": "intsights-mssp-get-sub-accounts intsights-request-ioc-enrichment Docs",
+      "name": "intsights-close-alert",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IntSights (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/int-sights"
+}

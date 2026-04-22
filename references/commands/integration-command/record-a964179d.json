@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "AWS IAM Policy Permission",
+  "examples": [
+    "Command Example\n#\n!aws-gd-get-members detectorIds=4f1fc7cd7dsg26sdf4328d8dc813 accountIds=1f3fc2cd1dag26sdf4338d8aa813\nBreaking changes from the previous version of this integration - AWS-GuardDuty\n#\nThe following sections list the changes in this version.\nCommands\n#",
+    "!aws-gd-get-members detectorIds=4f1fc7cd7dsg26sdf4328d8dc813 accountIds=1f3fc2cd1dag26sdf4338d8aa813\nBreaking changes from the previous version of this integration - AWS-GuardDuty\n#\nThe following sections list the changes in this version.\nCommands\n#\nFetch incidents command - Findings that are fetched are no longer moved automatically to the GuardDuty archive.\nParameters"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique account ID of the member. AWS.GuardDuty.Members.DetectorId The unique detector ID of the member.",
+      "name": "AWS.GuardDuty.Members.AccountId",
+      "required": ""
+    },
+    {
+      "description": "The unique detector ID of the master. AWS.GuardDuty.Members.Email The email of the member.",
+      "name": "AWS.GuardDuty.Members.MasterId",
+      "required": ""
+    },
+    {
+      "description": "The relationship status of member. AWS.GuardDuty.Members.InvitedAt The first time a member was invited.",
+      "name": "AWS.GuardDuty.Members.RelationshipStatus",
+      "required": ""
+    },
+    {
+      "description": "The time a member was last updated.",
+      "name": "AWS.GuardDuty.Members.UpdatedAt",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - GuardDuty",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---guard-duty"
+}

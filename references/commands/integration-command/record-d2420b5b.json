@@ -1,0 +1,89 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "azure-resource-group-list",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "List all resource groups for a subscription.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "azure-resource-group-list",
+      "required": ""
+    },
+    {
+      "description": "Resource group name. Azure.ResourceGroupName.location Resource group location.",
+      "name": "Azure.ResourceGroupName.name",
+      "required": ""
+    },
+    {
+      "description": "Resource group tags. Azure.ResourceGroupName.properties.provisioningState Resource group provisioning state.",
+      "name": "Azure.ResourceGroupName.tags",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Microsoft Advanced Threat Analytics (Deprecated)",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Microsoft Defender for Cloud Apps \u00bb Use Case Authentication",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Commands 1. azure-sc-list-alert Azure Security Center - List Alerts",
+      "name": "Configure Azure Security Center v2 on Cortex XSOAR",
+      "required": ""
+    },
+    {
+      "description": "3. azure-sc-get-atp 4. azure-sc-update-aps Azure Security Center - Update Auto Provisioning Setting",
+      "name": "2. azure-sc-update-atp",
+      "required": ""
+    },
+    {
+      "description": "Azure Security Center - Get Auto Provisioning Setting 6. azure-sc-list-aps Azure Security Center - List Auto Provisioning Settings",
+      "name": "5. azure-sc-get-aps",
+      "required": ""
+    },
+    {
+      "description": "8. azure-sc-list-storage Azure Security Center - List Storage Accounts 9. azure-list-subscriptions",
+      "name": "7. azure-sc-list-jit",
+      "required": ""
+    },
+    {
+      "description": "List of Subscriptions 10. azure-sc-list-location Azure Security Center - List Locations",
+      "name": "Azure Security Center - Subscriptions",
+      "required": ""
+    },
+    {
+      "description": "Additional Information 12. azure-get-secure-score 13. azure-sc-update-alert",
+      "name": "11. azure-sc-get-alert",
+      "required": ""
+    },
+    {
+      "description": "azure-resource-group-list Docs Developer Docs",
+      "name": "azure-sc-auth-reset",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Defender for Cloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-security-center-v2"
+}

@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "are-values-equal"
+  ],
+  "arguments": [],
+  "description": "AreValuesEqual | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "AreValuesEqual",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "When the left is equal to right. False When the left is not equal to right.",
+      "name": "True",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next ArrayAnyMatch \u00bb Script Data",
+      "name": "\u00ab ArcherCreateIncidentExample",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AreValuesEqual",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/are-values-equal"
+}

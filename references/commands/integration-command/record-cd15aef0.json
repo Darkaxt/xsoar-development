@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "35. gcb-reference-list-remove-content",
+  "examples": [
+    "Command Example\n#\n!gcb-reference-list-remove-content name=\"XSOAR_GoogleChronicle_Backstory_README_List\" lines=\"Line3\"\nContext Example\n#\n{\n\"GoogleChronicleBackstory\"\n:",
+    "!gcb-reference-list-remove-content name=\"XSOAR_GoogleChronicle_Backstory_README_List\" lines=\"Line3\"\nContext Example\n#\n{\n\"GoogleChronicleBackstory\"\n:\n{\n\"ReferenceList\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique name of the list. GoogleChronicleBackstory.ReferenceList.description The description of the list.",
+      "name": "GoogleChronicleBackstory.ReferenceList.name",
+      "required": ""
+    },
+    {
+      "description": "The list of line items. GoogleChronicleBackstory.ReferenceList.createTime Date",
+      "name": "GoogleChronicleBackstory.ReferenceList.lines",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.ReferenceList.contentType The content type of the reference list.",
+      "name": "The time when the list was created.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Chronicle",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-chronicle-backstory"
+}

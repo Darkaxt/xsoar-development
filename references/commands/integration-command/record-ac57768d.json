@@ -1,0 +1,56 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "cyberark-pas-account-add",
+  "examples": [
+    "Command Example\ncyberark-pas-user-activate\ncyberark-pas-safes-list\ncyberark-pas-safe-get-by-name\ncyberark-pas-safe-add\ncyberark-pas-safe-update\ncyberark-pas-safe-delete\ncyberark-pas-safe-members-list"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the account. CyberArkPAS.Accounts.categoryModificationTime The last modified date of the account.",
+      "name": "CyberArkPAS.Accounts.id",
+      "required": ""
+    },
+    {
+      "description": "The date the account was created. CyberArkPAS.Accounts.name The name of the account.",
+      "name": "CyberArkPAS.Accounts.createdTime",
+      "required": ""
+    },
+    {
+      "description": "The platform assigned to this account. CyberArkPAS.Accounts.safeName The safe where the account is created.",
+      "name": "CyberArkPAS.Accounts.platformId",
+      "required": ""
+    },
+    {
+      "description": "Whether the account secret is automatically managed by the CPM. CyberArkPAS.Accounts.secretType The type of password.",
+      "name": "CyberArkPAS.Accounts.secretManagement",
+      "required": ""
+    },
+    {
+      "description": "The name of the account user. CyberArkPAS.Accounts.address The name or address of the machine where the account will be used.",
+      "name": "CyberArkPAS.Accounts.userName",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab CyberArk Identity Security Platform",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "CyberChef \u00bb Configure CyberArkPAM in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "cyberark-pas-user-update cyberark-pas-user-delete cyberark-pas-users-list",
+      "name": "cyberark-pas-user-add",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyberArk PAM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyber-ark-pas"
+}

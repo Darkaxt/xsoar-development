@@ -1,0 +1,56 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "account_1, account_2, account_3, account_4",
+  "examples": [
+    "!vectra-group-unassign group_id=5 members=\"2126\"\nContext Example\n#\n{\n\"Vectra\"\n:\n{\n\"Group\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the group. Vectra.Group.name Name of the group.",
+      "name": "Vectra.Group.group_id",
+      "required": ""
+    },
+    {
+      "description": "Description of the group. Vectra.Group.last_modified Date",
+      "name": "Vectra.Group.description",
+      "required": ""
+    },
+    {
+      "description": "Vectra.Group.last_modified_by Name of the user who last modified the group. Vectra.Group.type",
+      "name": "Date when the group was last modified.",
+      "required": ""
+    },
+    {
+      "description": "Type of the group. Vectra.Group.members.id Entity ID of member.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Entity name of member. Vectra.Group.members.is_key_asset Indicates key asset.",
+      "name": "Vectra.Group.members.name",
+      "required": ""
+    },
+    {
+      "description": "Entity URL of member. Vectra.Group.members.uid Entity UID of member.",
+      "name": "Vectra.Group.members.url",
+      "required": ""
+    },
+    {
+      "description": "Triage category of rule. Vectra.Group.rules.id ID of the rule.",
+      "name": "Vectra.Group.rules.triage_category",
+      "required": ""
+    },
+    {
+      "description": "Description of the rule.",
+      "name": "Vectra.Group.rules.description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Vectra Detect",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vectra-detect"
+}

@@ -1,0 +1,67 @@
+{
+  "aliases": [
+    "json-diff"
+  ],
+  "arguments": [
+    {
+      "description": "\"old_json\" : \"{\\\"a\\\": 1, \\\"b\\\": 2}\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"new_json\" : \"{\\\"a\\\": 1, \\\"b\\\": 3}\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Next JSONFeedApiModule \u00bb Script Data",
+      "name": "\u00ab Json2HtmlTable",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Inputs",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "description": "JSONDiff | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "JSONDiff",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of fields that have changed between the two JSONs. JSONDiff.added List of fields that were added in the second JSON.",
+      "name": "JSONDiff.changed",
+      "required": ""
+    },
+    {
+      "description": "JSONDiff.removed List of fields that were removed from the first JSON. Example",
+      "name": "Array",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "JSONDiff",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/json-diff"
+}

@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The return will be a json data structure containing threat context like categories, identifiers, reporting feeds.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "augur-get-ip-context",
+      "name": "The return will be a json data structure containing threat context like categories, identifiers, reporting feeds.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Get threat context of a ipv4 address from the Augur API.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "augur-get-ip-context",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The return will be a json data structure containing threat context like categories, identifiers, reporting feeds.",
+      "required": ""
+    },
+    {
+      "description": "Next AutoFocus Daily Feed (Deprecated) \u00bb Configure Augur Security on Cortex XSOAR",
+      "name": "\u00ab Attivo Botsink",
+      "required": ""
+    },
+    {
+      "description": "augur-get-indicators augur-get-file-hash-context augur-get-host-context",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "augur-get-ip-context",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Augur Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/augur-security"
+}

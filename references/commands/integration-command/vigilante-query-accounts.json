@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!vigilante-query-accounts emails=\"\nexample@gmail.com\n,\nexample.gmail.com\n\" limit=\"3\"\nContext Example\n{",
+    "!vigilante-query-accounts emails=\"\nexample@gmail.com\n,\nexample.gmail.com\n\" limit=\"3\"\nContext Example\n{\n\"VigilanteATI\": {"
+  ],
+  "kind": "integration-command",
+  "name": "vigilante-query-accounts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Leak ID related to that account VigilanteATI.Account.type_id Type of account. At the moment we only support accounts of type 1, which are email addresses. As we expand our service we will add support for additional types such as usernames.",
+      "name": "VigilanteATI.Account.leak_id",
+      "required": ""
+    },
+    {
+      "description": "Denotes type of data. Value of 1 indicates compromised credentials. Value of 2 means that these are Endangered Credentials, and the password field contains a JSON dictionary instead of a password. VigilanteATI.Account.email A plaintext form of the email address from the account. The email address will always be lowercased.",
+      "name": "VigilanteATI.Account.source_type",
+      "required": ""
+    },
+    {
+      "description": "The encrypted password found in this leaked account credential. This field is the BASE64 encoded representation of the encrypted data. You will need to decrypt this password using a decryption key provided to you. VigilanteATI.AccountQueryToken Token required to paginate the next set of results in. This is only provided if the number of items in the response exceeds our max pagination size. Otherwise it is set to an empty string.",
+      "name": "VigilanteATI.Account.password",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "InfoArmor VigilanteATI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/info-armor-vigilante-ati"
+}

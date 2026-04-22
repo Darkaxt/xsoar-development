@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2019-01-15T12:30:21.267Z",
+  "examples": [
+    "Command Example\ngrm-list-projects filter=\"id:faramir*\"\nContext Example\n{\n\"GRM.Project\": [\n{\n\"Name\": \"Faramir 2\",\n\"Parent\": {"
+  ],
+  "kind": "integration-command",
+  "name": "grm-list-projects",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The user-assigned display name of the Project GRM.Project.ID The unique, user-assigned ID of the Project",
+      "name": "GRM.Project.Name",
+      "required": ""
+    },
+    {
+      "description": "The number uniquely identifying the Project GRM.Project.State The Project lifecycle state.",
+      "name": "GRM.Project.Number",
+      "required": ""
+    },
+    {
+      "description": "Date The time the resource was created GRM.Project.Label",
+      "name": "GRM.Project.CreateTime",
+      "required": ""
+    },
+    {
+      "description": "The labels associated with this Project GRM.Project.Parent.ID ID of the parent resource",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Type of the parent resource",
+      "name": "GRM.Project.Parent.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Resource Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-resource-manager"
+}

@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "AWS.ACM.Certificates.Tags.Value",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "String that contains the ACM certificate represented by the ARN specified at input. AWS.ACM.Certificates.CertificateChain The certificate chain that contains the root certificate issued by the certificate authority (CA).",
+      "name": "AWS.ACM.Certificates.Certificate",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab AWS - AccessAnalyzer",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "AWS - Athena \u00bb Configure AWS - ACM in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "aws-acm-list-certificates aws-acm-add-tags-to-certificate aws-acm-remove-tags-from-certificate",
+      "name": "aws-acm-describe-certificate",
+      "required": ""
+    },
+    {
+      "description": "aws-acm-get-certificate Docs Developer Docs",
+      "name": "aws-acm-list-tags-for-certificate",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - ACM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---acm"
+}

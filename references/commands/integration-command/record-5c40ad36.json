@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "subnet-11111111111111111",
+  "examples": [
+    "!aws-ec2-create-vpc-endpoint service-name=test_service_name vpc-id=test_id\nContext Example\n#\n{\n\"AWS\"\n:\n{\n\"EC2\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the endpoint. AWS.EC2.Vpcs.VpcEndpoint.State The state of the VPC endpoint.",
+      "name": "AWS.EC2.Vpcs.VpcEndpoint.VpcEndpointId",
+      "required": ""
+    },
+    {
+      "description": "The service name of the VPC endpoint. AWS.EC2.Vpcs.VpcEndpoint.VpcId The ID of the VPC to which the endpoint is associated.",
+      "name": "AWS.EC2.Vpcs.VpcEndpoint.ServiceName",
+      "required": ""
+    },
+    {
+      "description": "The type of the VPC endpoint.",
+      "name": "AWS.EC2.Vpcs.VpcEndpoint.EndpointType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - EC2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---ec2"
+}

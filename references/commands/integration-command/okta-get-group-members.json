@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "23. Get members of a specified group",
+  "examples": [
+    "Command Example\n!okta-get-group-members groupName=test1\nContext Example\n{\n\"Account\": [\n{\n\"DisplayName\": \"User1 Fam1\",\n\"Email\": \"user1@demisto.com\",",
+    "!okta-get-group-members groupName=test1\nContext Example\n{\n\"Account\": [\n{\n\"DisplayName\": \"User1 Fam1\",\n\"Email\": \"user1@demisto.com\",\n\"Group\": ["
+  ],
+  "kind": "integration-command",
+  "name": "okta-get-group-members",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Okta account ID Account.Email Okta account email",
+      "name": "Account.ID",
+      "required": ""
+    },
+    {
+      "description": "Okta account username Account.DisplayName Okta account display name",
+      "name": "Account.Username",
+      "required": ""
+    },
+    {
+      "description": "Account type - Okta",
+      "name": "Account.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "okta (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta"
+}

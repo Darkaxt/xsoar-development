@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2021-12-01T13:48:35.606Z",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### opsgenie-get-schedules\n***\nGet a schedule from OpsGenie.\n#### Base Command\n`opsgenie-get-schedules`",
+    "#### Command Example\n```!opsgenie-get-schedules```\n#### Context Example\n```json\n{\n\"OpsGenie\": {\n\"Schedule\": [\n{",
+    "#### Command Example\n```!opsgenie-get-schedule-overrides schedule_id=5892636c-6183-4788-99d6-6d93b9095194```\n#### Human Readable Output\n>### OpsGenie Schedule\n>\n>**No entries.**\n### opsgenie-get-on-call\n***",
+    "#### Command Example\n```!opsgenie-get-on-call schedule_id=5892636c-6183-4788-99d6-6d93b9095194```\n#### Context Example\n```json\n{\n\"OpsGenie\": {\n\"Schedule\": {\n\"OnCall\": {"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Action of this request. OpsGenie.Alert.Attachment.alertId ID of the alert.",
+      "name": "OpsGenie.Alert.Attachment.action",
+      "required": ""
+    },
+    {
+      "description": "Alias of the alert. OpsGenie.Alert.Attachment.integrationId Integration ID the alert.",
+      "name": "OpsGenie.Alert.Attachment.alias",
+      "required": ""
+    },
+    {
+      "description": "Whether the request was successful. OpsGenie.Alert.Attachment.processedAt Date",
+      "name": "OpsGenie.Alert.Attachment.isSuccess",
+      "required": ""
+    },
+    {
+      "description": "OpsGenie.Alert.Attachment.requestId The ID of the request. OpsGenie.Alert.Attachment.status",
+      "name": "When the request was processed.",
+      "required": ""
+    },
+    {
+      "description": "The human readable result of the request. OpsGenie.Alert.Attachment.success Whether the request was successful.",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OpsGenie v3",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ops-genie-v3"
+}

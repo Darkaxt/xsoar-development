@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!unit42intel-objects-feed-get-indicators limit=10\nHuman Readable Output\n#\nValue\nType\nFields",
+    "!unit42intel-objects-feed-get-indicators limit=10\nHuman Readable Output\n#\nValue\nType\nFields\nDarkHotel\nThreat Actor"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Unit 42 Intel Objects Feed (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/unit42-intel-objects-feed"
+}

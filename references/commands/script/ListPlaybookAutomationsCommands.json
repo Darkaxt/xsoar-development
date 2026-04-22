@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "list-playbook-automations-commands"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "ListPlaybookAutomationsCommands | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ListPlaybookAutomationsCommands",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next ListUsedDockerImages \u00bb Script Data",
+      "name": "\u00ab ListInstalledContentPacks",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ListPlaybookAutomationsCommands",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/list-playbook-automations-commands"
+}

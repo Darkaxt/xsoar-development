@@ -1,0 +1,118 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "1071-1533502548722-245",
+  "examples": [
+    "Command Example\n!cbd-get-alert-details alertId=HWOXYQ6P\nContext Example\nAccount:{} 2 items\nCarbonBlackDefense:{} 2 items\nGetAlertDetails:{} 1 item\nDeviceInfo:{} 4 items\nDeviceInfo:{} 13 items",
+    "!cbd-get-alert-details alertId=HWOXYQ6P\nContext Example\nAccount:{} 2 items\nCarbonBlackDefense:{} 2 items\nGetAlertDetails:{} 1 item\nDeviceInfo:{} 4 items\nDeviceInfo:{} 13 items\nDeviceName:ECIADWS7"
+  ],
+  "kind": "integration-command",
+  "name": "cbd-get-alert-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Device type CarbonBlackDefense.GetAlertDetails.DeviceInfo.Group Group",
+      "name": "CarbonBlackDefense.GetAlertDetails.DeviceInfo.DeviceType",
+      "required": ""
+    },
+    {
+      "description": "Group ID CarbonBlackDefense.GetAlertDetails.DeviceInfo.RegisteredTime Registered time",
+      "name": "CarbonBlackDefense.GetAlertDetails.DeviceInfo.GroupId",
+      "required": ""
+    },
+    {
+      "description": "Device ID CarbonBlackDefense.GetAlertDetails.DeviceInfo.DeviceName Device name",
+      "name": "CarbonBlackDefense.GetAlertDetails.DeviceInfo.DeviceId",
+      "required": ""
+    },
+    {
+      "description": "Status CarbonBlackDefense.GetAlertDetails.DeviceInfo.OsVersion OS version",
+      "name": "CarbonBlackDefense.GetAlertDetails.DeviceInfo.Status",
+      "required": ""
+    },
+    {
+      "description": "Sensor version CarbonBlackDefense.GetAlertDetails.DeviceInfo.UserName User name",
+      "name": "CarbonBlackDefense.GetAlertDetails.DeviceInfo.SensorVersion",
+      "required": ""
+    },
+    {
+      "description": "Importance CarbonBlackDefense.GetAlertDetails.DeviceInfo.Message Message",
+      "name": "CarbonBlackDefense.GetAlertDetails.DeviceInfo.Importance",
+      "required": ""
+    },
+    {
+      "description": "Success CarbonBlackDefense.GetAlertDetails.Events.ParentHash Parent hash",
+      "name": "CarbonBlackDefense.GetAlertDetails.DeviceInfo.Success",
+      "required": ""
+    },
+    {
+      "description": "Policy state CarbonBlackDefense.GetAlertDetails.Events.LongDescription Long description",
+      "name": "CarbonBlackDefense.GetAlertDetails.Events.PolicyState",
+      "required": ""
+    },
+    {
+      "description": "Parent PID CarbonBlackDefense.GetAlertDetails.Events.ProcessId Process ID",
+      "name": "CarbonBlackDefense.GetAlertDetails.Events.ParentPid",
+      "required": ""
+    },
+    {
+      "description": "Threat indicators CarbonBlackDefense.GetAlertDetails.Events.ApplicationPath Application path",
+      "name": "CarbonBlackDefense.GetAlertDetails.Events.ThreatIndicators",
+      "required": ""
+    },
+    {
+      "description": "Process hash CarbonBlackDefense.GetAlertDetails.Events.ProcessMd5Hash Process MD5 hash",
+      "name": "CarbonBlackDefense.GetAlertDetails.Events.ProcessHash",
+      "required": ""
+    },
+    {
+      "description": "Event ID CarbonBlackDefense.GetAlertDetails.Events.EventTime Event time",
+      "name": "CarbonBlackDefense.GetAlertDetails.Events.EventId",
+      "required": ""
+    },
+    {
+      "description": "Event type CarbonBlackDefense.GetAlertDetails.Events.KillChainStatus Kill chain status",
+      "name": "CarbonBlackDefense.GetAlertDetails.Events.EventType",
+      "required": ""
+    },
+    {
+      "description": "Parent name CarbonBlackDefense.GetAlertDetails.Events.ParentPPid ParentP PID",
+      "name": "CarbonBlackDefense.GetAlertDetails.Events.ParentName",
+      "required": ""
+    },
+    {
+      "description": "ProcessP PID CarbonBlackDefense.GetAlertDetails.ThreatInfo.IncidentId Incident ID",
+      "name": "CarbonBlackDefense.GetAlertDetails.Events.ProcessPPid",
+      "required": ""
+    },
+    {
+      "description": "Application name CarbonBlackDefense.GetAlertDetails.ThreatInfo.Indicators.IndicatorName Indicator name",
+      "name": "CarbonBlackDefense.GetAlertDetails.ThreatInfo.Indicators.ApplicationName",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 hash CarbonBlackDefense.GetAlertDetails.ThreatInfo.Summary Summary",
+      "name": "CarbonBlackDefense.GetAlertDetails.ThreatInfo.Indicators.Sha256Hash",
+      "required": ""
+    },
+    {
+      "description": "Threat ID CarbonBlackDefense.GetAlertDetails.ThreatInfo.ThreatScore Threat score",
+      "name": "CarbonBlackDefense.GetAlertDetails.ThreatInfo.ThreatId",
+      "required": ""
+    },
+    {
+      "description": "Time",
+      "name": "CarbonBlackDefense.GetAlertDetails.ThreatInfo.Time",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black Endpoint Standard (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-defense"
+}

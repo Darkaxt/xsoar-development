@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "BreachRx.Incident.identifier",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the privacy Incident on the BreachRx platform. BreachRx.Incident.name The name of the privacy Incident on the BreachRx platform.",
+      "name": "BreachRx.Incident.id",
+      "required": ""
+    },
+    {
+      "description": "The unique identifier of the privacy Incident on the BreachRx platform. Edit this page Report an Issue",
+      "name": "BreachRx.Incident.identifier",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Brandefense Next BruteForceBlocker Feed \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands breachrx-incident-create breachrx-incident-actions-get",
+      "name": "Configure BreachRx in Cortex",
+      "required": ""
+    },
+    {
+      "description": "breachrx-incident-get Docs Developer Docs",
+      "name": "breachrx-incident-import",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BreachRx",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/breach-rx"
+}

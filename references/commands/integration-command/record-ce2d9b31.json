@@ -1,0 +1,46 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "azure-storage-resource-group-list",
+  "examples": [
+    "!azure-storage-resource-group-list\nContext Example\n#\n{\n\"AzureStorage\"\n:\n{\n\"ResourceGroup\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique identifier of the Azure storage resource group. AzureStorage.ResourceGroup.name The name of the Azure storage resource group.",
+      "name": "AzureStorage.ResourceGroup.id",
+      "required": ""
+    },
+    {
+      "description": "The type of the Azure storage resource group. AzureStorage.ResourceGroup.location The location of the Azure storage resource group.",
+      "name": "AzureStorage.ResourceGroup.type",
+      "required": ""
+    },
+    {
+      "description": "The provisioning state of the Azure storage resource group. AzureStorage.ResourceGroup.tags.Owner The owner tag of the Azure storage resource group.",
+      "name": "AzureStorage.ResourceGroup.properties.provisioningState",
+      "required": ""
+    },
+    {
+      "description": "The tags associated with the Azure storage resource group. AzureStorage.ResourceGroup.tags.Name The name tag of the Azure storage resource group.",
+      "name": "AzureStorage.ResourceGroup.tags",
+      "required": ""
+    },
+    {
+      "description": "The entity that manages the Azure storage resource group. AzureStorage.ResourceGroup.tags.aks-managed-cluster-name The AKS managed cluster name tag associated with the Azure storage resource group.",
+      "name": "AzureStorage.ResourceGroup.managedBy",
+      "required": ""
+    },
+    {
+      "description": "The AKS managed cluster resource group tag associated with the Azure storage resource group. AzureStorage.ResourceGroup.tags.type The type tag associated with the Azure storage resource group.",
+      "name": "AzureStorage.ResourceGroup.tags.aks-managed-cluster-rg",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Storage Management",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-storage"
+}

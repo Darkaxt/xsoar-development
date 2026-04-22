@@ -1,0 +1,84 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "SecurityScorecard.AlertRules.Rule.paused_at",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique UUID for this measurement. SecurityScorecard.IssueDetails.parent_domain Parent domain aka vendor.",
+      "name": "SecurityScorecard.IssueDetails.issue_id",
+      "required": ""
+    },
+    {
+      "description": "issue_type of the findings. SecurityScorecard.IssueDetails.count The number of findings.",
+      "name": "SecurityScorecard.IssueDetails.issue_type",
+      "required": ""
+    },
+    {
+      "description": "If findings are active or not. SecurityScorecard.IssueDetails.first_seen_time Date",
+      "name": "SecurityScorecard.IssueDetails.group_status",
+      "required": ""
+    },
+    {
+      "description": "SecurityScorecard.IssueDetails.last_seen_time Date Epoch of observation in nanoseconds.",
+      "name": "Epoch of observation in nanoseconds.",
+      "required": ""
+    },
+    {
+      "description": "Port number of the observation if applicable. SecurityScorecard.IssueDetails.domain Domain of the observation if applicable.",
+      "name": "SecurityScorecard.IssueDetails.port",
+      "required": ""
+    },
+    {
+      "description": "IP address of the observation if applicable. SecurityScorecard.IssueDetails.protocol Protocol of the observation if applicable.",
+      "name": "SecurityScorecard.IssueDetails.ip",
+      "required": ""
+    },
+    {
+      "description": "Observation data in raw JSON format. Edit this page Report an Issue",
+      "name": "SecurityScorecard.IssueDetails.observations",
+      "required": ""
+    },
+    {
+      "description": "\u00ab SecurityAdvisor (Deprecated) Next SecurityTrails \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands securityscorecard-portfolios-list securityscorecard-portfolio-list-companies",
+      "name": "Configure SecurityScorecard in Cortex",
+      "required": ""
+    },
+    {
+      "description": "securityscorecard-company-factor-score-get securityscorecard-company-history-score-get securityscorecard-company-history-factor-score-get",
+      "name": "securityscorecard-company-score-get",
+      "required": ""
+    },
+    {
+      "description": "securityscorecard-alert-score-threshold-create securityscorecard-alert-delete securityscorecard-alerts-list",
+      "name": "securityscorecard-alert-grade-change-create",
+      "required": ""
+    },
+    {
+      "description": "securityscorecard-company-events-get securityscorecard-company-findings-get securityscorecard-issue-metadata",
+      "name": "securityscorecard-company-services-get",
+      "required": ""
+    },
+    {
+      "description": "securityscorecard-issue-details-get Docs Developer Docs",
+      "name": "securityscorecard-alert-rules-list",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SecurityScorecard",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/security-scorecard"
+}

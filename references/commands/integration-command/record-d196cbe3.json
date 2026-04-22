@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!workday-iam-get-full-report\nHuman Readable Output\n#\nResults\n#\ncity",
+    "!workday-iam-get-full-report\nHuman Readable Output\n#\nResults\n#\ncity\ncostcenter\ncostcentercode"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Email address of the employee in Workday. WorkdayIAM.ReportEntry.employeeid Employee ID in Workday.",
+      "name": "WorkdayIAM.ReportEntry.email",
+      "required": ""
+    },
+    {
+      "description": "Username of the employee in Workday. WorkdayIAM.ReportEntry.displayname Display name of the employee.",
+      "name": "WorkdayIAM.ReportEntry.username",
+      "required": ""
+    },
+    {
+      "description": "Location of the employee in Workday.",
+      "name": "WorkdayIAM.ReportEntry.locationregion",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Workday IAM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/workday-iam"
+}

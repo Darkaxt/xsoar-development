@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "BmcDiscovery.Scan.Stop.cancelled",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "bmc-discovery-scan-results-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Number of hosts of the result type BmcDiscovery.Scan.Result.kind Result kind type",
+      "name": "BmcDiscovery.Scan.Result.count",
+      "required": ""
+    },
+    {
+      "description": "Next offset to be used BmcDiscovery.Scan.Result.offset Current offset value",
+      "name": "BmcDiscovery.Scan.Result.next_offset",
+      "required": ""
+    },
+    {
+      "description": "Current result id",
+      "name": "BmcDiscovery.Scan.Result.results_id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BMC Discovery",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bmc-discovery"
+}

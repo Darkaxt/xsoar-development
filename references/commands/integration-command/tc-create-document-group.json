@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The type of the indicator.",
+  "examples": [
+    "Command Example\n!tc-group-associate-indicator group_id=4406377 group_type=events indicator_type=emailAddresses indicator=a@a.co.il\n30. Create a document group\nCreates a document group.\nBase Command\ntc-create-document-group\nInput\nArgument Name",
+    "!tc-group-associate-indicator group_id=4406377 group_type=events indicator_type=emailAddresses indicator=a@a.co.il\n30. Create a document group\nCreates a document group.\nBase Command\ntc-create-document-group\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "tc-create-document-group",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the group. TC.Group.Owner The owner of the group.",
+      "name": "TC.Group.Name",
+      "required": ""
+    },
+    {
+      "description": "Date The date on which the group was created. TC.Group.Description",
+      "name": "TC.Group.EventDate",
+      "required": ""
+    },
+    {
+      "description": "The description of the group. TC.Group.SecurityLabel The security label of the group.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "TC.Group.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

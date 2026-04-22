@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Darktrace.Model.Component",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the model breach is commented in Darktrace Darktrace.ModelBreach.pbid Model breach ID",
+      "name": "Darktrace.ModelBreach.commented",
+      "required": ""
+    },
+    {
+      "description": "Comment content Darktrace.ModelBreach.response Message response from comment action",
+      "name": "Darktrace.ModelBreach.message",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Darktrace Event Collector",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "DarktraceEmail \u00bb Configure Darktrace in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "darktrace-get-model-breach-comments darktrace-acknowledge-model-breach darktrace-unacknowledge-model-breach",
+      "name": "darktrace-get-model-breach",
+      "required": ""
+    },
+    {
+      "description": "darktrace-get-model darktrace-get-model-component darktrace-post-comment-to-model-breach",
+      "name": "darktrace-get-model-breach-connections",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Darktrace Model Breaches",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/darktrace-m-bs"
+}

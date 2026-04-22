@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "4. expanse-get-domains-for-certificate",
+  "examples": [
+    "Command Example\n#\n!expanse-get-domains-for-certificate common_name=\"*.us.expanse.co\"\nContext Example\n#\n{\n\"SearchTerm\": \"*.us.expanse.co\",\n\"TotalDomainCount\": 2,",
+    "!expanse-get-domains-for-certificate common_name=\"*.us.expanse.co\"\nContext Example\n#\n{\n\"SearchTerm\": \"*.us.expanse.co\",\n\"TotalDomainCount\": 2,\n\"FlatDomainList\": [\"california.us.expanse.co\", \"dc.us.expanse.co\"]\n\"DomainList\": ["
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The common name that was searched Expanse.IPDomains.TotalDomainCount The number of domains found matching the specified certificate",
+      "name": "Expanse.IPDomains.SearchTerm",
+      "required": ""
+    },
+    {
+      "description": "An array of all domain names found. This is truncated at 50 Expanse.IPDomains.DomainList An array of domain objects. This is truncated at 50",
+      "name": "Expanse.IPDomains.FlatDomainList",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Expanse (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/expanse"
+}

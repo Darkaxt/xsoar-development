@@ -1,0 +1,144 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "19. sls-query-gp-logs",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "All gateways that were available and attempted for the client location. SLS.Logging.GlobalProtect.AuthMethod Authentication method used for the GlobalProtect connection.",
+      "name": "SLS.Logging.GlobalProtect.AttemptedGateways",
+      "required": ""
+    },
+    {
+      "description": "Identifies how the GlobalProtect app connected to the the Gateway. SLS.Logging.GlobalProtect.ConnectionErrorID Enumeration integer assigned to the connection_error field value.",
+      "name": "SLS.Logging.GlobalProtect.ConnectMethod",
+      "required": ""
+    },
+    {
+      "description": "Error information for unsuccessful connection. SLS.Logging.GlobalProtect.CountOfRepeats Number of sessions with same Source IP, Destination IP, Application, and Content/Threat Type seen for the summary interval.",
+      "name": "SLS.Logging.GlobalProtect.ConnectionErrorValue",
+      "required": ""
+    },
+    {
+      "description": "The ID that uniquely identifies the Cortex Data Lake instance which received this log record. SLS.Logging.GlobalProtect.EndpointDeviceName Name of the device that the user used for the connection.",
+      "name": "SLS.Logging.GlobalProtect.CustomerID",
+      "required": ""
+    },
+    {
+      "description": "GlobalProtect client version number. SLS.Logging.GlobalProtect.EndpointOSType OS type of the endpoint on which the GlobalProtect client is deployed.",
+      "name": "SLS.Logging.GlobalProtect.EndpointGPVersion",
+      "required": ""
+    },
+    {
+      "description": "OS version of the endpoint on which the GlobalProtect client is deployed. SLS.Logging.GlobalProtect.EndpointSN ID that uniquely identifies the endpoint on which the GlobalProtect client is deployed.",
+      "name": "SLS.Logging.GlobalProtect.EndpointOSVersion",
+      "required": ""
+    },
+    {
+      "description": "The name of the event. SLS.Logging.GlobalProtect.Gateway Gateway for the connection.",
+      "name": "SLS.Logging.GlobalProtect.EventID",
+      "required": ""
+    },
+    {
+      "description": "Priority of the gateway. SLS.Logging.GlobalProtect.GatewaySelectionType Gateway selection method i.e., automatic, preferred, or manual.",
+      "name": "SLS.Logging.GlobalProtect.GatewayPriority",
+      "required": ""
+    },
+    {
+      "description": "Location of the GlobalProtect gateway. SLS.Logging.GlobalProtect.HostID Unique identifier GlobalProtect has assigned to the host.",
+      "name": "SLS.Logging.GlobalProtect.GPGatewayLocation",
+      "required": ""
+    },
+    {
+      "description": "Indicates whether this log data is available in multiple locations, such as from Strata Logging Service as well as from an on-premise log collector. SLS.Logging.GlobalProtect.IsExported Indicates if this log was exported from the firewall using the firewall's log export function.",
+      "name": "SLS.Logging.GlobalProtect.IsDuplicateLog",
+      "required": ""
+    },
+    {
+      "description": "Internal use field that indicates if the log is being forwarded. SLS.Logging.GlobalProtect.IsPrismaBranch Internal use field. If set to 1, the log was generated on a cloud-based firewall. If 0, the firewall was running on-premise.",
+      "name": "SLS.Logging.GlobalProtect.IsForwarded",
+      "required": ""
+    },
+    {
+      "description": "Internal use field. If set to 1, the log record was generated using a cloud-based GlobalProtect instance. If 0, GlobalProtect was hosted on-premise. SLS.Logging.GlobalProtect.LogSource Identifies the origin of the data.",
+      "name": "SLS.Logging.GlobalProtect.IsPrismaMobile",
+      "required": ""
+    },
+    {
+      "description": "ID that uniquely identifies the source of the log. SLS.Logging.GlobalProtect.LogSourceName Name of the source of the log.",
+      "name": "SLS.Logging.GlobalProtect.LogSourceID",
+      "required": ""
+    },
+    {
+      "description": "Time the log was received in Strata Logging Service XSOAR Connector. SLS.Logging.GlobalProtect.LogType Identifies the log type.",
+      "name": "SLS.Logging.GlobalProtect.LogTime",
+      "required": ""
+    },
+    {
+      "description": "Duration for which the connected user was logged on. SLS.Logging.GlobalProtect.Opaque Additional information regarding the event.",
+      "name": "SLS.Logging.GlobalProtect.LoginDuration",
+      "required": ""
+    },
+    {
+      "description": "Panorama Serial associated with SLS. SLS.Logging.GlobalProtect.PlatformType The platform type.",
+      "name": "SLS.Logging.GlobalProtect.PanoramaSN",
+      "required": ""
+    },
+    {
+      "description": "GlobalProtect portal or gateway that the user connected to. SLS.Logging.GlobalProtect.PrivateIPv4 Private IP address (v4) of the user that connected.",
+      "name": "SLS.Logging.GlobalProtect.Portal",
+      "required": ""
+    },
+    {
+      "description": "Private IP address (v6) of the user that connected. SLS.Logging.GlobalProtect.ProjectName Project name.",
+      "name": "SLS.Logging.GlobalProtect.PrivateIPv6",
+      "required": ""
+    },
+    {
+      "description": "Public IP address (v4) of the user that connected. SLS.Logging.GlobalProtect.PublicIPv6 Public IP address (v6) of the user that connected.",
+      "name": "SLS.Logging.GlobalProtect.PublicIPv4",
+      "required": ""
+    },
+    {
+      "description": "Quarantine reason. SLS.Logging.GlobalProtect.SequenceNo The log entry identifier, which is incremented sequentially.",
+      "name": "SLS.Logging.GlobalProtect.QuarantineReason",
+      "required": ""
+    },
+    {
+      "description": "Region of the gateway (or user) that connected. SLS.Logging.GlobalProtect.SourceUser The username that connected.",
+      "name": "SLS.Logging.GlobalProtect.SourceRegion",
+      "required": ""
+    },
+    {
+      "description": "Domain to which the source user belongs. SLS.Logging.GlobalProtect.SourceUserName The source user username.",
+      "name": "SLS.Logging.GlobalProtect.SourceUserDomain",
+      "required": ""
+    },
+    {
+      "description": "Unique identifier assigned to the source user. SLS.Logging.GlobalProtect.SSLResponseTime SSL response time in milliseconds.",
+      "name": "SLS.Logging.GlobalProtect.SourceUserUUID",
+      "required": ""
+    },
+    {
+      "description": "Name of the stage in the GlobalProtect connection workflow. SLS.Logging.GlobalProtect.EventStatus The status (success or failure) of the event.",
+      "name": "SLS.Logging.GlobalProtect.Stage",
+      "required": ""
+    },
+    {
+      "description": "The log subtype. SLS.Logging.GlobalProtect.TimeGenerated Time when the log was generated on the firewall's data plane.",
+      "name": "SLS.Logging.GlobalProtect.Subtype",
+      "required": ""
+    },
+    {
+      "description": "Tunnel type i.e., SSL or VPN. SLS.Logging.GlobalProtect.VendorName The vendor that produced the data.",
+      "name": "SLS.Logging.GlobalProtect.TunnelType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Strata Logging Service XSOAR Connector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cortex-data-lake"
+}

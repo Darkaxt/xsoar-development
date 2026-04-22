@@ -1,0 +1,56 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "infoblox-dhcp-lease-lookup",
+  "examples": [
+    "!infoblox-dhcp-lease-lookup limit=3\nContext Example\n#\n{\n\"Infoblox\"\n:\n{\n\"DHCPLease\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The DHCP lease reference ID. Infoblox.DHCPLease.Address The DHCP lease address.",
+      "name": "Infoblox.DHCPLease.ReferenceID",
+      "required": ""
+    },
+    {
+      "description": "The DHCP lease binding state. Infoblox.DHCPLease.ClientHostname The DHCP lease client hostname.",
+      "name": "Infoblox.DHCPLease.BindingState",
+      "required": ""
+    },
+    {
+      "description": "The DHCP lease client last transaction time. Infoblox.DHCPLease.Ends The DHCP lease ends time.",
+      "name": "Infoblox.DHCPLease.CLTT",
+      "required": ""
+    },
+    {
+      "description": "The DHCP lease fingerprint. Infoblox.DHCPLease.Hardware The DHCP lease hardware address.",
+      "name": "Infoblox.DHCPLease.Fingerprint",
+      "required": ""
+    },
+    {
+      "description": "The DHCP lease IPv6 prefix bits. Infoblox.DHCPLease.IsInvalidMAC The Flag indicating if the MAC address is invalid.",
+      "name": "Infoblox.DHCPLease.IPV6PrefixBits",
+      "required": ""
+    },
+    {
+      "description": "The network view of the DHCP lease record. Infoblox.DHCPLease.Network The network of the DHCP lease record.",
+      "name": "Infoblox.DHCPLease.NetworkView",
+      "required": ""
+    },
+    {
+      "description": "The protocol of the DHCP lease record. Infoblox.DHCPLease.Starts The DHCP lease starts time.",
+      "name": "Infoblox.DHCPLease.Protocol",
+      "required": ""
+    },
+    {
+      "description": "The DHCP lease variable. Infoblox.DHCPLease.UID The unique identifier of the DHCP lease record.",
+      "name": "Infoblox.DHCPLease.Variable",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Infoblox NIOS",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/infoblox"
+}

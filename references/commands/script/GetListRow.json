@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "get-list-row"
+  ],
+  "arguments": [],
+  "description": "GetListRow | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetListRow",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Header in which the search was performed. GetListRow.Value Value to search for.",
+      "name": "GetListRow.Header",
+      "required": ""
+    },
+    {
+      "description": "GetListRow.ListName The name of the list that was searched.. GetListRow.ParseAll",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "GetListRow.Results All parse results of the list. Edit this page",
+      "name": "If \"True\", the entire list was parsed into the context.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab GetListDatawithKeyword Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "GetMessageIdAndRecipients \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetListRow",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-list-row"
+}

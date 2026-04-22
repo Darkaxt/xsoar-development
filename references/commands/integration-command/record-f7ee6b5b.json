@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n#\nmsgraph-api-generate-login-url\nHuman Readable Output\n#\nAuthorization instructions\n#\nClick on the login URL to sign in and grant Cortex XSOAR permissions for your Azure Service Management.",
+    "!msgraph-api resource=/applications http_method=GET\nEdit this page\nReport an Issue\nPrevious\n\u00ab Microsoft Endpoint Manager (Intune)\nNext\nMicrosoft Graph Mail Single User \u00bb\nAuthorization"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "msgraph-api-generate-login-url",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Generate the login URL used for Authorization code flow.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "msgraph-api-generate-login-url",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Graph API",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-api"
+}

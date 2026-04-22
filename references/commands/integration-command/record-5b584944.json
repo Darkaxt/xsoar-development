@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "88211351b6739a8f9aa0c0ac01162b70",
+  "examples": [
+    "Command Example\n#\n!arcusteam-get-vulnerabilities firmware_id=f5db998da08c1917bb76ea98b051bff6 device_id=e91e3216d1d0f6480a89acbd9536a1ca return_fields=risk,cve,cwe,description,exploit_published,exploit_used,modified_date\nContext Example\n#\n{\n\"ArcusTeamVulnerabilities\"\n:",
+    "!arcusteam-get-vulnerabilities firmware_id=f5db998da08c1917bb76ea98b051bff6 device_id=e91e3216d1d0f6480a89acbd9536a1ca return_fields=risk,cve,cwe,description,exploit_published,exploit_used,modified_date\nContext Example\n#\n{\n\"ArcusTeamVulnerabilities\"\n:\n{\n\"has_next\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Number of results ArcusTeamVulnerabilities.has_next If there is another page",
+      "name": "ArcusTeamVulnerabilities.max_items",
+      "required": ""
+    },
+    {
+      "description": "CVE name ArcusTeamVulnerabilities.results.risk CVE risk",
+      "name": "ArcusTeamVulnerabilities.results.cve",
+      "required": ""
+    },
+    {
+      "description": "CVE description ArcusTeamVulnerabilities.results.codename CVE codename",
+      "name": "ArcusTeamVulnerabilities.results.description",
+      "required": ""
+    },
+    {
+      "description": "CVE cwe ArcusTeamVulnerabilities.results.exploit_published If exploit was published",
+      "name": "ArcusTeamVulnerabilities.results.cwe",
+      "required": ""
+    },
+    {
+      "description": "If exploit was used ArcusTeamVulnerabilities.results.modified_date If date was modified",
+      "name": "ArcusTeamVulnerabilities.results.exploit_used",
+      "required": ""
+    },
+    {
+      "description": "CVE ownership ArcusTeamVulnerabilities.results.published_date The date the CVE was published",
+      "name": "ArcusTeamVulnerabilities.results.ownership",
+      "required": ""
+    },
+    {
+      "description": "CVE title ArcusTeamVulnerabilities.results.url CVE url",
+      "name": "ArcusTeamVulnerabilities.results.title",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ArcusTeam",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/arcus-team"
+}

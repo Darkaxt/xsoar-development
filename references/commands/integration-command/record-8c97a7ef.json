@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "ProofpointThreatProtection.Safelist",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Standard HTTP response with status code 200. Edit this page Report an Issue",
+      "name": "ProofpointThreatProtection.Safelist",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Proofpoint TAP v2 Next Proofpoint Threat Response \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands proofpoint-tp-blocklist-get proofpoint-tp-blocklist-add-or-delete-entry",
+      "name": "Configure Proofpoint Threat Protection in Cortex",
+      "required": ""
+    },
+    {
+      "description": "proofpoint-tp-safelist-add-or-delete-entry proofpoint-tp-blocklist-list proofpoint-tp-blocklist-add-entry",
+      "name": "proofpoint-tp-safelist-get",
+      "required": ""
+    },
+    {
+      "description": "proofpoint-tp-safelist-list proofpoint-tp-safelist-add-entry proofpoint-tp-safelist-delete-entry",
+      "name": "proofpoint-tp-blocklist-delete-entry",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Proofpoint Threat Protection",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/proofpoint-threat-protection"
+}

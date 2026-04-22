@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Edit a specific ticket. Ticket ID specifies which ticket to edit.",
+  "examples": [
+    "Command Example\n!rtir-edit-ticket ticket-id=115 final-priority=100 status=open subject=NewTicketSubject\nRaw Output\nTicket 115 was edited successfully.\nContext Example\n{\n\"RTIR\": {\n\"Ticket\": {",
+    "!rtir-edit-ticket ticket-id=115 final-priority=100 status=open subject=NewTicketSubject\nRaw Output\nTicket 115 was edited successfully.\nContext Example\n{\n\"RTIR\": {\n\"Ticket\": {\n\"FinalPriority\": 100,"
+  ],
+  "kind": "integration-command",
+  "name": "rtir-edit-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID. RTIR.Ticket.FinalPriority Ticket final priority (0-100).",
+      "name": "RTIR.Ticket.ID",
+      "required": ""
+    },
+    {
+      "description": "Ticket priority (0-100). RTIR.Ticket.Owner Ticket owner.",
+      "name": "RTIR.Ticket.Priority",
+      "required": ""
+    },
+    {
+      "description": "Ticket state. RTIR.Ticket.Subject Ticket subject.",
+      "name": "RTIR.Ticket.State",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RTIR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rtir"
+}

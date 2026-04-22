@@ -1,0 +1,51 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "192.168.1.207 - Blue Coat SG-VA Series",
+  "examples": [
+    "Command Example\nsymantec-mc-get-device uuid=\"C131C3D1-171B-4DA7-ADE2-AA736EA91540\"\nContext Example\n{\n\"SymantecMC.Device\": {\n\"SerialNumber\": \"0806315479\",\n\"Name\": \"192.168.1.207 - Blue Coat SG-VA Series\",\n\"LastChangedBy\": \"admin\","
+  ],
+  "kind": "integration-command",
+  "name": "symantec-mc-get-device",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Device UUID. SymantecMC.Device.Name Device name.",
+      "name": "SymantecMC.Device.UUID",
+      "required": ""
+    },
+    {
+      "description": "Device last changed date. SymantecMC.Device.LastChangedBy User that last changed the device.",
+      "name": "SymantecMC.Device.LastChanged",
+      "required": ""
+    },
+    {
+      "description": "Device description. SymantecMC.Device.Model Device model.",
+      "name": "SymantecMC.Device.Description",
+      "required": ""
+    },
+    {
+      "description": "Device platform SymantecMC.Device.Type Device type.",
+      "name": "SymantecMC.Device\u2026Platform",
+      "required": ""
+    },
+    {
+      "description": "Device OS version. SymantecMC.Device.Build Device build number.",
+      "name": "SymantecMC.Device.OSVersion",
+      "required": ""
+    },
+    {
+      "description": "Device serial number. SymantecMC.Device.Host Device host address.",
+      "name": "SymantecMC.Device.SerialNumber",
+      "required": ""
+    },
+    {
+      "description": "Device management status. SymantecMC.Device.DeploymentStatus Device deployment status.",
+      "name": "SymantecMC.Device.ManagementStatus",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Management Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-management-center"
+}

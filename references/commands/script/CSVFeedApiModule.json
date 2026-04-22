@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "csv-feed-api-module"
+  ],
+  "arguments": [],
+  "description": "CSVFeedApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CSVFeedApiModule",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CSVFeedApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/csv-feed-api-module"
+}

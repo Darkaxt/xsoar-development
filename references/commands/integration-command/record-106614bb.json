@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Generates a bpa report. Steps -",
+  "examples": [
+    "!aiops-bpa-report-generate requester_email=testl@gmail.com requester_name=test\nHuman Readable Output\n#\n- Initiated\n#\nThe report with id 7fec3669-c7bc-4113-b8b9-cae6a2aeb066 was sent successfully. Download in progress...\n- If generation was successful\n#"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "When using show_in_context = True flag the generated report will be inserted to the context data.",
+      "name": "By default, there is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks AIOps",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-ai-ops"
+}

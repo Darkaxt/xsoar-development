@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The environment ID of the submission.",
+  "examples": [
+    "Command Example\n!hybrid-analysis-submit-sample entryId=413@13 environmentID=100\nHuman Readable Output\n3. Search Hybrid Analysis\nPerforms a search on the database using the Hybrid Analysis search syntax.\nBase Command\nhybrid-analysis-search\nInput",
+    "!hybrid-analysis-submit-sample entryId=413@13 environmentID=100\nHuman Readable Output\n3. Search Hybrid Analysis\nPerforms a search on the database using the Hybrid Analysis search syntax.\nBase Command\nhybrid-analysis-search\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "hybrid-analysis-search",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA256 hash of the search result. HybridAnalysis.Search.SHA1 The SHA1 hash of the search result.",
+      "name": "HybridAnalysis.Search.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the search result. HybridAnalysis.Search.environmentId The environment ID of the search result.",
+      "name": "HybridAnalysis.Search.MD5",
+      "required": ""
+    },
+    {
+      "description": "date The start time of the search result. HybridAnalysis.Search.threatscore",
+      "name": "HybridAnalysis.Search.start_time",
+      "required": ""
+    },
+    {
+      "description": "The threat score of the search result, by server. HybridAnalysis.Search.verdict The verdict of the search result.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "The environment description of search result. HybridAnalysis.Search.submitname The submission name of the search result.",
+      "name": "HybridAnalysis.Search.environmentDescription",
+      "required": ""
+    },
+    {
+      "description": "The family of search result. HybridAnalysis.Search.threatscore The threat score of the search result.",
+      "name": "HybridAnalysis.Search.vxfamily",
+      "required": ""
+    },
+    {
+      "description": "The type of search result, for example: \"url\" or \"host\". HybridAnalysis.Search.size The size of the search result.",
+      "name": "HybridAnalysis.Search.type_short",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the vendor that made the decision. File.Malicious.Description For malicious files, the reason that the vendor made the decision.",
+      "name": "File.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The DBotScore vendor. DBotScore.Score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Hybrid Analysis (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hybrid-analysis"
+}

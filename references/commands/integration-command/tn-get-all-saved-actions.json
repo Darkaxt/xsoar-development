@@ -1,0 +1,68 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Get Installed Applications starting with \"adobe reader\" from all machines",
+  "examples": [
+    "Command Example\n!tn-get-all-saved-actions\nContext Example\nTanium:{\nSavedActions:[{\ndistribute_seconds:0\npublic_flag:0\naction_group_id:0",
+    "!tn-get-all-saved-actions\nContext Example\nTanium:{\nSavedActions:[{\ndistribute_seconds:0\npublic_flag:0\naction_group_id:0\napprover:{}"
+  ],
+  "kind": "integration-command",
+  "name": "tn-get-all-saved-actions",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Distribute seconds of action Tanium.SavedActions.public_flag Whether action is public or not",
+      "name": "Tanium.SavedActions.distribute_seconds",
+      "required": ""
+    },
+    {
+      "description": "Group ID of action Tanium.SavedActions.approver.id ID of the user who approved the action",
+      "name": "Tanium.SavedActions.action_group_id",
+      "required": ""
+    },
+    {
+      "description": "date Action start time Tanium.SavedActions.name",
+      "name": "Tanium.SavedActions.start_time",
+      "required": ""
+    },
+    {
+      "description": "Action name Tanium.SavedActions.user.id ID of the user who created the action",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "date Time the action was created Tanium.SavedActions.end_time",
+      "name": "Tanium.SavedActions.creation_time",
+      "required": ""
+    },
+    {
+      "description": "Time the action ended Tanium.SavedActions.status Action status",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "date Last time action started Tanium.SavedActions.id",
+      "name": "Tanium.SavedActions.last_start_time",
+      "required": ""
+    },
+    {
+      "description": "ID of action Tanium.SavedActions.package_spec.id The package associated with the action",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Whether action was approved or not",
+      "name": "Tanium.SavedActions.approved_flag",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium"
+}

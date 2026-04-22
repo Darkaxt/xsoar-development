@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "reversinglabs-a1000-upload-from-url-actions",
+  "examples": [
+    "!reversinglabs-a1000-upload-from-url-actions action=\"UPLOAD\" file_url=\"https://download.sublimetext.com/sublime_text_build_4169_x64_setup.exe\" crawler=\"local\" sandbox_platform=\"windows10\"\nContext Example\n#\n{\n\"ReversingLabs\"\n:\n{\n\"a1000_upload_from_url_actions\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA256 hash of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "MD5 hash of the file. DBotScore.Score The actual score.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Indicator The indicator that was tested.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Reliability Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Actions for uploading a sample from a URL and fetching the analysis results.",
+      "name": "ReversingLabs.a1000_upload_from_url_actions",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ReversingLabs A1000 v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/reversing-labs-a1000-v2"
+}

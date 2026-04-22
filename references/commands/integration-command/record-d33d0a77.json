@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!dsv-secret-get name=\"accounts/xsoar\"\nContext Example\n#\n{\n\"DSV\"\n:",
+    "!dsv-secret-get name=\"accounts/xsoar\"\nContext Example\n#\n{\n\"DSV\"\n:\n{\n\"Secret\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "JSON object secret",
+      "name": "secret",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThycoticDSV (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/thycotic-dsv"
+}

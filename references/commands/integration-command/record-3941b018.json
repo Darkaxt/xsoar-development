@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Mozilla Firefox 88.0 (x86 fr)",
+  "examples": [
+    "Command Example\n#\n!cov-secpr-list-organizations\nHuman Readable Output\n#\nNo organizations found\nEdit this page\nReport an Issue",
+    "!cov-secpr-list-organizations\nHuman Readable Output\n#\nNo organizations found\nEdit this page\nReport an Issue\nPrevious\n\u00ab CounterTack"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Org_name",
+      "name": "Covalence.Organization.org_name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Covalence For Security Providers",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/covalence-for-security-providers"
+}

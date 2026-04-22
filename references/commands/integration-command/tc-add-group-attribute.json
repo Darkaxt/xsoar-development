@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The type of the group to delete. Can be \"Incidents\", \"Events\", \"Campaigns\", or \"Threats\".",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "tc-add-group-attribute",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Date The date on which the attribute was added. TC.Group.LastModified",
+      "name": "TC.Group.DateAdded",
+      "required": ""
+    },
+    {
+      "description": "The date on which the added attribute was last modified. TC.Group.Type The type of the group to which the attribute was added.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The value of the attribute added to the group. TC.Group.ID",
+      "name": "TC.Group.Value",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

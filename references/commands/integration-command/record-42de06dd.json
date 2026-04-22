@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique identifier of the event. SAPBTP.Event.user User associated with the event.",
+      "name": "SAPBTP.Event.uuid",
+      "required": ""
+    },
+    {
+      "description": "Date Timestamp of the event. SAPBTP.Event.ip",
+      "name": "SAPBTP.Event.time",
+      "required": ""
+    },
+    {
+      "description": "IP address associated with the event. SAPBTP.Event.data Event data payload.",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SAP BTP (Business Technology Platform)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sapbtp"
+}

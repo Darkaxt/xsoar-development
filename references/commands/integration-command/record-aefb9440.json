@@ -1,0 +1,102 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "mobileiron-core-get-device-by-ip",
+  "examples": [
+    "Command Example\n#\n!mobileiron-core-get-device-by-ip device_id=IP\nContext Example\n#\n{\n\"MobileIronCore\"\n:",
+    "!mobileiron-core-get-device-by-ip device_id=IP\nContext Example\n#\n{\n\"MobileIronCore\"\n:\n{\n\"Device\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Model of the device that was fetched. MobileIronCore.Device.common_os_version Operating system version of the device that was fetched.",
+      "name": "MobileIronCore.Device.common_model",
+      "required": ""
+    },
+    {
+      "description": "Platform name of the device that was fetched. MobileIronCore.Device.common_status Status of the device that was fetched.",
+      "name": "MobileIronCore.Device.common_platform",
+      "required": ""
+    },
+    {
+      "description": "International Mobile Equipment Identity (IMEI) of the device that was fetched. MobileIronCore.Device.common_platform Platform of the device that was fetched.",
+      "name": "MobileIronCore.Device.common_imei",
+      "required": ""
+    },
+    {
+      "description": "Security state of the device that was fetched. MobileIronCore.Device.user_display_name Display name of the device that was fetched.",
+      "name": "MobileIronCore.Device.common_security_state",
+      "required": ""
+    },
+    {
+      "description": "Date Date the device that was fetched was last connected. MobileIronCore.Device.common_uuid",
+      "name": "MobileIronCore.Device.common_last_connected_at",
+      "required": ""
+    },
+    {
+      "description": "Device UUID of the device that was fetched. MobileIronCore.Device.common_quarantined Whether the device was quarantined.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "ID of the device that was fetched. MobileIronCore.Device.common_imsi International mobile subscriber identity (IMSI) of the device that was fetched.",
+      "name": "MobileIronCore.Device.common_id",
+      "required": ""
+    },
+    {
+      "description": "Owner of the device that was fetched. MobileIronCore.Device.user_email_address User email address of the device that was fetched.",
+      "name": "MobileIronCore.Device.common_owner",
+      "required": ""
+    },
+    {
+      "description": "Manufacturer of the device that was fetched. MobileIronCore.Device.common_compliant Whether the device that was fetched is compliant.",
+      "name": "MobileIronCore.Device.common_manufacturer",
+      "required": ""
+    },
+    {
+      "description": "User ID of the device that was fetched. MobileIronCore.Device.common_registration_date Date",
+      "name": "MobileIronCore.Device.user_user_id",
+      "required": ""
+    },
+    {
+      "description": "MobileIronCore.Device.common_wifi_mac_address WiFi MAC address of the device that was fetched. MobileIronCore.Device.common_noncompliance_reasons",
+      "name": "Registration date of the device that was fetched.",
+      "required": ""
+    },
+    {
+      "description": "Non-compliance reasons for the device that was fetched. MobileIronCore.Device.ios_iPhone_UDID iPhone UDID of the device that was fetched.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "IPhone MAC address EN0 of the device that was fetched. MobileIronCore.Device.ios_Current_MCC Current MCC of the device that was fetched.",
+      "name": "MobileIronCore.Device.ios_iPhone_MAC_ADDRESS_EN0",
+      "required": ""
+    },
+    {
+      "description": "Current country code of the device that was fetched. MobileIronCore.Device.user_sam_account_name SAM account name of the device that was fetched.",
+      "name": "MobileIronCore.Device.common_current_country_code",
+      "required": ""
+    },
+    {
+      "description": "Current country nameCurrent country name of the device that was fetched. MobileIronCore.Device.common_home_country_name Home country name of the device that was fetched.",
+      "name": "MobileIronCore.Device.common_current_country_name",
+      "required": ""
+    },
+    {
+      "description": "Home country code of the device that was fetched. MobileIronCore.Device.common_device_is_compromised Whether the device that was fetched was compromised.",
+      "name": "MobileIronCore.Device.common_home_country_code",
+      "required": ""
+    },
+    {
+      "description": "Device serial number of the device that was fetched. MobileIronCore.Device.common_mdm_managed Whether the device that was fetched is MDM managed.",
+      "name": "MobileIronCore.Device.common_SerialNumber",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MobileIronCORE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mobile-iron-core"
+}

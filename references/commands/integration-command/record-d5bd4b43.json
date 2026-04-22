@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Results on this page: 0.",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### sophos-central-isolate-endpoint\n***\nIsolate one or more endpoints.\n#### Base Command\n`sophos-central-isolate-endpoint`",
+    "#### Command Example\n```!sophos-central-isolate-endpoint endpoint_id=25de27bc-b07a-4728-b7b2-a021365xxxxx```\n#### Context Example\n```json\n{\n\"items\": [\n{\n\"id\": \"25de27bc-b07a-4728-b7b2-a021365xxxxx\",",
+    "#### Command Example\n```!sophos-central-deisolate-endpoint endpoint_id=25de27bc-b07a-4728-b7b2-a021365xxxxx```\n#### Context Example\n```json\n{\n\"items\": [\n{\n\"id\": \"25de27bc-b07a-4728-b7b2-a021365xxxxx\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The number of times the same exploit has been detected, potentially across multiple endpoints. SophosCentral.DetectedExploit.description The English description of the exploit detected event.",
+      "name": "SophosCentral.DetectedExploit.count",
+      "required": ""
+    },
+    {
+      "description": "The ID of this Exploit Mitigation application. SophosCentral.DetectedExploit.firstSeenAt Date",
+      "name": "SophosCentral.DetectedExploit.id",
+      "required": ""
+    },
+    {
+      "description": "SophosCentral.DetectedExploit.lastSeenAt Date When the exploit was last seen.",
+      "name": "When the exploit was first seen.",
+      "required": ""
+    },
+    {
+      "description": "The endpoint hostname. SophosCentral.DetectedExploit.lastEndpointId The unique endpoint ID.",
+      "name": "SophosCentral.DetectedExploit.lastEndpointHostname",
+      "required": ""
+    },
+    {
+      "description": "Person's name. SophosCentral.DetectedExploit.lastUserId The unique ID for the user.",
+      "name": "SophosCentral.DetectedExploit.lastUserName",
+      "required": ""
+    },
+    {
+      "description": "Matches [0-9a-zA-Z]{64}.",
+      "name": "SophosCentral.DetectedExploit.thumbprint",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Sophos Central",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sophos-central"
+}

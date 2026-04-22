@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "12. Get a specified user",
+  "examples": [
+    "Command Example\n!okta-get-user username=test@this.com verbose=true\nContext Example\n{\n\"Account\": [\n{\n\"DisplayName\": \"test this\",\n\"Email\": \"test@this.com\",",
+    "!okta-get-user username=test@this.com verbose=true\nContext Example\n{\n\"Account\": [\n{\n\"DisplayName\": \"test this\",\n\"Email\": \"test@this.com\",\n\"ID\": \"00ued6gq9jItNhAsN0h7\","
+  ],
+  "kind": "integration-command",
+  "name": "okta-get-user",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Okta account ID. Account.Email Okta account email.",
+      "name": "Account.ID",
+      "required": ""
+    },
+    {
+      "description": "Okta account username. Account.DisplayName Okta account display name.",
+      "name": "Account.Username",
+      "required": ""
+    },
+    {
+      "description": "Type of account, such as Okta.",
+      "name": "Account.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "okta (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta"
+}

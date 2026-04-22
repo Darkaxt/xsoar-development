@@ -1,0 +1,227 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Additional Information",
+  "examples": [
+    "Command Example\n!cortex-query-traps-logs startTime=2011-10-25T00:00:31 endTime=2019-10-27T00:00:31 fields=endPointHeader.userName limit=4 user=administrator,tim,josh\nContext Example\n{\n\"Cortex.Logging.Traps\": [\n{\n\"EndPointHeader\": {\n\"Username\": \"administrator\"",
+    "!cortex-query-traps-logs startTime=2011-10-25T00:00:31 endTime=2019-10-27T00:00:31 fields=endPointHeader.userName limit=4 user=administrator,tim,josh\nContext Example\n{\n\"Cortex.Logging.Traps\": [\n{\n\"EndPointHeader\": {\n\"Username\": \"administrator\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "cortex-query-traps-logs",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Severity level associated with the event. Cortex.Logging.Traps.AgentID Unique identifier for the Traps agent.",
+      "name": "Cortex.Logging.Traps.Severity",
+      "required": ""
+    },
+    {
+      "description": "Operating system of the endpoint. Cortex.Logging.Traps.EndPointHeader.IsVdi Indicates whether the endpoint is a virtual desktop infrastructure (VDI).",
+      "name": "Cortex.Logging.Traps.EndPointHeader.OsType",
+      "required": ""
+    },
+    {
+      "description": "Full version number of the operating system running on the endpoint. For example, 6.1.7601.19135. Cortex.Logging.Traps.EndPointHeader.Is64 Indicates whether the endpoint is running a 64-bit version of Windows.",
+      "name": "Cortex.Logging.Traps.EndPointHeader.OSVersion",
+      "required": ""
+    },
+    {
+      "description": "IP address of the endpoint. Cortex.Logging.Traps.EndPointHeader.DeviceName Hostname of the endpoint on which the event was logged.",
+      "name": "Cortex.Logging.Traps.EndPointHeader.AgentIP",
+      "required": ""
+    },
+    {
+      "description": "Domain to which the endpoint belongs. Cortex.Logging.Traps.EndPointHeader.Username The username on which the event was logged.",
+      "name": "Cortex.Logging.Traps.EndPointHeader.DeviceDomain",
+      "required": ""
+    },
+    {
+      "description": "Universal Time Coordinated (UTC) equivalent of the time at which an agent logged an event. ISO-8601 string representation. Cortex.Logging.Traps.EndPointHeader.AgentVersion Version of the Traps agent.",
+      "name": "Cortex.Logging.Traps.EndPointHeader.AgentTime",
+      "required": ""
+    },
+    {
+      "description": "The Traps agent status. Cortex.Logging.Traps.RecordType Record type associated with the event.",
+      "name": "Cortex.Logging.Traps.EndPointHeader.ProtectionStatus",
+      "required": ""
+    },
+    {
+      "description": "Tenant external ID. Cortex.Logging.Traps.EventType Subtype of the event.",
+      "name": "Cortex.Logging.Traps.TrapsID",
+      "required": ""
+    },
+    {
+      "description": "Unique identifier for the event in Cortex. Cortex.Logging.Traps.ServerHost Hostname of the Traps management service.",
+      "name": "Cortex.Logging.Traps.UUID",
+      "required": ""
+    },
+    {
+      "description": "Universal Time Coordinated (UTC) equivalent of the time at which an event was logged. Cortex.Logging.Traps.ServerComponentVersion Software version of the Traps management service.",
+      "name": "Cortex.Logging.Traps.GeneratedTime",
+      "required": ""
+    },
+    {
+      "description": "Region ID. Cortex.Logging.Traps.CustomerID Customer ID.",
+      "name": "Cortex.Logging.Traps.RegionID",
+      "required": ""
+    },
+    {
+      "description": "Universal Time Coordinated (UTC) equivalent of the time at which the server generated the log. If the log was generated on an endpoint. Cortex.Logging.Traps.OriginalAgentTime Original time on the endpoint device.",
+      "name": "Cortex.Logging.Traps.ServerTime",
+      "required": ""
+    },
+    {
+      "description": "Sting The Traps system component that initiated the event For example:, TrapsAgent, TrapsServiceCore, TrapsServiceManagement, TrapsServiceBackend. Cortex.Logging.Traps.MessageData.PreventionKey",
+      "name": "Cortex.Logging.Traps.Facility",
+      "required": ""
+    },
+    {
+      "description": "Unique identifier for security events. Cortex.Logging.Traps.MessageData.Processes.PID Process identifier.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Parent process identifier. Cortex.Logging.Traps.MessageData.Processes.ExeFileIdx Index of target files for specific security events such as: Scanning, Malicious DLL, Malicious Macro events.",
+      "name": "Cortex.Logging.Traps.MessageData.Processes.ParentID",
+      "required": ""
+    },
+    {
+      "description": "Index of users. Cortex.Logging.Traps.MessageData.Processes.CommandLine Command line executed with the process.",
+      "name": "Cortex.Logging.Traps.MessageData.Processes.UserIdx",
+      "required": ""
+    },
+    {
+      "description": "Termination action taken on the file. Cortex.Logging.Traps.MessageData.Files.RawFullPath Full path for the executed file.",
+      "name": "Cortex.Logging.Traps.MessageData.Processes.Terminated",
+      "required": ""
+    },
+    {
+      "description": "File name. Cortex.Logging.Traps.MessageData.Files.SHA256 SHA256 hash of the file.",
+      "name": "Cortex.Logging.Traps.MessageData.Files.FileName",
+      "required": ""
+    },
+    {
+      "description": "File size. Cortex.Logging.Traps.MessageData.Users.Username Username of the active user on the endpoint.",
+      "name": "Cortex.Logging.Traps.MessageData.Files.FileSize",
+      "required": ""
+    },
+    {
+      "description": "Domain to which the user account belongs. Cortex.Logging.Traps.MessageData.PostDetected Was post detected.",
+      "name": "Cortex.Logging.Traps.MessageData.Users.Domain",
+      "required": ""
+    },
+    {
+      "description": "Termination action taken on the file. Cortex.Logging.Traps.MessageData.Verdict Traps verdict for the file.",
+      "name": "Cortex.Logging.Traps.MessageData.Terminate",
+      "required": ""
+    },
+    {
+      "description": "Block action taken on the file. Cortex.Logging.Traps.MessageData.TargetProcessIdx The prevention target process index in the processes array.",
+      "name": "Cortex.Logging.Traps.MessageData.Blocked",
+      "required": ""
+    },
+    {
+      "description": "Security module name. Cortex.Logging.Traps.MessageData.PreventionMode The prevention mode used.",
+      "name": "Cortex.Logging.Traps.MessageData.ModuleCategory",
+      "required": ""
+    },
+    {
+      "description": "Traps Severity level associated with the event defined for the Traps management service. Cortex.Logging.Traps.MessageData.SourceProcess.User.Username Source username initiating the process.",
+      "name": "Cortex.Logging.Traps.MessageData.TrapsSeverity",
+      "required": ""
+    },
+    {
+      "description": "Source process ID (PID). Cortex.Logging.Traps.MessageData.SourceProcess.ParentID Parent ID for the source process.",
+      "name": "Cortex.Logging.Traps.MessageData.SourceProcess.PID",
+      "required": ""
+    },
+    {
+      "description": "Source process command line. Cortex.Logging.Traps.MessageData.SourceProcess.InstanceID Traps instance ID.",
+      "name": "Cortex.Logging.Traps.MessageData.SourceProcess.CommandLine",
+      "required": ""
+    },
+    {
+      "description": "Source process termination action taken on the file. Cortex.Logging.Traps.MessageData.SourceProcess.RawFullPath Source process raw full path.",
+      "name": "Cortex.Logging.Traps.MessageData.SourceProcess.Terminated",
+      "required": ""
+    },
+    {
+      "description": "Source process file name. Cortex.Logging.Traps.MessageData.SourceProcess.SHA256 Source process SHA256 hash.",
+      "name": "Cortex.Logging.Traps.MessageData.SourceProcess.FileName",
+      "required": ""
+    },
+    {
+      "description": "Source process file size. Cortex.Logging.Traps.MessageData.SourceProcess.InnerObjectSHA256 Source process inner object SHA256 hash",
+      "name": "Cortex.Logging.Traps.MessageData.SourceProcess.FileSize",
+      "required": ""
+    },
+    {
+      "description": "The hostname that is mapped to this endpoint. Endpoint.IPAddress The IP address of the endpoint.",
+      "name": "Endpoint.Hostname",
+      "required": ""
+    },
+    {
+      "description": "The domain of the endpoint. Endpoint.OSVersion OS version.",
+      "name": "Endpoint.Domain",
+      "required": ""
+    },
+    {
+      "description": "Endpoint OS. Endpoint.ID The unique ID within the tool retrieving the endpoint.",
+      "name": "Endpoint.OS",
+      "required": ""
+    },
+    {
+      "description": "The name of the host. Host.IPAddress The IP address of the host.",
+      "name": "Host.Hostname",
+      "required": ""
+    },
+    {
+      "description": "The domain of the host. Host.OSVersion The OS version of the host.",
+      "name": "Host.Domain",
+      "required": ""
+    },
+    {
+      "description": "Host OS. Host.ID The unique ID within the tool retrieving the host.",
+      "name": "Host.OS",
+      "required": ""
+    },
+    {
+      "description": "The PID of the process. Process.Parent Parent process objects.",
+      "name": "Process.PID",
+      "required": ""
+    },
+    {
+      "description": "The full command line (including arguments). Process.SHA256 The SHA256 hash of the process.",
+      "name": "Process.CommandLine",
+      "required": ""
+    },
+    {
+      "description": "The name of the process. Process.Path The file system path to the binary file.",
+      "name": "Process.Name",
+      "required": ""
+    },
+    {
+      "description": "The full file name (including file extension). File.Type The file type, as determined by libmagic (same as displayed in file entries).",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "The path where the file is located. File.Size The size of the file in bytes.",
+      "name": "File.Path",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. File.DigitalSignature.Publisher The publisher of the digital signature for the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The name of the company that released a binary.",
+      "name": "File.Company",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Cortex (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-cortex"
+}

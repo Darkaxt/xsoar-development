@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Job ID - 5c98a5860388384f701662c1",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "vx-search",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA-256 hash of the search result. VX.Search.SHA1 The SHA-1 hash of the search result.",
+      "name": "VX.Search.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the search result. VX.Search.environmentId The environment ID of the search result.",
+      "name": "VX.Search.MD5",
+      "required": ""
+    },
+    {
+      "description": "The start time of the search result. VX.Search.threatscore The threat score of the search result (by server).",
+      "name": "VX.Search.start_time",
+      "required": ""
+    },
+    {
+      "description": "Verdict of search result VX.Search.environmentDescription The environment description of the search result.",
+      "name": "VX.Search.verdict",
+      "required": ""
+    },
+    {
+      "description": "The submission name of the search result. VX.Search.vxfamily The family of the search result",
+      "name": "VX.Search.submitname",
+      "required": ""
+    },
+    {
+      "description": "The threat score of the search result. VX.Search.type_short The type of search result, for example: url or host.",
+      "name": "VX.Search.threatscore",
+      "required": ""
+    },
+    {
+      "description": "The size of the search result. File.Malicious.Vendor",
+      "name": "VX.Search.size",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Sandbox (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vx-stream"
+}

@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The status of the current scan (\u201cprocessing\u201d/\u201ccompleted\u201d).",
+  "examples": [
+    "Command Example\n!irisk-get-scan-status id=1247\nHuman Readable Output\n3. Re-scan a domain\nInitiates a re-scan for a domain within a portfolio.\nBase Command\nirisk-rescan-domain\nInput",
+    "!irisk-get-scan-status id=1247\nHuman Readable Output\n3. Re-scan a domain\nInitiates a re-scan for a domain within a portfolio.\nBase Command\nirisk-rescan-domain\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "irisk-rescan-domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the scanned domain. C2sec.Domain.Scan.workitemid Scan ID.",
+      "name": "C2sec.Domain.Scan.domain",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "C2sec.Domain.Scan.result",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "C2sec irisk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/c2sec-irisk"
+}

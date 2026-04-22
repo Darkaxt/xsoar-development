@@ -1,0 +1,13 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "5. Remove an IP address from an allow list: sigsci-whitelist-remove-ip",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "sigsci-whitelist-remove-ip",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "dspm-incident-list"
+  ],
+  "arguments": [],
+  "description": "DSPMIncidentList | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DSPMIncidentList",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Updated incident list status. Edit this page Report an Issue",
+      "name": "listStatus",
+      "required": ""
+    },
+    {
+      "description": "\u00ab DSPMGetContianers Next DSPMRerunIncidents \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DSPMIncidentList",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/dspm-incident-list"
+}

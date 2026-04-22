@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "a1000-final-classification"
+  ],
+  "arguments": [],
+  "description": "A1000FinalClassification | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "A1000FinalClassification",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The SHA256 hash of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "File.SHA512 The SHA512 hash of the file. File.Name",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "File.EntryID The Entry ID. File.Info",
+      "name": "The name of the file.",
+      "required": ""
+    },
+    {
+      "description": "File.Type The type of the file. File.MD5",
+      "name": "Information about the file.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Score The actual score. DBotScore.Type",
+      "name": "MD5 hash of the file.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Indicator The indicator that was tested. DBotScore.Vendor",
+      "name": "The indicator type.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The vendor used to calculate the score.",
+      "required": ""
+    },
+    {
+      "description": "Next AbuseIPDBPopulateIndicators \u00bb Script Data",
+      "name": "\u00ab ZTAP Alert",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "A1000FinalClassification",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/a1000-final-classification"
+}

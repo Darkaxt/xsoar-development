@@ -1,0 +1,97 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2018-02-12T14:04:02.733Z",
+  "examples": [
+    "Command Example\n#\n!ls-mac-hunt mac_address=\"03:00:00:00:00:57\"\nContext Example\n#\n{\n\"Lansweeper\"\n:",
+    "!ls-mac-hunt mac_address=\"03:00:00:00:00:57\"\nContext Example\n#\n{\n\"Lansweeper\"\n:\n{\n\"Mac\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Asset ID. Lansweeper.Mac.assetBasicInfo.name Asset name.",
+      "name": "Lansweeper.Mac.assetId",
+      "required": ""
+    },
+    {
+      "description": "Domain the asset belongs to. Lansweeper.Mac.assetBasicInfo.description Description of the asset.",
+      "name": "Lansweeper.Mac.assetBasicInfo.domain",
+      "required": ""
+    },
+    {
+      "description": "Date Date and time at which the asset was first scanned. Lansweeper.Mac.assetBasicInfo.fqdn",
+      "name": "Lansweeper.Mac.assetBasicInfo.firstSeen",
+      "required": ""
+    },
+    {
+      "description": "FQDN of the asset. Lansweeper.Mac.assetBasicInfo.ipAddress IP address associated with the asset.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Date Date and time at which the asset was last scanned. Lansweeper.Mac.assetBasicInfo.mac",
+      "name": "Lansweeper.Mac.assetBasicInfo.lastSeen",
+      "required": ""
+    },
+    {
+      "description": "Asset's main MAC address. Lansweeper.Mac.assetBasicInfo.userName Name of the last logged on user.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Type of the asset. Lansweeper.Mac.assetBasicInfo.userDomain Domain of the last logged on user.",
+      "name": "Lansweeper.Mac.assetBasicInfo.type",
+      "required": ""
+    },
+    {
+      "description": "Asset's SKU. Lansweeper.Mac.assetCustom.model Model of the asset.",
+      "name": "Lansweeper.Mac.assetCustom.sku",
+      "required": ""
+    },
+    {
+      "description": "Firmware version, retrieved from plug and play devices via the UPnP, DNS-SD or SSDP protocol. Lansweeper.Mac.assetCustom.purchaseDate Date",
+      "name": "Lansweeper.Mac.assetCustom.firmwareVersion",
+      "required": ""
+    },
+    {
+      "description": "Lansweeper.Mac.assetCustom.warrantyDate Date When the asset's warranty expires.",
+      "name": "When the asset was purchased.",
+      "required": ""
+    },
+    {
+      "description": "Comment on the asset.. Lansweeper.Mac.assetCustom.location Location of the asset.",
+      "name": "Lansweeper.Mac.assetCustom.comment",
+      "required": ""
+    },
+    {
+      "description": "Contact person of the asset. Lansweeper.Mac.assetCustom.manufacturer Manufacturer of the asset.",
+      "name": "Lansweeper.Mac.assetCustom.contact",
+      "required": ""
+    },
+    {
+      "description": "Serial number of the asset. Lansweeper.Mac.assetCustom.dnsName DNS name of the asset.",
+      "name": "Lansweeper.Mac.assetCustom.serialNumber",
+      "required": ""
+    },
+    {
+      "description": "State name of the asset. Lansweeper.Mac.operatingSystem.caption Short description of the object. The string includes the operating system version.",
+      "name": "Lansweeper.Mac.assetCustom.stateName",
+      "required": ""
+    },
+    {
+      "description": "Type of the operating system. Lansweeper.Mac.url URL to the summary of the asset.",
+      "name": "Lansweeper.Mac.operatingSystem.productType",
+      "required": ""
+    },
+    {
+      "description": "The ID of the site to which the asset belongs. Lansweeper.Mac.siteName The name of the site to which the asset belongs.",
+      "name": "Lansweeper.Mac.siteId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Lansweeper",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/lansweeper"
+}

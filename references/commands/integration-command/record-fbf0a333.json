@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!file file=d77cf874521ee7d4bb7f54bd8cef3d60ec24d267cf2d502f819880f0819f5766\nContext Example\n#\n{\n\"DBotScore\": {\n\"Indicator\": \"d77cf874521ee7d4bb7f54bd8cef3d60ec24d267cf2d502f819880f0819f5766\",",
+    "!file file=d77cf874521ee7d4bb7f54bd8cef3d60ec24d267cf2d502f819880f0819f5766\nContext Example\n#\n{\n\"DBotScore\": {\n\"Indicator\": \"d77cf874521ee7d4bb7f54bd8cef3d60ec24d267cf2d502f819880f0819f5766\",\n\"Score\": 0,\n\"Type\": \"file\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The actual score. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. File.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The malware family of the file. For example, StoneDrill. Malquery.File.filesize The size of the file.",
+      "name": "Malquery.File.family",
+      "required": ""
+    },
+    {
+      "description": "The type of the file. Malquery.File.first_seen The date when the file was first seen.",
+      "name": "Malquery.File.filetype",
+      "required": ""
+    },
+    {
+      "description": "The label of the file. Malquery.File.md5 The MD5 hash of the file.",
+      "name": "Malquery.File.label",
+      "required": ""
+    },
+    {
+      "description": "The SHA1 hash of the file. Malquery.File.sha256 The SHA256 hash of the file.",
+      "name": "Malquery.File.sha1",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Malquery",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/crowd-strike-malquery"
+}

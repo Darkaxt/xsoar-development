@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"scanner_packets\": 75,",
+  "examples": [
+    "Command Example\n!sw-list-sessions startTime=\"2018-10-30T12:00:00Z\" endTime=\"2018-11-01T12:00:00Z\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab Cisco Meraki v2\nNext\nCisco Secure Malware Analytics (Threat Grid) v2 \u00bb",
+    "!sw-list-sessions startTime=\"2018-10-30T12:00:00Z\" endTime=\"2018-11-01T12:00:00Z\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab Cisco Meraki v2\nNext\nCisco Secure Malware Analytics (Threat Grid) v2 \u00bb\nDocs"
+  ],
+  "kind": "integration-command",
+  "name": "sw-list-sessions",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Session ID Stealthwatch.Session.port Session port",
+      "name": "Stealthwatch.Session.id",
+      "required": ""
+    },
+    {
+      "description": "Session start time Stealthwatch.Session.ip Session IP",
+      "name": "Stealthwatch.Session.start_timestamp_utc",
+      "required": ""
+    },
+    {
+      "description": "Session connected IP Stealthwatch.Session.device_id Source device ID",
+      "name": "Stealthwatch.Session.connected_ip",
+      "required": ""
+    },
+    {
+      "description": "Connected device ID Stealthwatch.Session.connected_device_is_external Is the connected device external",
+      "name": "Stealthwatch.Session.connected_device_id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Secure Cloud Analytics (Stealthwatch Cloud)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/stealthwatch-cloud"
+}

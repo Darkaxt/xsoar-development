@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "00000011-0000-0000-0000-000000000000",
+  "examples": [
+    "Command Example\nContext Example\nHuman Readable Output"
+  ],
+  "kind": "integration-command",
+  "name": "cb-file-delete",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The file name. CbLiveResponse.Files.Size The file size.",
+      "name": "CbLiveResponse.Files.Filename",
+      "required": ""
+    },
+    {
+      "description": "The ID of the file within the Cb Session Storage. - use with cb-file-get",
+      "name": "CbLiveResponse.Files.CbFileID",
+      "required": ""
+    },
+    {
+      "description": "File status ( 0 means there is no error).",
+      "name": "CbLiveResponse.Files.Status",
+      "required": ""
+    },
+    {
+      "description": "Whether the file was deleted (Boolean).",
+      "name": "CbLiveResponse.Files.Delete",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

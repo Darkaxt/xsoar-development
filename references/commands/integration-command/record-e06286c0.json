@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!proofpoint-isolation-get-events should_push_events=false limit=10 end_date=2025-01-12 start_date=2025-01-11T11:27:08\nEdit this page\nReport an Issue\nPrevious\n\u00ab Proofpoint Feed\nNext\nProofpoint Protection Server (Deprecated) \u00bb\nConfigure Proofpoint Isolation in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List The list of events.",
+      "name": "ProofpointIsolationEventCollector",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Proofpoint Isolation",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/proofpoint-isolation-event-collector"
+}

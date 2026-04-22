@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\" for \"me\" was deleted successfully .",
+  "examples": [
+    "!gmail-forwarding-address-list user_id=\"me\"\nContext Example\n#\n{\n\"Gmail\"\n:\n{\n\"ForwardingAddress\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "An email address to which messages can be forwarded. Gmail.ForwardingAddress.verificationStatus Indicates whether this address has been verified and is usable for forwarding.",
+      "name": "Gmail.ForwardingAddress.forwardingEmail",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Gmail",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/gmail"
+}

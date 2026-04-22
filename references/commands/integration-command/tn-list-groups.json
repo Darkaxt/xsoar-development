@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The maximum number of groups to return.",
+  "examples": [
+    "Command Example\n!tn-list-groups limit=1\nContext Example\n{\n\"Tanium.Group\": [\n{\n\"Deleted\": false,\n\"ID\": 315,",
+    "!tn-list-groups limit=1\nContext Example\n{\n\"Tanium.Group\": [\n{\n\"Deleted\": false,\n\"ID\": 315,\n\"Name\": \"Default\","
+  ],
+  "kind": "integration-command",
+  "name": "tn-list-groups",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the group object. Tanium.Group.Name The name of the group.",
+      "name": "Tanium.Group.ID",
+      "required": ""
+    },
+    {
+      "description": "A description of the clients that this group represents. Tanium.Group.Type The type of the group.",
+      "name": "Tanium.Group.Text",
+      "required": ""
+    },
+    {
+      "description": "whether the group is deleted. True if deleted.",
+      "name": "Tanium.Group.Deleted",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

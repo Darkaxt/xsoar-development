@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "7. Search JASK insights",
+  "examples": [
+    "Command Example\n!jask-search-insights last-seen=\"Last 48 hours\" limit=2 assigned-user=unassigned\nContext Example\n{\n\"Jask\": {\n\"Insight\": [\n{\n\"WorkflowStatus\": \"new\",",
+    "!jask-search-insights last-seen=\"Last 48 hours\" limit=2 assigned-user=unassigned\nContext Example\n{\n\"Jask\": {\n\"Insight\": [\n{\n\"WorkflowStatus\": \"new\",\n\"Description\": \"Multiple signals related to lateral movement with other anomalies and threats.\","
+  ],
+  "kind": "integration-command",
+  "name": "jask-search-insights",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Insight ID Jask.Insight.Name Insight name",
+      "name": "Jask.Insight.Id",
+      "required": ""
+    },
+    {
+      "description": "The action to take on the insight Jask.Insight.AssignedTo Who the insight was assigned to",
+      "name": "Jask.Insight.Action",
+      "required": ""
+    },
+    {
+      "description": "Insight description Jask.Insight.IpAddress Insight IP address",
+      "name": "Jask.Insight.Description",
+      "required": ""
+    },
+    {
+      "description": "When the insight was last updated Jask.Insight.LastUpdatedBy Who the insight was last updated by",
+      "name": "Jask.Insight.LastUpdated",
+      "required": ""
+    },
+    {
+      "description": "Insight severity Jask.Insight.InsightTime Time of the insight",
+      "name": "Jask.Insight.Severity",
+      "required": ""
+    },
+    {
+      "description": "Insight status",
+      "name": "Jask.WorkflowStatus",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Jask (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jask"
+}

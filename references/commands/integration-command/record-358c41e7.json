@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!box-get-events limit=1 created_after=\"30 days\"\nContext Example\n#\n{\n\"BoxEvents\"\n:\n{\n\"action_by\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Box Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/box-events-collector"
+}

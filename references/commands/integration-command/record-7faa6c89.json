@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Extracts the master file table from the volume.",
+  "examples": [
+    "Command Example\n#\n!ps-remote-export-mft host=\"XSOAR-XSOAR\" volume=C\nHuman Readable Output\n#\nMFT Export results\n#\nComputerName",
+    "!ps-remote-export-mft host=\"XSOAR-XSOAR\" volume=C\nHuman Readable Output\n#\nMFT Export results\n#\nComputerName\nMFT File\nMFT Size"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The extract master file table command result. PsRemote.Host The host on which the command was invoked.",
+      "name": "PsRemote.ExportMFT",
+      "required": ""
+    },
+    {
+      "description": "The Fully Qualified Domain Name of the host on which the command was invoked.",
+      "name": "PsRemote.FQDN",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PowerShell Remoting (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/power-shell-remoting"
+}

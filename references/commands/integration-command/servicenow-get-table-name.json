@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!servicenow-get-table-name label=Asset\nContext Example\n{\n\"ServiceNow\": {\n\"Table\": {\n\"ID\": \"56cc519d5d521300651727c3e282e819\",\n\"Name\": \"alm_asset\",",
+    "!servicenow-get-table-name label=Asset\nContext Example\n{\n\"ServiceNow\": {\n\"Table\": {\n\"ID\": \"56cc519d5d521300651727c3e282e819\",\n\"Name\": \"alm_asset\",\n\"SystemName\": \"Asset\""
+  ],
+  "kind": "integration-command",
+  "name": "servicenow-get-table-name",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Table system ID ServiceNow.Table.Name Table name to use in commands, e.g., alm_asset",
+      "name": "ServiceNow.Table.ID",
+      "required": ""
+    },
+    {
+      "description": "Table system name, e.g., Asset",
+      "name": "ServiceNow.Table.SystemName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now"
+}

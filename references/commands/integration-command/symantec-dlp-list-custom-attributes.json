@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "5. symantec-dlp-list-custom-attributes",
+  "examples": [
+    "Command Example\n!symantec-dlp-list-custom-attributes\nHuman Readable Output\nSymantec DLP custom attributes\nCustom Attribute",
+    "!symantec-dlp-list-custom-attributes\nHuman Readable Output\nSymantec DLP custom attributes\nCustom Attribute"
+  ],
+  "kind": "integration-command",
+  "name": "symantec-dlp-list-custom-attributes",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Data Loss Prevention (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-data-loss-prevention"
+}

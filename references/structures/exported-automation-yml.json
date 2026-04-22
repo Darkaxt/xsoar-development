@@ -1,0 +1,31 @@
+{
+  "artifact_type": "exported-automation-yml",
+  "classifier": {
+    "path_hints": [
+      "draft-exports/<AutomationName>.yml"
+    ],
+    "top_level_fields": [
+      "commonfields",
+      "name",
+      "script",
+      "type",
+      "subtype"
+    ]
+  },
+  "do": [
+    "Preserve embedded script indentation and wrapper lines.",
+    "Keep guarded main patterns when present."
+  ],
+  "do_not": [
+    "Do not add from __future__ imports above wrapper lines.",
+    "Do not add standalone CLI assumptions."
+  ],
+  "synthetic_examples": [
+    "draft-exports/ExampleAutomation.yml"
+  ],
+  "wrapper_observations": [
+    "register_module_line start/end markers may be present",
+    "CONSTANT_PACK_VERSION may be present",
+    "demisto.debug pack/version lines may be present"
+  ]
+}

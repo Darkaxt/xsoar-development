@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "A list of exploit attacks related to the IPS Policy",
+  "examples": [
+    "Command Example\n!nsm-get-ips-policy-details policy_id=0\nHuman Readable Output\n8. Get all attack definitions\nReturns all available attack definitions in McAfee NSM.\nBase Command\nnsm-get-attacks\nInput",
+    "!nsm-get-ips-policy-details policy_id=0\nHuman Readable Output\n8. Get all attack definitions\nReturns all available attack definitions in McAfee NSM.\nBase Command\nnsm-get-attacks\nInput\nArgument Name",
+    "Command Example\n!nsm-get-attacks attack_id=\"0x00000100\"\nContext Example\n{\n\"NSM\": {\n\"Attacks\": {\n\"Category\": \"EXPLOIT\",\n\"Direction\": null,",
+    "!nsm-get-attacks attack_id=\"0x00000100\"\nContext Example\n{\n\"NSM\": {\n\"Attacks\": {\n\"Category\": \"EXPLOIT\",\n\"Direction\": null,\n\"ID\": \"0x00000100\","
+  ],
+  "kind": "integration-command",
+  "name": "nsm-get-attacks",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Attack ID NSM.Attacks.Name Attack name",
+      "name": "NSM.Attacks.ID",
+      "required": ""
+    },
+    {
+      "description": "Attack severity NSM.Attacks.Direction Attack direction",
+      "name": "NSM.Attacks.Severity",
+      "required": ""
+    },
+    {
+      "description": "Attack category",
+      "name": "NSM.Attacks.Category",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee NSM (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-nsm"
+}

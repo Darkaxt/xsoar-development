@@ -1,0 +1,74 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "!cuckoo-get-task-report id=86",
+  "examples": [
+    "Command Example\n!cuckoo-get-task-report id=86\nContext Example\nHuman Readable Output\n3. Get a list of all tasks\nReturns a list of all tasks.\nBase Command\ncuckoo-list-tasks",
+    "!cuckoo-get-task-report id=86\nContext Example\nHuman Readable Output\n3. Get a list of all tasks\nReturns a list of all tasks.\nBase Command\ncuckoo-list-tasks\nInput",
+    "Command Example"
+  ],
+  "kind": "integration-command",
+  "name": "cuckoo-list-tasks",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Category of task Cuckoo.Task.Machine Machine of task",
+      "name": "Cuckoo.Task.Category",
+      "required": ""
+    },
+    {
+      "description": "Errors of task Cuckoo.Task.Target Target of task",
+      "name": "Cuckoo.Task.Errors",
+      "required": ""
+    },
+    {
+      "description": "Package of task Cuckoo.Task.SampleID Sample ID of task",
+      "name": "Cuckoo.Task.Package",
+      "required": ""
+    },
+    {
+      "description": "Task guest Cuckoo.Task.Custom Custom values of task",
+      "name": "Cuckoo.Task.Guest",
+      "required": ""
+    },
+    {
+      "description": "Task owner Cuckoo.Task.Priority Priority of task",
+      "name": "Cuckoo.Task.Owner",
+      "required": ""
+    },
+    {
+      "description": "Platform of task Cuckoo.Task.Options Task options",
+      "name": "Cuckoo.Task.Platform",
+      "required": ""
+    },
+    {
+      "description": "Task status Cuckoo.Task.EnforceTimeout Is timeout of task enforced",
+      "name": "Cuckoo.Task.Status",
+      "required": ""
+    },
+    {
+      "description": "Task timeout Cuckoo.Task.Memory Task memory",
+      "name": "Cuckoo.Task.Timeout",
+      "required": ""
+    },
+    {
+      "description": "Task tags Cuckoo.Task.ID ID of task",
+      "name": "Cuckoo.Task.Tags",
+      "required": ""
+    },
+    {
+      "description": "Date the task was added Cuckoo.Task.CompletedOn Date the task was completed",
+      "name": "Cuckoo.Task.AddedOn",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cuckoo Sandbox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cuckoo-sandbox"
+}

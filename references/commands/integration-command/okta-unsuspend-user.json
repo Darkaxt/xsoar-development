@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!okta-suspend-user username=\"test@this.com\"\nHuman Readable Output\n5. Reactivate a suspended user\nReturns a user to ACTIVE status. This operation can only be performed on users that have a SUSPENDED status.\nBase Command\nokta-unsuspend-user\nInput",
+    "!okta-suspend-user username=\"test@this.com\"\nHuman Readable Output\n5. Reactivate a suspended user\nReturns a user to ACTIVE status. This operation can only be performed on users that have a SUSPENDED status.\nBase Command\nokta-unsuspend-user\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "okta-unsuspend-user",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "okta (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/okta"
+}

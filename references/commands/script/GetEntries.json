@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "get-entries"
+  ],
+  "arguments": [],
+  "description": "GetEntries | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetEntries",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Entry ID. Entry.Type Entry Type.",
+      "name": "Entry.ID",
+      "required": ""
+    },
+    {
+      "description": "Entry.Tags Tags associated with the entry. Entry.Category",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Entry.Created Creation time of the entry. Entry.Modified",
+      "name": "Entry categories.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Last modified time of the entry.",
+      "required": ""
+    },
+    {
+      "description": "Next GetErrorsFromEntry \u00bb Script Data",
+      "name": "\u00ab GetEnabledInstances",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetEntries",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-entries"
+}

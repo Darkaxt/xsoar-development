@@ -1,0 +1,38 @@
+{
+  "aliases": [
+    "copy-notes-to-incident"
+  ],
+  "arguments": [],
+  "description": "CopyNotesToIncident | Cortex XSOAR",
+  "examples": [
+    "!CopyNotesToIncident target_incident=20723\nContext Example\n#\n{\n}\nHuman Readable Output\n#\n3 notes copied"
+  ],
+  "kind": "script",
+  "name": "CopyNotesToIncident",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!CopyNotesToIncident target_incident=20723",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CopyNotesToIncident",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/copy-notes-to-incident"
+}

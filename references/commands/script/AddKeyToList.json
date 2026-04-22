@@ -1,0 +1,38 @@
+{
+  "aliases": [
+    "add-key-to-list"
+  ],
+  "arguments": [],
+  "description": "AddKeyToList | Cortex XSOAR",
+  "examples": [
+    "!AddKeyToList listName=\"NewList\" keyName=\"SomeKey\" value=\"TestValue\"\nContext Example\n#\n{\n}\nHuman Readable Output\n#\nSuccessfully updated list NewList."
+  ],
+  "kind": "script",
+  "name": "AddKeyToList",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!AddKeyToList listName=\"NewList\" keyName=\"SomeKey\" value=\"TestValue\"",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AddKeyToList",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/add-key-to-list"
+}

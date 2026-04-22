@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook. After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "MD5 hash of the file (if supplied). File.SHA1 SHA1 hash of the file (if supplied).",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "MD5 hash of the file (if supplied). File.TrustLevel File lowest trust level.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "Vendor of the file lowest trust level. DBotScore.Score Vendor used to calculate the score.",
+      "name": "File.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Type Indicator type.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Threat Intelligence Exchange (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-threat-intelligence-exchange"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "symantec-dlp-incident-binaries: symantec-dlp-incident-binaries",
+  "examples": [
+    "Command Example\n!symantec-dlp-list-incidents\nContext Example\n[\n\"SymantecDLP.Incident.ID\": [\n1111,\n2222,\n3333",
+    "!symantec-dlp-list-incidents\nContext Example\n[\n\"SymantecDLP.Incident.ID\": [\n1111,\n2222,\n3333\n]"
+  ],
+  "kind": "integration-command",
+  "name": "symantec-dlp-list-incidents",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the Incident",
+      "name": "SymantecDLP.Incident.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Data Loss Prevention (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-data-loss-prevention"
+}

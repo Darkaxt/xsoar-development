@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!mongodb-logs-number\nHuman Readable Output\n#\nThe count of log documents/records is 56\nEdit this page\nReport an Issue",
+    "!mongodb-logs-number\nHuman Readable Output\n#\nThe count of log documents/records is 56\nEdit this page\nReport an Issue\nPrevious\n\u00ab MongoDB Key Value Store"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MongoDB Log",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mongo-db-log"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "QVFIUmFFOERJZATZAmMW9wRnJwbjFiY2tTdFpHRk9PTVlIYm80bVREdXlIS1pWWmRrSU4zSHpYT2dXUTR0QW1HTkVWal9oalU5dGhyRlZA6U2ZAKWC04T0R0NXVR",
+  "examples": [
+    "Command Example\n#\n!threatexchange-object-get-by-id object_id=1318516441499594\nContext Example\n#\n{\n\"ThreatExchange\"\n:",
+    "!threatexchange-object-get-by-id object_id=1318516441499594\nContext Example\n#\n{\n\"ThreatExchange\"\n:\n{\n\"Object\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of a ThreatExchange object.",
+      "name": "ThreatExchange.Object.id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatExchange v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-exchange-v2"
+}

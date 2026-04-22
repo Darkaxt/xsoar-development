@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "A self-signed certificate for the challenge domain. If no existing certificate exists, can be used to set-up https in the first place if that is needed for providing the challenge.",
+  "examples": [
+    "Command Example\n#\n!acme-inspect host=\"123.123.123.123\" acme_directory=\"https://acme-staging-v02.api.letsencrypt.org/directory\" acme_version=\"2\" method=\"directory-only\"\nContext Example\n#\n{\n\"ACME\"\n:",
+    "!acme-inspect host=\"123.123.123.123\" acme_directory=\"https://acme-staging-v02.api.letsencrypt.org/directory\" acme_version=\"2\" method=\"directory-only\"\nContext Example\n#\n{\n\"ACME\"\n:\n{\n\"AcmeInspect\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ACME directory's content ACME.AcmeInspect.headers The request's HTTP headers (with lowercase keys)",
+      "name": "ACME.AcmeInspect.directory",
+      "required": ""
+    },
+    {
+      "description": "The raw text output ACME.AcmeInspect.output_json The output parsed as JSON",
+      "name": "ACME.AcmeInspect.output_text",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ansible ACME",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ansible-acme"
+}

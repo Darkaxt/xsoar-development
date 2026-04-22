@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "!minerva-delete-exclusion id=EXCLUSION_ID type=hash",
+  "examples": [
+    "!minerva-delete-exclusion id=EXCLUSION_ID type=hash\nHuman Readable Output\nCortex XSOAR outputs:\n\"Exclusion a2ea76c5-95f5-4f40-88f6-bac40ce6d685 was deleted\"\n10. Move all events from Archive to New event state\nMoves all the events from Archive state to New event state.\nBase Command\nminerva-unarchive-events",
+    "Command Example\n!minerva-unarchive-events\nHuman Readable Output\nCortex XSOAR outputs:\n\"Events were un-archived\"\nKnown Limitations\nUsers can\u2019t add an already existing vaccination.\nFetched events are archived in Minerva Console.",
+    "!minerva-unarchive-events\nHuman Readable Output\nCortex XSOAR outputs:\n\"Events were un-archived\"\nKnown Limitations\nUsers can\u2019t add an already existing vaccination.\nFetched events are archived in Minerva Console.\nEdit this page"
+  ],
+  "kind": "integration-command",
+  "name": "minerva-unarchive-events",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Minerva Labs Anti-Evasion Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/minerva-labs-anti-evasion-platform"
+}

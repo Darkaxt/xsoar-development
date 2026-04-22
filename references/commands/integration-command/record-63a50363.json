@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!msgraph-apps-service-principal-lock-configuration id=TEST\nHuman Readable Output\n#\nThe configuration of TEST was locked successfully.\nEdit this page\nReport an Issue",
+    "!msgraph-apps-service-principal-lock-configuration id=TEST\nHuman Readable Output\n#\nThe configuration of TEST was locked successfully.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Endace"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Entra ID Applications",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-applications"
+}

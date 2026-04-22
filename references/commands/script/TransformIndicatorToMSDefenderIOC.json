@@ -1,0 +1,101 @@
+{
+  "aliases": [
+    "transform-indicator-to-ms-defender-ioc"
+  ],
+  "arguments": [],
+  "description": "TransformIndicatorToMSDefenderIOC | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "TransformIndicatorToMSDefenderIOC",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Json output of the indicators. Should be the input for the *microsoft-atp-indicator-batch-update*. TransformIndicatorToMSDefenderIOC.Indicators.indicatorValue The value of the Indicator.",
+      "name": "TransformIndicatorToMSDefenderIOC.JsonOutput",
+      "required": ""
+    },
+    {
+      "description": "TransformIndicatorToMSDefenderIOC.Indicators.indicatorType Type of the indicator. Possible values are: FileSha1, FileSha256, FileMd5, CertificateThumbprint, IpAddress, DomainName, Url TransformIndicatorToMSDefenderIOC.Indicators.lastUpdateTime",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "TransformIndicatorToMSDefenderIOC.Indicators.lastUpdatedBy Identity of the user/application that last updated the indicator. TransformIndicatorToMSDefenderIOC.Indicators.action",
+      "name": "The last time the indicator was updated.",
+      "required": ""
+    },
+    {
+      "description": "TransformIndicatorToMSDefenderIOC.Indicators.title Indicator title. TransformIndicatorToMSDefenderIOC.Indicators.expirationTime",
+      "name": "The action that will be taken if the indicator will be discovered in the organization. Possible values are: \"Warn\", \"Block\", \"Audit\", \"Alert\", \"AlertAndBlock\", \"BlockAndRemediate\" and \"Allowed\".",
+      "required": ""
+    },
+    {
+      "description": "TransformIndicatorToMSDefenderIOC.Indicators.description Description of the indicator. TransformIndicatorToMSDefenderIOC.Indicators.creationTimeDateTimeUtc",
+      "name": "The expiration time of the indicator.",
+      "required": ""
+    },
+    {
+      "description": "TransformIndicatorToMSDefenderIOC.Indicators.Severity The severity of the indicator. possible values are: Informational, Low, Medium and High. TransformIndicatorToMSDefenderIOC.Indicators.application",
+      "name": "The date and time when the indicator was created.",
+      "required": ""
+    },
+    {
+      "description": "TransformIndicatorToMSDefenderIOC.Indicators.externalID Id the customer can submit in the request for custom correlation. TransformIndicatorToMSDefenderIOC.Indicators.sourceType",
+      "name": "The application associated with the indicator.",
+      "required": ""
+    },
+    {
+      "description": "TransformIndicatorToMSDefenderIOC.Indicators.createdBySource The name of the user or application that submitted the indicator. TransformIndicatorToMSDefenderIOC.Indicators.createdBy",
+      "name": "User in case the Indicator created by a user. \"AadApp\" in case it submitted using automated application via the API.",
+      "required": ""
+    },
+    {
+      "description": "TransformIndicatorToMSDefenderIOC.Indicators.recommendedActions Recommended actions for the indicator. TransformIndicatorToMSDefenderIOC.Indicators.rbacGroupNames",
+      "name": "Unique identity of the user or application that submitted the indicator.",
+      "required": ""
+    },
+    {
+      "description": "TransformIndicatorToMSDefenderIOC.Indicators.rbacGroupIds RBAC device group ID's where the indicator is exposed and active. Empty list in case it exposed to all devices. TransformIndicatorToMSDefenderIOC.Indicators.generateAlert",
+      "name": "RBAC device group names where the indicator is exposed and active. Empty list in case it exposed to all devices.",
+      "required": ""
+    },
+    {
+      "description": "More info",
+      "name": "True if alert generation is required, False if this indicator should not generate an alert.",
+      "required": ""
+    },
+    {
+      "description": "here . Please read about limitations for creating and updating batch of indicators",
+      "name": "Please read about MSDE Indicator resource type",
+      "required": ""
+    },
+    {
+      "description": ". Please read about the required permissions for creating and updating batch of indicators here",
+      "name": "here",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "Next TrendmicroAlertStatus \u00bb Script Data",
+      "name": "\u00ab TransformIndicatorToCSFalconIOC",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "More info",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TransformIndicatorToMSDefenderIOC",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/transform-indicator-to-ms-defender-ioc"
+}

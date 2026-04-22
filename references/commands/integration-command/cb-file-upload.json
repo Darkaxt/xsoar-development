@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\nContext Example\nHuman Readable Output\n7. Upload a file to the Carbon Black server\nUploads the specified file to the Carbon Black server.\nUse cb-command-create with name=put-file to push the file from Cb server to a path on the endpoint.\nBase Command\ncb-file-upload"
+  ],
+  "kind": "integration-command",
+  "name": "cb-file-upload",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The File name CbLiveResponse.Files.Size The file size",
+      "name": "CbLiveResponse.Files.Filename",
+      "required": ""
+    },
+    {
+      "description": "The ID of the file within the Carbon Defence Session Storage - use with cb-file-get. CbLiveResponse.Files.Status",
+      "name": "CbLiveResponse.Files.CbFileID",
+      "required": ""
+    },
+    {
+      "description": "0 means there is no error). CbLiveResponse.Files.Delete",
+      "name": "File status (",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

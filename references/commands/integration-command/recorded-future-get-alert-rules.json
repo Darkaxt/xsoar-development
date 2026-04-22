@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "This command is deprecated.",
+  "examples": [
+    "Command Example\n!recorded-future-get-alert-rules rule_name=\"Global Trends\"\nContext Example\n{\n\"RecordedFuture\": {\n\"AlertRule\": [\n{\n\"ID\": \"Y8wa3G\",",
+    "!recorded-future-get-alert-rules rule_name=\"Global Trends\"\nContext Example\n{\n\"RecordedFuture\": {\n\"AlertRule\": [\n{\n\"ID\": \"Y8wa3G\",\n\"Name\": \"Global Trends, Trending Vulnerabilities\""
+  ],
+  "kind": "integration-command",
+  "name": "recorded-future-get-alert-rules",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alert rule ID RecordedFuture.AlertRule.Name Alert rule name",
+      "name": "RecordedFuture.AlertRule.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

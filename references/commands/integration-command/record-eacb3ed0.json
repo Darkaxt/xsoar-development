@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Deletes the specified ticket.",
+  "examples": [
+    "Command Example\n#\n!kace-ticket-delete ticket_id=11\nContext Example\n#\n{}\nHuman Readable Output\n#",
+    "!kace-ticket-delete ticket_id=11\nContext Example\n#\n{}\nHuman Readable Output\n#\nTicket was deleted successfully. Ticket number 11\nEdit this page"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Quest KACE Systems Management Appliance (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/quest-kace"
+}

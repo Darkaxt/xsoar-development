@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "manage-engine-get-events",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next ManageEngine PAM360 \u00bb Setting Up the Instance",
+      "name": "\u00ab Malwation AIMA (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "Step 2: Authorization by generating the grant token Testing the configuration Configure ManageEngine in Cortex",
+      "name": "Step 1: Generate Client ID and Client Secret",
+      "required": ""
+    },
+    {
+      "description": "manage-engine-test manage-engine-get-events Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ManageEngine",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/manage-engine"
+}

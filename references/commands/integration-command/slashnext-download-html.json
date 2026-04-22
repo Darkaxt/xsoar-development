@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!slashnext-download-screenshot scanid=48ae7b06-5915-4633-bc51-2cfaa0036742",
+  "examples": [
+    "Command Example\n!slashnext-download-screenshot scanid=48ae7b06-5915-4633-bc51-2cfaa0036742\nHuman Readable Output\nForensics: Webpage Screenshot for URL Scan ID = 48ae7b06-5915-4633-bc51-2cfaa0036742\n12. slashnext-download-html\nDownload webpage HTML against a previous URL Scan request.\nBase Command\nslashnext-download-html",
+    "!slashnext-download-screenshot scanid=48ae7b06-5915-4633-bc51-2cfaa0036742\nHuman Readable Output\nForensics: Webpage Screenshot for URL Scan ID = 48ae7b06-5915-4633-bc51-2cfaa0036742\n12. slashnext-download-html\nDownload webpage HTML against a previous URL Scan request.\nBase Command\nslashnext-download-html\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "slashnext-download-html",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SlashNext Phishing Incident Response (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slash-next-phishing-incident-response"
+}

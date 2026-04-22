@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Limitations",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "genesys-cloud-get-events is only able to retrieve events from the past 14 days. Ensure both the from_date",
+      "name": "The",
+      "required": ""
+    },
+    {
+      "description": "to_date command arguments are within the last 14 days. Edit this page",
+      "name": "and",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab GenericAPICall Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure Genesys Cloud in Cortex Commands genesys-cloud-get-events",
+      "name": "Genetec Security Center Event Collector \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Limitations",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Genesys Cloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/genesys-cloud"
+}

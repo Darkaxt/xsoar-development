@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Whether the user can read calendar items that have been marked private.",
+  "examples": [
+    "Command Example\n!msgraph-calendar-get-calendar\nHuman Readable Output\n3. Get a calendar's list of events\nReturns a list of events from a calendar.\nBase Command\nmsgraph-calendar-list-events\nInput",
+    "!msgraph-calendar-get-calendar\nHuman Readable Output\n3. Get a calendar's list of events\nReturns a list of events from a calendar.\nBase Command\nmsgraph-calendar-list-events\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "msgraph-calendar-list-events",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The user's ID. MSGraphCalendar.DisplayName The display name of the user.",
+      "name": "MSGraphCalendar.ID",
+      "required": ""
+    },
+    {
+      "description": "The given name of the user. MSGraphCalendar.BusinessPhones The business phone numbers of the user.",
+      "name": "MSGraphCalendar.GivenName",
+      "required": ""
+    },
+    {
+      "description": "The job title of the user. MSGraphCalendar.Mail The mail address of the user.",
+      "name": "MSGraphCalendar.JobTitle",
+      "required": ""
+    },
+    {
+      "description": "The mobile phone number of the user. MSGraphCalendar.OfficeLocation The location of the office of the user.",
+      "name": "MSGraphCalendar.MobilePhone",
+      "required": ""
+    },
+    {
+      "description": "The user's preferred language. MSGraphCalendar.Surname The user's surname.",
+      "name": "MSGraphCalendar.PreferredLanguage",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "MSGraphCalendar.UserPrincipalName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "O365 Outlook Calendar",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-calendar"
+}

@@ -1,0 +1,149 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "GitLab.Pipeline.user.web_url",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Pipeline ID. GitLab.Pipeline.project_id Project ID that the pipeline belongs to.",
+      "name": "GitLab.Pipeline.id",
+      "required": ""
+    },
+    {
+      "description": "Status of the pipeline. GitLab.Pipeline.ref Reference of the pipeline.",
+      "name": "GitLab.Pipeline.status",
+      "required": ""
+    },
+    {
+      "description": "SHA of the pipeline. GitLab.Pipeline.created_at Date",
+      "name": "GitLab.Pipeline.sha",
+      "required": ""
+    },
+    {
+      "description": "GitLab.Pipeline.updated_at Date Time when the pipeline was last updated.",
+      "name": "Time when the pipeline was created.",
+      "required": ""
+    },
+    {
+      "description": "Date Time when the pipeline was started. GitLab.Pipeline.finished_at",
+      "name": "GitLab.Pipeline.started_at",
+      "required": ""
+    },
+    {
+      "description": "Time when the pipeline was finished. GitLab.Pipeline.duration Duration of the pipeline in seconds.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Web URL of the pipeline. GitLab.Pipeline.user.name Name of the user who triggered the pipeline.",
+      "name": "GitLab.Pipeline.web_url",
+      "required": ""
+    },
+    {
+      "description": "Username that triggered the pipeline. GitLab.Pipeline.user.id ID of the user who triggered the pipeline.",
+      "name": "GitLab.Pipeline.user.username",
+      "required": ""
+    },
+    {
+      "description": "State of the user who triggered the pipeline. GitLab.Pipeline.user.avatar_url Avatar URL of the user who trigerred the pipeline.",
+      "name": "GitLab.Pipeline.user.state",
+      "required": ""
+    },
+    {
+      "description": "Web URL of the user who triggered the pipeline. Edit this page Report an Issue",
+      "name": "GitLab.Pipeline.user.web_url",
+      "required": ""
+    },
+    {
+      "description": "\u00ab GitLab Event Collector Next GLIMPS Detect \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Use Cases Configure GitLab on Cortex XSOAR Commands",
+      "name": "Overview",
+      "required": ""
+    },
+    {
+      "description": "gitlab-file-get gitlab-file-create gitlab-file-delete",
+      "name": "gitlab-version-get",
+      "required": ""
+    },
+    {
+      "description": "List Issues gitlab-issue-update Update Issue",
+      "name": "gitlab-issue-list",
+      "required": ""
+    },
+    {
+      "description": "List Commits gitlab-merge-request-list List Merge requests",
+      "name": "gitlab-commit-list",
+      "required": ""
+    },
+    {
+      "description": "Merge request created successfully gitlab-merge-request-update Merge request updated successfully",
+      "name": "gitlab-merge-request-create",
+      "required": ""
+    },
+    {
+      "description": "gitlab-issue-note-delete Issue note deleted successfully gitlab-issue-note-update",
+      "name": "gitlab-issue-note-create",
+      "required": ""
+    },
+    {
+      "description": "gitlab-issue-note-list List Issue notes gitlab-merge-request-note-list",
+      "name": "Issue note updated was updated successfully",
+      "required": ""
+    },
+    {
+      "description": "gitlab-merge-request-note-update gitlab-merge-request-note-delete gitlab-issue-create",
+      "name": "gitlab-merge-request-note-create",
+      "required": ""
+    },
+    {
+      "description": "List Projects gitlab-group-project-list List of the group projects",
+      "name": "gitlab-project-list",
+      "required": ""
+    },
+    {
+      "description": "gitlab-branch-create gitlab-branch-delete gitlab-merged-branch-delete",
+      "name": "gitlab-raw-file-get",
+      "required": ""
+    },
+    {
+      "description": "Branch details gitlab-group-list List Groups",
+      "name": "gitlab-branch-list",
+      "required": ""
+    },
+    {
+      "description": "List Group Members gitlab-code-search Results",
+      "name": "gitlab-group-member-list",
+      "required": ""
+    },
+    {
+      "description": "List Users API relevant Scopes for each command gitlab-pipelines-list",
+      "name": "gitlab-project-user-list",
+      "required": ""
+    },
+    {
+      "description": "gitlab-jobs-list gitlab-artifact-get gitlab-trigger-pipeline",
+      "name": "gitlab-pipelines-schedules-list",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "gitlab-cancel-pipeline",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GitLab v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/git-labv2"
+}

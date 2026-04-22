@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Run this command if for some reason you need to rerun the authentication process.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Azure Data Explorer \u00bb Authentication",
+      "name": "\u00ab Azure AD Connect Health Feed",
+      "required": ""
+    },
+    {
+      "description": "Commands azure-vm-list-instances azure-vm-start-instance",
+      "name": "Configure Azure Compute v2 in Cortex",
+      "required": ""
+    },
+    {
+      "description": "azure-vm-get-instance-details azure-vm-create-instance azure-list-resource-groups",
+      "name": "azure-vm-poweroff-instance",
+      "required": ""
+    },
+    {
+      "description": "azure-list-subscriptions azure-vm-get-nic-details azure-vm-get-public-ip-details",
+      "name": "azure-vm-delete-instance",
+      "required": ""
+    },
+    {
+      "description": "azure-vm-create-nic azure-vm-auth-reset Docs",
+      "name": "azure-vm-get-all-public-ip-details",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Compute v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-compute-v2"
+}

@@ -1,0 +1,52 @@
+{
+  "aliases": [
+    "cypho-serverity-change"
+  ],
+  "arguments": [
+    {
+      "description": "The automation automatically uses the updated incident severity field and the associated Cypho ticket metadata.",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "CyphoServerityChange | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CyphoServerityChange",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The script performs a background synchronization with Cypho and updates the external issue severity accordingly. \u2714 Notes",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "The incident must be assigned before the severity change is synchronized. Designed for seamless integration with Cypho and Cortex XSOAR incident workflows. Edit this page",
+      "name": "This script is intended to run automatically and should not be executed manually.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab CyphoDownloadAttachments Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "Cyren-Find-Similar-Incidents \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "\u2714 Notes",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyphoServerityChange",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cypho-serverity-change"
+}

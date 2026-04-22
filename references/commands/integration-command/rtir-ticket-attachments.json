@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "7. Get ticket attachments",
+  "examples": [
+    "Command Example\n!rtir-ticket-attachments ticket-id=41\nRaw Output\n[\n{\n\"ID\": 77,\n\"Name\": \"pdf.pdf\",\n\"Size\": \"423.8k\",",
+    "!rtir-ticket-attachments ticket-id=41\nRaw Output\n[\n{\n\"ID\": 77,\n\"Name\": \"pdf.pdf\",\n\"Size\": \"423.8k\",\n\"Type\": \"application/octet-stream\""
+  ],
+  "kind": "integration-command",
+  "name": "rtir-ticket-attachments",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID. RTIR.Ticket.Attachment.ID Attachment ID.",
+      "name": "RTIR.Ticket.ID",
+      "required": ""
+    },
+    {
+      "description": "Attachment file name. RTIR.Ticket.Attachment.Size Attachment file size.",
+      "name": "RTIR.Ticket.Attachment.Name",
+      "required": ""
+    },
+    {
+      "description": "Attachment file type. File.EntryID Cortex XSOAR entry ID of the attachment.",
+      "name": "RTIR.Ticket.Attachment.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RTIR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rtir"
+}

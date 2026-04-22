@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!servicenow-get-ticket-notes id=9c573169c611228700193229fff72400\nContext Example\n{\n\"ServiceNow\": {\n\"Ticket\": {\n\"ID\": \"9c573169c611228700193229fff72400\",\n\"Note\": [",
+    "!servicenow-get-ticket-notes id=9c573169c611228700193229fff72400\nContext Example\n{\n\"ServiceNow\": {\n\"Ticket\": {\n\"ID\": \"9c573169c611228700193229fff72400\",\n\"Note\": [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "servicenow-get-ticket-notes",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID ServiceNow.Ticket.Note.Value Ticket note value",
+      "name": "ServiceNow.Ticket.ID",
+      "required": ""
+    },
+    {
+      "description": "date Ticket note created on date ServiceNow.Ticket.Note.CreatedBy",
+      "name": "ServiceNow.Ticket.Note.CreatedOn",
+      "required": ""
+    },
+    {
+      "description": "Ticket note created by ServiceNow.Ticket.Note.Type Ticket note type",
+      "name": "string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now"
+}

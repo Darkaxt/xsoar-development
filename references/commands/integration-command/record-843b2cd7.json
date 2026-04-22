@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Endpoint command (uses",
+  "examples": [
+    "Command Example\n#\n!endpoint ip=1.1.1.1\nContext Example\n#\n{\n\"Endpoint\"\n:",
+    "!endpoint ip=1.1.1.1\nContext Example\n#\n{\n\"Endpoint\"\n:\n[\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Endpoint Hostname Endpoint.ID Endpoint ID",
+      "name": "Endpoint.Hostname",
+      "required": ""
+    },
+    {
+      "description": "Endpoint IPAddress Endpoint.OS Endpoint OS",
+      "name": "Endpoint.IPAddress",
+      "required": ""
+    },
+    {
+      "description": "Endpoint OSVersion Endpoint.Status Endpoint Status",
+      "name": "Endpoint.OSVersion",
+      "required": ""
+    },
+    {
+      "description": "Endpoint MACAddress",
+      "name": "Endpoint.MACAddress",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GuardiCore v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/guardi-core-v2"
+}

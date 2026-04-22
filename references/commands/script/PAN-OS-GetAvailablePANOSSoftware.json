@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "pan-os-get-available-panos-software"
+  ],
+  "arguments": [],
+  "description": "PAN-OS-GetAvailablePANOSSoftware | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PAN-OS-GetAvailablePANOSSoftware",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The host ID. PANOS.SoftwareVersions.Summary.version The software version in Major.Minor.Maint format.",
+      "name": "PANOS.SoftwareVersions.Summary.hostid",
+      "required": ""
+    },
+    {
+      "description": "PANOS.SoftwareVersions.Summary.filename The software version filename. PANOS.SoftwareVersions.Summary.size",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "PANOS.SoftwareVersions.Summary.size_kb The size of the software in KB. PANOS.SoftwareVersions.Summary.release_notes",
+      "name": "The size of the software in MB.",
+      "required": ""
+    },
+    {
+      "description": "PANOS.SoftwareVersions.Summary.downloaded True if the software version is present on the system. PANOS.SoftwareVersions.Summary.current",
+      "name": "The link to version release notes in the Palo Alto Networks knowledge base.",
+      "required": ""
+    },
+    {
+      "description": "PANOS.SoftwareVersions.Summary.latest True if this is the most recently released software for this platform. PANOS.SoftwareVersions.Summary.uploaded",
+      "name": "True if this is the currently installed software on the system.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "True if the software version has been uploaded to the system.",
+      "required": ""
+    },
+    {
+      "description": "Next PAN-OS-GetDeviceDiskSpace \u00bb Script Data",
+      "name": "\u00ab PAN-OS-AnalyzeRuleHitCounts",
+      "required": ""
+    },
+    {
+      "description": "Used In",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PAN-OS-GetAvailablePANOSSoftware",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/pan-os-get-available-panos-software"
+}

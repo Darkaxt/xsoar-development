@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!attivo-deploy-decoy vulnerable_ip=172.16.40.55",
+  "examples": [
+    "Command Example\n!attivo-deploy-decoy vulnerable_ip=172.16.40.55\nHuman Readable Output\n1 new Attivo decoy(s) deployed on the subnet with 172.16.40.55\n5. Get events for an attacker IP address\nRetrieves events for a specific source IP.\nBase Command\nattivo-get-events",
+    "!attivo-deploy-decoy vulnerable_ip=172.16.40.55\nHuman Readable Output\n1 new Attivo decoy(s) deployed on the subnet with 172.16.40.55\n5. Get events for an attacker IP address\nRetrieves events for a specific source IP.\nBase Command\nattivo-get-events\nInput",
+    "Command Example\n!attivo-get-events attacker_ip=CentOS70 alerts_start_date=2018-11-30T23:59:05Z alerts_end_date=2018-12-01T00:02:05Z\nContext Example\n{\n\"Attivo\": {\n\"Events\": {\n\"Count\": 2,\n\"List\": [",
+    "!attivo-get-events attacker_ip=CentOS70 alerts_start_date=2018-11-30T23:59:05Z alerts_end_date=2018-12-01T00:02:05Z\nContext Example\n{\n\"Attivo\": {\n\"Events\": {\n\"Count\": 2,\n\"List\": [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "attivo-get-events",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Total number of events retrieved Attivo.Events.List.AttackName Short name of the attack",
+      "name": "Attivo.Events.Count",
+      "required": ""
+    },
+    {
+      "description": "Kill chain phase of the attack Attivo.Events.List.Server Internal name of the target decoy",
+      "name": "Attivo.Events.List.Attack Phase",
+      "required": ""
+    },
+    {
+      "description": "Display name of the target decoy Attivo.Events.List.TargetOS Operating system of the target decoy",
+      "name": "Attivo.Events.List.Target",
+      "required": ""
+    },
+    {
+      "description": "Attacker IP address Attivo.Events.List.Service The attacked service",
+      "name": "Attivo.Events.List.Attacker",
+      "required": ""
+    },
+    {
+      "description": "Time of the attack Attivo.Events.List.TargetIP IP address of the target decoy",
+      "name": "Attivo.Events.List.Timestamp",
+      "required": ""
+    },
+    {
+      "description": "Attivo severity of the attack",
+      "name": "Attivo.Events.List.Severity",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Attivo Botsink",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/attivo-botsink"
+}

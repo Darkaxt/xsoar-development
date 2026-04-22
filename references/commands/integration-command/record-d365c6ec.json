@@ -1,0 +1,66 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!mimecast-update-address-alteration-policy policy_id=eNo1jrs12345 bidirectional=no comment=test conditions=8.8.8.8/24 enabled=no enforced=no from_date=\"3 year\" from_eternal=no from_part=both override=no policy_description=test to_date=now to_eternal=no\nContext Example\n#\n{\n\"Mimecast\"\n:\n{\n\"AddressAlterationPolicy\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The status of the Address Alteration policy. Mimecast.AddressAlterationPolicy.id The Mimecast secure ID of the Address Alteration policy.",
+      "name": "Mimecast.AddressAlterationPolicy.meta.status",
+      "required": ""
+    },
+    {
+      "description": "The description for the Address Alteration policy. Mimecast.AddressAlterationPolicy.policy.fromPart Should the sender address be considered based on the envelope, header, or either address.",
+      "name": "Mimecast.AddressAlterationPolicy.policy.description",
+      "required": ""
+    },
+    {
+      "description": "The type of sender address considered by the Address Alteration policy. Mimecast.AddressAlterationPolicy.policy.to.type The type of recipient address considered by the Address Alteration policy.",
+      "name": "Mimecast.AddressAlterationPolicy.policy.from.type",
+      "required": ""
+    },
+    {
+      "description": "The sender address type considered by the Address Alteration policy. Mimecast.AddressAlterationPolicy.policy.toType The recipient address type considered by the Address Alteration policy.",
+      "name": "Mimecast.AddressAlterationPolicy.policy.fromType",
+      "required": ""
+    },
+    {
+      "description": "Should the policy start to apply, regardless of the current date and time, for the sender address. Mimecast.AddressAlterationPolicy.policy.toEternal Should the policy start to apply, regardless of the current date and time, for the recipient address.",
+      "name": "Mimecast.AddressAlterationPolicy.policy.fromEternal",
+      "required": ""
+    },
+    {
+      "description": "The start date that the policy should begin to apply. Mimecast.AddressAlterationPolicy.policy.toDate The end date that the policy should cease to apply.",
+      "name": "Mimecast.AddressAlterationPolicy.policy.fromDate",
+      "required": ""
+    },
+    {
+      "description": "Should the policy be considered for application, and apply if conditions are met, prior to other policies of the same type. Mimecast.AddressAlterationPolicy.policy.bidirectional Should the policy also apply in reverse email flow.",
+      "name": "Mimecast.AddressAlterationPolicy.policy.override",
+      "required": ""
+    },
+    {
+      "description": "Conditions of the sending platform to determine if the policy should be considered. Mimecast.AddressAlterationPolicy.policy.enabled Should the policy be considered for emails processing through Mimecast.",
+      "name": "Mimecast.AddressAlterationPolicy.policy.conditions",
+      "required": ""
+    },
+    {
+      "description": "Is the policy enforced. Mimecast.AddressAlterationPolicy.policy.createTime The creation timestamp of the policy.",
+      "name": "Mimecast.AddressAlterationPolicy.policy.enforced",
+      "required": ""
+    },
+    {
+      "description": "The most recent modification timestamp of the policy.",
+      "name": "Mimecast.AddressAlterationPolicy.policy.lastUpdated",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Mimecast v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mimecast-v2"
+}

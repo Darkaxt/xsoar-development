@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "is-error"
+  ],
+  "arguments": [],
+  "description": "isError | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "isError",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "If one or more entries is an error. False If none of the entries is not an error.",
+      "name": "True",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Next IsGreaterThan \u00bb Script Data",
+      "name": "\u00ab IsEmailAddressInternal",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "isError",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/is-error"
+}

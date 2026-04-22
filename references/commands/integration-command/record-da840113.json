@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2021-10-18T14:02:32.000Z",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### fireeye-hx-get-data-acquisition\n***\nGather artifacts from the system disk and memory for the given acquisition id. The data is fetched as mans file\n#### Base Command\n`fireeye-hx-get-data-acquisition`",
+    "#### Command Example\nHuman Readable Output\n#\nError Responses - Timeout Error\n#\nTimeout error\nindicates that time limitation for the command has exceeded before results are returned.\nTo resolve this issue, configure new time limitation for the command."
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The acquisition unique ID. FireEyeHX.Acquisitions.Data.state The acquisition state",
+      "name": "FireEyeHX.Acquisitions.Data._id",
+      "required": ""
+    },
+    {
+      "description": "File md5 FireEyeHX.Acquisitions.Data.host._id Agent ID",
+      "name": "FireEyeHX.Acquisitions.Data.md5",
+      "required": ""
+    },
+    {
+      "description": "Hostname FireEyeHX.Acquisitions.Data.instance FIreEye HX instance",
+      "name": "FireEyeHX.Acquisitions.Data.host.hostname",
+      "required": ""
+    },
+    {
+      "description": "Time when the acquisition finished",
+      "name": "FireEyeHX.Acquisitions.Data.finish_time",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FireEye HX (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fire-eye-hx"
+}

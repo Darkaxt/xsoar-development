@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "rq-takedown-download-attachment",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Downloads attachment for takedown.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "rq-takedown-download-attachment",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "To set up the mirroring: Enable Fetching incidents",
+      "name": "You can enable incident mirroring between Cortex XSOAR incidents and ReliaquestTakedown corresponding events (available from Cortex XSOAR version 6.0.0).",
+      "required": ""
+    },
+    {
+      "description": "Newly fetched incidents will be mirrored in the chosen direction. However, this selection does not affect existing incidents. Important Note: To ensure the mirroring works as expected, mappers are required, both for incoming and outgoing, to map the expected fields in Cortex XSOAR and ReliaquestTakedown.",
+      "name": "in your instance configuration.",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab ReliaQuest GreyMatter DRP Incidents",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Remedy On-Demand (Deprecated) \u00bb Configure ReliaquestTakedown in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "rq-takedown-list-brand rq-takedown-create-comment rq-takedown-upload-attachment",
+      "name": "rq-takedown-create",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring Docs Developer Docs",
+      "name": "rq-takedown-download-attachment",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ReliaquestTakedown",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/reliaquest-takedown"
+}

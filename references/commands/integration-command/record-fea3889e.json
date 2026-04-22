@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "azure-ad-identity-protection-risky-user-dismiss",
+  "examples": [
+    "Command Example\n#\n!azure-ad-identity-protection-risky-user-dismiss user_ids=\"3fa9f28b-eb0e-463a-ba7b-8089fe9991e2\"\nHuman Readable Output\n#\n\u2705 Dismissed successfully.\nEdit this page\nReport an Issue",
+    "!azure-ad-identity-protection-risky-user-dismiss user_ids=\"3fa9f28b-eb0e-463a-ba7b-8089fe9991e2\"\nHuman Readable Output\n#\n\u2705 Dismissed successfully.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Azure"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Active Directory Identity Protection  (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-active-directory-identity-protection"
+}

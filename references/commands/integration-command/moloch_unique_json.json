@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!moloch_spiview_json startTime=1520542248 stopTime=1533329500\nHuman Readable Output\n9. Retrieve unique data for a field in JSON\nRetrieve unique data for a specified field in JSON format.\nBase Command\nmoloch_unique_json\nInput",
+    "!moloch_spiview_json startTime=1520542248 stopTime=1533329500\nHuman Readable Output\n9. Retrieve unique data for a field in JSON\nRetrieve unique data for a specified field in JSON format.\nBase Command\nmoloch_unique_json\nInput\nArgument Name",
+    "!moloch_sessions_json startTime=\"2014/02/26 10:27:57\"\n. For more\u00a0 examples see\nhere\n.\nOptional\nstopTime\nIf the date parameter is not set, this is the stop time of the date to return. If an integer is used (the number of seconds since Unix EPOC), otherwise parsed using JavaScript Date parser. Usage example:\n!moloch_sessions_json startTime=\"2014/02/26 10:27:57\"",
+    "!moloch_sessions_json startTime=\"2014/02/26 10:27:57\"\n. For more\u00a0 examples see\nhere\n.\nOptional\nstrictly\nWhen set the entire session must be inside the date range to be observed, otherwise if it overlaps it is displayed\nOptional",
+    "Command Example\n!moloch_unique_json date=\"-1\" field=\"https.status\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab MobileIronCORE\nNext\nMondayEventCollector \u00bb",
+    "!moloch_unique_json date=\"-1\" field=\"https.status\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab MobileIronCORE\nNext\nMondayEventCollector \u00bb\nDocs"
+  ],
+  "kind": "integration-command",
+  "name": "moloch_unique_json",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Moloch (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/moloch"
+}

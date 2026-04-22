@@ -1,0 +1,48 @@
+{
+  "aliases": [
+    "calculate-entropy"
+  ],
+  "arguments": [],
+  "description": "CalculateEntropy | Cortex XSOAR",
+  "examples": [
+    "!CalculateEntropy data=abcd\nContext Example\n#\n{\n\"EntropyResult\": {\n\"checked_value\": \"abcd\",\n\"entropy\": 2\n}"
+  ],
+  "kind": "script",
+  "name": "CalculateEntropy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The given value (data). EntropyResult.entropy The entropy score.",
+      "name": "EntropyResult.checked_value",
+      "required": ""
+    },
+    {
+      "description": "Script Example",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!CalculateEntropy data=abcd",
+      "required": ""
+    },
+    {
+      "description": "\"EntropyResult\": { \"checked_value\": \"abcd\", \"entropy\": 2",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CalculateEntropy",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/calculate-entropy"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "\"Incident Queue\": \"L1 Incident Handlers\",",
+  "examples": [
+    "Command Example\n!archer-search-applications findById=433\nRaw Output\n[\n{\n\"Guid\":\"fa254559-4922-4aea-8d53-66b4e3442585\",\n\"Id\":433,\n\"LanguageId\":1,",
+    "!archer-search-applications findById=433\nRaw Output\n[\n{\n\"Guid\":\"fa254559-4922-4aea-8d53-66b4e3442585\",\n\"Id\":433,\n\"LanguageId\":1,\n\"Name\":\"Security Incidents\","
+  ],
+  "kind": "integration-command",
+  "name": "archer-search-applications",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!close-channel\nHuman Readable Output\nChannel successfully archived.\n4. slack-send-file\nSends a file to a user, channel, or group. If not specified, the file is sent to the mirrored investigation channel (if the channel exists).\nBase Command\nslack-send-file",
+    "!close-channel\nHuman Readable Output\nChannel successfully archived.\n4. slack-send-file\nSends a file to a user, channel, or group. If not specified, the file is sent to the mirrored investigation channel (if the channel exists).\nBase Command\nslack-send-file\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "slack-send-file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Slack v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slack-v2"
+}

@@ -1,0 +1,67 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!ip ip=8.8.8.8 days=30 verbose=true",
+  "examples": [
+    "Command Example\n!ip ip=8.8.8.8 days=30 verbose=true\nContext Example\nHuman Readable Output\n2. Query a block of IP addresses\nQueries a block of IPs to check against the database\nBase Command\nabuseipdb-check-cidr-block",
+    "!ip ip=8.8.8.8 days=30 verbose=true\nContext Example\nHuman Readable Output\n2. Query a block of IP addresses\nQueries a block of IPs to check against the database\nBase Command\nabuseipdb-check-cidr-block\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "abuseipdb-check-cidr-block",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address AbuseIPDB.IP.AbuseConfidenceScore Confidence score fetched from AbuseIPDB",
+      "name": "AbuseIPDB.IP.Address",
+      "required": ""
+    },
+    {
+      "description": "Country associated with this IP Address AbuseIPDB.IP.Geo.CountryCode Country code associated with this IP Address",
+      "name": "AbuseIPDB.IP.Geo.Country",
+      "required": ""
+    },
+    {
+      "description": "The hostame(s) of the IP address. AbuseIPDB.IP.IpVersion The version of the IP address.",
+      "name": "AbuseIPDB.IP.Hostnames",
+      "required": ""
+    },
+    {
+      "description": "Is the IP address public. AbuseIPDB.IP.IsTor Is the IP address a Tor IP.",
+      "name": "AbuseIPDB.IP.IsPublic",
+      "required": ""
+    },
+    {
+      "description": "Is the IP address whitelisted. AbuseIPDB.IP.LastReportedAt When the IP address was last reported.",
+      "name": "AbuseIPDB.IP.IsWhitelisted",
+      "required": ""
+    },
+    {
+      "description": "The distinct number of users. AbuseIPDB.IP.TotalReports The number of times this address has been reported",
+      "name": "AbuseIPDB.IP.NumDistinctUsers",
+      "required": ""
+    },
+    {
+      "description": "Analysis score DBotScore.Vendor Vendor name (AbuseIPDB)",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The IP address DBotScore.Type The type (ip)",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor that determined this IP address to be malicious AbuseIPDB.IP.Malicious.Detections The Detections that led to the verdict",
+      "name": "AbuseIPDB.IP.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Usage type of the IP. AbuseIPDB.IP.Domain",
+      "name": "AbuseIPDB.IP.UsageType",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AbuseIPDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/abuse-ipdb"
+}

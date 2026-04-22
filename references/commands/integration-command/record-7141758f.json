@@ -1,0 +1,164 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Gets details on the events that led to an alert. This includes retrieving metadata around the alert as well as the event associated with the alert.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The identifier for the alert. CarbonBlackDefense.Alert.legacy_alert_id The unique short ID for the alerts to support easier consumption in the UI console. Use the ID for API requests.",
+      "name": "CarbonBlackDefense.Alert.id",
+      "required": ""
+    },
+    {
+      "description": "The unique identifier for the organization associated with the alert. CarbonBlackDefense.Alert.create_time Date",
+      "name": "CarbonBlackDefense.Alert.org_key",
+      "required": ""
+    },
+    {
+      "description": "CarbonBlackDefense.Alert.last_update_time Date The last time the alert was updated.",
+      "name": "The time the alert was created.",
+      "required": ""
+    },
+    {
+      "description": "Date The time of the first event associated with the alert. CarbonBlackDefense.Alert.last_event_time",
+      "name": "CarbonBlackDefense.Alert.first_event_time",
+      "required": ""
+    },
+    {
+      "description": "The time of the latest event associated with the alert. CarbonBlackDefense.Alert.threat_id The identifier of a threat that this alert belongs. Threats are comprised of a combination of factors that can be repeated across devices.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The threat ranking of the alert. CarbonBlackDefense.Alert.category The category of the alert. (THREAT, MONITORED).",
+      "name": "CarbonBlackDefense.Alert.severity",
+      "required": ""
+    },
+    {
+      "description": "The identifier assigned by Carbon Black Cloud to the device associated with the alert. CarbonBlackDefense.Alert.device_os The operating system of the device associated with the alert.",
+      "name": "CarbonBlackDefense.Alert.device_id",
+      "required": ""
+    },
+    {
+      "description": "The operating system and version on the device. CarbonBlackDefense.Alert.device_name The hostname of the device associated with the alert.",
+      "name": "CarbonBlackDefense.Alert.device_os_version",
+      "required": ""
+    },
+    {
+      "description": "The username of the user logged on during the alert. If the user is not available then this may be populated with the device owner. CarbonBlackDefense.Alert.policy_id The identifier for the policy associated with the device at the time of the alert.",
+      "name": "CarbonBlackDefense.Alert.device_username",
+      "required": ""
+    },
+    {
+      "description": "The name of the policy associated with the device at the time of the alert. CarbonBlackDefense.Alert.target_value The priority of the device assigned by the policy.",
+      "name": "CarbonBlackDefense.Alert.policy_name",
+      "required": ""
+    },
+    {
+      "description": "The state of the tracking system for alerts as they are triaged and resolved. Supported states are OPEN or DISMISSED. CarbonBlackDefense.Alert.workflow.remediation The state of the workflow of the tracking system for alerts as they are triaged and resolved. Supported states are OPEN or DISMISSED.",
+      "name": "CarbonBlackDefense.Alert.workflow.state",
+      "required": ""
+    },
+    {
+      "description": "Date The last time the alert was updated. CarbonBlackDefense.Alert.workflow.comment",
+      "name": "CarbonBlackDefense.Alert.workflow.last_update_time",
+      "required": ""
+    },
+    {
+      "description": "The comment about the workflow of the tracking system for alerts as they are triaged and resolved. CarbonBlackDefense.Alert.workflow.changed_by The name of the user who changed the alert.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Indicates if notes are associated with the threat ID. CarbonBlackDefense.Alert.tags Tags associated with the alert ([ \"tag1\", \"tag2\" ]).",
+      "name": "CarbonBlackDefense.Alert.notes_present",
+      "required": ""
+    },
+    {
+      "description": "The description of the alert. CarbonBlackDefense.Alert.count The count of the alert.",
+      "name": "CarbonBlackDefense.Alert.reason",
+      "required": ""
+    },
+    {
+      "description": "The identifier of the report that contains the IOC. CarbonBlackDefense.Alert.report_name The name of the report that contains the IOC.",
+      "name": "CarbonBlackDefense.Alert.report_id",
+      "required": ""
+    },
+    {
+      "description": "The identifier of the IOC that cause the hit. CarbonBlackDefense.Alert.ioc_field The indicator of comprise (IOC) field that the hit contains.",
+      "name": "CarbonBlackDefense.Alert.ioc_id",
+      "required": ""
+    },
+    {
+      "description": "IOC field value or IOC that matches the query. CarbonBlackDefense.Alert.watchlists.id The ID of the watchlists associated with an alert.",
+      "name": "CarbonBlackDefense.Alert.ioc_hit",
+      "required": ""
+    },
+    {
+      "description": "The name of the watchlists associated with an alert. CarbonBlackDefense.Alert.process_guid The global unique identifier of the process that triggered the hit.",
+      "name": "CarbonBlackDefense.Alert.watchlists.name",
+      "required": ""
+    },
+    {
+      "description": "The name of the process that triggered the hit. CarbonBlackDefense.Alert.run_state Run state for watchlist alerts. This value is always \"RAN\".",
+      "name": "CarbonBlackDefense.Alert.process_name",
+      "required": ""
+    },
+    {
+      "description": "The name of the threat indicators that make up the threat. CarbonBlackDefense.Alert.threat_indicators.sha256 The SHA-256 hash of the threat indicators that make up the threat.",
+      "name": "CarbonBlackDefense.Alert.threat_indicators.process_name",
+      "required": ""
+    },
+    {
+      "description": "The tactics, techniques, and procedures (TTPs) of the threat indicators that make up the threat. CarbonBlackDefense.Alert.threat_cause_actor_sha256 The SHA-256 hash of the threat cause actor.",
+      "name": "CarbonBlackDefense.Alert.threat_indicators.ttps",
+      "required": ""
+    },
+    {
+      "description": "The SHA-256 hash of the threat cause actor. CarbonBlackDefense.Alert.threat_cause_actor_name Process name or IP address of the threat actor.",
+      "name": "CarbonBlackDefense.Alert.threat_cause_actor_md5",
+      "required": ""
+    },
+    {
+      "description": "The reputation of the threat cause. (KNOWN_MALWARE, SUSPECT_MALWARE, PUP, NOT_LISTED, ADAPTIVE_WHITE_LIST, COMMON_WHITE_LIST, TRUSTED_WHITE_LIST, COMPANY_BLACK_LIST). CarbonBlackDefense.Alert.threat_cause_threat_category The category of the threat cause. (UNKNOWN, NON_MALWARE, NEW_MALWARE, KNOWN_MALWARE, RISKY_PROGRAM).",
+      "name": "CarbonBlackDefense.Alert.threat_cause_reputation",
+      "required": ""
+    },
+    {
+      "description": "The source of the threat cause. (EMAIL, WEB, GENERIC_SERVER, GENERIC_CLIENT, REMOTE_DRIVE, REMOVABLE_MEDIA, UNKNOWN, APP_STORE, THIRD_PARTY). CarbonBlackDefense.Alert.document_guid The document GUID.",
+      "name": "CarbonBlackDefense.Alert.threat_cause_vector",
+      "required": ""
+    },
+    {
+      "description": "The type of alert. (CB_ANALYTICS, DEVICE_CONTROL). CarbonBlackDefense.Alert.reason_code The shorthand enum for the full-text reason.",
+      "name": "CarbonBlackDefense.Alert.type",
+      "required": ""
+    },
+    {
+      "description": "Whether the device was on-premise or off-premise when the alert started. (ONSITE, OFFSITE, UNKNOWN). CarbonBlackDefense.Alert.created_by_event_id Event identifier that initiated the alert.",
+      "name": "CarbonBlackDefense.Alert.device_location",
+      "required": ""
+    },
+    {
+      "description": "Whether the alert involved data loss prevention (DLP). (NOT_ATTEMPTED, ATTEMPTED, SUCCEEDED). CarbonBlackDefense.Alert.threat_activity_phish Whether the alert involved phishing. (NOT_ATTEMPTED, ATTEMPTED, SUCCEEDED).",
+      "name": "CarbonBlackDefense.Alert.threat_activity_dlp",
+      "required": ""
+    },
+    {
+      "description": "Whether the alert involved a command and control (c2) server. (NOT_ATTEMPTED, ATTEMPTED, SUCCEEDED). CarbonBlackDefense.Alert.threat_cause_actor_process_pid The process identifier (PID) of the actor process.",
+      "name": "CarbonBlackDefense.Alert.threat_activity_c2",
+      "required": ""
+    },
+    {
+      "description": "The GUID of the process. CarbonBlackDefense.Alert.threat_cause_parent_guid The parent GUID of the process.",
+      "name": "CarbonBlackDefense.Alert.threat_cause_process_guid",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Carbon Black Endpoint Standard v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-endpoint-standard"
+}

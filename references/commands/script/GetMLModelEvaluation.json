@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "get-ml-model-evaluation"
+  ],
+  "arguments": [],
+  "description": "GetMLModelEvaluation | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetMLModelEvaluation",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The found thresholds which meets the conditions of precision and recall GetMLModelEvaluation.ConfusionMatrixAtThreshold The model evaluation confusion matrix for mails above the threshold.",
+      "name": "GetMLModelEvaluation.Threshold",
+      "required": ""
+    },
+    {
+      "description": "GetMLModelEvaluation.Metrics Metrics per each class (includes precision, true positive, coverage, etc.) Edit this page",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab getMlFeatures Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "GetNumberOfUsersOnCall \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetMLModelEvaluation",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-ml-model-evaluation"
+}

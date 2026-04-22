@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Opened mutexes that are related to the hash",
+  "examples": [
+    "Command Example\n!vt-private-get-domain-report domain=demisto.com\nContext Example\n{\n\"Name\": \"google.com\",\n\"VirusTotal\": {\n\"CommunicatingHashes\": [\n{",
+    "!vt-private-get-domain-report domain=demisto.com\nContext Example\n{\n\"Name\": \"google.com\",\n\"VirusTotal\": {\n\"CommunicatingHashes\": [\n{\n\"date\": \"2018-07-24 07:24:39\","
+  ],
+  "kind": "integration-command",
+  "name": "vt-private-get-domain-report",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Domain name Domain.VirusTotal.DownloadedHashes Hashes of files that were downloaded from this domain",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "Hashes of files that communicated with this domain in a sandbox Domain.VirusTotal.Resolutions.ip_address IPs that resolved to this domain",
+      "name": "Domain.VirusTotal.CommunicatingHashes",
+      "required": ""
+    },
+    {
+      "description": "Whois report Domain.VirusTotal.Subdomains Subdomains",
+      "name": "Domain.VirusTotal.Whois",
+      "required": ""
+    },
+    {
+      "description": "Resolution date of IPs that resolved to this domain",
+      "name": "Domain.VirusTotal.Resolutions.last_resolved",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VirusTotal - Private API (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/virus-total---private-api"
+}

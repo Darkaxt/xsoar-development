@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Twinwave \u00bb Configure Twilio SendGrid in Cortex",
+      "name": "\u00ab Twilio",
+      "required": ""
+    },
+    {
+      "description": "twilio-sendgrid-get-events Docs Developer Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Twilio SendGrid",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/twilio-send-grid"
+}

@@ -1,0 +1,133 @@
+{
+  "aliases": [
+    "base64-list-to-file"
+  ],
+  "arguments": [],
+  "description": "Base64ListToFile | Cortex XSOAR",
+  "examples": [
+    "!Base64ListToFile listname=\"test_list_name\" filename=\"test_file_name.txt\" isZipFile=\"no\"\nContext Example\n#\n{\n\"File\"\n:\n{\n\"EntryID\""
+  ],
+  "kind": "script",
+  "name": "Base64ListToFile",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Filename (only in case of report type=json) File.Type File type e.g. \"PE\" (only in case of report type=json)",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "File.Size File size (only in case of report type=json) File.MD5",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "File.SHA1 SHA1 hash of the file (only in case of report type=json) File.SHA256",
+      "name": "MD5 hash of the file (only in case of report type=json)",
+      "required": ""
+    },
+    {
+      "description": "File.EntryID EntryID of the file (only in case of report type=json) Script Examples",
+      "name": "SHA256 hash of the file (only in case of report type=json)",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!Base64ListToFile listname=\"test_list_name\" filename=\"test_file_name.txt\" isZipFile=\"no\"",
+      "required": ""
+    },
+    {
+      "description": "\"File\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": \"192@2ae905f4-bec0-43aa-8af3-99fb982d719f\" ,",
+      "name": "\"EntryID\"",
+      "required": ""
+    },
+    {
+      "description": ": \"txt\" ,",
+      "name": "\"Extension\"",
+      "required": ""
+    },
+    {
+      "description": ": \"text/plain; charset=utf-8\" ,",
+      "name": "\"Info\"",
+      "required": ""
+    },
+    {
+      "description": ": \"4d8d433345a1a5d3b0ba3157e7d6b411\" ,",
+      "name": "\"MD5\"",
+      "required": ""
+    },
+    {
+      "description": ": \"test_file_name.txt\" ,",
+      "name": "\"Name\"",
+      "required": ""
+    },
+    {
+      "description": ": \"e4e62ac169793ebecc9e45eb14906a6a8c04a399\" ,",
+      "name": "\"SHA1\"",
+      "required": ""
+    },
+    {
+      "description": ": \"0d732beba373d960e4dc305b6862309ae996748e21b1417e0bb9f0dfe9aab08e\" ,",
+      "name": "\"SHA256\"",
+      "required": ""
+    },
+    {
+      "description": ": \"47d276725420776ac107319135a8b61aeff605397e9486ff4642d2b0b804376e781505ad3a41a8f084ac220495201502dbae2d736a7d9cd3a59301c3d650c1c6\" ,",
+      "name": "\"SHA512\"",
+      "required": ""
+    },
+    {
+      "description": ": \"3:YKE4Lr/CLXxMt:Yf4veKt\" ,",
+      "name": "\"SSDeep\"",
+      "required": ""
+    },
+    {
+      "description": ": 40 ,",
+      "name": "\"Size\"",
+      "required": ""
+    },
+    {
+      "description": ": \"ASCII text\" }",
+      "name": "\"Type\"",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Next BaseContentApiModule \u00bb Script Data",
+      "name": "\u00ab Base64EncodeV2",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example Docs",
+      "name": "Script Examples",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Base64ListToFile",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/base64-list-to-file"
+}

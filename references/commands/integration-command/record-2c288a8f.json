@@ -1,0 +1,45 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Argument",
+      "required": ""
+    }
+  ],
+  "description": "mandiant-get-indicators",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "This command has no context output.",
+      "required": ""
+    },
+    {
+      "description": "Next Mantis \u00bb Prerequisites",
+      "name": "\u00ab Mandiant Enrich",
+      "required": ""
+    },
+    {
+      "description": "Upgrading from previous versions Integration Settings Commands",
+      "name": "Get Credentials",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "mandiant-get-indicators",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Mandiant Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/feed-mandiant-threat-intelligence"
+}

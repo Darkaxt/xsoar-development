@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "application/vnd.google-apps.spreadsheet",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The IDs of the parent folders which contain the file. Edit this page Report an Issue",
+      "name": "GoogleDrive.File.Parents",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Google Dorking Next Google Gemini \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands google-drive-create google-drive-drive-create",
+      "name": "Configure Google Drive in Cortex",
+      "required": ""
+    },
+    {
+      "description": "google-drive-activity-list google-drive-drives-list google-drive-drive-get",
+      "name": "google-drive-changes-list",
+      "required": ""
+    },
+    {
+      "description": "google-drive-files-list google-drive-file-get google-drive-file-upload",
+      "name": "google-drive-drive-delete",
+      "required": ""
+    },
+    {
+      "description": "google-drive-file-replace-existing google-drive-file-delete google-drive-file-permissions-list",
+      "name": "google-drive-file-download",
+      "required": ""
+    },
+    {
+      "description": "google-drive-file-permission-update google-drive-file-permission-delete google-drive-file-modify-label",
+      "name": "google-drive-file-permission-create",
+      "required": ""
+    },
+    {
+      "description": "google-drive-get-file-labels google-drive-file-copy google-drive-file-get-parents",
+      "name": "google-drive-get-labels",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Drive",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-drive"
+}

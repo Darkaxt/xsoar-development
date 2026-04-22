@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no raw output.",
+  "examples": [
+    "Command Example\n!cs-report-pdf id=588\nRaw Output\nThere is no raw output for this command.\nContext Example\nThere is no context example for this command.\nEdit this page\nReport an Issue",
+    "!cs-report-pdf id=588\nRaw Output\nThere is no raw output for this command.\nContext Example\nThere is no context example for this command.\nEdit this page\nReport an Issue\nPrevious"
+  ],
+  "kind": "integration-command",
+  "name": "cs-report-pdf",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike Falcon Intel (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-intel"
+}

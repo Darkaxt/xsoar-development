@@ -1,0 +1,56 @@
+{
+  "aliases": [
+    "pc-compute-image-compliance-issues-button"
+  ],
+  "arguments": [],
+  "description": "PCComputeImageComplianceIssuesButton | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PCComputeImageComplianceIssuesButton",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The image ID. PrismaCloudCompute.PCC_ImageComplianceIssues.compliance_issues A list of the image's compliance issues.",
+      "name": "PrismaCloudCompute.PCC_ImageComplianceIssues.image_id",
+      "required": ""
+    },
+    {
+      "description": "PrismaCloudCompute.PCC_ImageComplianceIssues.compliance_issues.Cause Additional information regarding the root cause for the vulnerability. PrismaCloudCompute.PCC_ImageComplianceIssues.compliance_issues.ComplianceID",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "PrismaCloudCompute.PCC_ImageComplianceIssues.compliance_issues.Severity Textual representation of the vulnerability's severity. PrismaCloudCompute.PCC_ImageComplianceIssues.compliance_issues.Title",
+      "name": "ID of the violation.",
+      "required": ""
+    },
+    {
+      "description": "PrismaCloudCompute.PCC_ImageComplianceIssues.compliance_issues.Description Compliance issue description. Edit this page",
+      "name": "Compliance title.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab PCComputeHostComplianceIssuesButton Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data Dependencies",
+      "name": "PDFUnlocker \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PCComputeImageComplianceIssuesButton",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/pc-compute-image-compliance-issues-button"
+}

@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!inventa-create-ticket reason=\"test reason\" datasubject_id=123asd456789",
+  "examples": [
+    "Command Example\n#\n!inventa-create-ticket reason=\"test reason\" datasubject_id=123asd456789\ninventa-validate-incident-inputs\n#\nValidates Incident inputs\nBase Command\n#",
+    "!inventa-create-ticket reason=\"test reason\" datasubject_id=123asd456789\ninventa-validate-incident-inputs\n#\nValidates Incident inputs\nBase Command\n#\ninventa-validate-incident-inputs\nInput",
+    "Command Example\n#\n!inventa-validate-incident-inputs\nEdit this page\nReport an Issue\nPrevious\n\u00ab 1Password\nNext",
+    "!inventa-validate-incident-inputs\nEdit this page\nReport an Issue\nPrevious\n\u00ab 1Password\nNext\nAbnormal Security \u00bb\nConfigure 1Touch.io's Inventa Connector in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether inputs are valid",
+      "name": "Inventa.Incident.validated",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "1Touch.io's Inventa Connector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/inventa"
+}

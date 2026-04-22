@@ -1,0 +1,47 @@
+{
+  "aliases": [
+    "cve-reputation"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "The CVE ID.",
+      "required": ""
+    }
+  ],
+  "description": "cveReputation | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "cveReputation",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next cveReputationV2 \u00bb Script Data",
+      "name": "\u00ab cve-enrichment",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "cveReputation",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cve-reputation"
+}

@@ -1,0 +1,107 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!criminal-ip-domain-full-scan-make-email-body scan_id=xyz789abc123 domain=example.com",
+  "examples": [
+    "!criminal-ip-domain-full-scan-make-email-body scan_id=xyz789abc123 domain=example.com\ncriminal-ip-micro-asm\n#\nPerforms a micro ASM-style summary for a domain with a completed Full Scan.\nBase Command\n#\ncriminal-ip-micro-asm\nInput",
+    "!criminal-ip-micro-asm scan_id=xyz789abc123 domain=example.com\nResources\n#\nCriminal IP\nCriminal IP Blog\nEdit this page\nReport an Issue\nPrevious"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Domain analyzed. CriminalIP.Micro_ASM.scan_id Scan ID used for Micro ASM.",
+      "name": "CriminalIP.Micro_ASM.domain",
+      "required": ""
+    },
+    {
+      "description": "Domain score. CriminalIP.Micro_ASM.phishing_prob Phishing probability.",
+      "name": "CriminalIP.Micro_ASM.domain_score",
+      "required": ""
+    },
+    {
+      "description": "DGA score. CriminalIP.Micro_ASM.registrar Domain registrar.",
+      "name": "CriminalIP.Micro_ASM.dga_score",
+      "required": ""
+    },
+    {
+      "description": "Domain creation date. CriminalIP.Micro_ASM.report_time Report generation time.",
+      "name": "CriminalIP.Micro_ASM.created",
+      "required": ""
+    },
+    {
+      "description": "Critical abuse record count. CriminalIP.Micro_ASM.abuse_dangerous Dangerous abuse record count.",
+      "name": "CriminalIP.Micro_ASM.abuse_critical",
+      "required": ""
+    },
+    {
+      "description": "Whether fake HTTPS detected. CriminalIP.Micro_ASM.punycode Whether punycode detected.",
+      "name": "CriminalIP.Micro_ASM.fake_https",
+      "required": ""
+    },
+    {
+      "description": "Certificate expiration date. CriminalIP.Micro_ASM.connected_ips Connected IP addresses (comma-separated).",
+      "name": "CriminalIP.Micro_ASM.cert_valid_to",
+      "required": ""
+    },
+    {
+      "description": "SSL vulnerabilities detected. CriminalIP.Micro_ASM.readable_output Pre-formatted Micro ASM report (email-ready).",
+      "name": "CriminalIP.Micro_ASM.ssl_vulns",
+      "required": ""
+    },
+    {
+      "description": "Full raw response from CriminalIP API. Example",
+      "name": "CriminalIP.Micro_ASM.raw",
+      "required": ""
+    },
+    {
+      "description": "Resources",
+      "name": "!criminal-ip-micro-asm scan_id=xyz789abc123 domain=example.com",
+      "required": ""
+    },
+    {
+      "description": "Criminal IP Blog Edit this page Report an Issue",
+      "name": "Criminal IP",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Create Test Incidents Next CrowdSec \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands criminal-ip-ip-report criminal-ip-check-malicious-ip",
+      "name": "Configure CriminalIP in Cortex",
+      "required": ""
+    },
+    {
+      "description": "criminal-ip-domain-quick-scan criminal-ip-domain-lite-scan criminal-ip-domain-lite-scan-status",
+      "name": "criminal-ip-check-last-scan-date",
+      "required": ""
+    },
+    {
+      "description": "criminal-ip-domain-full-scan criminal-ip-domain-full-scan-status criminal-ip-domain-full-scan-result",
+      "name": "criminal-ip-domain-lite-scan-result",
+      "required": ""
+    },
+    {
+      "description": "criminal-ip-micro-asm Resources Docs",
+      "name": "criminal-ip-domain-full-scan-make-email-body",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CriminalIP",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/criminal-ip"
+}

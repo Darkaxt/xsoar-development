@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "8. tn-get-saved-question-result",
+  "examples": [
+    "Command Example\n!tn-get-saved-question-result question-id=130\nContext Example\n{\n\"Tanium.SavedQuestionResult\": {\n\"SavedQuestionID\": \"130\",\n\"Status\": \"Completed\"\n}",
+    "!tn-get-saved-question-result question-id=130\nContext Example\n{\n\"Tanium.SavedQuestionResult\": {\n\"SavedQuestionID\": \"130\",\n\"Status\": \"Completed\"\n}"
+  ],
+  "kind": "integration-command",
+  "name": "tn-get-saved-question-result",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the saved question. Tanium.SavedQuestionResult.Results The saved question results.",
+      "name": "Tanium.SavedQuestionResult.SavedQuestionID",
+      "required": ""
+    },
+    {
+      "description": "Status of the question request. Can be: \"Completed\" or \"Pending\".",
+      "name": "Tanium.SavedQuestionResult.Status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

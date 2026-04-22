@@ -1,0 +1,23 @@
+{
+  "aliases": [
+    "confluera-detections-summary-warroom"
+  ],
+  "arguments": [],
+  "description": "ConflueraDetectionsSummaryWarroom | Cortex XSOAR",
+  "examples": [
+    "!ConflueraDetectionsSummaryWarroom\nInputs\n#\nArgument Name\nDescription\nN/A\nN/A\nOutputs"
+  ],
+  "kind": "script",
+  "name": "ConflueraDetectionsSummaryWarroom",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "N/A N/A",
+      "name": "N/A",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ConflueraDetectionsSummaryWarroom",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/confluera-detections-summary-warroom"
+}

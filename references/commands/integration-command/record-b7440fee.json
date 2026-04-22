@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!email email=\"test@example.com\"",
+  "examples": [
+    "Command Example\n#\n!email email=\"test@example.com\"\nemailrepio-email-address-report\n#\nReports\u00a0a malicious\u00a0email\u00a0address\u00a0to\u00a0EmailRepIO.\u00a0 You tag the type of malicious activity associated with the email address. The\u00a0date\u00a0of\u00a0the\u00a0malicious\u00a0activity\u00a0defaults\u00a0to\u00a0the\u00a0current\u00a0time\u00a0unless\u00a0otherwise specified.\nBase Command\n#",
+    "!email email=\"test@example.com\"\nemailrepio-email-address-report\n#\nReports\u00a0a malicious\u00a0email\u00a0address\u00a0to\u00a0EmailRepIO.\u00a0 You tag the type of malicious activity associated with the email address. The\u00a0date\u00a0of\u00a0the\u00a0malicious\u00a0activity\u00a0defaults\u00a0to\u00a0the\u00a0current\u00a0time\u00a0unless\u00a0otherwise specified.\nBase Command\n#\nemailrepio-email-address-report\nInput",
+    "Command Example\n#\n!emailrepio-email-address-report email_address=\"test@example.com\" tags=\"spam\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab Email Hippo\nNext",
+    "!emailrepio-email-address-report email_address=\"test@example.com\" tags=\"spam\"\nEdit this page\nReport an Issue\nPrevious\n\u00ab Email Hippo\nNext\nEndace \u00bb\nConfigure EmailRepIO in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EmailRep.io",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/email-rep-io"
+}

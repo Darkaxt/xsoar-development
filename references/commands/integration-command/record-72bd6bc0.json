@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!resecurity-get-task-monitor-results-data-breaches monitor_task_id=1 limit=2 mode=2\nContext Example\n#\n{\n\"Resecurity\"\n:\n{\n\"DataBreach\"",
+    "!resecurity-get-task-monitor-results-data-breaches monitor_task_id=1 page_size=2 page=10 mode=2\nContext Example\n#\n{\n\"Resecurity\"\n:\n{\n\"DataBreach\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Data breach ID Resecurity.DataBreach.query The query for which the result was found",
+      "name": "Resecurity.DataBreach.id",
+      "required": ""
+    },
+    {
+      "description": "Data breach detection date Resecurity.DataBreach.email Data breach email",
+      "name": "Resecurity.DataBreach.detection_date",
+      "required": ""
+    },
+    {
+      "description": "Data breach username Resecurity.DataBreach.password Data breach password",
+      "name": "Resecurity.DataBreach.username",
+      "required": ""
+    },
+    {
+      "description": "Data breach password hash Resecurity.DataBreach.salt Data breach salt",
+      "name": "Resecurity.DataBreach.password_hash",
+      "required": ""
+    },
+    {
+      "description": "Data breach IP address Resecurity.DataBreach.source_name Data breach source name",
+      "name": "Resecurity.DataBreach.ip",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Resecurity Monitoring",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/resecurity-monitoring"
+}

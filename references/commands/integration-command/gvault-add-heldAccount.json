@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!gvault-create-hold matterID=ffcd6bfc-2530-413e-9d54-2d0801f91765 accountID=116238185592796178843 corpus=Mail holdName=test",
+  "examples": [
+    "Command Example\n!gvault-create-hold matterID=ffcd6bfc-2530-413e-9d54-2d0801f91765 accountID=116238185592796178843 corpus=Mail holdName=test\nContext Example\nHuman Readable Output\n7. Add a Held Account to a hold\nAdds a Held Account to a hold. This structure is immutable.\nBase Command\ngvault-add-heldAccount",
+    "!gvault-create-hold matterID=ffcd6bfc-2530-413e-9d54-2d0801f91765 accountID=116238185592796178843 corpus=Mail holdName=test\nContext Example\nHuman Readable Output\n7. Add a Held Account to a hold\nAdds a Held Account to a hold. This structure is immutable.\nBase Command\ngvault-add-heldAccount\nInput",
+    "Command Example"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-add-heldAccount",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The held account ID",
+      "name": "GoogleVault.Matter.Hold.Account.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

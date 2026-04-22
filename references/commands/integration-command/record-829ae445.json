@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!alienvaultotx-get-indicators limit=3\nHuman Readable Output\n#\nIndicators from AlienVault OTX TAXII\n#\nvalue",
+    "!alienvaultotx-get-indicators limit=3\nHuman Readable Output\n#\nIndicators from AlienVault OTX TAXII\n#\nvalue\ntype\n1.2.3.4"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AlienVault OTX TAXII Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/alien-vault-otx-taxii-feed"
+}

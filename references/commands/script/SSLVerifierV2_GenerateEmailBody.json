@@ -1,0 +1,47 @@
+{
+  "aliases": [
+    "ssl-verifier-v2-generate-email-body"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "SSLVerifierV2_GenerateEmailBody | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SSLVerifierV2_GenerateEmailBody",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Email body formatted in HTML Edit this page Report an Issue",
+      "name": "SSLReport.HTML",
+      "required": ""
+    },
+    {
+      "description": "\u00ab SSLVerifierV2 Next SSLVerifierV2_ParseOutput \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SSLVerifierV2_GenerateEmailBody",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ssl-verifier-v2-generate-email-body"
+}

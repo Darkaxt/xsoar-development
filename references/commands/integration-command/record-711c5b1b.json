@@ -1,0 +1,109 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The action status. Added only when the operation is unsuccessful.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the alert. PaloAltoNetworksXDR.Alert.source_insert_ts The detection timestamp.",
+      "name": "PaloAltoNetworksXDR.Alert.internal_id",
+      "required": ""
+    },
+    {
+      "description": "The name of the alert. PaloAltoNetworksXDR.Alert.severity The severity of the alert.",
+      "name": "PaloAltoNetworksXDR.Alert.alert_name",
+      "required": ""
+    },
+    {
+      "description": "The category of the alert. PaloAltoNetworksXDR.Alert.alert_action_status The alert action. Possible values.",
+      "name": "PaloAltoNetworksXDR.Alert.alert_category",
+      "required": ""
+    },
+    {
+      "description": "DETECTED_0: detected (allowed the session) DOWNLOAD: detected (download) DETECTED_19: detected (forward)",
+      "name": "DETECTED: detected",
+      "required": ""
+    },
+    {
+      "description": "PROMPT_ALLOW: detected (prompt allow) DETECTED_4: detected (raised an alert) REPORTED: detected (reported)",
+      "name": "POST_DETECTED: detected (post detected)",
+      "required": ""
+    },
+    {
+      "description": "SCANNED: detected (scanned) DETECTED_23: detected (sinkhole) DETECTED_18: detected (syncookie sent)",
+      "name": "REPORTED_TRIGGER_4: detected (on write)",
+      "required": ""
+    },
+    {
+      "description": "DETECTED_20: detected (wildfire upload success) DETECTED_22: detected (wildfire upload skip) DETECTED_MTH: detected (xdr managed threat hunting)",
+      "name": "DETECTED_21: detected (wildfire upload failure)",
+      "required": ""
+    },
+    {
+      "description": "BLOCKED: prevented (blocked) BLOCKED_14: prevented (block-override) BLOCKED_5: prevented (blocked the url)",
+      "name": "BLOCKED_25: prevented (block)",
+      "required": ""
+    },
+    {
+      "description": "BLOCKED_13: prevented (continue) BLOCKED_1: prevented (denied the session) BLOCKED_8: prevented (dropped all packets)",
+      "name": "BLOCKED_6: prevented (blocked the ip)",
+      "required": ""
+    },
+    {
+      "description": "BLOCKED_3: prevented (dropped the session and sent a tcp reset) BLOCKED_7: prevented (dropped the packet) BLOCKED_16: prevented (override)",
+      "name": "BLOCKED_2: prevented (dropped the session)",
+      "required": ""
+    },
+    {
+      "description": "BLOCKED_26: prevented (post detected) PROMPT_BLOCK: prevented (prompt block) BLOCKED_17: prevented (random-drop)",
+      "name": "BLOCKED_15: prevented (override-lockout)",
+      "required": ""
+    },
+    {
+      "description": "BLOCKED_9: prevented (terminated the session and sent a tcp reset to both sides of the connection) BLOCKED_10: prevented (terminated the session and sent a tcp reset to the client) BLOCKED_11: prevented (terminated the session and sent a tcp reset to the server)",
+      "name": "BLOCKED_24: prevented (silently dropped the session with an icmp unreachable message to the host or application)",
+      "required": ""
+    },
+    {
+      "description": "| PaloAltoNetworksXDR.Alert.alert_action_status_readable | String | The alert action. | | PaloAltoNetworksXDR.Alert.alert_name | String | The alert name. | | PaloAltoNetworksXDR.Alert.alert_description | String | The alert description. |",
+      "name": "BLOCKED_TRIGGER_4: prevented (on write). |",
+      "required": ""
+    },
+    {
+      "description": "| PaloAltoNetworksXDR.Alert.agent_hostname | String | The host name. | | PaloAltoNetworksXDR.Alert.mitre_tactic_id_and_name | String | The MITRE attack tactic. | | PaloAltoNetworksXDR.Alert.mitre_technique_id_and_name | String | The MITRE attack technique. |",
+      "name": "| PaloAltoNetworksXDR.Alert.agent_ip_addresses | String | The host IP. |",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "| PaloAltoNetworksXDR.Alert.starred | Boolean | Whether the alert is starred or not. |",
+      "required": ""
+    },
+    {
+      "description": "Next Cortex XDR - XQL Query Engine \u00bb Commands",
+      "name": "\u00ab Cortex XDR - IOC",
+      "required": ""
+    },
+    {
+      "description": "xdr-get-incident-extra-data-ctf xdr-endpoint-isolate-ctf xdr-file-retrieve-ctf",
+      "name": "get-mapping-fields",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "xdr-get-alerts-ctf",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cortex XDR - IR CTF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cortex-xdr---ir-ctf"
+}

@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "This command is deprecated.",
+  "examples": [
+    "Command Example\n!recorded-future-get-threats-ip detailed=true orderby=sevendayshits\nContext Example\n{\n\"IP\": {\n\"RecordedFuture\": {\n\"FirstSeen\": \"2012-12-26T11:01:01.939Z\",\n\"Criticality\": \"Malicious\",",
+    "!recorded-future-get-threats-ip detailed=true orderby=sevendayshits\nContext Example\n{\n\"IP\": {\n\"RecordedFuture\": {\n\"FirstSeen\": \"2012-12-26T11:01:01.939Z\",\n\"Criticality\": \"Malicious\",\n\"LastSeen\": \"2019-02-03T17:37:08.283Z\""
+  ],
+  "kind": "integration-command",
+  "name": "recorded-future-get-threats-ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested DBotScore.Type Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "For malicious IP addresses, the vendor that made the decision IP.Malicious.Description For malicious IP addresses, the reason that the vendor made the decision",
+      "name": "IP.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "IP address IP.RecordedFuture.Criticality Risk criticality label",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "Risk first seen timestamp IP.RecordedFuture.LastSeen date",
+      "name": "IP.RecordedFuture.FirstSeen",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Risk last seen timestamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

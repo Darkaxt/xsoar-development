@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n!bigquery-query query=\"SELECT * FROMbigquery-public-data.usa_names.usa_1910_2013\nWHERE state='TX' LIMIT 100\"\nContext Example\n{\n\"BigQuery\": {\n\"Query\": \"SELECT * FROM `bigquery-public-data.usa_names.usa_1910_2013` WHERE state='TX' LIMIT 100\",\n\"Row\": [",
+    "!bigquery-query query=\"SELECT * FROMbigquery-public-data.usa_names.usa_1910_2013\nWHERE state='TX' LIMIT 100\"\nContext Example\n{\n\"BigQuery\": {\n\"Query\": \"SELECT * FROM `bigquery-public-data.usa_names.usa_1910_2013` WHERE state='TX' LIMIT 100\",\n\"Row\": [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "bigquery-query",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The query performed. BigQuery.Row The table rows the given query returned.",
+      "name": "BigQuery.Query",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google BigQuery",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-big-query"
+}

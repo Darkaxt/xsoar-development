@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "IPAddress: 192.168.1.8",
+  "examples": [
+    "Command Example\n!alienvault-get-events-by-alarm alarm_id=3194f0f5-0350-7a09-87b2-8fb20b963ed8\nContext Example\n{\n\"AlienVault.Event\": [\n{\n\"Category\": \"Policy Violation\",\n\"Subcategory\": \"Remote access application\",",
+    "!alienvault-get-events-by-alarm alarm_id=3194f0f5-0350-7a09-87b2-8fb20b963ed8\nContext Example\n{\n\"AlienVault.Event\": [\n{\n\"Category\": \"Policy Violation\",\n\"Subcategory\": \"Remote access application\",\n\"Name\": \"ET POLICY MS Remote Desktop Administrator Login Request\","
+  ],
+  "kind": "integration-command",
+  "name": "alienvault-get-events-by-alarm",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Event category. AlienVault.Event.Source.IPAddress Source IP address.",
+      "name": "AlienVault.Event.Category",
+      "required": ""
+    },
+    {
+      "description": "Source port. AlienVault.Event.Destination.IPAddress Destination IP address.",
+      "name": "AlienVault.Event.Source.Port",
+      "required": ""
+    },
+    {
+      "description": "Destination port. AlienVault.Event.Severity Event severity.",
+      "name": "AlienVault.Event.Destination.Port",
+      "required": ""
+    },
+    {
+      "description": "Time the event occurred. AlienVault.Event.ReceivedTime Time the event was received.",
+      "name": "AlienVault.Event.OccurredTime",
+      "required": ""
+    },
+    {
+      "description": "Access control outcome. AlienVault.Event.Suppressed Bool",
+      "name": "AlienVault.Event.AccessControlOutcome",
+      "required": ""
+    },
+    {
+      "description": "AlienVault.Event.ID Event ID. AlienVault.Event.Name",
+      "name": "Whether the event is suppressed.",
+      "required": ""
+    },
+    {
+      "description": "Event name. AlienVault.Event.Subcategory Event subcategory.",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AlienVault USM Anywhere",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/alien-vault-usm-anywhere"
+}

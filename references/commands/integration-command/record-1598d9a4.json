@@ -1,0 +1,55 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Machine data, including details for a single machine if",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command. The output is human-readable text directly in the War Room.",
+      "required": ""
+    },
+    {
+      "description": "Next Carbon Black Endpoint Standard Event Collector \u00bb Overview",
+      "name": "\u00ab Camlytics",
+      "required": ""
+    },
+    {
+      "description": "Configure Cape Sandbox in Cortex Commands cape-file-submit",
+      "name": "Authorization",
+      "required": ""
+    },
+    {
+      "description": "cape-sample-download cape-url-submit cape-task-delete",
+      "name": "cape-file-view",
+      "required": ""
+    },
+    {
+      "description": "cape-task-report-get cape-pcap-file-download cape-task-screenshot-download",
+      "name": "cape-tasks-list",
+      "required": ""
+    },
+    {
+      "description": "cape-cuckoo-status-get Docs Developer Docs",
+      "name": "cape-machines-list",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cape Sandbox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cape-sandbox"
+}

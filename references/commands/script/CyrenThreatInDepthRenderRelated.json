@@ -1,0 +1,21 @@
+{
+  "aliases": [
+    "cyren-threat-in-depth-render-related"
+  ],
+  "arguments": [],
+  "description": "CyrenThreatInDepthRenderRelated | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CyrenThreatInDepthRenderRelated",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyrenThreatInDepthRenderRelated",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cyren-threat-in-depth-render-related"
+}

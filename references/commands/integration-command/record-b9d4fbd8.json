@@ -1,0 +1,134 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "azure-nsg-security-rules-list",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Gets all security rules in a network security group.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "azure-nsg-security-rules-list",
+      "required": ""
+    },
+    {
+      "description": "The rule's name. Azure.NSGRule.id The rule's ID.",
+      "name": "Azure.NSGRule.name",
+      "required": ""
+    },
+    {
+      "description": "The rule's provisioning state. Azure.NSGRule.properties.protocol The protocol, which can be \"TCP\", \"UDP\", \"ICMP\", or \"*\".",
+      "name": "Azure.NSGRule.properties.provisioningState",
+      "required": ""
+    },
+    {
+      "description": "For a single port, the source port or a range of ports. Azure.NSGRule.properties.destinationPortRange For a single port, the destination port or range of ports.",
+      "name": "Azure.NSGRule.properties.sourcePortRange",
+      "required": ""
+    },
+    {
+      "description": "The source address. Azure.NSGRule.properties.destinationAddressPrefix The destination address.",
+      "name": "Azure.NSGRule.properties.sourceAddressPrefix",
+      "required": ""
+    },
+    {
+      "description": "The rule's access. Can be \"Allow\" or \"Deny\". Azure.NSGRule.properties.priority The rule\u2019s priority, ranging from 100 to 4096.",
+      "name": "Azure.NSGRule.properties.access",
+      "required": ""
+    },
+    {
+      "description": "The rule's direction, which can be \"Inbound\" or \"Outbound\". Edit this page Report an Issue",
+      "name": "Azure.NSGRule.properties.direction",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Axonius Next Azure Active Directory Identity Protection (Deprecated) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands azure-nsg-security-rule-update azure-storage-account-update",
+      "name": "Configure Azure in Cortex",
+      "required": ""
+    },
+    {
+      "description": "azure-policy-assignment-create azure-postgres-config-set azure-webapp-config-set",
+      "name": "azure-storage-blob-service-properties-set",
+      "required": ""
+    },
+    {
+      "description": "azure-mysql-flexible-server-param-set azure-monitor-log-profile-update azure-disk-update",
+      "name": "azure-webapp-auth-update",
+      "required": ""
+    },
+    {
+      "description": "azure-acr-update azure-postgres-server-update azure-key-vault-update",
+      "name": "azure-webapp-update",
+      "required": ""
+    },
+    {
+      "description": "azure-sql-db-transparent-data-encryption-set azure-cosmos-db-update azure-vm-instance-details-get",
+      "name": "azure-sql-db-threat-policy-update",
+      "required": ""
+    },
+    {
+      "description": "azure-nsg-security-rule-delete azure-storage-blob-containers-update azure-vm-instance-start",
+      "name": "azure-nsg-security-groups-list",
+      "required": ""
+    },
+    {
+      "description": "azure-vm-network-interface-details-get azure-nsg-security-rule-get azure-nsg-public-ip-addresses-list",
+      "name": "azure-nsg-network-interfaces-list",
+      "required": ""
+    },
+    {
+      "description": "azure-vm-public-ip-details-get azure-nsg-security-rule-create azure-nsg-resource-group-list",
+      "name": "azure-storage-blob-service-properties-get",
+      "required": ""
+    },
+    {
+      "description": "azure-billing-usage-list azure-billing-forecast-list azure-billing-budgets-list",
+      "name": "azure-vm-instance-power-off",
+      "required": ""
+    },
+    {
+      "description": "azure-storage-container-create azure-storage-container-delete azure-storage-container-blob-create",
+      "name": "azure-storage-container-property-get",
+      "required": ""
+    },
+    {
+      "description": "azure-storage-container-blob-tag-get azure-storage-container-blob-tag-set azure-storage-container-blob-property-get",
+      "name": "azure-storage-container-blob-get",
+      "required": ""
+    },
+    {
+      "description": "azure-storage-container-public-access-block azure-nsg-security-rules-list Docs",
+      "name": "azure-storage-container-blob-property-set",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure"
+}

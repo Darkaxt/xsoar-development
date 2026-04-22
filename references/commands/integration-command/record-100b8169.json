@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2023-11-02T17:28:18.602Z",
+  "examples": [
+    "!azure-log-analytics-delete-search-job table_name=test_SRCH\nHuman Readable Output\n#\nSearch job test_SRCH deleted successfully.\nTroubleshooting\n#\nIn case of a\nhash verification",
+    "!azure-log-analytics-auth-reset\n. This command resets the authentication mechanism, allowing for the new credentials to be accepted.\nInsert the newly created credentials into the original instance where the error occurred. Make sure the credentials are entered correctly to avoid further errors.\nAfter updating the credentials, test the integration.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Azure Kubernetes Services"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Log Analytics",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-log-analytics"
+}

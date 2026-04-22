@@ -1,0 +1,47 @@
+{
+  "aliases": [
+    "load-json"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "The input string to transform to a JSON object.",
+      "required": ""
+    }
+  ],
+  "description": "LoadJSON | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "LoadJSON",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The JSON object loaded from the input. Edit this page Report an Issue",
+      "name": "JsonObject",
+      "required": ""
+    },
+    {
+      "description": "\u00ab ListUsedDockerImages Next LoadJSONFileToContext \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "LoadJSON",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/load-json"
+}

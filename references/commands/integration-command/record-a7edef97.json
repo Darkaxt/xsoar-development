@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "microfocus-smax-update-request",
+  "examples": [
+    "Command Example\n#\n!microfocus-smax-update-request request_id=\"17009\" request_description=\"Test Description\" request_status=\"RequestStatusPendingSpecialOperation\"\nContext Example\n#\n{\n\"MicroFocus\"\n:",
+    "!microfocus-smax-update-request request_id=\"17009\" request_description=\"Test Description\" request_status=\"RequestStatusPendingSpecialOperation\"\nContext Example\n#\n{\n\"MicroFocus\"\n:\n{\n\"SMAX\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Entity Id MicroFocus.SMAX.Entities.properties.Name Entity name",
+      "name": "MicroFocus.SMAX.Entities.properties.Id",
+      "required": ""
+    },
+    {
+      "description": "Query result status",
+      "name": "MicroFocus.SMAX.Entities.properties.completion_status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MicroFocus SMAX",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/micro-focus-smax"
+}

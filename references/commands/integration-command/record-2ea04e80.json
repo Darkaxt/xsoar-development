@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "cyberwatch-get-declarative-data-asset",
+  "examples": [
+    "!cyberwatch-get-declarative-data-asset id=191\nContext Example\n#\n{\n\"Cyberwatch\"\n:\n{\n\"DeclarativeData\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Server ID Cyberwatch.DeclarativeData.raw Raw Declarative Data text",
+      "name": "Cyberwatch.DeclarativeData.id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cyberwatch",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyberwatch"
+}

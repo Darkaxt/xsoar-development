@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "GoogleVault.Matter.State",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "gvault-create-export-groups",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Matter ID GoogleVault.Matter.Export.ExportID Export ID",
+      "name": "GoogleVault.Matter.Export.MatterID",
+      "required": ""
+    },
+    {
+      "description": "Export's name GoogleVault.Matter.Export.CreateTime Export's creation time",
+      "name": "GoogleVault.Matter.Export.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

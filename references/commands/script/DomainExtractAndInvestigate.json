@@ -1,0 +1,301 @@
+{
+  "aliases": [
+    "domain-extract-and-investigate"
+  ],
+  "arguments": [],
+  "description": "DomainExtractAndInvestigate | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DomainExtractAndInvestigate",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the domain. Domain.DNS The DNS of the domain.",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "Domain.DomainStatus The status of the domain. Domain.CreationDate",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Date Domain.ExpirationDate The expiration date of the domain.",
+      "name": "The creation date.",
+      "required": ""
+    },
+    {
+      "description": "Domain.NameServers The nameServers of the domain. Domain.Registrant.Country",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Domain.Registrant.Email The registrant email of the domain. Domain.Registrant.Name",
+      "name": "The registrant country of the domain.",
+      "required": ""
+    },
+    {
+      "description": "Domain.Registrant.Phone The registrant phone number of the domain. Domain.Malicious.Vendor",
+      "name": "The registrant name of the domain.",
+      "required": ""
+    },
+    {
+      "description": "Domain.Malicious.Description The description as to why the domain was found to be malicious. DomainTools.Domains.Name",
+      "name": "The vendor who classified the domain as malicious.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.LastEnriched The last Time DomainTools enriched domain data. Date",
+      "name": "The domain name in DomainTools.",
+      "required": ""
+    },
+    {
+      "description": "The Overall Risk Score in DomainTools. DomainTools.Domains.Analytics.ProximityRiskScore The Proximity Risk Score in DomainTools.",
+      "name": "DomainTools.Domains.Analytics.OverallRiskScore",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Analytics.ThreatProfileRiskScore.RiskScore The Threat Profile Risk Score in DomainTools. DomainTools.Domains.Analytics.ThreatProfileRiskScore.Threats",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Analytics.ThreatProfileRiskScore.Evidence The Threat Profile Risk Score Evidence in DomainTools. DomainTools.Domains.Analytics.WebsiteResponseCode",
+      "name": "The threats of the Threat Profile Risk Score in DomainTools.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Analytics.AlexaRank The Alexa Rank in DomainTools. DomainTools.Domains.Analytics.Tags",
+      "name": "The Website Response Code in DomainTools.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.RegistrantName The name of the registrant. DomainTools.Domains.Identity.RegistrantOrg",
+      "name": "The Tags in DomainTools.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.RegistrantContact.Country.value The country value of the registrant contact. DomainTools.Domains.Identity.RegistrantContact.Country.count",
+      "name": "The organization of the registrant.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.RegistrantContact.Email.value The Email value of the registrant contact. DomainTools.Domains.Identity.RegistrantContact.Email.count",
+      "name": "The count of the registrant contact country.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.RegistrantContact.Name.value The name value of the registrant contact. DomainTools.Domains.Identity.RegistrantContact.Name.count",
+      "name": "The Email count of the registrant contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.RegistrantContact.Phone.value The phone value of the registrant contact. DomainTools.Domains.Identity.RegistrantContact.Phone.count",
+      "name": "The name count of the registrant contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.SOAEmail The SOA record of the Email. DomainTools.Domains.Identity.SSLCertificateEmail",
+      "name": "The phone count of the registrant contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.AdminContact.Country.value The country value of the administrator contact. DomainTools.Domains.Identity.AdminContact.Country.count",
+      "name": "The Email of the SSL certificate.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.AdminContact.Email.value The Email value of the administrator contact. DomainTools.Domains.Identity.AdminContact.Email.count",
+      "name": "The country count of the administrator contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.AdminContact.Name.value The name value of the administrator contact. DomainTools.Domains.Identity.AdminContact.Name.count",
+      "name": "The Email count of the administrator contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.AdminContact.Phone.value The phone value of the administrator contact. DomainTools.Domains.Identity.AdminContact.Phone.count",
+      "name": "The name count of the administrator contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.TechnicalContact.Country.value The country value of the technical contact. DomainTools.Domains.Identity.TechnicalContact.Country.count",
+      "name": "The phone count of the administrator contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.TechnicalContact.Email.value The Email value of the technical contact. DomainTools.Domains.Identity.TechnicalContact.Email.count",
+      "name": "The country count of the technical contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.TechnicalContact.Name.value The name value of the technical Contact. DomainTools.Domains.Identity.TechnicalContact.Name.count",
+      "name": "The Email count of the technical contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.TechnicalContact.Phone.value The phone value of the technical contact. DomainTools.Domains.Identity.TechnicalContact.Phone.count",
+      "name": "The name count of the technical contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.BillingContact.Country.value The country value of the billing contact. DomainTools.Domains.Identity.BillingContact.Country.count",
+      "name": "The phone count of the technical contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.BillingContact.Email.value The Email value of the billing contact. DomainTools.Domains.Identity.BillingContact.Email.count",
+      "name": "The country count of the billing contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.BillingContact.Name.value The name value of the billing contact. DomainTools.Domains.Identity.BillingContact.Name.count",
+      "name": "The Email count of the billing contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.BillingContact.Phone.value The phone value of the billing contact. DomainTools.Domains.Identity.BillingContact.Phone.count",
+      "name": "The name count of the billing contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.EmailDomains The Email Domains. DomainTools.Domains.Identity.AdditionalWhoisEmails.value",
+      "name": "The phone count of the billing contact.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Identity.AdditionalWhoisEmails.count The count of the Additional Whois Emails record. DomainTools.Domains.Registration.DomainRegistrant",
+      "name": "The value of the Additional Whois Emails record.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Registration.RegistrarStatus The status of the registrar. DomainTools.Domains.Registration.DomainStatus",
+      "name": "The registrant of the domain.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Registration.CreateDate The date the domain was created. Date",
+      "name": "The active status of the domain.",
+      "required": ""
+    },
+    {
+      "description": "The expiration date of the domain. Date DomainTools.Domains.Hosting.IPAddresses.address.value",
+      "name": "DomainTools.Domains.Registration.ExpirationDate",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.IPAddresses.address.count The address count of IP addresses. DomainTools.Domains.Hosting.IPAddresses.asn.value",
+      "name": "The address value of IP addresses.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.IPAddresses.asn.count The ASN count of IP addresses. DomainTools.Domains.Hosting.IPAddresses.country_code.value",
+      "name": "The ASN value of IP addresses.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.IPAddresses.country_code.count The country code count of IP addresses. DomainTools.Domains.Hosting.IPAddresses.isp.value",
+      "name": "The country code value of IP addresses.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.IPAddresses.isp.count The ISP count of IP addresses. DomainTools.Domains.Hosting.IPCountryCode",
+      "name": "The ISP value of IP addresses.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.MailServers.domain.value The domain value of the Mail Servers. DomainTools.Domains.Hosting.MailServers.domain.count",
+      "name": "The country code of the IP address.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.MailServers.host.value The host value of the Mail Servers. DomainTools.Domains.Hosting.MailServers.host.count",
+      "name": "The domain count of the Mail Servers.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.MailServers.ip.value The IP value of the Mail Servers. DomainTools.Domains.Hosting.MailServers.ip.count",
+      "name": "The host count of the Mail Servers.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.SPFRecord The SPF Record. DomainTools.Domains.Hosting.NameServers.domain.value",
+      "name": "The IP count of the Mail Servers.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.NameServers.domain.count The domain count of the domain NameServers. DomainTools.Domains.Hosting.NameServers.host.value",
+      "name": "The domain value of the domain NameServers.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.NameServers.host.count The host count of the domain NameServers. DomainTools.Domains.Hosting.NameServers.ip.value",
+      "name": "The host value of the domain NameServers.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.NameServers.ip.count The IP count of domain NameServers. DomainTools.Domains.Hosting.SSLCertificate.hash.value",
+      "name": "The IP value of the domain NameServers.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.SSLCertificate.hash.count The hash count of the SSL certificate. DomainTools.Domains.Hosting.SSLCertificate.organization.value",
+      "name": "The hash value of the SSL certificate.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.SSLCertificate.organization.count The organization count of the SSL certificate information. DomainTools.Domains.Hosting.SSLCertificate.subject.value",
+      "name": "The organization value of the SSL certificate.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.SSLCertificate.subject.count The subject count of the SSL certificate information. DomainTools.Domains.Hosting.RedirectsTo.value",
+      "name": "The subject value of the SSL certificate information.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Hosting.RedirectsTo.count The Redirects To Count of the domain. DomainTools.Domains.Analytics.GoogleAdsenseTrackingCode",
+      "name": "The Redirects To Value of the domain.",
+      "required": ""
+    },
+    {
+      "description": "DomainTools.Domains.Analytics.GoogleAnalyticTrackingCode The tracking code of Google Analytics. DBotScore.Indicator",
+      "name": "The tracking code of Google Adsense.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Type The indicator type of the DBotScore. DBotScore.Vendor",
+      "name": "The indicator of the DBotScore.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Score The actual score. Edit this page",
+      "name": "The vendor used to calculate the score.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab DomainExtractAndEnrich Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data Dependencies",
+      "name": "DomainReputation \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DomainExtractAndInvestigate",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/domain-extract-and-investigate"
+}

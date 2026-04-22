@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Whether to modify the sync time locally.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Base Command",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "xdr-iocs-to-keep-file",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Cortex XDR - IR CTF \u00bb Prerequisites",
+      "name": "\u00ab Cortex Platform - Core",
+      "required": ""
+    },
+    {
+      "description": "Commands xdr-iocs-sync xdr-iocs-push",
+      "name": "Configure Cortex XDR - IOC in Cortex",
+      "required": ""
+    },
+    {
+      "description": "xdr-iocs-disable xdr-iocs-create-sync-file Docs",
+      "name": "xdr-iocs-enable",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cortex XDR - IOC",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cortex-xdr---ioc"
+}

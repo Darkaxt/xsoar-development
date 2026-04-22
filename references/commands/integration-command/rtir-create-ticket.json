@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get the history of a ticket: rtir-ticket-history",
+  "examples": [
+    "Command Example\n!rtir-create-ticket subject=NewTicket queue=\"Incident Reports\" priority=70 requestor=root@localhost customfields=\"IP=8.8.8.8,How Reported=Email\"\nRaw Output\nTicket 121 was created successfully.\nContext Example\n{\n\"RTIR\": {\n\"Ticket\": {",
+    "!rtir-create-ticket subject=NewTicket queue=\"Incident Reports\" priority=70 requestor=root@localhost customfields=\"IP=8.8.8.8,How Reported=Email\"\nRaw Output\nTicket 121 was created successfully.\nContext Example\n{\n\"RTIR\": {\n\"Ticket\": {\n\"CF_How Reported\": \"Email\","
+  ],
+  "kind": "integration-command",
+  "name": "rtir-create-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID. RTIR.Ticket.InitialPriority Ticket initial priority 0-100).",
+      "name": "RTIR.Ticket.ID",
+      "required": ""
+    },
+    {
+      "description": "Ticket priority (0-100). RTIR.Ticket.FinalPriority Ticket final priority (0-100).",
+      "name": "RTIR.Ticket.Priority",
+      "required": ""
+    },
+    {
+      "description": "Ticket owner. RTIR.Ticket.Subject Ticket subject.",
+      "name": "RTIR.Ticket.Owner",
+      "required": ""
+    },
+    {
+      "description": "Ticket creator.",
+      "name": "RTIR.Ticket.Creator",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RTIR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rtir"
+}

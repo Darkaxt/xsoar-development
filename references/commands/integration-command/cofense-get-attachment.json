@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2019-05-17T11:37:52.000Z",
+  "examples": [
+    "Command Example\ncofense-get-attachment attachment_id=8195\nContext Example\n{"
+  ],
+  "kind": "integration-command",
+  "name": "cofense-get-attachment",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID number of the report that contains the attachment. File.Size The date and time (in UTC) when the threat was found on the device.",
+      "name": "Attachment.ID",
+      "required": ""
+    },
+    {
+      "description": "The file path where the threat was found on the device. File.Name The name of the threat.",
+      "name": "File.EntryID",
+      "required": ""
+    },
+    {
+      "description": "The SHA1 hash of the threat. File.SHA256 The SHA256 hash of the threat.",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the threat.",
+      "name": "File.MD5",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cofense Triage (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cofense-triage"
+}

@@ -1,0 +1,226 @@
+{
+  "aliases": [
+    "pan-os-security-advisories-enrichment"
+  ],
+  "arguments": [],
+  "description": "PAN-OS_Security_Advisories_Enrichment | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PAN-OS_Security_Advisories_Enrichment",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "CVE ID PANOSSecurityAdvisories.Advisory.title CVE Title",
+      "name": "PANOSSecurityAdvisories.Advisory.cve_id",
+      "required": ""
+    },
+    {
+      "description": "Vulnerability description PANOSSecurityAdvisories.Advisory.cve_url Link to the PANW Security Advisories page",
+      "name": "PANOSSecurityAdvisories.Advisory.description",
+      "required": ""
+    },
+    {
+      "description": "Base score of CVE PANOSSecurityAdvisories.Advisory.cvss_severity Base severity of CVE (LOW, MEDIUM, HIGH, CRITICAL)",
+      "name": "PANOSSecurityAdvisories.Advisory.cvss_score",
+      "required": ""
+    },
+    {
+      "description": "Threat Score of the CVE PANOSSecurityAdvisories.Advisory.cvethreatseverity Threat Severity of CVE (LOW, MEDIUM, HIGH, CRITICAL)",
+      "name": "PANOSSecurityAdvisories.Advisory.cvethreatscore",
+      "required": ""
+    },
+    {
+      "description": "CVSS Vector indicating metrics of attack PANOSSecurityAdvisories.Advisory.cvss_table Metrics of the vulnerability",
+      "name": "PANOSSecurityAdvisories.Advisory.cvss_vector_string",
+      "required": ""
+    },
+    {
+      "description": "List of affected products, their versions and changes introduced with fixes PANOSSecurityAdvisories.Advisory.cveproductstatus List of affected products with platform information and fixed versions",
+      "name": "PANOSSecurityAdvisories.Advisory.affected_list",
+      "required": ""
+    },
+    {
+      "description": "Affected products defined by CPE PANOSSecurityAdvisories.Advisory.published_date Date",
+      "name": "PANOSSecurityAdvisories.Advisory.cpes",
+      "required": ""
+    },
+    {
+      "description": "PANOSSecurityAdvisories.Advisory.last_updated_date Date Date when it was last updated on the advisories page",
+      "name": "Date when it was published to the advisories page",
+      "required": ""
+    },
+    {
+      "description": "Solution provided for the CVE PANOSSecurityAdvisories.Advisory.workaround Workaround for the CVE",
+      "name": "PANOSSecurityAdvisories.Advisory.solution",
+      "required": ""
+    },
+    {
+      "description": "Required configurations for exploit PANOSSecurityAdvisories.Advisory.exploits Known exploits of this vulnerability in the field",
+      "name": "PANOSSecurityAdvisories.Advisory.configurations",
+      "required": ""
+    },
+    {
+      "description": "Impact description of the vulnerability PANOSSecurityAdvisories.Advisory.external_cve_list If input CVE is a PAN-SA advisory then list of related non-PANW CVEs",
+      "name": "PANOSSecurityAdvisories.Advisory.impact",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Example",
+      "required": ""
+    },
+    {
+      "description": "\"PANOSSecurityAdvisories\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"cve_id\"",
+      "name": "\"Advisory\"",
+      "required": ""
+    },
+    {
+      "description": "\"CVE-2024-1234\" , \"title\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"OS Command Injection Vulnerability in PAN-OS\" , \"description\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"A command injection vulnerability in PAN-OS allows...\" , \"cve_url\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"https://security.paloaltonetworks.com/CVE-2024-1234\" , \"cvss_score\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "9.8 , \"cvss_severity\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"CRITICAL\" , \"cvethreatscore\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "9.8 , \"cvethreatseverity\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"CRITICAL\" , \"cvss_vector_string\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\" , \"affected_list\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "[ { \"product\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"PAN-OS\" , \"platforms\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "[ \"\" ]",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"versions\" : [",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"version\" : \"10.2.0\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"lessThan\" : \"10.2.4-h16\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"status\" : \"affected\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"changes\" : [",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"at\" : \"10.2.4-h16\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"status\" : \"unaffected\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "] } ]",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "] , \"published_date\"",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"2024-04-10T16:00:00.000Z\" , \"last_updated_date\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"2024-04-10T16:00:00.000Z\" , \"solution\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"This issue is fixed in PAN-OS 10.2.4-h16, PAN-OS 11.0.1, and all later PAN-OS versions.\" , \"workaround\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"Enable Threat Prevention on all security rules...\" , \"external_cve_list\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "[ ] }",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Context Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PAN-OS_Security_Advisories_Enrichment",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/pan-os-security-advisories-enrichment"
+}

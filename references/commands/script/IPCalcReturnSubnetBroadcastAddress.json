@@ -1,0 +1,53 @@
+{
+  "aliases": [
+    "ip-calc-return-subnet-broadcast-address"
+  ],
+  "arguments": [],
+  "description": "IPCalcReturnSubnetBroadcastAddress | Cortex XSOAR",
+  "examples": [
+    "!IPCalcReturnSubnetBroadcastAddress subnet=192.168.10.10/15\nContext Example\n#\n{\n\"IPCalc\"\n:\n{\n\"IP\""
+  ],
+  "kind": "script",
+  "name": "IPCalcReturnSubnetBroadcastAddress",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Subnet addresses Script Example",
+      "name": "IPCalc.IP.Address",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!IPCalcReturnSubnetBroadcastAddress subnet=192.168.10.10/15",
+      "required": ""
+    },
+    {
+      "description": "\"IPCalc\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"Address\"",
+      "name": "\"IP\"",
+      "required": ""
+    },
+    {
+      "description": "\"192.169.255.255\" } }",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IPCalcReturnSubnetBroadcastAddress",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/ip-calc-return-subnet-broadcast-address"
+}

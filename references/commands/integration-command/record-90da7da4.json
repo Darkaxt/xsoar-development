@@ -1,0 +1,109 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Retrieves data from ThreatMiner about a specified file.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File MD5 hash. ThreatMiner.File.SHA1 File SHA1 hash.",
+      "name": "ThreatMiner.File.MD5",
+      "required": ""
+    },
+    {
+      "description": "File SHA256 hash. ThreatMiner.File.Type File type.",
+      "name": "ThreatMiner.File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "File name. ThreatMiner.File.Architecture File architecture.",
+      "name": "ThreatMiner.File.Name",
+      "required": ""
+    },
+    {
+      "description": "File size. ThreatMiner.File.Analyzed date",
+      "name": "ThreatMiner.File.Size",
+      "required": ""
+    },
+    {
+      "description": "ThreatMiner.File.HTTP.Domain HTTP traffic to domain. ThreatMiner.File.HTTP.URL",
+      "name": "File analyzed date.",
+      "required": ""
+    },
+    {
+      "description": "HTTP traffic to URL. ThreatMiner.File.HTTP.Useragent HTTP user agent.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Related IP address. ThreatMiner.File.Domains.Domain Related domain name.",
+      "name": "ThreatMiner.File.Domains.IP",
+      "required": ""
+    },
+    {
+      "description": "Used mutexes. ThreatMiner.File.Registry Used registry keys.",
+      "name": "ThreatMiner.File.Mutants",
+      "required": ""
+    },
+    {
+      "description": "Detected AV name. ThreatMiner.File.AV.Detection AV detection.",
+      "name": "ThreatMiner.File.AV.Name",
+      "required": ""
+    },
+    {
+      "description": "File MD5 hash. File.SHA1 File SHA1 hash.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "File SHA256 hash. File.Malicious.Detections For malicious files, the total number of detections.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the vendor that made the decision. DBotScore.Indicator The indicator that was tested.",
+      "name": "File.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Reliability Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "File name. Edit this page Report an Issue",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "\u00ab ThreatFox Feed Next Threatmon \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands domain ip",
+      "name": "Configure ThreatMiner in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "file",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatMiner",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-miner"
+}

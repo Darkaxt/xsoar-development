@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Limitations",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "If the integration instance is disabled or the Fetch events checkbox is unchecked for a period of more than 24 hours, the event collector will automatically adjust the SIEM collection start time to the most recent available data (within the last 24 hours) upon resumption. This prevents collection failures but may result in a gap in SIEM log coverage during the downtime period.",
+      "name": "Due to the data retention period of the Mimecast SIEM CG events endpoint, SIEM logs are only available for fetching within a 24-hour rolling window.",
+      "required": ""
+    },
+    {
+      "description": "mimecast-get-events command, ensure both the start_date",
+      "name": "When retrieving SIEM logs using the",
+      "required": ""
+    },
+    {
+      "description": "end_date arguments are within the last 24 hours in the UTC timezone. Values outside this time window will return an error. Edit this page",
+      "name": "and",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab Mimecast Event Collector (Deprecated) Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure Mimecast Event Collector v2 in Cortex Permissions Commands",
+      "name": "Mimecast v2 \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Limitations Docs Developer Docs",
+      "name": "mimecast-get-events",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Mimecast Event Collector v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mimecast-event-collector-v2"
+}

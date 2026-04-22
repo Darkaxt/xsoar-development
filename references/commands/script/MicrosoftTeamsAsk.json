@@ -1,0 +1,106 @@
+{
+  "aliases": [
+    "microsoft-teams-ask"
+  ],
+  "arguments": [],
+  "description": "MicrosoftTeamsAsk | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "MicrosoftTeamsAsk",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Usage",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "After the question is answered in Microsoft Teams, the response is sent to the Cortex XSOAR server, which appears as a conditional task in a playbook with response options as conditions. Depending on the response, the workflow may continue. For example, you define the following arguments: option1 : yes",
+      "name": "The MicrosoftTeamsAsk script sends a message, such as operation approval or information retrieval, in a question format from Cortex XSOAR to Microsoft Teams. The message must have at least two options. For example, \"yes\" and \"no\".",
+      "required": ""
+    },
+    {
+      "description": ": no If a team member responds \"yes\" the playbook continues running the \"yes\" branch. If a task ID is included in the script, and the task condition is met, the playbook closes as soon as a response is received.",
+      "name": "option2",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftTeamsAsk via playbook: Add the",
+      "name": "To use",
+      "required": ""
+    },
+    {
+      "description": "script to a playbook as a task. In the message",
+      "name": "MicrosoftTeamsAsk",
+      "required": ""
+    },
+    {
+      "description": "Configure the response options by filling out the option1 and",
+      "name": "argument, specify the message to be sent.",
+      "required": ""
+    },
+    {
+      "description": "arguments (default values are 'Yes' and 'No'). Either a team_member or a channel must be specified. In the",
+      "name": "option2",
+      "required": ""
+    },
+    {
+      "description": "task, pass a tag value to the task_id argument.",
+      "name": "MicrosoftTeamsAsk",
+      "required": ""
+    },
+    {
+      "description": "At some point at the playbook, after running MicrosoftTeamsAsk , add a manual conditional task, which holds up the playbook execution until the response is received from Teams.",
+      "name": "All other inputs are optional.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftTeamsAsk . In order to tie the conditional task back to",
+      "name": "The condition names must match the response options you passed in to",
+      "required": ""
+    },
+    {
+      "description": ", add the same tag from the fifth step to the conditional task (under the \"Details\" tab of the task). The conditional task will be marked as completed when a user responds to the MicrosoftTeamsAsk form.",
+      "name": "MicrosoftTeamsAsk",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Notes",
+      "required": ""
+    },
+    {
+      "description": "will not work when run in the playbook debugger. This is because the debugger does not generate entitlements, since they must be tied to an investigation. Entitlements are needed to track the response. Whitespaces are not supported in custom options and will not work. (i.e. setting a button to I Agree",
+      "name": "MicrosoftTeamsAsk",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": ")",
+      "required": ""
+    },
+    {
+      "description": "Next MimecastFindEmail \u00bb Script Data",
+      "name": "\u00ab MicrosoftSentinelSubmitNewComment",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Notes Docs Developer Docs",
+      "name": "Usage",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MicrosoftTeamsAsk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/microsoft-teams-ask"
+}

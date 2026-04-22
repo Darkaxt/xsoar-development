@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "widget-no-op"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "This script has no inputs.",
+      "required": ""
+    }
+  ],
+  "description": "WidgetNoOp | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "WidgetNoOp",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "This script has no outputs.",
+      "required": ""
+    },
+    {
+      "description": "Next XBInfo \u00bb Script Data",
+      "name": "\u00ab WhereFieldEquals",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "WidgetNoOp",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/widget-no-op"
+}

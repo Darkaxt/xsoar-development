@@ -1,0 +1,81 @@
+{
+  "aliases": [
+    "find-email-campaign"
+  ],
+  "arguments": [],
+  "description": "FindEmailCampaign | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "FindEmailCampaign",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether a campaign was found. EmailCampaign.involvedIncidentsCount The number of incidents involved in the campaign.",
+      "name": "EmailCampaign.isCampaignFound",
+      "required": ""
+    },
+    {
+      "description": "EmailCampaign.incidents.id The IDs of the incidents involved in the campaign. EmailCampaign.incidents.similarity",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "EmailCampaign.incidents.emailfrom The senders of the emails involved in the campaign. EmailCampaign.incidents.emailfromdomain",
+      "name": "The textual similarity of the related emails to the current incident.",
+      "required": ""
+    },
+    {
+      "description": "EmailCampaign.incidents.recipients A list of email addresses of recipients involved in the campaign. The list is comprised of the following fields, \"Email To\", \"Email CC\", \"Email BCC\". EmailCampaign.incidents.recipientsdomain",
+      "name": "The domains of the email senders involved in the campaign.",
+      "required": ""
+    },
+    {
+      "description": "EmailCampaign.indicators.id The IDs of the mututal indicators of the incidents involved in the campaign. EmailCampaign.indicators.value",
+      "name": "A list of the domains of the email addresses of recipients involved in the campaign. The list is comprised of the following fields, \"Email To\", \"Email CC\", \"Email BCC\".",
+      "required": ""
+    },
+    {
+      "description": "EmailCampaign.fieldsToDisplay List of fields to display in the linked list table. EmailCampaign.firstIncidentDate",
+      "name": "The values of the mututal indicators of the incidents involved in the campaign.",
+      "required": ""
+    },
+    {
+      "description": "incident.emailcampaignsummary Markdown table with email campaign summary. incident.emailcampaignsnippets",
+      "name": "The occurrence date of the oldest incident in the campaign.",
+      "required": ""
+    },
+    {
+      "description": "incident.emailcampaignmutualindicators Markdown table with relevant indicators. incident.emailcampaigncanvas",
+      "name": "Markdown table with email content summary.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Link to the campaign canvas.",
+      "required": ""
+    },
+    {
+      "description": "Next findIncidentsWithIndicator \u00bb Script Data",
+      "name": "\u00ab FindDuplicateEmailIncidents",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FindEmailCampaign",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/find-email-campaign"
+}

@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "aws-account-hierarchy"
+  ],
+  "arguments": [],
+  "description": "AWSAccountHierarchy | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "AWSAccountHierarchy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the account/OU/root object such as `111111111111`. AWSHierarchy.level Level in relation to the original AWS account such as account, 1, 2, etc.",
+      "name": "AWSHierarchy.id",
+      "required": ""
+    },
+    {
+      "description": "AWSHierarchy.arn ARN of the account/OU/root object such as `arn:aws:organizations::111111111111:root/o-2222222222/r-3333`. AWSHierarchy.name",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Human readable name of the account/OU/root object such as `aws-account-n`.",
+      "required": ""
+    },
+    {
+      "description": "Next AwsCreateImage \u00bb Script Data",
+      "name": "\u00ab AtlassianApiModule",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWSAccountHierarchy",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/aws-account-hierarchy"
+}

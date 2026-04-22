@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Add a new login to the LogRhythm user",
+  "examples": [
+    "Command Example\n#\n!lr-add-login login=arichards password=Example0Password123!! profile_id=-100 user_id=13\nContext Example\n#\n{\n\"Logrhythm\"\n:",
+    "!lr-add-login login=arichards password=Example0Password123!! profile_id=-100 user_id=13\nContext Example\n#\n{\n\"Logrhythm\"\n:\n{\n\"User\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The login username Logrhythm.Login.UserProfileId The profile ID for the LogRhythm user",
+      "name": "Logrhythm.Login.Login",
+      "required": ""
+    },
+    {
+      "description": "LogRhythm user ID Logrhythm.Login.DefaultEntityId The default entity ID of the login",
+      "name": "Logrhythm.Login.UserId",
+      "required": ""
+    },
+    {
+      "description": "Host status of the LogRhythm login. Logrhythm.Login.DateUpdated Date that the login was updated.",
+      "name": "Logrhythm.Login.HostStatus",
+      "required": ""
+    },
+    {
+      "description": "Date that the login was created. Logrhythm.Login.Entities LogRhythm entities information",
+      "name": "Logrhythm.Login.DateCreated",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "LogRhythmRest",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/log-rhythm-rest"
+}

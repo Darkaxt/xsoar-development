@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "CommvaultSecurityIQ.DisableUser",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Response indicating whether successfully added the VM to the recovery point or not. Edit this page Report an Issue",
+      "name": "CommvaultSecurityIQ.AddEntityToCleanroom",
+      "required": ""
+    },
+    {
+      "description": "\u00ab CohesityHelios Next Computer Vision Engine \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands commvault-security-set-disable-data-aging commvault-security-get-generate-token",
+      "name": "Configure Commvault Cloud in Cortex",
+      "required": ""
+    },
+    {
+      "description": "commvault-security-set-disable-saml-provider commvault-security-get-copy-files-list-to-war-room commvault-security-set-disable-user",
+      "name": "commvault-security-get-access-token-from-keyvault",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "commvault-security-set-cleanroom-add-vm-to-recovery-group",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Commvault Cloud",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/commvault-security-iq"
+}

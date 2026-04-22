@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!cb-process-kill pid=972 sensor=17\nContext Example\n{\n\"CbLiveResponse\": {\n\"Commands\": {\n\"CbCommandID\": 1,\n\"CbSensorID\": 17,",
+    "!cb-process-kill pid=972 sensor=17\nContext Example\n{\n\"CbLiveResponse\": {\n\"Commands\": {\n\"CbCommandID\": 1,\n\"CbSensorID\": 17,\n\"CbSessionID\": 328,"
+  ],
+  "kind": "integration-command",
+  "name": "cb-process-kill",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique command ID CbLiveResponse.Commands.CommandName The command name",
+      "name": "CbLiveResponse.Commands.CbCommandID",
+      "required": ""
+    },
+    {
+      "description": "The command status pending in progress",
+      "name": "CbLiveResponse.Commands.Status",
+      "required": ""
+    },
+    {
+      "description": "error canceled CbLiveResponse.Commands.CommandCompletionTime",
+      "name": "complete",
+      "required": ""
+    },
+    {
+      "description": "0 if not completed) CbLiveResponse.Commands.OperandObject",
+      "name": "The time the command was completed (",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The process ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

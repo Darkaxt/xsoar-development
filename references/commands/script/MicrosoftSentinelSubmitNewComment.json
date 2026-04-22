@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "microsoft-sentinel-submit-new-comment"
+  ],
+  "arguments": [],
+  "description": "MicrosoftSentinelSubmitNewComment | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "MicrosoftSentinelSubmitNewComment",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the instance where the comment is added. AzureSentinel.AddComment.IncidentId The ID of the incident where the comment was added.",
+      "name": "AzureSentinel.AddComment.InstanceName",
+      "required": ""
+    },
+    {
+      "description": "AzureSentinel.AddComment.Message The message of the comment added to the incident. Edit this page",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab MicrosoftSentinelSetOwner Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "MicrosoftTeamsAsk \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MicrosoftSentinelSubmitNewComment",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/microsoft-sentinel-submit-new-comment"
+}

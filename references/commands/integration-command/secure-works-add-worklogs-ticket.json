@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "secure-works-add-worklogs-ticket",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID in Secureworks SecureWorks.Ticket.WorklogAdditionStatusCode",
+      "name": "SecureWorks.Ticket.ticketId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Dell Secureworks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dell-secureworks"
+}

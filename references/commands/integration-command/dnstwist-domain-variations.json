@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n!dnstwist-domain-variations domain=demisto.com\nContext Example\n\"dnstwist\":\n{\n\"Domain\": {\n\"Name\": \"demisto.com\",\n\"IP\" : [\"85.13.155.169\"]",
+    "!dnstwist-domain-variations domain=demisto.com\nContext Example\n\"dnstwist\":\n{\n\"Domain\": {\n\"Name\": \"demisto.com\",\n\"IP\" : [\"85.13.155.169\"]\n\"Domains\": ["
+  ],
+  "kind": "integration-command",
+  "name": "dnstwist-domain-variations",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Domain name variations. dnstwist.Domain.Domains.IP IP addresses that resolved to domain name variations.",
+      "name": "dnstwist.Domain.Domains.Name",
+      "required": ""
+    },
+    {
+      "description": "Mail exchange records that resolved to domain name variations. dnstwist.Domain.Domains.DNS-NS Server names that resolved to domain name",
+      "name": "dnstwist.Domain.Domains.DNS-MX",
+      "required": ""
+    },
+    {
+      "description": ". dnstwist.Domain.Domains.WhoisUpdated Whois updated for domain name",
+      "name": "variations",
+      "required": ""
+    },
+    {
+      "description": ". dnstwist.Domain.Domains.WhoisCreated Whois created for domain name variations.",
+      "name": "variations",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "dnstwist",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/dnstwist"
+}

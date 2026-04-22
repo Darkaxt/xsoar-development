@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "SilentPush.GetDataExports.Type",
+  "examples": [
+    "Command Example\nContext Example\nHuman Readable Output\nsilentpush-get-asn-reputation\nCommand Example\nContext Example\nHuman Readable Output\nsilentpush-get-asn-takedown-reputation",
+    "Command Example\nContext Example\nHuman Readable Output\nsilentpush-get-asn-takedown-reputation\nCommand Example\nContext Example\nHuman Readable Output\nsilentpush-get-asns-for-domain",
+    "Command Example\nContext Example\nHuman Readable Output\nsilentpush-get-asns-for-domain\nCommand Example\nContext Example\nHuman Readable Output\nsilentpush-get-domain-certificates",
+    "Command Example\nContext Example\nHuman Readable Output\nsilentpush-get-domain-certificates\nCommand Example\nContext Example\nHuman Readable Output\nsilentpush-get-enrichment-data",
+    "Command Example\nContext Example\nHuman Readable Output\nsilentpush-get-enrichment-data\nCommand Example\nContext Example\nHuman Readable Output\nsilentpush-get-future-attack-indicators",
+    "Command Example\nContext Example\nHuman Readable Output\nsilentpush-get-future-attack-indicators\nCommand Example\nContext Example\nHuman Readable Output\nsilentpush-get-ipv4-reputation",
+    "Command Example\nContext Example\nHuman Readable Output\nsilentpush-get-ipv4-reputation\nCommand Example\nContext Example\nHuman Readable Output\nsilentpush-get-job-status",
+    "Command Example\nContext Example\nHuman Readable Output\nsilentpush-get-job-status\nCommand Example\nContext Example\nHuman Readable Output\nsilentpush-get-nameserver-reputation"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The UUID of the indicator. SilentPush.AddIndicatorTags.name The name of the indicator.",
+      "name": "SilentPush.AddIndicatorTags.uuid",
+      "required": ""
+    },
+    {
+      "description": "The tags assigned to the indicator. Edit this page Report an Issue",
+      "name": "SilentPush.AddIndicatorTags.tags",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Signum Next Silverfort \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands silentpush-density-lookup silentpush-forward-padns-lookup",
+      "name": "Configure SilentPush in Cortex",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SilentPush",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/silent-push"
+}

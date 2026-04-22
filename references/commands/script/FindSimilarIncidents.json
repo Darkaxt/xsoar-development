@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "find-similar-incidents"
+  ],
+  "arguments": [],
+  "description": "FindSimilarIncidents | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "FindSimilarIncidents",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Similar incident ID. isSimilarIncidentFound Whether a similar incident was found (\"true\" or \"false\").",
+      "name": "similarIncident.rawId",
+      "required": ""
+    },
+    {
+      "description": "similarIncident Similar incident. similarIncident.name",
+      "name": "boolean",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Similar incident name.",
+      "required": ""
+    },
+    {
+      "description": "Next FindSimilarIncidentsByText \u00bb Script Data",
+      "name": "\u00ab FindPlaybookCustomDependencies",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Used In",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FindSimilarIncidents",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/find-similar-incidents"
+}

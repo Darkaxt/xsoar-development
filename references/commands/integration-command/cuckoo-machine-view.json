@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!cuckoo-machines-list",
+  "examples": [
+    "Command Example\n!cuckoo-machines-list\nContext Example\nHuman Readable Output\n9. Get analysis machine information\nReturns details about the analysis machine associated with the specified machine name.\nBase Command\ncuckoo-machine-view",
+    "!cuckoo-machines-list\nContext Example\nHuman Readable Output\n9. Get analysis machine information\nReturns details about the analysis machine associated with the specified machine name.\nBase Command\ncuckoo-machine-view\nInput",
+    "Command Example\n!cuckoo-machine-view name=windowsxp\nContext Example\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab CTM360 HackerView",
+    "!cuckoo-machine-view name=windowsxp\nContext Example\nHuman Readable Output\nEdit this page\nReport an Issue\nPrevious\n\u00ab CTM360 HackerView\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "cuckoo-machine-view",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Status of machine Machine.Locked Is the machine locked",
+      "name": "Machine.Status",
+      "required": ""
+    },
+    {
+      "description": "Name of machine Machine.ResultserverIP IP address of machine's result server",
+      "name": "Machine.Name",
+      "required": ""
+    },
+    {
+      "description": "IP address of machine Machine.Label Label of machine",
+      "name": "Machine.IP",
+      "required": ""
+    },
+    {
+      "description": "last update time of machine lock status Machine.Platform Platform of machine",
+      "name": "Machine.LockedChangedOn",
+      "required": ""
+    },
+    {
+      "description": "Snapshot Machine.Interface Interface of machine",
+      "name": "Machine.Snapshot",
+      "required": ""
+    },
+    {
+      "description": "Last update time of machine status Machine.ID ID of machine",
+      "name": "Machine.StatusChangedOn",
+      "required": ""
+    },
+    {
+      "description": "Port address of machine's result server Machine.Tags Machine tags",
+      "name": "Machine.ResultserverPort",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cuckoo Sandbox",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cuckoo-sandbox"
+}

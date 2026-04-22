@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!sigsci-whitelist-remove-ip IP=4.7.4.7 siteName=demisto\n6. Remove an IP address from a block list\nRemoves an IP from a site\u2019s block list, which resides on the Signal Sciences\u2019 platform.\nBase Command\nsigsci-blacklist-remove-ip\nInput\nArgument Name",
+    "!sigsci-whitelist-remove-ip IP=4.7.4.7 siteName=demisto\n6. Remove an IP address from a block list\nRemoves an IP from a site\u2019s block list, which resides on the Signal Sciences\u2019 platform.\nBase Command\nsigsci-blacklist-remove-ip\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "sigsci-blacklist-remove-ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

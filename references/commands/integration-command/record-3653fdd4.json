@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!cymptom-get-mitigations\nHuman Readable Output\n#\nMitigations\n#\nID",
+    "!cymptom-get-mitigations\nHuman Readable Output\n#\nMitigations\n#\nID\nName\nSeverity Type",
+    "Command Example\n#\n!cymptom-get-users-with-cracked-passwords privileged=False\nHuman Readable Output\n#\nUnprivileged Users With Cracked Passwords\n#\nUsername",
+    "!cymptom-get-users-with-cracked-passwords privileged=False\nHuman Readable Output\n#\nUnprivileged Users With Cracked Passwords\n#\nUsername\nuser1\nuser2"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The severity of the mitigation Cymptom.Mitigations.Name The name of the mitigation",
+      "name": "Cymptom.Mitigations.SeverityType",
+      "required": ""
+    },
+    {
+      "description": "The percentage of attack vectors used that can be mitigated Cymptom.Mitigations.ID The mitigation's ID",
+      "name": "Cymptom.Mitigations.AttackVectorsUsedPercentage",
+      "required": ""
+    },
+    {
+      "description": "The attack vectors counts that can be mitigated Cymptom.Mitigations.Techniques Techniques relevant for this mitigation",
+      "name": "Cymptom.Mitigations.AttackVectorsCount",
+      "required": ""
+    },
+    {
+      "description": "Username of users with cracked passwords Context Example",
+      "name": "Cymptom.CrackedUsers.Username",
+      "required": ""
+    },
+    {
+      "description": "{'Username':'cymptom'}, {'Username':'chen'} ]",
+      "name": "[",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cymptom",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cymptom"
+}

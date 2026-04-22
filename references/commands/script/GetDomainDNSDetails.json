@@ -1,0 +1,98 @@
+{
+  "aliases": [
+    "get-domain-dns-details"
+  ],
+  "arguments": [],
+  "description": "GetDomainDNSDetails | Cortex XSOAR",
+  "examples": [
+    "!GetDomainDNSDetails domain=example.com\nContext Example\n#\n{\n\"DomainDNSDetails\"\n:\n{\n\"A\""
+  ],
+  "kind": "script",
+  "name": "GetDomainDNSDetails",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Domain A records. DomainDNSDetails.AAAA Domain AAAA records.",
+      "name": "DomainDNSDetails.A",
+      "required": ""
+    },
+    {
+      "description": "DomainDNSDetails.CNAME Domain CNAME records. DomainDNSDetails.NS",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "DomainDNSDetails.domain Domain name used in the query. DomainDNSDetails.server",
+      "name": "Domain NS records.",
+      "required": ""
+    },
+    {
+      "description": "Script Example",
+      "name": "Name server that returned the result.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!GetDomainDNSDetails domain=example.com",
+      "required": ""
+    },
+    {
+      "description": "\"DomainDNSDetails\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": [ \"10.11.12.13\"",
+      "name": "\"A\"",
+      "required": ""
+    },
+    {
+      "description": ", \"AAAA\" :",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "\"2001:2001:200:1:200:2001:2001:2001\" ] ,",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": ": [ \"test.example.com\"",
+      "name": "\"CNAME\"",
+      "required": ""
+    },
+    {
+      "description": ", \"NS\" :",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "\"a.iana-servers.net.\" , \"b.iana-servers.net.\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": ", \"domain\" :",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": ", \"server\" :",
+      "name": "\"example.com\"",
+      "required": ""
+    },
+    {
+      "description": "} }",
+      "name": "\"system\"",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetDomainDNSDetails",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-domain-dns-details"
+}

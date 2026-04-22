@@ -1,0 +1,56 @@
+{
+  "aliases": [
+    "cb-find-ip"
+  ],
+  "arguments": [],
+  "description": "CBFindIP | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CBFindIP",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Process path. Process.PID Process PID.",
+      "name": "Process.Path",
+      "required": ""
+    },
+    {
+      "description": "Process.MD5 Process MD5 hash. Process.Hostname",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Process.Name Process name. Process.CbSegmentID",
+      "name": "Process hostname.",
+      "required": ""
+    },
+    {
+      "description": "Process.CbID Carbon Black unique ID for this process instance. Required (together with CbSegmentID) to fetch additional information for a process. Process.Endpoint",
+      "name": "Carbon Black \"segment\" where this process instance is stored. Required to fetch additional information for a process.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The endpoint of the process.",
+      "required": ""
+    },
+    {
+      "description": "Next CBLiveFetchFiles \u00bb Script Data",
+      "name": "\u00ab CBEvents",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CBFindIP",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cb-find-ip"
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!triage-query-search query=\"tag:stealer AND tag:spyware\"",
+  "examples": [
+    "!triage-query-search query=\"tag:stealer AND tag:spyware\"\nHuman Readable Output\n#\ntriage-delete-profile\n#\nUpdate the profile with the specified ID or name. The stored profile is overwritten, so it is important that the submitted profile has all fields, with the exception of the ID\nBase Command\n#"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Have I Been Pwned? v2 \u00bb Configure Hatching Triage in Cortex",
+      "name": "\u00ab HashiCorp Vault",
+      "required": ""
+    },
+    {
+      "description": "triage-query-samples triage-submit-sample triage-get-sample",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "triage-delete-sample triage-set-sample-profile triage-get-static-report",
+      "name": "triage-get-sample-summary",
+      "required": ""
+    },
+    {
+      "description": "triage-get-kernel-monitor triage-get-pcap triage-get-dumped-file",
+      "name": "triage-get-report-triage",
+      "required": ""
+    },
+    {
+      "description": "triage-create-user triage-delete-user triage-create-api-key",
+      "name": "triage-get-users",
+      "required": ""
+    },
+    {
+      "description": "triage-delete-api-key triage-get-profiles triage-create-profile",
+      "name": "triage-get-api-key",
+      "required": ""
+    },
+    {
+      "description": "triage-query-search triage-delete-profile Docs",
+      "name": "triage-update-profile",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Hatching Triage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hatching-triage"
+}

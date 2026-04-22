@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Axonius.Users.saved_queries",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Axonius Tags Edit this page Report an Issue",
+      "name": "Axonius.tags",
+      "required": ""
+    },
+    {
+      "description": "\u00ab AWS-WAF Next Azure \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands axonius-get-devices-by-savedquery axonius-get-devices-by-aql",
+      "name": "Configure Axonius in Cortex",
+      "required": ""
+    },
+    {
+      "description": "axonius-get-users-by-savedquery axonius-get-users-by-mail axonius-get-users-by-mail-regex",
+      "name": "axonius-get-users-by-aql",
+      "required": ""
+    },
+    {
+      "description": "axonius-get-users-by-username-regex axonius-get-devices-by-hostname axonius-get-devices-by-hostname-regex",
+      "name": "axonius-get-users-by-username",
+      "required": ""
+    },
+    {
+      "description": "axonius-get-devices-by-ip-regex axonius-get-devices-by-mac axonius-get-devices-by-mac-regex",
+      "name": "axonius-get-devices-by-ip",
+      "required": ""
+    },
+    {
+      "description": "axonius-add-tag axonius-remove-tag axonius-get-saved-queries",
+      "name": "axonius-add-note",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "axonius-get-tags",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Axonius",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/axonius"
+}

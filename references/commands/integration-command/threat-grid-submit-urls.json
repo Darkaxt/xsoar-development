@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!threat-grid-get-analysis-processes id=9798717402a40970a2d043014d9a6170\nHuman Readable Output\n40. Submit URLs for analysis\nSubmit the URL for Threat analysis processes.\nBase Command\nthreat-grid-submit-urls\nInput",
+    "!threat-grid-get-analysis-processes id=9798717402a40970a2d043014d9a6170\nHuman Readable Output\n40. Submit URLs for analysis\nSubmit the URL for Threat analysis processes.\nBase Command\nthreat-grid-submit-urls\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-submit-urls",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

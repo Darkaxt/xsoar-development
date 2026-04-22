@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\ndxl-push-hash hash=\"HASH_TO_SEND\" trust_level=\"KNOWN_TRUSTED\" topic=\"HASH_LISTENER\"\nHuman Readable Output\n#\nSuccessfully pushed hash HASH_TO_SEND with trust level KNOWN_TRUSTED\nEdit this page\nReport an Issue"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee DXL",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-dxl"
+}

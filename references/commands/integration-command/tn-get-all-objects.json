@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Start Tanium Trace Session",
+  "examples": [
+    "Command Example\n!tn-get-all-objects object_type=package\nHuman Readable Output\n{\n\"_type\": \"sensors\",\n\"sensor\": [\n{\n\"_type\": \"sensor\",",
+    "!tn-get-all-objects object_type=package\nHuman Readable Output\n{\n\"_type\": \"sensors\",\n\"sensor\": [\n{\n\"_type\": \"sensor\",\n\"category\": \"Reserved\","
+  ],
+  "kind": "integration-command",
+  "name": "tn-get-all-objects",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium"
+}

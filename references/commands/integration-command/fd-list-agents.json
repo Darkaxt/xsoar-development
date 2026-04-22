@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "11. Get a list of all agents",
+  "examples": [
+    "Command Example\n!fd-list-agents state=fulltime\nContext Example\n{\n\"Freshdesk.Agent\": [\n{\n\"TicketScope\": 1,\n\"Contact\": {",
+    "!fd-list-agents state=fulltime\nContext Example\n{\n\"Freshdesk.Agent\": [\n{\n\"TicketScope\": 1,\n\"Contact\": {\n\"Name\": \"Jeff Testman\","
+  ],
+  "kind": "integration-command",
+  "name": "fd-list-agents",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Set to true when the agent is in a group that has enabled \u201cAutomatic Ticket Assignment\u201d and is accepting new tickets",
+      "name": "Freshdesk.Agent.Available",
+      "required": ""
+    },
+    {
+      "description": "Date Timestamp that denotes when the agent became available/unavailable (depending on the value of the \u2018available\u2019 attribute) Freshdesk.Agent.ID",
+      "name": "Freshdesk.Agent.AvailableSince",
+      "required": ""
+    },
+    {
+      "description": "User ID of the agent Freshdesk.Agent.Occasional Set to true when the agent is an occasional agent (true => occasional",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Signature of the agent (in HTML format) Freshdesk.Agent.TicketScope Ticket permission of the agent",
+      "name": "Freshdesk.Agent.Signature",
+      "required": ""
+    },
+    {
+      "description": "Freshdesk.Agent.GroupID Group IDs associated with the agent Freshdesk.Agent.RoleID",
+      "name": "(1 - Global Access, 2 - Group Access, 3 - Restricted Access)",
+      "required": ""
+    },
+    {
+      "description": "Role IDs associated with the agent Freshdesk.Agent.CreatedAt Date",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Freshdesk.Agent.UpdatedAt Date Agent updated timestamp",
+      "name": "Agent creation timestamp",
+      "required": ""
+    },
+    {
+      "description": "Set to true when the agent is verified Freshdesk.Agent.Contact.Email Email Address of the agent",
+      "name": "Freshdesk.Agent.Contact.Active",
+      "required": ""
+    },
+    {
+      "description": "Job title of the agent Freshdesk.Agent.Contact.Language Language of the agent. Default language is \u201cen\u201d",
+      "name": "Freshdesk.Agent.Contact.JobTitle",
+      "required": ""
+    },
+    {
+      "description": "Date Timestamp of the agent\u2019s last successful login Freshdesk.Agent.Contact.Mobile",
+      "name": "Freshdesk.Agent.Contact.LastLoginAt",
+      "required": ""
+    },
+    {
+      "description": "Mobile number of the agent Freshdesk.Agent.Contact.Name Name of the agent",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Telephone number of the agent Freshdesk.Agent.Contact.TimeZone Time zone of the agent",
+      "name": "Freshdesk.Agent.Contact.Phone",
+      "required": ""
+    },
+    {
+      "description": "Date Contact creation timestamp Freshdesk.Agent.Contact.UpdatedAt",
+      "name": "Freshdesk.Agent.Contact.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "Contact updated timestamp Freshdesk.Agent.Type Type of agent",
+      "name": "Date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Freshdesk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/freshdesk"
+}

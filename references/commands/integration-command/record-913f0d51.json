@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!ip ip=\"5.79.76.181\"\nContext Example\n#\n{\n\"DBotScore\": {\n\"Indicator\": \"5.79.76.181\",",
+    "!ip ip=\"5.79.76.181\"\nContext Example\n#\n{\n\"DBotScore\": {\n\"Indicator\": \"5.79.76.181\",\n\"Score\": 3,\n\"Type\": \"ip\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Bad IP address IP.Malicious.Vendor For malicious IPs, the vendor that made the decision",
+      "name": "IP.Address",
+      "required": ""
+    },
+    {
+      "description": "For malicious IPs, the reason that the vendor made the decision DBotScore.Indicator The indicator that was tested",
+      "name": "IP.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The indicator type DBotScore.Vendor The vendor used to calculate the score",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PerimeterX BotDefender",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bot-defender"
+}

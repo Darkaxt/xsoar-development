@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "7. symantec-dlp-incident-violations",
+  "examples": [
+    "Command Example\n!symantec-dlp-incident-violations incident_id=35364\nContext Example\n\"SymantecDLP.Incident\": {\n'ID': 35364,\n'LongID': 35364,\n'StatusCode': 'SUCCESS',\n'ViolatingComponent': [",
+    "!symantec-dlp-incident-violations incident_id=35364\nContext Example\n\"SymantecDLP.Incident\": {\n'ID': 35364,\n'LongID': 35364,\n'StatusCode': 'SUCCESS',\n'ViolatingComponent': [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "symantec-dlp-incident-violations",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the incident. SymantecDLP.Incident.LongID The long ID of the incident.",
+      "name": "SymantecDLP.Incident.ID",
+      "required": ""
+    },
+    {
+      "description": "The status code of the incident. SymantecDLP.Incident.ViolatingComponent.Name The name of the violationg component.",
+      "name": "SymantecDLP.Incident.StatusCode",
+      "required": ""
+    },
+    {
+      "description": "The document format of the violationg component. SymantecDLP.Incident.ViolatingComponent.Type The type of the violationg component.",
+      "name": "SymantecDLP.Incident.ViolatingComponent.DocumentFormat",
+      "required": ""
+    },
+    {
+      "description": "The type ID of the violationg component. SymantecDLP.Incident.ViolatingComponent.ViolatingCount Indicates the number of policy rules that were violated.",
+      "name": "SymantecDLP.Incident.ViolatingComponent.TypeID",
+      "required": ""
+    },
+    {
+      "description": "Details about the document violation. SymantecDLP.Incident.ViolatingComponent.ViolatingSegment.FileSizeViolation Details about the file size violation.",
+      "name": "SymantecDLP.Incident.ViolatingComponent.ViolatingSegment.DocumentViolation",
+      "required": ""
+    },
+    {
+      "description": "The data that triggered the violation. SymantecDLP.Incident.ViolatingComponent.ViolatingSegment.Text.Type The type of data that triggered the violation.",
+      "name": "SymantecDLP.Incident.ViolatingComponent.ViolatingSegment.Text.Data",
+      "required": ""
+    },
+    {
+      "description": "The rule ID which triggered the violation. SymantecDLP.Incident.ViolatingComponent.ViolatingSegment.Text.RuleName The rule name which triggered the violation.",
+      "name": "SymantecDLP.Incident.ViolatingComponent.ViolatingSegment.Text.RuleID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Symantec Data Loss Prevention (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/symantec-data-loss-prevention"
+}

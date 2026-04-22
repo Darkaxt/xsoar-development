@@ -1,0 +1,99 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "MsGraph.eDiscoveryCase.HoldPolicy.LastModifiedBy.User.TenantId",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Microsoft Intune Feed \u00bb \u26a0\ufe0f Important: Microsoft Graph Security Legacy Alerts Deprecation",
+      "name": "\u00ab Microsoft Graph Search",
+      "required": ""
+    },
+    {
+      "description": "Important Notes Required Permissions Configure Microsoft Graph Security on Cortex XSOAR",
+      "name": "Authentication",
+      "required": ""
+    },
+    {
+      "description": "msg-auth-test msg-search-alerts msg-get-alert-details",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "msg-create-alert-comment ms-graph-security-auth-reset eDiscovery Commands",
+      "name": "msg-update-alert",
+      "required": ""
+    },
+    {
+      "description": "msg-create-ediscovery-case msg-update-ediscovery-case msg-close-ediscovery-case",
+      "name": "msg-list-ediscovery-cases",
+      "required": ""
+    },
+    {
+      "description": "msg-delete-ediscovery-case msg-create-ediscovery-custodian msg-list-ediscovery-custodians",
+      "name": "msg-reopen-ediscovery-case",
+      "required": ""
+    },
+    {
+      "description": "msg-release-ediscovery-custodian msg-create-ediscovery-custodian-site-source msg-create-ediscovery-custodian-user-source",
+      "name": "msg-activate-ediscovery-custodian",
+      "required": ""
+    },
+    {
+      "description": "msg-list-ediscovery-custodian-site-sources msg-apply-hold-ediscovery-custodian msg-remove-hold-ediscovery-custodian",
+      "name": "msg-list-ediscovery-custodian-user-sources",
+      "required": ""
+    },
+    {
+      "description": "msg-list-ediscovery-non-custodial-data-sources msg-create-ediscovery-search msg-update-ediscovery-search",
+      "name": "msg-create-ediscovery-non-custodial-data-source",
+      "required": ""
+    },
+    {
+      "description": "msg-purge-ediscovery-data msg-delete-ediscovery-search Threat Assessment Commands",
+      "name": "msg-list-ediscovery-searchs",
+      "required": ""
+    },
+    {
+      "description": "msg-create-email-file-assessment-request msg-create-file-assessment-request msg-create-url-assessment-request",
+      "name": "msg-create-mail-assessment-request",
+      "required": ""
+    },
+    {
+      "description": "msg-generate-login-url msg-advanced-hunting msg-list-security-incident",
+      "name": "msg-list-threat-assessment-requests",
+      "required": ""
+    },
+    {
+      "description": "msg-get-last-estimate-statistics-operation msg-list-ediscovery-case-hold-policy msg-export-result-ediscovery-data",
+      "name": "msg-update-security-incident",
+      "required": ""
+    },
+    {
+      "description": "msg-list-case-operation msg-create-ediscovery-case-hold-policy msg-update-ediscovery-case-hold-policy",
+      "name": "msg-delete-ediscovery-case-hold-policy",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Graph Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph"
+}

@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "nsm-get-alerts",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alert ID NSM.Alerts.Name Alert name",
+      "name": "NSM.Alerts.ID",
+      "required": ""
+    },
+    {
+      "description": "Alert state ( Acknowledged ,",
+      "name": "NSM.Alerts.State",
+      "required": ""
+    },
+    {
+      "description": ") NSM.Alerts.CreatedTime Alert creation time",
+      "name": "Unacknowledged",
+      "required": ""
+    },
+    {
+      "description": "Alert assignee NSM.Alerts.AttackSeverity Alert severity",
+      "name": "NSM.Alerts.Assignee",
+      "required": ""
+    },
+    {
+      "description": "The application associated with the alert NSM.Alerts.EventResult Event result",
+      "name": "NSM.Alerts.Application",
+      "required": ""
+    },
+    {
+      "description": "The event that triggered the alert NSM.Alerts.Attack Alert's attack",
+      "name": "NSM.Alerts.Event",
+      "required": ""
+    },
+    {
+      "description": "The attacker who committed the attack NSM.Alerts.Target The attack's target",
+      "name": "NSM.Alerts.Attacker",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "NSM.Alerts.MalwareFile",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee NSM (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-nsm"
+}

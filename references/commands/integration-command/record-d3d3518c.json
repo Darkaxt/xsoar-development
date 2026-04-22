@@ -1,0 +1,71 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "zimperium-policy-device-inactivity-get",
+  "examples": [
+    "!zimperium-policy-device-inactivity-get policy_id=\"ff3\"\nContext Example\n#\n{\n\"Zimperium\"\n:\n{\n\"PolicyDeviceInactivity\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The policy device inactivity ID. Zimperium.PolicyDeviceInactivity.accountId The account identifier.",
+      "name": "Zimperium.PolicyDeviceInactivity.id",
+      "required": ""
+    },
+    {
+      "description": "Date The date and time the policy was created. Zimperium.PolicyDeviceInactivity.groups.id",
+      "name": "Zimperium.PolicyDeviceInactivity.created",
+      "required": ""
+    },
+    {
+      "description": "The group ID. Zimperium.PolicyDeviceInactivity.groups.name The group name.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Whether the app settings inactivity is enabled. Zimperium.PolicyDeviceInactivity.inactiveAppSettings.maxWarningsCount The maximum number of warnings that can be issued for an app.",
+      "name": "Zimperium.PolicyDeviceInactivity.inactiveAppSettings.enabled",
+      "required": ""
+    },
+    {
+      "description": "The inactive app settings. Zimperium.PolicyDeviceInactivity.modified Date",
+      "name": "Zimperium.PolicyDeviceInactivity.inactiveAppSettings",
+      "required": ""
+    },
+    {
+      "description": "Zimperium.PolicyDeviceInactivity.name The name of the policy. Zimperium.PolicyDeviceInactivity.pendingActivationSettings.enabled",
+      "name": "The policy modified date.",
+      "required": ""
+    },
+    {
+      "description": "Whether the device's policy setting is enabled or not. Zimperium.PolicyDeviceInactivity.pendingActivationSettings.maxWarningsCount The maximum number of warnings that can be issued for the policy.",
+      "name": "Boolean",
+      "required": ""
+    },
+    {
+      "description": "Whether to send an email. Zimperium.PolicyDeviceInactivity.pendingActivationSettings.sendEmailIos Whether to send an email.",
+      "name": "Zimperium.PolicyDeviceInactivity.pendingActivationSettings.sendEmailAndroid",
+      "required": ""
+    },
+    {
+      "description": "The time before the warning display. Zimperium.PolicyDeviceInactivity.pendingActivationSettings.timeBeforeWarningSeconds The time before the warning seconds.",
+      "name": "Zimperium.PolicyDeviceInactivity.pendingActivationSettings.timeBeforeWarningDisplayUnits",
+      "required": ""
+    },
+    {
+      "description": "The time interval between warning displays. Zimperium.PolicyDeviceInactivity.pendingActivationSettings.timeBetweenWarningsSeconds The time in seconds between warnings.",
+      "name": "Zimperium.PolicyDeviceInactivity.pendingActivationSettings.timeBetweenWarningsDisplayUnits",
+      "required": ""
+    },
+    {
+      "description": "The Team ID for the policy device inactivity.",
+      "name": "Zimperium.PolicyDeviceInactivity.teamId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Zimperium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/zimperium-v2"
+}

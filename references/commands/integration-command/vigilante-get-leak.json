@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"LeakInfoToken\": \"Bwz/okTPVNIldyAYJQ6bFanwA/VYIAjy2BjSuSuceCv0Xi/pEVbsniqOYZP61tLbSxjkTAcgTpfDdaJqy8Eu3Q==\"",
+  "examples": [
+    "Command Example\n!vigilante-get-leak leak_id=\"aa66573902ed4f4bfb2ae08ebac390c3\" limit=\"3\" domains=\"hotmail.com,sina.com\"\nContext Example\n{\n\"VigilanteATI\": {\n\"LeakAccountsToken\": \"p2V99rXakNhn3mafVJ6WJ6MEEfcPGh+q+DY9sO1SlNo2AR3D4akFOWTY+8T53rX4FJWc4LjylGORXKKp9Zl52PYhViNR1P3+Z1Sn3pYKrvC5iDTXwXVe5eqcomd44qbx\",\n\"Leaks\": {\n\"leak_id\": \"aa66573902ed4f4bfb2ae08ebac390c3\",",
+    "!vigilante-get-leak leak_id=\"aa66573902ed4f4bfb2ae08ebac390c3\" limit=\"3\" domains=\"hotmail.com,sina.com\"\nContext Example\n{\n\"VigilanteATI\": {\n\"LeakAccountsToken\": \"p2V99rXakNhn3mafVJ6WJ6MEEfcPGh+q+DY9sO1SlNo2AR3D4akFOWTY+8T53rX4FJWc4LjylGORXKKp9Zl52PYhViNR1P3+Z1Sn3pYKrvC5iDTXwXVe5eqcomd44qbx\",\n\"Leaks\": {\n\"leak_id\": \"aa66573902ed4f4bfb2ae08ebac390c3\",\n\"accounts\": ["
+  ],
+  "kind": "integration-command",
+  "name": "vigilante-get-leak",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique identifier for the leak from which the accounts come from. (MD5 sum) VigilanteATI.Leaks.accounts Container for account objects. This is just a list of dictionaries.",
+      "name": "VigilanteATI.Leaks.leak_id",
+      "required": ""
+    },
+    {
+      "description": "Email domain which the account belongs to. VigilanteATI.Leaks.accounts.type_id Type of account. At the moment we only support accounts of type 1, which are email addresses. As we expand our service we will add support for additional types such as usernames.",
+      "name": "VigilanteATI.Leaks.accounts.domain",
+      "required": ""
+    },
+    {
+      "description": "A plaintext form of the email address from the account. The email address will always be lowercased. VigilanteATI.Leaks.accounts.password The encrypted password found in this leaked account credential. This field is the BASE64 encoded representation of the encrypted data. You will need to decrypt this password using a decryption key provided to you.",
+      "name": "VigilanteATI.Leaks.accounts.email",
+      "required": ""
+    },
+    {
+      "description": "Token required to paginate the next set of results in. This is only provided if the number of items in the response exceeds our max pagination size. Otherwise it is set to an empty string.",
+      "name": "VigilanteATI.LeakAccountsToken",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "InfoArmor VigilanteATI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/info-armor-vigilante-ati"
+}

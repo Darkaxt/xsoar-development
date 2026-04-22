@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "microsoft-graph-mail-api-module"
+  ],
+  "arguments": [],
+  "description": "MicrosoftGraphMailApiModule | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "MicrosoftGraphMailApiModule",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MicrosoftGraphMailApiModule",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/microsoft-graph-mail-api-module"
+}

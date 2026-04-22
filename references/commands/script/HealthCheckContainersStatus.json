@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "health-check-containers-status"
+  ],
+  "arguments": [],
+  "description": "HealthCheckContainersStatus | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "HealthCheckContainersStatus",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HealthCheckContainersStatus",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/health-check-containers-status"
+}

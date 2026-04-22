@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "20. tn-list-saved-actions-pending-approval",
+  "examples": [
+    "Command Example\n!tn-list-saved-actions-pending-approval limit=1\nContext Example\n{\n\"Tanium.PendingSavedAction\": [\n{\n\"ApprovedFlag\": false,\n\"ID\": 164,",
+    "!tn-list-saved-actions-pending-approval limit=1\nContext Example\n{\n\"Tanium.PendingSavedAction\": [\n{\n\"ApprovedFlag\": false,\n\"ID\": 164,\n\"Name\": \"Deploy Kill Process\","
+  ],
+  "kind": "integration-command",
+  "name": "tn-list-saved-actions-pending-approval",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the saved action is approved. True is approved. Tanium.PendingSavedAction.ID The unique ID of the saved action object.",
+      "name": "Tanium.PendingSavedAction.ApprovedFlag",
+      "required": ""
+    },
+    {
+      "description": "The name of the saved action object. Tanium.PendingSavedAction.OwnerUserId The ID of the user who owns this object.",
+      "name": "Tanium.PendingSavedAction.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

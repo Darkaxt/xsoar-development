@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "pager-duty-assign-on-call-user"
+  ],
+  "arguments": [],
+  "description": "PagerDutyAssignOnCallUser | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PagerDutyAssignOnCallUser",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next PAN-OS-AnalyzeRuleHitCounts \u00bb Script Data",
+      "name": "\u00ab PagerDutyAlertOnIncident",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PagerDutyAssignOnCallUser",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/pager-duty-assign-on-call-user"
+}

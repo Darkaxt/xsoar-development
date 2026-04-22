@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "5bcf1925a81ed3000f831578",
+  "examples": [
+    "Command Example\n!scadafence-getAllConnections\nContext Example\n[\n{\n\"dest_hostname\": \"\",\n\"dest_ip\": \"1.1.1.1\",\n\"dest_mac\": \"F4:54:33:A9:13:23\",",
+    "!scadafence-getAllConnections\nContext Example\n[\n{\n\"dest_hostname\": \"\",\n\"dest_ip\": \"1.1.1.1\",\n\"dest_mac\": \"F4:54:33:A9:13:23\",\n\"dest_port\": 44818,"
+  ],
+  "kind": "integration-command",
+  "name": "scadafence-getAllConnections",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address of endpoint A SCADAfence.Connection.dest_ip IP address of endpoint B",
+      "name": "SCADAfence.Connection.src_ip",
+      "required": ""
+    },
+    {
+      "description": "Port of endpoint A SCADAfence.Connection.dest_port Port of endpoint B",
+      "name": "SCADAfence.Connection.src_port",
+      "required": ""
+    },
+    {
+      "description": "Endpoint A MAC address SCADAfence.Connection.dest_mac Endpoint B MAC address",
+      "name": "SCADAfence.Connection.src_mac",
+      "required": ""
+    },
+    {
+      "description": "Endpoint A hostname SCADAfence.Connection.dest_cname Endpoint B hostname",
+      "name": "SCADAfence.Connection.src_cname",
+      "required": ""
+    },
+    {
+      "description": "L4 protocol SCADAfence.Connection.traffic Total number of bytes sent (both directions)",
+      "name": "SCADAfence.Connection.proto",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SCADAfence CNM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/scad-afence-cnm"
+}

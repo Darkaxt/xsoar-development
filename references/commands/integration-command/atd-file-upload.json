@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Detonate a file: detonate-file (deprecated)",
+  "examples": [
+    "Command Example\n!atd-file-upload submitType=1 analyzeAgain=1 filePriorityQ=run_now messageId=\"test the url of demisto\" url=\"\nhttps://demisto.com\n\"!atd-check-status jobId=[220,34]\nContext Example\n{\nroot:{\n} 7 items estimatedTime:0 fileId: just testing filesWait:0 mimeType: application/url results:[",
+    "!atd-file-upload submitType=1 analyzeAgain=1 filePriorityQ=run_now messageId=\"test the url of demisto\" url=\"\nhttps://demisto.com\n\"!atd-check-status jobId=[220,34]\nContext Example\n{\nroot:{\n} 7 items estimatedTime:0 fileId: just testing filesWait:0 mimeType: application/url results:["
+  ],
+  "kind": "integration-command",
+  "name": "atd-file-upload",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Task ID of the uploaded sample ATD.Task.jobId Job ID of the uploaded sample",
+      "name": "ATD.Task.taskId",
+      "required": ""
+    },
+    {
+      "description": "The message ID relevant to the uploaded sample ATD.Task.url The URL that was detonated",
+      "name": "ATD.Task.messageId",
+      "required": ""
+    },
+    {
+      "description": "Source IPv4 address ATD.Task.destIp Destination IPv4 address",
+      "name": "ATD.Task.srcIp",
+      "required": ""
+    },
+    {
+      "description": "MD5 of the uploaded sample ATD.Task.SHA1 SHA-1 of the uploaded sample",
+      "name": "ATD.Task.MD5",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 of the uploaded sample ATD.taskId The task ID of the uploaded sample",
+      "name": "ATD.Task.SHA256",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Advanced Threat Defense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-advanced-threat-defense"
+}

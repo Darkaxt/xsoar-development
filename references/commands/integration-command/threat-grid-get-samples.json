@@ -1,0 +1,87 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "statements. Only finished samples can be searched. Finished samples have a status of",
+  "examples": [
+    "Command Example\n!threat-grid-feeds-ip after=2018-01-18T00:00:00 before=2018-01-18T01:00:00 confidence=75 severity=75\nContext Output\n{\n\"ThreatGrid\": {\n\"Sample\": [\n{\n\"Status\": \"job_done\",",
+    "!threat-grid-feeds-ip after=2018-01-18T00:00:00 before=2018-01-18T01:00:00 confidence=75 severity=75\nContext Output\n{\n\"ThreatGrid\": {\n\"Sample\": [\n{\n\"Status\": \"job_done\",\n\"SHA1\": \"f6ed96430b54a52740d3f7a0a246d1053ba7d779\","
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-samples",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The sample ID ThreatGrid.Sample.Filename The sample filename",
+      "name": "ThreatGrid.Sample.ID",
+      "required": ""
+    },
+    {
+      "description": "The sample state ThreatGrid.Sample.Status The sample status",
+      "name": "ThreatGrid.Sample.State",
+      "required": ""
+    },
+    {
+      "description": "The sample MD5 ThreatGrid.Sample.SHA1 The sample SHA-1",
+      "name": "ThreatGrid.Sample.MD5",
+      "required": ""
+    },
+    {
+      "description": "The sample SHA-256 ThreatGrid.Sample.OS The sample OS",
+      "name": "ThreatGrid.Sample.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The sample submission time ThreatGrid.Sample.StartedAt The sample analysis starting time",
+      "name": "ThreatGrid.Sample.SubmittedAt",
+      "required": ""
+    },
+    {
+      "description": "The sample completion time",
+      "name": "ThreatGrid.Sample.CompletedAt",
+      "required": ""
+    },
+    {
+      "description": "\"ThreatGrid\": { \"Sample\": [ {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"SHA1\": \"f6ed96430b54a52740d3f7a0a246d1053ba7d779\", \"CompletedAt\": \"2018-09-23T08:18:20Z\", \"Filename\": \"8d3a3c399ac61a1e7ae6f6c68c67f1db2e88985066463a5ffb3dae0d552a64a5.exe\",",
+      "name": "\"Status\": \"job_done\",",
+      "required": ""
+    },
+    {
+      "description": "\"SubmittedAt\": \"2018-09-23T08:12:05Z\", \"StartedAt\": \"2018-09-23T08:12:06Z\", \"SHA256\": \"8d3a3c399ac61a1e7ae6f6c68c67f1db2e88985066463a5ffb3dae0d552a64a5\",",
+      "name": "\"State\": \"succ\",",
+      "required": ""
+    },
+    {
+      "description": "\"ID\": \"4bb1e6eed595513b2c07ba9bd4598f37\", \"MD5\": \"c6bdbf3765854eef4981721947beba5f\" },",
+      "name": "\"OS\": \"7601.18798.amd64fre.win7sp1_gdr.150316-1654\",",
+      "required": ""
+    },
+    {
+      "description": "\"Status\": \"job_done\", \"SHA1\": \"6b7808dd69ff255e982f9940d067b356f030ff14\", \"CompletedAt\": \"2018-09-23T08:18:28Z\",",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"State\": \"succ\", \"SubmittedAt\": \"2018-09-23T08:12:07Z\", \"StartedAt\": \"2018-09-23T08:12:08Z\",",
+      "name": "\"Filename\": \"8a577adc1b387c0dfc445b4a6f9a5bb54de13018c960624c0dcf35145aa00b03.exe\",",
+      "required": ""
+    },
+    {
+      "description": "\"OS\": \"7601.18798.amd64fre.win7sp1_gdr.150316-1654\", \"ID\": \"b75b886bcd4b888c2c6a779736509b12\", \"MD5\": \"eb6f2ad4dcba833fd4411301ed8ae40e\"",
+      "name": "\"SHA256\": \"8a577adc1b387c0dfc445b4a6f9a5bb54de13018c960624c0dcf35145aa00b03\",",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

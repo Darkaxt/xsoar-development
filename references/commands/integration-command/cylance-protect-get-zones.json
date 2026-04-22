@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "\"id\":\"f15b2f79-c100-4146-b056-a8005c13b2de\",",
+  "examples": [
+    "Command Example\n!cylance-protect-get-zones pageNumber=2 pageItems=10\nRaw Output\n{\n\"criticality\":\"High\",\n\"date_created\":\"2018-03-13T11:38:52\",\n\"date_modified\":\"2018-03-13T11:38:52\",\n\"id\":\"f15b2f79-c100-4146-b056-a8005c13b2de\",",
+    "!cylance-protect-get-zones pageNumber=2 pageItems=10\nRaw Output\n{\n\"criticality\":\"High\",\n\"date_created\":\"2018-03-13T11:38:52\",\n\"date_modified\":\"2018-03-13T11:38:52\",\n\"id\":\"f15b2f79-c100-4146-b056-a8005c13b2de\",\n\"name\":\"TestingZone3\","
+  ],
+  "kind": "integration-command",
+  "name": "cylance-protect-get-zones",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Zone value. Low Medium",
+      "name": "CylanceProtect.Zones.Criticality",
+      "required": ""
+    },
+    {
+      "description": "CylanceProtect.Zones.DateCreated Date and time (in UTC) when the zone was created CylanceProtect.Zones.DateModified",
+      "name": "High",
+      "required": ""
+    },
+    {
+      "description": "CylanceProtect.Zones.Id Zone unique ID CylanceProtect.Zones.Name",
+      "name": "Date and time (in UTC) when the zone was last modified",
+      "required": ""
+    },
+    {
+      "description": "CylanceProtect.Zones.PolicyId Unique ID of the policy assigned to the zone CylanceProtect.Zones.UpdateType",
+      "name": "Zone name",
+      "required": ""
+    },
+    {
+      "description": "CylanceProtect.Zones.ZoneRuleId Unique ID for the zone rule created for the zone",
+      "name": "Update type for the zone",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

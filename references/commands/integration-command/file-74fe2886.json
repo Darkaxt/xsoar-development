@@ -1,0 +1,72 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!ip ip=7.7.7.7 using-brand=\"Palo Alto Minemeld\"",
+  "examples": [
+    "Command Example\n!ip ip=7.7.7.7 using-brand=\"Palo Alto Minemeld\"\nWar Room Output\n6. Get file indicator\nRetrieves all occurrences of the specified file, including the context in which it is found.\nFor this command to succeed, the miner (associated with the file indicator) has to be on a Cortex XSOAR block list or allow list.\nBase Command\nfile",
+    "!ip ip=7.7.7.7 using-brand=\"Palo Alto Minemeld\"\nWar Room Output\n6. Get file indicator\nRetrieves all occurrences of the specified file, including the context in which it is found.\nFor this command to succeed, the miner (associated with the file indicator) has to be on a Cortex XSOAR block list or allow list.\nBase Command\nfile\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Indicator DBotScore.Type The Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The DBot score vendor DBotScore.Score The DBot score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the vendor that defined the file as malicious File.Malicious.Description For malicious files, the reason why the vendor defined the file as malicious",
+      "name": "File.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Entire indicator object File.MineMeld.Indicators.indicator Indicator value",
+      "name": "File.MineMeld.Indicators",
+      "required": ""
+    },
+    {
+      "description": "Miner of the indicator. File.MineMeld.Indicators.type Indicator type",
+      "name": "File.MineMeld.Indicators.miner",
+      "required": ""
+    },
+    {
+      "description": "Indicator comment MineMeld.Indicators Entire indicator object",
+      "name": "File.MineMeld.Indicators.comment",
+      "required": ""
+    },
+    {
+      "description": "Indicator value MineMeld.Indicators.miner Miner of the indicator",
+      "name": "MineMeld.Indicators.indicator",
+      "required": ""
+    },
+    {
+      "description": "Indicator type MineMeld.Indicators.comment Indicator comment",
+      "name": "MineMeld.Indicators.type",
+      "required": ""
+    },
+    {
+      "description": "Entire miner object MineMeld.Miner.name Miner name",
+      "name": "MineMeld.Miner",
+      "required": ""
+    },
+    {
+      "description": "MD5 hash of the file File.SHA1 SHA-1 hash of the file",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 hash of the file",
+      "name": "File.SHA256",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks MineMeld (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-minemeld"
+}

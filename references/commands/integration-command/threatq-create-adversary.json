@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!threatq-link-objects obj1_id=173317 obj1_type=indicator obj2_id=1 obj2_type=adversary",
+  "examples": [
+    "Command Example\n!threatq-link-objects obj1_id=173317 obj1_type=indicator obj2_id=1 obj2_type=adversary\nHuman Readable Output\n11. Create an adversary\nCreates a new adversary in ThreatQ.\nBase Command\nthreatq-create-adversary\nInput",
+    "!threatq-link-objects obj1_id=173317 obj1_type=indicator obj2_id=1 obj2_type=adversary\nHuman Readable Output\n11. Create an adversary\nCreates a new adversary in ThreatQ.\nBase Command\nthreatq-create-adversary\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-create-adversary",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the adversary. ThreatQ.Adversary.ID The ID of the adversary.",
+      "name": "ThreatQ.Adversary.Name",
+      "required": ""
+    },
+    {
+      "description": "The source ID of the adversary. ThreatQ.Adversary.Source.Name The source name of the adversary.",
+      "name": "ThreatQ.Adversary.Source.ID",
+      "required": ""
+    },
+    {
+      "description": "The ID of the adversary's attribute. ThreatQ.Adversary.Attribute.Name The name of the adversary's attribute.",
+      "name": "ThreatQ.Adversary.Attribute.ID",
+      "required": ""
+    },
+    {
+      "description": "The value of the adversary's attribute. ThreatQ.Adversary.UpdatedAt date",
+      "name": "ThreatQ.Adversary.Attribute.Value",
+      "required": ""
+    },
+    {
+      "description": "ThreatQ.Adversary.CreatedAt date",
+      "name": "The creation date of the adversary.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "7af7bc62c807446fa4bf7ad12dfbe64b",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Confirmation message returned after updating the alert status. AnomaliSecurityAnalytics.UpdateAlert.updated_fields Dictionary",
+      "name": "AnomaliSecurityAnalytics.UpdateAlert.message",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The fields that were updated in the alert.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Anomali Security Analytics Alerts",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/anomali-security-analytics-alerts"
+}

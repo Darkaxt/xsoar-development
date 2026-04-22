@@ -1,0 +1,19 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Download a report: joe-download-report",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "joe-is-online",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Joe Security (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/joe-security"
+}

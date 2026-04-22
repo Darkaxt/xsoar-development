@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Delete a bonus based on an ID like 24abcdef1234567890abcdef",
+  "examples": [
+    "Command Example\n#\n!bonusly-delete-bonus id=\"5ec279591160850099b1ae3c\"\nHuman Readable Output\n#\nLatest Updates From Bonus.ly\nNo entries.\nContext Example",
+    "!bonusly-delete-bonus id=\"5ec279591160850099b1ae3c\"\nHuman Readable Output\n#\nLatest Updates From Bonus.ly\nNo entries.\nContext Example\n#\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Message of result if deleted successfully",
+      "name": "Bonusly.Bonus.message",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Bonusly",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bonusly"
+}

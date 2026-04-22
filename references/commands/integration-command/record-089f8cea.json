@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "logsign-get-count-query",
+  "examples": [
+    "Command Example\n#\n!logsign-get-count-query criteria=\"value\" grouped_column=\"Source.IP\" query=\"*\" time_frame=\"1 day\"\nContext Example\n#\n{\n\"Logsign SIEM\"\n:",
+    "!logsign-get-count-query criteria=\"value\" grouped_column=\"Source.IP\" query=\"*\" time_frame=\"1 day\"\nContext Example\n#\n{\n\"Logsign SIEM\"\n:\n{\n\"Count\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Count number returned as the result of the query",
+      "name": "LogsignSiem.Count",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "LogsignSiem",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/logsign-siem"
+}

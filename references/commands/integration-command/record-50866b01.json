@@ -1,0 +1,46 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!json-get-indicators\nInput\n#\nArgument Name\nDescription\nRequired\nlimit\nThe maximum number of results to return. The default value is 50."
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Demo Video",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Sorry, your browser doesn't support embedded videos. You can download the video at: https://github.com/demisto/content-assets/blob/7982404664dc68c2035b7c701d093ec026628802/Assets/FeedJSON/Json_generic_feed_demo.mp4",
+      "required": ""
+    },
+    {
+      "description": "Next JSON Sample Incident Generator \u00bb Configure JSON Feed in Cortex",
+      "name": "\u00ab Joe Security v2",
+      "required": ""
+    },
+    {
+      "description": "Commands Get indicators from the feed Demo Video",
+      "name": "Step-by-step configuration",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "JSON Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/json-feed"
+}

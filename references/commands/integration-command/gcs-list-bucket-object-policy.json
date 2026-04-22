@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "gcs-delete-bucket-policy bucket_name=my-bucket entity=user-alice@company.com",
+  "examples": [
+    "Command Example\ngcs-delete-bucket-policy bucket_name=my-bucket entity=user-alice@company.com\nHuman Readable Output\nRemoved entity user-alice@company.com from ACL of bucket my-bucket\n12. Retrieves the Access Control List of an object\nRetrieves the Access Control List of an object.\nBase Command\ngcs-list-bucket-object-policy",
+    "Command Example\ngcs-list-bucket-object-policy bucket_name=my-bucket object_name=/some/path/my_file.txt\nHuman Readable Output\nACL policy for object foo/bar/moshe.txt\nBucket\nObject\nEntity\nEmail"
+  ],
+  "kind": "integration-command",
+  "name": "gcs-list-bucket-object-policy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name of the bucket in which the object resides. GCS.BucketObjectPolicy.Object Name of the object holding the Access Control List.",
+      "name": "GCS.BucketObjectPolicy.Bucket",
+      "required": ""
+    },
+    {
+      "description": "The entity holding the permission. GCS.BucketObjectPolicy.Email Email address associated with the entity (if any).",
+      "name": "GCS.BucketObjectPolicy.Entity",
+      "required": ""
+    },
+    {
+      "description": "The access permission for the entity. GCS.BucketObjectPolicy.Team Project team associated with the entity (if any).",
+      "name": "GCS.BucketObjectPolicy.Role",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Storage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-storage"
+}

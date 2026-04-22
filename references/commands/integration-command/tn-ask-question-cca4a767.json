@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "b2dfeab931f5938c52df84b8e6b157e698c508c7723b23505659e5ae659fcf6f",
+  "examples": [
+    "Command Example\n!tn-ask-question question-text=`Get IP Address from all machines`\nContext Example\n{\n\"Tanium.Question\": {\n\"ID\": 50500",
+    "!tn-ask-question question-text=`Get IP Address from all machines`\nContext Example\n{\n\"Tanium.Question\": {\n\"ID\": 50500"
+  ],
+  "kind": "integration-command",
+  "name": "tn-ask-question",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the question object.",
+      "name": "Tanium.Question.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

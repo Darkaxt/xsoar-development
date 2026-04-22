@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!slack-rename-channel channel=my-channel name=your-channel",
+  "examples": [
+    "Command Example\n!slack-rename-channel channel=my-channel name=your-channel\nHuman Readable Output\nChannel renamed successfully.\n10. slack-get-user-details\nGet details about a specified user.\nBase Command\nslack-get-user-details",
+    "!slack-rename-channel channel=my-channel name=your-channel\nHuman Readable Output\nChannel renamed successfully.\n10. slack-get-user-details\nGet details about a specified user.\nBase Command\nslack-get-user-details\nInput",
+    "Command Example\n!slack-get-user-details user=\"cool_user\"\nContext Example\n{\n\"Slack.User\": {\n\"ID\": \"UXXXXXXXX\",\n\"Name\": \"Cool User\",\n\"Username\": \"cool_user\",",
+    "!slack-get-user-details user=\"cool_user\"\nContext Example\n{\n\"Slack.User\": {\n\"ID\": \"UXXXXXXXX\",\n\"Name\": \"Cool User\",\n\"Username\": \"cool_user\",\n\"Email\": \"cool_user@coolorg.com\""
+  ],
+  "kind": "integration-command",
+  "name": "slack-get-user-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "b'The ID of the user.' Slack.User.Username b'The username of the user.'",
+      "name": "Slack.User.ID",
+      "required": ""
+    },
+    {
+      "description": "b'The actual name of the user.' Slack.User.DisplayName b'The display name of the user.'",
+      "name": "Slack.User.Name",
+      "required": ""
+    },
+    {
+      "description": "b'The email address of the user.'",
+      "name": "Slack.User.Email",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Slack v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/slack-v2"
+}

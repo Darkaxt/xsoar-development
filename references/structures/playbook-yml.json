@@ -1,0 +1,22 @@
+{
+  "artifact_type": "playbook-yml",
+  "classifier": {
+    "top_level_fields": [
+      "id",
+      "name",
+      "tasks",
+      "starttaskid",
+      "inputs",
+      "outputs"
+    ]
+  },
+  "do": [
+    "Preserve task IDs, task UUIDs, nexttasks, scriptarguments, conditions, and view coordinates."
+  ],
+  "do_not": [
+    "Do not regenerate task IDs unless intentionally rebuilding the playbook."
+  ],
+  "synthetic_examples": [
+    "Playbooks/ExampleInvestigation.yml"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "Search records by report",
+  "examples": [
+    "Command Example\n!archer-search-records-by-report reportGuid=365121a3-6145-48ea-8a01-5d000c5c65cf\nRaw Output\n{\n\"Records\": {\n\"-count\": \"20\",\n\"LevelCounts\": {\n\"LevelCount\": {",
+    "!archer-search-records-by-report reportGuid=365121a3-6145-48ea-8a01-5d000c5c65cf\nRaw Output\n{\n\"Records\": {\n\"-count\": \"20\",\n\"LevelCounts\": {\n\"LevelCount\": {\n\"-count\": \"20\","
+  ],
+  "kind": "integration-command",
+  "name": "archer-search-records-by-report",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

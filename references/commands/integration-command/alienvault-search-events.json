@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "{\u2018ID\u2019: \u2018c2ef5423-76b1-a0a0-0a0b-b4443507d4a5\u2019, \u2018OccurredTime\u2019: \u20182019-05-15T12:41:46.766Z\u2019, \u2018ReceivedTime\u2019: \u20182019-05-15T12:41:54.807Z\u2019},",
+  "examples": [
+    "Command Example\n!alienvault-search-events limit=\"5\" event_name=\"ET POLICY RDP connection confirm\" time_frame=\"Today\"\nContext Example\n{\n\"AlienVault.Event\": [\n{\n\"Category\": \"Information\",\n\"Subcategory\": \"Remote access application\",",
+    "!alienvault-search-events limit=\"5\" event_name=\"ET POLICY RDP connection confirm\" time_frame=\"Today\"\nContext Example\n{\n\"AlienVault.Event\": [\n{\n\"Category\": \"Information\",\n\"Subcategory\": \"Remote access application\",\n\"Name\": \"ET POLICY RDP connection confirm\","
+  ],
+  "kind": "integration-command",
+  "name": "alienvault-search-events",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Event category. AlienVault.Event.Source.IPAddress Source IP address.",
+      "name": "AlienVault.Event.Category",
+      "required": ""
+    },
+    {
+      "description": "Source port. AlienVault.Event.Destination.IPAddress Destination IP address.",
+      "name": "AlienVault.Event.Source.Port",
+      "required": ""
+    },
+    {
+      "description": "Destination port. AlienVault.Event.Severity Event severity.",
+      "name": "AlienVault.Event.Destination.Port",
+      "required": ""
+    },
+    {
+      "description": "Time the even occurred. AlienVault.Event.ReceivedTime Time the even was received.",
+      "name": "AlienVault.Event.OccurredTime",
+      "required": ""
+    },
+    {
+      "description": "Access control outcome. AlienVault.Event.Suppressed Bool",
+      "name": "AlienVault.Event.AccessControlOutcome",
+      "required": ""
+    },
+    {
+      "description": "AlienVault.Event.ID Event ID. AlienVault.Event.Name",
+      "name": "Whether the even is suppressed.",
+      "required": ""
+    },
+    {
+      "description": "Event name. AlienVault.Event.Subcategory Event subcategory.",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AlienVault USM Anywhere",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/alien-vault-usm-anywhere"
+}

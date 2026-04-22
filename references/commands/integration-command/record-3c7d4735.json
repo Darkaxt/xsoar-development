@@ -1,0 +1,99 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "anyllm-scan-request",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Perform an AI security scan of a request with AIRS",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "anyllm-scan-request",
+      "required": ""
+    },
+    {
+      "description": "Key Value action",
+      "name": "The context data returned from a scan request is:",
+      "required": ""
+    },
+    {
+      "description": "category malicious etc profile_id",
+      "name": "block or allow",
+      "required": ""
+    },
+    {
+      "description": "profile_name Name of the AIRS profile used prompt_detected",
+      "name": "ID of the AIRS profile used",
+      "required": ""
+    },
+    {
+      "description": "response_detected Details of a response detection - dictionary scan_id",
+      "name": "Details of a prompt detection - dictionary",
+      "required": ""
+    },
+    {
+      "description": "tr_id TR ID Edit this page",
+      "name": "Scan ID",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab ANY.RUN TI Lookup Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure AnythingLLM in Cortex Commands anyllm-document-upload-file",
+      "name": "APIMetricsValidation \u00bb",
+      "required": ""
+    },
+    {
+      "description": "anyllm-document-upload-text anyllm-workspace-new anyllm-workspace-delete",
+      "name": "anyllm-document-upload-link",
+      "required": ""
+    },
+    {
+      "description": "anyllm-workspace-get anyllm-workspace-settings anyllm-workspace-add-embedding",
+      "name": "anyllm-workspace-list",
+      "required": ""
+    },
+    {
+      "description": "anyllm-document-createfolder anyllm-document-move anyllm-document-delete",
+      "name": "anyllm-workspace-delete-embedding",
+      "required": ""
+    },
+    {
+      "description": "anyllm-workspace-stream-chat anyllm-document-list anyllm-document-get",
+      "name": "anyllm-workspace-chat",
+      "required": ""
+    },
+    {
+      "description": "anyllm-workspace-thread-chats anyllm-workspace-thread-chat anyllm-workspace-thread-new",
+      "name": "anyllm-workspace-pin",
+      "required": ""
+    },
+    {
+      "description": "anyllm-scan-request Docs Developer Docs",
+      "name": "anyllm-workspace-thread-delete",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AnythingLLM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/anything-llm"
+}

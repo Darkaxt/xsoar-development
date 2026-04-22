@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "fullhunt-get-subdomain",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Domain FullHunt.Subdomain.hosts List of subdomains",
+      "name": "FullHunt.Subdomain.domain",
+      "required": ""
+    },
+    {
+      "description": "Message FullHunt.Subdomain.metadata.all_results_count Number of results for this API request",
+      "name": "FullHunt.Subdomain.message",
+      "required": ""
+    },
+    {
+      "description": "Number of results available for the user performing the API request FullHunt.Subdomain.metadata.domain Domain",
+      "name": "FullHunt.Subdomain.metadata.available_results_for_user",
+      "required": ""
+    },
+    {
+      "description": "Epoch timestamp of the domain last scan FullHunt.Subdomain.metadata.max_results_for_user Maximum results for the user",
+      "name": "FullHunt.Subdomain.metadata.last_scanned",
+      "required": ""
+    },
+    {
+      "description": "Epoch timestamp of the API request FullHunt.Subdomain.metadata.user_plan Fullhunt plan",
+      "name": "FullHunt.Subdomain.metadata.timestamp",
+      "required": ""
+    },
+    {
+      "description": "HTTP status code Edit this page Report an Issue",
+      "name": "FullHunt.Subdomain.status",
+      "required": ""
+    },
+    {
+      "description": "\u00ab FTP Next G Suite Auditor \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands fullhunt-get-account-status fullhunt-get-host",
+      "name": "Configure FullHunt in Cortex",
+      "required": ""
+    },
+    {
+      "description": "fullhunt-get-subdomain Docs Developer Docs",
+      "name": "domain",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FullHunt",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/full-hunt"
+}

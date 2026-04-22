@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "find-duplicate-email-incidents"
+  ],
+  "arguments": [],
+  "description": "FindDuplicateEmailIncidents | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "FindDuplicateEmailIncidents",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The oldest duplicate incident found with the highest similarity to the current incident. duplicateIncident.id Duplicate incident ID.",
+      "name": "duplicateIncident",
+      "required": ""
+    },
+    {
+      "description": "duplicateIncident.rawId Duplicate incident ID. duplicateIncident.name",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "duplicateIncident.similarity Number in range 0-1 which describe the similarity between the existing incident and the new incident. isDuplicateIncidentFound",
+      "name": "Duplicate incident name.",
+      "required": ""
+    },
+    {
+      "description": "allDuplicateIncidents All duplicate incidents found where their similarity with the new incident exceeds the threshold. allDuplicateIncidents.id",
+      "name": "Whether a duplicate incident was found (\"true\" or \"false\").",
+      "required": ""
+    },
+    {
+      "description": "allDuplicateIncidents.rawId A list of all duplicate incidents IDs found. allDuplicateIncidents.name",
+      "name": "A list of all duplicate incidents IDs found.",
+      "required": ""
+    },
+    {
+      "description": "allDuplicateIncidents.similarity A list of the similarity between duplicate incidents and new the incident of all duplicate incidents names found. Edit this page",
+      "name": "A list of all duplicate incidents names found.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab FilterByList Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "FindEmailCampaign \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FindDuplicateEmailIncidents",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/find-duplicate-email-incidents"
+}

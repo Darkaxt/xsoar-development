@@ -1,0 +1,39 @@
+{
+  "aliases": [
+    "MatterID and ExportID concatenation separated by '#' (used only for playbook) such: <Matter_ID>"
+  ],
+  "arguments": [],
+  "description": "!gvault-get-drive-results bucketName=\"85d7cacf-5d93-44e5-8d37-4ba6da342d02\" viewID=0bebe0ec-ee41-4955-96b3-20d9408409c8/exportly-ce3e380b-88dd-4057-b8e9-3a53e6f24e6a/drive_test_export412Z85Fs5q-metadata.xml",
+  "examples": [
+    "Command Example\n!gvault-get-drive-results bucketName=\"85d7cacf-5d93-44e5-8d37-4ba6da342d02\" viewID=0bebe0ec-ee41-4955-96b3-20d9408409c8/exportly-ce3e380b-88dd-4057-b8e9-3a53e6f24e6a/drive_test_export412Z85Fs5q-metadata.xml\nContext Example\nHuman Readable Output\n16. Get the results of a Mail export\nGet the results of a specified Mail export.\nBase Command\ngvault-get-mail-results",
+    "!gvault-get-drive-results bucketName=\"85d7cacf-5d93-44e5-8d37-4ba6da342d02\" viewID=0bebe0ec-ee41-4955-96b3-20d9408409c8/exportly-ce3e380b-88dd-4057-b8e9-3a53e6f24e6a/drive_test_export412Z85Fs5q-metadata.xml\nContext Example\nHuman Readable Output\n16. Get the results of a Mail export\nGet the results of a specified Mail export.\nBase Command\ngvault-get-mail-results\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "gvault-get-mail-results",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Email addresses CCed on the mail GoogleVault.Matter.Export.Results.BCC Email addresses BCCed on the mail",
+      "name": "GoogleVault.Matter.Export.Results.CC",
+      "required": ""
+    },
+    {
+      "description": "The date the email was sent GoogleVault.Matter.Export.Results.From The sender of the email",
+      "name": "GoogleVault.Matter.Export.Results.DateSent",
+      "required": ""
+    },
+    {
+      "description": "The subject of the email GoogleVault.Matter.Export.Results.DateReceived The date the email was received",
+      "name": "GoogleVault.Matter.Export.Results.Subject",
+      "required": ""
+    },
+    {
+      "description": "The address the email was sent to GoogleVault.Matter.Export.Results.Account The account",
+      "name": "GoogleVault.Matter.Export.Results.To",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-vault"
+}

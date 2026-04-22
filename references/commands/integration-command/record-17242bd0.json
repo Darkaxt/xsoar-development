@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!identitynow-request-revoke requested_for=2c9180886ccef167016cdb658fb6547a requested_item=2c918086775e1f5d01776530eb67037b requested_item_type=ACCESS_PROFILE comment=PAN_XSOAR_TEST\nHuman Readable Output\n#\nAccess request was successful!\nEdit this page\nReport an Issue",
+    "!identitynow-request-revoke requested_for=2c9180886ccef167016cdb658fb6547a requested_item=2c918086775e1f5d01776530eb67037b requested_item_type=ACCESS_PROFILE comment=PAN_XSOAR_TEST\nHuman Readable Output\n#\nAccess request was successful!\nEdit this page\nReport an Issue\nPrevious\n\u00ab SailPoint IdentityIQ"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SailPoint IdentityNow",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sail-point-identity-now"
+}

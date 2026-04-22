@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "confluence-search-content",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Content ID. Confluence.Content.Title Content title.",
+      "name": "Confluence.Content.ID",
+      "required": ""
+    },
+    {
+      "description": "Content type. Confluence.Content.Version Content version.",
+      "name": "Confluence.Content.Type",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Atlassian Confluence Cloud",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Atlassian IAM \u00bb Configure Atlassian Confluence Server in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "confluence-create-content confluence-list-spaces confluence-get-content",
+      "name": "confluence-create-space",
+      "required": ""
+    },
+    {
+      "description": "confluence-delete-content confluence-update-content confluence-search-content",
+      "name": "confluence-get-page-as-pdf",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Atlassian Confluence Server",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/atlassian-confluence-server"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!ironport-report report_type=mail_authentication_summary time_range=1d\nContext Example\n#\n{\n\"IronPort\"\n:",
+    "!ironport-report report_type=mail_authentication_summary time_range=1d\nContext Example\n#\n{\n\"IronPort\"\n:\n{\n\"MailAuthenticationSummary\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Email Security Appliance (IronPort) (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-email-security-appliance-iron-port"
+}

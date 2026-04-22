@@ -1,0 +1,259 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "CrowdStrike.deviceHistoryLogin.meta.writes",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "CrowdStrike.deviceNetworkHistory.errors.id CrowdStrike.deviceNetworkHistory.errors.message CrowdStrike.deviceNetworkHistory.meta.powered_by",
+      "name": "CrowdStrike.deviceNetworkHistory.error.code",
+      "required": ""
+    },
+    {
+      "description": "CrowdStrike.deviceNetworkHistory.meta.trace_id CrowdStrike.deviceNetworkHistory.meta.query_time CrowdStrike.deviceNetworkHistory.meta.writes",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "CrowdStrike.deviceNetworkHistory.resources.device_id CrowdStrike.deviceNetworkHistory.resources.cid CrowdStrike.deviceNetworkHistory.resources.history.ip_address",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "CrowdStrike.deviceNetworkHistory.resources.history.mac_address CrowdStrike.deviceNetworkHistory.resources.history.timestamp Edit this page",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab CrowdStrike Malquery Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure CrowdStrike OpenAPI in Cortex cs-add-role cs-add-user-group-members",
+      "name": "Cryptocurrency \u00bb",
+      "required": ""
+    },
+    {
+      "description": "cs-aggregate-allow-list cs-aggregate-block-list cs-aggregate-detections",
+      "name": "cs-addcid-group-members",
+      "required": ""
+    },
+    {
+      "description": "cs-aggregate-escalations cs-aggregate-notificationsv1 cs-aggregate-remediations",
+      "name": "cs-aggregate-device-count-collection",
+      "required": ""
+    },
+    {
+      "description": "cs-aggregatefc-incidents cs-aggregatepolicyrules cs-aggregaterulegroups",
+      "name": "cs-aggregateevents",
+      "required": ""
+    },
+    {
+      "description": "cs-aggregates-detections-global-counts cs-aggregates-events cs-aggregates-events-collections",
+      "name": "cs-aggregaterules",
+      "required": ""
+    },
+    {
+      "description": "cs-aggregatesow-events-global-counts cs-apipreemptproxypostgraphql cs-auditeventsquery",
+      "name": "cs-aggregates-incidents-global-counts",
+      "required": ""
+    },
+    {
+      "description": "cs-batch-active-responder-cmd cs-batch-admin-cmd cs-batch-cmd",
+      "name": "cs-auditeventsread",
+      "required": ""
+    },
+    {
+      "description": "cs-batch-get-cmd-status cs-batch-init-sessions cs-batch-refresh-sessions",
+      "name": "cs-batch-get-cmd",
+      "required": ""
+    },
+    {
+      "description": "cs-create-device-control-policies cs-create-firewall-policies cs-create-host-groups",
+      "name": "cs-create-actionsv1",
+      "required": ""
+    },
+    {
+      "description": "cs-create-prevention-policies cs-create-rulesv1 cs-create-sensor-update-policies",
+      "name": "cs-create-or-updateaws-settings",
+      "required": ""
+    },
+    {
+      "description": "cs-create-user cs-create-user-groups cs-createaws-account",
+      "name": "cs-create-sensor-update-policiesv2",
+      "required": ""
+    },
+    {
+      "description": "cs-createcspm-aws-account cs-createcspmgcp-account cs-createml-exclusionsv1",
+      "name": "cs-createcid-groups",
+      "required": ""
+    },
+    {
+      "description": "cs-createrule cs-createrulegroup cs-createrulegroup-mixin0",
+      "name": "cs-creatert-response-policies",
+      "required": ""
+    },
+    {
+      "description": "cs-crowd-score cs-customersettingsread cs-delete-actionv1",
+      "name": "cs-createsv-exclusionsv1",
+      "required": ""
+    },
+    {
+      "description": "cs-delete-firewall-policies cs-delete-host-groups cs-delete-notificationsv1",
+      "name": "cs-delete-device-control-policies",
+      "required": ""
+    },
+    {
+      "description": "cs-delete-report cs-delete-rulesv1 cs-delete-samplev2",
+      "name": "cs-delete-prevention-policies",
+      "required": ""
+    },
+    {
+      "description": "cs-delete-sensor-update-policies cs-delete-sensor-visibility-exclusionsv1 cs-delete-user",
+      "name": "cs-delete-samplev3",
+      "required": ""
+    },
+    {
+      "description": "cs-delete-user-groups cs-deleteaws-accounts cs-deleteaws-accounts-mixin0",
+      "name": "cs-delete-user-group-members",
+      "required": ""
+    },
+    {
+      "description": "cs-deletecid-groups cs-deletecspm-aws-account cs-deletecspm-azure-account",
+      "name": "cs-deletecid-group-members",
+      "required": ""
+    },
+    {
+      "description": "cs-deleteioa-exclusionsv1 cs-deleteml-exclusionsv1 cs-deletert-response-policies",
+      "name": "cs-deleted-roles",
+      "required": ""
+    },
+    {
+      "description": "cs-deleterulegroups-mixin0 cs-deleterules cs-devices-count",
+      "name": "cs-deleterulegroups",
+      "required": ""
+    },
+    {
+      "description": "cs-download-sensor-installer-by-id cs-entitiesprocesses cs-get-actionsv1",
+      "name": "cs-devices-ran-on",
+      "required": ""
+    },
+    {
+      "description": "cs-get-artifacts cs-get-assessmentv1 cs-get-available-role-ids",
+      "name": "cs-get-aggregate-detects",
+      "required": ""
+    },
+    {
+      "description": "cs-get-children cs-get-cloudconnectazure-entities-account-v1 cs-get-cloudconnectazure-entities-userscriptsdownload-v1",
+      "name": "cs-get-behaviors",
+      "required": ""
+    },
+    {
+      "description": "cs-get-cloudconnectcspmazure-entities-userscriptsdownload-v1 cs-get-clusters cs-get-combined-sensor-installers-by-query",
+      "name": "cs-get-cloudconnectcspmazure-entities-account-v1",
+      "required": ""
+    },
+    {
+      "description": "cs-get-device-control-policies cs-get-device-count-collection-queries-by-filter cs-get-device-details",
+      "name": "cs-get-detect-summaries",
+      "required": ""
+    },
+    {
+      "description": "cs-get-helm-values-yaml cs-get-host-groups cs-get-incidents",
+      "name": "cs-get-firewall-policies",
+      "required": ""
+    },
+    {
+      "description": "cs-get-intel-indicator-entities cs-get-intel-report-entities cs-get-intel-reportpdf",
+      "name": "cs-get-intel-actor-entities",
+      "required": ""
+    },
+    {
+      "description": "cs-get-intel-rule-file cs-get-latest-intel-rule-file cs-get-locations",
+      "name": "cs-get-intel-rule-entities",
+      "required": ""
+    },
+    {
+      "description": "cs-get-mal-query-entities-samples-fetchv1 cs-get-mal-query-metadatav1 cs-get-mal-query-quotasv1",
+      "name": "cs-get-mal-query-downloadv1",
+      "required": ""
+    },
+    {
+      "description": "cs-get-notifications-detailed-translatedv1 cs-get-notifications-detailedv1 cs-get-notifications-translatedv1",
+      "name": "cs-get-mal-query-requestv1",
+      "required": ""
+    },
+    {
+      "description": "cs-get-prevention-policies cs-get-reports cs-get-roles",
+      "name": "cs-get-notificationsv1",
+      "required": ""
+    },
+    {
+      "description": "cs-get-rulesv1 cs-get-samplev2 cs-get-samplev3",
+      "name": "cs-get-roles-byid",
+      "required": ""
+    },
+    {
+      "description": "cs-get-scans-aggregates cs-get-sensor-installers-by-query cs-get-sensor-installers-entities",
+      "name": "cs-get-scans",
+      "required": ""
+    },
+    {
+      "description": "cs-get-sensor-update-policies cs-get-sensor-update-policiesv2 cs-get-sensor-visibility-exclusionsv1",
+      "name": "cs-get-sensor-installersccid-by-query",
+      "required": ""
+    },
+    {
+      "description": "cs-get-summary-reports cs-get-user-group-members-byid cs-get-user-groups-byid",
+      "name": "cs-get-submissions",
+      "required": ""
+    },
+    {
+      "description": "cs-get-vulnerabilities cs-getaws-accounts cs-getaws-accounts-mixin0",
+      "name": "cs-get-user-role-ids",
+      "required": ""
+    },
+    {
+      "description": "cs-getcid-group-by-id cs-getcid-group-members-by cs-getcspm-aws-account",
+      "name": "cs-getaws-settings",
+      "required": ""
+    },
+    {
+      "description": "cs-getcspm-aws-console-setupur-ls cs-getcspm-azure-user-scripts cs-getcspm-policy",
+      "name": "cs-getcspm-aws-account-scripts-attachment",
+      "required": ""
+    },
+    {
+      "description": "cs-getcspm-scan-schedule cs-getcspmcgp-account cs-getcspmgcp-user-scripts",
+      "name": "cs-getcspm-policy-settings",
+      "required": ""
+    },
+    {
+      "description": "cs-getevents cs-getfirewallfields cs-getioa-events",
+      "name": "cs-getcspmgcp-user-scripts-attachment",
+      "required": ""
+    },
+    {
+      "description": "cs-getioa-users cs-getioc cs-getml-exclusionsv1",
+      "name": "cs-getioa-exclusionsv1",
+      "required": ""
+    },
+    {
+      "description": "cs-getplatforms cs-getplatforms-mixin0 cs-getpolicycontainers",
+      "name": "cs-getpatterns",
+      "required": ""
+    },
+    {
+      "description": "cs-getrulegroups cs-getrulegroups-mixin0",
+      "name": "cs-getrt-response-policies",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdStrike OpenAPI (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/crowd-strike-open-api"
+}

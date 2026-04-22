@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "remediation-path-rule-evaluation"
+  ],
+  "arguments": [],
+  "description": "RemediationPathRuleEvaluation | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "RemediationPathRuleEvaluation",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next RemoteExec \u00bb Script Data",
+      "name": "\u00ab RegPathReputationBasicLists",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RemediationPathRuleEvaluation",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/remediation-path-rule-evaluation"
+}

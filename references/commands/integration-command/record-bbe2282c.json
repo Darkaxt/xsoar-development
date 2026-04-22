@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!cohesity-helios-restore-latest-clean-snapshot object_name=pankajk-ubuntu18-05\nHuman Readable Output\n#\nRestored object pankajk-ubuntu18-05.\nEdit this page\nReport an Issue",
+    "!cohesity-helios-restore-latest-clean-snapshot object_name=pankajk-ubuntu18-05\nHuman Readable Output\n#\nRestored object pankajk-ubuntu18-05.\nEdit this page\nReport an Issue\nPrevious\n\u00ab Cohesity Helios Event Collector"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CohesityHelios",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cohesity-helios"
+}

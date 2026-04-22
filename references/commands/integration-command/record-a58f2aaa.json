@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Close a SIGNL4 alert.",
+  "examples": [
+    "!signl4_close_alert name=\"Close Alert\"\nContext Example\n#\n{\n\"s4_external_id\"\n:\n\"id1234\"\n}"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "SIGNL4 event ID.",
+      "name": "SIGNL4.AlertClosed.eventId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SIGNL4 (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signl4"
+}

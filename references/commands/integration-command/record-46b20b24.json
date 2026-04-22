@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Additional information",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The Duo eventing system is not real-time. It takes a few minutes for the events to be indexed and available for an API call due to consolidation. As a result the parameter \"End of the fetch window\" to adjust XSIAM to Duo's delay was added.",
+      "required": ""
+    },
+    {
+      "description": "Next DuoAuth \u00bb Configure Duo Event Collector in Cortex",
+      "name": "\u00ab DUO Admin",
+      "required": ""
+    },
+    {
+      "description": "duo-get-events Known Limitations and recommended configuration Additional information",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Duo Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/duo-event-collector"
+}

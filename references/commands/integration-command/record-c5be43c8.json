@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "prefix) and paste it in your instance configuration under the",
+  "examples": [
+    "Command Example\n#\n!monday-auth-test\nHuman Readable Output\n#\n\u2705 Success!\nEdit this page\nReport an Issue",
+    "!monday-auth-test\nHuman Readable Output\n#\n\u2705 Success!\nEdit this page\nReport an Issue\nPrevious\n\u00ab Moloch (Deprecated)"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MondayEventCollector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/monday-event-collector"
+}

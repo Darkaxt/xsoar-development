@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!fortisiem-remove-item-from-resource-list resource_type=\"Malware Domains\" ids=936390353",
+  "examples": [
+    "Command Example\n!fortisiem-remove-item-from-resource-list resource_type=\"Malware Domains\" ids=936390353\nHuman Readable Output\nitems with id [u\u2019936390353\u2019] were removed.\n9. Get a list of all elements in a resource list\nLists all elements in a resource list.\nBase Command\nfortisiem-get-resource-list",
+    "!fortisiem-remove-item-from-resource-list resource_type=\"Malware Domains\" ids=936390353\nHuman Readable Output\nitems with id [u\u2019936390353\u2019] were removed.\n9. Get a list of all elements in a resource list\nLists all elements in a resource list.\nBase Command\nfortisiem-get-resource-list\nInput",
+    "Command Example\n!fortisiem-get-resource-list resource_type=\"Malware Domains\" group_id=766567954\nContext Example\n{\n\"FortiSIEM.Resource\": [\n{\n\"origin\": \"User\",\n\"domainName\": \"malware.com\",",
+    "!fortisiem-get-resource-list resource_type=\"Malware Domains\" group_id=766567954\nContext Example\n{\n\"FortiSIEM.Resource\": [\n{\n\"origin\": \"User\",\n\"domainName\": \"malware.com\",\n\"ipAddr\": \"3.2.3.2\","
+  ],
+  "kind": "integration-command",
+  "name": "fortisiem-get-resource-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FortiSIEM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forti-siem"
+}

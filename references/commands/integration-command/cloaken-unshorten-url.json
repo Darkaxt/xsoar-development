@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "to validate the URLs, token, and connection.",
+  "examples": [
+    "Command Example\ncloaken-unshorten-url url=https://someurl.com\nContext Example\n{\nURL:{Data:\"http://badperson.com\"},\nCloaken:{\noriginal_url:\"https://tinyurl.com/x223z3223\",\nunshortened_url:\"http://badperson.com\","
+  ],
+  "kind": "integration-command",
+  "name": "cloaken-unshorten-url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unshortened URL. Cloaken.OriginalURL The original URL.",
+      "name": "Cloaken.UnshortenedURL",
+      "required": ""
+    },
+    {
+      "description": "integer Status of the response: BADREQUEST or OK. URL.Data",
+      "name": "Cloaken.Status",
+      "required": ""
+    },
+    {
+      "description": "The unshortened URL.",
+      "name": "string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cloaken",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cloaken"
+}

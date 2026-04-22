@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "360b12ccfa33c6d2021bf34162b111ffc2f5939b0524b2e045cd682d93318d69",
+  "examples": [
+    "Command Example\n!traps-event-quarantine event_id=\"19903a443a47441a86c92c3aea5abb30\"\nContext Example\n{\n\"Traps.Quarantine\": [\n{\n\"EventID\": \"19903a443a47441a86c92c3aea5abb30\",\n\"OperationID\": \"42185783e5bd11e9acbf0245d8e950da\",",
+    "!traps-event-quarantine event_id=\"19903a443a47441a86c92c3aea5abb30\"\nContext Example\n{\n\"Traps.Quarantine\": [\n{\n\"EventID\": \"19903a443a47441a86c92c3aea5abb30\",\n\"OperationID\": \"42185783e5bd11e9acbf0245d8e950da\",\n\"Type\": \"event-quarantine\""
+  ],
+  "kind": "integration-command",
+  "name": "traps-event-quarantine",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the event. Traps.Quarantine.OperationID The ID of the operation.",
+      "name": "Traps.Quarantine.EventID",
+      "required": ""
+    },
+    {
+      "description": "The type of operation.",
+      "name": "Traps.Quarantine.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Traps (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/traps"
+}

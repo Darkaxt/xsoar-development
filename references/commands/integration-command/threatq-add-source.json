@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!threatq-delete-object obj_id=104 obj_type=event",
+  "examples": [
+    "Command Example\n!threatq-delete-object obj_id=104 obj_type=event\nHuman Readable Output\n21. Add a source to an object\nAdds a source to an object in ThreatQ.\nBase Command\nthreatq-add-source\nInput",
+    "!threatq-delete-object obj_id=104 obj_type=event\nHuman Readable Output\n21. Add a source to an object\nAdds a source to an object in ThreatQ.\nBase Command\nthreatq-add-source\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-add-source",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

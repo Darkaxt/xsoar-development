@@ -1,0 +1,152 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Additional Information",
+  "examples": [
+    "Command Example\n!cortex-query-analytics-logs fields=all host=DC1ENV9APC51 user=Administrator\nContext Example\n{\n\"Cortex.Logging.Analytics\": [\n{\n\"AgentID\": \"30e55fb7590b0a907906b5620960931f\",\n\"EndPointHeader\": {",
+    "!cortex-query-analytics-logs fields=all host=DC1ENV9APC51 user=Administrator\nContext Example\n{\n\"Cortex.Logging.Analytics\": [\n{\n\"AgentID\": \"30e55fb7590b0a907906b5620960931f\",\n\"EndPointHeader\": {\n\"AgentIP\": \"8.8.8.8\","
+  ],
+  "kind": "integration-command",
+  "name": "cortex-query-analytics-logs",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique identifier for the Traps agent. Cortex.Logging.Analytics.EndPointHeader.OsType Operating system of the endpoint.",
+      "name": "Cortex.Logging.Analytics.AgentID",
+      "required": ""
+    },
+    {
+      "description": "Indicates whether the endpoint is a virtual desktop infrastructure (VDI). Cortex.Logging.Analytics.EndPointHeader.OSVersion Full version number of the operating system running on the endpoint. For example, 6.1.7601.19135.",
+      "name": "Cortex.Logging.Analytics.EndPointHeader.IsVdi",
+      "required": ""
+    },
+    {
+      "description": "Indicates whether the endpoint is running a 64-bit version of Windows. Cortex.Logging.Analytics.EndPointHeader.AgentIP IP address of the endpoint.",
+      "name": "Cortex.Logging.Analytics.EndPointHeader.Is64",
+      "required": ""
+    },
+    {
+      "description": "Hostname of the endpoint on which the event was logged. Cortex.Logging.Analytics.EndPointHeader.DeviceDomain Domain to which the endpoint belongs.",
+      "name": "Cortex.Logging.Analytics.EndPointHeader.DeviceName",
+      "required": ""
+    },
+    {
+      "description": "The username on which the event was logged. Cortex.Logging.Analytics.EndPointHeader.UserDomain Username of the active user on the endpoint.",
+      "name": "Cortex.Logging.Analytics.EndPointHeader.Username",
+      "required": ""
+    },
+    {
+      "description": "Universal Time Coordinated (UTC) equivalent of the time at which an agent logged an event. ISO-8601 string representation. Cortex.Logging.Analytics.EndPointHeader.AgentVersion Version of the Traps agent.",
+      "name": "Cortex.Logging.Analytics.EndPointHeader.AgentTime",
+      "required": ""
+    },
+    {
+      "description": "Status of the Traps protection. Cortex.Logging.Analytics.EndPointHeader.DataCollectionStatus Status of the agent logging.",
+      "name": "Cortex.Logging.Analytics.EndPointHeader.ProtectionStatus",
+      "required": ""
+    },
+    {
+      "description": "Tenant external ID. Cortex.Logging.Analytics.EventType Subtype of event.",
+      "name": "Cortex.Logging.Analytics.TrapsID",
+      "required": ""
+    },
+    {
+      "description": "Event unique ID. Cortex.Logging.Analytics.GeneratedTime Universal Time Coordinated (UTC) equivalent of the time at which an event was logged. For agent events, this represents the time on the endpoint. For policy, configuration, and system events, this represents the time on the Traps management service. ISO-8601 string representation (for example, 2017-01-24T09:08:59Z).",
+      "name": "Cortex.Logging.Analytics.UUID",
+      "required": ""
+    },
+    {
+      "description": "ID of the Traps management service region. Cortex.Logging.Analytics.OriginalAgentTime Original timestamp for endpoint.",
+      "name": "Cortex.Logging.Analytics.RegionID",
+      "required": ""
+    },
+    {
+      "description": "The Traps system component that initiated the event, for example TrapsAgent, TrapsServiceCore, TrapsServiceManagement, TrapsServiceBackend. Cortex.Logging.Analytics.MessageData.type Type of file.",
+      "name": "Cortex.Logging.Analytics.Facility",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. Cortex.Logging.Analytics.MessageData.FileName File name, without the path or the file type extension.",
+      "name": "Cortex.Logging.Analytics.MessageData.SHA256",
+      "required": ""
+    },
+    {
+      "description": "Full path, aligned with OS format. Cortex.Logging.Analytics.MessageData.FileSize Size of the file in bytes.",
+      "name": "Cortex.Logging.Analytics.MessageData.FilePath",
+      "required": ""
+    },
+    {
+      "description": "Whether the file was reported. Cortex.Logging.Analytics.MessageData.Blocked Whether the file was blocked.",
+      "name": "Cortex.Logging.Analytics.MessageData.Reported",
+      "required": ""
+    },
+    {
+      "description": "Trusted signer result. Cortex.Logging.Analytics.MessageData.LocalAnalysisResult.Publishers File publisher.",
+      "name": "Cortex.Logging.Analytics.MessageData.LocalAnalysisResult.Trusted",
+      "required": ""
+    },
+    {
+      "description": "Trusted ID. Cortex.Logging.Analytics.MessageData.ExecutionCount File execution count.",
+      "name": "Cortex.Logging.Analytics.MessageData.LocalAnalysisResult.TrustedID",
+      "required": ""
+    },
+    {
+      "description": "The date the file was last seen. Cortex.Logging.Analytics.Severity The threat severity.",
+      "name": "Cortex.Logging.Analytics.MessageData.LastSeen",
+      "required": ""
+    },
+    {
+      "description": "The hostname that is mapped to this endpoint. Endpoint.IPAddress The IP address of the endpoint.",
+      "name": "Endpoint.Hostname",
+      "required": ""
+    },
+    {
+      "description": "The domain of the endpoint. Endpoint.OSVersion OS version.",
+      "name": "Endpoint.Domain",
+      "required": ""
+    },
+    {
+      "description": "Endpoint OS. Endpoint.ID The unique ID within the tool retrieving the endpoint.",
+      "name": "Endpoint.OS",
+      "required": ""
+    },
+    {
+      "description": "The name of the host. Host.IPAddress The IP address of the host.",
+      "name": "Host.Hostname",
+      "required": ""
+    },
+    {
+      "description": "The domain of the host. Host.OSVersion The OS version of the host.",
+      "name": "Host.Domain",
+      "required": ""
+    },
+    {
+      "description": "Host OS. Host.ID The unique ID within the tool retrieving the host.",
+      "name": "Host.OS",
+      "required": ""
+    },
+    {
+      "description": "The full file name (including file extension). File.Type The file type, as determined by libmagic (same as displayed in file entries).",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "The path where the file is located. File.Size The size of the file in bytes.",
+      "name": "File.Path",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. File.DigitalSignature.Publisher The publisher of the digital signature for the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The name of the company that released a binary.",
+      "name": "File.Company",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Cortex (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-cortex"
+}

@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "threatvault-signature-search-results",
+  "examples": [
+    "Command Example\n#\n!threatvault-signature-search-results search_type=dns search_request_id=8e9e2289-218f-11eb-b876-aba382af19b4\nContext Example\n#\n{\n\"ThreatVault\"\n:",
+    "!threatvault-signature-search-results search_type=dns search_request_id=8e9e2289-218f-11eb-b876-aba382af19b4\nContext Example\n#\n{\n\"ThreatVault\"\n:\n{\n\"Search\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID that was searched. ThreatVault.Search.status The status of the search.",
+      "name": "ThreatVault.Search.search_request_id",
+      "required": ""
+    },
+    {
+      "description": "The number of results returned in this specific search. ThreatVault.Search.total_count The number of results available for this specific search.",
+      "name": "ThreatVault.Search.page_count",
+      "required": ""
+    },
+    {
+      "description": "The search type. Can be either \"ips\", \"dns\". or \"panav\". ThreatVault.Searchf.signatures A list of all the signatures found for this specific search.",
+      "name": "ThreatVault.Search.search_type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Threat Vault (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-threat-vault"
+}

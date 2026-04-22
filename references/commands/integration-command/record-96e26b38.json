@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The result of Theat search from Brandefense.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "All incidents from the Brandefense platform. Edit this page Report an Issue",
+      "name": "branddefense_all_incidents",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Box v2 Next BreachRx \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "branddefense-get-specific-asset branddefense-get-audit-logs branddefense-get-specific-audit-log",
+      "name": "branddefense-get-assets",
+      "required": ""
+    },
+    {
+      "description": "branddefense-get-specific-incident branddefense-change-incident-status branddefense-get-incident-indicators",
+      "name": "branddefense-get-threat-search",
+      "required": ""
+    },
+    {
+      "description": "branddefense-get-cti-rules branddefense-create-threat-search branddefense-get-incidents",
+      "name": "branddefense-get-ioc",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Brandefense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/brandefense"
+}

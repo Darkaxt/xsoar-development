@@ -1,0 +1,133 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "ACTIVE,LIVE_RESPONSE_NOT_RUNNING,LIVE_RESPONSE_NOT_KILLED,LIVE_RESPONSE_DISABLED,SECURITY_CENTER_OPTLN_DISABLED",
+  "examples": [
+    "Command Example\n!cbd-find-events rows=1\n</p?\nContext Example\nCarbonBlackDefense:{} 1 item\nFindEvents:{} 2 items\nResults:{} 10 items\nShortDescription:The application \"cloud-drive-ui\" successfully closed a TCP/6690 connection to 192.168.2.22:6690 (192.168.2.22).",
+    "!cbd-find-events rows=1\n</p?\nContext Example\nCarbonBlackDefense:{} 1 item\nFindEvents:{} 2 items\nResults:{} 10 items\nShortDescription:The application \"cloud-drive-ui\" successfully closed a TCP/6690 connection to 192.168.2.22:6690 (192.168.2.22).\nLongDescription:The application \"/Users/cberninger/.CloudStation/CloudStation.app/Contents/MacOS/cloud-drive-ui\" closed a TCP/6690 connection to 192.168.2.22:6690 (192.168.2.22) from 192.168.2.125:56001. There were 8169 Bytes Received and 2863 Bytes Sent in less than 1 second. The device was off the corporate network using the public address 67.143.208.113 (192.168.2.125, located in United States). The operation was successful."
+  ],
+  "kind": "integration-command",
+  "name": "cbd-find-events",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Event type CarbonBlackDefense.FindEvents.Results.ProcessDetails.MilisSinceProcessStart Milliseconds since the beginning of the process",
+      "name": "CarbonBlackDefense.FindEvents.Results.EventType",
+      "required": ""
+    },
+    {
+      "description": "Name CarbonBlackDefense.FindEvents.Results.ProcessDetails.PrivatePid Private PID",
+      "name": "CarbonBlackDefense.FindEvents.Results.ProcessDetails.Name",
+      "required": ""
+    },
+    {
+      "description": "Process ID CarbonBlackDefense.FindEvents.Results.ShortDescription Short description",
+      "name": "CarbonBlackDefense.FindEvents.Results.ProcessDetails.ProcessId",
+      "required": ""
+    },
+    {
+      "description": "Time of creation CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceName Device name",
+      "name": "CarbonBlackDefense.FindEvents.Results.CreateTime",
+      "required": ""
+    },
+    {
+      "description": "Device version CarbonBlackDefense.FindEvents.Results.DeviceDetails.PolicyName Policy name",
+      "name": "CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceVersion",
+      "required": ""
+    },
+    {
+      "description": "Target priority type CarbonBlackDefense.FindEvents.Results.DeviceDetails.AgentLocation Agent location",
+      "name": "CarbonBlackDefense.FindEvents.Results.DeviceDetails.TargetPriorityType",
+      "required": ""
+    },
+    {
+      "description": "Device ID CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceIpV4Address IpV4 address of the device",
+      "name": "CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceId",
+      "required": ""
+    },
+    {
+      "description": "Area code CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceLocation.CountryCode Country code",
+      "name": "CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceLocation.AreaCode",
+      "required": ""
+    },
+    {
+      "description": "Latitude CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceLocation.Longitude Longitude",
+      "name": "CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceLocation.Latitude",
+      "required": ""
+    },
+    {
+      "description": "City CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceLocation.CountryName Country name",
+      "name": "CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceLocation.City",
+      "required": ""
+    },
+    {
+      "description": "DMA code CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceLocation.MetroCode Metro code",
+      "name": "CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceLocation.DmaCode",
+      "required": ""
+    },
+    {
+      "description": "Postal code CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceLocation.Region Region",
+      "name": "CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceLocation.PostalCode",
+      "required": ""
+    },
+    {
+      "description": "Device IP address CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceType Device type",
+      "name": "CarbonBlackDefense.FindEvents.Results.DeviceDetails.DeviceIpAddress",
+      "required": ""
+    },
+    {
+      "description": "Email address CarbonBlackDefense.FindEvents.Results.DeviceDetails.TargetPriorityCode Target priority code",
+      "name": "CarbonBlackDefense.FindEvents.Results.DeviceDetails.Email",
+      "required": ""
+    },
+    {
+      "description": "Event ID CarbonBlackDefense.FindEvents.Results.EventTime Event time",
+      "name": "CarbonBlackDefense.FindEvents.Results.EventId",
+      "required": ""
+    },
+    {
+      "description": "Long description CarbonBlackDefense.FindEvents.Results.NetFlow.DestAddress Dest address",
+      "name": "CarbonBlackDefense.FindEvents.Results.LongDescription",
+      "required": ""
+    },
+    {
+      "description": "Dest port CarbonBlackDefense.FindEvents.Results.NetFlow.PeerFqdn Peer Fqdn",
+      "name": "CarbonBlackDefense.FindEvents.Results.NetFlow.DestPort",
+      "required": ""
+    },
+    {
+      "description": "Peer IP address CarbonBlackDefense.FindEvents.Results.NetFlow.PeerIpV4Address Peer IpV4 address",
+      "name": "CarbonBlackDefense.FindEvents.Results.NetFlow.PeerIpAddress",
+      "required": ""
+    },
+    {
+      "description": "Service CarbonBlackDefense.FindEvents.Results.NetFlow.SourceAddress Source address",
+      "name": "CarbonBlackDefense.FindEvents.Results.NetFlow.Service",
+      "required": ""
+    },
+    {
+      "description": "Source port CarbonBlackDefense.FindEvents.Results.SelectedApp.ApplicationName Application name",
+      "name": "CarbonBlackDefense.FindEvents.Results.NetFlow.SourcePort",
+      "required": ""
+    },
+    {
+      "description": "Application path CarbonBlackDefense.FindEvents.Results.SelectedApp.Md5Hash MD5 hash",
+      "name": "CarbonBlackDefense.FindEvents.Results.SelectedApp.ApplicationPath",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 hash CarbonBlackDefense.FindEvents.Results.ThreatIndicators Threat indicators",
+      "name": "CarbonBlackDefense.FindEvents.Results.SelectedApp.Sha256Hash",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black Endpoint Standard (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbon-black-defense"
+}

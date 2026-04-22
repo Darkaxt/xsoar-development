@@ -1,0 +1,168 @@
+{
+  "aliases": [
+    "search-indicator-relationships"
+  ],
+  "arguments": [],
+  "description": "SearchIndicatorRelationships | Cortex XSOAR",
+  "examples": [
+    "!SearchIndicatorRelationships entities=google.com entities_types=IP\nContext Example\n#\n{\n\"Relationships\"\n:\n[\n{"
+  ],
+  "kind": "script",
+  "name": "SearchIndicatorRelationships",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The source of the relationship. Relationships.EntityB The destination of the relationship.",
+      "name": "Relationships.EntityA",
+      "required": ""
+    },
+    {
+      "description": "Relationships.Relationship The name of the relationship. Relationships.Reverse",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Relationships.EntityAType The type of the source of the relationship. Relationships.EntityBType",
+      "name": "The name of the reverse relationship.",
+      "required": ""
+    },
+    {
+      "description": "Relationships.ID The ID of the relationship. Relationships.Reliability",
+      "name": "The type of the destination of the relationship.",
+      "required": ""
+    },
+    {
+      "description": "Relationships.Brand The brand of the relationship. Relationships.Revoked",
+      "name": "The reliability of the relationship.",
+      "required": ""
+    },
+    {
+      "description": "Relationships.FirstSeenBySource The first time seen by the source of the relationship. Relationships.LastSeenBySource",
+      "name": "True if the relationship is revoked.",
+      "required": ""
+    },
+    {
+      "description": "Relationships.Description The description of the relationship. Relationships.Type",
+      "name": "The last time seen by the source of the relationship.",
+      "required": ""
+    },
+    {
+      "description": "RelationshipsPagination The searchAfter token for retrieving the next batch of relationships. Script Examples",
+      "name": "The type of the relationship.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!SearchIndicatorRelationships entities=google.com entities_types=IP",
+      "required": ""
+    },
+    {
+      "description": "\"Relationships\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"EntityA\" : \"4.4.4.4\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"EntityAType\" : \"IP\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"EntityB\" : \"google.com\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"EntityBType\" : \"Domain\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"ID\" : \"31\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"Relationship\" : \"related-to\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"Reverse\" : \"related-to\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", { \"EntityA\"",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"8.8.8.8\" , \"EntityAType\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"IP\" , \"EntityB\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"google.com\" , \"EntityBType\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"Domain\" , \"ID\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"30\" , \"Relationship\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"related-to\" , \"Reverse\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"related-to\" } ]",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"RelationshipsPagination\" : [",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"1766338283557\" , \"8f8a88336e02a52ef31b3827b3b25d85\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "] }",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SearchIndicatorRelationships",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/search-indicator-relationships"
+}

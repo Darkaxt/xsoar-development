@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n``\n!ivanti-heat-object-create object-type=incidents fields=\n{\"Category\":\"Connectivity\",\"ProfileLink\":\"1087E597\",\"Symptom\":\"the description\",\"Subject\":\"test incident\",\"Service\":\"Desktop Service\",\"Owner\":\"johnny cash\"}````\nContext Example\n#\n{",
+    "!ivanti-heat-object-create object-type=incidents fields=\n{\"Category\":\"Connectivity\",\"ProfileLink\":\"1087E597\",\"Symptom\":\"the description\",\"Subject\":\"test incident\",\"Service\":\"Desktop Service\",\"Owner\":\"johnny cash\"}````\nContext Example\n#\n{\n\"IvantiHeat\": {\n\"incidents\": {\n\"@odata.context\": \"https://*ivanti-host*/api/odata/$metadata#incidents/$entity\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Incident ID IvantiHeat.incidents.Subject Incident subject",
+      "name": "IvantiHeat.incidents.RecId",
+      "required": ""
+    },
+    {
+      "description": "Incident status IvantiHeat.incidents.CreatedDateTime Date",
+      "name": "IvantiHeat.incidents.Status",
+      "required": ""
+    },
+    {
+      "description": "IvantiHeat.incidents.Symptom Incident description IvantiHeat.incidents.OwnerTeam",
+      "name": "Incident createion time",
+      "required": ""
+    },
+    {
+      "description": "Incident owner team IvantiHeat.incidents.IncidentNumber The incident number",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The user who created the incident IvantiHeat.incidents.Owner Incident owner",
+      "name": "IvantiHeat.incidents.CreatedBy",
+      "required": ""
+    },
+    {
+      "description": "Incident category IvantiHeat.incidents.Priority Incident priority",
+      "name": "IvantiHeat.incidents.Category",
+      "required": ""
+    },
+    {
+      "description": "Incident type IvantiHeat.incidents.ActualCategory Incident actual category",
+      "name": "IvantiHeat.incidents.TypeOfIncident",
+      "required": ""
+    },
+    {
+      "description": "Incident text header IvantiHeat.incidents.Email Incident owner Email",
+      "name": "IvantiHeat.incidents.SocialTextHeader",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ivanti Heat",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ivanti-heat"
+}

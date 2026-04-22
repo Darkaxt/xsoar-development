@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Rule: {'CategoryList': {'Category': {'ID': 'Blocked URLs for Default Policy', 'type': 'URLGroup'}}, 'HTTPAction': 'Allow', 'HTTPSAction': 'Allow', 'FollowHTTPAction': '1', 'ExceptionList': {'FileTypeCategory': None}, 'Schedule': 'All Time on Sunday', 'PolicyRuleEnabled': '0', 'CCLRuleEnabled': '0'},",
+  "examples": [
+    "Command Example\n#\n!sophos-firewall-web-filter-delete name=webfilter\nContext Example\n#\n{\n\"SophosFirewall\"\n:",
+    "!sophos-firewall-web-filter-delete name=webfilter\nContext Example\n#\n{\n\"SophosFirewall\"\n:\n{\n\"WebFilterPolicy\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name of the policy. SophosFirewall.WebFilterPolicy.IsDeleted Bool",
+      "name": "SophosFirewall.WebFilterPolicy.Name",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Whether the policy is deleted.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Sophos Firewall",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sophos-firewall"
+}

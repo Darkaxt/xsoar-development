@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"name\":\"GET PASSWORD\"",
+  "examples": [
+    "Command Example\n#\n!pam360-update-account-password resource_id=1 account_id=1 new_password=\"A8>ne3J&0Z\" reset_type=\"local\" reason=\"Password Expired\" ticket_id=7\nContext Example\n#\n{\n\"operation\":{\n\"result\":{",
+    "!pam360-update-account-password resource_id=1 account_id=1 new_password=\"A8>ne3J&0Z\" reset_type=\"local\" reason=\"Password Expired\" ticket_id=7\nContext Example\n#\n{\n\"operation\":{\n\"result\":{\n\"message\":\"Password changed successfully\",\n\"status\":\"Success\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Status of the operation. PAM360.Account.operation.result.message Command execution status.",
+      "name": "PAM360.Account.operation.result.status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ManageEngine PAM360",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/manage-engine-pam360"
+}

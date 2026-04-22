@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Report an IP address: abuseipdb-report-ip",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address AbuseIPDB.IP.AbuseConfidenceScore Confidence score fetched from AbuseIPDB",
+      "name": "AbuseIPDB.IP.Address",
+      "required": ""
+    },
+    {
+      "description": "The number of times this address has been reported AbuseIPDB.IP.Geo.Country Country associated with this IP Address",
+      "name": "AbuseIPDB.IP.TotalReports",
+      "required": ""
+    },
+    {
+      "description": "Country code associated with this IP Address AbuseIPDB.IP.Hostnames The hostame(s) of the IP address.",
+      "name": "AbuseIPDB.IP.Geo.CountryCode",
+      "required": ""
+    },
+    {
+      "description": "The version of the IP address. AbuseIPDB.IP.IsPublic Is the IP address public.",
+      "name": "AbuseIPDB.IP.IpVersion",
+      "required": ""
+    },
+    {
+      "description": "Is the IP address a Tor IP. AbuseIPDB.IP.IsWhitelisted Is the IP address whitelisted.",
+      "name": "AbuseIPDB.IP.IsTor",
+      "required": ""
+    },
+    {
+      "description": "When the IP address was last reported. AbuseIPDB.IP.NumDistinctUsers The distinct number of users.",
+      "name": "AbuseIPDB.IP.LastReportedAt",
+      "required": ""
+    },
+    {
+      "description": "Reports summary (for \"verbose\" reports) DBotScore.Score Analysis score",
+      "name": "AbuseIPDB.IP.Address.Reports",
+      "required": ""
+    },
+    {
+      "description": "Vendor name (AbuseIPDB) DBotScore.Indicator The IP address",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The type (ip) AbuseIPDB.IP.Malicious.Vendor The vendor that determined this IP address to be malicious",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The Detections that led to the verdict AbuseIPDB.IP.UsageType Usage type of the IP.",
+      "name": "AbuseIPDB.IP.Malicious.Detections",
+      "required": ""
+    },
+    {
+      "description": "Domain of the IP.",
+      "name": "AbuseIPDB.IP.Domain",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AbuseIPDB",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/abuse-ipdb"
+}

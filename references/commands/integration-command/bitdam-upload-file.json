@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "doc, dot, docx, docm, dotx, dotm",
+  "examples": [
+    "Command Example\n!bitdam-upload-file entryId=499@16\nContext Example\nroot:{} 3 items",
+    "!bitdam-upload-file entryId=499@16\nContext Example\nroot:{} 3 items"
+  ],
+  "kind": "integration-command",
+  "name": "bitdam-upload-file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "SHA-1",
+      "name": "BitDam.FileScan.SHA1",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BitDam",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bit-dam"
+}

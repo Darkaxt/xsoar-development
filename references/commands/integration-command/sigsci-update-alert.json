@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!sigsci-delete-alert alert_id=5b8ba7fd7a54b34f0c0f12cc siteName=demisto\n15. Update attributes for an alert\nUpdates the attributes of a given alert.\nBase Command\nsigsci-update-alert\nInput\nArgument Name",
+    "!sigsci-delete-alert alert_id=5b8ba7fd7a54b34f0c0f12cc siteName=demisto\n15. Update attributes for an alert\nUpdates the attributes of a given alert.\nBase Command\nsigsci-update-alert\nInput\nArgument Name\nDescription",
+    "Command Example\n!sigsci-update-alert action=flagged alert_id=5c9c8f35c7213901971d2e5a enabled=False interval=10 long_name=ggggg siteName=demisto tag_name=SQLI threshold=40\nContext Example\n{\n\"SigSciences.Corp.Site.Alert\": {\n\"LongName\": \"ggggg\",\n\"SkipNotifications\": \"\",\n\"Interval\": 10,",
+    "!sigsci-update-alert action=flagged alert_id=5c9c8f35c7213901971d2e5a enabled=False interval=10 long_name=ggggg siteName=demisto tag_name=SQLI threshold=40\nContext Example\n{\n\"SigSciences.Corp.Site.Alert\": {\n\"LongName\": \"ggggg\",\n\"SkipNotifications\": \"\",\n\"Interval\": 10,\n\"Enabled\": true,"
+  ],
+  "kind": "integration-command",
+  "name": "sigsci-update-alert",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "The unique ID of the alert. SigSciences.Corp.Site.Alert.SiteID The ID of the site.",
+      "name": "SigSciences.Corp.Site.Alert.CreatedDate",
+      "required": ""
+    },
+    {
+      "description": "The name of the tag whose occurrences the alert is watching. SigSciences.Corp.Site.Alert.LongName A short description of the alert.",
+      "name": "SigSciences.Corp.Site.Alert.TagName",
+      "required": ""
+    },
+    {
+      "description": "The number of minutes of past traffic to examine. SigSciences.Corp.Site.Alert.Threshold The number of occurrences of the tag in the specified interval that are required to trigger the alert.",
+      "name": "SigSciences.Corp.Site.Alert.Interval",
+      "required": ""
+    },
+    {
+      "description": "The number of seconds that this alert is active. SigSciences.Corp.Site.Alert.SkipNotifications A flag to disable external notifications - Slack, webhooks, emails, and so on.",
+      "name": "SigSciences.Corp.Site.Alert.BlockDurationSeconds",
+      "required": ""
+    },
+    {
+      "description": "A flag to toggle this alert. SigSciences.Corp.Site.Alert.Action A flag that describes what happens when the alert is triggered.",
+      "name": "SigSciences.Corp.Site.Alert.Enabled",
+      "required": ""
+    },
+    {
+      "description": "date The timestamp of event (RFC3339 format).",
+      "name": "SigSciences.Corp.Site.Alert.CreatedDate",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

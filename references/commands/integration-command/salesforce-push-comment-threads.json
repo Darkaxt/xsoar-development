@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "SalesForce.Case.Reason",
+  "examples": [
+    "Command Example\n12. Add a comment to a chatter thread\nAdd the comment to the chatter thread. Use this command only after salesforce-push-comment\nBase Command\nsalesforce-push-comment-threads\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "salesforce-push-comment-threads",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Reply body SalesForce.Comment.Reply.CreatedDate date",
+      "name": "SalesForce.Comment.Reply.Body",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Salesforce",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/salesforce"
+}

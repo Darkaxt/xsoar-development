@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Deploy a package and get the results.",
+  "examples": [
+    "Command Example\n!tn-deploy-package package=\"Comply - Remove Selected Hashes - Unix\" package_args=hash1\nContext Example\nTanium:{\nSavedActions:[{\nId:1050\nName:API Deploy Comply - Remove Selected Hashes - Unix",
+    "!tn-deploy-package package=\"Comply - Remove Selected Hashes - Unix\" package_args=hash1\nContext Example\nTanium:{\nSavedActions:[{\nId:1050\nName:API Deploy Comply - Remove Selected Hashes - Unix"
+  ],
+  "kind": "integration-command",
+  "name": "tn-deploy-package",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Saved action ID Tanium.SavedActions.Name Saved action name",
+      "name": "Tanium.SavedActions.Id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!aws-logs-put-metric-filter filterName=test filterPattern=\"Error\" logGroupName=test metricName=test metricNamespace=LogMetrics metricValue=1",
+  "examples": [
+    "!aws-logs-put-metric-filter filterName=test filterPattern=\"Error\" logGroupName=test metricName=test metricNamespace=LogMetrics metricValue=1\nContext Example\nThere is no context output for this command.\nHuman Readable Output\n12. Delete a metric filter\nDeletes the specified metric filter.\nBase Command\naws-logs-delete-metric-filter",
+    "Command Example"
+  ],
+  "kind": "integration-command",
+  "name": "aws-logs-delete-metric-filter",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - CloudWatchLogs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---cloud-watch-logs"
+}

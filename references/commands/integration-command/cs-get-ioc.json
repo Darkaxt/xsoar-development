@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!cs-upload-ioc type=ipv4 value=8.8.8.8\nHuman Readable Output\n2. Get definitions of monitored indicators\nGet the full definition of one or more indicators that you are watching\nBase Command\ncs-get-ioc\nInput",
+    "!cs-upload-ioc type=ipv4 value=8.8.8.8\nHuman Readable Output\n2. Get definitions of monitored indicators\nGet the full definition of one or more indicators that you are watching\nBase Command\ncs-get-ioc\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "cs-get-ioc",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FalconHost (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/falcon-host"
+}

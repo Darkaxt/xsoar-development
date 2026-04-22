@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache\\f_000013",
+  "examples": [
+    "Command Example\n!traps-endpoint-isolate-status operation_id=d4abbbc4e5ba11e9acbf0245d8e950da\nContext Example\n{\n\"Traps.IsolateResult\": {\n\"OperationID\": \"d4abbbc4e5ba11e9acbf0245d8e950da\",\n\"Status\": \"finished\"",
+    "!traps-endpoint-isolate-status operation_id=d4abbbc4e5ba11e9acbf0245d8e950da\nContext Example\n{\n\"Traps.IsolateResult\": {\n\"OperationID\": \"d4abbbc4e5ba11e9acbf0245d8e950da\",\n\"Status\": \"finished\""
+  ],
+  "kind": "integration-command",
+  "name": "traps-endpoint-isolate-status",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Operation ID. Use this to retrieve status / results. Traps.IsolateResult.Status The status of the isolation operation.",
+      "name": "Traps.IsolateResult.OperationID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Traps (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/traps"
+}

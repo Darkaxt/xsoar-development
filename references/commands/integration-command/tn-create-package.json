@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "API Deploy Comply - Remove Selected Hashes - Unix",
+  "examples": [
+    "Command Example\n!tn-create-package command=\"cmd /c echo $1\" name=ExamplePackage display_name=\"Example Package\"\nContext Example\nTanium:{\nPackages:[{\nskip_lock_flag:0\nhidden_flag:0\nverify_group_id:0",
+    "!tn-create-package command=\"cmd /c echo $1\" name=ExamplePackage display_name=\"Example Package\"\nContext Example\nTanium:{\nPackages:[{\nskip_lock_flag:0\nhidden_flag:0\nverify_group_id:0\navailable_time:2001-01-01T00:00:00"
+  ],
+  "kind": "integration-command",
+  "name": "tn-create-package",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Timeout for verifying the action expiry (in seconds) Tanium.Packages.display_name Display name of package",
+      "name": "Tanium.Packages.verify_expire_seconds",
+      "required": ""
+    },
+    {
+      "description": "Name of created package Tanium.Packages.command Command to execute",
+      "name": "Tanium.Packages.name",
+      "required": ""
+    },
+    {
+      "description": "date Package creation time Tanium.Packages.command_timeout",
+      "name": "Tanium.Packages.creation_time",
+      "required": ""
+    },
+    {
+      "description": "Timeout for command execution (in seconds) Tanium.Packages.modification_time date",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "Tanium.Packages.last_update date Time when package was last updated",
+      "name": "Package modification time",
+      "required": ""
+    },
+    {
+      "description": "Was the package deleted Tanium.Packages.id Tanium unique package ID",
+      "name": "Tanium.Packages.deleted_flag",
+      "required": ""
+    },
+    {
+      "description": "Timeout for action expiry (in seconds)",
+      "name": "Tanium.Packages.expire_seconds",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium"
+}

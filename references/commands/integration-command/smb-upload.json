@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!smb-download file_path=/Shared/test.txt",
+  "examples": [
+    "Command Example\n!smb-download file_path=/Shared/test.txt\nContext Output\nWar Room Output\n2. Upload a file\nUploads a file to an SMB server.\nBase Command\nsmb-upload",
+    "!smb-download file_path=/Shared/test.txt\nContext Output\nWar Room Output\n2. Upload a file\nUploads a file to an SMB server.\nBase Command\nsmb-upload\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "smb-upload",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "2. Upload a file Uploads a file to an SMB server. Base Command",
+      "name": "War Room Output",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "smb-upload",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Server Message Block (SMB) (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/server-message-block-smb"
+}

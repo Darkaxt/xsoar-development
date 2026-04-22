@@ -1,0 +1,162 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "DisplayName: SOC PhishLabs",
+  "examples": [
+    "Command Example\n!phishlabs-ioc-drp-get-open-cases max_records=2\nContext Example\n{\n\"PhishLabsIOC\": {\n\"DRP\": [\n{\n\"Attachments\": [",
+    "!phishlabs-ioc-drp-get-open-cases max_records=2\nContext Example\n{\n\"PhishLabsIOC\": {\n\"DRP\": [\n{\n\"Attachments\": [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "phishlabs-ioc-drp-get-open-cases",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Case ID PhishlabsIOC.DRP.Title Case title",
+      "name": "PhishlabsIOC.DRP.CaseID",
+      "required": ""
+    },
+    {
+      "description": "Case description PhishlabsIOC.DRP.CaseNumber Case number",
+      "name": "PhishlabsIOC.DRP.Description",
+      "required": ""
+    },
+    {
+      "description": "Resolution PhishlabsIOC.DRP.ResolutionStatus Resolution status",
+      "name": "PhishlabsIOC.DRP.Resolution",
+      "required": ""
+    },
+    {
+      "description": "Case creator ID PhishlabsIOC.DRP.CreatedBy.Name Case creator name",
+      "name": "PhishlabsIOC.DRP.CreatedBy.ID",
+      "required": ""
+    },
+    {
+      "description": "Case creator display name PhishlabsIOC.DRP.Brand Brand reported in case",
+      "name": "PhishlabsIOC.DRP.CreatedBy.DisplayName",
+      "required": ""
+    },
+    {
+      "description": "Email of case creator PhishlabsIOC.DRP.CaseType Type of the case",
+      "name": "PhishlabsIOC.DRP.Email",
+      "required": ""
+    },
+    {
+      "description": "Status of the case PhishlabsIOC.DRP.DateCreated Case creation date",
+      "name": "PhishlabsIOC.DRP.CaseStatus",
+      "required": ""
+    },
+    {
+      "description": "Case closing date PhishlabsIOC.DRP.DateModified Case modification date",
+      "name": "PhishlabsIOC.DRP.DateClosed",
+      "required": ""
+    },
+    {
+      "description": "Customer reporting the case PhishlabsIOC.DRP.AttackSources.URL URL of the attack source",
+      "name": "PhishlabsIOC.DRP.Customer",
+      "required": ""
+    },
+    {
+      "description": "URL type of the attack source PhishlabsIOC.DRP.AttackSources.IP IP of the attack source",
+      "name": "PhishlabsIOC.DRP.AttackSources.UrlType",
+      "required": ""
+    },
+    {
+      "description": "ISP of the attack source PhishlabsIOC.DRP.AttackSources.Country ISP of the attack source",
+      "name": "PhishlabsIOC.DRP.AttackSources.ISP",
+      "required": ""
+    },
+    {
+      "description": "Target brands of the attack source PhishlabsIOC.DRP.AttackSources.FQDN FQDN of the attack source",
+      "name": "PhishlabsIOC.DRP.AttackSources.TargetedBrands",
+      "required": ""
+    },
+    {
+      "description": "Domain of the attack source PhishlabsIOC.DRP.AttackSources.IsMaliciousDomain Detect if domain of attack source is malicious",
+      "name": "PhishlabsIOC.DRP.AttackSources.Domain",
+      "required": ""
+    },
+    {
+      "description": "URL of the registrant PhishlabsIOC.DRP.AttackSources.WhoIs.Registration.Created Creation date of the registration",
+      "name": "PhishlabsIOC.DRP.AttackSources.WhoIs.Registrant",
+      "required": ""
+    },
+    {
+      "description": "Expiriation date of the registration PhishlabsIOC.DRP.AttackSources.WhoIs.Registration.Updated Update date of the registration",
+      "name": "PhishlabsIOC.DRP.AttackSources.WhoIs.Registration.Expires",
+      "required": ""
+    },
+    {
+      "description": "Registrar of the URL PhishlabsIOC.DRP.AttackSources.WhoIs.NameServers Name servers of the URL",
+      "name": "PhishlabsIOC.DRP.AttackSources.WhoIs.Registration.Registrar",
+      "required": ""
+    },
+    {
+      "description": "ID of case attachment PhishlabsIOC.DRP.Attachments.Type Type of case attachment",
+      "name": "PhishlabsIOC.DRP.Attachments.ID",
+      "required": ""
+    },
+    {
+      "description": "Description of case attachment PhishlabsIOC.DRP.Attachments.DateAdded Date adding of case attachment",
+      "name": "PhishlabsIOC.DRP.Attachments.Description",
+      "required": ""
+    },
+    {
+      "description": "File name of case attachment PhishlabsIOC.DRP.Attachments.FileURL File URL of case attachment",
+      "name": "PhishlabsIOC.DRP.Attachments.FileName",
+      "required": ""
+    },
+    {
+      "description": "Application reported in the case PhishlabsIOC.DRP.Platform Platform reported in the case",
+      "name": "PhishlabsIOC.DRP.ApplicationName",
+      "required": ""
+    },
+    {
+      "description": "Sevirity of DRP PhishlabsIOC.DRP.Developer Developer of the application reported",
+      "name": "PhishlabsIOC.DRP.Severity",
+      "required": ""
+    },
+    {
+      "description": "Developer website of the application reported PhishlabsIOC.DRP.ApplicationDescription Descripion of the application reported",
+      "name": "PhishlabsIOC.DRP.DeveloperWebsite",
+      "required": ""
+    },
+    {
+      "description": "Language of the application reported PhishlabsIOC.DRP.Hardware Hardware used by the application",
+      "name": "PhishlabsIOC.DRP.Language",
+      "required": ""
+    },
+    {
+      "description": "Phone number of case creator PhishlabsIOC.DRP.Hardware Hardware used by the application",
+      "name": "PhishlabsIOC.DRP.Phone",
+      "required": ""
+    },
+    {
+      "description": "URL of the attack source PhishlabsIOC.DRP.AssociatedURLs.UrlType URL type of the attack source",
+      "name": "PhishlabsIOC.DRP.AssociatedURLs.URL",
+      "required": ""
+    },
+    {
+      "description": "Target brands of the attack source PhishlabsIOC.DRP.AssociatedURLs.WhoIs.Registrant URL of the registrant",
+      "name": "PhishlabsIOC.DRP.AssociatedURLs.TargetedBrands",
+      "required": ""
+    },
+    {
+      "description": "Creation date of the registration PhishlabsIOC.DRP.AssociatedURLs.WhoIs.Registration.Expires Expiriation date of the registration",
+      "name": "PhishlabsIOC.DRP.AssociatedURLs.WhoIs.Registration.Created",
+      "required": ""
+    },
+    {
+      "description": "Update date of the registration PhishlabsIOC.DRP.AssociatedURLs.WhoIs.Registration.Registrar Registrar of the URL",
+      "name": "PhishlabsIOC.DRP.AssociatedURLs.WhoIs.Registration.Updated",
+      "required": ""
+    },
+    {
+      "description": "Name servers of the URL",
+      "name": "PhishlabsIOC.DRP.AssociatedURLs.WhoIs.NameServers",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PhishLabs IOC DRP",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/phish-labs-ioc-drp"
+}

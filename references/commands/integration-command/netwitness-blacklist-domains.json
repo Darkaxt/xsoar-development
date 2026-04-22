@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!netwitness-blacklist-domains domains=\"\nhttps://www.example2.com,https://www.example2.com\n\"\nContext Example\n{\n\"\nNetWitness",
+    "!netwitness-blacklist-domains domains=\"\nhttps://www.example2.com,https://www.example2.com\n\"\nContext Example\n{\n\"\nNetWitness\n\""
+  ],
+  "kind": "integration-command",
+  "name": "netwitness-blacklist-domains",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness Endpoint",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-endpoint"
+}

@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "3. Get a list of triggered alarms",
+  "examples": [
+    "Command Example\n!esm-fetch-alarms timeRange=\"LAST_3_DAYS\"\nContext Example\n{\n\"Alarm\": [\n{\n\"conditionType\": 13,\n\"severity\": 50,",
+    "!esm-fetch-alarms timeRange=\"LAST_3_DAYS\"\nContext Example\n{\n\"Alarm\": [\n{\n\"conditionType\": 13,\n\"severity\": 50,\n\"triggeredDate\": \"03/11/2019 01:48:10\","
+  ],
+  "kind": "integration-command",
+  "name": "esm-fetch-alarms",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alarm ID Alarm.summary Alarm summary",
+      "name": "Alarm.ID",
+      "required": ""
+    },
+    {
+      "description": "Alarm assignee Alarm.severity Alarm severity",
+      "name": "Alarm.assignee",
+      "required": ""
+    },
+    {
+      "description": "date Alarm triggered date Alarm.acknowledgedDate",
+      "name": "Alarm.triggeredDate",
+      "required": ""
+    },
+    {
+      "description": "Alarm acknowledged date Alarm.acknowledgedUsername Alarm acknowledged username",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "Alarm name Alarm.conditionType Alarm condition type",
+      "name": "Alarm.alarmName",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v10 and v11 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v10"
+}

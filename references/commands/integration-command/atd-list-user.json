@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "} 55 items artimas:0 asm:0 aviraAV:0 consoleLog:0 createTime:2012-12 -01 02:16:01 customrules:0 default32OSName: default64OSName: defaultVM:0 dnnEnable:0 dropZip:0 dumpZip:0 family:0 filePassword: filePassword1: flp:0 gam:1 gml:0 gtiTS:1 gtiURLRep:0 heuristic:0 imageid:0 internet:0 lastChange:null locBlackList:1 locWhiteList:0 logZip:0 maxExecTime:180 mfeAV:1 minExecTime:5 name: xxxxxxxxxxxx netLog:0 netdriveZip:0 noPDF:0 ntvLog:0 openarchive:1 overrideOS:0 pe32:0 reAnalysis:1 recusiveAnalysis:0 runtimeArgument: sandbox:0 selectedOSName: sophosAV:0 ssAPIid:1 ssKeyid:1 ssLevelid:1 summary:1 use",
+  "examples": [
+    "Command Example\n!atd-list-user\n!atd-list-user userType=\"NSP\"\nContext Example\n{\nroot:{\n} 2 items results:[\n] 3 items 0:{",
+    "!atd-list-user\n!atd-list-user userType=\"NSP\"\nContext Example\n{\nroot:{\n} 2 items results:[\n] 3 items 0:{\n} 4 items fullName: xxxxxxx idx: xxxx loginId: xxxxxx userType: STAND_ALONE 1:{",
+    "!atd-list-user userType=\"NSP\"\nContext Example\n{\nroot:{\n} 2 items results:[\n] 3 items 0:{\n} 4 items fullName: xxxxxxx idx: xxxx loginId: xxxxxx userType: STAND_ALONE 1:{"
+  ],
+  "kind": "integration-command",
+  "name": "atd-list-user",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "User's full name ATD.Users.UserId User's ID",
+      "name": "ATD.Users.FullName",
+      "required": ""
+    },
+    {
+      "description": "User's login ID ATD.Users.UserType User type",
+      "name": "ATD.Users.LoginId",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Advanced Threat Defense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-advanced-threat-defense"
+}

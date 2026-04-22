@@ -1,0 +1,156 @@
+{
+  "aliases": [
+    "url-enrichment"
+  ],
+  "arguments": [],
+  "description": "url-enrichment | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "url-enrichment",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The URL. URLEnrichment.MaxScore The max score of all the indicators found.",
+      "name": "URLEnrichment.Value",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.MaxVerdict The max verdict of all the indicators found. URLEnrichment.Results",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.TIMScore The TIM score of the URL. URLEnrichment.Status",
+      "name": "List of all indicators found for the URL.",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.ModifiedTime The time the indicator was last modified. Date",
+      "name": "The status of the indicator: \"Manual\" if the score was changed manually, \"Fresh\" if modified within the last week, \"Stale\" if modified more than a week ago, and \"None\" if never modified.",
+      "required": ""
+    },
+    {
+      "description": "The brand of the indicator. URLEnrichment.Results.Score The score of the indicator.",
+      "name": "URLEnrichment.Results.Brand",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.Verdict The verdict of the indicator. URLEnrichment.Results.DetectionEngines",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.PositiveDetections The positive detections of the indicator. URLEnrichment.Results.Data",
+      "name": "The detection engines of the indicator.",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields All fields extracted from the indicator other then the main keys (\"Brand\", \"Score\", \"Verdict\", \"DetectionEngines\", \"PositiveDetections\", \"Data\"). URLEnrichment.Results.AdditionalFields.Relationships.EntityA",
+      "name": "The URL it self.",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields.Relationships.EntityB The destination of the relationship. URLEnrichment.Results.AdditionalFields.Relationships.Relationship",
+      "name": "The source of the relationship.",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields.Relationships.EntityAType The type of the source of the relationship. URLEnrichment.Results.AdditionalFields.Relationships.EntityBType",
+      "name": "The name of the relationship.",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields.Category The category associated with the indicator. URLEnrichment.Results.AdditionalFields.Malicious.Vendor",
+      "name": "The type of the destination of the relationship.",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields.Malicious.Description A description of the malicious URL. URLEnrichment.Results.AdditionalFields.Tags",
+      "name": "The vendor reporting the URL as malicious.",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields.FeedRelatedIndicators.value Indicators that are associated with the URL. URLEnrichment.Results.AdditionalFields.FeedRelatedIndicators.type",
+      "name": "(List) Tags of the URL.",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields.FeedRelatedIndicators.description The description of the indicators that are associated with the URL. URLEnrichment.Results.AdditionalFields.MalwareFamily",
+      "name": "The type of the indicators that are associated with the URL.",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields.Port Ports that are associated with the URL. URLEnrichment.Results.AdditionalFields.Internal",
+      "name": "The malware family associated with the URL.",
+      "required": ""
+    },
+    {
+      "description": "Bool URLEnrichment.Results.AdditionalFields.Campaign The campaign associated with the URL.",
+      "name": "Whether or not the URL is internal or external.",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields.TrafficLightProtocol The Traffic Light Protocol (TLP) color that is suitable for the URL. URLEnrichment.Results.AdditionalFields.ThreatTypes.threatcategory",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields.ThreatTypes.threatcategoryconfidence Threat Category Confidence is the confidence level provided by the vendor for the threat type category For example a confidence of 90 for threat type category 'malware' means that the vendor rates that this is 90% confidence of being a malware. URLEnrichment.Results.AdditionalFields.ASN",
+      "name": "The threat category associated to this indicator by the source vendor. For example, Phishing, Control, TOR, etc.",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields.ASOwner The autonomous system owner of the URL. URLEnrichment.Results.AdditionalFields.GeoCountry",
+      "name": "The autonomous system name for the URL, for example: 'AS8948'.",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields.Organization The organization of the URL. URLEnrichment.Results.AdditionalFields.CommunityNotes.note",
+      "name": "The country in which the URL is located.",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields.CommunityNotes.timestamp The time in which the note was published. Date",
+      "name": "Notes on the URL that were given by the community.",
+      "required": ""
+    },
+    {
+      "description": "The source in which the article was published. URLEnrichment.Results.AdditionalFields.Publications.title The name of the article.",
+      "name": "URLEnrichment.Results.AdditionalFields.Publications.source",
+      "required": ""
+    },
+    {
+      "description": "URLEnrichment.Results.AdditionalFields.Publications.link A link to the original article. URLEnrichment.Results.AdditionalFields.Publications.timestamp",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Date Edit this page Report an Issue",
+      "name": "The time in which the article was published.",
+      "required": ""
+    },
+    {
+      "description": "\u00ab UploadFile Next URLDecode \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "url-enrichment",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/url-enrichment"
+}

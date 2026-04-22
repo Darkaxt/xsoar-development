@@ -1,0 +1,30 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!cb-command-create session=337 name=kill object=1",
+  "examples": [
+    "!cb-command-create session=337 name=kill object=1\n(pid)\nContext Example\nHuman Readable Output\n21. Create a Live Response command and wait\nCreates a Live Response command and waits for it to finish executing.\nBase Command\ncb-command-create-and-wait",
+    "Command Example\n!cb-command-create-and-wait session=337 name=\"process-list\"\n!cb-command-create-and-wait session=337 name=\"directory-list\" object=\"c:\\Users\\\"\n(path)",
+    "!cb-command-create-and-wait session=337 name=\"process-list\"\n!cb-command-create-and-wait session=337 name=\"directory-list\" object=\"c:\\Users\\\"\n(path)",
+    "!cb-command-create-and-wait session=337 name=\"directory-list\" object=\"c:\\Users\\\"\n(path)"
+  ],
+  "kind": "integration-command",
+  "name": "cb-command-create-and-wait",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

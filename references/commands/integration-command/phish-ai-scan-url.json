@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "After you successfully execute a command, a DBot message appears in the War Room with the command details.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "phish-ai-scan-url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The URL address. URL.Malicious.Vendor For malicious URLs, the vendor that made the decision.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the reason that the vendor made the decision. DBotScore.Indicator The indicator that was tested.",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. IP.Address The IP address of the URL.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The geo-location of the URL. PhishAI.ScanID The Phish AI scan ID.",
+      "name": "IP.Geo.Country",
+      "required": ""
+    },
+    {
+      "description": "The status of the scan. PhishAI.URL",
+      "name": "PhishAI.Status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Phish.AI (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/phishai"
+}

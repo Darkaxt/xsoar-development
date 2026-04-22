@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "code42-file-events-to-markdown-table"
+  ],
+  "arguments": [],
+  "description": "Code42FileEventsToMarkdownTable | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "Code42FileEventsToMarkdownTable",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Code42FileEventsToMarkdownTable",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/code42-file-events-to-markdown-table"
+}

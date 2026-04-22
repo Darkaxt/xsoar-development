@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!flashpoint-get-indicators limit=10 types=url updated_since=\"3 days\"\nHuman Readable Output\n#\nIndicator(s)\n#\nFPID",
+    "!flashpoint-get-indicators limit=10 types=url updated_since=\"3 days\"\nHuman Readable Output\n#\nIndicator(s)\n#\nFPID\nIndicator Type\nIndicator Value"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Flashpoint Feed (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/flashpoint-feed"
+}

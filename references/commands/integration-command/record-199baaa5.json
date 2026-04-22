@@ -1,0 +1,56 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "cloudconvert-check-status task_id=1",
+  "examples": [
+    "Command Example\n#\ncloudconvert-download task_id=1 download_as=url\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique task ID of the scanned file. CloudConvert.Task.status Status of the current task.",
+      "name": "CloudConvert.Task.id",
+      "required": ""
+    },
+    {
+      "description": "Response message from the API. CloudConvert.Task.operation The operation that was performed.",
+      "name": "CloudConvert.Task.message",
+      "required": ""
+    },
+    {
+      "description": "The file name of the downloaded file. CloudConvert.Task.result.files.size The size of the downloaded file.",
+      "name": "CloudConvert.Task.result.files.filename",
+      "required": ""
+    },
+    {
+      "description": "The URL of the downloaded file. CloudConvert.Task.created_at Date",
+      "name": "CloudConvert.Task.result.files.url",
+      "required": ""
+    },
+    {
+      "description": "CloudConvert.Task.started_at Date Start time of the task.",
+      "name": "Time the task was created.",
+      "required": ""
+    },
+    {
+      "description": "Date End time of the task. CloudConvert.Task.host_name",
+      "name": "CloudConvert.Task.ended_at",
+      "required": ""
+    },
+    {
+      "description": "Name of the host used for the task. CloudConvert.Task.storage Storage server used for the task.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The ID of the previous task conducted on this file. CloudConvert.Task.links API link for the task.",
+      "name": "CloudConvert.Task.depends_on_task_ids",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CloudConvert",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cloud-convert"
+}

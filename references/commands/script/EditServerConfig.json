@@ -1,0 +1,33 @@
+{
+  "aliases": [
+    "edit-server-config"
+  ],
+  "arguments": [],
+  "description": "EditServerConfig | Cortex XSOAR",
+  "examples": [
+    "!EditServerConfig action=update key=content.unlock.integrations value=HelloWorld\nHuman Readable Output\n#\nServer configuration with content.unlock.integrations was updated successfully.\nTroubleshooting\n#\nMulti-tenant environments should be configured with the Cortex Rest API instance when using this\nautomation. Make sure the"
+  ],
+  "kind": "script",
+  "name": "EditServerConfig",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Script Example",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "!EditServerConfig action=update key=content.unlock.integrations value=HelloWorld",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "EditServerConfig",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/edit-server-config"
+}

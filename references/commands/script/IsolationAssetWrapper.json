@@ -1,0 +1,158 @@
+{
+  "aliases": [
+    "isolation-asset-wrapper"
+  ],
+  "arguments": [],
+  "description": "IsolationAssetWrapper | Cortex XSOAR",
+  "examples": [
+    "!IsolationAssetWrapper action=unisolate device_ids=15dbb9d8f06b45fe9f61eb46e829d986,046761c46ec84f40b27b6f79ce7cd32c\nContext Example\n#\n{\n\"MicrosoftATP\"\n:\n{\n\"MachineAction\""
+  ],
+  "kind": "script",
+  "name": "IsolationAssetWrapper",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The machine action ID. MicrosoftATP.MachineAction.Type The type of the machine action.",
+      "name": "MicrosoftATP.MachineAction.ID",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.MachineAction.Scope The scope of the action. MicrosoftATP.MachineAction.Requestor",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.MachineAction.RequestorComment The comment that was written when issuing the action. MicrosoftATP.MachineAction.Status",
+      "name": "The ID of the user that executed the action.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.MachineAction.MachineID The machine ID on which the action was executed. MicrosoftATP.MachineAction.ComputerDNSName",
+      "name": "The current status of the command.",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.MachineAction.CreationDateTimeUtc The date and time the action was created. Date",
+      "name": "The machine DNS name on which the action was executed.",
+      "required": ""
+    },
+    {
+      "description": "The last date and time the action status was updated. Date MicrosoftATP.MachineAction.RelatedFileInfo.FileIdentifier",
+      "name": "MicrosoftATP.MachineAction.LastUpdateTimeUtc",
+      "required": ""
+    },
+    {
+      "description": "MicrosoftATP.MachineAction.RelatedFileInfo.FileIdentifierType The type of the file identifier. Possible values: \"SHA1\" ,\"SHA256\", and \"MD5\". PaloAltoNetworksXDR.Isolation.endpoint_id",
+      "name": "The file identifier.",
+      "required": ""
+    },
+    {
+      "description": "PaloAltoNetworksXDR.UnIsolation.endpoint_id Isolates the specified endpoint. Script Examples",
+      "name": "The endpoint ID.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!IsolationAssetWrapper action=unisolate device_ids=15dbb9d8f06b45fe9f61eb46e829d986,046761c46ec84f40b27b6f79ce7cd32c",
+      "required": ""
+    },
+    {
+      "description": "\"MicrosoftATP\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"Status\"",
+      "name": "\"MachineAction\"",
+      "required": ""
+    },
+    {
+      "description": "\"Pending\" , \"Commands\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "[ ] ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ": \"2022-03-27T10:14:29.9635187Z\" ,",
+      "name": "\"CreationDateTimeUtc\"",
+      "required": ""
+    },
+    {
+      "description": ": null ,",
+      "name": "\"MachineID\"",
+      "required": ""
+    },
+    {
+      "description": ": null ,",
+      "name": "\"LastUpdateTimeUtc\"",
+      "required": ""
+    },
+    {
+      "description": ": null ,",
+      "name": "\"ComputerDNSName\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2f48b784-5da5-4e61-9957-012d2630f1e4\" ,",
+      "name": "\"Requestor\"",
+      "required": ""
+    },
+    {
+      "description": ": { \"FileIdentifier\"",
+      "name": "\"RelatedFileInfo\"",
+      "required": ""
+    },
+    {
+      "description": "null , \"FileIdentifierType\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "null } ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ": null ,",
+      "name": "\"Scope\"",
+      "required": ""
+    },
+    {
+      "description": ": \"Unisolate\" ,",
+      "name": "\"Type\"",
+      "required": ""
+    },
+    {
+      "description": ": \"7e7cae42-6e9b-41a2-be6a-69817ec077a6\" ,",
+      "name": "\"ID\"",
+      "required": ""
+    },
+    {
+      "description": ": \"XSOAR - related incident ab57e22c-ad03-4aba-8b6c-b42bd895a116\" }",
+      "name": "\"RequestorComment\"",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IsolationAssetWrapper",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/isolation-asset-wrapper"
+}

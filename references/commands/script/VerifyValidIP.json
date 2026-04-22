@@ -1,0 +1,99 @@
+{
+  "aliases": [
+    "verify-valid-ip"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "IP address or list of IP addresses to validate",
+      "required": "Required"
+    }
+  ],
+  "description": "VerifyValidIP | Cortex XSOAR",
+  "examples": [
+    "!VerifyValidIP\ninput=\"192.168.1.1\n,\n2001\n:\ndb8\n:\n:"
+  ],
+  "kind": "script",
+  "name": "VerifyValidIP",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of boolean values indicating if each input IP is valid List Script Example",
+      "name": "VerifyValidIP.Results",
+      "required": ""
+    },
+    {
+      "description": "input=\"192.168.1.1 , 2001",
+      "name": "!VerifyValidIP",
+      "required": ""
+    },
+    {
+      "description": "db8 : :",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ", invalid_ip ,",
+      "name": "1",
+      "required": ""
+    },
+    {
+      "description": "Script Results",
+      "name": "10.0.0.1\"",
+      "required": ""
+    },
+    {
+      "description": "True for valid IP addresses False",
+      "name": "The script returns a list of boolean values:",
+      "required": ""
+    },
+    {
+      "description": "Example Output",
+      "name": "for invalid IP addresses",
+      "required": ""
+    },
+    {
+      "description": "Notes",
+      "name": "[true, true, false, true]",
+      "required": ""
+    },
+    {
+      "description": "Uses Python's built-in ipaddress module for accurate validation",
+      "name": "Supports both IPv4 and IPv6 address validation",
+      "required": ""
+    },
+    {
+      "description": "Invalid entries will return False in the corresponding position",
+      "name": "Input can be a single IP address or a comma-separated list",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab VerifyObjectFieldsList",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "VersionEqualTo \u00bb Summary Script Data",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Script Results Example Output Notes",
+      "name": "Script Example",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VerifyValidIP",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/verify-valid-ip"
+}

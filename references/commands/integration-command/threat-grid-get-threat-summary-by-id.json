@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!threat-grid-get-threat-summary-by-id id=58e5e66b31484a8529b80a18a33e0814\nContext Example\n{\n\"DBotScore\": {\n\"Vendor\": \"ThreatGrid\",\n\"Indicator\": \"58e5e66b31484a8529b80a18a33e0814\",\n\"Score\": 1,",
+    "!threat-grid-get-threat-summary-by-id id=58e5e66b31484a8529b80a18a33e0814\nContext Example\n{\n\"DBotScore\": {\n\"Vendor\": \"ThreatGrid\",\n\"Indicator\": \"58e5e66b31484a8529b80a18a33e0814\",\n\"Score\": 1,\n\"Type\": \"Sample ID\""
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-threat-summary-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The sample ID ThreatGrid.Sample.MaxSeverity The sample maximum severity",
+      "name": "ThreatGrid.Sample.ID",
+      "required": ""
+    },
+    {
+      "description": "The sample score ThreatGrid.Sample.Count The sample count",
+      "name": "ThreatGrid.Sample.Score",
+      "required": ""
+    },
+    {
+      "description": "The sample maximum confidence DBotScore.Indicator The indicator value",
+      "name": "ThreatGrid.Sample.MaxConfidence",
+      "required": ""
+    },
+    {
+      "description": "The indicator's score DBotScore.Vendor The indicator's vendor",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The indicator's type ThreatGrid.Sample.ThreatFeeds The sample threat feeds",
+      "name": "DBotScore.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

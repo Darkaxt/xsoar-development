@@ -1,0 +1,33 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!recorded-future-get-domain-riskrules\nContext Example\n{\n\"RecordedFuture\": {\n\"RiskRule\": {\n\"Domain\": [\n{",
+    "!recorded-future-get-domain-riskrules\nContext Example\n{\n\"RecordedFuture\": {\n\"RiskRule\": {\n\"Domain\": [\n{\n\"Count\": 1263174,"
+  ],
+  "kind": "integration-command",
+  "name": "recorded-future-get-domain-riskrules",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Risk rule name RecordedFuture.RiskRule.Domain.Description Risk rule description",
+      "name": "RecordedFuture.RiskRule.Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "Risk rule indicator count RecordedFuture.RiskRule.Domain.Criticality Risk rule criticality",
+      "name": "RecordedFuture.RiskRule.Domain.Count",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

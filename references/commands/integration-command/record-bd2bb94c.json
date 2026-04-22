@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2f669986-b40b-4423-b720-4396ca6a462b",
+  "examples": [
+    "Command Example\n#\n!mitre-search-indicators search=APT12\nHuman Readable Output\n#\nMITRE Indicator search\n#\nName",
+    "!mitre-search-indicators search=APT12\nHuman Readable Output\n#\nMITRE Indicator search\n#\nName\nAPT12\nRIPTIDE"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "indicators (list) Each item in the \"indicators\" list contains the 'id' and 'value' fields of the indicators found.",
+      "name": "The context is output as:",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MITRE IDs Feed (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mitre-attck"
+}

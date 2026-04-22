@@ -1,0 +1,35 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "!cisco-ise-assign-policy mac_address=50080fc0-a07a-11e8-808e-000c295fdd32 policy_name=policy3",
+  "examples": [
+    "Command Example\n!cisco-ise-assign-policy mac_address=50080fc0-a07a-11e8-808e-000c295fdd32 policy_name=policy3\nHuman Readable Output\nThe policy \"policy3\" has been applied successfully\n12. Get all endpoints on block list.\nReturns all blacklisted endpoints.\nBase Command\ncisco-ise-get-blacklist-endpoints",
+    "!cisco-ise-assign-policy mac_address=50080fc0-a07a-11e8-808e-000c295fdd32 policy_name=policy3\nHuman Readable Output\nThe policy \"policy3\" has been applied successfully\n12. Get all endpoints on block list.\nReturns all blacklisted endpoints.\nBase Command\ncisco-ise-get-blacklist-endpoints\nInput",
+    "Command Example\n!cisco-ise-get-blacklist-endpoints\nContext Example\n{\n\"CiscoISE.Endpoint\": [\n{\n\"GroupName\": \"Blacklist\",\n\"ID\": \"327b0120-4ba1-11e8-93bd-000c296ec148\",",
+    "!cisco-ise-get-blacklist-endpoints\nContext Example\n{\n\"CiscoISE.Endpoint\": [\n{\n\"GroupName\": \"Blacklist\",\n\"ID\": \"327b0120-4ba1-11e8-93bd-000c296ec148\",\n\"Name\": \"00:0E:35:D4:D8:51\""
+  ],
+  "kind": "integration-command",
+  "name": "cisco-ise-get-blacklist-endpoints",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The endpoint ID. CiscoISE.Endpoint.Name The name of the endpoint.",
+      "name": "CiscoISE.Endpoint.ID",
+      "required": ""
+    },
+    {
+      "description": "The endpoint description. CiscoISE.Endpoint.Link The link for the endpoint",
+      "name": "CiscoISE.Endpoint.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ISE",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-ise"
+}

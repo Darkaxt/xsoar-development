@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "cypho-assign-to-me-button"
+  ],
+  "arguments": [
+    {
+      "description": "The automation automatically uses: The currently logged-in analyst The Cypho ticket ID associated with the incident",
+      "name": "There are no manual inputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The active incident context in Cortex XSOAR",
+      "required": ""
+    }
+  ],
+  "description": "CyphoAssignToMeButton | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CyphoAssignToMeButton",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The script performs a background synchronization and updates the issue assignee in Cypho. \u2714 Notes",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "incident action button . Designed to ensure that incidents are explicitly assigned before any further actions are taken.",
+      "name": "This script is intended to be executed via an",
+      "required": ""
+    },
+    {
+      "description": "Prevents unassigned incidents from being modified unintentionally. Fully aligned with Cypho and Cortex XSOAR incident management workflows. Edit this page",
+      "name": "Helps maintain accurate SOC metrics such as MTTR and analyst accountability.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab CyphoApproveIssue Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "CyphoDismissIssue \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "\u2714 Notes",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyphoAssignToMeButton",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cypho-assign-to-me-button"
+}

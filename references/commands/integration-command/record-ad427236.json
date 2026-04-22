@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!malwarebytes-get-sa-activities hostname=DESKTOP-664HFM6\nContext Example\n#\n{\n\"Malwarebytes.Endpoint\": {\n\"Suspicious_Activities\": [",
+    "!malwarebytes-get-sa-activities hostname=DESKTOP-664HFM6\nContext Example\n#\n{\n\"Malwarebytes.Endpoint\": {\n\"Suspicious_Activities\": [\n{\n\"status\": \"closed\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Suspicious Activities for the host",
+      "name": "Malwarebytes.Endpoint.Suspicious_Activities",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Malwarebytes",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/malwarebytes"
+}

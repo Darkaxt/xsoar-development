@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!url url=\"http://testsafebrowsing.appspot.com/apiv4/ANY_PLATFORM/MALWARE/URL/\"\nContext Example\n#\n{\n\"DBotScore\"\n:",
+    "!url url=\"http://testsafebrowsing.appspot.com/apiv4/ANY_PLATFORM/MALWARE/URL/\"\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Bad URLs found URL.Malicious.Vendor For malicious URLs, the vendor that made the decision",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the reason for the vendor to make the decision DBotScore.Indicator The indicator we tested",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The type of the indicator DBotScore.Vendor Vendor used to calculate the score",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "int The actual score DBotScore.Reliability",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "Reliability of the source providing the intelligence data.",
+      "name": "string",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Safe Browsing (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-safe-browsing"
+}

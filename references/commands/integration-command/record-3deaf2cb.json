@@ -1,0 +1,66 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "https://en.wikipedia.org/wiki/URL",
+  "examples": [
+    "!file file=\"123456abcdef\"\nContext Example\n#\n{\n\"Unit42.File\"\n:\n{\n\"Counts\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The MD5 hash of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. File.Malicious.Vendor The vendor reporting the file as malicious.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "Description of the malicious file. DBotScore.Indicator The indicator that was tested.",
+      "name": "File.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Reliability Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The file hash. Unit42.File.Type The indicator type.",
+      "name": "Unit42.File.Value",
+      "required": ""
+    },
+    {
+      "description": "Counts. Unit42.File.Verdict The verdict for the file.",
+      "name": "Unit42.File.Counts",
+      "required": ""
+    },
+    {
+      "description": "The verdict category. Unit42.File.FirstSeen Date",
+      "name": "Unit42.File.VerdictCategory",
+      "required": ""
+    },
+    {
+      "description": "Unit42.File.LastSeen Date Last seen date.",
+      "name": "First seen date.",
+      "required": ""
+    },
+    {
+      "description": "Sources that have seen this file. Unit42.File.EnrichedThreatObjectAssociation Enriched threat object association.",
+      "name": "Unit42.File.SeenBy",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Unit 42 Intelligence",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/unit-42-intelligence"
+}

@@ -1,0 +1,15 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "gcs-create-bucket-policy bucket_name=my-bucket entity=user-alice@company.com role=Writer",
+  "examples": [
+    "Command Example\ngcs-create-bucket-policy bucket_name=my-bucket entity=user-alice@company.com role=Writer\nHuman Readable Output\nAdded entity user-alice@company.com to ACL of bucket my-bucket with role Writer\n10. Updates an existing entity in a bucket's Access Control List\nUpdates an existing entity in a bucket's Access Control List. Note: use the gcs-create-bucket-policy command to create a new entry.\nBase Command\ngcs-put-bucket-policy"
+  ],
+  "kind": "integration-command",
+  "name": "gcs-put-bucket-policy",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Cloud Storage",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-cloud-storage"
+}

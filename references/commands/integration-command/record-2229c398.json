@@ -1,0 +1,169 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "rsa-nw-endpoint-isolation-remove",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Restores the network connection and removes IP addresses added to the exclusion list for the host with the specified agent ID.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "rsa-nw-endpoint-isolation-remove",
+      "required": ""
+    },
+    {
+      "description": "Create a filter for hosts-list command",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "The basic filter that can be used is of this format - '{ \"criteria\": {",
+      "name": "You can create a custom filter for the ras-nw-hosts-list command, here is a short explanation.",
+      "required": ""
+    },
+    {
+      "description": "{ \"expressionList\": [{ \"propertyName\": \"agentId\", \"restrictionType\": \"EQUAL\",\"propertyValues\": [{\"value\": \"2F53FC2C-A737-B34B-6813-12E48379C15D\"}]}]",
+      "name": "\"criteriaList\": [",
+      "required": ""
+    },
+    {
+      "description": "}' The following are the supported 'restrictionType' \u2022 Operators that require no value: IS_NULL, IS_NOT_NULL.",
+      "name": "} ]",
+      "required": ""
+    },
+    {
+      "description": "\u2022 Operators that require two value: BETWEEN, NOT_BETWEEN. \u2022 Operators that uses multiple value: IN, NOT_IN. The following are the supported 'predicateType' - AND, OR, NOT.",
+      "name": "\u2022 Operators that require one value: LIKE, NOT_LIKE, EQUAL, NOT_EQUAL, LESS_THAN,LESS_THAN_OR_EQUAL_TO, GREATER_THAN, GREATER_THAN_OR_EQUAL_TO.",
+      "required": ""
+    },
+    {
+      "description": "{ \"criteria\": { \"criteriaList\": [",
+      "name": "a more complex example -",
+      "required": ""
+    },
+    {
+      "description": "\"criteriaList\": [], \"expressionList\": [ {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"restrictionType\": \"LIKE\", \"propertyValues\": [ {",
+      "name": "\"propertyName\": \"hostName\",",
+      "required": ""
+    },
+    {
+      "description": "\"relative\": false } ]",
+      "name": "\"value\": \"WIN-854PACLCQ07-VC\",",
+      "required": ""
+    },
+    {
+      "description": "], \"predicateType\": \"AND\" },",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"criteriaList\": [], \"expressionList\": [ {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"restrictionType\": \"BETWEEN\", \"propertyValues\": [ {",
+      "name": "\"propertyName\": \"riskScore\",",
+      "required": ""
+    },
+    {
+      "description": "\"relative\": false }, {",
+      "name": "\"value\": 0,",
+      "required": ""
+    },
+    {
+      "description": "\"relative\": false } ]",
+      "name": "\"value\": 100,",
+      "required": ""
+    },
+    {
+      "description": "], \"predicateType\": \"OR\" }",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"expressionList\": [], \"predicateType\": \"AND\" },",
+      "name": "],",
+      "required": ""
+    },
+    {
+      "description": "\"keys\": [ \"riskScore\" ],",
+      "name": "\"sort\": {",
+      "required": ""
+    },
+    {
+      "description": "} } Edit this page",
+      "name": "\"descending\": true",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab RSA NetWitness v11.1 (Deprecated) Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Changes compared to V11.1 Changes in commands New commands",
+      "name": "RSS Feed \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Configure incident mirroring Commands rsa-nw-list-incidents",
+      "name": "Configure RSA NetWitness in Cortex",
+      "required": ""
+    },
+    {
+      "description": "rsa-nw-remove-incident rsa-nw-incident-add-journal-entry rsa-nw-incident-list-alerts",
+      "name": "rsa-nw-update-incident",
+      "required": ""
+    },
+    {
+      "description": "rsa-nw-hosts-list endpoint rsa-nw-snapshots-list-for-host",
+      "name": "rsa-nw-services-list",
+      "required": ""
+    },
+    {
+      "description": "rsa-nw-files-list rsa-nw-scan-request rsa-nw-scan-stop-request",
+      "name": "rsa-nw-snapshot-details-get",
+      "required": ""
+    },
+    {
+      "description": "rsa-nw-file-alerts-list rsa-nw-file-download rsa-nw-mft-download-request",
+      "name": "rsa-nw-host-alerts-list",
+      "required": ""
+    },
+    {
+      "description": "rsa-nw-process-dump-download-request rsa-nw-endpoint-isolate-from-network rsa-nw-endpoint-update-exclusions",
+      "name": "rsa-nw-system-dump-download-request",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "rsa-nw-endpoint-isolation-remove",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSANetWitness v11.5",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witnessv115"
+}

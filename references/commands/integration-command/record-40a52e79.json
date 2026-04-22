@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "whois_server: whois.markmonitor.com",
+  "examples": [
+    "Command Example\n#\n!socradar-score-hash hash=\"3b7b359ea17ac76341957573e332a2d6bcac363401ac71c8df94dac93df6d792\"\nContext Example\n#\n{\n\"SOCRadarThreatFusion\"\n:",
+    "!socradar-score-hash hash=\"3b7b359ea17ac76341957573e332a2d6bcac363401ac71c8df94dac93df6d792\"\nContext Example\n#\n{\n\"SOCRadarThreatFusion\"\n:\n{\n\"Reputation\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Reputation score of queried hash. SOCRadarThreatFusion.Reputation.Hash.Score Details JSON",
+      "name": "SOCRadarThreatFusion.Reputation.Hash.Risk Score",
+      "required": ""
+    },
+    {
+      "description": "SOCRadarThreatFusion.Reputation.Hash.Total Encounters Number of times that SOCRadar has encountered with the queried hash in its threat sources. SOCRadarThreatFusion.Reputation.Hash.File",
+      "name": "Risk score details of queried hash.",
+      "required": ""
+    },
+    {
+      "description": "Queried hash. DBotScore.Indicator The indicator that was tested.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the indicator score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SOCRadar ThreatFusion",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/soc-radar-threat-fusion"
+}

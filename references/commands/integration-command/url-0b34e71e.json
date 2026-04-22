@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "This command is deprecated.",
+  "examples": [
+    "Command Example\n![image](/doc_imgs/reference/relative/integrations-recorded-future-__-__-doc_files-52180293-1421c280-27ed-11e9-82ec-cbb1669b20dc.png)\nContext Example\n{\n\"URL\": {\n\"Malicious\": {\n\"Vendor\": \"Recorded Future\",\n\"Description\": \"Score above 70\"",
+    "![image](/doc_imgs/reference/relative/integrations-recorded-future-__-__-doc_files-52180293-1421c280-27ed-11e9-82ec-cbb1669b20dc.png)\nContext Example\n{\n\"URL\": {\n\"Malicious\": {\n\"Vendor\": \"Recorded Future\",\n\"Description\": \"Score above 70\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested DBotScore.Type Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "URL name URL.RecordedFuture.Criticality URL criticality label",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "date Risk first seen timestamp URL.RecordedFuture.LastSeen",
+      "name": "URL.RecordedFuture.FirstSeen",
+      "required": ""
+    },
+    {
+      "description": "Risk last seen timestamp URL.Tags Tags that are associated with the URL.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "A summary note on the mentioning of the URL in a source monitored by Recorded Future. URL.CommunityNotes.timestamp date",
+      "name": "URL.CommunityNotes.note",
+      "required": ""
+    },
+    {
+      "description": "URL.Publications.source The publication's source. URL.Publications.title",
+      "name": "The timestamp in which the community note was created.",
+      "required": ""
+    },
+    {
+      "description": "The title of the published information. URL.Publications.link A link to the published information.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "date The timestamp in which the information was published.",
+      "name": "URL.Publications.timestamp",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

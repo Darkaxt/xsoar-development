@@ -1,0 +1,82 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!hoxhunt-incident-update-state incident_id=\"12345\" state=\"RESOLVED\"",
+  "examples": [
+    "Command Example\n#\n!hoxhunt-incident-update-state incident_id=\"12345\" state=\"RESOLVED\"\nget-mapping-fields\n#\nGet mapping fields from remote incident. Please note that this method will not update the current incident. It's here for debugging purposes.\nBase Command\n#",
+    "!hoxhunt-incident-update-state incident_id=\"12345\" state=\"RESOLVED\"\nget-mapping-fields\n#\nGet mapping fields from remote incident. Please note that this method will not update the current incident. It's here for debugging purposes.\nBase Command\n#\nget-mapping-fields\nInput"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Incident Mirroring",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "To set up the mirroring: Enable Fetching incidents",
+      "name": "You can enable incident mirroring between Cortex XSOAR incidents and Hoxhunt v2 corresponding events (available from Cortex XSOAR version 6.0.0).",
+      "required": ""
+    },
+    {
+      "description": "In the Mirroring Direction integration parameter, select in which direction the incidents should be mirrored:",
+      "name": "in your instance configuration.",
+      "required": ""
+    },
+    {
+      "description": "Description None Turns off incident mirroring.",
+      "name": "Option",
+      "required": ""
+    },
+    {
+      "description": "Any changes in Hoxhunt v2 events (mirroring incoming fields) will be reflected in Cortex XSOAR incidents. Outgoing Any changes in Cortex XSOAR incidents will be reflected in Hoxhunt v2 events (outgoing mirrored fields).",
+      "name": "Incoming",
+      "required": ""
+    },
+    {
+      "description": "Changes in Cortex XSOAR incidents and Hoxhunt v2 events will be reflected in both directions. Newly fetched incidents will be mirrored in the chosen direction. However, this selection does not affect existing incidents. Important Note:",
+      "name": "Incoming And Outgoing",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "To ensure the mirroring works as expected, mappers are required, both for incoming and outgoing, to map the expected fields in Cortex XSOAR and Hoxhunt v2.",
+      "required": ""
+    },
+    {
+      "description": "Next HPE Aruba Central Event Collector \u00bb Configure Hoxhunt v2 in Cortex",
+      "name": "\u00ab Hoxhunt (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "hoxhunt-current-user-get hoxhunt-incident-threats-get hoxhunt-incident-note-add",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "hoxhunt-incident-soc-feedback-send hoxhunt-incident-set-sensitive hoxhunt-incident-set-soc-classification",
+      "name": "hoxhunt-incident-threats-remove",
+      "required": ""
+    },
+    {
+      "description": "get-mapping-fields Incident Mirroring Docs",
+      "name": "hoxhunt-incident-update-state",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Hoxhunt v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hoxhunt-v2"
+}

@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!epo-find-system searchText=mar\n17. Move a system to a different group\n#\nMoves a system to a different group.\nBase Command\n#\nepo-move-system\nInput",
+    "Command Example\n#\n!epo-move-system names=tie parentGroupId=3\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious",
+    "!epo-move-system names=tie parentGroupId=3\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious\n\u00ab McAfee DXL\nNext"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ePO (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/epo"
+}

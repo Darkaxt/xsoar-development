@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "search-indicator"
+  ],
+  "arguments": [],
+  "description": "SearchIndicator | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "SearchIndicator",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The id of the indicator in the XSOAR database. foundIndicators.indicator_type The type of Indicator (i.e. IP, Domain, URL, etc)",
+      "name": "foundIndicators.id",
+      "required": ""
+    },
+    {
+      "description": "foundIndicators.value The value of the Indicator foundIndicators.score",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "foundIndicators.verdict The human readable score/verdict of the Indicator. Edit this page",
+      "name": "The numeric score of the indicator (0 = Unknown, 1 = Good, 2 = Suspicious, 3 = Malicious)",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab SearchIncidentsV2 Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "SearchIndicatorInEvents \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SearchIndicator",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/search-indicator"
+}

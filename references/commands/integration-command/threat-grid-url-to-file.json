@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!threat-grid-get-specific-feed feed-name=rat-dns output-type=csv\nHuman Readable Output\n19. Convert a URL to a file for detonation\nConvert a URL into a file for Threat Grid file detonation.\nBase Command\nthreat-grid-url-to-file\nInput",
+    "!threat-grid-get-specific-feed feed-name=rat-dns output-type=csv\nHuman Readable Output\n19. Convert a URL to a file for detonation\nConvert a URL into a file for Threat Grid file detonation.\nBase Command\nthreat-grid-url-to-file\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-url-to-file",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

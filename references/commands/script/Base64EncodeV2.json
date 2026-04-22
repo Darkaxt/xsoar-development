@@ -1,0 +1,47 @@
+{
+  "aliases": [
+    "base64-encode-v2"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "The input to encode using Base64 format.",
+      "required": ""
+    }
+  ],
+  "description": "Base64EncodeV2 | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "Base64EncodeV2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The input encoded as Base64 format. Edit this page Report an Issue",
+      "name": "Base64.encoded",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Base64Encode Next Base64ListToFile \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Base64EncodeV2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/base64-encode-v2"
+}

@@ -1,0 +1,73 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "\"sub_classification\":\"Ransom\",",
+  "examples": [
+    "Command Example\n!cylance-protect-get-threat-devices sha256=ED01EBFBC9EB5BBEA545AF4D01BF5F1071661840480439C6E5BABE8E080E41AA\nRaw Output\n{\n\"agent_version\":\"2.0.1440\",\n\"date_found\":\"2018-01-21T15:45:46\",\n\"file_status\":\"Whitelisted\",\n\"id\":\"652bbfa9-cf74-4e24-90f7-d01b16429701\",",
+    "!cylance-protect-get-threat-devices sha256=ED01EBFBC9EB5BBEA545AF4D01BF5F1071661840480439C6E5BABE8E080E41AA\nRaw Output\n{\n\"agent_version\":\"2.0.1440\",\n\"date_found\":\"2018-01-21T15:45:46\",\n\"file_status\":\"Whitelisted\",\n\"id\":\"652bbfa9-cf74-4e24-90f7-d01b16429701\",\n\"ip_addresses\":\"172.31.31.110\","
+  ],
+  "kind": "integration-command",
+  "name": "cylance-protect-get-threat-devices",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Device ID CylanceProtect.Threat.Devices.DateFound Date and time (in UTC) when the threat was found on the device",
+      "name": "CylanceProtect.Threat.Devices.ID",
+      "required": ""
+    },
+    {
+      "description": "Agent version installed on the device CylanceProtect.Threat.Devices.FileStatus Current quarantine status of the file on the device.",
+      "name": "CylanceProtect.Threat.Devices.AgentVersion",
+      "required": ""
+    },
+    {
+      "description": "1 = Quarantined 2 = Whitelisted 3 = Suspicious",
+      "name": "0 = Default",
+      "required": ""
+    },
+    {
+      "description": "5 = Corrupt Endpoint.IPAddress List of IP addresses for the device",
+      "name": "4 = FileRemoved",
+      "required": ""
+    },
+    {
+      "description": "List of MAC addresses for the device Endpoint.Hostname Device name for the device",
+      "name": "Endpoint.MACAddress",
+      "required": ""
+    },
+    {
+      "description": "Unique identifier of the policy assigned to the device, or null if no policy is assigned",
+      "name": "CylanceProtect.Threat.Devices.PolicyID",
+      "required": ""
+    },
+    {
+      "description": "Device state. Online Offline",
+      "name": "CylanceProtect.Threat.Devices.State",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 hash of the threat File.Path Path where the file was found on the device",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "Device name for the device CylanceProtect.Threat.Devices.IPAddress List of IP addresses for the device",
+      "name": "CylanceProtect.Threat.Devices.Hostname",
+      "required": ""
+    },
+    {
+      "description": "List of MAC addresses for the device",
+      "name": "CylanceProtect.Threat.Devices.MACAddress",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

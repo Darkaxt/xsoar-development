@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "[\u201ccef64201a97e08834f5c8952907a1719531a7d99b53309cb2e2956f40cff3486\u201d,\u201ccef64201a97e08834f5c8952907a1719531a7d99b53309cb2e2956f40cff3486\u201d,\u201ccef64201a97e08834f5c8952907a1719531a7d99b53309cb2e2956f40cff3486\u201d]",
+  "examples": [
+    "Command Example"
+  ],
+  "kind": "integration-command",
+  "name": "minerva-delete-exclusion",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Minerva Labs Anti-Evasion Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/minerva-labs-anti-evasion-platform"
+}

@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "Type",
+      "name": "Parameter",
+      "required": ""
+    },
+    {
+      "description": "Type",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "More Query Command Examples:",
+  "examples": [
+    "More Query Command Examples:\n!netwitness-query size=\"5\" query=\"select*where device.class contains 'Anti Virus'\"\n!netwitness-query size=\"5\" query=\"select*where sessionid=1831740465537\"\nStream packets\nStreams packets back based on the input parameters provided.\nBase Command\nnetwitness-packets\nInput",
+    "!netwitness-query size=\"5\" query=\"select*where device.class contains 'Anti Virus'\"\n!netwitness-query size=\"5\" query=\"select*where sessionid=1831740465537\"\nStream packets\nStreams packets back based on the input parameters provided.\nBase Command\nnetwitness-packets\nInput\nParameter",
+    "!netwitness-query size=\"5\" query=\"select*where sessionid=1831740465537\"\nStream packets\nStreams packets back based on the input parameters provided.\nBase Command\nnetwitness-packets\nInput\nParameter\nType",
+    "Command Example\n!netwitness-packets sessions=\"1,2,3,4,5\"\nRaw Output\nThere is no raw output for this command.\nWar Room Output\nGet meta ID range\nReturns the meta ID range for the session range.\nBasic Command",
+    "!netwitness-packets sessions=\"1,2,3,4,5\"\nRaw Output\nThere is no raw output for this command.\nWar Room Output\nGet meta ID range\nReturns the meta ID range for the session range.\nBasic Command\nnw-sdk-session",
+    "Command Example\n!nw-sdk-session id1=1 id2=10\nRaw Output\n{\n\"flags\":1073938433,\n\"params\":{\n\"field1\":\"1\",\n\"field2\":\"334\",",
+    "!nw-sdk-session id1=1 id2=10\nRaw Output\n{\n\"flags\":1073938433,\n\"params\":{\n\"field1\":\"1\",\n\"field2\":\"334\",\n\"id1\":\"1\","
+  ],
+  "kind": "integration-command",
+  "name": "netwitness-packets",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness Packets and Logs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-packets-and-logs"
+}

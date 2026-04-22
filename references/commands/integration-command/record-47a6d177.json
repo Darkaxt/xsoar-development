@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!workday-get-activity-logging limit=4 from_date=2023-04-24T07:00:00Z to_date=2023-04-24T08:00:00Z\nHuman Readable Output\n#\nActivity Logging List\n#\nActivity Action\nDevice Type\nIp Address"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Workday Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/workday-event-collector"
+}

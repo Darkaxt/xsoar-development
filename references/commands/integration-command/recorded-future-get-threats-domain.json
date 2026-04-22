@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "This command is deprecated.",
+  "examples": [
+    "Command Example\n!recorded-future-get-threats-domain detailed=true\nContext Example\n{\n\"DBotScore\": {\n\"Vendor\": \"Recorded Future\",\n\"Indicator\": \"obfuscated.com\",\n\"Score\": 3,",
+    "!recorded-future-get-threats-domain detailed=true\nContext Example\n{\n\"DBotScore\": {\n\"Vendor\": \"Recorded Future\",\n\"Indicator\": \"obfuscated.com\",\n\"Score\": 3,\n\"Type\": \"domain\""
+  ],
+  "kind": "integration-command",
+  "name": "recorded-future-get-threats-domain",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested DBotScore.Type Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Domain name Domain.RecordedFuture.Criticality Domain criticality label",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "date Risk first seen timestamp Domain.RecordedFuture.LastSeen",
+      "name": "Domain.RecordedFuture.FirstSeen",
+      "required": ""
+    },
+    {
+      "description": "Risk last seen timestamp",
+      "name": "date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

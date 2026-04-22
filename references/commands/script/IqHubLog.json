@@ -1,0 +1,33 @@
+{
+  "aliases": [
+    "iq-hub-log"
+  ],
+  "arguments": [],
+  "description": "IqHubLog | Cortex XSOAR",
+  "examples": [
+    "!IqHubLog\nHuman Readable Output\n#\nEdit this page\nReport an Issue\nPrevious\n\u00ab IPv4Whitelist\nNext"
+  ],
+  "kind": "script",
+  "name": "IqHubLog",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "N/A N/A Script Example",
+      "name": "N/A",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "!IqHubLog",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IqHubLog",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/iq-hub-log"
+}

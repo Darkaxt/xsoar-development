@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!url url=www.google.com threshold=LOW\nContext Example\n{\n\"URL\": {\n\"Malicious\": {\n\"Vendor\": \"TruSTAR\",\n\"Description\": \"LOW\"",
+    "!url url=www.google.com threshold=LOW\nContext Example\n{\n\"URL\": {\n\"Malicious\": {\n\"Vendor\": \"TruSTAR\",\n\"Description\": \"LOW\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "URL data URL.Malicious.Vendor For malicious URLs, the vendor that made the decision",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the reason for the vendor to make the decision DBotScore.Indicator The indicator we tested",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The type of the indicator DBotScore.Vendor Vendor used to calculate the score",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score TruSTAR.URL.Value Indicator value",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "Is the indicator on allow list TruSTAR.URL.Priority Indicator's priority level by TruSTAR",
+      "name": "TruSTAR.URL.Whitelisted",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TruSTAR (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tru-star"
+}

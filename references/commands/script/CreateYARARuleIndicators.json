@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "create-yara-rule-indicators"
+  ],
+  "arguments": [],
+  "description": "CreateYARARuleIndicators | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CreateYARARuleIndicators",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The YARA Rule name CreateYARARuleIndicators.description The YARA Rule description.",
+      "name": "CreateYARARuleIndicators.value",
+      "required": ""
+    },
+    {
+      "description": "CreateYARARuleIndicators.rawrule The raw YARA Rule in code block format. CreateYARARuleIndicators.rulecondition",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "CreateYARARuleIndicators.strings The YARA Rule strings in grid format. CreateYARARuleIndicators.tags",
+      "name": "The YARA Rule condition.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The YARA Rule tags.",
+      "required": ""
+    },
+    {
+      "description": "Next CrowdStrikeApiModule \u00bb Script Data",
+      "name": "\u00ab CreateSigmaRuleIndicator",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CreateYARARuleIndicators",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/create-yara-rule-indicators"
+}

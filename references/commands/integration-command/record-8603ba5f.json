@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "FireMonSecurityManager.Collector",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Firemon Collector Status. Edit this page Report an Issue",
+      "name": "FireMonSecurityManager.CollectorStatus",
+      "required": ""
+    },
+    {
+      "description": "\u00ab FireEye NX Next Flashpoint (Deprecated) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands firemon-user-authentication firemon-create-pp-ticket",
+      "name": "Configure FireMon Security Manager in Cortex",
+      "required": ""
+    },
+    {
+      "description": "firemon-secmgr-secrule-search Docs Developer Docs",
+      "name": "firemon-pca",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FireMon Security Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/fire-mon-security-manager"
+}

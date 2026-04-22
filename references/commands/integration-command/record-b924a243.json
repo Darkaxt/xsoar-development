@@ -1,0 +1,141 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "iot-security-resolve-vuln full_name=CVE-2019-10960 id=vuln-b12d4f0a reason=test",
+  "examples": [
+    "Command Example\n#\niot-security-resolve-vuln full_name=CVE-2019-10960 id=vuln-b12d4f0a reason=test\niot-security-get-device-by-ip\n#\nIoT get device command - get a single device's details.\nBase Command\n#"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Device details. PaloAltoNetworksIoT.Device.hostname The hostname of the device.",
+      "name": "PaloAltoNetworksIoT.Device",
+      "required": ""
+    },
+    {
+      "description": "The IP address of the device. PaloAltoNetworksIoT.Device.profile_type The device profile type: Non_IoT vs IoT.",
+      "name": "PaloAltoNetworksIoT.Device.ip_address",
+      "required": ""
+    },
+    {
+      "description": "The device profile vertical. PaloAltoNetworksIoT.Device.category The device category",
+      "name": "PaloAltoNetworksIoT.Device.profile_vertical",
+      "required": ""
+    },
+    {
+      "description": "The device profile. PaloAltoNetworksIoT.Device.last_activity Date",
+      "name": "PaloAltoNetworksIoT.Device.profile",
+      "required": ""
+    },
+    {
+      "description": "PaloAltoNetworksIoT.Device.long_description The long description of the device. PaloAltoNetworksIoT.Device.vlan",
+      "name": "The last activity timestamp of the device.",
+      "required": ""
+    },
+    {
+      "description": "The device VLAN ID. PaloAltoNetworksIoT.Device.site_name The site which the device is in.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The device risk score. PaloAltoNetworksIoT.Device.risk_level The device risk level: Low, Medium, High, Critical",
+      "name": "PaloAltoNetworksIoT.Device.risk_score",
+      "required": ""
+    },
+    {
+      "description": "The device subnet. PaloAltoNetworksIoT.Device.first_seen_date Date",
+      "name": "PaloAltoNetworksIoT.Device.subnet",
+      "required": ""
+    },
+    {
+      "description": "PaloAltoNetworksIoT.Device.confidence_score The device confidence score. PaloAltoNetworksIoT.Device.deviceid",
+      "name": "The first seen date of the device.",
+      "required": ""
+    },
+    {
+      "description": "The device ID. PaloAltoNetworksIoT.Device.location The device location.",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "The device vendor. PaloAltoNetworksIoT.Device.model The device model.",
+      "name": "PaloAltoNetworksIoT.Device.vendor",
+      "required": ""
+    },
+    {
+      "description": "The device description. PaloAltoNetworksIoT.Device.asset_tag The device asset tag (e.g. a sticky label at the bottom of the device).",
+      "name": "PaloAltoNetworksIoT.Device.description",
+      "required": ""
+    },
+    {
+      "description": "The device OS group. PaloAltoNetworksIoT.Device.Serial_Number The device serial number.",
+      "name": "PaloAltoNetworksIoT.Device.os_group",
+      "required": ""
+    },
+    {
+      "description": "Whether the device is in DHCP model: Valid values are Yes or No. PaloAltoNetworksIoT.Device.wire_or_wireless Is the device wired or wireless.",
+      "name": "PaloAltoNetworksIoT.Device.DHCP",
+      "required": ""
+    },
+    {
+      "description": "The device department. PaloAltoNetworksIoT.Device.Switch_Port The port of the switch this device is connected to.",
+      "name": "PaloAltoNetworksIoT.Device.department",
+      "required": ""
+    },
+    {
+      "description": "The name of the switch this device is connected to. PaloAltoNetworksIoT.Device.Switch_IP The IP of the switch this device is connected to.",
+      "name": "PaloAltoNetworksIoT.Device.Switch_Name",
+      "required": ""
+    },
+    {
+      "description": "The IP of the access point this device is connected to. PaloAltoNetworksIoT.Device.Access_Point_Name The name of the access point this device is connected to.",
+      "name": "PaloAltoNetworksIoT.Device.Access_Point_IP",
+      "required": ""
+    },
+    {
+      "description": "The SSID of the wireless network this device is connected to. PaloAltoNetworksIoT.Device.MAC Date",
+      "name": "PaloAltoNetworksIoT.Device.SSID",
+      "required": ""
+    },
+    {
+      "description": "PaloAltoNetworksIoT.Device.display_tags The user tags of the device. PaloAltoNetworksIoT.Device.mac_address",
+      "name": "The device MAC address.",
+      "required": ""
+    },
+    {
+      "description": "The device MAC address. Edit this page Report an Issue",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Palo Alto Networks Enterprise DLP Next Palo Alto Networks IoT 3rd Party (Deprecated) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Configure Palo Alto Networks IoT in Cortex Commands iot-security-get-device",
+      "name": "Get your Palo Alto Networks IoT Access Keys",
+      "required": ""
+    },
+    {
+      "description": "iot-security-list-alerts iot-security-list-vulns iot-security-resolve-alert",
+      "name": "iot-security-list-devices",
+      "required": ""
+    },
+    {
+      "description": "iot-security-get-device-by-ip Docs Developer Docs",
+      "name": "iot-security-resolve-vuln",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks IoT",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/palo-alto-networks-io-t"
+}

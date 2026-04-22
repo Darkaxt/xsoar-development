@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "175c30f8-8bba-44bc-9727-7065da0ed109",
+  "examples": [
+    "Command Example\n!file file=\"3d74da0a7276735f1afae01951b39ff7a9d92c94\"\nContext Example\n{\n\"DBotScore\": [\n{\n\"Vendor\": \"MISP\",\n\"Indicator\": \"3d74da0a7276735f1afae01951b39ff7a9d92c94\",",
+    "!file file=\"3d74da0a7276735f1afae01951b39ff7a9d92c94\"\nContext Example\n{\n\"DBotScore\": [\n{\n\"Vendor\": \"MISP\",\n\"Indicator\": \"3d74da0a7276735f1afae01951b39ff7a9d92c94\",\n\"Score\": 3,"
+  ],
+  "kind": "integration-command",
+  "name": "file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Bad hash found. File.SHA1 Bad SHA1 hash.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "Bad SHA256 hash. File.Malicious.Vendor For malicious files, the vendor that made the decision.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the reason that the vendor made the decision. DBotScore.Indicator The indicator that was tested.",
+      "name": "File.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "Indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MISP v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/misp-v2"
+}

@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!servicenow-delete-ticket id=0c23f8d24f102300d316b63ca310c742\nHuman Readable Output\n5. Add a link to a ticket\nAdds a link to a specified ServiceNow ticket.\nBase Command\nservicenow-add-link\nInput",
+    "!servicenow-delete-ticket id=0c23f8d24f102300d316b63ca310c742\nHuman Readable Output\n5. Add a link to a ticket\nAdds a link to a specified ServiceNow ticket.\nBase Command\nservicenow-add-link\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "servicenow-add-link",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now"
+}

@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "resolve-shortened-url"
+  ],
+  "arguments": [],
+  "description": "ResolveShortenedURL | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ResolveShortenedURL",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The resolved URL data. ResolveShortenedURL.OriginalURL The original shortened URL.",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "ResolveShortenedURL.ResolvedURL The resolved URL. ResolveShortenedURL.RedirectCount",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "int ResolveShortenedURL.RedirectHistory The history of redirects followed to resolve the URL.",
+      "name": "The number of redirects followed to resolve the URL.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "list",
+      "required": ""
+    },
+    {
+      "description": "Next RestartFailedTasks \u00bb Script Data",
+      "name": "\u00ab ResolveGemAlert",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ResolveShortenedURL",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/resolve-shortened-url"
+}

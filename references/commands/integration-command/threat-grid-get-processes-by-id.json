@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "\"Type\": \"ASCII text, with very long lines\\n\",",
+  "examples": [
+    "Command Example\n!threat-grid-get-processes-by-id id=9798717402a40970a2d043014d9a6170\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"Id\": \"9798717402a40970a2d043014d9a6170\"\n}",
+    "!threat-grid-get-processes-by-id id=9798717402a40970a2d043014d9a6170\nContext Example\n{\n\"ThreatGrid\": {\n\"Sample\": {\n\"Id\": \"9798717402a40970a2d043014d9a6170\"\n}\n},"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-get-processes-by-id",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the sample that the PCAP needs to be downloaded for.",
+      "name": "ThreatGrid.Sample.Id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

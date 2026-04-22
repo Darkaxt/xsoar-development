@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!sw-block-domain-or-ip domain=test.com",
+  "examples": [
+    "Command Example\n!sw-block-domain-or-ip domain=test.com\n5. Unblock a domain\nRemoves a domain from the block list.\nBase Command\nsw-unblock-domain\nInput\nArgument Name",
+    "!sw-block-domain-or-ip domain=test.com\n5. Unblock a domain\nRemoves a domain from the block list.\nBase Command\nsw-unblock-domain\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "sw-unblock-domain",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Secure Cloud Analytics (Stealthwatch Cloud)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/stealthwatch-cloud"
+}

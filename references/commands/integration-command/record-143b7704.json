@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Ironscales.classifyincident",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List of open incidents IDs. Edit this page Report an Issue",
+      "name": "Ironscales.OpenIncidents.incident_ids",
+      "required": ""
+    },
+    {
+      "description": "\u00ab IronDefense Next Ironscales Event Collector \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands ironscales-get-incident ironscales-classify-incident",
+      "name": "Configure Ironscales in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "ironscales-get-open-incidents",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ironscales",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ironscales"
+}

@@ -1,0 +1,77 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!atd!detonate-url url=\"\nhttps://mcafee.com\n\" format=jsonlist-user\nContext Example\n{\nSummary:{\n} 20 items Bait: Baitexe activated but not infected Behavior:[",
+    "!atd!detonate-url url=\"\nhttps://mcafee.com\n\" format=jsonlist-user\nContext Example\n{\nSummary:{\n} 20 items Bait: Baitexe activated but not infected Behavior:[\n] 15 items 0: Identified as --- by Gateway Anti-Malware 1: Identified as --- by GTI File Reputation 2: Identified as --- by GTI URL Reputation 3: Identified as --- by Anti-Malware 4: Altered Web Proxy Auto-Discovery Protocol (WPAD) for rerouting of the network traffic 5: Modified time attribute of the specified file after its creation 6: Modified file's time creation attributes 7: Hid content by modifying its attributes 8: Downloaded data from a webserver 9: Modified INTERNET_OPTION_CONNECT_RETRIES: number of times that WinInet attempts to resolve and connect to a host 10: Connected to a specific service provider 11: Manipulated an existing Windows service by its handle 12: Created named mutex object 13: Obtained user's logon name 14: Set a filter function to supersede the top-level exception handler ( http: //msdn.microsoft.com/en-us/library/vstudio/x85tt0dd.aspx ) DETversion:4.2 .0.171220 Data:{"
+  ],
+  "kind": "integration-command",
+  "name": "detonate-url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File name (only if the report type is JSON) InfoFile.Type File type, for example \"PE\" (only if the report type is JSON)",
+      "name": "InfoFile.Name",
+      "required": ""
+    },
+    {
+      "description": "File size (only if the report type is JSON) InfoFile.MD5 MD5 hash of the file (only if the report type is JSON)",
+      "name": "InfoFile.Size",
+      "required": ""
+    },
+    {
+      "description": "SHA-1 hash of the file (only if the report type is JSON) InfoFile.SHA256 SHA-256 hash of the file (only if the report type is JSON)",
+      "name": "InfoFile.SHA1",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the vendor that made the decision InfoFile.Malicious.Description For malicious files, the reason that the vendor made the decision",
+      "name": "InfoFile.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested (only if the report type is JSON) DBotScore.Type The type of the indicator (only if the report type is JSON)",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score (only if the report type is JSON) DBotScore.Score The actual score (only if the report type is JSON)",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The returned TaskId value in the submission step, previously returned value in the File/URL submission step ATD.Task.jobId The returned JobId value in the submission step, previously returned value in the File/URL submission step",
+      "name": "ATD.Task.taskId",
+      "required": ""
+    },
+    {
+      "description": "The task ID status (Completed or Analyzing) ATD.Task.messageId The message ID relevant to the uploaded sample",
+      "name": "ATD.Task.status",
+      "required": ""
+    },
+    {
+      "description": "The detonated URL ATD.Task.srcIp Source IPv4 address",
+      "name": "ATD.Task.url",
+      "required": ""
+    },
+    {
+      "description": "Destination IPv4 address ATD.Task.MD5 MD5 of the uploaded sample",
+      "name": "ATD.Task.destIp",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 of the uploaded sample ATD.Task.SHA1 SHA-1 of the uploaded sample",
+      "name": "ATD.Task.SHA256",
+      "required": ""
+    },
+    {
+      "description": "IPs relevant to the sample",
+      "name": "IP.Address",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Advanced Threat Defense",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-advanced-threat-defense"
+}

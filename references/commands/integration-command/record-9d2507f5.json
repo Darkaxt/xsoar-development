@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "URL identification result. URL.Url The URL that was tested.",
+      "name": "URL.Status",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the vendor that made the decision. URL.Malicious.Description For malicious URLs, the reason for the vendor to make the decision.",
+      "name": "URL.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Score The actual score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Ironscales Event Collector",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Ivanti Heat \u00bb Configure IsItPhishing in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "url",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IsItPhishing",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/is-it-phishing"
+}

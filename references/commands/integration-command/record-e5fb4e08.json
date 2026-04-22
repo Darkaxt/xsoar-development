@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!tie-file-references file=f2c7bb8acc97f92e987a2d4087d021b1,7eb0139d2175739b3ccb0d1110067820be6abd29 query_limit=5\nContext Example\n#\n{\n\"File\"\n:",
+    "!tie-file-references file=f2c7bb8acc97f92e987a2d4087d021b1,7eb0139d2175739b3ccb0d1110067820be6abd29 query_limit=5\nContext Example\n#\n{\n\"File\"\n:\n[\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The type of the hash. File.Hashes.value The value of the hash.",
+      "name": "File.Hashes.type",
+      "required": ""
+    },
+    {
+      "description": "The MD5 hash of the file. File.SHA1 The SHA1 hash of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "The SHA256 hash of the file. McAfee.TIE.FilesReferences.References.AgentGuid The GUID of the system that referenced the file.",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "The time the system first referenced the file (UTC timezone). McAfee.TIE.FilesReferences.Hash The value of the hash.",
+      "name": "McAfee.TIE.FilesReferences.References.Date",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee Threat Intelligence Exchange v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-threat-intelligence-exchange-v2"
+}

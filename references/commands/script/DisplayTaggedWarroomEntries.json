@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "display-tagged-warroom-entries"
+  ],
+  "arguments": [],
+  "description": "DisplayTaggedWarroomEntries | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DisplayTaggedWarroomEntries",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next displayUtilitiesResults \u00bb Script Data",
+      "name": "\u00ab displaySiteCategory",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DisplayTaggedWarroomEntries",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/display-tagged-warroom-entries"
+}

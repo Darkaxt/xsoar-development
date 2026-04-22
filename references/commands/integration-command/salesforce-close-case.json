@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There is no input for this command.",
+      "required": ""
+    }
+  ],
+  "description": "There is no input for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "salesforce-close-case",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "11. Close a case Close a case Base Command",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "salesforce-close-case",
+      "required": ""
+    },
+    {
+      "description": "Case Object ID SalesForce.Case.CaseNumber Case Number",
+      "name": "SalesForce.Case.ID",
+      "required": ""
+    },
+    {
+      "description": "Case Subject SalesForce.Case.Description Case Description",
+      "name": "SalesForce.Case.Subject",
+      "required": ""
+    },
+    {
+      "description": "date Creation Time of Case SalesForce.Case.ClosedDate",
+      "name": "SalesForce.Case.CreateDate",
+      "required": ""
+    },
+    {
+      "description": "Closure Time of Case SalesForce.Case.Owner Case Owner",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "Priority of the Case. one of Low, Medium, High. SalesForce.Case.Origin Origin of the Case. one of Web, Phone, Email.",
+      "name": "SalesForce.Case.Priority",
+      "required": ""
+    },
+    {
+      "description": "Case Status. one of the following: New, Escalated, On Hold or Closed.",
+      "name": "SalesForce.Case.Status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Salesforce",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/salesforce"
+}

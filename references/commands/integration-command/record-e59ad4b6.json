@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Disable an active user.",
+  "examples": [
+    "Command Example\n#\n!iam-disable-user user-profile=`{\"email\": \"john.doe@example.com\", \"givenname\": \"John\"}`\nHuman Readable Output\n#\nDisable User Results\n#\nbrand",
+    "!iam-disable-user user-profile=`{\"email\": \"john.doe@example.com\", \"givenname\": \"John\"}`\nHuman Readable Output\n#\nDisable User Results\n#\nbrand\ninstanceName\nsuccess"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "When true, indicates that the employee's status is active in the 3rd-party integration. IAM.Vendor.brand Name of the integration.",
+      "name": "IAM.Vendor.active",
+      "required": ""
+    },
+    {
+      "description": "Provides the raw data from the 3rd-party integration. IAM.Vendor.email The employee's email address.",
+      "name": "IAM.Vendor.details",
+      "required": ""
+    },
+    {
+      "description": "HTTP error response code. IAM.Vendor.errorMessage Reason why the API failed.",
+      "name": "IAM.Vendor.errorCode",
+      "required": ""
+    },
+    {
+      "description": "The employee's user ID in the app. IAM.Vendor.instanceName Name of the integration instance.",
+      "name": "IAM.Vendor.id",
+      "required": ""
+    },
+    {
+      "description": "When true, indicates that the command was executed successfully. IAM.Vendor.username The employee's username in the app.",
+      "name": "IAM.Vendor.success",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ExceedLMS IAM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/exceed-lms-iam"
+}

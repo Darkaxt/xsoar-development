@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "19903a443a47441a86c92c3aea5abb30",
+  "examples": [
+    "Command Example\n!traps-endpoint-isolate endpoint_id=d3339851f18f470182bf2bf98ad5db4b\nContext Example\n{\n\"Traps.Isolate\": {\n\"EndpointID\": \"d3339851f18f470182bf2bf98ad5db4b\",\n\"OperationID\": \"4278ac6ce5bd11e9acbf0245d8e950da\",\n\"Type\": \"endpoint-isolate\"",
+    "!traps-endpoint-isolate endpoint_id=d3339851f18f470182bf2bf98ad5db4b\nContext Example\n{\n\"Traps.Isolate\": {\n\"EndpointID\": \"d3339851f18f470182bf2bf98ad5db4b\",\n\"OperationID\": \"4278ac6ce5bd11e9acbf0245d8e950da\",\n\"Type\": \"endpoint-isolate\"\n}"
+  ],
+  "kind": "integration-command",
+  "name": "traps-endpoint-isolate",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ID of the endpoint. Traps.Isolate.OperationID The ID of the operation.",
+      "name": "Traps.Isolate.EndpointID",
+      "required": ""
+    },
+    {
+      "description": "The type of operation.",
+      "name": "Traps.Isolate.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Palo Alto Networks Traps (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/traps"
+}

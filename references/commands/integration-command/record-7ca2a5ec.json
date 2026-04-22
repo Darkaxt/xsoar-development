@@ -1,0 +1,89 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "update-remote-system",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Updates the remote system with local changes.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "update-remote-system",
+      "required": ""
+    },
+    {
+      "description": "Incident Mirroring",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "To set up the mirroring: Enable Fetching incidents",
+      "name": "You can enable incident mirroring between Cortex XSOAR incidents and CTM360 HackerView corresponding events (available from Cortex XSOAR version 6.0.0).",
+      "required": ""
+    },
+    {
+      "description": "In the Mirroring Direction integration parameter, select in which direction the incidents should be mirrored:",
+      "name": "in your instance configuration.",
+      "required": ""
+    },
+    {
+      "description": "Description None Turns off incident mirroring.",
+      "name": "Option",
+      "required": ""
+    },
+    {
+      "description": "Any changes in CTM360 HackerView events (mirroring incoming fields) will be reflected in Cortex XSOAR incidents. Outgoing Any changes in Cortex XSOAR incidents will be reflected in CTM360 HackerView events (outgoing mirrored fields).",
+      "name": "Incoming",
+      "required": ""
+    },
+    {
+      "description": "Changes in Cortex XSOAR incidents and CTM360 HackerView events will be reflected in both directions. Newly fetched incidents will be mirrored in the chosen direction. However, this selection does not affect existing incidents. Important Note:",
+      "name": "Incoming And Outgoing",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "To ensure the mirroring works as expected, mappers are required, both for incoming and outgoing, to map the expected fields in Cortex XSOAR and CTM360 HackerView.",
+      "required": ""
+    },
+    {
+      "description": "Next Cuckoo Sandbox \u00bb Configure CTM360 HackerView in Cortex",
+      "name": "\u00ab CTM360 CyberBlindspot",
+      "required": ""
+    },
+    {
+      "description": "ctm360-hv-incident-list ctm360-hv-incident-status-change get-mapping-fields",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "get-remote-data get-modified-remote-data update-remote-system",
+      "name": "ctm360-hv-incident-details",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Incident Mirroring",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CTM360 HackerView",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ctm360-hacker-view"
+}

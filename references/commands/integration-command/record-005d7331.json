@@ -1,0 +1,33 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "darktrace-asm-unassign-tag",
+  "examples": [
+    "Command Example\n#\n!darktrace-asm-unassign-tag tag_name=\"API TEST\" asset_id=SVBBZGRyZXNzVHlwZTox\nContext Example\n#\n\"unassignTag\": {\n\"success\": true,\n\"asset\": {",
+    "!darktrace-asm-unassign-tag tag_name=\"API TEST\" asset_id=SVBBZGRyZXNzVHlwZTox\nContext Example\n#\n\"unassignTag\": {\n\"success\": true,\n\"asset\": {\n\"id\": \"SVBBZGRyZXNzVHlwZTox\",\n\"tags\": []",
+    "Command Example\ndarktrace-asm-post-comment\nCommand Example\ndarktrace-asm-edit-comment\nCommand Example\ndarktrace-asm-delete-comment\nCommand Example\ndarktrace-asm-create-tag",
+    "Command Example\ndarktrace-asm-edit-comment\nCommand Example\ndarktrace-asm-delete-comment\nCommand Example\ndarktrace-asm-create-tag\nCommand Example\ndarktrace-asm-assign-tag",
+    "Command Example\ndarktrace-asm-delete-comment\nCommand Example\ndarktrace-asm-create-tag\nCommand Example\ndarktrace-asm-assign-tag\nCommand Example\ndarktrace-asm-unassign-tag",
+    "Command Example\ndarktrace-asm-create-tag\nCommand Example\ndarktrace-asm-assign-tag\nCommand Example\ndarktrace-asm-unassign-tag\nCommand Example\nDocs",
+    "Command Example\ndarktrace-asm-assign-tag\nCommand Example\ndarktrace-asm-unassign-tag\nCommand Example\nDocs\nDeveloper Docs\nBecome a Technology Partner",
+    "Command Example\ndarktrace-asm-unassign-tag\nCommand Example\nDocs\nDeveloper Docs\nBecome a Technology Partner\nSocial\nBlog"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Status of assignment. Darktrace.tag.asset.id Asset ID.",
+      "name": "Darktrace.tag.success",
+      "required": ""
+    },
+    {
+      "description": "list List of Tags assigned to Asset.",
+      "name": "Darktrace.tag.asset.tags",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Darktrace ASM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/darktrace-asm"
+}

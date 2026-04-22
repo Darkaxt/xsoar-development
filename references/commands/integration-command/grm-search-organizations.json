@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2019-01-15T12:30:21.267Z",
+  "examples": [
+    "Command Example\ngrm-search-organizations\nContext Example\n{\n\"GRM.Organization\": [\n{\n\"Owner\": {\n\"CustomerID\": \"C02f0zfqw\""
+  ],
+  "kind": "integration-command",
+  "name": "grm-search-organizations",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The resource name of the organization. This is the organization's relative path in the API. Its format is \"organizations/[organization_id]\" e.g. \"organizations/1234\". GRM.Organization.State The organization's current lifecycle state",
+      "name": "GRM.Organization.Name",
+      "required": ""
+    },
+    {
+      "description": "Date The time the organization resource was created GRM.Organization.Owner.CustomerID",
+      "name": "GRM.Organization.CreateTime",
+      "required": ""
+    },
+    {
+      "description": "The G Suite customer ID used in the Directory API",
+      "name": "String",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Resource Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-resource-manager"
+}

@@ -1,0 +1,133 @@
+{
+  "aliases": [
+    "get-incident-tasks"
+  ],
+  "arguments": [],
+  "description": "GetIncidentTasks | Cortex XSOAR",
+  "examples": [
+    "!GetIncidentTasks inc_id=10 name=\"Email Campaign Search\"\nContext Example\n#\n{\n\"Tasks\"\n:\n{\n\"completedBy\""
+  ],
+  "kind": "script",
+  "name": "GetIncidentTasks",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The entire task object. Tasks.id Task ID.",
+      "name": "Tasks",
+      "required": ""
+    },
+    {
+      "description": "Tasks.name Task name. Tasks.type",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Tasks.owner Task owner. Tasks.state",
+      "name": "The type of the task (regular, condition, title, playbook, start).",
+      "required": ""
+    },
+    {
+      "description": "Tasks.scriptId Task related script (empty if manual). Tasks.startDate",
+      "name": "Task state (inprogress, Completed, WillNotBeExecuted, Error, LoopError, Waiting, Blocked, and empty string for not started).",
+      "required": ""
+    },
+    {
+      "description": "Tasks.completedDate Task completed date. Tasks.dueDate",
+      "name": "Task start date.",
+      "required": ""
+    },
+    {
+      "description": "Tasks.parentPlaybookID Task parent playbook ID (in case the task is part of a sub-playbook). Tasks.completedBy",
+      "name": "Task due date (SLA).",
+      "required": ""
+    },
+    {
+      "description": "Script Examples",
+      "name": "Task completed by (username).",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!GetIncidentTasks inc_id=10 name=\"Email Campaign Search\"",
+      "required": ""
+    },
+    {
+      "description": "\"Tasks\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": \"DBot\" ,",
+      "name": "\"completedBy\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2024-01-09T12:26:33.75641877Z\" ,",
+      "name": "\"completedDate\"",
+      "required": ""
+    },
+    {
+      "description": ": \"0001-01-01T00:00:00Z\" ,",
+      "name": "\"dueDate\"",
+      "required": ""
+    },
+    {
+      "description": ": \"101\" ,",
+      "name": "\"id\"",
+      "required": ""
+    },
+    {
+      "description": ": \"Email Campaign Search\" ,",
+      "name": "\"name\"",
+      "required": ""
+    },
+    {
+      "description": ": \"Dummy\" ,",
+      "name": "\"owner\"",
+      "required": ""
+    },
+    {
+      "description": ": null ,",
+      "name": "\"parentPlaybookID\"",
+      "required": ""
+    },
+    {
+      "description": ": null ,",
+      "name": "\"scriptId\"",
+      "required": ""
+    },
+    {
+      "description": ": \"0001-01-01T00:00:00Z\" ,",
+      "name": "\"startDate\"",
+      "required": ""
+    },
+    {
+      "description": ": \"Completed\" ,",
+      "name": "\"state\"",
+      "required": ""
+    },
+    {
+      "description": ": \"title\" }",
+      "name": "\"type\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetIncidentTasks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-incident-tasks"
+}

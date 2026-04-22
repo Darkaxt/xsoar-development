@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get IP address report: vt-private-get-ip-report",
+  "examples": [
+    "Command Example\n!vt-private-check-file-behaviour resource=\"2d8bb37078ff9efd02d9361975c9e625ae56bd8a8a65d50fc568341bc88392ae\" threshold=20\nContext Example\n{\n\"SHA256\": \"2d8bb37078ff9efd02d9361975c9e625ae56bd8a8a65d50fc568341bc88392ae\",\n\"VirusTotal\": {\n\"RelatedDomains\": [\n\"stromoliks.com\",",
+    "!vt-private-check-file-behaviour resource=\"2d8bb37078ff9efd02d9361975c9e625ae56bd8a8a65d50fc568341bc88392ae\" threshold=20\nContext Example\n{\n\"SHA256\": \"2d8bb37078ff9efd02d9361975c9e625ae56bd8a8a65d50fc568341bc88392ae\",\n\"VirusTotal\": {\n\"RelatedDomains\": [\n\"stromoliks.com\",\n\"promoliks.com\","
+  ],
+  "kind": "integration-command",
+  "name": "vt-private-check-file-behaviour",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "MD5 of the file File.SHA1 SHA-1 of the file",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 of the file File.VirusTotal.RelatedDomains Domains that the hash communicates with",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "URLs that the hash communicates with File.VirusTotal.RelatedIPs IPs that the hash communicates with",
+      "name": "File.VirusTotal.RelatedURLs",
+      "required": ""
+    },
+    {
+      "description": "Hosts that the hash communicates with File.VirusTotal.RelatedFiles Files that are related to this hash",
+      "name": "File.VirusTotal.RelatedHosts",
+      "required": ""
+    },
+    {
+      "description": "Keys that are related to this hash File.VirusTotal.RelatedMutexes Mutexes that are related to this hash",
+      "name": "File.VirusTotal.RelatedRegistryKeys",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VirusTotal - Private API (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/virus-total---private-api"
+}

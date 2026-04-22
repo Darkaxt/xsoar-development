@@ -1,0 +1,97 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "noreply@ipqualityscore.com",
+  "examples": [
+    "Command Example\n#\n!url url=\"https://google.com\"\nContext Example\n#\n{\n\"DBotScore\"\n:",
+    "!url url=\"https://google.com\"\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "A generic status message, either success or some form of an error notice. IPQualityScore.Url.success Was the request successful?",
+      "name": "IPQualityScore.Url.message",
+      "required": ""
+    },
+    {
+      "description": "Is this domain suspected of being unsafe due to phishing, malware, spamming, or abusive behavior? View the confidence level by analyzing the \"risk_score\". IPQualityScore.Url.domain Domain name of the final destination URL of the scanned link, after following all redirects.",
+      "name": "IPQualityScore.Url.unsafe",
+      "required": ""
+    },
+    {
+      "description": "The IP address corresponding to the server of the domain name. IPQualityScore.Url.server The server banner of the domain's IP address. For example: \"nginx/1.16.0\". Value will be \"N/A\" if unavailable.",
+      "name": "IPQualityScore.Url.ip_address",
+      "required": ""
+    },
+    {
+      "description": "MIME type of URL's content. For example \"text/html; charset=UTF-8\". Value will be \"N/A\" if unavailable. IPQualityScore.Url.status_code HTTP Status Code of the URL's response. This value should be \"200\" for a valid website. Value is \"0\" if URL is unreachable.",
+      "name": "IPQualityScore.Url.content_type",
+      "required": ""
+    },
+    {
+      "description": "Total number of bytes to download the URL's content. Value is \"0\" if URL is unreachable. IPQualityScore.Url.domain_rank Estimated popularity rank of website globally. Value is \"0\" if the domain is unranked or has low traffic.",
+      "name": "IPQualityScore.Url.page_size",
+      "required": ""
+    },
+    {
+      "description": "The domain of the URL has valid DNS records. IPQualityScore.Url.parking Is the domain of this URL currently parked with a for sale notice?",
+      "name": "IPQualityScore.Url.dns_valid",
+      "required": ""
+    },
+    {
+      "description": "Is the domain of this URL associated with email SPAM or abusive email addresses? IPQualityScore.Url.malware Is this URL associated with malware or viruses?",
+      "name": "IPQualityScore.Url.spamming",
+      "required": ""
+    },
+    {
+      "description": "Is this URL associated with malicious phishing behavior? IPQualityScore.Url.suspicious Is this URL suspected of being malicious or used for phishing or abuse? Use in conjunction with the \"risk_score\" as a confidence level.",
+      "name": "IPQualityScore.Url.phishing",
+      "required": ""
+    },
+    {
+      "description": "The IPQS risk score which estimates the confidence level for malicious URL detection. Risk Scores 85+ are high risk, while Risk Scores = 100 are confirmed as accurate. IPQualityScore.Url.request_id A unique identifier for this request that can be used to lookup the request details or send a postback conversion notice.",
+      "name": "IPQualityScore.Url.risk_score",
+      "required": ""
+    },
+    {
+      "description": "The URL being queried. IPQualityScore.Url.adult Is this URL or domain hosting dating or adult content?",
+      "name": "IPQualityScore.Url.url",
+      "required": ""
+    },
+    {
+      "description": "Date A human description of when this domain was registered. (Ex: 3 months ago) IPQualityScore.Url.domain_age.timestamp",
+      "name": "IPQualityScore.Url.domain_age.human",
+      "required": ""
+    },
+    {
+      "description": "The unix time since epoch when this domain was first registered. (Ex: 1568061634) IPQualityScore.Url.domain_age.iso Date",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Indicator The indicator that was tested. DBotScore.Score",
+      "name": "The time this domain was registered in ISO8601 format (Ex: 2019-09-09T16:40:34-04:00)",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Type The indicator type.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. URL.Data The URL",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The vendor reporting the URL as malicious.",
+      "name": "URL.Malicious.Vendor",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "IPQualityScore",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ip-quality-score"
+}

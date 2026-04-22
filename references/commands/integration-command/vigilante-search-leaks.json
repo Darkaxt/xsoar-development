@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!vigilante-search-leaks days_ago=\"100\" keyword=\"apple\" limit=\"5\"\nContext Example\n{\n\"VigilanteATI\": {\n\"Leaks\": [\n{\n\"leak_id\": \"aa66573902ed4f4bfb2ae08ebac390c3\",",
+    "!vigilante-search-leaks days_ago=\"100\" keyword=\"apple\" limit=\"5\"\nContext Example\n{\n\"VigilanteATI\": {\n\"Leaks\": [\n{\n\"leak_id\": \"aa66573902ed4f4bfb2ae08ebac390c3\",\n\"password_type\": null,"
+  ],
+  "kind": "integration-command",
+  "name": "vigilante-search-leaks",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique identifier for the leak. We internally use MD5 sums to identify leaks, so this will be a MD5 sum VigilanteATI.Leaks.title Title of the leak.",
+      "name": "VigilanteATI.Leaks.leak_id",
+      "required": ""
+    },
+    {
+      "description": "A short leak description VigilanteATI.Leaks.leak_type Type of the leak. Currently we feature the following leak designations: \"Database dump\", \"Credentials dump\" or \"Credit card dump\". As our service grows we will add new leak types into the system.",
+      "name": "VigilanteATI.Leaks.description",
+      "required": ""
+    },
+    {
+      "description": "List of sources (URIs) where this leak was available at the time VigilanteATI team harvested it. VigilanteATI.Leaks.import_date date",
+      "name": "VigilanteATI.Leaks.source_refs",
+      "required": ""
+    },
+    {
+      "description": "VigilanteATI.Leaks.attackers A list of attackers (hackers) who claimed responsibility for the breach/leak. VigilanteATI.Leaks.score",
+      "name": "The date the leak was first imported into the VigilanteATI database.",
+      "required": ""
+    },
+    {
+      "description": "An integer, in a range of 0 to 100, of how confident we are this leak is legitimate. VigilanteATI.Leaks.num_domains_affected Number of domains affected by the leak.",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "A list of target industry verticals affected by the leak. VigilanteATI.Leaks.attack_method The method of attack on the target; if published. This is usually \"SQLi\", \"phishing\", \"social engineering\", etc.",
+      "name": "VigilanteATI.Leaks.target_industries",
+      "required": ""
+    },
+    {
+      "description": "A list of media articles covering the data leak. VigilanteATI.Leaks.targets List of entities targeted by this leak.",
+      "name": "VigilanteATI.Leaks.media_refs",
+      "required": ""
+    },
+    {
+      "description": "Total number of account credentials (email/password pairs) harvested from this leak. VigilanteATI.Leaks.password_hash Type of password hash; only present if leaked passwords have been hashed.",
+      "name": "VigilanteATI.Leaks.num_entries",
+      "required": ""
+    },
+    {
+      "description": "Token required to paginate the next set of results in. This is only provided if the number of items in the response exceeds our max pagination size. Otherwise it is set to an empty string.",
+      "name": "VigilanteATI.LeakInfoToken",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "InfoArmor VigilanteATI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/info-armor-vigilante-ati"
+}

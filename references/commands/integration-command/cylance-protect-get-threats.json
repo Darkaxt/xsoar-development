@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "cylance-protect-get-indicators-report token=As3424$%",
+  "examples": [
+    "Command Example\ncylance-protect-get-indicators-report token=As3424$%\nRaw Output\nThere is no raw output for this command.\n13. Get information for threats\nReturns information for threats.\nBase Command\ncylance-protect-get-threats",
+    "Command Example\n!cylance-protect-get-threats page_size=4\nRaw Output\n{\n\"av_industry\":null,\n\"classification\":\"Malware\",\n\"cylance_score\":-1,\n\"file_size\":3514368,",
+    "!cylance-protect-get-threats page_size=4\nRaw Output\n{\n\"av_industry\":null,\n\"classification\":\"Malware\",\n\"cylance_score\":-1,\n\"file_size\":3514368,\n\"global_quarantined\":true,"
+  ],
+  "kind": "integration-command",
+  "name": "cylance-protect-get-threats",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Threat classification for the threat File.SubClassification Threat sub-classification for the threat",
+      "name": "File.Classification",
+      "required": ""
+    },
+    {
+      "description": "SHA-256 hash for the threat File.Safelisted Identifies if the threat is on the Safe List",
+      "name": "File.Sha256",
+      "required": ""
+    },
+    {
+      "description": "Threat name File.LastFound Date and time (in UTC) when the file was last found",
+      "name": "File.Name",
+      "required": ""
+    },
+    {
+      "description": "The Cylance Score assigned to the threat File.GlobalQuarantine Identifies if the threat is on the Global Quarantine list",
+      "name": "File.CylanceScore",
+      "required": ""
+    },
+    {
+      "description": "The threat was identified by Cylance but not by other anti-virus sources File.FileSize File size",
+      "name": "File.UniqueToCylance",
+      "required": ""
+    },
+    {
+      "description": "MD5 hash for the threat DBotScore.Indicator The tested indicator",
+      "name": "File.Md5",
+      "required": ""
+    },
+    {
+      "description": "Indicator type DBotScore.Vendor Vendor used to calculate the score",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cylance Protect v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cylance-protect-v2"
+}

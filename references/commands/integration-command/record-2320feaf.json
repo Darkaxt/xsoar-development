@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "fortisandbox-submission-job-report",
+  "examples": [
+    "!fortisandbox-submission-job-report identifier=7047959279104315513\nContext Example\n#\n{\n\"InfoFile\"\n:\n{\n\"EntryID\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File name. InfoFile.EntryID The entry ID of the report.",
+      "name": "InfoFile.Name",
+      "required": ""
+    },
+    {
+      "description": "File size. InfoFile.Type File type \"pdf\".",
+      "name": "InfoFile.Size",
+      "required": ""
+    },
+    {
+      "description": "Basic information of the file.",
+      "name": "InfoFile.Info",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "FortiSandbox v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/forti-sandboxv2"
+}

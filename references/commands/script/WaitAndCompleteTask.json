@@ -1,0 +1,68 @@
+{
+  "aliases": [
+    "wait-and-complete-task"
+  ],
+  "arguments": [],
+  "description": "WaitAndCompleteTask | Cortex XSOAR",
+  "examples": [
+    "!WaitAndCompleteTask incident_id=6209 task_states=Waiting complete_task=true\nContext Example\n#\n{\n\"WaitAndCompleteTask\"\n:\n{\n\"CompletedTask\""
+  ],
+  "kind": "script",
+  "name": "WaitAndCompleteTask",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Task name that was completed by the script. WaitAndCompleteTask.FoundTask Tasks that were found by the script.",
+      "name": "WaitAndCompleteTask.CompletedTask",
+      "required": ""
+    },
+    {
+      "description": "Script Examples",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!WaitAndCompleteTask incident_id=6209 task_states=Waiting complete_task=true",
+      "required": ""
+    },
+    {
+      "description": "\"WaitAndCompleteTask\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": [ \"Conditional task\"",
+      "name": "\"CompletedTask\"",
+      "required": ""
+    },
+    {
+      "description": "\"manual task 1\" ] ,",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ": [ ]",
+      "name": "\"FoundTask\"",
+      "required": ""
+    },
+    {
+      "description": "}",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "WaitAndCompleteTask",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/wait-and-complete-task"
+}

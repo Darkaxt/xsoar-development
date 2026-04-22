@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n#\nazure-data-explorer-generate-login-url\nHuman Readable Output\n#\nAuthorization instructions\n#\nClick on the login URL to sign in and grant Cortex XSOAR permissions for your Azure Service Management."
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "azure-data-explorer-generate-login-url",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Generate the login url used for Authorization code flow.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "azure-data-explorer-generate-login-url",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Data Explorer",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-data-explorer"
+}

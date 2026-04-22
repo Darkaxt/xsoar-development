@@ -1,0 +1,29 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "esm-delete-case-status name=Pending",
+  "examples": [
+    "Command Example\nesm-delete-case-status name=Pending\nHuman Readable Output\nDeleted case status with ID: 8\n13. Get a list of case organizations\nReturns a list case organizations.\nBase Command\nesm-get-organization-list",
+    "Command Example\n!esm-get-organization-list\nContext Example\n{\n\"Organizations\": [\n{\n\"ID\": 1,\n\"Name\": \"None\"",
+    "!esm-get-organization-list\nContext Example\n{\n\"Organizations\": [\n{\n\"ID\": 1,\n\"Name\": \"None\"\n}"
+  ],
+  "kind": "integration-command",
+  "name": "esm-get-organization-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Organization ID Organizations.Name Organization Name",
+      "name": "Organizations.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v10 and v11 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v10"
+}

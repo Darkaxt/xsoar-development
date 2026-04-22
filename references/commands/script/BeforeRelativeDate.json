@@ -1,0 +1,41 @@
+{
+  "aliases": [
+    "before-relative-date"
+  ],
+  "arguments": [],
+  "description": "BeforeRelativeDate | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "BeforeRelativeDate",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "true or false",
+      "name": "The script returns a boolean value (",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": ") indicating if the date is before the relative time.",
+      "required": ""
+    },
+    {
+      "description": "Next BetweenDates \u00bb Script Data",
+      "name": "\u00ab BatchData",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BeforeRelativeDate",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/before-relative-date"
+}

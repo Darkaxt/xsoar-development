@@ -1,0 +1,45 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "MicrosoftDefenderForCloud.Alert.ID",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Microsoft Defender for Endpoint \u00bb Configure Microsoft Defender for Cloud Event Collector in Cortex",
+      "name": "\u00ab Microsoft Defender for Cloud Apps Event Collector",
+      "required": ""
+    },
+    {
+      "description": "Known limitations ms-defender-for-cloud-get-events ms-defender-for-cloud-auth-reset",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Microsoft Defender for Cloud Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-defender-for-cloud-event-collector"
+}

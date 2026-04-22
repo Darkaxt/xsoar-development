@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "DeepL.DocumentStatus.status",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next DeHashed \u00bb Configure DeepL in Cortex",
+      "name": "\u00ab DeepInstinct v3",
+      "required": ""
+    },
+    {
+      "description": "deepl-usage deepl-translate-text deepl-submit-document",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "deepl-get-document Docs Developer Docs",
+      "name": "deepl-check-document-status",
+      "required": ""
+    },
+    {
+      "description": "Social Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Become a Technology Partner",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DeepL",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/deep-l"
+}

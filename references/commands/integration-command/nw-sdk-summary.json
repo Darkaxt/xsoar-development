@@ -1,0 +1,30 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "Type",
+      "name": "Parameter",
+      "required": ""
+    },
+    {
+      "description": "Type",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!nw-sdk-content session=\"23\" renderType=\"mail\" fileExt=\".zip\"",
+  "examples": [
+    "!nw-sdk-content session=\"23\" renderType=\"mail\" fileExt=\".zip\"\nRaw Output\nThere is no raw output for this command.\nWar Room Output\nGet summary\nReturns summary information from the databases.\nBase Command\nnw-sdk-summary",
+    "Command Example\n!nw-sdk-summary\nRaw Output\n{\n\"flags\":1073872897,\n\"string\":\"mid1=1 mid2=3938 msize=106496 mmax=142947249029 pid1=0 pid2=0 psize=0 pmax=0 time1=336000 time2=1522264920 ptime1=0 ptime2=0 sid1=1 sid2=65 ssize=4096 smax=142947249029 stotalsize=12787062 isize=195854392 memt=8371580928 memu=3604697088 memp=213417984 hostname=NWAPPLIANCE14623 version=11.1.0.0\"\n}\nWar Room Output",
+    "!nw-sdk-summary\nRaw Output\n{\n\"flags\":1073872897,\n\"string\":\"mid1=1 mid2=3938 msize=106496 mmax=142947249029 pid1=0 pid2=0 psize=0 pmax=0 time1=336000 time2=1522264920 ptime1=0 ptime2=0 sid1=1 sid2=65 ssize=4096 smax=142947249029 stotalsize=12787062 isize=195854392 memt=8371580928 memu=3604697088 memp=213417984 hostname=NWAPPLIANCE14623 version=11.1.0.0\"\n}\nWar Room Output\nGet value count",
+    "Command Example\n!nw-sdk-values size=\"10\" fieldName=\"client\"\nRaw Output\n{\n\"flags\":1074200577,\n\"results\":{\n\"fields\":[\n{",
+    "!nw-sdk-values size=\"10\" fieldName=\"client\"\nRaw Output\n{\n\"flags\":1074200577,\n\"results\":{\n\"fields\":[\n{\n\"count\":1,"
+  ],
+  "kind": "integration-command",
+  "name": "nw-sdk-summary",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness Packets and Logs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-packets-and-logs"
+}

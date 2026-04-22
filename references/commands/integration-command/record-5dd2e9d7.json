@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Tidy.Install.AdditionalInfo",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next TOPdesk \u00bb Tidy",
+      "name": "\u00ab ThycoticDSV (Deprecated)",
+      "required": ""
+    },
+    {
+      "description": "tidy-pyenv tidy-goenv tidy-nodenv",
+      "name": "Main use cases",
+      "required": ""
+    },
+    {
+      "description": "tidy-github-ssh-key tidy-git-clone tidy-git-config",
+      "name": "tidy-homebrew",
+      "required": ""
+    },
+    {
+      "description": "tidy-block-in-file tidy-exec tidy-osx-command-line-tools",
+      "name": "tidy-zsh",
+      "required": ""
+    },
+    {
+      "description": "tidy-demisto-web-client tidy-python-env Docs",
+      "name": "tidy-demisto-server",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tidy",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tidy"
+}

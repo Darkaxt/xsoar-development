@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Input Parameter",
+      "required": ""
+    }
+  ],
+  "description": "\"Subject\": \"NewTicketSubject\"",
+  "examples": [
+    "Command Example\n!rtir-ticket-history ticket-id=1\nRaw Output\n[\n{\n\"Attachments\": [\n[\n1,",
+    "!rtir-ticket-history ticket-id=1\nRaw Output\n[\n{\n\"Attachments\": [\n[\n1,\n\"untitled (4b)\""
+  ],
+  "kind": "integration-command",
+  "name": "rtir-ticket-history",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Ticket ID. RTIR.Ticket.History.Content Ticket history content.",
+      "name": "RTIR.Ticket.ID",
+      "required": ""
+    },
+    {
+      "description": "Ticket history creation date. RTIR.Ticket.History.Creator Ticket history creator.",
+      "name": "RTIR.Ticket.History.Created",
+      "required": ""
+    },
+    {
+      "description": "Ticket history description. RTIR.Ticket.History.NewValue Value updated in history transaction.",
+      "name": "RTIR.Ticket.History.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RTIR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rtir"
+}

@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "calculate-time-span"
+  ],
+  "arguments": [],
+  "description": "CalculateTimeSpan | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CalculateTimeSpan",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The number of whole days between the start and end time TimeSpan.Hours The number of whole hours between the start and end time",
+      "name": "TimeSpan.Days",
+      "required": ""
+    },
+    {
+      "description": "TimeSpan.Minutes The number of whole minutes between the start and end time TimeSpan.Seconds",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "TimeSpan.Milliseconds The number of whole milliseconds between the start and end time TimeSpan.Ticks",
+      "name": "The number of whole seconds between the start and end time",
+      "required": ""
+    },
+    {
+      "description": "TimeSpan.TotalDays The number of whole and fractional days between the start and end time TimeSpan.TotalHours",
+      "name": "The number of whole ticks between the start and end time. 1 tick is equals to 100 nanoseconds or ten-millionth of a second",
+      "required": ""
+    },
+    {
+      "description": "TimeSpan.TotalMinutes The number of whole and fractional minutes between the start and end time TimeSpan.TotalSeconds",
+      "name": "The number of whole and fractional hours between the start and end time",
+      "required": ""
+    },
+    {
+      "description": "TimeSpan.TotalMilliseconds The number of whole and fractional milliseconds between the start and end time Edit this page",
+      "name": "The number of whole and fractional seconds between the start and end time",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab CalculateTimeDifference Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "CaseMgmtAnalystTools \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CalculateTimeSpan",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/calculate-time-span"
+}

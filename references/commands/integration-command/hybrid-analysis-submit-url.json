@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The type of the submission. Can be \"file\" or \"url\".",
+  "examples": [
+    "Command Example\n!hybrid-analysis-quick-scan-url url=www.google.com\nHuman Readable Output\n7. Submit a website or file URL for analysis\nSubmits the URL of a website or the URL that contains the file, for analysis.\nBase Command\nhybrid-analysis-submit-url\nInput",
+    "!hybrid-analysis-quick-scan-url url=www.google.com\nHuman Readable Output\n7. Submit a website or file URL for analysis\nSubmits the URL of a website or the URL that contains the file, for analysis.\nBase Command\nhybrid-analysis-submit-url\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "hybrid-analysis-submit-url",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The job ID of the submission. HybridAnalysis.Submit.SHA256 The SHA256 of the submission.",
+      "name": "HybridAnalysis.Submit.JobID",
+      "required": ""
+    },
+    {
+      "description": "The environment ID of the submission. HybridAnalysis.Submit.SubmissionType",
+      "name": "HybridAnalysis.Submit.EnvironmentID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Hybrid Analysis (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hybrid-analysis"
+}

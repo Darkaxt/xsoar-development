@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": ".agent-26', 'scoreContribution': 10, 'seenTime': 1618419753818041182, 'trailId': '162529286'}",
+  "examples": [
+    "Command Example\n#\n!confluera-fetch-trail-details trail-id=\"22796349\"\nContext Example\n#\n{\n\"attackId\": 7164528,\n\"fingerprint\": \"c15ca700c08839b1b26ef8bfdb7599cb52d68307845e4317b355b080fb989170\",",
+    "!confluera-fetch-trail-details trail-id=\"22796349\"\nContext Example\n#\n{\n\"attackId\": 7164528,\n\"fingerprint\": \"c15ca700c08839b1b26ef8bfdb7599cb52d68307845e4317b355b080fb989170\",\n\"hostList\": [\n\"prod_0_3_.agent-35\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Progression Details",
+      "name": "Confluera.TrailDetails",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Confluera",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/confluera"
+}

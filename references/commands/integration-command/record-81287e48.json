@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Application1, Application2",
+  "examples": [
+    "Command Example\n#\n!sta-delete-user-sessions userName=\"hellouser\"\nContext Example\n#\n{\n\"STA\"\n:",
+    "!sta-delete-user-sessions userName=\"hellouser\"\nContext Example\n#\n{\n\"STA\"\n:\n{\n\"USER\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "User ID of the user. STA.USER.USERNAME Username of the user.",
+      "name": "STA.USER.ID",
+      "required": ""
+    },
+    {
+      "description": "Returns true, if all the user SSO sessions are deleted successfully.",
+      "name": "STA.USER.SESSION.DELETED",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Thales SafeNet Trusted Access",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/safe-net-trusted-access"
+}

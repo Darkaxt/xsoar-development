@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!url url=\"http://testsafebrowsing.appspot.com/apiv4/ANY_PLATFORM/MALWARE/URL/\"\nContext Example\n#\n{\n\"DBotScore\"\n:",
+    "!url url=\"http://testsafebrowsing.appspot.com/apiv4/ANY_PLATFORM/MALWARE/URL/\"\nContext Example\n#\n{\n\"DBotScore\"\n:\n{\n\"Indicator\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The indicator that was tested. DBotScore.Type The indicator type.",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Score int",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Reliability Reliability of the source providing the intelligence data. GoogleSafeBrowsing.URL.cacheDuration",
+      "name": "The actual score.",
+      "required": ""
+    },
+    {
+      "description": "The URL cache duration time. GoogleSafeBrowsing.URL.threatType The URL threat type.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "The URL threat entry type. GoogleSafeBrowsing.URL.platformType The URL platform type.",
+      "name": "GoogleSafeBrowsing.URL.threatEntryType",
+      "required": ""
+    },
+    {
+      "description": "Bad URLs found URL.Malicious.Vendor For malicious URLs, the vendor that made the decision",
+      "name": "URL.Data",
+      "required": ""
+    },
+    {
+      "description": "For malicious URLs, the reason for the vendor to make the decision",
+      "name": "URL.Malicious.Description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Safe Browsing v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-safe-browsing-v2"
+}

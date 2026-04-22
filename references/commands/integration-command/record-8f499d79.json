@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "cisco-asa-list-interfaces",
+  "examples": [
+    "!cisco-asa-list-interfaces\nContext Example\n#\n{\n\"CiscoASA\"\n:\n{\n\"Interface\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The interface ID. CiscoASA.Interface.Name The interface name.",
+      "name": "CiscoASA.Interface.ID",
+      "required": ""
+    },
+    {
+      "description": "The type of interface.",
+      "name": "CiscoASA.Interface.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ASA",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-asa"
+}

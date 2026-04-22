@@ -1,0 +1,416 @@
+{
+  "aliases": [
+    "dedup-by"
+  ],
+  "arguments": [],
+  "description": "DedupBy | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DedupBy",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Examples-1",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "DestinationIP SourceIP 1.1.1.1",
+      "name": "Here is a table to be used as samples in the Examples-1.",
+      "required": ""
+    },
+    {
+      "description": "1.1.1.1 192.168.1.1 1.1.1.1",
+      "name": "192.168.1.1",
+      "required": ""
+    },
+    {
+      "description": "1.1.1.1 192.168.1.2 1.1.1.1",
+      "name": "192.168.1.2",
+      "required": ""
+    },
+    {
+      "description": "1.1.1.1 192.168.1.3 2.2.2.2",
+      "name": "192.168.1.3",
+      "required": ""
+    },
+    {
+      "description": "2.2.2.2 192.168.1.1 2.2.2.2",
+      "name": "192.168.1.1",
+      "required": ""
+    },
+    {
+      "description": "2.2.2.2 192.168.1.2 2.2.2.2",
+      "name": "192.168.1.2",
+      "required": ""
+    },
+    {
+      "description": "2.2.2.2 192.168.1.3 The JSON data is below to be given to the",
+      "name": "192.168.1.3",
+      "required": ""
+    },
+    {
+      "description": "argument parameter of the transformer for the samples. [ {",
+      "name": "value",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.1\" }, {",
+      "name": "\"DestinationIP\": \"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.1\" }, {",
+      "name": "\"DestinationIP\": \"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.2\" }, {",
+      "name": "\"DestinationIP\": \"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.2\" }, {",
+      "name": "\"DestinationIP\": \"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.3\" }, {",
+      "name": "\"DestinationIP\": \"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.3\" }, {",
+      "name": "\"DestinationIP\": \"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.1\" }, {",
+      "name": "\"DestinationIP\": \"2.2.2.2\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.1\" }, {",
+      "name": "\"DestinationIP\": \"2.2.2.2\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.2\" }, {",
+      "name": "\"DestinationIP\": \"2.2.2.2\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.2\" }, {",
+      "name": "\"DestinationIP\": \"2.2.2.2\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.3\" }, {",
+      "name": "\"DestinationIP\": \"2.2.2.2\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.3\" } ]",
+      "name": "\"DestinationIP\": \"2.2.2.2\",",
+      "required": ""
+    },
+    {
+      "description": "SourceIP . keys: SourceIP",
+      "name": "Deduplicate by",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Output",
+      "required": ""
+    },
+    {
+      "description": "It's guaranteed to keep the original order, and gives you the first record when multiple records are found by collecting keys given. DestinationIP SourceIP",
+      "name": "It will give you the result below.",
+      "required": ""
+    },
+    {
+      "description": "192.168.1.1 1.1.1.1 192.168.1.2",
+      "name": "1.1.1.1",
+      "required": ""
+    },
+    {
+      "description": "192.168.1.3 [ {",
+      "name": "1.1.1.1",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.1\" }, {",
+      "name": "\"DestinationIP\": \"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.2\" }, {",
+      "name": "\"DestinationIP\": \"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.3\" } ]",
+      "name": "\"DestinationIP\": \"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "SourceIP and DestinationIP",
+      "name": "Deduplicate by",
+      "required": ""
+    },
+    {
+      "description": "keys: SourceIP, DestinationIP Output",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "It's guaranteed to keep the original order, and gives you the first record when multiple records are found by collecting keys given. DestinationIP SourceIP",
+      "name": "It will give you the result below.",
+      "required": ""
+    },
+    {
+      "description": "192.168.1.1 1.1.1.1 192.168.1.2",
+      "name": "1.1.1.1",
+      "required": ""
+    },
+    {
+      "description": "192.168.1.3 2.2.2.2 192.168.1.1",
+      "name": "1.1.1.1",
+      "required": ""
+    },
+    {
+      "description": "192.168.1.2 2.2.2.2 192.168.1.3",
+      "name": "2.2.2.2",
+      "required": ""
+    },
+    {
+      "description": "{ \"DestinationIP\": \"1.1.1.1\", \"SourceIP\": \"192.168.1.1\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"DestinationIP\": \"1.1.1.1\", \"SourceIP\": \"192.168.1.2\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"DestinationIP\": \"1.1.1.1\", \"SourceIP\": \"192.168.1.3\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"DestinationIP\": \"2.2.2.2\", \"SourceIP\": \"192.168.1.1\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"DestinationIP\": \"2.2.2.2\", \"SourceIP\": \"192.168.1.2\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"DestinationIP\": \"2.2.2.2\", \"SourceIP\": \"192.168.1.3\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] Examples-2",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "It will be given to the value argument parameter of the transformer for the samples.",
+      "name": "Here is an array to be used as samples in the Examples-2.",
+      "required": ""
+    },
+    {
+      "description": "null, 1, {",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "}, 2, 0.5,",
+      "name": "\"key\": \"value1\"",
+      "required": ""
+    },
+    {
+      "description": "0.5, \"aaa\", 1,",
+      "name": "0,",
+      "required": ""
+    },
+    {
+      "description": "\"key\": \"value1\" }, null,",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"ZZZ\" ] Deduplicate an array without keys.",
+      "name": "\"aaa\",",
+      "required": ""
+    },
+    {
+      "description": "Output",
+      "name": "keys:",
+      "required": ""
+    },
+    {
+      "description": "It's guaranteed to keep the original order, and gives you the first record when multiple records are found by collecting keys given. [ null,",
+      "name": "It will give you the result below.",
+      "required": ""
+    },
+    {
+      "description": "{ \"key\": \"value1\" },",
+      "name": "1,",
+      "required": ""
+    },
+    {
+      "description": "0.5, 0, \"aaa\",",
+      "name": "2,",
+      "required": ""
+    },
+    {
+      "description": "] Edit this page Report an Issue",
+      "name": "\"ZZZ\"",
+      "required": ""
+    },
+    {
+      "description": "\u00ab DecodeMimeHeader Next DeduplicateValuesbyKey \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Script Data",
+      "required": ""
+    },
+    {
+      "description": "It's guaranteed to keep the original order, and gives you the first record when multiple records are found by collecting keys given. DestinationIP SourceIP",
+      "name": "It will give you the result below.",
+      "required": ""
+    },
+    {
+      "description": "192.168.1.1 1.1.1.1 192.168.1.2",
+      "name": "1.1.1.1",
+      "required": ""
+    },
+    {
+      "description": "192.168.1.3 [ {",
+      "name": "1.1.1.1",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.1\" }, {",
+      "name": "\"DestinationIP\": \"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.2\" }, {",
+      "name": "\"DestinationIP\": \"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "\"SourceIP\": \"192.168.1.3\" } ]",
+      "name": "\"DestinationIP\": \"1.1.1.1\",",
+      "required": ""
+    },
+    {
+      "description": "SourceIP and DestinationIP",
+      "name": "Deduplicate by",
+      "required": ""
+    },
+    {
+      "description": "keys: SourceIP, DestinationIP Output",
+      "name": ".",
+      "required": ""
+    },
+    {
+      "description": "It's guaranteed to keep the original order, and gives you the first record when multiple records are found by collecting keys given. DestinationIP SourceIP",
+      "name": "It will give you the result below.",
+      "required": ""
+    },
+    {
+      "description": "192.168.1.1 1.1.1.1 192.168.1.2",
+      "name": "1.1.1.1",
+      "required": ""
+    },
+    {
+      "description": "192.168.1.3 2.2.2.2 192.168.1.1",
+      "name": "1.1.1.1",
+      "required": ""
+    },
+    {
+      "description": "192.168.1.2 2.2.2.2 192.168.1.3",
+      "name": "2.2.2.2",
+      "required": ""
+    },
+    {
+      "description": "{ \"DestinationIP\": \"1.1.1.1\", \"SourceIP\": \"192.168.1.1\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "{ \"DestinationIP\": \"1.1.1.1\", \"SourceIP\": \"192.168.1.2\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"DestinationIP\": \"1.1.1.1\", \"SourceIP\": \"192.168.1.3\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"DestinationIP\": \"2.2.2.2\", \"SourceIP\": \"192.168.1.1\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"DestinationIP\": \"2.2.2.2\", \"SourceIP\": \"192.168.1.2\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "{ \"DestinationIP\": \"2.2.2.2\", \"SourceIP\": \"192.168.1.3\"",
+      "name": "},",
+      "required": ""
+    },
+    {
+      "description": "] Examples-2",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "It will be given to the value argument parameter of the transformer for the samples.",
+      "name": "Here is an array to be used as samples in the Examples-2.",
+      "required": ""
+    },
+    {
+      "description": "null, 1, {",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": "}, 2, 0.5,",
+      "name": "\"key\": \"value1\"",
+      "required": ""
+    },
+    {
+      "description": "0.5, \"aaa\", 1,",
+      "name": "0,",
+      "required": ""
+    },
+    {
+      "description": "\"key\": \"value1\" }, null,",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"ZZZ\" ] Deduplicate an array without keys.",
+      "name": "\"aaa\",",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DedupBy",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/dedup-by"
+}

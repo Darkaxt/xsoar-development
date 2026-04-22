@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!cisco-thousandeyes-get-events\nInput\n#\nArgument Name\nDescription\nRequired\nlimit\nThe number of events to return. Default is 10.",
+    "!\ncisco-thousandeyes-get-events\nlimit\n=\n\"100\"\nstart_date\n=\n\"2024-10-10T00:00:00Z\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Cisco Threat Grid (Deprecated) \u00bb Configure CiscoThousandEyes in Cortex XSIAM",
+      "name": "\u00ab Cisco Security Management Appliance",
+      "required": ""
+    },
+    {
+      "description": "Commands cisco-thousandeyes-get-events Docs",
+      "name": "Note",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ThousandEyes",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-thousand-eyes"
+}

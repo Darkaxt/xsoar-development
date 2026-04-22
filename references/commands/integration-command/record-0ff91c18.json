@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "https://gitlab.com/testuser",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n### gitlab-projects-deny-access\n***\nDenies an access request for the given user.\n#### Base Command\n`gitlab-projects-deny-access`",
+    "#### Command Example\n```!gitlab-projects-deny-access id=21898188 user_id=7475865 using=\"Moon-Integration\"```\n#### Context Example\n```json\n{\n\"GitLab\": {\n\"AccessRequests\": {\n\"id\": \"7475865\",",
+    "#### Command Example\n```!gitlab-projects-get-repository-branches id=21898188 using=\"Moon-Integration\"```\n#### Context Example\n```json\n{\n\"GitLab\": {\n\"Branches\": [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Access Request ID GitLab.AccessRequests.username Access Request User",
+      "name": "GitLab.AccessRequests.id",
+      "required": ""
+    },
+    {
+      "description": "Access Request Create Time GitLab.AccessRequests.state Access Request State",
+      "name": "GitLab.AccessRequests.requested_at",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GitLab (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/git-lab"
+}

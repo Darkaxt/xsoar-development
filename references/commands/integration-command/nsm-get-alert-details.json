@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Malware file used in the attack",
+  "examples": [
+    "Command Example\n!nsm-update-alerts start_time=\"10/10/2018 08:00\" state=Acknowledged\n5. Get details for a single alert\nReturns details for a single, specified alert.\nBase Command\nnsm-get-alert-details\nInput\nArgument Name",
+    "!nsm-update-alerts start_time=\"10/10/2018 08:00\" state=Acknowledged\n5. Get details for a single alert\nReturns details for a single, specified alert.\nBase Command\nnsm-get-alert-details\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "nsm-get-alert-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alert ID NSM.Alerts.Name Alert name",
+      "name": "NSM.Alerts.ID",
+      "required": ""
+    },
+    {
+      "description": "Alert state ( Acknowledged ,",
+      "name": "NSM.Alerts.State",
+      "required": ""
+    },
+    {
+      "description": ") NSM.Alerts.CreatedTime date",
+      "name": "Unacknowledged",
+      "required": ""
+    },
+    {
+      "description": "NSM.Alerts.Assignee Alert assignee NSM.Alerts.Description",
+      "name": "Alert creation time",
+      "required": ""
+    },
+    {
+      "description": "Alert description NSM.Alerts.EventResult Event result",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Alert event NSM.Alerts.Attack Alert's attack",
+      "name": "NSM.Alerts.Event",
+      "required": ""
+    },
+    {
+      "description": "The attacker who committed the attack NSM.Alerts.Target The attack's target",
+      "name": "NSM.Alerts.Attacker",
+      "required": ""
+    },
+    {
+      "description": "Malware file used in the attack NSM.Alerts.Details",
+      "name": "NSM.Alerts.MalwareFile",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee NSM (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-nsm"
+}

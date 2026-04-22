@@ -1,0 +1,124 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Email message id in internet. CheckPointHEC.Entity.subject Email subject.",
+      "name": "CheckPointHEC.Entity.internetMessageId",
+      "required": ""
+    },
+    {
+      "description": "Datetime email was received in iso 8601 format. CheckPointHEC.Entity.size Email size.",
+      "name": "CheckPointHEC.Entity.received",
+      "required": ""
+    },
+    {
+      "description": "Links in email. CheckPointHEC.Entity.attachmentCount Number of attachments in email.",
+      "name": "CheckPointHEC.Entity.emailLinks",
+      "required": ""
+    },
+    {
+      "description": "File attachments in email. CheckPointHEC.Entity.mode Internal policy rule.",
+      "name": "CheckPointHEC.Entity.attachments",
+      "required": ""
+    },
+    {
+      "description": "Recipient email addresses. CheckPointHEC.Entity.subject Email subject.",
+      "name": "CheckPointHEC.Entity.recipients",
+      "required": ""
+    },
+    {
+      "description": "Email sender. CheckPointHEC.Entity.fromDomain Domain where the email was sent from.",
+      "name": "CheckPointHEC.Entity.fromEmail",
+      "required": ""
+    },
+    {
+      "description": "Sender user details. CheckPointHEC.Entity.fromName Sender name.",
+      "name": "CheckPointHEC.Entity.fromUser",
+      "required": ""
+    },
+    {
+      "description": "Email main recipients. CheckPointHEC.Entity.toUser User details for main recipients.",
+      "name": "CheckPointHEC.Entity.to",
+      "required": ""
+    },
+    {
+      "description": "Email carbon copy recipients. CheckPointHEC.Entity.ccUser User details for carbon copy recipients.",
+      "name": "CheckPointHEC.Entity.cc",
+      "required": ""
+    },
+    {
+      "description": "Email blind carbon copy recipients. CheckPointHEC.Entity.bccUser User details for blind carbon copy recipients.",
+      "name": "CheckPointHEC.Entity.bcc",
+      "required": ""
+    },
+    {
+      "description": "Email reply. CheckPointHEC.Entity.replyToNickname Email reply nickname.",
+      "name": "CheckPointHEC.Entity.replyToEmail",
+      "required": ""
+    },
+    {
+      "description": "Email has been read. CheckPointHEC.Entity.isDeleted Email has been deleted.",
+      "name": "CheckPointHEC.Entity.isRead",
+      "required": ""
+    },
+    {
+      "description": "Email is from external organization. CheckPointHEC.Entity.isInternal Email is from same organization.",
+      "name": "CheckPointHEC.Entity.isIncoming",
+      "required": ""
+    },
+    {
+      "description": "Email is to an external organization. CheckPointHEC.Entity.isQuarantined Email has been quarantined.",
+      "name": "CheckPointHEC.Entity.isOutgoing",
+      "required": ""
+    },
+    {
+      "description": "Email is a notification of another quarantined email. CheckPointHEC.Entity.isRestored Email is restored from quarantine.",
+      "name": "CheckPointHEC.Entity.isQuarantineNotification",
+      "required": ""
+    },
+    {
+      "description": "Email is a request to restore. CheckPointHEC.Entity.isRestoreDeclined Email is a declined restore request.",
+      "name": "CheckPointHEC.Entity.isRestoreRequested",
+      "required": ""
+    },
+    {
+      "description": "Spam verdict. CheckPointHEC.Entity.SpfResult Sender Policy Framework check result.",
+      "name": "CheckPointHEC.Entity.saasSpamVerdict",
+      "required": ""
+    },
+    {
+      "description": "Restore request datetime in iso 8601 format. Edit this page Report an Issue",
+      "name": "CheckPointHEC.Entity.restoreRequestTime",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Check Point Harmony Endpoint Next Check Point Threat Emulation (SandBlast) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands check-point-ndr-fetch-insights Docs",
+      "name": "Configure Check Point Network Detection and Response (Infinity NDR) in Cortex",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Check Point Network Detection and Response (Infinity NDR)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/check-point-ndr"
+}

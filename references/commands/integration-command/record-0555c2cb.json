@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Get statistics reports.",
+  "examples": [
+    "!cisco-sma-report-get start_date=2weeks end_date=now device_group_name=Hosted_Cluster report_type=mail_incoming_traffic_summary\nContext Example\n#\n{\n\"CiscoSMA\"\n:\n{\n\"Report\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Report type. CiscoSMA.Report.resultSet Report results summary.",
+      "name": "CiscoSMA.Report.type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Security Management Appliance",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-sma"
+}

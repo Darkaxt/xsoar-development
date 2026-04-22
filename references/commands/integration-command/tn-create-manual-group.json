@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "OS Platform equals linux",
+  "examples": [
+    "Command Example\n!tn-create-manual-group group-name=group11 computer-names=host1,host2\nContext Example\n{\n\"Tanium.Group\": {\n\"Deleted\": false,\n\"ID\": 31825,\n\"Name\": \"group11\",",
+    "!tn-create-manual-group group-name=group11 computer-names=host1,host2\nContext Example\n{\n\"Tanium.Group\": {\n\"Deleted\": false,\n\"ID\": 31825,\n\"Name\": \"group11\",\n\"Type\": \"Manual group\""
+  ],
+  "kind": "integration-command",
+  "name": "tn-create-manual-group",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The unique ID of the group object.",
+      "name": "Tanium.Group.ID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-v2"
+}

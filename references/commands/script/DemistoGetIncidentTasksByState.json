@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "demisto-get-incident-tasks-by-state"
+  ],
+  "arguments": [],
+  "description": "DemistoGetIncidentTasksByState | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DemistoGetIncidentTasksByState",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The entire task object. Tasks.id The task ID.",
+      "name": "Tasks",
+      "required": ""
+    },
+    {
+      "description": "Tasks.name The task name. Tasks.type",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Tasks.owner The task owner. Tasks.state",
+      "name": "The type of the task. Can be, \"regular\", \"condition\", \"title\", \"playbook\", or \"start\".",
+      "required": ""
+    },
+    {
+      "description": "Tasks.scriptId The task related script (empty if manual). Tasks.startDate",
+      "name": "The task state. Can be, \"inprogress\", \"Completed\", \"WillNotBeExecuted\", \"Error\", \"Waiting\", \"Blocked\", and empty string for not started.",
+      "required": ""
+    },
+    {
+      "description": "Tasks.completedDate The task completed date. Tasks.dueDate",
+      "name": "The task start date.",
+      "required": ""
+    },
+    {
+      "description": "Tasks.parentPlaybookID The task parent playbook ID (in case the task is part of sub-playbook). Tasks.completedBy",
+      "name": "The task due date (SLA).",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The task completed by (username).",
+      "required": ""
+    },
+    {
+      "description": "Next DemistoLeaveAllInvestigations \u00bb Script Data",
+      "name": "\u00ab DemistoCreateList",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DemistoGetIncidentTasksByState",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/demisto-get-incident-tasks-by-state"
+}

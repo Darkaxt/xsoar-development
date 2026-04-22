@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Run a saved look: looker-run-look",
+  "examples": [
+    "Command Example\nlooker-run-look name=\"Look 1\" limit=\"2\" result_format=\"json\"\nContext Example\n\"LookerResults\": {\n\"LookID\": 3,\n\"Results\": [\n{\n\"OrderItems_Id\": 160086,"
+  ],
+  "kind": "integration-command",
+  "name": "looker-run-look",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Look ID. LookerResults.Results Look Results.",
+      "name": "LookerResults.LookID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Looker",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/looker"
+}

@@ -1,0 +1,132 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Status of the indicator.",
+  "examples": [
+    "Command Example\n!threatq-update-status id=173317 status=Whitelisted\nHuman Readable Output\n15. Get related events\nRetrieves related events of an object in ThreatQ.\nBase Command\nthreatq-get-related-events\nInput",
+    "!threatq-update-status id=173317 status=Whitelisted\nHuman Readable Output\n15. Get related events\nRetrieves related events of an object in ThreatQ.\nBase Command\nthreatq-get-related-events\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threatq-get-related-events",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the related event. ThreatQ.Indicator.RelatedEvent.Source.ID Source ID of the related event.",
+      "name": "ThreatQ.Indicator.RelatedEvent.ID",
+      "required": ""
+    },
+    {
+      "description": "Source name of the related event. ThreatQ.Indicator.RelatedEvent.Attribute.ID The attribute ID of the related event.",
+      "name": "ThreatQ.Indicator.RelatedEvent.Source.Name",
+      "required": ""
+    },
+    {
+      "description": "The attribute name of the related event. ThreatQ.Indicator.RelatedEvent.Attribute.Value The attribute value of the related event.",
+      "name": "ThreatQ.Indicator.RelatedEvent.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "date The last update date of the related event. ThreatQ.Indicator.RelatedEvent.CreatedAt",
+      "name": "ThreatQ.Indicator.RelatedEvent.UpdatedAt",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the related event. ThreatQ.Indicator.RelatedEvent.Description Description of the related event.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "The title of the related event. ThreatQ.Indicator.RelatedEvent.Occurred date",
+      "name": "ThreatQ.Indicator.RelatedEvent.Title",
+      "required": ""
+    },
+    {
+      "description": "ThreatQ.Indicator.RelatedEvent.Type The type of the related event. ThreatQ.Indicator.ID",
+      "name": "The date of occurrence of the related event.",
+      "required": ""
+    },
+    {
+      "description": "The ID of the Indicator. ThreatQ.Event.RelatedEvent.ID The ID of the related event.",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "The source ID of the related event. ThreatQ.Event.RelatedEvent.Source.Name The source name of the related event.",
+      "name": "ThreatQ.Event.RelatedEvent.Source.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute ID of the related event. ThreatQ.Event.RelatedEvent.Attribute.Name The attribute name of the related event.",
+      "name": "ThreatQ.Event.RelatedEvent.Attribute.ID",
+      "required": ""
+    },
+    {
+      "description": "The attribute value of the related event. ThreatQ.Event.RelatedEvent.UpdatedAt date",
+      "name": "ThreatQ.Event.RelatedEvent.Attribute.Value",
+      "required": ""
+    },
+    {
+      "description": "ThreatQ.Event.RelatedEvent.CreatedAt date The creation date of the related event.",
+      "name": "The last update date of the related event.",
+      "required": ""
+    },
+    {
+      "description": "The description of the related event. ThreatQ.Event.RelatedEvent.Title The title of the related event.",
+      "name": "ThreatQ.Event.RelatedEvent.Description",
+      "required": ""
+    },
+    {
+      "description": "date The date of occurrence of the related event. ThreatQ.Event.RelatedEvent.Type",
+      "name": "ThreatQ.Event.RelatedEvent.Occurred",
+      "required": ""
+    },
+    {
+      "description": "The type of the related event. ThreatQ.Event.ID The ID of the Event.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "The ID of the related event. ThreatQ.Adversary.RelatedEvent.Source.ID The source ID of the related event.",
+      "name": "ThreatQ.Adversary.RelatedEvent.ID",
+      "required": ""
+    },
+    {
+      "description": "The source name of the related event. ThreatQ.Adversary.RelatedEvent.Attribute.ID The attribute ID of the of the related event.",
+      "name": "ThreatQ.Adversary.RelatedEvent.Source.Name",
+      "required": ""
+    },
+    {
+      "description": "The attribute name of the related event. ThreatQ.Adversary.RelatedEvent.Attribute.Value The attribute value of the related event.",
+      "name": "ThreatQ.Adversary.RelatedEvent.Attribute.Name",
+      "required": ""
+    },
+    {
+      "description": "date The last update date of the related event. ThreatQ.Adversary.RelatedEvent.CreatedAt",
+      "name": "ThreatQ.Adversary.RelatedEvent.UpdatedAt",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the related event. ThreatQ.Adversary.RelatedEvent.Description The description of the related event.",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "The title of the related event. ThreatQ.Adversary.RelatedEvent.Occurred date",
+      "name": "ThreatQ.Adversary.RelatedEvent.Title",
+      "required": ""
+    },
+    {
+      "description": "ThreatQ.Adversary.RelatedEvent.Type The type of the related event. ThreatQ.Adversary.ID",
+      "name": "The date of occurrence of the related event.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "number",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatQ v2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-q-v2"
+}

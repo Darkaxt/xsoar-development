@@ -1,0 +1,74 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "EUVD.Vulnerability.vulnerabilityAdvisory",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "EUVD.Vulnerability.datePublished Date EUVD.Vulnerability.dateUpdated",
+      "name": "EUVD.Vulnerability.id",
+      "required": ""
+    },
+    {
+      "description": "EUVD.Vulnerability.baseScore EUVD.Vulnerability.references EUVD.Vulnerability.aliases",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "EUVD.Vulnerability.epss EUVD.Vulnerability.enisaIdProduct EUVD.Vulnerability.enisaIdVendor",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "EUVD.Vulnerability.description EUVD.Vulnerability.baseScoreVersion EUVD.Vulnerability.baseScoreVector",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "EUVD.Vulnerability.assigner EUVD.Vulnerability.enisaIdProduct.id EUVD.Vulnerability.enisaIdProduct.product.name",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "EUVD.Vulnerability.enisaIdProduct.product_version EUVD.Vulnerability.enisaIdVendor.id EUVD.Vulnerability.enisaIdVendor.vendor.name",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "EUVD.Vulnerability.total Edit this page Report an Issue",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Envoy IAM Next EWS Extension Online Powershell v2 (Deprecated) \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands euvd-get-advisory-by-id euvd-get-vulnerability-by-enisa-id",
+      "name": "Configure European Union Vulnerability Database in Cortex",
+      "required": ""
+    },
+    {
+      "description": "euvd-get-latest-exploited-vulnerabilities euvd-get-latest-vulnerabilities euvd-get-vulnerability-by-id",
+      "name": "euvd-get-latest-critical-vulnerabilities",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "euvd-query-vulnerabilities",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "European Union Vulnerability Database",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/european-union-vulnerability-database"
+}

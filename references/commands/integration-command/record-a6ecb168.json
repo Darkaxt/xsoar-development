@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Security Alert Classifications",
+  "examples": [
+    "Command Example\n#\n!domain domain=google.com\nContext Example\n#\n{\n\"DBotScore\"\n:",
+    "!domain domain=google.com\nContext Example\n#\n{\n\"DBotScore\"\n:\n[\n{"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The domain that was searched. ZIA.Domain.Address The domain that was searched.",
+      "name": "ZIA.Domain.Data",
+      "required": ""
+    },
+    {
+      "description": "The classification of the domain. ZIA.Domain.ClassificationsWithSecurityAlert Classifications that have a security alert for the domain.",
+      "name": "ZIA.Domain.Classifications",
+      "required": ""
+    },
+    {
+      "description": "The domain that was searched. Domain.Malicious.Vendor For malicious domains, the vendor that tagged the domain as malicious.",
+      "name": "Domain.Name",
+      "required": ""
+    },
+    {
+      "description": "For malicious domains, the reason the vendor tagged the domain as malicious. DBotScore.Indicator The indicator that was tested.",
+      "name": "Domain.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Reliability Reliability of the source providing the intelligence data.",
+      "name": "DBotScore.Score",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Zscaler Internet Access via ZIdentity (Beta)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/zscaler-z-identity"
+}

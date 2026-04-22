@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "StamusIntegration.HostInsights.host_id.tls.ja3s.hash",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "[Get events for a Declaration of Compromise.] StamusIntegration.RelatedEvents.timestamp [Timestamp of the Stamus event]",
+      "name": "StamusIntegration.RelatedEvents",
+      "required": ""
+    },
+    {
+      "description": "[Stamus asset] StamusIntegration.RelatedEvents.offender [Offender, against the Stamus asset]",
+      "name": "StamusIntegration.RelatedEvents.stamus.asset",
+      "required": ""
+    },
+    {
+      "description": "[Killchain stage] StamusIntegration.RelatedEvents.method [Stamus method triggered]",
+      "name": "StamusIntegration.RelatedEvents.killchain",
+      "required": ""
+    },
+    {
+      "description": "[Extra Information] StamusIntegration.RelatedEvents.src_ip [Source IP of the event]",
+      "name": "StamusIntegration.RelatedEvents.info",
+      "required": ""
+    },
+    {
+      "description": "[Destination IP of the event] StamusIntegration.RelatedEvents.app_proto [Application protocol of the event]",
+      "name": "StamusIntegration.RelatedEvents.dest_ip",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Stairwell Inception",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Starter Base Integration - Name the integration as it will appear in the XSOAR UI \u00bb Configure Stamus in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "stamus-get-host-insight stamus-get-doc-events Docs",
+      "name": "stamus-check-ioc",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Stamus",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/stamus"
+}

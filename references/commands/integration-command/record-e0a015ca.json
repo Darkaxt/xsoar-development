@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The IP address of the host.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "XMCyber Entity ID XMCyber.Entity.name Entity Name",
+      "name": "XMCyber.Entity.id",
+      "required": ""
+    },
+    {
+      "description": "Entity is a critical asset XMCyber.Entity.affectedEntities Number of unique entities at risk from this entity",
+      "name": "XMCyber.Entity.isAsset",
+      "required": ""
+    },
+    {
+      "description": "Average complexity to compromise this entity XMCyber.Entity.criticalAssetsAtRisk Number of unique critical assets at risk from this entity",
+      "name": "XMCyber.Entity.averageComplexity",
+      "required": ""
+    },
+    {
+      "description": "Level of the average complexity to compromise this entity XMCyber.Entity.compromisingTechniques.technique Technique compromising this entity",
+      "name": "XMCyber.Entity.averageComplexityLevel",
+      "required": ""
+    },
+    {
+      "description": "Number of vectors with this technique compromising this entity XMCyber.Entity.type Entity Type",
+      "name": "XMCyber.Entity.compromisingTechniques.count",
+      "required": ""
+    },
+    {
+      "description": "Link to the Entity Report Host.Hostname The name of the host.",
+      "name": "XMCyber.Entity.report",
+      "required": ""
+    },
+    {
+      "description": "The unique ID within the tool retrieving the host. Host.IP The IP address of the host.",
+      "name": "Host.ID",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab xDome",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "XM Cyber CEM \u00bb Configure XM Cyber in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "xmcyber-affected-entities-list xmcyber-version-supported xmcyber-version-get",
+      "name": "xmcyber-affected-critical-assets-list",
+      "required": ""
+    },
+    {
+      "description": "xmcyber-enrich-from-entityId xmcyber-enrich-from-hostname xmcyber-enrich-from-fields",
+      "name": "xmcyber-enrich-from-ip",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "XM Cyber",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/xm-cyber"
+}

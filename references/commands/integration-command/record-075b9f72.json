@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSIAM CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "List The list of the events and the alerts. Edit this page",
+      "name": "MongoDBAtlasEventCollector",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab MongoDB Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Configure MongoDB Atlas on Cortex XSIAM To create an API key for a project using the MongoDB Atlas UI IMPORTANT",
+      "name": "MongoDB Key Value Store \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Authentication and authorization Commands mongo-db-atlas-get-events",
+      "name": "Additional Information",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MongoDB Atlas",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mongo-db-atlas-event-collector"
+}

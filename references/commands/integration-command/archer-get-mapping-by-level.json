@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "\"-guid\": \"4b765f84-d381-4543-9d7c-1f9e716d4c4d\",",
+  "examples": [
+    "Command Example\n!archer-get-mapping-by-level level=232\nRaw Output\n{\n\"15698\": {\n\"Name\": \"Incident Response Procedures\",\n\"Type\": 9,\n\"levelId\": \"232\"",
+    "!archer-get-mapping-by-level level=232\nRaw Output\n{\n\"15698\": {\n\"Name\": \"Incident Response Procedures\",\n\"Type\": 9,\n\"levelId\": \"232\"\n},"
+  ],
+  "kind": "integration-command",
+  "name": "archer-get-mapping-by-level",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA Archer (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-archer"
+}

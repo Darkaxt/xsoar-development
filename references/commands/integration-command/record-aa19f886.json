@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "vt-retrohunt-get-indicators",
+  "examples": [
+    "Command Example\n#\n!vt-retrohunt-get-indicators\n!vt-retrohunt-get-indicators limit=10\n!vt-retrohunt-get-indicators limit=10 job_id=\"RETROHUNT-JOB-ID\"\nHuman Readable Output\n#\nIndicators from VirusTotal Retrohunt Feed",
+    "!vt-retrohunt-get-indicators\n!vt-retrohunt-get-indicators limit=10\n!vt-retrohunt-get-indicators limit=10 job_id=\"RETROHUNT-JOB-ID\"\nHuman Readable Output\n#\nIndicators from VirusTotal Retrohunt Feed\n#\nSha256",
+    "!vt-retrohunt-get-indicators limit=10\n!vt-retrohunt-get-indicators limit=10 job_id=\"RETROHUNT-JOB-ID\"\nHuman Readable Output\n#\nIndicators from VirusTotal Retrohunt Feed\n#\nSha256\nDetections",
+    "!vt-retrohunt-get-indicators limit=10 job_id=\"RETROHUNT-JOB-ID\"\nHuman Readable Output\n#\nIndicators from VirusTotal Retrohunt Feed\n#\nSha256\nDetections\nFiletype"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VirusTotal Retrohunt Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/virus-total-retrohunt-feed"
+}

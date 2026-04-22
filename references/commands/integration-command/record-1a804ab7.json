@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The indicator that was tested",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The email address that was tested Account.Email.Malicious.Vendor For malicious email addresses, the vendor that made the decision",
+      "name": "Account.Email.Address",
+      "required": ""
+    },
+    {
+      "description": "For malicious email addresses, the reason that the vendor made the decision DBotScore.Type The indicator type",
+      "name": "Account.Email.Malicious.Description",
+      "required": ""
+    },
+    {
+      "description": "The vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested Edit this page Report an Issue",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "\u00ab Ollama Next OneLogin Event Collector \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands demo-ip demo-url",
+      "name": "Configure OnboardingIntegration in Cortex",
+      "required": ""
+    },
+    {
+      "description": "demo-file demo-email Docs",
+      "name": "demo-domain",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OnboardingIntegration",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/onboarding-integration"
+}

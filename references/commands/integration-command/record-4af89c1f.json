@@ -1,0 +1,46 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "!cisco-esa-message-connection-details-get message_ids=123 injection_connection_id=123 serial_number=123 limit=1\nContext Example\n#\n{\n\"CiscoESA\"\n:\n{\n\"MessageConnection\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "cisco-esa-message-connection-details-get",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Retrieve metadata about the SMTP connection and transmission behavior of specified messages. Returns details such as SBRS (Sender Base Reputation Score), connection summary logs, and sender group classification to help understand how messages were handled at the connection layer.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "cisco-esa-message-connection-details-get",
+      "required": ""
+    },
+    {
+      "description": "The sender group assigned to the connection (for example, RELAYLIST). CiscoESA.MessageConnection.Message.timestamp Timestamp of the connection summary event.",
+      "name": "CiscoESA.MessageConnection.sender_group",
+      "required": ""
+    },
+    {
+      "description": "Description of the connection summary event. CiscoESA.MessageConnection.Message.last_event Indicates whether this is the final summary event.",
+      "name": "CiscoESA.MessageConnection.Message.description",
+      "required": ""
+    },
+    {
+      "description": "Sender Base Reputation Score (SBRS) of the sender IP.",
+      "name": "CiscoESA.MessageConnection.sbrs",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco ESA",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-esa"
+}

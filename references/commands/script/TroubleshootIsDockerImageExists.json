@@ -1,0 +1,15 @@
+{
+  "aliases": [
+    "troubleshoot-is-docker-image-exists"
+  ],
+  "arguments": [],
+  "description": "TroubleshootIsDockerImageExists | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "TroubleshootIsDockerImageExists",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TroubleshootIsDockerImageExists",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/troubleshoot-is-docker-image-exists"
+}

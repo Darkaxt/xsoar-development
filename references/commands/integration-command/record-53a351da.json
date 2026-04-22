@@ -1,0 +1,222 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!misp-feed-get-indicators tags=tlp:% attribute_type=ip-src\nHuman Readable Output\n#\nRetrieved 7 indicators.\nAdditional Information\n#",
+    "!misp-feed-get-indicators tags=tlp:% attribute_type=ip-src\nHuman Readable Output\n#\nRetrieved 7 indicators.\nAdditional Information\n#\nIf you experience a timeout error while fetching indicators, the following query configuration may be helpful for you.\nYou can configure the feed to return results from the last 24 hours as shown below:"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "\"MISPFeed\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": { \"0\"",
+      "name": "\"Indicators\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"fields\" :",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"Category\" : \"Payload delivery\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Description\" : \"desc\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"SHA256\" : \"somehash\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"Updated Date\" : 1607517728",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"trafficlightprotocol\" : \"GREEN\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"rawJSON\" :",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\"FeedURL\" : \"someurl\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"type\" : \"File\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"value\" : {",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ": { \"distribution\"",
+      "name": "\"Event\"",
+      "required": ""
+    },
+    {
+      "description": "1 , \"id\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "123 , \"info\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"some info\" , \"org_id\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "1 , \"orgc_id\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "7 , \"uuid\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "\"some uuid\" } ,",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": ": \"Payload delivery\" ,",
+      "name": "\"category\"",
+      "required": ""
+    },
+    {
+      "description": ": \"desc\" ,",
+      "name": "\"comment\"",
+      "required": ""
+    },
+    {
+      "description": ": false ,",
+      "name": "\"deleted\"",
+      "required": ""
+    },
+    {
+      "description": ": false ,",
+      "name": "\"disable_correlation\"",
+      "required": ""
+    },
+    {
+      "description": ": 5 ,",
+      "name": "\"distribution\"",
+      "required": ""
+    },
+    {
+      "description": ": 143 ,",
+      "name": "\"event_id\"",
+      "required": ""
+    },
+    {
+      "description": ": null ,",
+      "name": "\"first_seen\"",
+      "required": ""
+    },
+    {
+      "description": ": 69548 ,",
+      "name": "\"id\"",
+      "required": ""
+    },
+    {
+      "description": ": null ,",
+      "name": "\"last_seen\"",
+      "required": ""
+    },
+    {
+      "description": ": 0 ,",
+      "name": "\"object_id\"",
+      "required": ""
+    },
+    {
+      "description": ": null ,",
+      "name": "\"object_relation\"",
+      "required": ""
+    },
+    {
+      "description": ": 0 ,",
+      "name": "\"sharing_group_id\"",
+      "required": ""
+    },
+    {
+      "description": ": 1607517728 ,",
+      "name": "\"timestamp\"",
+      "required": ""
+    },
+    {
+      "description": ": true ,",
+      "name": "\"to_ids\"",
+      "required": ""
+    },
+    {
+      "description": ": \"sha256\" ,",
+      "name": "\"type\"",
+      "required": ""
+    },
+    {
+      "description": ": \"some uuid\" ,",
+      "name": "\"uuid\"",
+      "required": ""
+    },
+    {
+      "description": ": \"some hash\" }",
+      "name": "\"value\"",
+      "required": ""
+    },
+    {
+      "description": ", \"service\" :",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": ", \"type\" :",
+      "name": "\"MISP\"",
+      "required": ""
+    },
+    {
+      "description": ", \"value\" :",
+      "name": "\"File\"",
+      "required": ""
+    },
+    {
+      "description": "} } }",
+      "name": "\"somehash\"",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MISP Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/misp-feed"
+}

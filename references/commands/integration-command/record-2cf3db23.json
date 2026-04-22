@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!hashicorp-get-role-id role_name=my-role\nHuman Readable Output\n#\nId\nName\nrole_id\nrole_name\nAdditional Information"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "AppRole ID. HashiCorp.AppRole.Name AppRole Name.",
+      "name": "HashiCorp.AppRole.Id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "HashiCorp Vault",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hashi-corp-vault"
+}

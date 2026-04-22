@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The last update date of the list.",
+  "examples": [
+    "Command Example\n!sigsci-create-site-list entries_list=56.1.1.1 list_name=sitelistdoc list_type=IP siteName=demisto\n9. Get information for a site list\nReturns all the data about a site list.\nBase Command\nsigsci-get-site-list\nInput\nArgument Name",
+    "!sigsci-create-site-list entries_list=56.1.1.1 list_name=sitelistdoc list_type=IP siteName=demisto\n9. Get information for a site list\nReturns all the data about a site list.\nBase Command\nsigsci-get-site-list\nInput\nArgument Name\nDescription",
+    "Command Example\n!sigsci-get-site-list list_id=site.sitelistdoc3 siteName=demisto\nContext Example\n{\n\"SigSciences.Corp.Site.List\": {\n\"Name\": \"sitelistdoc3\",\n\"CreatedDate\": \"2019-03-28T09:20:34Z\",\n\"UpdatedDate\": \"2019-03-28T09:53:01Z\",",
+    "!sigsci-get-site-list list_id=site.sitelistdoc3 siteName=demisto\nContext Example\n{\n\"SigSciences.Corp.Site.List\": {\n\"Name\": \"sitelistdoc3\",\n\"CreatedDate\": \"2019-03-28T09:20:34Z\",\n\"UpdatedDate\": \"2019-03-28T09:53:01Z\",\n\"CreatedBy\": \"user@demisto.com\","
+  ],
+  "kind": "integration-command",
+  "name": "sigsci-get-site-list",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the list. SigSciences.Corp.Site.List.Type The type of the list.",
+      "name": "SigSciences.Corp.Site.List.Name",
+      "required": ""
+    },
+    {
+      "description": "The entry list of the list. SigSciences.Corp.Site.List.ID The ID of the list.",
+      "name": "SigSciences.Corp.Site.List.Entries",
+      "required": ""
+    },
+    {
+      "description": "The description of the list. SigSciences.Corp.Site.List.CreatedBy The creator of the list.",
+      "name": "SigSciences.Corp.Site.List.Description",
+      "required": ""
+    },
+    {
+      "description": "The creation date of the list. SigSciences.Corp.Site.List.UpdatedDate The last update date of the list.",
+      "name": "SigSciences.Corp.Site.List.CreatedDate",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Signal Sciences WAF",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/signal-sciences-waf"
+}

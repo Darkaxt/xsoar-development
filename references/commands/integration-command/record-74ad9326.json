@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!iam-get-user user-profile={\"username\": \"john.doe@example.com\"}",
+  "examples": [
+    "!iam-get-user user-profile={\"username\": \"john.doe@example.com\"}\nHuman Readable Output\n#\niam-disable-user\n#\nDisable an active user.\nBase Command\n#",
+    "Command Example\n#\n!iam-disable-user user-profile={\"username\": \"john.doe@example.com\"}\nEdit this page\nReport an Issue\nPrevious\n\u00ab SAML 2.0 - PingOne as IdP\nNext",
+    "!iam-disable-user user-profile={\"username\": \"john.doe@example.com\"}\nEdit this page\nReport an Issue\nPrevious\n\u00ab SAML 2.0 - PingOne as IdP\nNext\nSAP BTP (Business Technology Platform) \u00bb\nConfigure SAP - IAM in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "When true, indicates that the employee's status is active in the third party integration. IAM.Vendor.brand Name of the integration.",
+      "name": "IAM.Vendor.active",
+      "required": ""
+    },
+    {
+      "description": "Provides the raw data from the third party integration. IAM.Vendor.email The employee's email address.",
+      "name": "IAM.Vendor.details",
+      "required": ""
+    },
+    {
+      "description": "HTTP error response code. IAM.Vendor.errorMessage Reason why the API failed.",
+      "name": "IAM.Vendor.errorCode",
+      "required": ""
+    },
+    {
+      "description": "The employee's user ID in the app. IAM.Vendor.instanceName Name of the integration instance.",
+      "name": "IAM.Vendor.id",
+      "required": ""
+    },
+    {
+      "description": "When true, indicates that the command was executed successfully. IAM.Vendor.username The employee's username in the app.",
+      "name": "IAM.Vendor.success",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SAP - IAM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/sap-iam"
+}

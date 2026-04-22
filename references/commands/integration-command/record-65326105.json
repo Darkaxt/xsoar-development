@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Administration -> Computer Groups",
+  "examples": [
+    "Command Example\n#\n!tanium-tr-start-quick-scan intel-doc-id=2 computer-group-name=\"All Computers\"\nContext Example\n#\n{\n\"Tanium\": {\n\"QuickScan\": {",
+    "!tanium-tr-start-quick-scan intel-doc-id=2 computer-group-name=\"All Computers\"\nContext Example\n#\n{\n\"Tanium\": {\n\"QuickScan\": {\n\"AlertCount\": 0,\n\"ComputerGroupId\": 1"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The number of alerts returned from the quick scan. Tanium.QuickScan.ComputerGroupId The ID of a Tanium computer group.",
+      "name": "Tanium.QuickScan.AlertCount",
+      "required": ""
+    },
+    {
+      "description": "Date The date the quick scan was created. Tanium.QuickScan.ID",
+      "name": "Tanium.QuickScan.CreatedAt",
+      "required": ""
+    },
+    {
+      "description": "The ID of the quick scan. Tanium.QuickScan.IntelDocId The unique identifier for this intel in the instance of the system.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "The ID of the quick scan question. Tanium.QuickScan.UserID The user ID which initiated the quick scan.",
+      "name": "Tanium.QuickScan.QuestionID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium Threat Response",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium-threat-response"
+}

@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "rubrik-cdm-cluster-connection-state"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "RubrikCDMClusterConnectionState | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "RubrikCDMClusterConnectionState",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next RubrikRadarFilesAdded \u00bb Script Data",
+      "name": "\u00ab RSSWidget_LC",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RubrikCDMClusterConnectionState",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/rubrik-cdm-cluster-connection-state"
+}

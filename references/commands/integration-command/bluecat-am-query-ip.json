@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Search response policies by domain: bluecat-am-search-response-policies-by-domain",
+  "examples": [
+    "Command Example\nbluecat-am-query-ip ip=\"10.0.0.10\"\nContext Example\n{\n\"IP\": {\n\"Address\": \"10.0.0.10\"\n},\n\"BlueCat.AddressManager.IP\": {"
+  ],
+  "kind": "integration-command",
+  "name": "bluecat-am-query-ip",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The address manager ID of the IP address. BlueCat.AddressManager.IP.Name Name of the IP address.",
+      "name": "BlueCat.AddressManager.IP.ID",
+      "required": ""
+    },
+    {
+      "description": "Corresponding MAC address. BlueCat.AddressManager.IP.Parents.ID ID of the parent IP address.",
+      "name": "BlueCat.AddressManager.IP.MacAddress",
+      "required": ""
+    },
+    {
+      "description": "Type of the parent IP address. BlueCat.AddressManager.IP.Parents.Name Name of the parent IP address.",
+      "name": "BlueCat.AddressManager.IP.Parents.Type",
+      "required": ""
+    },
+    {
+      "description": "Classless Inter-Domain Routing. BlueCat.AddressManager.IP.Type Type of IP address.",
+      "name": "BlueCat.AddressManager.IP.Parents.CIDR",
+      "required": ""
+    },
+    {
+      "description": "Address of IP. BlueCat.AddressManager.IP.Parents.Prefix Prefix of the IP address.",
+      "name": "IP.Address",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Bluecat Address Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/bluecat-address-manager"
+}

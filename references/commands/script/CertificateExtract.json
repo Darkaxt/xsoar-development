@@ -1,0 +1,418 @@
+{
+  "aliases": [
+    "certificate-extract"
+  ],
+  "arguments": [],
+  "description": "CertificateExtract | Cortex XSOAR",
+  "examples": [
+    "!CertificateExtract entry_id=\"978@5b925e3c-6ab8-4209-86bf-10f4ed6a9dc0\"\nContext Example\n#\n{\n\"Certificate\"\n:\n{\n\"Extension\""
+  ],
+  "kind": "script",
+  "name": "CertificateExtract",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name (CN or SAN) appearing in the certificate. Certificate.SubjectDN The Subject Distinguished Name of the certificate.",
+      "name": "Certificate.Name",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PEM Certificate in PEM format. Certificate.IssuerDN",
+      "name": "This field includes the Common Name of the certificate.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.SerialNumber The Serial Number of the certificate. Certificate.ValidityNotAfter",
+      "name": "The Issuer Distinguished Name of the certificate.",
+      "required": ""
+    },
+    {
+      "description": "Date Certificate.ValidityNotBefore Start of certificate validity period.",
+      "name": "End of certificate validity period.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.SubjectAlternativeName.Type Type of the SAN. Certificate.SubjectAlternativeName.Value",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Certificate.SHA512 SHA512 Fingerprint of the certificate in DER format. Certificate.SHA256",
+      "name": "Name of the SAN.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.SHA1 SHA1 Fingerprint of the certificate in DER format. Certificate.MD5",
+      "name": "SHA256 Fingerprint of the certificate in DER format.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PublicKey.Algorithm Algorithm used for public key of the certificate. Certificate.PublicKey.Length",
+      "name": "MD5 Fingerprint of the certificate in DER format.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PublicKey.Modulus Modulus of the public key for RSA keys. Certificate.PublicKey.Exponent",
+      "name": "Length in bits of the public key of the certificate.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PublicKey.PublicKey The public key for DSA/Unknown keys. Certificate.PublicKey.P",
+      "name": "Exponent of the public key for RSA keys.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PublicKey.Q The Q parameter for DSA keys. Certificate.PublicKey.G",
+      "name": "The P parameter for DSA keys.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PublicKey.X The X parameter for EC keys. Certificate.PublicKey.Y",
+      "name": "The G parameter for DSA keys.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.PublicKey.Curve Curve of the Public Key for EC keys. Certificate.SPKISHA256",
+      "name": "The Y parameter for EC keys.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.Signature.Algorithm Algorithm used in the signature of the certificate. Certificate.Signature.Signature",
+      "name": "SHA256 fingerprint of the certificate Subject Public Key Info.",
+      "required": ""
+    },
+    {
+      "description": "Certificate.Extension.Critical Critical flag of the certificate extension. Bool",
+      "name": "Signature of the certificate.",
+      "required": ""
+    },
+    {
+      "description": "OID of the certificate extension. Certificate.Extension.Name Name of the certificate extension.",
+      "name": "Certificate.Extension.OID",
+      "required": ""
+    },
+    {
+      "description": "Certificate.Extension.Value Value of the certificate extension. Certificate.Malicious.Vendor",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Certificate.Malicious.Description A description explaining why the file was determined to be malicious. DBotScore.Indicator",
+      "name": "The vendor that reported the file as malicious.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Type The indicator type. DBotScore.Vendor",
+      "name": "The indicator that was tested.",
+      "required": ""
+    },
+    {
+      "description": "DBotScore.Score The actual score. Script Example",
+      "name": "The vendor used to calculate the score.",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!CertificateExtract entry_id=\"978@5b925e3c-6ab8-4209-86bf-10f4ed6a9dc0\"",
+      "required": ""
+    },
+    {
+      "description": "\"Certificate\" : {",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": ": [ {",
+      "name": "\"Extension\"",
+      "required": ""
+    },
+    {
+      "description": ": true ,",
+      "name": "\"Critical\"",
+      "required": ""
+    },
+    {
+      "description": ": \"basicConstraints\" ,",
+      "name": "\"Name\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2.5.29.19\" ,",
+      "name": "\"OID\"",
+      "required": ""
+    },
+    {
+      "description": ": { \"CA\"",
+      "name": "\"Value\"",
+      "required": ""
+    },
+    {
+      "description": "false } }",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "{ \"Critical\" :",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"Name\" :",
+      "name": "false",
+      "required": ""
+    },
+    {
+      "description": ", \"OID\" :",
+      "name": "\"subjectKeyIdentifier\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Value\" :",
+      "name": "\"2.5.29.14\"",
+      "required": ""
+    },
+    {
+      "description": "\"Digest\" : \"3fe12ea63b9cf8414f0b001f2efa8ac5bd0fc73c\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "} , {",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": ": false ,",
+      "name": "\"Critical\"",
+      "required": ""
+    },
+    {
+      "description": ": \"keyUsage\" ,",
+      "name": "\"Name\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2.5.29.15\" ,",
+      "name": "\"OID\"",
+      "required": ""
+    },
+    {
+      "description": ": { \"DataEncipherment\"",
+      "name": "\"Value\"",
+      "required": ""
+    },
+    {
+      "description": "true , \"DigitalSignature\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "true , \"KeyAgreement\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "true , \"KeyEncipherment\"",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "true } }",
+      "name": ":",
+      "required": ""
+    },
+    {
+      "description": "{ \"Critical\" :",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"Name\" :",
+      "name": "false",
+      "required": ""
+    },
+    {
+      "description": ", \"OID\" :",
+      "name": "\"extendedKeyUsage\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Value\" :",
+      "name": "\"2.5.29.37\"",
+      "required": ""
+    },
+    {
+      "description": "\"Usages\" : [",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "] } }",
+      "name": "\"clientAuth\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"Critical\" :",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"Name\" :",
+      "name": "false",
+      "required": ""
+    },
+    {
+      "description": ", \"OID\" :",
+      "name": "\"subjectAltName\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Value\" :",
+      "name": "\"2.5.29.17\"",
+      "required": ""
+    },
+    {
+      "description": "{ \"Type\" :",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": ", \"Value\" :",
+      "name": "\"dNSName\"",
+      "required": ""
+    },
+    {
+      "description": "} ] }",
+      "name": "\"*.example.com\"",
+      "required": ""
+    },
+    {
+      "description": ", \"IssuerDN\" :",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": ", \"MD5\" :",
+      "name": "\"CN=TestCA,OU=CA,O=Example.com,L=Casacca,ST=PR,C=IT\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Name\" :",
+      "name": "\"ac2fead0b8ac25a3633194b38ad91ca9\"",
+      "required": ""
+    },
+    {
+      "description": "\"*.example.com\" , \"IAmADVCertificate\"",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": ", \"PEM\" :",
+      "name": "]",
+      "required": ""
+    },
+    {
+      "description": ", \"PublicKey\" :",
+      "name": "\"-----BEGIN CERTIFICATE-----\\nMIIDzjCCAbagAwIBAgIIXAVHw/CcpwowDQYJKoZIhvcNAQELBQAwYDELMAkGA1UE\\nBhMCSVQxCzAJBgNVBAgTAlBSMRAwDgYDVQQHEwdDYXNhY2NhMRQwEgYDVQQKEwtF\\neGFtcGxlLmNvbTELMAkGA1UECxMCQ0ExDzANBgNVBAMTBlRlc3RDQTAeFw0yNjEy\\nMDIxNDQxMDBaFw0yMTEyMDIxNDQxMDBaMBwxGjAYBgNVBAMTEUlBbUFEVkNlcnRp\\nZmljYXRlMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEfWq17YxZZuf/jPU/to3HRumn\\nv8/LgZQSwkKUNdXs6niQYplCHTGQW1g062EtrhDhrWXYDIR1wxxt139y+z3hs9KP\\ngThaIkJNjFx8dVklvIWx16c6t4cujZSVr6/08TLOo34wfDAMBgNVHRMBAf8EAjAA\\nMB0GA1UdDgQWBBQ/4S6mO5z4QU8LAB8u+orFvQ/HPDALBgNVHQ8EBAMCA7gwEwYD\\nVR0lBAwwCgYIKwYBBQUHAwIwGAYDVR0RBBEwD4INKi5leGFtcGxlLmNvbTARBglg\\nhkgBhvhCAQEEBAMCBaAwDQYJKoZIhvcNAQELBQADggIBAAEhwtW+srmNaTs1krrt\\nxybcF23jDNzRv/2G91PHf0CxFq7BjHYYzF3CvvwaQfTXMKog6j5arenuKgLEPpO9\\navXiAcPt7vy3bxqX8WP4xgjoaRcEglS0cwW7bc+wtQT2NzqCsiXqNeRSiHXanNLY\\nBGOayOnulnWP9vuAHNhgTDgxvMphxNDYtY9MA1Qj+Bs0jIuRHdFWBTVXvPYaMr4/\\nbtzhrJY7VeS47IXDyp9KZbczy+5LUSh7AdKjXOI/kG8MUlKvfw/Vy23rDIOwb/dM\\n/PWnqkbTFZI6cBl5FxWh2i/MaYUvjaynS/6A1fZIsgnq9mcCO/Auzaw8pa4Zx55w\\nnf5hHBtp/Ksc+0ayPgYmfYKNGYvu/DQW3gvMAigYYaLAIrykYbkDl7mmQgL9lBIT\\nBpBN72+ho1oZWb7F8YrbPa4odu2PBxO8kuleQKMfW73rQVF9BWUoxk8oDdHFkeye\\nA+saBni5EZyYyLDMJRB2R9h/6mC02JkCRceHf7STNxiTvHwew8eP7mTNfmyTJDND\\nEsGgwQpK6w0ki3/kQ3pD8rFUtpnA3AqjB0BON6j+lSpyPx/2HvGSvSx3aT2B6apC\\nnoZV/cVfp9txXt1CkRt3zLpdzbQWTrRUiL+L2EaLeHPd901NZG0voxVUP64TuouB\\nSIzBSFl5/q4tqkY4D2Gv4gPX\\n-----END CERTIFICATE-----\\n\"",
+      "required": ""
+    },
+    {
+      "description": "\"Algorithm\" : \"EC\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Curve\" : \"secp384r1\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"Length\" : 384",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"X\" : \"7d:6a:b5:ed:8c:59:66:e7:ff:8c:f5:3f:b6:8d:c7:46:e9:a7:bf:cf:cb:81:94:12:c2:42:94:35:d5:ec:ea:78:90:62:99:42:1d:31:90:5b:58:34:eb:61:2d:ae:10:e1\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": "\"Y\" : \"ad:65:d8:0c:84:75:c3:1c:6d:d7:7f:72:fb:3d:e1:b3:d2:8f:81:38:5a:22:42:4d:8c:5c:7c:75:59:25:bc:85:b1:d7:a7:3a:b7:87:2e:8d:94:95:af:af:f4:f1:32:ce\"",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"SHA1\" :",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": ", \"SHA256\" :",
+      "name": "\"18ac1daece43f5b769260adbabf763046ebda80e\"",
+      "required": ""
+    },
+    {
+      "description": ", \"SPKISHA256\" :",
+      "name": "\"869c151a7174f95a35b58c7aa900da5daed3723b63a31f08b89edd788653e402\"",
+      "required": ""
+    },
+    {
+      "description": ", \"SerialNumber\" :",
+      "name": "\"f2d670d5c0e7e3ba2fb928dc2533c0191a679170acd7dc9387130173492e4b18\"",
+      "required": ""
+    },
+    {
+      "description": ", \"Signature\" :",
+      "name": "\"6630784933253916426\"",
+      "required": ""
+    },
+    {
+      "description": "\"Algorithm\" : \"sha256\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "\"Signature\" : \"0121c2d5beb2b98d693b3592baedc726dc176de30cdcd1bffd86f753c77f40b116aec18c7618cc5dc2befc1a41f4d730aa20ea3e5aade9ee2a02c43e93bd6af5e201c3edeefcb76f1a97f163f8c608e86917048254b47305bb6dcfb0b504f6373a82b225ea35e4528875da9cd2d804639ac8e9ee96758ff6fb801cd8604c3831bcca61c4d0d8b58f4c035423f81b348c8b911dd156053557bcf61a32be3f6edce1ac963b55e4b8ec85c3ca9f4a65b733cbee4b51287b01d2a35ce23f906f0c5252af7f0fd5cb6deb0c83b06ff74cfcf5a7aa46d315923a7019791715a1da2fcc69852f8daca74bfe80d5f648b209eaf667023",
+      "name": ",",
+      "required": ""
+    },
+    {
+      "description": ", \"SubjectAlternativeName\" :",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "{ \"Type\" :",
+      "name": "[",
+      "required": ""
+    },
+    {
+      "description": ", \"Value\" :",
+      "name": "\"dNSName\"",
+      "required": ""
+    },
+    {
+      "description": "} ] ,",
+      "name": "\"*.example.com\"",
+      "required": ""
+    },
+    {
+      "description": ": \"CN=IAmADVCertificate\" ,",
+      "name": "\"SubjectDN\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2021-12-02T14:41:00.000Z\" ,",
+      "name": "\"ValidityNotAfter\"",
+      "required": ""
+    },
+    {
+      "description": ": \"2026-12-02T14:41:00.000Z\" }",
+      "name": "\"ValidityNotBefore\"",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CertificateExtract",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/certificate-extract"
+}

@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "testpublic@demistodev.onmicrosoft.com",
+  "examples": [
+    "Command Example\n!msgraph-groups-get-group group_id={group_id}\nContext Example\n{\n\"MSGraphGroups\": {\n\"Classification\": null,\n\"CreatedDateTime\": \"2019-08-24T09:39:03Z\",\n\"DeletedDateTime\": null,",
+    "!msgraph-groups-get-group group_id={group_id}\nContext Example\n{\n\"MSGraphGroups\": {\n\"Classification\": null,\n\"CreatedDateTime\": \"2019-08-24T09:39:03Z\",\n\"DeletedDateTime\": null,\n\"Description\": \"DemistoTeam\","
+  ],
+  "kind": "integration-command",
+  "name": "msgraph-groups-get-group",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "A classification for the group (such as low, medium or high business impact). MSGraphGroups.CreatedDateTime The timestamp when the group was created.",
+      "name": "MSGraphGroups.Classification",
+      "required": ""
+    },
+    {
+      "description": "The timestamp when the group was deleted. MSGraphGroups.Description An optional description for the group.",
+      "name": "MSGraphGroups.DeletedDateTime",
+      "required": ""
+    },
+    {
+      "description": "Specifies the group type and its membership. If the group collection contains a Unified value, the group is an Office 365 group; otherwise it's a security group. If the collection includes DynamicMembership, the group has dynamic membership; otherwise, membership is static.",
+      "name": "MSGraphGroups.GroupTypes",
+      "required": ""
+    },
+    {
+      "description": "The unique identifier for the group. MSGraphGroup.IsAssignableToRole Whether the group assigned to a specific role.",
+      "name": "MSGraphGroups.ID",
+      "required": ""
+    },
+    {
+      "description": "The SMTP address for the group. For example, \"serviceadmins@contoso.onmicrosoft.com\". MSGraphGroup.MailEnabled Specifies whether the group is mail-enabled.",
+      "name": "MSGraphGroup.Mail",
+      "required": ""
+    },
+    {
+      "description": "The mail alias for the group, unique in the organization. MSGraphGroup.OnPremisesDomainName Contains the on-premises domain FQDN. Also called dnsDomainName, which is synchronized from the on-premises directory.",
+      "name": "MSGraphGroup.MailNickname",
+      "required": ""
+    },
+    {
+      "description": "Indicates the last time at which the group was synced with the on-premises directory.The Timestamp type represents date and time information using ISO 8601 format in UTC time. For example, midnight UTC on Jan 1, 2019 is '2019-01-01T00:00:00Z'. MSGraphGroup.OnPremisesSyncEnabled Whether the group is synced from an on-premises directory (true). This group was originally synced from an on-premises directory but is no longer synced (false). Null if this object has never been synced from an on-premis",
+      "name": "MSGraphGroup.OnPremisesLastSyncDateTime",
+      "required": ""
+    },
+    {
+      "description": "Email addresses for the group that directs to the same group mailbox. For example: [\"SMTP: example@demisto.com\", \"smtp: example@demisto.com\"]. MSGraphGroup.RenewedDateTime The timestamp of when the group was last renewed. This cannot be modified directly and is only updated via the renew service action. The Timestamp type represents date and time information using ISO 8601 format in UTC time. For example, midnight UTC on Jan 1, 2019 is '2019-01-01T00:00:00Z'.",
+      "name": "MSGraphGroup.ProxyAddresses",
+      "required": ""
+    },
+    {
+      "description": "Specifies whether the group is a security group. MSGraphGroup.Visibility Specifies the visibility of an Office 365 group. Possible values are: Private, Public, or Hiddenmembership. Blank values are treated as public.",
+      "name": "MSGraphGroup.SecurityEnabled",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Entra ID Groups",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/microsoft-graph-groups"
+}

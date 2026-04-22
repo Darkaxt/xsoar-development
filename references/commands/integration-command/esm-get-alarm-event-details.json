@@ -1,0 +1,74 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!esm-delete-alarms alarmIds=26",
+  "examples": [
+    "Command Example\n!esm-delete-alarms alarmIds=26\nHuman Readable Output\nAlarms has been Deleted.\n18. Get details for a triggered alarm\nReturns details for a triggered alarm.\nBase Command\nesm-get-alarm-event-details",
+    "!esm-delete-alarms alarmIds=26\nHuman Readable Output\nAlarms has been Deleted.\n18. Get details for a triggered alarm\nReturns details for a triggered alarm.\nBase Command\nesm-get-alarm-event-details\nInput",
+    "Command Example\n!esm-get-alarm-event-details eventId=\"144115188075855872|9718\"\nContext Example\n{\n\"EsmAlarmEvent\": [\n{\n\"DstIP\": \"192.168.1.25\",\n\"FirstTime\": \"03/11/2019 11:09:37\",",
+    "!esm-get-alarm-event-details eventId=\"144115188075855872|9718\"\nContext Example\n{\n\"EsmAlarmEvent\": [\n{\n\"DstIP\": \"192.168.1.25\",\n\"FirstTime\": \"03/11/2019 11:09:37\",\n\"Severity\": 19,"
+  ],
+  "kind": "integration-command",
+  "name": "esm-get-alarm-event-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Event ID EsmAlarmEvent.SubType Event type",
+      "name": "EsmAlarmEvent.ID",
+      "required": ""
+    },
+    {
+      "description": "Event severity EsmAlarmEvent.Message Event message",
+      "name": "EsmAlarmEvent.Severity",
+      "required": ""
+    },
+    {
+      "description": "date Event time EsmAlarmEvent.SrcIP",
+      "name": "EsmAlarmEvent.LastTime",
+      "required": ""
+    },
+    {
+      "description": "Source IP of the event EsmAlarmEvent.DstIP Destination IP of the event",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "A list of related cases to the event EsmAlarmEvent.Cases.ID Case ID",
+      "name": "EsmAlarmEvent.Cases",
+      "required": ""
+    },
+    {
+      "description": "date Case creation time EsmAlarmEvent.Cases.Severity",
+      "name": "EsmAlarmEvent.Cases.OpenTime",
+      "required": ""
+    },
+    {
+      "description": "Case severity EsmAlarmEvent.Cases.Status Case status",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "Case summary EsmAlarmEvent.DstMac Destination MAC of the event",
+      "name": "EsmAlarmEvent.Cases.Summary",
+      "required": ""
+    },
+    {
+      "description": "Source MAC of the event EsmAlarmEvent.DstPort Destination port of the event",
+      "name": "EsmAlarmEvent.SrcMac",
+      "required": ""
+    },
+    {
+      "description": "Source port of the event EsmAlarmEvent.FirstTime date",
+      "name": "EsmAlarmEvent.SrcPort",
+      "required": ""
+    },
+    {
+      "description": "EsmAlarmEvent.NormalizedDescription Normalized description of the event",
+      "name": "The first time for the event",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee ESM v10 and v11 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-esm-v10"
+}

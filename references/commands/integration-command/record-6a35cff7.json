@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "threatstream-get-analysis-status",
+  "examples": [
+    "Command Example\n#\n#### Human Readable Output\n##### Report 413336 analysis results\n| Category | Started | Completed | Duration | VmName | VmID | ReportID | Verdict |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| File | 2019-05-30 14:05:25 | 2019-05-30 14:06:33 | 68 | | | 413336 | Benign |\n### threatstream-analysis-report",
+    "#### Command Example\nthreatstream-get-analysis-status report_id=422662\n#### Context Example\n{\n\"ThreatStream\": {\n\"Analysis\": {\n\"Platform\": \"WINDOWS7\",\n\"ReportID\": \"422662\",",
+    "#### Command Example\nthreatstream-get-indicators type=ip status=active asn=4837 country=CN confidence=84 indicator_severity=medium org=\"China Unicom Guangxi\" limit=5\n#### Context Example\n{\n\"ThreatStream.Indicators\": [\n{\n\"Status\": \"active\",\n\"Confidence\": 84,"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The report ID of the file or URL that was detonated to sandbox. ThreatStream.Analysis.Status The report status of the file or URL that was detonated in the sandbox.",
+      "name": "ThreatStream.Analysis.ReportID",
+      "required": ""
+    },
+    {
+      "description": "The platfrom that was used for detonation. ThreatStream.Analysis.Verdict The report verdict of the file or URL that was detonated in the sandbox. The verdict will remain \"benign\" until detonation is complete.",
+      "name": "ThreatStream.Analysis.Platform",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Anomali ThreatStream v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/anomali-threat-stream-v2"
+}

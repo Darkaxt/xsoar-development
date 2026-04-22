@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "url-number-of-ads"
+  ],
+  "arguments": [],
+  "description": "URLNumberOfAds | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "URLNumberOfAds",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The URL ad found. Ads.Count The count for the ad found.",
+      "name": "Ads.URL",
+      "required": ""
+    },
+    {
+      "description": "URL.Data The URL that will be checked. URL.AdsCount",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The ads count on the URL.",
+      "required": ""
+    },
+    {
+      "description": "Next URLReputation \u00bb Script Data",
+      "name": "\u00ab URLEncode",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "URLNumberOfAds",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/url-number-of-ads"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "3. Create and ask a manual question",
+  "examples": [
+    "Command Example\n!tn-ask-manual-question sensors=\"Computer Name, opt:max_data_age:60\" question_filters=\"Index Query File Exists{fileMagicNumber=10}, that contains:No;Computer Name, that contains:WIN\"\nContext Example\n{\nTanium: {\nQuestionResults:[{\nComputer Name: Demisto-Computer,\nCount:1",
+    "!tn-ask-manual-question sensors=\"Computer Name, opt:max_data_age:60\" question_filters=\"Index Query File Exists{fileMagicNumber=10}, that contains:No;Computer Name, that contains:WIN\"\nContext Example\n{\nTanium: {\nQuestionResults:[{\nComputer Name: Demisto-Computer,\nCount:1\n}]"
+  ],
+  "kind": "integration-command",
+  "name": "tn-ask-manual-question",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Results of requested question. May be a complex object",
+      "name": "Tanium.QuestionResults",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium"
+}

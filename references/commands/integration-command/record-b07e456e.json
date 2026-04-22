@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Deletes a specific list",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Job id of the async job Edit this page Report an Issue",
+      "name": "Sendgrid.DeleteListJobId",
+      "required": ""
+    },
+    {
+      "description": "\u00ab SEKOIAIntelligenceCenter Next SentinelOne Activity and Alerts \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Commands sg-send-email sg-get-global-email-stats",
+      "name": "Configure SendGrid in Cortex",
+      "required": ""
+    },
+    {
+      "description": "sg-get-all-categories-stats sg-list-categories sg-create-batch-id",
+      "name": "sg-get-category-stats",
+      "required": ""
+    },
+    {
+      "description": "sg-retrieve-all-scheduled-sends sg-retrieve-scheduled-send sg-update-scheduled-send",
+      "name": "sg-scheduled-status-change",
+      "required": ""
+    },
+    {
+      "description": "sg-get-email-activity-list sg-get-all-lists sg-get-list-by-id",
+      "name": "sg-delete-scheduled-send",
+      "required": ""
+    },
+    {
+      "description": "sg-get-list-contact-count-by-id sg-update-list-name sg-delete-list",
+      "name": "sg-create-list",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SendGrid",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/send-grid"
+}

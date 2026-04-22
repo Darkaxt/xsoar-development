@@ -1,0 +1,50 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "test-vm-resource-group",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Azure Risky Users \u00bb Authorize Cortex XSOAR for Azure Resource Graph (Self-Deployed Configuration)",
+      "name": "\u00ab Azure Open AI Service",
+      "required": ""
+    },
+    {
+      "description": "Client Credentials Flow Configure Azure Resource Graph in Cortex Commands",
+      "name": "Authentication",
+      "required": ""
+    },
+    {
+      "description": "azure-rg-query azure-rg-auth-reset Docs",
+      "name": "azure-rg-list-operations",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Azure Resource Graph",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/azure-resource-graph"
+}

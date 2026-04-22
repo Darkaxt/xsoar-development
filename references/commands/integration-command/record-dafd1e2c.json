@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Veeam.VBR.start_recovery.usn",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Session ID. Veeam.VBR.start_recovery.name Session name.",
+      "name": "Veeam.VBR.start_recovery.id",
+      "required": ""
+    },
+    {
+      "description": "ID of the job or job related activity. Veeam.VBR.start_recovery.sessionType Session type.",
+      "name": "Veeam.VBR.start_recovery.jobId",
+      "required": ""
+    },
+    {
+      "description": "Date and time when the session was created. Veeam.VBR.start_recovery.state Session state.",
+      "name": "Veeam.VBR.start_recovery.creationTime",
+      "required": ""
+    },
+    {
+      "description": "Date and time when the session was ended. Veeam.VBR.start_recovery.usn Update sequence number.",
+      "name": "Veeam.VBR.start_recovery.endTime",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab Vectra XDR",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "Veeam ONE REST API \u00bb Configure Veeam Backup & Replication REST API in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "veeam-vbr-get-all-malware-events veeam-vbr-get-all-repository-states veeam-vbr-get-all-restore-points",
+      "name": "veeam-vbr-create-malware-event",
+      "required": ""
+    },
+    {
+      "description": "veeam-vbr-get-configuration-backup veeam-vbr-get-inventory-objects veeam-vbr-get-session",
+      "name": "veeam-vbr-get-backup-object",
+      "required": ""
+    },
+    {
+      "description": "veeam-vbr-start-instant-recovery-customized veeam-vbr-start-instant-recovery Docs",
+      "name": "veeam-vbr-start-configuration-backup",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Veeam Backup & Replication REST API",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/vbr-rest-api"
+}

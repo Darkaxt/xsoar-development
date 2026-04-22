@@ -1,0 +1,51 @@
+{
+  "aliases": [
+    "get-ask-links"
+  ],
+  "arguments": [],
+  "description": "GetAskLinks | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GetAskLinks",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The name of the task in the playbook for which this link is created. Ask.Links.link The link generated for the option.",
+      "name": "Ask.Links.taskName",
+      "required": ""
+    },
+    {
+      "description": "Ask.Links.option The option for which this link is created. Ask.Links.taskID",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The id of the task in the playbook for which this link is created.",
+      "required": ""
+    },
+    {
+      "description": "Next getAutomationsCount \u00bb Script Data",
+      "name": "\u00ab get-user-data",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GetAskLinks",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/get-ask-links"
+}

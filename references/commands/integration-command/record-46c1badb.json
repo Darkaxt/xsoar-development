@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!office365-get-indicators limit=\"5\"\nHuman Readable Output\n#\nIndicators from Office 365 Feed\n#\nvalue",
+    "!office365-get-indicators limit=\"5\"\nHuman Readable Output\n#\nIndicators from Office 365 Feed\n#\nvalue\ntype\n0.0.0.0/0"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Office 365 Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/office-365-feed"
+}

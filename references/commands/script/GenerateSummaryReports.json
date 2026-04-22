@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "generate-summary-reports"
+  ],
+  "arguments": [],
+  "description": "GenerateSummaryReports | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "GenerateSummaryReports",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The incident ID of each generated report. SummaryReports.ReportName The report name.",
+      "name": "SummaryReports.IncidentID",
+      "required": ""
+    },
+    {
+      "description": "SummaryReports.File The file name of the report file. SummaryReports.FileID",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "The file ID of the generated report.",
+      "required": ""
+    },
+    {
+      "description": "Next GenericPollingScheduledTask \u00bb Script Data",
+      "name": "\u00ab GenerateSummaryReportButton",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "GenerateSummaryReports",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/generate-summary-reports"
+}

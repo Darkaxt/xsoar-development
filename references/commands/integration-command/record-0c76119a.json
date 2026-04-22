@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "cloudflare-mcp-auth-test",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Test the authentication configuration with the MCP server.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "cloudflare-mcp-auth-test",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Cloudflare WAF \u00bb Configure Cloudflare MCP in Cortex",
+      "name": "\u00ab Cloudflare Feed",
+      "required": ""
+    },
+    {
+      "description": "cloudflare-mcp-generate-login-url cloudflare-mcp-auth-test Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cloudflare MCP",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cloudflare-mcp"
+}

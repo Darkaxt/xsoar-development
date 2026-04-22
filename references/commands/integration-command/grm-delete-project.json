@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "CustomerID: C02f0zfqw",
+  "examples": [
+    "Command Example\ngrm-delete-project project_id=faramir-111\nContext Example\n{\n\"GRM.Project\": {\n\"Name\": \"Faramir-Updated\",\n\"Parent\": {\n\"Type\": \"organization\","
+  ],
+  "kind": "integration-command",
+  "name": "grm-delete-project",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The Project lifecycle state GRM.Project.Number The number uniquely identifying the Project",
+      "name": "GRM.Project.State",
+      "required": ""
+    },
+    {
+      "description": "The unique, user-assigned ID of the Project GRM.Project.Name The user-assigned display name of the Project",
+      "name": "GRM.Project.ID",
+      "required": ""
+    },
+    {
+      "description": "Date createTime - The time the resource was created GRM.Project.Label",
+      "name": "GRM.Project.CreateTime",
+      "required": ""
+    },
+    {
+      "description": "The labels associated with this Project GRM.Project.Parent.ID ID of the parent resource",
+      "name": "Unknown",
+      "required": ""
+    },
+    {
+      "description": "Type of the parent resource",
+      "name": "GRM.Project.Parent.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Google Resource Manager",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/google-resource-manager"
+}

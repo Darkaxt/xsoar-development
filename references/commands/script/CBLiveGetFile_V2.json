@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "cb-live-get-file-v2"
+  ],
+  "arguments": [],
+  "description": "CBLiveGetFile_V2 | Cortex XSOAR",
+  "examples": [
+    "Command Example\n#\n!CBLiveGetFile_v2 endpoint=EC2AMAZ-L4C2OKC path=\"c:\\\\Users\\\\All Users\\\\Desktop\\\\mooncake.jpg\" timeout=2000\nContext Example\n#\n{\n\"CbLiveResponse\": {\n\"Commands\": {",
+    "!CBLiveGetFile_v2 endpoint=EC2AMAZ-L4C2OKC path=\"c:\\\\Users\\\\All Users\\\\Desktop\\\\mooncake.jpg\" timeout=2000\nContext Example\n#\n{\n\"CbLiveResponse\": {\n\"Commands\": {\n\"CbCommandID\": 2,\n\"CbSensorID\": 17,"
+  ],
+  "kind": "script",
+  "name": "CBLiveGetFile_V2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique command identifier. CbLiveResponse.Commands.CommandName The command name.",
+      "name": "CbLiveResponse.Commands.CbCommandID",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.Commands.Status The command Status ('pending', 'in progress', 'complete', 'error', 'canceled'). CbLiveResponse.Commands.CommandCompletionTime",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.Commands.OperandObject The source path of the file. CbLiveResponse.Commands.FileID",
+      "name": "The command completion time (0 if not complete).",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.File.Size File size. CbLiveResponse.File.SHA1",
+      "name": "Unique file ID.",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.File.SHA256 File SHA256. CbLiveResponse.File.Name",
+      "name": "File SHA1.",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.File.SSDeep File SSDeep. CbLiveResponse.File.EntryID",
+      "name": "File name.",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.File.Info File info. CbLiveResponse.File.Type",
+      "name": "File EntryID.",
+      "required": ""
+    },
+    {
+      "description": "CbLiveResponse.File.MD5 File MD5. CbLiveResponse.File.Extension",
+      "name": "File type.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "File extension.",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CBLiveGetFile_V2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cb-live-get-file-v2"
+}

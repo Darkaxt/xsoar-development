@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "timers-on-owner-change"
+  ],
+  "arguments": [],
+  "description": "TimersOnOwnerChange | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "TimersOnOwnerChange",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next TimeStampCompare \u00bb Script Data",
+      "name": "\u00ab TimeComponents",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TimersOnOwnerChange",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/timers-on-owner-change"
+}

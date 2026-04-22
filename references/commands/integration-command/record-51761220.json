@@ -1,0 +1,51 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!lolbas-get-indicators limit=2\nContext Example\n#\n{\n\"LOLBAS\"\n:\n{\n\"Indicators\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The category of the command. LOLBAS.Indicators.Commands.command The command.",
+      "name": "LOLBAS.Indicators.Commands.category",
+      "required": ""
+    },
+    {
+      "description": "The description of the command. LOLBAS.Indicators.Commands.mitreid The MITRE ID related to the command.",
+      "name": "LOLBAS.Indicators.Commands.description",
+      "required": ""
+    },
+    {
+      "description": "The operating system the command ran on. LOLBAS.Indicators.Commands.privileges The privileges required to run the command.",
+      "name": "LOLBAS.Indicators.Commands.operatingsystem",
+      "required": ""
+    },
+    {
+      "description": "The use case of the command. LOLBAS.Indicators.Description The description of the indicator.",
+      "name": "LOLBAS.Indicators.Commands.usecase",
+      "required": ""
+    },
+    {
+      "description": "The content of the detection. LOLBAS.Indicators.Detections.type The type of the detection.",
+      "name": "LOLBAS.Indicators.Detections.content",
+      "required": ""
+    },
+    {
+      "description": "The name of the indicator. LOLBAS.Indicators.Paths.path The path of the indicator.",
+      "name": "LOLBAS.Indicators.Name",
+      "required": ""
+    },
+    {
+      "description": "The type of the indicator. LOLBAS.Indicators.URL The URL to the indicator.",
+      "name": "LOLBAS.Indicators.Type",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "LOLBAS Feed",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/lolbas-feed"
+}

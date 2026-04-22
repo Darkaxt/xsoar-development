@@ -1,0 +1,154 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "incap-get-infra-protection-top-items-table",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Use this operation to view the highest peak values and highest average values for a protected IP range during a selected time period",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "incap-get-infra-protection-top-items-table",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Imperva Skyfence \u00bb Configure Imperva Incapsula in Cortex",
+      "name": "\u00ab Impartner",
+      "required": ""
+    },
+    {
+      "description": "incap-add-managed-account incap-list-managed-accounts incap-add-subaccount",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "incap-get-account-status incap-modify-account-configuration incap-set-account-log-level",
+      "name": "incap-list-subaccounts",
+      "required": ""
+    },
+    {
+      "description": "incap-test-account-sftp-connection incap-set-account-s3-log-storage incap-set-account-sftp-log-storage",
+      "name": "incap-test-account-s3-connection",
+      "required": ""
+    },
+    {
+      "description": "incap-get-account-login-token incap-delete-managed-account incap-delete-subaccount",
+      "name": "incap-set-account-default-log-storage",
+      "required": ""
+    },
+    {
+      "description": "incap-set-account-default-data-storage-region incap-get-account-default-data-storage-region incap-add-site",
+      "name": "incap-get-account-audit-events",
+      "required": ""
+    },
+    {
+      "description": "incap-get-domain-approver-email incap-modify-site-configuration incap-modify-site-log-level",
+      "name": "incap-get-site-status",
+      "required": ""
+    },
+    {
+      "description": "incap-modify-site-scurity-config incap-modify-site-acl-config incap-modify-site-wl-config",
+      "name": "incap-modify-site-tls-support",
+      "required": ""
+    },
+    {
+      "description": "incap-list-sites incap-get-site-report incap-get-site-html-injection-rules",
+      "name": "incap-delete-site",
+      "required": ""
+    },
+    {
+      "description": "incap-delete-site-html-injection-rule incap-create-new-csr incap-upload-certificate",
+      "name": "incap-add-site-html-injection-rule",
+      "required": ""
+    },
+    {
+      "description": "incap-move-site incap-check-compliance incap-set-site-data-storage-region",
+      "name": "incap-remove-custom-integration",
+      "required": ""
+    },
+    {
+      "description": "incap-set-site-data-storage-region-geo-override incap-get-site-data-storage-region-geo-override incap-purge-site-cache",
+      "name": "incap-get-site-data-storage-region",
+      "required": ""
+    },
+    {
+      "description": "incap-purge-resources incap-modify-caching-rules incap-set-advanced-caching-settings",
+      "name": "incap-modify-cache-mode",
+      "required": ""
+    },
+    {
+      "description": "incap-site-get-xray-link incap-list-site-rule-revisions incap-add-site-rule",
+      "name": "incap-purge-hostname-from-cache",
+      "required": ""
+    },
+    {
+      "description": "incap-enable-site-rule incap-delete-site-rule incap-list-site-rules",
+      "name": "incap-edit-site-rule",
+      "required": ""
+    },
+    {
+      "description": "incap-set-site-rule-priority incap-add-site-datacenter incap-edit-site-datacenter",
+      "name": "incap-revert-site-rule",
+      "required": ""
+    },
+    {
+      "description": "incap-list-site-datacenters incap-add-site-datacenter-server incap-edit-site-datacenter-server",
+      "name": "incap-delete-site-datacenter",
+      "required": ""
+    },
+    {
+      "description": "incap-get-statistics incap-get-visits incap-upload-public-key",
+      "name": "incap-delete-site-datacenter-server",
+      "required": ""
+    },
+    {
+      "description": "incap-get-infra-protection-statistics incap-get-infra-protection-events incap-add-login-protect",
+      "name": "incap-change-logs-collector-configuration",
+      "required": ""
+    },
+    {
+      "description": "incap-get-login-protect incap-remove-login-protect incap-send-sms-to-user",
+      "name": "incap-edit-login-protect",
+      "required": ""
+    },
+    {
+      "description": "incap-configure-app incap-get-ip-ranges incap-get-texts",
+      "name": "incap-modify-login-protect",
+      "required": ""
+    },
+    {
+      "description": "incap-get-app-info incap-get-infra-protection-top-items-table Docs",
+      "name": "incap-get-geo-info",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Imperva Incapsula",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/incapsula"
+}

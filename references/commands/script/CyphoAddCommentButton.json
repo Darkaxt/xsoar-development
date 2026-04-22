@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "cypho-add-comment-button"
+  ],
+  "arguments": [
+    {
+      "description": "The automation automatically uses: The current incident owner The analyst comment provided in XSOAR",
+      "name": "There are no manual inputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The associated Cypho ticket ID",
+      "required": ""
+    }
+  ],
+  "description": "CyphoAddCommentButton | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CyphoAddCommentButton",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The script performs a background synchronization and adds the comment to the corresponding Cypho issue. \u2714 Notes",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "button on the incident layout. The incident",
+      "name": "This script is intended to be executed via a",
+      "required": ""
+    },
+    {
+      "description": "before a comment can be added. Designed to reduce manual context switching between Cypho and Cortex XSOAR. Ensures consistent documentation and investigation notes across platforms.",
+      "name": "must be assigned",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab CYFileRep",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "CyphoAdjustTimeToAssignmentAndRemediationSLAs \u00bb Script Data",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "\u2714 Notes",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyphoAddCommentButton",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cypho-add-comment-button"
+}

@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!aws-logs-put-log-events logGroupName=test logStreamName=test message=\"test message\" timestamp=1536063673395",
+  "examples": [
+    "Command Example\n!aws-logs-put-log-events logGroupName=test logStreamName=test message=\"test message\" timestamp=1536063673395\nContext Example\nHuman Readable Output\n11. Create or modify a metric filter\nCreates or updates a metric filter and associates it with the specified log group. Metric filters allow you to configure rules to extract metric data from log events ingested through PutLogEvents .\nBase Command\naws-logs-put-metric-filter",
+    "!aws-logs-put-log-events logGroupName=test logStreamName=test message=\"test message\" timestamp=1536063673395\nContext Example\nHuman Readable Output\n11. Create or modify a metric filter\nCreates or updates a metric filter and associates it with the specified log group. Metric filters allow you to configure rules to extract metric data from log events ingested through PutLogEvents .\nBase Command\naws-logs-put-metric-filter\nInput",
+    "Command Example"
+  ],
+  "kind": "integration-command",
+  "name": "aws-logs-put-metric-filter",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "AWS - CloudWatchLogs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aws---cloud-watch-logs"
+}

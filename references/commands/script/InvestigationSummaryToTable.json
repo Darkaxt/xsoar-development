@@ -1,0 +1,47 @@
+{
+  "aliases": [
+    "investigation-summary-to-table"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no inputs for this script.",
+      "required": ""
+    }
+  ],
+  "description": "InvestigationSummaryToTable | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "InvestigationSummaryToTable",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Tactic answered by the finding InvestigationSummary.Label Color (emoji) and Label of the finding. i.e. `\ud83d\udfe2 Benign`.",
+      "name": "InvestigationSummary.Tactic",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Next iot-security-alert-post-processing \u00bb Script Data",
+      "name": "\u00ab InvestigationSummaryParse",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "InvestigationSummaryToTable",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/investigation-summary-to-table"
+}

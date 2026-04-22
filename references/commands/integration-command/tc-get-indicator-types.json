@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "The name of the tag to add to the group.",
+  "examples": [
+    "Command Example\n!tc-add-group-tag group_id=4378343 group_type=events tag_name=phishing\n28. Returns all indicator types\nReturns all indicator types available.\nBase Command\ntc-get-indicator-types\nInput\nArgument Name",
+    "!tc-add-group-tag group_id=4378343 group_type=events tag_name=phishing\n28. Returns all indicator types\nReturns all indicator types available.\nBase Command\ntc-get-indicator-types\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "tc-get-indicator-types",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The branch of the API. TC.IndicatorType.ApiEntity The entity of the API.",
+      "name": "TC.IndicatorType.ApiBranch",
+      "required": ""
+    },
+    {
+      "description": "The case preference of the indicator. For example, \"sensitive\", \"upper\", or \"lower\". TC.IndicatorType.Custom Whether the indicator is a custom indicator.",
+      "name": "TC.IndicatorType.CasePreference",
+      "required": ""
+    },
+    {
+      "description": "Whether the indicator can be parsed. TC.IndicatorType.Value1Type The name of the indicator.",
+      "name": "TC.IndicatorType.Parsable",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "TC.IndicatorType.Value1Label",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatConnect (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-connect"
+}

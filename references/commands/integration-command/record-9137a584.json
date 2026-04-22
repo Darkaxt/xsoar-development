@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "bt-get-ticket",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "retrieves an existing ticket.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "bt-get-ticket",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next BeyondTrust Password Safe \u00bb Configure BeyondTrust - Authorization Requests in Cortex",
+      "name": "\u00ab Bastille Networks",
+      "required": ""
+    },
+    {
+      "description": "bt-authorize-ticket bt-get-ticket Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "BeyondTrust - Authorization Requests",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/beyond-trust---authorization-requests"
+}

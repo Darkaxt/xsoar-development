@@ -1,0 +1,66 @@
+{
+  "aliases": [
+    "cherwell-get-incident"
+  ],
+  "arguments": [],
+  "description": "CherwellGetIncident | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "CherwellGetIncident",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Recoed ID Cherwell.BusinessObjects.PublicId Public ID",
+      "name": "Cherwell.BusinessObjects.RecordId",
+      "required": ""
+    },
+    {
+      "description": "Cherwell.BusinessObjects.Description Incident description Cherwell.BusinessObjects.Priority",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Cherwell.BusinessObjects.OwnedBy Incident owned by field Cherwell.BusinessObjects.Service",
+      "name": "Incident ptiority",
+      "required": ""
+    },
+    {
+      "description": "Cherwell.BusinessObjects.CustomerDisplayName Incident reporting customer Cherwell.BusinessObjects.CreatedDateTime",
+      "name": "Service needed for the incident",
+      "required": ""
+    },
+    {
+      "description": "Date Cherwell.BusinessObjects.TotalTasks Total tasks for this incident",
+      "name": "Created date time",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "Next CherwellIncidentOwnTask \u00bb Script Data",
+      "name": "\u00ab CherwellCreateIncident",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Dependencies",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CherwellGetIncident",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/cherwell-get-incident"
+}

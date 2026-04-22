@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "sms: network: {\"http_requests\": null} count_sms: 0 telephony: null broadcast_receivers:",
+  "examples": [
+    "Command Example\n#\n!file file=85525e9c1fd30a20848812e417f3bb1a using-brand=Zimperium\nContext Example\n#\n{\n\"DBotScore\": {\n\"Indicator\": \"85525e9c1fd30a20848812e417f3bb1a\",",
+    "!file file=85525e9c1fd30a20848812e417f3bb1a using-brand=Zimperium\nContext Example\n#\n{\n\"DBotScore\": {\n\"Indicator\": \"85525e9c1fd30a20848812e417f3bb1a\",\n\"Score\": 1,\n\"Type\": \"file\","
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The vendor used to calculate the score. DBotScore.Score The actual score.",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Indicator The indicator that was tested.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "MD5 hash of the file. File.SHA1 SHA1 hash of the file.",
+      "name": "File.MD5",
+      "required": ""
+    },
+    {
+      "description": "SHA256 hash of the file. File.Malicious.Vendor For malicious files, the vendor that made the decision.",
+      "name": "File.SHA256",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Zimperium",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/zimperium"
+}

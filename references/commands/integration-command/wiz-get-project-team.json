@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!wiz-clear-issue-due-date issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\"",
+  "examples": [
+    "Command Example\n#\n!wiz-clear-issue-due-date issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\"\nwiz-get-project-team\n#\nClear a due date for an Issue.\nBase Command\nwiz-get-project-team",
+    "!wiz-clear-issue-due-date issue_id=\"12345678-1234-1234-1234-cc0a24716e0b\"\nwiz-get-project-team\n#\nClear a due date for an Issue.\nBase Command\nwiz-get-project-team\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "wiz-get-project-team",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Wiz",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/wiz"
+}

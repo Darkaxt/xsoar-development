@@ -1,0 +1,49 @@
+{
+  "aliases": [
+    "threatstream-build-ioc-import-json"
+  ],
+  "arguments": [],
+  "description": "ThreatstreamBuildIocImportJson | Cortex XSOAR",
+  "examples": [
+    "!ThreatstreamBuildIocImportJson indicator_query=\"type: Domain\"\nContext Example\n#\n{\n\"ThreatstreamBuildIocImportJson\"\n:\n\"{'objects': [{'value': 'my.domain1.com', 'itype': 'mal_domain'}, {'value': 'my.domain2.com', 'itype': 'mal_domain'}]}\"\n}",
+    "!ThreatstreamBuildIocImportJson indicator_query=\"type: Domain\" domain_indicator_type=spam_domain\nContext Example\n#\n{\n\"ThreatstreamBuildIocImportJson\"\n:\n\"{'objects': [{'value': 'my.domain1.com', 'itype': 'spam_domain'}, {'value': 'my.domain2.com', 'itype': 'spam_domain'}]}\"\n}"
+  ],
+  "kind": "script",
+  "name": "ThreatstreamBuildIocImportJson",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The string output represents a JSON object. Script Examples",
+      "name": "ThreatstreamBuildIocImportJson",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example command",
+      "required": ""
+    },
+    {
+      "description": "Context Example",
+      "name": "!ThreatstreamBuildIocImportJson indicator_query=\"type: Domain\"",
+      "required": ""
+    },
+    {
+      "description": "\"ThreatstreamBuildIocImportJson\" : \"{'objects': [{'value': 'my.domain1.com', 'itype': 'mal_domain'}, {'value': 'my.domain2.com', 'itype': 'mal_domain'}]}\"",
+      "name": "{",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "Example command Context Example",
+      "name": "Script Examples",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ThreatstreamBuildIocImportJson",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/threatstream-build-ioc-import-json"
+}

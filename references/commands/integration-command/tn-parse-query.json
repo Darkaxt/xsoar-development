@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "| Tanium.Actions.creation_time | date | Time when the action was created |",
+  "examples": [
+    "Command Example\n!tn-parse-query question=\"get computer name\"\nHuman Readable Output\nTanium Questions\nindex\nquestion\n1\nGet Computer Name from all machines",
+    "!tn-parse-query question=\"get computer name\"\nHuman Readable Output\nTanium Questions\nindex\nquestion\n1\nGet Computer Name from all machines\n2"
+  ],
+  "kind": "integration-command",
+  "name": "tn-parse-query",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Tanium (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/tanium"
+}

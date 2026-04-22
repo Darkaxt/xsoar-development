@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!servicenow-add-link id=\"bd5d42994f82230021ae045e9310c7bd\" ticket_type=\"incident\" link=\"www.demisto.com\" text=\"this is a link\"\nHuman Readable Output\n6. Add a comment to a ticket\nAdds a comment to a specified ticket.\nBase Command\nservicenow-add-comment\nInput",
+    "!servicenow-add-link id=\"bd5d42994f82230021ae045e9310c7bd\" ticket_type=\"incident\" link=\"www.demisto.com\" text=\"this is a link\"\nHuman Readable Output\n6. Add a comment to a ticket\nAdds a comment to a specified ticket.\nBase Command\nservicenow-add-comment\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "servicenow-add-comment",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now"
+}

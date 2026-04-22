@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "| asset_unique_id | Asset unique id. | Required |",
+  "examples": [
+    "#### Command Example\nBase Command\n#\norca-set-alert-severity\nInput\n#\nArgument Name\nDescription",
+    "Command Example\n#\n!orca-set-alert-severity alert_id=orca1 score=5\norca-get-alert-event-log\nInput\n#\nArgument Name\nDescription",
+    "!orca-set-alert-severity alert_id=orca1 score=5\norca-get-alert-event-log\nInput\n#\nArgument Name\nDescription\nRequired\nalert_id",
+    "Command Example\n#\n!orca-get-alert-event-log alert_id=orca1 limit=10\norca-set-alert-status\nInput\n#\nArgument Name\nDescription",
+    "!orca-get-alert-event-log alert_id=orca1 limit=10\norca-set-alert-status\nInput\n#\nArgument Name\nDescription\nRequired\nalert_id",
+    "Command Example\n#\n!orca-set-alert-status alert_id=orca1 status=open\norca-verify-alert\nInput\n#\nArgument Name\nDescription",
+    "!orca-set-alert-status alert_id=orca1 status=open\norca-verify-alert\nInput\n#\nArgument Name\nDescription\nRequired\nalert_id",
+    "Command Example\n#\n!orca-verify-alert alert_id=orca1\norca-download-malicious-file\nInput\n#\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Alert description",
+      "name": "Orca.Alert",
+      "required": ""
+    },
+    {
+      "description": "Event log",
+      "name": "Orca.Manager.EventLog",
+      "required": ""
+    },
+    {
+      "description": "Operation result",
+      "name": "Orca.SetAlertStatus",
+      "required": ""
+    },
+    {
+      "description": "Operation result",
+      "name": "Orca.VerifyAlert",
+      "required": ""
+    },
+    {
+      "description": "Malicious File",
+      "name": "Orca.File",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Orca",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/orca"
+}

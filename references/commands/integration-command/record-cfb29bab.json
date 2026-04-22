@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "hackuity-dashboard-data",
+  "examples": [
+    "!hackuity-dashboard-data widget_id=abcd3fgh1jklmn0pqrstuv\nContext Example\n#\n{\n\"Hackuity\"\n:\n{\n\"Dashboard\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The data of the widget",
+      "name": "Hackuity.Dashboard.Data",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Hackuity",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/hackuity"
+}

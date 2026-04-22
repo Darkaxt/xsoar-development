@@ -1,0 +1,23 @@
+{
+  "aliases": [
+    "string-to-array"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Script Example",
+      "required": ""
+    }
+  ],
+  "description": "StringToArray | Cortex XSOAR",
+  "examples": [
+    "!StringToArray value=\"http://example.com/?score:1,4,time:55\"\nHuman Readable Output\n#\n[\"http://example.com/?score:1,4,time:55\"]\nEdit this page\nReport an Issue\nPrevious\n\u00ab StringSimilarity"
+  ],
+  "kind": "script",
+  "name": "StringToArray",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "StringToArray",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/string-to-array"
+}

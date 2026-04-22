@@ -1,0 +1,30 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "!cb-command-cancel command=1 session=348",
+  "examples": [
+    "Command Example\n!cb-command-cancel command=1 session=348\nContext Example\nHuman Readable Output\n3. Display information for a command\nDisplays the information of the specified command.\nBase Command\ncb-command-info",
+    "!cb-command-cancel command=1 session=348\nContext Example\nHuman Readable Output\n3. Display information for a command\nDisplays the information of the specified command.\nBase Command\ncb-command-info\nInput",
+    "Command Example\n!cb-command-info command=1 session=348\nContext Example\n{\n\"CbLiveResponse\": {\n\"Commands\": {\n\"CbCommandID\": 1,\n\"CbSensorID\": 17,",
+    "!cb-command-info command=1 session=348\nContext Example\n{\n\"CbLiveResponse\": {\n\"Commands\": {\n\"CbCommandID\": 1,\n\"CbSensorID\": 17,\n\"CbSessionID\": 348,"
+  ],
+  "kind": "integration-command",
+  "name": "cb-command-info",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "VMware Carbon Black EDR (Live Response API)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/carbonblackliveresponse"
+}

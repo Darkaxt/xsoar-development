@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Performs a recover operation on alerts.",
+  "examples": [
+    "Command Example\n#\n!gsac-alert-recover alert_id=\"dummy_alert_id1,dummy_alert_id2\"\nContext Example\n#\n{\n\"GSuiteSecurityAlert\"\n:",
+    "!gsac-alert-recover alert_id=\"dummy_alert_id1,dummy_alert_id2\"\nContext Example\n#\n{\n\"GSuiteSecurityAlert\"\n:\n{\n\"Recover\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The list of alert IDs successfully marked for recovery. GSuiteSecurityAlert.Recover.failedAlerts.id The list of alert IDs failed to be marked for recovery.",
+      "name": "GSuiteSecurityAlert.Recover.successAlerts.id",
+      "required": ""
+    },
+    {
+      "description": "The status code of the failed alerts to be recovered. GSuiteSecurityAlert.Recover.failedAlerts.message A developer-facing error message for the failed alerts.",
+      "name": "GSuiteSecurityAlert.Recover.failedAlerts.code",
+      "required": ""
+    },
+    {
+      "description": "Status of the successful alert recovery. GSuiteSecurityAlert.Recover.failedAlerts.status Status of the failed alert recovery.",
+      "name": "GSuiteSecurityAlert.Recover.successAlerts.status",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Note: The gsac-alert-recover command returns a custom context that contains the status key that shows the status of the alert ID marked for recovery.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "G Suite Security Alert Center",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/g-suite-security-alert-center"
+}

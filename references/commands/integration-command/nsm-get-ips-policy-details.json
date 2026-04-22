@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "nsm-get-ips-policy-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IPS policy ID NSM.IPSPolicies.Name IPS policy Name",
+      "name": "NSM.IPSPolicies.ID",
+      "required": ""
+    },
+    {
+      "description": "IPS policy information NSM.IPSPolicies.CreatedTime Policy creation time",
+      "name": "NSM.IPSPolicies.Description",
+      "required": ""
+    },
+    {
+      "description": "Whether you can edit the IPS policy NSM.IPSPolicies.VisibleToChildren Whether the IPS Policy is visible to domain's children",
+      "name": "NSM.IPSPolicies.IsEditable",
+      "required": ""
+    },
+    {
+      "description": "IPS policy version NSM.IPSPolicies.InboundRuleSet Inbound rule set",
+      "name": "NSM.IPSPolicies.Version",
+      "required": ""
+    },
+    {
+      "description": "Outbound rule set NSM.IPSPolicies.ExploitAttacks",
+      "name": "NSM.IPSPolicies.OutboundRuleSet",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "McAfee NSM (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/mc-afee-nsm"
+}

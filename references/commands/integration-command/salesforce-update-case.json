@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Case status (New, Escalated, On Hold, or Closed)",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "salesforce-update-case",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Case Object ID SalesForce.Case.CaseNumber Case number",
+      "name": "SalesForce.Case.ID",
+      "required": ""
+    },
+    {
+      "description": "Case subject SalesForce.Case.Description Case description",
+      "name": "SalesForce.Case.Subject",
+      "required": ""
+    },
+    {
+      "description": "date Time case was created SalesForce.Case.ClosedDate",
+      "name": "SalesForce.Case.CreateDate",
+      "required": ""
+    },
+    {
+      "description": "Time case was closed SalesForce.Case.Owner Case owner",
+      "name": "date",
+      "required": ""
+    },
+    {
+      "description": "Priority of the case (Low, Medium, High) SalesForce.Case.Origin How case originated (Web, Phone, Email)",
+      "name": "SalesForce.Case.Priority",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "SalesForce.Case.Status",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Salesforce",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/salesforce"
+}

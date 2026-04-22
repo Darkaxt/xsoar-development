@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "unpublish-threat-intel-report"
+  ],
+  "arguments": [],
+  "description": "UnpublishThreatIntelReport | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "UnpublishThreatIntelReport",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next UnzipFile \u00bb Script Data",
+      "name": "\u00ab UnPackFile",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "UnpublishThreatIntelReport",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/unpublish-threat-intel-report"
+}

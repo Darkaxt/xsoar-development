@@ -1,0 +1,15 @@
+{
+  "artifact_type": "incident-type-json",
+  "classifier": {
+    "top_level_fields": [
+      "id",
+      "name"
+    ]
+  },
+  "do": [
+    "Preserve layout and field relationships."
+  ],
+  "do_not": [
+    "Do not rename types without checking classifier and mapper dependencies."
+  ]
+}

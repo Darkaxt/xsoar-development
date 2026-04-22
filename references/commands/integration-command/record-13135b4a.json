@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!silverfort-update-resource-risk resource_name=\"SF-DC-1\" domain_name=\"silverfort.io\" risk_name=\"malware_risk\" severity=\"high\" valid_for=1 description=\"Malware detected\"\nHuman Readable Output\n#\nok\nEdit this page\nReport an Issue",
+    "!silverfort-update-resource-risk resource_name=\"SF-DC-1\" domain_name=\"silverfort.io\" risk_name=\"malware_risk\" severity=\"high\" valid_for=1 description=\"Malware detected\"\nHuman Readable Output\n#\nok\nEdit this page\nReport an Issue\nPrevious\n\u00ab SilentPush"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Silverfort",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/silverfort"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!misp-upload-sample fileEntryID=655@6 info=\"MISP V2 Integration\"\nContext Example\n{\n\"MISP.UploadedSample\": {\n\"MISP_V2_unified.yml\": 754\n}\n}",
+    "!misp-upload-sample fileEntryID=655@6 info=\"MISP V2 Integration\"\nContext Example\n{\n\"MISP.UploadedSample\": {\n\"MISP_V2_unified.yml\": 754\n}\n}\nHuman Readable Output"
+  ],
+  "kind": "integration-command",
+  "name": "misp-upload-sample",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Object containing {filename: event id} of the uploaded file.",
+      "name": "MISP.UploadedSample",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "MISP v2 (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/misp-v2"
+}

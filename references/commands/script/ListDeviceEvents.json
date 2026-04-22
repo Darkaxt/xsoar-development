@@ -1,0 +1,418 @@
+{
+  "aliases": [
+    "list-device-events"
+  ],
+  "arguments": [],
+  "description": "ListDeviceEvents | Cortex XSOAR",
+  "examples": [
+    "!ListDeviceEvents asset_identifier=\"ray-xxx-laptop\"\nContext Example\n#\n{\n\"GoogleChronicleBackstory.Events\": [\n{\n\"principal\": {\n\"ip\": ["
+  ],
+  "kind": "script",
+  "name": "ListDeviceEvents",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Specifies the type of the event. GoogleChronicleBackstory.Events.eventTimestamp The GMT timestamp when the event was generated.",
+      "name": "GoogleChronicleBackstory.Events.eventType",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.collectedTimestamp The GMT timestamp when the event was collected by the vendor's local collection infrastructure. Date",
+      "name": "Date",
+      "required": ""
+    },
+    {
+      "description": "Human-readable description of the event. GoogleChronicleBackstory.Events.productEventType Short, descriptive, human-readable, and product-specific event name or type.",
+      "name": "GoogleChronicleBackstory.Events.description",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.productLogId A vendor-specific event identifier to uniquely identify the event (a GUID). Users might use this identifier to search the vendor's proprietary console for the event in question. GoogleChronicleBackstory.Events.productName",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.productVersion Specifies the version of the product. GoogleChronicleBackstory.Events.urlBackToProduct",
+      "name": "Specifies the name of the product.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.vendorName Specifies the product vendor's name. GoogleChronicleBackstory.Events.principal.assetId",
+      "name": "URL linking to a relevant website where you can view more information about this specific event or the general event category.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.email Email address. GoogleChronicleBackstory.Events.principal.hostname",
+      "name": "Vendor-specific unique device identifier.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.platform Platform operating system. GoogleChronicleBackstory.Events.principal.platformPatchLevel",
+      "name": "Client hostname or domain name field.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.platformVersion Platform operating system version. GoogleChronicleBackstory.Events.principal.ip",
+      "name": "Platform operating system patch level.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.port Source or destination network port number when a specific network connection is described within an event. GoogleChronicleBackstory.Events.principal.mac",
+      "name": "IP address associated with a network connection.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.administrativeDomain Domain which the device belongs to (for example, the Windows domain). GoogleChronicleBackstory.Events.principal.url",
+      "name": "MAC addresses associated with a device.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.file.fileMetadata Metadata associated with the file. GoogleChronicleBackstory.Events.principal.file.fullPath",
+      "name": "Standard URL.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.file.md5 MD5 hash value of the file. GoogleChronicleBackstory.Events.principal.file.mimeType",
+      "name": "Full path identifying the location of the file on the system.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.file.sha1 SHA-1 hash value of the file. GoogleChronicleBackstory.Events.principal.file.sha256",
+      "name": "Multipurpose Internet Mail Extensions (MIME) type of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.file.size Size of the file. GoogleChronicleBackstory.Events.principal.process.commandLine",
+      "name": "SHA-256 hash value of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.process.productSpecificProcessId Stores the product specific process ID. GoogleChronicleBackstory.Events.principal.process.productSpecificParentProcessId",
+      "name": "Stores the command line string for the process.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.process.file Stores the file name of the file in use by the process. GoogleChronicleBackstory.Events.principal.process.file.fileMetadata",
+      "name": "Stores the product specific process ID for the parent process.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.process.file.fullPath Full path identifying the location of the file on the system. GoogleChronicleBackstory.Events.principal.process.file.md5",
+      "name": "Metadata associated with the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.process.file.mimeType Multipurpose Internet Mail Extensions (MIME) type of the file. GoogleChronicleBackstory.Events.principal.process.file.sha1",
+      "name": "MD5 hash value of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.process.file.sha256 SHA-256 hash value of the file. GoogleChronicleBackstory.Events.principal.process.file.size",
+      "name": "SHA-1 hash value of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.process.parentPid Stores the process ID for the parent process. GoogleChronicleBackstory.Events.principal.process.pid",
+      "name": "Size of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.registry.registryKey Stores the registry key associated with an application or system component. GoogleChronicleBackstory.Events.principal.registry.registryValueName",
+      "name": "Stores the process ID.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.registry.registryValueData Stores the data associated with a registry value. GoogleChronicleBackstory.Events.principal.user.emailAddresses",
+      "name": "Stores the name of the registry value associated with an application or system component.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.user.employeeId Stores the human resources employee ID for the user. GoogleChronicleBackstory.Events.principal.user.firstName",
+      "name": "Stores the email addresses for the user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.user.middleName Stores the middle name for the user. GoogleChronicleBackstory.Events.principal.user.lastName",
+      "name": "Stores the first name for the user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.user.groupid Stores the group ID associated with a user. GoogleChronicleBackstory.Events.principal.user.phoneNumbers",
+      "name": "Stores the last name for the user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.user.title Stores the job title for the user. GoogleChronicleBackstory.Events.principal.user.userDisplayName",
+      "name": "Stores the phone numbers for the user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.principal.user.userid Stores the user ID. GoogleChronicleBackstory.Events.principal.user.windowsSid",
+      "name": "Stores the display name for the user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.assetId Vendor-specific unique device identifier. GoogleChronicleBackstory.Events.target.email",
+      "name": "Stores the Microsoft Windows security identifier (SID) associated with a user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.hostname Client hostname or domain name field. GoogleChronicleBackstory.Events.target.platform",
+      "name": "Email address.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.platformPatchLevel Platform operating system patch level. GoogleChronicleBackstory.Events.target.platformVersion",
+      "name": "Platform operating system.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.ip IP address associated with a network connection. GoogleChronicleBackstory.Events.target.port",
+      "name": "Platform operating system version.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.mac One or more MAC addresses associated with a device. GoogleChronicleBackstory.Events.target.administrativeDomain",
+      "name": "Source or destination network port number when a specific network connection is described within an event.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.url Standard URL. GoogleChronicleBackstory.Events.target.file.fileMetadata",
+      "name": "Domain which the device belongs to (for example, the Windows domain).",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.file.fullPath Full path identifying the location of the file on the system. GoogleChronicleBackstory.Events.target.file.md5",
+      "name": "Metadata associated with the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.file.mimeType Multipurpose Internet Mail Extensions (MIME) type of the file. GoogleChronicleBackstory.Events.target.file.sha1",
+      "name": "MD5 hash value of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.file.sha256 SHA-256 hash value of the file. GoogleChronicleBackstory.Events.target.file.size",
+      "name": "SHA-1 hash value of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.process.commandLine Stores the command line string for the process. GoogleChronicleBackstory.Events.target.process.productSpecificProcessId",
+      "name": "Size of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.process.productSpecificParentProcessId Stores the product specific process ID for the parent process. GoogleChronicleBackstory.Events.target.process.file",
+      "name": "Stores the product specific process ID.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.process.file.fileMetadata Metadata associated with the file. GoogleChronicleBackstory.Events.target.process.file.fullPath",
+      "name": "Stores the file name of the file in use by the process.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.process.file.md5 MD5 hash value of the file. GoogleChronicleBackstory.Events.target.process.file.mimeType",
+      "name": "Full path identifying the location of the file on the system.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.process.file.sha1 SHA-1 hash value of the file. GoogleChronicleBackstory.Events.target.process.file.sha256",
+      "name": "Multipurpose Internet Mail Extensions (MIME) type of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.process.file.size Size of the file. GoogleChronicleBackstory.Events.target.process.parentPid",
+      "name": "SHA-256 hash value of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.process.pid Stores the process ID. GoogleChronicleBackstory.Events.target.registry.registryKey",
+      "name": "Stores the process ID for the parent process.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.registry.registryValueName Stores the name of the registry value associated with an application or system component. GoogleChronicleBackstory.Events.target.registry.registryValueData",
+      "name": "Stores the registry key associated with an application or system component.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.user.emailAddresses Stores the email addresses for the user. GoogleChronicleBackstory.Events.target.user.employeeId",
+      "name": "Stores the data associated with a registry value.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.user.firstName Stores the first name for the user. GoogleChronicleBackstory.Events.target.user.middleName",
+      "name": "Stores the human resources employee ID for the user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.user.lastName Stores the last name for the user. GoogleChronicleBackstory.Events.target.user.groupid",
+      "name": "Stores the middle name for the user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.user.phoneNumbers Stores the phone numbers for the user. GoogleChronicleBackstory.Events.target.user.title",
+      "name": "Stores the group ID associated with a user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.user.userDisplayName Stores the display name for the user. GoogleChronicleBackstory.Events.target.user.userid",
+      "name": "Stores the job title for the user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.target.user.windowsSid Stores the Microsoft Windows security identifier (SID) associated with a user. GoogleChronicleBackstory.Events.intermediary.assetId",
+      "name": "Stores the user ID.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.email Email address. GoogleChronicleBackstory.Events.intermediary.hostname",
+      "name": "Vendor-specific unique device identifier.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.platform Platform operating system. GoogleChronicleBackstory.Events.intermediary.platformPatchLevel",
+      "name": "Client hostname or domain name field.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.platformVersion Platform operating system version. GoogleChronicleBackstory.Events.intermediary.ip",
+      "name": "Platform operating system patch level.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.port Source or destination network port number when a specific network connection is described within an event. GoogleChronicleBackstory.Events.intermediary.mac",
+      "name": "IP address associated with a network connection.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.administrativeDomain Domain which the device belongs to (for example, the Windows domain). GoogleChronicleBackstory.Events.intermediary.url",
+      "name": "One or more MAC addresses associated with a device.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.file.fileMetadata Metadata associated with the file. GoogleChronicleBackstory.Events.intermediary.file.fullPath",
+      "name": "Standard URL.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.file.md5 MD5 hash value of the file. GoogleChronicleBackstory.Events.intermediary.file.mimeType",
+      "name": "Full path identifying the location of the file on the system.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.file.sha1 SHA-1 hash value of the file. GoogleChronicleBackstory.Events.intermediary.file.sha256",
+      "name": "Multipurpose Internet Mail Extensions (MIME) type of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.file.size Size of the file. GoogleChronicleBackstory.Events.intermediary.process.commandLine",
+      "name": "SHA-256 hash value of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.process.productSpecificProcessId Stores the product specific process ID. GoogleChronicleBackstory.Events.intermediary.process.productSpecificParentProcessId",
+      "name": "Stores the command line string for the process.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.process.file Stores the file name of the file in use by the process. GoogleChronicleBackstory.Events.intermediary.process.file.fileMetadata",
+      "name": "Stores the product specific process ID for the parent process.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.process.file.fullPath Full path identifying the location of the file on the system. GoogleChronicleBackstory.Events.intermediary.process.file.md5",
+      "name": "Metadata associated with the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.process.file.mimeType Multipurpose Internet Mail Extensions (MIME) type of the file. GoogleChronicleBackstory.Events.intermediary.process.file.sha1",
+      "name": "MD5 hash value of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.process.file.sha256 SHA-256 hash value of the file. GoogleChronicleBackstory.Events.intermediary.process.file.size",
+      "name": "SHA-1 hash value of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.process.parentPid Stores the process ID for the parent process. GoogleChronicleBackstory.Events.intermediary.process.pid",
+      "name": "Size of the file.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.registry.registryKey Stores the registry key associated with an application or system component. GoogleChronicleBackstory.Events.intermediary.registry.registryValueName",
+      "name": "Stores the process ID.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.registry.registryValueData Stores the data associated with a registry value. GoogleChronicleBackstory.Events.intermediary.user.emailAddresses",
+      "name": "Stores the name of the registry value associated with an application or system component.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.user.employeeId Stores the human resources employee ID for the user. GoogleChronicleBackstory.Events.intermediary.user.firstName",
+      "name": "Stores the email addresses for the user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.user.middleName Stores the middle name for the user. GoogleChronicleBackstory.Events.intermediary.user.lastName",
+      "name": "Stores the first name for the user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.user.groupid Stores the group ID associated with a user. GoogleChronicleBackstory.Events.intermediary.user.phoneNumbers",
+      "name": "Stores the last name for the user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.user.title Stores the job title for the user. GoogleChronicleBackstory.Events.intermediary.user.userDisplayName",
+      "name": "Stores the phone numbers for the user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.intermediary.user.userid Stores the user ID. GoogleChronicleBackstory.Events.intermediary.user.windowsSid",
+      "name": "Stores the display name for the user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.src.assetId Vendor-specific unique device identifier. GoogleChronicleBackstory.Events.src.email",
+      "name": "Stores the Microsoft Windows security identifier (SID) associated with a user.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.src.hostname Client hostname or domain name field. GoogleChronicleBackstory.Events.src.platform",
+      "name": "Email address.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.src.platformPatchLevel Platform operating system patch level. GoogleChronicleBackstory.Events.src.platformVersion",
+      "name": "Platform operating system.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.src.ip IP address associated with a network connection. GoogleChronicleBackstory.Events.src.port",
+      "name": "Platform operating system version.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.src.mac One or more MAC addresses associated with a device. GoogleChronicleBackstory.Events.src.administrativeDomain",
+      "name": "Source or destination network port number when a specific network connection is described within an event.",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.src.url Standard URL. GoogleChronicleBackstory.Events.src.file.fileMetadata",
+      "name": "Domain which the device belongs to (for example, the Windows domain).",
+      "required": ""
+    },
+    {
+      "description": "GoogleChronicleBackstory.Events.src.file.fullPath Full path identifying the location of the file on the system. GoogleChronicleBackstory.Events.src.file.md5",
+      "name": "Metadata associated with the file.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ListDeviceEvents",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/list-device-events"
+}

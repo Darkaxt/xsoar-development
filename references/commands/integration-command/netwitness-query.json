@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "Type",
+      "name": "Parameter",
+      "required": ""
+    }
+  ],
+  "description": "NetWitness.SearchHits",
+  "examples": [
+    "Command Example\n!netwitness-query size=\"5\" query=\"select*where alias.host contains 'skimresources'\"\nRaw Output\n{\n\"flags\":1074200577,\n\"results\":{\n\"fields\":[\n{",
+    "!netwitness-query size=\"5\" query=\"select*where alias.host contains 'skimresources'\"\nRaw Output\n{\n\"flags\":1074200577,\n\"results\":{\n\"fields\":[\n{\n\"count\":0,"
+  ],
+  "kind": "integration-command",
+  "name": "netwitness-query",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RSA NetWitness Packets and Logs",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rsa-net-witness-packets-and-logs"
+}

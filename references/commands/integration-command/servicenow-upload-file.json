@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n!servicenow-upload-file file_id=8781@cc00e449-9e7b-4609-8a68-1c8c01114562 id=bd5d42994f82230021ae045e9310c7bd\nContext Example\n{\n\"File\": {\n\"EntryID\": \"8786@cc00e449-9e7b-4609-8a68-1c8c01114562\",\n\"Extension\": \"txt\",\n\"Info\": \"text/plain; charset=utf-8\",",
+    "!servicenow-upload-file file_id=8781@cc00e449-9e7b-4609-8a68-1c8c01114562 id=bd5d42994f82230021ae045e9310c7bd\nContext Example\n{\n\"File\": {\n\"EntryID\": \"8786@cc00e449-9e7b-4609-8a68-1c8c01114562\",\n\"Extension\": \"txt\",\n\"Info\": \"text/plain; charset=utf-8\",\n\"MD5\": \"ea499981fdaadbd1a26250b0d925bf43\","
+  ],
+  "kind": "integration-command",
+  "name": "servicenow-upload-file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name of the file Ticket.File.Link Download link for the file",
+      "name": "Ticket.File.Filename",
+      "required": ""
+    },
+    {
+      "description": "System ID of the file",
+      "name": "Ticket.File.SystemID",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNow (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/service-now"
+}

@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "There is no context output for this command.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "generic-mcp-auth-test",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Base Command",
+      "name": "Test the authentication configuration with the MCP server.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "generic-mcp-auth-test",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next Generic SQL \u00bb Configure Generic MCP in Cortex",
+      "name": "\u00ab Generic Export Indicators Service",
+      "required": ""
+    },
+    {
+      "description": "Commands generic-mcp-generate-login-url generic-mcp-auth-test",
+      "name": "Authentication Type Options",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Generic MCP",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/generic-mcp"
+}

@@ -1,0 +1,109 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "EWS.User.DirectReports",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Whether the mailbox audit bypass association is enabled. EWS.MailboxAuditBypassAssociation.DistinguishedName Distinguished name of the mailbox audit bypass association.",
+      "name": "EWS.MailboxAuditBypassAssociation.AuditBypassEnabled",
+      "required": ""
+    },
+    {
+      "description": "Exchange object ID of the mailbox audit bypass association. EWS.MailboxAuditBypassAssociation.ExchangeVersion The version of the exchanged server.",
+      "name": "EWS.MailboxAuditBypassAssociation.ExchangeObjectId",
+      "required": ""
+    },
+    {
+      "description": "The GUID of the mailbox audit bypass association. EWS.MailboxAuditBypassAssociation.Id ID of the mailbox audit bypass association.",
+      "name": "EWS.MailboxAuditBypassAssociation.Guid",
+      "required": ""
+    },
+    {
+      "description": "The unique identity of the mailbox audit bypass association. EWS.MailboxAuditBypassAssociation.IsValid Whether the mailbox audit bypass association property is enabled.",
+      "name": "EWS.MailboxAuditBypassAssociation.Identity",
+      "required": ""
+    },
+    {
+      "description": "Name of the mailbox audit bypass association. EWS.MailboxAuditBypassAssociation.ObjectCategory Object category of the mailbox audit bypass association.",
+      "name": "EWS.MailboxAuditBypassAssociation.Name",
+      "required": ""
+    },
+    {
+      "description": "Object class of the mailbox audit bypass association. EWS.MailboxAuditBypassAssociation.ObjectId Object ID of the mailbox audit bypass association.",
+      "name": "EWS.MailboxAuditBypassAssociation.ObjectClass",
+      "required": ""
+    },
+    {
+      "description": "Object state of the mailbox audit bypass association. EWS.MailboxAuditBypassAssociation.OrganizationId Organization ID of the mailbox audit bypass association.",
+      "name": "EWS.MailboxAuditBypassAssociation.ObjectState",
+      "required": ""
+    },
+    {
+      "description": "Originating server of the mailbox audit bypass association. EWS.MailboxAuditBypassAssociation.PSComputerName PowerShell computer name of the mailbox audit bypass association.",
+      "name": "EWS.MailboxAuditBypassAssociation.OriginatingServer",
+      "required": ""
+    },
+    {
+      "description": "Whether to show the computer name of the mailbox audit bypass association. EWS.MailboxAuditBypassAssociation.RunspaceId Runspace ID of the mailbox audit bypass association.",
+      "name": "EWS.MailboxAuditBypassAssociation.PSShowComputerName",
+      "required": ""
+    },
+    {
+      "description": "The date the mailbox audit bypass association was changed. EWS.MailboxAuditBypassAssociation.WhenChangedUTC Date",
+      "name": "EWS.MailboxAuditBypassAssociation.WhenChanged",
+      "required": ""
+    },
+    {
+      "description": "EWS.MailboxAuditBypassAssociation.WhenCreated Date The date the mailbox audit bypass association was created.",
+      "name": "The date in UTC of when the mailbox audit bypass association was changed.",
+      "required": ""
+    },
+    {
+      "description": "Date The date in UTC format of when the mailbox audit bypass association was created. Edit this page",
+      "name": "EWS.MailboxAuditBypassAssociation.WhenCreatedUTC",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab Nutanix Hypervisor Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Enable or disable access to Exchange Online PowerShell Configure O365 - EWS - Extension on Cortex XSOAR Commands",
+      "name": "O365 - Security And Compliance - Content Search (Deprecated) \u00bb",
+      "required": ""
+    },
+    {
+      "description": "ews-auth-complete ews-auth-test ews-junk-rules-get",
+      "name": "ews-auth-start",
+      "required": ""
+    },
+    {
+      "description": "ews-global-junk-rules-set ews-message-trace-get ews-federation-trust-get",
+      "name": "ews-junk-rules-set",
+      "required": ""
+    },
+    {
+      "description": "ews-remote-domain-get ews-user-list ews-mailbox-audit-bypass-association-list",
+      "name": "ews-federation-configuration-get",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "O365 - EWS - Extension (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ews-extension"
+}

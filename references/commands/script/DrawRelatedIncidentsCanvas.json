@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "draw-related-incidents-canvas"
+  ],
+  "arguments": [],
+  "description": "DrawRelatedIncidentsCanvas | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "DrawRelatedIncidentsCanvas",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There are no outputs for this script.",
+      "required": ""
+    },
+    {
+      "description": "Next DSPMCheckAndSetErrorEntries \u00bb Script Data",
+      "name": "\u00ab DownloadAndArchivePythonLibrary",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "DrawRelatedIncidentsCanvas",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/draw-related-incidents-canvas"
+}

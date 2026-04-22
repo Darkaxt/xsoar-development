@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!datadog-bitsai-get-investigation signal_id=AZm-wsEuAACEnzdcj-YEigAA",
+  "examples": [
+    "!datadog-bitsai-get-investigation signal_id=AZm-wsEuAACEnzdcj-YEigAA\ndatadog-list-risk-scores\n#\nList risk scores from Datadog Cloud SIEM.\nBase Command\n#\ndatadog-list-risk-scores\nInput",
+    "!datadog-list-risk-scores limit=50\nIncident Fetching\n#\nThis integration supports fetching security signals from Datadog Cloud SIEM as Cortex XSOAR incidents.\nConfiguration\n#\nTo enable incident fetching:\nIn the integration instance configuration, check"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "Returns list of risk scores for monitored entities.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Datadog Cloud SIEM",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/datadog-cloud-siemv2"
+}

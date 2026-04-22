@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!aha-get-ideas idea_name=DEMO-I-2895",
+  "examples": [
+    "!aha-get-ideas\n!aha-get-ideas idea_name=DEMO-I-2895\n!aha-get-ideas idea_name=DEMO-I-2895 fields=workflow_status\naha-edit-idea\n#\nEdit an idea status to Shipped.\nBase Command\n#",
+    "!aha-get-ideas idea_name=DEMO-I-2895\n!aha-get-ideas idea_name=DEMO-I-2895 fields=workflow_status\naha-edit-idea\n#\nEdit an idea status to Shipped.\nBase Command\n#\naha-edit-idea",
+    "!aha-get-ideas idea_name=DEMO-I-2895 fields=workflow_status\naha-edit-idea\n#\nEdit an idea status to Shipped.\nBase Command\n#\naha-edit-idea\nInput",
+    "!aha-edit-idea idea_name=DEMO-I-2895\nEdit this page\nReport an Issue\nPrevious\n\u00ab Agari Phishing Defense\nNext\nAkamai WAF \u00bb\nConfigure Aha in Cortex"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "UUID The idea ID. AHA.Idea.name",
+      "name": "AHA.Idea.id",
+      "required": ""
+    },
+    {
+      "description": "The idea name. AHA.Idea.reference_num The idea reference number.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "The idea status description. AHA.Idea.description The idea description.",
+      "name": "AHA.Idea.workflow_status",
+      "required": ""
+    },
+    {
+      "description": "Date The idea creation date.",
+      "name": "AHA.Idea.created_at",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Aha",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/aha"
+}

@@ -1,0 +1,45 @@
+{
+  "aliases": [],
+  "arguments": [
+    {
+      "description": "",
+      "name": "There are no input arguments for this command.",
+      "required": ""
+    }
+  ],
+  "description": "Chosen action from PhishUp instance",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Evaluating PhishUp Results and Return Phish If There is an Phish Website Edit this page Report an Issue",
+      "name": "PhishUp.Evaluation",
+      "required": ""
+    },
+    {
+      "description": "\u00ab PhishTank v2 Next Picus Security \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Configure PhishUp in Cortex Commands url",
+      "name": "PhishUp prevents phishing attacks, protects your staff and your brand with AI",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PhishUp",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/6437c006-1d86-4cdc-89d5-23305f207e3a"
+}

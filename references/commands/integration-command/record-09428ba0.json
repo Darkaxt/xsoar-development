@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Note",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "This integration only fetches threats.",
+      "required": ""
+    },
+    {
+      "description": "Next Absolute \u00bb Configure Abnormal Security Event Collector in Cortex",
+      "name": "\u00ab Abnormal Security",
+      "required": ""
+    },
+    {
+      "description": "abnormal-security-event-collector-get-events Note Docs",
+      "name": "Commands",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Abnormal Security Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/abnormal-security-event-collector"
+}

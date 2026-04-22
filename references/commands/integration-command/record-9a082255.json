@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "trustwave-seg-spiderlabs-forward-quarantine-message-as-spam",
+  "examples": [
+    "Command Example\n#\n!trustwave-seg-spiderlabs-forward-quarantine-message-as-spam block_number=106098471075840 edition=607ef9ae0000 folder_id=1006 is_spam=\"true\" message_name=B607ef9ac0000 recipient=test@example.com server_id=1 spam_report_notification_from_address=\"This is a spam\" time_logged=1618934189 spam_report_message=\"This is a spam\"\nHuman Readable Output\n#\nThe message was forwarded to Spiderlabs.\nEdit this page\nReport an Issue",
+    "!trustwave-seg-spiderlabs-forward-quarantine-message-as-spam block_number=106098471075840 edition=607ef9ae0000 folder_id=1006 is_spam=\"true\" message_name=B607ef9ac0000 recipient=test@example.com server_id=1 spam_report_notification_from_address=\"This is a spam\" time_logged=1618934189 spam_report_message=\"This is a spam\"\nHuman Readable Output\n#\nThe message was forwarded to Spiderlabs.\nEdit this page\nReport an Issue\nPrevious\n\u00ab TruSTAR v2 (Deprecated)"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Trustwave Secure Email Gateway",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/trustwave-secure-email-gateway"
+}

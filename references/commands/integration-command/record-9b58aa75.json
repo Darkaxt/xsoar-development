@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!socradar-mark-incident-resolved socradar_incident_id=29051453 comments=\"Incident has been resolved.\"\nHuman Readable Output\n#\nSOCRadar API Response: Incident has been successfully resolved. Affected incident IDs: 29051453\nEdit this page\nReport an Issue",
+    "!socradar-mark-incident-resolved socradar_incident_id=29051453 comments=\"Incident has been resolved.\"\nHuman Readable Output\n#\nSOCRadar API Response: Incident has been successfully resolved. Affected incident IDs: 29051453\nEdit this page\nReport an Issue\nPrevious\n\u00ab Snowflake"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "SOCRadar Incidents",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/soc-radar-incidents"
+}

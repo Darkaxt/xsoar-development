@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "Command Example\n#\n!rst-submit-fp ioc=\"thisisnotamaliciousdomain.com\" description=\"a decent website\"\nHuman Readable Output\n#\nIndicator: thisisnotamaliciousdomain.com was submitted as False Positive to RST Cloud\nEdit this page\nReport an Issue",
+    "!rst-submit-fp ioc=\"thisisnotamaliciousdomain.com\" description=\"a decent website\"\nHuman Readable Output\n#\nIndicator: thisisnotamaliciousdomain.com was submitted as False Positive to RST Cloud\nEdit this page\nReport an Issue\nPrevious\n\u00ab RSS Feed"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "RST Cloud - Threat Feed API",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/rst-cloud---threat-feed-api"
+}

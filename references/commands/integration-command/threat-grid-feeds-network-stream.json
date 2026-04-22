@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "!threat-grid-feeds-ip after=2018-01-18T00:00:00 before=2018-01-18T01:00:00 confidence=75 severity=75",
+  "examples": [
+    "Command Example\n!threat-grid-feeds-ip after=2018-01-18T00:00:00 before=2018-01-18T01:00:00 confidence=75 severity=75\nHuman Readable Output\n29. Get the threat feed for a network stream\nGet network stream threat feed\nBase Command\nthreat-grid-feeds-network-stream\nInput",
+    "!threat-grid-feeds-ip after=2018-01-18T00:00:00 before=2018-01-18T01:00:00 confidence=75 severity=75\nHuman Readable Output\n29. Get the threat feed for a network stream\nGet network stream threat feed\nBase Command\nthreat-grid-feeds-network-stream\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "threat-grid-feeds-network-stream",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Threat Grid (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/threat-grid"
+}

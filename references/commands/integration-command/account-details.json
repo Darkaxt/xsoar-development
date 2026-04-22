@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Account ID to reset password",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "account-details",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "4. Get information for an account This method returns information about an account. If more than one account meets the search criteria, only the first account will be returned. Base Command",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "account-details",
+      "required": ""
+    },
+    {
+      "description": "Edit this page Report an Issue Previous",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Next CyberArk AIM v2 \u00bb Docs",
+      "name": "\u00ab Cyber Triage",
+      "required": ""
+    },
+    {
+      "description": "Become a Technology Partner Social Blog",
+      "name": "Developer Docs",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CyberArk AIM (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cyber-ark-aim"
+}

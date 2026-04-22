@@ -1,0 +1,31 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!dome9-findings-bundle-get bundle_id=bundle_id rule_logic_hash=ruleLogicHash\nHuman Readable Output\n#\nFindings Bundle\n#\nNo entries.\nEdit this page\nReport an Issue"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The CloudTrail ID. CheckPointDome9.FindingsBundle.severity The CloudTrail name.",
+      "name": "CheckPointDome9.FindingsBundle.id",
+      "required": ""
+    },
+    {
+      "description": "The Cloud Trail ARN. CheckPointDome9.FindingsBundle.accountId The CloudTrail account ID.",
+      "name": "CheckPointDome9.FindingsBundle.remediation",
+      "required": ""
+    },
+    {
+      "description": "The CloudTrail ARN. CheckPointDome9.FindingsBundle.region The CloudTrail account ID.",
+      "name": "CheckPointDome9.FindingsBundle.description",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Check Point Dome9 (CloudGuard)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/checkpointdome9"
+}

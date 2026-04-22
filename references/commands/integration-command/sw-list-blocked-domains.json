@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "There is no context output for this command.",
+  "examples": [
+    "Command Example\n!sw-unblock-domain id=5\n6. Get a list of blocked domains\nReturns a list of blocked domains.\nBase Command\nsw-list-blocked-domains\nInput\nArgument Name",
+    "!sw-unblock-domain id=5\n6. Get a list of blocked domains\nReturns a list of blocked domains.\nBase Command\nsw-list-blocked-domains\nInput\nArgument Name\nDescription"
+  ],
+  "kind": "integration-command",
+  "name": "sw-list-blocked-domains",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "",
+      "name": "There is no context output for this command.",
+      "required": ""
+    },
+    {
+      "description": "Domain name Stealthwatch.Domain.title Domain title",
+      "name": "Stealthwatch.Domain.identifier",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Stealthwatch.Domain.id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cisco Secure Cloud Analytics (Stealthwatch Cloud)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/stealthwatch-cloud"
+}

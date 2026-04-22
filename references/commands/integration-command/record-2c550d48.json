@@ -1,0 +1,92 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "ctix-bulk-ioc-lookup-advanced",
+  "examples": [
+    "Command Example\n#\n!ctix-bulk-ioc-lookup-advanced object_type=indicator value=1.2.3.4,evil.example.com enrichment_data=true relation_data=true\nContext Example\n#\n{\n\"CTIX\"\n:",
+    "!ctix-bulk-ioc-lookup-advanced object_type=indicator value=1.2.3.4,evil.example.com enrichment_data=true relation_data=true\nContext Example\n#\n{\n\"CTIX\"\n:\n{\n\"BulkIOCLookupAdvanced\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "ID of the threat data object. CTIX.BulkIOCLookupAdvanced.name Value of the threat data object.",
+      "name": "CTIX.BulkIOCLookupAdvanced.id",
+      "required": ""
+    },
+    {
+      "description": "SDO type of the threat data object. CTIX.BulkIOCLookupAdvanced.ioc_type IOC type (hash type for hashes, indicator type key for others).",
+      "name": "CTIX.BulkIOCLookupAdvanced.object_type",
+      "required": ""
+    },
+    {
+      "description": "Sub-type of the indicator. CTIX.BulkIOCLookupAdvanced.confidence_score Confidence score calculated by the Cyware Intel Exchange confidence score engine.",
+      "name": "CTIX.BulkIOCLookupAdvanced.sub_type",
+      "required": ""
+    },
+    {
+      "description": "Score assigned to the threat data object by an analyst. CTIX.BulkIOCLookupAdvanced.tlp TLP assigned to the threat data object by the source.",
+      "name": "CTIX.BulkIOCLookupAdvanced.analyst_score",
+      "required": ""
+    },
+    {
+      "description": "TLP assigned to the threat data object by an analyst. CTIX.BulkIOCLookupAdvanced.country Country where the threat data object was seen.",
+      "name": "CTIX.BulkIOCLookupAdvanced.analyst_tlp",
+      "required": ""
+    },
+    {
+      "description": "Source description of the threat data. CTIX.BulkIOCLookupAdvanced.is_deprecated True if the IOC is marked as deprecated.",
+      "name": "CTIX.BulkIOCLookupAdvanced.description",
+      "required": ""
+    },
+    {
+      "description": "True if the IOC is marked as a false positive. CTIX.BulkIOCLookupAdvanced.is_reviewed True if the threat data object is manually reviewed.",
+      "name": "CTIX.BulkIOCLookupAdvanced.is_false_positive",
+      "required": ""
+    },
+    {
+      "description": "True if the IOC is marked as an allowed indicator. CTIX.BulkIOCLookupAdvanced.manual_review True if the threat data is marked for manual review by an analyst.",
+      "name": "CTIX.BulkIOCLookupAdvanced.is_whitelisted",
+      "required": ""
+    },
+    {
+      "description": "Source created timestamp of the threat data object. CTIX.BulkIOCLookupAdvanced.modified Source modified timestamp of the threat data object.",
+      "name": "CTIX.BulkIOCLookupAdvanced.created",
+      "required": ""
+    },
+    {
+      "description": "Created timestamp of the threat data object in Cyware Intel Exchange. CTIX.BulkIOCLookupAdvanced.ctix_modified Last modified timestamp of the threat data object in Cyware Intel Exchange.",
+      "name": "CTIX.BulkIOCLookupAdvanced.ctix_created",
+      "required": ""
+    },
+    {
+      "description": "First seen timestamp of the threat data object. CTIX.BulkIOCLookupAdvanced.last_seen Last seen timestamp of the threat data object.",
+      "name": "CTIX.BulkIOCLookupAdvanced.first_seen",
+      "required": ""
+    },
+    {
+      "description": "Timestamp since when this threat data object is valid. CTIX.BulkIOCLookupAdvanced.valid_until Timestamp until when this threat data object is valid.",
+      "name": "CTIX.BulkIOCLookupAdvanced.valid_from",
+      "required": ""
+    },
+    {
+      "description": "List of sources that reported the threat data object. CTIX.BulkIOCLookupAdvanced.tags Tags associated with the threat data object.",
+      "name": "CTIX.BulkIOCLookupAdvanced.sources",
+      "required": ""
+    },
+    {
+      "description": "List of collections in which the IOC is published. CTIX.BulkIOCLookupAdvanced.relations List of related threat data objects (requires relation_data=true).",
+      "name": "CTIX.BulkIOCLookupAdvanced.published_collections",
+      "required": ""
+    },
+    {
+      "description": "List of enrichment objects from enrichment tools (requires enrichment_data=true). CTIX.BulkIOCLookupAdvanced.custom_attributes List of custom attributes with name and value details.",
+      "name": "CTIX.BulkIOCLookupAdvanced.enrichment_data",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Cyware Intel Exchange",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ctix-v3"
+}

@@ -1,0 +1,104 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "OpenCTI.IncidentTypes.IncidentTypesList.description",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Unique ID of the incident. OpenCTI.Incidents.IncidentList.name Name of the incident.",
+      "name": "OpenCTI.Incidents.IncidentList.id",
+      "required": ""
+    },
+    {
+      "description": "Description of the incident. OpenCTI.Incidents.IncidentList.source The source of the incident.",
+      "name": "OpenCTI.Incidents.IncidentList.description",
+      "required": ""
+    },
+    {
+      "description": "The severity of the incident. OpenCTI.Incidents.IncidentList.objective The objective date of the incident.",
+      "name": "OpenCTI.Incidents.IncidentList.severity",
+      "required": ""
+    },
+    {
+      "description": "Confidence of the incident. OpenCTI.Incidents.IncidentList.createdBy Name of the entity that created the incident.",
+      "name": "OpenCTI.Incidents.IncidentList.confidence",
+      "required": ""
+    },
+    {
+      "description": "list Name of the incident creators. OpenCTI.Incidents.IncidentList.labels",
+      "name": "OpenCTI.Incidents.IncidentList.creators",
+      "required": ""
+    },
+    {
+      "description": "Labels associated with the incident. OpenCTI.Incidents.IncidentList.incidentTypes list",
+      "name": "list",
+      "required": ""
+    },
+    {
+      "description": "OpenCTI.Incidents.IncidentList.created Creation date of the incident. OpenCTI.Incidents.IncidentList.updatedAt",
+      "name": "Types of the incident.",
+      "required": ""
+    },
+    {
+      "description": "Last update date of the incident. OpenCTI.Incidents.LastRunID The last ID of the previous fetch for pagination.",
+      "name": "string",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab OpenAI GPT",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "OpenCTI Feed 3.X (Deprecated) \u00bb Configure OpenCTI on Cortex XSOAR Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "opencti-indicator-delete opencti-indicator-field-update opencti-indicator-create",
+      "name": "opencti-get-indicators",
+      "required": ""
+    },
+    {
+      "description": "opencti-indicator-field-remove opencti-indicator-create opencti-label-list",
+      "name": "opencti-indicator-field-add",
+      "required": ""
+    },
+    {
+      "description": "opencti-external-reference-create opencti-marking-definition-list opencti-incident-delete",
+      "name": "opencti-label-create",
+      "required": ""
+    },
+    {
+      "description": "opencti-observable-field-add opencti-indicator-update opencti-relationship-list",
+      "name": "opencti-incident-create",
+      "required": ""
+    },
+    {
+      "description": "opencti-get-observables opencti-relationship-delete opencti-observable-delete",
+      "name": "opencti-observable-create",
+      "required": ""
+    },
+    {
+      "description": "opencti-observable-field-update opencti-indicator-types-list opencti-incident-types-list",
+      "name": "opencti-observable-field-remove",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "opencti-get-incidents",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "OpenCTI",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/open-cti"
+}

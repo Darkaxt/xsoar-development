@@ -1,0 +1,296 @@
+{
+  "aliases": [
+    "pcap-miner-v2"
+  ],
+  "arguments": [],
+  "description": "PcapMinerV2 | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "PcapMinerV2",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The number of bytes transmitted in the PCAP file. PCAPResults.Packets The number of packets transmitted in the PCAP file.",
+      "name": "PCAPResults.Bytes",
+      "required": ""
+    },
+    {
+      "description": "PCAPResults.EntryID The entryID of the PCAP file. PCAPResults.StreamCount",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "PCAPResults.StartTime The date and time of the first packet in the PCAP file. Date",
+      "name": "The number of streams in the PCAP file.",
+      "required": ""
+    },
+    {
+      "description": "The date and time of the last packet in the PCAP file. PCAPResults.UniqueSourceIP The number of unique IPs from which packets were transmitted.",
+      "name": "PCAPResults.EndTime",
+      "required": ""
+    },
+    {
+      "description": "PCAPResults.UniqueDestIP The number of unique IPs from to packets were transmitted. PCAPResultsFlow.Bytes",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsFlow.DestIP The destination IP of the flow. PCAPResultsFlow.SourceIP",
+      "name": "The number of bytes transmitted in the flow.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsFlow.Transport The transport protocol of the flow. PCAPResultsFlow.SourcePort",
+      "name": "The source IP of the flow.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsFlow.DestPort The destination port of the flow. PCAPResultsFlow.Duration",
+      "name": "The source port of the flow.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsFlow.EndTime The date/time the flow ended. Date",
+      "name": "The duration of the flow (in seconds).",
+      "required": ""
+    },
+    {
+      "description": "The date/time the flow started. Date PCAPResults.URL",
+      "name": "PCAPResultsFlow.StartTime",
+      "required": ""
+    },
+    {
+      "description": "PCAPResults.IP The IPs extracted from the file. PCAPResults.Email",
+      "name": "The URLs extracted from the file.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResults.Regex The regular expressions specified in `extract_regex` extracted from the file. PCAPResultsHTTP.ResponseStatusCode",
+      "name": "The emails extracted from the file.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsHTTP.RequestVersion The request version. PCAPResultsHTTP.RequestCacheControl",
+      "name": "The response code.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsHTTP.ResponseDate The date/time of the response. Date",
+      "name": "The cache control of the request.",
+      "required": ""
+    },
+    {
+      "description": "The request method. PCAPResultsHTTP.RequestSourceIP The source IP of the request.",
+      "name": "PCAPResultsHTTP.RequestMethod",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsHTTP.ResponseContentType The response content type. PCAPResultsHTTP.RequestAgent",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsHTTP.RequestHost The request host. PCAPResultsHTTP.ResponseVersion",
+      "name": "The request agent.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsHTTP.ID The ID of the HTTP interaction. PCAPResultsHTTP.EntryID",
+      "name": "The response version.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsHTTP.RequestURI The request URI. PCAPResultsHTTP.ResponseContentLength",
+      "name": "The PCAP entry ID.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsHTTP.ResponseCodeDesc The code description of the response. PCAPResultsDNS.ID",
+      "name": "The length of the response content.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsDNS.Request The DNS request. PCAPResultsDNS.Response",
+      "name": "The ID of the DNS request.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsDNS.Type The type of the DNS request. PCAPResultsDNS.ID",
+      "name": "The DNS response.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsDNS.EntryID The PCAP entry ID. PCAPResults.Protocols",
+      "name": "The DNS packet ID.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsSMTP.From The mail sender. PCAPResultsSMTP.To",
+      "name": "List of protocols found in the PCAP.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsSMTP.Subject The mail subject. PCAPResultsSMTP.MimeVersion",
+      "name": "The mail recipients.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsSMTP.ID The SMTP packet's ID. PCAPResultsSMTP.EntryID",
+      "name": "The mime version.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsKERBEROS.EntryID The PCAP entry ID. PCAPResultsKERBEROS.Realm",
+      "name": "The PCAP entry ID.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsKERBEROS.SName The KERBEROS SName. PCAPResultsKERBEROS.CName",
+      "name": "The KERBEROS realm.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsTelnet.Data The telnet data. PCAPResultsTelnet.Commands",
+      "name": "The KERBEROS CName.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsTelnet.EntryID The PCAP entry ID. PCAPResultsLLMNR.EntryID",
+      "name": "The telnet commands.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsLLMNR.QueryClass The LLMNR query class. PCAPResultsLLMNR.QueryName",
+      "name": "The PCAP entry ID.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsLLMNR.Questions The LLMNR questions. PCAPResultsLLMNR.ID",
+      "name": "The LLMNR query name.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsLLMNR.QueryType The LLMNR query type. PCAPResultsSYSLOG.EntryID",
+      "name": "The LLMNR packet ID.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsSYSLOG.ID The SYSLOGS packet ID. PCAPResultsSYSLOG.Message",
+      "name": "The PCAP entry ID.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsSYSLOG.Hostname The SYSLOGS host name. PCAPResultsSYSLOG.Timestamp",
+      "name": "The SYSLOGS message.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsSMB2.EntryID The PCAP entry ID. PCAPResultsSMB2.ID",
+      "name": "The SYSLOGS time stamp.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsSMB2.UserName The SMB2 user name. PCAPResultsSMB2.Domain",
+      "name": "The SMB2 packet ID.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsSMB2.HostName The SMB2 host name. PCAPResultsSMB2.Command",
+      "name": "The SMB2 domain.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsSMB2.FileName The SMB2 file name. PCAPResultsSMB2.Tree",
+      "name": "The SMB2 command.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsNETBIOS.EntryID The PCAP entry ID. PCAPResultsNETBIOS.ID",
+      "name": "The SMB2 tree.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsNETBIOS.Name The NETIOS name. PCAPResultsNETBIOS.Type",
+      "name": "The NETIOS packet ID.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsNETBIOS.Class The NETIOS class. PCAPResultsIRC.EntryID",
+      "name": "The NETIOS type.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsIRC.ID The IRC packet ID. PCAPResultsIRC.RequestCommand",
+      "name": "The PCAP entry ID.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsIRC.RequestTrailer The IRC request trailer. PCAPResultsIRC.RequestPrefix",
+      "name": "The IRC request command.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsIRC.RequestParameters The IRC request parameters. PCAPResultsIRC.ResponseCommand",
+      "name": "The IRC request prefix.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsIRC.ResponseTrailer The IRC response trailers. PCAPResultsIRC.ResponsePrefix",
+      "name": "The IRC response command.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsIRC.ResponseParameters The IRC response parameters. PCAPResultsFTP.EntryID",
+      "name": "The IRC response prefix.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsFTP.ID The FTP packet ID. PCAPResultsFTP.RequestCommand",
+      "name": "The PCAP entry ID.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsFTP.ResponseArgs The FTP response arguments. PCAPResultsFTP.ResponseCode",
+      "name": "The FTP request command.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsICMP ICMP data. PCAPResultsSSH.EntryID",
+      "name": "The FTP response code.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsSSH.ClientProtocols The SSH client protocols in the PCAP. PCAPResultsSSH.ServerProtocols",
+      "name": "The PCAP's entry ID.",
+      "required": ""
+    },
+    {
+      "description": "PCAPResultsSSH.KeyExchangeMessageCode The SSH key exchange message codes. Edit this page",
+      "name": "The SSH server protocols in the PCAP.",
+      "required": ""
+    },
+    {
+      "description": "Previous \u00ab PCAPMiner Next",
+      "name": "Report an Issue",
+      "required": ""
+    },
+    {
+      "description": "Script Data",
+      "name": "PCComputeContainerComplianceIssuesButton \u00bb",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "PcapMinerV2",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/pcap-miner-v2"
+}

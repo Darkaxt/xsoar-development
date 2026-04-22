@@ -1,0 +1,149 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The score of the IP Range CrowdSec.Info.ip The IP address",
+      "name": "CrowdSec.Info.ip_range_score",
+      "required": ""
+    },
+    {
+      "description": "The IP range CrowdSec.Info.as_name The AS name",
+      "name": "CrowdSec.Info.ip_range",
+      "required": ""
+    },
+    {
+      "description": "The AS number CrowdSec.Info.location.country The country of the IP",
+      "name": "CrowdSec.Info.as_num",
+      "required": ""
+    },
+    {
+      "description": "The city of the IP CrowdSec.Info.location.latitude The latitude of the IP",
+      "name": "CrowdSec.Info.location.city",
+      "required": ""
+    },
+    {
+      "description": "The longitude of the IP CrowdSec.Info.reverse_dns The reverse DNS of the IP",
+      "name": "CrowdSec.Info.location.longitude",
+      "required": ""
+    },
+    {
+      "description": "List of IP behaviors CrowdSec.Info.history.first_seen Date",
+      "name": "CrowdSec.Info.behaviors",
+      "required": ""
+    },
+    {
+      "description": "CrowdSec.Info.history.last_seen Date Date of the last time this IP was reported",
+      "name": "Date of the first time this IP was reported",
+      "required": ""
+    },
+    {
+      "description": "Delta in days between first seen and today CrowdSec.Info.history.days_age Delta in days between first and last seen timestamps",
+      "name": "CrowdSec.Info.history.full_age",
+      "required": ""
+    },
+    {
+      "description": "A list of categories associated with the IP. Those data can be sourced from 3rd parties (i.e. tor exit nodes list) CrowdSec.Info.classifications.false_positives A list of false positives tags associated with the IP. Any IP with false_positives tags shouldn't be considered as malicious",
+      "name": "CrowdSec.Info.classifications.classifications",
+      "required": ""
+    },
+    {
+      "description": "CrowdSec.Info.attack_details A more exhaustive list of the scenarios for which a given IP was reported CrowdSec.Info.target_countries",
+      "name": "CrowdSec.Info.classifications.classifications.description",
+      "required": ""
+    },
+    {
+      "description": "The top 10 reports repartition by country about the IP, as a percentage CrowdSec.Info.scores.overall.aggressiveness Overall aggressiveness score",
+      "name": "Object",
+      "required": ""
+    },
+    {
+      "description": "Overall threat score CrowdSec.Info.scores.overall.trust Overall trust score",
+      "name": "CrowdSec.Info.scores.overall.threat",
+      "required": ""
+    },
+    {
+      "description": "Overall anomaly score CrowdSec.Info.scores.overall.total Overall score",
+      "name": "CrowdSec.Info.scores.overall.anomaly",
+      "required": ""
+    },
+    {
+      "description": "Last day aggressiveness score CrowdSec.Info.scores.last_day.threat Last day threat score",
+      "name": "CrowdSec.Info.scores.last_day.aggressiveness",
+      "required": ""
+    },
+    {
+      "description": "Last day trust score CrowdSec.Info.scores.last_day.anomaly Last day anomaly score",
+      "name": "CrowdSec.Info.scores.last_day.trust",
+      "required": ""
+    },
+    {
+      "description": "Last day score CrowdSec.Info.scores.last_week.aggressiveness Last week aggressiveness score",
+      "name": "CrowdSec.Info.scores.last_day.total",
+      "required": ""
+    },
+    {
+      "description": "Last week threat score CrowdSec.Info.scores.last_week.trust Last week trust score",
+      "name": "CrowdSec.Info.scores.last_week.threat",
+      "required": ""
+    },
+    {
+      "description": "Last week anomaly score CrowdSec.Info.scores.last_week.total Last week score",
+      "name": "CrowdSec.Info.scores.last_week.anomaly",
+      "required": ""
+    },
+    {
+      "description": "Last month aggressiveness score CrowdSec.Info.scores.last_month.threat Last month threat score",
+      "name": "CrowdSec.Info.scores.last_month.aggressiveness",
+      "required": ""
+    },
+    {
+      "description": "Last month trust score CrowdSec.Info.scores.last_month.anomaly Last month anomaly score",
+      "name": "CrowdSec.Info.scores.last_month.trust",
+      "required": ""
+    },
+    {
+      "description": "Last month score IP.Address The IP Address",
+      "name": "CrowdSec.Info.scores.last_month.total",
+      "required": ""
+    },
+    {
+      "description": "The actual score. DBotScore.Vendor The vendor used to calculate the score.",
+      "name": "DBotScore.Score",
+      "required": ""
+    },
+    {
+      "description": "The indicator type. DBotScore.Indicator The indicator that was tested.",
+      "name": "DBotScore.Type",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab CriminalIP",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "CrowdStrike Falcon \u00bb Configure CrowdSec in Cortex Commands",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "ip",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CrowdSec",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/crowd-sec"
+}

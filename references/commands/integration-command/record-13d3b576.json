@@ -1,0 +1,102 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2021-08-11T06:09:34.000Z",
+  "examples": [
+    "Command Example\n#\n!xdr-xql-process-causality-network-activity-query endpoint_id=1234,2345 process_causality_id=<process_causality_id> limit=1 time_frame=\"1 month\"\nHuman Readable Output\n#\nGeneral Results\n#\nExecution Id",
+    "!xdr-xql-process-causality-network-activity-query endpoint_id=1234,2345 process_causality_id=<process_causality_id> limit=1 time_frame=\"1 month\"\nHuman Readable Output\n#\nGeneral Results\n#\nExecution Id\nNumber Of Results\nQuery"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The given name of the query. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.execution_id An integer representing a unique ID of a successful XQL query execution. The execution_id value can be passed to the xdr-xql-get-query-results command.",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.query_name",
+      "required": ""
+    },
+    {
+      "description": "String representing the status of the API call; SUCCESS, FAIL, or PENDING. For multi-tenant queries, PARTIAL_SUCCESS means that at least one tenant failed to execute the query. Only partial results are available. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.number_of_results",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.status",
+      "required": ""
+    },
+    {
+      "description": "Integer representing the number of results returned. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.query_cost Floating number representing the number of query units collected for this API. For example, {\"local_tenant_id\": 0.01}.",
+      "name": "Number",
+      "required": ""
+    },
+    {
+      "description": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.remaining_quota Floating number representing the number of query units available for you to use. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.agent_hostname",
+      "name": "For multi-tenant queries, the field displays a value per child tenant. For example, {\"tenant_id_1\": 0.01, \"tenant_id_2\": 2.3}.",
+      "required": ""
+    },
+    {
+      "description": "The agent host name. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.agent_ip_addresses The agent IP addresses.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "Endpoint ID. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.action_local_ip Local IP address.",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.agent_id",
+      "required": ""
+    },
+    {
+      "description": "Remote IP address. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.action_remote_port Remote port.",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.action_remote_ip",
+      "required": ""
+    },
+    {
+      "description": "External hostname. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.dns_query_name DNS query name.",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.dst_action_external_hostname",
+      "required": ""
+    },
+    {
+      "description": "List of application IDs action. Actual activities that took place and recorded by the agent. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.action_total_download Total downloads.",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.action_app_id_transitions",
+      "required": ""
+    },
+    {
+      "description": "Total uploads. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.action_country Action country.",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.action_total_upload",
+      "required": ""
+    },
+    {
+      "description": "The action as data. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.actor_process_image_sha256 The SHA256 value of the initiator.",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.action_as_data",
+      "required": ""
+    },
+    {
+      "description": "The name of the process that initiated the activity. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.actor_process_image_path Path of the initiating process.",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.actor_process_image_name",
+      "required": ""
+    },
+    {
+      "description": "Initiator signer. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.actor_process_signature_product Initiator product.",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.actor_process_signature_vendor",
+      "required": ""
+    },
+    {
+      "description": "Causality identifier (CID). PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.actor_process_image_command_line Image command line.",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.actor_causality_id",
+      "required": ""
+    },
+    {
+      "description": "Initiator instance ID. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results._vendor The result vendor.",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.actor_process_instance_id",
+      "required": ""
+    },
+    {
+      "description": "Result time. PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results.insert_timestamp Result insert timestamp.",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results._time",
+      "required": ""
+    },
+    {
+      "description": "The result product.",
+      "name": "PaloAltoNetworksXQL.ProcessCausalityNetworkActivity.results._product",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "XQL Query Engine",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/xql-query-engine"
+}

@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2. Get SSL certificate history for IP addresses or CIDR blocks",
+  "examples": [
+    "Command Example\n!circl-ssl-list-certificates queryValue=172.228.24.0/28\nContext Example\n{\n\"\nCertificate\n\"\n: [",
+    "!circl-ssl-list-certificates queryValue=172.228.24.0/28\nContext Example\n{\n\"\nCertificate\n\"\n: [\n{"
+  ],
+  "kind": "integration-command",
+  "name": "circl-ssl-list-certificates",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "IP address CIRCLssl.IPAddress.Certificate.SHA1 The SHA-1 fingerprint of the certificate",
+      "name": "CIRCLssl.IPAddress.Value",
+      "required": ""
+    },
+    {
+      "description": "Certificate subjects",
+      "name": "CIRCLssl.IPAddress.Certificate.Subjects",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CIRCL",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/circl"
+}

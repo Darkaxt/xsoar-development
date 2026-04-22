@@ -1,0 +1,72 @@
+{
+  "aliases": [
+    "service-now-troubleshoot"
+  ],
+  "arguments": [
+    {
+      "description": "",
+      "name": "None",
+      "required": ""
+    }
+  ],
+  "description": "ServiceNowTroubleshoot | Cortex XSOAR",
+  "examples": [],
+  "kind": "script",
+  "name": "ServiceNowTroubleshoot",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Instance Name Last Pull Time Number of Incidents Pulled",
+      "name": "Open Instances Health Information",
+      "required": ""
+    },
+    {
+      "description": "Total Open Incidents 30 days Query ServiceNow_v2_instance_1",
+      "name": "Open Incidents 30 days",
+      "required": ""
+    },
+    {
+      "description": "1 ServiceNow Incident INC001111, ServiceNow Incident INC002222 stateNOT IN6,7",
+      "name": "2025-01-28T12:29:45.140651734Z",
+      "required": ""
+    },
+    {
+      "description": "Closed instances with open incidents Instance Name Incidents",
+      "name": "3083",
+      "required": ""
+    },
+    {
+      "description": "ServiceNow_v2_instance_disabled ServiceNow Incident INC001111 1",
+      "name": "Total",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "Example",
+      "required": ""
+    },
+    {
+      "description": "Report an Issue Previous \u00ab ServiceNowQueryIncident",
+      "name": "Edit this page",
+      "required": ""
+    },
+    {
+      "description": "ServiceNowUpdateIncident \u00bb Script Data",
+      "name": "Next",
+      "required": ""
+    },
+    {
+      "description": "Docs Developer Docs Become a Technology Partner",
+      "name": "Example",
+      "required": ""
+    },
+    {
+      "description": "Blog Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Social",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "ServiceNowTroubleshoot",
+  "source_url": "https://xsoar.pan.dev/docs/reference/scripts/service-now-troubleshoot"
+}

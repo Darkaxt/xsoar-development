@@ -1,0 +1,77 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "ansible-tower-job-events-list-by-id",
+  "examples": [
+    "Command Example\n#\n!ansible-tower-job-events-list-by-id job_id=69\nContext Example\n#\n{\n\"AnsibleAWX\"\n:",
+    "!ansible-tower-job-events-list-by-id job_id=69\nContext Example\n#\n{\n\"AnsibleAWX\"\n:\n{\n\"JobEvents\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Database ID for this job event. AnsibleAWX.JobEvents.type Data type for this job event.",
+      "name": "AnsibleAWX.JobEvents.id",
+      "required": ""
+    },
+    {
+      "description": "URL for this job event. AnsibleAWX.JobEvents.created Date",
+      "name": "AnsibleAWX.JobEvents.url",
+      "required": ""
+    },
+    {
+      "description": "AnsibleAWX.JobEvents.modified Date Timestamp indicating when this job event was last modified.",
+      "name": "Timestamp indicating when this job event was created.",
+      "required": ""
+    },
+    {
+      "description": "Job ID. AnsibleAWX.JobEvents.event The specific event. For example, runner_on_failed (Host Failed), runner_on_start (Host Started), etc.",
+      "name": "AnsibleAWX.JobEvents.job",
+      "required": ""
+    },
+    {
+      "description": "Job event counter. AnsibleAWX.JobEvents.event_display Event display. For example, Playbook Started.",
+      "name": "AnsibleAWX.JobEvents.counter",
+      "required": ""
+    },
+    {
+      "description": "The event level. AnsibleAWX.JobEvents.failed Whether the job failed.",
+      "name": "AnsibleAWX.JobEvents.event_level",
+      "required": ""
+    },
+    {
+      "description": "Whether the job changed. AnsibleAWX.JobEvents.uuid UUID of the job event.",
+      "name": "AnsibleAWX.JobEvents.changed",
+      "required": ""
+    },
+    {
+      "description": "Parent UUID. AnsibleAWX.JobEvents.host Host ID associated with the event.",
+      "name": "AnsibleAWX.JobEvents.parent_uuid",
+      "required": ""
+    },
+    {
+      "description": "Host name associated with the event. AnsibleAWX.JobEvents.playbook Playbook name of this job.",
+      "name": "AnsibleAWX.JobEvents.host_name",
+      "required": ""
+    },
+    {
+      "description": "Task name. AnsibleAWX.JobEvents.stdout Standard output of the job.",
+      "name": "AnsibleAWX.JobEvents.task",
+      "required": ""
+    },
+    {
+      "description": "Starting line number of the execution. AnsibleAWX.JobEvents.end_line Ending line number of the execution.",
+      "name": "AnsibleAWX.JobEvents.start_line",
+      "required": ""
+    },
+    {
+      "description": "Job's raw event data.",
+      "name": "AnsibleAWX.JobEvents.event_data",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Ansible Automation Platform",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/ansible-tower"
+}

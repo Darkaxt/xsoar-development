@@ -1,0 +1,28 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "Command Example\n#\n!usta-scc-search card_number=133713371337 page=1 page_size=1\nContext Example\n#\n{\n\"USTA\"\n:",
+    "!usta-scc-search card_number=133713371337 page=1 page_size=1\nContext Example\n#\n{\n\"USTA\"\n:\n{\n\"StolenCreditCards\"",
+    "Command Example\nContext Example\nDocs\nDeveloper Docs\nBecome a Technology Partner\nSocial\nBlog\nCopyright \u00a9 2026 Palo Alto Networks, Inc."
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "The ticket ID of the alert USTA.StolenCreditCards.card_number The stolen credit card number",
+      "name": "USTA.StolenCreditCards.id",
+      "required": ""
+    },
+    {
+      "description": "The expiration date of the stolen credit card USTA.StolenCreditCards.created The creation date of the stolen credit card",
+      "name": "USTA.StolenCreditCards.expire",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "USTA Stolen Credit Cards",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/usta-stolen-credit-cards"
+}

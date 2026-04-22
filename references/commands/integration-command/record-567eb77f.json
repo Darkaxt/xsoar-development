@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "2025-06-18T14:18:59.111",
+  "examples": [
+    "Command Example\n#\n!topdesk-asset-update asset_id=\"4a5ef5e0-41fa-4a25-a5f4-8c4ea2780c69\" data=\"{\\\"edr-status\\\":\\\"Not OK\\\"}\"\nContext Example\n#\n{\n......\n}",
+    "!topdesk-asset-update asset_id=\"4a5ef5e0-41fa-4a25-a5f4-8c4ea2780c69\" data=\"{\\\"edr-status\\\":\\\"Not OK\\\"}\"\nContext Example\n#\n{\n......\n}\nHuman Readable Output\n#"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Dict Dictionary of all Asset Data specific to company",
+      "name": "TOPdesk.Asset",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "TOPdesk",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/to-pdesk"
+}

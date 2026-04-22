@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "kafka-fetch-partitions",
+  "examples": [
+    "Command Example\n#\n!kafka-fetch-partitions topic=test\nContext Example\n#\n{\n\"Kafka\": {\n\"Topic\": {",
+    "!kafka-fetch-partitions topic=test\nContext Example\n#\n{\n\"Kafka\": {\n\"Topic\": {\n\"Partition\": [\n0,"
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Name of topic. Kafka.Topic.Partition Prints all partitions for a topic.",
+      "name": "Kafka.Topic.Name",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Kafka v3",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/kafka-v3"
+}

@@ -1,0 +1,51 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the CLI, as part of an automation, or in a playbook.",
+  "examples": [
+    "!kms-get-events should_push_events=false\nContext Example\n#\n{\n\"KMSat\"\n:\n{\n\"Event\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Event ID. KMSat.Event.user.email The target mail for this event.",
+      "name": "KMSat.Event.id",
+      "required": ""
+    },
+    {
+      "description": "The ID of the user the event is targeted to. KMSat.Event.user.archived Whether the user is archived or not.",
+      "name": "KMSat.Event.user.id",
+      "required": ""
+    },
+    {
+      "description": "The event's external ID. KMSat.Event.source The source of the event.",
+      "name": "KMSat.Event.external_id",
+      "required": ""
+    },
+    {
+      "description": "The event description. KMSat.Event.occurred_date The date the event occurred.",
+      "name": "KMSat.Event.description",
+      "required": ""
+    },
+    {
+      "description": "The event's risk level. KMSat.Event.risk.factor The event's risk factor.",
+      "name": "KMSat.Event.risk.level",
+      "required": ""
+    },
+    {
+      "description": "The risk's decay mode. KMSat.Event.risk.expire_date The event's expiration date.",
+      "name": "KMSat.Event.risk.decay_mode",
+      "required": ""
+    },
+    {
+      "description": "The ID of the event type. KMSat.Event.event_type.name The name of the event type.",
+      "name": "KMSat.Event.event_type.id",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "KnowBe4 KMSAT Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/know-be4-kmsat-event-collector"
+}

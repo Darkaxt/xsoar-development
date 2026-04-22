@@ -1,0 +1,82 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "This command is deprecated.",
+  "examples": [
+    "Command Example\n!file file=9d0e761f3803889dc83c180901dc7b22 detailed=true\nContext Example\n{\n\"DBotScore\": {\n\"Indicator\": \"9d0e761f3803889dc83c180901dc7b22\",\n\"Score\": 3,\n\"Type\": \"file\",",
+    "!file file=9d0e761f3803889dc83c180901dc7b22 detailed=true\nContext Example\n{\n\"DBotScore\": {\n\"Indicator\": \"9d0e761f3803889dc83c180901dc7b22\",\n\"Score\": 3,\n\"Type\": \"file\",\n\"Vendor\": \"Recorded Future\""
+  ],
+  "kind": "integration-command",
+  "name": "file",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "File SHA-256 File.SHA512 File SHA-512",
+      "name": "File.SHA256",
+      "required": ""
+    },
+    {
+      "description": "File SHA-1 File.MD5 File MD5",
+      "name": "File.SHA1",
+      "required": ""
+    },
+    {
+      "description": "File CRC-32 File.CTPH File CTPH",
+      "name": "File.CRC32",
+      "required": ""
+    },
+    {
+      "description": "For malicious files, the vendor that made the decision File.Malicious.Description For malicious files, the reason that the vendor made the decision",
+      "name": "File.Malicious.Vendor",
+      "required": ""
+    },
+    {
+      "description": "The indicator that was tested DBotScore.Type Indicator type",
+      "name": "DBotScore.Indicator",
+      "required": ""
+    },
+    {
+      "description": "Vendor used to calculate the score DBotScore.Score The actual score",
+      "name": "DBotScore.Vendor",
+      "required": ""
+    },
+    {
+      "description": "Risk criticality label File.RecordedFuture.FirstSeen date",
+      "name": "File.Criticality",
+      "required": ""
+    },
+    {
+      "description": "File.RecordedFuture.LastSeen date Risk last seen timestamp",
+      "name": "Risk first seen timestamp",
+      "required": ""
+    },
+    {
+      "description": "Tags that are associated with the File. File.CommunityNotes.note A summary note on the mentioning of the file in a source monitored by Recorded Future.",
+      "name": "File.Tags",
+      "required": ""
+    },
+    {
+      "description": "date The timestamp in which the community note was created. File.Publications.source",
+      "name": "File.CommunityNotes.timestamp",
+      "required": ""
+    },
+    {
+      "description": "The publication's source. File.Publications.title The title of the published information.",
+      "name": "String",
+      "required": ""
+    },
+    {
+      "description": "A link to the published information. File.Publications.timestamp date",
+      "name": "File.Publications.link",
+      "required": ""
+    },
+    {
+      "description": "",
+      "name": "The timestamp in which the information was published.",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Recorded Future (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/recorded-future"
+}

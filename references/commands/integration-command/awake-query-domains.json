@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Protocols that the activity used",
+  "examples": [
+    "Command Example\n!awake-query-activities startTime=\"2018-07-01T00:00:00Z\" endTime=\"2018-08-01T00:00:00Z\" domainName=\"kck.st\"\nHuman Readable Output\n3. Query domains\nQuery domains in Awake Security\nBase Command\nawake-query-domains\nInput",
+    "!awake-query-activities startTime=\"2018-07-01T00:00:00Z\" endTime=\"2018-08-01T00:00:00Z\" domainName=\"kck.st\"\nHuman Readable Output\n3. Query domains\nQuery domains in Awake Security\nBase Command\nawake-query-domains\nInput\nArgument Name"
+  ],
+  "kind": "integration-command",
+  "name": "awake-query-domains",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "Domain name AwakeSecurity.Domains.created Date the specified domain was created",
+      "name": "AwakeSecurity.Domains.name",
+      "required": ""
+    },
+    {
+      "description": "Date the specified domain was last updated AwakeSecurity.Domains.registrantOrg Organization of the registrant",
+      "name": "AwakeSecurity.Domains.lastUpdated",
+      "required": ""
+    },
+    {
+      "description": "Country of the registrant AwakeSecurity.Domains.registrarName Name of the registrar",
+      "name": "AwakeSecurity.Domains.registrantCountry",
+      "required": ""
+    },
+    {
+      "description": "Address of the WHOIS server AwakeSecurity.Domains.whoisFound bool",
+      "name": "AwakeSecurity.Domains.whoisServer",
+      "required": ""
+    },
+    {
+      "description": "AwakeSecurity.Domains.deviceCount Number of devices currently interacting with the specified domain AwakeSecurity.Domains.totalDevices",
+      "name": "Was this domain found via WHOIS",
+      "required": ""
+    },
+    {
+      "description": "Total number of devices that have interacted with the specified domain AwakeSecurity.Domains.intelCount Number of matches of imported intel against the specified domain",
+      "name": "number",
+      "required": ""
+    },
+    {
+      "description": "Date of the most recent interaction with the specified domain AwakeSecurity.Domains.nameservers List of authoritative nameservers for the specified domain",
+      "name": "AwakeSecurity.Domains.lastSeen",
+      "required": ""
+    },
+    {
+      "description": "Notability score of the domain AwakeSecurity.Domains.whiteListed bool",
+      "name": "AwakeSecurity.Domains.notability",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Awake Security",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/awake-security"
+}

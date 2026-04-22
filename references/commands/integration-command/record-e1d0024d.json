@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "wsa-delete-access-policies",
+  "examples": [
+    "Command Example\n#\n!wsa-delete-access-policies policy_name=policy2\nContext Example\n#\n{\n\"wsa\"\n:",
+    "!wsa-delete-access-policies policy_name=policy2\nContext Example\n#\n{\n\"wsa\"\n:\n{\n\"response\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "whether the result indicates if request is success or failure",
+      "name": "wsa.response",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "CiscoWSA (Deprecated)",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/cisco-wsa"
+}

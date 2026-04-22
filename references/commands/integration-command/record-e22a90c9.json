@@ -1,0 +1,94 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "You can execute these commands from the Cortex XSOAR CLI, as part of an automation, or in a playbook.",
+  "examples": [],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [
+    {
+      "description": "\"data_len\": 1, \"data\": [ {",
+      "name": "\"message_type\": \"success\",",
+      "required": ""
+    },
+    {
+      "description": "\"ip_rep\": \"unknown\", \"dl_threat_class\": \"Potentially Bad Traffic\", \"ml_severity\": 2,",
+      "name": "\"tcp_port\": \"22.0\",",
+      "required": ""
+    },
+    {
+      "description": "\"geoip_region_name\": null, \"target_mac_address\": \"ff:ff:ff:ff:ff:ff\", \"geoip_postal_code\": null,",
+      "name": "\"attacker_mac\": \"ff:ff:ff:ff:ff:ff\",",
+      "required": ""
+    },
+    {
+      "description": "\"dl_severity\": 2, \"geoip_asn_number\": null, \"platform\": \"aws\",",
+      "name": "\"timezone\": \"UTC-0.0\",",
+      "required": ""
+    },
+    {
+      "description": "\"ids_threat_severity\": 2.0, \"geoip_country_name\": null, \"packet_id\": 464887,",
+      "name": "\"attack_os\": \"Linux 2.2.x-3.x\",",
+      "required": ""
+    },
+    {
+      "description": "\"geoip_location_properties\": null, \"udp_port\": \"nan\", \"geoip_longitude\": null,",
+      "name": "\"attacker_ip\": \"8.8.8.8\",",
+      "required": ""
+    },
+    {
+      "description": "\"service_name\": \"TCP\", \"geoip_latitude\": null, \"ids_threat_type\": \"ET SCAN Potential SSH Scan OUTBOUND\",",
+      "name": "\"geoip_location_string\": null,",
+      "required": ""
+    },
+    {
+      "description": "\"attack_epoch_time\": 1662120908000, \"type_of_threat\": \"Lateral Movement\", \"ml_threat_class\": \"Misc Attack\",",
+      "name": "\"ml_accuracy\": 82,",
+      "required": ""
+    },
+    {
+      "description": "\"@timestamp\": \"2022-09-02 12:18:26.22009012\", \"attack_timestamp\": \"2022-09-02 12:15:08\", \"target_ip\": \"8.8.8.8\",",
+      "name": "\"target_os\": \"Linux 2.2.x-3.x\",",
+      "required": ""
+    },
+    {
+      "description": "\"geoip_city\": null, \"geoip_region_code\": null, \"ids_threat_class\": \"Attempted Information Leak\",",
+      "name": "\"dl_accuracy\": 80,",
+      "required": ""
+    },
+    {
+      "description": "\"geoip_location_array\": null, \"geoip_country_code\": null, \"geoip_asn_name\": null",
+      "name": "\"icmp_port\": null,",
+      "required": ""
+    },
+    {
+      "description": "] Edit this page Report an Issue",
+      "name": "}",
+      "required": ""
+    },
+    {
+      "description": "\u00ab ZeroFox Key Incidents Next ZeroTrustAnalyticsPlatform \u00bb",
+      "name": "Previous",
+      "required": ""
+    },
+    {
+      "description": "Configure Zerohack XDR on Cortex XSOAR Commands zerohack-get-latest-incident",
+      "name": "Create API key on Zerohack XDR for Cortex XSOAR",
+      "required": ""
+    },
+    {
+      "description": "Developer Docs Become a Technology Partner Social",
+      "name": "Docs",
+      "required": ""
+    },
+    {
+      "description": "Copyright \u00a9 2026 Palo Alto Networks, Inc.",
+      "name": "Blog",
+      "required": ""
+    }
+  ],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Zerohack XDR",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/zerohack-xdr"
+}

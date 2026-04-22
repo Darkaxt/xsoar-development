@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "arguments": [],
+  "description": "Human Readable Output",
+  "examples": [
+    "!jira-oauth-test\nHuman Readable Output\n#\n\u2713 Authentication successful\njira-get-events\n#\nBase Command\n#",
+    "!jira-get-events max_fetch=2\nContext Example\n#\n{\n\"Jira\"\n:\n{\n\"Records\""
+  ],
+  "kind": "integration-command",
+  "name": "#",
+  "notes": [],
+  "outputs": [],
+  "retrieved_at": "2026-04-22T15:02:53+00:00",
+  "source_title": "Jira Event Collector",
+  "source_url": "https://xsoar.pan.dev/docs/reference/integrations/jira-event-collector"
+}
