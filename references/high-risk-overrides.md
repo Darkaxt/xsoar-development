@@ -37,6 +37,24 @@ shape, such as query, date window, pagination, list name, and dry-run state.
 Also log pagination stop reasons, malformed response handling, and summary
 counts.
 
+## Faithful Forks Before Redesign
+
+When a user asks for a derived XSOAR automation, treat the working reference
+automation as the behavioral contract before redesigning helpers or fallback
+logic.
+
+Preserve helper defaults, `demisto.executeCommand(...)` envelopes, fallback
+flow, output semantics, and integration routing unless the user explicitly asks
+for different behavior.
+
+Before changing logic in a broken draft automation, compare the working and
+draft command envelopes first. Check the exact command names and the concrete
+args sent to XSOAR, not only the surrounding Python logic.
+
+If a draft automation is meant to be a live fork of an existing one, a
+faithful fork is the default. A behavioral redesign is a separate decision, not
+an implicit cleanup step.
+
 ## Incident Search Date Windows
 
 For direct incident search command calls, prefer concrete ISO UTC timestamps.

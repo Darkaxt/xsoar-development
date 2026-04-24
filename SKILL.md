@@ -69,6 +69,10 @@ is required by XSOAR, the content pack format, or a private team overlay.
   `register_module_line('<Name>', 'start', __line__())`,
   `CONSTANT_PACK_VERSION = '<version>'`, pack/version `demisto.debug(...)`,
   and the module docstring that follows.
+- When a user asks for a derived or replacement XSOAR automation, treat the
+  working automation as the behavioral contract first. Preserve helper
+  defaults, command envelopes, fallback flow, and output semantics unless the
+  user explicitly asks for a redesign.
 - For direct `demisto.executeCommand("getIncidents", args)` calls, prefer
   concrete ISO UTC timestamps for date windows. Avoid passing relative strings
   such as `now`, `24 hours ago`, or `6 months ago` directly to native commands.
