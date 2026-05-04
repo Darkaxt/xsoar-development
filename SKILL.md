@@ -1,6 +1,10 @@
 ---
 name: xsoar-development
 description: Use when working with Cortex XSOAR or Demisto content, including scripts, automations, playbooks, dashboards, content packs, exported YAML, pack metadata, demisto.executeCommand calls, native command syntax, CommonServerPython, demistomock, incident fields, layouts, and XSOAR package structure. This skill prevents generic Python fixes that break XSOAR runtime and packaging behavior.
+license: MIT
+compatibility: Public Cortex XSOAR/Demisto content-development guidance. Requires an agent that supports Agent Skills; local private overlays are optional and must remain outside Git.
+metadata:
+  version: "0.1.0"
 ---
 
 # XSOAR Development

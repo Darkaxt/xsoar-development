@@ -6,6 +6,27 @@ The skill focuses on XSOAR artifact shape, command lookup, runtime import
 behavior, playbook and pack metadata conventions, and review guardrails that
 prevent generic Python cleanup from breaking XSOAR content.
 
+## Install from skills.sh
+
+This repository intentionally publishes one skill:
+
+- `xsoar-development`
+
+List the skill:
+
+```powershell
+npx skills add Darkaxt/xsoar-development --list
+```
+
+Install it:
+
+```powershell
+npx skills add Darkaxt/xsoar-development --skill xsoar-development
+```
+
+For public compatibility, prerequisites, and validation details, see
+[Publishing and installing from skills.sh](docs/skills-sh.md).
+
 ## What Is Included
 
 - A generic `SKILL.md` for XSOAR scripts, automations, playbooks, dashboards,
